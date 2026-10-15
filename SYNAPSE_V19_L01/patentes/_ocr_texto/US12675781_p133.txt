@@ -1,0 +1,135 @@
+learning system are utilized by the artificial intelligence 1o learning system are utilized by the artificial intelligence
+[col 1]
+US 12,675,781 B2
+15
+configured to execute simulations on the digital twin system;
+wherein the one or more models are utilized by the artificial
+intelligence system to make classifications, predictions, rec-
+ommendations, and/or to generate or facilitate decisions or
+instructions relating to the product and the part, such as
+decisions or instructions governing design, configuration,
+material selection, shape selection, manufacturing type, job
+scheduling and many others.
+In embodiments, the models trained by the machine
+system to execute simulations on the part twin for predicting
+part expansion or shrinkage, such as based on physical
+models of expansion or contraction for the materials simu-
+lated by the simulation.
+learning system are utilized by the artificial intelligence
+system to execute simulations on the part twin for predicting
+part warpage.
+In embodiments, the models trained by the machine
+learning system are utilized by the artificial intelligence 20
+system to execute simulations on the part twin for calculat-
+ing necessary changes to the additive manufacturing process
+to compensate for part shrinkage and warpage, such as
+material selection, shape selection, interface selection, heat
+management element selection or configuration, or the like. 25
+In embodiments, the models trained by the machine
+learning system and/or other AI system may undertake
+simulations and generate or facilitate decisions or instruc-
+tions based at least in part on anticipated conditions of use,
+such as based on geolocation of a customer, specification for 301
+indoor or outdoor use, a set of weather and/or climate
+models, or the like. For example, additive manufacturing of
+a part that has the same intended use may be configured to
+use different materials, structural elements, or other ele-
+ments based on whether the part is intended for use outdoors 35 1
+in a very cold climate, versus being used indoors or in a very
+hot environment. Thus, methods and systems are provided
+for point-of-usage aware, environment-of-usage aware, and
+customer type-of-usage aware automated configuration of
+manufacturing instructions for a part or product that 40
+involves automated manufacturing entities, such as additive
+manufacturing entities.
+In embodiments, the models trained by the machine
+learning system are utilized by the artificial intelligence
+ system to execute simulations on the part twin for testing the 45 e
+compatibility of 3D printed parts with other parts, with a
+system in which the parts will be used, with infrastructure
+elements of an environment of use, with ambient conditions
+of an environment, with available tools, and/or with a 3D
+printer or other additive or other manufacturing system that 50 f
+may be available to produce the part.
+In embodiments, the models trained by the machine
+learning system are utilized by the artificial intelligence
+system to execute simulations on the part twin for predicting
+deformations or failure in a 3D printed part. In embodi- 55
+ments, the models may also determine a set or sequence of
+process control parameter adjustments that will implement a
+corrective action, e.g., to adjust a layer dimension or thick-
+ness, so as to correct a defect. In embodiments, the system
+may send a warning or error signal to an operator or a user, 6o 
+or automatically abort the printing process.
+In embodiments, the artificial intelligence system includes
+or integrates with a machine vision system that uses a
+variable-focus, liquid lens-based camera for image capture
+and defect detection, In embodiments, the artificial intelli- 65
+gence system operates on images captured at variable focal
+lengths, with variable lighting settings, or the like, to facili-
+[col 2]
+16
+tate improved Al-based object recognition, boundary detec-
+tion, item classification, material recognition, or other fac-
+tors that are relevant to the design, manufacturing, or
+utilization of a part or other component. In embodiments,
+outputs from an integrated AI and variable focus lens system
+are integrated with or into a digital twin that represents a set of items, such as parts, that are captured by a system using
+the variable focus lens.
+In embodiments, the models trained by the machine
+system to execute simulations on the part twin for optimiz-
+ing the build process to minimize the occurrence of defor-
+mations.
+In embodiments, the models trained by the machine
+system to execute simulations on the product twin for
+predicting the cost and/or the price of the product or com-
+ponent thereof. Cost prediction may utilize inputs from
+marketplaces, outputs from search engines, cost models
+(such as enterprise procurement system models), costs pre-
+sented in smart contracts, costs presented on web sites, and
+other inputs, such as ones that relate to costs of additive
+manufacturing input materials, costs of additive manufac-
+turing processing time, or the like. Cost prediction may use
+inputs on process costs, including energy costs, labor costs,
+and the like. Price predictions may be based on similar
+inputs, such as public information from various sources that
+indicate current or historical market prices for a product.
+Cost or price predictions may take inputs from smart con-
+tracts, such as smart contract parameters that indicate current
+cost and price information offered in third party contracts for
+materials, parts, and the like.
+Aspects provided herein include an information technol-
+ogy system for a distributed manufacturing network com-
+prising: an additive manufacturing management platform
+with an artificial intelligence system configured to learn on
+a training set of outcomes, parameters, and data collected
+from a set of distributed manufacturing network entities and
+execute simulations on digital twins of the distributed manu-
+facturing network entities to make classifications,predic-
+tions, and optimization related decisions for the distributed
+manufacturing network entities; and a distributed ledger
+system integrated with a digital thread configured to provide
+unified views of workflow and transaction information to the
+entities in the distributed manufacturing network.
+In embodiments, the digital manufacturing network enti-
+ties include a set of printed parts, products, processes,
+additive manufacturing units like 3D printers, other types of
+manufacturing units, parties (e.g., suppliers, manufacturers,
+financiers, users, customers and others), packagers, infra-
+structure, vehicles, and manufacturing nodes.
+In embodiments, the artificial intelligence system
+executes simulations on one or more of the part twins, the
+product twins and the printer twins for generating 3D
+printing quotes. In embodiments a set of additive manufac-
+turing quotes may be embodied in a smart contract, option-
+ally linked to a blockchain, such that additive manufacturing
+operations may be contracted for via the smart contract.
+In embodiments, the artificial intelligence system
+executes simulations on one or more of the part twins, the
+product twins, the printer twins or other twins for generating
+a set of recommendations related to printing or other addi-
+tivemanufacturingtoauseroftheplatform,Recommenda-
+tions may include recommendations for type of material,
+type of printer or other additive manufacturing facility, type
+of technique, service provider or source of manufacturing.
+location of manufacturing, timing of scheduling of an addi-

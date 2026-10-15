@@ -1,0 +1,132 @@
+[col 1]
+US 2022/0044204 A1
+76
+may include a digital twin of a container and one or more
+digital twins of one or more respective goods enclosed
+within the container. Taking this example one step further,
+one or more digital twins of the packages may be contained
+in a digital twin of a vehicle traversing a digital twin of a
+road or may be positioned on a digital twin of a shelf within
+a digital twin of a warehouse, which would include digital
+twins of other physical assets and devices.
+[0628] In embodiments, the digital representation for a
+digital twin may include a set of data structures (e.g., classes
+of objects) that collectively define a set of properties,
+attributes, and/or parameters of a represented physical asset,
+device, or environment, possible behaviors or activities
+thereof and/or possible states or conditions thereof, among
+other things. For example, a set of properties of a physical
+asset may include a type of the physical asset, the shape
+and/or dimensions of the asset, the mass of the asset, the
+density of the asset, the material(s) of the asset, the physical
+properties of the material(s), the chemical properties of the
+asset, the expected lifetime of the asset, the surface of the
+physical asset, a price of the physical asset, the status of the
+physical asset, a location of the physical asset, and/or other
+properties, as well as identifiers of other digital fwins
+contained within or linked to the digital twin and/or other
+relevant data sources that may be used to populate the digital
+described herein or external data sources, such as environ-
+mental data sources that may impact properties represented
+in the digital twin (e.g., where ambient air pressure or
+temperature affects the physical dimensions of an asset that
+inflates or deflates). Examples of a behavior of a physical
+asset may include a state ofmatter of the physical asset (e.g..
+a solid, liquid, plasma or gas), a melting point of the physical
+asset, a density of the physical asset when in a liquid state,
+a viscosity of the physical asset when in a liquid state, a
+freezing point of the physical asset, a density of the physical
+asset when in a solid state, a hardness of the physical asset
+when in a solid state, the malleability of the physical asset,
+the buoyancy of the physical asset, the conductivity of the
+physical asset, electromagnetic properties of the physical
+asset, radiation properties, optical properties (e.g., reflectiv-
+ity, transparency, opacity, albedo, and the like), wave inter-
+action properties (e.g., transparency or opacity to radio
+waves, reflection properties, shielding properties, or the
+like), a burning point of the physical asset, the manner by
+which humidity affects the physical asset, the manner by
+which water or other liquids affect the physical asset, and the
+like. In another example, the set of properties of a device
+may include a type of the device, the dimensions of the
+device, the mass of the device, the density of the density of
+the device, the material(s) of the device, the physical prop-
+erties of the material(s), the surface of the device, the output
+of the device, the status of the device, a location of the
+device, a trajectory of the device, identifiers of other digital
+twins that the device is connected to and/or contains, and the
+like. Examples of the behaviors of a device may include a
+maximum acceleration of a device, a maximum speed of a
+device, possible motions of a device, possible configurations
+of the device, operating modes of the device, a heating
+profile of a device, a cooling profile of a device, processes
+that are performed by the device, operations that are per-
+formed by the device, and the like. Example properties of an
+environment may include the dimensions of the environ-
+ment, environmental air pressure, the temperature of the
+[col 2]
+Feb.10,2022
+environment, thehumidity oftheenvironment,the airflow of
+the environment, the physical objects in the environment,
+currents of the environment (if a body of water), and the like.
+Examples of behaviors of an environment may include
+scientific laws that govern the environment, processes that
+are performed in the environment, rules or regulations that
+must be adhered to in the environment, and the like.
+[0629] In embodiments, the properties of a digital twin
+may be adjusted. For example, the temperature of a digital
+twin, a humidity ofa digital twin, the shape of a digital twin,
+the material of a digital twin, the dimensions of a digital
+twin, or any other suitable parameters may be adjusted to
+conform to current status data and/or to a predicted status of
+a corresponding entity.
+[0630]  In embodiments, a digital twin may be rendered by
+a computing device, such that a human user can view a
+digital representation of a set of physical assets, devices, or
+other entities, and/or an environment thereof. For example,
+the digital twin may be rendered and provided as an output,
+or may provide an output, to a display device. In some
+embodiments, the digital twin may be rendered and output
+in an augmented reality and/or virtual reality display. For
+example, a user may view a 3D rendering of an environment
+(e.g., using monitor or a virtual reality headset). While doing
+so, the user may inspect digital twins of physical assets or
+devices in the environment. In embodiments, a user may
+view processes being performed with respect to one or more
+digital twins (e.g., inventorying, loading, packing, shipping,
+and the like). In embodiments, a user may provide input that
+controls one or more properties of a digital twin via a
+graphical user interface.
+[0631] In some embodiments, the adaptive intelligent sys-
+tems layer 614 is configured to execute simulations using the
+digital twin. For example, the adaptive intelligent systems
+layer 614 may iteratively adjust one or more parameters of
+a digital twin and/or one or more embedded digital twins. In
+embodiments, the adaptive intelligent systems layer 614
+may, for each set of parameters, execute a simulation based
+on the set of parameters and may collect the simulation
+outcome data resulting from the simulation. Put another
+way, the adaptive intelligent systems layer 614 may collect
+the properties of the digital twin and the digital twins within
+or containing the digital twin used during the simulation as
+well as any outcomes stemming from the simulation. For
+example, in running a simulation on a digital twin of a
+shipping container, the adaptive intelligent systems layer
+614 can vary the materials of the shipping container and can
+execute simulations that outcomes resulting from different
+combinations. In this example, an outcome can be whether
+the goods contained in the shipping container arrive to a
+destination undamaged. During the simulation, the adaptive
+intelligent systems layer 614 may vary the external tem-
+peratures of the container (e.g., a temperature property ofthe
+digital twin of an environment of the container may be
+adjusted between simulations or during a simulation), the
+dimensions of the container, the products inside (represented
+by digital twins of the products) the container, the motion of
+the container, the humidity inside the container, and/or any
+other properties of the container, the environment, and/or the
+contents in the container. For each simulation instance, the
+adaptive intelligent systems layer 614 may record the
+parameters used to perform the simulation instance and the
+outcome of the simulation instance.In embodiments, each
+digital twin may include, reference, or be linked to a set of

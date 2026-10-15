@@ -1,0 +1,135 @@
+tems, processes, procedures, protocols, algorithms, and 3o one or more knowledge graphs (such as a directed acyclic
+Referring to FIG. 12, additional details, components, 65 a serial or other records of an entities 652 over time,
+[col 1]
+US 12,675,781 B2
+51
+reference, a wide variety of adaptations may be provided on
+behalf of the various services and capabilities across the
+various layers 624, including ones based on application
+requirements, quality of service, on-time delivery, service
+objectives, budgets, costs, pricing, risk factors, operational
+objectives, efficiency objectives, optimization parameters,
+returns on investment, profitability, uptime/downtime,
+worker utilization, and many others.
+The value chain management platform 604, referred to in
+some cases herein for convenience as the platform layer 604, 10
+may include, integrate with, and enable the various value
+chain network processes, workflows, activities, events and
+applications 630 described throughout this disclosure that
+enable an operator to manage more than one aspect of a
+value chain network environment or entity 652 in a common
+15 application environment (e.g-, shared, pooled, similarly
+licenses whether shared data for one person, multiple
+people, or anonymized), such as one that takes advantage of
+common data storage in the data storage layer 624, common
+data collection or monitoring in the monitoring systems 20
+layer 614 and/or common adaptive intelligence of the adap-
+tive intelligence layer 614. Outputs from the applications
+630 in the platform layer 604 may be provided to the other
+data handing layers 624. These may include, without limi-
+tation, state and status information for various objects, 25
+entities, processes, flows and the like; object information,
+such as identity, attribute and parameter information for
+various classes of objects of various data types; event and
+change information, such as for workflows, dynamic sys-
+other flows, including timing information; outcome infor-
+mation, such as indications of success and failure, indica-
+tions of process or milestone completion, indications of
+correct or incorrect predictions, indications of correct or
+incorrect labeling or classification, and success metrics 35
+(including relating to yield, engagement, return on invest-
+ment, profitability, efficiency, timeliness, quality of service,
+quality of product, customer satisfaction, and others) among
+others. Outputs from each application 630 can be stored in
+the data storage layer 624, distributed for processing by the 40
+data collection layer 614, and used by the adaptive intelli-
+gence layer 614. The cross-application nature of the plat-
+form layer 604 thus facilitates convenient organization of all
+of the necessary infrastructure elements for adding intelli-
+gence to any given application, such as by supplying 45
+machine learning on outcomes across applications, provid-
+ing enrichment of automation of a given application via
+machine learning based on outcomes from other applications
+or other elements of the platform 604, and allowing appli-
+cation developers to focus on application-native processes 50
+while benefiting from other capabilities of the platform 604.
+In examples, there may be systems, components, services
+and other capabilities that optimize control, automation, or
+one or more performance characteristics of one or more
+value chain network entities 652; or ones that may generally 55
+comes 1040 pursued by use of the platform 604. In some
+examples, outputs and outcomes 1040 from various appli-
+cations 630 may be used to facilitate automated learning and
+improvement of classification, prediction, or the like that is 60
+automated.
+Some Data Storage Layer DetailsAlternative Data Archi-
+tectures
+sub-systems, and other elements of an optional embodiment
+of the data storage layer 624 of the platform 604 are
+[col 2]
+52
+illustrated. Various data architectures may be used, including
+conventional relational and object-oriented data architec-
+tures, blockchain architectures 1180, asset tag data storage
+architectures 1178, local storage architectures 1190, network
+storage architectures 1174, multi-tenant architectures 1132,
+distributed data architectures 1002, value chain network
+(VCN) data object architectures 1004, cluster-based archi-
+tectures 1128, event data-based architectures 1034, state
+data-based architectures 1140, graph database architectures
+1124, self-organizing architectures 1134, and other data
+architectures 1002.
+The adaptive intelligent systems layer 614 of the platform
+604 may include one or more protocol adaptors 1110 for
+facilitating data storage, retrieval access, query manage-
+ment, loading, extraction, normalization, and/or transforma-
+tion to enable use of the various other data storage archi-
+tectures 1002, such as allowing extraction from one form of
+database and loading to a data system that uses a different
+protocol or data structure.
+In embodiments, the value chain network-oriented data
+storage systems layer 624 may include, without limitation,
+physical storage systems, virtual storage systems, local
+storage systems (e.g-, part of the local storage architectures
+1190), distributed storage systems, databases, memory, net-
+work-based storage, network-attached storage systems (e.g.,
+part of the network storage architectures 1174 such as using
+NVME, storage attached networks, and other network stor-
+age systems), and many others.
+In embodiments, the storage layer 624may store data in
+graph, a data map, a data hierarchy, a data cluster including
+links and nodes, a self-organizing map, or the like) in the
+graph database architectures 1124. In example embodi-
+ments, the knowledge graph may be a prevalent example of
+when a graph database and graph database architecture may
+be used. In some examples, the knowledge graph may be
+used to graph a workflow. For a linear workflow, a directed
+acyclic graph may be used. For a contingent workflow, a
+cyclic graph may be used. The graph database (e.g., graph
+database architectures 1124) may include the knowledge
+graph or the knowledge graph may be an example of the
+graph database. In example embodiments, the knowledge
+graph may include ontology and connections (e.g., relation-
+ships) between the ontology of the knowledge graph. In an
+example, the knowledge graph may be used to capture an
+articulation of knowledge domains of a human expert such
+that there may be an identification of opportunities to design
+and build robotic process automation or other intelligence
+that may replicate this knowledge set. The platform may be
+used to recognize that a type of expert is using this factual
+knowledge base (from the knowledge graph) coupled with
+competencies that may be replicable by artificial intelligence
+that may be different depending on type of expertise
+involved. For example, artificial intelligence such as a
+convolutional neural network may be used with spatiotem-
+poral aspects that may be used to diagnose issues or packing
+up a box in a warehouse. Whereas the platform may use a
+different type of knowledge graph for a self-organizing map
+of an expert whose main job is to segment customers into
+customer segmentation groups. In some examples, the
+knowledge graph may be built from various data such as job
+credentials, job listings, parsing output deliverables. In
+embodiments, the data storage layer 624 may store data in
+a digital thread, ledger, or the like, such as for maintaining
+including any of the entities described herein. In embodi-
+ments, the data storage layer 624 may use and enable an

@@ -1,0 +1,129 @@
+[col 1]
+US2022/0058569A1
+68
+[0548] In some embodiments, the machine learning model
+3000 may include and/or impiement an embedded model
+interpretability system, such as a Bayesian case model
+(BCM) or glass box. The Bayesian case model uses Bayes-
+ian case-based reasoning, prototype classification, and clus-
+tering to facilitate human understanding of data such as the
+sensor data, the simulation data, and data nodes of the
+machine learning model 3000. In some embodiments, the
+model interpretability system may include and/or implement
+a glass box interpretability method, such as a Gaussian
+process, to facilitate human understanding of data such as
+the sensor data, the simulation data, and data nodes of the
+machine learning model 3000.
+[0549] In some embodiments, the machine learning model
+3000 may include and/or implement testing with concept
+activation vectors (TCAV). The TCAV allows the machine
+learning model 3000 to learn human-interpretable concepts,
+by a process including defining the concept, determining
+concept activation vectors, and calculating directional
+derivatives. By learning human-interpretable concepts,
+objects, states, etc., TCAV may allow the machine learning
+model 3000 to output useful information related to the value
+chain entities 652 and data collected therefrom in a format
+that is readily understood by a human user of the information
+technology system.
+[0550] In some embodiments, the machine learning model
+3000 may be and/or include an artificial neural network, e.g.
+a connectionist system configured to "learn" to perform
+tasks by considering examples and without being explicitly
+programmed with task-specific rules. The machine learning
+model 3000 may be based on a collection of connected units
+and/or nodes that may act like artificial neurons that may in
+some ways emulate neurons in a biological brain. The units
+and/or nodes may each have one or more connections to
+other units and/or nodes. The units and/or nodes may be
+configured to transmit information, e.g. one or more signals,
+to other units and/or nodes, process signals received from
+other units and/or nodes, and forward processed signals to
+other units and/or nodes. One or more of the units and/or
+nodes and connections therebetween may have one or more
+numerical "weights" assigned. The assigned weights may be
+configured to facilitate learning, i.e. training, of the machine
+learning model 3000. The weights assigned weights may
+increase and/or decrease one or more signals between one or
+more units and/or nodes, and in some embodiments may
+have one or more thresholds associated with one or more of
+the weights. The one or more thresholds may be configured
+such that a signal is only sent between one or more units
+and/or nodes, if a signal and/or aggregate signal crosses the
+threshold. In some embodiments, the units and/or nodes may
+be assigned to a plurality oflayers, each of the layers having
+one or both of inputs and outputs. A first layer may be
+configured to receive training data, transform at least a
+portion of the training data, and transmit signals related to
+the training data and transformation thereof to a second
+layer. A final layer may be configured to output an estimate,
+conclusion, product, or other consequence of processing of
+one or more inputs by the machine learning model 3000.
+transformations, and one or more signals may pass through
+one or more of the layers one or more times. In some
+embodiments, the machine learning model 3000 may
+[col 2]
+Feb.24,2022
+employ deep learning and being at least partially modeled
+and/or configured as a deep neural network, a deep belief
+network, a recurrent neural network, and/or a convolutional
+neural network, such as by being configured to include one
+or more hidden layers.
+[0551]  In some embodiments, the machine learning model
+3000 may be and/or include a decision tree, e.g. a tree-based
+predictive model configured to identify one or more obser-
+vations and determine one or more conclusions based on an
+input. The observations may be modeled as one or more
+"branches" of the decision tree, and the conclusions may be
+modeled as one or more "leaves" of the decision tree. In
+some embodiments, the decision tree may be a classification
+tree. the classification tree may include one or more leaves
+representing one or more class labels, and one or more
+branches representing one or more conjunctions of features
+configured to lead to the class labels. In some embodiments,
+the decision tree may be a regression tree. The regression
+tree may be configured such that one or more target variables
+may take continuous values.
+[0552]In some embodiments, the machine learning model
+3000 may be and/or include a support vector machine, e.g.
+a set of related supervised learning methods configured for
+use in one or both of classification and regression-based
+modeling of data. The support vector machine may be
+configured to predict whether a new example falls into one
+or more categories, the one or more categories being con-
+figured during training of the support vector machine.
+[0553] In some embodiments, the machine learning model
+3000 may be configured to perform regression analysis to
+determine and/or estimate a relationship between one or
+more inputs and one or more features of the one or more
+inputs. Regression analysis may include linear regression,
+wherein the machine learning model 3000 may calculate a
+single line to best fit input data according to one or more
+mathematical criteria.
+[0554] In embodiments, inputs to the machine learning
+model 3000 (such as a regression model, Bayesian network,
+supervised model, or other type of model) may be tested,
+such as by using a set of testing data that is independent from
+the data set used for the creation and/or training of the
+machine learning model, such as to test the impact of various
+inputs to the accuracy of the model 3000. For example,
+inputs to the regression model may be removed, including
+single inputs, pairs of inputs, triplets, and the like, to
+determine whether the absence of inputs creates a material
+degradation of the success of the model 3000. This may
+assist with recognition of inputs that are in fact correlated
+(e.g-, are linear combinations of the same underlying data),
+that are overlapping, or the like. Comparison of model
+that provide similar information, such as to identify the
+inputs (among several similar ones) that generate the least
+"noise" in the model, that provide the most impact on model
+effectiveness for the lowest cost, or the like. Thus, input
+variation and testing of the impact of input variation on
+model effectiveness may be used to prune or enhance model
+performance for any of the machine learning systems
+described throughout this disclosure.
+[0555]In some embodiments, the machine learning model
+3000 may be and/or include a Bayesian network.The
+Bayesian network may be a probabilistic graphical model
+configured to represent a set of random variables and
+conditional independence of the set of random variables.

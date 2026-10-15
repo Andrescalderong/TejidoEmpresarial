@@ -1,0 +1,31 @@
+[col 1]
+U.S. Patent Mar. 3, 2026
+20740 20780
+Edge Storage Edge Storage
+201228 20122A
+Distributed Join with No Network Overhead
+.172B
+Edge Device Edge Device
+20120B 20120A
+FIG.
+=10 WHERE
+ edge.devices
+events.event...details...id
+NO / 20742
+INNER JOIN events
+edgemdevices.id
+Query 
+FROM
+[col 2]
+US 12,567,082 B2 Sheet 158 of 158
+Edge Storage Edge Storage
+20122A 201228
+Distributed Join with Distributed Tables
+FIG. 172C
+Edge Device Edge Device
+20120A 20120B
+u.account..id - e.account..id
+INNER JOIN event's e ON
+* FROM users
+Query  WHERE user..id
+SELECT

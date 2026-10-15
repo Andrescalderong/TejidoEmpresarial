@@ -1,0 +1,136 @@
+task ordering in a workflow of robot tasks. A job workflow 5o job request with robot capabilities when identifying the type
+[col 1]
+US 12,675,781 B2
+the set of tasks and stores the data structure in a library of
+robot tasks that is indexed by information indicative of the
+job request and an identifier of at least one of the robot type
+and the robot operating unit. In other features, the task
+definition system matches requirements for constraints iden-
+tified in the job request with robot capabilities when iden-
+tifying the type of robot for meeting the task objective. In
+other features, the task definition system generates a plural-
+ity of robot tasks for a plurality of different robot types to
+achieve a task objective. 10
+In other features, the task definition system queries a
+library of robot tasks for candidate robot tasks that satisfy
+the task objective and interacts with the fleet configuration
+proxy service to select a robot tasks from the candidate robot
+tasks based on the at least one fleet objective. In other 15
+features, the at least one fleet objective is compatibility with
+available robot operating units. In other features, the task
+definition system queries a library of robot tasks for candi-
+date robot tasks that satisfy the task objective and interacts
+with the fleet intelligence layer to select a robot task from the 20
+candidate robot tasks based on a suitability of the candidate
+robot tasks for achieving the task objective. In other fea-
+tures, the task definition system references information
+descriptive of sensor detection packages that indicate pre-
+ferred sequences of sensing tasks when defining the set of 25
+tasks. In other features, the job workflow system references
+information descriptive of sensor detection packages that
+indicate preferred sequences of sensing tasks when defining
+the workflow of robot tasks. In other features, the job
+workflow system generates the workflow of robot tasks 3o t
+based on second task dependency on a first task for meeting
+an objective of the second task. In other features, the job
+workflow simulation system operates digital twins of tasks
+in the set of tasks for determining an optimized workflow
+order of tasks.
+A robot fleet management platform for configuring robot
+fleet resources includes a set of one or more processors that
+execute a set of computer-readable instructions. The set of
+one or more processors collectively execute a job configu-
+ration systemthat receives a job request and determinesa set 40
+of robot tasks to be performed by a robot fleet based on job
+content associated with the job request and at least one fleet
+objective in a set of fleet objectives. A fleet configuration
+proxy service applies fleet configuration services to the set
+of robot tasks and the job content to produce a fleet resource 45
+configuration data structure for the job request. A fleet
+intelligence layer activates a set of intelligence services to
+produce at least one recommended robot task and associated
+contextual information that facilitates robot selection and
+system generates a workflow that defines an order of per-
+formance of the robot tasks based on the fleet resource
+configuration data structure and the set of robot tasks. A
+workflow simulation system is configured to simulate per-
+formance of the job based on the workflow and a job 55
+execution simulation environment to produce a simulation
+result that is used to recursively redefine one or more of the
+set of tasks, the fleet resource configuration data structure, or
+the workflow until the simulation result satisfies a second
+fleet objective of the set of fleet objectives corresponding to 60
+the job request. A job execution plan generator, in response
+to the simulation result satisfying the set of fleet objectives,
+generates a job execution plan based on the set of tasks, the
+fleet resource configuration data structure, and the workflow.
+In other features, the job configuration system includes a 65
+job parsing system that applies content and structural filters
+to job content received in association with a job request to
+[col 2]
+identify portions thereof suitable for robot automation. In
+other features, the job configuration system includes a task
+definition system that establishes a set of robot tasks that
+each define at least a type of robot and a task objective, the
+set of robot tasks are based at least in part on the portions of
+the job request that are suitable for robot automation and
+meet a first fleet objective of the set of fleet objectives. In
+other features, the fleet resource configuration data structure
+defines a set of task associations and a set of robot adaptation
+instructions. Each task association associates at least one
+robot operating unit to a respective robot task of the set of
+robot tasks and the set of robot adaptation instructions define
+a manner by which one or more robot operating units of a
+robot fleet are to be adapted to perform respective tasks to
+which the robots are assigned. In other features, the work-
+flow simulation system applies the workflow in the job
+execution simulation environment that includes digital mod-
+els of the robot operating units assigned to the robot fleet and
+digital models of the task definitions to produce the simu-
+lation result. In other features, the job configuration system
+interacts with the intelligence layer to suggest alternate tasks
+that meet a second fleet objective. In other features, the job
+configuration system interacts with the intelligence layer to
+optimize at least one of a robot type and a task objective
+based on at least one of the set of fleet objectives. In other
+features, the first fleet objective includes fleet resource
+utilization criteria.
+In other features, the job configuration system receives
+from the fleet configuration proxy service a particular robot
+type for use when performing the robot task. In other
+features, the job configuration system configures the set of
+robot tasks based on the particular robot type provided by
+the fleet configuration proxy service. In other features, the
+job configuration system generates a data structure for each
+35 task in the set of tasks that includes a reference to a digital
+twin for at least one of the task and at least one robot
+operating unit for performing the tasks for use by the
+workflow simulation system. In other features, the job
+configuration system generates a data structure for each task
+in the set of tasks that identifies at least one a type of robot
+and a robot operating unit for performing the task and a
+configuration data structure for configuring a robot for
+performing the task. In other features, the job configuration
+system generates a data structure for each task in the set of
+tasks and stores the data structure in a library of robot tasks
+that is indexed by information indicative of the job request
+and an identifier of at least one of the robot type and the
+robot operating unit. In other features, the job configuration
+system matches requirements for constraints identified in the
+of robot for meeting the task objective. In other features, the
+job configuration system generates a plurality of robot tasks
+for a plurality of different robot types to achieve a task
+objective. In other features, the job configuration system
+queries a library of robot tasks for candidate robot tasks that
+satisfy the task objective and interacts with the fleet con-
+figuration proxy service to select a robot tasks from the
+candidate robot tasks based on the at least one fleet objec-
+tive.
+In other features, the at least one fleet objective is com-
+patibility with available robot operating units. In other
+features, the job configuration system queries a library of
+robot tasks for candidate robot tasks that satisfy the task
+objective and interacts with the fleet intelligence layer to
+select a robot task from the candidate robot tasks based on
+a suitability of the candidate robot tasks for achieving the
+task objective. In other features, the job configuration sys-

@@ -1,0 +1,131 @@
+[col 1]
+US2022/0036274A1
+93
+exceeded.A more complex model may train a classifier to
+compare the value of one or more condition indicators to
+values associated with fault states and returns the probability
+of presence of one or more fault states.
+[0797] Remaining Useful Life (RUL) Prediction models
+5324 are used for predicting future failures and may include
+degradation models 5326, survival models 5328 and simi-
+larity models 5330. An example RUL prediction model may
+fit the time evolution of a condition indicator and predicts
+how long it will be before the condition indicator crosses
+some threshold value indicative of a failure. Another model
+may compare the timeevolution ofthecondition indicatorto
+measured or simulated time series from similar systems that
+ran to failure.
+[0798]In embodiments, a combination of one or more of
+these models may be selected by the machine twin 1770.
+[0799] Artificial Intelligence system 1160 may include
+machine learning processes 5340, clustering processes 5342,
+analytics processes 5344 and natural language processes
+5348. Machine learning processes 5340 work with machine
+twin 1770 to train one or more models as identified above.
+An example of such machine learned model is the RUL
+prediction model 5324. The model 5324 may be trained
+using training dataset pmvc 230 from the Data Storage
+Systems 624. The performance of the model 5324 and
+classifier may then be tested using testing dataset 5350.
+[0800]  Clustering processes 5342 may be implemented to
+identify the failure pattern hidden in the failure data to train
+a model for detecting uncharacteristic or anomalous behav-
+ior. The failure data across multiple machines and their
+historical records may be clustered to understand how
+different patterns correlate to certain wear-down behavior.
+Analytics processes 5344 perform data analytics on various
+data to identify insights and predict outcomes. Natural
+language processes 4348 co0rdinate with machine twin 1770
+to communicate the outcomes and results to the user of
+machine twin 1770.
+[0801]The outcomes 5360 may be in theform of model-
+ing results 5362, alerts and warnings 5364 or remaining
+useful life (RUL) predictions 5368. Machine twin 1770 may
+communicate with a user via multiple communication chan-
+nels such as speech, text, gestures to convey outcomes 5360.
+[0802] In embodiments, models may then be updated or
+reinforced based on the model outcomes 5360. For example,
+the artificial intelligence system may receive a set of cir-
+cumstances that led to a prediction of failure and the
+outcome and may update the model based on the feedback.
+[0803]In embodiments, the platform may include a sys-
+tem for learning on a training set of ship maintenance
+outcomes, parameters, and data collected from data sources
+relating to a set of ship activities to train an artificial
+intelligence/machine learning system to perform predictive
+[0804]In embodiments, the platform may include a sys-
+tem for learning on a training set of barge maintenance
+outcomes, parameters, and data collected from data sources
+relating to a set of barge activities to train an artificial
+intelligence/machine learning system to perform predictive
+maintenance on a barge using a digital twin of the barge.
+[0805]  In embodiments, the platform may include a sys-
+tem for learning on a training set of port maintenance
+outcomes, parameters, and data collected from data sources
+relating to a set of port activities to train an artificial
+intelligence/machine learning system to perform predictive
+[col 2]
+Feb.3, 2022
+twin of the port infrastructure facility.
+[0806] In embodiments, the platform may include a sys-
+tem for learning on a training set of repair outcomes,
+parameters, and data collected from data sources related to
+a set of value chain entities to train an artificial intelligence/
+machine learning system to use a digital twin of a selected
+set of value chain entities to estimate the cost of repair of a
+damaged object.
+[0807] In embodiments, the platform may include a sys-
+tem for learning on a training set of infrastructure outcomes,
+parameters, and data collected from data sources to train an
+artificial intelligence/machine learning system to predict
+deterioration of infrastructure using a digital twin of the
+infrastructure.
+[0808]  In embodiments, the platform may include a sys-
+tem for learning on a training set of natural hazard outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to model natural hazard risks for a
+set of shipping infrastructure facilities using a digital twin of
+a city.
+In embodiments, the platform may include a sys- [0809]
+tem for learning on a training set of maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to monitor shipping infrastructure
+maintenance activities for a set of shipping infrastructure
+facilities using a digital twin of the set of facilities
+[0810] In embodiments, the platform may include a sys-
+tem for learning on a training set of maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to detect the occurrence and loca-
+tion of a maintenance issue using a digital twin of a set of
+shipping infrastructure facilities and having a system for
+automatically deploying maintenance services to the
+detected location.
+[0811] Referring to FIG. 57, the platform 604 may
+include, integrate, integrate with, manage, control, coordi-
+nate with, or otherwise handle customer digital twins 5502
+and/or customer profile digital twins 1730.
+[0812] Customer digital twins 5502 may represent evolv-
+ing, continuously updated digital representations of value
+chain network customers 662. In embodiments, value chain
+network customers 662 include consumers, licensees, busi-
+nesses, enterprises, value-added resellers and other resellers,
+distributors, retailers (including online retailers, mobile
+retailers, conventional brick and mortar retailers, pop-up
+shops and the like), end users, and others who may purchase,
+license, or otherwise use a category of goods and/or related
+services.
+[0813]Customer profile digital twins 1730, on the other
+hand, may represent one or more demographic (age, gender,
+race, marital status, number of children, occupation, annual
+income, education level, living status (homeowner, renter,
+and the like) psychographic, behavioral, economic, geo-
+graphic, physical (e.g., size, weight, health status, physi-
+ological state or condition, or the like) or other attributes of
+a set of customers. In embodiments, customer profile digital
+twins 1730 may be enterprise customer profile digital twins
+that represent attributes of a set of enterprise customers. In
+embodiments, a customer profiling application may be used
+to manage customer profiles 5504 based on historical pur-

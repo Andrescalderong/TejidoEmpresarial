@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+85
+online site and operator twins 1800; waterway twins 1810;
+roadway twins 1820; railway twins 1830; air facility twins
+1840 (such as twins of aircraft, runways, airports, hangars,
+warehouses, air travel routes, refueling facilities and other
+assets, objects, workers and the like used in connection with
+air transport of products 650); autonomous vehicle twins
+1850; robotics twins 1860; drone twins 1870; and logistics
+factor twins 1880; among others. Each of these may have
+characteristics of digital twins described throughout this
+disclosure and the documents incorporated by reference 10
+herein, such as mirroring or reflecting changes in states of
+associated physical objects or other entities, providing capa-
+bilities for modeling behavior or interactions of associated
+physical objects or other entities, enabling simulations,
+providing indications of status, and many others. 15
+In example embodiments, a digital twin system may be
+configured to generate a variety of enterprise digital twins
+1700 in connection with a value chain (e.g., specifically
+value chain network entities 652). For example, an enter-
+prise that produces goods internationally (or at multiple 20
+facilities) may configure a set of digital twins 1700, such as
+supplier twins that depict the enterprise's supply chain,
+factory twins of the various production facilities, product
+twins that represent the products made by the enterprise,
+distribution twins that represent the enterprise's distribution 25
+chains, and other suitable twins. In doing so, the enterprise
+may define the structural elements of each respective digital
+twin as well as any system data that corresponds to the
+structural elements of the digital twin. For instance, in
+generating a production facility twin, the enterprise may the 30 e
+layout and spatial definitions of the facility and any pro-
+cesses that are performed in the facility. The enterprise may
+also define data sources corresponding to the value chain
+network entities 652, such as sensor systems, smart manu-
+facturing equipment, inventory systems, logistics systems, 35
+and the like that provide data relevant to the facility. The
+enterprise may associate the data sources with elements of
+the production facility and/or the processes occurring the
+facility. Similarly, the enterprise may define the structural,
+process, and layout definitions of its supply chain and its 40
+distribution chain and may connect relevant data sources,
+ such as supplier databases, logistics platforms, to generate
+respective distribution chain and supply chain twins. The
+enterprise may further associate these digital twins to have
+a view of its value chain. In embodiments, the digital twin 45
+system may perform simulations of the enterprise's value
+chain that incorporate real-time data obtained from the
+various value chain network entities 652 of the enterprise. In
+some of these embodiments, the digital twin system may
+recommend decisions to a user interacting with the enter- 50
+prise digital twins 1700, such as when to order certain parts
+for manufacturing a certain product given a predicted
+demand for the manufactured product, when to schedule
+maintenance on machinery and/or replace machinery (e.g.
+when digital simulations on the digital twin indicates the 55
+demand for certain products may be the lowest or when it
+would have the least effect on the enterprise's profits and
+losses statement), what time of day to ship items, or the like.
+The foregoing example is a non-limiting example of the
+manner by which a digital twin may ingest system data and 60
+perform simulations in order to further one or more goals.
+Entity Discovery and Interaction Management
+Referring to FIG. 24, the monitoring systems layer 614,
+including various data collection systems 640 (such as IoT
+data collection systems, data collection systems that search 65 cesses.
+social networks, websites, and other online resources,
+crowdsourcing systems, and others) may include a set of
+[col 2]
+86
+entity discovery systems 1900, such as for identifying sets of
+value chain network entities 652, identifying types of value
+chain network entities 652, identifying specific value chain
+network entities 652 and the like, as well as for managing
+identities of the value chain network entities 652, including
+for resolving ambiguities (such as where a single entity is
+identified differently in different systems, where different
+entities are identified similarly, and the like), for entity
+identity deduplication, for entity identity resolution, for
+entity identity enhancement (such as by enriching data
+objects with additional data that is collected about an entity
+within the platform), and the like. Entity discovery 1900
+may also include discovery of interactions among entities,
+such as how entities are connected (e.g., by what network
+connections, data integration systems, and/or interfaces),
+what data is exchanged among entities (including what types
+of data objects are exchanged, what common workflows
+involve entities, what inputs and outputs are exchanged
+between entities, and the like), what rules or policies govern
+the entities, and the like. The platform 604 may include a set
+of entity interaction management systems 1902, which may
+comprise one or more artificial intelligence systems (includ-
+ing any of the types described throughout this disclosure) for
+managing a set of interactions among entities that are
+discovered through entity discovery 1900, including ones
+that learn on a training set of data to manage interactions
+among entities based on how entities have been managed by
+human supervisors or by other systems.
+As an illustrative example among many possible ones, the
+entity discovery system 1900 may be used to discover a
+network-connected camera that shows the loading dock of
+facility that produces a product for an enterprise, as well as
+to identify what interfaces or protocols are needed to access
+a feed of video content from the camera. The entity inter-
+action management system 1902 may then be used to
+interact with the interfaces or protocols to set up access to
+the feed and to provide the feed to another system for further
+processing, such as to have an artificial intelligence system
+1160 process the feed to discovery content that is relevant to
+an activity of the enterprise. For example, the artificial
+intelligence system 1160 may process image frames of the
+video feed to find markings (such as produce labels, SKUs,
+images, logos, or the like), shapes (such as packages of a
+particular size or shape), activities (such as loading or
+unloading activities) or the like that may indicate that a
+product has moved through the loading dock, This informa-
+tion may substitute for, augment, or be used to validate other
+information, such as RFID tracking information or the like
+Similar discovery and interaction management activities
+may be undertaken with any of the types of value chain
+network entities 652 described throughout this disclosure.
+Robotic Process Automation in Value Chain Network
+Referring to FIG. 25, the adaptive intelligence layer 614
+may include a robotic process automation (RPA) system
+1442, which may include a set of components, processes,
+services, interfaces and other elements for development and
+deployment of automation capabilities for various value
+chain entities 652, environments, and applications 630.
+Without limitation, robotic process automation 1442 may be
+applied to each of the processes that are managed, con-
+trolled, or mediated by each of the set of applications 614 of
+the platform application layer, to functions, components,
+workflows, processes of the VCNP 604 itself, to processes
+involving value chain network entities 652 and other pro-
+In embodiments, robotic process automation 1442 may
+take advantage of the presence of multiple applications 630

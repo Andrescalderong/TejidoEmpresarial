@@ -1,0 +1,130 @@
+[col 1]
+US2022/0036275A1
+56
+uct quality data from a set of sensors. In embodiments, one
+of the processes automated by robotic process automation
+involves inspection of data from a set ofonboard diagnostics
+on a product. In embodiments, one of the processes auto-
+mated by robotic process automation involves inspection of
+diagnostic data from an Internet of Things system. In
+embodiments, one of the processes automated by robotic
+process automation involves review of sensor data from
+environmental sensors in a set of supply chain environ-
+ments.
+[0460] In embodiments, one of the processes automated
+by robotic process automation involves selection of inputs
+for a digital twin. In embodiments, one of the processes
+automated by robotic process automation involves selection
+of outputs from a digital twin. In embodiments, one of the
+processes automated by robotic process automation involves
+selection of visual elements for presentation in a digital twin.
+In embodiments, one of the processes automated by robotic
+process automation involves diagnosis of sources of delay in
+a supply chain. In embodiments, one of the processes
+automated by robotic process automation involves diagnosis
+of sources of scarcity in a supply chain. In embodiments, one
+of the processes automated by robotic process automation
+involves diagnosis of sources of congestion in a supply
+chain.
+[0461]  In embodiments, one of the processes automated
+by robotic process automation involves diagnosis of sources
+of cost overruns in a supply chain. In embodiments, one of
+the processes automated by robotic process automation
+involves diagnosis of sources of product defects in a supply
+chain. In embodiments, one of the processes automated by
+robotic process automation involves prediction of mainte-
+nance requirements in supply chain infrastructure.
+[0462] In embodiments, the set of demand management
+applications, supply chain applications, intelligent product
+applications and enterprise resource management applica-
+tions may include, for example, ones involving supply
+chain, asset management, risk management, inventory man-
+agement, demand management, demand prediction, demand
+aggregation,pricing,positioning,placement,promotion,
+blockchain, smart contract, infrastructure management,
+facility management, analytics, finance, trading, tax, regu-
+latory, identity management, commerce, ecommerce, pay-
+ments, security, safety, vendor management, process man-
+agement, compatibility testing, compatibility management,
+infrastructure testing, incident management, predictive
+maintenance, logistics, monitoring, remote control, automa-
+tion, self-configuration, self-healing, self-organization,
+logistics, reverse logistics, waste reduction, augmented real-
+ity, virtual reality, mixed reality, demand customer profiling.
+entity profiling, enterprise profiling, worker profiling, work-
+force profiling, component supply policy management,
+product design, product configuration, product updating,
+product maintenance, product support, product testing,
+warehousing, distribution, fulfillment, kit configuration, kit
+deployment, kit support, kit updating, kit maintenance, kit
+modification, kit management, shipping fleet management,
+vehicle fleet management, workforce management, mari-
+time fleet management, navigation, routing, shipping man-
+agement, opportunity matching, search, advertisement,
+entity discovery, entity search, distribution, delivery, enter-
+prise resource planning, and many others.
+[col 2]
+Feb.3,2022
+Introduction of Opportunity Miners for Automated
+Improvementof Adaptive Intelligence
+[0463]  Referring to FIG. 26, a set of opportunity miners
+1460 may be provided as part of the adaptive intelligence
+layer 614, which may be configured to seek and recommend
+opportunities to improve one or more of the elements of the
+platform 604, such as via addition of artificial intelligence
+i160, automation (including robotic process automation
+1442), or the like to one or more of the systems, sub-
+systems, components, applications or the like of the VCNP
+102 or with which the VCNP102 interacts. In embodiments,
+the opportunity miners 1460 may be configured or used by
+developers of AI or RPA solutions to find opportunities for
+better solutions and to optimize existing solutions in a value
+chain network 668. In embodiments, the opportunity miners
+1460 may include a set of systems that collect information
+within the VCNP 102 and collect information within, about
+and for a set of value chain network entities 652 and
+environments, where the collected information has the
+potential to help identify and prioritize opportunities for
+increased automation and/or intelligence about the value
+chain network 668, about applications 630, about value
+chain network entities 652, or about the VCNP 102 itself.
+For example, the opportunity miners 1460 may include
+systems that observe clusters of value chain network work-
+ers by time, by type, and by location, such as using cameras,
+wearables, or other sensors, such as to identify labor-
+intensive areas and processes in a set of value chain network
+668 environments. These may be presented, such as in a
+ranked or prioritized list, or in a visualization (such as a heat
+map showing dwell times of customers, workers or other
+showing routes traveled by customers or workers within an
+environment) to show places with high labor activity. In
+embodiments, analytics 838 may be used to identify which
+environments or activities would most benefit from automa-
+tion for purposes of improved delivery times, mitigation of
+congestion, and other performance improvements.
+[0464]  In embodiments, opportunity mining may include
+facilities for solicitation of appropriate training data sets that
+may be used to facilitate process automation. For example,
+certainkinds ofinputs, if available, would provide very high
+value for automation, such as video data sets that capture
+very experienced and/or highly expert workers performing
+complex tasks.Opportunity miners 1460 may search for
+such video data sets as described herein; however, in the
+absence of success (or to supplement available data), the
+platform may include systems by which a user, such as a
+developer, may specify a desired type of data, such as
+software interaction data (such as of an expert working with
+a program to perform a particular task), video data (such as
+video showing a set of experts performing a certain kind of
+delivery process, packing process, picking process, a con-
+tainer movement process, or the like), and/or physical pro-
+cess observation data (such as video, sensor data, or the
+like). The resulting library of interactions captured in
+response to specification may be captured as a data set in the
+data storage layer 624, such as for consumption by various
+applications 630, adaptive intelligence systems 614, and
+other processes and systems. In embodiments, the library
+may include videos that are specifically developed as
+instructional videos, such as to facilitate developing an
+automation map that can follow instructions in the video,
+such as providing a sequence of steps according to a

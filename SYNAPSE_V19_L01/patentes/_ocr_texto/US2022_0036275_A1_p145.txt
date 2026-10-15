@@ -1,0 +1,131 @@
+[col 1]
+US2022/0036275A1
+62
+[0513]In embodiments, the platform 604may include a
+unified set of Internet of Things systems 1172 that provide
+coordinated monitoring of various value chain entities 652
+in service of a set of multiple applications 630 of various
+types, such as a set of supply chain management applications
+1500, demand management applications 1502, intelligent
+ment applications 1520 that monitor and/or manage a value
+chain network and a set of value chain network entities 652.
+[0514]The unified set of Internet of Things systems 1172
+may thus provide, in embodiments, unification of monitor-
+ing of, and communication with, a wide range of facilities,
+devices, systems, environments, and assets, such as supply
+chain infrastructure facilities 1560 and other value chain
+network entities 652 that are involved as a product 650
+travels from a point of origin through distribution and retail
+channels to an environment where it is used by a customer.
+This unification may provide a number of advantages,
+including reduced need for data entry, consistency across
+applications 630, reduced latency, real-time reporting and
+awareness, reduced need for data transformation and inte-
+gration, and others. These may include Internet of Things
+systems 1172 that are used in connection with demand
+factors 1540 and supply factors 1550, so that an application
+630 may benefit from information collected by, processed,
+or produced by the unified set of Internet of Things systems
+1172 for other applications 630 of the platform 604, and a
+user can develop insights about connections among the
+factors and control one or both of them with coordinated
+intelligence. The unified set of Internet of Things systems
+1172 may be adapted over time, such as by learning on
+outcomes 1040 or other operations of the adaptive intelligent
+systems 614, such as to determine which elements of the
+unified set of Internet of Things systems 1172 should be
+made available to which applications 630, what loT systems
+1172 provide themost benefit, what data should be stored or
+cached for immediate retrieval, what data can be discarded
+versus saved, what data is most beneficial to support adap-
+tive intelligent systems 614, and for other uses. In some
+examples, the unified set of Internet of Things (loT) systems
+1172 may be IoT devices that may be installed in various
+environments. One goal of the unified set of Internet of
+Things systems 1172 may be coordination across a city or
+town involving citywide deployments where collectively a
+set of IOT devices may be connected by wide area network
+protocols (e.g-, longer range protocols). In another example,
+the unified set of Internet of Things systems 1172 may
+involve connecting a mesh of devices across several differ-
+ent distribution facilities. The loT devices may identify
+collection for each warehouse and the warehouses may use
+the IoT devices to communicate with each other. The IoT
+devices may be configured to process data without using the
+cloud.
+[0515] Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications integrated
+with the platform for enabling an enterprise user of the
+platform to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a
+[col 2]
+Feb.3,2022
+unified set of Internet of Things systems that provide coor-
+dinated monitoring of a set of applications of at least two
+types from among a set of demand management applica-
+tions, a set of supply chain applications, a set of intelligent
+product applications and a set of enterprise resource man-
+agement applications for a category of goods.
+[0516] In embodiments, the unified set of Internet of
+Things systems includes a set of smart home Internet of
+Things devices to enable monitoring of a set of demand
+factors and a set of Internet of Things devices deployed in
+proximity to a set of supply chain infrastructure facilities to
+enable monitoring of a set of supply factors.
+[0517] In embodiments, the unified set of Internet of
+Things systems includes a set of workplace Internet of
+Things devices to enable monitoring of a set of demand
+factors for a set of business customers and a set of Internet
+of Things devices deployed in proximity to a set of supply
+chain infrastructure facilities to enable monitoring of a set of
+supply factors.
+[0518] In embodiments, the unified set of Internet of
+Things systems includes a set of Internet of Things devices
+to monitor a set of consumer goods stores to enable moni-
+toring of a set of demand factors for a set of consumers and
+a set of Internet of Things devices deployed in proximity to
+a set of supply chain infrastructure facilities to enable
+monitoring ofa set of supplyfactors.
+[0519] In embodiments, the Internet of Things systems as
+mentioned throughout this disclosure may include, for
+example and without limitations, camera systems, lighting
+systems, motion sensing systems, weighing systems, inspec-
+tion systems, machine vision systems, environmental sensor
+systems, onboard sensor systems, onboard diagnostic sys-
+tems, environmental control systems, sensor-enabled net-
+work switching and routing systems, RF sensing systems,
+magnetic sensing systems, pressure monitoring systems,
+vibration monitoring systems, temperature monitoring sys-
+tems, heat flow monitoring systems, biological measurement
+systems, chemical measurement systems, ultrasonic moni-
+toring systems, radiography systems, LIDAR-based moni-
+toring systems, access control systems, penetrating wave
+sensing systems, SONAR-based monitoring systems, radar-
+based monitoring systems, computed tomography systems,
+magnetic resonance imaging systems, network monitoring
+systems, and many others.
+Machine Vision Feeding Digital Twin
+[0520] Referring to FIG. 34, an embodiment of the plat-
+form 604 is provided. As with other embodiments, the
+platform 604 may employ a micro-services architecture with
+the various data handling layers 614, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+[0521]In embodiments, the platform 604 may include a
+machine vision system 1600 and a digital twin system 1700,
+wherein the machine vision system 1600 feeds data to the

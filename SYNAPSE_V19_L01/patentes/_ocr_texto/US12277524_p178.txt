@@ -1,0 +1,139 @@
+[col 1]
+US 12,277,524 B2
+181
+features relating to an advertising-related task or event. For
+example, the artificial intelligence system 1160 may select a
+type of advertisement (e.g., social media, podcast, and the
+like) to use for a value chain product 650. In this example,
+the advertising application 5602 may provide the features of
+the product to artificial intelligence system 1160. These
+features may include product vendor, the price of the prod-
+uct, and the like. In embodiments, the artificial intelligence
+system 1160 may insert these features into one or more of
+the models 5750 to obtain one or more decisions, which may 10
+include which type of advertisement to use. In embodiments,
+the artificial intelligence system 1160 may leverage the
+customer digital twins 5502 and/or customer profile digital
+twins 1730 to run simulations on the one or more decisions
+and generate simulation data 5710. The machine learning 15
+ system 5720 may receive the simulation data 5710 and other
+data as described throughout this disclosure to retrain or
+reinforce machine leaning models. In embodiments, the
+customer digital twins 5502, customer profile digital twins
+1730, and other digital twins 1700 may be leveraged by the 20
+artificial intelligence system 1160 to simulate a decision
+made by the artificial intelligence system 1160 before pro-
+viding the decision to the value chain entity 652. In the
+present example, the customer profile digital twins 1730
+may be leveraged by the artificial intelligence system 1160 25
+to simulate decisions made by the artificial intelligence
+system 1160 before providing the decision to the advertising
+application 5602. In embodiments, where simulation out-
+comes are unacceptable, simulation data 5710 may be
+reported to the machine learning system 5720, which may 301
+use the received data to re-train machine learning models
+5750, which may then be leveraged by the artificial intelli-
+gence system 1160 to make a new decision. The advertising
+application 824 may initiate an advertising event using the
+decision(s) made by the artificial intelligence system 1160. 35
+In embodiments, after the advertising event, the outcomes of
+the event (e.g-, product sales) may be reported to the
+machine-learning system 5720 to reinforce the models 5750
+used to make the decisions. Furthermore, in some embodi-
+ments, the output of the advertising application and/or the 40
+other value chain entity data sources may be used to update
+one or more properties of customer digital twins 5502.
+customer profile digital twins 1730 and/or other digital twins
+1700.
+FIG. 59 illustrates an example of an e-commerce appli- 45
+cation 5604 integrated with the adaptive intelligent systems
+layer 614. In embodiments, an e-commerce application 5604
+may be configured to generate product recommendations for
+value chain customers 662. For example, the ecommerce
+application 5604 may be configured to receive one or more 50 1
+product features for a value chain network product 650.
+Examples of product features may include, but are not
+limited to product types, product capabilities, product price,
+product materials, product vendor, and the like. In embodi-
+ments, the e-commerce application 5604 determines recom- 55
+mendations to optimize an outcome. Examples of outcomes
+can include software interaction observations (such as
+mouse movements, mouse clicks, cursor movements, navi-
+gation actions, menu selections, and many others), such as
+logged and/or tracked by software interaction observation 60
+ system 1500, purchase of the product by a customer 714, and
+the like. In embodiments, the e-commerce application 5604
+may interface with the artificial intelligence system 1160 to
+provide product features and to receive product recommen-
+dations that are based thereon., In embodiments, the artificial 65
+intelligence system 1160 may utilize one or more machine-
+learned models 5750 to determine a recommendation. In
+[col 2]
+182
+some embodiments, the simulations run by the customer
+digital twin 1730 may be used to train the product recom-
+mendation machine-learning models.
+FIG. 60 is a schematic illustrating an example of demand
+management application 824 integrated with the adaptive
+intelligent systems layer 614. In embodiments, the artificial
+intelligence system 1160 may use machine-learning models
+5750 trained to make demand management decisions for a
+demand environment 672 on behalf of a demand manage-
+ment application 824 given one or more demand factors 644.
+Demand factors 644 may include product type, product
+capabilities, product price, product materials, time of year,
+location, and the like. In embodiments, the artificial intelli-
+gence system 1160 may determine a demand management
+decision for a value chain product 650. For example, the
+artificial intelligence system 1160 may generate a demand
+management decision relating to how many printer ink
+cartridges should be supplied to a particular region for an
+upcoming month. In this example, the demand management
+system 824 may provide the demand factors 644 to artificial
+intelligence system 1160. In embodiments, the artificial
+intelligence system 1160 may insert these factors 644 into
+one or more machine-learning models 5750 to obtain one or
+more demand management decisions. These decisions may
+include the volume of ink cartridges should be sent to the
+select region during the select month.
+In embodiments, the artificial intelligence system 1160
+may leverage the customer profile digital twins 1730 to run
+simulations on the proposed decisions related to the demand
+management. The demand management application 824
+may then initiate an ink resupply event using the decision(s)
+made by the artificial intelligence system 1160. Furthermore,
+after the ink resupply event, the outcomes of the event (e.g.
+ink cartridge sales) may be reported to the machine-learning
+system 5720 to reinforce the models used to make the
+decisions. Furthermore, in some embodiments, the output of
+the demand management system 824 and/or the other value
+chain entity data sources may be used to update one or more
+properties of customer profile digital twins 1730 and/or
+other digital twins 1700.
+In embodiments, an API enables users to access the
+customer digital twins 5502 and/or customer profile digital
+twins 1730. In embodiments, an API enables users to receive
+one or more reports related to the digital twins.
+The platform 604 may include, integrate, integrate with,
+manage, control, coordinate with, or otherwise handle
+household demand digital twins 5902. Household demand
+digital twins 5902 may be a digital representation of a
+household demand for a product category or for a set of
+product categories.
+An environment for development of a household demand
+digital twin 5902 may include a set of interfaces for devel-
+opers in which a developer may configure an artificial
+intelligence system 1160 to take inputs from selected data
+sources of the data storage layer 624 and events or other data
+from the monitoring systems layer 614 and supply them for
+inclusion in a household demand digital twin 5902. A
+household demand digital twin development environment
+may be configured to take outputs and outcomes from
+various applications 630. In embodiments, a household
+demand digital twin 5902 may be provided for the wide
+range of value chain network applications 630 mentioned
+throughout this disclosure and the documents incorporated
+herein by reference.
+In embodiments, a digital twin 1700 may be generated
+from other digital twins. For example, a customer digital
+twin 5502 may be used to generate an anonymized customer

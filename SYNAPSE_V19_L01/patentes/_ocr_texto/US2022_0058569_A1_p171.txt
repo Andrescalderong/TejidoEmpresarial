@@ -1,0 +1,129 @@
+[col 1]
+US 2022/0058569A1
+88
+about only its performance, the composite digital twin may
+aggregate data across the different machines in the operating
+facility 712. Thus, it may provide an integrated view of
+individual machines and their interactions with environmen-
+tal factors in the operating facility leading to insights about
+the overall health of the conveyor line within the operating
+facility 712.As another example, the supply factor twins
+1650 and demand factor twins 1640 may be integrated to
+create a holistic picture of demand-supply equilibrium for a
+product 650. The integration of digital twins also enables the
+querying of multiple value chain network entities 652 and
+create a 360-degree view of the value chain network 668and
+its various systems and subsystems.
+[0730] It will be apparent that the ability to integrate
+digital twins of the value chain network entities 652 may be
+used to generate a value chain network digital twin system
+from a plurality of digital twin subsystems representing
+entities selected from among supply chain entities, demand
+management entities and value chain network entities. For
+example, a machine digital twin 1770 is comprised of
+multiple digital twins of sub-systems and individual com-
+ponents constituting the machine 724. The machine's digital
+twin may integrate all such component twins and their inputs
+and outputs to build the model of the machine. Also, for
+example, a distribution facility twins system 1714 may be
+comprised of subsystems, such as warehousing twins 1712,
+fulfilment twins 1600 and delivery system twins 1610.
+[0731]Similarly, the process digital twin may be seen as
+senting entities selected from among supply chain entities,
+demand management entities and value chain network enti-
+ties. For example, the digital twin of a packaging process is
+comprised of digital twins of sub-processes for picking.
+moving, inspecting and packing the product. As another
+example, the digital twin of warehousing process may be
+seen as comprised of digital twins of multiple sub-processes
+including receiving, storing, picking and shipping of stored
+inventories.
+[0732] It will be apparent that a value chain network
+digital twin system may be generated from a plurality of
+digital twin subsystems or conversely a digital twin subsys-
+tem may be generated from a digital twin system, wherein
+at least one of the digital twin subsystem and the digital twin
+system represents entities selected from among supply chain
+entities, demand management entities and value chain net-
+work entities.
+[0733]Similarly, a value chain network digital twin pro-
+cess may be generated from a plurality of digital twin
+sub-processes or conversely digital twin sub-process gener-
+ated from a digital twin process wherein at least one of the
+digital twin sub-process and the digital twin process repre-
+sents entities selected from among supply chain entities.
+demand management entities and value chain network enti-
+ties.
+[0734]The analytics obtained from digital twins 1700 of
+the value chain network entities 652 and their interactions
+with one another provide a systemic view of the value chain
+network as well as its systems, sub-systems, processes and
+sub-processes. This may help in generating new insights into
+ways the various systems and processes may be evolved to
+improve their performance and efficiency.
+[0735] In embodiments, the platform 604 and applications
+630 may have a system for generating and updating a
+self-expanding digital twin that represents a set of value
+[col 2]
+Feb. 24, 2022
+chain entities. The self-expanding digital twin continuously
+keeps learning and expanding in scope, with more and more
+data it collects and scenarios it encounters. As a result, the
+self-expanding twin can evolve with time and take on more
+complex tasks and answer more complex questions posed by
+a user of the self-expanding digital twin.
+[0736]In embodiments, the platform 604 and applications
+630 may have a system for scheduling the synchronization
+of a physical value chain entity's changing condition to a
+digital twin that represents a set of value chain entities. In
+embodiments, the synchronization between the physical
+value chain entity and its digital twin is on a near real-time
+basis.
+[0737]In embodiments, the platform 604 and applications
+630 may have an application programming interface for
+extracting, sharing, and/or harmonizing data from informa-
+tion technology systems associated with multiple value
+chain network entities that contribute to a single digital twin
+representing a set of value chain entities.
+[0738]In embodiments,valuechain network management
+platform 604 may include various subsystems that may be
+implemented as micro services, such that other subsystems
+of the system access the functionality of a subsystem pro-
+face API. In some embodiments, the various services that are
+provided by the subsystems may be deployed in bundles that
+are integrated, such as by a set of APIs.
+[0739]  In embodiments, value chain network management
+platform 604 may include a set of microservices for man-
+aging a set of value chain network entities for an enterprise
+and having a set of processing capabilities for at least one of
+creating, modifying, and managing the parameters of a
+digital twin that is used in the platform to represent a set of
+value chain network entities.
+Value Chain Digital Twin Kit (DTIB)
+[0740]The value chain network management platform
+may provide a digital twin sub-system in the form of an
+out-of-the-box kit system with self-configuring capabilities.
+The kit may provide a data-rich and interactive overview of
+a set of value chain network entities constituting the sub-
+system. For example, a supply chain out-of-the-box digital
+twin kit system may represent a set of supply chain entities
+that are linked to the identity of an owner or operator of the
+supply chain entities. The owner or operator of the supply
+chain entity may then use the kit to get a holistic picture of
+its complete portfolio. The owner may investigate for infor-
+mation related to various supply chain entities and ask
+interactive questions from the digital twin kit system.
+[0741] In embodiments, a demand management out-of-
+the-box digital twin kit system may represent a set of
+demand management entities that are linked to the identity
+of an owner or operator of the demand management entities.
+[0742]In embodiments, a value chain network digital twin
+kit system for providing out-of-the-box, self-configuring
+capabilities may represent a set of demand management
+entities and a set of supply chain entities that are linked to
+the identity of an owner or operator of the demand man-
+agement entities and the supply chain entities.
+[0743]  In embodiments, a warehouse digital twin kit sys-
+tem for providing out-of-the-box, self-configuring capabili-
+ties may represent a set of warehouse entities that are linked
+to the identity of an owner or operator of the warehouse.

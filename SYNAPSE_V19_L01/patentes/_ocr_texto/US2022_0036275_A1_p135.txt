@@ -1,0 +1,127 @@
+[col 1]
+US 2022/0036275 A1
+52
+perform simulations in order to further one or more goals.
+Entity Discovery and Interaction Management
+[0442] Referring to FIG. 24, the monitoring systems layer
+614, including various data collection systems 640 (such as
+IoT data collection systems, data collection systems that
+search social networks, websites, and other online resources,
+crowdsourcing systems, and others) may include a set of
+entity discovery systems 1900, such as foridentifying sets of
+value chain network entities 652, identifying types of value
+chain network entities 652, identifying specific value chain
+network entities 652 and the like, as well as for managing
+identities of the value chain network entities 652, including
+for resolving ambiguities (such as where a single entity is
+identified differently in different systems, where different
+entities are identified similarly, and the like), for entity
+identity deduplication, for entity identity resolution, for
+objects with additional data that is collected about an entity
+within the platform), and the like. Entity discovery 1900
+may also include discovery of interactions among entities,
+such as how entities are connected (e.g., by what network
+connections, data integration systems, and/or interfaces),
+what data is exchanged among entities (including what types
+of data objects are exchanged, what common workflows
+involve entities, what inputs and outputs are exchanged
+between entities, and the like), what rules or policies govern
+the entities, and the like. The platform 604 may include a set
+of entity interaction management systems 1902, which may
+comprise one or more artificial intelligence systems (includ-
+ing any of the types described throughout this disclosure) for
+managing a set of interactions among entities that are
+discovered through entity discovery 1900, including ones
+that learn on a training set of data to manage interactions
+among entities based on how entities have been managed by
+human supervisors or by other systems.
+[0443] As an illustrative example among many possible
+ones, the entity discovery system 1900 may be used to
+discover a network-connected camera that shows the loading
+dock of facility that produces a product for an enterprise, as
+well as to identify what interfaces or protocols are needed to
+access a feed of video content from the camera. The entity
+interaction management system 1902 may then be used to
+interact with the interfaces or protocols to set up access to
+the feed and to provide the feed to another system for further
+processing, such as to have an artificial intelligence system
+1160 process the feed to discovery content that is relevant to
+an activity of the enterprise. For example, the artificial
+intelligence system 1160 may process image frames of the
+video feed to find markings (such as produce labels, SKUs,
+images, logos, or the like), shapes (such as packages of a
+particular size or shape), activities (such as loading or
+unloading activities) or the like that may indicate that a
+product has moved through the loading dock. This informa-
+tion may substitute for, augment, or be used to validate other
+information, such as RFID tracking information or the like.
+Similar discovery and interaction management activities
+may be undertaken with any of the types of value chain
+network entities 652 described throughout this disclosure.
+Robotic Process Automation in Value Chain Network
+[0444] Referring to FIG. 25, the adaptive intelligence
+layer 614 may include a robotic process automation (RPA)
+[col 2]
+Feb.3,2022
+system 1442, which may include a set of components.
+processes, services, interfaces and other elements for devel-
+opment and deployment of automation capabilities for vari-
+ous value chain entities 652, environments, and applications
+630. Without limitation, robotic process automation 1442
+may be applied to each of the processes that are managed,
+controlled, or mediated by each of the set of applications 630
+of the platform application layer, to functions, components,
+workflows, processes of the VCNP 604 itself, to processes
+involving value chain network entities 652 and other pro-
+cesses.
+[0445]In embodiments, robotic process automation 1442
+may take advantage of the presence of multiple applications
+630 within the value chain management platform layer 604,
+such that a pair of applications may share data sources (such
+as in the data storage layer 624) and other inputs (such as
+from the monitoring layer 614) that are collected with
+respect to value chain entities 652, as well as sharing
+outputs, events, state information and outputs, which col-
+lectively may provide a much richer environment for pro-
+cess automation, including through use of artificial intelli-
+gence 1160 (including any of the various expert systems,
+artificial intelligence systems, neural networks, supervised
+learning systems, machine learning systems, deep learning
+systems, and other systems described throughout this dis-
+closure and in the documents incorporated by reference). For
+example, an asset management application 814 may use
+robotic process automation 1442 for automation of an asset
+inspection process that is normally performed or supervised
+visual inspection using video or still images from a camera
+or other that displays images of an entity 652, such as where
+the robotic process automation 1442 system is trained to
+automate the inspection by observing interactions of a set of
+human inspectors or supervisors with an interface that is
+used to identify, diagnose, measure, parameterize, or other-
+wise characterize possible defects or favorable characteris-
+tics of a facility or other asset. In embodiments, interactions
+of the human inspectors or supervisors may include a
+labeled data set where labels or tags indicate types of
+defects, favorable properties, or other characteristics, such
+that a machine learning system can learn, using the training
+data set, to identify the same characteristics, which in turn
+can be used to automate the inspection process such that
+defects or favorable properties are automatically classified
+and detected in a set of video or still images, which in turn
+can be used within the value chain network asset manage-
+ment application 814 to flag items that require further
+inspection, that should be rejected, that should be disclosed
+to a prospective buyer, that should be remediated, or the like.
+In embodiments, robotic process automation 1442 may
+involve multi-application or cross-application sharing of
+inputs, data structures, data sources, events, states, outputs
+or outcomes. For example, the asset management applica-
+tion 814 may receive information from a marketplace appli-
+cation 854 that may enrich the robotic process automation
+1442 of the asset management application 814, such as
+information about the current characteristics of an item from
+a particular vendor in the supply chain for an asset, which
+may assist in populating the characteristics about the asset
+for purposes of facilitating an inspection process, a nego-
+tiation process, a delivery process, or the like. These and
+tion sharing for robotic process automation 1442 across the

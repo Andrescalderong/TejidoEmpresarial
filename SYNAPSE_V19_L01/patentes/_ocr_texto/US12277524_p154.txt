@@ -1,0 +1,140 @@
+[col 1]
+US 12,277,524 B2
+133
+brain, which faces similar challenges and has evolved, over
+millennia, reasonable solutions to a wide range of very
+difficult optimization problems. The human brain operates
+with a massive neural network organized into interconnected
+modular systems, each of which has a degree of adaptation
+to solve particular problems, from regulation of biological
+systems and maintenance of homeostasis, to detection of a
+wide range of static and dynamic patterns, to recognition of
+threats and opportunities, among many others. Functional
+imaging FMRP102, such as functional magnetic resonance
+10
+imaging (fMRI), electroencephalogram (EEG), computed
+tomography (CT) and other brain imaging systems have
+improved to the point that patterns of brain activity can be
+recognized in real time and temporally associated with other
+information, such behaviors, stimulus information, environ- 15
+mental condition data, gestures, eye movements, and other
+information, such that via functional imaging FMRP102,
+either alone or in combination with other information col-
+lected by monitoring systems IPX106, the platform may
+determine and classify what brain modules, operations, 20
+systems, and/or functions are employed during the under-
+taking of a set of tasks or activities, such as ones involving
+software interaction 1500, physical process observations
+1510, or a combination thereof. This classification may
+assist in selection and/or configuration of a set of artificial 25
+intelligence solutions, such as from an artificial intelligence
+store 3504, that includes a similar set of capabilities and/or
+functions to the set of modules and functions of the human
+brain when undertaking an activity, such as for the initial
+configuration of a robotic process automation (RPA) system 30 s
+1442 that automates a task performed by an expert human.
+Thus, the platform may include a system that takes input
+from a functional imaging system FRMP102 to configure,
+optionally automatically based on matching of attributes
+between one or more biological systems, such as brain 35 
+systems, and one or more artificial intelligence systems, a set
+of artificial intelligence capabilities for a robotic process
+automation system. Selection and configuration may further
+comprise selection of inputs to robotic process automation
+and/or artificial intelligence that are configured at least in 40o
+part based on functional imaging of the brain while workers
+undertake tasks, such as selection of visual inputs (such as
+images from cameras) where vision systems of the brain are
+highly activated, selection of acoustic inputs where auditory
+systems of the brain are highly activated, selection of 45 c
+chemical inputs (such as chemical sensors) where olfactory
+systems of the brain are highly activated, or the like. Thus,
+ a biologically aware robotic process automation system may
+be improved by having initial configuration, or iterative
+improvement, be guided, either automatically or under 50
+developer control, by imaging-derived information collected
+as workers perform expert tasks that may benefit from
+automation.
+Referring to FIG. 27, additional details of an embodiment
+of the platform 604 are provided, in particular relating to 55
+elements of the adaptive intelligence layer 614 that facilitate
+improved edge intelligence, including the adaptive edge
+compute management system 1400 and the edge intelligence
+system 1420. These elements provide a set of systems that
+60
+cessing, such as by varying storage locations for data and
+processing locations (e.g., optimized by Al) between on-
+device storage, local systems, in the network and in the
+cloud. These elements enable facilitation of a dynamic
+definition by a user, such as a developer, operator, or host of 65
+the platform 102, of what constitutes the “edge" for purposes
+ofa given application. For example, for environments where
+[col 2]
+134
+data connections are slow or unreliable (such as where a
+facility does not have good access to cellular networks (such
+as due to remoteness of some environments (such as in
+geographies with poor cellular network infrastructure),
+shielding or interference (such as where density of network-
+using systems, thick metals hulls of container ships, thick
+metal container walls, underwater or underground location,
+or presence of large metal objects (such as vaults, hulls,
+containers and the like) interferes with networking perfor-
+mance), and/or congestion (such as where there are many
+devices seeking access to limited networking facilities),
+edge computing capabilities can be defined and deployed to
+operate on the local area network of an environment, in
+peer-to-peer networks of devices, or on computing capabili-
+ties of local value chain entities 652. For example, in an
+environment with a limited set of computational and/or
+networking resources, tasks may be intelligently load bal-
+anced based on a current context (e.g., network availability,
+latency, congestion, and the like) and, in an example, one
+type of data may be prioritized for processing, or one
+workflow prioritized over another workflow, and the like.
+Where strong data connections are available (such as where
+good backhaul facilities exist), edge computing capabilities
+can be disposed in the network, such as for caching fre-
+quently used data at locations that improve input/output
+performance, reduce latency, or the like. Thus, adaptive
+definition and specification of where edge computing opera-
+tions are enabled, under control of a developer or operator,
+or optionally determined automatically, such as by an expert
+system or automation system, such as based on detected
+network conditions for an environment, for a financial entity
+652, or for a network as a whole.
+In embodiments, edge intelligence 1420 enables adapta-
+tion of edge computation (including where computation
+occurs within various available networking resources, how
+networking occurs (such as by protocol selection), where
+data storage occurs, and the like) that is multi-application
+aware, such as accounting for QoS, latency requirements,
+congestion, and cost as understood and prioritized based on
+awareness of the requirements, the prioritization, and the
+value (including ROI, yield, and cost information, such as
+costs of failure) of edge computation capabilities across
+more than one application, including any combinations and
+subsets of the applications 630 described herein or in the
+documents incorporated herein by reference.
+Referring to FIG. 35, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 614, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+In embodiments, the platform 604 may include a unified
+set of adaptive edge computing and other edge intelligence
+systems 1420 that provide coordinated edge computation
+and other edge intelligence 1420 capabilities for a set of
+multiple applications 630 of various types, such as a set of
+supply chain management applications 1500, demand man-
+agement applications 1502, intelligent product applications

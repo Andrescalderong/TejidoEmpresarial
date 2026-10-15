@@ -1,0 +1,130 @@
+[col 1]
+US2022/0058569A1
+41
+latency, energy utilization, storage capacity, storage effi-
+ciency, reliability, security, or the like) of one or more of the
+components, or the overall performance, of the value chain
+network-oriented data storage systems 624; ones that opti-
+mize control, automation, or one or more performance
+characteristics of one or more value chain network entities
+652; or ones that generally improve any of the process and
+the platform 604.
+[0373] These adaptive intelligent systems 614 may
+include a robotic process automation system 1442, a set of
+protocol adaptors 1110, a packet acceleration system 1410,
+an edge intelligence system 1420 (which may be a self-
+adaptive system), an adaptive networking system 1430, a set
+of state and event managers 1450, a set of opportunity
+miners 1460, a set of artificial intelligence systems 1160, a
+set of digital twin systems 1700, a set of entity interaction
+management systems 1900 (such as for setting up, provi-
+sioning, configuring and otherwise managing sets of inter-
+actions between and among sets of value chain network
+entities 652 in the value chain network 668), and other
+systems.
+[0374]  In embodiments, the value chain monitoring sys-
+tems layer 614 and its data collection systems 640 may
+include a wide range of systems for the collection of data.
+This layer may include, without limitation, real time moni-
+toring systems 1520 (such as onboard monitoring systems
+like event and status reporting systems on ships and other
+floating assets, on delivery vehicles, on trucks and other
+hauling assets, and in shipyards, ports, warehouses, distri-
+bution centers and other locations; on-board diagnostic
+(OBD) and telematics systems on floating assets, vehicles
+and equipment; systems providing diagnostic codes and
+events via an event bus, communication port, or other
+communication system; monitoring infrastructure (such as
+cameras, motion sensors, beacons, RFID systems, smart
+lighting systems, asset tracking systems, person tracking
+systems, and ambient sensing systems located in various
+environments where value chain activities and other events
+take place), as well as removable and replaceable monitoring
+systems, such as portable and mobile data collectors, RFID
+and other tag readers, smart phones, tablets and other mobile
+devices that are capable of data collection and the like);
+software interaction observation systems 1500 (such as for
+logging and tracking events involved in interactions of users
+with software user interfaces, such as mouse movements,
+touchpad interactions, mouse clicks, cursor movements,
+keyboard interactions, navigation actions, eye movements,
+finger movements, gestures, menu selections, and many
+others, as well as software interactions that occur as a result
+of other programs, such as over APIs, among many others);
+mobile data collectors 1170 (such as described extensively
+herein and in documents incorporated by reference), visual
+monitoring systems 1930 (such as using video and still
+imaging systems, LIDAR, IR and other systems that allow
+visualization of items, people, materials, components,
+machines, equipment, personnel, gestures, expressions,
+positions, locations, configurations, and other factors or
+parameters of entities 652, as well as inspection systems that
+monitor processes, activities of workers and the like); point
+of interaction systems 1530 (such as dashboards, user inter-
+faces, and control systems for value chain entities); physical
+process observation systems 1510 (such as for tracking
+physical activities of operators, workers, customers, or the
+[col 2]
+Feb.24,2022
+like, physical activities of individuals (such as shippers,
+delivery workers, packers, pickers, assembly personnel,
+customers, merchants, vendors, distributors and others),
+physical interactions of workers with other workers, inter-
+actions of workers with physical entities like machines and
+equipment, and interactions of physical entities with other
+physical entities, including, without limitation, by use of
+video and still image cameras, motion sensing systems (such
+as including optical sensors, LIDAR, IR and other sensor
+sets), robotic motion tracking systems (such as tracking
+movements of systems attached to a human or a physical
+entity) and many others; machine state monitoring systems
+1940 (including onboard monitors and external monitors of
+conditions, states, operating parameters, or other measures
+of the condition of any value chain entity, such as a machine
+or component thereof, such as a machine, such as a client,
+a server, a cloud resource, a control system, a display screen,
+a sensor, a camera, a vehicle, a robot, or other machine);
+sensors and cameras 1950 and other IoT data collection
+systems 1172 (including onboard sensors, sensors or other
+data collectors (including click tracking sensors) in or about
+a value chain environment (such as, without limitation, a
+point of origin, a loading or unloading dock, a vehicle or
+floating asset used to convey goods, a container, a port, a
+distribution center, a storage facility, a warehouse, a delivery
+vehicle, and a point of destination), cameras for monitoring
+an entire environment, dedicated cameras for a particular
+machine, process, worker, or the like, wearable cameras,
+portable cameras, cameras disposed on mobile robots, cam-
+eras of portable devices like smart phones and tablets, and
+closed throughout this disclosure or in the documents incor-
+porated herein by reference); indoor location monitoring
+systems 1532 (including cameras, IR systems, motion-de-
+tection systems, beacons, RFID readers, smart lighting sys-
+tems, triangulation systems, RF and other spectrum detec-
+tion systems, time-of-flight systems, chemical noses and
+other chemical sensor sets, as well as other sensors); user
+feedback systems 1534 (including survey systems, touch
+pads, voice-based feedback systems, rating systems, expres-
+sion monitoring systems, affect monitoring systems, gesture
+monitoring systems, and others); behavioral monitoring
+systems 1538 (such as for monitoring movements, shopping
+behavior, buying behavior, clicking behavior, behavior indi-
+cating fraud or deception, user interface interactions, prod-
+uct return behavior, behavior indicative of interest, attention,
+boredom or the like, mood-indicating behavior (such as
+fidgeting, staying still, moving closer, or changing posture)
+and many others); and any of a wide variety of Internet of
+Things (loT) data collectors 1172, such as those described
+throughout this disclosure and in the documents incorpo-
+rated by reference herein.
+[0375] In embodiments, the value chain monitoring sys-
+tems layer 614 and its data collection systems 640 may
+include an entity discovery system 1900 for discovering one
+or more value chain network entities 652, such as any of the
+entities described throughout this disclosure. This may
+include components or sub-systems for searching for entities
+within the value chain network 668, such as by device
+identifier, by network location, by geolocation (such as by
+known resources, such as IoT-enabled devices and infra-
+structure, Wifi routers, switches, or the like), by cellular
+location (such as by proximity to cellular towers), by iden-

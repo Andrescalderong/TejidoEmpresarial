@@ -1,0 +1,138 @@
+ating at least one job request instance-specific requirement 45 other features, adjusting the at least one qualified data
+[col 1]
+US 12,675,781 B2
+11
+In other features, the job content parsing system retrieves
+a set of content and structural filters from a job configuration
+library that facilitates mapping indicia of the job content
+with target terms that indicate robot automation. In other
+features, the job content parsing system augments a set of
+default content and structural filters with filter criteria from
+a job configuration library that facilitates mapping indicia of
+the job content with target terms that indicate robot auto-
+mation. In other features, the content filter indicates terms in
+the job content that distinguish robot automation content 1o
+from other content in the job content. In other features, the
+terms are retrieved from a job configuration library that
+facilitates mapping indicia of the job content with terms that
+indicate robot automation, In other features, the fleet intel-
+ligence layer facilitates sending portions of the job content 15
+identified as suitable for robot automation to a machine
+learning service of the set of intelligence services for
+improving job content parsing. In other features, the
+machine learning service is trained with training data sets
+includes human-generated feedback on job content parsing 20
+results for a plurality of job requests, robot automation
+knowledge bases, desired job-specific knowledge bases,
+technical dictionaries, and content received from job
+experts. In other features, the job parsing system is config-
+ured to detect physical location information in the job
+content that facilitates automatically determining at least one
+of transportation options, operational constraints, permitting
+requirements, transport restrictions, fleet assets that are local
+to a physical location of the job request, and logistics
+constraints. 30
+In other features, the physical location information
+includes one or more of an address, a region, GPS data,
+aerial photography, a marked location on a map image, map
+coordinates, latitude, longitude, altitude, a route, a depth
+relative to sea level. In other features, the job parsing system 35
+is configured to detect electrical power information for at
+least one location in the job content including a plurality of
+voltages, frequencies, currents, schedules of availability.
+schedules of grid-provided electricity costs, cost per kwh, a
+power demand profile, a maximum thermal density, and 40
+proximity to the at least one location. In other features, the
+job parsing system is configured to detect digital data
+representative of a layout of a portion of a job site that is
+present or referenced in the job content to facilitate gener-
+associated with job site layout. In other features, the job
+parsing system is configured to detect at least one of
+information descriptive of an operating environment, deliv-
+erables, interfaces through which information about the job
+request is communicated with a job requester, wireless 50 
+communication network accessibility, budget constraints for
+performing tasks, and scheduling of resources in regards to
+access and operation at a job site. In other features, the job
+request ingestion system is configured to scan received job
+content for external links to related data. In other features, 55
+the job request ingestion system is configured to retrieve
+related data for use by the robot fleet platform based on the
+external links. In other features, the job request ingestion
+system is configured to determine and forward to a job
+content parsing system portions of job content received that 60
+include references to activities suitable for being performed
+by a robotic fleet resource.
+In other features, the job request ingestion system is
+configured to process content received with a job configu-
+ration indicia filter that automatically routes job configura-
+tion indicia in the job content to a job configuration library
+look up service for classifying the job configuration indicia
+[col 2]
+12
+as one of a current job configuration, a prior job configu-
+ration, or an unknown job configuration. In other features,
+the job content parsing system is configured to identify
+structural and content elements in the received content that
+facilitate identification of candidate robot tasks. In other
+features, the job content parsing system is configured to
+identify structural elements in the received content that
+indicate at least one of tasks, sub tasks, task ordering, task
+dependencies, and task requirements for facilitating selec-
+tion of fleet robot operating units. In other features, the job
+content parsing system is configured to identify content
+terms indicative of at least one robot minimum capacity. In
+other features, the job content parsing system is configured
+with a robot type filter that when applied to the job request
+content identifies terms indicative of a type of robot for
+performing a task. In other features, the job request ingestion
+system includes a job request ingestion interface for receiv-
+ing the electronic job request. In other features, applying the
+content and structural filters includes scanning received
+content for data indicative of robot activities. In other
+features, applying the content and structural filters with the
+job content parsing system includes processing received
+content with a robot type filter that when applied to the job
+request content identifies terms indicative of a type of robot
+25forperformingatask.
+In other features, the job parsing system utilizes the
+content filters to detect qualified job data. In other features,
+the robot fleet platform includes a qualified data query
+generation system configured to generate a query regarding
+at least one element of qualified data in the job content for
+clarification thereof. In other features, the query regarding
+the at least one element of qualified data is presented in the
+user interface. In other features, the query regarding at least
+one element of qualified data is provided to the fleet intel-
+ligence layer for processing with at least one intelligence
+service of the set of intelligence services to provide at least
+one clarification item of data for the at least one element of
+qualified data through the fleet intelligence layer. In other
+features, the robot fleet platform includes a qualified data
+resolution system configured to evaluate at least onequali-
+fied data element in the job content for similarity to clarified
+data from a plurality of job requests, and based on an
+outcome of the evaluation to adjust the at least one qualified
+data element based on a similar clarified data element. In
+element includes replacing a qualified data value in the
+qualified data element with a corresponding data value from
+the clarified data element. In other features, the content
+filters are configured to identify qualified data, including at
+least one of missing data, unclear data and qualitative
+references. In other features, the fleet intelligence layer
+facilitates processing qualified data with a machine learning
+service of the set of intelligence services for improving
+parsing of qualified data. In other features, the content filters
+are configured to identify qualified data and related context
+for facilitating resolution of at least one of missing data,
+unclear data and qualitative references in the qualified data.
+A value chain network automation system includes a
+supply chain robotic fleet data set including attributes of a
+set of states and capabilities of a set of robotic systems in a
+supply chain for a set of goods. The system includes a
+demand intelligence robotic process automation data set
+including attributes of a set of states of a set of robotic
+process automation systems that undertake automation of a
+set of demand forecasting tasks for the set of goods. The
+system includes a coordination system that provides a set of
+robotic task instructions for the supply chain robotic fleet

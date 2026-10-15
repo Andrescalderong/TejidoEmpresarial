@@ -1,0 +1,133 @@
+In embodiments, the user interface includes a voice oper- 20 coordinated intelligence. Population of the unified database
+In embodiments, the user interface 1570 may include 25 tions, what data structures provide the most benefit, what
+[col 1]
+US 12,675,781 B2
+89
+1500, demand management applications 1502, intelligent
+product applications i510 and enterprise resource manage-
+ment applications 1520 that monitor and/or manage a value
+chain network and a set of value chain network entities 652.
+The unified view interface 1570 may thus provide, in
+embodiments, a control tower for an enterprise over a range
+of assets, such as supply chain infrastructure facilities 1560
+and other value chain network entities 652 that are involved
+as a product 650 travels from a point of origin through
+distribution and retail channels to an environment where it 10
+is used by a customer. These may include views of demand
+factors 1540 and supply factors 1550, so that a user may
+develop insights about connections among the factors and
+control one or both of them with coordinated intelligence.
+Population of a set of unified views may be adapted over 15
+time, such as by learning on outcomes 1040 or other
+operations of the adaptive intelligent systems 808, such as to
+determine which views of the interface 1570 provide the
+most impactful insights, control features, or the like.
+ated assistant 1580.
+In embodiments, the user interface includes a set of digital
+twins 1700 for presenting a visual representation of a set of
+attributes of a set of value chain network entities 652.
+capabilities for configuring the adaptive intelligent systems
+808 or adaptive intelligence facilities, such as to allow user
+ selection of attributes, parameters, data sources, inputs to
+learning, feedback to learning, views, formats, arrange-
+ments, or other elements. 30
+Value Chain Management PlatformControl Tower UI for
+Demand Management and Supply Chain
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with 35
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an 40
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a user
+interface that provides a set of unified views for a set of
+demand management information and supply chain infor-
+mation for a category of goods. 45
+Unified Database
+Referring to FIG. 31, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity 50
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 808. The 55
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which 60 
+may be an intelligent product.
+In embodiments, the platform 604 may include a unified
+database 1590 that supports a set of applications of multiple
+applications 1500, demand management applications 1502, 65 t
+intelligent product applications 1510 and enterprise resource
+management applications 1520 that monitor and/or manage
+[col 2]
+90
+a value chain network and a set of value chain network
+entities 652. The unified database 1590 may thus provide, in
+embodiments, unification of data storage, access and han-
+dling for an enterprise over a range of assets, such as supply
+chain infrastructure facilities 1560 and other value chain
+network entities 652 that are involved as a product 650
+travels from a point of origin through distribution and retail
+channels to an environment where it is used by a customer.
+This unification may provide a number of advantages,
+including reduced need for data entry, consistency across
+applications 630, reduced latency (and better real-time
+reporting), reduced need for data transformation and inte-
+gration, and others. These may include data relating to
+demand factors 1540 and supply factors 1550, so that an
+application 630 may benefit from information collected by,
+processed, or produced by other applications 630 of the
+platform604and auser can developinsights about connec-
+tions among the factors and control one or both of them with
+1590 may be adapted over time, such as by learning on
+outcomes 1040 or other operations of the adaptive intelligent
+systems 808, such as to determine which elements of the
+database 1590 should be made available to which applica-
+data should be stored or cached for immediate retrieval,
+what data can be discarded versus saved, what data is most
+beneficial to support adaptive intelligent systems 808, and
+for other uses.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a
+unified database that supports a set of applications of at least
+cations, a set of supply chain applications, a set ofintelligent
+product applications and a set of enterprise resource man-
+agement applications for a category of goods.
+In embodiments, the unified database that supports a set
+of demand management applications, a set of supply chain
+applications, a set of intelligent product applications and a
+set of enterprise resource management applications for a
+category of goods is a distributed database.
+In embodiments, the unified database that supports a set
+of demand management applications, a set of supply chain
+applications, a set of intelligent product applications and a
+set of enterprise resource management applications for a
+category of goods uses a graph database architecture. In
+embodiments, the set of demand management applications
+includes a demand prediction application. In embodiments,
+the set of demand management applications includes a
+demand aggregation application. In embodiments, the set of
+ demand management applications includes a demand acti-
+vationapplication.
+In embodiments, the set of supply chain management
+applications includes a vendor search application. In
+embodiments, the set of supply chain management applica-
+tions includes a route configuration application. In embodi-
+ments, the set of supply chain management applications
+includes a logistics scheduling application.

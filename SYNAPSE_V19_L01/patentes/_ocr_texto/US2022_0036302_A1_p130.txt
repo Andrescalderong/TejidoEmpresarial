@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0036302 A1
+user interface 3020 so that one or more of the adaptive
+intelligence systems 614 can automatically control the sets
+of supply chain applications (e.g, demand management
+applications 824 and supply chain applications 812). The
+adaptive intelligence systems 614 may include artificial
+intelligence including any of the various expert systems,
+artificial intelligence systems, neural networks, supervised
+learning systems, machine learning systems, deep learning
+systems, and other systems described throughout this dis-
+closure and in the documents incorporated by reference.
+[0411] In embodiments, the user interface 3020 may
+include interfaces for configuring an adaptive intelligence
+systems 614 to take inputs from selected data sources of the
+value chain 3094 (such as data sources used by the coordi-
+nated set of demand management applications 824 and/or
+the set of supply chain applications 812) and supply them,
+such as to a neural network, artificial intelligence system
+1160 or any of the other adaptive intelligence systems 614
+described throughout this disclosure and in the documents
+incorporated herein by reference for producing automated
+control signals 3092, such as to enhance, control, improve,
+optimize, configure, adapt or have another impact on a value
+chain for the category of goods 3010. In embodiments, the
+selected data sources of the value chain may be used for
+determining aspects of the automated control signals, such
+as for temporal adjustments to control outcomes relating to
+the value chain at least for the category of goods 3010 and
+the like.
+[0412] In an example, the set of automated control signals
+may include at least one control signal for automating
+execution of a supply chain application, such as a production
+start, an automated material order, an inventory check, a
+billing application and the like in the coordinated set of
+demand management applications and supply chain appli-
+cations. In yet another example of automated control signal
+generation, the set of automated control signals may include
+at least one control signal for automating execution of a
+demand management application, such as a product recall
+application, an email distribution application and the like in
+the coordinated set of demand management applications and
+supply chain applications. In yet other examples, the auto-
+mate control signals may control timing of demand man-
+agement applications based on goods supply status.
+[0413]In embodiments, the adaptive intelligence systems
+614 may apply machine learning to outcomes of supply to
+automatically adapt a set of demand management applica-
+tion control signals. Similarly, the adaptive intelligence
+systems 614 may apply machine learning to outcomes of
+demand management to automatically adapt a set of supply
+chain application control signals. The adaptive intelligence
+systems 614 may provide further processing for automated
+control signal generation, such as by applying artificial
+intelligence to determine aspects of a value chain that impact
+automated control of the coordinated set of demand man-
+agement applications and supply chain applications for a
+category of goods. The determined aspects could be used in
+the generation and operation of automated control intelli-
+gence/signals, such as by filtering out value chain informa-
+tion for aspects that do not impact the targeted demand
+management and supply chain applications.
+[0414] Automated control of, for example, supply chain
+applications may be restricted, such as by policy, operational
+limits, safety constraints and the like. The set of adaptive
+intelligence systems may determine a range of supply chain
+[col 2]
+Feb.3,2022
+application control values within which control can be
+automated. In embodiments, the range may be associated
+with a supply rate, a supply timing rate, a mix of goods in
+a category of goods, and the like.
+[0415] Embodiments are described herein for using arti-
+ficial intelligence systems or capabilities to identify, config-
+ure and regulate automated control signals. Such embodi-
+ments may further include a closed loop of feedback from
+the coordinated set of demand management and supply
+chain applications (e.g. state information, output informa-
+tion, outcomes and the like) that is optionally processed with
+machine learning and used to adapt the automated control
+signals for at least one of the goods in the category of goods.
+An automated control signal may be adapted based on, for
+example, an indication of feedback from a supply chain
+application that yield of a good suggests a production
+problem. In this example, the automated control signal may
+impact production rate and the feedback may cause the
+signal to automatically self-adjust to a slower production
+rate until the production problem is resolved.
+[0416] Referring to FIG. 19, a management platform of an
+information technology system, such as a management
+platform for a value chain of goods and/or services is
+depicted as a block diagram of functional elements and
+representative interconnections for providing information
+routing recommendations. The management platform
+includes a set of value chain networks 3102 from which
+network data 3110 is collected from a set of information
+routing activities, the information including outcomes,
+parameters, routing activity information and the like. Within
+the set of value chain networks 3102 is selected a select
+value chain network 3104 for which at least one information
+routing recommendation 3130 is provided.An artificial
+intelligence system 1160 may include a machine learning
+system and may be trained using a training set derived from
+the network data 3110 outcomes, parameters and routing
+activity information for the set of value chain networks
+3102. The artificial intelligence system 1160 may further
+provide an information routing recommendation 3130 based
+on a current status 3120 of the select value chain network
+3104. The artificial intelligence system may use machine
+learning to train on information transaction types within the
+set of value chain networks 3102, thereby learning pertinent
+factors regarding different transaction types (e.g., real-time
+inventory updates, buyer credit checks, engineering signoff,
+and the like) and contributing to the information routing
+recommendation accordingly. The artificial intelligence sys-
+tem may also use machine learning to train on information
+value for different types and/or classes of information routed
+in and throughout the set of value chain networks 3102.
+Information may be valued on a wide range of factors,
+including timing of information availability and timing of
+information consumption as well as information content-
+based value, such as information without which a value
+chain network element (e.g., a production provider) cannot
+perform a desired action (e.g., starting volume production
+without a work order). Therefore information routing rec-
+ommendations may be based on training on transaction type,
+information value, and a combination thereof. These are
+merely exemplary information routing recommendation
+training and recommendation basis factors and are presented
+here without limitation on other elements for training and
+recommendation basis.

@@ -1,0 +1,137 @@
+[col 1]
+US 12,277,524 B2
+93
+involved in the value chain operations. As an example,
+natural language processing of email communications
+among workers in an enterprise may indicate a degree of
+discomfort with, for example, a supplier to a value chain.
+While data associated with the supplier (e.g-, on-time pro-
+duction, quality, and the like) may be within a variance range
+deemed acceptable, information within this unstructured
+content may indicate a potential pain point, such as a
+personal issue with a key participant at the supplier and the
+like. By employing natural language processing, artificial  10
+intelligence, and optionally machine learning, problem state
+recognition may be enhanced.
+In embodiments, semi-sentient problem recognition may
+be based on analysis of variances of measures of a value
+chain operation/entity/application including variance of a 15
+given measure over time, variance of two related measures,
+and the like. In embodiments, variance in outcomes over
+time may indicate a problem state and/or suggest a pain
+point. In embodiments, an artificial intelligence-based sys-
+tem may determine an acceptable range of outcome variance 20
+and apply that range to measures of a select set of value
+chain network entities, such as entities that share one or
+more similarities, to facilitate detection of a problem state.
+In embodiments, an acceptable range of outcome variance
+may indicate a problem state trigger threshold that may be 25
+used by a local instance of artificial intelligence to signal a
+problem state. In such a scenario, a problem state may be
+detected when at least one measure of the value chain
+activity/entity and the like is greater than the artificial
+intelligence-determined problem state threshold. Variance 30
+analysis for problem state detection may include detecting
+variances in start/end times of scheduled value chain net-
+work entity activities, variances in at least one of production
+time, production quality, production rate, production start
+time, production resource availability or trends thereof, 35
+variances in a measure of shipping supply chain entity,
+variances in a duration of time for transfer from one mode
+of transport to another (e.g., when the variance is greater
+than a transport mode problem state threshold), variances in
+quality testing, and the like.
+In embodiments, a semi-sentient problem recognition
+system may include a machine learning/artificial intelli-
+gence prediction of a correlated pain point further along a
+supply chain due to a detected pain point, such as a risk
+and/or need for overtime, expedited shipping, discounting 45 t
+goods prices, and the like.
+In embodiments, a machine learning/artificial intelligence
+system may process outcomes, parameters, and data col-
+lected from a set of data sources relating to a set of value
+chain entities and activities to detect at least one pain point 50 
+selected from the list of pain points consisting of late
+shipment, damaged container, damaged goods, wrong
+goods, customs delay, unpaid duties, weather event, dam-
+aged infrastructure, blocked waterway, incompatible infra-
+structure, congested port, congested handling infrastructure, 55
+congested roadway, congested distribution center, rejected
+goods, returned goods, waste material, wasted energy.
+wasted labor force, untrained workforce, poor customer
+service, empty transport vehicle on return route, excessive
+fuel prices, excessive tariffs, and the like. 60
+Referring to FIG. 21, a management platform of an
+information technology system, such as a management
+platform for a value chain of goods and/or services is
+depicted as a block diagram of functional elements and
+representative interconnections automated coordination of a
+set of value chain network activities for a set of products of
+an enterprise. The management platform includes a set of
+[col 2]
+network-connected value chain network entities 3202 that
+produce activity information 3208 that is used by an artifi-
+cial intelligence system 1160 to provide automate coordi-
+nation 3220 of value chain network activities 3212 for a set
+of products 3210 for an enterprise 3204. In embodiments,
+value chain monitoring systems 614 may monitor activities
+of the set of network-connected value chain entities 3202
+and work cooperatively with data collection and manage-
+ment systems 640 to gather and store value chain entity
+monitored information, such as activity information, con-
+figuration information, and the like. This gathered informa-
+tion may be configured as activity information 3208 for a set
+of activities associated with a set of products 3210 of an
+enterprise 3204. In embodiments, the artificial intelligence
+ systems 1160 may use application programming connectiv-
+ity facilities 642 for automating access to the monitored
+activity information 3208.
+A value chain may include a plurality of interconnected
+entities that each perform several activities for completing
+the value chain. While humans play a critical role in some
+activities within a value chain network, greater automated
+coordination and unified orchestration of supply and demand
+may be achieved using artificial intelligence-type systems
+(e.g., machine learning, expert systems, self-organizing sys-
+tems, and the like including such systems describe herein
+and in the documents incorporated herein by reference) for
+coordinating supply chain activities. Use of artificial intel-
+ligence may further enrich the emerging nature of self-
+adapting systems, including Internet of Things (IoT) devices
+and intelligent products and the like that not only provide
+greater capabilities to end users, but can play a critical role
+in automated coordination of supply chain activities.
+For example, an IoT system deployed in a fulfillment
+center 628 may coordinate with an intelligent product 650
+that takes customer feedback about the product 650, and an
+application 630 for the fulfillment center 628 may, upon
+receiving customer feedback via a connection path to the
+intelligent product 650 about a problem with the product
+650, initiate a workflow to perform corrective actions on
+similar products 650 before the products 650 are sent out
+from the fulfillment center 628. The workflow may be
+analyzes the problem with the product 650, develops an
+understanding of value chain network activities that produce
+the product, determines resources required for the workflow,
+coordinates with inventory and production systems to adapt
+any existing workflows and the like. Artificial intelligence
+systems 1160 may further coordinate with demand manage-
+ment applications to address any temporary impact on
+product availability and the like.
+In embodiments, automated coordination of a set of value
+chain network activities for a set of products for an enter-
+prise may rely on the methods and systems of coordinated
+intelligence described herein, such as to facilitate coordi-
+nating demand management activities, supply chain activi-
+ties and the like, optionally using artificial intelligence for
+providing the coordinated intelligence, coordinating the
+activities and the like. As an example, artificial intelligence
+may facilitate determining relationships among value
+change network activities based on inputs used by the
+activities and results produced by the activities. Artificial
+intelligence may be integrated with and/or work coopera-
+tively with activities of the platform, such as value chain
+network entity activities to continuously monitor activities,
+identify temporal aspects needing coordination (e.g-, when
+changes in supply temporally impact demand activities), and
+automate such coordination.Automated coordination of

@@ -1,0 +1,136 @@
+ments, the digital twin may be rendered and output in an 1o and resultant outcomes) to ensure convergence of the digital
+[col 1]
+US 12,675,781 B2
+121
+or any other suitable parameters may be adjusted to conform
+to current status data and/or to a predicted status of a
+corresponding entity.
+In embodiments, a digital twin may be rendered by a
+computing device, such that a human user can view a digital
+representation of a set of physical assets, devices, or other
+entities, and/or an environment thereof. For example, the
+digital twin may be rendered and provided as an output, or
+may provide an output, to a display device. In some embodi-
+augmented reality and/or virtual reality display. For
+example, a user may view a 3D rendering of an environment
+(e.g., using monitor or a virtual reality headset). While doing
+so, the user may inspect digital twins of physical assets or
+devices in the environment. In embodiments, a user may 15
+view processes being performed with respect to one or more
+digital twins (e.g., inventorying, loading, packing, shipping.
+and the like). In embodiments, a user may provide input that
+controls one or more properties of a digital twin via a
+graphical user interface. 20
+In some embodiments, the adaptive intelligent systems
+layer 614 is configured to execute simulations using the
+digital twin. For example, the adaptive intelligent systems
+layer 614 may iteratively adjust one or more parameters of
+a digital twin and/or one or more embedded digital twins. In
+embodiments, the adaptive intelligent systems layer 614
+may, for each set of parameters, execute a simulation based
+on the set of parameters and may collect the simulation
+outcome data resulting from the simulation. Put another
+way,the adaptive intelligent systems layer 614may collect 30
+the properties of the digital twin and the digital twins within
+or containing the digital twin used during the simulation as
+well as any outcomes stemming from the simulation. For
+example, in running a simulation on a digital twin of a
+shipping container, the adaptive intelligent systems layer 35 r
+614 can vary the materials of the shipping container and can
+execute simulations that outcomes resulting from different
+combinations. In this example, an outcome can be whether
+the goods contained in the shipping container arrive to a
+destination undamaged. During the simulation, the adaptive 40
+intelligent systems layer 614 may vary the external tem-
+peratures of the container (e.g., a temperature property of the
+digital twin of an environment of the container may be
+adjusted between simulations or during a simulation), the
+dimensions of the container, the products inside (represented 45
+by digital twins of the products) the container, the motion of
+the container, the humidity inside the container, and/or any
+other properties of the container, the environment, and/or the
+contents in the container. For each simulation instance, the
+adaptive intelligent systems layer 614 may record the 50
+parameters used to perform the simulation instance and the
+outcome of the simulation instance. In embodiments, each
+digital twin may include, reference, or be linked to a set of
+physical limitations that define the boundary conditions for
+a simulation. For example, the physical limitations of a 55
+digital twin of an outdoor environment may include a
+gravity constant (e.g., 9.8 m/s2), a maximum temperature
+(e.g., 60 degrees Celsius), a minimum temperature (e.g., -80
+degrees Celsius), a maximum humidity (e.g-, 110% humid-
+ity), friction coeficients of surfaces, maximum velocities of 60
+objects, maximum salinity of water, maximum acidity of
+water, minimum acidity of water. Additionally or alterna-
+tively, the simulations may adhere to scientific formulas,
+such as ones reflecting principles or laws of physics, chem-
+istry, materials science, biology, geometry, or the like. For 65
+example, a simulation of the physical behavior of an object
+may adhere to the laws of thermodynamics, laws of motion,
+[col 2]
+122
+laws of fluid dynamics, laws of buoyancy,laws of heat
+transfer, laws of cooling, and the like. Thus, when the
+adaptive intelligent systems layer 614 performs a simula-
+tion, the simulation may conform to the physical limitations
+and scientific laws, such that the outcomes of the simulations
+mimic real world outcomes. The outcome from a simulation
+world data (e.g., measured properties of a container, the
+environment of the container, the contents of the container,
+twin with the real world, and/or used to train machine
+learning models.
+FIG. 38 illustrates example embodiments of a system for
+controlling and/or making decisions, predictions, and/or
+classification on behalf of a value chain system 2030. In
+embodiments, an artificial intelligence system 2010 lever-
+ages one or more machine-learned models 2004 to perform
+value chain-related tasks on behalf of the value chain system
+2030 and/or to make decisions, classifications, and/or pre-
+dictions on behalf of the value chain system 2030. In some
+embodiments, a machine learning system 2002 trains the
+machine learned models 2004 based on training data 2062.
+outcome data 2060, and/or simulation data 2022. As used
+herein, the term machine-learned model may refer to any
+suitable type of model that is learned in a supervised,
+unsupervised, or hybrid manner. Examples of machine-
+learned models include neural networks (e.g., deep neural
+networks, convolution neural networks, and many others),
+regression based models, decision trees, hidden forests,
+Hidden Markov models, Bayesian models, and the like. In
+embodiments, the artificial intelligence system 2010 and/or
+the value chain system 2030 may provide outcome data
+2060 to the machine-learning system 2002 that relates to a
+determination (e.g., decision, classification, prediction)
+made by the artificial intelligence system 2010 based in part
+on the one or more machine-learned models and the input to
+those models. The machine learning system may in-turn
+reinforce/retrain the machine-learned models 2004 based on
+the feedback. Furthermore, in embodiments, the machine-
+learning system 2002 may train the machine-learning mod-
+els based on simulation data 2022 generated by the digital
+twin simulation system 2020. In these embodiments, the
+digital twin simulation system 2020 may be instructed to run
+specific simulations using one or more digital twins that
+represent objects and/or environments that are managed,
+maintained, and/or monitored by the value chain system. In this way, the digital twin simulation system 2020 may
+provide richer data sets that the machine-learning system
+2002 may use to train/reinforce the machine-learned models.
+Additionally or alternatively, the digital twin simulation
+system 2020 may be leveraged by the artificial intelligence
+system 2010 to test a decision made by the artificial intel-
+ligence system 2010 before providing the decision to the
+value chain entity.
+In the illustrated example, a machine learning system
+2002 may receive training data 2062, outcome data 2060,
+and/or simulation data 2022. In embodiments, the training
+data may be data that is used to initially train a model. The
+training data may be provided by a domain expert, collected
+from various data sources, and/or obtained from historical
+records and/or scientific experimentation. The training data
+2062 may include quantified properties of an item or envi-
+ronment and outcomes relating from the quantified proper-
+ties. In some embodiments, the training data may be struc-
+tured in n-tuples, whereby each tuple includes an outcome
+and a respective set of properties relating to the outcome. In
+embodiments, the outcome data 2060 includes real world

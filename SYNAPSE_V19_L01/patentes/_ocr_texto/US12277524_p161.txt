@@ -1,0 +1,137 @@
+[col 1]
+US 12,277,524 B2
+147
+weather data, stock market data, news events, and the like
+may be collected, crawled, subscribed to, or the like to
+supplement the outcome data (and/or training data and/or
+simulation data).
+In some embodiments, the machine learning system 2002
+may receive simulation data 2022 from the digital twin
+simulation system 2020. Simulation data 2022 may be any
+data relating to a simulation using a digital twin. Simulation
+data 2022 may be similar to outcome data 2060, but the
+results are simulated results from an executed simulation 10
+rather than real-world data. In embodiments, simulation data
+2022 may include the properties of the digital twin and any
+other digital twins that were used to perform the simulation
+and the outcomes stemming therefrom. In embodiments, the
+digital twin simulation system 2020 may iteratively adjust 15
+the properties of a digital twin, as well as other digital twins
+that are contained or contain the digital twin. During each
+iteration, the digital twin simulation system 2020 may
+provide the properties of the simulation (e.g, the properties
+of all the digital twins involved in the simulation) to the 20
+artificial intelligence system 2010, which then outputs pre-
+dictions, classifications, or any other decisions to the digital
+twin simulation system 2020. The digital twin simulation
+system 2020 may use the decisions from the artificial
+intelligence system 2010 to execute the simulation (which 25
+may result in a series of decisions stemming from a state
+change in the simulation). At each iteration, the digital twin
+ simulation system 2020 may output the properties used to
+run the simulation to the machine learning system 2002, any
+decisions from the artificial intelligence system 2010 used 30
+by the digital twin simulation system 2020, and outcomes
+from the simulation to the machine learning system 2002,
+such that the properties, decisions, and outcomes of the
+simulation are used to further train the model(s) used by the
+artificial intelligence system during the simulation. 35
+In some embodiments, training data, outcome data 2060,
+ and/or simulation data 2022 may be fed into a data lake (e.g-
+a Hadoop data lake). The machine learning system 2002
+may structure the data from the data lake. In embodiments,
+the machine learning system 2002 may train/reinforce the 40
+models using the collected data to improve the accuracy of
+the models (e.g., minimize the error value of the model). The
+machine learning system may execute machine-learning
+algorithms on the collected data (e.g., training data, outcome
+data, and/or simulation data) to obtain the model. Depending 45
+on the type of model, the machine-learning algorithm will
+vary. Examples of learning algorithms/models include (e.g..
+deep neural networks, convolution neural networks, and
+many others as described throughout this disclosure), sta-
+tistical models (e.g-, regression-based models and many 50
+others), decision trees and other decision models, random/
+hidden forests, Hidden Markov models, Bayesian models,
+and the like. In collecting data from the digital twin simu-
+lation system 2020, the machine-learning system 2002 may
+train the model on scenarios not yet encountered by the 55
+value chain system 2030. In this way, the resultant models
+will have less “unexplored feature spaces, which may lead
+to improved decisions by the artificial intelligence system
+2010. Furthermore, as digital twins are based partly on
+assumptions, the properties of a digital twin may be updated/
+corrected when a real-world behavior differs from that of the
+digital twin. Examples are provided below.
+FIG. 39 illustrates an example of a container fleet man-
+agement system 2070 that interfaces with the adaptive
+intelligent systems layer 614. In example embodiments, a 65
+container fleet management system 2070 may be configured
+to automate one or more aspects of the value chain as it
+[col 2]
+148
+applies to containers and shipping. In embodiments, the
+container fleet management system 2070 may be include one
+or more software modules that are executed by one or more
+server devices. These software modules may be configured
+to select containers to use (e.g., a size of container, the type
+of the container, the provider of the container, etc.)for a set
+of one or more shipments, schedule delivery/pickup of
+container, selection of shipping routes, determining the type
+of storage for a container (e.g., outdoor or indoor), select a
+location of each container while awaiting shipping, manage
+bills of lading and/or other suitable container fleet manage-
+ment tasks. In embodiments, the machine-learning system
+2002 trains one or more models that are leveraged by the
+artificial intelligence system 2010 to make classifications,
+predictions, and/or other decisions relating to container fleet
+management. In example embodiments, a model 2004 is
+trained to select types of containers given one or more
+task-related features to maximize the likelihood of a desired
+outcome (e.g., that the contents of the container arrive in a
+timely manner with minimal loss at the lowest possible
+cost). As such, the machine-learning system 2002 may train
+the models using n-tuples that include the task-related
+features pertaining to a particular event and one or more
+outcomes associated with the particular event. In this
+example, task-related features for a particular event (e.g., a
+shipment) may include, but are not limited to, the type of
+container used, the contents of the container, properties of
+the container contents (e.g., cost, perishability, temperature
+restrictions, and the like), the source and destination of the
+container, whether the container is being shipped via truck,
+rail, or ship, the time of year, the cost of each container,
+and/or other relevant features. In this example, outcomes
+relating to the particular event may include whether the
+with any damage or loss, total shipping time, and/or total
+cost of shipment (e.g., how much it cost to ship container).
+Furthermore, as international and/or interstate logistics may
+include many different sources, destinations, contents,
+weather conditions, and the like, simulations that simulate
+different shipping events may be run to richen the data used
+to train the model. For instance, simulations may be run for
+different combinations of ports and/or train depots for dif-
+ferent combinations of sources, destinations, products, and
+times of year. In this example, different digital twins may be
+generated to represent the different combinations (e.g., digi-
+tal twins of products, containers, and shipping-related envi-
+ronments), whereby one or more properties of the digital
+twins are varied for different simulations and the outcomes
+of each simulation may be recorded in a tuple with the
+proprieties. In this way, the model may be trained on certain
+combinations of routes, contents, time of year, container
+tered in the real-world outcome data. Other examples of
+training a container fleet management model may include a
+model that is trained to determine where a container should
+be stored in a storage facility (e.g., where in a stack, indoors
+or outdoors, and/or the like) given the contents of the
+container, when the container needs to be moved, the type of
+container, the location, the time of year, and the like.
+In operation, the artificial intelligence system 2010 may
+use the above-discussed models 2004 to make container fleet
+management decisions on behalf of a container fleet man-
+agement system 2070 given one or more features relating to
+a task or event. For example, the artificial intelligence
+system 2010 may select a type of container (e.g., materials
+of the container, the dimensions of the container, the brand
+of the container, and the like) to use for a particular

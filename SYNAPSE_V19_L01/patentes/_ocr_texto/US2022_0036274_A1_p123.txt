@@ -1,0 +1,128 @@
+[col 1]
+US2022/0036274A1
+In examples, there may be systems, components, services
+and other capabilities that optimize control, automation, or
+one or more performance characteristics of one or more
+value chain network entities 652; or ones that may generally
+improve any of process and application outputs and out-
+comes 1040 pursued by use of the platform 604. In some
+examples, outputs and outcomes 1040 from various appli-
+cations 630 may be used to facilitate automated learning and
+improvement of classification, prediction, or the like that is
+involved in a step of a process that is intended to be
+automated.
+Some Data Storage Layer DetailsAlternative Data
+Architectures
+[0366] Referring to FIG. 12, additional details, compo-
+nents, sub-systems, and other elements of an optional
+embodiment of the data storage layer 624 of the platform
+604 are illustrated. Various data architectures may be used,
+including conventional relational and object-oriented data
+architectures, blockchain architectures 1180, asset tag data
+storage architectures 1178, local storage architectures 1190,
+network storage architectures 1174, multi-tenant architec-
+tures 1132, distributed data architectures 1002, value chain
+network (VCN) data object architectures 1004, cluster-based
+architectures 1128, event data-based architectures 1034,
+state data-based architectures 1140, graph database archi-
+tectures 1124, self-organizing architectures 1134, and other
+data architectures 1002
+[0367]The adaptive intelligent systems layer 614 of the
+platform 604 may include one or more protocol adaptors
+i110 for facilitating data storage, retrieval access, query
+management, loading, extraction, normalization, and/or
+transformation to enable use of the various other data
+storage architectures 1002, such as allowing extraction from
+one form of database and loading to a data system that uses
+a different protocol or data structure.
+[0368]In embodiments, the value chain network-oriented
+data storage systems layer 624 may include, without limi-
+tation, physical storage systems, virtual storage systems,
+local storage systems (e.g., part of the local storage archi-
+tectures 1i90), distributed storage systems, databases.
+memory, network-based storage, network-attached storage
+systems (e.g., part of the network storage architectures 1174
+such as using NVME, storage attached networks, and other
+network storage systems), and many others.
+[0369]In embodiments, the storage layer624 may store
+data in one or more knowledge graphs (such as a directed
+acyclic graph, a data map, a data hierarchy, a data cluster
+including links and nodes, a self-organizing map, or the like)
+in the graph database architectures 1i24. In example
+embodiments, the knowledge graph may be a prevalent
+example of when a graph database and graph database
+architecture may be used. In some examples, the knowledge
+graph may be used to graph a workflow. For a linear
+workflow, a directed acyclic graph may be used. For a
+contingent workflow, a cyclic graph may be used. The graph
+database (e.g., graph database architectures vpc608) may
+include the knowledge graph or the knowledge graph may
+be an example of the graph database. In example embodi-
+ments, the knowledge graph may include ontology and
+connections (e.g., relationships) between the ontology of the
+knowledge graph. In an example, the knowledge graph may
+be used to capture an articulation of knowledge domains of
+a human expert such that there may be an identification of
+[col 2]
+Feb.3,2022
+opportunities to design and build robotic process automation
+The platform may be used to recognize that a type of expert
+is using this factual knowledge base (from the knowledge
+graph) coupled with competencies that may be replicable by
+artificial intelligence that may be different depending on
+type of expertise involved. For example, artificial intelli-
+gence such as a convolutional neural network may be used
+with spatiotemporal aspects that may be used to diagnose
+issues or packing up a box in a warehouse. Whereas the
+platform may use a different type of knowledge graph for a
+self-organizing map of an expert whose main job is to
+segment customers into customer segmentation groups. In
+some examples, the knowledge graph may be built from
+various data such as job credentials, job listings, parsing
+output deliverables. In embodiments, the data storage layer
+624 may store data in a digital thread, ledger, or the like,
+such as for maintaining a serial or other records of an entities
+652 over time, including any of the entities described herein.
+In embodiments, the data storage layer 624 may use and
+enable an asset tag 1178, which may include a data structure
+that is associated with an asset and accessible and managed,
+such as by use of access controls, so that storage and
+retrieval of data is optionally linked to local processes, but
+In embodiments, the storage layer 624 may include one or
+more blockchains 1180, such as ones that store identity data,
+transaction data, historical interaction data, and the like,
+such as with access control that may be role-based or may
+be based on credentials associated with a value chain entity
+652, a service, or one or more applications 630. Data stored
+by the data storage systems 624 may include accounting and
+other financial data 730, access data 734, asset and facility
+data 1030 (such as for any of the value chain assets and
+facilities described herein), asset tag data 1178, worker data
+1032, event data 1034, risk management data 732, pricing
+data 738, safety data 664 and many other types of data that
+may be associated with, produced by, or produced about any
+of the value chain entities and activities described herein and
+in the documents incorporated by reference.
+Adaptive Intelligent Systems and Monitoring Layers
+[0370] Referring to FIG. 13, additional details, compo-
+nents, sub-systems, and other elements of an optional
+embodiment of the platform 604 are illustrated. The man-
+agement platform 604may,invarious optional embodi-
+ments, include the set of applications 630, by which an
+operator or owner of a value chain network entity, or other
+users, may manage, monitor, control, analyze, or otherwise
+interact with one or more elements of a value chain network
+entity 652, such as any of the elements noted in connection
+above and throughout this disclosure.
+[0371] In embodiments, the adaptive intelligent systems
+layer 614 may include a set of systems, components, ser-
+vices and other capabilities that collectively facilitate the
+coordinated development and deployment of intelligent sys-
+tems, such as ones that can enhance one or more of the
+applications 630 at the application platform layer 604; ones
+that can improve the performance of one or more of the
+components, or the overall performance (e.g., speed/latency,
+reliability, quality of service, cost reduction, or other factors)
+of the connectivity facilities 642; ones that can improve
+other capabilities within the adaptive intelligent systems
+layer 614; ones that improve the performance (e.g., speed/

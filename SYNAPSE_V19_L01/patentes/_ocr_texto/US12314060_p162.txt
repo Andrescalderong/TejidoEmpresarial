@@ -1,0 +1,36 @@
+[col 1]
+U.S. Patent May 27, 2025
+20740
+20780
+Edge Storage Edge Storage
+20122B 20122A
+Distributed Join with No Network Overhead
+ 172B
+Edge Device Edge Device
+20120B 20120A
+FIg.
+WHERE
+edge.devices
+events.event..details..id
+events.edge..device..id
+NO 120742
+INNER JOIN event$
+edge.devices.id
+Query ?
+FROM
+[col 2]
+US 12,314,060 B2 Sheet 158 of 178
+Edge Storage Edge Storage
+20122A 20122B
+Distributed Join with Distributed Tables
+FIG. 172C
+Edge Device Edge Device
+20120A 20120B
+u.account_id " e.account_id
+NO
+120782
+ users
+INNER JOIN eVents
+Query   user...id
+* FROM
+SELECT WHERE

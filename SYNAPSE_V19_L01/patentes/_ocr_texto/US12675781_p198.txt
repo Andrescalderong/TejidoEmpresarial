@@ -1,0 +1,136 @@
+In embodiments, the platform may provide a system for 5o on the value chain network. The stress test may comprise a
+[col 1]
+US 12,675,781 B2
+145
+owner 5008 may also display the information from ware-
+house digital twin kit system 5000 on a website or marketing
+material to be accessed by any customers, suppliers, vendors
+and other partners.
+In embodiments, a container ship digital twin kit system
+for providing out-of-the-box, self-configuring capabilities
+may represent a set of container ship entities that are linked
+to the identity of an owner or operator of the container ship.
+In embodiments, a port infrastructure digital twin kit
+system for providing out-of-the-box, self-configuring capa-
+bilities may represent a set of port infrastructure entities that
+are linked to the identity of an owner or operator of the port
+infrastructure.
+Value Chain Compatibility Testing (VCCT)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 for testing the compatibility
+between different value chain network entities 652 interact-
+ing with one another and forming various systems and
+subsystems of the value chain network. 20
+This brings visibility to the compatibility and perfor-
+mance of various systems and subsystems within the value
+chain network before there are any physical impacts. Any
+incompatibilities or performance deficiencies of different
+value chain network entities 652may be highlighted through 25
+digital models and simulations rather than having to rely on
+physical systems to perform such tests which is both expen-
+sive and impractical.
+The digital twin 1700 may make use of artificial intelli-
+gence systems 1160 (including any of the various expert 30
+systems, artificial intelligence systems, neural networks,
+supervised learning systems, machine learning systems,
+deep learning systems, and other systems described through-
+out this disclosure and in the documents incorporated by
+reference) for carrying out the compatibility testing in the 35
+value chain network.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of vendor
+components for a container ship using a set of digital twins
+representing the container ship and the vendor components. 40
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of vendor
+components for a warehouse using a set of digital twins
+representing the warehouse and the vendor components.
+In embodiments, the platform may provide a system for 45 c
+testing compatibility or configuration of a set of vendor
+components for a port infrastructure facility using a set of
+digital twins representing the port infrastructure facility and
+the vendor components.
+testing compatibility or configuration of a set of vendor
+components for a shipyard facility using a set of digital twins
+representing the shipyard facility and the vendor compo-
+nents.
+In embodiments, the platform may provide a system for 55
+testing compatibility or configuration of a container ship and
+a set of port infrastructure facilities using a set of digital
+twins representing the container ship and the port infrastruc-
+ture facility.
+In embodiments, the platform may provide a system for 60 c
+testing compatibility or configuration of a barge and a set of
+waterways for a navigation route using a set of digital twins
+representing the barge and the set of waterways.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a container ship and 65
+a set of cargo for an identified shipment using a set of digital
+twins representing the container ship and the cargo.
+[col 2]
+146
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a barge and a set of
+cargo for an identified shipment using a set of digital twins
+representing the barge and the cargo.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of cargo
+handling infrastructure facilities and a set of cargo for an
+identified shipment using a set of digital twins representing
+the cargo handling infrastructure facilities and the cargo.
+Value Chain Infrastructure Testing (VCIT)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 to perform stress tests on a set of
+value chain network entities. The digital twins may help
+simulate behavior of value chain network systems and
+sub-systems in a wide variety of environments. The stress
+tests may help run any “what-if' scenarios to understand the
+impact of change in relevant parameters beyond normal
+operating values and evaluate the resilience of the infra-
+structure of value chain network.
+The platform 604 may include a system for learning on a
+training set of outcomes, parameters, and data collected
+from data sources relating to a set of value chain network
+activities to train artificial intelligence systems 1160 (includ-
+ing any of the various expert systems, artificial intelligence
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the
+documents incorporated) for performing such stress tests on
+the value chain network.
+In embodiments, the platform may include a system for
+learning on a training set of machine outcomes, parameters,
+and data collected from data sources relating to a set of value
+chain network activities to train an artificial intelligence/
+machine learning system to perform stress tests on the
+machine using a digital twin that represents a set of value
+chain entities.
+As described, the value chain network comprises a plu-
+rality of interrelated sub-systems and sub-processes that
+manage and control all aspects associated with the produc-
+tion and delivery of a finished product to an end-userfrom
+the acquisition and distribution of raw materials between a
+supplier and a manufacturer, through the delivery, distribu-
+tion, and storage of materials for a retailer or wholesaler,
+and, finally, to the sale of the product to an end-user. The
+complex interconnected nature of the value chain network
+means that an adverse event within one subsystem or one or
+more value chain entities reflect through the entire value
+chain network.
+FIG. 54 is an example method for performing a stress test
+simulation exercise to test the resilience of the value chain
+network (including its subsystems) and determine its ability
+to deal with an adverse scenario, say a natural calamity, a
+congested route, a change in law, or a deep economic
+recession. Such adverse or stress scenarios may affect one or
+more entities or subsystems within the value chain network
+depending on the nature of the scenario. Hence, any stress
+tests would require simulating scenarios and analyzing the
+impact of different scenarios across different subsystems and
+on the overall value chain network.
+At 5102, all historical and current data related to the value
+chain network are received. The data may include informa-
+tion related to various operating parameters of the value
+chain network over a particular historical time period, say
+last 12 months. The data may also provide information on
+normal conditions. Some examples of operating parameters

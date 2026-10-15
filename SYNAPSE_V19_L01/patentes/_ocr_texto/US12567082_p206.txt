@@ -1,0 +1,136 @@
+carry items, remove and replace items, use tools and many 55 storage facilities, and monitoring facilities that are coordi-
+[col 1]
+US 12,567,082 B2
+89
+interaction observations 1500 (e.g., by workers interacting
+with various software interfaces of applications 630 involv-
+ing value chain network entities 652) and physical process
+interaction observations 1510 (e.g., by watching workers
+interacting with or using machines, equipment, tools or the
+like in a value chain network 668). In embodiments, obser-
+vation of software interactions 1500 may include interac-
+tions among software components with other software com-
+ponents, such as how one application 630 interacts via APIs
+with another application 630. In embodiments, observation 10
+of physical process interactions 1510 may include observa-
+tion (such as by video cameras, motion detectors, or other
+sensors, as well as detection of positions, movements, or the
+like of hardware, such as robotic hardware) of how human
+workers interact with value chain entities 652 (such as 15
+locations of workers (including routes taken through a
+location, where workers of a given type are located during
+a given set of events, processes or the like, how workers
+manipulate pieces of equipment, cargo, containers, pack-
+ages, products 650 or other items using various tools, 20
+equipment, and physical interfaces, the timing of worker
+responses with respect to various events (such as responses
+to alerts and warnings), procedures by which workers under-
+take scheduled deliveries, movements, maintenance,
+updates, repairs and service processes; procedures by which 25
+workers tune or adjust items involved in workflows, and
+many others). Physical process observation 1510 may
+include tracking positions, angles, forces, velocities, accel-
+eration, pressures, torque, and the like of a worker as the
+worker operates on hardware, such as on a container or 30
+package, or on a piece of equipment involved in handling
+products, with a tool. Such observations may be obtained by
+any combination of video data, data detected within a
+machine (such as of positions of elements of the machine
+detected andreportedbypositiondetectors),datacollected 35
+by a wearable device (such as an exoskeleton that contains
+position detectors, force detectors, torque detectors and the
+like that is configured to detect the physical characteristics
+of interactions of a human worker with a hardware item for
+purposes of developing a training data set). By collecting
+both software interaction observations 1500 and physical
+process interaction observations 1510 the RPA system 1442
+can more comprehensively automate processes involving
+value chain entities 652, such as by using software automa-
+tion in combination with physical robots. 45
+In embodiments, robotic process automation 1442 is
+configured to train a set of physical robots that have hard-
+ware elements that facilitate undertaking tasks that are
+conventionally performed by humans. These may include
+robots that walk (including walking up and down stairs to 50
+deliver a package), climb (such as climbing ladders in a
+warehouse to reach shelves where products 650 are stored),
+move about a facility, attach to items, grip items (such as
+using robotic arms, hands, pincers, or the like), lift items,
+others.
+Value Chain Management PlatformUnified Robotic Pro-
+cess Automation for Demand Management and Supply
+Chain
+In embodiments, provided herein are methods, systems, 60
+components and other elements for an information technol-
+ogy system that may include a cloud-based management
+VCNP 604 with a micro-services architecture, a set of
+interfaces 702, a set of network connectivity facilities 642,
+adaptiveintelligence facilities 614,data storagefacilities 65
+624, data collection systems 640, and monitoring facilities
+614 that are coordinated for monitoring and management of
+[col 2]
+90
+a set of value chain network entities 652; a set of applica-
+tions for enabling an enterprise to manage a set of value
+chain network entities from a point of origin to a point of
+customer use; and a unified set of robotic process automa-
+tion systems 1442 that provide coordinated automation
+among various applications 630, including demand manage-
+ment applications, supply chain applications, intelligent
+product applications and enterprise resource management
+applications for a category of goods.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a
+unified set of robotic process automation systems that pro-
+vide coordinated automation among at least two types of
+applications from among a set of demand management
+applications, a set of supply chain applications, a set of
+intelligent product applications and a set of enterprise
+resource management applications for a category of goods.
+Value Chain Management PlatformRobotic Process Auto-
+mation Services in Microservices Architecture for Value
+Chain Network
+In embodiments, provided herein are methods, systems,
+components and other elements for an information technol-
+ogy system that may include a cloud-based management
+VCNP 102 with a micro-services architecture, a set of
+interfaces 702, a set of network connectivity facilities 642.
+adaptive intelligence facilities 614, data storage facilities
+624, data collection systems 640, and monitoring facilities
+614 that are coordinated for monitoring and management of
+a set of value chain network entities 652; a set of applica-
+tions for enabling an enterprise to manage a set of value
+chain network entities from a point of origin to a point of
+customer use; and a set of microservices layers including an
+application layer supporting at least one supply chain appli-
+cation and at least one demand management application,
+wherein the microservice layers include a robotic process
+automation layer 1442 that uses information collected by a
+data collection layer 640 and a set of outcomes and activities
+1040 involving the applications of the application layer 630
+to automate a set of actions for at least a subset of the
+applications 630.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a set
+porting at least one supply chain application and at least one
+demand management application, wherein the microservice
+layers include a robotic process automation layer that uses
+information collected by a data collection layer and a set of
+outcomes and activities involving the applications of the
+application layer to automate a set of actions for at least a
+subset of the applications.

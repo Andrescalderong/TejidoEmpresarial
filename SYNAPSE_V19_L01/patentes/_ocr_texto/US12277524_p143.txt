@@ -1,0 +1,136 @@
+[col 1]
+US 12,277,524 B2
+111
+tion processes, demand management processes, demand
+aggregation processes, machines, ships, barges, warehouses.
+maritime ports, airports, airways, waterways, roadways,
+railways, bridges, tunnels, online retailers, ecommerce sites,
+demand factors, supply factors, delivery systems, floating
+assets, points of origin, points of destination, points of
+storage, points of use, networks, information technology
+ systems, software platforms, distribution centers, fulfllment
+centers, containers, container handling facilities, customs,
+export control, border control, drones, robots, autonomous
+vehicles, hauling facilities, drones/robots/AVs, waterways,
+port infrastructure facilities, or others.
+In embodiments, the platform 604 manages a set of
+demand factors 1540, a set of supply factors 1550 and a set
+of value chain infrastructure facilities 1560.
+In embodiments, the supply factors 1550 as mentioned
+throughout this disclosure may include, for example and
+without limitation, ones involving component availability,
+material availability, component location, material location, 20
+component pricing, material pricing, taxation, tariff, impost,
+duty, import regulation, export regulation, border control,
+trade regulation, customs, navigation, traffic, congestion,
+vehicle capacity, ship capacity, container capacity, package
+capacity, vehicle availability, ship availability, container 25
+availability, package availability, vehicle location, ship loca-
+tion, container location, port location, port availability, port
+capacity, storage availability, storage capacity, warehouse
+availability, warehouse capacity, fulfllment center location,
+fulfillment center availability, fulfillment center capacity, 30 
+asset owner identity, system compatibility, worker availabil-
+ity, worker competency, worker location, goods pricing, fuel
+pricing, energy pricing, route availability, route distance,
+route cost, route safety, and many others.
+In embodiments,the demand factors 1540 as mentioned 35
+throughout this disclosure may include, for example and
+without limitation, ones involving product availability, prod-
+uct pricing, delivery timing, need for refill, need for replace-
+ment, manufacturer recall, need for upgrade, need for main-
+tenance, need for update, need for repair, need for 4o 
+consumable, taste, preference, inferred need, inferred want
+group demand, individual demand, family demand, business
+demand, need for workflow, need for process, need for
+procedure, need for treatment, need for improvement, need
+for diagnosis, compatibility to system, compatibility to 45 
+product, compatibility to style, compatibility to brand,
+demographic, psychographic, geolocation, indoor location,
+destination, route, home location, visit location, workplace
+location, business location, personality, mood, emotion,
+customer behavior, business type, business activity, personal 50
+activity, wealth, income, purchasing history, shopping his-
+tory, search history, engagement history, clickstream history,
+website history, online navigation history, group behavior,
+family behavior, family membership, customer identity,
+group identity, business identity, customer profile, business 55
+profile, group profile, family profile, declared interest,
+inferred interest, and many others.
+In embodiments, the supply chain infrastructure facilities
+1560 as mentioned throughout this disclosure may include,
+for example and without limitation, ship, container ship, 60
+boat, barge, maritime port, crane, container, container han-
+dling, shipyard, maritime dock, warehouse, distribution,
+fulfillment, fueling, refueling, nuclear refueling, waste
+removal, food supply, beverage supply, drone, robot,
+autonomous vehicle, aircraft, automotive, truck, train, lift, 65
+forklift, hauling facilities, conveyor, loading dock, water-
+way, bridge, tunnel, airport, depot, vehicle station, train
+[col 2]
+112
+station, weigh station, inspection,roadway,railway,high
+way, customs house, border control, and other facilities.
+In embodiments, the set of applications 630 as mentioned
+throughout this disclosure may include, for example and
+without limitation, supply chain, asset management, risk
+management, inventory management, demand management,
+demand prediction, demand aggregation, pricing, position-
+ing, placement, promotion, blockchain, smart contract,
+infrastructure management, facility management, analytics,
+finance, trading, tax, regulatory, identity management, com-
+merce, ecommerce, payments, security, safety, vendor man-
+patibility management, infrastructure testing, incident
+management, predictive maintenance, logistics, monitoring,
+remote control, automation, self-configuration, self-healing,
+self-organization, logistics, reverse logistics, waste reduc-
+tion, augmented reality, virtual reality, mixed reality,
+demand customer profiling, entity profiling, enterprise pro-
+filing, worker profiling, workforce profiling, component
+supply policy management, product design, product con-
+figuration, product updating, product maintenance, product
+support, product testing, warehousing, distribution, fulfill-
+ment, kit configuration, kit deployment, kit support, kit
+updating, kit maintenance, kit modification, kit manage-
+ment, shipping fleet management, vehicle fleet management,
+workforce management, maritime fleet management, navi-
+gation, routing, shipping management, opportunity match-
+ing, search, advertisement, entity discovery, entity search,
+distribution, delivery, enterprise resource planning and other
+applications.
+Control Tower
+Referring to FIG. 30, an embodiment of the platform 604
+is provided. The platform 604 may employ a micro-services
+architecture with the various data handling layers 614, a set
+of network connectivity facilities 642 (which may include or
+connect to a set of interfaces 702 of various layers of the
+platform 604), a set of adaptive intelligence facilities or
+adaptive intelligent systems 1160, a set of data storage
+facilities or systems 624, and a set of monitoring facilities or
+systems 614. The platform 604 may support a set of appli-
+cations 630 (including processes, workflows, activities,
+events, use cases and applications) for enabling an enterprise
+to manage a set of value chain network entities 652, such as
+from a point of origin to a point of customer use of a product
+650, which may be an intelligent product.
+In embodiments, the platform 604 may include a user
+interface 1570 that provides a set of unified views for a set
+of demand management information and supply chain infor-
+mation for a category of goods, such as one that displays
+status information, event information, activity information,
+analytics, reporting, or other elements of, relating to, or
+produced by a set of supply chain management applications
+1500, demand management applications 1502, intelligent
+product applications 1510 and enterprise resource manage-
+ment applications 1520 that monitor and/or manage a value
+chain network and a set of value chain network entities 652.
+The unified view interface 1570 may thus provide, in
+embodiments, a control tower for an enterprise over a range
+of assets, such as supply chain infrastructure facilities 1560
+and other value chain network entities 652 that are involved
+distribution and retail channels to an environment where it
+is used by a customer.These may include views of demand
+factors 1540 and supply factors 1550, so that a user may
+develop insights about connections among the factors and
+control one or both of them with coordinated intelligence.
+Population of a set of unified views may be adapted over

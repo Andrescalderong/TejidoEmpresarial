@@ -1,0 +1,135 @@
+eling or other adaptive or coordinated intelligence activity, 30 activities and other supply factors 648 involved in supply
+[col 1]
+US 12,675,781 B2
+33
+to, demand curve management 352, synchronization of an
+ecosystem 348, intelligent procurement 344, dynamic ful-
+fllment 350, value chain analytics 340, and/or smart supply
+chain operations 342. In example embodiments, the value
+chain control tower 360 may be connected to, in commu-
+nication with, or otherwise operatively coupled with adap-
+tive data pipelines 302 and processing facilities that may be
+further connected to, in communication with, or otherwise
+operationally coupled with external data sources 320 and a
+data handling stack 330 (e.g-, value chain network technol- 10 
+ogy) that may include intelligent, user-adaptive interfaces,
+adaptive intelligence and control 332, and/or adaptive data
+monitoring and storage 334, as described herein. The value
+chain control tower 302 may also be further connected to, in
+communication with, or otherwise operatively coupled with 15
+additional value chain entities including, but not limited to,
+digital product networks 360, customers (e.g., directed con-
+nected customers 362), and/or other connected operations
+364 and entities of a value chain network.
+Digital Product Networks ("DPN")
+Referring to FIG. 4, a block diagram is presented showing
+components and interrelationships of systems and processes
+of the digital products networks at 400. In example embodi-
+ments, products (including goods and services) may create
+and transmit data, such as product level data, to a commu- 25
+nication layer within the value chain network technology
+stack and/or to an edge data processing facility. This data
+combined with third party data for further processing, mod-
+as described herein. This may include, but is not limited to,
+producing and/or simulating product and value chain use
+cases, the data for which may be utilized by products,
+product development processes, product design, and the
+like.
+Stack View Examples
+Referring to FIG. 5, a block diagram is presented at 500
+showing components and interrelationships of systems and
+processes of a value chain network technology stack, which
+may include,but is not limitedto apresentation layer, an 40
+intelligence layer, and serverless functionalities such as
+platforms (e.g., development and hosting platforms), data
+facilities (e.g., relating to data with IoT and Big Data), and
+data aggregation facilities. In example embodiments, the
+presentation layer may include, but is not limited to, a user 45
+interface, and modules for investigation and discovery and
+tracking users' experience and engagements. In example
+embodiments, the intelligence layer may include, but is not
+limited to, a statistical and computation methods, semantic
+models, an analytics library, a development environment for 50
+ analytics, algorithms, logic and rules, and machine learning.
+In example embodiments, the platforms or the value chain
+network technology stack may include a development envi-
+ronment, APIs for connectivity, cloud and/or hosting appli-
+cations, and device discovery. In example embodiments, the 55
+data aggregation facilities or layer may include, but is not
+limited to, modules for data normalization for common
+transmission and heterogeneous data collection from dispa-
+rate devices. In example embodiments, the data facilities or
+layer may include, but is not limited to, IoT and big data 60
+access, control, and collection and alternatives. In example
+embodiments, the value chain network technology stack
+may be further associated with additional data sources
+and/or technology enablers.
+Value Chain Orchestration from a Command Platform 65
+FIG. 6 illustrates a connected value chain network 668 in
+which a value chain network management platform 604
+[col 2]
+34
+(referred to herein in some cases as a “value chain control
+platform") orchestrates a variety of factors involved in
+planning, monitoring, controlling, and optimizing various
+entities and activities involved in the value chain network
+668, such as supply and production factors, demand factors,
+logistics and distribution factors, and the like. By virtue of
+a unified platform 604 for monitoring and managing supply
+factors and demand factors as well as status information
+(e.g., quality and status, plan, order and confirm, and/or
+track and trace) can be shared about and between various
+entities (e.g., including customers/consumers, suppliers, dis-
+tribution such as distributors, suppliers, and production such
+as producers or production facilities) as demand factors are
+ understood and accounted for, as orders are generated and
+fulfilled, and as products are created and moved through a
+supply chain. The value chain network 668 may include not
+infrastructure, personnel and other entities involved in plan-
+20 ning and satisfying demand for it.
+Value Chain Network and Value Chain Network Manage-
+ment Platform
+Referring to FIG.7, the value chain network 668managed
+by a value chain management platform 604 may include a
+set of value chain network entities 652, such as, without
+limitation: a product 650, which may be an intelligent
+product 650; a set of production facilities 674 involved in
+producing finished goods, components, systems, sub-sys-
+tems, materials used in goods, or the like; various entities,
+environments 670, such as suppliers 642, points of origin
+610, and the like; various entities, activities and other
+demand factors 644 involved in demand environments 672,
+such as customers 662 (including consumers, businesses,
+35 and intermediate customers such as value added resellers
+and distributors), retailers 664 (including online retailers,
+mobile retailers, conventional bricks and mortar retailers,
+pop-up shops and the like) and the like located and/or
+operating at various destinations 612; various distribution
+environments 678 and distribution facilities 658, such as
+warehousing facilities 654, fulfillment facilities 628, and
+delivery systems 632, and the like, as well as maritime
+facilities 622, such as port infrastructure facilities 660,
+floating assets 620, and shipyards 638, among others. In
+embodiments, the value chain network management plat-
+form 604 monitors, controls, and otherwise enables man-
+agement (and in some cases autonomous or semi-autono-
+mous behavior) of a wide range of value chain network 668
+processes, workflows, activities, events and applications 630
+(collectively referred to in some cases simply as “"applica-
+tions 630").
+Referring still to FIG. 7, a high-level schematic of the
+value chain network management platform 604 is illustrated.
+The value chain network management platform 604 may
+include a set of systems, applications, processes, modules,
+services, layers, devices, components, machines, products,
+sub-systems, interfaces, connections, and other elements
+working in coordination to enable intelligent management of
+a set of value chain entities 652 that may occur, operate,
+transact or the like within, or own, operate, support or
+enable, one or more value chain network processes, work-
+flows, activities, events and/or applications 630 or that may
+otherwise bepart of,integrated with,linkedto, or operated
+on by the VCNP 604 in connection with a product 650
+(which may be any category of product, such as a finished
+good, sofiware product, hardware product, component prod-
+uct, material, item of equipment, item of consumer packaged

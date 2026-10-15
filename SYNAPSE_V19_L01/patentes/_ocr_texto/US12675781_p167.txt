@@ -1,0 +1,135 @@
+[col 1]
+US 12,675,781 B2
+83
+mation 1442), or the like to one or more of the systems,
+sub-systems, components, applications or the like of the
+VCNP 102 or with which the VCNP 102 interacts. In
+embodiments, the opportunity miners 1460 may be config-
+ured or used by developers of AI or RPA solutions to find
+opportunities for better solutions and to optimize existing
+solutions in a value chain network 668. In embodiments, the
+opportunity miners 1460 may include a set of systems that
+collect information within the VCNP 102 and collect infor-
+mation within, about and for a set of value chain network 1o I
+entities 652 and environments, where the collected infor-
+mation has the potential to help identify and prioritize
+opportunities for increased automation and/or intelligence
+about the value chain network 668, about applications 630,
+about value chain network entities 652, or about the VCNP 15
+102 itself. For example, the opportunity miners 1460 may
+include systems that observe clusters of value chain network
+workers by time, by type, and by location, such as using
+cameras, wearables, or other sensors, such as to identify
+labor-intensive areas and processes in a set of value chain 20
+network 668 environments. These may be presented, such as
+in a ranked or prioritized list, or in a visualization (such as
+a heat map showing dwell times of customers, workers or
+other individuals on a map of an environment or a heat map
+showing routes traveled by customers or workers within an 25
+environment) to show places with high labor activity. In
+embodiments, analytics 838 may be used to identify which
+environments or activities would most benefit from automa-
+tion for purposes of improved delivery times, mitigation of
+congestion, and other performance improvements. 30
+In embodiments, opportunity mining may include facili-
+ties for solicitation of appropriate training data sets that may
+be used to facilitate process automation. For example,
+certain kinds of inputs, if available, would provide very high
+value for automation, such as video data sets that capture 35
+very experienced and/or highly expert workers performing
+complex tasks. Opportunity miners 1460 may search for
+such video data sets as described herein; however, in the
+absence of success (or to supplement available data), the
+platform may include systems by which a user, such as a 40
+developer, may specify a desired type of data, such as
+software interaction data (such as of an expert working with
+a program to perform a particular task), video data (such as
+video showing a set of experts performing a certain kind of
+delivery process, packing process, picking process, a con- 45
+tainer movement process, or the like),and/or physical pro-
+cess observation data (such as video, sensor data, or the
+like). The resulting library of interactions captured in
+response to specification may be captured as a data set in the
+data storage layer 624, such as for consumption by various 50
+applications 630, adaptive intelligence systems 808, and
+other processes and systems. In embodiments, the library
+may include videos that are specifically developed as
+instructional videos, such as to facilitate developing an
+automation map that can follow instructions in the video, 55
+such as providing a sequence of steps according to a
+procedure or protocol, breaking down the procedure or
+and the like. In embodiments, such videos may be processed
+develop a sequence of labeled instructions that can be used
+by a developer to facilitate a map, a graph, or other models
+of a process that assists with development of automation for
+the process. In embodiments, a specified set of training data
+sets may be configured to operate as inputs to learning. In 65
+such cases the training data may be time-synchronized with
+other data within the platform 604, such as outputs and
+[col 2]
+84
+outcomes from applications 630, outputs and outcomes of
+value chain entities 652, or the like, so that a given video of
+a process can be associated with those outputs and out-
+comes, thereby enabling feedback on learning that is sensi-
+tive to the outcomes that occurred when a given process that
+was captured (such as on video, or through observation of
+software interactions or physical process interactions). For
+example, this may relate to an instruction video such as a
+video of a person who may be building or rebuilding (e.g.,
+rebuilding a bearing set). This instruction video may include
+individual steps for rebuild that may allow a staging of the
+training to provide instructions such as parsing the video
+into stages that mimic the experts staging in the video. For
+example, this may include tagging of the video to include
+references to each stage and status (e.g., stage one complete,
+stage two, etc.) This type of example may utilize artificial
+intelligence that may understand that there may be a series
+of sub-functions that add up to a final function.
+In embodiments, opportunity miners 1460 may include
+methods, systems, processes, components, services and
+other elements for mining for opportunities for smart con-
+tract definition, formation, configuration and execution.
+Data collected within the platform 604, such as any data
+handled by the data handling layers 608, stored by the data
+storage layer 624, collected by the monitoring layer 614 and
+collection systems 640, collected about or from entities 652
+or obtained from external sources may be used to recognize
+beneficial opportunities for application or configuration of
+smart contracts. For example, pricing information about an
+entity 652, handled by a pricing application 842, or other-
+wise collected, may be used to recognize situations in which
+the same item or items is disparately priced (in a spot
+market, futures market, or the like), and the opportunity
+for smart contract formation, such as a contract to buy in one
+environment at a price below a given threshold and sell in
+another environment at a price above a given threshold, or
+vice versa.
+In some examples, as shown in FIG. 26, the adaptive
+intelligent systems 808 may include value translators 1470.
+The value translators 1470 may relate to demand side of
+transactions. Specifically, for example, the value translators
+1470 may understand negative currencies of two market-
+places and may be able to translate value currencies into
+have clear translation functions).In some examples,value
+translators 1470 may be associated with points of a point-
+based system (e.g., in a cost-based routing system). In an
+example embodiment, value translators 1470 may be loyalty
+points offered that may be convertible into airline seats
+and/or may translate to refund policies for staying in a hotel
+room. In some examples, different types of entities may be
+connected as having native pricing or cost functions that do
+not always use the same currency or any currency. In another
+example, value translators 1470 may be used with network
+prioritization or cost-based routing that happens in networks
+off of priorities where the point system in these cost-based
+routing systems is not monetary-based.
+Broad Management Platform
+Referring to FIG. 28, additional details of an embodiment
+of the platform 604 are provided, in particular relating to an
+overall architecture for the platform 604. These may include,
+for the cloud-based management platform 604, employing a
+micro-services architecture, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent

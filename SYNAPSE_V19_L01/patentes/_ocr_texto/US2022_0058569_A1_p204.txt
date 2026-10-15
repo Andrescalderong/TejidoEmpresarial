@@ -1,0 +1,130 @@
+[col 1]
+US2022/0058569A1
+121
+geofence), by indoor location (such as by proximity to
+known resources, such as IoT-enabled devices and infra-
+structure, Wifi routers, switches, or the like), by cellular
+time navigation aids and vessel identity beacons, by identity
+management systems (such as where an entity 652 is ass0-
+ciated with another entity 652, such as an owner, operator,
+managed by the platform 604), and the like. In these
+examples, an entity discovery system 1900 may interact
+with established maritime asset logistic systems used to
+track traffic and location. In these examples, an entity
+discovery system 1900 may interact with established mari-
+time asset autopilot and auto-navigation systems obtaining
+information relevant to intended navigation destinations and
+from there, the error and magnitude of corrective action need
+to arrive at the navigation destination.
+[1058] Referring to FIG. 22, the adaptive intelligence
+layer 614 may include a value chain network digital twin
+system 1700, which may include a set of components,
+processes, services, interfaces and other elements for devel-
+opment and deployment of digital twin capabilities for
+visualization of various value chain entities 652 in environ-
+ments, and applications 630, as well as for coordinated
+intelligence (including artificial intelligence 1160, edge
+intelligence 1420, analytics and other capabilities) and other
+value-added services and capabilities that are enabled or
+facilitated with a digital twin 1700. In embodiments, a
+digital twin system 1700 may be deployed with each facility
+(or groups thereof) among the maritime facilities 622 and
+may be deployed for each of floating assets 620. In many
+instances, each floating asset 620 and physical assets in the
+maritime facilities 622 can be coordinated and managed
+with its digital twin supported by the digital twin system
+1700. Without limitation, a digital twin system 1700 may be
+used for and/or applied to each of the processes that is
+managed, controlled, or mediated by each of the set of
+applications 630 of the platform application layer that may
+be deployed in various systems, networks, and infrastruc-
+tures (or across groups thereof) of the floating assets 620 and
+in and among the maritime facilities 622.
+[1059]  In embodiments, the digital twin 1700 may take
+advantage of the presence of multiple applications 630
+within the value chain management platform layer 604, such
+that a pair of applications may share data sources (such as in
+the data storage layer 624) and other inputs (such as from the
+monitoring layer 614)thatare collected (to supportfusion of
+collected signals and the like) with respect to value chain
+entities 652, as well sharing outputs, events, state informa-
+tion and outputs, which collectively may provide a much
+richer environment for enriching content in a digital twin
+1700, including through use of artificial intelligence 1160
+including any of the various expert systems, artificial intel-
+ligence systems, neural networks, supervised learning sys-
+tems, machine learning systems, deep learning systems, and
+other systems described throughout this disclosure and in the
+documents incorporated by reference and through use of
+content collected by the monitoring layer 614 and data
+collection systems 640.
+[1060]Referring to FIG.23,any of thevalue chain
+network entities 652 can be depicted in a set of one or more
+digital twins 1700, such as by populating the digital twin
+1700 with value chain network data object 1004, such as
+event data 1034, state data 1140, or other data with respect
+[col 2]
+Feb.24,2022
+to value chain network entities 652,applications 630, or
+components or elements of the platform 604 as described
+throughout this disclosure.
+[1061] Thus, the platform 604 may include, integrate,
+integrate with, manage, control, coordinate with, or other-
+wise handle any ofa wide variety of digital twins 1700, such
+as distribution twins 1714 (such as representing distribution
+facilities, assets, objects, workers, or the like); warehousing
+twins 1712 (such as representing warehouse facilities,
+assets, objects, workers and the like); port infrastructure
+twins 1714 (such as representing a seaport, an airport, or
+other facility, as well as assets, objects, workers and the
+like); shipping facility twins 1720; operating facility twins
+1172; customer twins 1730; worker twins 1740; wearable/
+portable device twins 1750; process twins 1760; machine
+twins 1770 (such as for various machines used to support a
+value chain network 668);product twins 1780;point of
+origin twins 1502; supplier twins 1630; supply factor twins
+1650; maritime facility twins 1572; floating asset twins
+1570; shipyard twins 1620; destination twins 1562; fulfill-
+ment twins 1600; delivery system twins 1610; demand
+factor twins 1640; retailer twins 1790; ecommerce and
+online site and operator twins 1800; waterway twins 1810;
+roadway twins 1820; railway twins 1830; air facility twins
+1840 (such as twins of aircraft, runways, airports, hangars,
+warehouses, air travel routes, refueling facilities and other
+assets, objects, workers and the like used in connection with
+air transport of products 650); autonomous vehicle twins
+1850; robotics twins 1860; drone twins 1870; and logistics
+factor twins 1880; among others.
+[1062] Referring to FIG. 27, additional details of an
+embodiment of the platform 604 are provided, in particular
+relating to elements of the adaptive intelligence layer 614
+that facilitate improved edge intelligence, including the
+adaptive edge compute management system 1400 and the
+edge intelligence system 1420. These elements provide a set
+of systems that adaptively manage “edge" computation,
+storage and processing, such as by varying storage locations
+for data and processing locations (e.g., optimized by AI)
+between on-device storage, local systems, peer-to-peer, in
+the network and in the cloud. These elements can enable
+facilitation of a dynamic definition by a user, such as a
+developer, operator, or host of the platform 102, of what
+anywhere in the world and especially in regions of the
+oceans where connectivity can be constrained. For example,
+for environments where data connections are slow or unre-
+liable (such as where a facility does not have good access to
+cellular networks (such as due to remoteness on the globe),
+shielding or interference (such as where density of network-
+using systems, thick metals hulls of container ships, thick
+metal container walls, underwater or underground location,
+or presence of large metal objects (such as vaults, hulls,
+containers, cranes, stacked raw materials, and the like,)
+interferes with networking performance), and/or congestion
+(such as where there are many devices seeking access to
+limited networking facilities), edge computing capabilities
+can be defined and deployed to operate on the local area
+network of an environment, in peer-to-peer networks of
+devices, or on computing capabilities of local value chain
+entities 652. Where strong data connections are available
+(such as where good backhaul facilities exist), edge com-
+puting capabilities can be disposed in the network, such as
+for caching frequently used data at locations that improve

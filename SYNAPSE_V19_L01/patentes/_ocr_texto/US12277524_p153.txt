@@ -1,0 +1,137 @@
+[col 1]
+US 12,277,524 B2
+131
+such as grouping or clustering of data points. In some
+embodiments, the machine learning model 3000 may learn
+from test data, i.e. training data, that has not been labeled,
+classified, or categorized. The unsupervised learning algo-
+rithm may include identifying, by the machine learning
+model 3000, commonalities in the training data and learning
+by reacting based on the presence or absence of the identi-
+fied commonalities in new pieces of data. In some embodi-
+ments, the machine learning model 3000 may generate one
+or more probability density functions. In some embodi- 1o
+ments, the machine learning model 3000 may learn by
+performing cluster analysis, such as by assigning a set of
+observations into subsets, i.e. clusters, according to one or
+more predesignated criteria, such as according to a similarity
+metric of which internal compactness, separation, estimated 15
+density, and/or graph connectivity are factors.
+In some embodiments, the machine learning model 3000
+may be defined via semi-supervised learning, i.e. one or
+more algorithms using training data wherein some training
+examples may be missing training labels. The semi-super- 20
+vised learning may be weakly supervised learning, wherein
+the training labels may be noisy, limited, and/or imprecise.
+The noisy, limited, and/or imprecise training labels may be
+cheaper and/or less labor intensive to produce, thus allowing
+the machine learning model 3000 to train on a larger set of 25
+training data for less cost and/or labor.
+In some embodiments, the machine learning model 3000
+may be defined via reinforcement learning, such as one or
+more algorithms using dynamic programming techniques
+such that the machine learning model 3000 may train by 301
+taking actions in an environment in order to maximize a
+cumulative reward. In some embodiments, the training data
+is represented as a Markov Decision Process.
+In some embodiments, the machine learning model 3000
+may be defined via self-learning, wherein the machine 35
+learning model 3000 is configured to train using training
+data with no external rewards and no external teaching, such
+as by employing a Crossbar Adaptive Array (CAA). The
+CAA may compute decisions about actions and/or emotions
+about consequence situations in a crossbar fashion, thereby 40
+driving teaching of the machine learning model 3000 by
+interactions between cognition and emotion.
+In some embodiments, the machine learning model 3000
+may be defined via feature learning, i.e. one or more
+algorithms designed to discover increasingly accurate and/or 45
+apt representations of one or more inputs provided during
+training, e.g. training data. Feature learning may include
+training via principal component analysis and/or cluster
+analysis. Feature learning algorithms may include attempt-
+ing, by the machine learning model 3000, to preserve input 50
+training data while also transforming the input training data
+such that the transformed input training data is useful. In
+some embodiments, the machine learning model 3000 may
+be configured to transform the input training data prior to
+performing one or more classifications and/or predictions of 55
+the input training data. Thus, the machine learning model
+3000 may be configured to reconstruct input training data
+from one or more unknown data-generating distributions
+without necessarily conforming to implausible configura-
+tions of the input training data according to the distributions. 60
+In some embodiments, the feature learning algorithm may
+be performed by the machine learning model 3000 in a
+supervised, unsupervised, or semi-supervised manner.
+In some embodiments, the machine learning model 3000
+may be defined via anomaly detection, i.e. by identifying 65
+rare and/or outlier instances of one or more items, events
+and/or observations. The rare and/or outlier instances may
+[col 2]
+132
+be identified by the instances differing significantly from
+patterns and/or properties of a majority of the training data.
+Unsupervised anomaly detection may include detecting of
+anomalies, by the machine learning model 3000, in an
+unlabeled training data set under an assumption that a
+majority of the training data is "normal." Supervised
+anomaly detection may include training on a data set
+wherein at least a portion of the training data has been
+labeled as“normal""and/or "abnormal."
+In some embodiments, the machine learning model 3000
+may be defined via robot learning. Robot learning may
+include generation, by the machine learning model 3000, of
+one or more curricula, the curricula being sequences of
+learning experiences, and cumulatively acquiring new skills
+via exploration guided by the machine learning model 3000
+and social interaction with humans by the machine learning
+model 3000. Acquisition of new skills may be facilitated by
+maturation, motor synergies, and/or imitation.
+In some embodiments, the machine learning model 3000
+can be defined via association rule learning. Association rule
+learning may include discovering relationships, by the
+machine learning model 3000, between variables in data-
+bases, in order to identify strong rules using some measure
+of "interestingness." Association rule learning may include
+identifying, learning, and/or evolving rules to store, manipu-
+late and/or apply knowledge. The machine learning model
+3000 may be configured to learn by identifying and/or
+utilizing a set of relational rules, the relational rules collec-
+tively representing knowledge captured by the machine
+learning model 3000. Association rule learning may include
+one or more of learning classifier systems, inductive logic
+programming, and artificial immune systems. Learning clas-
+sifier systems are algorithms that may combine a discovery
+component, such as one or more genetic algorithms, with a
+learning component, such as one or more algorithms for
+supervised learning, reinforcement learning, or unsuper-
+vised learning. Inductive logic programming may include
+rule-learning, by the machine learning model 3000, using
+logic programming to represent one or more of input
+examples, background knowledge, and hypothesis deter-
+mined by the machine learning model 3000 during training.
+The machine learning model 3000 may be configured to
+derive a hypothesized logic program entailing all positive
+examples given an encoding of known background knowl-
+of facts.
+In embodiments, another set of solutions, which may be
+deployed alone or in connection with other elements of the
+platform, including the artificial intelligence store 3504, may
+include a set of functional imaging capabilities FMRP102,
+which may comprise monitoring systems 640 and in some
+cases physical process observation systems 1510 and/or
+software interaction observation systems 1500, such as for
+monitoring various value chain entities 652. Functional
+imaging systems FMRP102 may, in embodiments, provide
+considerable insight into the types of artificial intelligence
+that are likely to be most effective in solving particular types
+of problems most effectively.As noted elsewhere in this
+disclosure and in the documents incorporated by reference
+herein, computational and networking systems, as they grow
+in scale, complexity and interconnections, manifest prob-
+lems of information overload, noise, network congestion,
+energy waste, and many others. As the Internet of Things
+grows to hundreds of billions of devices, and virtually
+countless potential interconnections, optimization becomes
+exceedingly difficult. One source for insight is the human

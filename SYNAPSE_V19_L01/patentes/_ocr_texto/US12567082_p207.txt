@@ -1,0 +1,138 @@
+defect in an image, inspection of a product in an image, 65 In embodiments, one of the processes automated by robotic
+[col 1]
+US 12,567,082 B2
+91
+Value Chain Management PlatformRobotic Process Auto-
+mation for Value Chain Network Processes
+In embodiments, provided herein are methods, systems,
+components and other elements for an information technol-
+ogy system that may include a cloud-based management
+VCNP 102 with a micro-services architecture, a set of
+interfaces 702, a set of network connectivity facilities 642.
+adaptive intelligence facilities 614, data storage facilities
+624, data collection systems 640, and monitoring facilities
+614thatarecoordinatedformonitoringandmanagementof10
+a set of value chain network entities 652; a set of applica-
+tions for enabling an enterprise to manage a set of value
+chain network entities from a point of origin to a point of
+customer use; and a set of robotic process automation
+systems 1442 for automating a set of processes in a value 15
+chain network, wherein the robotic process automation
+systems 1442 learn on a training set of data involving a set
+of user interactions with a set of interfaces 702 of a set of
+software systems that are used to monitor and manage the
+value chain network entities 652, as well as from various 20
+process and application outputs and outcomes 1040 that may
+occur with or within the VCNP 102.
+In embodiments, the value chain network entities 652
+may include, for example, products, suppliers, producers,
+manufacturers, retailers,businesses, owners, operators,25
+operating facilities, customers, consumers, workers, mobile
+devices, wearable devices, distributors, resellers, supply
+chain infrastructure facilities, supply chain processes, logis-
+tics processes, reverse logistics processes, demand predic-
+tion processes,demand management processes,demand 3o 
+aggregation processes, machines, ships, barges, warehouses,
+maritime ports, airports, airways, waterways, roadways,
+railways, bridges, tunnels, online retailers, ecommerce sites,
+demand factors, supply factors, delivery systems, floating
+assets, points of origin, points of destination, points of 35 s
+storage, points of use, networks, information technology
+systems, software platforms, distribution centers, fulfillment
+centers, containers, container handling facilities, customs,
+export control, border control, drones, robots, autonomous
+vehicles,haulingfacilities,drones/robots/AVs,waterways,4o
+port infrastructure facilities, or many others.
+In embodiments, the robotic process automation layer
+automates a process that may include, for example, without
+limitation, selection of a quantity of product for an order,
+selection of a carrier for a shipment, selection of a vendor for 45
+a component, selection of a vendor for a finished goods
+order, selection of a variation of a product for marketing.
+selection of an assortment of goods for a shelf, determina-
+tion of a price for a finished good, configuration of a service
+offer related to a product, configuration of product bundle, 50
+configuration of a product kit, configuration of a product
+package, configuration of a product display, configuration of
+a product image, configuration of a product description,
+configuration of a website navigation path related to a
+product, determination of an inventory level for a product, 55
+selection of a logistics type, configuration of a schedule for
+product delivery, configuration of a logistics schedule, con-
+figuration of a set of inputs for machine learning, preparation
+of product documentation, preparation of required disclo-
+sures about a product, configuration of a product for a set of 601
+local requirements, configuration of a set of products for
+compatibility, configuration of a request for proposals,
+ordering of equipment for a warehouse, ordering of equip-
+ment for a fulfillment center, classification of a product
+inspection of product quality data from a set of sensors,
+inspection of data from a set of onboard diagnostics on a
+[col 2]
+92
+product, inspection of diagnostic data from an Internet of
+Things system, review of sensor data from environmental
+sensors in a set of supply chain environments, selection of
+inputs for a digital twin, selection of outputs from a digital
+twin, selection ofvisual elements for presentation in a digital
+twin, diagnosis of sources of delay in a supply chain,
+diagnosis of sources of scarcity in a supply chain, diagnosis
+of sources of congestion in a supply chain, diagnosis of
+sources of cost overruns in a supply chain, diagnosis of
+sources of product defects in a supply chain, prediction of
+maintenance requirements in supply chain infrastructure, or
+others.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; and a set of robotic process automation
+systems for automating a set of processes in a value chain
+network, wherein the robotic process automation systems
+learn on a training set of data involving a set of user
+interactions with a set of interfaces of a set of software
+systems that are used to monitor and manage the value chain
+network entities.
+In embodiments, one of the processes automated by
+robotic process automation as described in any of the
+embodiments disclosed herein may involve the following. In
+embodiments, RPA involves selection of a quantity of prod-
+uct for an order. In embodiments, one of the processes
+automated by robotic process automation involves selection
+of a carrier for a shipment. In embodiments, one of the
+processes automated by robotic process automation involves
+selection of a vendor for a component. In embodiments, one
+of the processes automated by robotic process automation
+involves selection of a vendor for a finished goods order. In
+embodiments, one of the processes automated by robotic
+process automation involves selection of a variation of a
+productfor marketing.In embodiments, one ofthe processes
+automated by robotic process automation involves selection
+of an assortment of goods for a shelf. In embodiments, one
+of the processes automated by robotic process automation
+involves determination of a price for a finished good. In
+embodiments, one of the processes automated by robotic
+process automation involves configuration of a service offer
+related to a product. In embodiments, one of the processes
+automated by robotic process automation involves configu-
+ration of product bundle. In embodiments, one of the pro-
+cesses automated by robotic process automation involves
+configuration of a product kit. In embodiments, one of the
+processes automated by robotic process automation involves
+configuration of a product package. In embodiments, one of
+the processes automated by robotic process automation
+involves configuration of a product display. In embodiments,
+one of the processes automated by robotic process automa-
+tion involves configuration of a product image. In embodi-
+ments, one of the processes automated by robotic process
+automation involves configuration of a product description.
+In embodiments, one of the processes automated by robotic
+process automation involves configuration of a website
+navigation path related to a product. In embodiments, one of
+the processes automated by robotic process automation
+involves determination of an inventory level for a product.
+process automation involves selection of a logistics type. In
+embodiments, one of the processes automated by robotic

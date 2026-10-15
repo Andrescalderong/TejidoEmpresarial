@@ -1,0 +1,136 @@
+In embodiments, the artificial intelligence system 35 nodes may collaborate for distribution and delivery of
+[col 1]
+US 12,675,781 B2
+17
+tive manufacturing job, or step thereof, parameters for
+design (e.g., among a set of possible designs), and the like.
+In embodiments, the recommendations relate to a choice of
+a material for printing. In embodiments, the recommenda-
+tions relate to a choice of a 3D printing technique.
+In embodiments, the artificial intelligence system
+executes simulations on one or more of the part twins, the
+product twins and the printer twins for generating recom-
+mendations related to printing to a user of the platform.
+10 In embodiments, the artificial intelligence system
+executes simulations on one ormore of thepart twins, the
+product twins and the printer twins for predicting delivery
+times for 3D printing jobs.
+In embodiments, the artificial intelligence system
+15
+executes simulations on one or more of the part twins, the
+product twins, the printer twins and the manufacturing node
+twins for predicting cost over-runs in the manufacturing
+process.
+In embodiments, the artificial intelligence system
+executes simulations on one or more of the part twins, the
+product twins, the printer twins and the manufacturing node
+twins for optimizing the production sequencing of parts and
+products based on quoted price, delivery, sale margin, order
+size, or similar characteristics. 25
+In embodiments, the artificial intelligence system
+executes simulations on one or more of the part twins, the
+product twins, the printer twins and the manufacturing node
+twins for optimizing the cycle time for manufacturing.
+In embodiments, the artificial intelligence system 30 1
+executes simulations on one or more of the part twins, the
+product twins, the printer twins, the customer twins and the
+manufacturing node twins to predict and manage product
+demand from one or more customers.
+executes simulations on one or more of the twins to predict
+and manage supply of a set of items from the digital
+manufacturing network.
+In embodiments, wherein the artificial intelligence system
+executes simulations on one ormore ofthetwins to optimize 40
+production capacity for a distributed manufacturing net-
+work.
+In embodiments, the distributed manufacturing entities
+include: link to, use, take input from, or integrate with a set
+of other systems, such as an Enterprise Resource Planning
+(ERP) system, a Manufacturing Execution system (MES), a
+Product Lifecycle Management (PLM) system, a mainte-
+nance management system (MMS), a Quality Management
+system (QMS), a certification system, a compliance system,
+a Robot/Cobot system, and an SCCG system.
+Aspects provided herein include a computer-implemented
+method for facilitating the manufacture and delivery of a 3D
+printed product to a customer using one or more manufac-
+turing nodes of a distributed manufacturing network, com-
+prising receiving one or more product requirements from the 55s
+customer; tokenizing and storing the product requirements
+in a distributed ledger system; determining one or more
+manufacturing nodes, printers, processes and materials
+based on the product requirements; generating a quote
+including pricing and delivery timelines; and upon accep- 60 c
+tance of the quote by the customer, manufacturing and
+delivering the 3D printed product to the customer. In
+embodiments, the quote is automatically generated and
+configured into a smart contract for additive manufacturing.
+In embodiments, determining includes matching a cus- 65
+tomer order with a manufacturing node or a 3D printer based
+on factors like printer capabilities, locations of the customer
+[col 2]
+18
+and the manufacturing nodes, available capacity at each
+node, pricing and timelines requirements and the customer
+satisfaction score.
+In various embodiments, such as involving entity match-
+ing, design selection, type of manufacturing selection, mate-
+rial selection, recommendation, scheduling, and the like,
+location-based determinations may include geofencing and
+other distance-based information, route-based information
+(such as factoring in traffic congestion and other factors that
+may impact delivery times), and other location-related infor-
+mation related to a point-of-distribution, transportation facil-
+ity, point-of-sale and/or point-of-use, such as infrastructure
+information, resource availability information, weather
+information, climate information, and many others. Loca-
+tion-based determination may, for example, factor ambient
+temperature or other conditions for a location (or a combi-
+nation of location and intended use) into selection of a
+material for manufacturing, a structure (such as factoring in
+likely expansion or contraction in hot or cold extreme
+20conditions)andthelike.
+In embodiments, the method further comprises rating one
+or more manufacturing nodes based on a customer satisfac-
+tion score for meeting customer requirements.
+In embodiments, the method may help in managing the
+production workflows within and across one or more manu-
+facturing nodes, thereby facilitating collaboration across the
+manufacturing nodes through the sharing of resources, capa-
+bilities and intelligence. In embodiments, the manufacturing
+nodes may collaborate for forecasting and prediction of
+material supply and product demand. In embodiments, the
+manufacturing nodes may collaborate for design and product
+development. In embodiments, the manufacturing nodes
+may collaborate for manufacturing and assembling one or
+more parts of a product. In embodiments, the manufacturing
+manufactured products.
+In embodiments, the method may provide “manufacturing
+as a service by leveraging unutilized capacity of one or
+capacity to one or moreusers seeking to fabricate 3Dprinted
+parts. In embodiments, manufacturing as a service may be
+offered via a smart contract, optionally using a blockchain
+and/or distributed ledger. In embodiments, manufacturing-
+intelligence system, such as for configuring offerings, sched-
+uling jobs, setting prices, setting other contract terms and
+conditions, and the like for a set of additive manufacturing
+entities.
+Aspects provided herein include a distributed manufac-
+turing network comprising: a distributed ledger system
+integrated with digital threads of a set of distributed manu-
+facturing network entities for storing information on event,
+activities and transactions related to the distributed manu-
+facturing network entities; and an artificial intelligence
+system configured to learn on a training set of outcomes,
+parameters, and data collected from the distributed manu-
+facturing network entities to optimize manufacturing and
+value chain workflows.
+In embodiments, the distributed ledger system includes a
+decentralized application downloadable by entities in the
+distributed manufacturing network.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide a set of unified views of
+the workflows to the set of entities of a distributed manu-
+facturing network.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide tracking and reporting

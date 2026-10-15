@@ -1,0 +1,132 @@
+[col 1]
+US2022/0058569A1
+94
+chasing data, loyalty program data, behavioral tracking data
+(including data captured in interactions by a customer with
+an intelligent product 650), online clickstream data, inter-
+actions with intelligent agents, and other data sources.
+[0813] Customers 662 can be depicted in a set of one or
+more customer digital twins 5502, such as by populating the
+customer digital twin 1730 with value chain network data
+objects 1004, such as event data 1034, state data 1140, or
+other data with respect to value chain network customers
+662. Likewise, customer profiles 5504 can be depicted in a
+set of one or more customer profile digital twins 1730, such
+as by populating the customer profile digital twins 1730 with
+value chain network data objects 1004, such as described
+throughout this disclosure.
+[0814]Customer digital twins 5502 and customer profile
+digital twins 1730 may allow for modeling, simulation,
+prediction, decision-making, classification, and the like.
+[0815]Where customers 662 are consumers, for example,
+the respective customer digital twins 1730 may be populated
+with identity data, account data, payment data, contact data,
+age data, gender data, race data, location data, demographic
+data, living status data, mood data, stress data, behavior data,
+personality data, interest data, preference data, style data,
+medical data, physiological data, phycological data, physical
+attribute data, education data, employment data, salary data,
+net worth data, family data, household data, relationship
+data, pet data, contact/connection data (such as mobile
+phone contacts, social media connections, and the like),
+transaction history data, political data, travel data, product
+interaction data, product feedback data, customer service
+interaction data (such as a communication with a chatbot, or
+a telephone communication with a customer service agent at
+a call center), fitness data, sleep data, nutrition data, soffware
+program interaction observation data 1500 (e.g., by custom-
+ers interacting with various software interfaces of applica-
+tions 630 involving value chain entities 652) and physical
+process interaction observation data 1510 (e.g., by watching
+customers interacting with products or other value chain
+entities 652), and the like.
+[0816] In another example, where customers 662 are
+enterprises or businesses, the customer digital twin 1730
+may be populated with identity data, account data, payment
+data, transaction data, product feedback data, location data,
+revenue data, enterprise type data, product and/or service
+offering data, worker data (such as identity data, role data,
+and the like), and other enterprise-related attributes.
+[0817]Customer digital twins and customer profile digital
+twins 1730 may include a set of components, processes,
+services, interfaces, and other elements for development and
+deployment of digital twin capabilities for visualization of
+value chain network customers 662 and customer profiles
+5504 as well as for coordinated intelligence (including
+artificial intelligence 1160, edge intelligence, analytics and
+other capabilities) and other value-added services and capa-
+bilities that are enabled or facilitated with digital twins.
+[0818]  In embodiments, the customer digital twins 5502
+and customer profile digital twins 1730 may take advantage
+of the presence of multiple applications 630 within the value
+chain management platform layer 604, such that a pair of
+applications may share data sources (such as in the data
+storage layer 624) and other inputs (such as from the
+monitoring layer 614) that are collected with respect to value
+chain entities 652, as well as sharing events, state informa-
+tion and outputs, which collectively may provide a much
+[col 2]
+Feb.24,2022
+richer environment for enriching content in the digital twins,
+including through use of artificial intelligence 1160 (includ-
+ing any of the various expert systems, artificial intelligence
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the
+documents incorporated by reference) and through use of
+content collected by the monitoring layer 614 and data
+collection systems 640.
+[0819] An environment for development of a customer
+digital twin 5502 may include a set of interfaces for devel-
+opers in which a developer may configure an artificial
+intelligence system 1160 to take inputs from selected data
+sources of the data storage layer 624 and events or other data
+from the monitoring systems layer 614 and supply them for
+inclusion in a customer digital twin 5502.A customer digital
+twin development environment may be configured to take
+outputs and outcomes from various applications 630. In
+embodiments, a customer digital twin 1730 may be provided
+for the wide range of value chain network applications 630
+mentioned throughout this disclosure and the documents
+incorporated herein by reference.
+[0820] In embodiments, the customer digital twin 5502
+may be rendered by a computing device, such that a user can
+view a digital representation of the customer 714. For
+example, a customer digital twin 5502 may be rendered and
+output to a display device. In another example, a 5502 may
+be rendered in a three-dimensional environment and viewed
+using a virtual reality headset.
+[0821]An environment for development of a customer
+profile digital twin 1730 may include a set of interfaces for
+developers in which a developer may configure an artificial
+intelligence system 1160 to take inputs from selected data
+sources of the data storage layer 624 and events or other data
+from the monitoring systems layer 614 and supply them for
+inclusion in a customer profile digital twin 1730.A customer
+profile digital twin development environment may be con-
+figured to take outputs and outcomes from various applica-
+tions 630. In embodiments, a customer profile digital twin
+1730 may be provided for the wide range of value chain
+network applications 630 mentioned throughout this disclo-
+sure and the documents incorporated herein by reference.
+[0822] In embodiments, the adaptive intelligent systems
+layer 614 is configured to train and implement artificial
+intelligence systems to perform tasks related to the value
+chain network 668 and/or value chain network entities 652.
+For example, the adaptive intelligent systems layer 614 may
+be leveraged to recommend products, enhance customer
+experience, select advertising attributes for advertisements
+relating to value chain products and/or services, and/or other
+appropriate value-chain tasks.
+[0823] In embodiments, a customer profile digital twin
+1730 or other customer digital twin may be created inter-
+actively and cooperatively with a customer, such as by
+allowing a customer to request, select, modify, delete, or
+otherwise influence a set of properties, states, behaviors, or
+other aspects represented in the digital twin 1730. For
+example, a customer could refine sizes (e.g., shoe size, dress
+size, shirt size, pant size, and the like), indicate interests and
+needs (e.g-, what the customer is interested in buying),
+indicate behaviors (e.g, projects planned by an enterprise),
+update current states (e.g. to reflect changes), and the like.
+A version of the digital twin 1730 may thus be made

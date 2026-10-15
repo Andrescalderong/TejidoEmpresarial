@@ -1,0 +1,135 @@
+behave under such scenarios. Fault Detection and Diagnos- 35 learning on a training set of port maintenance outcomes,
+[col 1]
+US 12,277,524 B2
+175
+model is determining current condition of the machine and
+detecting any faults, then fault detection models may be
+selected, whereas if the desired outcome is predicting future
+failures then remaining useful life prediction model may be
+selected. At 5210, the one or more models are trained using
+training dataset and tested for performance using testing
+dataset. At 5212, the trained model is used for detecting
+faults and predicting future failure of the machine on pro-
+duction data.
+FIG. 56 is an example embodiment depicting the deploy-
+ment of machine twins 1770 perform predictive mainte-
+nance on machines 724. Machine twin 1770 receives data
+from data storage systems 624 on a real-time or near
+real-time basis. The data storage systems 624 may store
+different types of data in different datastores. For example,
+machine datastore 5202 may store data related to machine
+identification and attributes, machine state and event data,
+data from maintenance records, historical operating data,
+notes from machine operator, etc. Sensor datastore 5204 20 s
+may store sensor data from operation such as temperature,
+pressure, and vibration that may be stored as signal or time
+series data. Failure datastore 5310 may store failure data
+from machine 724 or similar machines running at different
+times and under different operating conditions. Model data- 25
+store 5312 may store data related to different predictive
+models including fault detection and remaining life predic-
+tion models.
+Machine twin 1770 then coordinates with artificial intel-
+ligencesystemto selectone ormore of modelsbased onthe 30
+kind and quality of available data and the desired answers or
+outcomes. For example, physical models 5320 may be
+selected if the intended use of machine twin 1770 is to
+simulate what-if scenarios and predict how the machine will
+tics Models 5322 may be selected to determine the current
+health of the machine and any fault conditions. A simple
+fault detection model may use one or more condition indi-
+cators to distinguish between regular and faulty behaviors
+and may have a threshold value for the condition indicator 4o port infrastructure facility.
+that is indicative of a fault condition when exceeded. Amore
+complex model may train a classifier to compare the value
+of one or more condition indicators to values associated with
+fault states and returns the probability of presence of one or
+more fault states. 45
+Remaining Useful Life (RUL) Prediction models 5324 are
+used for predicting future failures and may include degra-
+dation models 5326, survival models 5328 and similarity
+models 5330. An example RUL prediction model may fit the
+time evolution of a condition indicator and predicts how 5o 
+long it will be before the condition indicator crosses some
+threshold value indicative of a failure. Another model may
+compare the time evolution of the condition indicator to
+measured or simulated time series from similar systems that
+ran to failure.
+In embodiments, a combination of one or more of these
+models may be selected by the machine twin 1770.
+Artificial Intelligence system 1160 may include machine
+learning processes 5340, clustering processes 5342, analyt-
+ics processes 5344 and natural language processes 5348.
+Machine learning processes 5340 work with machine twin
+1770 to train one or more models as identified above. An
+example of such machine learned model is the RULpredic-
+tion model 5324. The model 5324 may be trained using
+training dataset pmvc 230 from the Data Storage Systems 65
+624. The performance of the model 5324 and classifier may
+then be tested using testing dataset 5350.
+[col 2]
+176
+Clustering processes 5342 may be implemented to iden-
+tify the failure pattern hidden in the failure data to train a
+model for detecting uncharacteristic or anomalous behavior.
+The failure data across multiple machines and their histori-
+cal records may be clustered to understand how different
+patterns correlate to certain wear-down behavior. Analytics
+processes 5344 perform data analytics on various data to
+identify insights and predict outcomes. Natural language
+processes 4348 coordinate with machine twin 1770 to com-
+10 municate the outcomes and results to the user of machine
+twin 1770.
+The outcomes 5360 may be in the form of modeling
+results 5362, alerts and warnings 5364 or remaining useful
+life (RUL)predictions 5368.Machine twin 1770 may com-
+municate with a user via multiple communication channels
+such as speech, text, gestures to convey outcomes 5360.
+In embodiments, models may then be updated or rein-
+forced based onthemodel outcomes 5360.Forexample,the
+artificial intelligence system may receive a set of circum-
+stances that led to a prediction of failure and the outcome
+and may update the model based on the feedback.
+In embodiments, the platform may include a system for
+learning on a training set of ship maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of ship activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a ship using a digital twin of the ship.
+In embodiments, the platform may include a system for
+learning on a training set of barge maintenance outcomes,
+ parameters, and data collected from data sources relating to
+a set of barge activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a barge using a digital twin of the barge.
+In embodiments, the platform may include a system for
+parameters, and data collected from data sources relating to
+a set of port activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+In embodiments, the platform may include a system for
+learning on a training set of repair outcomes, parameters,
+anddatacollectedfrom datasources relatedto a setofvalue
+chain entities to train an artificial intelligence/machine learn-
+ing system to use a digital twin of a selected set of value
+chain entities to estimate the cost of repair of a damaged
+object.
+In embodiments, the platform may include a system for
+learning on a training set of infrastructure outcomes, param-
+eters, and data collected from data sources to train an
+artificial intelligence/machine learning system to predict
+deterioration of infrastructure using a digital twin of the
+infrastructure.
+In embodiments, the platform may include a system for
+55 learning on a training set of natural hazard outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to model natural hazard risks for a
+set of shipping infrastructure facilities using a digital twin of
+60 a city.
+In embodiments, the platform may include a system for
+learning on a training set of maintenance outcomes, param-
+eters, and data collected from data sources relating to a set
+of shipping activities to train an artificial intelligence/ma-
+chine learning system to monitor shipping infrastructure
+maintenance activities for a set of shipping infrastructure
+facilities using a digital twin of the set of facilities

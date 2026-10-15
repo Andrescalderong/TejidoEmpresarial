@@ -1,0 +1,135 @@
+of content collected by the monitoring layer 614 and data 55 senting physical attributes, physiologic data, status data,
+[col 1]
+US 12,567,082 B2
+83
+through intelligent operations such as generating sets of
+predictions, sets of classifications, generation of automate
+control signals (that may be communicated across value
+chain network entities and the like). Other exemplary arti-
+ficial intelligence-based influences on automated coordina-
+tion of value chain network entity activities include machine
+learning-based information routing and recommendations
+thereto, semi-sentient problem recognition based on both
+structured (e.g, production data) and unstructured (e.g.,
+human emotions) sources, and the like.Artificial intelligence 1o
+systems may facilitate automated coordination of value
+chain network entity activities for a set of products or an
+enterprise based on adaptive intelligence provided by the
+platform for a category of goods under which the set of
+products of an enterprise may be grouped. In an example, 15 
+adaptive intelligence may be provided by the platform for a
+drapery hanging category of goods and a set of products for
+an enterprise may include a line of adaptable drapery
+hangers. Through understanding developed for the overail
+may be applied to value chain network activities of the
+enterprise for automating aspects of the value chain, such as
+information exchange among activities and the like.
+Digital Twin System in Value Chain Entity Management
+Platform 25
+Referring to FIG. 22, the adaptive intelligence layer 614
+may include a value chain network digital twin system 1700,
+which may include a set of components, processes, services,
+interfaces and other elements for development and deploy-
+ment of digital twin capabilities for visualization of various 30
+value chain entities 652, environments, and applications
+630, as well as for coordinated intelligence (including arti-
+ficial intelligence 1160, edge intelligence 1400, analytics
+and other capabilities) and other value-added services and
+capabilities that are enabled or facilitated with a digital twin 35
+1700. Without limitation, a digital twin 1700 may be used
+controlled, or mediated by each of the set of applications 614
+of the platform application layer.
+In embodiments, the digital twin 1700 may take advan- 40
+tage of the presence of multiple applications 630 within the
+value chain management platform 604, such that a pair of
+applications may share data sources (such as in the data
+storage layer 624) and other inputs (such as from the
+monitoring layer 614) that are collected with respect to value 45
+chain entities 652, as well as sharing outputs, events, state
+information and outputs, which collectively may provide a
+much richer environment for enriching content in a digital
+twin 1700, including through use of artificial intelligence
+1160 (including any of the various expert systems, artificial 50
+intelligence systems, neural networks, supervised learning
+systems, machine learning systems, deep learning systems,
+and other systems described throughout this disclosure and
+in the documents incorporated by reference) and through use
+collection systems 640.
+In embodiments, a digital twin 1700 may be used in
+connection with shared or converged processes among the
+various pairs of the applications 630 of the application 604,
+such as, without limitation, of a converged process involving 60
+application 820, integrated automation of blockchain-based
+applications 844 with facility management applications 850,
+and many others. In embodiments, converged processes may
+include shared data structures for multiple applications 630 65
+(including ones that track the same transactions on a block-
+chain but may consume different subsets of available attri-
+[col 2]
+84
+butes of the data objects maintained in the blockchain or
+ones that use a set of nodes and links in a common
+knowledge graph) that may be connected to with the digital
+twin 1700 such that the digital twin 1700 is updated accord-
+ingly. For example, a transaction indicating a change of
+ownership of an entity 652 may be stored in a blockchain
+and used by multiple applications 630, such as to enable
+role-based access control, role-based permissions for remote
+control, identity-based event reporting, and the like that may
+be connected to and shared with the digital twin 1700 such
+that the digital twin 1700 may be updated accordingly. In
+embodiments, converged processes may include shared pro-
+cess flows across applications 630, including subsets of
+larger flows that are involved in one or more of a set of
+applications 614 that may be connected to and shared with
+the digital twin 1700 such that the digital twin 1700 may be
+updated accordingly. For example, an inspection flow about
+a value chain network entity 652 may serve an analytics
+solution 838, an asset management solution 814, and others.
+In embodiments, a digital twin 1700 may be provided for
+the wide range of value chain network applications 630
+mentioned throughout this disclosure and the documents
+incorporated herein by reference.An environment for devel-
+opment of a digital twin 1700 may include a set of interfaces
+for developers in which a developer may configure an
+artificial intelligence system 1160 to take inputs from
+selected data sources of the data storage layer 624 and events
+or other data from the monitoring systems layer 614 and
+supply them for inclusion in a digital twin 1700. A digital
+twin 1700 development environment may be configured to
+take outputs and outcomes from various applications 630.
+Value Chain Network Digital Twins
+Referring to FIG. 23, any of the value chain network
+entities 652 can be depicted in a set of one or more digital
+twins 1700, such as by populating the digital twin 1700 with
+value chain network data object 1004, such as event data
+1034, state data 1140, or other data with respect to value
+chain network entities 652, applications 630, or components
+or elements of the platform 604 as described throughout this
+disclosure.
+Thus, the platform 604 may include, integrate, integrate
+with, manage, control, coordinate with, or otherwise handle
+any of a wide variety of digital twins 1700, such as distri-
+bution twins 1714 (such as representing distribution facili-
+ties, assets, objects, workers, or the like); warehousing twins
+1712 (such as representing warehouse facilities, assets,
+objects, workers and the like); port infrastructure twins 1714
+(such as representing a seaport, an airport, or other facility,
+as well as assets, objects, workers and the like); shipping
+facility twins 1720; operating facility twins 1722; customer
+twins 1730 (such as representing physical, behavioral,
+demographic, psychographic, financial, historical, affinity,
+interest, and other characteristics of groups of customers or
+individual customers); worker twins 1740 (such as repre-
+psychographic information, emotional states, states of
+fatigue/energy, states of attention, skills, training, compe-
+tencies, roles, authority, responsibilities, work status, activi-
+ties, and other attributes of or involving workers); wearable/
+portable device twins 1750; process twins 1760; machine
+twins 21010 (such as for various machines used to support
+a value chain network 668); product twins 1780; point of
+origin twins 1560; supplier twins 1630; supply factor twins
+1650; maritime facility twins 1572; floating asset twins
+1570; shipyard twins 1620; destination twins 1562; fulfill-
+ment twins 1600; delivery system twins 1610; demand
+factor twins 1640; retailer twins 1790; ecommerce and

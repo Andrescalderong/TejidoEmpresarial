@@ -1,0 +1,133 @@
+array based on the data received from the variable focus 55 interrelationships of systems and processes of a value chain
+[col 1]
+US 12,675,781 B2
+23
+larity, color, environment, lens shape, or some other type of
+parameter which in turn impacts spherical aberration, field
+curvature, coma, chromatic aberration, distortion, vignett-
+ing, ghosting, flaring, diffraction, and/or some other char-
+acteristic.
+In embodiments, the processing system may train on a set
+of outcomes, parameters, and data from the liquid lens
+optical assembly to derive the configuration of the liquid
+lens optical assembly wherein the configuration may include
+liquid lens materials, geometry, shape, optical properties,
+10
+performance and design.
+Aspects provided herein include a robotic vision system
+comprising: an optical assembly including one or more
+sensors, a variable focus liquid lens and a photon capture
+board; and a processing system configured to dynamically
+learn on a training set of outcomes, parameters and data
+collected from the optical assembly to train an artificial
+intelligence model to recognize an object. In embodiments,
+the robotic vision system further includes a control system
+configured to adjust one or more optical parameters and data 20
+collected from the optical assembly in real time.
+In embodiments, the artificial intelligence model is
+trained for classification, predictions or optimization related
+decisions about the object.
+In embodiments, the artificial intelligence model may
+determine the position, orientation and motion of the object.
+In embodiments, the artificial intelligence model may be
+a neural network.
+In embodiments, the artificial intelligence model may
+build a three-dimensional representation of the object in a 30
+single step, or plurality of steps, without the intermediate
+step of processing into two-dimensional images.
+In embodiments, the one or more sensors may include
+cameras, LIDARs, RADARs, SONARs, thermal imaging
+sensor,hyperspectral imaging sensor, illuminance sensors, 35
+force sensors, torque sensors, velocity sensors, acceleration
+sensors, position sensors, proximity sensors, gyro sensors,
+sound sensors, motion sensors, location sensors, load sen-
+sors, temperature sensors, touch sensors, depth sensors,
+ultrasonic range sensors, infrared sensors, chemical sensors, 40
+magnetic sensors, inertial sensors, gas sensors, humidity
+sensors, pressure sensors, viscosity sensors, flow sensors,
+object sensors, tactile sensors, or some other type of sensor.
+In embodiments, the processing system may temporally
+combine an output from two or more sensors using condi- 45
+tional probabilities to create a combined view of the object
+that is richer and includes information about the position,
+orientation and motion of the object.
+Aspects provided herein include vision system for
+interest: a variable focus liquid lens assembly; a control
+system configured to adjust one or more optical parameters
+of the variable focus liquid lens assembly in real time, one
+or more vision sensors configured to capture real-time pixel
+liquid lens assembly in response to adjustments by the
+control system, the pixel array representing the object con-
+cept; an adaptive intelligence system configured to process
+the object concept to build a three-dimensional representa-
+tion of the object, the adaptive intelligence system includ- 60
+ing: a machine learning system configured to input the
+object concept into one or more machine learning models,
+the object concept being used as training data for the
+machine learning models; and an artificial intelligence sys-
+tem configured to make classifications, predictions, and 65
+other decisions relating to the object including determining
+the position, orientation and motion of the object.
+[col 2]
+24
+Aspects provided herein include a method for recognizing
+an object, comprising receiving at a sensor, real time adjust
+able data streams representing visual and contextual infor-
+processing system, an object concept including contextual
+intelligence about the object and its environment; adjusting
+by a control system, optical parameters of a conformable
+liquid lens, revising by a machine learning system the object
+concept in response to the adjustment of optical parameters
+of the conformable liquid lens; determining by an artificial
+intelligence system, the object attributes including object
+classification, depth, location, orientation and motion where
+the object concept is constantly revised in response to the
+adjustment of optical parameters of the conformable liquid
+lens and used as an input to train a machine learning model,
+which dynamically learns on a training set of outcomes,
+parameters and data collected from the conformable liquid
+lens.
+The present disclosure relates to a fleet management
+platform that can organize, deploy, and control special-
+purpose, multi-purpose, and other classes of robots. Such a
+platform that can securely deliver reliable contracted ser-
+vices is one key to unlocking the value creation potential of
+ 25 autonomous robotics. This value proposition may be ampli-
+fied when highly configurable robots are designed with the
+latest functionality and enabled with a high level of artificial
+intelligence; when the platform is equipped with intelligence
+and computing capabilities that integrate data from a wide
+range of sources, including deployed robots, value chain
+network (VCN) entities involved in a wide range of supply
+chain activities (such as picking, packing, moving, storing,
+warehousing, transporting and/or delivering among others)
+and demand-related activities (such as marketing, selling,
+advertising, forecasting, pricing, positioning, placing.
+designing, and others), ERP systems, smart contracts, and
+the like; and when the platform learns from and manages
+performance based on operational outcomes.
+Amore complete understanding of the disclosure will be
+appreciated from the description and accompanying draw-
+ings and the claims, which follow. All documents referenced
+herein are hereby incorporated by reference.
+BRIEF DESCRIPTION OF THE DRAWINGS
+The accompanying drawings, which are included to pro-
+vide a better understanding of the disclosure, illustrate
+embodiments of the disclosure and together with the
+description serve to explain the many aspects of the disclo-
+sure. In the drawings:
+FIG. 1 is a block diagram showing prior art relationships
+of various entities and facilities in a supply chain.
+FIG. 2 is a block diagram showing components and
+network in accordance with the present disclosure.
+FIG. 3 is another block diagram showing components and
+interrelationships of systems and processes of a value chain
+network in accordance with the present disclosure.
+FIG. 4 is a block diagram showing components and
+interrelationships of systems and processes of a digital
+products network of FIGS. 2 and 3 in accordance with the
+present disclosure.
+FIG. 5 is a block diagram showing components and
+interrelationships of systems and processes of a value chain
+network technology stack in accordance with the present
+disclosure.

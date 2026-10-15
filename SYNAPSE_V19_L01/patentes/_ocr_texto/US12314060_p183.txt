@@ -1,0 +1,133 @@
+[col 1]
+US 12,314,060 B2
+VALUE CHAIN NETWORK PLANNING
+USING MACHINE LEARNING AND DIGITAL
+TWIN SIMULATION
+CROSS-REFERENCE TO RELATED
+APPLICATIONS
+This application is a continuation of International Appli-
+cation Number PCT/US23/36158, filed on 27 Oct. 2023,
+which claims the benefit of U.S. Provisional Application No. 10
+63/381,545, filed on 28 Oct. 2022. All of the foregoing
+applications are hereby incorporated by reference as if fully
+ set forth herein in their entirety.
+BACKGROUND
+Historically, many of the various categories of goods
+purchased and used by household consumers, by businesses
+and by other customers were been supplied mainly through
+a relatively linear fashion, in which manufacturers and other 20
+suppliers of finished goods, components, and other items
+handed off items to shipping companies, freight forwarders
+and the like, who delivered them to warehouses for tempo-
+rary storage, to retailers, where customers purchased them,
+or directly to customer locations. Manufacturers and retail- 25
+ers undertook various sales and marketing activities to
+encourage and meet demand by customers, including
+designing products, positioning them on shelves and in
+advertising, setting prices, and the like.
+30 1
+SUMMARY
+In one example implementation, a method, performed by
+one or more computing devices, may include but is not
+limited to configuring a set of secondary computing devices 35
+of a set of value chain network entities for communication
+with a primary computing device of an enterprise operator,
+wherein the primary computing device may manage the set
+of secondary computing devices. At least one member of the
+set of secondary computing devices may receive a set of 40
+primary commands from the primary computing device,
+wherein each of the set of commands may be at least one of
+a task or a request. At least a portion of one or more
+computing devices capable of fulflling the primary com-
+mand may be assigned as a set of one or more computing 45 I
+devices to be managed by the set of secondary computing
+devices. The set of secondary computing devices may con-
+figure the set of one or more computing devices to fulfill one
+or more secondary commands based upon, at least in part,
+the primary command. The set of secondary computing 50o 1
+devices may fulfll the primary command based upon, at
+least in part, the set of one or more computing devices
+fulfilling the one or more secondary commands A generated
+system output may be sent to the primary computing device
+responding to the primary command based upon, at least in 55
+part, the set of one or more computing devices fulfilling the
+one or more secondary commands.
+One or more of the following example features may be
+included. Configuring the set of one or more computing
+devices to fulfill the one or more secondary commands may
+60
+include generating a set of at least one configured system
+service (CSS). Generating the set of at least one CSS may
+include utilizing an output of the primary computing device
+as an input to generate one or more control parameters.
+Configuring the set of one or more computing devices to 65
+fulfill the one or more secondary commands may include
+providing intelligence received from the at least one CSS to
+[col 2]
+the set of one or more computing devices. Assigning at least
+the portion of one or more computing devices capable of
+fulfilling the primary command as the set of one or more
+computing devices to be managed by the secondary com-
+puting device may include executing an enrollment process
+between the set of one or more computing devices and the
+secondary computing device. Executing the enrollment pro-
+cess may include conducting an inventory of communication
+protocols and data formats used by the set of one or more
+computing devices. The secondary computing device may
+obtain one or more application programming interfaces
+(APIs) to enable communication and data format translation
+between each computing device of the set of one or more
+computing devices and the secondary computing device.
+15 The primary computing device may be bypassed to receive
+external data at the secondary computing device when the
+external data is unused by the primary computing device.
+Generating the set of at least one CSS may include gener-
+ating at least one CsS for each interface layer in a manage-
+ment stack. Intelligent decision-making regarding strategy
+for the primary command may be performed based upon, at
+least in part, a configured intelligence service (CIS). The set
+of the value chain network entities may include at least one
+of products, suppliers, producers, manufacturers, retailers,
+businesses, owners, operators, operating facilities, custom-
+ers, consumers, workers, mobile devices, wearable devices,
+distributors, resellers, supply chain infrastructure facilities,
+supply chain processes, logistics processes, reverse logistics
+processes, demand prediction processes, demand manage-
+ment processes, demand aggregation processes, machines,
+ships, barges, warehouses, maritime ports, airports, airways,
+waterways, roadways, railways, bridges, tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks,
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+ vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities.
+In another example implementation, a computing system
+may include one or more processors and one or more
+memories configured to perform operations that may include
+but are not limited to configuring a set of secondary com-
+puting devices of a set of value chain network entities for
+communication with a primary computing device of an
+enterprise operator, wherein the primary computing device
+may manage the set of secondary computing devices. At
+least one member of the set of secondary computing devices
+may receive a set of primary commands from the primary
+computing device, wherein each of the set of commands
+may be at least one of a task or a request. At least a portion
+of one or more computing devices capable of fulfilling the
+primary command may be assigned as a set of one or more
+computing devices to be managed by the set of secondary
+computing devices. The set of secondary computing devices
+may configure the set of one or more computing devices to
+fulfill one or more secondary commands based upon, at least
+in part, the primary command. The set of secondary com-
+puting devices may fulfill the primary command based upon,
+at least in part, the set of one or more computing devices
+fulfilling the one or more secondary commands. A generated
+system output may be sent to the primary computing device
+responding to the primary command based upon, at least in
+part, the set of one or more computing devices fulfilling the
+one or more secondary commands.

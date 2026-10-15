@@ -1,0 +1,130 @@
+[col 1]
+US2022/0036302A1
+51
+the digital twin 1700 such that the digital twin 1700 is
+updated accordingly. For example, a transaction indicating a
+change of ownership of an entity 652 may be stored in a
+blockchain and used by multiple applications 630, such as to
+enable role-based access control, role-based permissions for
+remote control, identity-based event reporting, and the like
+that may be connected to and shared with the digital twin
+1700 such that the digital twin 1700 may be updated
+accordingly. In embodiments, converged processes may
+include shared process flows across applications 630,
+including subsets of larger flows that are involved in one or
+more of a set of applications 630 that may be connected to
+and shared with the digital twin 1700 such that the digital
+inspection flow about a value chain network entity 652 may
+serve an analytics solution 838, an asset management solu-
+tion 814, and others.
+[0439]In embodiments, a digital twin 1700 may be pro-
+vided for the wide range ofvalue chain network applications
+630 mentioned throughout this disclosure and the docu-
+ments incorporated herein by reference. An environment for
+development of a digital twin 1700 may include a set of
+interfaces for developers in which a developer may config-
+ure an artificial intelligence system 1160 to take inputs from
+selected data sources of the data storage layer 624 and events
+or other data from the monitoring systems layer 614 and
+supply them for inclusion in a digital twin 1700. A digital
+twin 1700 development environment may be configured to
+take outputs and outcomes from various applications 630.
+Value Chain Network Digital Twins
+[0440] Referring to FIG. 23, any of the value chain
+network entities 652 can be depicted in a set of one or more
+digital twins 1700, such as by populating the digital twin
+1700 with value chain network data object 1004, such as
+event data 1034, state data 1140, or other data with respect
+to value chain network entities 652, applications 630, or
+components or elements of the platform 604 as described
+throughout this disclosure.
+[0441] Thus, the platform 604 may include, integrate,
+integrate with, manage, control, coordinate with, or other-
+wise handle any of a wide variety of digital twins 1700, such
+as distribution twins 1714 (such as representing distribution
+facilities, assets, objects, workers, or the like); warehousing
+twins 1712 (such as representing warehouse facilities,
+assets, objects, workers and the like); port infrastructure
+twins 1714 (such as representing a seaport, an airport, or
+other facility, as well as assets, objects, workers and the
+like); shipping facility twins 1720; operating facility twins
+1722; customer twins 1730 (such as representing physical,
+behavioral, demographic, psychographic, financial, histori-
+cal, affinity, interest, and other characteristics of groups of
+customers or individual customers); worker twins 1740
+(such as representing physical attributes, physiologic data,
+status data, psychographic information, emotional states,
+states of fatigue/energy, states of attention, skills, training,
+competencies, roles, authority, responsibilities, work status,
+activities, and other attributes of or involving workers);
+wearable/portable device twins 1750; process twins 1760;
+machine twins 1770 (such as for various machines used to
+support a value chain network 668); product twins 1780;
+point of origin twins 1560; supplier twins 1630; supply
+factor twins 1650; maritime facility twins 1572; floating
+asset twins 1570; shipyard twins 1620; destination twins
+[col 2]
+Feb.3,2022
+1562; fulfillment twins 1600; delivery system twins 1610;
+demand factor twins 1640; retailer twins 1790; ecommerce
+and online site and operator twins 1800; waterway twins
+1810; roadway twins 1820; railway twins 1830; air facility
+twins 1840 (such as twins of aircraft, runways, airports,
+hangars, warehouses, air travel routes, refueling facilities
+and other assets, objects, workers and the like used in
+connection with air transport of products 650); autonomous
+vehicle twins 1850; robotics twins 1860; drone twins 1870;
+and logistics factor twins 1880; among others. Each of these
+may have characteristics of digital twins described through-
+out this disclosure and the documents incorporated by
+reference herein, such as mirroring or reflecting changes in
+states of associated physical objects or other entities, pro-
+viding capabilities for modeling behavior or interactions of
+associated physical objects or other entities, enabling simu-
+lations, providing indications of status, and many others.
+[0442]In example embodiments, a digital twin system
+may be configured to generate a variety of enterprise digital
+twins 1700 in connection with a value chain (e.g., specifi-
+cally value chain network entities 652).For example, an
+enterprise that produces goods internationally (or at multiple
+facilities) may configure a set of digital twins 1700, such as
+supplier twins that depict the enterprise's supply chain,
+factory twins of the various production facilities, product
+twins that represent the products made by the enterprise,
+distribution twins that represent the enterprise's distribution
+chains, and other suitable twins. In doing so, the enterprise
+may define the structural elements of each respective digital
+twin as well as any system data that corresponds to the
+structural elements of the digital twin. For instance, in
+generating a production facility twin, the enterprise may the
+iayout and spatial definitions of the facility and any pro-
+cesses that are performed in the facility. The enterprise may
+also define data sources corresponding to the value chain
+network entities 652, such as sensor systems, smart manu-
+facturing equipment, inventory systems, logistics systems,
+and the like that provide data relevant to the facility. The
+enterprise may associate the data sources with elements of
+the production facility and/or the processes occurring the
+facility. Similarly, the enterprise may define the structural,
+process, and layout definitions of its supply chain and its
+distribution chain and may connect relevant data sources,
+such as supplier databases, logistics platforms, to generate
+respective distribution chain and supply chain twins. The
+enterprise may further associate these digital twins to have
+a view of its value chain. In embodiments, the digital twin
+system may perform simulations of the enterprise's value
+chain that incorporate real-time data obtained from the
+various value chain network entities 652 of the enterprise. In
+some of these embodiments, the digital twin system may
+recommend decisions to a user interacting with the enter-
+prise digital twins 1700, such as when to order certain parts
+for manufacturing a certain product given a predicted
+demand for the manufactured product, when to schedule
+maintenance on machinery and/or replace machinery (e.g.,
+when digital simulations on the digital twin indicates the
+demand for certain products may be the lowest or when it
+would have the least effect on the enterprise's profits and
+losses statement), what time of day to ship items, or the like.
+The foregoing example is a non-limiting example of the
+manner by which a digital twin may ingest system data and
+perform simulations in order to further one or more goals.

@@ -1,0 +1,135 @@
+agement, research and development, sales management, 2o evant sets of artificial intelligence systems based on one or
+In embodiments, the digital twin presents an indicator of 45 intelligence and may provide a set of recommendations,
+[col 1]
+US 12,675,781 B2
+97
+port, kit updating, kit maintenance, kit modification, kit
+management, product digital twin, opportunity matching.
+search, advertisement, entity discovery, entity search, varia-
+tion, simulation, user interface, application programming
+interface, connectivity management, natural language inter-
+face, voice/speech interface, robotic interface, touch inter-
+face, haptic interface, vision system interface, enterprise
+resource planning, or other applications.
+In embodiments, the set of supply chain applications and
+demand management applications may include, without 10 c
+limitation, one or more of operations, finance, asset man-
+agement, supply chain management, demand management,
+human resource management, product management, risk
+management, regulatory and compliance management,
+inventory management, infrastructure management, facili-
+ties management, analytics, trading, tax, identity manage-
+ment, vendor management, process management, project
+management, operations management, customer relation-
+ship management, workforce management, incident man-
+marketing management, fleet management, opportunity ana-
+lytics, decision support, strategic planning, forecasting.
+resource management, property management, or other appli-
+cations.
+In embodiments, the machine vision system includes an 25 j
+artificial intelligence system that is trained to recognize a
+type of value chain asset based on a labeled data set of
+images of such type of value chain assets.
+In embodiments, the digital twin presents an indicator of
+the type of asset based on the output of the artificial 30 
+intelligence system.
+In embodiments, the machine vision system includes an
+type of activity involving a set of value chain entities based
+on a labeled data set of images of such type of activity. 35
+In embodiments, the digital twin presents an indicator of
+the type of activity based on the output of the artificial
+intelligence system.
+In embodiments, the machine vision system includes an
+artificial intelligence system that is trained to recognize a 40
+safety hazard involving a value chain entity based on a
+training data set that includes a set of images of value chain
+network activities and a set of value chain network safety
+outcomes.
+the hazard based on the output of the artificial intelligence
+system.
+In embodiments, the machine vision system includes an
+artificial intelligence system that is trained to predict a delay
+based on a training data set that includes a set of images of 5o t
+value chain network activities and a set of value chain
+network timing outcomes.
+In embodiments, the digital twin presents an indicator of
+a likelihood of delay based on the output of the artificial
+intelligence system.
+As noted elsewhere herein and in documents incorporated
+by reference, artificial intelligence (such as any of the
+techniques or systems described throughout this disclosure)
+in connection with value chain network entities 652 and
+related processes and applications may be used to facilitate, 60
+among other things: (a) the optimization, automation and/or
+control of various functions, workflows, applications, fea-
+tures, resource utilization and other factors, (b) recognition
+or diagnosis of various states, entities, patterns, events,
+contexts, behaviors, or other elements; and/or (c) the fore- 65
+casting of various states, events, contexts or other factors. As
+artificial intelligence improves, a large array of domain-
+[col 2]
+98
+specific and/or general artificial intelligence systems have
+become available and are likely to continue to proliferate. As
+developers seek solutions to domain-specific problems, such
+as ones relevant to value chain entities 652 and applications
+630 described throughout this disclosure they face chal-
+lenges in selecting artificial intelligence models (such as
+what set of neural networks, machine learning systems,
+expert systems, or the like to select) and in discovering and
+selecting what inputs may enable effective and efficient use
+ of artificial intelligence for a given problem. As noted above,
+opportunity miners 1460 may assist with the discovery of
+opportunities for increased automation and intelligence;
+however, once opportunities are discovered, selection and
+configuration of an artificial intelligence solution still pres-
+ents a significant challenge, one that is likely to continue to
+grow as artificial intelligence solutions proliferate.
+One set of solutions to these challenges is an artificial
+intelligence store 3504 that is configured to enable collec-
+tion, organization, recommendation and presentation of rel-
+more attributes of a domain and/or a domain-related prob-
+lem. In embodiments, an artificial intelligence store 3504
+may include a set of interfaces to artificial intelligence
+systems, such as enabling the download of relevant artificial
+intelligence applications, establishment of links or other
+connections to artificial intelligence systems (such as links
+to cloud-deployed artificial intelligence systems via APIs,
+ports, connectors, or other interfaces) and the like. The
+artificial intelligence store 3504 may include descriptive
+content with respect to each of a variety of artificial intel-
+ligence systems, such as metadata or other descriptive
+material indicating suitability of a system for solving par-
+ticular types of problems (e.g., forecasting, NLP, image
+recognition, pattern recognition, motion detection, route
+optimization, or many others)and/or for operating on
+domain-specific inputs, data or other entities. In embodi-
+ments, the artificial intelligence store 3504 may be organized
+by category, such as domain, input types, processing types,
+output types, computational requirements and capabilities,
+cost, energy usage, and other factors. In embodiments, an
+interface to the application store 3504 may take input from
+a developer and/or from the platform (such as from an
+butes of a problem that may be addressed through artificial
+such as via an artificial intelligence attribute search engine,
+for a subset of artificial intelligence solutions that may
+represent favorable candidates based on the developer's
+domain-specific problem. Search results or recommenda-
+tions may, in embodiments, be based at least in part on
+collaborative filtering, such as by asking developers to
+indicate or select elements of favorable models, as well as by
+clustering, such as by using similarity matrices, k-means
+clustering, or other clustering techniques that associate simi-
+55 lar developers, similar domain-specific problems, and/or
+similar artificial intelligence solutions. The artificial intelli-
+gence store 3504 may include e-commerce features, such as
+ratings, reviews, links to relevant content, and mechanisms
+for provisioning, licensing, delivery and payment (including
+allocation of payments to affiliates and or contributors),
+including ones that operate using smart contract and/or
+blockchain features to automate purchasing, licensing, pay-
+ment tracking, settlement of transactions, or other features.
+Referring to FIG. 43, the artificial intelligence system
+1160 may define a machine learning model 3000 for per-
+forming analytics, simulation, decision making, and predic-
+tion making related to data processing, data analysis, simu-

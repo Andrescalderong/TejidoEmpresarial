@@ -1,0 +1,137 @@
+In some embodiments, provisioning the respective addi- 45 determining a robotic fleet configuration data structure cor-
+[col 1]
+US 12,567,082 B2
+23
+a fleet configuration system, a fleet resource scheduling
+system, a fleet security system, and a fleet utilization system.
+According to some embodiments of the present disclo-
+sure, a robotic fleet platform for configuring robot fleets with
+additive manufacturing capabilities is disclosed. The plat-
+form includes a computer-readable storage system that
+stores: a fleet resources data store that maintains a fleet
+resource inventory that indicates a plurality of additive
+manufacturing systems that can be provisioned with a set of
+fleet resources, and for each respective additive manufac- 10
+instructions that define configuring an on-demand produc-
+tion system for 3D printing, and a status of the additive
+manufacturing system; and a set of additive manufacturing
+system provisioning rules that are accessible to an intelli- 15
+gence layer to ensure that provisioned additive manufactur-
+ing systems comply with the provisioning rules. The plat-
+form further includes a set of one or more processors that
+execute a set of computer-readable instructions. The set of
+one or more processors collectively receive a request for a 20
+robotic fleet to perform a job. The set of one or more
+processors collectively determine a job definition data struc-
+ture based on the request, the job definition data structure
+defining a set of tasks that are to be performed in perfor-
+mance of the job. The set of one or more processors 25
+collectively determine a robotic fleet configuration data
+structure corresponding to the job based on the set of tasks
+and the fleet resource inventory, wherein the robotic fleet
+configuration data structure assigns one or more additive
+manufacturing systems selected from the fleet resource
+30
+inventory to one or more of the set of tasks defined in the job
+definition data structure. The set of one or more processors
+collectively determine a respective provisioning configura-
+tion for each respective additive manufacturing system
+based on the respective task to which the additive manufac- 35 s
+turing system is assigned, the set of 3D printing require-
+ments, the printing instructions, and the respective status of
+the additive manufacturing system. The set of one or more
+processors collectively provision the respective additive
+manufacturing system based on the respective provisioning 40
+configuration and the provisioning rules. The set of one or
+more processors collectively deploy the robotic fleet based
+on the robotic fleet configuration data structure to perform
+the job.
+tive manufacturing system includes to provision a 3D print-
+ing capable robot. In some embodiments, the respective
+provisioning configuration for each respective additive
+manufacturing system includes a set of 3D printing instruc-
+tions for at least one of a job-specific end effector or an 5o 
+adaptor based on a context of the task to which the additive
+manufacturing system is assigned. In some embodiments,
+the robotic fleet configuration data structure assigns control
+of at least one transportable 3D printing additive manufac-
+turing system to at least one robot operating unit. 55
+In some embodiments, determining the robotic fleet con-
+figuration data structure is further based on availability and
+job site locality of 3D printing resources. In some of these
+embodiments, at least one of the availability or job site
+locality of the 3D printing resource is identified by a 60
+logistics system of the platform. In some embodiments,
+determining the robotic fleet configuration data structure
+includes assignment of at least one additive manufacturing
+system indicated in the fleet resource inventory based on
+proximity to a job site for the requested job. 65
+In some embodiments, determining a respective provi-
+sioning configuration for each respective additive manufac-
+[col 2]
+24
+turing system includes use of an artificial intelligence system
+to automate design for 3D printing of one or more robotic
+accessories. In some of these embodiments, the artificial
+intelligence system automates design for 3D printing based
+on contextual task recognition. Additionally or alternatively,
+the artificial intelligence system automates design for 3D
+printing based on automated shape recognition capabilities.
+Additionally or alternatively, provisioning the respective
+additive manufacturing system includes provisioning a 3D
+printing control capability to produce an end effector based
+on a visual and sensed analysis of an object for manipulation
+of which the end effector is to be 3D printed.
+In some embodiments, deploying the robotic fleet
+includes use of a fleet configuration scheduling resource of
+the platform for allocation of the respective additive manu-
+facturing system to perform the job. In some embodiments,
+deploying the robotic fleet includes deploying a 3D printing
+robot to a smart container for remote, on-demand additive
+manufacturing. In some embodiments, determining a
+respective provisioning configuration for each respective
+additive manufacturing system is further based on one or
+more keywords of the job definition data structure that are
+indicative of an operating condition for the respective addi-
+tive manufacturing system. In some embodiments, deploy-
+ing the robotic fleet includes deploying a set of autonomous
+3D printing additive manufacturing system to points of
+service work indicated in the job definition data structure. In
+some embodiments, determining a respective provisioning
+configuration for each respective additive manufacturing
+system includes configuring a 3D printing system to receive
+a tokenized instance of a set of 3D printing instructions
+associated with a corresponding token on a distributed
+ledger. In some embodiments, deploying the robotic fleet
+includes deploying the respective additive manufacturing
+system as a 3D printing resource shared among a plurality of
+tasks.
+According to some embodiments of the present disclo-
+sure, a method of configuring robot fleets with additive
+manufacturing capabilities is disclosed. The method
+includes receiving a request for a robotic fleet to perform a
+job. The method further includes determining a job defini-
+tion data structure based on the request, the job definition
+data structure defining a set of tasks that are to be performed
+in performance of the job. The method further includes
+responding to the job based on the set of tasks and a fleet
+resource inventory that indicates a plurality of additive
+manufacturing systems that can be provisioned with a set of
+fleet resources, and for each respective additive manufac-
+turing system, a set of 3D printing requirements, printing
+instructions that define configuring an on-demand produc-
+tion system for 3D printing, and a status of the additive
+manufacturing system, wherein the robotic fleet configura-
+tion data structure assigns one or more additive manufac-
+turing systems selected from the fleet resource inventory to
+one or more of the set of tasks defined in the job definition
+data structure. The method further includes determining a
+respective provisioning configuration for each respective
+additive manufacturing system based on the respective task
+to which the additive manufacturing system is assigned, the
+and the respective status of the additive manufacturing
+system. The method further includes provisioning the
+respective additive manufacturing system based on the
+respective provisioning configuration and a set of additive
+manufacturing system provisioning rules that are accessible
+to an intelligence layer to ensure that provisioned additive

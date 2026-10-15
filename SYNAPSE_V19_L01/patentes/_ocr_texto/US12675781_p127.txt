@@ -1,0 +1,127 @@
+manufacturing capabilities by and for various interested 30 recognizing facial features; recognizing objects in a power
+create an image of an object by capturing and analyzing the 35 for almost all categories of items, and robotics is at the heart
+[col 1]
+US 12,675,781 B2
+apply a liquid binding agent onto layers of powder and (c)
+nanoparticle jetting that uses jetting of metal nanoparticles
+from inkjet nozzles in super-thin layers.
+Regardless of the design data sources or the methods
+employed for additive manufacturing, including metal 3D
+printing, the entire process from design and manufacturing
+to end customer delivery, remains prone to ineficiency,
+process variations, product inconsistency, and unreliability.
+This can result in a final 3D printed product that does not
+meet customer expectations and/or product specifications, 10 1
+and it can lead to low quality 3D printed products or
+components that result in failures, among other problems.
+These issues can also increase operating costs for 3D
+printing service providers through material waste, reduced
+throughput due to machine downtime and/or unproductive 15
+print hours, and associated supply chain risks and ineffi-
+ciencies. For example, it is common for 3D printed products
+to get deformed during or after the manufacture due to
+printing procedures and non-optimized printing parameters.
+Also,common issues that canarisedueto inefficient manu- 20
+facturing supply chains include fraud, delayed deliveries,
+contractual liability, and product recalls.
+To ensure that the final metal 3D printed product matches
+the customer expectations and producer specifications
+around quality, cost and turnaround time, a need exists for 25
+smarter product design, manufacturing, supply chain and
+demand management methods and systems. A further need
+exists for methods and systems that allow for improved
+monitoring, management, and optimization of additive
+parties.
+Conventional machine vision systems are made of a
+combination of optics, lighting, sensors and software and
+aim to replicate the function of human eye. Such systems
+reflected light from the object. An optical lens captures the
+coupled device (CCD) or complementary metal oxide semi-
+conductor (CMOS) device. Such devices contain matrices or
+linear arrays of small, accurately spaced photo sensitive 40
+elements fabricated on silicon chips using integrated circuit
+technology. The sensor device converts the light falling on
+it, through the camera lens, into analog electrical signal
+corresponding to light intensity. The object image is thus
+broken down into an array of individual picture elements or 45
+pixels. An analog to digital converter is used to convert
+analog voltage of element into digital value. If voltage level
+for each pixel is given either O or 1 value depending on some
+threshold value, it is called binary system. On the other
+depending on intensity to each pixel. Thus, in addition to
+black and white, many different shades of gray can be
+distinguished. A gray-scale image may be seen to have one
+channel, represented by a 2-D matrix of pixels having pixel
+values in the range of, for example, 0 to 255. A color image 55
+on the other hand represents the brightness and color of the
+pixels in an image by the three primary color values: R (red),
+G (green), and B (blue). Thus, color images have red, green,
+and blue (RGB) channels each representing RGB compo-
+nents of the image. This raw data captured by the image 60
+sensor is then sent to an image processing system for
+analysis. The image processing system then processes the
+raw data to extract useful information to analyze the image
+ and make decisions on such analysis. The image processing
+system may include a pre-processing function to enhance the 65
+image quality. For example, such processing may involve
+image scaling, noise reduction, color adjustment, brightness
+[col 2]
+adjustment, white balance adjustment, sharpness, adjust-
+ment, contrast adjustment and the like. Further the image
+may be analyzed using machine learning or other algorithms
+to identify one or more objects in the image and determine
+the position and orientation of such objects.
+While vision technology has improved significantly in the
+past few years, most of the improvements relate to process-
+ing of the image data captured by vision sensors and may be
+attributed to the use of big data, sophisticated machine
+learning algorithms like convolutional neural networks
+(CNNs) and graphical processing units (GPUs) for process-
+ing of the image data. The conventional vision technology
+however, has significant limitations specifically with respect
+to capturing of the raw data about an object or a scene. For
+example, the optical lenses in conventional vision systems
+relying on simple focusing techniques. The attempt to get an
+object into focus on an image ends up losing a large amount
+of information and other optical properties. A need exists for
+capturing previously lost or inferred information so as to
+to algorithms. A further need exists for a richer object
+recognition complex vision application where conventional
+vision technologies have proved inadequate including rec-
+ognizing objects in dynamic environments like when the
+object or vision system are moving, as in a mobile, robotic
+usage example; recognizing three dimensional (3D) objects
+depth, orientation, and motion; recognizing tiny objects;
+constrained or network constrained environment, and other
+use cases for which traditional machine vision systems and
+methods are poorly suited.
+Furthermore, automation is revolutionizing value chains
+of the revolution. While physical robots have played an
+ever-expanding role in manufacturing for years, typical
+implementations have historically focused on fixed location
+robots completing prescribed tasks in pre-defined arrange-
+ments, such as painting, welding, and so forth in an assem-
+bly line. These limited roles produced and continue to
+produce significant improvements in quality, cost, and pro-
+ductivity, but do not take full advantage of emerging tech-
+nologies in engineering, materials science, software process
+automation, artificial intelligence, additive manufacturing,
+data-driven analytics,digital twins,blockchains, smartcon-
+tracts, and the like. These technologies can be integrated
+with developments in robotics (including hardware and
+functional autonomous robots with interactive capabilities.
+Emerging and future robot classes and capabilities provide
+opportunity for ever-expanding robot use cases and man-
+agement platforms that can automatically configure, orga-
+nize, deploy, and control robots and robot fleets to securely
+deliver reliable services, including contracted services that
+access robotic fleet capabilities in “"robotics-as-a-service"
+platforms, among others.
+SUMMARY
+A robot fleet management platform includes a set of
+datastores that store a governance library that defines a set
+of governance standards that include at least one set of
+security standards, legal standards, ethical standards, regu-
+latory standards, quality standards, or engineering standards
+that are applied to decisions made by one or more respective
+intelligence services. The robot fleet management platform

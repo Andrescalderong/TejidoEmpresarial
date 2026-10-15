@@ -1,0 +1,131 @@
+[col 1]
+US2022/0035342A1
+95
+where the customer may manipulate one or more aspects of
+the digital twin 1730, request changes, and the like. In
+embodiments, multiple versions of a digital twin 1730 may
+be maintained for a given customer, such as a version for
+customer review, an internal version for an enterprise or
+host, a version for each of a specific set of brands (e.g..
+where a customer's appropriate clothing sizes vary by
+brand), a public version (such as one shared with a custom-
+er's social network for feedback, such as from friends), a
+private version (such as one where a customer is provided
+complete control over features and properties), a simulation
+version, a real-time version, and the like. In embodiments,
+the adaptive intelligent systems layer 614 is configured to
+leverage the customer digital twins 5502, customer profile
+digital twins 1730, and/or other digital twins 1700 of other
+value chain network entities 652. In embodiments, the
+adaptive intelligent systems layer 614 is configured to
+perform simulations using the customer digital twins 5502,
+customer profile digital twins 1730, and/or digital twins of
+other value chain network entities 652. For example, the
+adaptive intelligent systems layer 614 may vary one or more
+features of a product digital twin 1780 as its use is simulated
+by a customer digital twin 1730.
+[0825] In embodiments, a simulation management system
+5704 may set up, provision, configure, and otherwise man-
+age interactions and simulations between and among digital
+twins 1700 representing value chain entities 652.
+[0826] In embodiments, the adaptive intelligent systems
+layer 614 may, for each set of features, execute a simulation
+based on the set of features and may collect the simulation
+outcome data resulting from the simulation. For example, in
+executing a simulation involving the interactions of an
+ligent product 650 and a customer digital twin 1730, the
+adaptive intelligent systems layer 614 can vary the dimen-
+sions of the intelligent product digital twin 1780 and can
+execute simulations that generate outcomes in a simulation
+management system 5704. In this example, an outcome can
+be an amount of time taken by a customer digital twin 5502
+to complete a task using the intelligent product digital twin
+1780. During the simulations, the adaptive intelligent sys-
+1780 display screen size, available capabilities (processing,
+speech recognition, voice recognition, touch interfaces,
+remote control, self-organization, self-healing, process auto-
+mation, computation, artificial intelligence, data storage, and
+the like), materials, and/or any other properties of the
+intelligent product digital twin 1780. Simulation data 5710
+may be created for each simulation and may include feature
+data used to perform the simulations, as well as outcome
+data. In the example described above, the simulation data
+5710 may be the properties of the customer digital twin 5502
+and the intelligent product digital twin 1780 that were used
+to perform the simulation and the outcomes resulting there-
+from. In embodiments, a machine learning system 5720 may
+receive training data 5730, outcome data 5740, simulation
+data 5710, and/or data from other types of external data
+sources 5702 (weather data, stock market data, sports event
+data, news event data, and the like). In embodiments, this
+data may be provided to the machine-learning system 5720
+via an API of the adaptive intelligent systems layer 614. The
+machine learning system 5720 may train, retrain, or rein-
+force machine leaning models 5750 using the received data
+(training data, outcome data, simulation data, and the like).
+[col 2]
+Feb.3,2022
+[0827]  FIG. 58 illustrates an example of an advertising
+application that interfaces with the adaptive intelligent sys-
+tems layer 614. In example embodiments, the advertising
+application may be configured automate advertising-related
+tasks for a value chain product or service.
+[0828]  In embodiments, the machine-learning system
+5720 trains one or more models 5750 that are leveraged by
+the artificial intelligence system 1160 to make classifica-
+tions, predictions, and/or other decisions relating to adver-
+tisements for a set of value chain products and/or services.
+[0829]In exampleembodiments, a model 5750 is trained
+to select advertisement features to optimize one or more
+outcomes (e.g., maximize product sales for a product 650 in
+the value chain network 668). The machine-learning system
+5720 may train the models 5750 using n-tuples that include
+the features pertaining to advertisements and one or more
+outcomes associated with the advertisements. In this
+example, features for an advertisement may include, but are
+not limited to, product and/or service category advertised,
+advertised product features (price, product vendor, and the
+like), advertised service features, advertisement type (tele-
+vision, radio, podcast, social media, e-mail or the like),
+advertisement length (10 seconds, 30 seconds, or the like),
+advertisement timing (in the morning, before a holiday, and
+the like), advertisement tone (comedic, informational, emo-
+tional, or the like), and/or other relevant advertisement
+features. In this example, outcomes relating to the adver-
+tisement may include product sales, total cost of the adver-
+tisement, advertisement interaction measures, and the like.
+In this example, one or more digital twins 1700 may be used
+to simulate the different arrangements (e.g., digital twins of
+advertisements, customers, customer profiles, and environ-
+ments), whereby one or more properties of the digital twins
+are varied for different simulations and the outcomes of each
+simulation may be recorded in a tuple with the proprieties.
+Other examples of training advertising models may include
+a model that is trained to generate advertisements for value
+chain products 650, a model that is trained to manage an
+advertising campaign for value chain products 650, and the
+like. In operation, the artificial intelligence system 1160 may
+use such models 5750 to make advertisement decisions on
+behalf of an advertising application 5602 given one or more
+features relating to an advertising-related task or event. For
+example, the artificial intelligence system 1160 may select a
+type of advertisement (e.g-, social media, podcast, and the
+like) to use for a value chain product 650. In this cxample,
+the advertising application 5602 may provide the features of
+the product to artificial intelligence system 1160. These
+features may include product vendor, the price of the prod-
+uct, and the like. In embodiments, the artificial intelligence
+system 1160 may insert these features into one or more of
+the models 5750 to obtain one or more decisions, which may
+include which type of advertisement to use. In embodiments,
+the artificial intelligence system 1160 may leverage the
+customer digital twins 5502 and/or customer profile digital
+twins 1730 to run simulations on the one or more decisions
+and generate simulation data 5710. The machine learning
+system 5720 may receive the simulation data 5710 and other
+data as described throughout this disclosure to retrain or
+reinforce machine leaning models. In embodiments, the
+customer digital twins 5502, customer profile digital twins
+1730, and other digital twins 1700 may be leveraged by the
+artificial intelligence system 1160 to simulate a decision
+made by the artificial intelligence system 1160 before pro-

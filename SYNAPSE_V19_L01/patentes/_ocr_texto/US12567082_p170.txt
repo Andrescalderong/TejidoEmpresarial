@@ -1,0 +1,136 @@
+platform includes a computer-readable storage system that 2o of at least one fleet resource.
+[col 1]
+US 12,567,082 B2
+17
+legsforlocomotion,In some embodiments, configuring the
+one or more assigned multi-purpose robots includes provi-
+sioning one or more modules identified in a job execution
+plan to the multi-purpose robot. In some embodiments,
+configuring the one or more assigned multi-purpose robots
+includes provisioning one or more of appendages, sensor
+sets, chipsets, and motive adaptors to the multi-purpose
+robot based on at least one task in a set of target tasks for the
+robot that are identified in a job execution plan. In some
+embodiments, configuring the one or more assigned multi- 10
+purpose robots includes analyzing a job execution plan that
+defines a fleet of robots and configuring at least one multi-
+purpose robot of the fleet of robots. In some embodiments,
+configuring the one or more assigned multi-purpose robots
+includes provisioning a local manager capability that 15 
+enables the multi-purpose robot to control one or more
+robots.
+According to some embodiments of the present disclo-
+sure, a robotic fleet management platform is disclosed. The
+stores a resources data store that maintains a fleet resource
+inventory that indicates a plurality of fleet resources that can
+be assigned to a robotic fleet, and for each respective fleet
+resource, maintenance status data including a maintenance
+history, a predicted maintenance need, and a preventive 25
+maintenance schedule; and a maintenance management
+library of fleet resource maintenance requirements that
+facilitates determining maintenance workflows, service
+actions, and service parts for at least one fleet resource of the
+plurality of fleet resources indicated in the fleet resource 30
+inventory. The platform further includes a set of one or more
+processors that execute a set of computer-readable instruc-
+tions. The set of one or more processors collectively calcu-
+late the predicted maintenance need of a fleet resource based
+failure of one or more components of the at least one fleet
+resource, wherein the anticipated component wear and
+anticipated component failure of the one or more compo-
+nents is derived from machine learning-based analysis of the
+maintenance status data in thefleet resource inventory.The 40
+set of one or more processors collectively monitor a health
+state of the fleet resource, wherein the health state is
+determined from sensor data received from the fleet
+resource. The set of one or more processors collectively
+adapt the preventive maintenance schedule for the fleet 45 1
+resource by indicating a new preventive maintenance sched-
+ule for at least one item of maintenance for the fleet resource
+based on the predicted maintenance need, the health state,
+and the fleet resource maintenance requirements of the fleet
+resource. The set of one or more processors collectively 5o 1
+initiate a service action of the at least one item of mainte-
+nance for the fleet resource based on the fleet resource
+maintenance requirements and the new preventive mainte-
+nance schedule.
+In some embodiments, the set of one or more processors 55
+further predict fleet resource maintenance needs based on
+digital twin-based simulation of a digital twin of the at least
+one fleet resource. In some embodiments, the at least one
+fleet resource is a robotic operating unit.
+In some embodiments, a predictive maintenance intelli-
+gence service layer predicts at least one of the anticipated
+component wear or the anticipated component failure by
+applying a clustering algorithm to identify at least one
+failure pattern in a set of failure data. In some of these
+embodiments, the predictive maintenance intelligence ser- 65
+vice layer correlates patterns of failure to wear-down behav-
+[col 2]
+18
+pre-failure maintenance plan. In some of these embodi-
+ments, the predictive maintenance intelligence service layer
+adjusts a preventive maintenance plan for a robotic fleet
+resource based on the correlated patterns of failure for
+similar types of robotic fleet resources. Additionally or
+alternatively, the predictive maintenance intelligence service
+layer predicts fleet resource maintenance needs based on
+digital twin-based simulation of a digital twin of at least one
+fleetresource.
+In some embodiments, adapting the preventive mainte-
+nance schedule includes interacting with a fleet configura-
+tion system by sharing job-impacting fleet resource main-
+tenance knowledge. In some embodiments, causing a service
+action includes configuring a set of 3D printing requirements
+for facilitating field maintenance of a fleet resource. In some
+of these embodiments, the 3D printing requirements are
+configured based on a predicted maintenance activity for the
+fleet resource. In some embodiments, the new preventive
+maintenance schedule includes scheduled field maintenance
+In some embodiments, the new preventive maintenance
+schedule includes scheduled repair depot-based mainte-
+nance of at least one fleet resource. In some of these
+embodiments, the at least one fleet resource is a smart
+container operating unit. Additionally or alternatively, the at
+least one fleet resource is a robotic operating unit. In some
+embodiments, the platform further includes a mobile main-
+tenance vehicle. In some embodiments, the platform further
+includes a repair depot. In some embodiments, the platform
+further includes a third-party maintenance service provider.
+In some embodiments, adapting the preventive maintenance
+schedule includes adapting a maintenance schedule for at
+least one inactive fleet resource based on an evaluation of a
+maintenance need for the at least one inactive fleet resource.
+In some embodiments, the set of one or more processors
+further monitor a state of at least one fleet resource by
+monitoring communications of the at least one fleet resource
+for an indication of a maintenance need. In some of these
+embodiments, the at least one fleet resource is a robotic
+operating unit. Additionally or alternatively, the indication
+of a maintenance need includes a lack of a heartbeat signal
+to a fleet resource health monitor resource. Additionally or
+alternatively, the maintenance need of the at least one fleet
+resource includes a potential service condition. In some of
+these embodiments, the potential service condition includes
+one or more of reduced power output, exposure to excess
+ambient conditions, or a leak.
+In some embodiments, the set of one or more processors
+further deploys software-based maintenance monitoring
+probes to operating or supervisory software of the at least
+one fleet resource. In some of these embodiments, the probes
+monitor information in a data store of the at least one fleet
+resource that stores operating state information. Additionally
+or alternatively, the probes activate self-test operating modes
+of the at least one fleet resource. Additionally or alterna-
+tively, the probes collect data that provides indications of
+maintenance needs of the at least one fleet resource.
+In some embodiments, the set of one or more processors
+further deploys one or more maintenance fleet resources
+6o within one or more smart containers. In some embodiments,
+adapting the preventive maintenance schedule includes
+adapting a maintenance schedule for at least one fleet
+resource based on operator input regarding a state of the at
+least one fleet resource. In some embodiments, causing a
+service action includes automation of maintenance activities
+for the at least one fleet resource. In some embodiments,
+adapting the preventive maintenance schedule includes

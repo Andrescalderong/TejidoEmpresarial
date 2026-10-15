@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+for communication with a primary computing device,
+wherein the primary computing device may manage the set
+of sub-level computing devices to orchestrate performance
+of a set of value chain network entities. The set of sub-level
+computing devices may receive a primary command from
+the primary computing device, wherein the command may
+be one of a task or a request associated with the value chain
+network. At least a portion of one or more computing
+devices capable of fulfilling the primary command may be
+assigned as a set of one or more computing devices to be 10
+managed by the sub-level computing device, wherein the
+sub-level computing device may be a computing device that
+manages or executes performance of a particular entity or
+relationship of the value chain network. The sub-level
+computing device may configure the set of one or more 15
+computing devices to fulfill one or more secondary com-
+mands based upon, at least in part, the primary command.
+The sub-level computing device may fulfill the primary
+command based upon, at least in part, the set of one or more
+computing devices fulfilling the one or more secondary 20
+commands.
+One or more of the following example features may be
+included. Configuring the set of one or more computing
+devices to fulfill the one or more secondary commands may
+include generating a set of at least one configured system
+ service (CSS). Generating the set of at least one CSS may
+include utilizing an output of a plurality of sources as an
+input to generate one or more control parameters. Config-
+uring the set of one or more computing devices to fulfill the
+one or more secondary commands may include providing 30
+intelligence received from the at least one CSS to the set of
+one or more computing devices. Assigning at least the
+portion of one or more computing devices capable of
+fulfilling the primary command as the set of one or more
+computing devices to be managed by the sub-level comput- 35
+ing device may include executing an enrollment process
+between the set of one or more computing devices and the
+sub-level computing device. Executing the enrollment pro-
+cess may include conducting an inventory of communication
+computing devices. The sub-level computing device may
+obtain one or more application programming interfaces
+(APIs) to enable communication and data format translation
+between each computing device of the set of one or more
+computing devices and the sub-level computing device. The 45
+primary computing device may be bypassed to receive
+external data at the sub-level computing device when the
+external data is unused by the primary computing device.
+Generating the set of at least one CSS may include gener-
+ating at least one CSS for each interface layer in a manage- 50
+ment stack. Intelligent decision-making may be performed
+regarding strategy for the primary command based upon, at
+least in part, a configured intelligence service (CIS). The set
+of the value chain network entities may include at least one
+of products, suppliers, producers, manufacturers, retailers, 55
+businesses, owners, operators, operating facilities, custom-
+ers, consumers, workers, mobile devices, wearable devices,
+distributors, resellers, supply chain infrastructure facilities,
+ supply chain processes, logistics processes, reverse logistics
+processes, demand prediction processes, demand manage- 60
+ment processes, demand aggregation processes, machines,
+ships, barges, warehouses, maritime ports, airports, airways,
+waterways, roadways, railways, bridges, tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of 65
+destination, points of storage, points of use, networks,
+information technology systems, software platforms, distri-
+[col 2]
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities. A generated system
+output may be sent to the primary computing device
+responding to the primary command based upon, at least in
+part, the set of one or more computing devices fulfilling the
+one or more secondary commands.
+In another example implementation, a computing system
+may include one or more processors and one or more
+memories configured to perform operations that may include
+but are not limited to configuring a set of sub-level com-
+puting devices for communication with a primary computing
+device, wherein the primary computing device may manage
+the set of sub-level computing devices to orchestrate per-
+formance of a set of value chain network entities. The set of
+sub-level computing devices may receive a primary com-
+mand from the primary computing device, wherein the
+command may be one of a task or a request associated with
+the value chain network. At least a portion of one or more
+computing devices capable of fulfilling the primary com-
+mand may be assigned as a set of one or more computing
+devices to be managed by the sub-level computing device,
+wherein the sub-level computing device may be a computing
+device that manages or executes performance of a particular
+entity or relationship of the value chain network. The
+sub-level computing device may configure the set of one or
+more computing devices to fulfill one or more secondary
+commands based upon, at least in part, the primary com-
+mand. The sub-level computing device may fulfill the pri-
+mary command based upon, at least in part, the set of one or
+more computing devices fulfilling the one or more second-
+ary commands.
+One or more of the following example features may be
+included. Configuring the set of one or more computing
+devices to fulfill the one or more secondary commands may
+include generating a set of at least one configured system
+service (CSS). Generating the set of at least one CSS may
+include utilizing an output of a plurality of sources as an
+input to generate one or more control parameters. Config-
+uring the set of one or more computing devices to fulfill the
+one or more secondary commands may include providing
+intelligence received from the at least one CSS to the set of
+one or more computing devices. Assigning at least the
+portion of one or more computing devices capable of
+fulfilling the primary command as the set of one or more
+computing devices to be managed by the sub-level comput-
+ing device may include executing an enrollment process
+between the set of one or more computing devices and the
+sub-level computing device. Executing the enrollment pro-
+cess may include conducting an inventory of communication
+protocols and data formats used by the set of one or more
+computing devices. The sub-level computing device may
+obtain one or more application programming interfaces
+(APIs) to enable communication and data format translation
+between each computing device of the set of one or more
+computing devices and the sub-level computing device. The
+primary computing device may be bypassed to receive
+external data at the sub-level computing device when the
+external data is unused by the primary computing device.
+Generating the set of at least one CSS may include gener-
+ating at least one CsS for each interface layer in a manage-
+ment stack. Intelligent decision-making may be performed
+regarding strategy for the primary command based upon, at
+least in part, a configured intelligence service (CIS). The set
+of the value chain network entities may include at least one

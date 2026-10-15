@@ -1,0 +1,133 @@
+[col 1]
+US2022/0058569A1
+66
+provides one or more simulations of both physical elements
+and properties of the set of value chain entities being
+replicated and the dynamics thereof, in embodiments
+throughout the lifestyle of the set of value chain entities
+being replicated. The one or more simulations may include
+a visual simulation, such as a wire-frame virtual represen-
+tation of the one or more value chain entities 652 that may
+be viewable on a monitor, using an augmented reality (AR)
+apparatus, or using a virtual reality (VR) apparatus. The
+visual simulation may be able to be manipulated by a human
+user of the information technology system, such as zooming
+or highlighting components of the simulation and/or pro-
+viding an exploded view of the one or more value chain
+entities 652. The digital replica may provide a hypothetical
+simulation of the set of value chain entities, for example
+during a design phase before the one or more value chain
+entities are constructed or fabricated, or during or after
+construction or fabrication of the one or more value chain
+entities by allowing for hypothetical extrapolation of sensor
+data to simulate a state ofthe set of value chain entities, such
+as during high stress, after a period oftime has passed during
+which component wear may be an issue, during maximum
+throughput operation, after one or more hypothetical or
+planned improvements have been made to the set of value
+chain entities, or any other suitable hypothetical situation. In
+some embodiments, the machine learning model 3000 may
+automatically predict hypothetical situations for simulation
+with the digital replica, such as by predicting possible
+improvements to the set of value chain entities, predicting
+when one or more components of the set of value chain
+entities may fail, and/or suggesting possible improvements
+to the set of value chain entities, such as changes to timing
+settings, arrangement, components, or any other suitable
+change to the value chain entities 652. The digital replica
+allows for simulation ofthe set ofvalue chain entities during
+both design and operation phases of the set of value chain
+entities, as well as simulation of hypothetical operation
+conditions and configurations of the set of value chain
+entities. The digital replica allows for invaluable analysis
+and simulation of the one or more value chain entities, by
+facilitating observation and measurement ofnearly any type
+of metric, including temperature, wear, light, vibration, etc.
+not only in, on, and around each component of the set of
+value chain entities, but in some embodiments within the set
+of value chain entities. In some embodiments, the machine
+learning model 3000 may process the sensor data including
+the event data 1034 and the state data 1140 to define
+simulation data for use by the digital twin system 1700. The
+machine learning modei 3000 may, for example, receive
+state data 1140 and event data 1034 related to a particular
+value chain entity 652 of the plurality of value chain entities
+652 and perform a series of operations on the state data 1140
+and the event data 1034 to format the state data 1140 and the
+event data 1034 into a format suitable for use by the digital
+twin system 1700 in the creation of a digital replica of the
+set of value chain entities. For example, a set of value chain
+entities may include a die machine configured to place
+products on a conveyor belt, the conveyor belt on which the
+die machine is configured to place the products, and a
+plurality of robots configured to add parts to the products as
+they move along the assembly line. The machine learning
+model 3000 may collect data from one or more sensors
+positioned on, near, in, and/or around each of the die
+machines, the conveyor belt, and the plurality of robots. The
+[col 2]
+Feb.24,2022
+machine learning model 3000 may perform operations on
+the sensor data to process the sensor data into simulation
+data and output the simulation data to the digital twin system
+1700. The digital twin simulation 1700 may use the simu-
+lation data to create one or more digital replicas of the die
+machine, the conveyor belt, and the plurality of robots, the
+simulation including for example metrics including tem-
+perature, wear, speed, rotation, and vibration of the die
+machine, the conveyor belt, and the plurality of robots and
+components thereof. The simulation may be a substantially
+real-time simulation, allowing for a human user of the
+information technology to view the simulation of the die
+machine, the conveyor belt, and the plurality of robots,
+metrics related thereto, and metrics related to components
+thereof, in substantially real time. The simulation may be a
+predictive or hypothetical situation, allowing for a human
+user of the information technology to view a predictive or
+hypothetical simulation of the die machine, the conveyor
+belt, and the plurality of robots, metrics related thereto, and
+metrics related to components thereof.
+[0542] In some embodiments, the machinelearning model
+3000 may prioritize collection of sensor data for use in
+digital replica simulations of one or more of the value chain
+entities 652. The machine learning model 3000 may use
+sensor data and user inputs to train, thereby learning which
+types of sensor data are most effective for creation of digital
+replicate simulations of one or more of the value chain
+entities 652. For example, the machine learning model 3000
+may find that a particular value chain entity 652 has dynamic
+properties such as component wear and throughput affected
+by temperature, humidity, and load. The machine learning
+model 3000 may, through machine learning, prioritize col-
+lection of sensor data related to temperature, humidity, and
+load, and may prioritize processing sensor data of the
+prioritized type into simulation data for output to the digital
+twin system 1700. In some embodiments, the machine
+learning model 3000 may suggest to a user of the informa-
+tion technology system that more and/or different sensors of
+the prioritized type be implemented in the information
+technology and value chain system near and around the
+value chain entity 652 being simulation such that more
+and/or better data of the prioritized type may be used in
+simulation of the value chain entity 652 via the digital
+replica thereof.
+[0543]  In some embodiments, the machine learning model
+3000may be configured to learn to determine which types
+of sensor data are to be processed into simulation data for
+transmission to the digital twin system 1700 based on one or
+both of a modeling goal and a quality or type of sensor data.
+A modeling goal may be an objective set by a user of the
+information technology system or may be predicted or
+learned by the machine learning model 3000.Examples of
+modeling goals include creating a digital replica capable of
+showing dynamics of throughput on an assembly line, which
+may include collection, simulation, and modeling of, e.g.,
+thermal, electrical power, component wear, and other met-
+rics of a conveyor belt, an assembly machine, one or more
+products, and other components of the value chain. The
+machine learning model 3000 may be configured to learn to
+determine which types of sensor data are necessary to be
+processed into simulation data for transmission to the digital
+twin system 1700 to achieve such a model. In some embodi-
+ments, the machine learning model 3000 may analyze which
+types of sensor data are being collected, the quality and

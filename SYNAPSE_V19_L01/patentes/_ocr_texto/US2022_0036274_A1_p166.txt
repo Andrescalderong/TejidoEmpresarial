@@ -1,0 +1,130 @@
+[col 1]
+US2022/0036274A1
+83
+need status, interest status, aggregate status for a group or
+population, individual status, and many others.
+[0677] In embodiments, the status information involves
+traffic status.In embodiments, the status information
+involves congestion status. In embodiments, the status infor-
+mation involves bandwidth status. In embodiments, the
+status information involves operating status. In embodi-
+ments, the status information involves workflow progress
+status.
+[0678]In embodiments, the status information involves
+incident status. In embodiments, the status information
+involves damage status. In embodiments, the status infor-
+mation involves safety status.
+[0679] In embodiments, the status information involves
+power availability status. In embodiments, the status infor-
+mation involves worker status. In embodiments, the status
+information involves data availability status.
+[0680] In embodiments, the status information involves
+predicted system status. In embodiments, the status infor-
+mation involves shipment location status. In embodiments,
+the status information involves shipment timing status. In
+embodiments, the status information involves delivery sta-
+tus.
+[0681] In embodiments, the status information involves
+anticipated delivery status. In embodiments, the status infor-
+mation involves environmental conditionstatus.
+[0682] In embodiments, the status information involves
+system diagnostic status. In embodiments, the status infor-
+mation involves system fault status. In embodiments, the
+status information involves cybersecurity status. In embodi-
+ments, the status information involves compliance status.
+Dashboard for Managing Digital Twins
+[0683] Referring to FIG. 14, an embodiment of the plat-
+form 604 is provided. As with other embodiments, the
+platform 604 may employ a micro-services architecture with
+the various data handling layers 624, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 614 (including artificial intelligence 1160), a set of
+data storage facilities or systems 624, and a set of monitor-
+ing facilities or systems 614. The platform 604 may support
+a set of applications 630 (including processes, workflows,
+activities, events, use cases and applications) for enabling an
+enterprise to manage a set of value chain network entities
+652, such as from a point of origin to a point of customer use
+of a product 650, which may be an intelligent product.
+[0684]Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point oforigin to a point ofcustomer
+use; and a dashboard for managing a set of digital twins,
+wherein at least one digital twin represents a set of supply
+chain entities, workflows and assets and at least one other
+digital twin represents a set of demand management entities
+and workflows.
+[col 2]
+Feb.3,2022
+[0685]In embodiments, theVCNP604 may further
+include a dashboard 1740 for managing a set of digital twins
+1700. In embodiments, this may include different twins,
+such as where one digital twin 1700 represents a set of
+supply chain entities, workflows and assets and another
+digital twin 1700 represents a set of demand management
+entities and workflows.In some example embodiments,
+managing a set of digital twins 1700 may refer to configu-
+ration (e.g., via the dashboard 1740) as described in the
+disclosure. For example, the digital twin 1700 may be
+configured through use of a digital twin configuration sys-
+tem to set up and manage the enterprise digital twins and
+associated metadata of an enterprise, to configure the data
+structures and data listening threads that power the enter-
+prise digital twins, and to configure features of the enterprise
+digital twins, including access features, processing features,
+automation features, reporting features, and the like, each of
+which may be affected by the type of enterprise digital twin
+(e.g., based on the role(s) that it serves, the entities it depicts,
+the workflows that it supports or enables and the like). In
+example embodiments, the digital twin configuration system
+may receive the types of digital twins that may be supported
+for the enterprise, as well as the different objects, entities,
+and/or states that are to be depicted in each type of digital
+twin. For each type of digital twin, the digital twin configu-
+ration system may determine one or more data sources and
+entity, or state that is depicted in the respective type of
+digital twin and may determine any internal or external
+software requests (e.g., API calls) that obtain the identified
+data types or other suitable data acquisitions mechanisms,
+such as webhooks, that may configured to automatically
+receive data from an internal or external data source In some
+embodiments, the digital twin configuration system may
+determine internal and/or external software requests that
+support the identified data types by analyzing the relation-
+ships between the different types of data that correspond to
+a particular state/entity/object and the granularity thereof.
+Additionally or alternatively, a user may define (e.g., via a
+GUI) the data sources and/or software requests and/or other
+data acquisition mechanisms that support the respective data
+types that are depicted in a respective digital twin, In these
+example embodiments, the user may indicate the data source
+that may be accessed and the types of data to be obtained
+from therespective data source.
+[0686] The dashboard may be used to configure the digital
+twins 1700 for use in collection, processing, and/or repre-
+sentation of information collected in the platform 604, such
+as status information 1730, such as for the benefit of a set of
+demand management applications 1502, a set of supply
+chain applications 1500, a set of intelligent product appli-
+cations 1510, a set of asset management applications 1530
+and a set of enterprise resource management applications
+1520 for a category of goods.
+[0687]   In embodiments, the dashboard for managing a set
+of digital twins, wherein at least one digital twin represents
+a set of supply chain entities and workflows and at least one
+other digital twin represents a set of demand management
+entities and workflows.
+[0688]In embodiments, the entities and workflows relate
+to a set of products of an enterprise. In embodiments, the
+entities and workflows relate to a set of suppliers of an
+enterprise.In embodiments,the entities and workflows
+relate to a set of producers of a set of products. In embodi-

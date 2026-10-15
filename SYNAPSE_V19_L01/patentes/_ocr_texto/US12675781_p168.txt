@@ -1,0 +1,137 @@
+that may include: a cloud-based management platform with 20 process automation system 1442.
+Referring to FIG. 29, additional details of an embodiment 35 system 1700, such as one representing attributes of a set of
+[col 1]
+US 12,675,781 B2
+85
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system 10
+that may include: a cloud-based management platform with
+a micro-services architecture; a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities; and a set of
+applications for enabling an enterprise to manage a set of 15
+value chain network entities from a point of origin to a point
+ofcustomeruse.
+Also provided herein are methods, systems, components
+and other elements for an information technology system
+a micro-services architecture, the platform having: a set of
+interfaces for accessing and configuring features of the
+platform; a set of network connectivity facilities for enabling
+a set of value chain network entities to connect to the
+platform; a set of adaptive intelligence facilities for auto- 25
+mating a set of capabilities of the platform; a set of data
+storage facilities for storing data collected and handled by
+the platform; and a set of monitoring facilities for monitor-
+ing the value chain network entities; wherein the platform
+hosts a set of applications for enabling an enterprise to
+30
+manage a set of value chain network entities from a point of
+origin of a product of the enterprise to a point of customer
+use.
+Broad Management PlatformDetails
+of the platform 604 are provided, in particular relating to an
+overall architecture for the platform 604. These may include,
+for the cloud-based management platform 604, employing a
+micro-services architecture, a set of network connectivity
+facilities 642(whichmayincludeorconnecttoa setof 40
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+ systems 1160, a set of data storage facilities or systems 624.
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ- 45
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product. 50
+In embodiments, the set of interfaces 702 may include a
+demand management interface 1402 and a supply chain
+management interface 1404.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to 55 s
+connect to the platform 604 may include a 5G network
+system 1410, such as one that is deployed in a supply chain
+infrastructure facility operated by the enterprise.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to 60
+connect to the platform 604 may include an Internet of
+Things system 1172, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise, in, on
+or near a value chain network entity 652, in a network
+system, and/or in a cloud computing environment (such as 65
+where data collection systems 640 are configured to collect
+and organize IoT data).
+[col 2]
+86
+In embodiments, the set of network connectivityfacilities
+642 for enabling a set of value chain network entities 652 to
+connect to the VCNP 102 may include a cognitive network-
+ing system 1420 deployed in a supply chain infrastructure
+facility operated by the enterprise.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to
+connect to the VCNP 102 may include a peer-to-peer net-
+work system 1430, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 808 for automating a set of
+capabilities of the platform 604 may include an edge intel-
+ligence system 1420, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 808 for automating a set of
+capabilities of the platform 604 may include a robotic
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 808 for automating a set of
+capabilities of the platform 604 may include or may inte-
+grate with a self-configuring data collection system 1440,
+such as one that deployed in a supply chain infrastructure
+facility operated by the enterprise, one that is deployed in a
+network, and/or one that is deployed in a cloud computing
+environment. This may include elements of the data collec-
+tion systems 640 of the data handling layers 608 that interact
+with or integrate with elements of the adaptive intelligent
+systems 808.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 808 for automating a set of
+capabilities of the platform 604 may include a digital twin
+value chain network entities, such as the ones controlled by
+an enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 808 for automating a set of
+capabilities oftheplatform 604 may include a smart contract
+system 848, such as one for automating a set of interactions
+or transactions among a set of value chain network entities
+652 based on status data, event data, or other data handled
+by the data handling layers 608.
+In embodiments, the set of data storage facilities or data
+storage systems 624 for storing data collected and handled
+by the platform 604 uses a distributed data architecture 1122.
+In embodiments, the set of data storage facilities for
+storing data collected and handled by the platform uses a
+blockchain 844.
+In embodiments, the set of data storage facilities for
+storing data collected and handled by the platform uses a
+distributed ledger 1452.
+In embodiments, the set of data storage facilities for
+storing data collected and handled by the platform uses
+graph database 1124 representing a set of hierarchical rela-
+tionships of value chain network entities.
+In embodiments, the set of monitoring facilities 614 for
+monitoring the value chain network entities 652 includes an
+Internet of Things monitoring system 1172, such as for
+collecting data from IoT systems and devices deployed
+throughout a value chain network.
+In embodiments, the set of monitoring facilities 614 for
+monitoring the value chain network entities 652 includes a
+set of sensor systems 1462, such as ones deployed in a value
+chain environment or in, one or near a value chain network
+entity 652, such as in or on a product 650.

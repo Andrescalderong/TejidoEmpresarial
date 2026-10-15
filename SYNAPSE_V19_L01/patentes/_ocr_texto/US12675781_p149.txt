@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+47
+chain network entity-oriented data storage systems layer 624
+(referred to in some cases herein for convenience simply as
+a data storage layer 624), an adaptive intelligent systems
+layer 614 and a value chain network management platform
+layer 604. The value chain network management platform
+604 may include the data handling layers 608 such that the
+value chain network management platform layer 604 may
+provide management of the value chain network manage-
+ment platform 604 and/or management of the other layers
+ such as the value chain network monitoring systems layer
+10
+614, the value chain network entity-oriented data storage
+systems layer 624 (e.g., data storage layer 624), and the
+adaptive intelligent systems layer 614. Each of the data
+handling layers 608 may include a variety of services,
+programs, applications, workflows, systems, components 15 
+and modules, as further described herein and in the docu-
+ments incorporated herein by reference. In embodiments,
+each of the data handling layers 608 (and optionally the
+platform 604 as a whole) is configured such that one or more
+of its elements can be accessed as a service by other layers 20
+624 or by other systems (e.g., being configured as a plat-
+form-as-a-service deployed on a set of cloud infrastructure
+components in a microservices architecture). For example,
+the platform 604 may have (or may configure and/or pro-
+connectivity facilities 642, such as network connections
+(including various configurations, types and protocols),
+interfaces, _ports, application programming interfaces
+(APIs), brokers, services, connectors, wired or wireless
+communication links, human-accessibleinterfaces, software 30
+interfaces, micro-services, SaaS interfaces, PaaS interfaces,
+IaaS interfaces, cloud capabilities, or the like by which data
+or information may be exchanged between a data handling
+layer 608 and other layers, systems or sub-systems of the
+platform 604, as well as with other systems, such as value 35
+chain entities 652 or external systems, such as cloud-based
+or on-premises enterprise systems (e.g-, accounting systems,
+resource management systems, CRM systems, supply chain
+handling layers 608 may include a set of services (e.g, 40
+microservices), for data handling, including facilities for
+data extraction, transformation and loading: data cleansing
+and deduplication facilities; data normalization facilities;
+data synchronization facilities; data security facilities; com-
+putational facilities (e.g., for performing pre-defined calcu- 45 
+lation operations on data streams and providing an output
+ stream); compression and de-compression facilities; analytic
+facilities (such as providing automated production of data
+visualizations)and others.
+In embodiments, each data handling layer 608 has a set of 50
+application programming connectivity facilities 642 for
+automating data exchange with each of the other data
+handling layers 608. These may include data integration
+capabilities, such as for extracting, transforming, loading,
+normalizing, compression, decompressing, encoding, 55
+decoding, and otherwise processing data packets, signals,
+and other information as it exchanged among the layers
+and/or the applications 630, such as transforming data from
+one format or protocol to another as needed in order for one
+layer to consume output from another. In embodiments, the 60
+data handling layers 608 are configured in a topology that
+facilitates shared data collection and distribution across
+multiple applications and uses within the platform 604 by
+the value chain monitoring systems layer 614. The value
+chain monitoring systems layer 614 may include, integrate 65
+with, and/or cooperate with various data collection and
+management systems 640, referred to for convenience in
+[col 2]
+48
+some cases as data collection systems 640, for collecting and
+organizing data collected from or about value chain entities
+652, as well as data collected from or about the various data
+layers 624 or services or components thereof. For example,
+a stream of physiological data from a wearable device worn
+by a worker undertaking a task or a consumer engaged in an
+activity can be distributed via the monitoring systems layer
+614 to multiple distinct applications in the value chain
+management platform 604, such as one that facilitates moni-
+toring the physiological, psychological, performance level,
+attention, or other state of a worker and another that facili-
+tates operational efficiency and/or effectiveness. In embodi-
+ments, the monitoring systems layer 614 facilitates align-
+ment, such as time-synchronization, normalization, or the
+like of data that is collected with respect to one or more
+value chain network entities 652. For example, one or more
+video streams or other sensor data collected of or with
+respect to a worker 718 or other entity in a value chain
+network facility or environment, such as from a set of
+camera-enabled IoT devices, may be aligned with a common
+clock, so that the relative timing of a set of videos or other
+data can be understood by systems that may process the
+videos, such as machine learning systems that operate on
+images in the videos, on changes between images in differ-
+ent frames of the video, or the like. In such an example, the
+videos, camera images, sensor data, or the like, with other
+data, such as a stream of data from wearable devices, a
+stream of data produced by value chain network systems
+(such as ships, lifts, vehicles, containers, cargo handling
+systems, packing systems, delivery systems, drones/robots,
+and the like), a stream of data collected by mobile data
+collectors, and the like. Configuration of the monitoring
+systems layer 614 as a common platform, or set of micro-
+services, that are accessed across many applications, may
+dramatically reduce the number of interconnections required
+by an owner or other operator within a value chain network
+in order to have a growing set of applications monitoring a
+growing set of IoT devices and other systems and devices
+that are under its control.
+In embodiments, the data handling layers 608 are config-
+ured in a topology that facilitates shared or common data
+storage across multiple applications and uses of the platform
+604 by the value chain network-oriented data storage sys-
+tems layer 624, referred to herein for convenience in some
+cases simply as the data storage layer 624 or storage layer
+624. For example, various data collected about the value
+chain entities 652, as well as data produced by the other data
+handling layers 608, may be stored in the data storage layer
+624, such that any ofthe services,applications,programs,or
+the like of the various data handling layers 608 can access
+a common data source (which may comprise a single logical
+data source that is distributed across disparate physical
+and/or virtual storage locations). This may facilitate a dra-
+matic reduction in the amount of data storage required to
+handle the enormous amount of data produced by or about
+value chain network entities 652 as applications 630 and
+uses of value chain networks grow and proliferate. For
+example, a supply chain or inventory management applica-
+tion in the value chain management platform 604, such as
+one for ordering replacement parts for a machine or item of
+equipment, may access the same data set about what parts
+have been replaced for a set of machines as a predictive
+maintenance application that is used to predict whether a
+component of a ship, or facility of a port is likely to require
+replacement parts. Similarly, prediction may be used with
+respect to the resupply of items.

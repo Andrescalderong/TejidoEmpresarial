@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+25
+manufacturing systems comply with the provisioning rules.
+The method further includes deploying the robotic fleet
+based on the robotic fleet configuration data structure to
+perform the job.
+In some embodiments, provisioning the respective addi-
+tive manufacturing system includes provisioning a 3D print-
+ing capable robot. In some embodiments, the respective
+provisioning configuration for each respective additive
+manufacturing system includes a set of 3D printing instruc-
+tions for at least one of a job-specific end effector or an 1o
+adaptor based on a context of the task to which the additive
+manufacturing system is assigned. In some embodiments,
+the robotic fleet configuration data structure assigns control
+of at least one transportable 3D printing additive manufac-
+turing system to at least one robot operating unit.
+In some embodiments, determining the robotic fleet con-
+figuration data structure is further based on availability and
+job site locality of 3D printing resources. In some of these
+embodiments, at least one of the availability or job site
+locality of the 3D printing resource is identified by a 20
+logistics system of the platform. In some embodiments,
+determining the robotic fleet configuration data structure
+includes assignment of at least one additive manufacturing
+system indicated in the fleet resource inventory based on
+proximity to a job site for the requested job. 25
+In some embodiments, determining a respective provi-
+sioning configuration for each respective additive manufac-
+turing system includes use of an artificial intelligence system
+to automate design for 3D printing of one or more robotic
+accessories. In some of these embodiments, the artificial 30
+intelligence system automates design for 3D printing based
+on contextual task recognition. Additionally or alternatively,
+the artificial intelligence system automates design for 3D
+printing based on automated shape recognition capabilities.
+Additionally or alternatively, provisioning the respective 35 1
+additive manufacturing system includes provisioning a 3D
+printing control capability to produce an end effector based
+on a visual and sensed analysis of an object for manipulation
+of which the end effector is to be 3D printed.
+In some embodiments, deploying the robotic fleet 40
+includes use of a fleet configuration scheduling resource of
+the platform for allocation of the respective additive manu-
+facturing system to perform the job. In some embodiments,
+deploying the robotic fleet includes deploying a 3D printing
+robot to a smart container for remote, on-demand additive 45 1
+manufacturing. In some embodiments, determining a
+respective provisioning configuration for each respective
+additive manufacturing system is further based on one or
+more keywords of the job definition data structure that are
+indicative of an operating condition for the respective addi- 50 
+tive manufacturing system. In some embodiments, deploy-
+ing the robotic fleet includes deploying a set of autonomous
+3D printing additive manufacturing system to points of
+service work indicated in the job definition data structure. In
+some embodiments, determining a respective provisioning 55
+configuration for each respective additive manufacturing
+system includes configuring a 3D printing system to receive
+a tokenized instance of a set of 3D printing instructions
+associated with a corresponding token on a distributed
+ledger. In some embodiments, deploying the robotic fleet 60
+includes deploying the respective additive manufacturing
+system as a 3D printing resource shared among a plurality of
+tasks.
+In some embodiments, provisioning the respective addi-
+tive manufacturing system includes interacting with at least 65
+one of a fleet operating system, a fleet configuration system,
+a fleet resource scheduling system, and a fleet utilization
+[col 2]
+26
+system. In some of these embodiments, interacting includes
+ensuring that the provisioning rules are followed. In some
+embodiments, the provisioning rules are defined in a gov-
+ernance standards library and an intelligence service ensures
+that the provisioned resources comply with the provisioning
+rules.
+According to some embodiments of the present disclo-
+sure, a dynamic vision system for robot fleet management is
+disclosed. The system includes an optical assembly includ-
+ing a lens containing a liquid, wherein the lens is deformable
+to generate variable focus for the lens, and wherein the
+optical assembly is configured to capture optical data. The
+system further includes a robot fleet management platform
+having a control system configured to adjust one or more
+15 optical parameters, wherein the one or more optical param-
+eters modify the variable focus of the lens while the optical
+assembly captures current optical data relating to a robotic
+fleet. The system further includes a processing system
+configured to train a machine learning model to recognize an
+object relating to the robotic fleet using training data gen-
+erated from the optical data captured by the optical assem-
+bly, wherein the optical data includes the current optical data
+relating to the robotic fleet.
+In some embodiments, the optical data captured by the
+optical assembly includes optical data that is out-of-focus
+with respect to an object being optically captured by the
+optical assembly. In some embodiments, the recognition of
+an object relating to the robotic fleet is compared to a stored
+fleet resource configuration comprised of a plurality of
+objects. In some of these embodiments, the comparison of
+the recognized object to the stored fleet resource configu-
+ration is quantified as a numeric score, wherein the numeric
+score represents the degree of match between the recognized
+object and that object type's position in the stored fleet
+resource configuration. In some of these embodiments, the
+numeric score is compared against a stored numeric score
+threshold, wherein the numeric score threshold represents a
+minimum degree of match between the recognized object
+and that object type's position in the stored fleet resource
+configuration. In some of these embodiments, the robotic
+fleet management platform generates an alert upon detection
+of the numeric score not meeting or exceeding the stored
+numeric score threshold.
+In some embodiments, the robotic fleet management
+platform pauses robotic activity of at least one robotic
+apparatus upon detection of the numeric score not meeting
+or exceeding the stored numeric score threshold. In some
+embodiments, the optical parameters deform the lens from
+an original state by applying an electrical current to the lens.
+In some embodiments, the optical parameters adjust the
+variable focus of the lens at a predetermined frequency. In
+some embodiments, the optical parameters adjust the vari-
+able focus of the lens from a first focal state to a second focal
+state different than the first focal state, wherein the training
+data includes optical data captured in the first focal state, and
+wherein the training data incorporates feedback data such
+that the training data includes optical data captured in the
+first focal state and the second focal state.
+According to some embodiments of the present disclo-
+sure, an information technology system for a distributed
+manufacturing network is disclosed. The system includes an
+additive manufacturing management platform configured to
+manage process workflows for a set of distributed manufac-
+turing network entities associated with the distributed manu-
+facturing network, wherein one of the process workflows
+includes a design stage, a modeling stage, a printing stage,
+and a supply chain stage, wherein the modeling stage

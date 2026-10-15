@@ -1,0 +1,135 @@
+[col 1]
+US 12,675,781 B2
+103
+the modeling goal, and how a different configuration of the
+types of sensors, such as by adding, removing, or reposi-
+tioning sensors, may better facilitate achievement of the
+modeling goal by the machine learning model 3000 and the
+digital twin system 1700. In some embodiments, the
+machine learning model 3000 may automatically increase or
+decrease collection rates, processing, storage, sampling
+rates, bandwidth allocation, bitrates, and other attributes of
+sensor data collection to achieve or better achieve the
+modeling goal. In some embodiments, the machine learning
+10
+model 3000 may make suggestions or predictions to a user
+of the information technology system related to increasing
+or decreasing collection rates, processing, storage, sampling
+rates, bandwidth allocation, bitrates, and other attributes of
+sensor data collection to achieve or better achieve the 15
+modeling goal. In some embodiments, the machine learning
+model 3000 may use sensor data, simulation data, previous,
+current, and/or future digital replica simulations of one or
+more value chain entities 652 of the plurality of value chain
+entities 652 to automatically create and/or propose modeling
+goals. In some embodiments, modeling goals automatically
+created by the machine learning model 3000 may be auto-
+matically implemented by the machine learning model 3000.
+In some embodiments, modeling goals automatically created
+by the machine learning model 3000 may be proposed to a 25
+user of the information technology system, and implemented
+only after acceptance and/or partial acceptance by the user,
+such as after modifications are made to the proposed mod-
+eling goal by the user.
+In some embodiments, theusermayinputtheone ormore30
+modeling goals, for example, by inputting one or more
+modeling commands to the information technology system.
+The one or more modeling commands may include, for
+example, a command for the machine learning model 3000
+and the digital twin system 1700 to create a digital replica 35
+simulation of one value chain entity 652 or a set of value
+chain entities of the plurality of 652, may include a com-
+mand for the digital replica simulation to be one or more of
+a real-time simulation, and a hypothetical simulation. The
+modeling command may also include,for example,param- 40
+eters for what types of sensor data should be used, sampling
+rates for the sensor data, and other parameters for the sensor
+data used in the one or more digital replica simulations. In
+some embodiments, the machine learning model 3000 may
+be configured to predict modeling commands, such as by 45
+using previous modeling commands as training data. The
+machine learning model 3000 may propose predicted mod-
+eling commands to a user of the information technology
+system, for example, to facilitate simulation of one or more
+of the value chain entities 652 that may be useful for the 50
+management of the value chain entities 652 and/or to allow
+the user to easily identify potential issues with or possible
+improvements to the value chain entities 652.
+in some embodiments, the machine learning model 3000
+may be configured to evaluate a set of hypothetical simu- 55
+lations of one or more of the value chain entities 652. The
+set of hypothetical simulations may be created by the
+machine learning model 3000 and the digital twin system
+1700 as a result of one or more modeling commands, as a
+result of one or more modeling goals, one or more modeling 60
+commands, by prediction by the machine learning model
+3000, or a combination thereof. The machine learning model
+3000 may evaluate the set of hypothetical simulations based
+on one or more metrics defined by the user, one or more
+metrics defined by the machine learning model 3000, or a 65
+combination thereof. In some embodiments, the machine
+learning model 3000 may evaluate each of the hypothetical
+[col 2]
+104
+simulations of the set of hypothetical simulations indepen-
+dently of one another. In some embodiments, the machine
+learning model 3000 may evaluate one or more of the
+hypothetical simulations of the set of hypothetical simula-
+tions in relation to one another, for example by ranking the
+hypothetical simulations or creating tiers of the hypothetical
+simulations based on one or more metrics.
+In some embodiments, the machine learning model 3000
+facilitate human understanding of outputs of the machine
+learning model 3000, as well as information and insight
+related to cognition and processes of the machine learning
+model 3000, i.e., the one or more model interpretability
+systems allow for human understanding of not only “what"
+the machine learning model 3000 is outputting, but also
+"why" the machine learning model 3000 is outputting the
+outputs thereof, and what process led to the 3000 formulat-
+ing the outputs. The one or more model interpretability
+ 20 systems may also be used by a human user to improve and
+guide training of the machine learning model 3000, to help
+debug the machine learning model 3000, to help recognize
+bias in the machine learning model 3000. The one or more
+model interpretability systems may include one or more of
+linear regression, logistic regression, a generalized linear
+model (GLM), a generalized additive model (GAM), a
+decision tree, a decision rule, RuleFit, Naive Bayes Classi-
+fier, a K-nearest neighbors algorithm, a partial dependence
+plot, individual conditional expectation (ICE), an accumu-
+lated local effects (ALE)plot, feature interaction, permuta-
+tion feature importance, a global surrogate model, a local
+surrogate (LIME) model, scoped rules, i.e, anchors, Shapley
+values, Shapley additive explanations (SHAP), feature visu-
+alization, network dissection, or any other suitable machine
+learning interpretability implementation. In some embodi-
+ments, the one or more model interpretability systems may
+include a model dataset visualization system. The model
+dataset visualization system is configured to automatically
+provide to a human user of the information technology
+system visual analysis related to distribution of values of the
+sensor data, the simulation data, and data nodes of the
+machine learning model 3000.
+In some embodiments, the machine learning model 3000
+may include and/or implement an embedded model inter-
+pretability system, such as a Bayesian case model (BCM) or
+glass box. The Bayesian case model uses Bayesian case-
+based reasoning, prototype classification, and clustering to
+facilitate human understanding of data such as the sensor
+data, the simulation data, and data nodes of the machine
+learning model 3000. In some embodiments, the model
+interpretability system may include and/or implement a
+glass box interpretability method, such as a Gaussian pro-
+cess, to facilitate human understanding of data such as the
+sensor data, the simulation data, and data nodes of the
+machinelearningmodel 3000.
+In some embodiments, the machine learning model 3000
+may include and/or implement testing with concept activa-
+tion vectors (TCAV). The TCAV allows the machine learn-
+ing model 3000 to learn human-interpretable concepts, such
+process including defining the concept, determining concept
+activation vectors, and calculating directional derivatives.
+By learning human-interpretable concepts, objects, states,
+etc., TCAV may allow the machine learning model 3000 to
+output useful information related to the value chain entities

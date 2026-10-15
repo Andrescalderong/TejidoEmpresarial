@@ -1,0 +1,134 @@
+origin to a point of customer use of a product 650, which 55 layers include a data collection layer that collects informa-
+[col 1]
+US 12,277,524 B2
+163
+In embodiments, the set of Internet of Things resources
+includes a set of onboard diagnostic systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of environmental control systems. In embodiments, the set
+of Internet of Things resources includes a set of sensor-
+enabled network switching and routing systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of RF sensing systems. In embodiments, the set of Internet
+of Things resources includes a set of magnetic sensing
+systems. 10
+In embodiments, the set of Internet of Things resources
+includes a set of pressure monitoring systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of vibration monitoring systems. In embodiments, the set of
+Internet of Things resources includes a set of temperature 15
+monitoring systems. In embodiments, the set of Internet of
+Things resources includes a set of heat flow monitoring
+systems. In embodiments, the set of Internet of Things
+resources includes a set of biological measurement systems.
+In embodiments, the set of Internet of Things resources 20
+includes a set of chemical measurement systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+ofultrasonic monitoring systems. In embodiments, the set of
+Internet of Things resources includes a set of radiography
+systems. In embodiments, the set of Internet of Things 25
+resources includes a set of LIDAR-based monitoring sys-
+tems. In embodiments, the set of Internet of Things
+resources includes a set of access control systems.
+In embodiments, the set of Internet of Things resources
+includes a set of penetrating wave sensing systems. In 30 
+embodiments, the set of Internet of Things resources
+includes a set of SONAR-based monitoring systems. In
+embodiments, the set of Internet of Things resources
+includes a set of radar-based monitoring systems. In embodi-
+ments, the set of Internet of Things resources includes a set 35
+of computed tomography systems. In embodiments, the set
+of Internet of Things resources includes a set of magnetic
+resonance imaging systems. In embodiments, the set of
+Internet of Things resources includes a set of network
+monitoring systems.
+Social Data Collection Architecture
+Referring to FIG. 17, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 614, a set of network connectivity 45
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The 50
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network 60 
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities 65
+of microservices layers including an application layer sup-
+[col 2]
+164
+porting at least one supply chain application and at least one
+demand management application, wherein the microservice
+layers include a data collection layer that collects informa-
+tion from a set of social network sources that provide
+information with respect to supply chain entities and
+demand management entities.
+In embodiments, the VCNP 604 may further include a set
+of microservices layers that include a data collection layer
+(e.g-, monitoring systems and data collection systems layer
+614) with a social data collection facility 1760 that collects
+information from a set of social network resources
+MPVC1708thatprovide informationwithrespectto supply
+chain entities and demand management entities. The social
+network data collection facilities 1760 may support various
+applications among a set of demand management applica-
+tions 1502, a set of supply chain applications 1500, a set of
+intelligent product applications 1510, a set of asset manage-
+ment applications 1530 and a set of enterprise resource
+management applications 1520 for a category of goods.
+Social network data collection (using social network data
+collection facilities 1760) may be facilitated by a social data
+collection configuration interface, such as for configuring
+queries, identifying social data sources of relevance, con-
+figuring APIs for data collection, routing data to appropriate
+applications 630, and thelike.
+Crowdsourcing Data Collection Architecture
+Referring to FIG. 18, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 614, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+40 origintoapoint of customeruseof aproduct 650, which
+may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+of microservices layers including an application layer sup-
+porting at least one supply chain application and at least one
+demand management application, wherein the microservice
+tion from a set of crowdsourcing resources that provide
+information with respect to supply chain entities and
+demand management entities.
+In embodiments, the VCNP 604 may further include a set
+of microservices layers that include a monitoring systems
+and data collection systems layer 614 with a crowdsourcing
+facility 1770 that collects information from a set of crowd-
+sourcing resources that provide information with respect to
+supply chain entities and demand management entities. The
+1502, a set of supply chain applications 1500, a set of

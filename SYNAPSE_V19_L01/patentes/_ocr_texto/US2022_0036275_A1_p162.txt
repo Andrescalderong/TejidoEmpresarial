@@ -1,0 +1,132 @@
+[col 1]
+US 2022/0036275 A1
+79
+any reported damages or loss, replacement costs, total costs)
+may be reported to the machine-learning system 2002 to
+reinforce the models used to make the decisions. Further-
+more, in some embodiments, the output ofthe container fleet
+management system 2070 and/or the other value chain entity
+data sources 2050 may be used to update one or more
+properties of one or more digital twins via the digital twin
+system 2020.
+[0638]  FIG. 40 illustrates an example of a logistics design
+system that interfaces with the adaptive intelligent systems
+layer 614. In embodiments, a logistics design system may be
+configured to design one or more aspects of a logistics
+solution. For example, the logistics design system may be
+configured to receive one or more logistics factors (e.g..
+from a user via a GUI). In embodiments, logistics factors
+may include one or more present conditions, historical
+conditions, or future conditions of an organization (or poten-
+tial organization) that are relevant to forming a logistics
+solution. Examples of logistics factors may include, but are
+not limited to the type(s) of products being produced/
+farmed/shipped, features of those products (e.g., dimen-
+sions, weights, shipping requirements, shelf life, etc.), loca-
+tions of manufacturing sites, locations of distribution
+facilities, locations of warehouses, locations of customer
+bases, market penetration in certain areas, expansion loca-
+tions, supply chain features (e.g., required parts/supplies/
+resources, suppliers, supplier locations, buyers, buyer loca-
+tions), and/or the like) and may determine one or more
+design recommendations based on the factors. Examples of
+design recommendations may include supply chain recom-
+mendations (e.g., proposed suppliers (e.g., resource or parts
+suppliers), implementations of a smart inventory systems
+that order on-demand parts from available suppliers, and the
+like), storage and transport recommendations (e.g., proposed
+shipping routes, proposed shipping types (e.g., air, freight,
+truck, ship), proposed storage development (e.g., locations
+and/or dimensions of new warehouses), infrastructure rec-
+ommendations (e.g., updates to machinery, adding cooled
+storage, adding heated storage, or the like), and combina-
+tions thereof. In embodiments, the logistics design system
+determines the recommendations to optimize an outcome.
+Examples of outcomes can include manufacturing times,
+manufacturing costs, shipping times, shipping costs, loss
+rate, environmental impact, compliance to a set of rules/
+regulations, and the like. Examples of optimizations include
+increased production throughput, reduced production costs,
+reduced shipping costs, decreased shipping times, reduced
+carbon footprint, and combinations thereof.
+[0639]In embodiments, the logistics design system may
+interface with the artificial intelligence system 2010 to
+provide the logistics factors and to receive design recom-
+mendations that are based thereon. In embodiments, the
+artificial intelligence system2010 may leverage one ormore
+machine-learned models 2004 (e.g., logistics design recom-
+mendations models) to determine a recommendation. As
+will be discussed, a logistics design recommendation model
+may be trained to optimize one or more outcomes given a set
+of logistics factors. For example, a logistics design recom-
+mendation model trained to design supply chains may
+identify a set of suppliers that can supply a given manufac-
+turer, the location of the manufacturer, the supplies needed,
+and/or other factors. The set of suppliers may then be used
+to implement an on-demand supply side inventory. In
+another example, the logistics design recommendation may
+[col 2]
+Feb.3,2022
+take the same features of another manufacturer and recom-
+mend the purchase and use of one or more 3D printers.
+[0640] In embodiments, the artificial intelligence system
+2010 may leverage the digital twin system 2020 to generate
+a digital twin of a logistics system that implements the
+logistics design recommendation (and, in some embodi-
+ments, alternative systems that implement other design
+recommendations). In these embodiments, the digital twin
+system 2010 may receive the design recommendations and
+may generate a digital twin of a logistics environment that
+mirrors therecommendations.In embodiments, the artificial
+intelligence system 2010 may leverage the digital twin of the
+logistics environment to run simulations on theproposed
+solution. In embodiments, the digital twin system 2010 may
+display the digital twin of the logistics environment to a user
+via a display device (e.g., a monitor or a VR headset). In
+embodiments, the user may view the simulations in the
+digital twin. Furthermore, in embodiments, the digital twin
+user may interact with to adjust the design of the logistics
+environment to adjust the design. The design provided (at
+least in part) by a user may also be represented in a digital
+twin of a logistics environment, whereby the digital twin
+system 2020 may perform simulations using the digital twin.
+[0641] In some embodiments, the simulations run by the
+digital twin system 2010 may be used to train the recom-
+mendation models. Furthermore, when the design recom-
+mendations are implemented by an organization, the logis-
+tics system of the organization may be configured to report
+(e.g., via sensors, computing devices, manuai human input)
+outcome data corresponding to the design recommendations
+to the machine learning system 2002, which may use the
+outcome data to reinforce the logistics design recommen-
+dation models.
+[0642] FIG. 41 illustrates an example of a packaging
+design system that interfaces with the adaptive intelligent
+systems layer 614. In embodiments, the packaging design
+system may be configured to design one or more aspects of
+packaging for a physical object being conveyed in the value
+chain network. In some embodiments, the packaging design
+system may select one or more packaging attributes (e.g.,
+size, material, padding, etc.) of the packaging to optimize
+one or more outcomes associated with the transport of the
+physical object. For example, the packaging attributes may
+be selected to reduce costs, decrease loss/damage, decrease
+weight, decrease plastic or other non-biodegradable waste,
+or the like. In embodiments, the packaging design system
+leverages the artificial intelligence system 2010 to obtain
+packaging attribute recommendations. In embodiments, the
+packaging design system may provide one or more features
+of the physical object. In embodiments, the features of the
+physical object may include the dimensions of the physical
+object, the mass of the physical object, the source of the
+physical object, one or more potential destinations of the
+physical object, the manner by which the physical object is
+shipped, and the like. In embodiments, the packaging design
+system may further provide one or more optimization goals
+for the package design (e.g., reduce cost, reduce damage,
+reduce environmental impact). In response, the artificial
+intelligence system 2010 may determine one or more rec-
+ommended packaging attributes based on the physical asset
+features and the given objective. In embodiments, the pack-
+aging design system receives the packaging attributes and
+generates a package design based thereon. The package

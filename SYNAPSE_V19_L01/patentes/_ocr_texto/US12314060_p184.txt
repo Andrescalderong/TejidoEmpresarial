@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+One or more of the following example features may be
+included. Configuring the set of one or more computing
+devices to fulfili the one or more secondary commands may
+include generating a set of at least one configured system
+ service (CSS). Generating the set of at least one CSS may
+include utilizing an output of the primary computing device
+Configuring the set of one or more computing devices to
+fulfill the one or more secondary commands may include
+providing intelligence received from the at least one CSS to 10
+the set of one or more computing devices. Assigning at least
+the portion of one or more computing devices capable of
+fulfilling the primary command as the set of one or more
+computing devices to be managed by the secondary com-
+puting device may include executing an enrollment process 15
+between the set of one or more computing devices and the
+secondary computing device. Executing the enrollment pro-
+cess may include conducting an inventory of communication
+protocois and data formats used by the set of one or more
+computing devices. The secondary computing device may 20
+obtain one or more application programming interfaces
+(APIs) to enable communication and data format translation
+between each computing device of the set of one or more
+computing devices and the secondary computing device.
+The primary computing device may be bypassed to receive 25
+external data at the secondary computing device when the
+external data is unused by the primary computing device.
+Generating the set of at least one CSS may include gener-
+ating at least one CSS for each interface layer in a manage-
+ment stack. Intelligent decision-making regarding strategy
+30
+for the primary command may be performed based upon, at
+least in part, a configured intelligence service (CIS). The set
+of the value chain network entities may include at least one
+of products, suppliers, producers, manufacturers, retailers,
+businesses, owners, operators, operating facilities, custom- 35
+ers, consumers, workers, mobile devices, wearable devices,
+distributors, resellers, supply chain infrastructure facilities,
+supply chain processes, logistics processes, reverse logistics
+processes, demand prediction processes, demand manage-
+ment processes, demand aggregation processes, machines, 40
+ships, barges, warehouses, maritime ports, airports, airways,
+waterways, roadways, railways, bridges, tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks, 45 ]
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+vehicles, autonomous vehicles, hauling facilities, water- 50 
+ways, or port infrastructure facilities.
+In another example implementation, a computer program
+product may reside on a computer readable storage medium
+having a plurality of instructions stored thereon which, when
+executed across one or more processors, may cause at least 55
+a portion of the one or more processors to perform opera-
+tions that may include but are not limited to configuring a set
+of secondary computing devices of a set of value chain
+network entities for communication with a primary comput-
+ing device of an enterprise operator, wherein the primary
+computing device may manage the set of secondary com-
+puting devices. At least one member of the set of secondary
+computing devices may receive a set of primary commands
+from the primary computing device, wherein each of the set
+of commands may be at least one of a task or a request. At 65
+least a portion of one or more computing devices capable of
+fulfilling the primary command may be assigned as a set of
+[col 2]
+one or more computing devices to be managed by the set of
+secondary computing devices. The set of secondary com-
+puting devices may configure the set of one or more com-
+puting devices to fulfill one or more secondary commands
+based upon, at least in part, the primary command. The set
+of secondary computing devices may fulfill the primary
+command based upon, at least in part, the set of one or more
+computing devices fulfilling the one or more secondary
+commands. A generated system output may be sent to the
+primary computing device responding to the primary com-
+mand based upon, at least in part, the set of one or more
+computing devices fulfilling the one or more secondary
+commands.
+One or more of the following example features may be
+included. Configuring the set of one or more computing
+devices to fulfill the one or more secondary commands may
+include generating a set of at least one configured system
+service (CSS). Generating the set of at least one CSS may
+include utilizing an output of the primary computing device
+as an input to generate one or more control parameters.
+Configuring the set of one or more computing devices to
+fulfill the one or more secondary commands may include
+providing intelligence received from the at least one CSS to
+the set of one or more computing devices. Assigning at least
+the portion of one or more computing devices capable of
+fulfilling the primary command as the set of one or more
+computing devices to be managed by the secondary com-
+puting device may include executing an enrollment process
+between the set of one or more computing devices and the
+ secondary computing device. Executing the enrollment pro-
+cess may include conducting an inventory of communication
+protocols and data formats used by the set of one or more
+computing devices. The secondary computing device may
+obtain one or more application programming interfaces
+(APIs) to enable communication and data format translation
+between each computing device of the set of one or more
+computing devices and the secondary computing device.
+The primary computing device may be bypassed to receive
+external data at the secondary computing device when the
+external data is unused by the primary computing device.
+Generating the set of at least one CSS may include gener-
+ating at least one CSS for each interface layer in a manage-
+ment stack. Intelligent decision-making regarding strategy
+for the primary command may be performed based upon, at
+least in part, a configured intelligence service (CIS). The set
+of the value chain network entities may include at least one
+of products, suppliers, producers, manufacturers, retailers,
+businesses, owners, operators, operating facilities, custom-
+ers, consumers, workers, mobile devices, wearable devices,
+distributors, resellers, supply chain infrastructure facilities,
+supply chain processes, logistics processes, reverse logistics
+processes, demand prediction processes, demand manage-
+ment processes, demand aggregation processes, machines,
+ships, barges, warehouses, maritime ports, airports, airways,
+waterways,roadways,railways,bridges,tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks,
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities.
+In one example implementation, a method, performed by
+one or more computing devices, may include but is not
+limited to configuring a set of sub-level computing devices

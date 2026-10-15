@@ -1,0 +1,136 @@
+Referring still to FIG. 7, a high-level schematic of the 20 cial intelligence and computational systems 634 may relate
+[col 1]
+US 12,314,060 B2
+47
+demand factors 644involved in demand environments672,
+such as customers 662 (including consumers, businesses,
+and intermediate customers such as value added resellers
+and distributors), retailers 664 (including online retailers,
+mobile retailers, conventional bricks and mortar retailers,
+pop-up shops and the like) and the like located and/or
+operating at various destinations 612; various distribution
+environments 678 and distribution facilities 658, such as
+warehousing facilities 654, fulfillment facilities 628, and
+delivery systems 632, and the like, as well as maritime 10
+facilities 622, such as port infrastructure facilities 660,
+floating assets 620, and shipyards 638, among others. In
+embodiments, the value chain network management plat-
+form 604 monitors, controls, and otherwise enables man-
+agement (and in some cases autonomous or semi-autono- 15
+mous behavior) of a wide range of value chain network 668
+processes, workflows, activities, events and applications 630
+(collectively referred to in some cases simply as “applica-
+tions 630").
+value chain network management platform 604 is illustrated.
+The value chain network management platform 604 may
+include a set of systems, applications, processes, modules,
+services, layers, devices, components, machines, products,
+sub-systems, interfaces, connections, and other elements 25
+working in coordination to enable intelligent management of
+a set of value chain entities 652 that may occur, operate,
+transact or the like within, or own, operate, support or
+enable, one or more value chain network processes, work-
+flows, activities, events and/or applications 630 or that may 30
+otherwise be part of, integrated with, linked to, or operated
+on by the VCNP 604 in connection with a product 1510
+(which may be any category of product, such as a finished
+good, software product, hardware product, component prod-
+goods, consumer product, food product, beverage product,
+home product, business supply product, consumable prod-
+uct, pharmaceutical product, medical device product, tech-
+nology product, entertainment product, or any other type of
+product and/or set of related services, and which may,in 40
+embodiments, encompass an intelligent product 1510 that is
+enabled with a set of capabilities such as, without limitation
+data processing, networking, sensing, autonomous opera-
+tion, intelligent agent, natural language processing, speech
+recognition, voice recognition, touch interfaces, remote con- 45
+trol, self-organization, self-healing, process automation,
+computation, artificial intelligence, analog or digital sensors,
+cameras, sound processing systems, data storage, data inte-
+gration, and/or various Internet of Things capabilities,
+among others. 50
+In embodiments, the management platform 604 may
+include a set of data handling layers 608 each of which is
+configured to provide a set of capabilities that facilitate
+development and deployment of intelligence, such as for
+facilitating automation, machine learning, applications of 55 
+artificial intelligence, intelligent transactions, state manage-
+ment, event management, process management, and many
+others, for a wide variety of value chain network applica-
+tions and end uses. In embodiments, the data handling layers
+608 are configured in a topology that facilitates shared data 60
+collection and distribution across multiple applications and
+uses within the platform 604 by a value chain monitoring
+systems layer 614. The value chain monitoring systems layer
+614 may include, integrate with, and/or cooperate with
+various data collection and management systems 640, 65
+referred to for convenience in some cases as data collection
+systems 640, for collecting and organizing data collected
+[col 2]
+48
+from or about value chain entities 652, as well as data
+collected from or about the various data layers 624 or
+services or components thereof. In embodiments, the data
+handling layers 608 are configured in a topology that facili-
+tates shared or common data storage across multiple appli-
+cations and uses of the platform 604 by a value chain
+network-oriented data storage systems layer 624, referred to
+herein for convenience in some cases simply as a data
+storage layer 624 or storage layer 624. As shown in FIG. 7,
+the data handling layers 608 may also include an adaptive
+intelligent systems layer 614. The adaptive intelligence
+artificial intelligence and computational systems 634 that are
+described in more detail elsewhere throughout this disclo-
+sure. The data processing, artificial intelligence and compu-
+tational systems 634 may relate to artificial intelligence
+(e.g-, expert systems, artificial intelligence, neural, super-
+vised, machine learning, deep learning, model-based sys-
+tems, and the like). Specifically, the data processing, artifi-
+to various examples, in some embodiments, such as use of
+a recurrent network as adaptive intelligence system operat-
+ing on a blockchain of transactions in a supply chain to
+determine a pattern, use with biological systems, opportu-
+nity mining (e.g., where artificial intelligence system may be
+used to monitor for new data sources as opportunities for
+automatically deploying intelligence), robotic process auto-
+mation (e.g-, automation of intelligent agents for various
+workflows), edge and network intelligence (e.g., implicated
+on monitoring systems such as adaptively using available
+RF spectrum, adaptively using available fixed network spec-
+trum, adaptively storing data based on available storage
+conditions, adaptively sensing based on a kind of contextual
+sensing), and the like.
+In embodiments, the data handling layers 608 may be
+depicted in vertical stacks or ribbons in the figures and may
+represent many functionalities available to the platform 604
+including storage, monitoring, and processing applications
+and resources and combinations thereof. In embodiments,
+the set of capabilities of the data handling layers 608 may
+include a shared microservices architecture. By way ofthese
+examples, the set of capabilities may be deployed to provide
+multiple distinct services or applications, which can be
+configured as one or more services, workflows, or combi-
+nations thereof. In some examples, the set of capabilities
+may be deployed within or be resident to certain applications
+or processes. In some examples, the set of capabilities can
+include one or more activities marshaled for the benefit of
+the platform. In some examples, the set of capabilities may
+include one or more events organized for the benefit of the
+platform. In embodiments, one of the sets of capabilities of
+the platform may be deployed within at least a portion of a
+common architecture such as common architecture that
+supports a common data schema. In embodiments, one of
+the sets of capabilities of the platform may be deployed
+within at least a portion of a common architecture that can
+support a common storage. In embodiments, one of the sets
+of capabilities of the platform may be deployed within at
+least a portion of a common architecture that can support
+common monitoring systems. In embodiments, one or more
+sets of capabilities of the platform may be deployed within
+at least a portion of a common architecture that can support
+one or more common processing frameworks. In embodi-
+ments, the set of capabilities of the data handling layers 608
+can include examples where the storage functionality sup-
+ports scalable processing capabilities, scalable monitoring
+systems, digital twin systems, payments interface systems,

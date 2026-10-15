@@ -1,0 +1,136 @@
+resource inventory to the set of tasks defined in the job 45 includes platform resources and provisioning the respective
+an intelligence layer to ensure that provisioned resources 55 negotiation workflow for acceptance of the job request.
+[col 1]
+US 12,567,082 B2
+21
+respective fleet resource is based on terms of a smart
+contract that constrains provisioning of fleet resources. In
+some embodiments, the fleet resource inventory includes
+platform resources and to provision the respective fleet
+resource includes provisioning at least one platform resource
+selected from a list of platform resources including com-
+puting resources, a fleet configuration system, a platform
+fleet security system. In some of these embodiments, deter-
+mining a robotic fleet configuration data structure is further 1o
+based on a negotiated charge for provisioning a platform
+resource. Additionally or alternatively, determining a robotic
+fleet configuration data structure includes a negotiation
+workflow for acceptance of the job request.
+In some embodiments, provisioning the respective fleet 15
+resource includes provisioning one or more fleet resources
+identified in a job execution plan. In some embodiments,
+provisioning the respective fleet resource includes provi-
+sioning one or more of appendages, sensor sets, chipsets,
+and motive adaptors to a robot based on at least one task in 20
+a set of target tasks for the robot that are identified in a job
+execution plan. In some embodiments, provisioning the
+respective fleet resource includes analyzing a job execution
+plan that defines resources for a fleet of robots for perform-
+ing at least one task. In some embodiments, the set of one or 25
+more processors execute the set of computer-readable
+instructions cooperatively with at least one of a fleet con-
+figuration system, a fleet resource scheduling system, a fleet
+security system, and a fleet utilization system.
+Accordingto some embodiments of thepresent disclo- 3os
+sure, a method of provisioning robotic fleet resources is
+disclosed. The method includes receiving a request for a
+robotic fleet to perform a job. The method further includes
+determining a job definition data structure based on the
+request, the job definition data structure defining a set of 35
+tasks that are to be performed in performance of the job. The
+method further includes determining a robotic fleet configu-
+ration data structure corresponding to the job based on the
+set of tasks and a fleet resource inventory that indicates a
+plurality of fleet resources, and for each respective fleet 4o
+resource, a set of features of the resource, configuration
+requirements of the resource, and a respective status of the
+resource, wherein the robotic fleet configuration data struc-
+ture assigns a plurality of resources selected from the fleet
+definition data structure. The method further includes deter-
+mining a respective provisioning configuration for each
+respective fleet resource based on the respective task to
+which the fleet resource is assigned, the set of features of the
+fleet resource, the configuration requirements of the fleet 50 a
+resource, and the respective status of the fleet resource. The
+method further includes provisioning the respective fleet
+resource based on the respective provisioning configuration
+and a set of resource provisioning rules that are accessible to
+comply with the provisioning rules. The method further
+includes deploying the robotic fleet to perform the job.
+In some embodiments, the respective status of the
+resource includes a general availability of the resource. In
+some embodiments, determining the robotic fleet configu- 60
+ration data structure is further based on an environment of
+the job. In some embodiments, determining the robotic fleet
+configuration data structure is further based on a budget for
+the job. In some embodiments, determining the robotic fleet
+configuration data structure is further based on a timeline for 65
+completing the job. In some embodiments, the fleet resource
+inventory includes one or more types of robots and deter-
+[col 2]
+22
+mining the robotic fleet configuration data structure is fur-
+ther based on an available inventory of the one or more types
+of robots. In some embodiments, determining a provisioning
+configuration for each respective fleet resource is further
+based on an environment of the job. In some embodiments,
+determining a provisioning configuration for each respective
+fleet resource is further based on a budget for the job. In
+some embodiments, determining a provisioning configura-
+tion for each respective assigned fleet resource is further
+based on a timeline for completing the job. In some embodi-
+ments, the fleet resource inventory includes computing
+resources selected from a list of computing resources com-
+prising on-robot computing resources, robot operating unit-
+local fleet-controlled computing resources, cloud based
+computing resources, computing modules, or computing
+chips.
+In some embodiments, provisioning the respective fleet
+resource includes provisioning one or more of a software
+robot module or a hardware robot module. In some of these
+embodiments, the hardware robot module is an interchange-
+able module.
+In some embodiments, the fleet resource inventory
+includes a plurality of digital resources. In some of these
+embodiments, provisioning a respective one of the plurality
+of digital resources includes one or more of software update
+pushing, resource access credentialing, or fleet resource data
+storage configuration, allocation, or utilization.
+In some embodiments, provisioning a respective fleet
+resource includes provisioning a consumable resource
+sourced from at least one of a specialized supply chain, a job
+requestor resource supply, a fleet-specific stockpile, a job-
+specific stockpile, or a fleet team-specific stockpile. In some
+embodiments, provisioning the respective fleet resource is
+based on one or more characteristics of a target operating
+environment. In some of these embodiments, a target oper-
+ating environment is one or more of land-based, sea-based,
+submerged, in-flight, subterranean, and below-freezing
+ambient temperature. In some embodiments, provisioning
+the respective fleet resource includes 3D printing the respec-
+tive resource for provisioning.In some embodiments, pro-
+visioning the respective fleet resource is based on terms of
+a smart contract that constrains provisioning of fleet
+resources.
+In some embodiments, the fleet resource inventory
+fleet resource includes provisioning at least one platform
+resource selected from a list of platform resources including
+computing resources, a fleet configuration system, a plat-
+form intelligence layer, a platform data processing system,
+and a fleet security system. In some of these embodiments,
+determining a robotic fleet configuration data structure is
+further based on a negotiated charge for provisioning a
+platform resource. In some of these embodiments, determin-
+ing a robotic fleet configuration data structure includes a
+In some embodiments, provisioning the respective fleet
+resource includes provisioning one or more fleet resources
+identified in a job execution plan. In some embodiments,
+provisioning the respective fleet resource includes provi-
+sioning one or more of appendages, sensor sets, chipsets,
+and motive adaptors to a robot based on at least one task in
+a set of target tasks for the robot that are identified in a job
+execution plan. In some embodiments, provisioning the
+respective fleet resource includes analyzing a job execution
+plan that defines resources for a fleet of robots for perform-
+ing at least one task. In some embodiments, the method
+further includes executing cooperatively with at least one of

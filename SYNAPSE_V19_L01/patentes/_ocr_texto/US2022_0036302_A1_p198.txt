@@ -1,0 +1,132 @@
+[col 1]
+US2022/0036302A1
+115
+[1027]Referring to FIG. 6, the value chain network man-
+agement platform 604 orchestrates a variety of factors
+involved in planning, monitoring, controlling, and optimiz-
+ing various entities and activities involved in the value chain
+network 668 as it is applied to maritime assets, activities.
+logistics, and planning including supply and production
+factors, demand factors, logistics and distribution factors,
+and the like. The management platform 604 can facilitate the
+monitoring and managing of supply factors and demand
+factors, the sharing of status information about and between
+various entities as demand factors are understood and
+accounted for, as orders are generated and fulflled, and as
+products are created and moved through a supply chain.
+Referring to FIG. 7, the management platform 604 may
+include a set of value chain network entities 652 including
+various delivery systems 632 that can include and connect to
+maritime facilities 622.The maritime facilities 622 can
+include port infrastructure facilities 660, floating assets 620,
+and shipyards 638, and the like. In embodiments, the value
+chain network management platform 604 monitors, controls,
+and otherwise enables management (and in some cases
+autonomous or semi-autonomous behavior) of a wide range
+of value chain network 668 processes, workflows, activities,
+events and applications 630 applicable in the maritime
+environment.
+[1028] Referring to FIGS. 6 and 11, the management
+platform 604 deployed in the maritime environment may
+include a set of data handling layers 624 each of which is
+configured to provide a set of capabilities that facilitate
+development and deployment of intelligence, such as for
+facilitating automation, machine learning, applications of
+artificial intelligence, intelligent transactions, state manage-
+ment, event management, process management, and many
+others, for a wide variety of value chain network applica-
+tions and end uses in the maritime environment. In embodi-
+ments, the data handling layers 624 are configured in a
+topology that facilitates shared data collection and distribu-
+tion across multiple applications and uses within the man-
+agement platform 604 by the value chain monitoring sys-
+tems layer 614. The value chain monitoring systems layer
+614 may include, integrate with, and/or cooperate with
+various data collection and management systems 640,
+referred to for convenience in some cases as data collection
+systems 640, for collecting and organizing data collected
+from or about value chain entities 652, as well as data
+collected from or about the various data layers 624 or
+services or components thereof.
+[1029] In embodiments, the data handling layers 624 are
+configured in a topology that facilitates shared or common
+data storage across multiple applications and uses of the
+platform 604 by the value chain network-oriented data
+storage systems layer 624, referred to herein for convenience
+in some cases simply as the data storage layer 624 or storage
+layer 624. For example, various data collected about the
+value chain entities 652, as well as data produced by the
+other data handling layers 624, may be stored in the data
+storage layer 624, such that any of the services, applications,
+programs, or the like of the various data handling layers 624
+single logical data source that is distributed across disparate
+physical and/or virtual storage locations. This may facilitate
+a dramatic reduction in the amount of data storage required
+to handle the enormous amount of data produced by or about
+value chain network entities 652 as applications 630 and
+[col 2]
+Feb.3,2022
+uses of value chain networks grow and proliferate. For
+example, a supply chain or inventory management applica-
+tion in the value chain management platform layer 604, such
+as one for ordering replacement parts for a machine or item
+of equipment, may access the same data set about what parts
+have been replaced for a set of machines as a predictive
+maintenance application that is used to predict whether a
+component of a ship, or facility of a port is likely to require
+replacement parts. Similarly, prediction may be used with
+respect to resupply of items.
+[1030]Referring to FIGS. 6 and 12, the value chain
+network-oriented data storage systems layer 624 may
+include, without limitation, physical storage systems, virtual
+storage systems, local storage systems 1190, distributed
+ storage systems, databases, memory, network-based storage,
+network-attached storage systems. In embodiments, the stor-
+age layer 624 may store data in one or more knowledge
+graphs in the graph database architectures 1124, such as a
+directed acyclic graph, a data map, a data hierarchy, a data
+cluster including links and nodes, a self-organizing map, or
+the like. In embodiments, the data storage layer 624 may
+store data in a digital thread, ledger, distributed ledger or the
+like, such as for maintaining a serial or other records of an
+entity 652 over time, including any of the entities described
+herein. In embodiments, the storage layer 624 may include
+one or more blockchains 1180, such as ones that store
+identity data, transaction data, historical interaction data,
+and the like, such as with access control that may be
+role-based or may be based on credentials associated with a
+value chain entity 652, a service, or one or more applications
+630. Data stored by the data storage systems 624 may
+include accounting and other financial data 730, access data
+734, asset and facility data 1032, asset tag data 1178, worker
+data 1032, event data 1034, risk management data 732,
+pricing data 738, safety data 664 and the like.
+[1031] Referring to FIG. 8, the value chain network man-
+agement platform 604 includes one or more sets of value
+chain entities 652 that may be subject to management by the
+management platform 604, may integrate with or into the
+management platform 604, and/or may supply inputs to
+and/or take outputs from the management platform 604,
+such as ones involved in or for a wide range of value chain
+activities. These value chain entities 652 may include any of
+the wide variety of assets, systems, devices, machines,
+components, equipment, facilities, and individuals that can
+support a wide range of operating facilities 712 including
+maritime facilities 622. Referring to FIG. 63, the maritime
+facilities can include port infrastructure facilities 1034. In
+embodiments, the port infrastructure facilities 1034 can
+include docks 7002, yards 7004, cranes 7008, roll-0n/roll-off
+facilities 7010, ramps 7012, containers 7014, container
+handling systems 7018, waterways 732, and locks 7020, as
+applicable. In embodiments, the docks 7002 and their adja-
+cent areas may include piers 7022, basins 7024, stacking
+areas 7028, storage areas 7030, and warehouses 7032. In
+embodiments, the container handling systems 7018 can
+include portainer tracking system and sensors 7040, such as
+for monitoring, reporting on, or managing one or more
+portainers or other systems for moving shipping containers,
+such as cranes (e.g., Gottwald cranes, gantry cranes, and
+others), straddle carriers, multitrailers, reach stackers, and
+the like. In embodiments, the port infrastructure facilities
+1034 can further include gantry cranes 7042 and the port
+vehicles 7044 that can be used to move containers 7014,

@@ -1,0 +1,135 @@
+one or more assigned multi-purpose robots includes provi- 35 configuring at least one robot system selected from a list of
+sure, a method ofconfiguring a multi-purpose robot ofa fleet 55 assigned multi-purpose robots includes configuring an
+[col 1]
+US 12,567,082 B2
+15
+In some embodiments, configuring the one or more
+assigned multi-purpose robots task includes accessing a
+robot module system via at least one of a physical interface
+module and a control interface module. In some embodi-
+ments, configuring the one or more assigned multi-purpose
+robots includes configuring one or more modules of a robot
+baseline system, the one or more modules selected from a
+baseline module list including an energy storage and power
+distribution system, an electromechanical and electro-fluidic
+system, a transport system, and a vision and sensing system.
+In some embodiments, configuring the one or more assigned
+multi-purpose robots includes configuring a 3D printing
+system to produce at least one hardware robot module.
+In some embodiments, configuring the one or more
+assigned multi-purpose robots is based on one or more 15
+characteristics of a target operating environment. In some of
+these embodiments, a target operating environment is one or
+more of land-based, sea-based, submerged, in-flight, subter-
+ranean, and below-freezing ambient temperature.
+In some embodiments, configuring the one or more 20
+assigned multi-purpose robots includes configuring an
+energy storage and power distribution system to utilize two
+or more distinct power sources based on an aspect of one of
+a task and an operating environment. In some of these
+embodiments, a first distinct power source of the two or 25
+more distinct power sources is a mobile power source of the
+multi-purpose robot and a second distinct power source of
+the two or more distinct power sources is a fixed position
+power source that provides power to the robot via a wireless
+power signal. 30
+In some embodiments, configuring the one or more
+assigned multi-purpose robots includes configuring a pro-
+pulsion system of the robot to adaptably utilize one or more
+legs for locomotion. In some embodiments, configuring the
+sioning one or more modules identified in a job execution
+plan to the multi-purpose robot. In some of these embodi-
+ments, the one or more modules is a hardware module.
+Additionally or alternatively, the one or more modules is a
+software module. 40
+In some embodiments, configuring the one or more
+assigned multi-purpose robots includes provisioning one or
+more of appendages, sensor sets, chipsets, and motive adap-
+tors to the multi-purpose robot based on at least one task in
+a set of target tasks for the robot that are identified in a job 45
+executionplan,Insomeembodiments,configuringtheone
+or more assigned multi-purpose robots includes analyzing a
+job execution plan that defines a fleet of robots and config
+uring at least one multi-purpose robot of the fleet of robots.
+In some embodiments, configuring the one or more assigned 50
+multi-purpose robots includes provisioning a local manager
+capability that enables the multi-purpose robot to control
+one or more robots.
+According to some embodiments of the present disclo-
+of robots is disclosed. The method includes receiving a
+request for a robotic fleet to perform a job. The method
+further includes defining a set of tasks that are to be
+performed in performance of the job. The method further
+includes assigning a plurality of robots selected from a robot 60
+inventory to the set of tasks based on the set of tasks and a
+robots that can be assigned to a robot fleet, and for each
+respective robot, a set of baseline features of the robot and
+a respective status of the robot, wherein the plurality of 65
+robots includes one or more assigned multi-purpose robots
+that can be configured for different tasks and different
+[col 2]
+environments. The method further includes determining a
+respective configuration for each respective assigned multi-
+purpose robot based on the respective task that is assigned
+to the assigned multi-purpose robot and a components
+inventory that indicates different components that can be
+provisioned to one or more multi-purpose robots, and for
+each component, a respective set of extended capabilities
+corresponding to the component and a respective status of
+the component. The method further includes configuring the
+one or more assigned multi-purpose robots based on the
+respective configurations. The method further includes
+deploying the robotic fleet to perform the job.
+In some embodiments, the robot inventory includes spe-
+cial purpose robots. In some embodiments, assigning a
+plurality of robots selected from the robot inventory is
+further based on an environment of the job. In some embodi-
+ments, assigning a plurality of robots selected from the robot
+inventory is further based on a budget for the job. In some
+embodiments, assigning a plurality of robots selected from
+the robot inventory is further based on a timeline for
+completing the job. In some embodiments, the robot inven-
+tory includes special purpose robots and to assigning a
+plurality of robots selected from the robot inventory is
+further based on an available inventory of the special
+purpose robots. In some embodiments, determining a
+respective configuration for each respective assigned multi-
+purpose robot is further based on an environment of the job.
+In some embodiments, determining a respective configura-
+tion for each respective assigned multi-purpose robot is
+further based on a budget for the job. In some embodiments,
+determining a respective configuration for each respective
+assigned multi-purpose robot is further based on a timeline
+for completing the job. In some embodiments, configuring
+the one or more assigned multi-purpose robots includes
+robot systems including a robot baseline system, a module
+system, a robot control system, and a robot security system.
+In some embodiments, configuring the one or more assigned
+multi-purpose robots includes configuring one or more of a
+softwarerobotmoduleorahardware robotmodule.In some
+embodiments, configuring the one or more assigned multi-
+purpose robots task includes accessing a robot module
+system via at least one of a physical interface module and a
+control interface module. In some embodiments, configuring
+the one or more assigned multi-purpose robots includes
+configuring one or more modules of a robot baseline system,
+the one or more modules selected from a baseline module
+list including an energy storage and power distribution
+system, an electromechanical and electro-fluidic system, a
+transport system, and a vision and sensing system. In some
+embodiments, configuring the one or more assigned multi-
+purpose robots is based on one or more characteristics of a
+target operating environment.
+In some embodiments, configuring the one or more
+energy storage and power distribution system to utilize two
+or more distinct power sources based on an aspect of one of
+a task and an operating environment. In some of these
+embodiments, a first distinct power source of the two or
+more distinct power sources is a mobile power source of the
+multi-purpose robot and a second distinct power source of
+the two or more distinct power sources is a fixed position
+power source that provides power to the robot via a wireless
+power signal.
+In some embodiments, configuring the one or more
+assigned multi-purpose robots includes configuring a pro-
+pulsion system of the robot to adaptably utilize one or more

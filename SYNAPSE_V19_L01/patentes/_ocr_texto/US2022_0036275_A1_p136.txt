@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036275A1
+53
+applications 630 are encompassed by the present disclosure.
+Robotic process automation 1442 may be used with various
+functionality of theVCNP 604.For example,in some
+embodiments, robotic process automation 1442 may be
+described as training a robot to operate and automate a task
+that was, to at least a large extent, governed by a human. One
+of these tasks may be used to train a robot that may train
+other robots. The robotic process automation 1442 may be
+trained (e.g., through machine learning) to mimic interac-
+tions on a training set, and then have this trained robotic
+process automation 1442 (e.g., trained agent or trained
+robotic process automation system) execute these tasks that
+were previously performed by people. For example, the
+robotic process automation 1442 may utilize software that
+may provide software interaction observations (such as
+mouse movements, mouse clicks, cursor movements, navi-
+gation actions, menu selections, keyboard typing, and many
+others), such as logged and/or tracked by software interac-
+tion observation system 1500, purchase of the product by a
+customer 714, and the like. This may include monitoring of
+a user's mouse clicks, mouse movements, and/or keyboard
+typing to learn to do the same clicks and/or typing. In
+another example, the robotic process automation 1442 may
+utilize software to learn physical interactions with robots
+and other systems to train a robotic system to sequence or
+undertake the same physical interactions. For example, the
+robot may be trained to rebuild a set of bearings by having
+the robot watch a video of someone doing this task. This
+may include tracking physical interactions and tracking
+interactions at a software level. The robotic process auto-
+mation 1442 may understand what the underlying compe-
+tencies are that are being deployed such that the VCNP 604
+preconfigure combinations of neural networks that may be
+used to replicate performance of human capabilities.
+[0446] In embodiments, robotic process automation may
+be applied to shared or converged processes among the
+various pairs of the applications 630 of the application layer
+604, such as, without limitation, of a converged process
+involving a security application 834 and an inventory appli-
+cation 820,integrated automation of blockchain-based
+applications 844 with vendor management applications 832,
+and many others. In embodiments, converged processes may
+include shared data structures for multiple applications 630
+(including ones that track the same transactions on a block-
+chain but may consume different subsets of available attri-
+butes of the data objects maintained in the blockchain or
+ones thatusea set of nodesand links in a common
+knowledge graph). For example, a transaction indicating a
+change of ownership of an entity 652 may be stored in a
+blockchain and used by multiple applications 630, such as to
+enable role-based access control, role-based permissions for
+remote control, identity-based event reporting, and the like.
+In embodiments, converged processes may include shared
+process flows across applications 630, including subsets of
+larger flows that are involved in one or more of a set of
+applications 630. For example, a risk management or inspec-
+tion flow about an entity 652 may serve an inventory
+management application 832, an asset management appli-
+cation 814, a demand management application 824, and a
+supply chain application 812, among others.
+[0447] In embodiments, robotic process automation 1442
+may be provided for the wide range of value chain network
+processes mentioned throughout this disclosure and the
+documents incorporated herein by reference, including with-
+[col 2]
+Feb.3,2022
+out limitation all of the applications 630.An environment for
+development of robotic process automation for value chain
+networks may include a set of interfaces for developers in
+which a developer may configure an artificial intelligence
+system 1160 to take inputs from selected data sources of the
+VCN data storage layer 624 and event data 1034, state data
+1140 or other value chain network data objects 1004 from
+the monitoring systems layer 614 and supply them, such as
+to a neural network, either as inputs for classification or
+prediction, or as outcomes relating to the platform 102,
+value chain network entities 652, applications 630, or the
+like. The RPA development environment 1442 may be
+configured to take outputs and outcomes 1040 from various
+applications 630, again to facilitate automated learning and
+improvement of classification, prediction, or the like that is
+involved in a step of a process that is intended to be
+automated. In embodiments, the development environment,
+and the resulting robotic process automation 1442 may
+involve monitoring a combination of both software program
+interaction observations 1500 (e.g., by workers interacting
+with various software interfaces of applications 630 involv-
+ing value chain network entities 652) and physical process
+interaction observations 1510 (e.g., by watching workers
+interacting with or using machines, equipment, tools or the
+like in a value chain network 668). In embodiments, obser-
+vation of software interactions 1500 may include interac-
+tions among software components with other software com-
+ponents, such as how one application 630 interacts via APIs
+with another application 630.In embodiments, observation
+of physical process interactions 1510 may include observa-
+tion (such as by video cameras, motion detectors, or other
+sensors, as well as detection of positions, movements, or the
+like of hardware, such as robotic hardware) of how human
+workers interact with value chain entities 652 (such as
+locations of workers (including routes taken through a
+location, where workers of a given type are located during
+a given set of events, processes or the like, how workers
+manipulate pieces of equipment, cargo, containers, pack-
+ages, products 650 or other items using various tools,
+equipment, and physical interfaces, the timing of worker
+responses with respect to various events (such as responses
+to alerts and warnings), procedures by which workers under-
+takescheduled deliveries,movements,maintenance,
+updates, repairs and service processes; procedures by which
+workers tune or adjust items involved in workflows, and
+many others).Physical process observation 1510 may
+include tracking positions, angles, forces, velocities, accel-
+eration, pressures, torque, and the like of a worker as the
+worker operates on hardware, such as on a container or
+package, or on a piece of equipment involved in handling
+products, with a tool. Such observations may be obtained by
+any combination of video data, data detected within a
+machine (such as of positions of elements of the machine
+detected and reported by position detectors), data collected
+by a wearable device (such as an exoskeleton that contains
+position detectors, force detectors, torque detectors and the
+like that is configured to detect the physical characteristics
+of interactions of a human worker with a hardware item for
+purposes of developing a training data set). By collecting
+both software interaction observations 1500 and physical
+process interaction observations 1510 the RPA system 1442
+can more comprehensively automate processes involving
+value chain entities 652, such as by using software automa-
+tion in combination with physical robots.

@@ -1,0 +1,129 @@
+[col 1]
+US2022/0058569A1
+87
+platform 604 may employ a micro-services architecture with
+the various data handling layers 614, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+[0724] Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point ofcustomer
+use; and a set of microservices layers including an applica-
+and at least one demand management application, wherein
+the microservice layers include a data collection layer that
+collects information from a set of crowdsourcing resources
+that provide information with respect to supply chain entities
+and demand management entities.
+[0725] In embodiments, the VCNP 604 may further
+include a set of microservices layers that include a moni-
+toring systems and data collection systems layer 614 with a
+crowdsourcing facility 1770 that collects information from a
+set of crowdsourcing resources that provide information
+with respect to supply chain entities and demand manage-
+ment entities. The crowdsourcing services 1770 may support
+various applications among a set of demand management
+applications 1502, a set of supply chain applications 1500,
+a set of intelligent product applications 1510, a set of asset
+management applications 1530 and a set of enterprise
+resource management applications 1520 for a category of
+goods. Crowdsourcing may be facilitated by a crowdsourc-
+ing interface 1770, such as for configuring queries, setting
+rewards for information, configuring workflows, determin-
+ing eligibility for participation, and other elements of crowd-
+sourcing.
+Value Chain Digital Twin Processing (DTPT)
+[0726] Referring now to FIG. 52 a set of value chain
+network digital twins 1700 representing a set of value chain
+network entities 652 is depicted. The digital twins 1700 are
+configured to simulate properties, states, operations, behav-
+iors and other aspects of the value chain network entities
+652. The digital twins 1700 may have a visual user interface,
+e.g., in the form of 3D models, or may consist of system
+specifications or ontologies describing the architecture,
+including components and their interfaces, of the value
+chain network entities 652. The digital twins 1700 may
+include configuration or condition of the value chain net-
+work entities 652, including data records of the past and
+current state of the value chain network entities 652, such as
+captured through sensors, through user input, and/or deter-
+mined by outputs of behavioral models that describe the
+[col 2]
+Feb.24,2022
+behavior of the value chain network entities 652. The digital
+twins 1700 may be updated continuously to reflect the
+current condition of the value chain network entities 652,
+based on sensor data, test and inspection results, conducted
+maintenance, modifications, etc. The digital twins 1700 may
+also be configured to communicate with a user via multiple
+communication channels, such as speech, text, gestures, and
+the like. For example, a digital twin 1700 may receive
+queries from a user about the value chain network entities
+652, generate responses for the queries, and communicate
+such responses to the user. Additionally or alternatively,
+digital twins 1700 may communicate with one another to
+learn from and identify similar operating patterns and issues
+in other value chain network entities 652, as well as steps
+taken to resolve those issues. The digital twins 1700 may be
+used for monitoring, diagnostics, simulation, management,
+remote control, and prognostics, such as to optimize the
+individual and collective performance and utilization of
+value chain network entities 652.
+[0727] For example, machine twins 1770 may continu-
+ously capture the key operational metrics of the machines
+724 and may be used to monitor and optimize machine
+performance in real time. Machine twins 1770 may combine
+sensor, performance, and environmental data, including
+insights from similar machines 724, enabling prediction of
+life span of various machine components and informed
+maintenance decisions. In embodiments, machine twins
+1770 may generate an alert or other warning based on a
+change in operating characteristics of the machine 724. The
+alert may be due to an issue with a component of the
+machine 724.Additionally, machine twins 1770 may deter-
+mine similar issues that have previously occurred with the
+machine or similar machines, provide a description of what
+caused the issues, what was done to address the issues, and
+explain differences between the present issue and the pre-
+vious issues and what actions to take to resolve the issue, etc.
+[0728]Similarly, warehousing twins1712 may combinea
+3D model of the warehouse with inventory and operational
+data including the size, quantity, location, and demand
+characteristics of different products. The warehousing twins
+1712 may also collect sensor data in a connected warehouse,
+as well as data on the movement of inventory and personnel
+within the warehouse. Warehousing twins 1712 may help in
+elimination of waste in warehouse operations. The simula-
+tion using warehousing twins 1712 of the movement of
+products, personnel, and material handling equipment may
+enable warehouse managers to test and evaluate the potential
+impact of layout changes or the introduction of new equip-
+ment and new processes.
+[0729]  In embodiments, multiple digital twins of the value
+chain network entities 652 may be integrated, thereby aggre-
+gating data across the value chain network to drive not only
+entity-level insights but also system-level insights. For
+example, consider a simple value chain network with an
+operating facility 712 comprising different machines 724
+including conveyors, robots, and inspection devices. The
+operating facility digital twin 1172 may need to integrate the
+data from digital twins 1770 of different machines to get a
+holistic picture of the complete conveyor line in the oper-
+ating facility 712 (e.g., a warehouse, distribution center, or
+veyor and inspected before being sent out for delivery.
+While the digital twin of conveyor line may provide insights

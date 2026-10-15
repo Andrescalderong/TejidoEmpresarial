@@ -1,0 +1,136 @@
+orchestrating the at least one of delivery or performance of 6o based on futures pricing of goods. In other features, the
+[col 1]
+US 12,567,082 B2
+includes a digital twin modeling system defined at least in
+part by at least one of a product instruction or the control
+tower instruction to encode a set of digital twins represent-
+ing a product for use by the additive manufacturing man-
+agement platform. The system further includes an artificial
+intelligence system executable by a data processing system
+in communication with the additive manufacturing manage-
+ment platform, wherein the artificial intelligence system is
+trained to generate process parameters for the process work-
+flows managed by the additive manufacturing management 1o
+platform using data collected from the distributed manufac-
+turing network entities. The system further includes a con-
+trol system configured to adjust the process parameters
+during an additive manufacturing process performed by at
+least one of the distributed manufacturing network entities. 15j
+In some embodiments, the set of distributed manufactur-
+ing network entities includes: a first additive manufacturing
+unit configured to perform a first additive manufacturing
+process; and a second additive manufacturing unit config-
+ured to perform a second additive manufacturing process, 20
+wherein the first additive manufacturing process is different
+than the second additive manufacturing process.
+In some embodiments, the training data includes: (i)
+outcomes; (ii) data collected; and (iii) prior/historical pro-
+cess parameters. In some embodiments, the additive manu- 25
+facturing process is a hybrid task requiring at least two
+different types of additive manufacturing units. In some
+ embodiments, the additive manufacturing management plat-
+form is cloud-based. In some embodiments, the artificial
+intelligence system is distributed across more than one 30
+distributed manufacturing network entity. In some embodi-
+ments, the digital twins representing a product are used by
+the additive manufacturing management platform to manu-
+facture a physical replica of the digitally represented prod-
+uct. In some embodiments, the artificial intelligence system 35
+includes an adaptive intelligence system in communication
+with a plurality of sensors and configured to receive current
+sensor data from the plurality of sensors for use in encoding
+the set of digital twins. In some embodiments, the artificial
+intelligence system is distributed across more than one 40
+distributed manufacturing network entities from the set of
+distributed manufacturing network entities. In some embodi-
+ments, the representation of the product is a simulated future
+condition state of the product.
+An autonomous futures contract orchestration platform 45 
+includes a set of one or more processors programmed with
+a set of non-transitory computer-readable instructions to
+collectively execute receiving, from a data source, an indi-
+cation associated with a product that relates to an entity that
+at least one of purchases or sells the product. They further 5o 
+execute predicting a baseline cost of at least one of purchas-
+ing or selling the product at a future point in time based on
+the indication. They further execute retrieving a futures cost,
+at a current point in time, of a futures contract for an
+obligation to the at least one of purchasing or selling the 55
+product for at least one of delivery or performance of the
+product at the future point in time. They further execute
+executing a smart contract for the futures contract based on
+the baseline cost and the futures cost. They further execute
+the product at the future point in time.
+In other features, the autonomous futures contract orches-
+tration platform includes a risk data structure indicating an
+amount of risk the entity is willing to accept with respect to
+the baseline cost and the futures cost. The computer-read- 65
+able instructions collectively execute executing the smart
+contract based on the risk data structure to at least one of
+[col 2]
+28
+manage or mitigate risk. In other features, the autonomous
+futures contract orchestration platform includes a robotic
+process automation system for demand-side planning to
+orchestrate the smart futures contract. In other features, the
+autonomous futures contract orchestration platform includes
+a robotic agent configured to derisk with respect to the
+futures contract and the smart contract. In other features, the
+autonomous futures contract orchestration platform includes
+a system for performing circular economy optimization
+based on futures pricing of goods. In other features, the
+computer-readable instructions collectively execute initial-
+izing a robotic process automation system trained to execute
+the smart contract and executing the smart contract using the
+robotic process automation system. In other features, the
+indication is of at least one of an event occurrence, a
+physical condition of an item, or a potential demand
+increase.
+An autonomous futures contract orchestration platform
+includes a set of one or more processors programmed with
+a set of non-transitory computer-readable instructions to
+collectively execute retrieving a futures cost, at a current
+point in time, of a futures contract for an obligation to at
+least one of purchase or sell a product for at least one of
+delivery or performance of the product to an entity at a
+future point in time. They further execute predicting a
+baseline cost to the entity of the at least one of purchasing
+or selling the product at the future point in time. They further
+execute executing a smart contract for the futures contract
+based on the baseline cost and the futures cost. They further
+execute orchestrating the at least one of delivery or perfor-
+mance of the product to the entity at the future point in time.
+A computerized method for autonomous future contract
+orchestration includes receiving, from a data source, an
+indication associated with a product that relates to an entity
+that at least one of purchases or sells the product. The
+method includes predicting a baseline cost of at least one of
+purchasing or selling the product at a future point in time
+based on the indication. The method includes retrieving a
+futures cost, at a current point in time, of a futures contract
+for an obligation to the at least one of purchasing or selling
+the product for at least one of delivery or performance of the
+product at the future point in time. The method includes
+executing a smart contract for the futures contract based on
+the baseline cost and the futures cost. The method includes
+orchestrating the at least one of delivery or performance of
+the product at the future point in time.
+In other features, the computerized method includes
+the entity is willing to accept with respect to the baseline
+cost and the futures cost and executing the smart contract
+based on the risk data structure to at least one of manage or
+mitigate risk. In other features, the computerized method
+includes demand-side planning using a robotic process auto-
+mation system and orchestrating the smart futures contract
+based on the demand-side planning. In other features, the
+computerized method includes derisking with respect to the
+futures contract and the smart contract using a robotic agent.
+In other features, the computerized method includes execut-
+ing a system for performing circular economy optimization
+computerized method includes initializing a robotic process
+automation system trained to execute the smart contract and
+executing the smart contract using the robotic process auto-
+mation system. In other features, retrieving the indication
+includes retrieving at least one of an event occurrence, a
+physical condition of an item, or a potential demand
+increase.

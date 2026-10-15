@@ -1,0 +1,131 @@
+and to optimize existing solutions in a value chain network 45 value chain network entities 652, such as any of the entities
+[col 1]
+US 12,277,524 B2
+227
+a value chain environment (such as, without limitation, a
+point of origin, a loading or unloading dock, a vehicle or
+floating asset used to convey goods, a container, a port, a
+distribution center, a storage facility, a warehouse, a delivery
+vehicle, and a point of destination), cameras for monitoring
+an entire environment, dedicated cameras for a particular
+machine, process, worker, or the like, wearable cameras,
+portable cameras, cameras disposed on mobile robots, cam-
+eras of portable devices like smart phones and tablets, and
+10
+closed throughout this disclosure or in the documents incor-
+porated herein by reference); indoor location monitoring
+systems 1532 (including cameras, IR systems, motion-de-
+tection systems, beacons, RFID readers, smart lighting sys-
+15
+tems, triangulation systems, RF and other spectrum detec-
+tion systems, time-of-flight systems, chemical noses and
+other chemical sensor sets, as well as other sensors); user
+feedback systems 1534 (including survey systems, touch
+pads, voice-based feedback systems, rating systems, expres- 20
+sion monitoring systems, affect monitoring systems, gesture
+monitoring systems, and others); behavioral monitoring
+ systems 1538 (such as for monitoring movements, shopping
+behavior, buying behavior, clicking behavior, behavior indi-
+cating fraud or deception, user interface interactions, prod- 25
+uct return behavior, behavior indicative of interest, attention
+boredom or the like, mood-indicating behavior (such as
+fidgeting, staying still, moving closer, or changing posture)
+and many others); and any of a wide variety of Internet of
+Things (loT) data collectors 1172, such as those described 30
+throughout this disclosure and in the documents incorpo-
+rated by reference herein.
+Referring to FIG. 26, a set of opportunity miners 1460
+may be provided as part of the adaptive intelligence layer
+614,whichmaybeconfigured toseekand recommend35
+opportunities to improve one or more of the elements of the
+platform 604, such as via addition of artificial intelligence
+i160, automation (including robotic process automation
+1402), or the like to one or more of the maritime facilities
+622 and for each of floating assets 620 including their 40
+ systems, sub-systems, components, applications with which
+the platform 100 interacts. In embodiments, the opportunity
+miners 1460 may be configured or used by developers of AI
+or RPA solutions to find opportunities for better solutions
+668.In embodiments, the opportunity miners 1460 may
+include a set of systems that collect information within the
+management platform 604 and collect information within,
+about and for a set of maritime facilities 622 and for each of
+floating assets 620, where the collected information has the 50
+potential to help identify and prioritize opportunities for
+increased automation and/or intelligence about the value
+chain network 668, about applications 630, one or more of
+the maritime facilities 622 and the floating assets 620. For
+example, the opportunity miners 1460 may include systems 55
+that observe clusters of value chain network workers by
+time, by type, and by location (whether on the water or land),
+such as using cameras, wearables, or other sensors, such as
+to identify labor-intensive areas and processes in set of value
+chain network 668 environments. These may be presented, 60
+such as in a ranked or prioritized list, or in a visualization
+workers or other individuals on a map of an environment or
+a heat map showing routes traveled by customers or workers
+within an environment) to show places with high labor 65
+activity. In embodiments, analytics 838 may be used to
+identify which environments or activities would most benefit
+[col 2]
+228
+from automation for purposes of improved delivery times,
+mitigation of congestion, and other performance improve-
+ments.
+In embodiments, opportunity mining may include facili-
+ties for solicitation of appropriate training data sets that may
+be used to facilitate process automation. For example,
+certain kinds of inputs, if available, would provide very high
+value for automation, such as video data sets that capture
+complex tasks. This information becomes even more valu-
+able when collected in close proximity to other maritime
+facilities 622 and with deployed floating assets 620. Oppor-
+tunity miners 1460 may search for such video data sets as
+described herein; however, in the absence of success (or to
+supplement available data), the management platform 604
+or deployed on a maritime asset may specify a desired type
+of data, such as software interaction data (such as of an
+expert working with a program to perform a particular task),
+video data (such as video showing a set of experts perform-
+ing a certain kind of delivery process, unloading process,
+securing and logistics process, cleaning and maintenance
+process, a container movement process, or the like), and/or
+physical process observation data (such as video, sensor
+data, or the like). The resulting library of interactions
+captured in response to the specification may be captured as
+a data set in the data storage layer 624, such as for con-
+sumption by various applications 630, adaptive intelligence
+systems 614, and other processes and systems. In embodi-
+ments, the library may include videos that are specifically
+developed as instructional videos, such as to facilitate devel-
+oping an automation map that can follow instructions in the
+video, such as providing a sequence of steps according to a
+procedure or protocol, breaking down the procedure or
+protocol into sub-steps that are candidates for automation,
+and the like. In embodiments, such videos may be processed
+by natural language processing, such as to automatically
+develop a sequence of labeled instructions that can be used
+by a developer to facilitate a map, a graph, or other models
+ofaprocess thatassists withdevelopmentof automation for
+the process.
+In embodiments, the value chain monitoring systems
+layer 614 and its data collection systems 640 may include an
+described throughout this disclosure and especially those
+that can be loaded and offloaded as control passes from
+various maritime facilities 622 and floating assets 620. This
+may include components or sub-systems for searching for
+entities at maritime facilities 622 and floating assets 620
+within the value chain network 668, such as by device
+identifier, by network location, by geolocation (such as by
+known resources, such as IoT-enabled devices and infra-
+structure, Wifi routers, switches, or the like), by cellular
+time navigation aids and vessel identity beacons, by identity
+management systems (such as where an entity 652 is asso-
+ciated with another entity 652, such as an owner, operator,
+user, or enterprise by an identifier that is assigned by and/or
+managed by the platform 604), and the ike. in these
+examples, an entity discovery system 1900 may interact
+with established maritime asset logistic systems used to
+track trafic and location. In these examples, an entity
+discovery system 1900 may interact with established mari-
+information relevant to intended navigation destinations and

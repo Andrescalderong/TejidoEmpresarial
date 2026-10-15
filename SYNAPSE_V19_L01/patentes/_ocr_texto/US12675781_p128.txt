@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+includes a set of one or more processors that execute a set
+of computer-readable instructions. The set of one or more
+processors collectively execute a governance-enabling intel-
+ligence layer that receives and responds to intelligence
+requests received from respective intelligence service cli-
+ents. The intelligence layer includes a set of artificial intel-
+ligence services that includes at least one of a machine
+learning service, a rules-based intelligence service, a digital
+twin service, a robot process automation service, or a
+machine vision service. The intelligence layer includes an 10
+intelligence layer controller that coordinates performance of
+respective intelligence services on behalf of the respective
+intelligence service clients and performance of a set of
+analyses corresponding to the respective intelligence ser-
+vices based in part on the set of governance standards. The 15
+intelligence layer returns decisions determined collectively
+by the artificial intelligence service in response to the
+intelligence requests, such that the decisions are determined
+based on a set of intelligence service data sources and the set
+of analyses.
+In other features, the intelligence layer controller is con-
+figured to receive an intelligence request from an intelli-
+gence service client indicating a requested decision, deter-
+mine zero or more governance standards that are implicated
+by a type of the requested decision, determine zero or more 25
+pre-defined analyses that are implicated by the type of the
+requested decision or by a governance standard implicated
+by the type of decision, and provide the zero or more
+governance standards and the zero or more pre-defined
+analyses to the artificial intelligence service. The zero or 30 
+more governance standards are selected from the gover-
+nance standards defined in the governance library.
+In other features, the intelligence layer controller is fur-
+ther configured to iteratively determine and provide addi-
+tional governance standards and pre-defined analyses to the 35
+artificial intelligence service in response to determinations
+made by the artificial intelligence service until the requested
+decision is provided by the artificial intelligence service. In
+other features, the intelligence layer is further configured to
+determine the set of intelligence layer data sources based on 40
+the type of the requested decision. In other features, a
+requesting intelligence service client provides the set of
+intelligence layer data sources with the request. In other
+features, the decisions provided by the intelligence layer
+define respective actions to be taken by the respective 45
+intelligence service clients. In other features, the respective
+actions include an action to request human intervention.
+In other features, the respective actions include non-
+adaptive pre-defined actions. In other features, the respective
+actions include domain-specific actions that are responsive 5o 
+to the respective requests. In other features, the intelligence
+service clients include a security system that requests clas-
+sifications of potential security risks. In other features, the
+intelligence service clients include a resource provisioning
+system that requests recommendations for resources to sup- 55
+port a robot fleet. In other features, the intelligence service
+clients include a logistics system that requests logistics-
+based recommendations with respect to one or more robot
+fleets. In other features, the intelligence service clients
+include a job configuration system that requests proposed 60
+job configurations given a job request. In other features, the
+intelligence service clients include a fleet configuration
+system that requests proposed fleet configurations given a
+set of tasks to be completed by a robot fleet. In other
+features, the intelligence service clients include a robot 65
+operating unit deployed by the robot fleet management
+platform.
+[col 2]
+A robot fleet management platform for configuring robot
+fleet resources includes a set of one or more processors that
+execute a set of computer-readable instructions. The set of
+one or more processors collectively execute a job parsing
+system that applies a set of filters to job content received in
+association with a job request to identify portions thereof
+suitable for robot automation. A task definition system
+establishes a set of robot tasks that each define at least a type
+of robot and a task objective, the set of robot tasks being
+based at least in part on the portions of the job request that
+are suitable for robot automation and meet a first fleet
+objective of a set of fleet objectives. A fleet configuration
+proxy service processes the set of robot tasks and additional
+job content relating to the job request to produce a fleet
+resource configuration data structure for the job request that
+defines a set of task associations and a set of robot adaptation
+instructions. Each task association associates at least one
+robot operating unit to a respective robot task of the set of
+robot tasks and the set of robot adaptation instructions define
+2o a manner by which one or more robot operating units of a
+robot fleet are to be adapted to perform respective tasks to
+which robots are assigned. Afleet intelligence layer activates
+a set of intelligence services to produce at least one recom-
+mended robot task and associated contextual information
+that facilitates robot selection and task ordering in a work-
+flow of robot tasks. A job workflow system generates a
+workflow that defines an order of performance of the robot
+tasks based on the fleet resource configuration data structure
+and the set of robot tasks. A workflow simulation system is
+configured to simulate performance of the job based on the
+workflow and a job execution simulation environment. The
+workflow simulation system applies the workflow in the job
+execution simulation environment that includes digital mod-
+els of the robot operating units assigned to the robot fleet and
+digital models of the task definitions to produce a simulation
+result, such that the simulation result is used to iteratively
+redefine one or more of the set of tasks, the fleet resource
+configuration data structure, or the workflow until the simu-
+lation result satisfies a second fleet objective of the set of
+fleet objectives corresponding to the job request. A job
+execution plan generator, in response to the simulation result
+satisfying the set of fleet objectives, generates a job execu-
+tion plan based on the set of tasks, the fleet resource
+configuration data structure, and the workflow.
+In other features, the task definition system interacts with
+the intelligence layer to suggest alternate tasks that meet a
+second fleet objective. In other features, the task definition
+system interacts with the intelligence layer to optimize at
+least one of a robot type and a task objective based on the
+first fleet objective. In other features, the first fleet objective
+includes fleet resource utilization criteria. In other features,
+the task definition system receives from the fleet configu-
+ration proxy service a particular robot type for use when
+performing the robot task. In other features, the task defi-
+nition system configures the set of robot tasks based on the
+particular robot type provided by the fleet configuration
+proxy service. In other features, the task definition system
+generates a data structure for each task in the set of tasks that
+includes a reference to a digital twin for at least one of the
+task and at least one robot operating unit for performing the
+tasks for use by the workflow simulation system. In other
+features, the task definition system generates a data structure
+for each task in the set of tasks that identifies at least one a
+type of robot and a robot operating unit for performing the
+task and a configuration data structure for configuring a
+robot for performing the task. In other features, the task
+definition system generates a data structure for each task in

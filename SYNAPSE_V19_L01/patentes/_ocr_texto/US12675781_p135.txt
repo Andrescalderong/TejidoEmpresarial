@@ -1,0 +1,134 @@
+In embodiments, the distributed ledger system includes or 35 group consisting of production management applications,
+In embodiments, the distributed ledger system includes or 45 tions application configured to generate alerts, notifications
+[col 1]
+US 12,675,781 B2
+19
+on state and movement of a product from order through
+manufacture and assembly to final delivery to the customer.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide unified data collection
+from a metrology system.
+In embodiments, the distributed ledger system includes a
+system for digital rights management of entities in the
+distributed manufacturing network. In embodiments, the
+distributed ledger system stores digital fingerprinting infor-
+mation of documents/files and other information including
+creation, modification.
+In embodiments, the distributed ledger system uses a
+token, such as a cryptocurrency token, such as to incentivize
+value creation and transfer value between entities in the
+distributed manufacturing network. For example, a unit of a
+token may represent a defined amount of manufacturing
+capacity of a given type, a defined amount of material of a
+given type, a defined time of utilization, or other measurable
+quantity of distributed manufacturing capacity. In embodi-
+20
+ments, tokens may comprise a mechanism for exchange of
+value governed by a set of smart contracts.
+In embodiments, the distributed ledger system includes a
+system for attesting the experience of a manufacturing node.
+In embodiments, the distributed ledger system includes a 25
+system for capturing the end-to-end traceability of a part.
+In embodiments, the distributed ledger system includes a
+ system for tracking all transactions, modifications, quality
+checks and certifications on the distributed ledger.
+In embodiments, the distributed ledger system includes a 3o related to a part or a product.
+system for validating capabilities of a manufacturing node.
+In embodiments, the distributed ledger system includes or
+supports smart contracts for automating and managing the
+workflows in the distributed manufacturing network.
+supports a smart contract for executing a purchase order
+covering the scope of work, quotation, timelines, and pay-
+ment terms.
+In embodiments, the distributed ledger system includes or
+supports a smart contract forprocessing of payment by a 4o r
+customer upon delivery of product.
+In embodiments, the distributed ledger system includes or
+supports a smart contract for processing insurance claims for
+a defective product.
+supports a smart contract for processing warranty claims.
+In embodiments, the distributed ledger system includes or
+supports a smart contract for automated execution and
+payment for maintenance.
+Aspects provided herein include a distributed manufac- 50 t
+turing network information technology system, comprising:
+a cloud-based additive manufacturing management platform
+with a user interface, connectivity facilities, data storage
+facilities, and monitoring facilities; a set of applications for
+enabling the additive manufacturing management platform 55
+to manage a set of distributed manufacturing network enti-
+ties; and an artificial intelligence system configured to learn
+on a training set of outcomes, parameters, and data collected
+from the distributed manufacturing network entities to opti-
+mize manufacturing and value chain workflows. 60
+In embodiments, the connectivity facilities include net-
+work connections, interfaces, ports, application program-
+ming interfaces (APIs), brokers, services, connectors, wired
+or wireless communication links, human-accessible inter-
+faces, software interfaces, micro-services, Saas interfaces, 65
+Paas interfaces, Iaas interfaces, cloud capabilities, or the
+like.
+[col 2]
+20
+In embodiments, the artificial intelligence system pro-
+vides optimization and process control across the entire
+lifecycle of manufacturing from product conception and
+design through manufacturing and distribution to sales,
+usage, service and maintenance.
+In embodiments, the artificial intelligence system pro-
+vides for generative design and topology optimization to
+determine at least one product design suitable for fabrica-
+tion, suitable to meet customer needs, suitable to meet
+producer specifications, or the like.
+In embodiments, the artificial intelligence system pro-
+vides for optimization of a build preparation process.
+In embodiments, the artificial intelligence system opti-
+results.
+In embodiments, the artificial intelligence system pro-
+vides for optimizing toolpath generation.
+In embodiments, the artificial intelligence system pro-
+vides for optimized dynamic 2D,2.5D and 3D nesting to
+maximize the number of printed parts while minimizing the
+raw material waste.
+In embodiments, the user interface includes a dashboard
+providing tracking and tracing of production history of one
+or more 3D printed parts.
+In embodiments, the user interface includes a dashboard
+providing batch traceability to identify parts from the same
+batch.
+In embodiments, the user interface includes a digital twin
+interface to resolve queries from a user of the network
+In embodiments, the user interface includes a virtual
+reality (VR) interface configured to enable a user to build 3D
+models in VR.
+In embodiments, the applications are selected from a
+production reporting applications, production analysis appli-
+cations and value chain management applications.
+In embodiments, the application is an order tracking
+application configured to track the product order through its
+movement in the distributed manufacturing network.
+In embodiments, the application is a workflow manage-
+printing production workflow.
+In embodiments, the application is an alerts and notifica-
+and reports about one or more events in the distributed
+manufacturing network to a user or customer of the network.
+In embodiments, the alerts and notifications application is
+configured to transmit alerts related to print errors or failures
+to a computing device of a user.
+In embodiments, the application is a payment gateway
+application configured to manage the entire billing, payment
+and invoicing process for a customer ordering a product
+using the distributed manufacturing network.
+In embodiments, the artificial intelligence system is con-
+figured to automatically classify and cluster parts, such as
+ones that may be additively manufactured, such as based on
+similarity of attributes, including physical attributes, shapes,
+functional attributes, material attributes, performance attri-
+butes, economic attributes, and others.
+In embodiments, the artificial intelligence system is con-
+figured to analyze usage patterns associated with one or
+more users and learn user preferences with respect to mate-
+rials, orientations, and/or print strategies.
+In embodiments, the artificial intelligence system is con-
+figured to minimize material waste production during the
+additive manufacturing process.

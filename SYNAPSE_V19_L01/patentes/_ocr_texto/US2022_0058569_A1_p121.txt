@@ -1,0 +1,132 @@
+[col 1]
+US 2022/0058569A1
+38
+chain monitoring systems layer 614 may include, integrate
+with, and/or cooperate with various data collection and
+management systems 640, referred to for convenience in
+some cases as data collection systems 640, for collecting and
+organizing data collected from or about value chain entities
+652, as well as data collected from or about the various data
+layers 624 or services or components thereof.For example,
+a stream of physiological data from a wearable device worn
+by a worker undertaking a task or a consumer engaged in an
+activity can be distributed via the monitoring systems layer
+614 to multiple distinct applications in the value chain
+management platform layer 604, such as one that facilitates
+monitoring the physiological, psychological, performance
+level, attention, or other state of a worker and another that
+facilitates operational efficiency and/or effectiveness. In
+embodiments, the monitoring systems layer 614 facilitates
+alignment, such as time-synchronization, normalization, or
+the like of data that is collected with respect to one or more
+value chain network entities 652. For example, one or more
+video streams or other sensor data collected of or with
+network facility or environment, such as from a set of
+camera-enabled IoT devices, may be aligned with a common
+clock, so that the relative timing of a set of videos or other
+data can be understood by systems that may process the
+videos, such as machine learning systems that operate on
+images in the videos, on changes between images in differ-
+ent frames of the video, or the like. In such an example, the
+monitoring systems layer 614 may further align a set of
+videos, camera images, sensor data, or the like, with other
+data, such as a stream of data from wearable devices, a
+stream of data produced by value chain network systems
+(such as ships, lifts, vehicles, containers, cargo handling
+systems, packing systems, delivery systems, drones/robots,
+and the like), a stream of data collected by mobile data
+collectors, and the like. Configuration of the monitoring
+systems layer 614 as a common platform, or set of micro-
+services, that are accessed across many applications, may
+dramatically reduce the number of interconnections required
+by an owner or other operator within a value chain network
+in order to have a growing set of applications monitoring a
+growing set of IoT devices and other systems and devices
+that are under its control.
+[0361]In embodiments, the data handling layers 624 are
+configured in a topology that facilitates shared or common
+data storage across multiple applications and uses of the
+platform 604 by the value chain network-oriented data
+storage systems layer 624, referred to herein for convenience
+in some cases simply as the data storage layer 624 or storage
+layer 624. For example, various data collected about the
+value chain entities 652, as well as data produced by the
+other data handling layers 624, may be stored in the data
+storage layer 624, such that any of the services, applications,
+programs, or the like of the various data handling layers 624
+can access a common data source (which may comprise a
+single logical data source that is distributed across disparate
+physical and/or virtual storage locations). This may facilitate
+a dramatic reduction in the amount of data storage required
+to handle the enormous amount of data produced by or about
+value chain network entities 652 as applications 630 and
+uses of value chain networks grow and proliferate. For
+example, a supply chain or inventory management applica-
+tion in the value chain management platform layer 604, such
+as one for ordering replacement parts for a machine or item
+[col 2]
+Feb.24,2022
+of equipment, may access the same data set about what parts
+have been replaced for a set of machines as a predictive
+maintenance application that is used to predict whether a
+component of a ship, or facility of a port is likely to require
+replacement parts. Similarly, prediction may be used with
+respect to the resupply of items.
+[0362]  In embodiments, value chain network data objects
+1004 may be provided according to an object-oriented data
+model that defines classes, objects, attributes, parameters
+and other features of the set of data objects (such as
+associated with value chain network entities 652 and appli-
+cations 630) that are handled by the platform 604.
+[0363] In embodiments, the data storage systems layer 624
+may provide an extremely rich environment for collection of
+data that can be used for extraction of features or inputs for
+intelligence systems, such as expert systems, analytic sys-
+tems, artificial intelligence systems, robotic process auto-
+mation systems, machine learning systems, deep learning
+systems, supervised learning systems, or other intelligent
+systems as disclosed throughout this disclosure and the
+documents incorporated herein by reference. As a result,
+each application 630 in the platform 604 and each adaptive
+intelligent system in the adaptive intelligent systems layer
+614 can benefit from the data collected or produced by or for
+each of the others. In embodiments, the data storage systems
+layer 624 may facilitate collection of data that can be used
+for extraction of features or inputs for intelligence systems
+such as a development framework from artificial intelli-
+gence. In examples, the collections of data may pull in
+and/or house event logs (naturally stored or ad-hoc, as
+needed), perform periodic checks on onboard diagnostic
+data, or the like. In examples, pre calculation of features may
+be deployed using Aws Lambda, for example, or various
+other cloud-based on-demand compute capabilities, such as
+pre-calculations, multiplexing signals. In many examples,
+there are pairings (doubles, triples, quadruplets, etc.) of
+similar kinds of value chain entities that may use one or
+more sets of capabilities of the data handling layers 624 to
+deploy connectivity and services across value chain entities
+and across applications used by the entities even when
+amassing hundreds and hundreds of data types from rela-
+tively disparate entities. In these examples, various pairings
+of similar types of value chain entities using, at least in part,
+the connectivity and services across value chain entities and
+applications, may direct the information from the pairings of
+connected data to artificial intelligence services including
+the various neural networks disclosed herein and hybrid
+combinations thereof. In these examples, genetic program-
+ming techniques may be deployed to prune some of the input
+features in the information from the pairings of connected
+data. In these examples, genetic programming techniques
+may also be deployed to add to and augment the input
+features in the information from the pairings. These genetic
+programming techniques may be shown to increase the
+efficacy of the determinations established by the artificial
+intelligence services. In these examples, the information
+from the pairings of connected data may be migrated to other
+layers on the platform including to support or deploy robotic
+process automation, prediction, forecasting. and other
+resources such that the shared data schema may facilitate as
+capabilities and resources for the platform 604.
+[0364] A wide range of data types may be stored in the
+storage layer 624 using various storage media and data
+storage types, data architectures 1002, and formats, includ-

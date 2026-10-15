@@ -1,0 +1,131 @@
+[col 1]
+US2022/0036302A1
+119
+port including silos, elevators, conveyors, container termi-
+nals, roll-on/roll-off facilities including parking garages
+necessary for intermodal freight transfer, warehouses
+including refrigerated facilities, bunkering facilities for oil
+or gas products, lay-down areas, transit sheds, and the like.
+In embodiments, the management platform 604 can manage
+utilities necessary for standard operations including lighting,
+stormwater, and the like that can be incidental to a larger set
+of maritime facilities. In embodiments, the management
+tation system hardware and software including all technolo-
+gies used to promote efficient port movements including
+routing and communications for vessels, trucks, and rail
+cargo movements as well as flow-through processing for
+import/export requirements, storage and tracking, and asset/
+equipment management. In embodiments, the management
+platform 604 can manage phytosanitary treatment facilities
+to support phytosanitary treatment requirements. In embodi-
+ments, the management platform 604 can manage, configure
+and re-configure fully automated cargo-handling equipment.
+[1053] In embodiments, the adaptive intelligent systems
+layer 614 may include a set of systems, components, ser-
+vices and other capabilities that collectively facilitate the
+coordinated development and deployment of intelligent sys-
+tems, such as ones that can enhance one or more of the
+applications 630 at the application platform layer 604; ones
+that can improve the performance of one or more of the
+components, or the overall performance (e.g., speed/latency,
+reliability, quality of service, cost reduction, or other factors)
+of the connectivity facilities 642; ones that can improve
+other capabilities within the adaptive intelligent systems
+layer 614: ones that improve the performance (e.g., speed/
+latency, energy utilization, storage capacity, storage effi-
+ciency, reliability, security, or the like) of one or more of the
+components, or the overall performance, of the value chain
+network-oriented data storage systems 624; ones that opti-
+mize control, automation, or one or more performance
+characteristics of one or more value chain network entities
+652; or ones that generally improve any of the process and
+application outputs and outcomes 1040 pursued by use of
+the platform 604.
+[1054] These adaptive intelligent systems 614 may be
+deployed in and among the maritime facilities 622 and
+floating assets 620. These adaptive intelligent systems 614
+may include a robotic process automation system 1442, a set
+of protocol adaptors 1110, a packet acceleration system
+1410, an edge intelligence system 1430 (which may be a
+self-adaptive system), an adaptive networking system 1430,
+a set of state and event managers 1450, a set of opportunity
+miners 1460, a set of artificial intelligence systems 1160, a
+set of digital twin systems 1700, a set of entity interaction
+management systems 1902 (such as for setting up, provi-
+sioning, configuring and otherwise managing sets of inter-
+actions between and among sets of value chain network
+entities 652 in the value chain network 668), and other
+systems.
+[1055] In embodiments, a set of digital twin systems 1700
+may be deployed for each of the maritime facilities 622 and
+each of the floating assets 620. Referring to FIG. 6, the
+connected value chain network 668 benefits from digital
+twin systems deployed throughout the value chain network
+management platform 604 to facilitate the management,
+visualization, and modeling of the orchestration of a variety
+of factors involved in planning, monitoring, controlling, and
+[col 2]
+Feb.3,2022
+optimizing various entities and activities involved in the
+value chain network 668, such as supply and production
+factors, demand factors, logistics and distribution factors,
+and the like. By virtue of the unified platform 604 for
+monitoring and managing supply factors and demand fac-
+tors, digital twins for status information can be shared about
+and between various entities to facilitate modeling and
+analytics and to provide for visualization of changing
+demand factors becomes operational realities, as orders are
+moved through a supply chain.
+[1056]  In embodiments, the value chain monitoring sys-
+tems layer 614 and its data collection systems 640 may
+include a wide range of systems for the collection of data
+from the maritime facilities 622 and the floating assets 620.
+This layer may include, without limitation, real time moni-
+toring systems 1520 (such as onboard monitoring systems
+like event and status reporting systems on ships and other
+floating assets, on delivery vehicles, on trucks and other
+hauling assets, and in shipyards, ports, warehouses, distri-
+bution centers and other locations; on-board diagnostic
+(OBD) and telematics systems on floating assets, vehicles
+and equipment; systems providing diagnostic codes and
+events via an event bus, communication port, or other
+communication system; monitoring infrastructure (such as
+cameras, motion sensors, beacons, RFID systems, smart
+lighting systems, satellite connections, asset tracking sys-
+tems, person tracking systems, and ambient sensing systems
+located in various environments where value chain activities
+and other events take place), as well as removable and
+replaceable monitoring systems on maritime assets and
+cargo or other assets contained therein or in transit thereon,
+such as portable and mobile data collectors, RFID and other
+tag readers, smart phones, tablets and other mobile devices
+that are capable of data collection and the like); software
+interaction observation systems 1500 that can be deployed
+into portable and onboard systems of the maritime facilities
+622 and floating assets 620; visual monitoring systems 1930
+such as using video and still imaging systems, LIDAR, IR
+and other systems that allow visualization of items, people,
+materials, components, machines, equipment, personnel,
+and the like to detail cargo in the hold of floating assets 620,
+to detail activity of personal and gear deployed at the
+maritime facilities 622 and on the floating assets 620; point
+of interaction systems 1530 (such as dashboards, user inter-
+faces, and control systems for value chain entities); physical
+process observation systems 1510 (such as for tracking
+physical activities of operators, workers, customers, or the
+like, physical activities of individuals (such as shippers,
+delivery workers, packers, pickers, assembly personnel,
+customers, merchants, vendors, distributors and others).
+physical interactions of workers with other workers, inter-
+actions of workers with physical entities like machines and
+equipment, and interactions of physical entities with other
+physical entities, including, without limitation, by use of
+video and still image cameras, motion sensing systems (such
+as including optical sensors, LIDAR, IR and other sensor
+sets), robotic motion tracking systems (such as tracking
+movements of systems attached to a human or a physical
+entity) and many others; machine state monitoring systems
+1940 (including onboard monitors and external monitors of
+conditions, states, operating parameters, or other measures
+of the condition of any value chain entity, such as a machine
+or component thereof, such as a machine, such as a client,

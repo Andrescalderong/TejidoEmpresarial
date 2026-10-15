@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0058569 A1
+70
+model 3000.Acquisition of new skills may be facilitated by
+one or more guidance mechanisms such as active learning,
+maturation, motor synergies, and/or imitation.
+[0564]  In some embodiments, the machine learning model
+3000 can be defined via association rule learning. Associa-
+tion rule learning may include discovering relationships, by
+the machine learning model 3000, between variabies in
+databases, in order to identify strong rules using some
+measure of "interestingness." Association rule learning may
+include identifying, learning, and/or evolving rules to store,
+manipulate and/or apply knowledge. The machine learning
+model 3000 may be configured to learn by identifying and/or
+utilizing a set of relational rules, the relational rules collec-
+tively representing knowledge captured by the machine
+learning model 3000. Association rule learning may include
+one or more of learning classifier systems, inductive logic
+programming, and artificial immune systems. Learning clas-
+sifier systems are algorithms that may combine a discovery
+component, such as one or more genetic algorithms, with a
+learning component, such as one or more algorithms for
+supervised learning, reinforcement learning, or unsuper-
+vised learning. Inductive logic programming may include
+rule-learning, by the machine learning model 3000, using
+logic programming to represent one or more of input
+examples, background knowledge, and hypothesis deter-
+mined by the machine learning model 3000 during training.
+The machine learning model 3000 may be configured to
+derive a hypothesized logic program entailing all positive
+examples given an encoding of known background knowl-
+edge and a set of examples represented as a logical database
+of facts.
+[0565]  In embodiments, another set of solutions, which
+may be deployed alone or in connection with other elements
+of the platform, including the artificial intelligence store
+3504, may include a set of functional imaging capabilities
+FMRP102, which may comprise monitoring systems 640
+1510 and/or software interaction observation systems 1500,
+such as for monitoring various value chain entities 652.
+Functional imaging systems FMRP102 may, in embodi-
+ments, provide considerable insight into the types of artifi-
+cial intelligence that are likely to be most effective in solving
+particular types of problems most effectively. As noted
+elsewhere in this disclosure and in the documents incorpo-
+rated by reference herein, computational and networking
+systems, as they grow in scale, complexity and interconnec-
+tions, manifest problems of information overload, noise,
+network congestion, energy waste, and many others. As the
+Internet of Things grows to hundreds of billions of devices,
+and virtually countless potential interconnections, optimiza-
+tion becomes exceedingly difficult. One source for insight is
+the human brain, which faces similar challenges and has
+evolved, over millennia, reasonable solutions to a wide
+range of very difficult optimization problems. The human
+brain operates with a massive neural network organized into
+interconnected modular systems, each of which has a degree
+of adaptation to solve particular problems, from regulation
+detection of a wide range of static and dynamic patterns, to
+recognition of threats and opportunities, among many oth-
+ers. Functional imaging FMRP102, such as functional mag-
+netic resonance imaging (fMRI), electroencephalogram
+(EEG), computed tomography (CT) and other brain imaging
+systems have improved to the point that patterns of brain
+[col 2]
+Feb.24,2022
+activity can be recognized in real time and temporally
+associated with other information, such behaviors, stimulus
+information, environmental condition data, gestures, eye
+movements, and other information, such that via functional
+imaging FMRP102, either alone or in combination with
+other information collected by monitoring systems IPX106,
+the platform may determine and classify what brain mod-
+ules, operations, systems, and/or functions are employed
+during the undertaking of a set of tasks or activities, such as
+ones involving software interaction 1500, physical process
+observations 1510, or a combination thereof. This classifi-
+cation may assist in selection and/or configuration of a set of
+artificial intelligence solutions, such as from an artificial
+intelligence store 3504, that includes a similar set of capa-
+bilities and/or functions to the set of modules and functions
+of the human brain when undertaking an activity, such as for
+the initial configuration of a robotic process automation
+(RPA) system 1442 that automates a task performed by an
+expert human. Thus, the platform may include a system that
+takes input from a functional imaging system FRMP102 to
+configure, optionally automatically based on matching of
+attributes between one or more biological systems, such as
+brain systems, and one or more artificial intelligence sys-
+tems, a set of artificial intelligence capabilities for a robotic
+process automation system. Selection and configuration may
+further comprise selection of inputs to robotic process
+automation and/or artificial intelligence that are configured
+at least in part based on functional imaging of the brain
+while workers undertake tasks, such as selection of visual
+inputs (such as images from cameras) where vision systems
+of the brain are highly activated, selection of acoustic inputs
+where auditory systems of the brain are highly activated,
+selection of chemical inputs (such as chemical sensors)
+where olfactory systems of the brain are highly activated, or
+the like. Thus, a biologically aware robotic process automa-
+tion system may be improved by having initial configura-
+tion, or iterative improvement, be guided, either automati-
+cally or under developer control, by imaging-derived
+information collected as workers perform expert tasks that
+may benefit from automation.
+[0566] Referring to FIG. 27, additional details of an
+embodiment of the platform 604 are provided, in particular
+relating to elements of the adaptive intelligence layer 614
+that facilitate improved edge intelligence, including the
+adaptive edge compute management system 1400 and the
+edge intelligence system 1420. These elements provide a set
+of systems that adaptively manage “edge" computation,
+storage and processing, such as by varying storage locations
+for data and processing locations (e.g-, optimized by Al)
+between on-device storage, local systems, in the network
+and in the cloud. These elements enable facilitation of a
+dynamic definition by a user, such as a developer, operator,
+or host of the platform 102, of what constitutes the “edge"
+for purposes of a given application. For example, for envi-
+ronments where data connections are slow or unreliable
+(such as where a facility does not have good access to
+cellular networks (such as due to remoteness of some
+environments (such as in geographies with poor cellular
+network infrastructure), shielding or interference (such as
+where density of network-using systems, thick metals hulls
+of container ships, thick metal container walls, underwater
+or underground location, or presence of large metal objects
+(such as vaults, hulls, containers and the like) interferes with
+networking performance), and/or congestion (such as where

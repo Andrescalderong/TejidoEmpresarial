@@ -1,0 +1,135 @@
+video or still images from a camera or other that displays 30 performance of human capabilities.
+[col 1]
+US 12,277,524 B2
+services, interfaces and other elements for development and
+deployment of automation capabilities for various value
+chain entities 652, environments, and applications 630.
+Without limitation, robotic process automation 1442 may be
+applied to each of the processes that are managed, con-
+trolled, or mediated by each of the set of applications 630 of
+the platform application layer, to functions, components,
+workflows, processes of the VCNP 604 itself, to processes
+involving value chain network entities 652 and other pro-
+cesses.
+In embodiments, robotic process automation 1442 may
+take advantage of the presence of multiple applications 630
+within the value chain management platform layer 604, such
+that a pair of applications may share data sources (such as in
+the data storage layer 624) and other inputs (such as from the 15
+monitoring layer 614) that are collected with respect to value
+chain entities 652, as well as sharing outputs, events, state
+information and outputs, which collectively may provide a
+much richer environment for process automation, including
+through use of artificial intelligence 1160 (including any of 20
+the various expert systems, artificial intelligence systems,
+neural networks, supervised learning systems, machine
+learning systems, deep learning systems, and other systems
+described throughout this disclosure and in the documents
+incorporated by reference). For example, an asset manage-
+ment application 814 may use robotic process automation
+1442 for automation of an asset inspection process that is
+normally performed or supervised by a human (such as by
+images of an entity 652, such as where the robotic process
+automation 1442 system is trained to automate the inspec-
+tion by observing interactions of a set of human inspectors
+or supervisors with an interface that is used to identify
+diagnose, measure, parameterize, or otherwise characterize 35 
+possible defects or favorable characteristics of a facility or
+other asset. In embodiments, interactions of the human
+inspectors or supervisors may include a labeled data set
+where labels or tags indicate types of defects, favorable
+properties,or othercharacteristics,such that amachine 40
+learning system can learn, using the training data set, to
+identify the same characteristics, which in turn can be used
+to automate the inspection process such that defects or
+favorable properties are automatically classified and
+be used within the value chain network asset management
+application 814 to flag items that require further inspection,
+that should be rejected, that should be disclosed to a pro-
+spective buyer, that should be remediated, or the like. In
+embodiments,roboticprocess automation1442mayinvolve 50
+multi-application or cross-application sharing of inputs, data
+structures, data sources, events, states, outputs or outcomes.
+For example, the asset management application 814 may
+receive information from a marketplace application 854 that
+may enrich the robotic process automation 1442 of the asset 55
+management application 814, such as information about the
+current characteristics of an item from a particular vendor in
+the supply chain for an asset, which may assist in populating
+the characteristics about the asset for purposes of facilitating
+an inspection process, a negotiation process, a delivery 60
+process, or the like. These and many other examples of
+multi-application or cross-application sharing for robotic
+process automation 1442 across the applications 630 are
+encompassed by the present disclosure. Robotic process
+automation 1442 may be used with various functionality of 65
+the VCNP 604. For example, in some embodiments, robotic
+process automation 1442 may be described as training a
+[col 2]
+100
+robot to operate and automate a task that was, to at least a
+large extent, governed by a human. One of these tasks may
+be used to train a robot that may train other robots. The
+robotic process automation 1442 may be trained (e.g..
+through machine learning) to mimic interactions on a train-
+ing set, and then have this trained robotic process automa-
+tion 1442 (e.g. trained agent or trained robotic process
+automation system) execute these tasks that were previously
+performed by people. For example, the robotic process
+10 automation 1442 may utilize sofiware that may provide
+software interaction observations (such as mouse move-
+ments, mouse clicks, cursor movements, navigation actions,
+menu selections, keyboard typing, and many others), such as
+logged and/or tracked by software interaction observation
+system 1500, purchase of the product by a customer 714, and
+the like. This may include monitoring of a user's mouse
+clicks, mouse movements, and/or keyboard typing to learn
+to do the same clicks and/or typing. In another example, the
+robotic process automation 1442 may utilize software to
+learn physical interactions with robots and other systems to
+train a robotic system to sequence or undertake the same
+physical interactions. For example, the robot may be trained
+to rebuild a set of bearings by having the robot watch a video
+of someone doing this task. This may include tracking
+physical interactions and tracking interactions at a software
+level. The robotic process automation 1442 may understand
+what the underlying competencies are that are being
+deployed such that the VCNP 604 preconfigure combina-
+tions of neural networks that may be used to replicate
+In embodiments, robotic process automation may be
+applied to shared or converged processes among the various
+pairs of the applications 630 of the application layer 604,
+such as, without limitation, of a converged process involving
+a security application 834 and an inventory application 820,
+integrated automation of blockchain-based applications 844
+with vendor management applications 832, and many others.
+In embodiments, converged processes may include shared
+data structures for multiple applications 630 (including ones
+that track the same transactions on a blockchain but may
+consume different subsets of available attributes of the data
+objects maintained in the blockchain or ones that use a set
+of nodes and links in a common knowledge graph). For
+example, a transaction indicating a change of ownership of
+an entity 652 may be stored in a blockchain and used by
+multiple applications 630, such as to enable role-based
+access control, role-based permissions for remote control,
+identity-based event reporting, and the like. In embodi-
+ments, converged processes may include shared process
+flows across applications 630, including subsets of larger
+flows that are involved in one or more of a set of applications
+630. For example, a risk management or inspection flow
+about an entity 652 may serve an inventory management
+application 832, an asset management application 814, a
+demand management application 824, and a supply chain
+application 812, among others.
+In embodiments, robotic process automation 1442 may be
+provided for the wide range of value chain network pro-
+cesses mentioned throughout this disclosure and the docu-
+ments incorporated herein by reference, including without
+limitation all of the applications 630. An environment for
+development of robotic process automation for value chain
+networks may include a set of interfaces for developers in
+which a developer may configure an artificial intelligence
+system 1160 to take inputs from selected data sources of the
+VCN data storage layer 624 and event data 1034, state data
+1140 or other value chain network data objects 1004 from

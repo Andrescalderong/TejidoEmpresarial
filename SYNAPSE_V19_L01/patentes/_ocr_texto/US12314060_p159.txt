@@ -1,0 +1,47 @@
+[col 1]
+U.S. Patent
+May 27, 2025
+Edge Storage
+20122A
+20500
+Edge Device
+20120A
+Primary Key.as. Shard Algorithm Parameter
+FIG. 170A
+Aggregator
+20140
+PRIMARY
+INCREMENT
+description NVARCHAR (max).
+Query 20502
+AUTO.. ARRRP
+BIGINT
+"INI
+TABLE
+user...id
+CREATE
+[col 2]
+US 12,314,060 B2 Sheet 155 of 178
+Edge Storage Edge Storage
+20122A 201228
+20550
+Edge Device Edge Device
+20120B 20120A
+Non-Unigue Shard
+Edge Algorithm
+FIG. 170B
+Aggregator
+20140
+edge..device..id)
+t$
+(event...id,
++20552
+AUTO..
+event.details..id
+Query ?
+ALGORITHM events edge..device..id BIGINT
+FRIMARY KEY
+TIMESTAMP,
+id
+event.. SHARD
+CREATE

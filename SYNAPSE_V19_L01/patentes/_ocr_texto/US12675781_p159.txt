@@ -1,0 +1,137 @@
+available for immediate routing within the value chain 55 such as through the methods of semi-sentient problem
+[col 1]
+US 12,675,781 B2
+67
+In embodiments, the artificial intelligence system 1160
+may use machine learning to develop an understanding of
+networks within the selected value chain network 3104, such
+as network topology, network loading, network reliability,
+network latency and the like. This understanding may be
+combined with, for example, detected or anticipated network
+conditions to form an information routing recommendation.
+Aspects such as existence of edge intelligence in a value
+chain network 3104 can influence one or more information
+routing recommendations. In an example, a type of infor- 1o t
+mation may be incompatible with a network type; however
+the network may be configured with edge intelligence that
+can be leveraged by the artificial intelligence system 1160 to
+adapt the form of the information being routed so that it is
+compatible with a targeted network type. This is also an 15
+example of more general consideration for information
+routing recommendationnetwork resources (e.g., pres-
+ence, availability, and capability), such as edge computing.
+ server access, network-based storage resources and the like.
+Likewise, value chain network entities may impact infor- 20
+mation routing recommendations. In embodiments, an infor-
+mation routing recommendation may avoid routing infor-
+mation that is confidential to a first supplier in the value
+chain through network nodes controlled by competitors of
+the supplier. In embodiments, an information routing rec- 25
+ommendation may include routing information to a first
+node where it is partially consumed and partially processed
+for further routing, such as by splitting up the portion
+partially processed for further routing into destination-spe-
+cific information sets.
+30
+In embodiments, an artificial intelligence system 1160
+may provide an information routing recommendation based
+on goals, such as goals of a value chain network, goals of
+information routing, and the like. Goal-based information
+routing recommendations may include routinggoals, suchas 35
+Quality of Service routing goals, routing reliability goals
+(which may be measured based on a transmission failure rate
+and the like). Other goals may include a measure of latency
+associated with one or more candidate routes. An informa-
+tionroutingrecommendationmaybebasedontheavail-4o
+ability of information in a selected value chain network,
+such as when information is available and when it needs to
+be delivered. For information that is available well ahead of
+when it is needed (e.g., a nightly production report that is
+available for routing at 2 AM is first needed by 7 AM), 451
+routing recommendations may include using resources that
+are lower cost, may involve short delays in routing and the
+like. For information that is available just before it is needed
+(e.g., a result of product testing is needed within a few
+hundred milliseconds of when the test is finished to maintain 50t
+a production operation rate, and the like).
+An information routing recommendation may be formed
+by the artificial intelligence system 1160 based on informa-
+tion persistence factors, such as how long information is
+network. An information routing recommendation that fac-
+tors information persistence may select network resources
+based on availability, cost and the like during a time of
+information persistence.
+Information value and an impact on information value 60 t
+may factor into an information routing recommendation. As
+an example, information that is valid for a single shipment
+value once the shipment has been satisfactorily received. In
+such an example, an information routing recommendation 65
+may indicate routing the relevant information to all of the
+highest priority consumers of the information while it is still
+[col 2]
+valid. Likewise, routing of information that is consumed by
+more than one value chain entity may need to be coordinated
+so that each value chain entity receives the information at a
+desired time/moment, such as during the same production
+shift, at their start of day, which may be different if the
+entities are in different time zones, and the like.
+In embodiments, information routing recommendations
+may be based on a topology of a value chain, based on
+location and availability of network storage resources, and
+the like.
+In embodiments, one or more information routing recom-
+mendations may be adapted while the information is routed
+based on, for example, changes in network resource avail-
+ability, network resource discovery, network dynamic load-
+ing, priority of recommendations that are generated after
+information for a first recommendation is in-route, and the
+like.
+Referring to FIG. 20, a management platform of an
+information technology system, such as a management
+platform for a value chain of goods and/or services is
+depicted as a block diagram of functional elements and
+representative interconnections for semi-sentient problem
+recognitions of pain points in a value chain network. The
+management platform includes a set of value chain network
+entities 3152 from which entity-related data 3160 is col-
+lected and includes outcomes, parameters, activity informa-
+tion and the like associated with the entities. Within the set
+of value chain network entities 3152 is selected a set of
+select value chain network entities 3154 for which at least
+one pain point problem state 3172 is detected.An artificial
+intelligence system 1160 may be training on a training set
+derived from the entity-related data 3160 including training
+on outcomes associated with value chain entities, parameters
+associated with, for example, operation of the value chain
+value chain activity information and the like. The artificial
+intelligence system may further employ machine learning to
+facilitate learning problem state factors 3180 that may
+characterize problem states input as training data. These
+factors 3180 may further be used by an instance of artificial
+intelligence system 1160' that operates on computing
+resources 3170 that are local to value chain network entities
+that are experiencing the problem/result of a pain point. A
+goal of such a configuration of artificial intelligence sys-
+tems, data sets, and value chain networks is to recognize a
+problem state in a portion of the selected value chain.
+In embodiments, recognizing problem states may be
+based on variance analysis, such as variances that occur in
+value chain measures (e.g., loading, latency, delivery time,
+cost, and the like), particularly in a specific measure over
+time. Variances that exceed a variance threshold (e.g., an
+optionally dynamic range of results of a value chain opera-
+tion, such as production, shipping, clearing customs, and the
+like)may be indicative of a pain point.
+In addition to detecting problem states, the platform 102,
+recognition, predict a pain point based at least in part on a
+correlation with a detected problem state. The correlation
+may be derived from the value chain, such as a shipper
+cannot deliver international goods until they are processed
+through customs, or a sales forecast cannot be provided with
+a high degree of confidence without high quality field data
+and the like. In embodiments, a predicted pain point may be
+a point of value chain activity further along a supply chain,
+an activity that occurs in a related activity (e.g., tax planning
+is related to tax laws), and the like. A predicted pain point
+may be assigned a risk value based on aspects of the detected
+problem state and correlations between the predicted pain

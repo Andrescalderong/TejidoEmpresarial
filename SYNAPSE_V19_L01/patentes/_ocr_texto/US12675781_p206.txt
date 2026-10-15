@@ -1,0 +1,137 @@
+development environment may be configured to take outputs 20 one or more models 6120 that are utilized by the artificial
+[col 1]
+US 12,675,781 B2
+161
+monitoring layer 614) that are collected with respect to value
+chain entities 652, as well sharing outputs, events, state
+information and outputs, which collectively may provide a
+much richer environment for enriching content in a compo-
+nent digital twin 6002, including through use of artificial
+intelligence system 1160 (including any of the various
+expert systems, artificial intelligence systems, neural net-
+works, supervised learning systems, machine learning sys-
+tems, deep learning systems, and other systems described
+throughout this disclosure and in the documents incorpo- 10
+rated by reference) and through use of content collected by
+the monitoring layer 614 and data collection systems 640.
+An environment for development of a component digital
+twin 6002 may include a set of interfaces for developers in
+which a developer may configure an artificial intelligence 15
+ system 1160 to take inputs from selected data sources of the
+data storage layer 624 and events or other data from the
+monitoring systems layer 614 and supply them for inclusion
+in a component digital twin 6002. A component digital twin
+and outcomes from various applications 630. In embodi-
+ments, a component digital twin 6002 may be provided for
+the wide range of value chain network applications 630
+mentioned throughout this disclosure and the documents
+incorporated herein by reference. In embodiments, a digital
+twin 650 may be generated from other digital twins 1700.
+For example, a product digital twin 1780 may be used to
+generate component digital twins 6002. In another example,
+component digital twins 6002 may be used to generate
+product digital twins 1780. In embodiments, a digital twin 30
+1700 may be embedded in another digital twin 1700. For
+example, a component digital twin 6002 may be embedded
+in a product digital twin 1780 which may be embedded in an
+environment digital twin 6004.
+In embodiments, a simulation management system 6110 35 t
+may set up, provision, configure, and otherwise manage
+interactions and simulations between and among digital
+twins 1700 representing value chain entities 652.
+In embodiments, the adaptive intelligent systems layer
+614 is configured to execute simulations in a simulation 40
+management system 6110 using the component digital twins
+6002 and/or digital twins 1700 of other value chain network
+entities 652. For example, the adaptive intelligent systems
+layer 614 may adjust one or more features of an environment
+digital twin 6004as a set of component digital twins 6002 45
+are subjected to an environment. In embodiments, the adap-
+tive intelligent systems layer 614 may, for each set of
+features, execute a simulation based on the set of features
+and may collect the simulation outcome data resulting from
+the simulation. 50
+For example, in executing a simulation on a set of
+component digital twins 6002 representing components of
+value chain product 650 in an environment digital twin
+6004, the adaptive intelligent systems layer 614 can vary the
+properties of the environment digital twin 6110 and can 55
+execute simulations that generate outcomes. During the
+simulation, the adaptive intelligent systems layer 614 may
+vary the environment digital twin temperature, pressure,
+lighting, and/or any other properties of the environment
+digital twin 6004. In this example, an outcome can be a 60
+condition of the component digital twin 6002 after being
+subjected to a high temperature. The outcomes from simu-
+lations can be used to train machine learning models 6120.
+In embodiments, a machine learning system 6150 may
+receive training data 6170, outcome data 6160, simulation
+data 6140, and/or data from other types of external data
+sources 6150 (weather data, stock market data, sports event
+[col 2]
+162
+data, news event data, and the like). In embodiments, this
+data may be provided to the machine-learning system 6150
+via an API of the adaptive intelligent systems layer 614. In
+embodiments, the machine learning system 6150 may
+receive simulation data 6140 relating to a component digital
+twin 6002 simulation. In this example, the simulation data
+6140 may be the properties of the component digital twins
+6002 that were used to perform the simulation and the
+outcomes resulting therefrom.
+In embodiments, the machine learning system 6150 may
+train/reinforce machine leaning models 6120 using the
+received data to improve the models.
+FIG. 62 illustrates an example of a risk management
+system 6102 that interfaces with the adaptive intelligent
+systems layer 614. In example embodiments, the risk man-
+agement system 6102 may be configured to manage risk or
+liability with respect to a good or good component.
+In embodiments, the machine-learning system 6150 trains
+intelligence system 1160 to make classifications, predic-
+tions, and/or other decisions relating to risk management,
+including for products 650 and product components. In
+embodiments, may be equipment components. In example
+embodiments, a model 6120 is trained to mitigate risk and
+liability by detecting the condition of a set of components.
+The machine-learning system 6150 may train the models
+using n-tuples that include the features pertaining to com-
+ponents and one or more outcomes associated with the
+component condition. In this example, features for a com-
+ponent may include, but are not limited to, component
+material (plastic, glass, metal, or the like), component his-
+tory (manufacturing dates, usage history, repair history),
+component properties, component dimensions, component
+thermal properties, component price, component supplier,
+and/or other relevant features. In this example, outcomes
+may include whether the digital twin of the component 6002
+is in operating condition. In this example, one or more
+properties of the digital twins are varied for different simu-
+lationsandtheoutcomesof eachsimulation maybe
+recorded in a tuple with the proprieties. Other examples of
+training risk management models may include a model 6120
+that is trained to optimize product safety, a model that is
+trained to identify components with a high likelihood of
+causing an undesired event, and the like.
+In operation, the artificial intelligence system 1160 may
+use the above-discussed models 6120 to make risk manage-
+ment decisions on behalf of a risk management system 6102
+given one or more features relating to a task or event. For
+example, the artificial intelligence system 1160 may deter-
+mine the condition of a component. In this example, the risk
+management system 6102 may provide the features of the
+component to the artificial intelligence system 1160. These
+features may include component material, component his-
+tory, component dimensions, component cost, component
+thermal properties, component supplier, and the like. In
+embodiments, the artificial intelligence system 1160 may
+feed these features into one or more of the models discussed
+above to obtain one or more decisions. These decisions may
+include whether the component is in operating condition.
+In embodiments, the artificial intelligence system 1160
+may leverage the component digital twins 6002 to run
+simulations on the proposed decisions.
+The risk management system 6102 may then initiate a
+component resupply event using the decision(s) madeby the
+artificial intelligence system 1160. Furthermore, after the
+component resupply event, the outcomes of the event (e.g.

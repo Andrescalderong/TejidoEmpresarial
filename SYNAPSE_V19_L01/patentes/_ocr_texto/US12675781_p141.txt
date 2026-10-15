@@ -1,0 +1,137 @@
+FIG. 136 is a schematic illustrating an example job 1o ries of products, particularly smart home products like
+FIG. 139 is a schematic illustrating example configura- 20 zonTM EchoTM product controls a television, or where a
+[col 1]
+US 12,675,781 B2
+31
+FIG.133 is a schematic illustrating an example environ-
+ment of a fleet management platform according to some
+embodiments of the present disclosure.
+FIG. 134 is a schematic illustrating an example data flow
+of a job configuration system according to some embodi-
+ments of the present disclosure.
+FIG. 135 is a schematic illustrating an example data flow
+of a fleet operations system according to some embodiments
+of the present disclosure.
+parsing system and task definition system and an example
+data flow thereof according to some embodiments of the
+present disclosure.
+FIG. 137 is a schematic illustrating an example fleet
+configuration system and an example data flow thereof 15
+according to some embodiments of the present disclosure.
+FIG. 138 is a schematic illustrating an example workflow
+definition system and an example data flow thereof accord-
+ing to some embodiments of the present disclosure.
+tions of a multi-purpose robot and components thereof
+according to some embodiments of the present disclosure.
+FIG. 140 is a schematic illustrating an example architec-
+ture of the robot control system according to some embodi-
+ments of the present disclosure 25
+FIG. 141 is a schematic illustrating an example architec-
+ture of the robot control system 12150 that utilizes data from
+multiple sensors in the vision and sensing system according
+to some embodiments of the present disclosure.
+FIG.142 is a schematic illustrating an example vision and 30 
+sensing system of a robot according to some embodiments
+of the present disclosure.
+DETAILED DESCRIPTION
+35
+Over time, companies have increasingly used technology
+solutions to improve outcomes related to a traditional supply
+chain like the one depicted in FIG. 1, such as software
+systems for predicting and managing customer demand,
+RFID and asset tracking systems for tracking goods as they 40
+move through the supply chain, navigation and routing
+systems to improve the efficiency of route selection, and the
+like. However, some large trends have placed manufactur-
+ers, retailers and other businesses under increasing pressure
+to improve supply chain performance. First, online and 45 
+ecommerceoperators,inparticular AmazonTM havebecome
+the largest retail channels for many categories of goods and
+have introduced distribution and fulfillment centers 112
+throughout some geographies like the United States that
+house hundreds of thousands, and sometimes more, product 5o
+categories (SKUs), so that customers can receive items the
+day after they are ordered, and in some cases on the same
+day (and in some cases delivered to the door by a drone,
+robot, and/or autonomous vehicle. For retailers that do not
+have extensivegeographic distribution of fulfillment centers 55
+or warehouses, customer expectations for speed of delivery
+place increased pressure on supply chain efficiency and
+optimization. Accordingly, a need still exists for improved
+supply chain methods and systems.
+Second, agile manufacturing capabilities (such as using
+60
+3D printing and robotic assembly techniques, among oth-
+ers), customer profiling technologies, and online ratings and
+reviews have led to increased customer expectations for
+customization and personalization of products. Accordingly,
+in order to compete, manufacturers and retailers need 65
+improved methods and systems for understanding, predict-
+ing, and satisfying customer demand.
+[col 2]
+32
+Historically, supply chain management and demand plan-
+ning and management have been largely separate activities,
+unified primarily when demand is converted to an order,
+which is passed to the supply side for fulfillment in a supply
+chain. As expectations for speed and personalization
+increase, a need exists for methods and systems that can
+provide unified orchestration of supply and demand.
+In parallel with these other large trends has been the
+emergence of the Internet of Things, in which some catego-
+thermostats, lighting systems, and speakers, are increasingly
+enabled with onboard network connectivity and processing
+capability, often including a voice controlled intelligent
+agent like AlexaTM or SiriTM that allows device control and
+triggering of certain application features, such as playing
+music, or even ordering a product. In some cases, smart
+products 650 even initiate orders, such as printers that order
+refill cartridges. Intelligent products 650 are in some cases
+involved in a coordinated system, such as where an Ama-
+sensor-enabled thermostat or security camera connects to a
+mobile device, but most intelligent products are still
+involved in sets of largely isolated, application-specific
+interactions. As artificial intelligence capabilities increase,
+and as more and more computing and networking power is
+moved to network-enabled edge devices and systems that
+reside in supply environments 670, in demand environments
+672, and in all of the locations, systems, and facilities that
+populate the path of a product 650 from the loading dock of
+a manufacturer to the point of destination 612 of a customer
+662 or retailers 664, a need and opportunity exists for
+dramatically improved intelligence, control, and automation
+of all of the factors involved in demand and supply.
+Value Chain Networks
+Referring to FIG. 2, a block diagram is presented at 200
+showing components and interrelationships of systems and
+processes of a value chain network. In example embodi-
+ments, "value chain network," as used herein, refers to
+elements and interconnections of historically segregated
+demand management systems and processes and supply
+chain management systems and processes, enabled by the
+development and convergence of numerous diverse tech-
+nologies. In example embodiments a value chain control
+tower 260 (e.g., referred to herein in some cases as a “value
+chain network management platform", a "VCNP", or simply
+as“the system", or“the platform")may be connected to, in
+communication with, or otherwise operatively coupled with
+data processing facilities including, but not limited to, big
+data centers (e.g., big data processing 230) and related
+processing functionalities that receive data flow, data pools,
+data streams and/or other data configurations and transmis-
+sion modalities received from, for example, digital product
+networks 252, directly from customers (e.g., direct con-
+nected customer 250), or some other third party 220. Com-
+munications related to market orchestration activities and
+communications 210, analytics 232, or some other type of
+input may also be utilized by the value chain control tower
+for demand enhancement 262, synchronized planning 234,
+intelligent procurement 238, dynamic fulfillment 240 or
+some other smart operation informed by coordinated and
+adaptive intelligence, as described herein.
+Referring to FIG. 3, another block diagram is presented
+showing components and interrelationships of systems and
+processes of a value chain network and related uses cases,
+data handling,and associated entities.In example embodi-
+ments, the value chain control tower 360 may coordinate
+market orchestration activities 310 including, but not limited

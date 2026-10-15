@@ -1,0 +1,132 @@
+[col 1]
+US2022/0058569A1
+71
+there are many devices seeking access to limited networking
+facilities), edge computing capabilities can be defined and
+deployed to operate on the local area network of an envi-
+ronment, in peer-to-peer networks of devices, or on com-
+puting capabilities of local value chain entities 652. For
+example, in an environment with a limited set of computa-
+tional and/or networking resources, tasks may be intelli-
+gently load balanced based on a current context (e.g..
+network availability, latency, congestion, and the like) and,
+in an example, one type of data may be prioritized for
+processing, or one workflow prioritized over another work-
+flow, and the like. Where strong data connections are avail-
+able (such as where good backhaul facilities exist), edge
+computing capabilities can be disposed in the network, such
+as for caching frequently used data at locations that improve
+input/output performance, reduce latency, or the like. Thus,
+adaptive definition and specification of where edge comput-
+ing operations are enabled, under control of a developer or
+operator, or optionally determined automatically, such as by
+an expert system or automation system, such as based on
+detected network conditions for an environment, for a finan-
+cial entity 652, or for a network as a whole.
+[0567]In embodiments, edge intelligence 1420 enables
+adaptation of edge computation (including where computa-
+tion occurs within various available networking resources,
+how networking occurs (such as by protocol selection),
+where data storage occurs, and the like) that is multi-
+application aware, such as accounting for QoS, latency
+requirements, congestion, and cost as understood and pri-
+oritized based on awareness of the requirements, the priori-
+tization, and the value (including ROI, yield, and cost
+information, such as costs of failure) of edge computation
+capabilities across more than one application, including any
+combinations and subsets of the applications 630 described
+herein or in the documents incorporated herein by reference.
+[0568]Referring to FIG. 35, an embodiment of the plat-
+form 604 is provided. As with other embodiments, the
+platform 604 may employ a micro-services architecture with
+the various data handling layers 614, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes,workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+[0569] In embodiments, the platform 604 may include a
+unified set of adaptive edge computing and other edge
+intelligence systems 1420 that provide coordinated edge
+computation and other edge intelligence 1420 capabilities
+for a set of multiple applications 630 of various types, such
+as a set of supply chain management applications 1500,
+demand management applications 1502, intelligent product
+applications 1510 and enterprise resource management
+aplications 1520 that monitor and/or manage a value chain
+network and a set of value chain network entities 652. In
+embodiments, edge intelligence capabilities of the systems
+and methods described herein may include, but are not
+limited to, on-premise edge devices and resources, such as
+local area network resources, and network edge devices,
+[col 2]
+Feb.24,2022
+such as those deployed at the edge of a cellular network or
+within a peripheral data center, both of which may deploy
+edge intelligence, as described herein, to, for example, carry
+out intelligent processing tasks at these edge locations
+before transferring data or other matter, to the primary or
+core cellular network command or central data center.
+[0570]Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point of customer
+use; and a unified set of adaptive edge computing systems
+that provide coordinated edge computation for a set of
+applications of at least two types from among a set of
+demand management applications, a set of supply chain
+applications, a set of intelligent product applications and a
+set of enterprise resource management applications for a
+category of goods.
+[0571]  The adaptive edge computing and other edge intel-
+ligence systems 1420 may thus provide, in embodiments,
+intelligence for monitoring, managing, controlling, or oth-
+erwise handling a wide range of facilities, devices, systems,
+environments, and assets, such as supply chain infrastructure
+facilities 1560 and other value chain network entities 652
+that are involved as a product 650 travels from a point of
+origin through distribution and retail channels to an envi-
+ronment where it is used by a customer. This unification may
+provide a number of advantages, including improved moni-
+toring, improved remote control, improved autonomy,
+improved prediction, improved classification, improved
+visualization and insight, improved visibility, and others.
+These may include adaptive edge computing and other edge
+intelligence systems 1420 that are used in connection with
+demand factors 1540 and supply factors 1550, so that an
+application 630 may benefit from information collected by,
+processed by, or produced by the adaptive edge computing
+tions 630 of the platform 604, and a user can develop
+insights about connections among the factors and control
+one or both of them with coordinated intelligence. For
+example, coordinated intelligence may include, but is not
+limited to, analytics and processing for monitoring data
+streams, as described herein, for the purposes of classifica-
+tion, prediction or some other type of analytic modeling.
+Such coordinated intelligence methods and systems may be
+applied in an automated manner in which differing combi-
+nations of intelligence assets are applied. As an example,
+within an industrial environment the coordinated intelli-
+gence system may monitor signals coming from machinery
+deployed in the environment. The coordinated intelligence
+system may classify, predict or perform some other intelli-
+gent analytics, in combination, for the purpose of, for
+example, determining a state of a machine, such as a
+machine in a deteriorated state, in an at-risk state, or some
+other state. The determination of a state may cause a control
+system to alter a control regime, for example, slowing or
+shutting down a machine that is in a deteriorating state. In
+embodiments,the coordinated intelligence system may
+coordinate across multiple entities of a value chain, supply

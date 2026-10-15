@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+outlier data. Additionally or alternatively, the method further
+includes instructing, by the aggregator, another edge device
+to generate the summary data. Additionally or alternatively,
+the method further includes storing the summary data on a
+dynamic ledger maintained by the aggregator. In some of
+these embodiments, the dynamic ledger is a blockchain.
+In some embodiments, data for responding to the pre-
+dicted future query is a probability distribution model. In
+some of these embodiments, the method further includes
+generating the probability distribution model based on data 10
+stored at another edge device. In some of these embodi-
+ments, the method further includes storing the probability
+distribution model on a dynamic ledger maintained by the
+aggregator.
+in some embodiments, the future query is an EDQL query. 15
+In some embodiments, the data for responding to the future
+query comprises sensor data. In some embodiments, the
+distributed database comprises a mesh network of edge
+devices.
+In some embodiments, the predicted future query is a 20 
+distributed join query. In some of these embodiments, the
+data for responding to the predicted future query is a
+reference table.
+According to some embodiments of the present disclo-
+sure, a method for processing a query for data stored in a 25
+distributed database is disclosed. The method includes
+monitoring, by an edge device, one or more pending data
+requests stored on a dynamic ledger. The method further
+includes detecting, by the edge device, a pending data
+request comprising a query for data stored in the distributed
+database, wherein the query is a request for data stored at the
+edge device and for data stored at other edge devices. The
+method further includes executing, by the edge device, the
+query to find partial query results comprising the data stored
+at the edge device. The method further includes generating, 35
+by the edge device, summary data based on the partial query
+results. The method further includes causing, by the edge
+device, the summary data to be stored on the dynamic ledger.
+In some embodiments, the summary data comprises sta-
+tistical data. In some embodiments, the summary data 40
+includes outlier data. In some embodiments, the dynamic
+ledger is a blockchain.
+In some embodiments, causing the summary data to be
+stored on the dynamic ledger comprises transmitting the
+ summary data to an aggregator responsible for maintaining 45
+the dynamic ledger. In some of these embodiments, the
+aggregator is a biockchain node.
+In some embodiments, the method further includes gen-
+erating,based on the summary data, a probability distribu-
+tion model; and causing the probability distribution model to 50
+be stored on the dynamic ledger.
+In some embodiments, the query is an EDQL query. In
+some embodiments, the data stored in the distributed data-
+base comprises sensor data. In some embodiments,the
+distributed database comprises a mesh network of edge 55
+devices.
+According to some embodiments of the present disclo-
+sure, a method for processing a query for data stored in a
+distributed database is disclosed. The method includes
+receiving, at an edge device, the query for data stored in the 60
+distributed database from a query device, wherein the query
+comprises a distributed join referencing at least two tables,
+wherein the at least two tables are distributed across a
+plurality of edge devices comprising the edge device. The
+method further includes obtaining, by the edge device, one 65
+or more distributed reference tables. The method further
+includes executing, by the edge device, using the one or
+[col 2]
+more distributed reference tables, the query to find partial
+query results comprising data stored at the edge device. The
+method further includes generating, by the edge device, an
+approximate response to the query using the partial query
+results.
+In some embodiments, the query is an EDQL query. In
+some embodiments, the query specifies a shard algorithm,
+wherein the shard algorithm specifies a location of data
+stored in the distributed database.
+In some embodiments, the distributed reference tables are
+stored on a dynamic ledger. In some of these embodiments,
+the dynamic ledger is a blockchain. Additionally or alterna-
+tively, the method further includes causing the query to be
+stored on the dynamic ledger by transmitting thequery to an
+aggregator.
+In some embodiments, generating the approximate
+response to the query using the partial query results further
+comprises: generating, using the partial query results a
+probability distribution model for data corresponding to the
+query; and generating, using the probability distribution
+model, the approximate response. In some of these embodi-
+ments, the probability distribution model is a neural net-
+work, wherein generating the probability distribution model
+comprises training the neural network.
+In some embodiments, the method further includes gen-
+erating a query plan based on the received query. In some of
+these embodiments, the query plan comprises transmitting
+the query to other edge devices, the method further com-
+prising transmitting the query to the other edge devices.
+Additionally or alternatively,the query plan comprises
+transmitting the query to an aggregator, the method further
+comprising transmitting the query to the aggregator.
+In some embodiments, the edge device is an edge device/
+aggregator.
+In some embodiments, the method further includes gen-
+erating summary data based on the partial query results. In
+some of these embodiments, the summary data comprises
+statistical data. Additionally or alternatively, the summary
+data includes outlier data. Additionally or alternatively, the
+data is sensor data.
+In some embodiments, the distributed database comprises
+a mesh network ofedge devices. In some embodiments, the
+distributed database comprises a fully connected network of
+edge devices. In some embodiments, the method further
+includes receiving an instruction, from an aggregator, to
+reproduce a subset of the data stored at the edge device to a
+second edge device; and transmitting the subset of the data
+to the second edge device. In some embodiments, the
+distributed join query is executed without network overhead.
+According to some embodiments of the present disclo-
+sure, a method for optimizing a distributed database is
+disclosed. The method includes receiving, at an aggregator,
+one or more query logs comprising past queries received by
+the distributed database. The method further includes deter-
+mining, by the aggregator, common queries received by one
+or more edge devices. The method further includes deter-
+mining, by the aggregator, that at least one edge device was
+not able to respond to a common query received by the at
+least one edge device. The method further includes causing,
+by the aggregator, data for responding to the common query
+to be transmitted to the at least one edge device.
+In some embodiments, the data for responding to the
+common query comprises data stored at another edge
+device. In some of these embodiments, the method further
+includes locating the data for responding to the common
+query using a sharding algorithm. in some of these embodi-
+ments, the sharding algorithm is a neural network algorithm.

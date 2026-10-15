@@ -1,0 +1,132 @@
+In embodiments, the local management system user inter- 25 a set of enterprise resource management applications 1520
+[col 1]
+US 12,277,524 B2
+137
+tems, geolocation systems, and others.
+In embodiments, the interface is a user interface for a
+command center dashboard by which an enterprise orches-
+trates a set of value chain entities related to a type of product.
+In embodiments, the interface is a user interface of a local
+management system located in an environment that hosts a
+set of value chain entities.
+In embodiments, the local management system user inter-
+10 face facilitates configuration of a set of network connections
+for the adaptive edge computing systems.
+In embodiments, the local management system user inter-
+face facilitates configuration of a set of data storage
+resources for the adaptive edge computing systems.
+15 In embodiments, the local management system user inter-
+face facilitates configuration of a set of data integration
+capabilities for the adaptive edge computing systems.
+In embodiments, the local management system user inter-
+face facilitates configuration of a set of machine learning 20
+input resources for the adaptive edge computing systems.
+In embodiments, the local management system user inter-
+face facilitates configuration of a set of power resources that
+ support the adaptive edge computing systems.
+face facilitates configuration of a set of workflows that are
+managed by the adaptive edge computing systems.
+In embodiments, the interface is a user interface of a
+mobile computing devicethathas anetwork connectionto
+30 the adaptive edge computing systems.
+In embodiments, the interface is an application program-
+ming interface.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a cloud-based artificial intelligence
+system.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a real-time operating system of a 40
+cloud data management platform.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a computational facility of a cloud
+ data management platform. 45
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a set of environmental sensors that
+collect data about an environment that hosts a set of value
+chain network entities.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a set of sensors that collect data
+about a product.
+In embodiments, the application programming interface 55 
+facilitates exchange of data between the adaptive edge
+computing systems and a set of sensors that collect data
+published by an intelligent product.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge 60
+computing systems and a set of sensors that collect data
+disposed in an environment that hosts a set of value chain
+network entities.
+In embodiments, the set of demand management appli- 65 :
+cations and enterprise resource management applications
+[col 2]
+138
+may include, for example, any ofthe applications mentioned
+throughout this disclosure or in the documents incorporated
+by reference herein.
+Unified Adaptive Intelligence
+Referring to FIG. 37, an embodiment of the platform 604
+is provided. As with other embodiments,the platform 604
+may employ a micro-services architecture with the various
+data handling layers 614, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+In embodiments, the VCNP 102 may include a unified set
+of adaptive intelligent systems 614 that provide coordinated
+intelligence for a set of various applications, such as demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+and a set of asset management applications 1530 for a
+category of goods.
+In embodiments, the unified set of adaptive intelligence
+systems include a wide variety of systems described
+throughout this disclosure and in the documents incorpo-
+rated herein by reference, such as, without limitation, the
+edge intelligence systems 1420, classification systems 1610,
+data processing systems 1612, signal processing systems
+1614, artificial intelligence systems 1160, prediction sys-
+tems 1620, configuration systems 1630, control systems
+1640, analytic systems 1650, testing/diagnostic systems
+1660, security systems 1670 and other systems, whether
+used for edge intelligence or for intelligence within a
+network, within an application, or in the cloud, as well as to
+serve various layers of theplatform 604.These include
+neural networks, deep learning systems, model-based sys-
+tems, expert systems, machine learning systems, rule-based
+systems, opportunity miners, robotic process automation
+systems, data transformation systems, data extraction sys-
+tems, data loading systems, genetic programming systems,
+image classification systems, video compression systems,
+analog-to-digital transformation systems, digital-to-analog
+transformation systems, signal analysis systems, RF filtering
+systems, motion prediction systems, object type recognition
+systems, point cloud processing systems, analog signal
+processing systems, signal multiplexing systems, data fusion
+systems, sensor fusion systems, data filtering systems, sta-
+tistical signal processing systems, signal filtering systems,
+signal processing systems, protocol selection systems, stor-
+ age configuration systems, power management systems,
+clustering systems, variation systems, machine learning sys-
+tems, event prediction systems, autonomous control sys-
+tems, robotic control systems, robotic process automation
+systems, data visualization systems, data normalization sys-
+tems, data cleansing systems, data deduplication systems,
+graph-based data storage systems, intelligent agent systems,
+object-oriented data storage systems, self-configuration sys-
+tems, self-healing systems, self-organizing systems, self-
+organizing map systems, cost-based routing systems, hand-
+shake negotiation systems, entity discovery systems,
+cybersecurity systems, biometric systems, natural language

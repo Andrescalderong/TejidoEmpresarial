@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0036274 A1
+36
+infrastructure, buildings, vehicles, and others); a logistics
+application 912 (such as for managing logistics for pickups,
+deliveries, transfer of goods onto hauling facilities, loading.
+unloading, packing: picking, shipping, driving, and other
+activities involving in the scheduling and management of the
+movement of products 650 and other items between points
+of origin and points of destination through various interme-
+diate iocations; a reverse logistic application 914 (such as
+for handling logistics for returned products 650, waste
+products, damaged goods, or other items that can be trans-
+ferred on a return logistics path); a waste reduction appli-
+cation 920 (such as for reducing packaging waste, solid
+waste, waste of energy, liquid waste, pollution, contami-
+nants, waste of computing resources, waste of human
+resources, or other waste involving a value chain network
+entity 652 or activity); an augmented reality, mixed reality
+and/or virtual reality application 930 (such as for visualizing
+one or more value chain network entities 652 or activities
+involved in one or more of the applications 630, such as,
+without limitation, movement of a product 650, the interior
+of a facility, the status or condition of an item of goods, one
+or more environmental conditions, a weather condition, a
+packing configuration for a container or a set of containers,
+or many others); a demand prediction application 940 (such
+as for predicting demand for a product 650, a category of
+products, a potential product, and/or a factor involved in
+demand, such as a market factor, a wealth factor, a demo-
+graphic factor, a weather factor, an economic factor, or the
+like); a demand aggregation application 942 (such as for
+aggregating information, orders and/or commitments (op-
+tionally embodied in one or more contracts, which may be
+smart contracts) for one or more products 650, categories, or
+the like, including current demand for existing products and
+future demand for products that are not yet available); a
+customer profiling application 944 (such as for profiling one
+or more demographic, psychographic, behavioral, eco-
+nomic, geographic, or other attributes of a set of customers,
+including based on historical purchasing data, loyalty pro-
+gram data, behavioral tracking data (including data captured
+in interactions by a customer with a smart product 650),
+online clickstream data, interactions with intelligent agents,
+cation 948 (such as for managing a supply chain of com-
+ponents for a set of products 650).
+[0355] Referring still to FIG. 10, the set of applications
+630 provided on the VCNP 604, integrated with the VCNP
+604 and/or managed by or for the VCNP 604 and/or involv-
+ing a set of value chain network entities 652 may further
+include, without limitation: a policy management applica-
+tion 868 (such as for deploying one or more policies, rules,
+or the like for governance of one or more value chain
+network entities 652 or applications 630, such as to govern
+execution of one or more workflows (which may involve
+configuring polices in the platform 604 on a per-workflow
+basis), to govern compliance with regulations (including
+maritime, food & drug, medical, environmental, health,
+safety, tax, financial reporting, commercial, and other regu-
+lations as described throughout this disclosure or as would
+be understood in the art). to govern provisioning of
+resources (such as connectivity, computing, human, energy,
+and other resources), to govern compliance with corporate
+policies, to govern compliance with contracts (including
+smart contracts, wherein the platform 604 may automati-
+cally deploy governance features to relevant entities 652 and
+[col 2]
+Feb.3,2022
+applications 630, such as via connectivity facilities 642), to
+govern interactions with other entities (such as involving
+policies for sharing of information and access to resources),
+to govern data access (including privacy data, operational
+data, status data, and many other data types), to govern
+security access to infrastructure, products, equipment, loca-
+tions, or the like, and many others; a product configuration
+application 870 (such as for allowing a product manager
+and/or automated product configuration process (optionally
+using robotic process automation) to determine a configu-
+ration for a product 650, including configuration on-the-fly,
+such as during agile manufacturing, or involving configu-
+ration or customization in route (such as by 3D printing one
+ormore features or elements), or involving configuration or
+customization remotely, such as by downloading firmware,
+configuring field programmable gate arrays, installing soft-
+ware, or the like; a warehousing and fulfillment application
+872 (such as for managing a warehouse, distribution center,
+fulfiliment center, or the like, such as involving selection of
+products, configuring storage locations for products, deter-
+mining routes by which personnel, mobile robots, and the
+like move products around a facility, determining picking
+and packing schedules, routes and workflows, managing
+operations of robots, drones, conveyors, and other facilities,
+determining schedules for moving products out to loading
+docks or the like, and many other functions); a kit configu-
+ration and deployment application 874 (such as for enabling
+a user of the VCNP to configure a kit, box, or otherwise
+pre-integrated, pre-provisioned, and/or pre-configured sys-
+tem to allow a customer or worker to rapidly deploy a subset
+of capabilities of the VCNP 604 for a specific value chain
+network entity 652 and/or application 630); and/or a product
+testing application 878 for testing a product 650 (including
+testing for performance, activation of capabilities and fea-
+tures, safety, compliance with policy or regulations, quality,
+quality of service, likelihood of failure, and many other
+factors).
+[0356] Referring still to FIG. 10, the set of applications
+630 provided on the VCNP 604, integrated with the VCNP
+604 and/or managed by or for the VCNP 604 and/or involv-
+ing a set of value chain network entities 652 may further
+include, without limitation a maritime fleet management
+application 880 (for managing a set of maritime assets, such
+as container ships, barges, boats, and the like, as well as
+related infrastructure facilities such as docks, cranes, ports,
+and others, such as to determine optimal routes for fleet
+assets based on weather, market, traffic, and other condi-
+tions, to ensure compliance with policies and regulations, to
+ensure safety, to improve environmentalfactors, to improve
+financial metrics, and many others); a shipping management
+application 882 (such as for managing a set of shipping
+assets, such as trucks, trains, airplanes, and the like, such as
+to optimize financial yield, to improve safety, to reduce
+energy consumption, to reduce delays, to mitigate environ-
+matching application 884 (such as for matching one or more
+demand factors with one or more supply factors, for match-
+ing needs and capabilities of value chain network entities
+652, for identifying reverse logistics opportunities, for iden-
+tifying opportunities for inputs to enrich analytics, artificial
+intelligence and/or automation, for identifying cost-saving
+opportunities, for identifying profit and/or arbitrage oppor-
+tunities, and many others); a workforce management appli-
+cation 888 (such as for managing workers in various work

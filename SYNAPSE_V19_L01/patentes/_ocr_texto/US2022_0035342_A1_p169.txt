@@ -1,0 +1,130 @@
+[col 1]
+US2022/0035342A1
+86
+any of the types described throughout this disclosure and in
+the documents incorporated by reference herein.
+[0713] In embodiments, the set of Internet of Things
+resources may be of a wide variety of types such as, without
+limitation, camera systems, lighting systems, motion sensing
+systems, weighing systems, inspection systems, machine
+vision systems, environmental sensor systems, onboard sen-
+sor systems, onboard diagnostic systems, environmental
+control systems, sensor-enabled network switching and rout-
+ing systems, RF sensing systems, magnetic sensing systems,
+pressure monitoring systems, vibration monitoring systems,
+temperature monitoring systems, heat flow monitoring sys-
+tems, biological measurement systems, chemical measure-
+ment systems, ultrasonic monitoring systems, radiography
+systems, LIDAR-based monitoring systems, access control
+systems, penetrating wave sensing systems, SONAR-based
+monitoring systems, radar-based monitoring systems, com-
+puted tomography systems, magnetic resonance imaging
+systems, network monitoring systems, or others.
+[0714] In embodiments, the set of Internet of Things
+resources includes a set of camera systems. In embodiments,
+the set of Internet of Things resources includes a set of
+lighting systems. In embodiments, the set of Internet of
+Things resources includes a set of machine vision systems.
+In embodiments, the set of Internet of Things resources
+includes a set of motion sensing systems.
+[0715] In embodiments, the set of Internet of Things
+resources includes a set of weighing systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of inspection systems. In embodiments, the set of Internet of
+Things resources includes a set of environmental sensor
+systems. In embodiments, the set of Internet of Things
+resources includes a set of onboard sensor systems.
+[0716] In embodiments, the set of Internet of Things
+resources includes a set of onboard diagnostic systems. In
+embodiments, the set of Internet of Things resources
+includes a set of environmental control systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of sensor-enabled network switching and routing systems. In
+embodiments, the set of Internet of Things resources
+includes a set of RF sensing systems. In embodiments, the
+set of Internet of Things resources includes a set of magnetic
+sensing systems.
+[0717] In embodiments, the set of Internet of Things
+resources includes a set of pressure monitoring systems. In
+embodiments, the set of Internet of Things resources
+includes a set of vibration monitoring systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of temperature monitoring systems. In embodiments, the set
+of Internet of Things resources includes a set of heat flow
+monitoring systems. In embodiments, the set of Internet of
+Things resources includes a set of biological measurement
+systems.
+[0718] In embodiments, the set of Internet of Things
+resources includes a set of chemical measurement systems.
+In embodiments, the set of Internet of Things resources
+includes a set of ultrasonic monitoring systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of radiography systems. In embodiments, the set of Internet
+of Things resources includes a set of LIDAR-based moni-
+toring systems. In embodiments, the set of Internet ofThings
+resources includes a set of access control systems.
+[0719] In embodiments, the set of Internet of Things
+resources includes a set of penetrating wave sensing sys-
+[col 2]
+Feb.3,2022
+tems. In embodiments, the set of Internet of Things
+resources includes a set of SONAR-based monitoring sys-
+tems. In embodiments, the set of Internet of Things
+resources includes a set of radar-based monitoring systems.
+In embodiments, the set of Internet of Things resources
+includes a set of computed tomography systems. In embodi-
+ments, the set of Internet of Things resources includes a set
+of magnetic resonance imaging systems. In embodiments,
+the set of Internet of Things resources includes a set of
+network monitoring systems.
+Social Data Collection Architecture
+[0720] Referring to FIG. 17, an embodiment of the plat-
+form 604 is provided. As with other embodiments, the
+platform 604 may employ a micro-services architecture with
+the various data handling layers 614, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+[0721]Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point of customer
+use; and a set of microservices layers including an applica-
+tion layer supporting at least one supply chain application
+and at least one demand management application, wherein
+the microservice layers include a data collection layer that
+collects information from a set of social network sources
+that provide information with respect to supply chain entities
+and demand management entities.
+[0722]In embodiments, the VCNP 604may further
+include a set of microservices layers that include a data
+collection layer (e.g., monitoring systems and data collec-
+tion systems layer 614)with a social data collection facility
+1760 that collects information from a set of social network
+resources MPVC1708 that provide information with respect
+to supply chain entities and demand management entities.
+The social network data collection facilities 1760 may
+support various applications among a set of demand man-
+agement applications 1502, a set of supply chain applica-
+tions 1500, a set of intelligent product applications 1510, a
+enterprise resource management applications 1520 for a
+category of goods. Social network data collection (using
+social network data collection facilities 1760) may be facili-
+tated by a social data collection configuration interface, such
+as for configuring queries, identifying social data sources of
+relevance, configuring APIs for data collection, routing data
+to appropriate applications 630, and the like.

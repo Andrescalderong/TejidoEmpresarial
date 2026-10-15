@@ -1,0 +1,25 @@
+[col 1]
+U.S. Patent
+May 27, 2025
+20440A
+Execute Steps 406-408
+Generate model based on 20442A
+partial query response and/or
+summary data from other edge devices
+[col 2]
+US 12,314,060 B2 Sheet 152 of 178
+20430
+20432
+Receive query from query device
+20434
+Execute partial query against edge storage
+20436
+Generate model based on partial query response
+20438
+Statistical confidence sufficient?
+Generate query response 20440B
+based on generated model
+and/or partial query response
+20442B
+Transmit query response to query device
+FIG. 169B

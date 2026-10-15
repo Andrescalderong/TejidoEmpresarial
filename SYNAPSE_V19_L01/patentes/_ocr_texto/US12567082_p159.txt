@@ -1,0 +1,39 @@
+[col 1]
+U.S. Patent Mar. 3, 2026
+ 20600
+Edge Storage
+20122
+Matching the Shard Key
+Edge Device
+20120
+FIG. 171A
+WHERE
+FROM
+.read
+AND
+count (*)
+AND Query 20602B Query 20602A
+WHERE 42
+#42
+"PT" id
+Isensor.-read.id value, FROM
+ledge.node..id sensor..read sensor.read.
+edge...node....
+SELECT
+ISELECT
+[col 2]
+US 12,567,082 B2 Sheet 156 of 158
+20650
+Edge Storage
+20122
+ Secondary Index Matching l
+ No index Matching
+Edge Device
+20120 FIG. 171B
+WHERE
+FRoM sensor...read
+...read
+Query 20652B Query 20652A
+description like
+FROM
+value

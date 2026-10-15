@@ -1,0 +1,131 @@
+[col 1]
+US2022/0035342A1
+91
+all market indices, currency exchange changes, etc. The
+demand factors twin 1640 may simulate such scenarios by
+varying supply parameters and evaluate the impact of such
+stresses on the demand environments 672. The stress tests
+performed using the digital twins may help in testing and
+evaluating the resiliency of the value chain network both in
+cases of over-demand and under-demand.
+[0773]In embodiments, the platform may include a sys-
+tem for using a digital twin that represents a set of value
+chain entities in the supply chain to perform a set of stress
+tests on a set of workflows in the supply chain using the
+digital twin, wherein the stress tests represent impacts in the
+digital twin of varying a set of supply chain-relevant param-
+eters to levels that exceed normal operating levels. For
+example, the supply of a product in the value chain network
+may be affected by factors like weather, natural calamities,
+traffic congestion, regulatory changes including taxes and
+subsidies and border restrictions, etc. The supply factors
+twin 1650 may simulate such scenarios by varying supply
+parameters and evaluate the impact of such stresses on the
+supply environments 670. The stress tests performed using
+the digital twins may help in testing and evaluating the
+resiliency of the value chain network both in cases of
+over-supply and under-supply.
+[0774] Value Chain Incident Management (VCIM)
+[0775]  The platform 604 may deploy digital twins 1700 of
+value chain network entities 652 for automatically managing
+a set of incidents relating to a set of value chain network
+entities and activities. The incidents may include any events
+causing disruption to the value chain network like accidents,
+fires, explosions, labor strikes, increases in tariffs, changes
+in law, changes in market prices (e.g., of fuel, components,
+materials, or end products), changes in demand, activities of
+cartels, closures of borders or routes, and/or natural events
+and/or disasters (including storms, heat waves, winds, earth-
+quakes, floods, hurricanes, tsunamis, etc.), among many
+others.
+[0776] Also, the platform 604 may provide real-time visu-
+alization and analysis of mobility flows in the value chain
+network. This may help in quantifying risks, improving
+visibility and reacting to the disruptions in the value chain
+network. For exampie, real-time visualization of a utility
+flow for shipping activities using a digital twin may help in
+detecting the occurrence and location of an emergency
+involving a shipping system and deploying emergency ser-
+vices to the detected location.
+[0777]In embodiments, the platform may deploy digital
+twins 1700 of value chain network entities 652 for more
+accurate determination of accident fault. The platform may
+learn on a training set of accident outcomes, parameters, and
+data collected from the monitoring layer 614 and data
+sources of the data storage layer 624 to train artificial
+intelligence system 1160 using a set of digital twins 1700 of
+involved value chain network entities 652 to determine
+accident fault. For example, data from digital twins of two
+colliding vehicles may be compared with each other in
+addition to data from the drivers, witnesses and police
+reports to determine accident fault.
+[0778]  In embodiments, the platform may include a sys-
+tem for learning on a training set of vehicular event out-
+comes, parameters, and data collected from data sources
+related to a set of value chain network entities 652 to train
+artificial intelligence system 1160 to use a digital twins 1700
+of a selected set of value chain network entities 652 to detect
+[col 2]
+Feb.3,2022
+an incidence of fraud. For example, comparing vehicular
+event data from digital twins of vehicles to any insurance
+claims, contract claims, maritime claims on such vehicles
+may help in detecting any mismatch in the two.
+[0779] In embodiments, the platform may include a sys-
+tem for learning on a training set of vehicle outcomes,
+parameters, and data collected from data sources related to
+a set of value chain network entities 652 to train artificial
+intelligence system 1160 to use a digital twin 1700 of a
+selected set of value chain network entities 652 to detect
+value chain network entities 652. Consider an example
+where the digital twin of a vehicle shows an abnormal event
+like an accident but this event has not been reported by the
+driver of the vehicle. The unreported event may be added to
+the record of the vehicle and the driver by a lessor of the
+vehicle. Also, the lessor of the vehicle may charge the lessee
+for repairs or diminished value of the vehicle at lease-end
+and adjust residual value forecast for the same. Similarly, an
+insurer may add the unreported event to the record of the
+vehicle and the driver. The reporting may be as detailed as
+the exact nature, timing, location, fault, etc. of the accident
+or just the fact there was unreported accident. This infor-
+mation may then be used for calculating the insurance
+premium.
+[0780] Finally, in case there are multiple entities involved
+in the accident, the data may be triangulated with the digital
+twin of another entity for validation.
+Value Chain Predictive Maintenance (PMVC)
+[0781]Theplatform 604 may deploy digital twins 1700 of
+value chain network entities 652 to predict when a set of
+value chain network entities should receive maintenance.
+[0782] The digital twin may predict the anticipated wear
+and failure of components of a system by reviewing histori-
+cal and current operational data thereby reducing the risk of
+unplanned downtime and the need for scheduled mainte-
+nance. Instead of over-servicing or over-maintaining prod-
+ucts to avoid costly downtime, repairs or replacement, any
+product performance issues predicted by the digital twin
+may be addressed in a proactive or just-in-time manner.
+[0783] The digital twins 1700 may collect events or state
+data about value chain entities 652 from the monitoring
+layer 614 and historical or other data from selected data
+sources of the data storage layer 624. Predictive analytics
+powered by artificial intelligence system 1160 dissect the
+data, search for correlations, and formulate predictions about
+maintenance need and remaining useful life of a set of value
+chain entities 652.
+[0784] The platform 604 may include a system for learn-
+ing on a training set of outcomes, parameters, and data
+collected from data sources relating to a set of value chain
+network activities to train artificial intelligence 1160 (includ-
+ing any of the various expert systems, artificial intelligence
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the
+documents incorporated) for performing condition monitor-
+ing, anomaly detection, failure forecasting and predictive
+maintenance of a set of value chain entities 652.
+[0785]   In embodiments, the platform may include a sys-
+tem for learning on a training set of machine maintenance
+outcomes,parameters, and data collected from data sources
+relating to a set of machine activities to train an artificial

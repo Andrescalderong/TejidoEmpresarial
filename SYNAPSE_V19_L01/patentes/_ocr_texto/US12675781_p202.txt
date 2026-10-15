@@ -1,0 +1,136 @@
+In embodiments, the platform may include a system for 10 respective customer digital twins 1730 may be populated
+license, or otherwise use a category of goods and/or related 45 other capabilities) and other value-added services and capa-
+[col 1]
+US 12,675,781 B2
+153
+ing system to use a digital twin of a selected set of value
+chain entities to estimate the cost of repair of a damaged
+object.
+In embodiments, the platform may include a system for
+learning on a training set of infrastructure outcomes, param-
+eters, and data collected from data sources to train an
+artificial intelligence/machine learning system to predict
+deterioration of infrastructure using a digital twin of the
+infrastructure.
+learning on a training set of natural hazard outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to model natural hazard risks for a
+set of shipping infrastructure facilities using a digital twin of 15 1
+a city.
+In embodiments, the platform may include a system for
+learning on a training set of maintenance outcomes, param-
+eters, and data collected from data sources relating to a set
+of shipping activities to train an artificial intelligence/ma- 20
+chine learning system to monitor shipping infrastructure
+maintenance activities for a set of shipping infrastructure
+facilities using a digital twin of the set of facilities
+In embodiments, the platform may include a system for
+learning on a training set of maintenance outcomes, param- 25
+eters, and data collected from data sources relating to a set
+of shipping activities to train an artificial intelligence/ma-
+chine learning system to detect the occurrence and location
+of a maintenance issue using a digital twin of a set of
+shipping infrastructure facilities and having a system for 30 e
+automatically deploying maintenance services to the
+detected location.
+Referring to FIG. 57, the platform 604 may include,
+integrate, integrate with, manage, control, coordinate with,
+orotherwisehandlecustomerdigitaltwins5502and/or35
+customer profile digital twins 1730.
+Customer digital twins 5502 may represent evolving,
+continuously updated digital representations of value chain
+network customers 662. In embodiments, value chain net-
+workcustomers662includeconsumers,licensees,busi-40
+nesses, enterprises, value-added resellers and other resellers,
+distributors, retailers (including online retailers, mobile
+retailers, conventional brick and mortar retailers, pop-up
+ shops and the like), end users, and others who may purchase,
+services.
+Customer profile digital twins 1730, on the other hand,
+may represent one or more demographic (age, gender, race,
+marital status, number of children, occupation, annual
+income, education level, living status (homeowner, renter, 5o 
+and the like) psychographic, behavioral, economic, geo-
+graphic, physical (e.g., size, weight, health status, physi-
+ological state or condition, or the like) or other attributes of
+a set of customers. In embodiments, customer profile digital
+twins 1730 may be enterprise customer profile digital twins 55
+that represent attributes of a set of enterprise customers. In
+embodiments, a customer profiling application may be used
+to manage customer profiles 5504 based on historical pur-
+chasing data, loyalty program data, behavioral tracking data
+(including data captured in interactions by a customer with 60
+an intelligent product 650), online clickstream data, inter-
+actions with intelligent agents, and other data sources.
+Customers 662 can be depicted in a set of one or more
+customer digital twins 5502, such as by populating the
+customer digital twin 1730 with value chain network data 65
+objects 1004, such as event data 1034, state data 1140, or
+other data with respect to value chain network customers
+[col 2]
+154
+662. Likewise, customer profiles 5504 can be depicted in a
+set of one or more customer profile digital twins 1730, such
+as by populating the customer profile digital twins 1730 with
+value chain network data objects 1004, such as described
+throughout this disclosure.
+Customer digital twins 5502 and customer profile digital
+twins 1730 may allow for modeling, simulation, prediction,
+decision-making, classification, and the like.
+Where customers 662 are consumers, for example, the
+with identity data, account data, payment data, contact data,
+age data, gender data, race data, location data, demographic
+data, living status data, mood data, stress data, behavior data,
+personality data, interest data, preference data, style data,
+medical data, physiological data, phycological data, physical
+attribute data, education data, employment data, salary data,
+net worth data, family data, household data, relationship
+data, pet data, contact/connection data (such as mobile
+phone contacts, social media connections, and the like),
+transaction history data, political data, travel data, product
+interaction data, product feedback data, customer service
+interaction data (such as a communication with a chatbot, or
+atelephonecommunicationwithacustomerserviceagentat
+a call center), fitness data, sleep data, nutrition data, software
+program interaction observation data 1500 (e.g., by custom-
+ers interacting with various software interfaces of applica-
+tions 630 involving value chain entities 652) and physical
+process interaction observation data 1510 (e.g., by watching
+customers interacting with products or other value chain
+entities 652), and the like.
+In another example, where customers 662 are enterprises
+or businesses,the customer digital twin1730 may be popu-
+lated with identity data, account data, payment data, trans-
+action data, product feedback data, location data, revenue
+data, enterprise type data, product and/or service offering
+data, worker data (such as identity data, role data, and the
+like), and other enterprise-related attributes.
+Customer digital twins and customer profile digital twins
+1730 may include a set of components, processes, services,
+interfaces, and other elements for development and deploy-
+ment of digital twin capabilities for visualization of value
+chain network customers 662 and customer profiles 5504 as
+well as for coordinated intelligence (including artificial
+intelligence system 1160, edge intelligence, analytics and
+bilities that are enabled or facilitated with digital twins.
+In embodiments, the customer digital twins 5502 and
+customer profile digital twins 1730 may take advantage of
+the presence of multiple applications 630 within the value
+chain management platform 604, such that a pair of appli-
+cations may share data sources (such as in the data storage
+layer 624) and other inputs (such as from the monitoring
+layer 614) that are collected with respect to value chain
+entities 652, as well as sharing events, state information and
+outputs, which collectively may provide a much richer
+environment for enriching content in the digital twins,
+including through use of artificial intelligence system 1160
+(including any of the various expert systems, artificial intel-
+ligence systems, neural networks, supervised learning sys-
+tems, machine learning systems, deep learning systems, and
+other systems described throughout this disclosure and in the
+documents incorporated by reference) and through use of
+content collected by the monitoring layer 614 and data
+collection systems 640.
+An environment for development of the customer digital
+twin 5502 may include a set of interfaces for developers in

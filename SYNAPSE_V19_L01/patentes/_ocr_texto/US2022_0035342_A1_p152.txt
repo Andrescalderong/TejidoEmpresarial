@@ -1,0 +1,132 @@
+[col 1]
+US 2022/0035342 A1
+69
+Bayesian network may be a probabilistic graphical model
+configured to represent a set of random variables and
+conditional independence of the set of random variables.
+The Bayesian network may be configured to represent the
+random variables and conditional independence via a
+directed acyclic graph. The Bayesian network may include
+one or both ofa dynamic Bayesian network and an influence
+diagram.
+[0556] In some embodiments, the machine learning model
+3000 may be defined via supervised learning, i.e. one or
+more algorithms configured to build a mathematical model
+of a set of training data containing one or more inputs and
+desired outputs. The training data may consist of a set of
+training examples, each of the training examples having one
+or more inputs and desired outputs, i.e. a supervisory signal.
+Each of the training examples may be represented in the
+machine learning model 3000 by an array and/or a vector,
+i.e. a feature vector. The training data may be represented in
+the machine learning model 3000 by a matrix. The machine
+learning model 3000 may learn one or more functions via
+iterative optimization of an objective function, thereby
+learning to predict an output associated with new inputs.
+Once optimized, the objective function may provide the
+machine learning model 3000 with the ability to accurately
+determine an output for inputs other than inputs included in
+the training data. In some embodiments, the machine learn-
+ing model 3000 may be defined via one or more supervised
+learning algorithms such as active learning, statistical clas-
+sification, regression analysis, and similarity learning.
+Active learning may include interactively querying, by the
+machine learning model AILD102T, a user and/or an infor-
+mation source to label new data points with desired outputs.
+Statistical classification may include identifying, by the
+machine learning model 3000, to which a set of subcatego-
+ries, i.e. subpopulations, a new observation belongs based on
+a training set of data containing observations having known
+categories. Regression analysis may include estimating, by
+the machine learning model 3000 relationships between a
+dependent variable, i.e. an outcome variable, and one or
+more independent variables, i.e. predictors, covariates, and/
+or features. Similarity learning may include learning, by the
+machine learning model 3000, from examples using a simi-
+larity function, the similarity function being designed to
+measure how similar or related two objects are.
+[0557]  In some embodiments, the machine learning model
+3000 may be defined via unsupervised learning, i.e. one or
+more algorithms configured to build a mathematical model
+of a set of data containing only inputs by finding structure in
+the data such as grouping or clustering of data points. In
+some embodiments, the machine learning model 3000 may
+learn from test data, i.e. training data, that has not been
+labeled, classified, or categorized. The unsupervised learn-
+ing algorithm may include identifying, by the machine
+learning model 3000, commonalities in the training data and
+learning by reacting based on the presence or absence of the
+identified commonalities in new pieces of data. In some
+embodiments, the machine learning model 3000 may gen-
+erate one or more probability density functions. In some
+embodiments, the machine learning model 3000 may learn
+by performing cluster analysis, such as by assigning a set of
+observations into subsets, i.e. clusters, according to one or
+more predesignated criteria, such as according to a similarity
+metric of which internal compactness, separation, estimated
+density, and/or graph connectivity are factors.
+[col 2]
+Feb.3,2022
+[0558] In some embodiments, the machinelearning model
+3000 may be defined via semi-supervised learning, i.e. one
+or more algorithms using training data wherein some train-
+ing examples may be missing training labels. The semi-
+supervised learning may be weakly supervised learning.
+wherein the training labels may be noisy, limited, and/or
+imprecise. The noisy, limited, and/or imprecise training
+labels may be cheaper and/or less labor intensive to produce,
+thus allowing the machine learning model 3000 to train on
+a larger set of training data for less cost and/or labor.
+[0559] In some embodiments, the machine learning model
+3000 may be defined via reinforcement learning, such as one
+or more algorithms using dynamic programming techniques
+such that the machine learning model 3000 may train by
+taking actions in an environment in order to maximize a
+cumulative reward. In some embodiments, the training data
+is represented as a Markov Decision Process.
+[0560]  In some embodiments, the machine learning model
+3000 may be defined via self-learning, wherein the machine
+learning model 3000 is configured to train using training
+data with no external rewards and no external teaching, such
+as by employing a Crossbar Adaptive Array (CAA). The
+CAA may compute decisions about actions and/or emotions
+about consequence situations in a crossbar fashion, thereby
+driving teaching of the machine learning model 3000 by
+interactions between cognition and emotion.
+[0561]   In some embodiments, the machine learning model
+3000 may be defined via feature learning, i.e. one or more
+algorithms designed to discover increasingly accurate and/or
+apt representations of one or more inputs provided during
+training, e.g. training data. Feature learning may include
+training via principal component analysis and/or cluster
+analysis. Feature learning algorithms may include attempt-
+ing, by the machine learning model 3000, to preserve input
+training data while also transforming the input training data
+such that the transformed input training data is useful. In
+some embodiments, the machine learning model 3000 may
+be configured to transform the input training data prior to
+performing one or more classifications and/or predictions of
+the input training data. Thus, the machine learning model
+from one or more unknown data-generating distributions
+without necessarily conforming to implausible configura-
+tions of the input training data according to the distributions.
+In some embodiments, the feature learning algorithm may
+be performed by the machine learning model 3000 in a
+supervised, unsupervised, or semi-supervised manner.
+[0562] In some embodiments, the machine learning model
+3000 may be defined via anomaly detection, i.e. by identi-
+fying rare and/or outlier instances of one or more items,
+events and/or observations. The rare and/or outlier instances
+may be identified by the instances differing significantly
+from patterns and/or properties of a majority of the training
+data. Unsupervised anomaly detection may include detect-
+ing of anomalies, by the machine learning model 3000, in an
+unlabeled training data set under an assumption that a
+majority of the training data is “normal." Supervised
+anomaly detection may include training on a data set
+wherein at least a portion of the training data has been
+labeled as“"normal"and/or"abnormal."
+[0563]  In some embodiments, the machine learning model
+3000 may be defined via robot learning. Robot learning may
+include generation, by the machine learning model 3000, of
+one or more curricula, the curricula being sequences of

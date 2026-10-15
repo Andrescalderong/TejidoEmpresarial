@@ -1,0 +1,130 @@
+FIG. 158 is a schematic illustrating an example environ- 20 architecture for system facilitation and/or management.
+FIG. 165 is a block diagram showing a schematic of a 45 similar to that of FIGS. 175C and i75D for a value chain
+FIG. 169A-169B are process diagrams illustrating 60 and systems for management of value chain network enti-
+[col 1]
+US 12,314,060 B2
+FIG. 152 is a schematic illustrating an example environ-
+ment of a digital product network according to some
+embodiments of the present disclosure.
+FIG. 153 is a schematic illustrating an example environ-
+ment of a digital product network according to some
+embodiments of the present disclosure.
+FIG. 154 is a flow diagram illustrating a method of using
+product level data according to some embodiments of the
+disclosure.
+FIG. 155 is a schematic illustrating an example environ-
+ment of a digital product network according to some
+embodiments of the present disclosure.
+FIG. 156 is a schematic illustrating an example of a smart
+futures contract system according to some embodiments of
+the present disclosure.
+FIG. 157 is a schematic illustrating an example environ-
+ment of an edge networking system according to some
+embodiments of the present disclosure.
+ment of an edge networking system including a VCN bus
+according to some embodiments of the present disclosure.
+FIG. 159 a schematic illustrating an example environment
+of an edge networking system according to some embodi-
+ments of the present disclosure including a configured 25 FIGS. 175A and 175B.
+device EDNW system.
+FIG. 160 is a schematic view of an exemplary embodi-
+ment of the quantum computing service according to some
+embodiments of the present disclosure.
+FIG. 161 illustrates quantum computing service request  30
+handling according to some embodiments of the present
+disclosure.
+FIG. 162 is a diagrammatic view that illustrates embodi-
+ments of the biology-based value chain network system in
+accordance with the present disclosure.
+FIG. 163 is a diagrammatic view of the thalamus service
+and how it coordinates within the modules in accordance
+with the present disclosure.
+FIG. 164 is a block diagram showing an energy system 40
+that may communicate with similar systems, subsystems,
+components, and a value chain network management plat-
+form according to some embodiments of the present disclo-
+sure.
+dual-process artificial neural network system according to
+some embodiments of the present disclosure.
+FIG. 166A is a diagrammatic view that illustrates an
+example environment of the distributed database system in
+accordance with the present disclosure. 50
+FIG. 166B is a diagrammatic view that illustrates an
+example architecture of the distributed database system in
+accordance with the present disclosure.
+FIGS. 167A-167B are diagrammatic views that illustrate
+storage of data in the distributed database system in accor- 55
+dance with the present disclosure.
+FIGS.168A-168B are diagrammatic views that illustrate
+systems and modules for implementing the distributed data-
+base system in accordance with the present disclosure.
+example methods for responding to queries received by the
+distributed database system in accordance with the present
+disclosure.
+FIGS. 169C-169D are process diagrams illustrating
+example methods for optimizing a dynamic ledger main- 65
+tained by the distributed database system in accordance with
+the present disclosure.
+[col 2]
+42
+FIGS. 170A-170B are data flow diagrams that illustrate
+example data table creation queries being processed by the
+distributed database system in accordance with the present
+disclosure.
+FIGS. 171A-171B are data flow diagrams that illustrate
+example select queries being processed by the distributed
+database system in accordance with the present disclosure.
+FIGS. 172A-172C are data flow diagrams that illustrate
+the operation of example distributed join queries in the
+10 distributed database system in accordance with the present
+disclosure.
+FIG.173 is a schematic view of an example control tower
+dashboard for one or more VCN processes that may be used
+with one or more example implementations of the disclo-
+sure.
+FIG. 174 is an example flowchart of one or more VCN
+processes that may be used with one or more example
+implementations of the disclosure.
+FIG. 175A is a schematic view of an example control
+FIG. 175B is a schematic view of another example control
+architecture for system facilitation and/or management.
+FIG. 176A is a schematic view of an example manage-
+ment stack that includes a control architecture similar to
+FIG. 176B is a schematic view of an example manage-
+ment stack capable of implementing a control architecture
+similar to that of FIGS. 175A and 175B for a value chain
+network.
+FIG. 177A is a flow diagram of an example arrangement
+for a control architecture similar to that of FIGS. 175A and
+175B.
+FIG. 178 is an example flowchart of one or more VCN
+processes that may be used with one or more example
+implementations of the disclosure.
+FIG. 175C is a schematic view of an example control
+architecture for system facilitation and/or management.
+FIG. 175D is a schematic view of another example control
+architecture for system facilitation and/or management.
+FIG. 176C is a schematic view of an example manage-
+ment stack that includes a control architecture similar to
+FIGS. 175C and 175D.
+FIG. 176D is a schematic view of an example manage-
+ment stack capable of implementing a control architecture
+network.
+FIG. 177B is a flow diagram of an example arrangement
+for a control architecture similar to that of FIGS.175C and
+175D.
+FIGS. 179-185 are example flowcharts of one or more
+VCN processes that may be used with one or more example
+implementations of the disclosure.
+Like reference symbols in the various drawings indicate
+like elements
+DETAILED DESCRIPTION
+In example embodiments, systems and processes of this
+disclosure may include information technology processes
+ties, including supply chain and demand management enti-
+ties. In example embodiments, enterprise management plat-
+forms, more particularly involving an edge-distributed
+database and query language for storing and retrieving value
+chain data may also be used.
+Orders for products were fulfilled by manufacturers
+through a supply chain, such as depicted in FIG. 1, where

@@ -1,0 +1,136 @@
+futures contract based on the baseline cost, the futures cost, 15 favorable prices than the baseline cost indicates. In other
+A computerized method for autonomous futures contract 5o robotic agent that configures terms and conditions for the
+[col 1]
+US 12,567,082 B2
+An autonomous futures contract orchestration platform
+includes a set of one or more processors programmed with
+a set of non-transitory computer-readable instructions to
+collectively execute receiving, from a data source, an indi-
+cation associated with a product that relates to an entity that
+at least one of purchases or sells the product. They further
+execute predicting a baseline cost of at least one of purchas-
+ing or selling the product at a future point in time based on
+the indication. They further execute retrieving a futures cost,
+at a current point in time, of a futures contract for the 1o 
+product. They further execute generating a risk threshold
+based on a predefined risk tolerance of the entity indicating
+a difference between the baseline cost and the futures cost.
+They further execute executing a smart contract for the
+and the risk threshold.
+In other features, the set of one or more processors are
+further programmed to collectively execute generating the
+risk threshold based on at least one of hedging for or
+providing improved outcomes after adverse contingencies. 2o
+In other features, the set of one or more processors are
+further programmed to collectively execute generating the
+risk threshold based on at least one of: shortages in supply,
+supply chain disruptions, changes in demand, changes in
+prices of inputs, or changes in market prices as the adverse 25
+contingencies. In other features, the set of one or more
+processors are further programmed to collectively execute
+predicting the baseline cost based on providing operational
+efficiencies. In other features, the set of one or more pro-
+cessors are further programmed to collectively execute 3o r
+predicting the baseline cost based on at least one of insuring
+availability of items based on plans or insuring availability
+of items based on availability predictions as the operational
+efficiencies.
+In other features, the set of one or more processors are 35
+further programmed to collectively execute executing the
+smart contract based on improving returns. In other features,
+the set of one or more processors are further programmed to
+collectively execute executing the smart contract based on
+obtaininginputs at morefavorablepricesthan thebaseline 40
+cost indicates. In other features, the set of one or more
+processors are further programmed to collectively execute
+executing the smart contract that interacts with futures
+markets associated with the futures contract. In other fea-
+tures, the set of one or more processors are further pro- 45 f
+grammed to collectively execute executing the smart con-
+tract to engage with at least one of futures or options
+involving at least one of commodities, equities, currencies,
+or energy associated with the futures contract.
+orchestration includes receiving, from a data source, an
+indication associated with a set of items that areprovided at
+least one of by or within a value chain network. The method
+includes predicting a baseline cost associated with the set of
+items at a future point in time based on the indication. The 55
+method includes retrieving a futures cost, at a current point
+in time, of a futures contractassociated withthe set ofitems.
+The method includes generating a risk threshold based on a
+predefined risk tolerance of an entity of the value chain
+network, the risk threshold indicating a difference between 60
+the baseline cost and the futures cost. The method includes
+executing a smart contract for the futures contract based on
+the baseline cost, the futures cost, and the risk threshold.
+In other features, generating the risk threshold includes
+generating the risk threshold based on at least one of hedging 65
+for or providing improved outcomes after adverse contin-
+gencies. In other features, generating the risk threshold
+[col 2]
+30
+includes generating the risk threshold based on at least one
+of: shortages in supply, supply chain disruptions, changes in
+demand, changes in prices of inputs, or changes in market
+prices as the adverse contingencies. Predicting the baseline
+cost includes predicting the baseline cost based on providing
+operational efficiencies. In other features, predicting the
+baseline cost includes predicting the baseline cost based on
+at least one of insuring availability of items based on plans
+or insuring availability of items based on availability pre-
+dictions as the operational efficiencies.
+In other features, executing the smart contract includes
+executing the smart contract based on improving returns. In
+other features, executing the smart contract includes execut-
+ing the smart contract based on obtaining inputs at more
+features, executing the smart contract includes executing a
+smart contract that interacts with futures markets associated
+with the futures contract. In other features, executing the
+smart contract includes executing the smart contract to
+engage with at least one of futures or options involving at
+least one of commodities, equities, currencies, or energy
+associated with the futures contract.
+A system for managing future costs associated with a
+product includes a future requirement system programmed
+to estimate an amount of resources required for manufac-
+turing, distributing, and selling the product at a future point
+in time. The system includes an adverse contingency system
+configured to identify adverse contingencies and calculate
+changes in costs associated with obtaining the amount of
+resources at the future point in time. The system includes a
+smart contract system programmed to autonomously con-
+figure and execute a smart futures contract based on the
+amount of resources required and on the changes in costs to
+manage the future costs associated with the product.
+In other features, the smart contract system is further
+programmed to execute the smart futures contract based on
+at least one of hedging for or providing improved outcomes
+after the adverse contingencies. In other features, the
+adverse contingency system is further configured to estimate
+probabilities of at least one of: shortages in supply, supply
+chain disruptions, changes in demand, changes in prices of
+inputs, or changes in market prices as the adverse contin-
+gencies.
+In other features, the adverse contingency system is
+further configured to estimate probabilities of at least one of:
+macro-economic factors, geopolitical disruptions, disrup-
+tions due to weather or climate, epidemics, pandemics, or
+counterparty risks as the adverse contingencies. In other
+features, the smart contract system is programmed with a
+smart futures contract. In other features, the smart contract
+system is programmed to set prices, delivery times, and
+delivery locations required in order to provide a pre-deter-
+mined inventory of an item in response to the adverse
+contingencies. In other features, the smart contract system is
+programmed to configure at least one of parts, components,
+fuel, or materials required to provide a pre-determined
+inventory of an item as a set ofinputs with the robotic agent.
+In other features, the smart contract system is programmed
+to train the robotic agent on a training set of interactions of
+a set of expert procurement professionals with a set of
+inputs.
+In other features, the smart contract system is pro-
+grammed to train the robotic agent with at least one of
+demand forecasts, inventory forecasts, demand elasticity
+curves, predictions of competitive behavior, supply chain
+predictions as demand planning inputs of the set of inputs.

@@ -1,0 +1,133 @@
+[col 1]
+US2022/0035342A1
+65
+ratings, reviews, links to relevant content, and mechanisms
+for provisioning, licensing, delivery and payment (including
+allocation of payments to afiliates and or contributors),
+including ones that operate using smart contract and/or
+blockchain features to automate purchasing, licensing, pay-
+ment tracking, settlement of transactions, or other features.
+[0539] Referring to FIG. 43, the artificial intelligence
+system 1160 may define a machine learning model 3000 for
+performing analytics, simulation, decision making, and pre-
+diction making related to data processing, data analysis,
+simulation creation, and simulation analysis of one or more
+of the value chain entities 652. The machine learning model
+3000 is an algorithm and/or statistical model that performs
+specific tasks without using explicit instructions, relying
+instead on patterns and inference. The machine learning
+model 300o builds one or more mathematical models based
+on training data to make predictions and/or decisions with-
+out being explicitly programmed to perform the specific
+tasks. The machine learning model 3000 may receive inputs
+of sensor data as training data, including event data 1034 and
+state data 1140 related to one or more of the value chain
+entities 652. The sensor data input to the machine learning
+model 3000 may be used to train the machine learning model
+3000 to perform the analytics, simulation, decision making.
+and prediction making relating to the data processing, data
+analysis, simulation creation, and simulation analysis of the
+one or more of the value chain entities 652. The machine
+learning model 3000 may also use input data from a user or
+users of the information technology system. The machine
+learning model 3000 may include an artificial neural net-
+work, a decision tree, a support vector machine, a Bayesian
+network, a genetic algorithm, any other suitable form of
+machine learning model, or a combination thereof. The
+machine learning model 3000 may be configured to learn
+through supervised learning, unsupervised learning, rein-
+forcement learning, self learning, feature learning, sparse
+dictionary learning, anomaly detection, association rules, a
+combination thereof, or any other suitable algorithm for
+learning.
+[0540] The artificial intelligence system 1160 may also
+define the digital twin system 1700 to create a digital replica
+of one or more of the value chain entities 652. The digital
+replica of the one or more of the value chain entities 652 may
+use substantially real-time sensor data to provide for sub-
+stantially real-time virtual representation of the value chain
+entity652andprovides for simulation of oneor more
+possible future states of the one or more value chain entities
+652. The digital replica exists simultaneously with the one or
+more value chain entities 652 being replicated. The digital
+replica provides one or more simulations of both physical
+elements and properties of the one or more value chain
+entities 652 being replicated and the dynamics thereof, in
+embodiments, throughout the lifestyle of the one or more
+value chain entities 652 being replicated. The digital replica
+may provide a hypothetical simulation of the one or more
+value chain entities 652, for example during a design phase
+before the one or more value chain entities are constructed
+or fabricated, or during or after construction or fabrication of
+the one or more value chain entities by allowing for hypo-
+thetical extrapolation of sensor data to simulate a state of the
+one or more value chain entities 652, such as during high
+stress, after a period of time has passed during which
+component wear may be an issue, during maximum through-
+put operation, after one or more hypothetical or planned
+[col 2]
+Feb.3,2022
+improvements have been made to the one ormorevalue
+chain entities 652, or any other suitable hypothetical situa-
+tion. In some embodiments, the machine learning model
+3000 may automatically predict hypothetical situations for
+simulation with the digital replica, such as by predicting
+possible improvements to the one or more value chain
+entities 652, predicting when one or more components ofthe
+one or more value chain entities 652 may fail, and/or
+suggesting possible improvements to the one or more value
+chain entities 652, such as changes to timing settings,
+arrangement, components, or any other suitable change to
+the value chain entities 652. The digital replica allows for
+simulation of the one or more value chain entities 652 during
+both design and operation phases of the one or more value
+chain entities 652, as well as simulation of hypothetical
+operation conditions and configurations of the one or more
+value chain entities 652. The digital replica allows for
+invaluable analysis and simulation of the one or more value
+chain entities, by facilitating observation and measurement
+of nearly any type of metric, including temperature, wear,
+light, vibration, etc. not only in, on, and around each
+component of the one or more value chain entities 652, but
+in some embodiments within the one or more value chain
+entities 652. In some embodiments, the machine learning
+model 3000 may process the sensor data including the event
+data 1034 and the state data 1140 to define simulation data
+for use by the digital twin system 1700. The machine
+learning model 3000 may, for example, receive state data
+1140 and event data 1034 related to a particular value chain
+entity 652 of the plurality of value chain entities 652 and
+perform a series of operations on the state data 1140 and the
+event data 1034 to format the state data 1140 and the event
+data 1034 into a format suitable for use by the digital twin
+system 1700 in creation ofa digital replica of the value chain
+entity 652. For example, one or more value chain entities
+652 may include a robot configured to augment products on
+an adjacent assembly line. The machine learning model
+3000 may collect data from one or more sensors positioned
+on, near, in, and/or around the robot. The machine learning
+model 3000 may perform operations on the sensor data to
+process the sensor data into simulation data and output the
+simulation data to the digital twin system 1700. The digital
+twin simulation 1700 may use the simulation data to create
+one or more digital replicas of the robot, the simulation
+including for example metrics including temperature, wear,
+speed, rotation, and vibration of the robot and components
+thereof. The simulation may be a substantially real-time
+simulation, allowing for a human user of the information
+technology to view the simulation of the robot, metrics
+related thereto, and metrics related to components thereof, in
+substantially real time. The simulation may be a predictive
+or hypothetical situation, allowing for a human user of the
+information technology to view a predictive or hypothetical
+simulation of the robot, metrics related thereto, and metrics
+relatedto componentsthereof.
+[0541]  In some embodiments, the machine learning model
+3000 and the digital twin system 1700 may process sensor
+data and create a digital replica of a set of value chain
+entities of the plurality of value chain entities 652 to
+facilitate design, real-time simulation, predictive simulation,
+and/or hypothetical simulation of a related group of value
+chain entities. The digital replica of the set of value chain
+entities may use substantially real-time sensor data to pro-
+vide for substantially real-time virtual representation of the

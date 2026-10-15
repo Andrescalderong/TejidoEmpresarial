@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+goods, consumer products, food products, beverage prod-
+ucts, home products, business supply products, consumable
+products, pharmaceutical products, medical device products,
+technology products, entertainment products, or any other
+type of products and/or set of related services); value chain
+processes 722 (such as shipping processes, hauling pro-
+cesses, maritime processes, inspection processes, hauling
+processes, loading/unloading processes, packing/unpacking
+processes, configuration processes, assembly processes,
+installation processes, quality control processes, environ- 10o 
+mental control processes (e.g-, temperature control, humid-
+ity control, pressure control, vibration control, and others),
+border control processes, port-related processes, software
+processes (including applications, programs, services, and
+others), packing and loading processes, financial processes 15
+(e.g., insurance processes, reporting processes, transactional
+processes, and many others), testing and diagnostic pro-
+cesses, security processes, safety processes, reporting pro-
+cesses, asset tracking processes, and many others); wearable
+and portable devices 720 (such as mobile phones, tablets, 20
+dedicated portable devices for value chain applications and
+processes, data collectors (including mobile data collectors),
+sensor-based devices, watches, glasses, hearables, head-
+worn devices, clothing-integrated devices, arm bands, brace-
+lets, neck-worn devices, AR/VR devices, headphones, and 25
+many others); workers 718 (such as delivery workers, ship-
+ping workers, barge workers, port workers, dock workers.
+train workers, ship workers, distribution of fulfillment center
+workers, warehouse workers, vehicle drivers, business man-
+agers, engineers, floor managers, demand managers, mar- 3o j
+keting managers, inventory managers, supply chain manag-
+ers, cargo handling workers, inspectors, delivery personnel,
+environmental control managers, financial asset managers,
+process supervisors and workers (for any of the processes
+mentioned herein), security personnel, safety personnel and
+many others); suppliers 642 (such as suppliers of goods and
+related services of all types, component suppliers, ingredient
+suppliers, materials suppliers, manufacturers, and many
+others); customers 662 (including consumers, licensees,
+businesses, enterprises, value added and other resellers, 40 
+retailers, end users, distributors, and others who may pur-
+chase, license, or otherwise use a category of goods and/or
+related services); a wide range of operating facilities 712
+(such as loading and unloading docks, storage and ware-
+housing facilities 654, vaults, distribution facilities 658 and 45
+fulfllment centers 628, air travel facilities 740 (including
+aircraft, airports, hangars, runways, refueling depots, and the
+like), maritime facilities 622 (such as port infrastructure
+facilities 622 (such as docks, yards, cranes, roll-on/roll-off
+facilities, ramps, containers, container handling systems, 50 t
+waterways 732, locks, and many others), shipyard facilities
+638, floating assets 620 (such as ships, barges, boats and
+others), facilities and other items at points of origin 610
+and/or points of destination 628, hauling facilities 710 (such
+as container ships, barges, and other floating assets 620, as 55
+well as land-based vehicles and other delivery systems 632
+used for conveying goods, such as trucks, trains, and the
+like); items or elements factoring in demand (i.e., demand
+factors 644) (including market factors, events, and many
+others); items or elements factoring in supply (i.e., supply
+factors 648)(including market factors, weather, availability
+of components and materials, and many others); logistics
+factors 750 (such as availability of travel routes, weather,
+fuel prices, regulatory factors, availability of space (such as
+on a vehicle, in a container, in a package, in a warehouse, in 65
+a fulfillment center, on a shelf, or the like), and many
+others); retailers 664 (including online retailers 730 and
+[col 2]
+50
+others such as in the form of eCommerce sites 730); path-
+ways for conveyance (such as waterways 732, roadways
+734, air travel routes, railways 738 and the like); robotic
+systems 744 (including mobile robots, cobots, robotic sys-
+tems for assisting human workers, robotic delivery systems,
+and others); drones 748 (including for package delivery, site
+mapping, monitoring or inspection, and the like); autono-
+mous vehicles 742 (such as for package delivery); software
+platforms 752 (such as enterprise resource planning plat-
+forms, customer relationship management platforms, sales
+and marketing platforms, asset management platforms,
+Internet of Things platforms, supply chain management
+platforms, platform as a service platforms, infrastructure as
+a service platforms, software-based data storage platforms,
+analytic platforms, artificial intelligence platforms, and oth-
+ers); and many others. In some example embodiments, the
+product 1510 may be encompassed as an intelligent product
+1510 or the VCNP 604 may include the intelligent product
+1510. The intelligent product 1510 may be enabled with a set
+of capabilities such as, without limitation data processing,
+networking, sensing, autonomous operation, intelligent
+agent, natural language processing, speech recognition,
+voice recognition, touch interfaces, remote control, self-
+organization, self-healing, process automation, computation,
+artificial intelligence, analog or digital sensors, cameras,
+sound processing systems, data storage, data integration,
+and/or various Internet of Things capabilities, among others.
+The intelligent product 1510 may include a form of infor-
+mation technology. The intelligent product 1510 may have a
+processor, computer random access memory, and a commu-
+nication module. The intelligent product 1510 may be a
+passive intelligent product that is similar to a RFID type of
+data structure where the intelligent product may be pinged or
+read. The product 1510 may be considered a value chain
+network entity (e.g., under control of platform) and may be
+rendered intelligent by surrounding infrastructure and add-
+ing an RFID such that data may be read from the intelligent
+product 1510. The intelligent product 1510 may fit in a value
+chain network in a connected way such that connectivity
+was built around the intelligent product 1510 through a
+sensor, an IoT device, a tag, or another component.
+In embodiments, the monitoring systems layer 614 may
+monitor any or all of the value chain entities 652 in a value
+chain network 668, may exchange data with the value chain
+entities 652, may provide control instructions to or take
+instructions from any of the value chain entities 652, or the
+like, such as through the various capabilities of the data
+handling layers 608 described throughout this disclosure.
+Network Characteristics of the Value Chain Network Enti-
+ties
+Referring to FIG. 9, orchestration of a set of deeply
+interconnected value chain network entities 652 in a value
+chain network 668 by the value chain network management
+platform 604 is illustrated. Each of the value chain network
+entities 652 may have a connection to the VCNP 604, to a
+set of other value chain network entities 652 (which may be
+a local network connection, a peer-to-peer connection, a
+mobile network connection, a connection via a cloud, or
+other connection), and/or through the VCNP 604to other
+60 value chain network entities 652. The value chain network
+management platform 604 may manage the connections,
+configure or provision resources to enable connectivity,
+and/or manage applications 630 that take advantage of the
+connections, such as by using information from one set of
+entities 652 to inform applications 630 involving another set
+of entities 652, by coordinating activities of a set of entities
+652, by providing input to an artificial intelligence system of

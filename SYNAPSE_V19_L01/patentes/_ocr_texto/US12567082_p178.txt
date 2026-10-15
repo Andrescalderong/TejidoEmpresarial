@@ -1,0 +1,133 @@
+on historical data sets to predict the probability that the 65 interrelationships of systems and processes of a value chain
+[col 1]
+US 12,567,082 B2
+33
+In other features, the computerized method includes esti-
+mating a probability that the raw material availability will
+decrease based on a rise in demand outpacing a production
+increase. In other features, the computerized method
+includes monitoring a demand response across a plurality of
+systems. In other features, monitoring the demand response
+further includes to monitoring the demand response as
+changes in at least one of supply, price changes, customi-
+zation, pricing, or advertising. In other features, the com-
+puterized method includes retrieving a pre-determined risk 10
+tolerance of an entity that procures the raw material. Autono-
+mously configuring the futures contract is based at least in
+part on the pre-determined risk tolerance. In other features,
+the computerized method includes executing a smart con-
+tract for the futures contract. In other features, the comput-
+erized method includes engaging a digital wallet to enable
+payments associated with the smart contract.
+A system for product replacement includes a product
+logistics system for a product in a product condition. The
+system includes an exposure data collection system config- 20
+ured to collect exposure data indicating at least one of an
+event or an environmental condition that may impact the
+product condition of the product. The system includes a
+replacement determination system programmed to calculate
+a probability for the need to replace the product based on the 25
+at least one of the event or the environmental condition. The
+grammed to autonomously configure an option-type futures
+contract for replacement of the product based on the prob-
+ability for the need to replace the product.
+In other features, the system includes a smart contract
+system programmed to autonomously configure a smart
+contract to secure replacement of the product based on the
+option-type futures contract. In other features, the smart
+contract system configuresthesmartcontract tohave a 35
+duration of option based on estimating a time until an actual
+determination of the need to replace the product based on
+physical examination may be performed. In other features,
+the smart contract system configures the smart contract to
+havethe duration of options further based on a probability
+of catastrophic loss indicated by the probability for the need
+to replace the product. In other features, the system includes
+a replacement alternatives system programmed to configure
+an alternative smart contract that offers alternatives to
+replacement of the product to at least one of a purchaser of, 45
+product. In other features, the replacement alternatives sys-
+tem is programmed to configure the alternative smart con-
+tract that offers a refund of a purchase price of the product.
+In other features, the replacement alternatives system is 50
+programmed to configure the alternative smart contract that
+offers alternative goods or services. In other features, the
+replacement alternatives system is programmed to configure
+the alternative smart contract that offers incentives to accept
+a delayed delivery of the product.
+In other features, the system includes a future price
+renegotiation system programmed to renegotiate a set of
+future prices based on a current market state and on the
+exposure data. In other features, the future price renegotia-
+tion system is further programmed to renegotiate the set of 60
+future prices in response to the exposure data indicating a
+likelihood of widespread supply chain disruptions for goods
+or services associated with the product.In otherfeatures, the
+system includes an artificial intelligence (AI) system trained
+product will need to be replaced based on the exposure data.
+In other features, the AI system is trained to predict the
+[col 2]
+34
+impact of the need for replacement. In other features, the Al
+system is trained to predict the impact of the need based on
+at least one of an impact of delays or reduced supply on
+pricing. In other features, the exposure data collection
+system is further configured to collect the exposure data
+from sensors disposed on at least one of the product, a
+package for the product, a transport vehicle in which the
+product is located, or proximal infrastructure.
+A computerized method for product replacement of a
+product in a product condition includes collecting exposure
+data indicating at least one of an event or an environmental
+condition that may impact the product condition of the
+product. The method includes calculating a probability for
+the need to replace the product based on the at least one of
+the event or the environmental condition. The method
+includes autonomously configuring an option-type futures
+contract for replacement of the product based on the prob-
+ability for the need to replace the product.
+In other features, the computerized method includes
+autonomously configuring a smart contract to secure
+replacement of the product based on the option-type futures
+contract.In other features, the computerized method
+includes estimating a time until an actual determination of
+the need to replace the product will be performed. Config-
+uring the smart contract includes configuring the smart
+contract to have a duration of option based on the time until
+the actual determination will be performed. In other features,
+configuring the smart contract includes configuring the
+smart contract to have the duration of options further based
+on a probability of catastrophic loss indicated by the prob-
+ability for the need to replace the product. In other features,
+the computerized method includes configuring an alternative
+smart contract that offers alternatives to replacement of the
+product to at least one of a purchaser of, an owner of, or an
+insurer with a security interest in the product. In other
+features, configuring the alternative smart contract includes
+configuring the alternative smart contract that offers a refund
+of a purchase price of the product.
+A more complete understanding of the disclosure will be
+appreciated from the description and accompanying draw-
+ings and the claims, which follow. All documents referenced
+herein are hereby incorporated by reference.
+BRIEF DESCRIPTION OF THE DRAWINGS
+The accompanying drawings, which are included to pro-
+vide a better understanding of the disclosure, illustrate
+embodiments of the disclosure and together with the
+description serve to explain the many aspects of the disclo-
+sure. In the drawings:
+FIG. 1 is a block diagram showing prior art relationships
+of various entities and facilities in a supply chain.
+FIG. 2 is a block diagram showing components and
+55 interrelationships of systems and processes of a value chain
+network in accordance with the present disclosure.
+FIG. 3 is another block diagram showing components and
+interrelationships of systems and processes of a value chain
+network in accordance with the present disclosure.
+FIG. 4 is a block diagram showing components and
+interrelationships of systems and processes of a digital
+products network of FIGS. 2 and 3 in accordance with the
+present disclosure.
+FIG. 5 is a block diagram showing components and
+network technology stack in accordance with the present
+disclosure.

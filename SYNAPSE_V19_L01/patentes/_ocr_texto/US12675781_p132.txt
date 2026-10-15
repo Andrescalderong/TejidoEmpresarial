@@ -1,0 +1,135 @@
+Aspects provided herein include an information technol- 35 validation, use and maintenance through disposal. In
+of workflow and transaction information to entities in the 55 rality of sensors and configured to receive the sensor data
+[col 1]
+US 12,675,781 B2
+13
+based on processing the supply chain robotic fleet data set
+and the demand intelligence robotic process automation data
+set to coordinate supply and demand for the set of goods.
+Further Summary
+According to some embodiments of the present disclo-
+sure, methods and systems are provided herein for an
+information technology system that may include a cloud-
+based management platform with a micro-services architec-
+ture; a set of interfaces, network connectivity facilities,
+adaptive intelligence facilities, data storage facilities, and 10
+monitoring facilities; and a set of applications for enabling
+an enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use.
+Among other things, provided herein are methods, sys-
+tems, components, processes, modules, blocks, circuits, sub- 15
+systems, articles, services, software, hardware, and other
+elements (collectively referred to in some cases as the
+ stood to encompass any of the above except where context
+indicates otherwise) that individually or collectively 20 
+improve the utilization of additive manufacturing capabili-
+ties in a network of value chain entities in a value chain
+network (such terms encompassing the many examples and
+embodiments disclosed herein and in the documents incor-
+porated by reference herein). 25
+In embodiments, such methods and systems allow for
+feedback and monitoring by the customer and various other
+interested parties throughout the modelling, printing and
+supply chain processes resulting in optimizing 3D printing
+30
+ing and enhancing eficiency and traceability of design
+processes, manufacturing, supply chains demand manage-
+ment systems, products, and product use cases among oth-
+ers.
+ogy system having an artificial intelligence system for
+learning on a training set of outcomes, parameters, and data
+collected from a set of distributed manufacturing network
+entities in a distributed manufacturing network and/or value
+chain network to optimize digital production processes and 40
+workflows.
+Aspects provided herein include an information technol-
+ogy system for a distributed manufacturing network, com-
+prising an additive manufacturing management platform
+configured for managing process and production workflows 45 
+for a set of distributed manufacturing network entities
+through design, modelling, printing, supply chain, delivery,
+point-of-sale and point of usage stages; an artificial intelli-
+gence system configured for learning on a training set of
+outcomes, parameters, and data collected from the distrib- 50 r
+uted manufacturing network entities of the distributed manu-
+facturing network to optimize digital production processes
+and workflows; and a distributed ledger system integrated
+with a digital thread configured for providing unified views
+distributed manufacturing network.
+In embodiments, the information technology system com-
+prises a control system configured to adjust the data and one
+or more parameters collected from the distributed manufac-
+turing network entities in real time. 60
+In embodiments, the information technology system com-
+prises a digital twin system configured to build a digital twin
+of one or more distributed manufacturing network entities,
+the digital twin providing a substantially real-time represen-
+tation of the distributed manufacturing network entity 65
+through data from one or more sensors positioned in, on or
+near the distributed manufacturing network entity. In
+[col 2]
+embodiments, the digital twin may represent various param-
+eters and attributes of the manufacturing entity (whether an
+additive, subtractive, biological, chemical, or other entity),
+such as the types of materials it can handle, current levels of
+available source materials, processing/output speed, operat-
+ing capabilities, biological manufacturing capability,
+vacuum processing capability, energy production and con-
+sumption information (e.g., for heating, laser processing,
+and the like), pricing parameters, and the like. In embodi-
+ments, the platform, such as using an artificial intelligence
+system, may execute simulations on the digital twin or
+projected outputs thereof for predicting a possible future
+state of the distributed manufacturing network entity and/or
+one or more outputs thereof.
+In embodiments, the distributed manufacturing network
+entities include a set of printed parts, products, processes,
+additive manufacturing units like 3D printers, other types of
+manufacturing units, parties (e.g., suppliers, manufacturers,
+financiers, users, customers and others), packagers, infra-
+structure, vehicles, and manufacturing nodes.
+Aspects provided herein include a distributed manufac-
+turing network comprising: an additive manufacturing man-
+agement platform with an artificial intelligence system con-
+figured to learn on a training set of outcomes, parameters,
+and data collected from a set of distributed manufacturing
+network entities for optimizing manufacturing, supply
+chain, demand management, service, maintenance and other
+processes and workflows; and a distributed ledger integrated
+with digital threads of the distributed manufacturing net-
+work entities.
+In embodiments, the distributed network entity is a part
+being manufactured using additive manufacturing and the
+digital thread constitutes information related to the complete
+lifecycle of the part from design, modeling, production,
+embodiments, a digital thread may include a set of instruc-
+tions for manufacturing an item that includes additive manu-
+facturing instructions, such as design specifications and/or
+operating parameters by which one or more additive manu-
+facturing units may be configured and operated to produce
+the item. In embodiments, a digital thread may include
+multiple alternative such instruction sets, such as ones that
+are configured to facilitate manufacturing of the item by
+alternative forms of additive manufacturing and/or hybrid or
+combinations thereof with other additive manufacturing
+types and/or with other manufacturing types. In embodi-
+ments, the instruction sets are embodied in a set of digital
+twins.
+Aspects provided herein include an autonomous additive
+manufacturing platform comprising: a plurality of sensors
+positioned in, on, and/or near a product or a part and
+configured to collect sensor data related to the product or the
+part, the sensor data being substantially real-time sensor
+data; an adaptive intelligence system connected to the plu-
+from the plurality of sensors, the adaptive intelligence
+system including: a machine learning system configured to
+input the sensor data into one or more machine learning
+models, the sensor data being used as training data for the
+machine learning models, the machine learning models
+being configured to transform the sensor data into simulation
+data, and a digital twin system configured to create a product
+twin or a part twin based on the simulation data, the product
+twin or the part twin providing for substantially real-time
+representation of the product or the part and providing for
+simulation of a possible future state of the product or the part
+via the simulation data; and an artificial intelligence system

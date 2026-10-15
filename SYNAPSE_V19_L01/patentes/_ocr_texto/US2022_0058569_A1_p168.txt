@@ -1,0 +1,128 @@
+[col 1]
+US2022/0058569A1
+85
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point ofcustomer
+use; and a set of microservices layers including an applica-
+tion layer supporting at least one supply chain application
+and at least one demand management application, wherein
+the applications of the application layer use a common set of
+services among a set of data processing services, data
+collection services, and data storage services.
+[0706] In embodiments, the VCNP 604 may further
+include a set of microservices layers including an applica-
+tion layer supporting at least two applications among a set of
+demand management applications 1502, a set of supply
+chain applications 1500, a set of intelligent product appli-
+cations 1510, a set of asset management applications i530
+and a set of enterprise resource management applications
+1520 for a category of goods.
+[0707] A microservices architecture provides several
+advantages to the platform 604. For example, one advantage
+may be the ability to leverage creation of improved micro-
+need to define inputs and outputs such that the platform may
+use readily adapted services created by others. Also, use of
+the microservices architecture may provide ability to modu-
+larize microservices into collections that may be used to
+achieve tasks. For example, a goal to determine what is
+happening in a warehouse may be achieved with a variety of
+microservices with minimal cost such as vision-based ser-
+vice, series of regular prompts that may ask and receive,
+reading off of event logs or feeds, and the like. Each one of
+these microservices may be a distinct microservice that may
+be easily plugged in and used. If a particular microservice
+does not work effectively, the microservice may be replaced
+easily with another service with minimal impact to other
+components in the platform. Other microservices that may
+be used include recommendation service, collaborative fil-
+tering service, deep learning with semi-supervised learning
+service, etc. The microservice architecture may provide
+modularity at each stage in building a full workflow. In an
+example embodiment, a microservice may be built for
+multiple applications that may be consumed including
+shared data steam and anything else enabled by the micro-
+services architecture.
+IoT Data Collection Architecture Recommendation of Other
+Sensors and Cameras
+[0708]Referring to FIG. 16, an embodiment of the plat-
+form 604 is provided. As with other embodiments, the
+platform 604 may employ a micro-services architecture with
+the various data handling layers 614, a set of network
+connectivity facilities 642 (which may include or connect to
+a set of interfaces 702 of various layers of the platform 604),
+a set of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 614. The
+platform 604 may support a set of applications 630 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 650, which
+may be an intelligent product.
+[col 2]
+Feb.24,2022
+[0709]  Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point of customer
+use; and a set of microservices layers including an applica-
+and at least one demand management application, wherein
+the microservice layers include a data collection layer that
+collects information from a set of Internet of Things
+resources that collect information with respect to supply
+chain entities and demand management entities.
+[0710] Also provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities that are
+coordinated for monitoring and management of a set of
+value chain network entities; a set of applications for
+enabling an enterprise to manage a set of value chain
+network entities from a point of origin to a point of customer
+use; and a machine learning/artificial intelligence system
+configured to generate recommendations for placing an
+additional sensor/and or camera on and/or in proximity to a
+value chain entity and wherein data from the additional
+sensor and/or camera feeds into a digital twin that represents
+a set of value chain entities.
+[0711] In embodiments, the VCNP 604 may further
+include a set of microservices, wherein the microservice
+layers include a monitoring systems and data collections
+systems layer 614 having data collection and management
+systems 640 that collect information from a set of Internet of
+Things resources 1172 that collect information with respect
+to supply chain entities and demand management entities
+652. The microservices may support various applications
+among a set of demand management applications 1502, a set
+of supply chain applications 1500, a set of intelligent prod-
+uct applications 1510, a set of asset management applica-
+tions 1530 and a set of enterprise resource management
+applications 1520 for a category of goods.
+[0712] In embodiments, the platform 604 may further
+include a machine learning/artificial intelligence system
+1160 that includes a sensor recommendation system 1750
+that is configured to generate recommendations for placing
+an additional sensor 1462 and/or camera on and/or in
+proximity to a value chain network entity 652. For example,
+in some embodiments,the sensorrecommendation system
+1750 may generate recommendations by using load, array of
+signals, emergent situations, frequency response, mainte-
+nance, diagnosis, etc. Data from the additional sensor 1462
+and/or camera may feed into a digital twin 1700 that
+represents a set of value chain entities 652. In embodiments,
+the set of Internet of Things resources that collect informa-
+tion with respect to supply chain entities and demand
+management entities collects information from entities of
+any of the types described throughout this disclosure and in
+the documents incorporated by reference herein.

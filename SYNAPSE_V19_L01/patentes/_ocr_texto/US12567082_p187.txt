@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+the VCNP 604 or of or about a set of entities 652, by
+interacting with edge computation systems deployed on or in
+entities 652 and their environments, and the like.
+The entities 652 may be external such that the VCNP 604
+may interact with these entities 652. When the VCNP 604
+functions as the control tower to establish monitoring (e.g.,
+establish monitoring such as common monitoring across
+several entities 652). In one unified platform, there may be
+an interface where a user may view various items such as
+user's destinations, ports, air and rail assets, as well as 10
+orders, etc. Then, the next step may be to establish a
+common data schema that enables services that work on or
+in any one of these applications. This may involve taking
+any of the data that is flowing through or about any of these
+entities 652 and pull the data into a framework where other 15
+applications across supply and demand may interact with the
+entities 652. This may be a shared data pipeline coming from
+an IoT system and other external data sources, feeding into
+the monitoring layer, being stored in a common data schema
+in the storage layer, and then various intelligence may be 20
+trained to identify implications across these entities 652. In
+an example embodiment, a supplier may be bankrupt, or a
+determination is made that the supplier is bankrupt, and then
+the VCNP 604 may automatically trigger a substitute smart
+contract to be sent to a secondary supplier with altered 25
+terms. There may be management of different aspects of the
+supply chain. For example, changing pricing instantly and
+automatically on the demand side in response to one more
+supplier's being identified as bankrupt (e.g-, from bank-
+ruptcy announcement). Other similar examples may be used 30 
+based on what occurs in that automation layer which may be
+enabled by the VCNP 604. Then, at the interface layer of this
+VCNP 604, a digital twin may be used by user to view all
+monitor what is going on with each of these entities 652 35
+including identification of problem states. For example, after
+viewing three quarters of bad financial reports on a supplier,
+future bankruptcy, etc.
+For example, an IoT system deployed in a fulfillment 40
+center 628 may coordinate with an intelligent product 1510
+that takes customer feedback about the product 1510, and an
+application 630 for the fulfillment center 628 may, upon
+receiving customer feedback via a connection path to the
+intelligent product 1510 about a problem with the product 45 
+1510, initiate a workflow to perform corrective actions on
+similar products 650 before the products 650 are sent out
+from the fulfillment center 628. Similarly, a port infrastruc-
+ture facility 660, such as a yard for holding shipping
+containers, may inform a fleet of floating assets 620 via 50 
+connections to the floating assets 620 (such as ships, barges,
+or the like) that the port is near capacity, thereby kicking off
+a negotiation process (which may include an automated
+negotiation based on a set of rules and governed by a smart
+contract) for the remaining capacity and enabling some 55
+assets 620 to be redirected to alternative ports or holding
+facilities. These and many other connections among value
+chain network entities 652, whether one-to-one connections,
+one-to-many connections, many-to-many connections, or
+connections among defined groups of entities 652 (such as 60
+ones controlled by the same owner or operator), are encom-
+passed herein as applications 630 managed by the VCNP
+604.
+Value Chain Network Activities and Applications Managed
+by the Platform 55
+Referring to FIG. 10, the set of applications 614 provided
+on the VCNP 604, integrated with the VCNP 604 and/or
+[col 2]
+52
+managed by or for the VCNP 604 and/or involving a set of
+value chain network entities 652 may include, without
+limitation, one or more of any of a wide range of types of
+applications, such as: a supply chain management applica-
+tions 21004 (such as, without limitation, for management of
+timing, quantities, logistics, shipping, delivery, and other
+details of orders for goods, components, and other items); an
+asset management application 814 (such as, without limita-
+tion, for managing value chain assets, such as floating assets
+(such as ships, boats, barges, and floating platforms), real
+property (such as used for location of warehouses, ports,
+shipyards, distribution centers and other buildings), equip-
+ment, machines and fixtures (such as used for handling
+containers, cargo, packages, goods, and other items),
+vehicles (such as forklifts, delivery trucks, autonomous
+vehicles, and other systems used to move items), human
+resources (such as workers), software, information technol-
+ogy resources, data processing resources, data storage
+resources, power generation and/or storage resources, com-
+putational resources and other assets); a finance application
+822 (such as, without limitation, for handling finance mat-
+ters relating to value chain entities and assets, such as
+involving payments, security, collateral, bonds, customs,
+duties, imposts, taxes and others); a 6 (such as, without
+limitation, for managing risk or liability with respect to a
+shipment, goods, a product, an asset, a person, a floating
+asset, a vehicle, an item of equipment, a component, an
+information technology system, a security system, a security
+event, a cybersecurity system, an item of property, a health
+condition, mortality, fire, flood, weather, disability, negli-
+gence, business interruption, injury, damage to property.
+damage to a business, breach of a contract, and others); a
+demand management application 824 (such as, without
+limitation, an application for analyzing, planning, or pro-
+moting interest by customers of a category of goods that can
+be supplied by or with facilities of a value chain product or
+service, such as a demand planning application, a demand
+prediction application, a sales application, a future demand
+aggregation application, a marketing application, an adver-
+tising application, an e-commerce application, a marketing
+analytics application, a customer relationship management
+application, a search engine optimization application, a sales
+management application, an advertising network applica-
+tion, a behavioral tracking application, a marketing analytics
+application, a location-based product or service-targeting
+application, a collaborative filtering application, a recom-
+mendation engine for a product or service, and others,
+including ones that use or are enabled by one or more
+features of an intelligent product 1510 or that are executed
+using intelligence capabilities on an intelligent product
+1510); a trading application 858 (such as, without limitation,
+a buying application, a selling application, a bidding appli-
+cation, an auction application, a reverse auction application,
+a bid/ask matching application, an analytic application for
+analyzing value chain performance, yield, return on invest-
+ment, or other metrics, or others); a tax application 850 (such
+as, without limitation, for managing, calculating, reporting,
+optimizing, or otherwise handling data, events, workflows,
+or other factors relating to a tax, a tariff, an impost, a levy,
+a tariff, a duty, a credit, a fee or other government-imposed
+charge, such as, without limitation, customs duties, value
+added tax, sales tax, income tax, property tax, municipal
+fees, pollution tax, renewal energy credit, pollution abate-
+ment credit, import duties, export duties, and others); an
+identity management application 830 (such as for managing
+one or more identities of entities 652 involved in a value
+chain, such as, without limitation, one or more of an identity

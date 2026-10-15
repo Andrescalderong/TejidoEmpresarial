@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+19
+adapting a maintenance schedule for the at least one fleet
+resource based on artificial intelligence-based prediction of
+maintenance instances.
+In some embodiments, adapting the preventive mainte-
+nance schedule includes adapting a maintenance schedule
+for the at least one fleet resource based on a machine
+learning system that identifies new opportunities for sched-
+uling and performing maintenance. In some of these
+embodiments, the machine learning system analyzes perfor-
+mance data for the at least one other robot that has been 10
+maintained for operation in certain conditions. In some of
+these embodiments, a cooling system of the other robot has
+been maintained prior to operating in a high temperature
+environment and the performance data reflects operation of
+the at least one other robot in the certain conditions. 15
+In some embodiments, adapting the preventive mainte-
+nance schedule includes adapting a maintenance schedule
+for the at least one fleet resource based on one or more of:
+maintenance rules established for a team, maintenance rules
+established for a fleet, maintenance rules established by a 20
+shipper, maintenance rules determined by a regulatory
+agency. In some embodiments, adapting the preventive
+maintenance schedule includes determining one or more of
+maintenance workflows, service actions, or needed parts for
+maintaining the at least one fleet resource based on one or 25
+more of association tables, data sets, databases, or mainte-
+nance management libraries. In some embodiments, causing
+a service action includes assigning a maintenance activity to
+a fleet resource selected from a list of fleet resources
+including a maintenance smart container, a human techni- 30
+cian, and a third-party service provider. In some embodi-
+ments, causing a service action includes deploying a main-
+tenance service that performs maintenance of the at least one
+fleet resource via a set of self-maintenance protocols for at
+least one of self-cleaning and calibrating end effector opera- 35
+tions. In some embodiments, causing a service action
+includes interacting with a fleet configuration system
+responsive to an indication of a compromised capability of
+the at last one robot, the interaction resulting in a change in
+assignment of the at least one fleet resource based on the 40
+compromised capability. In some embodiments, causing a
+service action is based on an interaction with a digital twin
+of the at least one fleet resource being operated by a fleet
+intelligence service that predicts a maintenance need of the
+at least one fleet resource. In some embodiments, causing a 45
+service action includes coordinating maintenance activities
+with job scheduling to ensure that preventable interruptions
+due to lack of maintenance are prevented.
+According to some embodiments of the present disclo-
+sure, a robotic fleet resource provisioning system is dis- 50
+closed. The system includes a computer-readable storage
+system that stores: a fleet resources data store that maintains
+a fleet resource inventory that indicates a plurality of fleet
+resources that can be provisioned as a set of fleet resources,
+and for each respective fleet resource, a set of features of the 55
+resource, configuration requirements of the resource, and a
+respective status of the resource; and a set of resource
+provisioning rules that are accessible to an intelligence layer
+to ensure that provisioned resources comply with the pro-
+visioning rules. The system further includes a set of one or 60
+more processors that execute a set of computer-readable
+instructions. The set of one or more processors collectively
+receive a request for a robotic fleet to perform a job. The set
+of one or more processors collectively determine a job
+definition data structure based on the request, the job defi- 65
+nition data structure defining a set of tasks that are to be
+performed in performance of the job. The set of one or more
+[col 2]
+20
+processors collectively determine a robotic fleet configura-
+tion data structure corresponding to the job based on the set
+of tasks and the fleet resource inventory, wherein the robotic
+fleet configuration data structure assigns a plurality of
+resources selected from the fleet resource inventory to the
+set of tasks defined in the job definition data structure. The
+set of one or more processors collectively determine a
+respective provisioning configuration for each respective
+fleet resource based on the respective task to which the fleet
+resource is assigned, the set of features of the fleet resource,
+the configuration requirements of the fleet resource, and the
+respective status of the fleet resource. The set of one or more
+processors collectively provision the respective fleet
+resource based on the respective provisioning configuration
+and the provisioning rules. The set of one or more processors
+collectively deploy the robotic fleet to perform the job.
+In some embodiments, the respective status of the
+resource includes a general availability of the resource. In
+some embodiments, determining the robotic fleet configu-
+ration data structure is further based on an environment of
+the job. In some embodiments, determining the robotic fleet
+configuration data structure is further based on a budget for
+the job. In some embodiments, determining the robotic fleet
+configuration data structure is further based on a timeline for
+completing the job. In some embodiments, the fleet resource
+inventory includes one or more types of robots and to
+determine the robotic fleet configuration data structure is
+further based on an available inventory of the one or more
+types of robots. In some embodiments, determining a pro-
+visioning configuration for each respective fleet resource is
+further based on an environment of the job. In some embodi-
+ments, determining a provisioning configuration for each
+respective fleet resource is further based on a budget for the
+job. In some embodiments, determining a provisioning
+configuration for each respective assigned fleet resource is
+further based on a timeline for completing the job. In some
+embodiments, the fleet resource inventory includes comput-
+ing resources selected from a list of computing resources
+comprising on-robot computing resources, robot operating
+unit-local fleet-controlled computing resources, cloud based
+computing resources, computing modules, or computing
+chips.
+In some embodiments, provisioning the respective fleet
+resource includes provisioning one or more of a software
+robot module or a hardware robot module. In some of these
+embodiments, the hardware robot module is an interchange-
+able module.
+In some embodiments, the fleet resource inventory
+includes a plurality of digital resources. In some of these
+embodiments,provisioning a respective one of the plurality
+of digital resources includes one or more of software update
+pushing, resource access credentialing, or fleet resource data
+storage configuration, allocation, or utilization. In some
+embodiments, provisioning a respective fleet resource
+includes provisioning a consumable resource sourced from
+at least one of a specialized supply chain, a job requestor
+resource supply, a fleet-specific stockpile, a job-specific
+stockpile, or a fleet team-specific stockpile.
+In some embodiments, provisioning the respective fleet
+resource is based on one or more characteristics of a target
+operating environment. In some of these embodiments, a
+target operating environment is one or more of land-based,
+sea-based, submerged, in-flight, subterranean, and below-
+freezing ambient temperature.
+In some embodiments, provisioning the respective fleet
+resource includes 3D printing the respective resource for
+provisioning. In some embodiments, provisioning the

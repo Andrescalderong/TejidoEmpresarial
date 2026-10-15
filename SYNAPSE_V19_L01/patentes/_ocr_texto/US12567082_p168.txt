@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+13
+ping container system is a smart package. In some embodi-
+ments, the smart shipping container system includes a
+mechanism to enable expanding or retracting external or
+internal walls, housing elements, or other internal elements,
+such as to increase or decrease the volume of the container
+or to vary the dimensions of one or more partitions of the
+space within the container. In some embodiments, the smart
+shipping container system includes a self-assembling
+mechanism. In some embodiments, the smart shipping con-
+tainer system includes a self-disassembling mechanism. In
+some embodiments, the smart shipping container shape is
+selected from the set of: rectangular, cube, sphere, cylindri-
+cal, organic-like, and biometric. In some embodiments, the
+smart shipping container material, at least in part, is selected
+from the set of: corrugated weathering steel, steel alloys,
+stainless steel, aluminum, cast iron, concrete, ceramic mate-
+rial(s), other alloys, glass, other metals, plastics, plywood,
+bamboo, cardboard, and wood. In some embodiments, the
+smart shipping container system is a 3D-printed smart 20 
+containers. In some embodiments, the smart shipping con-
+tainer system includes a 3D printer.
+According to some embodiments of the present disclo-
+sure,a method for updating one or more properties of one or
+more shipping digital twins is disclosed. The method 25
+includes receiving a request to update one or more properties
+of one or more shipping digital twins. The method further
+includes retrieving the one or more shipping digital twins
+required to fulfill the request. The method further includes
+retrieving one or more dynamic models required to fulfill the 30
+request. The method further includes selecting data sources
+from a set of available data sources based on the one or more
+inputs of the one or more dynamic models. The method
+further includes retrieving data from selected data sources.
+The method further includes calculating one ormore outputs 35
+using the retrieved data as one or more inputs to the one or
+more dynamic models. The method further includes updat-
+ing one or more properties of the one or more shipping
+digital twins based on the output of the one or more dynamic
+models.
+In some embodiments, the digital twins are digital twins
+of smart containers. In some embodiments, the digital twins
+are digital twins of shipping environments. In some embodi-
+ments, the digital twins are digital twins of shipping entities.
+In some embodiments, the dynamic models take data 45 t
+selected from the set of vibration, temperature, pressure,
+humidity, wind, rainfall, tide, storm surge, cloud cover,
+snowfall, visibility, radiation, audio, video, image, water
+level, quantum, flow rate, signal power, signal frequency,
+motion, displacement, velocity, acceleration, lighting level, 50 F
+financial, cost, stock market, news, social media, revenue,
+worker, maintenance, productivity, asset performance,
+worker performance, worker response time, analyte concen-
+tration, biological compound concentration, metal concen-
+tration, and organic compound concentration data. 55
+In some embodiments, the data source is selected from the
+set of an Internet of Things connected device, a machine
+vision system, an analog vibration sensor, a digital vibration
+sensor, a fixed digital vibration sensor, a tri-axial vibration
+sensor, a single axis vibration sensor, an optical vibration 60
+sensor, and a crosspoint switch. In some embodiments,
+retrieving the one or more dynamic models includes iden-
+tifying the one or more dynamic models based on the one or
+more properties indicated in the request and a respective
+type of the one or more digital twins. In some embodiments, 65
+the one or more dynamic models are identified using a
+lookup table.
+[col 2]
+According to some embodiments of the present disclo-
+sure, a robot fleet management platform is disclosed. The
+platform includes a computer-readable storage system that
+stores a resources data store that maintains: a robot inven-
+tory that indicates a plurality of robots that can be assigned
+to a robot fleet, and for each respective robot, a set of
+baseline features of the robot and a respective status of the
+robot, wherein the robot inventory of robots includes a
+plurality of multi-purpose robots that can be configured for
+different tasks and different environments; and a compo-
+nents inventory that indicates different components that can
+be provisioned to one or more multi-purpose robots, and for
+each component, a respective set of extended capabilities
+corresponding to the component and a respective status of
+the component. The platform further includes a set of one or
+more processors that execute a set of computer-readable
+instructions. The set of one or more processors collectively
+receive a request for a robotic fleet to perform a job. The set
+of one or more processors collectively determine a job
+definition data structure based on the request, the job defi-
+nition data structure defining a set of tasks that are to be
+performed in performance of the job. The set of one or more
+processors collectively determine a robot fleet configuration
+data structure corresponding to the job based on the set of
+tasks and the robot inventory, wherein the robot fleet con-
+figuration data structure assigns a plurality of robots selected
+from the robot inventory to the set of tasks defined in the job
+definition data structure and the plurality of robots includes
+one or more assigned multi-purpose robots. The set of one
+or more processors collectively determine a respective con-
+figuration for each respective assigned multi-purpose robot
+based on the respective task that is assigned to the assigned
+multi-purpose robot and the components inventory. The set
+of one or more processors collectively configure the one or
+more assigned multi-purpose robots based on the respective
+configurations. The set of one or more processors collec-
+tively deploy the robotic fleet to perform the job.
+In some embodiments, the robot inventory includes spe-
+cial purpose robots. In some embodiments, determining the
+robot fleet configuration data structure is further based on an
+environment of the job. In some embodiments, determining
+the robot fleet configuration data structure is further based
+on a budget for the job. In some embodiments, determining
+the robot fleet configuration data structure is further based
+on a timeline for completing the job. In some embodiments,
+the robot inventory includes special purpose robots and to
+determine the robot fleet configuration data structure is
+further based on an available inventory of the special
+purpose robots. In some embodiments, determining a
+respective configuration for each respective assigned multi-
+purpose robot is further based on an environment of the job.
+In some embodiments, determining a respective configura-
+further based on a budget for the job. In some embodiments,
+determining a respective configuration for each respective
+assigned multi-purpose robot is further based on a timeline
+for completing the job. In some embodiments, configuring
+the one or more assigned multi-purpose robots includes
+configuring at least one robot system selected from a list of
+robot systems including a robot baseline system, a module
+In some embodiments, configuring the one or more
+assigned multi-purpose robots includes configuring one or
+more of a software robot module or a hardware robot
+module. In some of these embodiments, the hardware robot
+module is an interchangeable module.

@@ -1,0 +1,138 @@
+opers in which a developer may configure an artificial 20 adaptive intelligent systems layer 614 can vary the dimen-
+[col 1]
+US 12,675,781 B2
+155
+system 1160 to take inputs from selected data sources of the
+data storage layer 624 and events or other data from the
+monitoring systems layer 614 and supply them for inclusion
+in a customer digital twin 5502. A customer digital twin
+development environment may be configured to take outputs
+and outcomes from various applications 630. In embodi-
+ments, a customer digital twin 1730 may be provided for the
+wide range of value chain network applications 630 men-
+tioned throughout this disclosure and the documents incor-
+porated herein by reference.
+In embodiments, the customer digital twin 5502 may be
+rendered by a computing device, such that a user can view
+a digital representation of the customer 714. For example, a
+customer digital twin 5502 may be rendered and output to a
+display device. In another example, a 5502 may be rendered
+in a three-dimensional environment and viewed using a
+virtual reality headset.
+An environment for development of the customer profile
+digital twin 1730 may include a set of interfaces for devel-
+intelligence system 1160 to take inputs from selected data
+sources of the data storage layer 624 and events or other data
+from the monitoring systems layer 614 and supply them for
+inclusion in a customer profile digital twin 1730. The
+customer profile digital twin development environment may 25
+be configured to take outputs and outcomes from various
+applications 630. In embodiments, the customer profile
+digital twin 1730 may be provided for the wide range of
+value chain network applications 630 mentioned throughout
+this disclosure and the documents incorporated herein by
+301
+reference.
+In embodiments, the adaptive intelligent systems layer
+614 is configured to train and implement artificial intelli-
+gence systems to perform tasks related to the value chain
+network 668 and/or value chain network entities 652.For 35
+example, the adaptive intelligent systems layer 614 may be
+leveraged to recommend products, enhance customer expe-
+rience, select advertising attributes for advertisements relat-
+ing to value chain products and/or services, and/or other
+appropriate value-chain tasks.
+In embodiments, the customer profile digital twin 1730 or
+other customer digital twin may be created interactively and
+cooperatively with a customer, such as by allowing a cus-
+tomer to request, select, modify, delete, or otherwise influ-
+ence a set of properties, states, behaviors, or other aspects 45
+represented in the digital twin 1730. For example, a cus-
+tomer could refine sizes (e.g., shoe size, dress size, shirt size,
+pant size, and the like), indicate interests and needs (e.g.
+what the customer is interested in buying), indicate behav-
+iors (e.g, projects planned by an enterprise), update current 50
+ states (e.g., to reflect changes), and the like. A version of the
+digital twin 1730 may thus be made available to a customer,
+such as in a graphical user interface, where the customer
+may manipulate one or more aspects of the digital twin
+1730, request changes, and the like. In embodiments, mul- 55
+tiple versions of a digital twin 1730 may be maintained for
+a given customer, such as a version for customer review, an
+internal version for an enterprise or host, a version for each
+of a specific set of brands (e.g., where a customer's appro-
+priate clothing sizes vary by brand), a public version (such 60
+as one shared with a customer's social network for feedback,
+such as from friends), a private version (such as one where
+a customer is provided complete control over features and
+properties), a simulation version, a real-time version, and the
+like. In embodiments, the adaptive intelligent systems layer 65
+614 is configured to leverage the customer digital twins
+5502, customer profile digital twins 1730, and/or other
+[col 2]
+156
+digital twins 1700 ofother value chain network entities 652.
+In embodiments, the adaptive intelligent systems layer 614
+is configured to perform simulations using the customer
+digital twins 5502, customer profile digital twins 1730,
+and/or digital twins of other value chain network entities
+652. For example, the adaptive intelligent systems layer 614
+may vary one or more features of a product digital twin 1780
+as its use is simulated by a customer digital twin 1730.
+In embodiments, a simulation management system 5704
+1o may set up, provision, configure, and otherwise manage
+interactions and simulations between and among digital
+twins 1700 representing value chain entities 652.
+In embodiments, the adaptive intelligent systems layer
+614 may, for each set of features, execute a simulation based
+on the set of features and may collect the simulation out-
+come data resulting from the simulation. For example, in
+executing a simulation involving the interactions of an
+ligent product 650 and a customer digital twin 1730, the
+sions of the intelligent product digital twin 1780 and can
+execute simulations that generate outcomes in a simulation
+management system 5704. In this example, an outcome can
+be an amount of time taken by a customer digital twin 5502
+to complete a task using the intelligent product digital twin
+1780. During the simulations, the adaptive intelligent sys-
+tems layer 614 may vary the intelligent product digital twin
+1780 display screen size, available capabilities (processing,
+speech recognition, voice recognition, touch interfaces,
+remote control, self-organization, self-healing, process auto-
+mation, computation, artificial intelligence, data storage, and
+the like), materials, and/or any other properties of the
+intelligent product digital twin 1780. Simulation data 5710
+may be created for each simulation and may include feature
+data used to perform the simulations, as well as outcome
+data. In the example described above, the simulation data
+5710 may be the properties of the customer digital twin 5502
+and the intelligent product digital twin 1780 that were used
+to perform the simulation and the outcomes resulting there-
+from. In embodiments, a machine learning system 5720 may
+receive training data 5730, outcome data 5740, simulation
+data 5710, and/or data from other types of external data
+sources 5702 (weather data, stock market data, sports event
+data, news event data, and the like). In embodiments, this
+data may be provided to the machine-learning system 5720
+via an API of the adaptive intelligent systems layer 614. The
+machine learning system 5720 may train, retrain, or rein-
+force machine leaning models 5750 using the received data
+(training data, outcome data, simulation data, and the like).
+FIG. 58 illustrates an example of an advertising applica-
+tion that interfaces with the adaptive intelligent systems
+layer 614. In example embodiments, the advertising appli-
+cation may be configured automate advertising-related tasks
+for a value chain product or service.
+In embodiments, the machine-learning system 5720 trains
+one or more models 5750 that are leveraged by the artificial
+intelligence system 1160 to make classifications, predic-
+tions, and/or other decisions relating to advertisements for a
+set of value chain products and/or services.
+In example embodiments, a model 5750 is trained to
+select advertisement features to optimize one or more out-
+comes (e.g., maximize product sales for a product 650 in the
+value chain network 668). The machine-learning system
+5720 may train the models 5750 using n-tuples that include
+the features pertaining to advertisements and one or more
+outcomes associated with the advertisements. In this
+example, features for an advertisement may include, but are

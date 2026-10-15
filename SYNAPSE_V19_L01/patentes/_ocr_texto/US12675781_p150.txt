@@ -1,0 +1,136 @@
+there are pairings (doubles, triples, quadruplets, etc.) of 30 value chain network entities 652 and applications 630.
+[col 1]
+US 12,675,781 B2
+In embodiments, value chain network data objects 1004
+may be provided according to an object-oriented data model
+that defines classes, objects, attributes, parameters and other
+features of the set of data objects (such as associated with
+value chain network entities 652 and applications 630) that
+are handled by the platform 604.
+In embodiments, the data storage systems layer 624 may
+provide an extremely rich environment for collection of data
+that can be used for extraction of features or inputs for
+intelligence systems, such as expert systems, analytic sys- 10
+tems, artificial intelligence systems, robotic process auto-
+mation systems, machine learning systems, deep learning
+systems, supervised learning systems, or other intelligent
+systems as disclosed throughout this disclosure and the
+documents incorporated herein by reference. As a result, 15j
+each application 630 in the platform 604 and each adaptive
+intelligent system in the adaptive intelligent systems layer
+614 can benefit from the data collected or produced by or for
+each of the others. In embodiments, the data storage systems
+layer624mayfacilitatecollectionofdatathat canbeused 20
+for extraction of features or inputs for intelligence systems
+such as a development framework from artificial intelli-
+gence. In examples, the collections of data may pull in
+and/or house event logs (naturally stored or ad-hoc, as
+needed), perform periodic checks on onboard diagnostic 25
+data, or the like. In examples, pre calculation of features may
+be deployed using AwS Lambda, for example, or various
+other cloud-based on-demand compute capabilities, such as
+pre-calculations, multiplexing signals. In many examples,
+similar kinds of value chain entities that may use one or
+more sets of capabilities of the data handling layers 608 to
+deploy connectivity and services across value chain entities
+and across applications used by the entities even when
+amassing hundreds and hundreds of data types from rela- 35 
+tively disparate entities. In these examples, various pairings
+of similar types of value chain entities using, at least in part,
+the connectivity and services across value chain entities and
+applications, may direct the information from the pairings of
+connected data to artificial intelligence services including 40
+the various neural networks disclosed herein and hybrid
+combinations thereof. In these examples, genetic program-
+ming techniques may be deployed to prune some of the input
+features in the information from the pairings of connected
+data. In these examples, genetic programming techniques 45
+may also be deployed to add to and augment the input
+features in the information from the pairings. These genetic
+programming techniques may be shown to increase the
+efficacy of the determinations established by the artificial
+intelligence services. In these examples, the information 50
+from the pairings of connected data may be migrated to other
+layers on the platform including to support or deploy robotic
+process automation, prediction, forecasting, and other
+resources such that the shared data schema may facilitate as
+capabilities and resources for the platform 604. 55
+A wide range of data types may be stored in the storage
+layer 624 using various storage media and data storage
+types, data architectures 1002, and formats, including, with-
+out limitation: asset and facility data 1030, state data 1140
+(such as indicating a state, condition status, or other indi- 60
+cator with respect to any of the value chain network entities
+652, any of the applications 630 or components or work-
+flows thereof, or any of the components or elements of the
+platform 604, among others), worker data 1032 (including
+identity data, role data, task data, workflow data, health data, 65
+attention data, mood data, stress data, physiological data,
+performance data, quality data and many other types); event
+[col 2]
+50
+data 1034 ((such as with respect to any of a wide range of
+events, including operational data, transactional data, work-
+flow data, maintenance data, and many other types of data
+that includes or relates to events that occur within a value
+chain network 668 or with respect to one or more applica-
+tions 630, including process events, financial events, trans-
+action events, output events, input events, state-change
+events, operating events, workflow events, repair events,
+maintenance events, service events, damage events, injury
+events, replacement events, refueling events, recharging
+events, shipping events, warehousing events, transfers of
+goods, crossing of borders, moving of cargo, inspection
+events, supply events, and many others); claims data 664
+(such as relating to insurance claims, such as for business
+interruption insurance, product liability insurance, insurance
+on goods, facilities, or equipment, flood insurance, insurance
+for contract-related risks, and many others, as well as claims
+data relating to product liability, general liability, workers
+compensation, injury and other liability claims and claims
+data relating to contracts, such as supply contract perfor-
+mance claims, product delivery requirements, warranty
+claims, indemnification claims, delivery requirements, tim-
+ing requirements, milestones, key performance indicators
+and others); accounting data 730 (such as data relating to
+completion of contract requirements, satisfaction of bonds,
+payment of duties and tariffs, and others); and risk manage-
+ment data 732 (such as relating to items supplied, amounts,
+pricing, delivery, sources, routes, customs information and
+many others), among many other data types associated with
+In embodiments, the data handling layers 608 are config-
+ured in a topology that facilitates shared adaptation capa-
+bilities, which may be provided, managed, mediated and the
+like by one or more of a set of services, components,
+programs, systems, or capabilities of the adaptive intelligent
+systems layer 614, referred to in some cases herein for
+convenience as the adaptive intelligence layer 614. The
+adaptive intelligence systems layer 614 may include a set of
+data processing, artificial intelligence and computational
+systems 634 that are described in more detail elsewhere
+throughout this disclosure. Thus, use of various resources,
+such as computing resources (such as available processing
+cores, available servers, available edge computing
+resources, available on-device resources (for single devices
+or peered networks), and available cloud infrastructure,
+among others), data storage resources (including local stor-
+age on devices, storage resources in or on value chain
+entities or environments (including on-device storage, stor-
+age on asset tags, local area network storage and the like),
+network storage resources, cloud-based storage resources,
+database resources and others), networking resources (in-
+cluding cellular network spectrum, wireless network
+resources, fixed network resources and others), energy
+resources (such as available battery power, available renew-
+able energy, fuel, grid-based power, and many others) and
+others may be optimized in a coordinated or shared way on
+behalf of an operator, enterprise, or the like, such as for the
+benefit of multiple applications, programs, workflows, or the
+like. For example, the adaptive intelligence layer 614 may
+manage and provision available network resources for both
+a supply chain management application and for a demand
+planning application (among many other possibilities), such
+agement application (where rapid decisions may be impor-
+tant) and longer latency resources are used for the demand
+planning application. As described in more detail throughout
+this disclosure and the documents incorporated herein by
