@@ -24,7 +24,7 @@ Los resultados principales son siete.
 
 ### 2.1 Corpus
 
-El corpus proviene del repositorio `TejidoEmpresarial` y comprende cuatro grupos: 86 documentos de la carpeta Scopus (D001–D086), 12 de la carpeta SciELO (D087–D098), 1 documento exclusivo de Web of Science (D099, Habibi Rad et al., 2021) y 2 síntesis de buscadores con inteligencia artificial (D100, Scopus AI; D101, Web of Science Research Assistant). Los metadatos bibliográficos se emparejaron con los archivos de exportación (DOI, título y autores); el emparejamiento de D099 se corrigió manualmente. Los registros bibliográficos de Scopus sin PDF están listados en `scopus_sin_pdf.json` y no se analizaron por no contar con el texto.
+El corpus proviene del repositorio `TejidoEmpresarial` y comprende cuatro grupos: 86 documentos de la carpeta Scopus (D001–D086), 12 de la carpeta SciELO (D087–D098), 1 documento exclusivo de Web of Science (D099) y 2 síntesis de buscadores con inteligencia artificial (D100; D101). Los metadatos bibliográficos se emparejaron con los archivos de exportación (DOI, título y autores); el emparejamiento de D099 se corrigió manualmente. Los registros bibliográficos de Scopus sin PDF están listados en `scopus_sin_pdf.json` y no se analizaron por no contar con el texto.
 
 La distribución por año es: 2008: 12, 2013: 1, 2015: 1, 2020: 6, 2021: 5, 2022: 6, 2023: 4, 2024: 19, 2025: 23, 2026: 24. Hay 87 documentos en inglés y 12 en español. 66 documentos (65 %) son de 2024 a 2026, lo que implica que la acumulación de citas es limitada: 2962 citas Scopus en total para 86 documentos con dato, y 24 documentos concentran el 80 % de ellas.
 
