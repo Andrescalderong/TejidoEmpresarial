@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D075 (Alerta temprana sísmica descentralizada con LoRa multisalto, resilienc): relación inversa de D075 EXTIENDE D045: D075 lleva la alerta sísmica de bajo costo a una red LoRa multisalto descentralizada; D045 revisa sensores MEMS de bajo costo y cita a D049; D075 cita [juicio del analista; citación verificada de D075 a D045; autoría compartida]
+- **DEPENDE_DE** D049 (Alerta temprana sísmica de bajo costo con procesamiento en el nodo): cita a D049 en su lista de referencias (verificado por coincidencia de título); D049: Alerta temprana sísmica de bajo costo con procesamiento en el nodo [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 53 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

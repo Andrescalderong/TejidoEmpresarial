@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D064 (Gemelo digital, monitoreo sísmico y 5G con cómputo en el borde): relación inversa de D064 CONFIRMA D066: ambos sostienen que el cómputo en el borde reduce la latencia (D064 retardo medio de 2,1 ms; D066 mejora en simulación); D066 no tiene despliegue real [juicio del analista]
+- **CONFIRMA** D065 (Asignación de recursos en cómputo en el borde con subastas y sistemas ): ambos son propuestas de asignación descentralizada de recursos en el borde validadas solo por simulación [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 14 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

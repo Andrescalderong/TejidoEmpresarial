@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **DEPENDE_DE** D001-D086 (86 documentos del lote): 86 de las 93 referencias de la síntesis coinciden con documentos D001-D086 (verificado por título); las 7 restantes no figuran en el lote [citación verificada]. El corpus Scopus del lote y la síntesis D100 no son, por tanto, fuentes independientes
+- **PRECEDE** D101 (Síntesis automática: gemelos digitales, Industria 4.0 y resiliencia po): ambas son síntesis automáticas del mismo tema generadas en 2026 por buscadores distintos; D101 comparte al menos dos documentos de referencia con la lista de D100 [juicio del analista]
+- **CONFIRMA** D101 (Síntesis automática: gemelos digitales, Industria 4.0 y resiliencia po): relación inversa de D101 CONFIRMA D100: coinciden en la conclusión de que gemelo digital, IoT e Industria 4.0 son centrales para la recuperación posdesastre, pero no son fuentes independient [juicio del analista]
+- **COMPLEMENTA** D099 (Industria 4.0, gestión del riesgo de desastres y resiliencia de infrae): D100 declara un alcance de 2020-2024 pero su lista incluye 49 referencias de 2025-2026 y no declara protocolo; D099 cubre el tema hasta junio de 2021 con protocolo PRISMA declarado, lo que contrasta el rigor y el periodo [juicio del analista]
 
 ### Capa 4 — Control de calidad
 

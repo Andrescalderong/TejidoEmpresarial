@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D037 (Tecnologías digitales y resiliencia de cadenas de suministro (metaanál): relación inversa de D037 COMPLEMENTA D017: D037 mide asociación entre tecnologías digitales y resiliencia de cadena de suministro con metaanálisis y D017 describe la evolución y barreras del Io [juicio del analista]
+- **CONFIRMA** D016 (IoT en logística y gestión de la cadena de suministro): ambos describen crecimiento de la literatura de IoT en cadenas de suministro desde 2017-2018 y concentración en blockchain, aprendizaje automático y Industria 4.0 [juicio del analista]
+- **COMPLEMENTA** D051 (Desafíos e impulsores del IoT en la cadena de suministro (revisión sis): relación inversa de D051 COMPLEMENTA D017: D051 clasifica 92 desafíos en 16 categorías y D017 sintetiza barreras (seguridad, interoperabilidad) para IoT en cadenas de suministro [juicio del analista]
+- **PRECEDE** D030 (IoT, gemelo digital y resiliencia organizacional): relación inversa de D030 DEPENDE_DE D017: D030 cita a D017 como respaldo del vínculo entre IoT y resiliencia; su evidencia es una encuesta transversal [juicio del analista; citación verificada de D030 a D017]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 63 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

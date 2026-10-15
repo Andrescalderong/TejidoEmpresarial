@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D049 (Alerta temprana sísmica de bajo costo con procesamiento en el nodo): relación inversa de D049 CONFIRMA D073: ambos muestran que detectar y generar la alerta en el nodo reduce la latencia frente a arquitecturas centralizadas (D049 1,24 a 2,88 s; D073 localizac [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 52 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D039 (Calidad de datos y sincronización en SHM inalámbrico con IoT): comparten autoría (Yu, Fu, Cui): resuelven calidad de datos y sincronización en redes inalámbricas de monitoreo estructural; no son confirmaciones independientes [juicio del analista; autoría compartida]
+- **DEPENDE_DE** D033 (Calidad de datos IoT y mantenimiento predictivo para gemelos): D086 clasifica anomalías de datos a bordo, lo que atiende el hallazgo de D033 de que la calidad del dato pesa más que la arquitectura [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 26 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

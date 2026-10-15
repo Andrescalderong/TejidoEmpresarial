@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D045 (Alerta temprana sísmica de bajo costo con sensores MEMS (revisión)): D075 lleva la alerta sísmica de bajo costo a una red LoRa multisalto descentralizada; D045 revisa sensores MEMS de bajo costo y cita a D049; D075 cita a D045; comparten autoría (Prasanna) [juicio del analista; citación verificada de D075 a D045; autoría compartida]
+- **CONFIRMA** D049 (Alerta temprana sísmica de bajo costo con procesamiento en el nodo): comparten autoría (Prasanna, Holden): la arquitectura descentralizada reduce la latencia; la concordancia procede del mismo grupo [juicio del analista; autoría compartida]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 67 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

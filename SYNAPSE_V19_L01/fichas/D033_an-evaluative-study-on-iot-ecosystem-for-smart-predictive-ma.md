@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D086 (IoT, inteligencia en el borde y monitoreo de salud estructural): relación inversa de D086 DEPENDE_DE D033: D086 clasifica anomalías de datos a bordo, lo que atiende el hallazgo de D033 de que la calidad del dato pesa más que la arquitectura [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 65 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

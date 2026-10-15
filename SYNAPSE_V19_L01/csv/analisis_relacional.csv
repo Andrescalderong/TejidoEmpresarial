@@ -1,0 +1,363 @@
+﻿origen,tipo,destino,base,justificacion
+D013,EXTIENDE,D006,juicio del analista; citación verificada de D013 a D006,"propone un marco integral de gemelo digital posdesastre (IA explicable, dinámica social, sistemas interconectados) que desarrolla la visión de ciudad-gemelo en desastre de D006; ambos son propuestas conceptuales sin validación operativa"
+D006,PRECEDE,D013,juicio del analista; citación verificada de D013 a D006,"relación inversa de D013 EXTIENDE D006: propone un marco integral de gemelo digital posdesastre (IA explicable, dinámica social, sistemas interconectados) que desarrolla la visión de ciudad-"
+D048,EXTIENDE,D072,juicio del analista; citación verificada de D048 a D072,"usa el gemelo digital como imagen operativa común para estimar daños y necesidades de rescate, apoyado en el antecedente de modelado híbrido físico-datos de D072"
+D072,PRECEDE,D048,juicio del analista; citación verificada de D048 a D072,"relación inversa de D048 EXTIENDE D072: usa el gemelo digital como imagen operativa común para estimar daños y necesidades de rescate, apoyado en el antecedente de modelado híbrido físico-da"
+D080,EXTIENDE,D048,juicio del analista; citación verificada de D080 a D048; autoría compartida,"replica la lógica de imagen operativa común en un distrito industrial con sensores IoT y arquitectura híbrida; comparte autoría (Korkmaz, Demirkesen) con D048, por lo que no es una confirmación independiente"
+D048,PRECEDE,D080,juicio del analista; citación verificada de D080 a D048; autoría compartida,"relación inversa de D080 EXTIENDE D048: replica la lógica de imagen operativa común en un distrito industrial con sensores IoT y arquitectura híbrida; comparte autoría (Korkmaz, Demirkesen) "
+D080,DEPENDE_DE,D006,juicio del analista; citación verificada de D080 a D006,retoma la propuesta de gemelo digital de ciudad en desastre como referencia conceptual
+D006,PRECEDE,D080,juicio del analista; citación verificada de D080 a D006,relación inversa de D080 DEPENDE_DE D006: retoma la propuesta de gemelo digital de ciudad en desastre como referencia conceptual
+D078,EXTIENDE,D013,juicio del analista; citación verificada de D078 a D013,"construye un gemelo comunitario con datos públicos reales que operacionaliza parte del marco posdesastre de D013, con validación todavía simulada"
+D013,PRECEDE,D078,juicio del analista; citación verificada de D078 a D013,"relación inversa de D078 EXTIENDE D013: construye un gemelo comunitario con datos públicos reales que operacionaliza parte del marco posdesastre de D013, con validación todavía simulada"
+D070,COMPLEMENTA,D079,juicio del analista,D079 revisa gemelos urbanos con IoT e IA en ciudades inteligentes y D070 los aplica al caso de terremotos fuertes y a los ODS; ambos concluyen potencial con evidencia empírica escasa
+D079,COMPLEMENTA,D070,juicio del analista,relación inversa de D070 COMPLEMENTA D079: D079 revisa gemelos urbanos con IoT e IA en ciudades inteligentes y D070 los aplica al caso de terremotos fuertes y a los ODS; ambos concluyen potenci
+D070,DEPENDE_DE,D006,juicio del analista; citación verificada de D070 a D006,adopta el concepto de gemelo para gestión de desastres como base del análisis de beneficios de sostenibilidad
+D006,PRECEDE,D070,juicio del analista; citación verificada de D070 a D006,relación inversa de D070 DEPENDE_DE D006: adopta el concepto de gemelo para gestión de desastres como base del análisis de beneficios de sostenibilidad
+D034,CONFIRMA,D048,juicio del analista,"ambos estiman daño por edificio y necesidades de respuesta con gemelos urbanos y escenarios sísmicos; proceden de contextos y grupos distintos (Ningxia, China, y Kocaeli, Türkiye)"
+D048,CONFIRMA,D034,juicio del analista,relación inversa de D034 CONFIRMA D048: ambos estiman daño por edificio y necesidades de respuesta con gemelos urbanos y escenarios sísmicos; proceden de contextos y grupos distintos (Ningxi
+D034,COMPLEMENTA,D064,juicio del analista,D034 modela intensidad y daño por edificio con actualización por sensores; D064 aporta la arquitectura 5G y de borde para actualizar gemelos con baja latencia
+D064,COMPLEMENTA,D034,juicio del analista,relación inversa de D034 COMPLEMENTA D064: D034 modela intensidad y daño por edificio con actualización por sensores; D064 aporta la arquitectura 5G y de borde para actualizar gemelos con baja 
+D008,COMPLEMENTA,D064,juicio del analista,D008 resuelve la interoperabilidad entre simulaciones (ficha BSIC) y D064 la latencia de actualización; los dos desafíos coinciden con los identificados por D100 como barreras centrales
+D064,COMPLEMENTA,D008,juicio del analista,relación inversa de D008 COMPLEMENTA D064: D008 resuelve la interoperabilidad entre simulaciones (ficha BSIC) y D064 la latencia de actualización; los dos desafíos coinciden con los identificad
+D021,COMPLEMENTA,D025,juicio del analista,"D021 integra datos heterogéneos con repositorio BIM y web semántica para gestión de activos; D025 sincroniza BIM, inspecciones y sensores con identificadores persistentes alineados con IFC 4.3"
+D025,COMPLEMENTA,D021,juicio del analista,"relación inversa de D021 COMPLEMENTA D025: D021 integra datos heterogéneos con repositorio BIM y web semántica para gestión de activos; D025 sincroniza BIM, inspecciones y sensores con identifi"
+D004,CONFIRMA,D028,juicio del analista,"ambas revisiones concluyen que los gemelos digitales tienen potencial pero la implementación real es incipiente y depende de integración de datos, escalabilidad e inversión"
+D028,CONFIRMA,D004,juicio del analista,"relación inversa de D004 CONFIRMA D028: ambas revisiones concluyen que los gemelos digitales tienen potencial pero la implementación real es incipiente y depende de integración de datos, esc"
+D028,CONFIRMA,D079,juicio del analista,"ambas revisiones señalan interoperabilidad, calidad de datos y escalabilidad como barreras y escasa validación en operación real"
+D079,CONFIRMA,D028,juicio del analista,"relación inversa de D028 CONFIRMA D079: ambas revisiones señalan interoperabilidad, calidad de datos y escalabilidad como barreras y escasa validación en operación real"
+D013,CONFIRMA,D004,juicio del analista,coinciden en que la literatura de gemelos digitales es fragmentada e incipiente y en que faltan marcos integrados
+D004,CONFIRMA,D013,juicio del analista,relación inversa de D013 CONFIRMA D004: coinciden en que la literatura de gemelos digitales es fragmentada e incipiente y en que faltan marcos integrados
+D061,CONFIRMA,D013,juicio del analista; citación verificada de D061 a D013,"la revisión PRISMA de gemelos para inundaciones urbanas (85 estudios) reporta mejoras de pronóstico y respuesta y coincide en la necesidad de integrar datos de teledetección, IoT y modelos; D061 cita a D013 y D006"
+D013,CONFIRMA,D061,juicio del analista; citación verificada de D061 a D013,relación inversa de D061 CONFIRMA D013: la revisión PRISMA de gemelos para inundaciones urbanas (85 estudios) reporta mejoras de pronóstico y respuesta y coincide en la necesidad de integrar
+D081,COMPLEMENTA,D013,juicio del analista,D081 estudia el efecto del gemelo sobre la resiliencia de cadenas de suministro por etapas y D013 sobre la gestión posdesastre; ambas mezclan evidencia conceptual y de simulación
+D013,COMPLEMENTA,D081,juicio del analista,relación inversa de D081 COMPLEMENTA D013: D081 estudia el efecto del gemelo sobre la resiliencia de cadenas de suministro por etapas y D013 sobre la gestión posdesastre; ambas mezclan evidenci
+D081,CONFIRMA,D037,juicio del analista,"ambos hallan efectos por etapa de la disrupción, mayores en preparación y respuesta que en recuperación (D037 r=0,331 global y r=0,273 en recuperación)"
+D037,CONFIRMA,D081,juicio del analista,"relación inversa de D081 CONFIRMA D037: ambos hallan efectos por etapa de la disrupción, mayores en preparación y respuesta que en recuperación (D037 r=0,331 global y r=0,273 en recuperación"
+D037,COMPLEMENTA,D017,juicio del analista,D037 mide asociación entre tecnologías digitales y resiliencia de cadena de suministro con metaanálisis y D017 describe la evolución y barreras del IoT en esas cadenas
+D017,COMPLEMENTA,D037,juicio del analista,relación inversa de D037 COMPLEMENTA D017: D037 mide asociación entre tecnologías digitales y resiliencia de cadena de suministro con metaanálisis y D017 describe la evolución y barreras del Io
+D017,CONFIRMA,D016,juicio del analista,"ambos describen crecimiento de la literatura de IoT en cadenas de suministro desde 2017-2018 y concentración en blockchain, aprendizaje automático y Industria 4.0"
+D016,CONFIRMA,D017,juicio del analista,"relación inversa de D017 CONFIRMA D016: ambos describen crecimiento de la literatura de IoT en cadenas de suministro desde 2017-2018 y concentración en blockchain, aprendizaje automático y I"
+D051,COMPLEMENTA,D017,juicio del analista,"D051 clasifica 92 desafíos en 16 categorías y D017 sintetiza barreras (seguridad, interoperabilidad) para IoT en cadenas de suministro"
+D017,COMPLEMENTA,D051,juicio del analista,"relación inversa de D051 COMPLEMENTA D017: D051 clasifica 92 desafíos en 16 categorías y D017 sintetiza barreras (seguridad, interoperabilidad) para IoT en cadenas de suministro"
+D024,COMPLEMENTA,D016,juicio del analista,D024 trata cadenas de alimentos y D016 logística general; ambos son revisiones bibliométricas de periferia temática con IoT
+D016,COMPLEMENTA,D024,juicio del analista,relación inversa de D024 COMPLEMENTA D016: D024 trata cadenas de alimentos y D016 logística general; ambos son revisiones bibliométricas de periferia temática con IoT
+D077,COMPLEMENTA,D037,juicio del analista,"D077 propone un marco conceptual ilustrado con datos abiertos de compras en línea durante la pandemia en Australia, sin medir resiliencia; D037 cuantifica una asociación moderada y distinta por etapa, lo que matiza las afirmaciones generales de D077"
+D037,COMPLEMENTA,D077,juicio del analista,"relación inversa de D077 COMPLEMENTA D037: D077 propone un marco conceptual ilustrado con datos abiertos de compras en línea durante la pandemia en Australia, sin medir resiliencia; D037 cuanti"
+D007,EXTIENDE,D005,juicio del analista; citación verificada de D007 a D005,"D007 refina la tesis de D005 (los beneficios del IoT dependen de condiciones institucionales) con aceptación de partes interesadas, liderazgo digital y opacidad parcial; D007 cita a D005"
+D005,PRECEDE,D007,juicio del analista; citación verificada de D007 a D005,"relación inversa de D007 EXTIENDE D005: D007 refina la tesis de D005 (los beneficios del IoT dependen de condiciones institucionales) con aceptación de partes interesadas, liderazgo digital "
+D007,CONFIRMA,D005,juicio del analista; citación verificada de D007 a D005,"ambos concluyen que la adopción del IoT es un proceso organizacional y no solo técnico, con consecuencias estructurales"
+D005,CONFIRMA,D007,juicio del analista; citación verificada de D007 a D005,"relación inversa de D007 CONFIRMA D005: ambos concluyen que la adopción del IoT es un proceso organizacional y no solo técnico, con consecuencias estructurales"
+D030,DEPENDE_DE,D017,juicio del analista; citación verificada de D030 a D017,D030 cita a D017 como respaldo del vínculo entre IoT y resiliencia; su evidencia es una encuesta transversal
+D017,PRECEDE,D030,juicio del analista; citación verificada de D030 a D017,relación inversa de D030 DEPENDE_DE D017: D030 cita a D017 como respaldo del vínculo entre IoT y resiliencia; su evidencia es una encuesta transversal
+D030,CONFIRMA,D029,juicio del analista,ambos muestran con encuestas que IoT y gemelo digital mejoran la resiliencia organizacional operativa mediante capacidades; ambos son transversales y de autorreporte
+D029,CONFIRMA,D030,juicio del analista,relación inversa de D030 CONFIRMA D029: ambos muestran con encuestas que IoT y gemelo digital mejoran la resiliencia organizacional operativa mediante capacidades; ambos son transversales y 
+D082,CONTRADICE,D030,juicio del analista,"D082 concibe la resiliencia organizacional como propiedad emergente de mecanismos colectivos, adaptativos y dinámicos, mientras D030 la trata como variable mediadora lineal entre tecnología y desempeño; tensión conceptual no resuelta"
+D030,CONTRADICE,D082,juicio del analista,"relación inversa de D082 CONTRADICE D030: D082 concibe la resiliencia organizacional como propiedad emergente de mecanismos colectivos, adaptativos y dinámicos, mientras D030 la trata como var"
+D082,COMPLEMENTA,D029,juicio del analista,D082 ofrece el marco de mecanismos y D029 aporta evidencia sobre capacidad de absorción y turbulencia tecnológica como moderador
+D029,COMPLEMENTA,D082,juicio del analista,relación inversa de D082 COMPLEMENTA D029: D082 ofrece el marco de mecanismos y D029 aporta evidencia sobre capacidad de absorción y turbulencia tecnológica como moderador
+D052,COMPLEMENTA,D085,juicio del analista,"D052 identifica la transparencia de la información como mediador del efecto del gemelo en la eficiencia (0,749); D085 identifica factores de oficina, obra e interfaz; ambos usan encuestas de percepción en construcción"
+D085,COMPLEMENTA,D052,juicio del analista,"relación inversa de D052 COMPLEMENTA D085: D052 identifica la transparencia de la información como mediador del efecto del gemelo en la eficiencia (0,749); D085 identifica factores de oficina, "
+D085,CONFIRMA,D052,juicio del analista,"coinciden en que el valor del gemelo digital en construcción pasa por el intercambio de información y la decisión colaborativa, no por la tecnología por sí sola"
+D052,CONFIRMA,D085,juicio del analista,"relación inversa de D085 CONFIRMA D052: coinciden en que el valor del gemelo digital en construcción pasa por el intercambio de información y la decisión colaborativa, no por la tecnología p"
+D029,CONFIRMA,D005,juicio del analista,la capacidad de absorción de conocimiento como condición de beneficio refuerza la tesis de D005 sobre condiciones institucionales de la adopción
+D005,CONFIRMA,D029,juicio del analista,relación inversa de D029 CONFIRMA D005: la capacidad de absorción de conocimiento como condición de beneficio refuerza la tesis de D005 sobre condiciones institucionales de la adopción
+D012,CONFIRMA,D003,juicio del analista,"ambos señalan que las soluciones tecnológicas dominan la literatura de desastres con integración débil de conocimiento, equidad y factores humanos"
+D003,CONFIRMA,D012,juicio del analista,"relación inversa de D012 CONFIRMA D003: ambos señalan que las soluciones tecnológicas dominan la literatura de desastres con integración débil de conocimiento, equidad y factores humanos"
+D099,CONFIRMA,D003,juicio del analista,"coinciden en que la evidencia es fragmentada y en que faltan estudios sobre las condiciones de adopción tecnológica en desastres (barreras y factores críticos en D099; acceso, equidad y gobernanza en D003)"
+D003,CONFIRMA,D099,juicio del analista,relación inversa de D099 CONFIRMA D003: coinciden en que la evidencia es fragmentada y en que faltan estudios sobre las condiciones de adopción tecnológica en desastres (barreras y factores 
+D099,COMPLEMENTA,D013,juicio del analista,D099 mapea seis familias de Industria 4.0 en gestión de riesgo de desastres y D013 se centra en gemelos posdesastre; ambos reconocen un campo incipiente
+D013,COMPLEMENTA,D099,juicio del analista,relación inversa de D099 COMPLEMENTA D013: D099 mapea seis familias de Industria 4.0 en gestión de riesgo de desastres y D013 se centra en gemelos posdesastre; ambos reconocen un campo incipien
+D099,CONFIRMA,D050,juicio del analista,ambos identifican el IoT como núcleo de la gestión de desastres con beneficios de monitoreo y comunicación y con desafíos de confiabilidad
+D050,CONFIRMA,D099,juicio del analista,relación inversa de D099 CONFIRMA D050: ambos identifican el IoT como núcleo de la gestión de desastres con beneficios de monitoreo y comunicación y con desafíos de confiabilidad
+D087,COMPLEMENTA,D003,juicio del analista,"ambos son editoriales de política sin datos propios: D087 sobre el sistema de ciencia, tecnología e innovación de Colombia (2008) y D003 sobre tecnología y gestión de desastres (2026); D087 aporta el contexto institucional nacional"
+D003,COMPLEMENTA,D087,juicio del analista,"relación inversa de D087 COMPLEMENTA D003: ambos son editoriales de política sin datos propios: D087 sobre el sistema de ciencia, tecnología e innovación de Colombia (2008) y D003 sobre tecnolo"
+D040,EXTIENDE,D054,juicio del analista; citación verificada de D040 a D054,D040 incorpora pérdidas indirectas y carbono del ciclo de vida al análisis costo-beneficio de refuerzo que D054 desarrolla con víctimas y reparaciones; D040 cita a D054
+D054,PRECEDE,D040,juicio del analista; citación verificada de D040 a D054,relación inversa de D040 EXTIENDE D054: D040 incorpora pérdidas indirectas y carbono del ciclo de vida al análisis costo-beneficio de refuerzo que D054 desarrolla con víctimas y reparaciones
+D040,DEPENDE_DE,D002,juicio del analista; citación verificada de D040 a D002,D040 cita a D002 al comparar estrategias de refuerzo con camisas de acero
+D002,PRECEDE,D040,juicio del analista; citación verificada de D040 a D002,relación inversa de D040 DEPENDE_DE D002: D040 cita a D002 al comparar estrategias de refuerzo con camisas de acero
+D040,CONFIRMA,D069,juicio del analista,"ambos muestran que incluir recuperación, tiempo de inhabilitación y pérdidas indirectas cambia la medida preferida de refuerzo frente a considerar solo pérdidas directas"
+D069,CONFIRMA,D040,juicio del analista,"relación inversa de D040 CONFIRMA D069: ambos muestran que incluir recuperación, tiempo de inhabilitación y pérdidas indirectas cambia la medida preferida de refuerzo frente a considerar sol"
+D069,COMPLEMENTA,D054,juicio del analista,D054 valora la reducción de víctimas y D069 la ganancia de funcionalidad; ambos contribuyen a justificar el refuerzo más allá de las reparaciones
+D054,COMPLEMENTA,D069,juicio del analista,relación inversa de D069 COMPLEMENTA D054: D054 valora la reducción de víctimas y D069 la ganancia de funcionalidad; ambos contribuyen a justificar el refuerzo más allá de las reparaciones
+D053,CONFIRMA,D011,juicio del analista,ambos muestran que el tiempo de reparación del edificio no basta como medida de recuperación y que las demoras y la inactividad deben modelarse; D011 antecede a D053
+D011,CONFIRMA,D053,juicio del analista,relación inversa de D053 CONFIRMA D011: ambos muestran que el tiempo de reparación del edificio no basta como medida de recuperación y que las demoras y la inactividad deben modelarse; D011 
+D053,COMPLEMENTA,D040,juicio del analista; autoría compartida,comparten autoría (Galasso): D053 aporta modelos de consecuencia de tiempo de recuperación y D040 los usa en decisiones de refuerzo; no son confirmaciones independientes
+D040,COMPLEMENTA,D053,juicio del analista; autoría compartida,relación inversa de D053 COMPLEMENTA D040: comparten autoría (Galasso): D053 aporta modelos de consecuencia de tiempo de recuperación y D040 los usa en decisiones de refuerzo; no son confirmaci
+D002,COMPLEMENTA,D067,juicio del analista,D002 optimiza camisas de acero con algoritmo genético (costo 40 % menor) y D067 evalúa camisas de concreto con fibras de acero (capacidad cortante hasta 39 % mayor); ambos son estudios de caso en estructuras específicas
+D067,COMPLEMENTA,D002,juicio del analista,relación inversa de D002 COMPLEMENTA D067: D002 optimiza camisas de acero con algoritmo genético (costo 40 % menor) y D067 evalúa camisas de concreto con fibras de acero (capacidad cortante has
+D027,COMPLEMENTA,D002,juicio del analista,D027 compara fibras de vidrio y carbono por rentabilidad del confinamiento y D002 el costo de camisas de acero; ambos priorizan costo con evidencia de laboratorio o modelo
+D002,COMPLEMENTA,D027,juicio del analista,relación inversa de D027 COMPLEMENTA D002: D027 compara fibras de vidrio y carbono por rentabilidad del confinamiento y D002 el costo de camisas de acero; ambos priorizan costo con evidencia de
+D011,PRECEDE,D053,juicio del analista,el marco analítico de D011 (varios tipos de inactividad y tácticas de mitigación) antecede a los modelos de simulación de alta fidelidad de D053
+D053,EXTIENDE,D011,juicio del analista,relación inversa de D011 PRECEDE D053: el marco analítico de D011 (varios tipos de inactividad y tácticas de mitigación) antecede a los modelos de simulación de alta fidelidad de D053
+D075,EXTIENDE,D045,juicio del analista; citación verificada de D075 a D045; autoría compartida,D075 lleva la alerta sísmica de bajo costo a una red LoRa multisalto descentralizada; D045 revisa sensores MEMS de bajo costo y cita a D049; D075 cita a D045; comparten autoría (Prasanna)
+D045,PRECEDE,D075,juicio del analista; citación verificada de D075 a D045; autoría compartida,relación inversa de D075 EXTIENDE D045: D075 lleva la alerta sísmica de bajo costo a una red LoRa multisalto descentralizada; D045 revisa sensores MEMS de bajo costo y cita a D049; D075 cita
+D049,CONFIRMA,D073,juicio del analista,"ambos muestran que detectar y generar la alerta en el nodo reduce la latencia frente a arquitecturas centralizadas (D049 1,24 a 2,88 s; D073 localización más temprana en sismo de magnitud 5,4), con evidencia de simulación o datos históricos"
+D073,CONFIRMA,D049,juicio del analista,"relación inversa de D049 CONFIRMA D073: ambos muestran que detectar y generar la alerta en el nodo reduce la latencia frente a arquitecturas centralizadas (D049 1,24 a 2,88 s; D073 localizac"
+D075,CONFIRMA,D049,juicio del analista; autoría compartida,"comparten autoría (Prasanna, Holden): la arquitectura descentralizada reduce la latencia; la concordancia procede del mismo grupo"
+D049,CONFIRMA,D075,juicio del analista; autoría compartida,"relación inversa de D075 CONFIRMA D049: comparten autoría (Prasanna, Holden): la arquitectura descentralizada reduce la latencia; la concordancia procede del mismo grupo"
+D063,COMPLEMENTA,D049,juicio del analista,ambos aplican el principio PLUM: D063 a ferrocarriles de alta velocidad con arquitectura jerárquica y D049 de forma modificada en sensores MEMS de bajo costo con procesamiento en el nodo
+D049,COMPLEMENTA,D063,juicio del analista,relación inversa de D063 COMPLEMENTA D049: ambos aplican el principio PLUM: D063 a ferrocarriles de alta velocidad con arquitectura jerárquica y D049 de forma modificada en sensores MEMS de baj
+D060,CONTRADICE,D041,juicio del analista,"D060 reporta que XGBoost supera a otros algoritmos en intensidad sísmica (99,05 %) y D041 que una red neuronal supera a XGBoost en magnitud; las tareas, datos y métricas difieren, por lo que el orden de modelos no es transferible"
+D041,CONTRADICE,D060,juicio del analista,"relación inversa de D060 CONTRADICE D041: D060 reporta que XGBoost supera a otros algoritmos en intensidad sísmica (99,05 %) y D041 que una red neuronal supera a XGBoost en magnitud; las tarea"
+D010,COMPLEMENTA,D041,juicio del analista,ambos estiman magnitud con aprendizaje automático; D010 corrige el desbalance de eventos grandes con datos sintéticos (CTGAN) y D041 compara modelos con datos históricos de California
+D041,COMPLEMENTA,D010,juicio del analista,relación inversa de D010 COMPLEMENTA D041: ambos estiman magnitud con aprendizaje automático; D010 corrige el desbalance de eventos grandes con datos sintéticos (CTGAN) y D041 compara modelos c
+D019,CONFIRMA,D042,juicio del analista; citación verificada de D042 a D019,"ambas revisiones integran IoT, UAV, comunicaciones y aprendizaje automático en el ciclo del terremoto y concluyen que la integración mejora la conciencia situacional con validación real escasa"
+D042,CONFIRMA,D019,juicio del analista; citación verificada de D042 a D019,"relación inversa de D019 CONFIRMA D042: ambas revisiones integran IoT, UAV, comunicaciones y aprendizaje automático en el ciclo del terremoto y concluyen que la integración mejora la concien"
+D019,DEPENDE_DE,D031,juicio del analista; citación verificada de D019 a D031,D019 cita a D031 como antecedente de IoT semántico para amenazas geológicas
+D031,PRECEDE,D019,juicio del analista; citación verificada de D019 a D031,relación inversa de D019 DEPENDE_DE D031: D019 cita a D031 como antecedente de IoT semántico para amenazas geológicas
+D019,COMPLEMENTA,D060,juicio del analista; citación verificada de D019 a D060; autoría compartida,"comparten autoría (Abdalzaher, Krichen): D019 revisa tecnologías emergentes y D060 aplica aprendizaje automático a intensidad sísmica en sitio"
+D060,COMPLEMENTA,D019,juicio del analista; citación verificada de D019 a D060; autoría compartida,"relación inversa de D019 COMPLEMENTA D060: comparten autoría (Abdalzaher, Krichen): D019 revisa tecnologías emergentes y D060 aplica aprendizaje automático a intensidad sísmica en sitio"
+D071,EXTIENDE,D031,juicio del analista,D071 desarrolla la semántica de IoT para detección sísmica (ontología SSN/SOSA y clasificador profundo) que D031 planteaba como arquitectura de alerta temprana
+D031,PRECEDE,D071,juicio del analista,relación inversa de D071 EXTIENDE D031: D071 desarrolla la semántica de IoT para detección sísmica (ontología SSN/SOSA y clasificador profundo) que D031 planteaba como arquitectura de alerta
+D064,CONFIRMA,D066,juicio del analista,"ambos sostienen que el cómputo en el borde reduce la latencia (D064 retardo medio de 2,1 ms; D066 mejora en simulación); D066 no tiene despliegue real"
+D066,CONFIRMA,D064,juicio del analista,"relación inversa de D064 CONFIRMA D066: ambos sostienen que el cómputo en el borde reduce la latencia (D064 retardo medio de 2,1 ms; D066 mejora en simulación); D066 no tiene despliegue real"
+D066,CONFIRMA,D065,juicio del analista,ambos son propuestas de asignación descentralizada de recursos en el borde validadas solo por simulación
+D065,CONFIRMA,D066,juicio del analista,relación inversa de D066 CONFIRMA D065: ambos son propuestas de asignación descentralizada de recursos en el borde validadas solo por simulación
+D043,CONFIRMA,D065,juicio del analista,validación únicamente simulada de marcos descentralizados con tecnologías de borde y aprendizaje federado
+D065,CONFIRMA,D043,juicio del analista,relación inversa de D043 CONFIRMA D065: validación únicamente simulada de marcos descentralizados con tecnologías de borde y aprendizaje federado
+D036,DEPENDE_DE,D074,juicio del analista; citación verificada de D036 a D074,D036 cita a D074 como marco de referencia de IoT con gemelo digital y requisitos de sostenibilidad y resiliencia
+D074,PRECEDE,D036,juicio del analista; citación verificada de D036 a D074,relación inversa de D036 DEPENDE_DE D074: D036 cita a D074 como marco de referencia de IoT con gemelo digital y requisitos de sostenibilidad y resiliencia
+D018,COMPLEMENTA,D055,juicio del analista,D018 integra agentes de IA y gemelos digitales (demostración por simulación de una red eléctrica genérica) y D055 modela gemelos como agentes BDI; ambos son propuestas de baja madurez
+D055,COMPLEMENTA,D018,juicio del analista,relación inversa de D018 COMPLEMENTA D055: D018 integra agentes de IA y gemelos digitales (demostración por simulación de una red eléctrica genérica) y D055 modela gemelos como agentes BDI; amb
+D059,COMPLEMENTA,D018,juicio del analista,D059 redefine el gemelo como motor de datos con modelo grande como motor de inteligencia y D018 usa el gemelo como entorno de simulación de agentes; ambos de baja madurez
+D018,COMPLEMENTA,D059,juicio del analista,relación inversa de D059 COMPLEMENTA D018: D059 redefine el gemelo como motor de datos con modelo grande como motor de inteligencia y D018 usa el gemelo como entorno de simulación de agentes; a
+D086,CONFIRMA,D039,juicio del analista; autoría compartida,"comparten autoría (Yu, Fu, Cui): resuelven calidad de datos y sincronización en redes inalámbricas de monitoreo estructural; no son confirmaciones independientes"
+D039,CONFIRMA,D086,juicio del analista; autoría compartida,"relación inversa de D086 CONFIRMA D039: comparten autoría (Yu, Fu, Cui): resuelven calidad de datos y sincronización en redes inalámbricas de monitoreo estructural; no son confirmaciones ind"
+D086,DEPENDE_DE,D033,juicio del analista,"D086 clasifica anomalías de datos a bordo, lo que atiende el hallazgo de D033 de que la calidad del dato pesa más que la arquitectura"
+D033,PRECEDE,D086,juicio del analista,"relación inversa de D086 DEPENDE_DE D033: D086 clasifica anomalías de datos a bordo, lo que atiende el hallazgo de D033 de que la calidad del dato pesa más que la arquitectura"
+D084,COMPLEMENTA,D039,juicio del analista,D084 sincroniza nodos por hardware (error de 50 microsegundos) y D039 corrige retardos por aprendizaje profundo; son soluciones alternativas al mismo problema
+D039,COMPLEMENTA,D084,juicio del analista,relación inversa de D084 COMPLEMENTA D039: D084 sincroniza nodos por hardware (error de 50 microsegundos) y D039 corrige retardos por aprendizaje profundo; son soluciones alternativas al mismo 
+D084,CONFIRMA,D068,juicio del analista,"ambos demuestran monitoreo estructural con IoT de bajo costo solo en laboratorio (modelo a escala o viga), con TRL 4 y sin pruebas de campo"
+D068,CONFIRMA,D084,juicio del analista,"relación inversa de D084 CONFIRMA D068: ambos demuestran monitoreo estructural con IoT de bajo costo solo en laboratorio (modelo a escala o viga), con TRL 4 y sin pruebas de campo"
+D084,COMPLEMENTA,D023,juicio del analista,"D084 valida nodos en laboratorio y D023 opera un gemelo con LoRaWAN en un puente ferroviario en servicio, lo que muestra la brecha entre prototipo y campo"
+D023,COMPLEMENTA,D084,juicio del analista,"relación inversa de D084 COMPLEMENTA D023: D084 valida nodos en laboratorio y D023 opera un gemelo con LoRaWAN en un puente ferroviario en servicio, lo que muestra la brecha entre prototipo y c"
+D009,CONFIRMA,D035,juicio del analista,ambos reconstruyen el comportamiento dinámico de puentes con modelos actualizados por datos con errores de hasta 5 % (D009: 1 % a 5 %; D035: menos de 5 % en frecuencias)
+D035,CONFIRMA,D009,juicio del analista,relación inversa de D009 CONFIRMA D035: ambos reconstruyen el comportamiento dinámico de puentes con modelos actualizados por datos con errores de hasta 5 % (D009: 1 % a 5 %; D035: menos de 
+D023,COMPLEMENTA,D035,juicio del analista,D023 mantiene medición continua con LoRaWAN y D035 actualiza el modelo por algoritmo genético en el puente de acero; ambos aportan a gemelos de puentes
+D035,COMPLEMENTA,D023,juicio del analista,relación inversa de D023 COMPLEMENTA D035: D023 mantiene medición continua con LoRaWAN y D035 actualiza el modelo por algoritmo genético en el puente de acero; ambos aportan a gemelos de puente
+D014,COMPLEMENTA,D020,juicio del analista,D014 define dónde instalar sensores en un edificio patrimonial y D020 asocia componentes de IoT con resiliencia sísmica; ambos de ingeniería de edificios con IoT
+D020,COMPLEMENTA,D014,juicio del analista,relación inversa de D014 COMPLEMENTA D020: D014 define dónde instalar sensores en un edificio patrimonial y D020 asocia componentes de IoT con resiliencia sísmica; ambos de ingeniería de edific
+D015,EXTIENDE,D020,juicio del analista; citación verificada de D015 a D020,"D015 modela de forma conjunta la incertidumbre del sensado y el cumplimiento normativo con un modelo bayesiano ordinal y cita a D020, que asocia componentes de IoT con la resiliencia sísmica mediante una encuesta"
+D020,PRECEDE,D015,juicio del analista; citación verificada de D015 a D020,"relación inversa de D015 EXTIENDE D020: D015 modela de forma conjunta la incertidumbre del sensado y el cumplimiento normativo con un modelo bayesiano ordinal y cita a D020, que asocia compo"
+D015,DEPENDE_DE,D056,juicio del analista; citación verificada de D015 a D056,D015 cita a D056 como antecedente de IoT en gestión de desastres
+D056,PRECEDE,D015,juicio del analista; citación verificada de D015 a D056,relación inversa de D015 DEPENDE_DE D056: D015 cita a D056 como antecedente de IoT en gestión de desastres
+D032,COMPLEMENTA,D009,juicio del analista,D032 mapea la literatura de gemelos con IA para SHM y D009 es un ejemplo de gemelo con monitoreo híbrido de modelo y datos
+D009,COMPLEMENTA,D032,juicio del analista,relación inversa de D032 COMPLEMENTA D009: D032 mapea la literatura de gemelos con IA para SHM y D009 es un ejemplo de gemelo con monitoreo híbrido de modelo y datos
+D062,COMPLEMENTA,D022,juicio del analista,D062 planifica trayectorias de AAV con LoRa por aprendizaje por refuerzo y D022 revisa UAV como estaciones base aéreas para restablecer comunicaciones; D062 se valida con simulaciones y pruebas de campo con una plataforma dron-LoRa y D022 sintetiza estudios con evidencia empírica a nivel de sistema
+D022,COMPLEMENTA,D062,juicio del analista,relación inversa de D062 COMPLEMENTA D022: D062 planifica trayectorias de AAV con LoRa por aprendizaje por refuerzo y D022 revisa UAV como estaciones base aéreas para restablecer comunicaciones
+D001,COMPLEMENTA,D062,juicio del analista,D001 optimiza la ruta y la energía de un UAV para recolectar datos y D062 la trayectoria y la conectividad; ambos con simulación
+D062,COMPLEMENTA,D001,juicio del analista,relación inversa de D001 COMPLEMENTA D062: D001 optimiza la ruta y la energía de un UAV para recolectar datos y D062 la trayectoria y la conectividad; ambos con simulación
+D076,COMPLEMENTA,D042,juicio del analista,D076 clasifica daño posterremoto en imágenes de UAV con aprendizaje profundo ligero y D042 revisa IoT y UAV en la gestión del terremoto
+D042,COMPLEMENTA,D076,juicio del analista,relación inversa de D076 COMPLEMENTA D042: D076 clasifica daño posterremoto en imágenes de UAV con aprendizaje profundo ligero y D042 revisa IoT y UAV en la gestión del terremoto
+D044,CONFIRMA,D050,juicio del analista,"ambos informan beneficios del IoT en respuesta a emergencias y gestión de desastres, con ejemplos descriptivos"
+D050,CONFIRMA,D044,juicio del analista,"relación inversa de D044 CONFIRMA D050: ambos informan beneficios del IoT en respuesta a emergencias y gestión de desastres, con ejemplos descriptivos"
+D056,CONFIRMA,D050,juicio del analista,"ambos describen mejoras del IoT en alerta temprana, monitoreo y comunicación para desastres naturales con evidencia mayormente descriptiva"
+D050,CONFIRMA,D056,juicio del analista,"relación inversa de D056 CONFIRMA D050: ambos describen mejoras del IoT en alerta temprana, monitoreo y comunicación para desastres naturales con evidencia mayormente descriptiva"
+D026,COMPLEMENTA,D048,juicio del analista,D026 caracteriza las soluciones digitales tras el terremoto de 2023 en Türkiye (plataformas web de proveedores privados) y D048 modela un gemelo para una respuesta en Kocaeli; ambos con Türkiye como referencia territorial
+D048,COMPLEMENTA,D026,juicio del analista,relación inversa de D026 COMPLEMENTA D048: D026 caracteriza las soluciones digitales tras el terremoto de 2023 en Türkiye (plataformas web de proveedores privados) y D048 modela un gemelo para 
+D047,COMPLEMENTA,D026,juicio del analista,D047 revisa SIG en la gestión del transporte posterremoto y D026 las soluciones digitales de respuesta y recuperación; ambos con evidencia mayormente descriptiva
+D026,COMPLEMENTA,D047,juicio del analista,relación inversa de D047 COMPLEMENTA D026: D047 revisa SIG en la gestión del transporte posterremoto y D026 las soluciones digitales de respuesta y recuperación; ambos con evidencia mayormente 
+D100,PRECEDE,D101,juicio del analista,ambas son síntesis automáticas del mismo tema generadas en 2026 por buscadores distintos; D101 comparte al menos dos documentos de referencia con la lista de D100
+D101,EXTIENDE,D100,juicio del analista,relación inversa de D100 PRECEDE D101: ambas son síntesis automáticas del mismo tema generadas en 2026 por buscadores distintos; D101 comparte al menos dos documentos de referencia con la l
+D101,CONFIRMA,D100,juicio del analista,"coinciden en la conclusión de que gemelo digital, IoT e Industria 4.0 son centrales para la recuperación posdesastre, pero no son fuentes independientes (la lista de D100 incluye los documentos D070 y D080 citados por D101)"
+D100,CONFIRMA,D101,juicio del analista,"relación inversa de D101 CONFIRMA D100: coinciden en la conclusión de que gemelo digital, IoT e Industria 4.0 son centrales para la recuperación posdesastre, pero no son fuentes independient"
+D101,DEPENDE_DE,D099,juicio del analista,la primera referencia de D101 es la revisión de Habibi Rad et al. (D099)
+D099,PRECEDE,D101,juicio del analista,relación inversa de D101 DEPENDE_DE D099: la primera referencia de D101 es la revisión de Habibi Rad et al. (D099)
+D101,DEPENDE_DE,D070,juicio del analista,la segunda referencia de D101 es el estudio de Habib et al. (D070)
+D070,PRECEDE,D101,juicio del analista,relación inversa de D101 DEPENDE_DE D070: la segunda referencia de D101 es el estudio de Habib et al. (D070)
+D101,DEPENDE_DE,D080,juicio del analista,la tercera referencia de D101 es el estudio de caso de Cayirova (D080)
+D080,PRECEDE,D101,juicio del analista,relación inversa de D101 DEPENDE_DE D080: la tercera referencia de D101 es el estudio de caso de Cayirova (D080)
+D100,COMPLEMENTA,D099,juicio del analista,"D100 declara un alcance de 2020-2024 pero su lista incluye 49 referencias de 2025-2026 y no declara protocolo; D099 cubre el tema hasta junio de 2021 con protocolo PRISMA declarado, lo que contrasta el rigor y el periodo"
+D099,COMPLEMENTA,D100,juicio del analista,relación inversa de D100 COMPLEMENTA D099: D100 declara un alcance de 2020-2024 pero su lista incluye 49 referencias de 2025-2026 y no declara protocolo; D099 cubre el tema hasta junio de 2021 
+D001,DEPENDE_DE,D031,citación verificada,cita a D031 en su lista de referencias (verificado por coincidencia de título); D031: IoT semántico y alerta temprana de amenazas geológicas
+D031,PRECEDE,D001,citación verificada,es citado por D001 (verificado por coincidencia de título)
+D013,DEPENDE_DE,D012,citación verificada,cita a D012 en su lista de referencias (verificado por coincidencia de título); D012: Gestión del conocimiento y aprendizaje organizacional en desastres
+D012,PRECEDE,D013,citación verificada,es citado por D013 (verificado por coincidencia de título)
+D013,DEPENDE_DE,D034,citación verificada,cita a D034 en su lista de referencias (verificado por coincidencia de título); D034: Gemelo digital de ciudad ante sismos
+D034,PRECEDE,D013,citación verificada,es citado por D013 (verificado por coincidencia de título)
+D013,DEPENDE_DE,D056,citación verificada,cita a D056 en su lista de referencias (verificado por coincidencia de título); D056: IoT en gestión de desastres: marco descriptivo y ejemplos de implement
+D056,PRECEDE,D013,citación verificada,es citado por D013 (verificado por coincidencia de título)
+D013,DEPENDE_DE,D072,citación verificada,cita a D072 en su lista de referencias (verificado por coincidencia de título); D072: Gemelo digital para gestión de desastres con modelado híbrido y simili
+D072,PRECEDE,D013,citación verificada,es citado por D013 (verificado por coincidencia de título)
+D019,DEPENDE_DE,D071,citación verificada,"cita a D071 en su lista de referencias (verificado por coincidencia de título); D071: Detección sísmica con IoT, interoperabilidad semántica y aprendizaje a"
+D071,PRECEDE,D019,citación verificada,es citado por D019 (verificado por coincidencia de título)
+D045,DEPENDE_DE,D049,citación verificada,cita a D049 en su lista de referencias (verificado por coincidencia de título); D049: Alerta temprana sísmica de bajo costo con procesamiento en el nodo
+D049,PRECEDE,D045,citación verificada,es citado por D045 (verificado por coincidencia de título)
+D060,DEPENDE_DE,D031,citación verificada,cita a D031 en su lista de referencias (verificado por coincidencia de título); D031: IoT semántico y alerta temprana de amenazas geológicas
+D031,PRECEDE,D060,citación verificada,es citado por D060 (verificado por coincidencia de título)
+D061,DEPENDE_DE,D006,citación verificada,cita a D006 en su lista de referencias (verificado por coincidencia de título); D006: Gemelo digital para gestión de desastres e inteligencia artificial
+D006,PRECEDE,D061,citación verificada,es citado por D061 (verificado por coincidencia de título)
+D080,DEPENDE_DE,D072,citación verificada,cita a D072 en su lista de referencias (verificado por coincidencia de título); D072: Gemelo digital para gestión de desastres con modelado híbrido y simili
+D072,PRECEDE,D080,citación verificada,es citado por D080 (verificado por coincidencia de título)
+D100,DEPENDE_DE,D013,citación verificada (lista de referencias de D100),referencia 2 de la lista de la síntesis
+D013,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 2 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D059,citación verificada (lista de referencias de D100),referencia 3 de la lista de la síntesis
+D059,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 3 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D028,citación verificada (lista de referencias de D100),referencia 4 de la lista de la síntesis
+D028,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 4 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D064,citación verificada (lista de referencias de D100),referencia 5 de la lista de la síntesis
+D064,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 5 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D048,citación verificada (lista de referencias de D100),referencia 6 de la lista de la síntesis
+D048,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 6 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D041,citación verificada (lista de referencias de D100),referencia 7 de la lista de la síntesis
+D041,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 7 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D032,citación verificada (lista de referencias de D100),referencia 8 de la lista de la síntesis
+D032,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 8 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D083,citación verificada (lista de referencias de D100),referencia 11 de la lista de la síntesis
+D083,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 11 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D005,citación verificada (lista de referencias de D100),referencia 12 de la lista de la síntesis
+D005,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 12 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D065,citación verificada (lista de referencias de D100),referencia 13 de la lista de la síntesis
+D065,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 13 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D066,citación verificada (lista de referencias de D100),referencia 14 de la lista de la síntesis
+D066,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 14 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D011,citación verificada (lista de referencias de D100),referencia 16 de la lista de la síntesis
+D011,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 16 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D020,citación verificada (lista de referencias de D100),referencia 17 de la lista de la síntesis
+D020,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 17 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D044,citación verificada (lista de referencias de D100),referencia 18 de la lista de la síntesis
+D044,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 18 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D080,citación verificada (lista de referencias de D100),referencia 19 de la lista de la síntesis
+D080,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 19 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D053,citación verificada (lista de referencias de D100),referencia 20 de la lista de la síntesis
+D053,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 20 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D034,citación verificada (lista de referencias de D100),referencia 21 de la lista de la síntesis
+D034,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 21 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D078,citación verificada (lista de referencias de D100),referencia 22 de la lista de la síntesis
+D078,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 22 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D084,citación verificada (lista de referencias de D100),referencia 23 de la lista de la síntesis
+D084,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 23 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D068,citación verificada (lista de referencias de D100),referencia 24 de la lista de la síntesis
+D068,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 24 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D014,citación verificada (lista de referencias de D100),referencia 25 de la lista de la síntesis
+D014,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 25 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D086,citación verificada (lista de referencias de D100),referencia 26 de la lista de la síntesis
+D086,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 26 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D039,citación verificada (lista de referencias de D100),referencia 27 de la lista de la síntesis
+D039,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 27 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D027,citación verificada (lista de referencias de D100),referencia 28 de la lista de la síntesis
+D027,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 28 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D069,citación verificada (lista de referencias de D100),referencia 29 de la lista de la síntesis
+D069,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 29 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D054,citación verificada (lista de referencias de D100),referencia 30 de la lista de la síntesis
+D054,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 30 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D040,citación verificada (lista de referencias de D100),referencia 31 de la lista de la síntesis
+D040,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 31 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D067,citación verificada (lista de referencias de D100),referencia 32 de la lista de la síntesis
+D067,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 32 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D002,citación verificada (lista de referencias de D100),referencia 33 de la lista de la síntesis
+D002,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 33 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D019,citación verificada (lista de referencias de D100),referencia 34 de la lista de la síntesis
+D019,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 34 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D042,citación verificada (lista de referencias de D100),referencia 35 de la lista de la síntesis
+D042,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 35 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D047,citación verificada (lista de referencias de D100),referencia 36 de la lista de la síntesis
+D047,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 36 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D037,citación verificada (lista de referencias de D100),referencia 37 de la lista de la síntesis
+D037,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 37 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D026,citación verificada (lista de referencias de D100),referencia 38 de la lista de la síntesis
+D026,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 38 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D004,citación verificada (lista de referencias de D100),referencia 39 de la lista de la síntesis
+D004,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 39 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D081,citación verificada (lista de referencias de D100),referencia 40 de la lista de la síntesis
+D081,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 40 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D055,citación verificada (lista de referencias de D100),referencia 42 de la lista de la síntesis
+D055,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 42 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D038,citación verificada (lista de referencias de D100),referencia 43 de la lista de la síntesis
+D038,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 43 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D018,citación verificada (lista de referencias de D100),referencia 44 de la lista de la síntesis
+D018,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 44 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D072,citación verificada (lista de referencias de D100),referencia 45 de la lista de la síntesis
+D072,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 45 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D061,citación verificada (lista de referencias de D100),referencia 46 de la lista de la síntesis
+D061,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 46 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D021,citación verificada (lista de referencias de D100),referencia 47 de la lista de la síntesis
+D021,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 47 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D025,citación verificada (lista de referencias de D100),referencia 48 de la lista de la síntesis
+D025,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 48 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D035,citación verificada (lista de referencias de D100),referencia 49 de la lista de la síntesis
+D035,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 49 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D058,citación verificada (lista de referencias de D100),referencia 50 de la lista de la síntesis
+D058,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 50 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D008,citación verificada (lista de referencias de D100),referencia 51 de la lista de la síntesis
+D008,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 51 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D073,citación verificada (lista de referencias de D100),referencia 52 de la lista de la síntesis
+D073,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 52 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D045,citación verificada (lista de referencias de D100),referencia 53 de la lista de la síntesis
+D045,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 53 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D049,citación verificada (lista de referencias de D100),referencia 54 de la lista de la síntesis
+D049,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 54 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D063,citación verificada (lista de referencias de D100),referencia 55 de la lista de la síntesis
+D063,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 55 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D010,citación verificada (lista de referencias de D100),referencia 56 de la lista de la síntesis
+D010,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 56 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D060,citación verificada (lista de referencias de D100),referencia 57 de la lista de la síntesis
+D060,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 57 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D001,citación verificada (lista de referencias de D100),referencia 58 de la lista de la síntesis
+D001,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 58 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D076,citación verificada (lista de referencias de D100),referencia 59 de la lista de la síntesis
+D076,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 59 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D022,citación verificada (lista de referencias de D100),referencia 60 de la lista de la síntesis
+D022,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 60 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D062,citación verificada (lista de referencias de D100),referencia 61 de la lista de la síntesis
+D062,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 61 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D024,citación verificada (lista de referencias de D100),referencia 62 de la lista de la síntesis
+D024,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 62 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D017,citación verificada (lista de referencias de D100),referencia 63 de la lista de la síntesis
+D017,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 63 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D051,citación verificada (lista de referencias de D100),referencia 64 de la lista de la síntesis
+D051,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 64 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D033,citación verificada (lista de referencias de D100),referencia 65 de la lista de la síntesis
+D033,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 65 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D016,citación verificada (lista de referencias de D100),referencia 66 de la lista de la síntesis
+D016,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 66 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D075,citación verificada (lista de referencias de D100),referencia 67 de la lista de la síntesis
+D075,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 67 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D031,citación verificada (lista de referencias de D100),referencia 69 de la lista de la síntesis
+D031,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 69 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D071,citación verificada (lista de referencias de D100),referencia 70 de la lista de la síntesis
+D071,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 70 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D036,citación verificada (lista de referencias de D100),referencia 72 de la lista de la síntesis
+D036,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 72 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D079,citación verificada (lista de referencias de D100),referencia 73 de la lista de la síntesis
+D079,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 73 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D006,citación verificada (lista de referencias de D100),referencia 74 de la lista de la síntesis
+D006,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 74 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D009,citación verificada (lista de referencias de D100),referencia 75 de la lista de la síntesis
+D009,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 75 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D023,citación verificada (lista de referencias de D100),referencia 76 de la lista de la síntesis
+D023,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 76 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D015,citación verificada (lista de referencias de D100),referencia 77 de la lista de la síntesis
+D015,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 77 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D074,citación verificada (lista de referencias de D100),referencia 78 de la lista de la síntesis
+D074,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 78 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D057,citación verificada (lista de referencias de D100),referencia 80 de la lista de la síntesis
+D057,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 80 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D029,citación verificada (lista de referencias de D100),referencia 81 de la lista de la síntesis
+D029,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 81 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D007,citación verificada (lista de referencias de D100),referencia 82 de la lista de la síntesis
+D007,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 82 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D085,citación verificada (lista de referencias de D100),referencia 83 de la lista de la síntesis
+D085,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 83 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D052,citación verificada (lista de referencias de D100),referencia 84 de la lista de la síntesis
+D052,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 84 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D046,citación verificada (lista de referencias de D100),referencia 85 de la lista de la síntesis
+D046,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 85 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D077,citación verificada (lista de referencias de D100),referencia 86 de la lista de la síntesis
+D077,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 86 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D003,citación verificada (lista de referencias de D100),referencia 87 de la lista de la síntesis
+D003,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 87 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D056,citación verificada (lista de referencias de D100),referencia 88 de la lista de la síntesis
+D056,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 88 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D030,citación verificada (lista de referencias de D100),referencia 89 de la lista de la síntesis
+D030,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 89 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D012,citación verificada (lista de referencias de D100),referencia 90 de la lista de la síntesis
+D012,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 90 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D050,citación verificada (lista de referencias de D100),referencia 91 de la lista de la síntesis
+D050,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 91 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D082,citación verificada (lista de referencias de D100),referencia 92 de la lista de la síntesis
+D082,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 92 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D043,citación verificada (lista de referencias de D100),referencia 93 de la lista de la síntesis
+D043,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 93 de la síntesis de Scopus AI
+D100,DEPENDE_DE,D070,citación verificada (lista de referencias de D100),referencia 1 de la lista de la síntesis
+D070,PRECEDE,D100,citación verificada (lista de referencias de D100),es la referencia 1 de la síntesis de Scopus AI

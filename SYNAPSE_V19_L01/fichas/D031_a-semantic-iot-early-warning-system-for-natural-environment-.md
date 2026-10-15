@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D019 (IoT y alerta temprana en la gestión de desastres sísmicos): relación inversa de D019 DEPENDE_DE D031: D019 cita a D031 como antecedente de IoT semántico para amenazas geológicas [juicio del analista; citación verificada de D019 a D031]
+- **PRECEDE** D071 (Detección sísmica con IoT, interoperabilidad semántica y aprendizaje a): relación inversa de D071 EXTIENDE D031: D071 desarrolla la semántica de IoT para detección sísmica (ontología SSN/SOSA y clasificador profundo) que D031 planteaba como arquitectura de alerta [juicio del analista]
+- **PRECEDE** D001 (IoT-UAV para respuesta a desastres): es citado por D001 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D060 (Alerta temprana sísmica en el sitio con aprendizaje automático): es citado por D060 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 69 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D070 (Gemelo digital, resiliencia sísmica urbana y sostenibilidad en ciudade): relación inversa de D070 COMPLEMENTA D079: D079 revisa gemelos urbanos con IoT e IA en ciudades inteligentes y D070 los aplica al caso de terremotos fuertes y a los ODS; ambos concluyen potenci [juicio del analista]
+- **CONFIRMA** D028 (Gemelos digitales en infraestructura civil): relación inversa de D028 CONFIRMA D079: ambas revisiones señalan interoperabilidad, calidad de datos y escalabilidad como barreras y escasa validación en operación real [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 73 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

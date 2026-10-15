@@ -72,7 +72,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D028 (Gemelos digitales en infraestructura civil): ambas revisiones concluyen que los gemelos digitales tienen potencial pero la implementación real es incipiente y depende de integración de datos, escalabilidad e inversión [juicio del analista]
+- **CONFIRMA** D013 (Gemelos digitales para gestión posdesastre y recuperación): relación inversa de D013 CONFIRMA D004: coinciden en que la literatura de gemelos digitales es fragmentada e incipiente y en que faltan marcos integrados [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 39 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D054 (Economía del refuerzo sísmico de edificios antiguos de concreto): D040 incorpora pérdidas indirectas y carbono del ciclo de vida al análisis costo-beneficio de refuerzo que D054 desarrolla con víctimas y reparaciones; D040 cita a D054 [juicio del analista; citación verificada de D040 a D054]
+- **DEPENDE_DE** D002 (Reforzamiento sísmico y economía de la adaptación): D040 cita a D002 al comparar estrategias de refuerzo con camisas de acero [juicio del analista; citación verificada de D040 a D002]
+- **CONFIRMA** D069 (Resiliencia sísmica, tiempo de recuperación y análisis costo-beneficio): ambos muestran que incluir recuperación, tiempo de inhabilitación y pérdidas indirectas cambia la medida preferida de refuerzo frente a considerar solo pérdidas directas [juicio del analista]
+- **COMPLEMENTA** D053 (Tiempo de recuperación posterremoto de edificios en evaluación regiona): relación inversa de D053 COMPLEMENTA D040: comparten autoría (Galasso): D053 aporta modelos de consecuencia de tiempo de recuperación y D040 los usa en decisiones de refuerzo; no son confirmaci [juicio del analista; autoría compartida]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 31 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

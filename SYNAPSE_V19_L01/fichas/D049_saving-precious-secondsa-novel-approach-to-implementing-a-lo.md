@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D073 (Alerta temprana sísmica con IoT, cómputo en la nube y localización con): ambos muestran que detectar y generar la alerta en el nodo reduce la latencia frente a arquitecturas centralizadas (D049 1,24 a 2,88 s; D073 localización más temprana en sismo de magnitud 5,4), con evidencia de simulación o datos históricos [juicio del analista]
+- **CONFIRMA** D075 (Alerta temprana sísmica descentralizada con LoRa multisalto, resilienc): relación inversa de D075 CONFIRMA D049: comparten autoría (Prasanna, Holden): la arquitectura descentralizada reduce la latencia; la concordancia procede del mismo grupo [juicio del analista; autoría compartida]
+- **COMPLEMENTA** D063 (Alerta temprana sísmica y respuesta de emergencia en ferrocarriles de ): relación inversa de D063 COMPLEMENTA D049: ambos aplican el principio PLUM: D063 a ferrocarriles de alta velocidad con arquitectura jerárquica y D049 de forma modificada en sensores MEMS de baj [juicio del analista]
+- **PRECEDE** D045 (Alerta temprana sísmica de bajo costo con sensores MEMS (revisión)): es citado por D045 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 54 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

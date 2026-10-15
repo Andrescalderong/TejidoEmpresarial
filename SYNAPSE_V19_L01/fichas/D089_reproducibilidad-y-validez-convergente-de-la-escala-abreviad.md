@@ -71,7 +71,7 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- Sin relación temática con el eje del corpus; comparte número de revista (Biomédica 28(3), 2008) con D087-D098; actúa como control negativo en las pruebas de similitud y sensibilidad [juicio del analista]
 
 ### Capa 4 — Control de calidad
 

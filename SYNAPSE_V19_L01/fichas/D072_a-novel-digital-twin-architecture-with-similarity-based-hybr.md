@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D048 (Gemelo digital como imagen operativa común para respuesta sísmica): relación inversa de D048 EXTIENDE D072: usa el gemelo digital como imagen operativa común para estimar daños y necesidades de rescate, apoyado en el antecedente de modelado híbrido físico-da [juicio del analista; citación verificada de D048 a D072]
+- **PRECEDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): es citado por D013 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D080 (Gemelo digital sísmico con IoT para gestión de desastres y resiliencia): es citado por D080 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 45 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

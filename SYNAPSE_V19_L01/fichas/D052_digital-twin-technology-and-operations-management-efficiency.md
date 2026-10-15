@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D085 (Gemelos digitales en gestión de proyectos de construcción): D052 identifica la transparencia de la información como mediador del efecto del gemelo en la eficiencia (0,749); D085 identifica factores de oficina, obra e interfaz; ambos usan encuestas de percepción en construcción [juicio del analista]
+- **CONFIRMA** D085 (Gemelos digitales en gestión de proyectos de construcción): relación inversa de D085 CONFIRMA D052: coinciden en que el valor del gemelo digital en construcción pasa por el intercambio de información y la decisión colaborativa, no por la tecnología p [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 84 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

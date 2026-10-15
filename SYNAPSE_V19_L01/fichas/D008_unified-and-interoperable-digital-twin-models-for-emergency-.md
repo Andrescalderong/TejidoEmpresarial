@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D064 (Gemelo digital, monitoreo sísmico y 5G con cómputo en el borde): D008 resuelve la interoperabilidad entre simulaciones (ficha BSIC) y D064 la latencia de actualización; los dos desafíos coinciden con los identificados por D100 como barreras centrales [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 51 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -72,7 +72,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONTRADICE** D041 (Alerta temprana sísmica con aprendizaje automático y visualización geo): D060 reporta que XGBoost supera a otros algoritmos en intensidad sísmica (99,05 %) y D041 que una red neuronal supera a XGBoost en magnitud; las tareas, datos y métricas difieren, por lo que el orden de modelos no es transferible [juicio del analista]
+- **COMPLEMENTA** D019 (IoT y alerta temprana en la gestión de desastres sísmicos): relación inversa de D019 COMPLEMENTA D060: comparten autoría (Abdalzaher, Krichen): D019 revisa tecnologías emergentes y D060 aplica aprendizaje automático a intensidad sísmica en sitio [juicio del analista; citación verificada de D019 a D060; autoría compartida]
+- **DEPENDE_DE** D031 (IoT semántico y alerta temprana de amenazas geológicas): cita a D031 en su lista de referencias (verificado por coincidencia de título); D031: IoT semántico y alerta temprana de amenazas geológicas [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 57 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

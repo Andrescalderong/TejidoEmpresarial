@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D022 (UAV y restauración de comunicaciones posdesastre): D062 planifica trayectorias de AAV con LoRa por aprendizaje por refuerzo y D022 revisa UAV como estaciones base aéreas para restablecer comunicaciones; D062 se valida con simulaciones y pruebas de campo con una plataforma dron-LoRa y D022 sintetiza estudios con evidencia empírica a nivel de sistema [juicio del analista]
+- **COMPLEMENTA** D001 (IoT-UAV para respuesta a desastres): relación inversa de D001 COMPLEMENTA D062: D001 optimiza la ruta y la energía de un UAV para recolectar datos y D062 la trayectoria y la conectividad; ambos con simulación [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 61 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

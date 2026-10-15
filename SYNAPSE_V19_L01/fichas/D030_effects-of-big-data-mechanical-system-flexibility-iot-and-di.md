@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **DEPENDE_DE** D017 (IoT y resiliencia de la cadena de suministro): D030 cita a D017 como respaldo del vínculo entre IoT y resiliencia; su evidencia es una encuesta transversal [juicio del analista; citación verificada de D030 a D017]
+- **CONFIRMA** D029 (Gemelo digital y resiliencia operativa de la organización): ambos muestran con encuestas que IoT y gemelo digital mejoran la resiliencia organizacional operativa mediante capacidades; ambos son transversales y de autorreporte [juicio del analista]
+- **CONTRADICE** D082 (Mecanismos de resiliencia organizacional en la era digital con IoT, IA): relación inversa de D082 CONTRADICE D030: D082 concibe la resiliencia organizacional como propiedad emergente de mecanismos colectivos, adaptativos y dinámicos, mientras D030 la trata como var [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 89 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

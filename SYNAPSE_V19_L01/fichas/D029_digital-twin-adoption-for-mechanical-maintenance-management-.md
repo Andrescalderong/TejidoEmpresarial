@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D030 (IoT, gemelo digital y resiliencia organizacional): relación inversa de D030 CONFIRMA D029: ambos muestran con encuestas que IoT y gemelo digital mejoran la resiliencia organizacional operativa mediante capacidades; ambos son transversales y  [juicio del analista]
+- **COMPLEMENTA** D082 (Mecanismos de resiliencia organizacional en la era digital con IoT, IA): relación inversa de D082 COMPLEMENTA D029: D082 ofrece el marco de mecanismos y D029 aporta evidencia sobre capacidad de absorción y turbulencia tecnológica como moderador [juicio del analista]
+- **CONFIRMA** D005 (Adopción organizacional de IoT y gobernanza de datos): la capacidad de absorción de conocimiento como condición de beneficio refuerza la tesis de D005 sobre condiciones institucionales de la adopción [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 81 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,7 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D003 (Gestión de desastres con tecnología y resiliencia comunitaria): ambos son editoriales de política sin datos propios: D087 sobre el sistema de ciencia, tecnología e innovación de Colombia (2008) y D003 sobre tecnología y gestión de desastres (2026); D087 aporta el contexto institucional nacional [juicio del analista]
 
 ### Capa 4 — Control de calidad
 

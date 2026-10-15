@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D016 (IoT en logística y gestión de la cadena de suministro): D024 trata cadenas de alimentos y D016 logística general; ambos son revisiones bibliométricas de periferia temática con IoT [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 62 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

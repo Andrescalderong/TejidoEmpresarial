@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D025 (Gemelo digital de puentes: interoperabilidad BIM-IoT): D021 integra datos heterogéneos con repositorio BIM y web semántica para gestión de activos; D025 sincroniza BIM, inspecciones y sensores con identificadores persistentes alineados con IFC 4.3 [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 47 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

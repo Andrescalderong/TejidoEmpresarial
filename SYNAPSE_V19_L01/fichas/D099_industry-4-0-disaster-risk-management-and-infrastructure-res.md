@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D003 (Gestión de desastres con tecnología y resiliencia comunitaria): coinciden en que la evidencia es fragmentada y en que faltan estudios sobre las condiciones de adopción tecnológica en desastres (barreras y factores críticos en D099; acceso, equidad y gobernanza en D003) [juicio del analista]
+- **COMPLEMENTA** D013 (Gemelos digitales para gestión posdesastre y recuperación): D099 mapea seis familias de Industria 4.0 en gestión de riesgo de desastres y D013 se centra en gemelos posdesastre; ambos reconocen un campo incipiente [juicio del analista]
+- **CONFIRMA** D050 (IoT en gestión de desastres (revisión bibliométrica y cualitativa)): ambos identifican el IoT como núcleo de la gestión de desastres con beneficios de monitoreo y comunicación y con desafíos de confiabilidad [juicio del analista]
+- **PRECEDE** D101 (Síntesis automática: gemelos digitales, Industria 4.0 y resiliencia po): relación inversa de D101 DEPENDE_DE D099: la primera referencia de D101 es la revisión de Habibi Rad et al. (D099) [juicio del analista]
+- **COMPLEMENTA** D100 (Síntesis automática: gemelo digital, IoT y transferencia tecnológica p): relación inversa de D100 COMPLEMENTA D099: D100 declara un alcance de 2020-2024 pero su lista incluye 49 referencias de 2025-2026 y no declara protocolo; D099 cubre el tema hasta junio de 2021  [juicio del analista]
 
 ### Capa 4 — Control de calidad
 

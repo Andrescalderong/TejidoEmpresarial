@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D020 (IoT, SHM y resiliencia sísmica de edificios): D015 modela de forma conjunta la incertidumbre del sensado y el cumplimiento normativo con un modelo bayesiano ordinal y cita a D020, que asocia componentes de IoT con la resiliencia sísmica mediante una encuesta [juicio del analista; citación verificada de D015 a D020]
+- **DEPENDE_DE** D056 (IoT en gestión de desastres: marco descriptivo y ejemplos de implement): D015 cita a D056 como antecedente de IoT en gestión de desastres [juicio del analista; citación verificada de D015 a D056]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 77 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

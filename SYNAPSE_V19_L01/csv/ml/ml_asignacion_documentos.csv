@@ -1,0 +1,102 @@
+﻿doc_id,relevancia,cluster_kmeans,cluster_jerarquico,cluster_dbscan,topico_lda_dominante,peso_topico,pca1,pca2,tsne1,tsne2,titulo
+D001,Adyacente,0,0,-1,5,0.613,-0.0293,0.1526,4.709,-0.89,Energy-efficient task scheduling and physiological assessment in disaster management using UAV-assisted networks
+D002,Adyacente,0,0,0,1,1.0,0.1014,0.4774,-7.238,-8.385,Optimal seismic retrofitting of reinforced concrete buildings by steel-jacketing using a genetic algorithm-based framewo
+D003,Adyacente,0,0,-1,3,0.622,-0.0487,-0.2816,-4.984,1.35,Managing disasters with advanced technology solutions: Introduction to the special issue
+D004,Núcleo,0,0,1,0,0.642,-0.2442,-0.3522,-1.807,2.638,Digital twins for essential services
+D005,Núcleo,0,0,1,0,0.794,-0.1929,-0.1884,-0.012,6.221,The dual effects of the Internet of Things (IoT): A systematic review of the benefits and risks of IoT adoption by organ
+D006,Adyacente,0,0,1,3,0.885,-0.1401,-0.1202,-0.283,2.511,Disaster City Digital Twin: A vision for integrating artificial and human intelligence for disaster management
+D007,Adyacente,0,0,1,0,0.831,-0.157,-0.218,0.147,6.191,Enabling digital transformation: Organizational implementation of the internet of things
+D008,Núcleo,0,0,1,3,0.487,-0.2305,0.1009,-0.833,-1.324,Unified and interoperable digital twin models for emergency evacuation using building simulation identity cards
+D009,Adyacente,0,0,1,5,0.726,-0.0944,0.2743,4.036,-5.143,Hybrid monitoring methodology: A model-data integrated digital twin framework for structural health monitoring and full-
+D010,Adyacente,0,0,1,2,0.416,0.044,0.4064,-1.883,-8.299,Real-time earthquake magnitude prediction using designed machine learning ensemble trained on real and CTGAN generated s
+D011,Núcleo,0,0,-1,1,0.623,0.0634,0.129,-8.275,-4.915,Modeling post-earthquake business recovery time: An analytical framework
+D012,Adyacente,0,0,1,3,0.838,-0.1547,-0.2293,-4.401,0.429,Knowledge management practices in disaster management: Systematic review
+D013,Núcleo,0,0,1,3,0.866,-0.2581,-0.2014,-3.346,0.444,Digital post-disaster risk management twinning: A review and improved conceptual framework
+D014,Adyacente,0,0,1,1,0.526,-0.0895,0.3834,3.609,-7.301,Methodological framework for integrating structural health monitoring and digital-twin models for seismic assessment of 
+D015,Adyacente,0,0,1,1,0.494,-0.1213,0.312,-7.55,-1.846,A bayesian ordinal structural equation modeling framework for evaluating the seismic resilience of IoT-enabled buildings
+D016,Periférico,0,0,1,0,0.884,-0.2037,-0.3742,-3.279,5.867,A bibliometric analysis of IoT applications in logistics and supply chain management
+D017,Adyacente,0,0,1,0,0.968,-0.203,-0.3822,-2.881,6.198,Enhancing supply chain resilience and efficiency through internet of things integration: Challenges and opportunities
+D018,Periférico,0,0,-1,5,0.519,-0.1885,-0.0658,-0.908,-2.654,Integrating agentic AI and digital twins for intelligent decision-making systems
+D019,Adyacente,0,0,1,4,0.443,-0.1988,0.2356,-0.603,-7.328,"Emerging technologies and supporting tools for earthquake disaster management: A perspective, challenges, and future dir"
+D020,Adyacente,0,0,1,0,0.517,-0.1018,-0.0196,-7.856,-0.709,Internet of things (IoT) driven structural health monitoring for enhanced seismic resilience: A rigorous functional anal
+D021,Adyacente,0,0,1,3,0.508,-0.2201,-0.0944,2.793,-2.699,Multi-domain data integration and management for enhancing service-oriented digital twin for infrastructure operation an
+D022,Adyacente,0,0,1,5,0.557,-0.1981,-0.0848,-3.336,-2.67,Unmanned aerial vehicles for communication recovery in post-disaster scenarios: A PRISMA-based systematic review
+D023,Adyacente,0,0,1,5,0.824,-0.2119,0.178,2.995,-5.507,A demonstration of a digital twin framework for structural health monitoring: Application to bridge infrastructures
+D024,Periférico,0,0,1,0,0.974,-0.2008,-0.3759,-3.243,6.505,Smart food supply chain management: A bibliometric and systematic review
+D025,Adyacente,0,0,1,5,0.801,-0.1739,0.0582,2.913,-3.323,Digital twin platform based on an identity-semantic-interaction framework to improve bridge management workflows
+D026,Adyacente,0,0,1,3,0.922,-0.1097,-0.1739,-4.358,-0.382,Digital Solutions for Disaster Management: Analyzing the Impact of the February 2023 Earthquake in Türkiye
+D027,Periférico,0,0,0,1,1.0,0.1331,0.3611,-7.369,-8.912,An Economic Approach to the Confinement of Different Concrete Classes with Carbon and Glass Fibers Reinforced Polymers
+D028,Adyacente,0,0,1,0,0.498,-0.2338,-0.2253,-2.631,3.233,ADVANCING CIVIL INFRASTRUCTURE WITH DIGITAL TWINS: A REVIEW OF APPLICATIONS AND CHALLENGES
+D029,Adyacente,0,0,1,0,0.731,-0.0843,-0.111,-8.538,2.023,Digital Twin Adoption for Mechanical Maintenance Management: A Capability-Based Approach to Enhancing Operational Resili
+D030,Adyacente,0,0,1,0,0.852,-0.0679,-0.196,-8.554,2.35,"Effects of Big Data, Mechanical System Flexibility, IOT and Digital Twin Adoption on Company Resilience and Operational "
+D031,Periférico,0,0,-1,5,0.364,-0.1163,0.1178,1.427,-3.219,A Semantic IoT Early Warning System for Natural Environment Crisis Management
+D032,Adyacente,0,0,1,0,0.602,-0.1805,-0.1843,-2.753,3.986,AI-Integrated Digital Twins for IoT-Based Structural Health Monitoring: Emerging Trends and Future Research Directions
+D033,Adyacente,0,0,1,5,0.536,-0.2267,-0.0245,2.311,0.074,An Evaluative Study on IoT Ecosystem for Smart Predictive Maintenance (IoT-SPM) in Manufacturing: Multiview Requirements
+D034,Núcleo,0,0,-1,3,0.501,-0.0512,0.2239,2.648,-9.063,Application research on digital twins of urban earthquake disasters
+D035,Adyacente,0,0,1,5,0.843,-0.0303,0.3373,3.488,-6.443,Genetic Algorithm-Based Model Updating in a Real-Time Digital Twin for Steel Bridge Monitoring
+D036,Periférico,0,0,1,5,0.409,-0.2128,-0.1022,0.864,0.792,Digital Twin and Integrated Sensing and Communication Applications in Internet of Things: Enabling Communication Technol
+D037,Adyacente,0,0,1,0,0.823,-0.1752,-0.2632,-6.942,2.921,Stage-specific impacts of digital technologies on supply chain resilience: meta-analytic evidence for continuous process
+D038,Periférico,0,0,1,3,0.705,-0.1693,-0.0406,0.888,-1.253,Behavior-Centered Digital-Twin Design for Dynamic Cyber-Physical System Development
+D039,Periférico,0,0,1,5,0.993,-0.053,0.3968,0.846,-5.842,Deep-Learning-Enabled Data Synchronization for Noninteger Time Lags in Wireless Structural Health Monitoring
+D040,Adyacente,0,0,0,1,1.0,0.0568,0.399,-8.508,-7.236,Beyond Direct Economic Losses: An Integrated Approach to Seismic Retrofit Considering Sustainability and Indirect Losses
+D041,Periférico,0,0,1,5,0.395,0.0222,0.2627,-1.993,-8.311,Earthquake detection and early warning prediction using folium and Geopandas
+D042,Adyacente,0,0,1,5,0.465,-0.2296,-0.0602,-3.352,-2.297,Internet of Things–Enabled Sensing and Unmanned Aerial Vehicle Applications for Earthquake Preparedness and Real-Time Re
+D043,Periférico,0,0,1,5,0.882,-0.2103,0.104,-1.011,-4.518,Federated Unlearning Framework for Digital Twin–Based Aviation Health Monitoring Under Sensor Drift and Data Corruption
+D044,Periférico,0,0,-1,3,0.366,-0.0637,-0.0955,1.925,4.338,"Internet of Things for Enhancing Public Safety, Disaster Response, and Emergency Management †"
+D045,Adyacente,0,0,1,4,1.0,-0.0237,0.1854,0.065,-11.436,Earthquake early warning systems based on low-cost ground motion sensors: A systematic literature review
+D046,Periférico,0,0,1,0,0.876,-0.2469,-0.3371,-1.973,5.547,Internet of Things and Distributed Computing Systems in Business Models
+D047,Periférico,0,0,1,3,0.864,-0.1153,-0.1681,-3.072,-0.623,GEOGRAPHIC INFORMATION SYSTEMS IN POST-EARTHQUAKE TRANSPORTATION MANAGEMENT: A SYSTEMATIC REVIEW OF INTEGRATION STRATEGI
+D048,Núcleo,0,0,1,3,0.738,-0.2447,-0.0758,-2.422,-0.116,Leveraging Digital Twins as a Common Operating Picture for Disaster Management: Case of Seismic Hazards
+D049,Adyacente,0,0,1,4,1.0,-0.0189,0.227,-0.152,-11.356,“Saving Precious Seconds”—A Novel Approach to Implementing a Low-Cost Earthquake Early Warning System with Node-Level De
+D050,Adyacente,0,0,1,3,0.507,-0.1246,-0.1735,0.503,3.308,Internet of things in disaster management: technologies and uses
+D051,Periférico,0,0,1,0,0.999,-0.1594,-0.3966,-2.045,6.785,Challenges and Drivers of the Internet of Things in the Supply Chain: A Systematic Review
+D052,Adyacente,0,0,1,0,0.838,-0.1499,-0.1523,-7.879,1.408,"Digital twin technology and operations management efficiency in construction: the roles of information transparency, col"
+D053,Núcleo,0,0,0,1,0.927,0.009,0.3677,-8.368,-5.884,Improving recovery time consequence models in regional seismic risk assessment by leveraging high-fidelity building-spec
+D054,Adyacente,0,0,0,1,1.0,0.0742,0.4574,-8.008,-7.302,Cost-benefit evaluation of seismic risk mitigation alternatives for older concrete frame buildings
+D055,Periférico,0,0,1,3,0.849,-0.1965,0.0119,0.513,-1.225,Adaptive hybrid reasoning for agent-based digital twins of distributed multi-robot systems
+D056,Periférico,0,0,1,3,0.511,-0.1278,-0.0006,0.711,3.17,A Disaster Management Framework Using Internet of Things-Based Interconnected Devices
+D057,Periférico,0,0,1,5,0.806,-0.075,0.1166,3.236,-0.11,Multihop Routing for IoT-Based Digital Twin: Novel Metaheuristic Approaches
+D058,Periférico,0,0,-1,5,0.566,-0.065,0.1494,4.759,-3.551,Performance-oriented system digital twin: a Bayesian network-based framework to customize Sub-digital twins
+D059,Periférico,0,0,1,5,0.561,-0.1703,0.0232,2.168,-0.16,Redefinition of Digital Twin and Its Situation Awareness Framework Designing Toward Fourth Paradigm for Energy Internet 
+D060,Adyacente,0,0,1,5,0.453,-0.0831,0.3465,-1.232,-7.397,Employing Machine Learning for Seismic Intensity Estimation Using a Single Station for Earthquake Early Warning
+D061,Adyacente,0,0,1,3,0.457,-0.2405,-0.2463,-3.763,2.15,Digital Twin Technology for Urban Flood Risk Management: A Systematic Review of Remote Sensing Applications and Early Wa
+D062,Adyacente,0,0,1,5,0.702,-0.0587,0.1068,-3.16,-3.189,RescueNav: AI-Powered AAV Trajectory Planning With LoRa Connectivity for IoT-Based Disaster Communications
+D063,Adyacente,0,0,-1,4,0.866,0.017,0.2917,0.822,-9.54,Research on earthquake early warning and emergency response for high-speed railways based on the PLUM principle
+D064,Núcleo,0,0,-1,5,0.353,-0.0729,0.3479,2.754,-7.286,Design and evaluation of 5G-based architecture supporting data-driven digital twins updating and matching in seismic mon
+D065,Periférico,0,0,-1,5,0.545,0.0715,0.0555,4.374,2.118,Application of Auction Mechanisms and Multi-Agent Technologies for Resource and Task Allocation in Distributed Computing
+D066,Periférico,0,0,1,5,0.783,-0.1424,0.0981,-0.994,-3.913,A low-latency intelligent edge computing architecture for real-time decision-making in large-scale IoT networks
+D067,Adyacente,0,0,0,1,1.0,0.085,0.4552,-7.836,-8.314,Effect of seismicity on the RC building retrofitted with FRC jacketing
+D068,Adyacente,0,0,1,1,0.522,-0.1007,0.3501,3.046,-6.164,Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system wit
+D069,Adyacente,0,0,0,1,0.989,0.0694,0.3473,-8.782,-6.593,Probabilistic Seismic Resilience-Based Cost–Benefit Analysis for Bridge Retrofit Assessment
+D070,Núcleo,0,0,1,3,0.641,-0.1927,-0.2886,-2.288,1.374,Exploring the Sustainability Benefits of Digital Twin Technology in Achieving Resilient Smart Cities During Strong Earth
+D071,Adyacente,0,0,1,5,0.409,-0.0879,0.2474,1.092,-4.093,Semantically Enhanced IoT-Oriented Seismic Event Detection: An Application to Colima and Vesuvius Volcanoes
+D072,Adyacente,0,0,-1,3,0.512,-0.0008,0.1511,-3.367,-5.55,A Novel Digital Twin Architecture with Similarity-Based Hybrid Modeling for Supporting Dependable Disaster Management Sy
+D073,Adyacente,0,0,1,4,0.861,-0.0506,0.3459,0.155,-9.328,A Cloud-IoT Architecture for Latency-Aware Localization in Earthquake Early Warning
+D074,Adyacente,0,0,1,0,0.509,-0.2684,-0.1942,0.599,-0.414,IoT-Based Framework for Digital Twins in the Industry 5.0 Era
+D075,Adyacente,0,0,1,4,1.0,-0.0573,0.3018,-0.263,-11.135,Rapid and Resilient LoRa Leap: A Novel Multi-Hop Architecture for Decentralised Earthquake Early Warning Systems
+D076,Adyacente,0,0,1,5,0.79,-0.0682,0.2638,-1.23,-5.706,Deep Learning Image-Based Classification for Post-Earthquake Damage Level Prediction Using UAVs
+D077,Adyacente,0,0,-1,0,0.564,-0.0458,-0.2078,-1.356,7.709,"Using iot in supply chain risk management, to enable collaboration between business, community, and government"
+D078,Núcleo,0,0,1,3,0.916,-0.2456,-0.1012,-1.563,0.052,Community Twin Ecosystem for Disaster Resilient Communities
+D079,Adyacente,0,0,1,0,0.66,-0.3,-0.3342,-3.524,2.876,"IoT, AI, and Digital Twins in Smart Cities: A Systematic Review for a Thematic Mapping and Research Agenda"
+D080,Núcleo,0,0,1,3,0.544,-0.3002,-0.1674,-2.239,0.755,A Digital Twin Approach to Sustainable Disaster Management: Case of Cayirova
+D081,Núcleo,0,0,1,0,0.869,-0.2862,-0.3304,-5.663,3.211,Can Digital Twin Technology Enhance Supply-Chain Resilience? A Systematic Literature Review
+D082,Núcleo,0,0,1,0,0.873,-0.1879,-0.2905,-6.148,3.215,Uncovering the Mechanisms of Organisational Resilience: A Critical Realist Systematic Review
+D083,Adyacente,0,0,1,0,0.99,-0.2049,-0.3518,-4.994,3.376,IoT-Enabled Sustainability in Production Systems: A Systematic Review of Industry 4.0 Mechanisms and the Transition Towa
+D084,Adyacente,0,0,1,5,0.874,-0.0539,0.3484,1.896,-6.364,Synchronized IoT Framework for Vibration-Based Structural Health Monitoring of Suspension Bridges
+D085,Periférico,0,0,1,0,0.606,-0.2199,-0.1731,-7.645,0.268,Uncovering key success factors for enhanced office-site communication through digital twins
+D086,Adyacente,0,0,1,5,0.914,-0.1124,0.2642,-0.48,-5.386,Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowl
+D087,Periférico,1,1,-1,2,0.989,0.6653,-0.0812,12.456,3.501,"Perspectivas del Sistema Nacional de Ciencia, Tecnología e Innovación"
+D088,Ajeno,1,1,2,2,0.998,0.9633,-0.1633,12.876,4.557,"Vigilancia de la resistencia del Mycobacterium tuberculosis a los fármacos antituberculosos, Colombia 2004-2005"
+D089,Ajeno,1,1,2,2,0.999,0.8759,-0.1306,14.638,4.536,Reproducibilidad y validez convergente de la Escala Abreviada del Desarrollo y una traducción al español del instrumento
+D090,Ajeno,1,1,2,2,0.998,0.9937,-0.1693,13.617,4.741,Evaluación de conocimientos y prácticas sobre la leishmaniasis tegumentaria en un área endémica de Venezuela
+D091,Ajeno,1,1,2,2,0.999,0.9574,-0.154,13.783,5.244,De genotipos e isonimias: análisis de correlación entre el apellido y el patrimonio genético heredado en el cromosoma Y 
+D092,Ajeno,1,1,2,2,0.999,0.9266,-0.1423,14.341,5.662,Discriminación por morfometría geométrica de once especies de Anopheles (Nyssorhynchus) presentes en Colombia
+D093,Ajeno,1,1,2,2,0.999,0.8426,-0.1202,14.313,3.701,"Actividad física autorreportada, comparación con indicadores antropométricos de grasa corporal en un grupo de escolares "
+D094,Ajeno,1,1,2,2,0.998,0.8917,-0.1404,12.74,5.42,"Estudio de foco de paragonimosis en Fuente Clara, Robledo, área periurbana de Medellín, Antioquia"
+D095,Ajeno,1,1,2,2,0.999,0.8071,-0.091,15.047,4.109,Validación por hidrodensitometría de ecuaciones de pliegues cutáneos utilizadas para estimar la composición corporal en 
+D096,Ajeno,1,1,2,2,0.999,0.862,-0.1289,13.199,3.709,"Efectos de las causas de mortalidad adulta en la esperanza de vida, entre 1985 y 1999, según regiones colombianas"
+D097,Ajeno,1,1,2,2,0.998,0.8184,-0.113,13.698,6.304,El análisis molecular y el inmunogénico sugieren la ausencia de las proteínas hidrofílicas de superficie en Leishmania (
+D098,Ajeno,1,1,2,2,0.997,0.8496,-0.1301,12.959,6.064,Primer aislamiento de Encephalitozoon intestinalis a partir de muestra de materia fecal de un paciente colombiano con si
+D099,Núcleo,0,0,1,0,0.71,-0.1959,-0.3233,-4.299,4.064,"Industry 4.0, Disaster Risk Management and Infrastructure Resilience: A Systematic Review and Bibliometric Analysis"
+D100,Núcleo,0,0,-1,0,0.524,-0.0842,-0.2063,-5.626,5.554,"Scopus AI - Integrating Technology Transfer, Digital Twin, and IoT for Productive Recovery and Business Resilience after"
+D101,Núcleo,0,0,1,0,0.59,0.0546,-0.2227,-6.836,6.133,Web of Science Research Assistant - sintesis sobre recuperacion productiva y resiliencia empresarial (3 documentos de re

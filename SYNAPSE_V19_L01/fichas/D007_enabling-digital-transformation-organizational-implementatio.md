@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D005 (Adopción organizacional de IoT y gobernanza de datos): D007 refina la tesis de D005 (los beneficios del IoT dependen de condiciones institucionales) con aceptación de partes interesadas, liderazgo digital y opacidad parcial; D007 cita a D005 [juicio del analista; citación verificada de D007 a D005]
+- **CONFIRMA** D005 (Adopción organizacional de IoT y gobernanza de datos): ambos concluyen que la adopción del IoT es un proceso organizacional y no solo técnico, con consecuencias estructurales [juicio del analista; citación verificada de D007 a D005]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 82 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

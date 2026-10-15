@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D031 (IoT semántico y alerta temprana de amenazas geológicas): D071 desarrolla la semántica de IoT para detección sísmica (ontología SSN/SOSA y clasificador profundo) que D031 planteaba como arquitectura de alerta temprana [juicio del analista]
+- **PRECEDE** D019 (IoT y alerta temprana en la gestión de desastres sísmicos): es citado por D019 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 70 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

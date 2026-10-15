@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D062 (Restablecimiento de comunicaciones posdesastre con AAV, LoRa y aprendi): D001 optimiza la ruta y la energía de un UAV para recolectar datos y D062 la trayectoria y la conectividad; ambos con simulación [juicio del analista]
+- **DEPENDE_DE** D031 (IoT semántico y alerta temprana de amenazas geológicas): cita a D031 en su lista de referencias (verificado por coincidencia de título); D031: IoT semántico y alerta temprana de amenazas geológicas [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 58 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

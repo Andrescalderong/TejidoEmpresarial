@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D040 (Economía del refuerzo sísmico con pérdidas indirectas y sostenibilidad): relación inversa de D040 DEPENDE_DE D002: D040 cita a D002 al comparar estrategias de refuerzo con camisas de acero [juicio del analista; citación verificada de D040 a D002]
+- **COMPLEMENTA** D067 (Refuerzo sísmico de edificios de concreto con FRC, fragilidad y tiempo): D002 optimiza camisas de acero con algoritmo genético (costo 40 % menor) y D067 evalúa camisas de concreto con fibras de acero (capacidad cortante hasta 39 % mayor); ambos son estudios de caso en estructuras específicas [juicio del analista]
+- **COMPLEMENTA** D027 (Economía del reforzamiento sísmico de concreto con FRP): relación inversa de D027 COMPLEMENTA D002: D027 compara fibras de vidrio y carbono por rentabilidad del confinamiento y D002 el costo de camisas de acero; ambos priorizan costo con evidencia de [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 33 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D009 (Gemelos digitales y monitoreo de salud estructural (SHM)): D032 mapea la literatura de gemelos con IA para SHM y D009 es un ejemplo de gemelo con monitoreo híbrido de modelo y datos [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 8 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

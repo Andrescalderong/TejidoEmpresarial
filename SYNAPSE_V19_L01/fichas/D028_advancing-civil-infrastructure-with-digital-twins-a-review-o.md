@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D004 (Gemelos digitales para infraestructura y servicios esenciales): relación inversa de D004 CONFIRMA D028: ambas revisiones concluyen que los gemelos digitales tienen potencial pero la implementación real es incipiente y depende de integración de datos, esc [juicio del analista]
+- **CONFIRMA** D079 (Gemelos digitales urbanos, IoT e IA en ciudades inteligentes: mapeo te): ambas revisiones señalan interoperabilidad, calidad de datos y escalabilidad como barreras y escasa validación en operación real [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 4 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

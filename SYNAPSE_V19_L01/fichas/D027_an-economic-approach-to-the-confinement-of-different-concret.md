@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D002 (Reforzamiento sísmico y economía de la adaptación): D027 compara fibras de vidrio y carbono por rentabilidad del confinamiento y D002 el costo de camisas de acero; ambos priorizan costo con evidencia de laboratorio o modelo [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 28 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

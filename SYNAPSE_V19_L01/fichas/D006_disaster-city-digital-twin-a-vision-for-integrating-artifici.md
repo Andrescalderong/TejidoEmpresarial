@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): relación inversa de D013 EXTIENDE D006: propone un marco integral de gemelo digital posdesastre (IA explicable, dinámica social, sistemas interconectados) que desarrolla la visión de ciudad- [juicio del analista; citación verificada de D013 a D006]
+- **PRECEDE** D080 (Gemelo digital sísmico con IoT para gestión de desastres y resiliencia): relación inversa de D080 DEPENDE_DE D006: retoma la propuesta de gemelo digital de ciudad en desastre como referencia conceptual [juicio del analista; citación verificada de D080 a D006]
+- **PRECEDE** D070 (Gemelo digital, resiliencia sísmica urbana y sostenibilidad en ciudade): relación inversa de D070 DEPENDE_DE D006: adopta el concepto de gemelo para gestión de desastres como base del análisis de beneficios de sostenibilidad [juicio del analista; citación verificada de D070 a D006]
+- **PRECEDE** D061 (Gemelos digitales para el riesgo de inundación urbana (revisión sistem): es citado por D061 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 74 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D021 (Gemelo digital orientado a servicios e integración de datos): relación inversa de D021 COMPLEMENTA D025: D021 integra datos heterogéneos con repositorio BIM y web semántica para gestión de activos; D025 sincroniza BIM, inspecciones y sensores con identifi [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 48 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

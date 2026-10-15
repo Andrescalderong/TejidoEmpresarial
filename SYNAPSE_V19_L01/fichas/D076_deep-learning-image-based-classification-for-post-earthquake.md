@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D042 (IoT y UAV en la gestión de desastres sísmicos (revisión)): D076 clasifica daño posterremoto en imágenes de UAV con aprendizaje profundo ligero y D042 revisa IoT y UAV en la gestión del terremoto [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 59 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

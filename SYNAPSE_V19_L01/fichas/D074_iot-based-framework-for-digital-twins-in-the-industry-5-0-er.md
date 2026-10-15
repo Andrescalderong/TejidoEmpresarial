@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D036 (Gemelo digital, ISAC y comunicaciones para internet de las cosas): relación inversa de D036 DEPENDE_DE D074: D036 cita a D074 como marco de referencia de IoT con gemelo digital y requisitos de sostenibilidad y resiliencia [juicio del analista; citación verificada de D036 a D074]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 78 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

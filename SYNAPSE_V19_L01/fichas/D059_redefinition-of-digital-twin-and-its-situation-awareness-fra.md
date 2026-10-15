@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D018 (Gemelos digitales con IA agéntica para decisión): D059 redefine el gemelo como motor de datos con modelo grande como motor de inteligencia y D018 usa el gemelo como entorno de simulación de agentes; ambos de baja madurez [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 3 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

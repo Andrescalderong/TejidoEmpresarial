@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D018 (Gemelos digitales con IA agéntica para decisión): relación inversa de D018 COMPLEMENTA D055: D018 integra agentes de IA y gemelos digitales (demostración por simulación de una red eléctrica genérica) y D055 modela gemelos como agentes BDI; amb [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 42 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

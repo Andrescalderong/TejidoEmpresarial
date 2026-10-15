@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D062 (Restablecimiento de comunicaciones posdesastre con AAV, LoRa y aprendi): relación inversa de D062 COMPLEMENTA D022: D062 planifica trayectorias de AAV con LoRa por aprendizaje por refuerzo y D022 revisa UAV como estaciones base aéreas para restablecer comunicaciones [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 60 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

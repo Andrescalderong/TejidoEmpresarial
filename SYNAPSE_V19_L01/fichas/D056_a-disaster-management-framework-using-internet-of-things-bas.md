@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D015 (IoT, alerta temprana y resiliencia sísmica de edificios): relación inversa de D015 DEPENDE_DE D056: D015 cita a D056 como antecedente de IoT en gestión de desastres [juicio del analista; citación verificada de D015 a D056]
+- **CONFIRMA** D050 (IoT en gestión de desastres (revisión bibliométrica y cualitativa)): ambos describen mejoras del IoT en alerta temprana, monitoreo y comunicación para desastres naturales con evidencia mayormente descriptiva [juicio del analista]
+- **PRECEDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): es citado por D013 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 88 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

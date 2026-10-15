@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): construye un gemelo comunitario con datos públicos reales que operacionaliza parte del marco posdesastre de D013, con validación todavía simulada [juicio del analista; citación verificada de D078 a D013]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 22 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

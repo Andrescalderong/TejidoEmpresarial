@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D040 (Economía del refuerzo sísmico con pérdidas indirectas y sostenibilidad): relación inversa de D040 EXTIENDE D054: D040 incorpora pérdidas indirectas y carbono del ciclo de vida al análisis costo-beneficio de refuerzo que D054 desarrolla con víctimas y reparaciones [juicio del analista; citación verificada de D040 a D054]
+- **COMPLEMENTA** D069 (Resiliencia sísmica, tiempo de recuperación y análisis costo-beneficio): relación inversa de D069 COMPLEMENTA D054: D054 valora la reducción de víctimas y D069 la ganancia de funcionalidad; ambos contribuyen a justificar el refuerzo más allá de las reparaciones [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 30 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

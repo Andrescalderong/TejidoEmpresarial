@@ -1,0 +1,960 @@
+﻿doc_id,kpi,valor,unidad,contexto,ubicacion,fuente_dato,confianza,limitacion
+D001,Pacientes en la base de signos vitales,32,pacientes,"Base de la Universidad de Queensland, Royal Adelaide Hospital","Sec. 4.2.1, p. 4",Texto,Alta,Muestra pequeña; no son víctimas de desastre
+D001,Registros de signos vitales,16671,registros,Conjunto usado para análisis,"Sec. 5.2, p. 6",Texto,Media,Se menciona también 16.600 en p. 7 (inconsistencia)
+D001,Partición entrenamiento/validación/prueba,50/30/20,%,División del conjunto de datos,"Sec. 4.2.1, p. 4",Texto,Alta,Convive con validación cruzada de 5 pliegues
+D001,Exactitud media validación cruzada (k=5),87.2,%,Clasificador de árbol de decisión,"Sec. 5.2, p. 7",Texto,Alta,"Rango 82,6-95,3 %; desviación 0,04"
+D001,Exactitud derivada de la matriz de confusión,90.4,%,3007 aciertos sobre 3325 casos (cálculo del analista),"Tabla 5, p. 7",Tabla,Media,Cálculo propio; asume columnas como clase predicha
+D001,Precisión clase alto riesgo,0.82,razón,Tabla 6,"Tabla 6, p. 7",Tabla,Alta,Basada en 27 casos predichos
+D001,Exhaustividad clase medio,0.95,razón,Tabla 6,"Tabla 6, p. 7",Tabla,Alta,Una sola partición
+D001,F1 rango entre clases,0.81-0.93,razón,Tabla 6,"Tabla 6, p. 7",Tabla,Alta,Sin intervalos de confianza
+D001,Personas de riesgo alto detectadas,27,personas,Conjunto de prueba,"Sec. 5.2, p. 7",Texto,Alta,Conteo pequeño
+D001,Población del algoritmo genético,100,individuos,Parámetro del solver,"Sec. 4.1, p. 4",Texto,Alta,Sin análisis de sensibilidad
+D001,Iteraciones del algoritmo genético,10000,iteraciones,Criterio de parada,"Sec. 4.1, p. 4",Texto,Alta,Sin cruce; dos mutaciones por reproducción
+D001,Tamaños de red simulados,500x500; 1000x1000; 1500x1500,m2,Simulación,"Tabla 3, p. 6",Tabla,Alta,Un solo UAV
+D001,Número de cabezas de clúster,10-18,nodos,Simulación,"Tabla 3, p. 6",Tabla,Alta,"Fig. 5 usa 20 cabezas, fuera del rango de la tabla"
+D001,Velocidad y potencia del UAV,30; 500,km/h; W,Parámetros de simulación,"Tabla 3, p. 6",Tabla,Alta,Potencia constante en el modelo
+D001,Frecuencia cardiaca media (SD),81.49 (17.07),lpm,Estadísticos de la base,"Tabla 4, p. 7",Tabla,Alta,Valores sin filtrar por paciente
+D001,Ahorro energético del esquema propuesto,No especificado en documento,N/A,Comparación con enfoque tradicional,"Sec. 5.1, p. 6",Figura,Baja,Carece de datos duros: solo curvas
+D002,Razón ξμ de la estructura sin refuerzo (regular),0.792,adimensional,"Prueba 1, as-built","Tabla 3, p. 10",Tabla,Alta,Un solo perfil de carga
+D002,"Costo del refuerzo total (18 columnas, sb=150 mm)",51578.33,EUR,Prueba 2,"Tabla 3, p. 10",Tabla,Alta,Modelo de costo simplificado
+D002,"Costo de la prueba 5 (10 columnas, sb=250 mm)",27170.98,EUR,Mejor solución preliminar,"Tabla 3, p. 10",Tabla,Alta,Línea base elegida por los autores
+D002,Razón ξμ de la prueba 5,1.030,adimensional,Mejor solución preliminar,"Tabla 3, p. 10",Tabla,Alta,Sin margen explícito
+D002,Costo óptimo una dirección (4 columnas),10868.39,EUR,"Dirección Z+, sb=250 mm","Tabla 4, p. 10",Tabla,Alta,Simplificación por simetría
+D002,Costo óptimo todas las direcciones (6 columnas),16302.59,EUR,Diseño final regular,"Tabla 4, p. 10",Tabla,Alta,Extendido por simetría y no reoptimizado
+D002,Razón ξμ final regular,1.010,adimensional,Todas las direcciones,"Tabla 4, p. 10",Tabla,Alta,Margen de 1 %
+D002,Reducción de costo frente a prueba 5,40,%,Diseño final frente a mejor solución preliminar,"Sec. 5.2, p. 10",Texto,Media,La línea base es heurística de los autores
+D002,Diferencia de ξμ frente a prueba 5,2,%,"1,01 frente a 1,03","Sec. 5.2, p. 10",Texto,Alta,Sin análisis de incertidumbre
+D002,Evaluaciones hasta estabilizar el óptimo,870,evaluaciones,"Convergencia del AG, caso regular","Sec. 5.2, p. 9",Texto,Alta,Una sola corrida reportada
+D002,Iteración del óptimo (una dirección),821,iteración,Caso regular,"Sec. 5.2, p. 9",Texto,Alta,Sin repeticiones con semillas distintas
+D002,Tiempo de pushover por individuo,0.5,min,Costo computacional,"Sec. 5.2, p. 10",Texto,Alta,Modelo simple de pórtico
+D002,Tiempo total de optimización,8,horas,Caso regular,"Sec. 5.2, p. 10",Texto,Alta,Escalamiento no analizado
+D002,Razón ξμ sin refuerzo con mampostería (dirección Z),0.535,adimensional,Pórtico irregular as-built,"Sec. 6, p. 11",Texto,Alta,Modelo de puntal equivalente
+D002,Costo final con mampostería (todas las direcciones),16302.59,EUR,Misma suma que el caso regular,"Tabla 6, p. 12",Tabla,Alta,Coincidencia con el caso regular
+D002,Costo fijo por columna / costo del acero,2000 / 4.5,EUR/columna; EUR/kg,Parámetros del modelo de costo,"Sec. 3.6, p. 6",Texto,Alta,"Valores supuestos, sin fuente de mercado citada"
+D002,Periodo de retorno y vida nominal,975; 100,años,"Acción sísmica de diseño en Cosenza, suelo C","Sec. 4, p. 7",Texto,Alta,Un solo nivel de peligro
+D003,Envíos recibidos en la convocatoria,22,artículos,Número especial,"Sec. 2, p. 2",Texto,Alta,Sin información sobre los 11 rechazados
+D003,Artículos aceptados,11,artículos,Número especial,"Sec. 2, p. 2",Texto,Alta,Selección temática de los editores
+D003,Tasa de aceptación,50,%,11 de 22 envíos (cálculo del analista),"Sec. 2, p. 2",Derivado,Media,Cálculo propio
+D003,Ventana de la convocatoria,Nov 2024-Mar 2025,periodo,Plazo de recepción,"Sec. 2, p. 2",Texto,Alta,No se informa difusión
+D003,Evaluadores mínimos por artículo,2,evaluadores,Revisión por pares,"Sec. 2, p. 2",Texto,Alta,Sin detalle de rondas por artículo
+D003,Rondas de revisión,>2,rondas,Proceso editorial,"Sec. 2, p. 2",Texto,Media,Cota inferior no precisada
+D003,Temas organizadores,2,ejes,Servicios regenerativos; gestión de tecnología en desastres,"Sec. 1, p. 1-2",Texto,Alta,Definición operacional ausente
+D003,Lecciones transversales,3,lecciones,"Multidimensionalidad, coordinación y equidad","Sec. 2, p. 2",Texto,Alta,Basadas en lectura narrativa
+D003,Tiempo entre recepción y aceptación,14,días,11-nov-2025 a 25-nov-2025 (cálculo del analista),"Portada, p. 1",Derivado,Media,Plazos editoriales de editorial invitada
+D003,Impacto cuantitativo de tecnologías en desastres,No especificado en documento,N/A,Los artículos no reportan tamaños de efecto en la editorial,"Tabla 1, p. 3",Tabla,Baja,Carece de datos duros: solo síntesis cualitativa
+D004,Estudios potenciales recuperados,127,estudios,Búsqueda enero-marzo 2024,"Sec. 2.1, p. 3",Texto,Alta,Cadena de búsqueda mínima
+D004,Estudios tras criterios de selección,26,estudios,"Título, resumen y texto completo","Sec. 2.1, p. 3",Texto,Alta,Un solo grupo de revisores
+D004,Estudios añadidos por bola de nieve,7,estudios,Rastreo hacia atrás y hacia adelante,"Sec. 2.1, p. 3",Texto,Alta,Solo académicos
+D004,Estudios primarios finales,33,estudios,11 académicos y 22 de literatura gris,"Sec. 2.1, p. 3",Texto,Alta,67 % de literatura gris
+D004,Proporción de literatura gris,66.7,%,22 de 33 (cálculo del analista),"Sec. 2.1, p. 3",Derivado,Media,Cálculo propio
+D004,Entrevistas con expertos,3,entrevistas,30 a 45 minutos cada una,"Sec. 2.3, p. 4",Texto,Alta,Muestra pequeña; sin grabación
+D004,Definiciones distintas de gemelo digital,22,definiciones,Entre los estudios primarios,"Sec. 6.1, p. 10",Texto,Alta,Sin armonización propuesta
+D004,Fuentes por sector de servicios esenciales,24,fuentes,Cinco grupos; seis académicas,"Sec. 3.1, p. 5",Texto,Alta,Fuentes en varias categorías
+D004,Fuentes sobre metodología de evaluación,18,fuentes,Siete académicas,"Sec. 3.2, p. 6",Texto,Alta,Superposición
+D004,Fuentes sobre interdependencias,9,fuentes,Dos académicas,"Sec. 3.4, p. 6",Texto,Alta,Tema crítico con baja cobertura
+D004,Fuentes sobre contribución a la resiliencia,22,fuentes,Siete académicas,"Sec. 3.6, p. 7",Texto,Alta,"11 sobre resiliencia de infraestructura, solo 2 académicas"
+D004,Fuentes sobre sistemas de sistemas (relevancia),12,fuentes,Cuatro académicas,"Sec. 5.3, p. 9",Texto,Alta,Aplicaciones en SoS solo 3 fuentes
+D004,Fuentes sobre integración IA/ML,5,fuentes,Dos académicas,"Sec. 5.5, p. 10",Texto,Alta,Baja cobertura
+D004,Financiación declarada,4,proyectos,MSB 2023-14230; MoDEV 20200234; iSecure 202301899; MATISSE 101140216,"Agradecimientos, p. 13",Texto,Alta,La agencia financiadora definió el tema
+D004,Impacto cuantitativo de los GD en resiliencia,No especificado en documento,N/A,No hay mediciones de efecto,"Sec. 8, p. 12",Texto,Baja,Carece de datos duros: evidencia cualitativa
+D005,Resultados iniciales de búsqueda sobre adopción tecnológica,23391,documentos,"Scopus, WoS, IEEE Xplore y JSTOR, julio 2018","Sec. 1, p. 2",Texto,Alta,Palabras clave amplias
+D005,Resultados tras filtrar por dominio,3585,documentos,"Tecnología, política y administración, comportamiento organizacional","Sec. 1, p. 2",Texto,Alta,Filtros no detallados
+D005,Artículos seleccionados sobre teorías de adopción,52,artículos,Criterio: discusión teórica de estructuración,"Sec. 1, p. 2",Texto,Alta,Sin evaluación de calidad
+D005,Resultados de búsqueda IoT beneficios y riesgos,139,documentos,Búsqueda julio 2018,"Sec. 1, p. 2",Texto,Alta,Sin diagrama de flujo
+D005,Artículos seleccionados sobre beneficios y riesgos,50,artículos,Con búsqueda hacia adelante y atrás,"Sec. 1, p. 2",Texto,Alta,Selección por los autores
+D005,Duración de la investigación de casos,18,meses,Junio 2015 a enero 2017,"Sec. 3, p. 7",Texto,Alta,Cambio de entrevistados
+D005,Puntos de medición de LMW,640,estaciones,Aprox. 300 de RWS y 340 de terceros,"Sec. 4.2, p. 9",Texto,Alta,Redondeado
+D005,Estaciones de WIM (Tabla 4),18,estaciones,Red nacional,"Tabla 4, p. 8",Tabla,Media,El texto indica 22 estaciones
+D005,Estaciones de WIM (texto),22,estaciones,Construidas 2010-2013,"Sec. 4.1, p. 8",Texto,Media,Inconsistencia con la Tabla 4
+D005,Estaciones nacionales hasta 2010,5,estaciones,Línea base de control de sobrecarga,"Sec. 4.1, p. 8",Texto,Alta,Sin fuente
+D005,Tráfico de carga sobrecargado,15,%,Estimación de RWS (al menos),"Sec. 4.1, p. 8",Texto,Media,Estimación institucional sin metodología
+D005,Daño anual por sobrecarga en 2008,34,millones de euros,Pavimentos e instalaciones,"Sec. 4.1, p. 8",Texto,Media,"Fuente secundaria (Brous et al., 2017)"
+D005,Proposiciones y subpreguntas,4; 4,unidades,Estructura del estudio,"Sec. 3, p. 8",Texto,Alta,Proposiciones casi tautológicas
+D005,Categorías de condiciones organizacionales,6,condiciones,"Calidad de datos, gobernanza, habilidades, capacidad de TI, compras flexibles, arquitectura","Sec. 6, p. 14",Texto,Alta,No medidas
+D005,Retorno de inversión o ahorro medido,No especificado en documento,N/A,No se reportan métricas económicas de los casos,Sec. 4-5,Texto,Baja,Carece de datos duros: solo relatos
+D006,Componentes del paradigma,4,componentes,Sensado multidato; integración y análisis; decisión multiactor; análisis dinámico de redes,"Sec. 1, p. 2",Texto,Alta,Sin interfaces definidas
+D006,Fuentes de datos del primer componente,3,fuentes,"Sensado remoto, sensado social y crowdsourcing","Sec. 2, p. 3",Texto,Alta,Sin cuantificación de cobertura
+D006,Capacidades de incrustación enumeradas,8,capacidades,"Voz, sonidos, imágenes/IoT, video, secuencias, traducción, acciones, escenarios","Sec. 3, p. 5",Texto,Media,Descripción prospectiva
+D006,Fases de desastre cubiertas,3,fases,"Preparación, respuesta y recuperación (más mitigación)","Tabla 1, p. 7",Tabla,Media,Mapeo cualitativo
+D006,Validaciones empíricas del paradigma,0,casos,No hay prototipo ni caso real,"Sec. 6, p. 7-9",Texto,Alta,Valor derivado: ausencia de validación
+D006,Estudios revisados,No especificado en documento,N/A,No hay protocolo de revisión,Sec. 1-5,Texto,Baja,Carece de datos duros: revisión narrativa
+D006,Figuras de apoyo conceptual,5,figuras,Fig. 1 a Fig. 5,p. 2-7,Figura,Media,Sin datos tabulados
+D006,Desempeño de algoritmos propuestos,No especificado en documento,N/A,No se reportan métricas,Sec. 6,Texto,Baja,Carece de datos duros
+D007,Población del municipio,130000,habitantes,Municipio del norte de Suecia,"Sec. 3.1, p. 3",Texto,Alta,Dato aproximado
+D007,Superficie de edificios a limpiar,1000000,m2,"Escuelas, residencias, centros de salud y cultura","Sec. 3.1, p. 3",Texto,Alta,Sin desagregar por tipo
+D007,Salas del edificio piloto,500,salas,Edificio municipal con 1100 empleados,"Sec. 3.1, p. 3",Texto,Alta,Aproximado
+D007,Salas equipadas con sensores,30,salas,Piloto de Roomie,"Sec. 3.1, p. 3",Texto,Alta,6 % de las salas del edificio (cálculo del analista)
+D007,Sensores en la instalación inicial,50,sensores,"Entradas, calidad del aire y ocupación","Sec. 3.1, p. 3",Texto,Alta,Sin datos de fallas
+D007,Entrevistas realizadas,18,entrevistas,Cuatro fases y varios roles,"Sec. 3.2, p. 4",Texto,Alta,Entre 3 y 7 por fase
+D007,Duración de las entrevistas,45-60,min,Promedio por fase,"Tabla 2, p. 4",Tabla,Media,Tabla fragmentada en la extracción
+D007,Códigos iniciales de análisis,132,códigos,Codificación abierta,"Sec. 3.3, p. 4",Texto,Alta,Sin concordancia entre codificadores
+D007,Códigos de segundo orden,24,códigos,Codificación enfocada,"Sec. 3.3, p. 4",Texto,Alta,Un solo grupo de analistas
+D007,Temas finales,4,temas,Narrativa de transformación,"Sec. 3.3, p. 4",Texto,Alta,Sin validación externa
+D007,Duración del seguimiento,2,años,2018-2019,"Sec. 3.1, p. 3",Texto,Alta,Una sola organización
+D007,Equipo de limpiadores involucrado,9,personas,Más un jefe de equipo,"Sec. 4.1, p. 5",Texto,Alta,Muestra muy pequeña
+D007,Dispositivos IoT proyectados a 2030,29.4,miles de millones,"Desde 15,1 mil millones actuales","Sec. 1, p. 1",Texto,Media,Cita de fuente externa
+D007,Valor del mercado IoT proyectado a 2030,3352.97,miles de millones USD,"Desde 662,21 mil millones en 2023","Sec. 1, p. 1",Texto,Media,Cita de fuente externa
+D007,Ahorro de tiempo o costo del sistema,No especificado en documento,N/A,No se miden ahorros ni costos,Sec. 4-5,Texto,Baja,Carece de datos duros: solo percepciones
+D008,Edificio del caso,5,pisos,"Oficinas en Islamabad, Pakistán","Sec. 5, p. 10",Texto,Alta,Un solo edificio
+D008,Capacidad de ocupantes,170,personas,Plena ocupación,"Sec. 5, p. 10",Texto,Alta,Datos del área de recursos humanos
+D008,Ocupación en días festivos,82,personas,Escenario parcial,"Sec. 5.2, p. 13",Texto,Alta,Sin calibración con ejercicios reales
+D008,Periodo fundamental,0.96,s,Análisis estructural en ETABS,"Sec. 5.1, p. 10",Texto,Alta,Modelo sin validación
+D008,Instante de falla de la viga,14,s,Registro de Loma Prieta 1989,"Sec. 5.1, p. 10",Texto,Alta,Exceso marginal sobre capacidad de diseño
+D008,Cortante actual frente a admisible,88.45 / 83.18,kN,Viga sobre la puerta trasera,"Tabla 2, p. 12",Tabla,Alta,"Exceso de 6,3 % (cálculo del analista)"
+D008,Momento actual frente a admisible,313.68 / 308.36,kN·m,Viga sobre la puerta trasera,"Tabla 2, p. 12",Tabla,Alta,"Exceso de 1,7 % (cálculo del analista)"
+D008,Deflexión actual frente a admisible,14.22 / 10.16,mm,Criterio L/240,"Tabla 2, p. 12",Tabla,Alta,Exceso de 40 % (cálculo del analista)
+D008,Tiempo de evacuación normal (170 personas),216.4,s,Puertas principales,"Sec. 5.2, p. 13",Texto,Alta,Una sola corrida determinista
+D008,Tiempo con salidas de emergencia y ascensor (170),187.7,s,Mejor escenario con 170 personas,"Sec. 5.2, p. 13",Texto,Media,"Incluye ascensor, inapropiado en sismo"
+D008,Tiempo con puerta trasera cerrada a los 14 s (170),234.9,s,Evento del caso,"Sec. 5.2, p. 13",Texto,Alta,"Aumento de 2,8 s frente a 232,1 s (cálculo del analista)"
+D008,Tiempo con puerta trasera cerrada a los 14 s (82),129.1,s,Evento del caso,"Sec. 5.2, p. 13",Texto,Alta,"Aumento de 23,6 s frente a 105,5 s (cálculo del analista)"
+D008,Mayor tiempo de evacuación (170),375.9,s,Puertas normales más ascensor,"Sec. 5.2, p. 13",Texto,Media,Escenario no realista en sismo
+D008,Tiempo de cosimulación ETABS-Pathfinder,97.4-118.3,s,"Según escenario, evidencia de escalabilidad","Sec. 6.2.4, p. 18",Texto,Media,Dos simuladores y un edificio; integración manual
+D008,Categorías de atributos BSIC,7,categorías,"Información general, integración, configuración, comportamiento, resultados, variables internas, hardware","Fig. 16, p. 16",Figura,Alta,Suficiencia no validada
+D009,Longitud del puente modelo,22,m,Vanos 6+10+6,"Sec. 5.1, p. 8",Texto,Alta,"Modelo de acero, no puente real"
+D009,Sensores instalados,74,sensores,"3 D, 11 inclinómetros, 32 galgas, 11 acelerómetros, 8 fuerza, 9 temperatura","Sec. 5.1, p. 8",Texto,Alta,Instalación de laboratorio/campo experimental
+D009,Posiciones longitudinales de sensores,21,posiciones,Distribución a lo largo del puente,"Tabla 1, p. 8",Tabla,Alta,Tabla fragmentada en la extracción
+D009,Daños preestablecidos,4,daños,"x = -7,1; -2,1; 2,1; 7,1 m, longitudes 200, 100, 50 y 20 mm","Sec. 5.1, p. 8",Texto,Alta,Daños artificiales
+D009,Elementos del modelo 1 (viga),110,elementos,FEM de baja complejidad,"Sec. 5.2, p. 9",Texto,Alta,Linealidad supuesta
+D009,Latencia del marco,1,min,Almacenamiento cada minuto,"Sec. 5.4, p. 12",Texto,Alta,Arquitectura por lotes
+D009,Tiempo de estimación de carga (Matlab),0.002,s,Por paso de tiempo,"Sec. 5.4, p. 12",Texto,Alta,Hardware de portátil
+D009,Tiempo de cálculo FEM (Ansys),0.2673,s,Por paso de tiempo,"Sec. 5.4, p. 12",Texto,Alta,Modelo pequeño
+D009,Tiempo de visualización (Revit),1.527,s,Por paso de tiempo,"Sec. 5.4, p. 12",Texto,Alta,Procesamiento secuencial
+D009,Error RMSE de la carga cuasi estática identificada,3.80,%,Carga vehicular,"Sec. 5.4, p. 12",Texto,Media,Cifra atribuida a trabajos previos
+D009,Error RMSE de la deflexión reconstruida,1.73,%,Carga vehicular cuasi estática,"Sec. 5.4, p. 12",Texto,Media,Una condición mostrada
+D009,Error máximo de deformación en sección central,10.01,με,Carga cuasi estática,"Sec. 5.4, p. 12",Texto,Media,Sin escala relativa
+D009,Error máximo de deflexión dinámica,0.39,mm,Carga de peatones corriendo,"Sec. 5.4, p. 12",Texto,Media,Cifra de trabajo previo [60]
+D009,Error máximo térmico (5 días),0.30,mm,Carga térmica,"Sec. 5.4, p. 12",Texto,Media,Cifra de trabajo previo [58]
+D009,Puentes defectuosos en EE. UU. (contexto),46154,puentes,"7,5 % del total; rehabilitación de 22.700 millones USD/año","Sec. 1, p. 1",Texto,Media,Cita de informe externo
+D010,Registros reales de K-NET,18994,registros,"Datos desde junio de 1996, componente vertical","Sec. 3, p. 6",Texto,Alta,No se precisa el número de eventos
+D010,Registros de entrenamiento,13295,registros,70 % del conjunto real,"Sec. 3, p. 6",Texto,Alta,División por registros
+D010,Registros de prueba,3989,registros,21 % del conjunto real,"Sec. 3, p. 6",Texto,Alta,Posible fuga entre eventos
+D010,Registros de validación,1710,registros,9 % del conjunto real,"Sec. 3, p. 6",Texto,Alta,Usados también para elegir reglas
+D010,Características de entrada,34,variables,"Dominio del tiempo, frecuencia, ondículas y sitio","Sec. 3, p. 7",Texto,Alta,Selección por búsqueda en rejilla
+D010,Registros sintéticos SE3/SE4/SE5,6612 / 5211 / 6621,registros,"Generados con CTGAN, 50 épocas","Tabla 1, p. 6",Tabla,Alta,Sin pruebas formales de fidelidad
+D010,Conjuntos mixtos SE3/SE4/SE5,25606 / 24205 / 25615,registros,Reales más sintéticos,"Tabla 3, p. 10",Tabla,Alta,Coherente con las sumas
+D010,MAE de prueba con 3 s de onda P,0.41,MJMA,Predicción de una estación,"Resumen, p. 1",Texto,Alta,Intervalos de confianza no informados
+D010,MAE de prueba con 4 s de onda P,0.40,MJMA,Predicción de una estación,"Resumen, p. 1",Texto,Alta,Mejora marginal
+D010,MAE de prueba con 5 s de onda P,0.38,MJMA,Predicción de una estación,"Resumen, p. 1",Texto,Alta,Reduce el tiempo de alerta
+D010,Error medio ± desviación (5 s),0.01 ± 0.53,MJMA,Conjunto de prueba,"Sec. 5, p. 16",Texto,Alta,Desviación elevada frente a la media
+D010,Eventos y registros de validación entre regiones,5 / 66,eventos / registros,"India y Nepal, MW 4,0 a 5,7","Tabla 1, p. 6",Tabla,Alta,Muestra muy pequeña
+D010,"MAE del evento Chamoli (MW 4,0)",1.54-1.68,MW,Validación entre regiones IRE3-IRE5,"Tabla 8, p. 13",Tabla,Alta,Sobreestimación sistemática
+D010,"Estimación ponderada del sismo principal de Kumamoto (MJMA 7,3)",6.8-7.0,MJMA,"Frente a 6,3-6,6 sin ponderar","Tabla 9, p. 13",Tabla,Alta,Una sola realización por evento
+D010,Estaciones en el evento de Kumamoto (principal),45,estaciones,Prueba multiestación,"Tabla 9, p. 13",Tabla,Alta,Selección de eventos ilustrativos
+D011,Empresas analizadas,22,empresas,"Datos de ERI, CEBA y Kim","Sec. 3, p. 3",Texto,Alta,Suma de conteos por sector es 30 (inconsistencia)
+D011,Rango de empleados,1-5500,empleados,Empresas de la muestra,"Sec. 3, p. 3",Texto,Alta,Amplia heterogeneidad con n pequeño
+D011,Sectores industriales,13,sectores,Clasificación ANZSIC,"Sec. 3, p. 3",Texto,Alta,Conteos por sector suman 30
+D011,Magnitud del terremoto,6.1,Mw,"Christchurch, 2011","Resumen, p. 1",Texto,Alta,Un solo evento
+D011,RMSE con inactividad del edificio sin mitigación,144.0,días,Aproximación habitual,"Fig. 2, p. 4",Figura,Alta,Sin intervalo de confianza
+D011,MdAE con inactividad del edificio sin mitigación,76.0,días,Aproximación habitual,"Fig. 2, p. 4",Figura,Alta,n = 22
+D011,RMSE con edificio mitigado,105.1,días,Con factores de mitigación,"Fig. 3, p. 5",Figura,Alta,Reducción de 27 % (verificada)
+D011,MdAE con edificio mitigado,17.8,días,Con factores de mitigación,"Fig. 3, p. 5",Figura,Alta,Reducción de 77 %
+D011,RMSE con edificio y cordón,37.0,días,Máximo de DT1 y DT2,"Fig. 4, p. 5",Figura,Alta,Efecto de dos empresas con cordón
+D011,RMSE con todas las inactividades,35.9,días,Marco completo,"Fig. 6, p. 5",Figura,Alta,"75 % menos que 144,0 (verificado)"
+D011,MdAE con todas las inactividades,8.5,días,Marco completo,"Fig. 6, p. 5",Figura,Alta,"89 % menos que 76,0 (verificado)"
+D011,Factor de efectividad de gestión,0.12,razón,Mediana de Rose y Huyck,"Tabla 1, p. 4",Tabla,Media,No calibrado con estos datos
+D011,Factor de aceleración de recuperación,0.15,razón,Mediana de Rose y Huyck,"Tabla 1, p. 4",Tabla,Media,No calibrado con estos datos
+D011,Interrupción de proveedores asumida,45,días,Mediana de tres meses si fue moderada o muy disruptiva,"Sec. 3.1.4, p. 3",Texto,Media,Supuesto del autor
+D011,Duración del cordón en el ejemplo,562,días,"Empresa de hospitalidad, observado 561 días","Tabla 2, p. 7",Tabla,Alta,Caso único ilustrativo
+D012,Documentos identificados en Scopus,5808,documentos,Búsqueda dic. 2018 a mayo 2020,"Sec. 4, p. 4",Texto,Alta,Sin cadena completa de búsqueda
+D012,Documentos tras eliminar duplicados,1672,documentos,Cribado inicial,"Sec. 4, p. 4",Texto,Alta,Criterios de inclusión amplios
+D012,Documentos tras título y resumen,174,documentos,Segundo filtro,"Sec. 4, p. 4",Texto,Alta,Un solo grupo de revisores
+D012,Documentos con texto completo disponible,119,documentos,Tercer filtro,"Sec. 4, p. 4",Texto,Alta,Pérdida de 55 por falta de acceso
+D012,Artículos seleccionados,66,artículos,Tras evaluar texto completo,"Sec. 4, p. 4",Texto,Alta,Más 6 adicionales hasta mayo de 2020
+D012,Artículos incluidos en el resumen y Tabla 2,72,artículos,Total declarado,"Resumen y Tabla 2, p. 1 y 4",Texto,Media,El texto menciona 73 en un pasaje
+D012,Artículos basados en inundaciones,25,artículos,"20 inundación, 3 inundación y deslizamiento, 2 tsunami e inundación","Sec. 4.1, p. 4",Texto,Alta,Predominio de una amenaza
+D012,Artículos sin amenaza especificada,27,artículos,38 % de la muestra (cálculo del analista),"Tabla 2, p. 4",Tabla,Alta,Limita la comparación
+D012,Artículos relacionados con sismos (solo terremoto),7,artículos,Más 2 de terremoto y tsunami y 1 multiamenaza,"Tabla 2, p. 4",Tabla,Alta,10 con algún vínculo sísmico
+D012,Año con más publicaciones,2016 (10),artículos,Tendencia creciente,"Sec. 4.1, p. 4",Texto,Alta,Sin análisis de tendencia estadística
+D012,Estudios de GC orientada a personas,10,estudios,Al menos diez de 72,"Sec. 4.2.1, p. 5",Texto,Media,Cota inferior
+D012,Estudios de GC orientada a metas,11,estudios,De 72,"Sec. 4.2.4, p. 12",Texto,Alta,Categoría emergente
+D012,Desastres naturales en 2018 (contexto),315,eventos,"11.804 muertes, 68 millones de afectados, 131.700 millones USD","Sec. 1, p. 1",Texto,Media,Fuente externa citada
+D012,Estudios que aplican las cuatro orientaciones de GC,0,estudios,"Ningún artículo integra personas, procesos, tecnología y metas","Sec. 4.2, p. 5",Texto,Alta,Hallazgo negativo
+D013,Documentos identificados,1483,documentos,842 en Scopus y 641 en Web of Science,"Sec. 4, p. 7",Texto,Alta,Cadena con tres bloques
+D013,Estudios tras cribado de títulos y resúmenes,185 / 127,estudios,Scopus y Web of Science,"Sec. 4, p. 7",Texto,Alta,Sin diagrama completo de PRISMA
+D013,Estudios incluidos,96,estudios,Tras duplicados y 9 criterios de exclusión,"Sec. 4, p. 7",Texto,Alta,Sin evaluación de calidad
+D013,Países representados,28,países,Según la ubicación del primer autor,"Sec. 4.1, p. 7",Texto,Alta,Concentración en EE. UU. y China
+D013,Estudios de Estados Unidos,21,estudios,País líder,"Sec. 4.1, p. 9",Texto,Alta,Seguido por China (13) y Reino Unido (9)
+D013,Estudios de caso de PRM,58,estudios,Más 5 de alerta temprana,"Sec. 4, p. 7",Texto,Alta,Predominio de casos
+D013,Revisiones y modelos conceptuales,7 / 26,estudios,Revisiones y modelos conceptuales,"Sec. 4.1, p. 9",Texto,Alta,Poca síntesis previa
+D013,Estudios sobre inundaciones,32,estudios,Igual al número de estudios multiamenaza,"Sec. 4.2, p. 9",Texto,Alta,Amenaza dominante
+D013,Estudios sobre sismos,10,estudios,"De 96 (10,4 %)","Sec. 4.2, p. 9",Texto,Alta,Efecto de criterios de exclusión
+D013,Estudios sobre recuperación,3,estudios,Fase menos estudiada,"Sec. 4.2, p. 9",Texto,Alta,Brecha crítica
+D013,Estudios con flujo dinámico y aprendizaje automático,1,estudio,Entre los 96,"Sec. 4.4, p. 11",Texto,Alta,La mayoría usa datos estáticos
+D013,Daños globales 2010-2020,1.7,billones USD,Frente a 890.000 millones en 2000-2010,"Sec. 1, p. 1",Texto,Media,Cita externa
+D013,Personas afectadas 2000-2023,4.5,miles de millones,Cifra global citada,"Sec. 1, p. 1",Texto,Media,Cita externa
+D013,Desempleo tras el terremoto de Lushan 2013,25,%,Frente a 10 % antes del evento,"Sec. 5.1, p. 15",Texto,Media,Fuente secundaria
+D014,Área aproximada del edificio,2000,m2,Planta de unos 70 m por 30 m; torre de 56 m,"Sec. 2-3, p. 5-7",Texto,Media,Cifra aproximada del texto
+D014,Bloques en el modelo 3DEC,4500,bloques,Aproximadamente; 161.000 zonas de contacto,"Sec. 1, p. 4",Texto,Alta,Modelo de elementos discretos
+D014,Registros en el catálogo inicial,5745,registros,Catálogo del Instituto Geofísico del Perú,"Sec. 3, p. 5",Texto,Alta,Selección posterior por magnitud y disponibilidad
+D014,Registros finales y análisis no lineales,33 / 5,registros,Resumen indica 34; texto indica lista final de 33 y 5 análisis tiempo-historia,"Resumen, p. 1; Sec. 3, p. 6; Sec. 1, p. 4",Texto,Media,Inconsistencia de conteos
+D014,Periodo fundamental,"0,39 / 0,38",s,Dirección X / dirección Y,"Sec. 4.1, p. 11-12",Texto,Alta,Calibrado entre SAP2000 y 3DEC
+D014,Masa sísmica,21400,kN,Diferencia menor al 5 % entre estimación manual y BIM,"Sec. 4.1, p. 10-11",Texto,Alta,Estimación del analista de los autores
+D014,Puntos de control para sensores,25,puntos,Definidos y validados con el modelo numérico,"Sec. 5, p. 19",Texto,Alta,Sin instalación en campo
+D014,Desplazamiento horizontal crítico,"0,40",m,"Promedio 3,0 cm durante el 60 % de la duración de los registros","Sec. 5, p. 19",Texto,Alta,Resultado del modelo no lineal
+D014,Rango de frecuencia de sensores,"1,5 a 25",Hz,Límite superior asociado a 80 % de participación de masa,"Sec. 5, p. 20",Texto,Alta,Derivado del análisis modal
+D014,Aceleración máxima esperada,"1,40",g,"Velocidades hasta 0,80 m/s","Sec. 5, p. 20",Texto,Alta,"Resultado de modelo, no de sensor"
+D014,Modelos LSTM entrenados,24,modelos,"Partición 70/15/15; ventanas de 4 s con traslape de 0,5 s","Sec. 4.6, p. 14",Texto,Alta,Entrada múltiple y salida simple
+D014,RMSE de funciones de transferencia,"0,018 a 0,283",adimensional,"Menor en niveles de 9,38 m y 20,31 m; mayor en 36,15 m","Fig. 27-28, p. 20",Gráfico/Texto,Media,"Rango recopilado de la figura, no de una tabla"
+D015,Tamaño de muestra,162,casos,Encuesta e inspección; sin descripción de origen,"Tabla 1, p. 5",Tabla,Media,Procedencia no especificada
+D015,Carga posterior promedio por constructo,"0,70 a 0,80",adimensional,"EWR 0,70; SRP 0,80","Tabla 1, p. 5",Tabla,Alta,Escala estandarizada
+D015,Confiabilidad compuesta,"0,83 a 0,92",adimensional,"Mínima en EWR, máxima en SRP","Tabla 1, p. 5",Tabla,Alta,Intervalos de credibilidad de 95 %
+D015,Varianza media extraída,"0,51 a 0,65",adimensional,"Todas mayores que 0,50","Tabla 1, p. 5",Tabla,Alta,Validez convergente
+D015,HTMT posterior,"0,53 a 0,63",adimensional,"Límites superiores no mayores que 0,72","Tabla 2, p. 6",Tabla,Alta,Validez discriminante
+D015,Efecto RTAQ sobre SRP,"0,38",efecto estandarizado,"IC 95 % 0,23-0,53; Pr(β>0)=0,998","Tabla 3, p. 6",Tabla,Alta,Mayor efecto directo
+D015,Efecto ACE sobre SRP,"0,31",efecto estandarizado,"IC 95 % 0,18-0,45; Pr(β>0)=0,999","Tabla 3, p. 6",Tabla,Alta,Segundo efecto
+D015,Efectos EWR y CSI sobre SRP,"0,21 / 0,19",efecto estandarizado,"Pr(β>0)=0,982 y 0,971","Tabla 3, p. 6",Tabla,Alta,Efectos menores
+D015,PSIS-LOOIC del modelo completo,"4121,6",índice,"Modelo nulo 4215,3; peso de apilamiento 0,75","Tabla 5, p. 11",Tabla,Alta,Modelo con estilo de respuesta y cargas cruzadas
+D015,Probabilidad de cola predictiva posterior,"0,46",probabilidad,"RMSE de residuos policóricos 0,07","Tabla 4, p. 9",Tabla,Alta,Ajuste de la capa ordinal
+D015,R2 condicional del instrumento,"0,16 / 0,12",adimensional,Sobre RTAQ y CSI,"Tabla 6, p. 11",Tabla,Media,Instrumento no descrito
+D015,Mercado de IoT en construcción,16,miles de millones USD,"Proyectado a 2024 con CAGR de 26,0 %","Sec. 1, p. 2",Texto,Baja,Cita externa sin fuente primaria en el texto
+D015,Reducción de costos de construcción atribuida a IoT,20 a 25,%,Proyección citada,"Sec. 1, p. 2",Texto,Baja,Cita externa
+D016,Registros iniciales de la búsqueda,7412,registros,"Scopus; títulos, resúmenes y palabras clave; 19 de enero de 2024","Sec. 3, p. 5",Texto,Alta,Sin restricción de área
+D016,Artículos incluidos,2680,artículos,Tras cribado manual de tres investigadores,"Sec. 3, p. 5",Texto,Media,"Conteos intermedios no consecutivos (3069, 2951)"
+D016,Publicaciones por periodo,11 a 109 / 632,publicaciones,"2011-2017 / 2018-2023, según el texto","Sec. 4, p. 7",Texto,Media,No se aclara si es total anual o acumulado del periodo
+D016,Revista más productiva,128,artículos,Sensors; IEEE Access 118; Sustainability 84,"Tabla 2, p. 7",Tabla,Alta,Porcentaje sobre el total de la lista (569)
+D016,Autor más productivo,28,artículos,Huang GQ; Zhong RY 15; Luthra S 11,"Tabla 3, p. 7",Tabla,Alta,Los diez autores suman 120
+D016,Institución más productiva,43,artículos,Universidad de Hong Kong; Politécnica de Hong Kong 29,"Tabla 4, p. 8",Tabla,Alta,Predominio de Asia y Medio Oriente
+D016,País con mayor producción,719,artículos,China (30 % de la lista); India 459; Estados Unidos 303,"Tabla 5, p. 8",Tabla,Alta,"26,8 % de 2680 (cálculo del analista)"
+D016,Frecuencia de la palabra clave IoT,1425,ocurrencias,Blockchain 437; Industria 4.0 293,"Tabla 6, p. 8",Tabla,Alta,Sin términos de riesgo en el top 20
+D016,Citas del artículo más citado,1843,citas,"Lee y Lee sobre aplicaciones, inversiones y desafíos del IoT","Tabla 7, p. 9",Tabla,Media,Fecha de conteo no indicada
+D016,Clústeres de co-ocurrencia de palabras clave,5,clústeres,VOSviewer; mínimo cinco ocurrencias por término,"Sec. 5.1, p. 11",Texto,Alta,Parámetros ajustados manualmente
+D016,Clústeres de co-citación,6 / 7,clústeres,"Seis en resultados con modularidad 0,388; siete en conclusiones","Sec. 5.2, p. 13; Sec. 6.1, p. 17",Texto,Media,Inconsistencia interna
+D016,Mercado de IoT industrial proyectado a 2029,"503,07",miles de millones USD,"Desde 114,68 en 2024 (CAGR 34,41 %); otra fuente cita 659,6 desde 375,7 (CAGR 11,91 %)","Sec. 1, pp. 2-3",Texto,Baja,Dos proyecciones de mercado discordantes
+D017,Documentos iniciales,913,documentos,"Web of Science, 2009-2023, inglés, consulta del 12 de mayo de 2024","Sec. 2.1, p. 2",Texto,Alta,Tipos de documento mezclados
+D017,Documentos tras categorías,854,documentos,35 categorías de WoS,"Sec. 2.1, p. 3",Texto,Alta,Criterio de relevancia de los autores
+D017,Documentos tras cribado de resúmenes,627,documentos,Revisión manual,"Sec. 2.1, p. 3",Texto,Alta,Sin concordancia entre revisores
+D017,Documentos finales,408,documentos,Filtro de términos de reto con Atlas.TI,"Sec. 2.1, p. 3",Texto,Alta,Sesgo de selección posible
+D017,Publicaciones por año,14 a 117,artículos,De 2018 a 2022,"Sec. 3.1.1, p. 5",Texto,Alta,Valores aproximados leídos del texto
+D017,Producción de India y China,150 / 136,artículos,"Seguidas de EE. UU. (99), Reino Unido (71) y Australia (49)","Sec. 3.1.3, p. 7",Texto,Alta,Conteo por país
+D017,Palabras clave sobre el umbral,95 de 1152,palabras clave,Mínimo de tres ocurrencias tras limpieza,"Sec. 2.2.4, p. 4",Texto,Alta,111 de 1183 en el primer corte
+D017,Referencias co-citadas,119 de 23806,referencias,Mínimo de 10 citas,"Sec. 2.2.4, p. 5",Texto,Alta,Red de co-citación
+D017,Co-ocurrencias de IoT,178,co-ocurrencias,Blockchain 137; cadena de suministro 85; Industria 4.0 62,"Sec. 3.4.1, p. 15",Texto,Alta,Red de VOSviewer
+D017,Clústeres de co-ocurrencia,3,clústeres,Tecnologías de integración y ciberseguridad; IoT con blockchain; sostenibilidad y trazabilidad,"Sec. 3.4.1, p. 15",Texto,Alta,Interpretación de los autores
+D017,Corte de periodos temáticos,2022,año,Mapas 2009-2021 y 2022-2023,"Sec. 2.2.3, p. 4",Texto,Media,Corte sin justificación empírica
+D018,Capas de la arquitectura,6,capas,"Percepción, conocimiento y datos, razonamiento y aprendizaje, decisión, acción y retroalimentación","Sec. 3.2, p. 3-4",Texto,Alta,Propuesta conceptual
+D018,Generadores simulados,4,unidades,"Eólico, hidroeléctrico, solar y geotérmico","Sec. 4, p. 4-5",Texto,Alta,Parámetros fijados por la autoría del estudio
+D018,Clases de consumo,4,clases,"Hogares, comercios, industria e instalaciones públicas","Sec. 4, p. 5",Texto,Alta,Datos de procedencia no descrita
+D018,Horizonte de pronóstico,24,horas,Bosque aleatorio por clase de consumo,"Sec. 4, p. 5",Texto,Alta,Error de pronóstico no reportado
+D018,Costos marginales de generación,40 / 42 / 47 / 73,euros por MWh,"Eólica, hidroeléctrica, solar y geotérmica","Sec. 4, p. 5",Código del texto,Media,Valores del caso de ejemplo
+D018,Capacidades máximas,4000 / 7000 / 8000 / 10000,MW,"Eólica, hidroeléctrica, solar y geotérmica","Sec. 4, p. 5",Código del texto,Media,"Mínimos de 1000, 2000, 1500 y 1000 MW"
+D018,Condiciones de carga evaluadas,10,escenarios,Evaluación del tiempo de convergencia,"Sec. 4, p. 6",Texto,Media,Tiempos no reportados
+D018,Intervalo de actualización de monitoreo,30,segundos,Dispositivos modernos de monitoreo de red,"Sec. 4, p. 6",Texto,Baja,Cita genérica sin fuente en el texto
+D019,Eventos de la red sísmica italiana,50000,eventos,386 estaciones; 150 mil ventanas de 2 s de tres componentes,"Sec. 9.1, p. 22",Texto,Media,Resumen de trabajo previo
+D019,R2 del mejor modelo de intensidad (XGBoost),"98,59",%,"F1 de 96,7 %; Kappa y MCC de 96,0 %","Sec. 9.1, p. 22",Texto,Media,Seis intensidades
+D019,Exactitud de discriminación sismo-voladura,100,%,Dos características; modelo XGB,"Sec. 9.1, p. 22",Texto,Baja,Sin validación por evento declarada
+D019,Exactitud del mejor clasificador,"98,14",%,"ExtremeGradientBoosting; mejor modelo lineal 87,17 %","Sec. 9.1, p. 22",Texto,Media,Tres escenarios de clasificación
+D019,Eventos de voladura en cantera,1438,eventos,"Cantera de caliza cerca de Helwan, Egipto","Sec. 9.2, p. 22",Texto,Media,39 algoritmos de regresión con parámetros por defecto
+D019,Registros sísmicos de Canadá occidental,4900,registros,Autoencoder y red convolucional para parámetros de sismo,"Sec. 9.2, p. 22",Texto,Media,"Error medio de magnitud de 0,02 a 0,09"
+D019,Condados con recuperación en menos de tres años,52,%,"De los condados afectados de forma general, según luces nocturnas","Sec. 5.1, p. 8",Texto,Baja,Cita de un estudio sobre el sismo de Wenchuan
+D019,Tweets tras sismos importantes de 2018,4000000,tweets,Eventos mayores,"Sec. 6.1, p. 9",Texto,Baja,Cifra de un estudio citado
+D019,Velocidad de ondas sísmicas en corteza y manto profundo,2 a 13,km/s,Corteza de 2 a 8 km/s; manto profundo hasta 13 km/s,"Sec. 2, p. 3",Texto,Media,Dato de contexto
+D020,Documentos de la búsqueda inicial,1562,documentos,Scopus; 789 tras restricción a 2018-2024,"Sec. 3.1, p. 3",Texto,Media,Búsqueda de contexto
+D020,Cuestionarios distribuidos,239,personas,"Tasa de respuesta de 58,99 %","Resumen, p. 1; Sec. 4, p. 4",Texto,Media,Ambigüedad entre distribuidos y respondentes
+D020,Participantes que respondieron,141,personas,Declarado en limitaciones,"Sec. 7, p. 9",Texto,Media,"Equivale a 58,99 % de 239 (cálculo del analista)"
+D020,Alfa de Cronbach,"0,783 a 0,93",adimensional,Cinco constructos,"Tabla 2, p. 6",Tabla,Alta,Mínimo en alerta temprana
+D020,AVE,"0,572 a 0,792",adimensional,Mayor en adquisición y transmisión de datos,"Tabla 2, p. 6",Tabla,Alta,"Todas superan 0,50"
+D020,HTMT entre constructos,"0,092 a 0,359",adimensional,"Valores muy inferiores a 0,85","Tabla 3, p. 6",Tabla,Media,Valores bajos poco usuales
+D020,Coeficiente del monitoreo y analítica,"0,507",coeficiente de trayectoria,"t de 14,713; p igual a 0","Tabla 5, p. 7",Tabla,Media,Mayor efecto
+D020,Coeficiente de integración con códigos y normas,"0,392",coeficiente de trayectoria,"t de 9,69","Tabla 5, p. 7",Tabla,Media,Segundo mayor efecto
+D020,Coeficiente de adquisición y transmisión de datos,"0,313",coeficiente de trayectoria,"t de 5,699","Tabla 5, p. 7",Tabla,Media,Tercer efecto
+D020,Coeficiente de control adaptativo,"0,157",coeficiente de trayectoria,"t de 3,303; p de 0,001","Tabla 5, p. 7",Tabla,Media,Menor efecto
+D020,Q2 del constructo resultado,"0,168",adimensional,"SSO de 14.150 y SSE de 11.775,42","Tabla 6, p. 8",Tabla,Media,R2 no reportado
+D020,Mercado de IoT en construcción,16,miles de millones USD,"Proyectado a 2024; CAGR de 26,0 %","Sec. 1, p. 1",Texto,Baja,Cifra no trazable; coincide con D015
+D021,Expertos entrevistados para requisitos,5,personas,R1 a R5; experiencia de 3 a 29 años,"Sec. 4.2, p. 5-6",Texto/Tabla,Alta,Tabla 3
+D021,Expertos que evaluaron el marco,5,personas,E1 a E5; entrevista estructurada,"Sec. 7.1, p. 17",Texto/Tabla,Alta,Tabla 4
+D021,Casos de uso de demostración,2,casos,Pavimento y monitoreo de puente,"Sec. 6, p. 14",Texto,Alta,Contexto de proyectos reales
+D021,Longitud del tramo de pavimento,460,m,Tres capas bituminosas a renovar en 7 meses,"Sec. 6.1, p. 15",Texto,Alta,Un solo carril habilitado
+D021,Tendones monitoreados,8,tendones,Sensores de resistencia eléctrica; una medición mensual,"Sec. 6.2, p. 16",Texto,Alta,Frecuencia baja
+D021,Componentes primarios del gemelo,4,componentes,"Entorno físico, conexiones, entorno virtual y repositorio de datos","Sec. 4.1, p. 5",Texto,Alta,Subdivididos en Tabla 5
+D021,Ventajas identificadas,7,categorías,"Digitalización, actualización, precisión, vinculación, visión, decisión y colaboración","Tabla 7, p. 17",Tabla,Media,Sin frecuencias
+D021,Desventajas identificadas,6,categorías,"Seguridad, procesamiento, costo, automatización, complejidad y adopción","Tabla 7, p. 17",Tabla,Media,Sin cuantificación
+D022,Registros identificados,2060,registros,Web of Science e IEEE Xplore; diciembre de 2025,"Sec. 2, p. 2",Texto,Alta,1883 tras duplicados
+D022,Registros excluidos en el cribado,1742,registros,1708 irrelevantes y 34 revisiones,"Sec. 2, p. 2",Texto,Alta,Cribado manual
+D022,Estudios evaluados a texto completo,140,estudios,De 141; uno no recuperado; 35 excluidos por ser conceptuales,"Sec. 2, p. 2",Texto,Alta,12 añadidos por referencias cruzadas
+D022,Estudios incluidos,117,estudios,Corpus final de síntesis,"Sec. 2, p. 2-3",Texto,Alta,Sin evaluación de calidad
+D022,Estudios de Asia,84,estudios,China 42; India y Corea del Sur 8 cada uno; Japón 5,"Tabla 2, p. 3",Tabla,Alta,Estados Unidos 11
+D022,Publicaciones por año,13 / 26 / 25 / 19,artículos,2020 / 2023 / 2024 / 2025,"Sec. 3.1, p. 3",Texto,Alta,Cinco artículos en 2021
+D022,Citas anuales máximas,4891,citas,Año 2025,"Sec. 3.1, p. 3",Texto,Media,Cifra de la base consultada
+D022,Estudios con drones de ala rotatoria,96,estudios,Frente a pocos de ala fija o de gran altitud,"Tabla 3, p. 5",Tabla,Media,Algunos estudios usan más de un tipo
+D022,Autonomía de drones de ala rotatoria,15 a 90,minutos,Dependiente de la batería,"Tabla 4, p. 6",Tabla,Media,Rango aproximado
+D022,Ahorro de energía con descarga D2D,más de 50,%,Según un estudio citado,"Sec. 3.2.4, p. 8",Texto,Baja,Cifra de un estudio citado
+D023,Duración del monitoreo,6,meses,Mayo a agosto de 2025 para los coeficientes de variación,"Sec. 5.7, p. 11-12",Texto,Alta,Ciclo anual no cubierto
+D023,Acelerómetros triaxiales,8,nodos,LoRaWAN; armadura del puente,"Sec. 5.2, p. 9",Texto,Alta,Un solo puente
+D023,Frecuencia de muestreo,80,Hz,Adquisición programada de 102 s cada hora,"Sec. 5.3, p. 10; Sec. 5.7, p. 11",Texto,Alta,Modo por eventos con umbral de 30 mg
+D023,Umbrales de alerta,30 / 100 / 200 / 500,mg,Activación / alerta / advertencia / crítico,"Sec. 5.3, p. 10; Sec. 5.8, p. 13",Texto,Alta,Provisionales
+D023,Pérdida de paquetes,5,%,Primeros tres meses; áreas con interferencia,"Sec. 2.1.1, p. 3",Texto,Alta,Paquetes inciertos descartados
+D023,Coeficiente de variación de frecuencias modales,"menos de 0,5",%,"Modos 0 a 2; ejes X, Y, Z","Sec. 5.7, p. 12",Texto/Tabla,Media,Rangos de modos mayores aparecen en el texto
+D023,Frecuencias del FEM,"1,96 / 2,45 / 2,47",Hz,Primeros tres modos,"Sec. 5.8, p. 13",Texto,Alta,Comparación preliminar
+D023,Frecuencias observadas,"2,85 / 4,4 / 6,03",Hz,Respuestas operacionales,"Sec. 5.8, p. 13",Texto,Alta,Diferencias de 45 % a 144 % (cálculo del analista)
+D023,Amortiguamiento estimado,"2,5 a 4",%,"2,5-3 % en el primer modo; 3-4 % en modos superiores","Sec. 5.7, p. 12",Texto,Media,Estudio por modo pendiente
+D024,Registros iniciales,1497,registros,"Scopus, Google Scholar y ResearchGate","Sec. 2.1, p. 3",Texto,Alta,Fuentes no estándar
+D024,Registros tras filtros de año e idioma,1278,registros,2018-2024 e inglés,"Sec. 2.1, p. 3",Texto,Alta,Contradice artículos de 2014 y 2017
+D024,Artículos para evaluación de texto completo,94,artículos,Tras cribado de títulos y resúmenes,"Sec. 2.1, p. 3",Texto,Alta,Sin concordancia
+D024,Artículos incluidos,33,artículos,Corpus final,"Sec. 2.1, p. 3",Texto,Alta,Muestra pequeña
+D024,Artículos publicados en 2023,11,artículos,Pico; 8 en 2022 y 7 en 2024,"Sec. 2.2, p. 3",Texto,Alta,Sin artículos en 2019 ni 2021
+D024,Población proyectada a 2050,"9,7",miles de millones,Con aumento de 70 % de producción necesario,"Sec. 1, p. 1",Texto,Media,Cita de la FAO
+D024,Mejora de rendimiento por agricultura de precisión,20,%,Con reducción de agua y fertilizantes de hasta 30 %,"Sec. 3.1, p. 11",Texto,Baja,Atribuida a la FAO sin referencia
+D024,Reducción del desperdicio global por monitoreo de cadena de frío,15,%,Atribuida al Foro Económico Mundial,"Sec. 3.2, p. 12",Texto,Baja,Sin referencia primaria
+D024,Reducción de costos de transmisión por sistema de partición dinámica,40,%,SDPS con precisión mantenida,"Sec. 3.1, p. 11",Texto,Baja,Dato de un estudio citado
+D025,Componentes del puente,1067,componentes,Superestructura y subestructura,"Sec. 4, p. 8",Texto,Alta,Puente anónimo de tres vanos
+D025,Componentes monitoreados con sensores,112,componentes,Ocho tipos de sensores,"Sec. 4, p. 8",Texto,Alta,El texto enumera siete tipos de magnitud
+D025,Persistencia del identificador,100,%,1067 registros en cuatro dominios con actualizaciones aleatorias,"Sec. 4.1, p. 10-12",Texto,Media,Propiedad garantizada por diseño
+D025,Latencia de alerta de deformación,"4,2",s,Umbral de 60 microdeformaciones; evento único,"Sec. 4.1, p. 12",Texto,Media,Sin distribución de latencias
+D025,Etapas de la tubería del servicio de integración,6,etapas,"Detección, instantánea, mapeo, diferencia, mapeo cambio-acción y envío","Sec. 3.4, p. 6-7",Texto,Alta,Servicio en Python 3.12
+D025,Criterios de validación,6,criterios,"Persistencia, consistencia, latencia, completitud, automatización y robustez","Tabla 3, p. 8",Tabla,Alta,Sin umbrales de aceptación
+D025,Escenarios de aplicación,4,escenarios,"Revisión BIM, sensores, inspección IFC y BCF","Sec. 4.1, p. 8",Texto,Alta,Evaluados internamente
+D025,Umbral del ejemplo de protocolo,50,microdeformaciones,"Ejemplo de la Tabla 2; carga de ejemplo de 45,7","Tabla 2, p. 6",Tabla,Media,Difiere del umbral de 60 del escenario
+D026,Soluciones identificadas inicialmente,130,soluciones,Búsqueda en web y redes sociales tras el sismo,"Sec. 3.1, p. 6",Texto,Alta,Sin protocolo de búsqueda
+D026,Soluciones tras primera revisión,102,soluciones,Eliminación de duplicados e irrelevantes,"Sec. 3.1, p. 6",Texto,Alta,13 no disponibles eliminadas después
+D026,Soluciones finales y proveedores,89 / 82,soluciones / proveedores,Diez soluciones de dos instituciones combinadas,"Sec. 3.1, p. 6",Texto,Alta,Dataset en URL del artículo
+D026,Soluciones predesastre,21,soluciones,11 de mitigación y 5 de preparación (según el texto),"Sec. 4, p. 8",Texto,Media,Los conteos no suman 21 ni 89
+D026,Soluciones posdesastre,77,soluciones,34 de respuesta y 43 de recuperación,"Sec. 4, p. 8",Texto,Media,Una solución puede abarcar varias fases
+D026,Soluciones de información,33,soluciones,19 de ellas sobre ayuda y servicios,"Sec. 4, p. 10",Texto,Alta,Mayor categoría de objetivo
+D026,Soluciones de apoyo,29,soluciones,Incluye 5 de reclutamiento laboral y 9 de becas,"Sec. 4, p. 9",Texto,Alta,Una solución puede tener varios subobjetivos
+D026,Soluciones de campaña de ayuda,15,soluciones,7 de vivienda y 10 de donaciones,"Sec. 4, p. 9",Texto,Alta,Suma mayor que 15 por solapamiento
+D026,Soluciones web,67 de 81,soluciones,8 móviles y 6 mixtas,"Sec. 4, p. 10",Texto,Media,Ocho soluciones sin plataforma clasificada
+D026,Provincias afectadas y fallecidos,11 / más de 50000,provincias / personas,Cifras oficiales citadas,"Sec. 1, p. 2",Texto,Media,Fuente oficial citada
+D027,Probetas ensayadas,21,cilindros,"Tres clases de concreto; control más 1, 3 y 5 capas de CFRP y GFRP","Resumen, p. 1; Sec. 2.2, p. 3-4",Texto,Alta,Una probeta por condición
+D027,Resistencias de concreto,20 / 35 / 50,MPa,Clases comunes en Iran,"Sec. 2.2, p. 3",Texto,Alta,Cilindros de 15 por 30 cm
+D027,Resistencia a tracción de la fibra de carbono,4900,MPa,"Módulo de 230 GPa; espesor de 0,09 mm","Tabla 1, p. 3",Tabla,Alta,Tipo YC-N160
+D027,Resistencia a tracción de la fibra de vidrio,2200,MPa,"Deformación de rotura de 2,8 %","Tabla 1, p. 3",Tabla,Alta,Tipo EWR200
+D027,Rentabilidad relativa de GFRP frente a CFRP,casi el doble,razón,Para la resistencia a compresión,"Sec. 3.1, p. 5",Texto,Media,Cifra cualitativa del texto
+D027,Número de capas más rentable,1,capa,Índice económico decrece con más capas,"Sec. 3.1 y Conclusión, p. 5 y 10",Texto,Media,Costos solo de material
+D027,Reducción de costo total citada para pórticos de FRP frente a acero,10,%,Estudio de otros autores,"Sec. 1.3, p. 2",Texto,Baja,Cifra de la literatura
+D027,Mejora de capacidad portante de losas citada,6,%,Estudio de otros autores,"Sec. 1.3, p. 2",Texto,Baja,Cifra de la literatura
+D028,Artículos identificados en Scopus,118,artículos,Cadena ('digital twin' AND 'civil infrastructure'); inglés,"Sec. 3.1, p. 3",Texto,Alta,Una sola base
+D028,Estudios analizados en detalle,60,estudios,"Tras criterios de relevancia, revisión por pares y texto completo","Sec. 3.1, p. 3",Texto,Alta,Sin evaluación de calidad
+D028,Documentos de conferencia,"36,4",%,"Frente a 35,6 % de artículos de revista","Sec. 3.2, p. 4",Texto,Alta,Indicador de madurez inicial
+D028,Artículos de revista,"35,6",%,Segundo tipo de documento,"Sec. 3.2, p. 4",Texto,Alta,Suma menor a 100 % por otros tipos
+D028,Año de máxima publicación,2024,año,Serie de 2019 a 2025,"Sec. 3.2, p. 4",Texto,Media,2025 parcial
+D028,Categorías de síntesis,5,categorías,Puentes y SHM; BIM-GIS-IoT; riesgo y activos; ciudades y emergencias; revisiones,"Sec. 4, p. 5-6",Texto,Alta,Resumidas en la Tabla A1
+D029,Respuestas válidas,295,respuestas,Profesionales de mantenimiento mecánico; muestreo intencional,"Sec. 3, p. 6",Texto,Alta,País y sector no descritos
+D029,Confiabilidad del gemelo digital,"0,951 a 0,953",adimensional,"Rho de Jöreskog 0,951; Dijkstra-Henseler 0,953; alfa 0,952","Sec. 4, p. 7",Texto,Alta,Valores muy altos
+D029,Alfa de las dimensiones de resiliencia,"0,749 / 0,776",adimensional,Absorber el cambio / recuperación,"Sec. 4, p. 7",Texto,Alta,"Umbral de 0,70"
+D029,HTMT entre constructos,"0,62 a 0,84",adimensional,Mayor valor entre transformación y adquisición,"Tabla 3, p. 8-9",Tabla,Media,"Cerca del umbral de 0,85"
+D029,R2 de la resiliencia operativa,"0,859",adimensional,"R2 ajustado de 0,857; Q2 de 0,673","Tabla 4, p. 9",Tabla,Alta,Muy alto para encuestas
+D029,R2 de la capacidad de absorción,"0,540",adimensional,"R2 ajustado de 0,537; Q2 de 0,412","Tabla 4, p. 9",Tabla,Alta,Explicada por el gemelo digital
+D029,Efecto del gemelo sobre la resiliencia (H1),"0,625",coeficiente de trayectoria,"t de 7,210; p igual a 0,000","Tabla 5, p. 10",Tabla,Alta,Sin intervalo de confianza
+D029,Efecto de la capacidad de absorción (H2),"0,544",coeficiente de trayectoria,"t de 9,480","Tabla 5, p. 10",Tabla,Alta,Sin intervalo de confianza
+D029,Efecto de mediación (H3),"0,455",coeficiente,"t de 5,320","Tabla 5, p. 10",Tabla,Media,No coherente con R2 y trayectorias
+D029,Efecto de moderación (H4),"0,182",coeficiente,"t de 2,140; p de 0,033","Tabla 5, p. 10",Tabla,Media,Efecto débil
+D030,Cuestionarios distribuidos y respuestas utilizables,265 / 202,cuestionarios,Gerentes de organizaciones de construcción; muestreo por conveniencia,"Sec. 3, p. 6",Texto,Media,"Tasa de respuesta de 76,2 % (cálculo del analista)"
+D030,Participantes en la tabla demográfica,217,personas,"Suma de género, edad y educación en la Tabla 1","Tabla 1, p. 6",Tabla,Media,No coincide con 202
+D030,Participantes de 15 a 22 años,"28,6",%,Perfil de edad; 62 personas,"Tabla 1, p. 6",Tabla,Media,Atípico para gerentes
+D030,Efecto de la analítica de macrodatos sobre resiliencia,"0,56",coeficiente estandarizado,"p menor que 0,01","Tabla 5, p. 9",Tabla,Media,Mayor efecto
+D030,Efecto del IoT sobre resiliencia,"0,39",coeficiente estandarizado,"p menor que 0,01","Tabla 5, p. 9",Tabla,Media,Segundo efecto
+D030,Efecto de la flexibilidad del sistema sobre resiliencia,"0,36",coeficiente estandarizado,"p menor que 0,01","Tabla 5, p. 9",Tabla,Media,Tercer efecto
+D030,Efecto del gemelo digital sobre resiliencia,"0,28",coeficiente estandarizado,"p menor que 0,05","Tabla 5, p. 9",Tabla,Media,Menor efecto
+D030,Efecto de la resiliencia sobre el desempeño operativo,"0,68",coeficiente estandarizado,"p menor que 0,01","Tabla 5, p. 9",Tabla,Media,Efecto grande
+D030,Efectos indirectos (IoT / analítica / gemelo / flexibilidad),"0,265 / 0,380 / 0,190 / 0,245",coeficiente,Producto de trayectorias; significativos al 5 %,"Tabla 5, p. 9",Tabla,Media,Sin bootstrapping
+D030,Índices de ajuste,"RMSEA 0,023; CFI 0,86; TLI 0,97",índices,"GFI 0,87; AGFI 0,85; IFI 0,91","Tabla 4, p. 9",Tabla,Media,"Umbral de aceptación de 0,80"
+D031,Costo de instalación de un EWS de tsunami en el océano Índico,30 a 200,millones USD,Según el número de boyas y la precisión; estimación de 2011,"Sec. I, p. 1",Texto,Baja,Cifra de la literatura
+D031,Razón beneficio-costo de la mitigación,4 a 1,razón,Por cada dólar se ahorran cuatro,"Sec. I, p. 1",Texto,Baja,Cifra de la literatura
+D031,Tiempo de alerta esperado del subsistema sísmico,2 a 3,minutos,Tras la detección del evento,"Sec. I, p. 2",Texto,Media,Requisito citado
+D031,Tamaño de un escenario de tsunami,"1,3",GB,Cubo de datos por escenario,"Sec. IV.A, p. 10",Texto,Alta,Importación de unos 45 s
+D031,Tiempo de importación de un escenario,45,s,Constante al aumentar el número de escenarios (MongoDB),"Sec. IV.A, p. 10",Texto,Alta,Sin variabilidad reportada
+D031,Mensajes diseminados en el ejercicio,4,mensajes,"Minutos 10, 25, 62 y 180 del escenario","Sec. IV.B, p. 10",Texto,Alta,Datos simulados
+D031,Servidor de pruebas de mensajería,"2,3 GHz; 4 GB; 100 Mbps",especificaciones,Máquinas virtuales en uno o varios servidores,"Sec. IV.A, p. 8",Texto,Alta,Entorno de laboratorio
+D031,Tiempo de balanceo tras ráfaga de mensajes,unos 30 s,s,"Ráfaga a los 30 s, umbral superado a los 34 s y equilibrio a los 62 s","Sec. IV.A, p. 9",Texto,Media,Simulación de un experimento
+D032,Publicaciones analizadas,2930,publicaciones,Scopus; artículos de revista en inglés; 2018-2026; ciencias de la computación,"Sec. III, p. 5",Texto,Alta,Restricción de área temática
+D032,Publicaciones en SMSS,1010,publicaciones,"34,47 % de la muestra; 28.689 citas; h-index de 85","Sec. IV, p. 8-9",Texto,Alta,Dominio más activo
+D032,Publicaciones en ASIDA,883,publicaciones,"30,17 %; 21.389 citas; 24,22 citas por publicación; h-index de 72","Sec. IV, p. 8-9",Texto,Alta,Mayor crecimiento tras 2022
+D032,Publicaciones en DTAII,641,publicaciones,"21,89 %; 16,50 citas por publicación; h-index de 52","Sec. IV, p. 8-9",Texto,Alta,Menor impacto por publicación
+D032,Publicaciones en PIAM,393,publicaciones,"13,41 %; 9.701 citas; 24,68 citas por publicación","Sec. IV, p. 8-9",Texto,Alta,Menor volumen
+D032,Suma de los dominios,2927,publicaciones,Frente a 2930 de la muestra,"Sec. III, p. 5 (cálculo del analista)",Derivado,Media,Diferencia de tres registros
+D032,Participación de China,"37,49",%,"Primero en los cuatro dominios (13,72 % a 18,94 % por dominio)","Sec. IV, p. 9",Texto,Alta,"Estados Unidos 14,7 %"
+D032,Frecuencia de la palabra clave IoT en SMSS,266,ocurrencias,Fuerza de enlace de 1675,"Sec. IV, p. 10",Texto,Alta,Mayor nodo del dominio
+D032,Puentes con deficiencias estructurales en Estados Unidos,más de 9,%,Cita de fuente web citada en la introducción,"Sec. I, p. 1",Texto,Baja,Fuente no verificada
+D033,Documentos de la búsqueda de calidad de datos IoT,78,documentos,Scopus; KEY(IoT) y KEY(data quality),"Sec. VI, p. 16",Texto,Alta,Antes de aplicar exclusiones
+D033,Tiempo dedicado al preprocesamiento en proyectos de aprendizaje automático,80,%,Frente a 20 % de construcción de modelos,"Sec. IV.A, p. 12",Texto,Baja,Cifra sin fuente primaria
+D033,Pérdida de ingresos por datos de baja calidad,8 a 12,%,Estimación atribuida a analistas,"Sec. IV.A, p. 12",Texto,Baja,Cifra sin fuente primaria
+D033,Capas de la arquitectura IoT,3,capas,"Dispositivos, red y aplicación","Sec. I, p. 2",Texto,Alta,Marco descriptivo
+D033,Características de los datos IoT,6,características,"Ruido, redundancia, macrodatos, etiquetado parcial, seguridad y heterogeneidad","Sec. IV.B, p. 13",Texto,Alta,Fig. 8
+D033,Tareas de calidad de datos,3,tareas,"Valores atípicos, imputación y selección de sensores","Sec. VI, p. 16",Texto,Alta,Comparación cualitativa
+D033,Beneficios del IoT-SPM,4,beneficios,"Costos de mantenimiento, vida útil, producción e inventario","Sec. I, p. 2",Texto,Media,Sin cuantificación
+D034,Edificios simulados en el condado de Pingluo,6466,edificios,Todos dentro de intensidad X a X+,"Sec. 4.2, p. 15-16",Texto,Alta,Sismo simulado de 1739
+D034,Edificios intactos,44,edificios,"0,68 % del total","Tabla 2, p. 17",Tabla,Alta,"Índice de daño de 0 a 0,1"
+D034,Edificios con daño leve,702,edificios,"10,86 %","Tabla 2, p. 17",Tabla,Alta,"Índice de 0,1 a 0,3"
+D034,Edificios con daño moderado,1322,edificios,"20,45 %","Tabla 2, p. 17",Tabla,Alta,"Índice de 0,3 a 0,55"
+D034,Edificios con daño severo,1370,edificios,"21,18 %","Tabla 2, p. 17",Tabla,Alta,"Índice de 0,55 a 0,85"
+D034,Edificios destruidos o colapsados,3028,edificios,"46,83 %; 88,46 % con daño moderado o mayor (cálculo del analista)","Tabla 2, p. 17",Tabla,Alta,Sin validación con daño observado
+D034,Error de área de la intensidad X a X+,"-94,66",%,"Área del modelo de 6035,33 km2 frente a 3100,37 km2 histórica","Tabla 1, p. 13",Tabla,Alta,Sobreestimación
+D034,Error de área de la intensidad VIII,"-608,49",%,"64.666,17 km2 frente a 9127,29 km2","Tabla 1, p. 13",Tabla,Alta,Mayor error
+D034,Magnitud y profundidad usadas en la simulación,8 / 20,Mw / km,Sismo de Yinchuan-Pingluo de 1739,"Sec. 3.1.1, p. 11",Texto,Alta,Valores fijos
+D034,Ciudades por rango de intensidad,7 / 5 / 5 / 6,ciudades,Intensidades VII / VIII / IX / X a X+,"Sec. 4.2, p. 15-16",Texto,Alta,Simulación
+D035,Luces de los tramos,"28,54 / 34,72",m,"Laterales de 28,54 m y central de 34,72 m","Sec. 2, p. 3",Texto,Alta,Tres tramos simplemente apoyados
+D035,Módulo de elasticidad inicial del acero,200,GPa,Valor de diseño según certificados,"Sec. 4, p. 6",Texto,Alta,Rango de variación de ±30 %
+D035,Frecuencia de muestreo,1,kHz,Acelerómetros triaxiales,"Sec. 4, p. 7",Texto,Alta,12 sensores según el texto; 18 según el resumen
+D035,Error de frecuencia inicial máximo,20,%,Modelo sin calibrar frente a mediciones,"Sec. 4, p. 7",Texto,Alta,"Primer modo: 18,51 %"
+D035,Error de frecuencia tras la calibración,menos de 5,%,"Máximo reportado 2,85 % en el ejemplo","Tabla 5, p. 12",Tabla,Alta,Sin validación independiente
+D035,MAC mínimo posterior a la calibración,"0,93",adimensional,"Mínimo inicial de 0,19","Sec. 5, p. 11-12",Texto,Alta,"También se reporta mayor que 0,95"
+D035,Generaciones y población del algoritmo genético,1000 / 20,generaciones / individuos,Seis genes; parada por saturación de 50,"Tabla 3, p. 10",Tabla,Alta,Tiempo de cómputo no informado
+D035,Módulos calibrados,178 a 205,GPa,"Por grupo de elementos (arriostramientos, vías, cuerdas y montantes)","Tabla 4, p. 11",Tabla,Media,Valores de la tabla de lectura parcial
+D036,Registros identificados en la búsqueda,2689,artículos,Cadena de búsqueda de la Fig. 7,"Sec. 3, p. 13",Texto,Alta,Antes de cribado y deduplicación
+D036,Estudios incluidos en la revisión,56,estudios,"Tras criterios de inclusión, exclusión y calidad","Sec. 3, p. 15",Texto,Alta,Se descartaron 14 por calidad
+D036,Estudios eliminados por evaluación de calidad,14,artículos,Etapa posterior al cribado,"Sec. 3, p. 15",Texto,Alta,Criterios de calidad no detallados
+D036,Proporción de estudios con esquema ISAC,71,%,Sobre los 56 estudios incluidos,"Sec. 5.3.4, p. 19",Texto,Media,40 estudios por diferencia; conteos de Fig. 13 inconsistentes
+D036,Proporción de estudios con esquema de gemelo digital,29,%,16 de 56 estudios,"Sec. 5.3.4, p. 19",Texto,Alta,Lo declaran los autores
+D036,Participación de UAV en esquemas con gemelo digital,"43,7",%,7 de 16 estudios,"Sec. 5.3, p. 18-19",Texto,Alta,Tecnología más estudiada en el esquema con gemelo
+D036,Participación de IEEE Xplore en las fuentes,66,%,Sobre 56 estudios,"Sec. 5.2, p. 16",Texto,Alta,"Springer 18 %, ScienceDirect 11 %, ACM 5 %"
+D036,Máximo de publicaciones anuales,16,artículos,Junio de 2025,"Sec. 5.1, p. 16",Texto,Media,Dato de corte parcial del año 2025
+D036,Estudios que tratan latencia en gemelo digital,5,estudios,Aproximadamente cinco,"Sec. 5.4.2, p. 20",Texto,Media,'Roughly five'
+D036,Estudios que tratan edad de la información,2,estudios,En gemelo digital para internet de las cosas,"Sec. 5.4.3, p. 20",Texto,Alta,Métrica poco explorada
+D037,Tamaño de efecto global de tecnologías digitales sobre resiliencia,"0,331",r,"IC 95 % 0,300 a 0,363; k = 218; n = 66 906","Tabla 3, p. 8",Tabla,Alta,"I2 = 93,94 %"
+D037,Tamaño de efecto en preparación,"0,332",r,"k = 69; IC 95 % 0,275 a 0,389","Tabla 3, p. 8",Tabla,Alta,"I2 = 93,21 %"
+D037,Tamaño de efecto en respuesta,"0,322",r,"k = 55; IC 95 % 0,253 a 0,391","Tabla 3, p. 8",Tabla,Alta,"Egger significativo (p = 0,0212)"
+D037,Tamaño de efecto en recuperación,"0,273",r,"k = 42; IC 95 % 0,202 a 0,344","Tabla 3, p. 8",Tabla,Alta,Intervalo superpuesto con las otras etapas
+D037,Efecto del sensado en recuperación,"0,299",r,k = 5; n = 1268,"Tabla 4, p. 10",Tabla,Media,Pocos efectos
+D037,Efecto de la analítica en recuperación,"0,256",r,k = 22; n = 4643,"Tabla 4, p. 10",Tabla,Alta,"Menor que en preparación (0,361)"
+D037,Efecto en economías en desarrollo,"0,350",r,"k = 168; IC 95 % 0,314 a 0,386","Tabla 5, p. 11",Tabla,Alta,"Frente a 0,267 en desarrolladas (k = 32; p = 0,039)"
+D037,Varianza explicada por la metarregresión,"6,34",%,199 efectos; 11 moderadores,"Tabla 6, p. 12",Tabla,Alta,"Coeficientes con p < 0,10"
+D037,Estudios incluidos / tamaños de efecto,70 / 218,estudios / efectos,De 8427 registros iniciales,"Sec. 3.1, p. 4-5",Texto,Alta,Se excluyeron 424 sin datos
+D037,N de seguridad de Rosenthal (global),335 369,estudios,Umbral 5k+10 = 525,"Sec. 3.4, p. 6",Texto,Alta,Orwin = 6430
+D038,Sujetos en el demostrador de tráfico,9,sujetos,"Cuatro detectores, colector, gestión de tráfico, gestión ambiental, control de intersección y semáforo","Sec. 4.3, p. 10",Texto,Alta,Sistema simulado
+D038,Detectores añadidos en la extensión,4,detectores,Segunda intersección del sistema de tráfico,"Sec. 4.3, p. 12-13",Texto,Alta,Extensión conceptual
+D038,Ciclos de diseño presentados,3,ciclos,"Especificación, situaciones excepcionales y comportamiento inteligente","Sec. 2, p. 4",Texto,Alta,Ciencia del diseño
+D038,Tipos de comportamiento considerados,4,categorías,"Predecible o impredecible, deseable o indeseable","Sec. 3.2, p. 5-6",Texto,Alta,Tomado de Grieves y Vickers
+D038,Dimensiones del gemelo digital citadas,5,dimensiones,"Entidad física, virtual, servicios, datos y conexión","Sec. 3.3, p. 7",Texto,Alta,Tomado de Wu et al.
+D038,Dimensiones de capacidad del gemelo analizadas,5,dimensiones,"Profundidad y amplitud de integración, conectividad, inteligencia, validación y variabilidad de implementación","Sec. 4.4, p. 13",Texto,Media,Marco propio
+D038,Resultados cuantitativos de desempeño,0,métricas,"El artículo no reporta tiempos, latencias ni errores","Sec. 4, p. 10-18",Texto,Alta,Ausencia verificada
+D039,Parámetros entrenables del modelo TLCA,108,mil parámetros,"Memoria 0,41 MB","Sec. VI-C, p. 9",Texto,Alta,Modelo ligero
+D039,Latencia de inferencia en GPU / CPU,"0,04 / 0,14",ms,Par de segmentos de 2000 puntos,"Sec. VI-C, p. 9",Texto,Alta,"3,87 millones de FLOPs"
+D039,Error absoluto medio en simulación,2,ms,Retardos hasta 500 ms,"Sec. VI-F, p. 10",Texto,Media,"Reporta RMSE de 1,4 ms, inconsistente"
+D039,Error absoluto medio en campo (Jindo),5,ms,"Retardos hasta 400 ms; R2 = 99,97 %","Sec. VI-F, p. 10",Texto,Alta,Retardos inyectados
+D039,Error de regresores de conjunto en simulación,10,ms,"RF, GBR y XGBoost","Sec. VI-F, p. 9-10",Texto,Media,Orden de magnitud
+D039,Error de regresores de conjunto y MLP en campo,45,ms,R2 inferior a 70 %,"Sec. VI-F, p. 10",Texto,Media,Valor mínimo citado como superado
+D039,Frecuencia óptima de sobremuestreo,340,Hz,Búsqueda de 100 a 600 Hz con 500 iteraciones,"Sec. VI-G, p. 10",Texto,Alta,Optimización bayesiana
+D039,Nodos inalámbricos del puente Jindo,70,nodos,Plataforma Imote2,"Sec. IV-B, p. 6",Texto,Alta,24 canales mostrados
+D039,Tiempo de entrenamiento en GPU / CPU,4 / 12,minutos,Aproximadamente,"Sec. VI-C, p. 9",Texto,Alta,Entrenamiento completo
+D040,Razón capacidad-demanda del pórtico sin refuerzo (CDR_LS),42,%,Pórtico de cinco pisos diseñado para cargas gravitacionales,"Sec. 2.2, p. 4",Texto,Alta,Referencia de partida
+D040,CDR_LS máximo alcanzado: FRP / acero / concreto armado,110 / 147 / 181,%,"13, 15 y 17 configuraciones","Sec. 2.2, p. 4",Texto,Alta,Solo el concreto armado aumenta resistencia lateral
+D040,Costo de refuerzo con FRP y acero,3 a 11,% del costo de reposición,Depende del CDR_LS,"Sec. 2.8, p. 9",Texto,Alta,Concreto armado llega a 18 %
+D040,CDR_LS óptimo (costo de ciclo de vida): FRP / acero / concreto armado,95 / 117 / 146,%,Con costo de refuerzo y reparación,"Sec. 3.2, p. 14",Texto,Alta,Eurocode 8-3 exige 100 %
+D040,Reducción de carbono del ciclo de vida con FRP y acero,hasta 24,%,"Para CDR_LS < 80 %, frente a 5 % a 14 % con concreto armado","Sec. 3.4, p. 17",Texto,Alta,Divergencia entre costo y carbono
+D040,Impuesto al carbono máximo considerado,"120,16",euros/t CO2e,Límite superior europeo de 2023,"Sec. 3.4, p. 17",Texto,Alta,Efecto menor que 10 %
+D040,Costo de reposición del edificio,984,euros/m2,Ajustado a precios de 2023,"Sec. 2.8, p. 9",Texto,Media,Lista de precios de Abruzzo
+D040,Retraso inicial supuesto antes de las obras (T0),100,días,Supuesto 'arbitrario' por ausencia de cifras estandarizadas,"Sec. 2.7, p. 7",Texto,Alta,Sin análisis de sensibilidad
+D040,Horizonte y tasa de descuento,"50 / 3,0",años / %,Costo de ciclo de vida,"Sec. 2.10, p. 9-10",Texto,Alta,Supuestos fijos
+D040,Razón de daño a tiempo de reparación DS3 / DS4 (pre-código),"49,6 / 79,6",%,Proporción del tiempo de reposición,"Tabla 4, p. 8",Tabla,Alta,Derivado en trabajo previo de los autores
+D041,R2 de la red neuronal,"0,1607",R2,Mejor modelo comparado,"Resumen, p. 2; Tabla 1, p. 7",Tabla,Alta,84 % de varianza sin explicar
+D041,MSE de la red neuronal,"0,1615",magnitud al cuadrado,Conjunto de prueba,"Resumen, p. 2",Texto,Alta,Unidad no especificada
+D041,MAE de la red neuronal,"0,2951",unidades de magnitud,Conjunto de prueba,"Resumen, p. 2",Texto,Alta,Mejor entre los seis modelos por pequeño margen
+D041,R2 de la regresión lineal,"0,0235",R2,Línea base,"Tabla 1, p. 7",Tabla,Media,Reconstruido de la tabla; orden de columnas deducido por consistencia de MSE y R2
+D041,R2 de la máquina de vectores de soporte,"-2,63",R2,Peor modelo,"Tabla 1, p. 7",Tabla,Media,"MAE 0,571; MSE 0,698"
+D041,"R2 de bosque aleatorio, XGBoost y aumento de gradiente","0,136 a 0,140",R2,Modelos de conjunto,"Tabla 1, p. 7",Tabla,Media,"Diferencia con la red de 0,02"
+D041,Variables de entrada,4,variables,"Latitud, longitud, profundidad y número de estaciones","Sec. 3.4, p. 5",Texto,Alta,Sin forma de onda
+D041,Árboles del bosque aleatorio,100,árboles,Semilla 42,"Sec. 3.6.1, p. 6",Texto,Alta,Hiperparámetro único declarado
+D042,Artículos identificados en Scopus,522,artículos,"Cadena de búsqueda hasta 2025, inglés","Sec. II, p. 3",Texto,Alta,Solo artículos de revista
+D042,Publicaciones únicas tras deduplicación,505,publicaciones,"Comparación por título, autores y DOI","Sec. II, p. 3",Texto,Alta,Base posible del análisis bibliométrico
+D042,Estudios potencialmente relevantes tras título y resumen,230,estudios,"Criterios de terremoto, tecnología y fase","Sec. II, p. 3",Texto,Alta,Cribado manual
+D042,Estudios incluidos tras lectura completa,53,estudios,"Marco tecnológico, escenario sísmico y validación","Sec. II, p. 3",Texto,Alta,Incluye validación por simulación
+D042,Publicaciones anuales máximas,80,artículos/año,Más de 80 en 2024,"Sec. III-A, p. 3",Texto,Media,Cifra aproximada del texto
+D042,Periodo de producción mínima,1998 a 2010,años,Menos de cinco artículos por año,"Sec. III-A, p. 3",Texto,Alta,Inflexión hacia 2014-2015
+D042,Grupos temáticos en la red de coocurrencia,3,clústeres,"Teledetección-IA, IoT y operaciones UAV","Sec. III-B, p. 4",Texto,Alta,"Pilares: UAV, gestión de desastres, IoT"
+D042,Niveles de interoperabilidad identificados,4,niveles,"Protocolo, plataforma, sensado y decisión","Sec. VI, p. 16",Texto,Alta,Hallazgo cualitativo
+D042,Alcance de detección de signos vitales a través de escombros,10,pies,Sistema de microondas citado,"Sec. IV, p. 8",Texto,Media,Dato de un estudio citado
+D043,Exactitud del modelo federado base,"92,8",%,"30 clientes, 100 rondas, 80 % de participación","Sec. 3.1, p. 20",Texto,Alta,"Centralizado 93,1 %"
+D043,Exactitud con 20 % de clientes corruptos,"84,1",%,"Ronda 60; caída de 8,7 puntos","Sec. 3.2, p. 20",Texto,Alta,El texto lo describe como 'mejora'
+D043,Exhaustividad con corrupción,"75,5",%,"Frente a 90,4 % base","Sec. 3.2, p. 20",Texto,Alta,Mayor caída; más falsos negativos
+D043,Exactitud tras resta de gradientes / reagregación / reentrenamiento,"88,2 / 90,7 / 92,5",%,Tabla 1,"Tabla 1, p. 22",Tabla,Alta,Datos sintéticos
+D043,F1 tras reentrenamiento restringido,"90,5",%,"Frente a 77,8 % con corrupción y 90,8 % base","Tabla 1, p. 22",Tabla,Alta,Recuperación cercana a 98 % (cálculo del analista)
+D043,Similitud coseno con el modelo base tras desaprendizaje,"0,91 / 0,97",coseno,"Resta de gradientes y reagregación; 0,76 tras la corrupción","Sec. 3.3, p. 21-22",Texto,Alta,Parámetros del modelo
+D043,Clientes del gemelo en la simulación / corruptos,30 / 6,clientes,20 % de corrupción desde la ronda 10,"Sec. 3.2, p. 20",Texto,Alta,Corrupción asignada por la autoría del estudio
+D043,Latencia de inferencia,"23,5",ms,Por muestra en entorno de borde simulado,"Sec. 3.1, p. 20",Texto,Media,Simulada
+D043,Restauración declarada en el resumen,hasta 95,%,De la exactitud degradada,"Resumen, p. 1",Texto,Media,No coincide con el cálculo directo de la Tabla 1
+D044,Reducción de tiempo promedio de respuesta en Barcelona,15 a 8,minutos,Zonas monitoreadas con IoT; equivale a 47 %,"Sec. 3.2, p. 6; Tabla 1, p. 9",Texto,Baja,Sin fuente primaria ni período
+D044,Reducción de la tasa de delitos en zonas monitoreadas,25,%,Barcelona,"Sec. 3.2, p. 6",Texto,Baja,Sin grupo de comparación
+D044,Reducción de consumo energético con alumbrado inteligente,30,%,Barcelona,"Sec. 3.2, p. 6",Texto,Baja,Sin período ni línea base
+D044,Aviso máximo del sistema de alerta temprana en Tokio,60,segundos,Antes de la llegada del temblor,"Sec. 4, p. 7-8",Texto,Baja,Depende de la distancia al epicentro
+D044,Reducción estimada de lesiones en sismos moderados,20,%,Tokio,"Sec. 4, p. 8",Texto,Baja,Estimación no sustentada
+D044,Protección de infraestructura por cierres automáticos,30,%,Tokio,"Sec. 4, p. 8",Texto,Baja,Definición no dada
+D044,Reducción del tiempo de respuesta en incendios en California,44,%,De 45 a 25 minutos,"Tabla 1, p. 9",Tabla,Baja,Sin fuente
+D044,Reducción del área afectada por incendios,15,%,California,"Tabla 1, p. 9",Tabla,Baja,Sin fuente
+D045,Registros identificados en la búsqueda,354,artículos,"Scopus y Web of Science, 30 de marzo de 2022","Sec. 2.2, p. 3",Texto,Alta,218 únicos tras deduplicación
+D045,Artículos únicos tras eliminar duplicados,218,artículos,Antes de la revisión de resúmenes,"Sec. 2.2, p. 3",Texto,Alta,Criterios de exclusión manuales
+D045,Artículos incluidos en la revisión,59,artículos,Posteriores a septiembre de 2009,"Sec. 2.3, p. 4",Texto,Alta,Solo MEMS en inglés
+D045,Costo de un EEWS con sensores clase A,millones,dólares,Referencia de Brooks et al. (2021),"Sec. 1, p. 2",Texto,Media,Cifra cualitativa
+D045,Costo de un EEWS con sensores clase C y D,miles,dólares,Referencia de Brooks et al. (2021),"Sec. 1, p. 2",Texto,Media,Cifra cualitativa
+D045,Magnitud de saturación de algoritmos de fuente puntual,6,Mw (aproximado),Algoritmos basados en la fuente,"Sec. 3.1.2.1, p. 5",Texto,Alta,Dificultad con eventos grandes
+D045,Ventana de datos de onda P usada por algoritmos de fuente,"0,5 a 4",segundos,De dos a seis sensores cercanos,"Sec. 3.1.2.1, p. 5",Texto,Alta,Valor de literatura
+D045,Países con despliegues de bajo costo citados,5,territorios,"Taiwán, California, Islandia, China y Nueva Zelanda","Sec. 1, p. 2",Texto,Alta,Además de Alemania (SOSEWIN)
+D046,Documentos identificados con 'internet of thing' en Scopus,206 901,documentos,Búsqueda inicial,"Sec. 3, p. 3",Texto,Alta,Hasta agosto de 2024
+D046,Documentos tras añadir 'distributed computer systems',2926,documentos,Primera reducción,"Sec. 3, p. 3-4",Texto,Alta,Filtro por palabras clave
+D046,Documentos tras limitar al área 'Business',91,documentos,Selección final,"Sec. 3, p. 3-4",Texto,Alta,Sin exclusiones posteriores descritas
+D046,Revistas distintas en el conjunto,68,revistas,"13 Q1, 7 Q2, 1 Q3 y 3 Q4","Sec. 4, p. 6",Texto,Alta,44 sin datos de indexación (65 %)
+D046,Revista con mayor SJR,"5,780",SJR,Technological Forecasting and Social Change,"Tabla 4, p. 6",Tabla,Media,Cuartil Q1; H-index 177
+D046,Publicaciones atribuidas a China,80,publicaciones,Conteo por afiliaciones,"Tabla 3, p. 6",Tabla,Baja,Excede el plausible para un conjunto de 91; ambiguo
+D046,Publicaciones atribuidas a Estados Unidos,24,publicaciones,Conteo por afiliaciones,"Tabla 3, p. 6",Tabla,Baja,Alemania 22 y Grecia 15
+D047,Referencias citadas en el texto,~70,referencias,Numeradas hasta [68] en el texto principal,"Cuerpo del texto, p. 1-5",Texto,Media,Sin método de selección
+D047,Magnitud mínima de los eventos usados en el ejemplo,4,magnitud,Zonas de amortiguamiento de Kütahya,"Fig. 1, p. 2",Texto,Alta,Ejemplo de estudio previo
+D047,Documentos del estudio previo citados para el caso de Kütahya,1,estudio,Referencia [68],"Fig. 1-2, p. 2 y 4",Texto,Alta,Sin datos propios
+D047,Resultados cuantitativos de desempeño,0,métricas,"El artículo no reporta tiempos, costos ni víctimas","Secc. Resultados, p. 4",Texto,Alta,Ausencia verificada
+D048,Eventos sísmicos compilados en el catálogo,1786,eventos,"1900-2024, radio de 200 km y profundidad de 100 km","Sec. 3.1, p. 13",Texto,Alta,"Tipos de magnitud mb, ms, Mw, ML y MD"
+D048,Resolución del modelo de elevación digital,"12,5",m,ALOS PALSAR de código abierto,"Sec. 3.1, p. 13",Texto,Alta,Base del modelo 3D
+D048,Rango de aceleración pico del suelo (PGA),"0,05 a 1,1",g,Escenario del evento de Kocaeli,"Sec. 3.2, p. 14",Texto,Alta,Sin validación
+D048,Edificios con daño moderado a colapso total,55,%,Escenario simulado,"Sec. 3.2, p. 14",Texto,Alta,Sin comparación con 1999
+D048,Población que requeriría refugio y protección,60,%,Casi 60 % según el escenario,"Sec. 3.2, p. 14",Texto,Media,Cifra aproximada
+D048,Edificios con daño completo / población afectada,18 000 / 145 000,edificios / personas,Estimación preliminar,"Sec. 4, p. 16",Texto,Media,Sin incertidumbre
+D048,Edificios con daño extenso / población afectada,40 000 / 340 000,edificios / personas,Estimación preliminar,"Sec. 4, p. 16",Texto,Media,Sin incertidumbre
+D048,Equipos de búsqueda y rescate para 72 horas,2450 / 380,equipos pesados / ligeros,Estimación del marco,"Sec. 4, p. 16",Texto,Media,Parámetros no presentados
+D049,Latencia del sistema descentralizado (rango),"1,24 a 2,88",s,Seis escenarios hipotéticos con PLUM en el nodo,"Sec. 4.5, p. 18",Tabla,Alta,Red de cinco sensores
+D049,Latencia centralizada con MQTT (rango),"3,24 a 4,57",s,Servidor AWS t2.micro de 1 GB,"Tabla 2, p. 19",Tabla,Alta,Línea base tradicional
+D049,Latencia centralizada con TCP (rango),"1,48 a 3,13",s,Mismo servidor,"Tabla 2, p. 19",Tabla,Alta,Línea base con el mismo protocolo
+D049,Ventaja de la descentralizada sobre la centralizada con TCP,"0,24 a 0,32",s,Cálculo del analista a partir de la Tabla 2,"Tabla 2, p. 19",Tabla,Alta,"Del 8 % al 19,5 %"
+D049,Ventaja de la descentralizada sobre la centralizada con MQTT,≈ 2,s,Según la discusión,"Sec. 5, p. 23",Texto,Alta,Parte atribuible al protocolo
+D049,Tiempo de viaje de la onda S entre primer y segundo sensor,"1,0 a 2,7",s,Seis escenarios,"Sec. 4.5, p. 18",Texto,Alta,Depende de la densidad de sensores
+D049,Ventaja de UDP sobre TCP,≈ 35,ms,Se prefiere TCP por confiabilidad,"Sec. 5, p. 23",Texto,Alta,Para aplicaciones críticas
+D049,Radio de comunicación entre sensores,30,km,Esquema PLUM,"Sec. 4.3, p. 14",Texto,Alta,Redundancia por densidad local
+D049,Simulaciones realizadas,60,simulaciones,Seis escenarios,"Resumen, p. 1",Texto,Media,Detalle de repeticiones no descrito en el texto leído
+D050,Documentos encontrados en Scopus y Web of Science,285,documentos,"'disaster management' e 'internet of things', sin restricción de años","Sec. 3.1, p. 5",Texto,Alta,151 son artículos de revista
+D050,Artículos de revista en el conjunto,151,artículos,Total bruto,"Sec. 3.1 y Tabla 1, p. 5",Texto,Media,Tabla 1 ambigua
+D050,Artículos tras eliminar duplicados,97,artículos,Portafolio para cribado,"Sec. 3.2, p. 6",Texto,Media,Tabla 1
+D050,Artículos analizados cualitativamente,27,artículos,Seleccionados con el índice InOrdinatio,"Sec. 3.2, p. 6",Texto,Alta,Apéndice 1
+D050,Artículos publicados en 2019,32,artículos,Máximo anual; 25 en enero a agosto de 2020,"Sec. 3.1, p. 5",Texto,Alta,10 en 2017 y 17 en 2018
+D050,Primer artículo de revista sobre el tema,2010,año,Indexado en las bases,"Sec. 3.1, p. 5",Texto,Alta,Campo reciente
+D050,Artículos en IEEE Access,8,artículos,Revista con más publicaciones,"Tabla 2, p. 6",Tabla,Alta,Computer Communications 6; Sensors 5
+D051,Artículos incluidos en la revisión,32,artículos,"Scopus y Web of Science, 2004 a 2023","Sec. 2.3, p. 3",Texto,Alta,Solo artículos de revista
+D051,Desafíos identificados,92,desafíos,Clasificados en 16 categorías,"Resumen, p. 1; Sec. 3.1, p. 8",Texto,Alta,Sin frecuencias
+D051,Categorías de desafíos,16,categorías,"Financieras, privacidad y seguridad, aceptación, entre otras","Resumen, p. 1",Texto,Alta,Taxonomía propia
+D051,Impulsores identificados,67,impulsores,4 antecedentes y 10 consecuentes (categorías),"Sec. 4, p. 13",Texto,Alta,Sin frecuencias
+D051,Categorías de impulsores antecedentes,4,categorías,"Presiones, comprensión de beneficios, regulación, incentivos","Resumen, p. 1",Texto,Alta,Antecedentes de la adopción
+D051,Categorías de impulsores consecuentes,10,categorías,"Beneficios de producción, ventaja competitiva, inventario, costos, entre otras","Resumen, p. 1",Texto,Alta,Beneficios esperados
+D052,Tamaño de la muestra,313,profesionales,Construcción; encuesta,"Resumen, p. 1",Texto,Alta,Cuestionario en chino
+D052,R2 de la eficiencia de gestión de operaciones,"0,911",R2,Modelo estructural,"Sec. 5.3, p. 25",Texto,Alta,Los autores lo califican de inusual
+D052,Efecto directo de DTT sobre OME,"0,222",β,"t = 6,602; p < 0,001","Sec. 5.4, p. 28",Texto,Alta,Efecto reducido tras mediación
+D052,Efecto indirecto de DTT sobre OME vía IT,"0,749",β,"t = 9,805; p < 0,001","Sec. 5.4, p. 28",Texto,Alta,"VAF 97,4 %"
+D052,Efecto indirecto de DTT sobre OME vía CDM,"0,202",β,"t = 3,321; p = 0,001","Sec. 5.4, p. 28",Texto,Alta,"VAF 26,3 %"
+D052,Efecto total de DTT sobre OME reportado,"0,769",β,"t = 35,426","Sec. 5.4, p. 28",Texto,Media,"Inconsistente con la suma de los efectos (1,173)"
+D052,Moderación de ODR en la relación DTT–OME,"-0,056",β,"t = 3,203; p = 0,002 (lectura de tabla)","Sec. 5.3, p. 25",Tabla,Media,Contraria a la hipótesis
+D052,Tamaño de efecto NCA de IT / CDM / DTT / ODR,"0,395 / 0,363 / 0,274 / 0,231",d,Condición necesaria para OME alta,"Sec. 5.5, p. 29",Tabla,Media,IT con techo más marcado
+D052,Remuestras de bootstrap,5000,remuestras,SmartPLS 4,"Sec. 5.3, p. 25",Texto,Alta,"VIF inferior a 3,3"
+D053,Simulaciones de TREADS usadas para entrenar los modelos,50 000,simulaciones,Arquetipos de muros de corte de 8 a 24 pisos,"Resumen, p. 1",Texto,Alta,Cinco niveles de peligro
+D053,Períodos de retorno de los niveles de peligro,100 a 4975,años,"100, 475, 975, 2475 y 4975","Introducción, p. 3",Texto,Alta,Cinco niveles
+D053,Edificios del portafolio regional,218,edificios,"Muros de corte de 8 a 24 pisos, construidos después de 2005","Sec. Aplicación, p. 13",Texto,Alta,Metro Vancouver
+D053,Escenarios de sismo de magnitud 9,30,escenarios,Zona de subducción de Cascadia,"Sec. Aplicación, p. 13",Texto,Alta,10 000 realizaciones por escenario
+D053,Error del modelo respecto de TREADS,< 10,%,"Recuperación esperada y coeficiente de variación, salvo en 100 años","Conclusión, p. 18",Texto,Alta,Validación contra simulador
+D053,Profundidad de cuenca en Richmond / Vancouver,3 a 4 / 1 a 2,km,Explica mayores intensidades a períodos largos,"Sec. Aplicación, p. 17",Texto,Alta,Richmond con mayor tiempo
+D053,Aceleración espectral promedio en el escenario mediano,"0,04 a 0,12",g,North Vancouver a Richmond,"Sec. Aplicación, p. 17",Texto,Alta,Media de AvgSA por ciudad
+D053,Distribuciones óptimas del modelo,Beta / GEV,tipo,Reparación y demoras impedientes,"Conclusión, p. 18",Texto,Alta,Para esta clase de edificios
+D054,Costo máximo de refuerzo con retorno positivo considerando solo reparaciones,10 a 30,% del valor de reposición,Edificios antiguos de pórticos de concreto,"Resumen, p. 1",Texto,Alta,Los refuerzos suelen costar más
+D054,Costo máximo de refuerzo rentable incluyendo víctimas,hasta 60,% del valor de reposición,Con reducción del riesgo de muerte,"Resumen, p. 1",Texto,Alta,Depende del valor de la vida
+D054,Valor de la vida utilizado,2 a 5,millones de dólares,Práctica de ingeniería y construcción,"Sec. Visión general, p. 2",Texto,Alta,Controvertido
+D054,Rango de tasa de descuento real,2 a 6,%,Tradicional según la literatura,"Sec. Visión general, p. 2",Texto,Alta,Misma tasa para vidas y pérdidas
+D054,Beneficios presentes del reemplazo (2 pisos / 4 pisos),"8,6 / 7,0",millones de dólares,Pórticos espaciales,"Sec. Reemplazo, p. 8",Texto,Alta,≈ 200 y ≈ 80 dólares/pie²
+D054,Costo implícito por vida salvada (pórticos perimetrales),4 a 6,millones de dólares,Razón de equilibrio,"Sec. Reemplazo, p. 8",Texto,Alta,"En espaciales, de menos de 1 a más de 10"
+D054,Participación de las vidas salvadas en los beneficios,≈ 50,%,Promedio de los refuerzos,"Sec. Refuerzo, p. 17",Texto,Alta,"El resto, reducción de pérdidas"
+D054,Costo implícito por vida salvada de un refuerzo de 80 dólares/pie²,"2,4",millones de dólares,Edificio de 4 pisos (55 % del valor de reposición),"Sec. Refuerzo, p. 17",Texto,Alta,"Con 45 dólares/pie², 0,2 millones"
+D054,Horizonte base del análisis,50,años,Vida útil remanente supuesta,"Sec. Reemplazo, p. 8",Texto,Alta,Horizontes cortos empeoran la razón
+D055,Tiempo de misión del agente racional (BDI),44,s,Misión con cuatro destinos y cuatro estaciones de carga,"Sec. 6.1, p. 21",Texto,Media,Una corrida; 9900 unidades de distancia
+D055,Tiempo de misión del agente reactivo,57,s,Misma misión y restricciones,"Sec. 6.1, p. 21",Texto,Media,13 380 unidades de distancia
+D055,Distancia recorrida: BDI frente a reactivo,9900 / 13 380,unidades,Misma misión,"Sec. 6.1, p. 21",Texto,Media,Reducción cercana a 26 % (cálculo del analista)
+D055,Robots en los experimentos,2,robots,Uno reactivo y uno racional,"Sec. 6, p. 15-16",Texto,Alta,Prototipos de laboratorio
+D055,Destinos y estaciones de carga definidos,4 / 4,elementos,Experimento de razonamiento,"Sec. 6.1, p. 17",Texto,Alta,Sin variación de escenario
+D055,Experimentos realizados,2,experimentos,Razonamiento y brecha simulación-realidad,"Sec. 6, p. 15-16",Texto,Alta,Sin repeticiones descritas
+D056,Exposición sísmica mencionada para India,57,% del territorio,Dato general del pasaje de la sección 5,"Sec. 5, p. 8",Texto,Baja,Sin fuente en el pasaje leído
+D056,Resultados cuantitativos propios del prototipo,0,métricas,"No se reportan umbrales, tiempos ni falsos positivos","Sec. 6, p. 14-16",Texto,Alta,Ausencia verificada
+D056,Tipos de desastre tratados en las aplicaciones,4,tipos,"Incendio, inundación, deslizamiento y sismo","Sec. 5, p. 8-12",Texto,Alta,Más ejemplos de otros ámbitos en la sección 7
+D056,Componentes del sistema de alerta sísmica descrito,5,componentes,"Acelerómetro, PIC, ZigBee, LCD y RS232 (más GSM para alarma)","Sec. 6.2, p. 15",Texto,Alta,Sin pruebas
+D057,Iteraciones de convergencia de MTEA / STEA,30 / 40,iteraciones,Aproximadamente,"Sec. V, p. 11",Texto,Media,Dato aproximado del texto
+D057,Área de simulación,200 × 200,m,"Estación base en (100, 100)","Sec. V, p. 10",Texto,Alta,Distribución uniforme
+D057,Umbral de precisión del gemelo,"0,6",adimensional,Heredado de trabajos previos,"Sec. V, p. 10",Texto,Alta,Parámetro An
+D057,Límite de latencia,"0,1",s,Parámetro Ln heredado,"Sec. V, p. 10",Texto,Alta,Sin sensibilidad propia
+D057,Algoritmos de referencia,4,algoritmos,"Aleatorio, voraz, genético y AVOA","Sec. V, p. 10",Texto,Alta,Comparación en energía y retardo
+D058,Tamaño relativo del SDT personalizado frente al KG original,1,%,Red de puentes de Miami-Dade,"Resumen, p. 2",Texto,Alta,Mejora de eficiencia computacional
+D058,Memoria de la red bayesiana completa,"73 362,9",MB,Con 4 estados discretos por nodo,"Sec. 5, p. 16",Texto,Alta,Tablas de probabilidad condicional
+D058,Memoria de la red del tronco personalizado,"625,3",MB,Sub-gemelo transformado,"Sec. 5, p. 16",Texto,Alta,Reducción de unas 117 veces (cálculo del analista)
+D058,Nodos del grafo hipotético,36,nodos,Ejemplo 1 con dos componentes,"Sec. 4, p. 9",Texto,Alta,Demostración
+D058,Distancia máxima de conexión río-puente,5,km,Regla de conectividad del KG,"Sec. 5, p. 15",Texto,Alta,Sin sensibilidad
+D058,Estaciones de tránsito conectadas por puente,10,estaciones,Las más cercanas por vía,"Sec. 5, p. 15",Texto,Alta,Para estimar consecuencia
+D059,Registradores de fallas asociados al evento en el caso 1,7,registradores,Datos espacio-temporales de 42 dimensiones,"Sec. VI-A, p. 12",Texto,Alta,Fallas de tierra de corriente pequeña
+D059,Dimensión del indicador LES con todos los registradores,42,dimensiones,Indicador τ1-42,"Sec. VI-A, p. 12",Texto,Alta,Misma tendencia que los indicadores clásicos
+D059,Dimensión del indicador LES con 4 registradores,24,dimensiones,Cuando 3 registradores sensibles son poco fiables,"Sec. VI-A, p. 12-13",Texto,Alta,Sigue siendo eficaz (cualitativo)
+D059,Pasos del marco DT-SA,4,pasos,"Digitalización, simulación, informatización e intelectualización","Resumen, p. 1",Texto,Alta,Marco conceptual
+D059,Casos de estudio presentados,3,casos,Aplicaciones del EIoT,"Sec. VI, p. 11",Texto,Alta,El resumen habla de numerosos casos
+D060,Exactitud del modelo con XGBoost,"99,05",%,Clasificación de intensidad con un componente,"Resumen, p. 1",Texto,Media,Posible desbalance de clases
+D060,Razón de alertas falsas,"14,7",%,Reportada en el texto,"Sec. 7, p. 17",Texto,Alta,Alta para una alerta pública
+D060,Exactitud de validación en curvas de aprendizaje de XGBoost,≈ 90 / 87,%,Según la conversión de intensidad usada,"Sec. 6, p. 14",Texto,Alta,"Inferior al 99,05 % del resumen"
+D060,Razón de alertas perdidas,"0,03",%,Casi nula,"Sec. 7, p. 17",Texto,Alta,Para el modelo propuesto
+D060,Ventana de datos del modelo,3,s,1 s antes y 2 s después de la onda P,"Sec. 1.2, p. 3",Texto,Alta,"Una estación, un componente"
+D060,Trazas de tres componentes del conjunto INSTANCE,"1,2",millones,Unos 50 000 eventos de 2005 a 2020,"Sec. 3.1, p. 5",Texto,Alta,"Magnitudes de 0,0 a 6,5"
+D060,Registros de 386 estaciones usados según las contribuciones,27 531,registros,Frente a 50 000 instancias del resumen,"Sec. 1.2, p. 3",Texto,Media,Inconsistencia no explicada
+D061,Registros recuperados en las bases,1085,registros,Scopus 85 y Web of Science 1000,"Sec. 2, p. 4",Texto,Alta,Deduplicados por DOI y títulos
+D061,Estudios incluidos,85,estudios,2018 a 2025,"Resumen, p. 1",Texto,Alta,Coincide con el total de Scopus
+D061,Reducción de tiempos de alerta en Kenia,40,%,Red de sensores IoT de bajo costo con Raspberry Pi,"Sec. 3, p. 11",Texto,Media,Se generaliza en el resumen
+D061,Personas afectadas por inundaciones (1993 a 2024),"2,3 mil millones",personas,Bases globales de desastres,"Sec. 1, p. 2",Texto,Media,Dato de contexto citado
+D061,Daños económicos por inundaciones (2010 a 2024),400,miles de millones de dólares,Dato de contexto citado,"Sec. 1, p. 2",Texto,Media,Fuente secundaria
+D061,Dimensiones de la rúbrica de calidad,5,dimensiones,"Rigor técnico, innovación, relevancia, políticas y equidad, transparencia","Sec. 2.5, p. 8",Texto,Alta,Rúbrica propia
+D062,Mejora de la intensidad de señal mediana,4,veces,Frente a Q-learning estándar,"Resumen, p. 1",Texto,Media,Sin intervalos de confianza
+D062,Mejora del caudal,42,%,Pruebas con plataforma real,"Resumen, p. 1",Texto,Media,Número de repeticiones no informado
+D062,Mejora de la recompensa acumulada,55,%,Frente a Q-learning estándar,"Resumen, p. 1",Texto,Media,Métrica del algoritmo
+D062,Cuadrícula de simulación y obstáculos,100 × 100 / 15,celdas / %,Entorno simulado,"Sec. IV, p. 5",Texto,Alta,Decaimiento por distancia inversa
+D062,Tamaño del búfer de repetición / lote,10 000 / 32,transiciones / muestras,Parámetros de entrenamiento,"Sec. IV, p. 5",Texto,Alta,"Epsilon mínimo de 0,05"
+D062,Episodios de entrenamiento máximos,500,episodios,O hasta explorar 95 % de celdas alcanzables,"Sec. IV, p. 5",Texto,Alta,Q-table
+D062,Radio de evaluación de obstáculos con LiDAR,5,m,Densidad local de obstáculos,"Sec. IV, p. 6",Texto,Alta,Para el módulo DASP
+D063,Eventos históricos usados en la validación,82,eventos,"Magnitudes de 5,0 a 7,0","Resumen, p. 1; Sec. 4.3.2, p. 12",Texto,Alta,Una región sísmica
+D063,Estaciones sísmicas utilizadas,61,estaciones,Línea y red general,"Resumen, p. 1",Texto,Alta,Reproducción fuera de línea
+D063,"Tiempo del primer mensaje de nivel 2 (ensayo M5,5 a 43 km)",7,s,Elevado a nivel 3 a los 9 s,"Sec. 4.1, p. 11",Texto,Alta,Un ensayo
+D063,Tiempo del mensaje de nivel 2 en la segunda región,12,s,Tras el sismo,"Sec. 4.1, p. 11",Texto,Alta,Actualizaciones secuenciales
+D063,"Eventos de exactitud (M6,2; 6,3; 6,4)",3,eventos,"Tramos de 10 km, sin alertas perdidas","Sec. 4.2, p. 11",Texto,Alta,Muestra pequeña
+D063,Dimensión de las regiones de alerta rectangulares base,30 × 60,km,Transformadas en trapecios superpuestos,"Sec. 3.1, p. 10",Texto,Alta,Diseño propuesto
+D063,Frecuencia de actualización del sistema,"0,01",s,Lectura de PGA de las estaciones,"Sec. 2.3, p. 9",Texto,Alta,100 Hz
+D063,Rango de Vs30 supuesto en la línea,500 a 800,m/s,Efecto de sitio despreciable; error normalizado menor de 5 %,"Sec. 2.3.2, p. 9",Texto,Media,Supuesto sin medición propia
+D064,Retardo medio de la red a nivel de aplicación,"2,1",ms,"Desviación estándar de 0,9 ms; mensajes cada 10 ms","Sec. 5.3, p. 17",Texto,Alta,Banco de experimentación 5G
+D064,Desviación estándar del retardo,"0,9",ms,Distribución normal,"Sec. 5.3, p. 17",Texto,Alta,Sin carga real reportada
+D064,Reducción simulada del módulo elástico (daño),≈ 10,%,Daño uniforme en el modelo,"Sec. 5.2, p. 17",Texto,Alta,Serie sintética
+D064,Frecuencia de muestreo del conversor de la placa,100,Hz,4 canales de 24 bits,"Sec. 4.1, p. 9",Texto,Alta,SHM-Board v2
+D064,Periodo de monitoreo previo con placas IMOTE en la Basílica de Collemaggio,5,años,Experiencia posterior al sismo de 2009,"Sec. 4.1, p. 9",Texto,Alta,Base de la nueva placa
+D064,Intervalo de publicación de mensajes del sensor,10,ms,Medición de retardo,"Sec. 5.3, p. 17",Texto,Alta,Hacia borde y nube
+D065,Bienestar social en pequeña / mediana / gran escala,"89,2 / 91,8 / 90,3",%,"10, 25 y 50 nodos de borde","Tabla 1, p. 3",Tabla,Media,Sin intervalos de confianza
+D065,Eficiencia de utilización en pequeña / mediana / gran escala,"91,5 / 88,7 / 86,4",%,Descenso con la escala,"Tabla 1, p. 3",Tabla,Media,El texto habla de 85 a 90 %
+D065,Equidad de Jain,"0,82 / 0,84 / 0,81",índice,Entre 0 y 1,"Tabla 1, p. 3",Tabla,Media,Reparto similar entre escalas
+D065,Tiempo de convergencia,45 / 78 / 175,ms,"10, 25 y 50 nodos","Tabla 1, p. 3",Tabla,Media,"Crece 3,9 veces con 5 veces más nodos"
+D065,Nodos y dispositivos en la mayor escala,50 / 100,nodos / dispositivos,Banco de pruebas,"Resultados, p. 3",Texto,Alta,Parámetros calibrados a equipos reales
+D066,Latencia de extremo a extremo de ELARA,39-52,ms,Rango en los escenarios evaluados,"Resumen, p. 1; Sec. 4.B, p. 16",Texto,Alta,Simulación de manufactura
+D066,Latencia promedio del microclúster de borde frente a la nube,"39,5 frente a 152,4",ms,"Desviaciones 2,6 y 6,3","Tabla 2, p. 7",Tabla,Alta,Modelos de procesamiento distribuido
+D066,Ahorro de ancho de banda,hasta 48,%,Respecto de la transmisión de datos brutos,"Resumen, p. 1",Texto,Media,Cifra de la figura incoherente
+D066,Ahorro de energía,hasta 31,%,Frente a métodos de referencia,"Resumen, p. 1",Texto,Media,"Energía por tarea de 7,5 a 10,0 J"
+D066,Tasa de finalización de tareas,93-98,%,Bajo carga variable,"Sec. 4.E, p. 19",Texto,Media,Sin definición de tarea fallida
+D066,Tiempo de recuperación ante fallas,132-152,ms,"Detección, aislamiento, conmutación y sincronización","Sec. 4.G, p. 20",Texto,Media,Fallas no descritas
+D066,Precisión de descarga,89-93,%,Cinco escenarios en la Tabla 6,"Tabla 6, p. 20",Tabla,Media,Escenarios sin datos propios
+D066,Repeticiones experimentales,20,repeticiones,Semillas y barajados distintos,"Sec. 4, p. 21",Texto,Alta,Intervalos de confianza de 95 %
+D067,Aumento de capacidad cortante basal en IO,53,%,De 1297 a 1983 kN,"Sec. 5.1.1, p. 7",Texto,Alta,Edificio A frente a B
+D067,Aceleración tolerada en prevención del colapso,"0,593 frente a 0,740",g,"Aumento de 24,8 %","Tabla 3, p. 10",Tabla,Alta,Análisis estático no lineal
+D067,"Aumento de capacidad cortante basal a 0,10 g",39,%,De 790 a 1100 kN,"Sec. 5.1.2, p. 9",Texto,Alta,Resumen indica hasta 39 %
+D067,"Probabilidad de colapso a 1,2 g","54,11 frente a 39,32",%,"Edificio A frente a B; diferencia de 14,8 puntos porcentuales","Tabla 7, p. 15",Tabla,Media,Fragilidad tipo Hazus
+D067,Reducción máxima de probabilidad de daño extremo,"12,5",%,Según los autores; unidad no aclarada,"Sec. 5.3, p. 15",Texto,Media,Diferencia en puntos porcentuales
+D067,"Tiempo de recuperación del edificio A a 1,2 g",711,días,Edificio B: 619 días,"Tabla 9, p. 16",Tabla,Media,Función no documentada
+D067,Reducción máxima del tiempo de recuperación,93,días,En la Tabla 9 la diferencia máxima es de 97 días,"Sec. 5.3, p. 15",Texto,Media,Cifra del texto no coincide
+D067,Reducción del índice de daño,hasta 14,%,"De 0,29 a 0,25 a 0,10 g","Tabla 9, p. 16",Tabla,Media,Índice ponderado
+D068,Costo del potenciómetro de contacto,84,USD,Sensor Variohm EuroSensor de 50 mm,"Sec. 3.1, p. 6",Texto,Alta,Solo el sensor
+D068,Costo del sensor infrarrojo,15,USD,Sensor Sharp de 30 a 300 mm,"Sec. 3.1, p. 6",Texto,Alta,Solo el sensor
+D068,Costo del microcontrolador Arduino Nano 33 IoT,25,USD,Con Wi-Fi y Bluetooth de baja energía,"Sec. 3.2, p. 6",Texto,Alta,Sin costo de nube
+D068,Error absoluto medio del potenciómetro frente al LVDT,"25,2 y 41,2",μm,Ensayo cíclico e incremental,"Sec. 5.2, p. 17-19",Texto,Alta,Una viga
+D068,Error absoluto medio del sensor infrarrojo frente al LVDT,"184,8 y 176,0",μm,Ensayo cíclico e incremental,"Sec. 5.2, p. 18-19",Texto,Alta,Una viga
+D068,Error relativo medio de calibración del gemelo,"4,7",%,72 iteraciones; 29 GPa y 494 MPa,"Sec. 5.1, p. 16",Texto,Alta,Fuerza-desplazamiento
+D068,Error absoluto medio de la carga estimada por el gemelo,"2,11",kN,"Máximo de 5,18 kN a 20 kN","Tabla 3, p. 22",Tabla,Media,Carga de 4 a 52 kN
+D068,Error relativo medio de la deformación máxima del soffit,"34,3",%,Error absoluto medio de 281 microdeformaciones,"Sec. 5.4, p. 22",Texto,Media,Base del ancho de fisura
+D069,Costo de reemplazo del puente de estudio,483 814,USD,"Dólares de 2019; tres tramos de 48,8 m","Sec. 3.2.1, p. 11",Texto,Alta,Puente de Charleston
+D069,Razón de costo de refuerzo de extensores de apoyo,"3,14",%,"Frente a 12,57 % de camisas de acero y 4,99 % de aislantes","Tabla 6, p. 11",Tabla,Alta,Respecto del costo de reemplazo
+D069,Razón de pérdidas indirectas a directas,6-80,veces,Crece con la intensidad,"Sec. 3.1.1, p. 7",Texto,Alta,Solo desvío y tiempo de viaje
+D069,Tiempo medio de recuperación por estado de daño,"0,6; 2,5; 75; 230",días,"Leve, moderado, extenso y completo","Tabla 2, p. 7",Tabla,Media,Manual de pérdidas sísmicas
+D069,Aumento de resiliencia por camisas de acero,"2,4; 4,2; 1",%,"A 0,2, 0,4 y 1,0 g","Sec. 3.1.3, p. 10",Texto,Alta,Frente al puente original
+D069,RBCBR de extensores de apoyo,"0,543 y 0,164",adimensional,"A 0,4 y 0,8 g","Tabla 7, p. 12",Tabla,Alta,"Mayor entre 0,2 y 1,0 g"
+D069,RBCBR media de extensores de apoyo con intervalo de 90 %,"4,492 (3,030-5,954)",adimensional,32 combinaciones de hipercubo latino,"Tabla 9, p. 16",Tabla,Media,Magnitud distinta de la Tabla 7
+D069,Tiempo de control medio supuesto,22,días,Desviación estándar de 10 días,"Sec. 3.3.1, p. 14",Texto,Media,Segundo parámetro dominante
+D070,Capas del gemelo digital urbano descritas,5,capas,"Terreno, edificios, infraestructura, movilidad y ciudad inteligente virtual","Tabla 1, p. 4",Tabla,Media,Marco conceptual
+D070,Aplicaciones de ciudades inteligentes en gestión de desastres,10,filas,"Con desafíos, potencial de escalamiento y medidas de impacto","Tabla 2, p. 6",Tabla,Media,Sin datos medidos
+D070,Fases de implementación del gemelo digital,3,fases,"Conceptualización, desarrollo y prueba, y despliegue con refinamiento","Tabla 3, p. 7",Tabla,Media,Sin casos aplicados
+D070,Entidades involucradas en la implementación,9,actores,"Planificadores, expertos, científicos de datos, TI, desarrolladores, ingenieros de campo, gobierno, comunidad y respuesta","Tabla 4, p. 8",Tabla,Media,Roles sin conflictos analizados
+D070,Objetivos de desarrollo sostenible asociados,3,ODS,"ODS 9, 11 y 13","Tabla 6, p. 11",Tabla,Media,Sin indicadores
+D070,Dimensiones del análisis FODA,4,dimensiones,Tres ítems por dimensión (12 ítems en total),"Tabla 5, p. 9",Tabla,Baja,Sin ponderación
+D070,Áreas de beneficio de sostenibilidad,8,áreas,"Resiliencia, recursos, residuos, emergencias, infraestructura, desarrollo, habitabilidad y clima","Tabla 6, p. 11",Tabla,Baja,Sin cuantificar
+D070,Conclusiones principales,5,conclusiones,"Monitoreo, barreras, ODS, política y futuro","Sec. 6, p. 11",Texto,Media,Sin datos de apoyo
+D071,Señales en el conjunto de datos,4008,señales,"Formato SAC, remuestreadas a 100 Hz","Sec. VII.A, p. 9",Texto,Alta,Más de 28 000 muestras de ruido
+D071,Eventos volcano-tectónicos y voladuras del Vesubio,416 y 464,eventos,Más 363 de largo periodo,"Sec. VII.A, p. 10",Texto,Alta,Antes del aumento
+D071,Eventos de largo periodo de Colima,2765,eventos,Noviembre de 2005 a abril de 2006,"Sec. VII.A, p. 10",Texto,Alta,Antes del aumento
+D071,Longitud de la ventana de entrada,2400,puntos,Equivalente a 24 s a 100 Hz,"Sec. VII.A, p. 9",Texto,Alta,Incluye 400 muestras de aislamiento
+D071,F1 de la red convolucional en el experimento 8,"0,98",índice,"Vesubio, Colima y ruido; precisión y exhaustividad iguales","Sec. VII.D, p. 12",Texto,Media,Posible fuga de datos
+D071,F1 del experimento 6 (todas las clases),93,%,"Frente a 93,5 % de exactitud en Ubinas","Sec. VII.D, p. 12",Texto,Media,Métricas no comparables
+D071,Neuronas ocultas del perceptrón multicapa,42,neuronas,"Lote de 50, tasa de 0,001 y 640 iteraciones","Sec. VII.B, p. 9",Texto,Alta,Hiperparámetros declarados
+D071,División de datos,70:20:10,porcentaje,"Entrenamiento, validación y prueba","Sec. VII.C, p. 10",Texto,Alta,Sin validación cruzada
+D072,Incendios forestales reales usados en la evaluación,63,incendios,América del Norte en 2016,"Sec. 4.2, p. 12",Texto,Alta,Una temporada
+D072,Canales de datos bidimensionales por escenario,11,canales,"Clima, vegetación y estado de propagación","Sec. 4.2, p. 12",Texto,Alta,Clima con error aleatorio
+D072,Tamaño de la malla de cada escenario,450 × 450,píxeles,Datos normalizados,"Sec. 4.2, p. 12",Texto,Alta,Resolución espacial no especificada
+D072,Reducción de error del híbrido frente al modelo físico,40,%,En el conjunto de escenarios,"Sec. 4.3.1, p. 12",Texto,Media,Error normalizado
+D072,Reducción de error del híbrido frente al modelo basado en datos,25,%,En el conjunto de escenarios,"Sec. 4.3.1, p. 12",Texto,Media,Error normalizado
+D072,Reducción mínima de error del híbrido frente al modelo físico por clima,5,%,Sin importar la proporción de datos de cada clima,"Sec. 4.3.1, p. 13",Texto,Media,Valor mínimo
+D072,Dimensión del vector de características y del espacio de comparación,32 y 3,dimensiones,Reducción con análisis de componentes principales dispersos,"Sec. 3.3.3, p. 9",Texto,Alta,Información perdida no reportada
+D072,Repeticiones de la prueba de independencia de datos,10,repeticiones,Selección aleatoria de incendios para entrenar,"Sec. 4.3.2, p. 13",Texto,Media,Sin intervalos de confianza
+D073,Ventaja de tiempo de alerta frente a PRESTo,"3,39",s,"0,583 s frente a 4,05 s en un evento de magnitud 5,4","Sec. 4.3, p. 20",Texto,Media,Un solo evento; sin magnitud
+D073,Tiempo de detección de la onda P en la estación FEMA,"0,312 frente a 2,13",s,Propuesta frente a PRESTo,"Tabla 5, p. 20",Tabla,Media,Paquetes de 1 s en PRESTo
+D073,Error de localización del evento de referencia,"1,341 frente a 13,34",km,"Propuesta a los 251 ms y PRESTo a los 1,64 s","Sec. 4.3, p. 20",Texto,Media,Error inicial de PRESTo
+D073,Error medio de localización en 175 eventos,"9,6307",km,"Mediana de 5,2851 km y percentil 90 de 22,340 km","Tabla 3, p. 18",Tabla,Alta,Profundidad y velocidad fijas
+D073,"Error medio para magnitudes mayores de 4,5","13,7",km,"Mediana de 5,9 km y percentil 90 de 36 km","Tabla 3, p. 18",Tabla,Media,Muestra menor
+D073,Tiempo de ejecución medio del algoritmo,163,ms,"Máximo de 1,87 s","Tabla 4, p. 19",Tabla,Alta,Instancia EC2
+D073,Tiempo de ejecución de la regla de SNS y de entrega,143 y 207,ms,Casi 1000 mensajes sin pérdidas,"Sec. 4.4, p. 21",Texto,Alta,Misma región de AWS
+D073,Eventos y trazas del conjunto de datos,175 y más de 5000,eventos y trazas,"Magnitud mayor o igual a 3,5; 2016 a 2020","Sec. 4.1, p. 14",Texto,Alta,Italia central
+D074,Documentos que citan IoT-A en la revisión inicial,325,documentos,237 que citan el libro y 88 que citan capítulos,"Sec. 2, p. 4",Texto,Alta,Solo Scopus
+D074,Documentos tras el filtrado por título,109,documentos,"32 artículos, 52 ponencias y otros","Sec. 2, p. 4",Texto,Alta,Filtrado manual
+D074,Documentos seleccionados por resumen,28,documentos,"Gemelos, Industria 5.0, sostenibilidad, centralidad humana y resiliencia","Sec. 2, p. 4",Texto,Alta,Criterios de extracción propios
+D074,Documentos con aportes significativos sobre gemelos digitales,2 de 5,documentos,Cinco mencionan el concepto,"Sec. 2, p. 4",Texto,Alta,Revisión profunda
+D074,Documentos que mencionan explícitamente Industria 5.0,0 de 11,documentos,Once tocan conceptos relacionados,"Sec. 2, p. 4",Texto,Alta,Sin contribuciones sobre resiliencia
+D074,Grupos funcionales del modelo funcional,8,capas,"Dispositivo, comunicación, servicios, gestión de gemelos, procesos, seguridad, organización de servicios y gestión","Sec. 3.5, p. 14-15",Texto,Media,Sin pruebas
+D074,Métricas de Industria 5.0 por atributo,6,métricas,Dos por cada pilar,"Sec. 4.3, p. 20",Texto,Media,Sin valores
+D074,Dispositivos máximos por bus Modbus o I2C,255,dispositivos,Escalabilidad para un módulo aeropónico,"Sec. 4.4, p. 22-23",Texto,Media,Cálculo teórico
+D075,Tiempo máximo para alcanzar todos los nodos con SF 8,"2,5",s,"Promedio de 1,18 s y hasta 22 saltos","Tabla 10, p. 21",Tabla,Alta,Simulación de 100 nodos
+D075,Cobertura del mensaje con SF 8,100,%,Nodos finales alcanzados en 25 corridas,"Tabla 10, p. 21",Tabla,Alta,"0,34 % de relevos sin alcanzar"
+D075,Separación de relevos y número de relevos con SF 8,3200 y 361,m y relevos,Para un área de 60 km por 60 km,"Tabla 9, p. 21",Tabla,Alta,Cálculo con sombreado log-normal
+D075,Velocidad efectiva de propagación del mensaje con SF 8,20,km/s,"Mediana, entre 4 y 30 km/s","Sec. 7.2.1, p. 23",Texto,Media,Frente a unos 3 km/s de la onda S
+D075,Ventana de alerta con LoRa frente a internet,"1,01-5,93 frente a 1,51-6,75",s,Seis escenarios hipotéticos en Wellington,"Sec. 9, p. 33",Texto,Media,Tiempos de LoRa simulados
+D075,Retardo de transmisión del detector al verificador,"0,210-0,436 frente a 0,05",s,LoRa multisalto frente a internet,"Tabla 14, p. 30",Tabla,Media,Dos pares de sensores
+D075,Tasa de entrega en el experimento de campo,"90, 82 y 48",%,"Nodos 6, 7 y 8","Sec. 4.4, p. 18",Texto,Media,Ocho dispositivos a 2 dBm
+D075,Tamaño del mensaje de alerta,11,bytes,"Identificador, tiempo de vida y marca de tiempo","Sec. 6.2, p. 22",Texto,Alta,Ciclo de trabajo de 1 %
+D076,F1 ponderado del modelo con ajuste fino,"0,93",índice,"Exactitud también de 0,93; cinco corridas","Tabla 5, p. 14",Tabla,Media,Conjunto fusionado de 10 243 imágenes
+D076,F1 de la clase moderada,"0,62",índice,"Precisión de 0,60 y recall de 0,64","Tabla 5, p. 14",Tabla,Alta,953 imágenes
+D076,Proporción de imágenes de daño severo en el conjunto final,85,%,8718 de 10 243 imágenes,"Tabla 3, p. 11",Tabla,Alta,Desbalance
+D076,Operaciones de coma flotante del modelo,"61,6",millones,"MobileNetV3 sin ajuste fino: 61,5 millones","Tabla 7, p. 18",Tabla,Alta,"Menor que ShuffleNetV2 con 151,7 millones"
+D076,Parámetros y tamaño del modelo,"1,65 y 6,29",millones y MB,"SqueezeNet con 0,70 millones","Tabla 7, p. 18",Tabla,Alta,Modelo ligero
+D076,Cuadros por segundo en Raspberry Pi 5,"3,21",cuadros/s,"0,3117 s por imagen; SqueezeNet con 5,11 cuadros/s","Tabla 10, p. 20",Tabla,Media,"Imágenes del conjunto, sin vuelo"
+D076,Exactitud sobre el conjunto de Ünlü et al.,"0,73 frente a 0,66",índice,Modelo propio frente a VGG19,"Tabla 9, p. 19",Tabla,Media,"Mucho menor que 0,93"
+D076,F1 ponderado sobre Disaster Scenes Database,"0,65 frente a 0,63",índice,Modelo propio frente a Faster R-CNN con ResNet-50,"Tabla 8, p. 18",Tabla,Media,Tareas distintas
+D077,Fuentes de riesgo de la cadena de suministro identificadas,8,fuentes,"Suministro, operación, demanda, seguridad de la información, macroeconomía, política, competencia y recursos","Sec. 2, p. 2",Texto,Alta,Enumeración de la literatura
+D077,Pasos del marco de gestión de riesgos,4,pasos,"Recolectar y validar, comunicar, planificar e implementar, fomentar resiliencia","Sec. 6, p. 7",Texto,Alta,Sin indicadores
+D077,Compradores que comenzaron a apoyar a minoristas locales,57,%,Australia durante la COVID-19,"Sec. 5, p. 4",Texto,Media,Encuesta de un tercero
+D077,Pequeñas y medianas empresas que cambiaron su modelo de operación,73,%,Para fortalecer la resiliencia,"Sec. 5, p. 4",Texto,Media,Autoinforme citado
+D077,Compradores que usaron teléfono móvil para comprar en línea,91 frente a 87,%,2020 frente a 2019,"Sec. 5, p. 4",Texto,Media,Encuesta de un tercero
+D077,Tasa de desempleo máxima en Australia,"13,8",%,"Segundo trimestre de 2020; 1,8 millones con trabajo reducido","Sec. 5, p. 6",Texto,Media,Dato de oficina de estadística
+D077,Paquete de estímulo de la Unión Europea,"1,8",billones de euros,"Plan de recuperación verde, digital y resiliente","Sec. 5, p. 6",Texto,Media,Cifra citada
+D077,Duración del programa JobKeeper,30 de marzo de 2020 a 31 de marzo de 2021,periodo,Con reducción desde el 28 de septiembre de 2020,"Sec. 5, p. 6",Texto,Media,Programa australiano
+D078,Población simulada frente a población oficial de la región piloto,120 000 frente a 100 000,habitantes,Diferencia de 20 %,"Sec. 6, p. 21",Texto,Alta,Comparación diferida
+D078,Duración de la simulación hasta ocupar las zonas,3,meses,Con supervisión humana,"Sec. 6, p. 21",Texto,Alta,"Tiempo de ejecución, no de recuperación"
+D078,Pérdida anual esperada del condado de Brevard,"414,38",millones de USD,"Huracanes 365,97, incendios 18,89 y tornados 11,07","Sec. 5.1, p. 13",Texto,Media,Fuente: índice nacional de riesgo
+D078,"Puntaje de riesgo, vulnerabilidad social y resiliencia comunitaria del condado","99,4; 47,1; 59,8",puntaje,Índice nacional de riesgo,"Sec. 5.1, p. 13",Texto,Media,Resiliencia moderada
+D078,"Frecuencia anual de tormentas, tornados e incendios en el condado","1,41; 1,94; 7,97",eventos por año,Datos de NOAA y otra fuente,"Sec. 5.2.5, p. 20",Texto,Media,Se cargan en un mod
+D078,Calificación del puente Hubert Humphrey en el inventario nacional,4 de 9,puntos,Se predice su falla en el escenario,"Sec. 6.1, p. 22",Texto,Media,Predicción del motor
+D078,Líneas de autobús modeladas,7 de 23,líneas,Con dos a tres buses por línea,"Sec. 5.2.7, p. 20",Texto,Alta,Datos de transporte público
+D078,Propiedades de resiliencia consideradas,6,propiedades,"Vulnerabilidad, robustez, redundancia, capacidad de recursos, rapidez y adaptación","Sec. 6, p. 21",Texto,Alta,Curvas hipotéticas
+D079,Documentos identificados en las cuatro bases,899,documentos,"159 de Scopus, 26 de WoS, 83 de IEEE y 631 de ACM","Sec. 2.2, p. 9",Texto,Alta,Búsqueda del 24 de mayo de 2025
+D079,Documentos excluidos como literatura gris,803,documentos,"89 % de los identificados; libros, capítulos, ponencias y revisiones","Sec. 2.2, p. 9",Texto,Alta,Exclusión por tipo
+D079,Documentos incluidos en la revisión,64,artículos,899 - 25 - 803 - 10 - 5 = 56,"Sec. 2.2, p. 9",Texto,Media,Recuento no cuadra
+D079,Concordancia entre revisores,"0,82",kappa de Cohen,Calibración con 10 % de los estudios,"Sec. 2.2, p. 9",Texto,Media,Submuestra pequeña
+D079,Dominios de aplicación identificados,5,dominios,"Tráfico, planificación urbana, monitoreo ambiental, energía y servicios públicos","Resumen, p. 1",Texto,Media,Otras secciones listan sectores distintos
+D079,Periodo de crecimiento de la producción,2019-2025,años,Aumentos en 2022 y 2023,"Sec. 3.1, p. 13",Texto,Media,Atribución sin análisis causal
+D079,Conjunto de datos de referencia TUM2TWIN,100 000 y 767,m² y GB,Modelos 3D georreferenciados y observaciones,"Sec. 3.2.1, p. 17",Texto,Alta,Citado de otra fuente
+D079,Preguntas de mapeo del protocolo,6,preguntas,"Revistas, autores, tecnologías, casos, metodologías y brechas","Tabla 1, p. 6",Tabla,Alta,Una pregunta de investigación
+D080,Exactitud entre daño simulado y observado,87,%,"Escenario sísmico de magnitud mayor o igual a 7,0","Sec. 4, p. 19; Sec. 5, p. 21",Texto,Baja,Métrica y evento observado no definidos
+D080,Disponibilidad en pruebas de varios usuarios,"99,2",%,Cinco escenarios concurrentes,"Sec. 4, p. 19; Sec. 5, p. 21",Texto,Baja,Pruebas de laboratorio
+D080,Edificios de concreto de mediana altura con daño menor a moderado,18,%,Más frecuente en zonas anteriores al año 2000,"Sec. 4, p. 19",Texto,Media,Resultado del modelo
+D080,Familias de datos integradas,5,familias,"Vectoriales, ráster, 3D, nubes de puntos y tabulares","Sec. 2.2.2, p. 11",Texto,Alta,Esquema por etapas en PostGIS
+D080,Tipos de sensores de la red propuesta,4,tipos,"Acelerómetros, galgas y desplazamiento, ambientales y medidores de energía","Sec. 2.2.2, p. 13",Texto,Media,Cantidad de sensores no reportada
+D080,Protocolos de comunicación de los sensores,3,protocolos,"LoRaWAN, Wi-Fi o 5G y MQTT","Sec. 2.2.1, p. 10",Texto,Alta,Latencias no medidas
+D080,Capacidad del servidor en la nube,8 CPU y 32 GB,recursos,1 TB de almacenamiento,"Sec. 2.2.1, p. 11",Texto,Alta,Sin costos
+D080,ODS con los que se alinea el gemelo,4,ODS,"ODS 9, 11, 13 y 17","Sec. 1, p. 5",Texto,Media,Alineación declarativa
+D081,Artículos incluidos en la síntesis,89,artículos,De 242 registros y 182 sin duplicados,"Sec. 3.2, p. 11",Texto,Alta,26 no recuperados
+D081,Registros por base de datos,125 y 117,registros,Scopus y Web of Science,"Sec. 3.2, p. 11",Texto,Alta,Google Scholar también con 117
+D081,Artículos asignados a las etapas de resiliencia,40,artículos,"14 preparación, 7 resistencia, 8 rebote y 11 crecimiento","Sec. 4.2, p. 20-21",Texto,Alta,Los otros 49 no se asignan
+D081,Estudios empíricos entre los 89,36,estudios,"21 estudios de caso, 14 estadísticos y 1 experimental","Tabla 4, p. 19",Tabla,Alta,Predomina la construcción de teoría
+D081,Artículos que especifican sector,22 de 89,artículos,Siete farmacéutico y cinco alimentario,"Sec. 4.1.2, p. 17",Texto,Alta,Sectores concentrados
+D081,Producción anual de estudios en 2021,19,estudios,Pico entre 2019 y 2023,"Sec. 4.1.1, p. 16",Texto,Alta,Cinco en 2024 y ocho en 2025
+D081,Beneficio más citado: mejora de la decisión,21,artículos,"Monitoreo, riesgo y eficiencia con 15 cada uno","Tabla 6, p. 21",Tabla,Media,Recuento sin magnitud
+D081,Desafíos más citados: interoperabilidad y seguridad,5 cada uno,artículos,Costo en solo 3 artículos,"Tabla 7, p. 21",Tabla,Media,Habilidades y gobernanza no tabulados
+D082,Estudios empíricos incluidos,30,estudios,Publicados entre 2017 y 2025; 29 revistas,"Resumen, p. 1; Tabla 5, p. 16",Texto,Alta,Selección con umbral de citación
+D082,Estudios posteriores a 2020,83,%,77 % entre 2022 y 2024,"Tabla 5, p. 16",Tabla,Alta,Campo reciente
+D082,"Estudios cualitativos, cuantitativos y mixtos",47; 40; 13,%,Diversidad metodológica,"Tabla 5, p. 16",Tabla,Alta,Sin pruebas causales
+D082,Estudios centrados en pymes,17,%,60 % en grandes empresas y 23 % en ambas,"Tabla 5, p. 16",Tabla,Alta,Poca representación
+D082,Estudios que examinan la dinámica durante el evento,10,%,53 % antes y después; 37 % solo después,"Tabla 5, p. 16",Tabla,Alta,Brecha de dinámica en tiempo real
+D082,Frecuencia de la práctica de sistemas modernizados,63,menciones,Flexibilidad estratégica 52 y de procesos 47,"Tabla 6, p. 17",Tabla,Media,"Indicador de prominencia, no de efecto"
+D082,Frecuencia de la práctica de recuperación rápida,32,menciones,Redundancia de sistemas 42,"Tabla 6, p. 17",Tabla,Media,Indicador de prominencia
+D082,Umbral mínimo de citación para estudios de más de tres años,10,citas,3 citas para los de los últimos tres años,"Tabla 2, p. 9",Tabla,Alta,Sesgo hacia estudios consolidados
+D083,Registros recuperados en Web of Science,453,registros,Enero de 2026; sin duplicados por una sola base,"Sec. 3.3, p. 11",Texto,Alta,Una sola base de datos
+D083,Registros excluidos por título,257,registros,Sin relación con IoT ni con producción industrial,"Sec. 3.3, p. 11",Texto,Alta,196 pasan al texto completo
+D083,Registros excluidos en resumen y texto completo,127,registros,"36 desalineados, 24 no industriales, 41 sin producción sostenible y 26 de baja relevancia","Sec. 3.3, p. 11",Texto,Alta,Suma coherente: 453 - 257 - 127 = 69
+D083,Estudios incluidos,69,estudios,Publicados entre 2016 y 2026,"Resumen, p. 1",Texto,Alta,Calidad media a alta según los autores
+D083,Dominios de aplicación identificados,4,dominios,"Eficiencia, monitoreo y control, mantenimiento predictivo y sistemas centrados en las personas","Tabla 4, p. 14",Tabla,Alta,El cuarto tiene evidencia limitada
+D083,Criterios de calidad y puntaje máximo,5 y 10,criterios y puntos,Escala de 0 a 2 por criterio,"Sec. 3.4, p. 13",Texto,Alta,Puntajes no reportados
+D083,Revisores en la selección,7 y 1 senior,personas,Consenso y octavo investigador para discrepancias,"Sec. 3.3, p. 12-13",Texto,Media,Acuerdo no cuantificado
+D083,Años abarcados por la búsqueda,2016-2026,años,Artículos y revisiones en inglés o español,"Sec. 3.1, p. 9",Texto,Alta,Sin otras bases
+D084,Nodos de sensado sincronizados,5,nodos,Acelerómetro MEMS ADXL355 de 20 bits a 125 muestras por segundo,"Sec. IV.A, p. 9",Texto,Alta,Modelo de laboratorio
+D084,Error de temporización tras el oscilador externo,50,μs,Frente a una deriva de hasta 20 ms por segundo con el reloj interno,"Sec. III.E, p. 9",Texto,Media,Sin medida independiente
+D084,Caída de la primera frecuencia natural por escenario,"23,4; 47,6; 26,6; 46,1",%,Daños 1 a 4,"Sec. V.B, p. 14",Texto,Alta,Muy superior al umbral de 5 %
+D084,Variación de las frecuencias segunda y tercera en el daño 1,"0,3",%,"Segunda en 10,7 Hz y tercera en 17,8 Hz","Sec. V.B, p. 14",Texto,Alta,Daño localizado
+D084,Extensión de la vida útil de la batería con modo de sueño,40,%,Frente a operación normal,"Sec. V.A, p. 13",Texto,Media,Sueño ligero
+D084,Paquetes por segundo por nodo,2,paquetes/s,Muestras agrupadas de 4 bytes,"Sec. III.C, p. 9",Texto,Alta,Sin pérdida de paquetes reportada
+D084,Umbral de detección por frecuencia y por MAC,"5 y 0,8",% e índice,Valores de la literatura,"Sec. II.A, p. 4",Texto,Alta,Sin calibración propia
+D084,Capacidad de batería por nodo,2500,mAh,"3,7 V y panel solar de 10 W","Sec. III.A, p. 6",Texto,Alta,Sin costo reportado
+D085,Variables revisadas de la literatura,30,variables,"Tres paquetes de diez indicadores (ORF, SRF, OSRF)","Resumen, p. 1",Texto,Alta,Selección de variables sin protocolo de revisión sistemática
+D085,Cuestionarios distribuidos,200,cuestionarios,Distribución electrónica con muestreo intencional,"Sec. 4, p. 22",Texto,Alta,Marco muestral no especificado
+D085,Respuestas completas,122,respuestas,Profesionales y académicos de cinco regiones,"Sec. 4, p. 22",Texto,Alta,"Muestra pequeña, reconocida por los autores"
+D085,Tasa de respuesta,61,%,122 de 200 cuestionarios,"Sec. 4, p. 22",Texto,Alta,Distribución por región no desglosada
+D085,R2 de la implementación exitosa,"0,533",adimensional,Modelo PLS-SEM con tres constructos,"Sec. 5.2, p. 25",Texto,Media,"Percepción autoinformada, sin validación externa"
+D085,Coeficiente de trayectoria ORF,"0,472",adimensional,Oficina hacia implementación exitosa,"Sec. 6, p. 25",Texto,Media,Sin intervalo de confianza en el texto
+D085,Coeficiente de trayectoria SRF,"0,413",adimensional,Obra hacia implementación exitosa,"Sec. 6, p. 25",Texto,Media,Sin intervalo de confianza en el texto
+D085,Coeficiente de trayectoria OSRF,"0,297",adimensional,Interfaz hacia implementación exitosa,"Sec. 6, p. 26",Texto,Media,Sin intervalo de confianza en el texto
+D085,"Tamaño de efecto f2 (SRF, ORF, OSRF)","0,201; 0,192; 0,169",adimensional,Los tres medios según Cohen,"Sec. 5.2, p. 25",Texto,Media,El texto llama mayor al de SRF
+D085,Indicadores clave en Cuadrante I,11,indicadores,"4 ORF, 4 SRF, 3 OSRF","Sec. 6, p. 26",Texto,Media,"Corte por promedios, no por umbral externo"
+D085,Remuestreo bootstrap,5 000,muestras,Significancia de coeficientes,"Sec. 5.2, p. 24",Texto,Alta,Sin intervalos reportados en el texto
+D085,"Impacto en plazo, costo o seguridad de proyecto",No especificado en documento,N/A,No se mide desempeño objetivo de proyecto,"Sec. 5-8, pp. 24-29",Texto,Baja,Solo percepciones de éxito
+D086,Precisión del DLCM en computador,"96,37",%,"Python, 550 muestras de prueba","Resumen, p. 1; Tabla 1, p. 17",Texto,Media,"Una sola partición, sin intervalos"
+D086,Precisión del DLCM en el nodo LiftNode,"96,36",%,"Microcontrolador STM32, 550 muestras","Resumen, p. 1; p. 16",Texto,Media,Muestras almacenadas; no operación continua
+D086,Precisión del modelo maestro EECM,"96,4",%,Prueba con transformador,p. 15,Texto,Media,Misma partición
+D086,Precisión del modelo base BCM,"93,6",%,Sin destilación,p. 15,Texto,Media,Arquitectura distinta al DLCM
+D086,Tamaño del modelo en memoria flash,"296,9",KB,De 1 MB disponible en LiftNode,p. 17,Texto,Alta,"El resumen reporta 0,29 MB"
+D086,Uso de RAM en el nodo,"4,25",KB,De 340 KB disponibles,p. 17,Texto,Alta,No incluye búfer de 72 000 puntos
+D086,Tamaño del modelo maestro,"17,31",M,Unidad no precisada en el texto,p. 14,Texto,Baja,Unidad ambigua (parámetros o MB)
+D086,Parámetros del DLCM (Python / C),69 711 / 68 112,parámetros,Tabla 1,"Tabla 1, p. 17",Tabla,Alta,Diferencia de 1 599 sin explicación
+D086,Tiempo de inferencia de 550 muestras en el nodo,"339,35",s,"0,62 s por muestra según el texto",p. 16,Texto,Media,"La tabla reporta 6,17 ms por muestra"
+D086,Muestras del conjunto balanceado,3 661,muestras,523 por clase,p. 13,Texto,Alta,Reducción desde 28 272 instancias
+D086,Instancias originales del conjunto,28 272,instancias,38 acelerómetros × 31 días × 24 horas,p. 12,Texto,Alta,Un solo puente
+D086,Frecuencia de muestreo,20,Hz,72 000 puntos por serie de una hora,p. 12,Texto,Alta,Datos de aceleración
+D086,Consumo de energía del nodo,No especificado en documento,N/A,Argumento de bajo consumo sin medición,"Sec. Edge intelligence, pp. 8-12",Texto,Baja,No se reporta energía ni vida de batería
+D087,Desafíos de la política de CTI,3,desafíos,"Crecimiento, desigualdades y conocimiento mundial",p. 1,Texto,Alta,Sin metas ni indicadores
+D087,Estrategias fundamentales,6,estrategias,"Formación, capacidades, transformación productiva, institucionalidad, apropiación social, dimensión regional e internacional",p. 1,Texto,Alta,Sin cronograma ni presupuesto
+D087,Objetivos centrales del proyecto de ley 028,3,objetivos,El texto menciona tres y enumera dos (departamento administrativo y esquema financiero),p. 1,Texto,Media,Tercer objetivo no enumerado
+D087,Fecha de aprobación en la plenaria de la Cámara,19 de agosto,fecha,Proyecto de ley 028,p. 2,Texto,Alta,El año no se declara; el número es de septiembre de 2008
+D087,Discusión en la Comisión Sexta de la Cámara,Noviembre de 2007,fecha,Trámite legislativo,p. 2,Texto,Alta,Sin detalle del debate
+D087,Extensión del documento,2,páginas,Editorial de la revista Biomédica 28(3),pp. 315-316,Texto,Alta,Sin referencias
+D087,Inversión en investigación y desarrollo,No especificado en documento,N/A,No se cuantifica la financiación,p. 1,Texto,Baja,El texto solo afirma que hay avances
+D088,Pacientes incluidos,1 189,pacientes,925 casos nuevos y 264 previamente tratados,"Resumen, p. 1",Texto,Alta,Dos grupos con muestreo distinto
+D088,Resistencia global en casos nuevos,"11,78",%,"IC 95 %: 9,86-14,02","p. 4; Cuadro 2, p. 5",Texto,Alta,"Comparada con 15,6 % de 1999-2000"
+D088,MDR-TB en casos nuevos,"2,38",%,"IC 95 %: 1,58-3,57","p. 4; Cuadro 2, p. 5",Texto,Alta,"El intervalo excluye 1,5 % del estudio previo"
+D088,Resistencia global en previamente tratados,"44,32",%,"IC 95 %: 38,45-50,35","p. 5; Cuadro 3, p. 6",Texto,Alta,Muestra de conveniencia
+D088,MDR-TB en previamente tratados,"31,44",%,"IC 95 %: 26,14-37,27","p. 5; Cuadro 3, p. 6",Texto,Alta,"Concentrada en fracasos (50,6 %)"
+D088,Cultivos recibidos de casos nuevos,1 250,cultivos,"98,7 % de la meta de 1 266",p. 6,Texto,Alta,Solo 925 aptos
+D088,Cultivos aptos para el estudio,925,cultivos,"73,1 % de la meta",p. 6,Texto,Alta,Sesgo de selección reconocido
+D088,Resistencia a estreptomicina en casos nuevos,"8,97",%,Total por fármaco,"Cuadro 2, p. 5",Tabla,Media,Especificidad de prueba de 82 % a 87 %
+D088,Especificidad del control de calidad para estreptomicina,"86,67 / 82,08",%,Control directo / indirecto,pp. 5-6,Texto,Media,Posible sobreestimación de resistencia
+D088,Concordancia del control de baciloscopias,"99,9",%,Control de calidad de diagnóstico,p. 5,Texto,Alta,Sin detalle de muestra
+D088,Lotes de medios de cultivo conformes,66 de 70,lotes (94 %),Control de calidad de medios,p. 5,Texto,Alta,Efecto en resultados no analizado
+D088,Impacto de la tecnología sobre empresas o recuperación productiva,No especificado en documento,N/A,Fuera del dominio temático del documento,N/A,N/A,Baja,Documento de salud pública
+D089,Niños incluidos en el análisis,260,niños,109 de 4 años y 151 de 5 años,p. 5-6,Texto,Alta,Planeados 320; salió una evaluadora
+D089,CCI entre evaluadores del NSMDA,"0,91",adimensional,"IC 95 %: 0,88-0,93","Cuadro 2, p. 6",Tabla,Alta,"0,88 a los 5 años"
+D089,CCI entre evaluadores de la EAD,"0,96",adimensional,"IC 95 %: 0,95-0,97","Cuadro 3, p. 7",Tabla,Alta,Efecto techo de la escala
+D089,Promedio de diferencias NSMDA,"1,23",puntos,"Límites de acuerdo -7,51 a 9,97","Cuadro 2, p. 6",Tabla,Alta,"5,4 % fuera de límites"
+D089,Promedio de diferencias EAD,"0,02",puntos,"Límites de acuerdo -1,81 a 1,84","Cuadro 3, p. 7",Tabla,Alta,"5,76 % fuera de límites"
+D089,Correlación de Spearman entre pruebas,"0,51",adimensional,Validez convergente en total,p. 8,Texto,Media,"0,39 y 0,42 por edad"
+D089,Correlación con áreas gruesa y fina del NSMDA,"0,61",adimensional,Comparación por áreas equivalentes,p. 8,Texto,Media,Sin intervalo reportado
+D089,CCI intraevaluador del NSMDA,"0,81",adimensional,"30 niños; IC 95 %: 0,55-0,91","Cuadro 4, p. 9",Tabla,Media,"Muestra pequeña, puntajes mayores en segunda valoración"
+D089,Error estándar de la medición,"3,1 / 0,7",puntos,NSMDA / EAD,p. 8,Texto,Media,"En el texto de discusión: 3,08 y 0,65"
+D089,Kappa del punto de corte NSMDA,"0,71",adimensional,"Total, punto de corte 217","Cuadro 2, p. 6",Tabla,Media,Concordancia buena según Landis y Koch
+D089,Puntaje medio de la EAD,"56,3",puntos,"Máximo 60; desviación 3,3","Cuadro 1, p. 6",Tabla,Alta,Efecto techo
+D089,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de salud infantil
+D090,Personas encuestadas,143,personas,75 de Bolero Bajo y 68 de Bolero Alto,p. 4,Texto,Alta,Muestra de dos comunidades
+D090,Conocimiento insuficiente en Bolero Alto,68,%,Puntaje de 0 a 10 de 20,p. 6,Texto,Media,Corte de la puntuación no validado
+D090,Conocimiento insuficiente en Bolero Bajo,75,%,Puntaje de 0 a 10 de 20,p. 6,Texto,Media,Corte de la puntuación no validado
+D090,Identificaron la angoleta como transmisor,<20,%,Ambas comunidades,p. 5,Texto,Media,Cifra exacta no reportada
+D090,Uso de mosquitero (Alto / Bajo),10 / 0,%,Medidas de protección,p. 5,Texto,Alta,Autoinforme
+D090,Uso de insecticida (Alto / Bajo),36 / 46,%,Medidas de protección,p. 5,Texto,Alta,Autoinforme
+D090,Flebotominos capturados en peridomicilio,171 / 170,ejemplares,Bolero Alto / Bolero Bajo con trampa Shannon,"Cuadro 2, p. 6",Tabla,Alta,Una hora de captura mensual
+D090,Predominio de L. youngi,"63,2 / 55,9",%,Bolero Alto / Bolero Bajo,"Cuadro 2, p. 6",Tabla,Alta,Resumen reporta más de 55 %
+D090,Hembras disecadas sin infección natural,341,hembras,Ambas comunidades,p. 6,Texto,Alta,Sin cálculo de índice de infección
+D090,Casos anuales de leishmaniasis en Mérida,400,casos/año,Promedio 1996-2006,p. 2,Texto,Baja,Comunicación personal
+D090,Diferencia de fauna entre comunidades,"28,57",ji al cuadrado,"p = 0,0000733","Cuadro 2, p. 6",Tabla,Media,No ajusta por esfuerzo de captura
+D090,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de salud pública
+D091,Individuos tipificados,308,varones,"104 Valle, 102 Cauca, 102 Nariño","Cuadro 1, p. 4",Tabla,Alta,Presuntos padres de casos de paternidad
+D091,Marcadores Y-STR analizados,17,marcadores,Estuche AmpFLSTR Yfiler,p. 3,Texto,Alta,Incluye DYS385a/b
+D091,Haplotipos observados,288,haplotipos,268 únicos y 20 compartidos,p. 5,Texto,Alta,268/308 = 87 %; el texto dice 93 %
+D091,Diversidad haplotípica global,"0,9995",adimensional,17 marcadores,p. 7,Texto,Alta,"En discusión se cita 0,999"
+D091,Variación dentro de la población,"99,1",%,AMOVA,p. 7,Texto,Media,Sin tabla de AMOVA
+D091,Apellidos distintos,218,apellidos,183 europeos (84 %) y 35 amerindios (16 %),p. 7,Texto,Alta,El texto los usa como individuos
+D091,Frecuencia de DYS19/13 en la región,"29,8",%,"17,1 % Valle, 31,4 % Cauca, 41,2 % Nariño",p. 9,Texto,Alta,Contrasta con menos de 1 % en poblaciones europeas
+D091,Apellido europeo con DYS19/13,"38,8",%,71 de 183 según el texto,"Cuadro 7, p. 9",Tabla,Baja,"Denominador de apellidos, no de individuos"
+D091,Apellido amerindio con DYS19/13,60,%,21 de 35 según el texto,"Cuadro 7, p. 9",Tabla,Baja,Denominador de apellidos
+D091,Individuos que comparten haplotipo,"13,3",%,19 parejas y un trío,p. 11,Texto,Media,Otro párrafo cita 40 individuos
+D091,Poder de discriminación haplotípica,"93,2",%,Haplotipos individuales sobre individuos,p. 7,Texto,Baja,No coincide con 268/308
+D091,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de genética de poblaciones
+D092,Especímenes analizados,336,hembras,11 especies del subgénero Nyssorhynchus,"Resumen, p. 1",Texto,Media,Los conteos por especie suman 339
+D092,Puntos anatómicos por ala,12,puntos,Manchas y venas del ala derecha,p. 3,Texto,Alta,Un solo observador no declarado
+D092,Reclasificación en sección Argyritarsis,97,%,"Kappa de 0,97",p. 6,Texto,Media,Sin validación cruzada
+D092,Reclasificación general en sección Albimanus,86,%,"Kappa de 0,85","Resumen, p. 1; p. 8",Texto,Baja,El resumen invierte los porcentajes de secciones
+D092,Reclasificación de A. benarrochi B (ocho especies),70,%,El valor más bajo de la sección Albimanus,"Cuadro 1, p. 10",Tabla,Media,Mejora a 87 % en el análisis de tres especies
+D092,Reclasificación de las tres especies simpátricas,87 a 90,%,"A. oswaldoi, A. benarrochi B y A. strodei; kappa 0,88",p. 9,Texto,Media,Sin muestra independiente
+D092,Alometría en Argyritarsis / Albimanus / simpátricas,16 / 19 / 27,%,R2 de la regresión de conformación sobre tamaño,pp. 7-9,Texto,Media,Se atribuye el resto a genética
+D092,Lambda de Wilks del subgénero,"0,0013",adimensional,"F = 12,92",p. 5,Texto,Media,Con 11 grupos y 24 variables
+D092,Permutaciones para distancias de Mahalanobis,1 000,permutaciones,Todas las distancias significativas,p. 5,Texto,Alta,Sin corrección por comparaciones múltiples
+D092,Especímenes por especie,30 a 33,individuos,Grupos de tamaño pequeño frente a 24 variables,p. 3,Texto,Alta,Riesgo de sobreajuste
+D092,Costo o tiempo comparado con PCR-RFLP,No especificado en documento,N/A,Afirmación de menor costo sin datos,p. 13,Texto,Baja,No se compara
+D092,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de entomología médica
+D093,Escolares evaluados,1 593,escolares,707 en Bogotá y 886 en centro-oriente (866 en Cuadro 1),"p. 1, 3, 4",Texto,Media,Inconsistencia de 20 escolares
+D093,"Inactividad en tiempo libre, Bogotá",19,%,Resumen; 24 % de niñas y 13 % de niños en el texto,"Resumen, p. 1; p. 5",Texto,Baja,Cifras distintas entre resumen y texto
+D093,"Inactividad en tiempo libre, centro-oriente",28,%,36 % de niñas y 21 % de niños,"Resumen, p. 1; p. 6",Texto,Baja,Cifras distintas entre resumen y texto
+D093,Diferencia por sexo en inactividad (Bogotá),24 vs 13,%,"Niñas frente a niños; p = 0,001",p. 5,Texto,Alta,Autorreporte
+D093,Inactividad por tipo de colegio (Bogotá),23 vs 15,%,"Público frente a privado; p < 0,001",p. 5,Texto,Alta,Sin control por estrato
+D093,Inactividad por tipo de colegio (centro-oriente),31 vs 25,%,"Público frente a privado; p = 0,073",p. 6,Texto,Alta,No significativa
+D093,Asociación de actividad física con IMC,"p = 0,132 y 0,145",valor p,Bogotá y centro-oriente,pp. 5-6,Texto,Media,Sin tamaño de efecto
+D093,Asociación con pliegue del tríceps,"p = 0,311 y 0,566",valor p,Bogotá y centro-oriente,pp. 5-6,Texto,Media,Sin tamaño de efecto
+D093,IMC medio de la muestra,"17,6",kg/m2,"IC 95 %: 17,4-17,8 en ambas zonas","Cuadro 1, p. 4",Tabla,Alta,Sin percentiles por edad en el cuadro
+D093,Edad media de la muestra,"9,99 / 9,85",años,"Bogotá / centro-oriente, con criterio de 10 a 14 años","Cuadro 1, p. 4",Tabla,Baja,Contradice el criterio de inclusión
+D093,Inactividad total en descanso escolar (Bogotá / centro-oriente),"78,8 / 95,0",%,Valores del Cuadro 2 en la extracción,"Cuadro 2, p. 6",Tabla,Baja,Columnas desalineadas; lectura incierta
+D093,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de epidemiología nutricional
+D094,Caracoles analizados,1 312,ejemplares,Aroapyrgus colombiensis en cuatro salidas,"Cuadro 1, p. 5",Tabla,Alta,Una sola emisión de Paragonimus
+D094,Infección en caracoles,"0,07",%,1 de 1 312 con cercarias de Paragonimus,"Resumen, p. 1; Cuadro 1, p. 5",Texto,Alta,Sin intervalo de confianza
+D094,Infección por Heterophyidae en caracoles,"4,42",%,58 de 1 312; hallazgo incidental,"Cuadro 1, p. 5",Tabla,Alta,Primer registro en A. colombiensis según los autores
+D094,Cangrejos capturados,27,ejemplares,Hypolobocera bouvieri,"Cuadro 2, p. 5",Tabla,Alta,20 de 27 en la primera salida
+D094,Infección en cangrejos,"55,5",%,15 de 27 con metacercarias; promedio de seis,"Cuadro 2, p. 5",Texto,Alta,Muestra pequeña
+D094,Mamíferos capturados / infectados,4 / 1,animales,Tres Didelphis marsupialis y una rata; 25 % de infección,"Cuadro 3, p. 6",Tabla,Media,Un solo animal infectado
+D094,Adultos de Paragonimus extraídos,9,adultos,Cuatro quistes de 10 a 12 mm en un marsupial,p. 5,Texto,Alta,Identificación morfológica
+D094,Muestras de esputo,18,muestras,10 mujeres y 8 hombres; todas negativas,p. 6,Texto,Media,Muestreo por conveniencia de tosedores
+D094,Coliformes totales en la quebrada,21 a 90 x 10 elevado a 4-5,NMP/100 ml,Aumentan en el sentido de la corriente,"Cuadro 4, p. 6",Tabla,Media,Rangos con exponentes mezclados en la extracción
+D094,Participantes en la visita al laboratorio,42,personas,Habitantes de Fuente Clara,p. 4,Texto,Alta,Sin evaluación de aprendizaje
+D094,Prevalencia en el foco rural previo,10,%,Valle de Pérdidas,p. 2,Texto,Media,Cita de un estudio anterior
+D094,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de parasitología
+D095,Mujeres que completaron las pruebas,52,mujeres,De 58 voluntarias,"Resumen, p. 1; p. 3",Texto,Alta,Muestra por conveniencia
+D095,Porcentaje de grasa por hidrodensitometría,"29,6 ± 5,8",%,Método de referencia,"Cuadro 2, p. 5",Tabla,Alta,Modelo de dos componentes
+D095,Porcentaje de grasa por Durning/Womersley,"34,2 ± 4,5",%,"Sobrestima 4,67 puntos","Cuadros 2 y 3, p. 5",Tabla,Alta,Diferencia significativa
+D095,Porcentaje de grasa por Jackson/Pollock,"25,7 ± 5,6",%,"Subestima 3,81 puntos","Cuadros 2 y 3, p. 5",Tabla,Alta,Diferencia significativa
+D095,Porcentaje de grasa por Ramírez/Torun,"32,0 ± 5,3",%,"Sobrestima 2,49 puntos","Cuadros 2 y 3, p. 5",Tabla,Alta,La de menor sesgo
+D095,Correlación de Pearson con la referencia,"0,626 a 0,717",adimensional,Tres ecuaciones,"Cuadro 4, p. 5",Tabla,Alta,"Resumen indica 0,62 a 0,72"
+D095,CCI con la referencia,"0,426 a 0,612",adimensional,Tres ecuaciones,"Cuadro 4, p. 5",Tabla,Alta,Sin intervalos de confianza
+D095,Error estándar del estimado,"3,72 a 4,16",%,"Jackson/Pollock 3,72 %, Ramírez/Torun 3,94 %, Durning/Womersley 4,16 %","p. 5, 8",Texto,Media,Clasificados como buenos según Lohman
+D095,Amplitud de límites de concordancia,"16,5 a 17,1",puntos de %,Entre referencia y ecuaciones,"Resumen, p. 1; p. 5",Texto,Alta,Clínicamente amplios
+D095,Mujeres con IMC adecuado y exceso de grasa,25,%,Grasa por encima de 31 %,p. 5,Texto,Media,Punto de corte con error de estimación
+D095,IMC medio,"22,3",kg/m2,"Desviación de 4,0 en cuadro y 2,8 en texto","Cuadro 1, p. 4; p. 5",Tabla,Baja,Inconsistencia entre cuadro y texto
+D095,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de nutrición
+D096,"Esperanza de vida temporal masculina, región oriental","+0,57",años,"5,59 % del máximo posible; único cambio positivo masculino","Cuadro 3, p. 6",Tabla,Media,Sin intervalo de incertidumbre
+D096,"Esperanza de vida temporal masculina, nuevos departamentos","-2,04",años,"16,91 % del máximo posible","Cuadro 3, p. 6",Tabla,Media,Poblaciones pequeñas y subregistro
+D096,"Esperanza de vida temporal femenina, región oriental","+1,66",años,"27,3 % del máximo posible","Cuadro 3, p. 6",Tabla,Media,Sin intervalo de incertidumbre
+D096,"Esperanza de vida temporal femenina, nuevos departamentos","+0,52",años,"8,8 % del máximo posible","Cuadro 3, p. 6",Tabla,Media,Menor ganancia femenina
+D096,"Pérdida por violencias en hombres, nuevos departamentos","-2,55",años,"Contribución de suicidios, homicidios y otras violencias","Cuadro 4, p. 7",Tabla,Media,Agrupa causas heterogéneas
+D096,"Pérdida por violencias en hombres, región central","-2,15",años,"Contribución de suicidios, homicidios y otras violencias","Cuadro 4, p. 7",Tabla,Media,Agrupa causas heterogéneas
+D096,"Pérdida por violencias en mujeres, nuevos departamentos","-1,60",años,Contribución a la esperanza de vida temporal,"p. 6; Cuadro 4, p. 7",Texto,Media,Menor que en hombres
+D096,"Tasa de mortalidad masculina, región central 1999",951,por 100 000,Más alta de las regiones,p. 4,Texto,Media,Frente a 729 nacional
+D096,"Tasa de mortalidad masculina, región atlántica 1999",508,por 100 000,Más baja de las regiones,p. 4,Texto,Media,Posible subregistro
+D096,"Muertes por causas violentas, nuevos departamentos 1999",>50,%,Proporción de defunciones,p. 4,Texto,Media,Población pequeña
+D096,Brecha de esperanza de vida temporal entre sexos,"2,5 y 2,56",años,Región central y nuevos departamentos,p. 6,Texto,Media,Aumentó en todas las regiones
+D096,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de demografía de la salud
+D097,Cepas de L. (V.) panamensis analizadas,4,cepas,Una de referencia y tres colombianas,p. 3,Texto,Alta,Todas con el mismo patrón de 400 y 850 pb
+D097,Identidad del fragmento de 450 pb con haspa de L. major,60,%,ADNc de fase estacionaria,"Resumen, p. 1; p. 5",Texto,Media,Un solo clon reportado
+D097,Bloques repetidos de nueve aminoácidos,6,bloques,GARCRQLEA con sustituciones en dos bloques,p. 5,Texto,Media,Con codón de parada tras cada bloque
+D097,Sueros de leishmaniasis visceral en ELISA,8,sueros,"Frente a 8 cutánea, 6 mucocutánea y 6 controles","p. 5, 7",Texto,Alta,Muestra pequeña
+D097,Punto de corte del ELISA,"0,027",densidad óptica,Péptido de HASPB1 de L. donovani,p. 6,Texto,Media,Muy bajo; sin curva de validación
+D097,Sueros en Western blot,7,sueros humanos,"Tres visceral, tres cutánea, uno de L. amazonensis",p. 5,Texto,Alta,Además de sueros de ratones BALB/c
+D097,Tamaño de rHASPA y rHASPB,"58,3 y 70,4",kDa,Proteínas recombinantes fusionadas a MBP,p. 6,Texto,Alta,Usadas en Western blot
+D097,Pseudogenes en L. braziliensis / L. major / L. infantum,161 / 97 / 41,pseudogenes,Comparación genómica de una referencia externa,p. 8,Texto,Media,No analizados en el estudio
+D097,Identidad de haspb de L. amazonensis con L. major,95,%,Datos no mostrados,p. 7,Texto,Baja,Dato citado sin presentar
+D097,Ciclos de PCR,30,ciclos,Con alineamiento a 60 grados,p. 3-4,Texto,Alta,Cebadores heterólogos
+D097,Dilución de sueros en Western blot,1:100 / 1:50,dilución,Métodos frente a leyenda de la Figura 4,"p. 5, 8",Texto,Baja,Inconsistencia de reporte
+D097,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de biología molecular
+D098,Pacientes de los que se obtuvo el aislado,1,paciente,Persona de 56 años con sida,"Resumen, p. 1; p. 3",Texto,Alta,Sin síntomas intestinales
+D098,Recuento de CD4 del paciente,396,células/mm3,Con carga viral de 20 400 copias,p. 3,Texto,Alta,Unidad de carga viral reportada como mm3
+D098,Proporción esporas por célula Vero,10,esporas/célula,Inóculo en placas de 24 pozos,p. 4,Texto,Alta,Sin recuento reportado
+D098,Tiempo de incubación con antimicrobianos,18,horas,A 37 grados,p. 3,Texto,Alta,Sin control sin tratamiento
+D098,Aparición de esporas en el cultivo (cuerpo del texto),4 a 5,semanas,"Posinfección, en el sobrenadante",p. 5,Texto,Media,El resumen indica la segunda semana
+D098,Aparición de esporas en el cultivo (resumen),2,semanas,Posinfección,"Resumen, p. 1",Texto,Baja,Discrepancia con el cuerpo del texto
+D098,Prevalencia de microsporidios en una cohorte VIH de Medellín,"3,9",%,"103 pacientes, 2004",p. 3,Texto,Media,Cita de un estudio del grupo
+D098,Resultado de la tinción Gram cromótropo en heces,Negativo,resultado,Muestra con PCR positiva,p. 5,Texto,Alta,Sensibilidad limitada de la tinción
+D098,Comparación con van Gool,3 a 5,semanas,Producción de esporas en el estudio de 1994,p. 6,Texto,Media,Sin comparación cuantitativa
+D098,Rendimiento de esporas o porcentaje de células infectadas,No especificado en documento,N/A,No se reporta cuantificación,p. 5-6,Texto,Baja,No hay recuento
+D098,Géneros de microsporidios que infectan a humanos,7,géneros,Entre 150 géneros y 1 200 especies del filo,p. 2,Texto,Media,Cita bibliográfica
+D098,"Impacto en empresas, transferencia o recuperación productiva",No especificado en documento,N/A,Fuera del dominio temático,N/A,N/A,Baja,Documento de parasitología
+D099,Registros identificados en bases de datos,547,registros,Scopus y Web of Science,"Fig. 2, p. 5",Figura,Alta,Sin cifras por base
+D099,Duplicados eliminados,225,registros,547 menos 322 para título y resumen,"Fig. 2, p. 5",Figura,Alta,Aritmética coherente
+D099,Registros excluidos por criterios de exclusión,178,registros,De 322 revisados por título y resumen,"Fig. 2, p. 5",Figura,Alta,Un solo revisor probable
+D099,Artículos para análisis general,144,artículos,Base de la bibliometría preliminar,"Fig. 2, p. 5",Figura,Alta,Resumen indica 144 relevantes
+D099,Artículos incluidos en la revisión,70,artículos,2011 a junio de 2021,"Fig. 2, p. 5",Figura,Alta,74 excluidos por criterios de inclusión
+D099,Artículos publicados después de 2018,64,artículos,Más del 90 % de los 70,"3.1.1, p. 5",Texto,Media,Solo seis hasta 2019 según el texto
+D099,Media de citas por artículo,23,citas,Mediana por año de 6,"3.1.1, p. 6",Texto,Media,Unidades distintas entre media y mediana
+D099,Artículos con método cualitativo,39,artículos,55 % de los 70,"3.1.2, p. 6",Texto,Alta,Subjetividad señalada como limitación
+D099,Artículos del sector manufactura,31,%,"Seguido de TI (20 %), construcción (16 %), transporte (9 %), humanitario (5 %)","3.1.3, p. 7",Texto,Alta,Solo 11 artículos de construcción
+D099,Países de origen,20,países,"Estados Unidos (15), India (11), China (9), Alemania (7)","3.1.4, p. 8",Texto,Media,Lectura del texto con extracción degradada
+D099,Artículos asignados a los seis grupos en la Tabla 1,42,artículos,"IA 11, datos masivos 9, IoT 9, prefabricación 5, robótica 4, ciberfísicos 4","Tabla 1, p. 12",Tabla,Media,Conteo del analista; faltan 28 de los 70
+D099,Impacto cuantificado de las tecnologías en recuperación,No especificado en documento,N/A,La revisión no extrae desenlaces cuantitativos,N/A,N/A,Baja,Evidencia descriptiva
+D100,Referencias citadas,93,referencias,Lista numerada de la síntesis,"Referencias, pp. 9-16 del PDF",Texto,Alta,Algunas fuera del tema
+D100,Referencias fechadas en 2025 o 2026,49,referencias,"25 de 2025 y 24 de 2026, de 93","Referencias, pp. 9-16 del PDF",Derivado,Media,Conteo del analista; fuera del alcance 2020-2024
+D100,Referencias fechadas en 2020-2024,40,referencias,"19 de 2024, 4 de 2023, 6 de 2022, 5 de 2021 y 6 de 2020","Referencias, pp. 9-16 del PDF",Derivado,Media,Conteo del analista
+D100,Referencias anteriores a 2020,2,referencias,Una de 2013 y una de 2015,"Referencias, pp. 9-16 del PDF",Derivado,Media,Fuera del alcance declarado
+D100,Mejora de recuperación por encamisado y polímeros,40 a 62,%,Cinco citas sin fuente identificada,"Sec. 2, p. 3",Texto,Baja,Sin definición de la métrica
+D100,Temas de la tabla rápida,5,temas,"Interoperabilidad, IA, factores humanos, descentralización, integración","Tabla clave, p. 1",Tabla,Alta,Síntesis automática
+D100,Páginas del documento,16,páginas,Ocho de texto y ocho de referencias,"Pie de página, p. 1-8",Texto,Alta,Fecha de generación 14 de octubre de 2026
+D100,Periodo declarado de la revisión,2020-2024,años,Alcance en título y sección de alcance,"Alcance, p. 2",Texto,Alta,No coincide con las fechas de las referencias
+D100,"Estudios revisados, criterios de inclusión y cadena de búsqueda",No especificado en documento,N/A,No se reportan,"Sec. 3, p. 4",Texto,Baja,Presentada como revisión sistemática y metaanálisis
+D100,Etapas de resiliencia de la cadena de suministro,4,etapas,"Preparación, resistencia, rebote y crecimiento","Sec. 4, p. 4",Texto,Media,Tomada de una revisión no sísmica
+D100,Referencias del propio lote del corpus,No especificado en documento,N/A,Se detectan varias coincidencias con documentos analizados,"Referencias, pp. 9-16 del PDF",Derivado,Media,Se detalla en el análisis relacional
+D101,Documentos de referencia mostrados,3,documentos,Revisión de 2021 y dos estudios de 2025,"Lista de referencia, pp. 1-2",Texto,Alta,Número total de recuperados no informado
+D101,Citas de la revisión de Industria 4.0 y gestión de desastres,39,citas,128 referencias,"Red de citación, p. 1",Tabla,Alta,Datos del servicio en la fecha de generación
+D101,Citas del estudio de gemelos digitales y ciudades resilientes,11,citas,109 referencias,"Red de citación, p. 1",Tabla,Alta,Datos del servicio en la fecha de generación
+D101,Citas del estudio de gestión sostenible de desastres,7,citas,55 referencias,"Red de citación, p. 2",Tabla,Alta,Datos del servicio en la fecha de generación
+D101,Periodo declarado de la producción académica,2020-2026,años,Texto de resumen,"Resumen, p. 1",Texto,Alta,Criterio de fecha no explicado
+D101,Extensión del documento,2,páginas,"Resumen, conclusión y referencias",pp. 1-2,Texto,Alta,Salida de un asistente conversacional
+D101,Temas de la síntesis,2,temas,Industria 4.0 en desastres; gemelos digitales para resiliencia urbana y sísmica,"Resumen, p. 1",Texto,Alta,Sin cifras de efecto
+D101,"Cadena de búsqueda, criterios y número de registros",No especificado en documento,N/A,No se reportan,N/A,N/A,Baja,Presentada sin protocolo
+D101,Impacto en empresas o recuperación productiva,No especificado en documento,N/A,Se afirma sin datos propios,"Conclusión, p. 1",Texto,Baja,Inferencia de la herramienta

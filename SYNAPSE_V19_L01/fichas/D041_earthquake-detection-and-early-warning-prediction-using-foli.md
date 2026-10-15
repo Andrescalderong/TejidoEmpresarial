@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONTRADICE** D060 (Alerta temprana sísmica en el sitio con aprendizaje automático): relación inversa de D060 CONTRADICE D041: D060 reporta que XGBoost supera a otros algoritmos en intensidad sísmica (99,05 %) y D041 que una red neuronal supera a XGBoost en magnitud; las tarea [juicio del analista]
+- **COMPLEMENTA** D010 (Alerta sísmica temprana y aprendizaje automático): relación inversa de D010 COMPLEMENTA D041: ambos estiman magnitud con aprendizaje automático; D010 corrige el desbalance de eventos grandes con datos sintéticos (CTGAN) y D041 compara modelos c [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 7 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

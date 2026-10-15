@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D026 (Soluciones digitales para gestión de sismos (caso Türkiye 2023)): D047 revisa SIG en la gestión del transporte posterremoto y D026 las soluciones digitales de respuesta y recuperación; ambos con evidencia mayormente descriptiva [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 36 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

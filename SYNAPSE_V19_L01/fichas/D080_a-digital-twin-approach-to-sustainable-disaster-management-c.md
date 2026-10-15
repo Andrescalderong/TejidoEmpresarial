@@ -73,7 +73,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D048 (Gemelo digital como imagen operativa común para respuesta sísmica): replica la lógica de imagen operativa común en un distrito industrial con sensores IoT y arquitectura híbrida; comparte autoría (Korkmaz, Demirkesen) con D048, por lo que no es una confirmación independiente [juicio del analista; citación verificada de D080 a D048; autoría compartida]
+- **DEPENDE_DE** D006 (Gemelo digital para gestión de desastres e inteligencia artificial): retoma la propuesta de gemelo digital de ciudad en desastre como referencia conceptual [juicio del analista; citación verificada de D080 a D006]
+- **PRECEDE** D101 (Síntesis automática: gemelos digitales, Industria 4.0 y resiliencia po): relación inversa de D101 DEPENDE_DE D080: la tercera referencia de D101 es el estudio de caso de Cayirova (D080) [juicio del analista]
+- **DEPENDE_DE** D072 (Gemelo digital para gestión de desastres con modelado híbrido y simili): cita a D072 en su lista de referencias (verificado por coincidencia de título); D072: Gemelo digital para gestión de desastres con modelado híbrido y simili [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 19 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

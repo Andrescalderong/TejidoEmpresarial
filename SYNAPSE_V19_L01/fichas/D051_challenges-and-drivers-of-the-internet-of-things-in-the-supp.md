@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D017 (IoT y resiliencia de la cadena de suministro): D051 clasifica 92 desafíos en 16 categorías y D017 sintetiza barreras (seguridad, interoperabilidad) para IoT en cadenas de suministro [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 64 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D002 (Reforzamiento sísmico y economía de la adaptación): relación inversa de D002 COMPLEMENTA D067: D002 optimiza camisas de acero con algoritmo genético (costo 40 % menor) y D067 evalúa camisas de concreto con fibras de acero (capacidad cortante has [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 32 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

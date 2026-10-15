@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D049 (Alerta temprana sísmica de bajo costo con procesamiento en el nodo): ambos aplican el principio PLUM: D063 a ferrocarriles de alta velocidad con arquitectura jerárquica y D049 de forma modificada en sensores MEMS de bajo costo con procesamiento en el nodo [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 55 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

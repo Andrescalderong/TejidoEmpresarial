@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D003 (Gestión de desastres con tecnología y resiliencia comunitaria): ambos señalan que las soluciones tecnológicas dominan la literatura de desastres con integración débil de conocimiento, equidad y factores humanos [juicio del analista]
+- **PRECEDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): es citado por D013 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 90 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

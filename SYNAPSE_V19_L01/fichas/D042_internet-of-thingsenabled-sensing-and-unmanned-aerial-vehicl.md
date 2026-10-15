@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D019 (IoT y alerta temprana en la gestión de desastres sísmicos): relación inversa de D019 CONFIRMA D042: ambas revisiones integran IoT, UAV, comunicaciones y aprendizaje automático en el ciclo del terremoto y concluyen que la integración mejora la concien [juicio del analista; citación verificada de D042 a D019]
+- **COMPLEMENTA** D076 (Evaluación de daño posterremoto con aprendizaje profundo ligero en el ): relación inversa de D076 COMPLEMENTA D042: D076 clasifica daño posterremoto en imágenes de UAV con aprendizaje profundo ligero y D042 revisa IoT y UAV en la gestión del terremoto [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 35 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

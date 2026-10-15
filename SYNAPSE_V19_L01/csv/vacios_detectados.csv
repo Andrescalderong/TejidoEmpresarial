@@ -1,0 +1,695 @@
+﻿doc_id,vacio_id,tipo,descripcion
+D001,V-001-01,TERR,Sin validación en regiones sísmicas ni en contextos latinoamericanos
+D001,V-001-02,POBL,Víctimas de desastre y trabajadores de empresas afectadas no están representados
+D001,V-001-03,MET,Sin comparación con ruteo exacto ni con multi-UAV; sin validación por paciente
+D001,V-001-04,VAR,"Ausencia de variables empresariales y de infraestructura (energía, conectividad, inventario)"
+D001,V-001-05,TEOR,Sin marco de resiliencia ni de continuidad operativa
+D001,V-001-06,CAUS,No se identifica efecto causal de la recolección eficiente sobre vidas salvadas o tiempos de recuperación
+D002,V-002-01,TERR,Sin aplicación a edificios de América Latina ni a regiones con normativas distintas del Eurocódigo 8
+D002,V-002-02,POBL,"No se considera el tipo de ocupación (comercial, industrial) ni su vulnerabilidad económica"
+D002,V-002-03,MET,"Falta optimización multiobjetivo, bajo incertidumbre y con criterios alternativos de diseño por capacidad"
+D002,V-002-04,VAR,"Ausencia de variables de interrupción de uso, ingresos perdidos y emisiones"
+D002,V-002-05,TEOR,No se vincula con teoría de resiliencia comunitaria o empresarial
+D002,V-002-06,CAUS,No se estima efecto causal del reforzamiento sobre pérdidas reales ni sobre recuperación
+D003,V-003-01,TERR,"Sin anclaje en regiones sísmicas de América Latina; casos de Türkiye, Corea, Italia, China y Himalaya"
+D003,V-003-02,POBL,Pymes y trabajadores informales no se mencionan como población objetivo
+D003,V-003-03,MET,Sin protocolo reproducible de mapeo ni medición de concordancia
+D003,V-003-04,VAR,"Falta de variables comparables de desenlace (tiempo de recuperación, empleo, ingresos)"
+D003,V-003-05,TEOR,Concepto de regeneración sin operacionalización teórica
+D003,V-003-06,CAUS,No se estima efecto causal de tecnologías sobre resiliencia
+D004,V-004-01,TERR,Mayoría de casos en Europa y Asia; sin evidencia en América Latina ni en zonas sísmicas de ingresos medios
+D004,V-004-02,POBL,Pequeñas y medianas empresas dependientes de servicios esenciales no son población de análisis
+D004,V-004-03,MET,Falta evaluación de credibilidad de literatura gris y concordancia entre codificadores
+D004,V-004-04,VAR,"No se miden costos del ciclo de vida, tiempo de recuperación ni retorno de inversión"
+D004,V-004-05,TEOR,Ausencia de teoría de adopción tecnológica y de costos de transacción entre operadores
+D004,V-004-06,CAUS,Sin evidencia causal sobre efecto de los GD en resiliencia o continuidad
+D005,V-005-01,TERR,Solo Países Bajos; sin evidencia de países de ingresos medios ni de zonas sísmicas
+D005,V-005-02,POBL,Se omiten pymes y sector privado; solo se entrevista personal de una agencia pública
+D005,V-005-03,MET,No hay medición cuantitativa ni diseño longitudinal más allá de 18 meses
+D005,V-005-04,VAR,"Faltan variables de costo, retorno, calidad de datos y tiempo de recuperación"
+D005,V-005-05,TEOR,Socio-materialidad y teoría de costos de transacción no se emplean
+D005,V-005-06,CAUS,No se identifica efecto causal de las condiciones sobre beneficios
+D006,V-006-01,TERR,Sin casos ni datos de ningún territorio; ejemplo hipotético de huracán
+D006,V-006-02,POBL,No considera comunidades sin conectividad ni pequeñas empresas
+D006,V-006-03,MET,No hay protocolo de revisión ni validación empírica del paradigma
+D006,V-006-04,VAR,Faltan variables de resultado y métricas de desempeño de la coordinación
+D006,V-006-05,TEOR,Sin teoría de coordinación interorganizacional que fundamente la metarred ni los juegos
+D006,V-006-06,CAUS,No se identifica efecto causal de la plataforma sobre desenlaces
+D007,V-007-01,TERR,Solo un municipio sueco; sin evidencia en contextos de ingresos medios o sísmicos
+D007,V-007-02,POBL,"Se omiten usuarios externos, empresas y ciudadanos afectados por los datos"
+D007,V-007-03,MET,No hay comparación con grupos de control ni uso de datos del sistema para triangular
+D007,V-007-04,VAR,"Faltan variables de costo, tiempo de limpieza, calidad y estrés medido"
+D007,V-007-05,TEOR,Falta integrar teorías de costos de transacción o de capacidades dinámicas para explicar sostenibilidad
+D007,V-007-06,CAUS,No se identifica el efecto causal del liderazgo o de la capacitación sobre la aceptación
+D008,V-008-01,TERR,Un solo edificio en Pakistán; sin casos en América Latina ni validación local
+D008,V-008-02,POBL,"Se omiten comportamientos de pánico, grupos vulnerables en trauma y personal de empresas en turnos"
+D008,V-008-03,MET,No se compara integración manual y automática ni se aplican disparadores probabilistas
+D008,V-008-04,VAR,"No se incluyen variables económicas, tiempo de reocupación ni interrupción de actividades"
+D008,V-008-05,TEOR,Falta vincular con teorías de resiliencia funcional y de comportamiento humano en desastres
+D008,V-008-06,CAUS,No hay evidencia causal empírica entre daño estructural y resultados de evacuación
+D009,V-009-01,TERR,Un solo puente modelo en China; sin casos de infraestructura de regiones sísmicas de América Latina
+D009,V-009-02,POBL,No considera operadores de infraestructura ni pequeñas empresas dependientes de la ruta
+D009,V-009-03,MET,No se reportan tasas de detección de daño ni análisis de incertidumbre del FEM
+D009,V-009-04,VAR,"Faltan variables de tiempo de reparación, costo de cierre e impacto económico"
+D009,V-009-05,TEOR,No se vincula con teoría de resiliencia de redes de transporte
+D009,V-009-06,CAUS,No se evalúa el efecto del gemelo sobre decisiones y costos de mantenimiento
+D010,V-010-01,TERR,"Sin evidencia en Colombia, América Latina o contextos de subducción distintos de Japón"
+D010,V-010-02,POBL,No se evalúa el efecto en instalaciones o empresas usuarias de la alerta
+D010,V-010-03,MET,"No hay partición por evento, selección del modelo en un conjunto independiente ni intervalos de confianza"
+D010,V-010-04,VAR,"Faltan variables de tiempo de alerta, latencia y costo de falsas alarmas"
+D010,V-010-05,TEOR,Sin modelo teórico de valor de la alerta ni de decisión bajo incertidumbre
+D010,V-010-06,CAUS,No se aísla el efecto de los datos sintéticos frente a otras técnicas de balance
+D011,V-011-01,TERR,Un solo evento en Nueva Zelanda; sin América Latina ni regiones con servicios frágiles
+D011,V-011-02,POBL,Muestra de 22 empresas; sin microempresas informales ni cadenas de suministro
+D011,V-011-03,MET,"Sin validación fuera de muestra, intervalos de confianza ni estimación de mitigaciones"
+D011,V-011-04,VAR,"Faltan inaccesibilidad de empleados, sustitución de importaciones y recuperación parcial de actividad"
+D011,V-011-05,TEOR,No se integra teoría de capacidades dinámicas ni de resiliencia organizacional
+D011,V-011-06,CAUS,No se identifica el efecto causal de las mitigaciones ni controla confusores
+D012,V-012-01,TERR,Predominio de contextos asiáticos y de inundaciones; escasa evidencia sísmica y de América Latina
+D012,V-012-02,POBL,"Poca atención a empresas, pymes y trabajadores; foco en comunidades y agencias"
+D012,V-012-03,MET,Sin evaluación de calidad de estudios ni concordancia entre revisores
+D012,V-012-04,VAR,"Faltan medidas de desempeño, tiempo de recuperación y costo-beneficio de la GC"
+D012,V-012-05,TEOR,Ausencia de marcos teóricos de GC y de gestión de desastres en los estudios revisados
+D012,V-012-06,CAUS,Sin diseños que identifiquen el efecto de la GC sobre resultados
+D013,V-013-01,TERR,Predominio de Estados Unidos y China; 0 estudios en Colombia o América Latina andina
+D013,V-013-02,POBL,"Poca atención a pymes, trabajadores informales y grupos vulnerables en la recuperación económica"
+D013,V-013-03,MET,No hay evaluación de calidad de los estudios ni validación del marco
+D013,V-013-04,VAR,"Faltan variables demográficas, financieras y sociales y de recuperación económica"
+D013,V-013-05,TEOR,No se integra teoría de recuperación económica y de resiliencia organizacional
+D013,V-013-06,CAUS,No se estima efecto causal del uso del GD sobre desenlaces de respuesta o recuperación
+D014,V-014-01,TERR,Un solo edificio en Lima; sin evidencia en otras regiones andinas ni en edificios no patrimoniales
+D014,V-014-02,POBL,"No considera usuarios, comunidades ni actividades económicas que dependen del edificio"
+D014,V-014-03,TEMP,Análisis de respuesta de segundos a minutos; sin horizonte de recuperación ni de degradación a largo plazo
+D014,V-014-04,MET,Validación con datos reales de sensores y análisis de sensibilidad de materiales pendientes
+D014,V-014-05,VAR,"Faltan variables de costo, de uso del edificio y de tiempo de inhabilitación"
+D014,V-014-06,TEOR,El marco de resiliencia circular inteligente no se articula con teoría de recuperación o de resiliencia organizacional
+D014,V-014-07,CAUS,No se estima el efecto de la instrumentación sobre la detección de daño ni sobre decisiones de intervención
+D015,V-015-01,TERR,"País, región y tipo de edificio de la muestra no especificados; sin evidencia en América Latina andina"
+D015,V-015-02,POBL,Población de encuestados e inspectores no descrita; sin empresas ni usuarios del edificio
+D015,V-015-03,TEMP,"Sin dimensión temporal de eventos, de recuperación ni de degradación; análisis transversal"
+D015,V-015-04,MET,"Ítems, instrumento de endogeneidad y muestreo no descritos; sin validación externa"
+D015,V-015-05,VAR,"Faltan variables observadas de desempeño (tiempo de inhabilitación, costos) y datos reales de latencia y alertas"
+D015,V-015-06,TEOR,No se vincula con teoría de resiliencia organizacional ni de recuperación económica
+D015,V-015-07,CAUS,Efectos entre percepciones interpretados como causales sin diseño de identificación convincente
+D016,V-016-01,TERR,Predominio de Asia; sin análisis de América Latina ni de zonas sísmicas
+D016,V-016-02,POBL,Sin estratificación por tamaño de empresa; escasa atención a pequeñas empresas e informales
+D016,V-016-03,TEMP,Sin análisis por periodos; el crecimiento 2018-2023 no se desagrega
+D016,V-016-04,MET,"Una base de datos, solo inglés, sin evaluación de calidad ni de sensibilidad"
+D016,V-016-05,VAR,"Faltan variables de costo, adopción, desempeño y resiliencia"
+D016,V-016-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia de cadenas de suministro
+D016,V-016-07,CAUS,Sin evidencia causal sobre efecto del IoT en eficiencia o continuidad
+D017,V-017-01,TERR,Predominio de India y China; sin atención a zonas sísmicas ni a América Latina
+D017,V-017-02,POBL,Sin análisis por tamaño de empresa ni de economía informal
+D017,V-017-03,TEMP,Solo dos periodos con corte en 2022; sin análisis de largo plazo
+D017,V-017-04,MET,"Filtro de términos de reto, una base de datos y sin evaluación de calidad"
+D017,V-017-05,VAR,"Faltan variables de desempeño, costo y resiliencia medida"
+D017,V-017-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia organizacional
+D017,V-017-07,CAUS,Sin evidencia causal sobre efecto del IoT en resiliencia
+D018,V-018-01,TERR,Red genérica sin ubicación; sin consideración de zonas sísmicas ni de países en desarrollo
+D018,V-018-02,POBL,"Sin usuarios finales, operadores ni empresas afectadas por fallas"
+D018,V-018-03,TEMP,Ventana de 24 horas; sin dinámica de recuperación ni deriva a largo plazo
+D018,V-018-04,MET,"Sin línea base, métricas, datos reales ni ablación de componentes"
+D018,V-018-05,VAR,"Faltan variables de falla, ciberseguridad, costo de cómputo y confianza humana"
+D018,V-018-06,TEOR,Sin teoría de decisión bajo incertidumbre ni de confianza en sistemas autónomos
+D018,V-018-07,CAUS,Sin evidencia causal de que agentes y gemelo mejoren el desempeño
+D019,V-019-01,TERR,"Casos de Italia, Egipto, Canadá y California; sin América Latina andina"
+D019,V-019-02,POBL,Brecha digital en mayores y zonas rurales mencionada; sin empresas ni pymes
+D019,V-019-03,TEMP,Foco en detección y alerta de segundos a minutos; sin horizonte de recuperación
+D019,V-019-04,MET,"Revisión sin protocolo de búsqueda, selección ni evaluación de calidad"
+D019,V-019-05,VAR,"Faltan variables de costo, falsas alarmas, continuidad operativa y recuperación económica"
+D019,V-019-06,TEOR,"Sin teoría de recuperación, de adopción tecnológica ni de resiliencia organizacional"
+D019,V-019-07,CAUS,Sin evidencia causal del efecto de las tecnologías sobre pérdidas o recuperación
+D020,V-020-01,TERR,Zona sísmica no identificada; sin evidencia de América Latina andina
+D020,V-020-02,POBL,"Solo profesionales de ingeniería; sin usuarios, propietarios ni empresas ocupantes"
+D020,V-020-03,TEMP,Estudio transversal; sin seguimiento ni efecto de eventos sísmicos
+D020,V-020-04,MET,Constructo resultado sin indicadores; varianza de método común y errores de reporte estadístico
+D020,V-020-05,VAR,"Faltan variables de desempeño estructural, costo y continuidad operativa"
+D020,V-020-06,TEOR,Sin teoría de resiliencia ni de adopción tecnológica
+D020,V-020-07,CAUS,Efectos de percepción interpretados como causales sin diseño ni identificación
+D021,V-021-01,TERR,"País de los casos no especificado en el texto extraído (los sistemas de ejemplo son de Alemania, Estados Unidos y Reino Unido); sin evidencia en zonas sísmicas ni en América Latina"
+D021,V-021-02,POBL,"Solo profesionales de ingeniería civil; sin usuarios finales, residentes ni empresas afectadas"
+D021,V-021-03,TEMP,Datos mensuales en el caso del puente; sin dinámica de eventos extremos ni de recuperación
+D021,V-021-04,MET,Muestra de cinco expertos y evaluación cualitativa sin comparación
+D021,V-021-05,VAR,"Faltan variables de costo, tiempo, calidad de datos y seguridad"
+D021,V-021-06,TEOR,Sin teoría de adopción de tecnología ni de resiliencia de infraestructura
+D021,V-021-07,CAUS,Sin evidencia causal de efecto del gemelo sobre decisiones o costos
+D022,V-022-01,TERR,"Concentración en Asia (84 de 117); pocos estudios en América Latina (Brasil, Chile, Colombia, Ecuador)"
+D022,V-022-02,POBL,"Sin análisis de comunidades afectadas, operadores ni empresas usuarias de la conectividad"
+D022,V-022-03,TEMP,Foco en horas y días de respuesta; sin horizonte de recuperación de semanas o meses
+D022,V-022-04,MET,"Dos bases de datos, un término sísmico, sin evaluación de calidad ni concordancia"
+D022,V-022-05,VAR,"Faltan variables de costo, tiempo de despliegue real y efecto sobre actividad económica"
+D022,V-022-06,TEOR,"Sin teoría de resiliencia, de adopción tecnológica ni de gobernanza de emergencias"
+D022,V-022-07,CAUS,Sin evidencia causal de efecto de la conectividad aérea sobre la respuesta o la recuperación
+D023,V-023-01,TERR,Un solo puente ferroviario en Australia; sin zonas sísmicas ni América Latina
+D023,V-023-02,POBL,"Sin análisis de usuarios, operadores ferroviarios ni impactos económicos de interrupciones"
+D023,V-023-03,TEMP,Seis meses; sin ciclo estacional anual ni degradación de largo plazo
+D023,V-023-04,MET,Identificación modal elemental y calibración no validada
+D023,V-023-05,VAR,"Faltan variables de costo, disponibilidad de datos, daño y condiciones ambientales"
+D023,V-023-06,TEOR,Sin teoría de gestión de activos ni de decisión bajo incertidumbre
+D023,V-023-07,CAUS,Sin evidencia causal de beneficio del gemelo sobre mantenimiento o seguridad
+D024,V-024-01,TERR,"Contraste entre países desarrollados y en desarrollo mencionado, sin análisis de zonas sísmicas"
+D024,V-024-02,POBL,Pequeños agricultores y empresas mencionados como grupo sin acceso; sin análisis de informales
+D024,V-024-03,TEMP,Años faltantes en la muestra; sin análisis de impacto a largo plazo
+D024,V-024-04,MET,"Fuentes no estándar, muestra pequeña, sin evaluación de calidad"
+D024,V-024-05,VAR,"Faltan variables de costo, retorno, desperdicio medido y continuidad ante interrupciones"
+D024,V-024-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia
+D024,V-024-07,CAUS,Sin evidencia causal de beneficios del IoT
+D025,V-025-01,TERR,Puente anonimizado por confidencialidad; el texto no declara el contexto geográfico (el identificador de ejemplo incluye la sigla PEI); sin zona sísmica
+D025,V-025-02,POBL,"Sin análisis de usuarios, personal de mantenimiento ni propietarios de infraestructura"
+D025,V-025-03,TEMP,Prueba de integración sin horizonte de operación prolongada
+D025,V-025-04,MET,Validación interna sin línea base ni tamaños de muestra
+D025,V-025-05,VAR,"Faltan variables de costo, esfuerzo, calidad de datos y fallas"
+D025,V-025-06,TEOR,Sin teoría de adopción tecnológica ni de gobernanza de datos
+D025,V-025-07,CAUS,Sin evidencia causal de beneficio de gestión
+D026,V-026-01,TERR,"Un solo país y evento (Türkiye, 2023); sin comparación con otros sismos"
+D026,V-026-02,POBL,"Sin análisis de usuarios, brecha digital ni empresas afectadas"
+D026,V-026-03,TEMP,Foco en las semanas posteriores al sismo; sin seguimiento de sostenibilidad
+D026,V-026-04,MET,"Inventario no reproducible, sin concordancia y con conteos inconsistentes"
+D026,V-026-05,VAR,"Faltan variables de uso, alcance, desempeño y recuperación económica"
+D026,V-026-06,TEOR,Sin teoría de recuperación posdesastre ni de adopción tecnológica
+D026,V-026-07,CAUS,Sin evidencia causal de efecto de las soluciones sobre resultados de respuesta o recuperación
+D027,V-027-01,TERR,Mercado y materiales de Iran; sin consideración de otros países ni de América Latina
+D027,V-027-02,POBL,"Sin usuarios, propietarios ni empresas ocupantes de edificios"
+D027,V-027-03,TEMP,Ensayo a corto plazo; sin durabilidad ni vida útil
+D027,V-027-04,MET,Una probeta por condición y prueba t pareada sin base
+D027,V-027-05,VAR,"Faltan costos de instalación, interrupción y mantenimiento; flexión y carga cíclica"
+D027,V-027-06,TEOR,Sin teoría de decisión bajo incertidumbre ni de costo de ciclo de vida
+D027,V-027-07,CAUS,Relación entre clase de concreto y rentabilidad no sostenida por resultados consistentes
+D028,V-028-01,TERR,"Estados Unidos, China, Reino Unido e Italia dominan; sin América Latina"
+D028,V-028-02,POBL,"Sin análisis de operadores, empresas ni comunidades"
+D028,V-028-03,TEMP,Series de 2019 a 2025; sin análisis de largo plazo de gemelos operativos
+D028,V-028-04,MET,"Cadena de búsqueda mínima, una base de datos y sin criterio de gemelización"
+D028,V-028-05,VAR,"Faltan variables de costo, beneficio medido y desempeño"
+D028,V-028-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia
+D028,V-028-07,CAUS,Sin evidencia causal de beneficios de los gemelos
+D029,V-029-01,TERR,País no especificado; sin evidencia en zonas sísmicas ni en América Latina
+D029,V-029-02,POBL,"Solo profesionales de mantenimiento; sin gerentes generales, propietarios ni pymes en particular"
+D029,V-029-03,TEMP,Estudio transversal; sin seguimiento de la adopción ni de eventos de interrupción
+D029,V-029-04,MET,"Percepciones autoinformadas, R2 muy alto y cifras de mediación inconsistentes"
+D029,V-029-05,VAR,"Faltan variables de desempeño, costo de falla, tiempo de recuperación y tamaño de empresa"
+D029,V-029-06,TEOR,Capacidades dinámicas aplicadas sin integrar teoría de recuperación económica
+D029,V-029-07,CAUS,Efectos de percepción interpretados como causales sin identificación
+D030,V-030-01,TERR,País no especificado; el sector de la construcción en una región no descrita
+D030,V-030-02,POBL,Gerentes de construcción de muestra de conveniencia; la tabla demográfica incluye edades de 15 a 22 años
+D030,V-030-03,TEMP,Estudio transversal; sin seguimiento ni eventos de perturbación
+D030,V-030-04,MET,Inconsistencias de reporte y ajuste límite
+D030,V-030-05,VAR,"Faltan variables objetivas de desempeño, de costo y de recuperación"
+D030,V-030-06,TEOR,Sin teoría de capacidades dinámicas ni de recuperación económica
+D030,V-030-07,CAUS,Efectos de percepción interpretados como causales sin identificación
+D031,V-031-01,TERR,Mediterráneo oriental y proyecto europeo; sin zonas sísmicas continentales ni América Latina
+D031,V-031-02,POBL,"Sin usuarios finales, población ni empresas"
+D031,V-031-03,TEMP,Ejercicio de tres horas de escenario; sin operación prolongada
+D031,V-031-04,MET,Datos sintéticos y sin comparación con una arquitectura no semántica
+D031,V-031-05,VAR,"Faltan variables de calidad de alerta, costo y tiempo de respuesta"
+D031,V-031-06,TEOR,Sin teoría de respuesta a alertas ni de gobernanza de datos
+D031,V-031-07,CAUS,Sin evidencia causal del efecto de la semántica sobre decisiones
+D032,V-032-01,TERR,"China domina (37,49 %); sin análisis de América Latina ni de zonas sísmicas"
+D032,V-032-02,POBL,"Sin análisis de usuarios, operadores ni empresas"
+D032,V-032-03,TEMP,Año 2026 con indexación parcial; sin análisis de largo plazo
+D032,V-032-04,MET,Restricción al área de computación y dominios por modelo de tópicos sin validación
+D032,V-032-05,VAR,"Faltan variables de implementación, costo y resultados"
+D032,V-032-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia
+D032,V-032-07,CAUS,Sin evidencia causal sobre factores del crecimiento ni sobre beneficios
+D033,V-033-01,TERR,Sin análisis de países ni de zonas sísmicas
+D033,V-033-02,POBL,Foco en grandes empresas de manufactura; pymes y organizaciones sin recursos fuera del análisis
+D033,V-033-03,TEMP,Sin análisis de operación prolongada ni de eventos extremos
+D033,V-033-04,MET,Revisión sin protocolo completo; comparación cualitativa
+D033,V-033-05,VAR,"Faltan variables de costo, precisión del diagnóstico y degradación por pérdida de datos"
+D033,V-033-06,TEOR,Sin teoría de calidad de datos aplicada a decisiones de continuidad
+D033,V-033-07,CAUS,Sin evidencia causal del efecto de la calidad de datos
+D034,V-034-01,TERR,"Región de Ningxia, China; sin otras regiones ni América Latina"
+D034,V-034-02,POBL,"Sin población, hogares ni empresas afectadas"
+D034,V-034-03,TEMP,Fase de emergencia y de daño inmediato; sin horizonte de recuperación
+D034,V-034-04,MET,Validación de intensidad con errores de área grandes y daño sin contraste
+D034,V-034-05,VAR,"Faltan variables de funcionalidad, tiempo de inhabilitación, costos y empresas"
+D034,V-034-06,TEOR,Sin teoría de recuperación posdesastre ni de decisión bajo incertidumbre
+D034,V-034-07,CAUS,Sin evidencia causal de efecto del gemelo sobre decisiones o víctimas
+D035,V-035-01,TERR,País del puente no declarado en el texto del caso (autores de Italia); sin zonas de alta sismicidad documentada ni América Latina
+D035,V-035-02,POBL,"Sin usuarios, operadores ferroviarios ni impactos económicos"
+D035,V-035-03,TEMP,Duración de la campaña no informada; sin ciclo anual ni seguimiento de largo plazo
+D035,V-035-04,MET,Calibración y evaluación con los mismos datos; parámetro único
+D035,V-035-05,VAR,"Faltan variables ambientales, de daño y de costo"
+D035,V-035-06,TEOR,Sin teoría de decisión de mantenimiento ni de resiliencia
+D035,V-035-07,CAUS,Sin evidencia causal de beneficio del gemelo en detección de daño
+D036,V-036-01,TERR,Sin análisis por país o región; la revisión es global y la institución es sudafricana
+D036,V-036-02,POBL,"Sin usuarios, empresas ni poblaciones afectadas; la unidad son los artículos"
+D036,V-036-03,TEMP,Serie de publicaciones 2019 a junio de 2025; sin horizonte de despliegue ni recuperación
+D036,V-036-04,MET,"Sin protocolo registrado, sin riesgo de sesgo y con inconsistencias en el recuento de fuentes y de estudios"
+D036,V-036-05,VAR,"Faltan costos, fiabilidad ante fallos de red, resiliencia y variables de negocio"
+D036,V-036-06,TEOR,Sin teoría de sincronización de gemelos ni de resiliencia de sistemas sociotécnicos
+D036,V-036-07,CAUS,"Sin evidencia causal del efecto del gemelo sobre latencia, energía o continuidad de servicio"
+D037,V-037-01,TERR,Cobertura global con moderación por desarrollo y cultura; sin análisis por país latinoamericano ni territorios sísmicos
+D037,V-037-02,POBL,Empresas de manufactura y servicios en cadenas de suministro; escaso detalle de microempresas y pymes de territorios afectados
+D037,V-037-03,TEMP,Estudios de 2004 a abril de 2025; sin horizonte de recuperación en días o meses
+D037,V-037-04,MET,"Dependencia de tamaños de efecto, heterogeneidad superior a 90 %, Egger significativo en respuesta y 424 exclusiones por falta de datos"
+D037,V-037-05,VAR,"Faltan medidas objetivas de tiempo de recuperación, costos de adopción, retornos y tipo de disrupción"
+D037,V-037-06,TEOR,Capacidades dinámicas usadas como interpretación ex post; la hipótesis de dividendo decreciente carece de contraste formal
+D037,V-037-07,CAUS,Sin diseño causal; asociaciones transversales y percepciones
+D038,V-038-01,TERR,Sin territorio definido; los autores son de Austria y Alemania y el ejemplo es genérico de ciudad inteligente
+D038,V-038-02,POBL,"Sin usuarios, empresas ni población definida; se mencionan interesados de forma genérica"
+D038,V-038-03,TEMP,Sin horizonte temporal ni evaluación longitudinal
+D038,V-038-04,MET,"Sin evaluación con usuarios, métricas de desempeño ni comparación con alternativas"
+D038,V-038-05,VAR,"Faltan variables de latencia, escalabilidad, costos y calidad de datos"
+D038,V-038-06,TEOR,Teoría de comunicación de actores y ciencia del diseño; sin teoría de resiliencia ni de recuperación
+D038,V-038-07,CAUS,Sin evidencia causal sobre el efecto del enfoque en el desarrollo o la operación de sistemas
+D039,V-039-01,TERR,Puente Jindo (Corea del Sur) y estructura simulada; sin otras regiones ni zonas sísmicas
+D039,V-039-02,POBL,Sin usuarios ni empresas; unidad de análisis son señales de sensores
+D039,V-039-03,TEMP,Registros de 100 s a 1000 s; sin monitoreo de largo plazo ni evento sísmico
+D039,V-039-04,MET,"Retardos inyectados, eliminación previa de datos anómalos y métrica inconsistente (RMSE menor que MAE)"
+D039,V-039-05,VAR,"Faltan variables de deriva de reloj, pérdida de paquetes, consumo de energía medido y errores modales"
+D039,V-039-06,TEOR,Marco de procesamiento de señales y vibraciones; sin teoría de gemelos digitales ni de resiliencia
+D039,V-039-07,CAUS,Sin evidencia causal del efecto de la corrección sobre el diagnóstico estructural
+D040,V-040-01,TERR,L'Aquila y Florencia (Italia); sin América Latina ni otras regiones
+D040,V-040-02,POBL,Edificio residencial con ocupantes a 25 m2 por persona; sin empresas ni comercios
+D040,V-040-03,TEMP,Horizonte de 50 años con tasa de descuento de 3 %; retraso inicial de 100 días fijo
+D040,V-040-04,MET,Edificio 2D arquetipo; razones de daño a pérdida y a tiempo de estudios previos; sin validación con daños observados
+D040,V-040-05,VAR,"Faltan ingresos perdidos, valor agregado, tiempo de reapertura de empresas y efectos sobre cadenas de suministro"
+D040,V-040-06,TEOR,Ingeniería sísmica basada en desempeño y decisión multicriterio; sin teoría de recuperación económica de empresas
+D040,V-040-07,CAUS,Sin evidencia causal observada del efecto del refuerzo sobre el tiempo de inhabilitación
+D041,V-041-01,TERR,California (Estados Unidos); sin otras regiones
+D041,V-041-02,POBL,Sin población ni empresas; unidad de análisis son eventos sísmicos
+D041,V-041-03,TEMP,Sin período de datos especificado ni horizonte de alerta
+D041,V-041-04,MET,"Datos sin describir, partición sin detallar, sin validación cruzada, entrada sin forma de onda"
+D041,V-041-05,VAR,"Faltan forma de onda, tiempo de llegada de ondas P, intensidad observada y tiempo de alerta"
+D041,V-041-06,TEOR,Sin base sismológica que justifique las variables de entrada
+D041,V-041-07,CAUS,Sin evidencia causal ni de efecto sobre decisiones
+D042,V-042-01,TERR,Predominio de estudios de Asia oriental (China) y terremotos recientes citados; sin análisis de América Latina
+D042,V-042-02,POBL,"Sin empresas, hogares ni comunidades específicas; unidad de análisis son los artículos"
+D042,V-042-03,TEMP,Producción 1998 a 2025; sin horizonte de recuperación en semanas o meses
+D042,V-042-04,MET,"Base única, filtro de idioma, sin evaluación de calidad y con tamaño de conjunto ambiguo para la bibliometría"
+D042,V-042-05,VAR,"Faltan costos, tiempos de respuesta medidos, desempeño de campo y variables económicas"
+D042,V-042-06,TEOR,Ciclo de gestión de desastres; sin teoría de recuperación económica ni de resiliencia organizacional
+D042,V-042-07,CAUS,Sin evidencia causal del efecto de IoT o UAV sobre resultados de respuesta o recuperación
+D043,V-043-01,TERR,"Sin territorio; dominio de aviación, institución de Letonia"
+D043,V-043-02,POBL,"Flota simulada de 30 gemelos; sin operadores, empresas ni usuarios"
+D043,V-043-03,TEMP,100 rondas de comunicación; sin horizonte operativo ni evolución del hardware
+D043,V-043-04,MET,"Datos sintéticos, corrupción asignada, detección no evaluada, sin repeticiones"
+D043,V-043-05,VAR,"Faltan costos, tasas reales de falla de sensores y tiempo de detección de corrupción"
+D043,V-043-06,TEOR,Aprendizaje federado y desaprendizaje; sin teoría de resiliencia organizacional ni de gemelos de infraestructura
+D043,V-043-07,CAUS,Efecto causal solo dentro de la simulación
+D044,V-044-01,TERR,"Barcelona, Tokio y California; sin América Latina"
+D044,V-044-02,POBL,Población urbana en general; sin empresas ni sectores específicos
+D044,V-044-03,TEMP,Sin período de medición declarado
+D044,V-044-04,MET,Sin método de revisión ni fuentes primarias para las cifras
+D044,V-044-05,VAR,"Faltan costos, falsos positivos, disponibilidad del sistema y variables de recuperación"
+D044,V-044-06,TEOR,Sin teoría de gestión de riesgo ni de adopción tecnológica
+D044,V-044-07,CAUS,Sin identificación causal de los efectos del IoT
+D045,V-045-01,TERR,"Despliegues en Alemania, Taiwán, California, Islandia, China y Nueva Zelanda; sin América Latina"
+D045,V-045-02,POBL,"Sin usuarios finales, empresas ni comunidades específicas"
+D045,V-045-03,TEMP,Publicaciones de septiembre de 2009 a marzo de 2022; sin evaluación de largo plazo
+D045,V-045-04,MET,"Dos bases, inglés, sin evaluación de calidad y sin métricas comparadas"
+D045,V-045-05,VAR,"Faltan costos de operación, falsas alarmas, tiempos de aviso y pérdidas evitadas"
+D045,V-045-06,TEOR,Sin teoría de respuesta organizacional a la alerta ni de resiliencia
+D045,V-045-07,CAUS,Sin evidencia causal de efecto de la alerta en daños
+D046,V-046-01,TERR,"Conteo por país con predominio de China, sin análisis regional ni América Latina"
+D046,V-046-02,POBL,"Empresas de manufactura, energía, transporte y comercio en general; sin pymes específicas"
+D046,V-046-03,TEMP,Literatura hasta agosto de 2024; sin horizonte de evaluación de impacto
+D046,V-046-04,MET,"Una base, filtro por área temática, selección sin exclusión de contenido y sin evaluación de calidad"
+D046,V-046-05,VAR,"Faltan variables de costos, retorno, productividad y continuidad"
+D046,V-046-06,TEOR,Sin teoría explícita de modelos de negocio ni de resiliencia
+D046,V-046-07,CAUS,Sin evidencia causal del efecto de IoT y DCS en el desempeño
+D047,V-047-01,TERR,Ejemplo de Kütahya (Turquía); referencias de Nueva Zelanda y otras regiones; sin América Latina
+D047,V-047-02,POBL,Gestores de transporte y emergencias; sin empresas
+D047,V-047-03,TEMP,Sin período de revisión ni horizonte de recuperación
+D047,V-047-04,MET,Sin método de revisión declarado
+D047,V-047-05,VAR,"Faltan tiempos de restauración, costos y variables económicas"
+D047,V-047-06,TEOR,Sin teoría de resiliencia de redes de transporte
+D047,V-047-07,CAUS,Sin evidencia causal
+D048,V-048-01,TERR,"Kocaeli (Turquía), zona logística e industrial de la falla de Anatolia del Norte; sin otras regiones"
+D048,V-048-02,POBL,Población general y equipos de rescate; sin empresas ni sectores económicos
+D048,V-048-03,TEMP,Primeras 72 horas de la respuesta; sin recuperación ni reconstrucción
+D048,V-048-04,MET,Escenario sin validación; fragilidad y parámetros de asignación sin describir
+D048,V-048-05,VAR,"Faltan variables de funcionalidad, reapertura de empresas, cadena de suministro y costos"
+D048,V-048-06,TEOR,Gemelo digital y COP; sin teoría de recuperación económica ni de resiliencia de empresas
+D048,V-048-07,CAUS,Sin evidencia causal del efecto de la COP sobre decisiones o resultados
+D049,V-049-01,TERR,Wellington (Nueva Zelanda); sin otras regiones
+D049,V-049-02,POBL,Hogares anfitriones de sensores; sin empresas ni usuarios finales evaluados
+D049,V-049-03,TEMP,Latencia en segundos; sin operación prolongada
+D049,V-049-04,MET,"Escenarios hipotéticos, línea base mínima, sin sismos reales ni falsas alarmas"
+D049,V-049-05,VAR,"Faltan costos, tasa de detección, falsas alarmas y tiempo de entrega al usuario"
+D049,V-049-06,TEOR,Sin teoría de respuesta a la alerta ni de valor de los segundos de aviso
+D049,V-049-07,CAUS,Sin evidencia causal de efecto sobre daños o decisiones
+D050,V-050-01,TERR,Revisión global; autores de Brasil; sin análisis por región
+D050,V-050-02,POBL,Profesionales de emergencia y comunidades; sin empresas
+D050,V-050-03,TEMP,Literatura de 2010 a agosto de 2020
+D050,V-050-04,MET,"Dos bases, solo artículos de revista, selección con índice subjetivo"
+D050,V-050-05,VAR,"Faltan costos, tiempos de respuesta y variables de recuperación"
+D050,V-050-06,TEOR,Sin teoría de transferencia de tecnología ni de resiliencia
+D050,V-050-07,CAUS,Sin evidencia causal de efectos del IoT
+D051,V-051-01,TERR,Sin análisis por país; autores de Irán
+D051,V-051-02,POBL,Organizaciones de cadenas de suministro en general; sin pymes específicas
+D051,V-051-03,TEMP,Artículos de 2004 a 2023; sin dinámica de adopción
+D051,V-051-04,MET,"Dos bases, 32 artículos, sin frecuencias, sin validación del modelo"
+D051,V-051-05,VAR,"Faltan costos, prevalencia de factores y resultados de adopción"
+D051,V-051-06,TEOR,Sin teoría de adopción tecnológica ni de resiliencia
+D051,V-051-07,CAUS,Sin evidencia causal de efecto de los impulsores
+D052,V-052-01,TERR,Probablemente China (cuestionario en chino); país de la muestra no explicitado en la lectura del texto
+D052,V-052-02,POBL,Profesionales de la construcción; sin distinción de tamaño de empresa
+D052,V-052-03,TEMP,Transversal; sin evolución de la adopción
+D052,V-052-04,MET,"Un informante, sin controles, constructos redundantes e inconsistencia de efectos"
+D052,V-052-05,VAR,"Faltan desempeño observado, costos, tamaño de empresa y experiencia con gemelos"
+D052,V-052-06,TEOR,Orquestación de recursos y capacidad de absorción; sin teoría de resiliencia
+D052,V-052-07,CAUS,Sin identificación causal
+D053,V-053-01,TERR,Metro Vancouver (Canadá); sin América Latina
+D053,V-053-02,POBL,Edificios altos modernos; sin hogares ni empresas
+D053,V-053-03,TEMP,Días a meses de recuperación para niveles de peligro de 100 a 4975 años
+D053,V-053-04,MET,"Validación contra un simulador, sin datos observados de recuperación"
+D053,V-053-05,VAR,"Faltan servicios, personal, insumos, demanda y actividad económica"
+D053,V-053-06,TEOR,Ingeniería basada en desempeño; sin teoría de recuperación económica de empresas
+D053,V-053-07,CAUS,"Mecanismo plausible, sin evidencia observada"
+D054,V-054-01,TERR,California (Estados Unidos); sin América Latina
+D054,V-054-02,POBL,Ocupantes de edificios antiguos de concreto; sin empresas ni usos específicos
+D054,V-054-03,TEMP,Horizonte de 50 años con tasa de descuento
+D054,V-054-04,MET,"Pocos arquetipos regulares, rangos de costo genéricos y valoración de la vida controvertida"
+D054,V-054-05,VAR,"Faltan tiempo de cierre, pérdidas por interrupción, contenido y lesiones no mortales"
+D054,V-054-06,TEOR,Costo-beneficio y valor de la vida estadística; sin teoría de continuidad empresarial
+D054,V-054-07,CAUS,Sin evidencia observada de efecto del refuerzo
+D055,V-055-01,TERR,Laboratorio universitario; territorio no especificado en documento
+D055,V-055-02,POBL,Sin usuarios ni empresas
+D055,V-055-03,TEMP,Misiones de segundos; sin operación prolongada
+D055,V-055-04,MET,"Sin repeticiones, sin estadística y con supuesto de seguimiento del agente físico"
+D055,V-055-05,VAR,"Faltan costos, energía medida, fallas de comunicación y escalabilidad"
+D055,V-055-06,TEOR,Marco de modelado y simulación de Zeigler; sin teoría de resiliencia
+D055,V-055-07,CAUS,Sin evidencia causal más allá del caso
+D056,V-056-01,TERR,India como contexto de exposición; sin otras regiones
+D056,V-056-02,POBL,Sin usuarios ni empresas
+D056,V-056-03,TEMP,Sin período de revisión
+D056,V-056-04,MET,Sin método de revisión ni pruebas de los prototipos
+D056,V-056-05,VAR,"Faltan falsos positivos, latencia, costos y adopción"
+D056,V-056-06,TEOR,Sin teoría de gestión del riesgo
+D056,V-056-07,CAUS,Sin evidencia causal
+D057,V-057-01,TERR,Sin territorio; datos sintéticos
+D057,V-057-02,POBL,Sin usuarios ni empresas
+D057,V-057-03,TEMP,Sin dinámica temporal; red estática
+D057,V-057-04,MET,"Datos sintéticos, referencias limitadas y sin pruebas estadísticas visibles"
+D057,V-057-05,VAR,"Faltan fallas de nodos, interferencia real, costos y vida útil de baterías"
+D057,V-057-06,TEOR,Optimización evolutiva y multitarea; sin teoría de resiliencia
+D057,V-057-07,CAUS,Sin evidencia causal sobre decisiones
+D058,V-058-01,TERR,Miami-Dade (Estados Unidos); sin América Latina
+D058,V-058-02,POBL,Gestores de infraestructura; sin empresas
+D058,V-058-03,TEMP,Sin dinámica temporal ni horizonte de recuperación
+D058,V-058-04,MET,Sin validación de exactitud ni sensibilidad de supuestos
+D058,V-058-05,VAR,"Faltan amenaza sísmica, sensores, costos y recuperación"
+D058,V-058-06,TEOR,Redes bayesianas y grafos de conocimiento; sin teoría de resiliencia económica
+D058,V-058-07,CAUS,Sin evidencia causal sobre decisiones
+D059,V-059-01,TERR,China (Lingang y redes de distribución de la empresa de red eléctrica); sin otras regiones
+D059,V-059-02,POBL,Operadores de redes eléctricas; sin empresas ni usuarios
+D059,V-059-03,TEMP,Eventos individuales; sin evolución del sistema
+D059,V-059-04,MET,Evidencia cualitativa sin métricas de detección ni réplica
+D059,V-059-05,VAR,"Faltan tasas de detección, costos y tiempo de respuesta"
+D059,V-059-06,TEOR,Teoría de sistemas y cuarto paradigma; sin teoría de resiliencia
+D059,V-059-07,CAUS,Sin evidencia causal
+D060,V-060-01,TERR,Italia; sin América Latina
+D060,V-060-02,POBL,Sin usuarios ni empresas
+D060,V-060-03,TEMP,Ventana de 3 s; sin latencia de la red ni tiempo de aviso medido
+D060,V-060-04,MET,"Inconsistencia de datos, posible desbalance y fuga, sin validación externa"
+D060,V-060-05,VAR,"Faltan distribución de clases, costos, latencia y desempeño por clase"
+D060,V-060-06,TEOR,Sismología de alerta temprana; sin teoría de respuesta a la alerta
+D060,V-060-07,CAUS,Relación predictiva sin efecto en decisiones
+D061,V-061-01,TERR,Revisión global con sesgo de idioma; casos de Kenia y otras regiones
+D061,V-061-02,POBL,Gestores urbanos y comunidades; sin empresas
+D061,V-061-03,TEMP,Estudios de 2018 a 2025; alertas de horas o días
+D061,V-061-04,MET,"Cribado sin conciliación clara, rúbrica propia y solo inglés"
+D061,V-061-05,VAR,"Faltan costos, tiempos medidos de aviso y falsas alarmas"
+D061,V-061-06,TEOR,Gobernanza del riesgo; sin teoría de recuperación económica
+D061,V-061-07,CAUS,Sin evidencia causal
+D062,V-062-01,TERR,"Sin territorio de desastre específico; autores en India, Irlanda y Sudáfrica"
+D062,V-062-02,POBL,Usuarios IoT en zonas afectadas; sin empresas
+D062,V-062-03,TEMP,Misiones de minutos; sin operación sostenida
+D062,V-062-04,MET,"Un dron, línea base simple, sin repeticiones descritas"
+D062,V-062-05,VAR,"Faltan costos, tiempo de despliegue, regulación y desempeño con varios AAV"
+D062,V-062-06,TEOR,Redes basadas en intención y aprendizaje por refuerzo; sin teoría de continuidad
+D062,V-062-07,CAUS,Sin efecto en operaciones reales
+D063,V-063-01,TERR,Línea de alta velocidad en China sin ubicación absoluta; sin América Latina
+D063,V-063-02,POBL,Operadores ferroviarios; sin empresas ni pasajeros
+D063,V-063-03,TEMP,Alertas de segundos; sin recuperación
+D063,V-063-04,MET,"Retrospectiva, sin falsas alarmas ni pruebas en línea"
+D063,V-063-05,VAR,"Faltan falsas alarmas, tiempo de frenado, costos y pérdidas evitadas"
+D063,V-063-06,TEOR,Alerta basada en movimiento del suelo; sin teoría de respuesta organizacional
+D063,V-063-07,CAUS,Efecto de la alerta sin evidencia
+D064,V-064-01,TERR,"L'Aquila (Italia), ciudad en reconstrucción tras el sismo de 2009"
+D064,V-064-02,POBL,Un edificio de concreto armado; sin empresas ni habitantes
+D064,V-064-03,TEMP,Milisegundos de red; series de segundos a minutos de vibración; sin evolución de la estructura
+D064,V-064-04,MET,"Datos sintéticos, un solo edificio, sin falsos positivos"
+D064,V-064-05,VAR,"Faltan costos, temperatura, humedad, ruido real y tiempo de reocupación"
+D064,V-064-06,TEOR,Gemelo digital y SHM; sin teoría de recuperación económica
+D064,V-064-07,CAUS,Efecto de la alerta sin evidencia
+D065,V-065-01,TERR,Sin territorio; autores de la Universidad Estatal de San Petersburgo
+D065,V-065-02,POBL,Sin usuarios ni empresas
+D065,V-065-03,TEMP,Tiempos de convergencia en milisegundos
+D065,V-065-04,MET,Tabla única sin repeticiones ni comparación
+D065,V-065-05,VAR,"Faltan fallas, costos de cómputo de VCG y consumo de energía"
+D065,V-065-06,TEOR,Teoría de mecanismos; sin teoría de resiliencia
+D065,V-065-07,CAUS,Sin efecto causal estimado
+D066,V-066-01,TERR,"No especificado en documento; autor en Shangqiu, China, sin territorio de despliegue"
+D066,V-066-02,POBL,Dispositivos IoT simulados; sin empresas ni usuarios
+D066,V-066-03,TEMP,Unas 30 horas de datos; milisegundos de latencia; sin operación prolongada
+D066,V-066-04,MET,"Solo simulación, un conjunto de manufactura y bases no equivalentes"
+D066,V-066-05,VAR,"Faltan costos, consumo medido en hardware, tipo de falla y cortes de energía o de comunicaciones"
+D066,V-066-06,TEOR,Computación en el borde y aprendizaje por refuerzo; sin teoría de resiliencia empresarial
+D066,V-066-07,CAUS,Efecto de la tolerancia a fallas sobre la continuidad operativa sin evidencia
+D067,V-067-01,TERR,India (zona sísmica II); sin sismo ni ciudad específicos
+D067,V-067-02,POBL,Un edificio de concreto de diez pisos; sin ocupantes ni empresas
+D067,V-067-03,TEMP,Análisis puntual por intensidad; tiempos de recuperación de 11 a 711 días sin trayectoria
+D067,V-067-04,MET,Modelo analítico sin ensayos y con historia en el tiempo solo del edificio A
+D067,V-067-05,VAR,"Faltan costos, tiempo de instalación, pérdidas por inactividad y logística de reparación"
+D067,V-067-06,TEOR,Ingeniería sísmica basada en desempeño; sin teoría de recuperación económica
+D067,V-067-07,CAUS,Relación daño-recuperación supuesta sin evidencia observada
+D068,V-068-01,TERR,Laboratorio de la Universidad de Pretoria (Sudáfrica); sin estructura en campo
+D068,V-068-02,POBL,"Cinco vigas de concreto armado; sin edificios, puentes ni empresas"
+D068,V-068-03,TEMP,Ensayos de minutos de carga estática; sin monitoreo de largo plazo
+D068,V-068-04,MET,"Una sola viga de validación, sin dinámica y con descarga manual de datos"
+D068,V-068-05,VAR,"Faltan costo total, temperatura, ruido, falsas alarmas y anchos de fisura medidos"
+D068,V-068-06,TEOR,Gemelo digital y SHM; sin teoría de continuidad ni de recuperación económica
+D068,V-068-07,CAUS,Efecto de las alertas sobre decisiones de mantenimiento sin evidencia
+D069,V-069-01,TERR,Charleston (Carolina del Sur) para el caso; recuperación de puentes de China para calibrar
+D069,V-069-02,POBL,Un puente de tres tramos con 15 640 vehículos diarios; sin empresas ni usuarios específicos
+D069,V-069-03,TEMP,"Horizonte de control de 22 días en promedio; recuperación de 0,6 a 230 días por estado de daño"
+D069,V-069-04,MET,Modelo analítico con fragilidad prestada y 32 combinaciones de muestreo
+D069,V-069-05,VAR,"Faltan pérdidas empresariales, vidas, efectos de red y costos de ciclo de vida"
+D069,V-069-06,TEOR,Resiliencia y costo-beneficio; sin teoría de continuidad empresarial
+D069,V-069-07,CAUS,Efecto del refuerzo sobre la recuperación sin datos observados
+D070,V-070-01,TERR,"No especificado; ciudades inteligentes en general, con autores en Emiratos Árabes, Siria, Arabia Saudita y Alemania"
+D070,V-070-02,POBL,Ciudades y actores urbanos en general; sin empresas ni hogares
+D070,V-070-03,TEMP,Sin periodo definido; sin trayectorias de recuperación
+D070,V-070-04,MET,"Revisión narrativa sin protocolo, sin datos empíricos"
+D070,V-070-05,VAR,"Faltan costos, tiempos de respuesta y de recuperación, indicadores de los ODS y emisiones"
+D070,V-070-06,TEOR,"Gemelo digital, resiliencia urbana y sostenibilidad; sin teoría de recuperación económica"
+D070,V-070-07,CAUS,Efecto del gemelo sobre la resiliencia y los ODS sin evidencia
+D071,V-071-01,TERR,"Volcán Vesubio (Nápoles, Italia) y volcán de Colima (México)"
+D071,V-071-02,POBL,Eventos sísmicos y ruido; población expuesta mencionada sin análisis
+D071,V-071-03,TEMP,Registros del Vesubio de 1999 a 2021 y de Colima de noviembre de 2005 a abril de 2006
+D071,V-071-04,MET,"Experimentos offline con datos históricos, sin tiempo real ni sensores IoT"
+D071,V-071-05,VAR,"Faltan latencia, falsos positivos, costos y datos de sensores de bajo costo"
+D071,V-071-06,TEOR,Web semántica y aprendizaje automático; sin teoría de continuidad de operaciones
+D071,V-071-07,CAUS,Efecto de la alerta semántica sobre las decisiones sin evidencia
+D072,V-072-01,TERR,América del Norte para los incendios; autores en Corea
+D072,V-072-02,POBL,"Incendios forestales; sin personas, empresas ni activos"
+D072,V-072-03,TEMP,Incendios de 2016; sin evolución horaria evaluada ni tiempos de cómputo
+D072,V-072-04,MET,Simulación con un simulador físico y datos de clima parcialmente sintéticos
+D072,V-072-05,VAR,"Faltan valores absolutos de error, costos, latencia y utilidad para la decisión"
+D072,V-072-06,TEOR,Gemelos digitales y modelado híbrido; sin teoría de recuperación
+D072,V-072-07,CAUS,Efecto de la predicción sobre la respuesta sin evidencia
+D073,V-073-01,TERR,"Italia central (Apeninos); evento de 2016 con epicentro en 42,879 N y 13,129 E y objetivo en Ancona"
+D073,V-073-02,POBL,Estaciones sísmicas; sin usuarios ni empresas específicas
+D073,V-073-03,TEMP,Eventos de 2016 a 2020; latencias de milisegundos a segundos
+D073,V-073-04,MET,"Simulación con dispositivos emulados, red local y un solo evento de comparación"
+D073,V-073-05,VAR,"Faltan costos, consumo, error de reloj, falsas alarmas y magnitud"
+D073,V-073-06,TEOR,Alerta temprana e IoT; sin teoría de continuidad de operaciones
+D073,V-073-07,CAUS,Efecto de la alerta sobre acciones y pérdidas sin evidencia
+D074,V-074-01,TERR,Italia (Turín) como lugar de los autores; el cultivo se desarrolla en una cámara de clima frío no especificada
+D074,V-074-02,POBL,Una planta de lechuga y operadores del cultivo; sin empresas ni comunidades
+D074,V-074-03,TEMP,Proyecto IoT-A de 2010 a 2013 y literatura posterior; sin horizonte de operación del caso
+D074,V-074-04,MET,Revisión por citación de un libro y prueba de concepto sin mediciones
+D074,V-074-05,VAR,"Faltan indicadores de resiliencia medidos, costos, consumo y desempeño del gemelo"
+D074,V-074-06,TEOR,Arquitectura de referencia IoT-A y Industria 5.0; sin teoría de recuperación
+D074,V-074-07,CAUS,Efecto del marco sobre sostenibilidad y resiliencia sin evidencia
+D075,V-075-01,TERR,Wellington (Nueva Zelanda) para el caso; Moratuwa (Sri Lanka) para medir la propagación
+D075,V-075-02,POBL,Hogares de la comunidad con sensores; sin empresas ni industrias
+D075,V-075-03,TEMP,"Mensajes de 2,4 s o menos; escenarios hipotéticos sin evolución de réplicas"
+D075,V-075-04,MET,Simulación y ocho nodos de campo; sin eventos reales ni fallas
+D075,V-075-05,VAR,"Faltan costos, energía, seguridad, colisiones y desempeño frente a telefonía móvil"
+D075,V-075-06,TEOR,Comunicaciones LPWAN y alerta temprana; sin teoría de continuidad de operaciones
+D075,V-075-07,CAUS,Efecto de la alerta de segundos sobre acciones y pérdidas sin evidencia
+D076,V-076-01,TERR,Imágenes de eventos diversos sin país específico; autores en Arabia Saudita
+D076,V-076-02,POBL,Edificios dañados en imágenes; sin ocupantes ni empresas
+D076,V-076-03,TEMP,"Imágenes posteriores a eventos sin evolución temporal; inferencia de 0,3 s por imagen"
+D076,V-076-04,MET,Conjunto fusionado con etiquetas asistidas por el modelo y 85 % de una clase
+D076,V-076-05,VAR,"Faltan imágenes aéreas, energía, costos, geolocalización y tiempos de inspección"
+D076,V-076-06,TEOR,Aprendizaje profundo y evaluación de daño; sin teoría de recuperación
+D076,V-076-07,CAUS,Efecto de la clasificación sobre la rapidez de rescate o de reapertura sin evidencia
+D077,V-077-01,TERR,"Australia (principalmente); menciones de Japón, Estados Unidos y la Unión Europea"
+D077,V-077-02,POBL,"Consumidores, pymes y responsables de política; sin muestra definida"
+D077,V-077-03,TEMP,Pandemia de COVID-19 entre 2020 y 2021; sin horizonte de recuperación
+D077,V-077-04,MET,Marco conceptual con datos secundarios y sin análisis
+D077,V-077-05,VAR,"Faltan indicadores de continuidad, pérdidas, tiempo de recuperación y uso de IoT"
+D077,V-077-06,TEOR,Gestión de riesgos de cadena de suministro y colaboración; sin teoría de IoT
+D077,V-077-07,CAUS,Efecto de la información y la colaboración sobre la resiliencia sin evidencia
+D078,V-078-01,TERR,"Merritt Island y Cocoa, condado de Brevard (Florida, Estados Unidos)"
+D078,V-078-02,POBL,120 000 habitantes simulados; actores hipotéticos y comunidades desfavorecidas mencionadas sin datos
+D078,V-078-03,TEMP,Simulación de tres meses para poblar el modelo; escenario de un tornado en tres fases sin horizonte de recuperación
+D078,V-078-04,MET,"Simulación con motor de juego y caso guionizado, sin validación"
+D078,V-078-05,VAR,"Faltan interrupción empresarial, pérdidas, tiempo de recuperación, deterioro y datos en tiempo real"
+D078,V-078-06,TEOR,Gemelo de cinco dimensiones y propiedades de resiliencia; sin teoría de recuperación económica
+D078,V-078-07,CAUS,Efecto de la colaboración sobre la resiliencia sin evidencia
+D079,V-079-01,TERR,Ciudades de varios países sin distribución geográfica reportada; autores en Ecuador
+D079,V-079-02,POBL,Estudios de gemelos urbanos; sin población de ciudades o empresas definida
+D079,V-079-03,TEMP,Publicaciones de 2019 a 2025; búsqueda del 24 de mayo de 2025
+D079,V-079-04,MET,Revisión de artículos de revista con exclusión de ponencias y recuento de selección inconsistente
+D079,V-079-05,VAR,"Faltan métricas de retorno de inversión, costos, resiliencia y recuperación"
+D079,V-079-06,TEOR,Gemelos digitales urbanos e IA de las cosas; sin teoría de recuperación
+D079,V-079-07,CAUS,Efecto de los gemelos sobre la eficiencia y la resiliencia sin evidencia comparativa
+D080,V-080-01,TERR,"Distrito de Çayırova, Kocaeli (Türkiye)"
+D080,V-080-02,POBL,Población y edificios del distrito; sin empresas ni cadenas de suministro específicas
+D080,V-080-03,TEMP,"Escenario de un sismo de magnitud mayor o igual a 7,0; sin trayectoria de recuperación"
+D080,V-080-04,MET,Estudio de caso con cifras de desempeño sin método y sensores como propuesta
+D080,V-080-05,VAR,"Faltan costos, interrupción productiva, latencias, número de sensores y métricas de ODS"
+D080,V-080-06,TEOR,Gemelo digital y gestión de desastres; sin teoría de recuperación económica
+D080,V-080-07,CAUS,Efecto del gemelo sobre la respuesta y las pérdidas sin evidencia
+D081,V-081-01,TERR,Autores del Reino Unido; sin distribución geográfica de los estudios
+D081,V-081-02,POBL,"Cadenas de suministro farmacéuticas, alimentarias y de manufactura; sin pymes específicas"
+D081,V-081-03,TEMP,Estudios de 2013 a 2025; búsqueda cerrada el 31 de mayo de 2025
+D081,V-081-04,MET,"Revisión con apreciación ligera, criterio de relevancia propio y asignación a etapas de 40 de 89"
+D081,V-081-05,VAR,"Faltan tiempo de recuperación, costos comparables, niveles de servicio y efectos medidos"
+D081,V-081-06,TEOR,Resiliencia de cadena de suministro por etapas; sin teoría integrada de gemelo y recuperación
+D081,V-081-07,CAUS,Efecto del gemelo sobre la resiliencia sin evidencia experimental sólida
+D082,V-082-01,TERR,Autores en Australia; sin distribución geográfica de los estudios incluidos
+D082,V-082-02,POBL,"Organizaciones de nivel de empresa, 60 % grandes y 17 % pymes"
+D082,V-082-03,TEMP,Estudios de 2017 a 2025 y búsqueda de febrero a abril de 2025
+D082,V-082-04,MET,Revisión con umbrales de citación y codificación asistida por un modelo de lenguaje
+D082,V-082-05,VAR,"Faltan tiempo de recuperación, costos, resultados de continuidad y medición de habilitadores digitales"
+D082,V-082-06,TEOR,Realismo crítico y capacidades dinámicas; sin teoría de recuperación posdesastre físico
+D082,V-082-07,CAUS,Efecto de las prácticas y los habilitadores sobre la resiliencia sin evidencia causal
+D083,V-083-01,TERR,Autores en México; sin distribución geográfica de los estudios
+D083,V-083-02,POBL,Sistemas de producción industrial; la proporción de pymes entre los estudios no se cuantifica
+D083,V-083-03,TEMP,Estudios de 2016 a 2026; búsqueda de enero de 2026
+D083,V-083-04,MET,"Una base de datos, síntesis cualitativa y sin metaanálisis"
+D083,V-083-05,VAR,"Faltan magnitudes de efecto, costos, indicadores sociales y de resiliencia"
+D083,V-083-06,TEOR,Sostenibilidad e Industria 4.0 y 5.0; sin teoría de recuperación posdesastre
+D083,V-083-07,CAUS,Efecto del IoT sobre sostenibilidad y resiliencia sin evidencia comparativa agregada
+D084,V-084-01,TERR,Laboratorio no ubicado en el texto; autores en Egipto y Emiratos Árabes Unidos; sin puente real
+D084,V-084-02,POBL,Un modelo a escala de puente; sin usuarios ni empresas
+D084,V-084-03,TEMP,Experimentos de corta duración; sin monitoreo de largo plazo
+D084,V-084-04,MET,Cuatro escenarios de daño severo sin repeticiones
+D084,V-084-05,VAR,"Faltan costos, temperatura, falsos positivos, daño incipiente y latencia"
+D084,V-084-06,TEOR,SHM vibracional e IoT; sin teoría de recuperación
+D084,V-084-07,CAUS,Efecto de las alertas sobre decisiones de mantenimiento o cierre sin evidencia
+D085,V-085-01,TERR,Muestra mixta de Irán y cuatro regiones sin desglose; sin anclaje en zonas sísmicas de América Latina
+D085,V-085-02,POBL,No incluye pequeñas y medianas empresas ni trabajadores de obra como población diferenciada
+D085,V-085-03,TEMP,Corte transversal; sin seguimiento de implementaciones en el tiempo
+D085,V-085-04,MET,Sin control de sesgo de método común ni reporte de intervalos de confianza
+D085,V-085-05,VAR,"Falta de variables objetivas de desempeño (plazo, costo, retrabajo, seguridad)"
+D085,V-085-06,TEOR,Sin teoría de adopción tecnológica que fundamente la jerarquía entre grupos de factores
+D085,V-085-07,CAUS,No se estima efecto causal; las trayectorias son asociaciones entre percepciones
+D086,V-086-01,TERR,"Un puente en China; autores en Singapur, Japón y Nueva Zelanda; sin zonas sísmicas de América Latina"
+D086,V-086-02,POBL,"Sin empresas, operadores ni usuarios del sistema"
+D086,V-086-03,TEMP,Datos de 31 días; sin monitoreo de largo plazo
+D086,V-086-04,MET,"Una partición, sin ablaciones ni repeticiones ni intervalos de confianza"
+D086,V-086-05,VAR,"Faltan energía, vida de batería, costos, falsas alarmas y prevalencia real de anomalías"
+D086,V-086-06,TEOR,Aprendizaje automático y SHM; sin teoría de continuidad operativa
+D086,V-086-07,CAUS,Efecto de la clasificación a bordo sobre decisiones de mantenimiento o reapertura sin evidencia
+D087,V-087-01,TERR,Colombia en general; sin diferenciación de regiones ni de zonas de riesgo sísmico
+D087,V-087-02,POBL,No identifica empresas ni investigadores beneficiarios específicos
+D087,V-087-03,TEMP,Texto de 2008 sin horizonte de evaluación ni cronograma
+D087,V-087-04,MET,"Sin datos, método ni evaluación"
+D087,V-087-05,VAR,"Faltan indicadores de inversión, productividad científica y adopción de tecnología"
+D087,V-087-06,TEOR,Sin teoría del cambio que vincule institucionalidad y resultados
+D087,V-087-07,CAUS,No se estima efecto causal de la reforma
+D088,V-088-01,TERR,Colombia por departamentos; muestra desigual y sin análisis departamental
+D088,V-088-02,POBL,Pacientes con baciloscopia positiva mayores de 15 años; excluye tuberculosis infantil y extrapulmonar
+D088,V-088-03,TEMP,Recolección en 2004-2005 con comparación a estudios de 1992 y 1999-2000
+D088,V-088-04,MET,Sin prueba formal de tendencia ni corrección por exactitud de la prueba
+D088,V-088-05,VAR,"Faltan coinfección VIH, adherencia, régimen de afiliación y resultados del tratamiento"
+D088,V-088-06,TEOR,Marco epidemiológico de vigilancia; sin modelo de transmisión
+D088,V-088-07,CAUS,Asociación transversal; sin separación de resistencia adquirida y transmitida
+D089,V-089-01,TERR,"Bucaramanga, zona norte; sin otras regiones de Colombia"
+D089,V-089-02,POBL,"Niños escolarizados de 4 y 5 años, sin alteraciones documentadas; muestra por conveniencia"
+D089,V-089-03,TEMP,Valoraciones de agosto a noviembre de 2005; intervalo de 5 a 10 días para la reevaluación
+D089,V-089-04,MET,Valoración simultánea de evaluadoras; sin validez de criterio
+D089,V-089-05,VAR,"Faltan sensibilidad, especificidad y desenlaces funcionales"
+D089,V-089-06,TEOR,"Teorías del control motor usadas como justificación, sin modelo formal"
+D089,V-089-07,CAUS,No se estima efecto de intervenciones sobre el desarrollo motor
+D090,V-090-01,TERR,"Dos comunidades de Mérida, Venezuela; sin otras zonas endémicas"
+D090,V-090-02,POBL,Personas mayores de siete años presentes en las viviendas; sin diferenciación de quienes padecieron la enfermedad
+D090,V-090-03,TEMP,Septiembre de 2006 a julio de 2007; sin estacionalidad analizada
+D090,V-090-04,MET,Cuestionario sin validación; punto de corte sin justificación
+D090,V-090-05,VAR,"Faltan casos notificados, ingreso y exposición laboral"
+D090,V-090-06,TEOR,Sin modelo de cambio de comportamiento
+D090,V-090-07,CAUS,No se estima efecto de la educación sobre las prácticas ni los casos
+D091,V-091-01,TERR,"Valle del Cauca, Cauca y Nariño; sin otras regiones ni zonas rurales distinguidas"
+D091,V-091-02,POBL,Varones presuntos padres en casos de paternidad; sin mujeres ni afrodescendientes identificados
+D091,V-091-03,TEMP,Sin dimensión temporal; interpretación histórica de la conquista
+D091,V-091-04,MET,Clasificación etimológica del apellido sin protocolo; sin prueba de asociación
+D091,V-091-05,VAR,"Falta la sustitución C a T, ADN mitocondrial y marcadores autosómicos"
+D091,V-091-06,TEOR,Sin modelo de mezcla poblacional
+D091,V-091-07,CAUS,No se estima ningún efecto causal
+D092,V-092-01,TERR,"Cinco departamentos (Antioquia, Magdalena, Amazonas, Chocó, Putumayo); una localidad por especie salvo Putumayo"
+D092,V-092-02,POBL,Solo hembras; 30 a 33 individuos por especie
+D092,V-092-03,TEMP,Sin dimensión temporal ni estacionalidad
+D092,V-092-04,MET,Sin validación cruzada ni repetibilidad entre observadores
+D092,V-092-05,VAR,"Faltan costos, tiempos y variables ambientales de crianza"
+D092,V-092-06,TEOR,Sin modelo explícito que vincule conformación y filogenia
+D092,V-092-07,CAUS,No se estima efecto causal de la genética sobre la conformación
+D093,V-093-01,TERR,"Bogotá y cinco departamentos del centro-oriente; municipios seleccionados, sin representatividad"
+D093,V-093-02,POBL,"Escolares de 10 a 14 años en colegios diurnos públicos y privados, urbanos y rurales"
+D093,V-093-03,TEMP,Datos de 2000-2002; corte transversal
+D093,V-093-04,MET,Cuestionario abreviado sin intensidad ni duración; muestra no probabilística
+D093,V-093-05,VAR,"Faltan maduración puberal, estrato, dieta y tiempo de pantalla"
+D093,V-093-06,TEOR,Sin modelo de determinantes de actividad física
+D093,V-093-07,CAUS,Asociación transversal; no se estima efecto de la actividad sobre la adiposidad
+D094,V-094-01,TERR,Un barrio de Medellín (Fuente Clara) y una quebrada con tres estaciones
+D094,V-094-02,POBL,18 tosedores crónicos por conveniencia; sin muestra aleatoria de la comunidad
+D094,V-094-03,TEMP,Cuatro salidas trimestrales en 2006-2007
+D094,V-094-04,MET,Identificación morfológica sin confirmación molecular; sin intervalos de confianza
+D094,V-094-05,VAR,"Faltan consumo de cangrejos, serología y evaluación de conocimiento"
+D094,V-094-06,TEOR,Sin modelo de transmisión ni de cambio comportamental
+D094,V-094-07,CAUS,No se estima efecto de la intervención educativa
+D095,V-095-01,TERR,Medellín; sin otras regiones de Colombia
+D095,V-095-02,POBL,"Mujeres universitarias de 18 a 40 años; sin hombres, adultos mayores ni etnias diferenciadas"
+D095,V-095-03,TEMP,Medición en un solo momento; sin variabilidad intraindividual
+D095,V-095-04,MET,Referencia de dos componentes; sin sesgo proporcional
+D095,V-095-05,VAR,"Faltan agua corporal, mineral óseo, ciclo menstrual y actividad física"
+D095,V-095-06,TEOR,Modelo de dos componentes con supuestos de densidad constante
+D095,V-095-07,CAUS,No se estima efecto causal
+D096,V-096-01,TERR,Cinco regiones agrupadas; sin análisis por departamento ni urbano-rural
+D096,V-096-02,POBL,"Adultos de 15 a 74 años; sin etnia, desplazados ni estrato"
+D096,V-096-03,TEMP,Dos puntos (1985 y 1999) y promedios quinquenales
+D096,V-096-04,MET,Sin intervalos de incertidumbre; ajuste por subregistro no documentado
+D096,V-096-05,VAR,"Faltan causas específicas de violencia, conflicto armado y determinantes socioeconómicos"
+D096,V-096-06,TEOR,Sin teoría de transición epidemiológica aplicada a la violencia
+D096,V-096-07,CAUS,Descomposición contable; no se estima efecto causal de políticas
+D097,V-097-01,TERR,Cepas de Colombia y Panamá; sin otras regiones
+D097,V-097-02,POBL,Sueros de 22 pacientes y 6 controles; sin descripción clínica
+D097,V-097-03,TEMP,Fases logarítmica y estacionaria del cultivo; sin seguimiento
+D097,V-097-04,MET,Cebadores heterólogos y datos no mostrados; punto de corte sin validación
+D097,V-097-05,VAR,Faltan expresión nativa y proteómica de L. panamensis
+D097,V-097-06,TEOR,Sin modelo evolutivo (dN/dS) de la pérdida del gen
+D097,V-097-07,CAUS,No se estima efecto de la pérdida de HASP sobre virulencia ni respuesta inmune
+D098,V-098-01,TERR,Medellín; un paciente de zona urbana
+D098,V-098-02,POBL,"Un paciente de 56 años con sida, sin síntomas intestinales"
+D098,V-098-03,TEMP,Seguimiento de cinco semanas de cultivo
+D098,V-098-04,MET,"Sin secuenciación, microscopía electrónica, controles negativos ni recuento"
+D098,V-098-05,VAR,"Faltan carga de esporas, rendimiento, infectividad y genotipo"
+D098,V-098-06,TEOR,Sin modelo de cultivo ni hipótesis contrastable
+D098,V-098-07,CAUS,No se estima efecto causal
+D099,V-099-01,TERR,"Muestra de 20 países con predominio de Estados Unidos, India, China y Alemania; ausencia de países sísmicos de América Latina salvo Brasil"
+D099,V-099-02,POBL,Sin pequeñas y medianas empresas ni comunidades; solo 5 % de artículos en el sector humanitario
+D099,V-099-03,TEMP,Periodo de 2011 a junio de 2021; 2021 incompleto y seis artículos hasta 2019
+D099,V-099-04,MET,"Sin evaluación de calidad, un solo revisor probable y búsqueda restringida a etiquetas de I4.0"
+D099,V-099-05,VAR,"Faltan desenlaces: tiempo de recuperación, costos, continuidad operativa y pérdidas evitadas"
+D099,V-099-06,TEOR,Mapeo con Sendai sin criterio operativo; sin teoría de adopción tecnológica
+D099,V-099-07,CAUS,No se estima efecto causal de las tecnologías sobre la resiliencia ni la recuperación
+D100,V-100-01,TERR,Sin anclaje en regiones sísmicas de América Latina salvo una referencia a un caso de Lima (Perú) y varias referencias de Türkiye
+D100,V-100-02,POBL,"Empresas, pequeñas y medianas empresas y trabajadores no se tratan; el foco es infraestructura y gestión de desastres"
+D100,V-100-03,TEMP,"Alcance 2020-2024 declarado, con referencias hasta 2026"
+D100,V-100-04,MET,"Sin protocolo, criterios de inclusión, evaluación de calidad ni medidas de efecto"
+D100,V-100-05,VAR,"Faltan tiempo de recuperación empresarial, ingresos, empleo y costos de adopción"
+D100,V-100-06,TEOR,Sin teoría de transferencia tecnológica ni modelo de capacidad de absorción
+D100,V-100-07,CAUS,No se estima efecto causal de las tecnologías sobre la resiliencia ni la recuperación
+D101,V-101-01,TERR,Sin territorio específico; menciona regiones sísmicas en general
+D101,V-101-02,POBL,"Sin empresas, pymes ni trabajadores; tres documentos sobre infraestructura y ciudades"
+D101,V-101-03,TEMP,Periodo declarado de 2020 a 2026 con referencias de 2021 y 2025
+D101,V-101-04,MET,Sin cadena de búsqueda ni criterios de inclusión; servicio piloto
+D101,V-101-05,VAR,"Faltan tiempo de recuperación, costos y desenlaces empresariales"
+D101,V-101-06,TEOR,Sin marco teórico de transferencia tecnológica ni de resiliencia empresarial
+D101,V-101-07,CAUS,No se estima efecto causal de las tecnologías sobre la recuperación

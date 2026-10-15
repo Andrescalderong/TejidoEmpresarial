@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D099 (Industria 4.0, gestión del riesgo de desastres y resiliencia de infrae): relación inversa de D099 CONFIRMA D050: ambos identifican el IoT como núcleo de la gestión de desastres con beneficios de monitoreo y comunicación y con desafíos de confiabilidad [juicio del analista]
+- **CONFIRMA** D044 (IoT para seguridad pública y gestión de emergencias (revisión narrativ): relación inversa de D044 CONFIRMA D050: ambos informan beneficios del IoT en respuesta a emergencias y gestión de desastres, con ejemplos descriptivos [juicio del analista]
+- **CONFIRMA** D056 (IoT en gestión de desastres: marco descriptivo y ejemplos de implement): relación inversa de D056 CONFIRMA D050: ambos describen mejoras del IoT en alerta temprana, monitoreo y comunicación para desastres naturales con evidencia mayormente descriptiva [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 91 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D050 (IoT en gestión de desastres (revisión bibliométrica y cualitativa)): ambos informan beneficios del IoT en respuesta a emergencias y gestión de desastres, con ejemplos descriptivos [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 18 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

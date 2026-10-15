@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D014 (Gemelos digitales y SHM sísmico de estructuras): relación inversa de D014 COMPLEMENTA D020: D014 define dónde instalar sensores en un edificio patrimonial y D020 asocia componentes de IoT con resiliencia sísmica; ambos de ingeniería de edific [juicio del analista]
+- **PRECEDE** D015 (IoT, alerta temprana y resiliencia sísmica de edificios): relación inversa de D015 EXTIENDE D020: D015 modela de forma conjunta la incertidumbre del sensado y el cumplimiento normativo con un modelo bayesiano ordinal y cita a D020, que asocia compo [juicio del analista; citación verificada de D015 a D020]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 17 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

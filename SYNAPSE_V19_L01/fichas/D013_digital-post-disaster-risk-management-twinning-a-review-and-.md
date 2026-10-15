@@ -71,7 +71,17 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D006 (Gemelo digital para gestión de desastres e inteligencia artificial): propone un marco integral de gemelo digital posdesastre (IA explicable, dinámica social, sistemas interconectados) que desarrolla la visión de ciudad-gemelo en desastre de D006; ambos son propuestas conceptuales sin validación operativa [juicio del analista; citación verificada de D013 a D006]
+- **PRECEDE** D078 (Gemelo digital comunitario para resiliencia ante desastres y colaborac): relación inversa de D078 EXTIENDE D013: construye un gemelo comunitario con datos públicos reales que operacionaliza parte del marco posdesastre de D013, con validación todavía simulada [juicio del analista; citación verificada de D078 a D013]
+- **CONFIRMA** D004 (Gemelos digitales para infraestructura y servicios esenciales): coinciden en que la literatura de gemelos digitales es fragmentada e incipiente y en que faltan marcos integrados [juicio del analista]
+- **CONFIRMA** D061 (Gemelos digitales para el riesgo de inundación urbana (revisión sistem): relación inversa de D061 CONFIRMA D013: la revisión PRISMA de gemelos para inundaciones urbanas (85 estudios) reporta mejoras de pronóstico y respuesta y coincide en la necesidad de integrar [juicio del analista; citación verificada de D061 a D013]
+- **COMPLEMENTA** D081 (Gemelo digital y resiliencia de cadenas de suministro por etapas de la): relación inversa de D081 COMPLEMENTA D013: D081 estudia el efecto del gemelo sobre la resiliencia de cadenas de suministro por etapas y D013 sobre la gestión posdesastre; ambas mezclan evidenci [juicio del analista]
+- **COMPLEMENTA** D099 (Industria 4.0, gestión del riesgo de desastres y resiliencia de infrae): relación inversa de D099 COMPLEMENTA D013: D099 mapea seis familias de Industria 4.0 en gestión de riesgo de desastres y D013 se centra en gemelos posdesastre; ambos reconocen un campo incipien [juicio del analista]
+- **DEPENDE_DE** D012 (Gestión del conocimiento y aprendizaje organizacional en desastres): cita a D012 en su lista de referencias (verificado por coincidencia de título); D012: Gestión del conocimiento y aprendizaje organizacional en desastres [citación verificada]
+- **DEPENDE_DE** D034 (Gemelo digital de ciudad ante sismos): cita a D034 en su lista de referencias (verificado por coincidencia de título); D034: Gemelo digital de ciudad ante sismos [citación verificada]
+- **DEPENDE_DE** D056 (IoT en gestión de desastres: marco descriptivo y ejemplos de implement): cita a D056 en su lista de referencias (verificado por coincidencia de título); D056: IoT en gestión de desastres: marco descriptivo y ejemplos de implement [citación verificada]
+- **DEPENDE_DE** D072 (Gemelo digital para gestión de desastres con modelado híbrido y simili): cita a D072 en su lista de referencias (verificado por coincidencia de título); D072: Gemelo digital para gestión de desastres con modelado híbrido y simili [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 2 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

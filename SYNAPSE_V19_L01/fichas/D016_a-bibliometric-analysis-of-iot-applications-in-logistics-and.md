@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D017 (IoT y resiliencia de la cadena de suministro): relación inversa de D017 CONFIRMA D016: ambos describen crecimiento de la literatura de IoT en cadenas de suministro desde 2017-2018 y concentración en blockchain, aprendizaje automático y I [juicio del analista]
+- **COMPLEMENTA** D024 (IoT en cadenas de suministro de alimentos): relación inversa de D024 COMPLEMENTA D016: D024 trata cadenas de alimentos y D016 logística general; ambos son revisiones bibliométricas de periferia temática con IoT [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 66 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

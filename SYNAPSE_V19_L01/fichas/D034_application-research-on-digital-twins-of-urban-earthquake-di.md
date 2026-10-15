@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D048 (Gemelo digital como imagen operativa común para respuesta sísmica): ambos estiman daño por edificio y necesidades de respuesta con gemelos urbanos y escenarios sísmicos; proceden de contextos y grupos distintos (Ningxia, China, y Kocaeli, Türkiye) [juicio del analista]
+- **COMPLEMENTA** D064 (Gemelo digital, monitoreo sísmico y 5G con cómputo en el borde): D034 modela intensidad y daño por edificio con actualización por sensores; D064 aporta la arquitectura 5G y de borde para actualizar gemelos con baja latencia [juicio del analista]
+- **PRECEDE** D013 (Gemelos digitales para gestión posdesastre y recuperación): es citado por D013 (verificado por coincidencia de título) [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 21 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

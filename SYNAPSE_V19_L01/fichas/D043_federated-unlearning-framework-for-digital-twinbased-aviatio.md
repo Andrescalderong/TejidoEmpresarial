@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D065 (Asignación de recursos en cómputo en el borde con subastas y sistemas ): validación únicamente simulada de marcos descentralizados con tecnologías de borde y aprendizaje federado [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 93 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

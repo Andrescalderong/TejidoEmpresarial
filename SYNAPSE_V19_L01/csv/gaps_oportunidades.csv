@@ -1,0 +1,392 @@
+﻿doc_id,tipo,descripcion,severidad,tractabilidad,prioridad_1_10
+D001,Tecnológico,Integración de ruteo energéticamente eficiente con priorización por riesgo del clúster en una sola formulación (problema de orientación con premios),Significativo,Alta,7
+D001,Conocimiento,Ausencia de validación con datos de víctimas de desastres y con desenlaces clínicos independientes,Crítico,Media,8
+D001,Metodológico,Falta de comparación contra ruteo exacto/heurísticas estándar y de validación por paciente,Significativo,Alta,6
+D001,Mercado,Sin análisis de adopción por agencias de gestión de riesgo ni de costo de UAV,Moderado,Media,4
+D002,Tecnológico,Incorporar tiempo fuera de servicio y pérdida de ingresos como objetivos junto con el costo de obra,Crítico,Alta,9
+D002,Metodológico,Optimización bajo incertidumbre con restricción de confiabilidad,Significativo,Media,8
+D002,Conocimiento,Validación contra edificios reales y contra criterios de diseño por capacidad,Significativo,Media,7
+D002,Mercado,Sin datos de adopción por propietarios ni de costos de mercado latinoamericanos,Moderado,Media,5
+D003,Conocimiento,Falta evidencia comparable sobre el efecto de tecnologías en la recuperación productiva con tamaños de efecto,Crítico,Media,8
+D003,Metodológico,Ausencia de protocolo de mapeo y codificación reproducible en síntesis editoriales,Significativo,Alta,6
+D003,Conocimiento,Definición operacional y métricas de 'servicio regenerativo',Significativo,Media,7
+D003,Mercado,Equidad en acceso a tecnologías de emergencia en pymes y comunidades rurales,Significativo,Media,6
+D004,Conocimiento,Evidencia empírica sobre costos y beneficios del ciclo de vida de GD en servicios esenciales,Crítico,Media,9
+D004,Tecnológico,Protocolos estandarizados de datos e interoperabilidad entre GD de operadores independientes,Crítico,Media,9
+D004,Metodológico,Evaluación de credibilidad de la literatura gris y concordancia de codificación,Significativo,Alta,6
+D004,Mercado,Modelos de negocio y esquemas de incentivos para compartir datos entre operadores públicos y privados,Significativo,Media,7
+D005,Conocimiento,Medición cuantitativa de beneficios y costos de IoT en organizaciones y su relación con condiciones institucionales,Crítico,Media,9
+D005,Metodológico,"Replicación en pymes, sector privado y países de ingresos medios",Significativo,Alta,7
+D005,Mercado,Esquemas de cofinanciamiento de redes de datos abiertos con beneficios externalizados,Significativo,Media,7
+D005,Tecnológico,Protocolos de aseguramiento de calidad y de valor probatorio del dato de sensores,Significativo,Media,6
+D006,Tecnológico,Funciones de proyección para fusionar datos multimodales sin redundancia,Significativo,Media,6
+D006,Conocimiento,Validación empírica del paradigma en un desastre real o simulacro,Crítico,Media,9
+D006,Metodológico,Detección de rumores y control de calidad del sensado social con humano en el ciclo,Significativo,Alta,6
+D006,Mercado,"Gobernanza, costo y propiedad de datos entre agencias y operadores privados",Significativo,Media,7
+D007,Conocimiento,Medición cuantitativa de beneficios y costos del IoT en servicios de limpieza y otros servicios públicos,Significativo,Alta,7
+D007,Metodológico,Estudios comparativos y longitudinales con más de un caso y datos de uso del sistema,Significativo,Alta,7
+D007,Mercado,Modelo de adquisición y financiamiento para escalar pilotos municipales de IoT,Significativo,Media,6
+D007,Conocimiento,Ética y gobernanza de datos de sensores en lugares de trabajo,Crítico,Media,8
+D008,Metodológico,Medición de errores de integración con y sin BSIC y con FMI/INTO-CPS en el mismo caso,Crítico,Alta,9
+D008,Tecnológico,Automatización de la cosimulación entre simuladores estructurales y de evacuación,Significativo,Media,7
+D008,Conocimiento,Incertidumbre de los disparadores de falla y su efecto en la evacuación,Significativo,Alta,8
+D008,Mercado,Adopción del BSIC por firmas de ingeniería y su costo de implementación,Moderado,Baja,4
+D009,Conocimiento,Validación del gemelo con sismos reales o simulados y en puentes en servicio,Crítico,Media,9
+D009,Tecnológico,Arquitectura de flujo de datos de baja latencia para alerta y control,Significativo,Alta,7
+D009,Metodológico,"Evaluación de robustez ante incertidumbre de modelo, cargas desconocidas y fallos de sensor",Significativo,Alta,8
+D009,Mercado,Modelo de servicio y costo del gemelo para gestores de infraestructura,Moderado,Media,5
+D010,Conocimiento,"Evaluación por evento y entre regiones con muestras mayores, incluidos eventos pequeños y grandes",Crítico,Alta,9
+D010,Tecnológico,Medición de latencia y tiempo de alerta de extremo a extremo en una red real,Crítico,Media,8
+D010,Metodológico,Pruebas de fidelidad de datos sintéticos y comparación con otros métodos de aumento,Significativo,Alta,7
+D010,Mercado,Cuantificación del valor económico de la alerta para usuarios industriales,Significativo,Media,7
+D011,Conocimiento,Validación prospectiva y fuera de muestra con eventos y países distintos,Crítico,Media,9
+D011,Metodológico,Estimación estadística de factores de mitigación con incertidumbre y por sector,Significativo,Alta,8
+D011,Tecnológico,"Alimentación del marco con datos de sensores, servicios y transporte en tiempo casi real",Significativo,Media,7
+D011,Mercado,"Instrumento calibrado para aseguradoras, bancos y agencias de apoyo productivo",Significativo,Media,7
+D012,Conocimiento,Evidencia comparativa del efecto de la GC sobre desempeño y recuperación,Crítico,Media,9
+D012,Metodológico,Evaluación de calidad de estudios y concordancia en la clasificación de orientaciones de GC,Significativo,Alta,6
+D012,Conocimiento,GC en el ciclo completo y en peligros múltiples y en cascada,Significativo,Media,7
+D012,Mercado,Herramientas de GC accesibles para pymes y gobiernos locales en la recuperación productiva,Significativo,Media,7
+D013,Conocimiento,Evidencia empírica sobre GD en la fase de recuperación (solo 3 estudios),Crítico,Media,9
+D013,Tecnológico,Flujos de datos dinámicos y sincronización bidireccional en GD de gestión posdesastre,Crítico,Media,8
+D013,Metodológico,"Evaluación de calidad de estudios y criterios operativos para distinguir modelo, sombra y gemelo digital",Significativo,Alta,7
+D013,Mercado,"Integración de datos demográficos, financieros y sociales y de sectores económicos en GD",Significativo,Media,8
+D014,Tecnológico,Datos reales de sensores y calibración del gemelo con vibración ambiental en edificios patrimoniales,Crítico,Media,9
+D014,Conocimiento,Cuantificación de la incertidumbre de materiales de mampostería sobre ubicación de sensores y funciones de transferencia,Significativo,Media,8
+D014,Mercado,Modelo de costo y valor de la instrumentación frente a pérdidas por interrupción de uso del edificio,Crítico,Media,8
+D014,Metodológico,Validación independiente de funciones de transferencia con datos no simulados y comparación con ubicación óptima basada en información,Significativo,Alta,7
+D015,Metodológico,"Descripción, representatividad y reproducibilidad de la muestra de 162 casos y de los instrumentos",Crítico,Alta,9
+D015,Tecnológico,"Datos reales de latencia, alertas y respuesta de edificios con control adaptativo para alimentar la propagación de incertidumbre",Crítico,Media,8
+D015,Conocimiento,"Relación entre constructos de preparación y resultados observados (tiempos de inhabilitación, costos)",Significativo,Media,8
+D015,Mercado,Cuantificación del costo de falsas alarmas y del valor de la información de alerta por tipo de ocupación,Significativo,Media,7
+D016,Conocimiento,"Literatura de IoT en cadena de suministro orientada a interrupciones, desastres naturales y recuperación",Crítico,Media,9
+D016,Mercado,"Evidencia de costos, adopción y resultados económicos del IoT en pequeñas y medianas empresas",Crítico,Media,8
+D016,Tecnológico,"Interoperabilidad, seguridad y gobernanza de datos para integrar IoT con blockchain y analítica",Significativo,Media,7
+D016,Metodológico,"Análisis con múltiples bases, evaluación de calidad, análisis temporal y modelado de tópicos",Significativo,Alta,6
+D017,Conocimiento,Evidencia empírica de efecto del IoT sobre resiliencia y recuperación ante desastres naturales,Crítico,Media,9
+D017,Tecnológico,"Interoperabilidad, estándares y arquitecturas que funcionen con fallas de energía y comunicaciones",Crítico,Media,8
+D017,Mercado,"Costos, retorno y modelos de adopción del IoT en pequeñas y medianas empresas",Significativo,Media,8
+D017,Metodológico,"Revisión sin sesgo de filtro de términos, con evaluación de calidad y validación del FODA",Significativo,Alta,7
+D018,Metodológico,Evaluación con línea base y perturbaciones de agentes de lenguaje acoplados a un gemelo digital,Crítico,Alta,9
+D018,Tecnológico,Sincronización de baja latencia y verificación de decisiones de modelos de lenguaje en sistemas críticos,Crítico,Media,8
+D018,Conocimiento,Transferencia del patrón a dominios de infraestructura y recuperación posdesastre,Significativo,Media,7
+D018,Mercado,Costo computacional y de operación frente a controles convencionales,Significativo,Media,7
+D019,Conocimiento,Vínculo entre tecnologías de alerta y monitoreo y la recuperación económica y empresarial posterior al sismo,Crítico,Media,9
+D019,Metodológico,"Revisión sistemática con protocolo, criterios de selección y evaluación de calidad",Crítico,Alta,8
+D019,Tecnológico,Comportamiento de redes IoT y de comunicaciones cuando energía y enlaces fallan durante el desastre,Significativo,Media,8
+D019,Mercado,"Costos, financiamiento y sostenibilidad institucional del despliegue de redes densas de nodos de bajo costo",Significativo,Media,7
+D020,Metodológico,Medición de la resiliencia con desempeño observado y control de la varianza de método común,Crítico,Alta,9
+D020,Conocimiento,"Efecto de cada componente de IoT sobre daño, tiempo de inhabilitación y costos de interrupción",Crítico,Media,9
+D020,Mercado,Verificación de las cifras de mercado y de ahorro de costos del IoT en construcción,Significativo,Media,7
+D020,Tecnológico,"Evaluación de la integración de sensores, comunicación redundante y analítica en edificios reales",Significativo,Media,7
+D021,Metodológico,"Evaluación cuantitativa con métricas de tiempo, costo, calidad de datos y seguridad frente a alternativas",Crítico,Media,9
+D021,Tecnológico,Validación del mecanismo de mapeo y del flujo de datos entre repositorios centrales e individuales,Crítico,Media,8
+D021,Mercado,"Costos de implementación, modelo de negocio y capacidad de adopción de organizaciones de distinto tamaño",Significativo,Media,8
+D021,Conocimiento,Extensión del marco a emergencias y recuperación posdesastre con múltiples actores,Significativo,Media,7
+D022,Tecnológico,Autonomía energética sostenida y capacidad de backhaul para operación de días,Crítico,Media,9
+D022,Metodológico,Ensayos de campo y despliegues reales con métricas estandarizadas frente a simulaciones idealizadas,Crítico,Media,9
+D022,Conocimiento,Efecto de la restauración de comunicaciones sobre la reapertura de servicios y empresas,Significativo,Media,8
+D022,Mercado,"Costos, financiamiento, regulación aeronáutica y modelo operativo con operadores de telecomunicaciones",Significativo,Media,7
+D023,Metodológico,Validación cuantitativa de la calibración del gemelo y de la sensibilidad de detección con eventos conocidos,Crítico,Media,9
+D023,Tecnológico,Continuidad de datos con LoRaWAN en corredores con interferencia y uso de múltiples puertas de enlace,Significativo,Media,7
+D023,Mercado,"Costo de instalación, conectividad y mantenimiento frente al valor de evitar fallas o cierres",Crítico,Media,8
+D023,Conocimiento,"Escalabilidad a otras tipologías y a redes de activos, incluidos eventos extremos y sismos",Significativo,Media,8
+D024,Mercado,Soluciones y modelos de negocio de IoT de bajo costo para pequeños productores y empresas,Crítico,Media,9
+D024,Conocimiento,"Estudios empíricos que cuantifiquen el impacto del IoT sobre desperdicio, seguridad alimentaria y continuidad ante interrupciones",Crítico,Media,9
+D024,Tecnológico,Estándares de interoperabilidad y gobernanza de datos entre actores de la cadena,Significativo,Media,8
+D024,Metodológico,"Revisión con bases estándar, evaluación de calidad y trazabilidad de cifras externas",Significativo,Alta,7
+D025,Metodológico,"Validación externa con línea base cuantitativa, tamaños de muestra y métricas de esfuerzo y costo",Crítico,Media,9
+D025,Tecnológico,"Escalabilidad, concurrencia, gobernanza de datos y manejo de fallas y pérdida de datos de sensores",Crítico,Media,8
+D025,Mercado,Modelo de costos y capacidades necesarias para pequeñas organizaciones propietarias de puentes,Significativo,Media,7
+D025,Conocimiento,Extensión del patrón de identidad y semántica a gemelos de recuperación posdesastre,Significativo,Media,7
+D026,Conocimiento,Soluciones y evidencia de recuperación económica y empresarial posterior al sismo,Crítico,Media,9
+D026,Metodológico,"Medición de uso, alcance y desempeño de las soluciones, y protocolo reproducible de inventario",Crítico,Media,8
+D026,Tecnológico,Integración e interoperabilidad entre plataformas e instituciones y operación con energía y comunicaciones degradadas,Significativo,Media,8
+D026,Mercado,Modelos de sostenibilidad y financiamiento de las soluciones más allá de la emergencia,Significativo,Media,7
+D027,Metodológico,"Réplicas por condición, dispersión y análisis de sensibilidad a precios",Crítico,Alta,9
+D027,Mercado,"Costos totales de intervención, instalación, interrupción de uso y ciclo de vida",Crítico,Media,8
+D027,Tecnológico,Ensayos cíclicos y a escala de elementos que representen carga sísmica,Significativo,Media,8
+D027,Conocimiento,Criterio de decisión entre refuerzo previo y reparación posterior considerando continuidad de actividad,Significativo,Media,7
+D028,Conocimiento,"Evidencia cuantitativa de beneficios y costos de gemelos digitales en infraestructura civil, incluidos casos de fracaso",Crítico,Media,9
+D028,Metodológico,Criterio operativo de gemelización y revisión con múltiples bases y evaluación de calidad,Crítico,Alta,8
+D028,Tecnológico,"Estándares de datos e interoperabilidad entre BIM, GIS, SHM e IoT",Significativo,Media,8
+D028,Conocimiento,Gemelos para gestión de sismos y recuperación posdesastre de infraestructura,Significativo,Media,8
+D029,Metodológico,"Datos de desempeño observado, diseño longitudinal y control de la varianza de método común",Crítico,Alta,9
+D029,Conocimiento,"Efecto del gemelo y del aprendizaje organizacional sobre la recuperación tras interrupciones de gran escala, incluidos sismos",Crítico,Media,9
+D029,Metodológico,"Informe completo de la muestra (país, sector, tasa de respuesta) y de la coherencia estadística de mediación y moderación",Significativo,Alta,7
+D029,Mercado,Costos y retorno de la implementación de gemelos frente a la mejora de resiliencia,Significativo,Media,7
+D030,Metodológico,"Reporte completo y coherente del análisis (efectos directos, totales, chi-cuadrado, bootstrapping) y control de la varianza de método común",Crítico,Alta,9
+D030,Conocimiento,Efecto de la tecnología y de la resiliencia sobre desempeño observado tras interrupciones reales,Crítico,Media,9
+D030,Metodológico,"Muestra representativa con descripción del entorno, el país y la tasa de respuesta",Significativo,Alta,7
+D030,Mercado,"Costos y retorno de la inversión en IoT, gemelos y analítica frente a la mejora de resiliencia",Significativo,Media,7
+D031,Metodológico,"Comparación cuantitativa de la arquitectura semántica con una no semántica en tiempo, errores y esfuerzo",Crítico,Media,9
+D031,Tecnológico,"Pruebas de resiliencia con fallas reales de energía y comunicaciones, y sensores con ancho de banda reducido",Crítico,Media,8
+D031,Conocimiento,Integración de fuentes ciudadanas y empresariales en sistemas de gestión de crisis de origen sísmico,Significativo,Media,7
+D031,Mercado,Costos de construcción y mantenimiento de ontologías y de operación del sistema,Significativo,Media,7
+D032,Metodológico,"Cobertura sin restricción de área temática, criterio de gemelización y validación de los dominios",Crítico,Alta,9
+D032,Conocimiento,"Gemelos con IoT para sismos, resiliencia y recuperación posdesastre en la literatura de SHM",Crítico,Media,9
+D032,Tecnológico,"Interoperabilidad, escalabilidad y seguridad de gemelos con IA en operación real",Significativo,Media,8
+D032,Mercado,"Costos, retorno y modelos de adopción de gemelos digitales con IA para SHM",Significativo,Media,7
+D033,Metodológico,Revisión sistemática con protocolo y protocolo común de evaluación cuantitativa de métodos de calidad de datos,Crítico,Alta,8
+D033,Tecnológico,"Métodos de calidad de datos no supervisados o débilmente supervisados, livianos y robustos para datos industriales reales",Crítico,Media,9
+D033,Conocimiento,Efecto cuantificado de la calidad de datos sobre el desempeño de gemelos y sistemas de mantenimiento,Significativo,Media,8
+D033,Mercado,Costos de calidad de datos y acceso a soluciones para organizaciones pequeñas,Significativo,Media,7
+D034,Metodológico,Validación del modelo de intensidad y del daño de edificios con sismos instrumentados y daños observados,Crítico,Media,9
+D034,Tecnológico,"Pruebas de campo de sensores, latencia, sincronización y operación con red degradada",Crítico,Media,8
+D034,Conocimiento,"Vínculo entre daño de edificios, funcionalidad y reapertura de empresas y servicios",Crítico,Media,9
+D034,Mercado,Costos de modelación 3D híbrida y de operación frente a la mejora de decisiones,Significativo,Media,7
+D035,Metodológico,Validación independiente del modelo calibrado y pruebas de sensibilidad al daño con ruido y variación ambiental,Crítico,Media,9
+D035,Tecnológico,Actualización continua con latencia medida y operación prolongada del gemelo,Crítico,Media,8
+D035,Conocimiento,Identificabilidad de parámetros y calibración de condiciones de borde junto con rigidez,Significativo,Media,7
+D035,Mercado,Costo de instrumentación y calibración frente al valor del mantenimiento predictivo,Significativo,Media,7
+D036,Tecnológico,Pruebas de campo de la conexión físico-virtual con RIS y UAV y de la sincronización bajo redes degradadas,Crítico,Media,8
+D036,Metodológico,Comparación cuantitativa entre sistemas con y sin gemelo y metaanálisis de desempeño,Significativo,Media,7
+D036,Conocimiento,Requisitos de conectividad en dominios de aplicación como infraestructura y desastres,Crítico,Media,8
+D036,Mercado,Costos de despliegue y modelo de negocio de las tecnologías de comunicación,Significativo,Baja,6
+D037,Metodológico,Medidas objetivas de recuperación y modelos multinivel para tamaños de efecto dependientes,Crítico,Media,8
+D037,Conocimiento,Evidencia en eventos físicos (sismos) y en territorios latinoamericanos con pymes,Crítico,Media,9
+D037,Mercado,Costos de adopción y retornos por etapa y por tipo de empresa,Significativo,Media,7
+D037,Tecnológico,Evidencia diferenciada de gemelos digitales frente a otras analíticas en recuperación,Significativo,Media,7
+D038,Metodológico,Evaluación empírica con usuarios y comparación con alternativas de modelado,Crítico,Media,8
+D038,Tecnológico,"Integración con datos reales de sensores, pérdida de conectividad y escalabilidad",Crítico,Media,8
+D038,Conocimiento,Aplicación a gemelos de continuidad ante desastres y a empresas pequeñas,Crítico,Media,8
+D038,Mercado,Costos de especificación y mantenimiento de los modelos de comportamiento,Significativo,Baja,6
+D039,Tecnológico,"Prueba con nodos reales, deriva de reloj, pérdida de paquetes y hardware de borde",Crítico,Media,8
+D039,Metodológico,"Validación con retardos naturales, conjunto externo y métricas coherentes",Crítico,Media,8
+D039,Conocimiento,Efecto cuantitativo de la sincronización sobre la actualización de gemelos y el diagnóstico de daño,Significativo,Media,7
+D039,Mercado,Costo de despliegue del modelo en nodos y beneficio frente a mejorar protocolos de red,Significativo,Baja,6
+D040,Conocimiento,"Modelo de pérdidas indirectas para empresas (interrupción de actividad, ingresos perdidos, cadenas de suministro)",Crítico,Media,9
+D040,Metodológico,Sensibilidad al retraso inicial y a las razones de reparación; validación con tiempos de reocupación observados,Crítico,Media,8
+D040,Tecnológico,Actualización del estado de daño y del tiempo de inhabilitación mediante monitoreo y gemelos digitales,Significativo,Media,8
+D040,Mercado,Aplicación a portafolios y a economías de ingresos medios con restricciones presupuestarias,Significativo,Media,7
+D041,Metodológico,"Descripción de datos, validación cruzada, intervalos y comparación con sistemas operativos",Crítico,Media,9
+D041,Tecnológico,Uso de forma de onda y evaluación de tiempos de alerta,Crítico,Media,8
+D041,Conocimiento,Vínculo entre mapas de impacto y decisiones de empresas e instalaciones,Significativo,Media,7
+D041,Mercado,"Usuarios, costos y adopción de interfaces de alerta",Moderado,Baja,5
+D042,Conocimiento,Recuperación económica y empresarial como fase de la taxonomía,Crítico,Media,9
+D042,Tecnológico,Interoperabilidad estándar entre IoT y UAV y fusión de datos heterogéneos,Crítico,Media,8
+D042,Metodológico,"Evaluación de calidad de estudios, multibase y análisis de costo-efectividad",Significativo,Media,7
+D042,Mercado,"Costos, regulación y adopción en economías con menos recursos",Significativo,Baja,6
+D043,Metodológico,Evaluación del detector de corrupción y repeticiones con intervalos de confianza,Crítico,Media,8
+D043,Tecnológico,"Pruebas con telemetría real, comunicación asíncrona y hardware heterogéneo",Crítico,Media,8
+D043,Conocimiento,Aplicación a gemelos de infraestructura civil y a entornos de desastre,Significativo,Media,7
+D043,Mercado,Costos y marco regulatorio de implementación,Moderado,Baja,5
+D044,Metodológico,Método de revisión y fuentes primarias para cada cifra de impacto,Crítico,Alta,9
+D044,Conocimiento,Evidencia de recuperación posdesastre y de continuidad de empresas con IoT,Crítico,Media,8
+D044,Mercado,Costos de implementación y modelos de financiamiento en economías en desarrollo,Significativo,Media,7
+D044,Tecnológico,Interoperabilidad y privacidad en despliegues reales,Significativo,Media,6
+D045,Metodológico,"Comparación cuantitativa de desempeño (tiempo de aviso, falsas alarmas, detección) entre sistemas",Crítico,Media,8
+D045,Conocimiento,Evaluación del valor económico del aviso para empresas y de la entrega de alertas,Crítico,Media,9
+D045,Tecnológico,"Procesamiento en el nodo, multisensor y seguridad de redes comunitarias",Significativo,Media,7
+D045,Mercado,Costos de operación y sostenibilidad en países en desarrollo,Significativo,Media,7
+D046,Metodológico,"Evaluación de calidad, multibase y extracción de evidencia cuantitativa",Crítico,Media,8
+D046,Conocimiento,Modelos de negocio de IoT para continuidad y recuperación ante interrupciones,Crítico,Media,8
+D046,Mercado,"Costos de adopción, retorno y disposición a pagar por tamaño de empresa",Significativo,Media,7
+D046,Tecnológico,Interoperabilidad y seguridad en sistemas distribuidos de IoT,Significativo,Media,6
+D047,Metodológico,"Revisión con protocolo, bases, criterios y evaluación de calidad",Crítico,Alta,9
+D047,Conocimiento,Evidencia cuantitativa de efecto de los SIG en tiempos de restauración del transporte y en la actividad económica,Crítico,Media,8
+D047,Tecnológico,Interoperabilidad y actualización de datos tras el desastre,Significativo,Media,7
+D047,Mercado,Costos y capacidades para pymes y gobiernos locales,Moderado,Baja,5
+D048,Metodológico,Validación retrospectiva del escenario y análisis de incertidumbre,Crítico,Media,9
+D048,Conocimiento,"Extensión a la recuperación productiva, empresas y cadenas de suministro",Crítico,Media,9
+D048,Tecnológico,"Datos en tiempo real, conectividad degradada y actualización posterior al evento",Crítico,Media,8
+D048,Mercado,"Costos, capacidades institucionales y adopción por autoridades locales",Significativo,Media,7
+D049,Metodológico,"Evaluación con sismos reales, falsas alarmas y línea base centralizada realista",Crítico,Media,8
+D049,Conocimiento,Valor económico del aviso para empresas y tiempo de entrega al usuario,Crítico,Media,8
+D049,Tecnológico,Seguridad probada de la red comunitaria y escalabilidad a cientos de nodos,Significativo,Media,7
+D049,Mercado,"Costo por nodo, operación y modelo de participación comunitaria",Significativo,Media,7
+D050,Conocimiento,Transferencia de tecnología y barreras de adopción de IoT en desastres,Crítico,Media,8
+D050,Metodológico,Selección sin dependencia de un coeficiente subjetivo y evaluación de calidad,Significativo,Media,7
+D050,Tecnológico,Estudios aplicados con medición de resultados de respuesta,Crítico,Media,8
+D050,Mercado,Costos y modelos de financiamiento de despliegues,Significativo,Baja,6
+D051,Metodológico,"Frecuencias, pesos y validación del modelo con casos y expertos",Crítico,Media,8
+D051,Conocimiento,Factores de adopción de IoT en contextos de disrupción y en pymes,Crítico,Media,8
+D051,Mercado,Costos de adopción y retorno por tipo de cadena,Significativo,Media,7
+D051,Tecnológico,Interoperabilidad con sistemas existentes y seguridad,Significativo,Media,6
+D052,Metodológico,"Datos objetivos de desempeño, controles y pruebas de sesgo de método común",Crítico,Media,9
+D052,Conocimiento,Mecanismos de valor del gemelo en contextos de riesgo y recuperación,Crítico,Media,8
+D052,Mercado,Costos de implantación y retorno del gemelo en proyectos de distinto tamaño,Significativo,Media,7
+D052,Tecnológico,Integración con sistemas existentes y rendimientos decrecientes con alta madurez digital,Significativo,Media,6
+D053,Metodológico,Validación con tiempos de recuperación observados y sensibilidad de los factores impedientes,Crítico,Media,9
+D053,Conocimiento,Extensión del edificio a la actividad económica y a las empresas que lo ocupan,Crítico,Media,9
+D053,Tecnológico,Actualización con datos de monitoreo y registros administrativos posteriores al sismo,Significativo,Media,8
+D053,Mercado,"Aplicación a edificios de menor altura, comerciales e industriales y a otras regiones",Significativo,Media,7
+D054,Conocimiento,Valor de la continuidad del negocio y del tiempo de cierre en la decisión de refuerzo,Crítico,Media,9
+D054,Metodológico,"Sensibilidad a la valoración de la vida, a la tasa y al horizonte, y validación con costos reales",Significativo,Media,7
+D054,Mercado,"Incentivos, seguros y financiamiento para que el propietario refuerce",Significativo,Media,8
+D054,Tecnológico,Monitoreo para actualizar el riesgo del edificio específico,Moderado,Baja,5
+D055,Metodológico,"Repeticiones, escenarios variados y comparación con otras arquitecturas de gemelos",Crítico,Media,8
+D055,Tecnológico,Escalabilidad con más agentes y mejora del posicionamiento,Significativo,Media,7
+D055,Conocimiento,Aplicación de gemelos con razonamiento a continuidad y recuperación ante interrupciones,Significativo,Media,7
+D055,Mercado,Costos y beneficios en almacenes reales,Moderado,Baja,5
+D056,Metodológico,Método de revisión declarado y fuentes verificables,Crítico,Alta,9
+D056,Tecnológico,Pruebas de campo de los prototipos con métricas de desempeño,Crítico,Media,8
+D056,Conocimiento,Evidencia de adopción y efectos sobre recuperación,Significativo,Media,7
+D056,Mercado,Costos y comparación con soluciones comerciales,Significativo,Media,6
+D057,Metodológico,"Significancia estadística, topologías reales y comparación con protocolos estándar",Crítico,Media,8
+D057,Tecnológico,Robustez ante fallas de nodos y reconfiguración rápida,Crítico,Media,8
+D057,Conocimiento,"Vínculo entre precisión del gemelo, red y decisiones de continuidad",Significativo,Media,7
+D057,Mercado,Costos de relevos y de mantenimiento de la red,Moderado,Baja,5
+D058,Metodológico,Error de aproximación del sub-gemelo y comparación con métodos de reducción de redes bayesianas,Crítico,Media,8
+D058,Tecnológico,"Integración de sensores, simulaciones y control en el SDT",Significativo,Media,7
+D058,Conocimiento,Ontologías de riesgo sísmico y de continuidad para redes de infraestructura y empresas,Crítico,Media,8
+D058,Mercado,Generación y mantenimiento de grafos de conocimiento a escala de ciudad,Significativo,Media,7
+D059,Metodológico,Evaluación cuantitativa con eventos etiquetados y comparación con métodos de diagnóstico,Crítico,Media,8
+D059,Conocimiento,Definición operacional del gemelo digital y del modelo grande,Significativo,Media,7
+D059,Tecnológico,Aplicación a infraestructura civil y a sensores sísmicos,Significativo,Media,7
+D059,Mercado,Costos y adopción por operadores,Moderado,Baja,5
+D060,Metodológico,"Partición por evento, distribución de clases, desempeño por clase y validación externa",Crítico,Media,9
+D060,Tecnológico,"Latencia del IoT, tiempo de aviso y reducción de alertas falsas",Crítico,Media,8
+D060,Conocimiento,Valor económico de la alerta de intensidad para empresas,Significativo,Media,8
+D060,Mercado,Costos de estaciones de un componente y de operación,Moderado,Baja,5
+D061,Metodológico,"Flujo detallado de cribado, acuerdo entre evaluadores y revisión multilingüe",Significativo,Media,7
+D061,Conocimiento,Evidencia cuantitativa del efecto de los gemelos en tiempos de respuesta y daños,Crítico,Media,8
+D061,Tecnológico,Interoperabilidad y bajo costo computacional para regiones con pocos recursos,Significativo,Media,7
+D061,Mercado,"Gobernanza, equidad y financiamiento de gemelos urbanos",Significativo,Media,7
+D062,Metodológico,"Repeticiones de campo, intervalos de confianza y línea base clásica",Crítico,Media,8
+D062,Tecnológico,"Coordinación de varios AAV, seguridad y escala de miles de nodos",Significativo,Media,7
+D062,Conocimiento,"Valor de la conectividad de respaldo para gemelos, sensores y empresas",Significativo,Media,8
+D062,Mercado,"Costos, regulación del espacio aéreo y tiempo de despliegue",Significativo,Media,7
+D063,Metodológico,"Falsas alarmas, costo operativo y validación en línea",Crítico,Media,8
+D063,Conocimiento,"Relación entre tiempo de emisión, tiempo de frenado y reducción de riesgo",Crítico,Media,8
+D063,Tecnológico,Sensibilidad al efecto de sitio y a la densidad de estaciones,Significativo,Media,7
+D063,Mercado,Análisis costo-beneficio para operadores de infraestructura crítica,Significativo,Media,7
+D064,Metodológico,"Validación con datos medidos, falsos positivos y sensibilidad al ruido y a la temperatura",Crítico,Media,9
+D064,Tecnológico,Operación de la red tras un sismo y comparación con otros enlaces de comunicación,Crítico,Media,8
+D064,Conocimiento,Vínculo entre la detección de daño y el tiempo de reocupación de edificios y empresas,Crítico,Media,9
+D064,Mercado,"Costos de sensores, de comunicaciones 5G y de cómputo en el borde",Significativo,Media,7
+D065,Metodológico,Comparación con asignación centralizada y repeticiones con intervalos de confianza,Crítico,Alta,8
+D065,Tecnológico,Pruebas con fallas de nodos y del subastador y escala de cientos de nodos,Crítico,Media,8
+D065,Conocimiento,Aplicación a gemelos digitales y a entornos de desastre,Moderado,Media,6
+D065,Mercado,Costos de implementación en equipos industriales,Moderado,Baja,5
+D066,Metodológico,"Validación en hardware real, fallas inyectadas y bases de comparación de descarga en el borde",Crítico,Media,9
+D066,Tecnológico,"Costos de entrenamiento federado y de la red Q profunda en dispositivos de bajo costo, y seguridad frente a fallas bizantinas",Crítico,Media,8
+D066,Conocimiento,Comportamiento ante cortes de energía y de comunicaciones propios de un desastre,Crítico,Alta,9
+D066,Mercado,Costos de despliegue y viabilidad para pequeñas y medianas empresas,Significativo,Media,7
+D067,Metodológico,Ensayos en mesa vibratoria y verificación de la historia en el tiempo del edificio reforzado,Crítico,Media,9
+D067,Conocimiento,"Función documentada y calibrada entre daño y días de recuperación, con pérdidas empresariales",Crítico,Media,9
+D067,Mercado,"Costos de refuerzo, instalación y cierre frente al beneficio",Crítico,Media,8
+D067,Tecnológico,Comparación con encamisado convencional y polímeros reforzados con fibra,Significativo,Media,6
+D068,Metodológico,"Validación en estructuras reales con ruido, temperatura y carga variable, y con anchos de fisura medidos",Crítico,Media,9
+D068,Tecnológico,"Muestreo dinámico, alimentación autónoma y comunicación robusta tras un evento extremo",Crítico,Media,8
+D068,Mercado,Costo total de propiedad y esfuerzo de especialista para pequeñas organizaciones,Crítico,Media,8
+D068,Conocimiento,Conexión del diagnóstico con la decisión de reocupación o de continuidad de operaciones,Significativo,Media,7
+D069,Metodológico,Calibración independiente con tiempos de recuperación observados y definición del horizonte de control,Crítico,Media,9
+D069,Conocimiento,Pérdidas empresariales y de cadenas de suministro en las pérdidas indirectas,Crítico,Media,9
+D069,Tecnológico,Uso de gemelos digitales y sensores para estimar el tiempo de recuperación,Significativo,Alta,8
+D069,Mercado,Aplicación a una cartera de puentes o a una comunidad con restricciones presupuestales,Significativo,Media,7
+D070,Metodológico,Protocolo reproducible de revisión y criterios de calidad de las fuentes,Crítico,Alta,8
+D070,Conocimiento,Casos operativos con efectos medidos en tiempo de respuesta y de recuperación,Crítico,Media,9
+D070,Tecnológico,Continuidad del gemelo ante falla de energía y comunicaciones durante un sismo,Crítico,Media,8
+D070,Mercado,"Costos, modelos de financiamiento y capacidad de ciudades de menores ingresos",Significativo,Media,8
+D071,Metodológico,"Validación por estación y por periodo, sin fuga por aumento de datos y con repeticiones",Crítico,Media,9
+D071,Tecnológico,"Datos y pruebas con sensores IoT de bajo costo y en tiempo real, con latencia",Crítico,Media,9
+D071,Conocimiento,"Evaluación de la ontología y vínculo con edificios, ciudades y empresas",Significativo,Media,8
+D071,Mercado,Costos y adopción por observatorios y autoridades de protección civil,Significativo,Media,6
+D072,Metodológico,"Separación por zona y fecha de entrenamiento y prueba, valores absolutos de error e intervalos de confianza",Crítico,Media,9
+D072,Tecnológico,"Prueba con sensores IoT reales, latencia y tiempo de construcción del conjunto de entrenamiento",Crítico,Media,8
+D072,Conocimiento,Medida de utilidad para la decisión y transferencia a daño sísmico y a recuperación,Crítico,Alta,9
+D072,Mercado,Costos de operación del gemelo frente al beneficio en la respuesta,Significativo,Media,6
+D073,Metodológico,"Comparación con PRESTo en múltiples eventos, con paquetes pequeños y con retardos de red reales",Crítico,Media,9
+D073,Tecnológico,"Dispositivos físicos de bajo costo con consumo, error de reloj y falsas alarmas",Crítico,Media,9
+D073,Conocimiento,Valor de la alerta para acciones de empresas y estimación de magnitud,Crítico,Alta,8
+D073,Mercado,Costos de red y de operación frente a servicios de alerta existentes,Significativo,Media,7
+D074,Metodológico,Medición del desempeño del gemelo y de la resiliencia con fallas inyectadas,Crítico,Alta,9
+D074,Conocimiento,"Definición operativa y umbrales de resiliencia para gemelos, con un caso de manufactura o servicios",Crítico,Media,9
+D074,Tecnológico,Seguridad y privacidad fuera del alcance y adaptación dinámica a estándares,Significativo,Media,7
+D074,Mercado,Costos de implementación y operación del marco en empresas pequeñas,Significativo,Media,7
+D075,Metodológico,"Pruebas de falla de relevos, de energía y de mensajes simultáneos con repeticiones",Crítico,Media,9
+D075,Tecnológico,Despliegue a gran escala con alimentación autónoma y comparación con telefonía móvil,Crítico,Media,8
+D075,Conocimiento,Valor de ventanas de uno a seis segundos para acciones automáticas en empresas,Crítico,Alta,8
+D075,Mercado,Costo de la red de relevos frente a sistemas nacionales de alerta,Significativo,Media,8
+D076,Metodológico,"División por evento y por sitio, etiquetas independientes del modelo y reportes con intervalos de confianza",Crítico,Media,9
+D076,Tecnológico,"Imágenes aéreas reales, pruebas en vuelo y consumo de energía",Crítico,Media,8
+D076,Conocimiento,Relación entre el nivel de daño visible y el tiempo de reocupación y de reapertura de empresas,Crítico,Alta,9
+D076,Mercado,Costos de la operación y adopción por autoridades de emergencia,Significativo,Media,6
+D077,Metodológico,"Datos primarios de empresas y comunidades, y diseño que contraste casos con y sin colaboración",Crítico,Alta,9
+D077,Conocimiento,"Definición operativa de IoT y su aporte distinto al de las redes sociales, y aplicación a desastres físicos",Crítico,Media,8
+D077,Tecnológico,Operación de los canales de información cuando fallan la energía y las comunicaciones,Crítico,Media,8
+D077,Mercado,Costos y beneficios para pequeñas empresas de participar en el sistema de información,Significativo,Media,7
+D078,Metodológico,Validación con un evento pasado y métricas de desempeño del gemelo,Crítico,Media,9
+D078,Tecnológico,"Flujo de datos en tiempo real, deterioro estructural y módulos de otros peligros como sismos",Crítico,Media,8
+D078,Conocimiento,"Interrupción empresarial, cadenas de suministro y recuperación económica en la plataforma",Crítico,Alta,9
+D078,Mercado,"Costos de construcción, mantenimiento y adopción por gobiernos locales",Significativo,Media,7
+D079,Metodológico,"Revisión que incluya ponencias y que amplíe la ecuación a desastres, sismos y recuperación",Crítico,Alta,9
+D079,Conocimiento,"Métricas de retorno de inversión y de beneficio social de los gemelos urbanos, con estudios longitudinales",Crítico,Media,9
+D079,Tecnológico,"Interoperabilidad semántica, escalabilidad y replicabilidad entre ciudades",Significativo,Media,8
+D079,Mercado,Costo por escenario y por flujo de datos al escalar de edificio a ciudad,Significativo,Media,7
+D080,Metodológico,"Definición de la métrica de exactitud y validación con un evento real, con matriz de confusión",Crítico,Media,9
+D080,Tecnológico,"Datos en vivo de sensores, operación sin nube y medición de latencias y disponibilidad real",Crítico,Media,8
+D080,Conocimiento,Módulo de interrupción productiva y cadenas de suministro en la zona industrial,Crítico,Alta,9
+D080,Mercado,"Costos de desarrollo, mantenimiento y operación por municipio y modelo de acceso a datos",Significativo,Media,7
+D081,Metodológico,Estudios empíricos y longitudinales con métricas de resiliencia y análisis cuantitativo de efectos,Crítico,Alta,9
+D081,Conocimiento,"Evidencia del rebote y del crecimiento, y gemelos en disrupciones de origen natural y en pymes",Crítico,Alta,9
+D081,Tecnológico,Interoperabilidad y calidad de datos entre socios de la cadena,Significativo,Media,7
+D081,Mercado,Costos de implementación y de habilidades especializadas para empresas pequeñas,Significativo,Media,8
+D082,Metodológico,Pruebas longitudinales y cuantitativas de configuraciones y revisión sin umbral de citación con fiabilidad de la codificación,Crítico,Media,9
+D082,Conocimiento,"Resiliencia de pymes durante y después de desastres físicos, con medición de la recuperación",Crítico,Alta,9
+D082,Tecnológico,Papel del IoT y de los gemelos como infraestructura de detección y recuperación en empresas,Significativo,Media,8
+D082,Mercado,Costos y retorno de las capacidades de resiliencia para empresas pequeñas,Significativo,Media,7
+D083,Metodológico,"Extracción de magnitudes de efecto, cobertura de más bases y fiabilidad de selección y calidad",Crítico,Media,8
+D083,Conocimiento,Resiliencia operativa del IoT industrial ante interrupciones y dimensión social con datos,Crítico,Alta,9
+D083,Tecnológico,Interoperabilidad e integración de datos heterogéneos a escala,Significativo,Media,7
+D083,Mercado,Costos y adopción del IoT en pymes industriales,Significativo,Media,8
+D084,Metodológico,"Repeticiones, sensibilidad a daño incipiente, falsos positivos y efectos ambientales",Crítico,Media,9
+D084,Tecnológico,"Despliegue de campo, escalabilidad más allá de cinco nodos y comparación con sistemas de referencia",Crítico,Media,8
+D084,Mercado,Costo total por puente y beneficio frente a la inspección tradicional,Significativo,Media,8
+D084,Conocimiento,Conexión del cambio modal con decisiones de cierre y reapertura tras eventos sísmicos,Significativo,Media,7
+D085,Conocimiento,"Falta evidencia con desenlaces objetivos de proyecto (plazo, costo, seguridad) asociados a los factores de éxito del gemelo digital",Crítico,Media,8
+D085,Metodológico,Ausencia de control del sesgo de método común y de reporte de intervalos de confianza para los coeficientes,Significativo,Alta,6
+D085,Conocimiento,Interfaz oficina-obra poco explorada en contextos de alta incertidumbre y recuperación posterior a desastres,Significativo,Media,7
+D085,Mercado,Sin análisis de costos de implementación ni de beneficio para empresas de menor tamaño,Significativo,Media,6
+D086,Tecnológico,"Falta validación en campo con operación continua, medición de energía y datos de varios puentes",Crítico,Media,8
+D086,Metodológico,"Ausencia de ablaciones, repeticiones e intervalos de confianza para atribuir la mejora a la destilación",Significativo,Alta,6
+D086,Conocimiento,Confusión entre eventos estructurales extremos y anomalías de sensor no evaluada,Crítico,Media,8
+D086,Mercado,Sin análisis de costos de nodos MCU frente a computadores de placa única ni de adopción por operadores,Significativo,Media,6
+D087,Conocimiento,Falta evidencia ex post sobre el efecto de la reforma institucional en inversión y resultados de CTI,Significativo,Media,6
+D087,Metodológico,"Ausencia de indicadores, metas y evaluación de impacto de la política",Significativo,Alta,5
+D087,Mercado,Sin mecanismos de transferencia de tecnología ni incentivos específicos a pequeñas y medianas empresas,Significativo,Media,6
+D088,Metodológico,Falta de prueba formal de tendencia entre encuestas nacionales,Significativo,Alta,5
+D088,Conocimiento,"Sin análisis de coinfección VIH, departamentos ni resultados clínicos del esquema",Significativo,Media,5
+D088,Metodológico,Corrección por baja especificidad de la prueba para estreptomicina,Moderado,Alta,4
+D089,Metodológico,Acuerdo medido con valoración simultánea; falta reevaluación diferida o con video,Significativo,Alta,5
+D089,Conocimiento,Sin validez de criterio ni sensibilidad y especificidad de los puntos de corte,Significativo,Media,6
+D089,Metodológico,No se evaluó la reproducibilidad intraevaluador de la EAD,Moderado,Alta,4
+D090,Metodológico,Falta validación del cuestionario y del punto de corte del nivel de conocimientos,Significativo,Alta,5
+D090,Conocimiento,"Sin vínculo entre conocimientos, prácticas y casos notificados",Significativo,Media,6
+D090,Metodológico,Fauna comparada sin ajuste por esfuerzo de captura ni altitud,Moderado,Alta,4
+D091,Metodológico,Unidad de análisis inconsistente y falta de prueba estadística de asociación entre apellido y alelo,Significativo,Alta,6
+D091,Conocimiento,Sin verificación del polimorfismo C a T para confirmar ascendencia amerindia,Significativo,Media,6
+D091,Metodológico,Clasificación etimológica de apellidos sin protocolo,Moderado,Alta,4
+D092,Metodológico,Falta validación cruzada o con muestra independiente de la clasificación,Crítico,Alta,7
+D092,Conocimiento,"Confusión entre especie, localidad e isofamilia",Significativo,Media,6
+D092,Mercado,Sin comparación de costo y tiempo frente a PCR-RFLP para uso en programas de control,Significativo,Media,5
+D093,Metodológico,Instrumento abreviado sin intensidad ni duración; sin acelerómetro,Significativo,Alta,6
+D093,Conocimiento,"Sin control de maduración puberal, estrato y dieta",Significativo,Media,6
+D093,Metodológico,Inconsistencias numéricas en tamaños de muestra y edades,Moderado,Alta,4
+D094,Conocimiento,Falta confirmar infección humana con serología y muestreo representativo,Crítico,Media,7
+D094,Metodológico,Muestras pequeñas sin intervalos de confianza y sin confirmación molecular de la especie,Significativo,Alta,5
+D094,Conocimiento,La intervención educativa no se evalúa,Significativo,Media,5
+D095,Metodológico,Muestra pequeña y por conveniencia; sin evaluación de sesgo proporcional,Significativo,Alta,6
+D095,Conocimiento,Falta una referencia de cuatro componentes o DEXA y mujeres de otras edades y etnias,Significativo,Media,6
+D095,Metodológico,Criterios de aceptación clínica no definidos a priori,Moderado,Alta,4
+D096,Metodológico,Sin intervalos de incertidumbre ni análisis de sensibilidad al subregistro y a la clasificación CIE,Crítico,Alta,7
+D096,Conocimiento,"Violencias agrupadas sin separar homicidios, suicidios y accidentes de transporte",Significativo,Media,6
+D096,Metodológico,Dos puntos temporales sin trayectoria anual,Moderado,Alta,4
+D097,Metodológico,Cebadores heterólogos y datos no mostrados no permiten afirmar ausencia del gen,Crítico,Alta,7
+D097,Metodológico,Sensibilidad y especificidad de los ensayos serológicos no establecidas,Significativo,Alta,6
+D097,Conocimiento,Sin proteómica de lisados nativos ni genoma de las cepas colombianas,Significativo,Media,6
+D098,Metodológico,"Un solo caso, sin controles ni réplicas ni cuantificación de esporas",Crítico,Alta,7
+D098,Conocimiento,Identidad sin secuenciación ni microscopía electrónica; sin prueba de infectividad,Significativo,Media,6
+D098,Conocimiento,Sensibilidad de la tinción frente a la PCR en muestras clínicas no evaluada,Moderado,Media,4
+D099,Conocimiento,Barreras y factores críticos de éxito para adoptar I4.0 en gestión de desastres,Crítico,Alta,8
+D099,Metodológico,"Ausencia de evaluación de calidad, doble revisión y cadena de búsqueda más amplia",Significativo,Alta,6
+D099,Conocimiento,Escasez de estudios cuantitativos y de evidencia en recuperación real; ausencia de sismos y de pequeñas empresas,Crítico,Media,8
+D099,Mercado,Solo 5 % de artículos en el sector humanitario y sin análisis de costos de adopción,Significativo,Media,6
+D100,Conocimiento,Falta de evidencia empírica de transferencia tecnológica y de factores organizacionales en recuperación tras sismos,Crítico,Alta,9
+D100,Metodológico,"Síntesis automática sin protocolo, criterios ni medidas de efecto",Crítico,Alta,8
+D100,Tecnológico,Escasa validación y despliegue reales de gemelo digital e IoT; marcos unificados poco desarrollados,Crítico,Media,8
+D100,Mercado,Sin modelos de negocio ni análisis de costos de adopción para empresas afectadas,Significativo,Media,6
+D101,Conocimiento,Falta de evidencia sobre empresas y transferencia tecnológica en recuperación posterior a sismos,Crítico,Alta,9
+D101,Metodológico,Síntesis automática sin protocolo ni número de documentos recuperados; servicio piloto sin garantías,Crítico,Alta,8
+D101,Mercado,Sin análisis de costos ni modelos de negocio para adopción de tecnologías por empresas,Significativo,Media,6

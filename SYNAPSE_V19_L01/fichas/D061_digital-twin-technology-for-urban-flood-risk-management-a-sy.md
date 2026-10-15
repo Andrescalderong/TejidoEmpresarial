@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D013 (Gemelos digitales para gestión posdesastre y recuperación): la revisión PRISMA de gemelos para inundaciones urbanas (85 estudios) reporta mejoras de pronóstico y respuesta y coincide en la necesidad de integrar datos de teledetección, IoT y modelos; D061 cita a D013 y D006 [juicio del analista; citación verificada de D061 a D013]
+- **DEPENDE_DE** D006 (Gemelo digital para gestión de desastres e inteligencia artificial): cita a D006 en su lista de referencias (verificado por coincidencia de título); D006: Gemelo digital para gestión de desastres e inteligencia artificial [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 46 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

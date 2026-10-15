@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D040 (Economía del refuerzo sísmico con pérdidas indirectas y sostenibilidad): relación inversa de D040 CONFIRMA D069: ambos muestran que incluir recuperación, tiempo de inhabilitación y pérdidas indirectas cambia la medida preferida de refuerzo frente a considerar sol [juicio del analista]
+- **COMPLEMENTA** D054 (Economía del refuerzo sísmico de edificios antiguos de concreto): D054 valora la reducción de víctimas y D069 la ganancia de funcionalidad; ambos contribuyen a justificar el refuerzo más allá de las reparaciones [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 29 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

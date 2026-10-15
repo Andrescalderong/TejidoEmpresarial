@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D020 (IoT, SHM y resiliencia sísmica de edificios): D014 define dónde instalar sensores en un edificio patrimonial y D020 asocia componentes de IoT con resiliencia sísmica; ambos de ingeniería de edificios con IoT [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 25 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -72,7 +72,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D007 (Adopción organizacional de IoT y transformación digital): relación inversa de D007 EXTIENDE D005: D007 refina la tesis de D005 (los beneficios del IoT dependen de condiciones institucionales) con aceptación de partes interesadas, liderazgo digital  [juicio del analista; citación verificada de D007 a D005]
+- **CONFIRMA** D007 (Adopción organizacional de IoT y transformación digital): relación inversa de D007 CONFIRMA D005: ambos concluyen que la adopción del IoT es un proceso organizacional y no solo técnico, con consecuencias estructurales [juicio del analista; citación verificada de D007 a D005]
+- **CONFIRMA** D029 (Gemelo digital y resiliencia operativa de la organización): relación inversa de D029 CONFIRMA D005: la capacidad de absorción de conocimiento como condición de beneficio refuerza la tesis de D005 sobre condiciones institucionales de la adopción [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 12 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

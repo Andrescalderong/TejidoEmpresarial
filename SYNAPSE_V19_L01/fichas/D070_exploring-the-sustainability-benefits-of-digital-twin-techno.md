@@ -73,7 +73,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D079 (Gemelos digitales urbanos, IoT e IA en ciudades inteligentes: mapeo te): D079 revisa gemelos urbanos con IoT e IA en ciudades inteligentes y D070 los aplica al caso de terremotos fuertes y a los ODS; ambos concluyen potencial con evidencia empírica escasa [juicio del analista]
+- **DEPENDE_DE** D006 (Gemelo digital para gestión de desastres e inteligencia artificial): adopta el concepto de gemelo para gestión de desastres como base del análisis de beneficios de sostenibilidad [juicio del analista; citación verificada de D070 a D006]
+- **PRECEDE** D101 (Síntesis automática: gemelos digitales, Industria 4.0 y resiliencia po): relación inversa de D101 DEPENDE_DE D070: la segunda referencia de D101 es el estudio de Habib et al. (D070) [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 1 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

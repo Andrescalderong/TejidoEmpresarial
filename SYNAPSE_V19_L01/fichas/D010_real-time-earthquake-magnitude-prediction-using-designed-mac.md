@@ -72,7 +72,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D041 (Alerta temprana sísmica con aprendizaje automático y visualización geo): ambos estiman magnitud con aprendizaje automático; D010 corrige el desbalance de eventos grandes con datos sintéticos (CTGAN) y D041 compara modelos con datos históricos de California [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 56 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

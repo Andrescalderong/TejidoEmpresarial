@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D055 (Gemelos digitales basados en agentes para sistemas multirrobot): D018 integra agentes de IA y gemelos digitales (demostración por simulación de una red eléctrica genérica) y D055 modela gemelos como agentes BDI; ambos son propuestas de baja madurez [juicio del analista]
+- **COMPLEMENTA** D059 (Gemelo digital y conciencia situacional en el IoT de la energía): relación inversa de D059 COMPLEMENTA D018: D059 redefine el gemelo como motor de datos con modelo grande como motor de inteligencia y D018 usa el gemelo como entorno de simulación de agentes; a [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 44 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

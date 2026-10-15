@@ -72,7 +72,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D053 (Tiempo de recuperación posterremoto de edificios en evaluación regiona): relación inversa de D053 CONFIRMA D011: ambos muestran que el tiempo de reparación del edificio no basta como medida de recuperación y que las demoras y la inactividad deben modelarse; D011  [juicio del analista]
+- **PRECEDE** D053 (Tiempo de recuperación posterremoto de edificios en evaluación regiona): el marco analítico de D011 (varios tipos de inactividad y tácticas de mitigación) antecede a los modelos de simulación de alta fidelidad de D053 [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 16 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

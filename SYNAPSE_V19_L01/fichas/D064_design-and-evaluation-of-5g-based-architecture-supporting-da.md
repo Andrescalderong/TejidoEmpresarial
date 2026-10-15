@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D034 (Gemelo digital de ciudad ante sismos): relación inversa de D034 COMPLEMENTA D064: D034 modela intensidad y daño por edificio con actualización por sensores; D064 aporta la arquitectura 5G y de borde para actualizar gemelos con baja  [juicio del analista]
+- **COMPLEMENTA** D008 (Gemelos digitales de edificios, cosimulación sísmica y evacuación): relación inversa de D008 COMPLEMENTA D064: D008 resuelve la interoperabilidad entre simulaciones (ficha BSIC) y D064 la latencia de actualización; los dos desafíos coinciden con los identificad [juicio del analista]
+- **CONFIRMA** D066 (Cómputo en el borde, descarga adaptativa de tareas y decisión en tiemp): ambos sostienen que el cómputo en el borde reduce la latencia (D064 retardo medio de 2,1 ms; D066 mejora en simulación); D066 no tiene despliegue real [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 5 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D066 (Cómputo en el borde, descarga adaptativa de tareas y decisión en tiemp): relación inversa de D066 CONFIRMA D065: ambos son propuestas de asignación descentralizada de recursos en el borde validadas solo por simulación [juicio del analista]
+- **CONFIRMA** D043 (Gemelo digital, aprendizaje federado y calidad de datos de sensores): relación inversa de D043 CONFIRMA D065: validación únicamente simulada de marcos descentralizados con tecnologías de borde y aprendizaje federado [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 13 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

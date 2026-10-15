@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D100 (Síntesis automática: gemelo digital, IoT y transferencia tecnológica p): relación inversa de D100 PRECEDE D101: ambas son síntesis automáticas del mismo tema generadas en 2026 por buscadores distintos; D101 comparte al menos dos documentos de referencia con la l [juicio del analista]
+- **CONFIRMA** D100 (Síntesis automática: gemelo digital, IoT y transferencia tecnológica p): coinciden en la conclusión de que gemelo digital, IoT e Industria 4.0 son centrales para la recuperación posdesastre, pero no son fuentes independientes (la lista de D100 incluye los documentos D070 y D080 citados por D101) [juicio del analista]
+- **DEPENDE_DE** D099 (Industria 4.0, gestión del riesgo de desastres y resiliencia de infrae): la primera referencia de D101 es la revisión de Habibi Rad et al. (D099) [juicio del analista]
+- **DEPENDE_DE** D070 (Gemelo digital, resiliencia sísmica urbana y sostenibilidad en ciudade): la segunda referencia de D101 es el estudio de Habib et al. (D070) [juicio del analista]
+- **DEPENDE_DE** D080 (Gemelo digital sísmico con IoT para gestión de desastres y resiliencia): la tercera referencia de D101 es el estudio de caso de Cayirova (D080) [juicio del analista]
 
 ### Capa 4 — Control de calidad
 

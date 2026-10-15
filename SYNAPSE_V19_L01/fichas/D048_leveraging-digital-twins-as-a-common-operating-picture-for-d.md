@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **EXTIENDE** D072 (Gemelo digital para gestión de desastres con modelado híbrido y simili): usa el gemelo digital como imagen operativa común para estimar daños y necesidades de rescate, apoyado en el antecedente de modelado híbrido físico-datos de D072 [juicio del analista; citación verificada de D048 a D072]
+- **PRECEDE** D080 (Gemelo digital sísmico con IoT para gestión de desastres y resiliencia): relación inversa de D080 EXTIENDE D048: replica la lógica de imagen operativa común en un distrito industrial con sensores IoT y arquitectura híbrida; comparte autoría (Korkmaz, Demirkesen)  [juicio del analista; citación verificada de D080 a D048; autoría compartida]
+- **CONFIRMA** D034 (Gemelo digital de ciudad ante sismos): relación inversa de D034 CONFIRMA D048: ambos estiman daño por edificio y necesidades de respuesta con gemelos urbanos y escenarios sísmicos; proceden de contextos y grupos distintos (Ningxi [juicio del analista]
+- **COMPLEMENTA** D026 (Soluciones digitales para gestión de sismos (caso Türkiye 2023)): relación inversa de D026 COMPLEMENTA D048: D026 caracteriza las soluciones digitales tras el terremoto de 2023 en Türkiye (plataformas web de proveedores privados) y D048 modela un gemelo para  [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 6 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

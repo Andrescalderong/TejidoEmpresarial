@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D013 (Gemelos digitales para gestión posdesastre y recuperación): D081 estudia el efecto del gemelo sobre la resiliencia de cadenas de suministro por etapas y D013 sobre la gestión posdesastre; ambas mezclan evidencia conceptual y de simulación [juicio del analista]
+- **CONFIRMA** D037 (Tecnologías digitales y resiliencia de cadenas de suministro (metaanál): ambos hallan efectos por etapa de la disrupción, mayores en preparación y respuesta que en recuperación (D037 r=0,331 global y r=0,273 en recuperación) [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 40 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONTRADICE** D030 (IoT, gemelo digital y resiliencia organizacional): D082 concibe la resiliencia organizacional como propiedad emergente de mecanismos colectivos, adaptativos y dinámicos, mientras D030 la trata como variable mediadora lineal entre tecnología y desempeño; tensión conceptual no resuelta [juicio del analista]
+- **COMPLEMENTA** D029 (Gemelo digital y resiliencia operativa de la organización): D082 ofrece el marco de mecanismos y D029 aporta evidencia sobre capacidad de absorción y turbulencia tecnológica como moderador [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 92 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

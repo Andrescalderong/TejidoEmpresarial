@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D012 (Gestión del conocimiento y aprendizaje organizacional en desastres): relación inversa de D012 CONFIRMA D003: ambos señalan que las soluciones tecnológicas dominan la literatura de desastres con integración débil de conocimiento, equidad y factores humanos [juicio del analista]
+- **CONFIRMA** D099 (Industria 4.0, gestión del riesgo de desastres y resiliencia de infrae): relación inversa de D099 CONFIRMA D003: coinciden en que la evidencia es fragmentada y en que faltan estudios sobre las condiciones de adopción tecnológica en desastres (barreras y factores  [juicio del analista]
+- **COMPLEMENTA** D087 (Política colombiana de ciencia, tecnología e innovación): relación inversa de D087 COMPLEMENTA D003: ambos son editoriales de política sin datos propios: D087 sobre el sistema de ciencia, tecnología e innovación de Colombia (2008) y D003 sobre tecnolo [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 87 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

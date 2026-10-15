@@ -71,7 +71,7 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 50 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

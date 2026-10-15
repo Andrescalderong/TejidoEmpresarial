@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D084 (IoT sincronizado de bajo costo para monitoreo vibracional de puentes c): relación inversa de D084 CONFIRMA D068: ambos demuestran monitoreo estructural con IoT de bajo costo solo en laboratorio (modelo a escala o viga), con TRL 4 y sin pruebas de campo [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 24 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

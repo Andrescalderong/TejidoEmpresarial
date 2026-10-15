@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D035 (Actualización de modelo en gemelos digitales de puentes): ambos reconstruyen el comportamiento dinámico de puentes con modelos actualizados por datos con errores de hasta 5 % (D009: 1 % a 5 %; D035: menos de 5 % en frecuencias) [juicio del analista]
+- **COMPLEMENTA** D032 (Gemelos digitales con IA e IoT para SHM (cienciometría)): relación inversa de D032 COMPLEMENTA D009: D032 mapea la literatura de gemelos con IA para SHM y D009 es un ejemplo de gemelo con monitoreo híbrido de modelo y datos [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 75 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

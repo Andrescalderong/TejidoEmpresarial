@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D009 (Gemelos digitales y monitoreo de salud estructural (SHM)): relación inversa de D009 CONFIRMA D035: ambos reconstruyen el comportamiento dinámico de puentes con modelos actualizados por datos con errores de hasta 5 % (D009: 1 % a 5 %; D035: menos de  [juicio del analista]
+- **COMPLEMENTA** D023 (Gemelo digital con SHM e IoT en puentes): relación inversa de D023 COMPLEMENTA D035: D023 mantiene medición continua con LoRaWAN y D035 actualiza el modelo por algoritmo genético en el puente de acero; ambos aportan a gemelos de puente [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 49 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

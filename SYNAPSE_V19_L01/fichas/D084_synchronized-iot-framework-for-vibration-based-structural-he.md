@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D039 (Calidad de datos y sincronización en SHM inalámbrico con IoT): D084 sincroniza nodos por hardware (error de 50 microsegundos) y D039 corrige retardos por aprendizaje profundo; son soluciones alternativas al mismo problema [juicio del analista]
+- **CONFIRMA** D068 (Gemelo digital e IoT de bajo costo para monitoreo de salud estructural): ambos demuestran monitoreo estructural con IoT de bajo costo solo en laboratorio (modelo a escala o viga), con TRL 4 y sin pruebas de campo [juicio del analista]
+- **COMPLEMENTA** D023 (Gemelo digital con SHM e IoT en puentes): D084 valida nodos en laboratorio y D023 opera un gemelo con LoRaWAN en un puente ferroviario en servicio, lo que muestra la brecha entre prototipo y campo [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 23 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

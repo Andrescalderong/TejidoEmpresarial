@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D048 (Gemelo digital como imagen operativa común para respuesta sísmica): D026 caracteriza las soluciones digitales tras el terremoto de 2023 en Türkiye (plataformas web de proveedores privados) y D048 modela un gemelo para una respuesta en Kocaeli; ambos con Türkiye como referencia territorial [juicio del analista]
+- **COMPLEMENTA** D047 (SIG para la gestión del transporte posterremoto (revisión narrativa)): relación inversa de D047 COMPLEMENTA D026: D047 revisa SIG en la gestión del transporte posterremoto y D026 las soluciones digitales de respuesta y recuperación; ambos con evidencia mayormente  [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 38 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

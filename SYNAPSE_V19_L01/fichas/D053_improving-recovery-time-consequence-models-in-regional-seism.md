@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D011 (Recuperación empresarial posterior a sismos y modelos de interrupción): ambos muestran que el tiempo de reparación del edificio no basta como medida de recuperación y que las demoras y la inactividad deben modelarse; D011 antecede a D053 [juicio del analista]
+- **COMPLEMENTA** D040 (Economía del refuerzo sísmico con pérdidas indirectas y sostenibilidad): comparten autoría (Galasso): D053 aporta modelos de consecuencia de tiempo de recuperación y D040 los usa en decisiones de refuerzo; no son confirmaciones independientes [juicio del analista; autoría compartida]
+- **EXTIENDE** D011 (Recuperación empresarial posterior a sismos y modelos de interrupción): relación inversa de D011 PRECEDE D053: el marco analítico de D011 (varios tipos de inactividad y tácticas de mitigación) antecede a los modelos de simulación de alta fidelidad de D053 [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 20 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

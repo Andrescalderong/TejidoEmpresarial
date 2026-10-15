@@ -71,7 +71,8 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D037 (Tecnologías digitales y resiliencia de cadenas de suministro (metaanál): D077 propone un marco conceptual ilustrado con datos abiertos de compras en línea durante la pandemia en Australia, sin medir resiliencia; D037 cuantifica una asociación moderada y distinta por etapa, lo que matiza las afirmaciones generales de D077 [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 86 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

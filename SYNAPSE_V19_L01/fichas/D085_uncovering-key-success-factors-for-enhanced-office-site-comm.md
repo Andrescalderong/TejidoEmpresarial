@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D052 (Gemelo digital y eficiencia operativa en construcción (encuesta PLS-SE): relación inversa de D052 COMPLEMENTA D085: D052 identifica la transparencia de la información como mediador del efecto del gemelo en la eficiencia (0,749); D085 identifica factores de oficina,  [juicio del analista]
+- **CONFIRMA** D052 (Gemelo digital y eficiencia operativa en construcción (encuesta PLS-SE): coinciden en que el valor del gemelo digital en construcción pasa por el intercambio de información y la decisión colaborativa, no por la tecnología por sí sola [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 83 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

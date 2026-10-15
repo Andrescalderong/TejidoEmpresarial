@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D086 (IoT, inteligencia en el borde y monitoreo de salud estructural): relación inversa de D086 CONFIRMA D039: comparten autoría (Yu, Fu, Cui): resuelven calidad de datos y sincronización en redes inalámbricas de monitoreo estructural; no son confirmaciones ind [juicio del analista; autoría compartida]
+- **COMPLEMENTA** D084 (IoT sincronizado de bajo costo para monitoreo vibracional de puentes c): relación inversa de D084 COMPLEMENTA D039: D084 sincroniza nodos por hardware (error de 50 microsegundos) y D039 corrige retardos por aprendizaje profundo; son soluciones alternativas al mismo  [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 27 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

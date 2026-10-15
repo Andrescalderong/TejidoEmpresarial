@@ -71,7 +71,9 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **COMPLEMENTA** D084 (IoT sincronizado de bajo costo para monitoreo vibracional de puentes c): relación inversa de D084 COMPLEMENTA D023: D084 valida nodos en laboratorio y D023 opera un gemelo con LoRaWAN en un puente ferroviario en servicio, lo que muestra la brecha entre prototipo y c [juicio del analista]
+- **COMPLEMENTA** D035 (Actualización de modelo en gemelos digitales de puentes): D023 mantiene medición continua con LoRaWAN y D035 actualiza el modelo por algoritmo genético en el puente de acero; ambos aportan a gemelos de puentes [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 76 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

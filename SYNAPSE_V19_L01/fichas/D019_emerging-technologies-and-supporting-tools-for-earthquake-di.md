@@ -71,7 +71,11 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D042 (IoT y UAV en la gestión de desastres sísmicos (revisión)): ambas revisiones integran IoT, UAV, comunicaciones y aprendizaje automático en el ciclo del terremoto y concluyen que la integración mejora la conciencia situacional con validación real escasa [juicio del analista; citación verificada de D042 a D019]
+- **DEPENDE_DE** D031 (IoT semántico y alerta temprana de amenazas geológicas): D019 cita a D031 como antecedente de IoT semántico para amenazas geológicas [juicio del analista; citación verificada de D019 a D031]
+- **COMPLEMENTA** D060 (Alerta temprana sísmica en el sitio con aprendizaje automático): comparten autoría (Abdalzaher, Krichen): D019 revisa tecnologías emergentes y D060 aplica aprendizaje automático a intensidad sísmica en sitio [juicio del analista; citación verificada de D019 a D060; autoría compartida]
+- **DEPENDE_DE** D071 (Detección sísmica con IoT, interoperabilidad semántica y aprendizaje a): cita a D071 en su lista de referencias (verificado por coincidencia de título); D071: Detección sísmica con IoT, interoperabilidad semántica y aprendizaje a [citación verificada]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 34 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 

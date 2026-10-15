@@ -71,7 +71,10 @@
 
 **Conexiones inter-documentales.**
 
-- (Se completan en el Análisis Relacional de la Parte final del lote.)
+- **CONFIRMA** D081 (Gemelo digital y resiliencia de cadenas de suministro por etapas de la): relación inversa de D081 CONFIRMA D037: ambos hallan efectos por etapa de la disrupción, mayores en preparación y respuesta que en recuperación (D037 r=0,331 global y r=0,273 en recuperación [juicio del analista]
+- **COMPLEMENTA** D017 (IoT y resiliencia de la cadena de suministro): D037 mide asociación entre tecnologías digitales y resiliencia de cadena de suministro con metaanálisis y D017 describe la evolución y barreras del IoT en esas cadenas [juicio del analista]
+- **COMPLEMENTA** D077 (Gestión de riesgos de cadena de suministro en desastres con IoT, redes): relación inversa de D077 COMPLEMENTA D037: D077 propone un marco conceptual ilustrado con datos abiertos de compras en línea durante la pandemia en Australia, sin medir resiliencia; D037 cuanti [juicio del analista]
+- **PRECEDE** D100 (síntesis Scopus AI): documento citado como referencia 37 de la síntesis [citación verificada]
 
 ### Capa 4 — Control de calidad
 
