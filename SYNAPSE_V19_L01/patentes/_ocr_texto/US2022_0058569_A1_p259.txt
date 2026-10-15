@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0058569A1
+176
+more items, phenomena, modes, states, or the like. In
+embodiments, a multilayered feed forward neural network
+may be trained by an optimization technical, such as a
+genetic algorithm, such as to explore a large and complex
+space of options to find an optimum, or near-optimum,
+global solution. For example, one or more genetic algo-
+rithms may be used to train a multilayered feed forward
+neural network to classify complex phenomena, such as to
+recognize complex operational modes or states of individu-
+als, such as modes involving complex interactions among
+entities (including interference effects, amplifying effects,
+and the like), modes involving non-linear phenomena, such
+as impacts of interaction of protocols, which may make
+analysis of symptoms or diagnosis of conditions of entities
+difficult, modes involving critical risks, such as where
+multiple, simultaneous conditions occur, making root cause
+analysis difficult, and others. In embodiments, a multilay-
+ered feed forward neural network may be used to classify
+results from monitoring unstructured data, such as form
+social media.
+[1348]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a feed-forward, back-propagation multi-
+layer perceptron (MLP) neural network, such as for handling
+one or more remote sensing applications, such as for taking
+inputs from sensors distributed throughout various human-
+inhabited environments, including home and work environ-
+ments, business environments, and the like. In embodi-
+ments, the MLP neural network may be used for
+classification of physical environments. This may include
+fuzzy classification.
+[1349] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a structure-adaptive neural network,
+where the structure of a neural network may be adapted,
+such as based on a rule, a sensed condition, a contextual
+parameter, or the like. For example, if a neural network does
+not converge on a solution, such as classifying an item or
+some amount of training, the neural network may be modi-
+fied, such as from a feed forward neural network to a
+recurrent neural network, such as by switching data paths
+between some subset of nodes from unidirectional to bi-
+directional data paths. The structure adaptation may occur
+under control of an expert system, such as to trigger adap-
+tation upon occurrence of a trigger, rule or event, such as
+recognizing occurrence ofa threshold (such as an absence of
+a convergence to a solution within a given amount of time)
+or recognizing a phenomenon as requiring different or
+additional structure (such as recognizing that a system may
+be varying dynamically or in a non-linear fashion).
+[1350] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use an autoencoder, autoassociator or Diab-
+olo neural network, which may be similar to a multilayer
+perceptron (MLP) neural network, such as where there may
+be an input layer, an output layer and one or more hidden
+layers connecting them. However, the output layer in the
+auto-encoder may have the same number of units as the
+input layer, where the purpose of the MLP neural network
+may be to reconstruct its own inputs (rather than just
+emitting a target value). Therefore, the auto encoders are
+encoder may be used, for example, for unsupervised learn-
+[col 2]
+Feb.24,2022
+ing of efficient codings, such as for dimensionality reduc-
+tion, for learning generative models of data, and the like. In
+embodiments, an auto-encoding neural network may be used
+to self-learn an eficient network coding for transmission of
+data from or about an individual over one or more networks,
+which may include social networks. In embodiments, an
+auto-encoding neural network may be used to self-learn an
+efficient storage approach for the storage of streams of
+analog sensor data from an environment.
+[1351] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a probabilistic neural network (PNN),
+which, in embodiments, may comprise a multi-layer (e.g.,
+four-layer) feed forward neural network, where layers may
+include input layers, hidden layers, pattern/summation lay-
+ers and an output layer.In an embodiment of a PNN
+algorithm, a parent probability distribution function (PDF)
+of each class may be approximated, such as by a Parzen
+window and/or a non-parametric function. Then, using the
+PDF of each class, the class probability of a new input may
+be estimated, and Bayes' rule may be employed, such as to
+allocate it to the class with the highest posterior probability.
+A PNN may embody a Bayesian network and may use a
+statistical algorithm or analytic technique, such as Kernel
+Fisher discriminant analysis technique. The PNN may be
+used for classification and pattern recognition in any of a
+wide range of embodiments disclosed herein. In one non-
+limiting example, a probabilistic neural network may be
+used to predict a fault condition of a product or system based
+on a collection of data inputs from sensors and instruments
+for the engine.
+[1352]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a time delay neural network (TDNN),
+which may comprise a feed forward architecture for sequen-
+tial data that recognizes features independent of sequence
+position. In embodiments, to account for time shifts in data,
+delays are added to one or more inputs, or between one or
+more nodes, so that multiple data points (from distinct points
+in time) are analyzed together. A time delay neural network
+may form part of a larger pattern recognition system, such as
+using a perceptron network. In embodiments, a TDNN may
+be trained with supervised learning, such as where connec-
+tion weights are trained with back propagation or under
+feedback. In embodiments, a TDNN may be used to process
+sensor data from distinct streams, where time delays are
+used to align the data streams in time, such as to help
+understand patterns that involve the understanding of the
+various streams.
+[1353]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a convolutional neural network (referred
+to in some cases as a CNN, a ConvNet, a shift invariant
+neural network, or a space invariant neural network),
+wherein the units are connected in a pattern similar to the
+visual cortex of the human brain. Neurons may respond to
+stimuli in a restricted region of space, referred to as a
+receptive field. Receptive fields may partially overlap, such
+that they collectively cover the entire (e.g-, visual) field.
+Node responses can be calculated mathematically, such as
+by a convolution operation, such as using. Multilayer per-
+ceptrons that use minimal preprocessing. A convolutional
+neural network may be used for recognition within images
+and video streams, such as for recognizing an individual,

@@ -1,0 +1,130 @@
+[col 1]
+US2022/0036274A1
+146
+details of the information to be stored and it is used to build
+a layered system where the final computer software code is
+able to represent the information in the lower levels in a
+form that is appropriate for the digital twin perspective being
+used. One aspect of the digital twin model is that one digital
+can be shared across multiple perspectives, each perspective
+viewer can then interact with the same underlying digital
+twin model. In this way the multiple perspectives are like
+translations allowing each type of user to interact in an
+edge.
+[1167] FIG. 70 illustrates an example of a digital twin data
+model and the manner by which a digital twin is generated,
+executed, and served to a requesting digital twin application,
+wherein the digital twin data model defines the physical
+implementation of the underlying data streams from existing
+systems and digital twin structures to achieve a digital twin
+representation. In embodiments, the digital twin data model
+81B00 defines the manner by which traditional data streams
+are tied together with the digital twin structures to achieve
+the digital twin representation. In embodiments, digital
+twins are a combination of processes/structures and system
+data streams. Put another way, process and structure defi-
+nitions define the real-world "things" (for example a factory,
+a robot, a cargo container, a ship, a road, or the like) or
+logical "things" (for example an organizational chart, a
+hiring process, a marketing campaign, a tax reporting work-
+flow, or the like) that are representable by a digital twin,
+while the system data stream definitions define the manner
+by which real-world data may be ingested into digital twin
+representations of the real-world and/or logical "things".
+Thus, configuring a digital twin includes structural configu-
+ration and ingestion and data configuration and ingestion.
+[1168] During structural configuration and ingestion, the
+digital twin system 8004 receives the structural aspects of a
+digital twin. In embodiments, the structural aspects may
+include process definitions, layout definitions, and/or spatial
+definitions. In embodiments, a process definition defines a
+logical process that can be mapped to a diagrammatic format
+that forms the basis of what a digital twin viewer can interact
+with. Examples of processes may include workflows, hiring
+processes, manufacturing processes, logistics processes,
+ware processes, and the like. In embodiments, the spatial
+definition defines the geospatial configuration of an object or
+an environment. In embodiments, the spatial definition may
+be a 2D or 3D representation of an object or an environment.
+The spatial definition of an object or an environment may be
+provided as a CAD file, a LIDAR scan, a 2D or 3D image,
+or the like, including logical relationships, organizational
+hierarchy, physical relationships, schematic relationships,
+and/or interconnectivity between objects and/or environ-
+ments. In embodiments, a layout definition defines the
+relationship between objects with other objects and/or an
+environment. In embodiments, the layout definition may
+further define the manner by which objects move with
+respect to other objects and/or an environment. Examples of
+layouts may include electrical wiring diagrams, piping sche-
+matics, assembly line diagrams, circuit diagrams, hierarchi-
+cal relationships, network layouts, network schematics,
+organizational charts, and the like. In embodiments, a layout
+definition may include a set of properties of an object or
+environment. Examples of properties of an object may
+include physical properties, such as a material of an object,
+[col 2]
+Feb.3,2022
+a weight of an object, a density of an object, a conductivity
+of an object, a resistance of an object, a maximum speed of
+an object, a maximum acceleration of an object, possible
+movements of an object, a reactivity of an object, and/or the
+like. Examples of properties of an environment may include
+materials of the floors, walls, the roof, and the like, coefi-
+cient of friction of the floor, restricted areas within the
+environment, paths within the environment, and/or other
+suitable properties. In some embodiments, users may upload
+layout definitions, process definitions, and/or spatial defini-
+tions to the digital twin system 8004. Additionally or alter-
+natively, the digital twin system 8004 may provide a graphi-
+definitions, process definitions, and/or spatial definitions. In
+some embodiments, users may import digital twins from 3rd
+party sources. For example, a producer of a particular object
+may also provide a digital twin of the object, which may then
+be imported to the digital twin system 8004.
+[1169]  During system data configuration and ingestion, a
+user defines the data sources that provide data that hydrates
+or populates a digital twin and configures a data bus to
+receive data from the various data sources. As discussed, the
+data sources may be received from various systems, includ-
+ing sensor systems, ERPs, CRMs, financial systems, inven-
+tory management systems, invoicing systems, 3rd party
+systems (e.g., weather services, news services, government
+databases, and the like), and other suitable systems. In
+embodiments, the user may identify the data sources and
+may provide any information required to enable a data bus
+to receive data from the data sources and may further define
+the associations between the data derived from the data
+sources and the digital twin elements. A data bus may refer
+to a middleware layer that provides the data wiring and data
+infrastructure for moving data from one system to another.
+The data bus may be configured to handle real-time data,
+near real-time data, aggregated data, and/or stored data, or
+any combination thereof. The data bus may provide data
+directly to a digital twin and/or may store the data in the data
+warehouse that hydrates the digital twins. In embodiments,
+the user may provide API interface or keys and/or webhook
+URLs to the digital twin system 8004 (e.g., via a GUI)
+thereby enabling data acquisition from the data sources. In
+embodiments, the digital twin system 8004 may configure
+the data bus to access the data sources and/or to receive data
+from the data sources. In some of these embodiments, the
+digital twin system 8004 may generate a webhook URL for
+a particular digital twin or set of digital twins and may
+provide the webhook URL to the data source, such that the
+data source can push real-time or near real-time data to the
+data bus. Additionally or alternatively, the digital twin
+system 8004 may obtain an API interface orkey from the
+data source, such that the data bus can request data from the
+data source using the API interface or key.
+[1170]In embodiments, the digital twin system 8004 may
+generate a foreign key that associates different types of data
+with the structural elements of the digital twin. In this way,
+the foreign key ties particular data types to various structural
+or logical or schematic elements, such that when the digital
+twin is depicted, the real-world data collected from the
+various data sources is connected to the corresponding states
+of the digital twin. For example, sensor data received from
+a subset of sensors of a sensor system that monitor a
+particular machine component in a real world environment
+may be associated with a digital twin of a machine compo-

@@ -1,0 +1,136 @@
+and data collected from data sources related to a set of value 35 machine predictive maintenance model, A predictive main-
+[col 1]
+US 12,314,060 B2
+161
+Also, the platform 604 may provide real-time visualiza-
+tion and analysis of mobility flows in the value chain
+network. This may help in quantifying risks, improving
+visibility and reacting to the disruptions in the value chain
+network. For example, real-time visualization of a utility
+flow for shipping activities using a digital twin may help in
+detecting the occurrence and location of an emergency
+involving a shipping system and deploying emergency ser-
+vices to the detected location.
+In embodiments, the platform may deploy digital twins
+1700 of value chain network entities 652 for more accurate
+determination of accident fault. The platform may learn on
+a training set of accident outcomes, parameters, and data
+collected from the monitoring layer 614 and data sources of
+the data storage layer 624 to train artificial intelligence
+system 1160 using a set of digital twins 1700 of involved
+value chain network entities 652 to determine accident fault.
+For example, data from digital twins of two colliding
+vehicles may be compared with each other in addition to 20
+data from the drivers, witnesses and police reports to deter-
+mine accident fault.
+In embodiments, the platform may include a system for
+learning on a training set of vehicular event outcomes,
+parameters, and data collected from data sources related to 25
+a set of value chain network entities 652 to train artificial
+intelligence system 1160 to use a digital twins 1700 of a
+selected set of value chain network entities 652 to detect an
+incidence of fraud. For example, comparing vehicular event
+data from digital twins of vehicles to any insurance claims, 30
+contract claims, maritime claims on such vehicles may help
+in detecting any mismatch in the two.
+In embodiments, the platform may include a system for
+learning on a training set of vehicle outcomes, parameters,
+chain network entities 652 to train artificial intelligence
+system 1160 to use a digital twin 1700 of a selected set of
+value chain network entities 652 to detect unreported abnor-
+mal events with respect to selected set of value chain
+network entities 652.Consideran examplewherethedigital 40
+twin of a vehicle shows an abnormal event like an accident
+but this event has not been reported by the driver of the
+vehicle. The unreported event may be added to the record of
+the vehicle and the driver by a lessor of the vehicle. Also, the
+lessor of the vehicle may charge the lessee for repairs or 45
+diminished value of the vehicle at lease-end and adjust
+residual value forecast for the same. Similarly, an insurer
+may add the unreported event to the record of the vehicle
+and the driver. The reporting may be as detailed as the exact
+nature, timing, location, fault, etc. of the accident or just the 5o f
+fact there was unreported accident. This information may
+then be used for calculating the insurance premium.
+Finally, in case there are multiple entities involved in the
+accident, the data may be triangulated with the digital twin
+of another entity for validation. 55
+Value Chain Predictive Maintenance (PMVC)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 to predict when a set of value
+chain network entities should receive maintenance.
+The digital twin may predict the anticipated wear and 60t
+failure of components of a system by reviewing historical
+and current operational data thereby reducing the risk of
+unplanned downtime and the need for scheduled mainte-
+nance. Instead of over-servicing or over-maintaining prod-
+ucts to avoid costly downtime, repairs or replacement, any 65
+product performance issues predicted by the digital twin
+may be addressed in a proactive or just-in-time manner.
+[col 2]
+The digital twins 1700 may collect events or state data
+about value chain entities 652 from the monitoring layer 614
+and historical or other data from selected data sources of the
+data storage layer 624. Predictive analytics powered by the
+artificial intelligence system 1160 dissect the data, search for
+correlations, and formulate predictions about maintenance
+need and remaining useful life of a set of value chain entities
+652.
+The platform 604 may include a system for learning on a
+1o training set of outcomes, parameters, and data collected
+from data sources relating to a set of value chain network
+activities to train artificial intelligence systems 1160 (includ-
+ing any of the various expert systems, artificial intelligence
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the
+documents incorporated) for performing condition monitor-
+ing, anomaly detection, failure forecasting and predictive
+maintenance of a set of value chain entities 652.
+In embodiments, the platform may include a system for
+learning on a training set of machine maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of machine activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a machine using a digital twin of the machine.
+In embodiments, artificial intelligence system 1160 may
+train models, such as predictive models (e.g., various types
+of neural networks, classification-based models, regression
+based models, and other machine-learned models). In
+embodiments, training can be supervised, semi-supervised,
+or unsupervised. In embodiments, training can be done using
+training data, which may be collected or generated for
+training purposes.
+An example artificial intelligence system 1160 trains a
+tenance model may be a model that receives machine related
+data and outputs one or more predictions or answers regard-
+ing the remaining life of the machine. The training data can
+be gathered from multiple sources including machine speci-
+fications, environmental data, sensor data, run information,
+outcome data and notes maintained by machine operators.
+The artificial intelligence system 1160 takes in the raw data,
+pre-processes it and applies machine learning algorithms to
+generate the predictive maintenance model. In embodi-
+ments, the artificial intelligence system 1160 may store the
+predictive model in a model datastore within data storage
+layer624.
+Some examples of questions that the predictive model
+may answer are: when will the machine fail, what type of
+failure it will be, what is the probability that a failure will
+occur within the next X hours, what is the remaining useful
+life of the machine, is the machine behaving in an unchar-
+acteristic manner, which machine requires maintenance
+most urgently and the like.
+The artificial intelligence system 1160 may train multiple
+predictive models to answer different questions. For
+example, a classification model may be trained to predict
+failure within a given time window, while a regression
+model may be trained to predict the remaining useful life of
+the machine.
+In embodiments, training may be done based on feedback
+received by the system, which is also referred to as “rein-
+forcement learning." In embodiments, the artificial intelli-
+gence system 1160 may receive a set of circumstances that
+led to a prediction (e.g. attributes of a machine, attributes of
+a model, and the like) and an outcome related to the machine
+and may update the model according to the feedback.

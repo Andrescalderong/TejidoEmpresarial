@@ -1,0 +1,132 @@
+[col 1]
+US2022/0044204A1
+171
+[1310] In embodiments, the network enhancement system
+8424 may be configured to optimize data flow between a
+plurality of nodes over a plurality of data paths. In some
+embodiments, the network enhancement system 8424 may
+transmit a first portion of data over a first path of the plurality
+of data paths and a second portion of data over a second path
+of the plurality of data paths. The network enhancement
+system 8424 may determine that one or more data paths,
+such as the first data path, the second data path, other data
+paths, are advantageous for transmission of one or more
+portions of data. The network enhancement system 8424
+may make determinations of advantageous data paths based
+upon one or more networking variables, such as one or more
+types of data being transmitted, one or more protocols being
+suitable for transmission, present and/or anticipated network
+congestion, timing of data transmission, present and/or
+anticipated volumes of data being or to be transmitted, and
+the like. Protocols suitable for transmission may include
+transmission control protocol (TCP), user datagram protocol
+(UDP), and the like. In some embodiments, the network
+enhancement system may be configured to implement a
+method for data communication such as is disclosed by U.S.
+Pat. No. 9,979,664 to Ho et al., the entirety of which is
+hereby incorporated by reference.
+[1311] The EMP 8000 receives enterprise data (e.g.,
+directly or via the network enhancement system 8424, an
+edge intelligence system 8422, a local data collection system
+8420 or from any other data source). In embodiments, the
+digital twin system 8004 may structure and/or store the
+enterprise data in one or more digital twin databases (e.g.,
+graph databases, relational databases, SQL databases, dis-
+tributed databases, blockchains, caches, servers, and/or the
+like). In embodiments, the client application 8052 requests
+an enterprise digital twin 8410 from the EMP 8000.In
+response, the digital twin system 8004 may generate and
+serve the requested enterprise digital twin 8410 (e.g., a
+role-based digital twin, executive digital twin, environment
+digital twin, process digital twin, cohort digital twins, or the
+like) to the client application 8052, whereby the enterprise
+digital twin 8410 may include the enterprise data and/or data
+that was derived from the enterprise data (e.g by the
+intelligence services system). The client application 8052
+may provide an interface for the user ofthe client application
+8052 to interact with the requested digital twin 8410. For
+example, the user may delegate tasks relating to a depicted
+state to subordinates and/or may notify a superior of a
+depicted state via the digital twin interface. In another
+example, the user may drill down into a particular state and
+may initiate a corrective action via the digital twin interface.
+In some embodiments, the client application 8052 may
+allow the user to share the digital twin 8410 (or a portion
+thereof) within a collaboration tool 8414 or access collabo-
+ration features of a collaboration tool 8414 within the twin
+8410.For example, the client application 8052 may allow
+the user to share a depicted state of the digital twin 8410 into
+a board meeting collaboration tool Additionally or alterna-
+tively, an expert agent 8364 may monitor the interactions of
+the user with the digital twin and may report the interactions
+to the expert agent system 8008 of the EMP. In embodi-
+ments, the expert agent system 8008 may receive the inter-
+actions and may train the expert agent 8364 based on the
+interactions with the digital twin, as well as outcomes
+stemming from the expert agent. For example, the expert
+[col 2]
+Feb.10,2022
+agent may be trained to identify situations where the user
+delegates tasks or notifies a superior.
+[1312]  The executive digital twins discussed with respect
+to FIG. 71 are provided for example and not intended to limit
+the scope of the disclosure. Additional and/or alternative
+data types may be included in a respective type of executive
+digital twin.
+[1313] FIG. 73 illustrates an example method 8510 for
+configuring and serving an enterprise digital twin. In
+embodiments, the method may be executed by the digital
+twin system 8004. The method may be performed with
+respect to different types of enterprise digital twins, includ-
+ing role-based digital twins (e.g-, executive digital twins),
+cohort digital twins, environment digital twins, process
+digital twins, and/or the like.
+[1314] At 8512, the structural views for a particular type
+of digital twin are selected. In embodiments, the structural
+views can be stored in a graph database (representing
+interconnected data) or in a geospatial database (represent-
+ing coordinates of actual facilities).
+[1315]At 8514, associated transactional data for the digi-
+tal twin is selected. In embodiments, a combination of
+interaction data and transaction data is selected at grain that
+is suitable for the dynamic interaction within the digital twin
+is selected. This selection process may involve dynamic
+configuration of the structure, functions and features of a
+data mart or other summarization system and/or may work
+dynamically using typically high-performance database
+storage mechanisms (such as columnar databases or in
+memory databases).
+[1316]At 8516, embellishment and/or augmentation data
+for the digital twin is selected. In embodiments, embellish-
+ment data are the associated attributes that can be tied to
+elements within the executive digital twin. For example, in
+generating an environment digital twin of a facility, embel-
+lishment or augmentation data may include the ages of
+machinery or other assets in the facility, the names of key
+third-party suppliers that could replace items with supply
+chain deliveries, the inputs or outputs of process flows that
+occur within the facility, identities of managers, indicators of
+states and flows, and many others. In an abstract executive
+digital twin the embellishment data may include social
+media data, for example sentiment analytics that can be
+associated with the customer hierarchical views.
+[1317] At 8518, a representation medium for the digital
+twin is selected. In embodiments, the final representation
+can be multi-faceted, this can include a range of devices
+from simple mobile phone-based devices and touchscreen
+tablets to special-purpose devices and/or immersive AR/VR
+headsets, among many others. The representation medium
+impacts the volume and nature of data that is preferably
+selected in the earlier steps. In embodiments, selection of a
+representation medium is provided as a feedback indicator to
+the data and networking pipeline, such that filtering and data
+path selection can be undertaken with awareness of end
+device and other capabilities and requirements of the rep-
+resentation medium. This may occur automatically, such as
+by an agent that is trained to provide context-sensitive
+feedback based on a training set of outcomes.
+[1318] At 8520, the perspective views are constructed. In
+embodiments, the perspective builder 8110 generates a level
+and nature of data that allows for different types of user to
+interact with the digital twin while gaining the appropriate
+level of perspective. For example, with a CEO-level view

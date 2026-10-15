@@ -1,0 +1,132 @@
+[col 1]
+US2022/0035342A1
+136
+automation or other techniques. In some of these embodi-
+ments, a client application 8052 may execute on a client
+device 8050 (e.g. a user device, such as a tablet, an AR
+and/or VR headset, a mobile device, or a laptop, an embed-
+ded device, an enterprise server, or the like) associated with
+a user (e.g-, an executive, an administrative assistant of the
+executive, a board member, a role-based expert, a manager,
+a worker, or any other suitable employee or affiliate). In
+embodiments, the client application 8052 may record the
+interactions of a user with the client application 8052 and
+In these embodiments, the client application 8052 may
+further record and report features relating to the interaction,
+such as any stimuli or inputs that were presented to the user,
+what the user was viewing at the time of the interaction, the
+type of interaction, the role of the user, whether the inter-
+action was requested by someone else, the role of the
+individual that requested the interaction, contextual infor-
+mation, state information, workflow information, event
+information, and the like. The expert agent system 8008 may
+receive the interaction data and related features and may
+generate, train, configure, and/or update an executive agent
+based thereon. In embodiments, the interactions may be
+interactions by the user with an enterprise digital twin (e.g,
+an environment digital twin, a role-based digital twin, a
+process digital twin, and the like). In embodiments, the
+interactions may be interactions by the user with data, such
+as sensor data (e.g-, vibration data, temperature data, pres-
+sure data, humidity data, radiation data, electromagnetic
+radiation data, motion data, and/or the like) and/or data
+streams collected form physical entities of the enterprise
+(e.g., machinery, a building, a shipping container, or the
+like), data from various enterprise and/or third-party data
+sources (as described throughout this disclosure and incor-
+porated documents), entity data (such as characteristics,
+features, parameters, settings, configurations, attributes and
+the like), workflow data (such as timing, decision steps,
+events, tasks activities, dependencies, resources, or the like),
+and many other types of data. For example, a user may be
+presented with sensor data from a particular piece of
+machinery or equipment and, in response, may determine
+that a corrective action to be taken with respect to the piece
+of machinery or equipment. In this example, the expert agent
+may be trained on the conditions that cause the user to take
+a corrective action as well as instances where the user did
+not take corrective actions. In this example, the expert agent
+may learn the circumstances in which corrective action is
+taken.
+[1125] In embodiments, the expert agent system 8008 may
+train expert agents based on user interactions with network
+entities and/or computation entities. For example, the expert
+agent system 8008 may train an expert agent to learn the
+manner by which an IT expert diagnoses and handles a
+security breach. In this example, the expert agent may be
+trained to learn the steps undertaken by the expert to
+diagnose a security breach, the individuals within the enter-
+prise that the security breach is reported to, and any actions
+undertaken by the expert to resolve the security breach.
+[1126] In embodiments, the types of actions that an expert
+agent may be trained to perform/recommend include: selec-
+tion of a tool, selection of a task, selection of a dimension,
+setting of a parameter, configuration of settings, flagging an
+item for review, providing an alert, providing a summary
+report of data, selection of an object, selection of a work-
+[col 2]
+Feb.3,2022
+flow, triggering of a workflow, ordering of a process, order-
+ing of a workflow, cessation of a workflow, selection of a
+data set, selection of a design choice, creation of a set of
+design choices, identification of a failure mode, identifica-
+tion of a fault, identification of an operating mode, identi-
+fication of a problem, selection of a human resource, selec-
+tion of a workforce resource, providing an instruction to a
+human resource, and providing an instruction to a workforce
+resource, amongst other possible types of actions. In
+embodiments, an expert agent may be trained to perform
+other types of tasks, such as: determining an architecture for
+a system, reporting on a status, reporting on an event,
+reporting on a context, reporting on a condition, determining
+a model, configuring a model, populating a model, designing
+a system, designing a process, designing an apparatus,
+engineering a system, engineering a device, engineering a
+process, engineering a product, maintaining a system, main-
+taining a device, maintaining a process, maintaining a net-
+work, maintaining a computational resource, maintaining
+equipment, maintaining hardware, repairing a system,
+repairing a device, repairing a process, repairing a network,
+repairing a computational resource, repairing equipment,
+repairing hardware, assembling a system, assembling a
+device, assembling a process, assembling a network, assem-
+bling a computational resource, assembling equipment,
+assembling hardware, setting a price, physically securing a
+system, physically securing a device, physically securing a
+process, physically securing a network, physically securing
+a computational resource, physically securing equipment,
+physically securing hardware, cyber-securing a system,
+cyber-securing a device, cyber-securing a process, cyber-
+securing a network, cyber-securing a computational
+resource, cyber-securing equipment, cyber-securing hard-
+ware, detecting a threat, detecting a fault, tuning a system,
+tuning a device, tuning a process, tuning a network, tuning
+a computational resource, tuning equipment, tuning hard-
+ware, optimizing a system, optimizing a device, optimizing
+a process, optimizing a network, optimizing a computational
+resource, optimizing equipment, optimizing hardware,
+monitoring a system, monitoring a device, monitoring a
+process, monitoring a network, monitoring a computational
+resource, monitoring equipment, monitoring hardware, con-
+figuring a system, configuring a device, configuring a pro-
+cess, configuring a network, configuring a computational
+resource, configuring equipment, and configuring hardware.
+As discussed, an expert agent is configured to determine an
+action and may output the action to a client application 8052.
+Examples of an output of an expert agent may include a
+recommendation, a classification, a prediction, a control
+instruction, an input selection, a protocol selection, a com-
+munication, an alert, a target selection for a communication,
+a data storage selection, a computational selection, a con-
+figuration, an event detection, a forecast, and the like.
+Furthermore, in some embodiments, the expert agent system
+8008 may train expert agents to provide training and/or
+guidance rather in addition to or in lieu of outputting an
+action. In these embodiments, the training and/or guidance
+may be specific for a particular individual or role or may be
+used for other individuals.
+[1127]  In embodiments, the expert agent system 8008 is
+configured to provide benefits to experts that participate in
+the training of expert agents. In some embodiments, the
+benefit is a reward that is provided based on the outcomes
+stemming from the user of an expert agent that is trained at

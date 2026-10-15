@@ -1,0 +1,138 @@
+[col 1]
+US 12,277,524 B2
+253
+twin may include providing inputs as to the requirements of
+the digital twin for low-latency, high quality-of-service, high
+accuracy, high granularity, high reliability, or the like, based
+on, for example, the priority of the mission served by the
+data type. In embodiments, an intelligent expert agent (or
+"intelligent agent"' or "expert agent'") may be trained on a
+training set of configurations of inputs to one or more data
+pipelines that were previously configured by experts, such
+that the intelligent agent may learn to automatically config-
+ure APIs for digital twins to provide appropriate inputs to
+data pipelines for subsequent digital twins involving similar
+or analogous workflows for similar or analogous roles,
+identities, industries and/or domains. In embodiments, such
+training of an intelligent agent may include learning as to
+specific user interactions, such as learning which users 15 s
+within a role use which types of data at what times and for
+allocated to support actual user requirements. For example,
+an automated intelligent agent managing the configuration
+of a data pipeline for a COO digital twin may learn that an 20
+operations executive (e.g., a COO user) checks production
+data for each facility at the end of each eight-hour shift (e.g.
+after 5:00 pm), such that mid-shift data updates are delivered
+over lower-cost data resources, but end-of-shift data is
+delivered over low-latency data paths that have high reli- 25
+ability and quality-of-service. Continuing this example, the
+intelligent agent may determine the frequency at which the
+production data is updated with respect to the COO digital
+twin, such that the COO digital twin is updated less fre-
+quently in the mornings and mid-afternoons, but is updated 30 
+more frequently at the end of business hours. In embodi-
+ments, the intelligent agent may be configured with business
+logic that defines overall strategies (e.g., when to use low-
+latency networks v. higher-latency networks and/or how
+often to update a certain type of data within a particular 35
+digital twin) and customized based on the preferences and
+use by the end user of the digital twin, whereby the overall
+strategies may be learned from training data sets obtained
+from experts and/or may be hard-coded by a developer, and
+the customization piece may be learned from monitoring the 40
+use of the digital twin by the end intended user (e.g., when
+she typically checks the production data of each facility).
+Additional or alternative examples of such data prioritiza-
+tion strategies and/or other configuration strategies should
+be understood to be encompassed herein. For example, upon 45
+receipt of inputs as to performance requirements, artificial
+intelligence capabilities of the data pipeline that is integrated
+with, linked to, or supporting of the EMP 100 may auto-
+matically or under user control employ techniques to pro-
+vide appropriate resources at the right time and place, 50 
+including, but not limited to: adaptive coding of data path
+transmissions between networked data communication
+nodes; adaptive filtering, repeating and amplification of
+RF/wireless signals (including software-implemented band-
+pass filtering); dynamic allocation of use of cellular and 55
+other wireless spectrum, adaptive, ad-hoc, cognitive man-
+agement of wireless mesh network nodes; adaptive data
+storage; cost-based routing of wireless and wired signals;
+priority-based routing; channel- and performance-aware
+protocol selection for communications; context-aware allo- 60
+cation of computational resources, serverless computational
+systems, adaptive edge computational systems, channel-
+aware error correction, smart-contract-implemented net-
+work resource allocation; and/or other suitable techniques.
+In embodiments, the digital twin system 8004 may be 65
+further configured to perform simulations and modeling with
+respect to the enterprise digital twins. In embodiments, the
+[col 2]
+254
+digital twin system 8004 is configured to run data simula-
+tions and/or environment simulations using a digital twin.
+For example, a user may, via a client device, instruct the
+digital twin system 8004 to perform a simulation with
+respect to one or more states and/or workflows depicted in
+a digital twin. The digital twin system 8004 may run the
+simulation on the digital twin and may depict the results of
+the simulation in the digital twin. In this example, the digital
+twin may need to simulate at least some of the data used to
+run the simulation of the environment, so that there is
+reliable data when performing the requested environment
+simulation. The digital twin system 8004 is discussed in
+greater detail throughout the disclosure.
+In embodiments, the collaboration suite 8006 provides a
+set of various collaboration tools that may be leveraged by
+various users of an enterprise. The collaboration tools may
+include video conferencing tools, “in-twin" collaboration
+tools, whiteboard tools, presentation tools, word processing
+tools, spreadsheet tools, and the like. In embodiments, an
+"in-twin" collaboration tool allows multiple users to view
+and collaborate within a digital twin. For example, in
+embodiments, the collaboration tools may include an in-twin
+collaboration tool that that enables a digital twin experience
+and a collaboration experience within the same interface
+(e.g., within a AR/VR-enabled user interface, a standard
+GUI, or the like), such as where collaboration entities and
+events (such as version-controlled objects, comment
+streams, editing events and other changes) are represented
+within the digital twin interface and linked to digital twin
+entities. For example, multiple users may be granted access
+to view an environment digital twin of a facility, such as a
+warehouse or factory, via an in-twin collaboration tool. Once
+viewing the environment digital twin, the users may then
+change one or more features of the environment depicted in
+the environment digital twin and may instruct the digital
+twin system to perform a simulation. In this example, the
+results of the simulation may be presented to the users in the
+digital twin and may be automatically populated into a
+shared document (e.g., a spreadsheet or presentation docu-
+ment). Users may collaborate in additional manners with
+respect to a digital twin, as will be discussed throughout the
+disclosure. For example, in some embodiments, the collabo-
+ration suite 8006 may allow a user to call a video conference
+with another user, where the users see each other and see
+aspects of a specific digital twin that relates to the topics of
+discussion for the conference. In this example, users may,
+for example, see a representation of workpiece under dis-
+cussion and see each other, so that a user can see gestures or
+indications from another user about how the workpiece
+should be acted upon, In another example, a conferencing
+feature of the twin may show participants in a view of a set
+of environments of facilities by their locations, so that users
+can recognize which participants may have closest proxim-
+ity to relevant assets that are the subject of collaboration. In
+some embodiments, the collaboration suite 8006 interfaces
+with third-party applications, whereby data may be imported
+to and/or from the third-party application. For example, in
+collaborating on a Board presentation, different executives
+may export data from their respective executive digital twin
+into a shared presentation file (e.g., PowerPointTM file or
+GoogleTM slide presentation). In another example, a first
+user (e.g-, the CEO of an enterprise) may request certain
+information (e.g-, financial projections for the enterprise)
+from a second user (e.g., the CTO of the enterprise) via a
+first executive digital twin configured for the first user (e.g.,
+a CEO digital twin of the enterprise). In response, the second
+user may upload/export the requested data from a second

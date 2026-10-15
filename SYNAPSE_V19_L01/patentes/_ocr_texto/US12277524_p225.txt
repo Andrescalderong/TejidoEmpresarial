@@ -1,0 +1,135 @@
+[col 1]
+US 12,277,524 B2
+275
+occurs totally in software, or in human-in-the-loop environ-
+ments where the digital twin represents systems or generates
+data needed to meet experiment objectives. Furthermore,
+digital twin simulations can be used to train persons using a
+perspective-appropriate virtual environment that would oth-
+erwise be difficult or expensive to produce.
+In embodiments, simulation environments may be con-
+structed using models configured to predict a set of future
+ states. These models may include deep learning, regression
+models, quantum prediction engines, inference engines,
+pattern recognition engines, and many other forms of mod-
+elling engines that use historical outcomes, current state
+information, and other inputs to build a future state predic-
+tion. In some embodiments, a consideration in making the
+digital twin models' function is the ability to also show the
+response of the perspective-based digital twin structural
+elements (e.g-, defining the deformation of the axle of a
+vehicle in response to different size loads). For example, the
+resultant digital twin representation can then be presented to
+the user in a virtual reality or augmented reality environment
+where specific perspectives are shown in their digital twin
+form.
+In embodiments, digital twins, as described herein, may
+operate in coordination with an adaptive edge computing
+system and/or a set of adaptive edge computing systems that 25
+provide coordinated edge computation include a wide range
+of systems, such as classification systems (such as image
+others), video processing systems (such as video compres-
+sion systems), signal processing systems (such as analog- 301
+to-digital transformation systems, digital-to-analog transfor-
+mation systems, RF fitering systems, analog, signal
+processing systems, multiplexing systems, statistical signal
+processing systems, signal filtering systems, natural lan-
+guage processing systems, sound processing systems, ultra- 35
+sound processing systems, and many others), data process-
+ing systems (such as data filtering systems, data integration
+systems, data extraction systems, data loading systems, data
+transformation systems, point cloud processing systems,
+data normalization systems, data cleansing system, data 40
+deduplication systems, graph-based data storage systems,
+object-oriented data storage systems, and others), predictive
+systems (such as motion prediction systems, output predic-
+tion systems, activity prediction systems, fault prediction
+systems, failure prediction systems, accident prediction sys- 45
+tems, event predictions systems, event prediction systems,
+selection systems, storage configuration systems, peer-to-
+peer network configuration systems, power management
+systems, self-configuration systems, self-healing systems, 50 
+handshake negotiation systems, and others), artificial intel-
+ligence systems (such as clustering systems, variation sys-
+tems, machine learning systems, expert systems, rule-based
+systems, deep learning systems, and many others), system
+management and control systems (such as autonomous 55
+control systems, robotic control systems, RF spectrum man-
+ storage management systems, data management systems,
+and others), robotic process automation systems, analytic
+and modeling systems (such as data visualization systems, 60
+clustering systems, similarity analysis systems, random for-
+est systems, physical modeling systems, interaction model-
+ing systems, simulation systems, and many others), entity
+discovery systems, security systems (such as cybersecurity
+systems, biometric systems, intrusion detection systems, 65
+firewall systems, and others), rules engine systems, work-
+[col 2]
+276
+testing and diagnostic systems, software image propagation
+systems, virtualization systems, digital twin systems, IoT
+monitoring systems, routing systems, switching systems,
+indoor location systems, geolocation systems, and others.
+In embodiments, the digital twin notification system 8118
+provides notifications to users via enterprise digital twins
+associated with the respective users. In some embodiments,
+digital twin notifications are an important part of the overall
+interaction.Digital twin notification system 8118 may pro-
+1o videthe digital twin notifications within the context of the
+digital twin setting so that the perspective view of the
+notification is set up specifically to enable enlightenment of
+how the notification fits into the general digital twin repre-
+sented ontology, taxonomy, topology or the like.
+As discussed, a digital twin model is based on a combi-
+nation of data and the data's relationship to the digital twin
+environments and/or processes. As such, different digital
+twins may share the same data and different digital twin
+perspectives can be the results of a set of metadata built on
+top of a digital twin data model or data environment. In
+embodiments, the digital twin data model provides the
+details of the information to be stored and it is used to build
+a layered system where the final computer software code is
+able to represent the information in the lower levels in a
+form that is appropriate for the digital twin perspective being
+used. One aspect of the digital twin model is that one digital
+can be shared across multiple perspectives, each perspective
+viewer can then interact with the same underlying digital
+twin model. In this way the multiple perspectives are like
+translations allowing each type of user to interact in an
+appropriate way for their skill sets or their level of knowl-
+edge.
+FIG. 70 illustrates an example of a digital twin data model
+and the manner by which a digital twin is generated,
+executed, and served to a requesting digital twin application,
+wherein the digital twin data model defines the physical
+implementation of the underlying data streams from existing
+systems and digital twin structures to achieve a digital twin
+representation. In embodiments, the digital twin data model
+81B00definesthemannerbywhichtraditionaldata streams
+are tied together with the digital twin structures to achieve
+the digital twin representation. In embodiments, digital
+twins are a combination of processes/structures and system
+data streams. Put another way, process and structure defi-
+nitions define the real-world "things" (for example a factory,
+a robot, a cargo container, a ship, a road, or the like) or
+logical “things" (for example an organizational chart, a
+hiring process, a marketing campaign, a tax reporting work-
+flow, or the like) that are representable by a digital twin,
+while the system data stream definitions define the manner
+by which real-world data may be ingested into digital twin
+representations of the real-world and/or logical "things".
+Thus, configuring a digital twin includes structural configu-
+ration and ingestion and data configuration and ingestion.
+During structural configuration and ingestion, the digital
+twin system 8004 receives the structural aspects of a digital
+twin. In embodiments, the structural aspects may include
+process definitions, layout definitions, and/or spatial defini-
+tions. In embodiments, a process definition defines a logical
+process that can be mapped to a diagrammatic format that
+forms the basis of what a digital twin viewer can interact
+with. Examples of processes may include workflows, hiring
+processes, manufacturing processes, logistics processes,
+inventory processes, product management processes, soft-
+ware processes, and the like. In embodiments, the spatial
+definition defines the geospatial configuration of an object or
+an environment. In embodiments, the spatial definition may

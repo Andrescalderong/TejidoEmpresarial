@@ -1,0 +1,132 @@
+ments, transient data (e.g-, real-time data or substantially 15 levels. In yet another example, a COO may be tasked with
+otherwise provide data relating to an enterprise. As used 2o level. In this example, the COO digital twin may be con-
+[col 1]
+US 12,567,082 B2
+195
+transfer of data between one or more external systems and
+the EMP 8000. In some embodiments, the intelligence
+service system 8010 includes an enterprise data store 8012
+that stores data relating to enterprises, whereby the enter-
+prise data is used by the digital twin system 8004, the
+collaboration suite 8006, and/or the expert agent system
+8008. The enterprise data store 8012 may store any of a wide
+described above and throughout this disclosure and the
+documents incorporated herein by reference. In embodi- 1o
+ments, the enterprise data store 8012 may store data that is
+being used to update digital twins in real-time or substan-
+tially real time. In embodiments, the enterprise data store
+8012 may store databases, file systems, folders, files, docu-
+real-time data), sensor data, and the like.
+In embodiments, the enterprise configuration system 8002
+provides an interface (e.g., a graphical user interface (GUI)
+by which a user (e.g., an on-boarding" user) may upload or
+herein, an enterprise may refer to a for-profit or non-profit
+organization, company, governmental agency, non-govern-
+ing organization, or the like. While described as an on-
+boarding user, the configuration of the enterprise manage-
+ment platform 8000 for a particular enterprise may be 25
+associated with the enterprise, individuals associated with
+the EMP, and/or individuals associated with a third-party,
+such as a third host of a hosted EMP for an enterprise (which
+may bedeployed on cloud resources, platform-as-a-service, 3o
+software-as-a-service, multi-tenant data resources and/or
+similar resources) and/or a service provider.
+In embodiments, the on-boarding user may define the
+digital twin system 8004 on behalf of the enterprise being 35
+on-boarded. In embodiments, the on-boarding user may
+select different types of digital twins that will be supported
+for the enterprise by the EMP 8000 via a GUI presented by
+the enterprise configuration system 8002. For example, the
+user may select different types role-based digital twins from 40
+a menu of digital twin types, where the different types of
+role-based digital twins include executive digital twins. As
+another example, the user may select a type of organiza-
+tional digital twin that is suitable for the user's organization,
+such as from a library of industry-specific or domain- 45 c
+specific organizational templates. In some embodiments,
+each type of executive digital twin has a predefined set of
+states (such term as referenced herein encompassing states,
+entities, relationships, parameters, and other characteristics)
+that are depicted in the respective executive digital twin and 50
+predefined granularity levels and/or other features for each
+state of the set. In some embodiments, the set of states that
+are depicted in the executive digital twin, the granularity of
+each, and/or other features may be customized (e.g., by the
+on-boarding user). In these embodiments, a user may define 55
+the different states that are represented in each type of
+executive digital twin and/or the granularity for each of the
+states depicted in the digital twin. For example, if the CEO
+of an enterprise has a financial background, the CEO may
+wish to have more financial data depicted in the CEO digital
+twin, such that the financial data is displayed at a higher
+granularity, or the CEO may wish to have access to under-
+lying information on financial models that are available to
+the digital twin, such as models used for determination of
+state information (e.g-, financial predictions or forecasts) or 65
+important deviations from expectations). By contrast, if the
+[col 2]
+196
+CEO has less financial experience or training, the CEO
+digital twin may be configured with summary financial data
+intelligent agent trained on a set of enterprise and/or industry
+outcomes) to obtain CFO input when states deviate from
+normal operating conditions. In this example, the CEO
+digital twin may be configured to depict the desired financial
+data fields at a granularity level set defined by a user (e.g..
+the financial data may include various revenue streams, cost
+streams, and the like). In another example, the CEO may
+have a technical background. In this example, the CEO
+digital twin may be configured to depict one or more states
+related to the enterprise's product and R&D efforts, patent
+development, and product roadmaps at higher granularity
+overseeing a product team, a marketing team, and an HR
+department of the enterprise. In this example, the COO may
+wish to view marketing-related states, product development-
+related states, and HR-related states at a lower granularity
+figured to show visual indicators that indicate whether any
+of the states are at a critical condition, an exceptional
+condition, or a satisfactory condition. For instance, if
+employee turnover is very high and employee satisfaction is
+low, the COO digital twin may depict that the HR-state is at
+a critical level. In this configuration, the COO may select to
+drill down into the HR-state, where she may view the
+employee turnover rate, hiring rate, and employee satisfac-
+tion survey results.
+In another example, a COO or CTO digital twin may be
+configured to represent and assist with discovery and man-
+agement of interconnections, relationships and dependen-
+cies between enterprise operations and information technol-
+ogy. For example, a COO digital twin or a CFO digital twin
+may be configured to depict a set of operations entities and
+workflows (e.g-, flow diagrams that represent a production
+process, an assembly process, a logistics process, or the
+like), where entities (including human workers, robots,
+processing equipment, and other assets) are depicted to
+operate on a set of inputs such as materials, components,
+products, containers and information) in order produce and
+hand off a set of outputs (of similar varied types) to the next
+set of entities in the workflow for further processing. These
+may be represented, for example, in a flow diagram that
+depicts each entity and its relationship in the flow to other
+entity. In embodiments, a role-based digital twin (such as a
+CIO digital twin) may also represent an information tech-
+nology system, such as representing sensors, IoT devices,
+data collection and monitoring systems, data storage sys-
+tems, edge and other computational systems, wired and
+wireless networking systems, and the like, including any of
+the types described throughout this disclosure. Each infor-
+mation technology component or system may be depicted in
+the role-based digital twin, along with related data, such as
+specifications, configuration parameters and settings, pro-
+cessing capabilities, along with its relationship to other
+components, such as representing data and networking con-
+nectivity to other components or systems. In embodiments,
+a role-based digital twin may provide a converged view that
+depicts operations technology entities and information tech-
+nology entities in relation to each other, such as indicating
+which information technology entities are located with
+wired or proximal wireless connectivity to which opera-
+tional entities, indicating which informational technology
+entities are logically associated to which operational entities
+(such as where cloud resources, computational resources,
+artificial intelligence resources, database resources, applica-

@@ -1,0 +1,131 @@
+[col 1]
+US2022/0044204A1
+178
+[1368]In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a dynamic neural network that addresses
+nonlinear multivariate behavior and includes learning of
+time-dependent behavior, such as transient phenomena and
+delay effects. Transients may include behavior of progress-
+ing states.
+[1369] In embodiments, cascade correlation may be used
+as an architecture and supervised learning algorithm, supple-
+menting adjustment of the weights in a network of fixed
+topology. Cascade-correlation may begin with a minimal
+network, then automatically trains and add new hidden units
+one by one, creating a multi-layer structure. Once anew
+hidden unit has been added to the network, its input-side
+weights may be frozen. This unit then becomes a permanent
+feature-detector in the network, available for producing
+outputs or for creating other, more complex feature detec-
+tors. The cascade-correlation architecture may learn quickly,
+determine its own size and topology, and retain the struc-
+tures it has built even if the training set changes and requires
+no back-propagation.
+[1370] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a neuro-fuzzy network, such as involving
+a fuzzy interference system in the body of an artificial neural
+network. Depending on the type, several layers may simu-
+late the processes involved in a fuzzy inference, such as
+fuzzification, inference, aggregation and defuzzification.
+Embedding a fuzzy system in a general structure of a neural
+net as the benefit of using available training methods to find
+the parameters of a fuzzy system.
+[1371]   In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a compositional pattern-producing net-
+work (CPPN), such as a variation of an associative neural
+network (ANN) that differs the set of activation functions
+and how they are applied. While typical ANNs often contain
+only sigmoid functions (and sometimes Gaussian functions.
+PPNs can include both types of functions and many others.
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+sampled for a particular display at whatever resolution may
+be optimal. This type of network can add new patterns
+without re-training. In embodiments, methods and systems
+described herein that involve an expert system or self-
+organization capability may use a one-shot associative
+memory network, such as by creating a specific memory
+structure, which assigns each new pattern to an orthogonal
+plane using adjacently connected hierarchical arrays.
+[1372] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a hierarchical temporal memory (HTM)
+neural network, such as involving the structural and algo-
+rithmic properties of the neocortex. HTM may use a biomi-
+metic model, such as based on memory-prediction. HTM
+may be used to discover and infer the high-level causes of
+observed input patterns and sequences.
+[1373] In embodiments, methods and systems described
+capability may use a holographic associative memory
+(HAM) neural network, which may comprise an analog,
+correlation-based, associative, stimulus-response system.
+[col 2]
+Feb.10,2022
+Information may be mapped onto the phase orientation of
+complex numbers. The memory may be effective for asso-
+ciative memory tasks, generalization and pattern recognition
+with changeable attention.
+[1374]  The foregoing neural networks may have a variety
+of nodes or neurons,which may perform a variety of
+functions on inputs, such as inputs received from sensors or
+other data sources, including other nodes. Functions may
+involve weights, features, feature vectors, and the like.
+Neurons may include perceptrons, neurons that mimic bio-
+logical functions (such as of the human senses of touch,
+vision, taste, hearing, and smell), and the like. Continuous
+neurons, such as with sigmoidal activation, may be used in
+the context of various forms of neural net, such as where
+back propagation is involved.
+[1375] In many embodiments, an expert system or neural
+network may be trained, such as by a human operator or
+supervisor, or based on a data set, model, or the like.
+Training may include presenting the neural network with
+one or more training data sets that represent values, such as
+sensor data, event data, parameter data, and other types of
+data (including the many types described throughout this
+disclosure), as well as one or more indicators of an outcome,
+such as an outcome of a process, an outcome of a calcula-
+tion, an outcome of an event, an outcome of an activity, or
+the like. Training may include training in optimization, such
+as training a neural network to optimize one or more systems
+based on one or more optimization approaches, such as
+Bayesianapproaches, parametricBayesclassifier
+approaches, k-nearest-neighbor classifier approaches, itera-
+tion approaches, algorithmic approaches, and the like. Feed-
+back may be provided in a process of variation and selection,
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+[1376] In embodiments, a plurality of neural networks
+may be deployed in a cloud platform that receives data
+streams and other inputs collected (such as by mobile data
+collectors) in one or more industrial environments and
+transmitted to the cloud platform over one or more networks,
+including using network coding to provide efficient trans-
+mission. In the cloud platform, optionally using massively
+parallel computational capability, a plurality of different
+neural networks of several types (including modular forms,
+structure-adaptive forms, hybrids, and the like) may be used
+to undertake prediction,classification, control functions,and
+provide other outputs as described in connection with expert
+systems disclosed throughout this disclosure. The different
+neural networks may be structured to compete with each
+other (optionally including the use of evolutionary algo-
+rithms, genetic algorithms, or the like), such that an appro-
+priate type of neural network, with appropriate input sets,
+weights, node types and functions, and the like, may be
+selected, such as by an expert system, for a specific task
+involved in a given context, workflow, environment process,
+system, or the like.
+[1377]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a feed forward neural network, which
+moves information in one direction, such as from a data
+input, like an analog sensor located on or proximal to an
+industrial machine, through a series of neurons or nodes, to
+an output. Data may move from the input nodes to the output
+nodes, optionally passing through one or more hidden nodes,

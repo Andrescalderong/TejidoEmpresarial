@@ -1,0 +1,135 @@
+In some embodiments, the monitoring agent may be incor- 10 ration system 8102 determines internal and/or external soff-
+is an infrastructure component of the EMP 8000. In embodi- 20 of data to be obtained from the respective data source. For
+[col 1]
+US 12,567,082 B2
+213
+In embodiments, the client application 8052 may include
+a monitoring agent that monitors the manner by which a user
+responds to specific requests (e.g., a request from the CEO
+to populate a report) or notifications (e.g., a notification that
+a piece of machinery requires maintenance). The monitoring
+agent may report the user's response to such prompts to the EMP 8000. In response, the EMP 8000 may train an execu-
+tive agent (which may include one or more machine-learned
+models) to handle such notifications when they next arrive.
+porated in an executive agent that is incorporated in the
+clientapplication8052.
+FIG. 69 illustrates an example set of components of a
+digital twin system 8004. As discussed, a digital twin system
+8004 is configured to generate visual and/or data-based
+digital twins, including enterprise digital twins, and to serve
+the digital twins to a client (e.g., a user device, a server,
+and/or internal and/or external applications that leverage
+digital twins). In embodiments, the digital twin system 8004
+ments, the digital twin system 8004 is a microservice that is
+accessible by the EMP 8000 and/or other components of a
+value chain control tower.
+In embodiments, the digital twin system 8004 is executed
+by a computing system (e.g., one or more servers) that may 25
+include a processing system 8100 that includes one or more
+processors, a storage system 8120 that includes one or more
+computer-readable mediums, and a network interface 8130
+that includes one or more communication units that com-
+municate with a network (e.g., the Internet, a private net- 3o 
+work, and the like). In the illustrated example embodiments,
+the processing system 8100 may execute one or more of a
+digital twin configuration system 8102, digital twin I/O
+system 8104, a data structuring system 8106, a digital twin
+generation system 8108, a digital twinperspectivebuilder 35
+8110, a digital twin access controller 8112, a digital twin
+interaction manager 8114, an digital twin simulation system
+8116, and a digital twin notification system 8118. The
+processing system 8100 may execute additional or alterna-
+tivecomponentswithoutdepartingfromthescopeofthe 4o
+disclosure. In embodiments, the storage system 8120 may
+store enterprise data, such as an enterprise data lake 8122, a
+digital twin data store 8124, a behavior datastore 8126
+and/or other datastore, such as a distributed datastore, such
+as a set of blockchains or distributed data storage resources. 45
+The storage system 8120 may store additional or alternative
+data stores without departing from the scope of the disclo-
+sure. In embodiments, the digital twin system 8004 may
+interface with the other components of the EMP 8000, such
+as the enterprise configuration system 8002, the collabora- 50
+tion suite 8006, the expert agent system 8008, and/or the
+artificial intelligence services system 8010.
+In embodiments, the digital twin configuration system
+8102 is configured to set up and manage the enterprise
+digital twins and associated metadata of an enterprise, to 55
+configure the data structures and data listening threads that
+power the enterprise digital twins, and to configure features
+of the enterprise digital twins, including access features,
+processing features, automation features, reporting features,
+and the like, each of which may be affected by the type of 60
+enterprise digital twin (e.g., based on the role(s) that it
+serves, the entities it depicts, the workflows that it supports
+or enables and thelike). In embodiments, the digital twin
+configuration system 8102 receives the types of digital twins
+that will be supported for the enterprise, as well as the 65
+different objects, entities, and/or states that are to be depicted
+in each type of digital twin. For each type of digital twin, the
+[col 2]
+214
+digital twin configuration system 8102 determines one or
+more data sources and types of data that feed or otherwise
+support each object, entity, or state that is depicted in the
+respective type of digital twin and may determine any
+internal or external software requests (e.g-, API calls) that
+obtain the identified data types or other suitable data acqui-
+sitions mechanisms, such as webhooks, that are configured
+to automatically receive data from an internal or external
+data source In some embodiments, the digital twin configu-
+ware requests that support the identified data types by
+analyzing the relationships between the different types of
+data that correspond to a particular state/entity/object and
+the granularity thereof. Additionally or alternatively, a user
+1 15 may define (e.g-, via a GUI) the data sources and/or software
+requests and/or other data acquisition mechanisms that sup-
+port the respective data types that are depicted in a respec-
+tive digital twin. In these embodiments, the user may
+indicate the data source that are to be accessed and the types
+example, if a user is configuring an enterprise digital twin of
+a supply chain process, the user may identify an inventory
+management system to obtain inventory levels, various
+sensor systems to obtain sensor data from various points
+within the enterprise's supply chain (e.g., manufacturing
+facilities, warehouse facilities, and the like), and other
+suitable systems for other suitable data types. In this data
+definition process a user may associate specific data types
+and/or data sources to corresponding structural elements of
+a digital twin (e.g., layouts, spatial elements, processes, or
+components thereof). For example, the user can match a
+specific cost of a good (e.g., the cost of a bearing on a
+compressor, a headlight that goes into an automobile, an
+automobile, or any other suitable good) that is obtained via
+an API request to a seller of the good with a digital twin
+element representing the good (e.g-, a 3D model of the
+good). In this example, the digital twin of the good may
+depict the cost of the good, and as the price of the good
+changes, so too may the depiction of the good.
+In embodiments, the configuration system 8102 generates
+one or more foreign keys for each digital twin that collec-
+tively associate different data types with the structural
+elements of the digital twin. Thus, when a digital twin is
+generated, the foreign key may be leveraged to connect data
+obtained from the data sources to the structural elements of
+the digital twin. In some embodiments, a configuring user
+may define the associations that are used to generate the set
+of foreign keys.
+In embodiments, the digital twin configuration system
+8102 determines, defines, and manages the data structures
+needed to support each type of digital twin, such as data
+lakes, relational databases, SQL databases, NOSQL data-
+bases, graph databases, and the like. For example, for an
+environment digital twin, the digital twin configuration
+system 8102 may instantiate a database (e.g., a graph
+database that defines the ontology of the environment and
+the objects existing (or potentially existing) within the
+environment and the relationships therebetween),whereby
+the instantiated database contains and/or references the
+underlying data that powers the environmental digital twin
+(e.g, sensor data and analytics relating thereto, 3D maps,
+physical asset twins within the environment, and the like). In
+some embodiments, a user may define an ontology of a
+respective digital twin, such that the ontology defines the
+types of data depicted in the digital twin and the relation-
+ships between those data types. Additionally or alternatively.

@@ -1,0 +1,137 @@
+delegate manufacturing KPIs to another executive digital 1o twin 8304 may provide data, analytics, summary, and/or
+[col 1]
+US 12,277,524 B2
+287
+CEO digital twin 8302 to automate the presentation of data
+and analytics according to pre-defined formats, styles and
+ system requirements. In embodiments, an executive agent
+trained by the user may be trained to surface the most
+important reports to the user. For example, if the user (e.g-.
+the CEO) consistently views and follows up on sales data
+reports but routinely skips over reports relating to the
+manufacturing KPIs, the executive agent may automatically
+surface sales data reports to the user and may automatically
+twin (e.g., the COO digital twin).
+In embodiments, a CEO digital twin 8302 may be con-
+figured to monitor, store, aggregate, merge, analyze, prepare,
+report and distribute material relating to competitors of a
+CEO's organization, or named entities of interest. In 15
+embodiments, such data may be collected by the EMP 8000
+via data aggregation, spidering, web-scraping, or other tech-
+niques to search and collect competitor information from
+sources including, but not limited to, information on invest-
+ment and/or acquisitions, press releases, SEC or other finan- 20
+cial reports, or some other publicly available data. For
+example, a user wishing to monitor a certain competitor may
+request that the CEO digital twin 8302 provide materials
+relating to the certain competitor In response, the EMP 8000
+25
+available or to which the enterprise of the CEO has access
+(e.g., internal data sources, licensed third-party data, or the
+like). The EMP 8000 may configure a cohort digital twin
+8320 based on the types of data/analysis/services the user
+requests and the identified set of data sources. The EMP 30
+8000 may then serve the cohort digital twin 8320 associated
+with the requested party (e.g., competitor) to the CEO digital
+twin 8302.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to monitor, store,aggregate, merge,analyze,prepare, 35
+report and distribute material relating to regulatory activity,
+such as government regulations, industry best practices or
+some other requirement or standard. For example, the CEO
+digital twin 8302 may be in communication with another
+enterprise digital twin, such as a General Counsel digital 40
+twin 8314, through which the legal team can keep the CEO
+apprised of new regulation or regulation changes as they
+occur.
+In embodiments, the client application 8052 that executes
+the CEO digital twin 8302 may be configured with an 45 
+executive agent 8364 that is trained on the CEO's actions
+(which may be indicative of behaviors, and/or preferences).
+In embodiments, the executive agent 8364 may record the
+features relating to the actions (e.g- the circumstances
+relating to the user's action) to the expert agent system 8008. 50 
+For example, the executive agent 8364 may record each time
+the user delegates a task to a subordinate (which is the
+action) as well as the features surrounding the delegation of
+the task (e.g, an event that caused the user to delegate the
+task, the type of task that was delegated, the role to which 55
+the task was delegated, instructions provided by the user
+with the delegation, and the like). The executive agent 8364
+may report the actions and features to the expert agent
+ system 8008 and the expert agent system 8008 may train the
+executive agent 8364 on the manner by which the executive 60
+agent 8364 can delegate or recommend delegation of tasks
+in the future. Once trained, the executive agent 8364 may
+automaticallyperformactionsand/orrecommendactionsto
+the user. Furthermore, in embodiments, the executive agent
+8364 may record outcomes related to the performed/recom- 65
+mended actions, thereby creating a feedback loop with the
+expert agent system 8008.
+[col 2]
+288
+References to features and functions of the EMP and
+digital twins in this example of a CEO digital twin 8302
+should be understood to apply to other digital twins, and
+their respective projects and workflows, except where con-
+text indicates otherwise.
+In embodiments, a Chief Financial officer (CFO) digital
+twin 8304 may be a digital twin configured for a CFO of an
+enterprise, or an analogous executive tasked with overseeing
+the finance-related tasks of the enterprise. A CFO digital
+reporting including, but not limited to, real-time, historical,
+aggregated, comparison, and/or forecasted financial infor-
+mation (e.g., real-time, historical, simulated, and/or fore-
+casted sales figures, expenditures, revenues, liabilities, and
+the like). In embodiments, the CFO digital twin may work
+in connection with the EMP 8000 to provide simulations,
+predictions, statistical summaries, decision support based on
+analytics, machine learning, and/or other AI and learning-
+type processing of inputs (e.g., accounting data, sales data,
+sensor data and the like).
+In embodiments, a CFO digital twin 8304 may provide
+features and functionality including, but not limited to,
+management of financial personnel, partners and outside
+consultants and contractors (e.g., accounting firms, auditors
+ and the like), oversight of budgets, procurement, expendi-
+tures, receivables, and other finance-related resources, com-
+pliance, oversight of sales and sales staff and departments*
+financial performance, management of contracting, manage-
+ment of internal policies (e.g-, policies related to expendi-
+tures and reporting), tax law, finance-related privacy law
+(e.g., pertaining to credit agency data), reporting, compli-
+ance, and regulatory analysis.
+In embodiments, the types of data that may populate a
+CFO digital twin may include, but are not limited to,
+financial performance metrics by business unit, by product,
+by geography, by factory, by store location(s), by asset class,
+earnings, cash, balance sheet data, cash flow, profitability,
+resource utilization, audit data, general ledger data, asset
+performance data, securities and commodities data, insur-
+anceandriskmanagementdata,assetaginganddepreciation
+data, asset allocation data, macroeconomic data, microeco-
+nomic analytic data, tax data, pricing data, competitive
+product and pricing data, forecast data, demand planning
+data, employment and salary data, analytic results of Al
+and/or machine learning modeling (e.g-, financial forecast-
+ing), prediction data, recommendation data, or some other
+type of data relevant to the operations of the CFO and/or
+finance department. In embodiments, “"datum," "data,"
+as used herein, may refer to information that is stored in a
+numeric or statistical format, including summaries, inputs or
+outputs in statistical or scientific notation, and also includes
+information that is stored in natural language format (e.g..
+text excerpts from reports, press releases, statutes and the
+like), information in a graphic format (e.g., financial per-
+formance graphs), information in audio and/or audio-visual
+format (e.g., recorded audio from conference calls or video
+from presentations, including natural language transcript
+summaries of audio and/or audio-visual formatted informa-
+tion), or some other type of information.
+In embodiments, a CFO digital twin 8304 may depict a
+finance department twin of the finance department, which
+the user may use to identify, assign, instruct, oversee and
+review finance department personnel and third-party per-
+sonnel that are associated with the finance activities of an
+organization, including third-party partners and other out-
+side contractors, such as accounting firms, tax lawyers and

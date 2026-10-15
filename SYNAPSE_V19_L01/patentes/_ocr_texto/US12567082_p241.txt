@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+159
+network activities to train an artificial intelligence/machine
+learning system to perform stress tests on a telecommuni-
+cations network using a digital twin that represents a set of
+value chain entities in a connected network of entities and
+the telecommunications network.
+For example, the telecommunications network may be
+stress tested for resiliency by deliberately increasing net-
+work traffic by generating and sending data packets to a
+specific target node within the telecommunications network.
+Further, the amount of traffic may be varied to create varying
+load conditions on the target node by manipulating the
+number, rate or amount of data in the data packets. The
+response from the target node may be determined to evaluate
+how the node performed in the stress test. The target node
+may be selected at different parts of the telecommunications
+network for stress testing so as to test robustness of any
+portion of the network in any topology. The simulated stress
+tests on the telecommunications network may be utilized to
+identify vulnerabilities in any portion of a network so that 20
+the vulnerability can be rectified before users experience
+network outages in a deployed network.
+In embodiments,the platform may include a system for
+using a digital twin that represents a set of value chain
+entities in a demand management environment to perform a 25
+set of stress tests on a set of workflows in the demand
+management environment using the digital twin, wherein the
+stress tests represent impacts in the digital twin of varying a
+set of demand-relevant parameters to levels that exceed
+normal operating levels. For example, the demand of a
+product in the value chain network may be affected by
+factors like changes in consumer confidence, recessions,
+excessive inventory levels, substitute product pricing, over-
+all market indices, currency exchange changes, etc. The
+demand factors twin 1640 may simulate such scenarios by
+varying supply parameters and evaluate the impact of such
+stresses on the demand environments 672. The stress tests
+performed using the digital twins may help in testing and
+evaluating the resiliency of the value chain network both in 40 v
+cases of over-demand and under-demand.
+In embodiments, the platform may include a system for
+using a digital twin that represents a set of value chain
+entities in the supply chain to perform a set of stress tests on
+a set of workflows in the supply chain using the digital twin, 45
+wherein the stress tests represent impacts in the digital twin
+ofvarying a set of supply chain-relevant parameters to levels
+that exceed normal operating levels. For example, the supply
+of a product in the value chain network may be affected by
+factors like weather, natural calamities, traffic congestion, 5o 
+regulatory changes including taxes and subsidies and border
+restrictions, etc. The supply factors twin 1650 may simulate
+such scenarios by varying supply parameters and evaluate
+the impact of such stresses on the supply environments 670.
+The stress tests performed using the digital twins may help 55
+in testing and evaluating the resiliency of the value chain
+network both in cases of over-supply and under-supply.
+Value Chain Incident Management (VCIM)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 for automatically managing a set 60
+of incidents relating to a set of value chain network entities
+and activities. The incidents may include any events causing
+disruption to the value chain network like accidents, fires,
+explosions, labor strikes, increases in tariffs, changes in law,
+changes in market prices (e.g., of fuel, components, mate- 65
+rials, or end products), changes in demand, activities of
+cartels, closures of borders or routes, and/or natural events
+[col 2]
+160
+and/or disasters (including storms, heat waves, winds, earth-
+quakes, floods, hurricanes, tsunamis, etc.), among many
+others.
+Also, the platform 604 may provide real-time visualiza-
+tion and analysis of mobility flows in the value chain
+network. This may help in quantifying risks, improving
+visibility and reacting to the disruptions in the value chain
+network. For example, real-time visualization of a utility
+flow for shipping activities using a digital twin may help in
+detecting the occurrence and location of an emergency
+involving a shipping system and deploying emergency ser-
+vices to the detected location.
+In embodiments, the platform may deploy digital twins
+1700 of value chain network entities 652 for more accurate
+determination of accident fault. The platform may learn on
+a training set of accident outcomes, parameters, and data
+collected from the monitoring layer 614 and data sources of
+the data storage layer 624 to train artificial intelligence
+system 1160 using a set of digital twins 1700 of involved
+value chain network entities 652 to determine accident fault.
+For example, data from digital twins of two colliding
+vehicles may be compared with each other in addition to
+data from the drivers, witnesses and police reports to deter-
+mine accidentfault.
+In embodiments, the platform may include a system for
+learning on a training set of vehicular event outcomes,
+parameters, and data collected from data sources related to
+a set of value chain network entities 652 to train artificial
+intelligence system 1160 to use a digital twins 1700 of a
+selected set of value chain network entities 652 to detect an
+incidence of fraud. For example, comparing vehicular event
+data from digital twins of vehicles to any insurance claims,
+contract claims, maritime claims on such vehicles may help
+in detecting any mismatch in the two.
+In embodiments, the platform may include a system for
+learning on a training set of vehicle outcomes, parameters,
+and data collected from data sources related to a set of value
+chain network entities 652 to train artificial intelligence
+system 1160 to use a digital twin 1700 of a selected set of
+value chain network entities 652 to detect unreported abnor-
+mal events with respect to selected set of value chain
+network entities 652. Consider an example where the digital
+twin of a vehicle shows an abnormal event like an accident
+but this event has not been reported by the driver of the
+vehicle. The unreported event may be added to the record of
+the vehicle and the driver by a lessor ofthe vehicle. Also, the
+lessor of the vehicle may charge the lessee for repairs or
+diminished value of the vehicle at lease-end and adjust
+residual value forecast for the same. Similarly, an insurer
+may add the unreported event to the record of the vehicle
+and the driver. The reporting may be as detailed as the exact
+nature, timing, location, fault, etc. of the accident or just the
+fact there was unreported accident. This information may
+then be used for calculating the insurance premium.
+Finally, in case there are multiple entities involved in the
+accident, the data may be triangulated with the digital twin
+of another entity forvalidation.
+Value Chain Predictive Maintenance (PMVC)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 to predict when a set of value
+chain network entities should receive maintenance.
+The digital twin may predict the anticipated wear and
+failure of components of a system by reviewing historical
+and current operational data thereby reducing the risk of
+unplanned downtime and the need for scheduled mainte-
+nance. Instead of over-servicing or over-maintaining prod-
+ucts to avoid costly downtime, repairs or replacement, any

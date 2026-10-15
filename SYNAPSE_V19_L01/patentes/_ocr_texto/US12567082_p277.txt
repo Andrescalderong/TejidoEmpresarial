@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+231
+ments, the digital twin system 8004 may obtain securities-
+relevant financial data from, for example, the enterprise's
+accounting software (e.g. via an API), publicly disclosed
+financial statements, third-party reports, tax filings, and the
+like. In embodiments, the digital twin system 8004 may
+obtain strategic competitive data from public news sources,
+from publicly disclosed financial reports, and the like. In
+embodiments, macroeconomic data may be derived analyti-
+cally from various financial and operational data collected
+by the EMP 8000. In embodiments, the business perfor- 10
+mance metrics may be derived analytically, based at least in
+part on real time operations data, by the artificial intelligence
+services system 8010 and/or provided from other users
+and/or their respective executive digital twins. The CEO
+digital twin 8302 may be used to define real time operations 15
+data parameters of interest and to monitor, collect, analyze,
+and interpret real time operations data for conformance to
+and alignment with an organization's stated business
+objects, Board requirements, industry best practice, regula-
+tion, or some other criterion. 20
+In embodiments, a CEO digital twin 8302 may include
+high-level views of different states of the enterprise, includ-
+ing real-time and historical representations of major assets,
+the condition of different business units of the enterprise,
+and any mission-critical information. The CEO digital twin 25
+8302 may initially depict the various states at a lower
+granularity level. In embodiments, a user that is viewing the
+CEO digital twin 8302 may select a state to drill down into
+the selected state and view the selected state at a higher level
+of granularity.For example, the CEO digital twin 8302may 30j
+initially depict a subset of the various states of the enterprise
+at a lower granularity level, including a financial-department
+ state (e.g., a visual indicator indicating an overall financial
+health score of the enterprise). In response to selection, the
+CEO digital twin 8302 may provide data, analytics, sum- 35 s
+mary, and/or reporting including, but not limited to, real-
+time, historical, aggregated, comparison, and/or forecasted
+financial information (e.g., real-time, historical, simulated,
+and/or forecasted revenues, liabilities, and the like). In this
+way,the CEOdigital twin8302mayinitiallypresentthe 40r
+user (e.g., the CEO) with a view of various different aspects
+of the enterprise (e.g., different indicators to indicate differ-
+ent “health" levels of a respective business unit or part of the
+enterprise) but may allow the user to select which aspects
+require more ofher attention. In response to such a selection, 45
+the CEO digital twin 8302 may request a more granular view
+of the selected state(s) from the EMP 8000, which may
+return the requested states at the more granular level.
+In embodiments, a CEO digital twin 8302may include an
+executive-level digital twin of the executive department 505
+(e.g., C-suite, directors, Board members, and the like),
+which the user may use to identify, assign, instruct, oversee
+and review executive department personnel and third-party
+personnel, departments, organizations and the like that are
+associated with the activities of the executive of an organi- 55
+zation, including the Board of Directors and the like that are
+involved in the oversight of the organization's management.
+In embodiments, the executive-level digital twin may
+include a definition of the various roles, employees, and
+departments working under the CEO, the reporting structure 60
+for each individual in the business unit and may be popu-
+lated with the various names and/or other identifiers of the
+individuals filling the respective roles. In embodiments, the
+face that provides the user the ability to define/redefine 65
+rics to business units, roles, and/or individuals, and/or
+[col 2]
+232
+assign/delegate tasks to business units, roles, and/or indi-
+viduals, and the like via the executive-level digital twin. In
+embodiments, the executive-level digital twin may provide
+real-time operations data of the organization to continuously
+evaluate the personnel groupings' performance against the
+stored performance criteria.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to interface with the collaboration suite 8006 to
+specify and provide a set of collaboration tools that may be
+leveraged by the executive department and associated par-
+ties. The collaboration tools may include video conferencing
+tools, “in-twin" collaboration tools (e.g., where the collabo-
+ration occurs to some extent within a common interface by
+which the digital twin entities are viewed and collaboration
+activities take place and/or where the components of the
+EMP that used to configure, operate or support the digital
+twin also govern collaboration around digital twin entities
+and workflows), whiteboard tools, agile development envi-
+ronment tools (such as features in SlackTM environments),
+presentation tools, word processing tools, spreadsheet tools,
+and the like, as described herein. Collaboration and com-
+munication rules may be configured based at least in part on
+using the AI reporting tool, as described herein. The col-
+laboration tools may include collaborative communication
+(e.g., facilitating live conferencing where participants are
+simultaneously presented with conference-related views of
+digital twin entities or workflows), asynchronous collabo-
+ration (such as where actions on digital twin entities, com-
+ments, or the like are represented to different users who
+interact with the entities), version control features, and many
+others.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to provide research, track, and report on an executive
+department initiative including, but not limited to, an overall
+strategic goal, policy implementation, product roll-out,
+Board interaction, investment or acquisition, investor rela-
+tions, public relations and press handling, budgeting, or
+some other type of executive initiative. The CEO digital
+twin 8302 may interact with and share such data and
+reporting with other executive digital twins, including, but
+not limited to, a CFO digital twin, a COO digital twin, and
+the like. In embodiments, the CEO digital twin 8302 or an
+executive agent integrated with or within it (such as one
+trained to undertake expert executive actions as described
+elsewhere herein) may leverage intelligence services (e.g.,
+data analytics, machine learning and A.I.processes) to
+analyze financial reports, projections, simulations, budgets,
+and related summaries to identify key departments, person-
+nel, third-party or others that are, for example, listed in, or
+subject to, a project, initiative, budget line item and the like,
+and who therefore may have an interest in such material.
+and summarized for presentation, and formatted and pre-
+sented automatically, or at the direction of the CEO or other
+user, to the party that is the origin of the expense and/or
+subject of the material. For example, the CEO digital twin
+8302 may assemble materials for the purposes of developing
+material for the CEO or other executive personnel to use for
+public presentation. In an example, a CEO in anticipation of
+giving a conference presentation on the introduction of a
+new company product mayuse the CEO digital twin 8302 to
+specify and configure the identification, collection and
+assembly of operations data that is relevant to the upcoming
+presentation, such as product data (e.g-, units produced,
+units shipped), financial data (e.g., products sold, products
+reserved), graphic presentation information (e.g. product

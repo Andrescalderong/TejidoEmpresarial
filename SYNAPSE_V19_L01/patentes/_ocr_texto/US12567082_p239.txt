@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+155
+In embodiments, the platform 604 and applications 630
+may have a system for scheduling the synchronization of a
+physical value chain entity's changing condition to a digital
+twin that represents a set of value chain entities. In embodi-
+ments, the synchronization between the physical value chain
+entity and its digital twin is on a near real-time basis.
+In embodiments, the platform 604 and applications 630
+may have an application programming interface for extract-
+ing, sharing, and/or harmonizing data from information
+technology systems associated with multiple value chain 10 warehouse entities 654.
+network entities that contribute to a single digital twin
+representing a set of value chain entities.
+In embodiments, value chain network management plat-
+form 604 may include various subsystems that may be
+implemented as micro services, such that other subsystems 15
+of the system access the functionality of a subsystem pro-
+face API. In some embodiments, the various services that are
+provided by the subsystems may be deployed in bundles that
+are integrated, such as by a set of APIs. 20
+In embodiments, value chain network management plat-
+form 604 may include a set of microservices for managing
+a set of value chain network entities for an enterprise and
+having a set of processing capabilities for at least one of
+creating, modifying, and managing the parameters of a 25
+digital twin that is used in the platform to represent a set of
+value chain network entities.
+Value Chain Digital Twin Kit (DTIB)
+The value chain network management platform may
+provide a digital twin sub-system in the form of an out-of- 30
+the-box kit system with self-configuring capabilities. The kit
+may provide a data-rich and interactive overview of a set of
+value chain network entities constituting the sub-system. For
+example, a supply chain out-of-the-box digital twin kit
+system may represent a set of supply chain entities that are 35
+linked to the identity of an owner or operator of the supply
+chain entities. The owner or operator of the supply chain
+entity may then use the kit to get a holistic picture of its
+complete portfolio. The owner may investigate for informa-
+tion related to various supply chain entities and ask inter- 40 
+active questions from the digital twin kit system.
+In embodiments, a demand management out-of-the-box
+digital twin kit system may represent a set of demand
+management entities that are linked to the identity of an
+ owner or operator of the demand management entities. 45
+In embodiments, a value chain network digital twin kit
+system for providing out-of-the-box, self-configuring capa-
+bilities may represent a set of demand management entities
+and a set of supply chain entities that are linked to the
+identity of an owner or operator of the demand management 5oj
+entities and the supply chain entities.
+In embodiments, a warehouse digital twin kit system for
+providing out-of-the-box, self-configuring capabilities may
+represent a set of warehouse entities that are linked to the
+identity of an owner or operator of the warehouse.
+Referring now to FIG. 53, an example warehouse digital
+twin kit system 5000 is depicted. The warehouse digital twin
+kit system 5000 includes warehousing twins in the virtual
+ space 5002 representing models of warehouses 654 in the
+real space 5004. 60
+The warehouse digital twin kit system 5000 allows an
+owner or operator 5008 of the one or more warehouse
+entities 654 to get complete portfolio overview of all these
+entitiesexisting or in design or construction. The owner
+5008 may navigate a wealth of information including ware- 65
+house photographs 5010, 3D images 5012, live video feeds
+5014 of real-time construction progress and AR or VR
+[col 2]
+156
+renderings 5018 of the warehousing entities 654. The owner
+5008 may investigate about the health of one or more entities
+654 and ask interactive questions and search for detailed
+information about one or more warehouse entities 654. The
+warehouse digital twin kit system 5000 has access to real
+time dynamic data captured by IoT devices and sensors at
+warehouse entities 654 and may be supported with natural
+language capabilities enabling it to interact with the owner
+5008 and answer any questions about the condition of the
+In embodiments, warehouse digital twin kit system 5000
+may provide the portfolio overview of warehouse entities
+654 to owner 5008 in the form of a 3D information map
+containing all the warehouse entities 654. Owner 5008 may
+select a specific entity on the map and get information about
+inventory, operational and health data from the warehousing
+twin 1710.Alternatively, the owner 5008 may ask for
+informationabouttheoverallportfolioofwarehouseentities
+654 owned. The warehouse digital twin kit system 5000
+consolidates information from the multiple warehousing
+twins 1710 and provides a holistic view. The consolidated
+view may help owner 5008 to optimize operations across
+staffing levels to match current or forecasted demand. The
+owner 5008 may also display the information from ware-
+house digital twin kit system 5000 on a website or marketing
+material to be accessed by any customers, suppliers, vendors
+and other partners.
+In embodiments, a container ship digital twin kit system
+for providing out-of-the-box, self-configuring capabilities
+may represent a set of container ship entities that are linked
+to the identity of an owner or operator of the container ship.
+In embodiments, a port infrastructure digital twin kit
+system for providing out-of-the-box, self-configuring capa-
+bilities may represent a set of port infrastructure entities that
+are linked to the identity of an owner or operator of the port
+infrastructure.
+Value Chain Compatibility Testing (VCCT)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 for testing the compatibility
+between different value chain network entities 652 interact-
+ing with one another and forming various systems and
+subsystems of the value chain network.
+This brings visibility to the compatibility and perfor-
+mance of various systems and subsystems within the value
+chain network before there are any physical impacts. Any
+incompatibilities or performance deficiencies of different
+value chain network entities 652 may be highlighted through
+digital models and simulations rather than having to rely on
+physical systems to perform such tests which is both expen-
+sive and impractical.
+The digital twin 1700 may make use of artificial intelli-
+gence systems 1160 (including any of the various expert
+systems, artificial intelligence systems, neural networks,
+supervised learning systems, machine learning, systems,
+deep learning systems, and other systems described through-
+out this disclosure and in the documents incorporated by
+reference) for carrying out the compatibility testing in the
+value chain network.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of vendor
+components for a container ship using a set of digital twins
+representing the container ship and the vendor components.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of vendor
+components for a warehouse using a set of digital twins
+representing the warehouse and the vendor components.

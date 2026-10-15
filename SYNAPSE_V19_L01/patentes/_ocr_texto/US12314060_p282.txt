@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+199
+digital twins, cohort digital twins and/or process digital
+twins, among others. In some of these embodiments, the user
+may define the data sources used to generate these digital
+twins and to update the enterprise digital twins. In embodi-
+ments, the user may define any physical locations that will
+be represented as an environment digital twin (which maybe
+a digital twin of a facility or other suitable environments).
+For example, the user may define manufacturing facilities
+(e.g., factories), shipping facilities, warehouses, office build-
+ings, and the like. Each facility may be given a location 10
+(which may include a logical and/or virtual location and/or
+a geo-location) and an identifier, such as a name and type
+description. In embodiments, the enterprise configuration
+system 8002 may assign an identifier to each facility and
+may associate the location of the facility with the identifier. 15
+In embodiments, the user may define the types of objects
+that are included in the environment and/or may be found
+within an environment. For example, the user may define the
+types of enterprise resources (e.g-, factory, warehouse, or
+distribution center equipment and machines, assembly lines, 20
+conveyors, vehicles, robots, high-lows, and the like, IT
+systems, workers, and many others) that are in the environ-
+ment, the types of products, materials and components that
+are made in, stored in, moved around, assembled, used as
+inputs within, produced in, sold from, and/or received in the 25
+environment, the types of sensors/sensor kits and/or data
+collection, storage and/or processing devices that are used in
+the environment, the workers and workflows involved, and
+the like. Examples of how environment and process digital
+twins are generated and updated may be found in the U.S. 30
+Provisional Application No. 62/931,193, filed Nov. 5, 2019,
+entitled Methods and Systems of Value Chain Network
+Management Platform and U.S. Provisional Application No.
+62/969,153, filed Feb. 3, 2020, entitled Methods and Sys-
+tems of Value Chain Network Management Platform,the 35
+contents of which are herein incorporated by reference.
+In embodiments, the enterprise configuration system 8002
+(in combination with the digital twin system 8004) is
+configured to generate organizational digital twins that rep-
+resent an organizational structure of an enterprise. In some
+embodiments, the organizational digital twin may depict
+individuals/roles occupying the management and expert
+levels of an enterprise. Alternatively, the organizational
+digital twin may include a workforce digital twin that
+represents the entire workforce of an enterprise, including all 45
+the employees and/or contractors of the enterprise, or a
+defined part thereof. For example, in an enterprise setting.
+workforces may include a logistics workforce, a warehouse
+workforce, a distribution workforce, a reverse logistics
+workforce, a delivery workforce, a factory operations work- 50
+force, a plant operations workforce, a resource extraction
+operations workforce, a network operations workforce (e.g..
+for operating internal networks of an industrial enterprise),
+a sales workforce, a marketing workforce, an advertising
+workforce, a retail workforce, an R&D workforce, a tech- 55
+nology workforce, an engineering workforce, and/or the
+like. In another example, with respect to a value chain
+network, workforces may include a supply chain manage-
+ment workforce, a logistics planning workforce, a vendor
+management workforce, and the like. In another example, in 60
+the context of a marketplace setting, workforces may include
+a brokering workforce for a marketplace, a trading work-
+force for a marketplace, a trade reconciliation workforce for
+a marketplace, a transactional execution workforce for a
+marketplace, and/or the like. Enterprises may include addi- 65
+tional or alternative workforces. In some embodiments, an
+organizational digital twin may include management-level
+[col 2]
+200
+roles within a workforce. Examples of management-level
+roles of an enterprise include a CEO role, a COO role, a CFO
+role, a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+oficer role, a chief data officer role, an investor role, an
+engineering manager role, a project manager role, an opera-
+tions manager role, a business development role. Further-
+more, the management-level roles of a workforce may
+include a factory manager role, a factory operations role, a
+factory worker role, a power plant manager role, a power
+plant operations role, a power plant worker role, an equip-
+ment service role, and an equipment maintenance operator
+role. In a value chain context, the management-level roles of
+a workforce may include a chief marketing officer role, a
+product development role, a supply chain manager role, a
+customer role, a supplier role, a vendor role, a demand
+management role, a marketing manager role, a sales man-
+ager role, a service manager role, a demand forecasting role,
+a retail manager role, a warehouse manager role, a sales-
+person role, and a distribution center manager role. In the
+context of marketplaces, the management-level roles of a
+workforce may include a market maker role, an exchange
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate
+setting role, a market orchestration role, a market configu-
+ration role, and a contract configuration role. It is appreci-
+ated that not all of the roles defined above apply to a
+particular workforce type. Furthermore, some roles may be
+associated with different types of workforces.
+In some embodiments, an organizational digital twin may
+further incorporate data access rules for different divisions
+and/or roles within the organization. For example, the CEO
+may be granted access to most or all of the organization's
+data, the CFO may be granted access to financial-related
+data and restricted from viewing R&D data, the CTO may be
+granted access to R&D-related data and restricted from
+viewing financial data, members of the engineering team
+may be restricted in accessing financial related data, or the
+like. Similar rules may be applied to access to features, such
+as analytic models, artificial intelligence systems, intelligent
+agents, and the like, including role-based or identity-based
+control of the ability to view results, to configure inputs, to
+configure or adjust models (e.g., weights, inputs, or process-
+ing functions), to undertake control actions, or the like. In
+some embodiments, the EMP may utilize the organizational
+digital twin when determining the level of access a particular
+individual may be granted and/or whether to deny certain
+types of access to the individual. In some embodiments, the
+access rights may limit the types of data that particular users
+can access, such as information about each individual listed
+in the organizational digital twin (e.g-, salary, start date,
+availability, work status, and the like). For example, lower
+level employees may not be granted access to sensitive
+information, such as financial data, product strategies, mar-
+keting strategies, trade secrets, or the like. In some embodi-
+ments, certain users may be granted permission to change
+the access rights of other employees, which may be reflected
+in the organizational digital twin. For example, certain
+executives and managers may be granted permission to grant
+access rights to members of their respective teams when
+working on certain projects.
+In embodiments, the enterprise configuration system 8002
+receives an organization chart ("org chart") definition of an
+enterprise and generates an organizational digital twin based
+on the org chart definition. In embodiments, the org chart
+definition may define the business units/departments of the
+enterprise, the reporting structure of the enterprise, various

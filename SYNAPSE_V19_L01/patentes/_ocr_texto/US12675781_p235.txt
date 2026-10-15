@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+219
+permitted to be accessed, what views are represented, levels
+of granularity of views, what analytic models and results can
+be accessed, what simulations can be undertaken, what
+changes can be made (including changes relevant to per-
+missions of other users), communication and collaboration
+features (including receipt of alerts and the capacity to
+communicate directly to digital twins of other roles and
+users), control features, and many others. For convenience
+of reference, references to views, data, features, control or
+ granularity throughout this disclosure should be understood
+specifically indicates otherwise. Granularity may refer to the
+level of detail at which a particular type of data or types of
+data is/are represented in a digital twin. For example, a CEO
+digital twin may include P&L data for a particular time
+period but may not depict the various revenue streams and
+costs that contribute to the P&L data during the time period.
+Continuing this example, the CFO digital twin may depict
+the various revenue streams and costs during the time period
+in addition to the high-level P&L data. The foregoing 20 r
+examples are not intended to limit the scope of the disclo-
+sure. Additional examples and configurations of different
+executive digital twins are described throughout the disclo-
+sure.
+In some embodiments, executive digital twins may allow 25
+a user (e.g., a CEO, CFO, COO, VP, Board member, GC, or
+the like) to increase the granularity of a particular state
+depicted in the digital twin (also referred to “drilling down
+into" a state of the digital twin).For example, a CEO digital
+twin may depict low granularity snapshots or summaries of 30
+P&L data, sales figures, customer satisfaction, employee
+satisfaction, and the like. A user (e.g., the CEO of an
+enterprise) may opt to drill down into the P&L data via a
+client application depicting the CEO digital twin. In
+response,the EMPmay providehigher resolution P&L data,35
+such as real-time revenue streams, real-time cost streams,
+and the like. In another example, the CEO digital twin may
+include visual indicators of different states of the enterprise.
+For example, the CEO digital twin may depict different
+colored icons to differentiate a condition (e.g-, current and/or 40
+forecasted condition) of a respective data item. For example,
+a red icon may indicate a warning state, a yellow icon may
+indicate a neutral state, and a green icon may indicate a
+satisfactory state. In this example, the user (e.g., a CEO)
+may drill down into a particular data item (e.g., may select 45 
+a red sales icon to drill down into the sales data, to see more
+specific and/or additional data, in order to determine why
+there is the warning state). In response, the CEO digital twin
+may depict one or more different data streams relating to the
+selected data item. 50
+In embodiments, a user interacting with a digital twin may
+escalate or deescalate a state to another user associated
+within an enterprise. For example, a COO or other opera-
+tions executive may view a COO digital twin that depicts
+various operations related data. In this example, the COO 55
+may escalate a particular data set depicted in the COO digital
+twin to the CEO. Once escalated, the particular data set may
+appear in the CEO digital twin (e.g., with a message from the
+escalating executive).
+In some embodiments, the EMP supports rolled-up real- 60 t
+time reporting. In some of these embodiments, data from
+IoT systems, sensors, onboard diagnostic systems, wearable
+devices, enterprise software systems, and/or other data
+sources (such as data feeds, news feeds, social media data
+sources, crowdsourced data, data obtained by spidering 65
+websites, sales data, marketing data, advertising data, mar-
+ket data, weather data, pricing data, and many others) may
+[col 2]
+220
+undergo one or more data fusion operations and an Al-based
+agent may determine which individuals within the enterprise
+to report results of analytics performed on the unfused or
+fused data. In embodiments, the EMP may access data of or
+about an organization (and third-party or external data) that
+is available from a range of connected information technol-
+ogy and connectivity systems of the organization, including
+data collection, monitoring and storage systems as described
+elsewhere in this disclosure and in the documents incorpo-
+rated herein by reference. In embodiments, the data collec-
+tion, monitoring, and storage systems may include a "data
+pipeline" of such connected information technology and
+connectivity systems that may include one or more of
+individual sensors that are disposed on or around and/or are
+integrated into items (such as enterprise assets), packages of
+such sensors, data collection, detection and reading systems
+(such as asset tag readers, sensor readers, and many others);
+onboard diagnostic systems, log systems, and other onboard
+reporting systems producing feeds of data from machines,
+components or systems; networking devices, including
+switches, access points, routers, repeaters, mesh networking
+nodes, gateways, and the like, as well as a host of different
+types of smart or network-connected edge and IoT devices,
+and including Bluetooth, BLE, WIFI, NFC, IR and other
+wireless devices, as well as 5G, 4G, 3G, LTE and other
+cellular infrastructure systems, including cellular chips and
+boards, gateways, towers and backhaul systems; data storage
+and processing systems, including local storage, distributed
+ storage, database systems, caching systems, local memory
+systems, and many others; computational systems, including
+edge computational systems, serverless computational sys-
+tems; and clients, servers, on-premises IT systems, cloud-
+based systems, and many others. Data may be transmitted
+and/or stored at points along this pipeline in raw form (such
+as in packets of raw data, with metadata, in streams, as
+events or transactions, as syndicated data, and in other
+forms) and/or in various processed forms, such as com-
+pressed data (including where compression is undertaken by
+trained artificial intelligence systems), summarized data
+(including where summarization is undertaking by trained
+metadata and/or one or more analytic results), fused (e.g.,
+multiplexed with one or more other sources), or the like.
+Collection, processing, storage and or transmission may be
+automated by one or more intelligence services systems as
+disclosed elsewhere in this document and the documents
+incorporated by reference herein, such as to provide for
+improved reliability, quality-of-service, efficiency, or the
+like, such as by intelligent protocol selection for data paths
+among nodes, intelligent filtering of RF-domain wireless
+transmission, and the like. As an example, a set of vibration
+sensors deployed on industrial machines/equipment in a
+factory may report vibration signatures of various compo-
+nents of the industrial machines/equipment. Edge devices
+may be configured to fuse the sensor data from an environ-
+ment (e.g., a factory, warehouse, distribution center, office
+building, or many others) with other data collected with
+respect to the environment, whereby the fused data is fed to
+the digital twin. The EMP may then update the digital twin
+with the fused data and an AI system may analyze the digital
+twin and/or the fused data to identify data items to report, the
+proper role(s) to report to (e.g, CEO, COO, CFO, or the
+like), and then may provide the report to the appropriate
+individual(s). Enterprise digital twins, including executive
+digital twins, are discussed in greater detail throughout the
+application.

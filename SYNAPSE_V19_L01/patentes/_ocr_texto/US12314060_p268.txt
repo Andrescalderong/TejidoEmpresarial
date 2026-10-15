@@ -1,0 +1,135 @@
+anonymized customer digital twins 5902 are not populated 50 a finished good, software product, hardware product, com-
+anonymized customer digital twin 1730 may include a set of 55 uct, technology product, entertainment product, or any other
+[col 1]
+US 12,314,060 B2
+171
+more demand management decisions. These decisions may
+include the volume of ink cartridges should be sent to the
+select region during the select month.
+In embodiments, the artificial intelligence system 1160
+may leverage the customer profile digital twins 1730 to run
+simulations on the proposed decisions related to the demand
+management. The demand management application 824
+may then initiate an ink resupply event using the decision(s)
+made by the artificial intelligence system 1160. Furthermore,
+after the ink resupply event, the outcomes of the event (e.g..
+10
+ink cartridge sales) may be reported to the machine-learning
+system 5720 to reinforce the models used to make the
+decisions. Furthermore, in some embodiments, the output of
+the demand management system 824 and/or the other value
+chain entity data sources may be used to update one or more 15
+properties of customer profile digital twins 1730 and/or
+other digital twins 1700.
+In embodiments, an API enables users to access the
+customer digital twins 5502 and/or customer profile digital
+twins 1730.In embodiments, anAPI enables users to receive 20
+one or more reports related to the digital twins.
+The platform 604 may include, integrate, integrate with,
+manage, control, coordinate with, or otherwise handle
+household demand digital twins 5902. Household demand
+digital twins 5902 may be a digital representation of a 25
+household demand for a product category or for a set of
+product categories.
+An environment for development of a household demand
+digital twin 5902 may include a set of interfaces for devel-
+opers in which a developer may configure an artificial 30
+intelligence system 1160 to take inputs from selected data
+sources of the data storage layer 624 and events or other data
+from the monitoring systems layer 614 and supply them for
+inclusion in a household demand digital twin 5902. A
+household demand digital twin development environment 35
+may be configured to take outputs and outcomes from
+various applications 630. In embodiments, a household
+demand digital twin 5902 may be provided for the wide
+range of value chain network applications 630 mentioned
+throughout this disclosure and the documents incorporated 40
+herein by reference.
+In embodiments, a digital twin 1700 may be generated
+from other digital twins. For example, a customer digital
+twin 5502 may be used to generate an anonymized customer
+digital twin 5902. The platform may include, integrate, 45 c
+integrate with, manage, control, coordinate with, or other-
+wise handle anonymized customer digital twins 5902. Ano-
+nymized customer digital twins 5902 may be an anonymized
+digital representation of a customer 714. In embodiments,
+with personally identifiable information but may otherwise
+be populated using the same data sources as its correspond-
+ing customer digital twin 5502.
+In embodiments, an environment for development of an
+interfaces for developers in which a developer may config-
+ure an artificial intelligence system 1160 to take inputs from
+selected data sources of the data storage layer 624 and events
+or other data from the monitoring systems layer 614 and
+supply them for inclusion in an anonymized customer digital
+twin 5902. An anonymized digital twin development envi-
+ronment may be configured to take outputs and outcomes
+from various applications 630. In embodiments, an anony-
+mized customer digital twin 5902 may be provided for the
+widerangeofvaluechainnetworkapplications630men-65
+tioned throughout this disclosure and the documents incor-
+porated herein by reference.
+[col 2]
+172
+In embodiments, the anonymized customer digital twin
+5902 comprises an API that can receive an access request to
+the anonymized customer digital twin 5902. A requesting
+entity can use the API of the anonymized customer digital
+twin 5902 to issue an access request. The access request may
+be routed from the API to an access logic of the anonymized
+customer twin 5902, which can determine if the requesting
+entity is entitled to access. In embodiments, users may
+monetize access to anonymized customer digital twins 5902,
+such as by subscription or any other suitable monetization
+method.
+The platform 604 may include, integrate, integrate with,
+manage, control, coordinate with, or otherwise handle enter-
+prise customer engagement digital twins. Enterprise cus-
+tomer engagement digital twins may be a digital represen-
+tation of a set of attributes of the enterprise customer that are
+relevant to engagement by the customer with a set of
+offerings of an enterprise.
+An environment for development of an enterprise cus-
+tomer engagement digital twin may include a set of inter-
+faces for developers in which a developer may configure an
+artificial intelligence system 1160 to take inputs from
+selected data sources of the data storage layer 624 and events
+or other data from the monitoring systems layer 614 and
+supply them for inclusion in an enterprise customer engage-
+ment digital twin. An enterprise customer engagement digi-
+tal twin development environment may be configured to take
+outputs and outcomes from various applications 630. In
+embodiments, an enterprise customer engagement digital
+twin may be provided for the wide range of value chain
+network applications 630 mentioned throughout this disclo-
+sure and the documents incorporated herein by reference.
+Referring to FIG. 61, the platform 604 may include,
+integrate, integrate with, manage, control, coordinate with,
+or otherwise handle component digital twins 6002. Compo-
+nent digital twins 6002 may represent evolving, continu-
+ously updated digital profiles of components 6002 of value
+chain products 650. Component digital twins 6002 may
+allow for modeling, simulation, prediction, decision-mak-
+ing, classification, and the like.
+Product components can be depicted in a set of one or
+component digital twins 6002, such as by populating the
+component digital twins 6002 with value chain network data
+objects 1004, such as event data 1034, state data 1140, or
+other data with respect to value chain network product
+components.
+A product 1510 may be any category of product, such as
+ponent product, material, item of equipment, consumer
+packaged good, consumer product, food product, beverage
+product, home product, business supply product, consum-
+able product, pharmaceutical product, medical device prod-
+type of product and/or set of related services, and which
+may, in embodiments, encompass an intelligent product
+15i0 that is enabled with a set of capabilities such as,
+without limitation data processing, networking, sensing,
+ autonomous operation, intelligent agent, natural language
+processing, speech recognition, voice recognition, touch
+interfaces, remote control, self-organization, self-healing,
+log or digital sensors, cameras, sound processing systems,
+data storage, data integration, and/or various Internet of
+Things capabilities, among others. A component 6002 may
+be any category of product component.

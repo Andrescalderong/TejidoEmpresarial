@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+201
+twins on behalf of an enterprise and may serve the role-
+based digital twins to a client device 8050 (e.g., a mobile
+device, a tablet, a personal computer, a laptop, AR/VR-
+enabled device, workflow-specific device or equipment, or
+the like). As discussed, during the configuration phase, a
+user may define the different types of data and the corre-
+sponding data sources, data sets, and features that are used
+to generate and maintain each respective type of the different
+types of enterprise digital twins. Initially, the digital twin
+ system 8004 configures the data structures that support each
+type of enterprise digital twin, including any underlying data
+sources/databases (e.g., SQL databases, graph databases,
+relational databases, distributed databases, blockchains, dis-
+tributed ledgers, data feeds, data streams, and the like) that
+store or produce data that is ingested by the respective 15
+enterprise digital twins. Once the data structures that support
+a digital twin are configured, the digital twin system 8004
+receives data from one or more data sources 8020. In
+embodiments, the digital twin system 8004 may structure
+and/or store the received data in one or more databases. 20
+When a specific digital twin is requested (e.g., by a user via
+a client application 8052 or by a software component of the
+EMP 8000), the digital twin system may determine the
+views that are represented in the requested digital twin and
+may generate the requested digital twin based on data from 25
+the configured databases and/or real-time data received via
+an API. The digital twin system 8004 may serve the
+requested digital twin to the requestor (e.g., the client
+application or a backend software component of the EMP
+8000). After an enterprise digital twin is served, some 30
+enterprise digital twins may be subsequently updated with
+real-time data received via the API system 8014. In embodi-
+ments, an API may provide information to the data pipeline
+as to the type of data required for the digital twin, such that
+the data pipeline may be configured (by a user, or by an
+automated/intelligence systems) to handle the data effec-
+tively. For example, the data pipeline may be configured to
+deliver data over a data path that uses an appropriate
+protocol for efficient delivery, delivering the data over a
+40
+does not require low latency or real-time updating), or the
+like. Thus, in some embodiments, configuration of a digital
+twin may include providing inputs as to the requirements of
+the digital twin for low-latency, high quality-of-service, high
+accuracy, high granularity, high reliability, or the like, based 45
+on, for example, the priority of the mission served by the
+data type. In embodiments, an intelligent expert agent (or
+"intelligent agent" or “expert agent') may be trained on a
+training set of configurations of inputs to one or more data
+pipelines that were previously configured by experts, such 50 t
+that the intelligent agent may learn to automatically config-
+ure APIs for digital twins to provide appropriate inputs to
+data pipelines for subsequent digital twins involving similar
+or analogous workflows for similar or analogous roles,
+identities, industries and/or domains. In embodiments, such 55
+training of an intelligent agent may include learning as to
+specific user interactions, such as learning which users
+within a role use which types of data at what times and for
+what purposes, such that data resources are appropriately
+allocated to support actual user requirements. For example, 60
+ an automated intelligent agent managing the configuration
+of a data pipeline for a COO digital twin may learn that an
+operations executive (e.g-, a COO user) checks production data for each facility at the end of each eight-hour shift (e.g.
+after 5:00 pm), such that mid-shift data updates are delivered 65
+over lower-cost data resources, but end-of-shift data is
+delivered over low-latency data paths that have high reli-
+[col 2]
+202
+ability and quality-of-service. Continuing this example, the
+intelligent agent may determine the frequency at which the
+production data is updated with respect to the COO digital
+twin, such that the COO digital twin is updated less fre-
+quently in the mornings and mid-afternoons, but is updated
+more frequently at the end of business hours. In embodi-
+ments, the intelligent agent may be configured with business
+logic that defines overall strategies (e.g., when to use low-
+latency networks v. higher-latency networks and/or how
+often to update a certain type of data within a particular
+digital twin) and customized based on the preferences and
+use by the end user of the digital twin, whereby the overall
+strategies may be learned from training data sets obtained
+from experts and/or may be hard-coded by a developer, and
+the customization piece may be learned from monitoring the
+use of the digital twin by the end intended user (e.g., when
+she typically checks the production data of each facility).
+Additional or alternative examples of such data prioritiza-
+tion strategies and/or other configuration strategies should
+be understood to be encompassedherein.For example, upon
+receipt of inputs as to performance requirements, artificial
+intelligence capabilities of the data pipeline that is integrated
+with, linked to, or supporting of the EMP 100 may auto-
+matically or under user control employ techniques to pro-
+vide appropriate resources at the right time and place,
+including, but not limited to: adaptive coding of data path
+transmissions between networked data communication
+nodes; adaptive filtering, repeating and amplification of
+RF/wireless signals (including software-implemented band-
+pass filtering); dynamic allocation of use of cellular and
+other wireless spectrum, adaptive, ad-hoc, cognitive man-
+agement of wireless mesh network nodes; adaptive data
+storage; cost-based routing of wireless and wired signals;
+priority-based routing; channel- and performance-aware
+protocol selection for communications; context-aware allo-
+cation of computational resources, serverless computational
+systems, adaptive edge computational systems, channel-
+aware error correction, smart-contract-implemented net-
+work resource allocation; and/or other suitable techniques.
+In embodiments, the digital twin system 8004may be
+further configured to perform simulations and modeling with
+respect to the enterprise digital twins. In embodiments, the
+digital twin system 8004 is configured to run data simula-
+tions and/or environment simulations using a digital twin.
+For example, a user may, via a client device, instruct the
+digital twin system 8004 to perform a simulation with
+respect to one or more states and/or workflows depicted in
+a digital twin. The digital twin system 8004 may run the
+simulation on the digital twin and may depict the results of
+the simulation in the digital twin. In this example, the digital
+twin may need to simulate at least some of the data used to
+run the simulation of the environment, so that there is
+reliable data when performing the requested environment
+simulation. The digital twin system 8004 is discussed in
+greater detail throughout the disclosure.
+In embodiments, the collaboration suite 8006 provides a
+set of various collaboration tools that may be leveraged by
+various users of an enterprise. The collaboration tools may
+include video conferencing tools, "in-twin" collaboration
+tools, whiteboard tools, presentation tools, word processing
+tools, spreadsheet tools, and the like. In embodiments, an
+"in-twin' collaboration tool allows multiple users to view
+and collaborate within a digital twin. For example, in
+embodiments, the collaboration tools may include an in-twin
+collaboration tool that that enables a digital twin experience
+and a collaboration experience within the same interface
+(e.g., within a AR/VR-enabled user interface, a standard

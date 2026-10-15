@@ -1,0 +1,136 @@
+loss relevant to the casualty report based on the data col- 10 ture facilities 660, floating assets 620, and shipyards 638,
+at least one of the port infrastructure facility and the set of 2o provide a set of capabilities that facilitate development and
+[col 1]
+US 12,675,781 B2
+193
+In embodiments, the maritime value chain network entity
+is associated with a legal proceeding. In embodiments, the
+digital twin is configured to at least partially represent the
+maritime value chain network entity as it interacted during
+a timeline associated with the legal proceeding.
+In embodiments, the data collected by a value chain
+network management platform relates to a casualty report. In
+embodiments, the digital twin of the maritime value chain
+network entity is configured to simulate possibilities of a
+lected by a value chain network management platform.
+In embodiments, the maritime value chain network entity
+is a port infrastructure facility. In embodiments, the data
+collected by a value chain network management platform
+facilitates identifying theft or misuse of the port infrastruc- 15
+ture facility by correlating data between a set of data
+collectors for one or more physical items in the port infra-
+structure facility and the digital twin detailing the one or
+more physical items of the port infrastructure facility for the
+operators.
+In embodiments, the maritime value chain network entity
+is a container ship that is moored to port infrastructure
+installed on or adjacent to land. In embodiments, data
+collected by a value chain network management platform is
+based on at least a container ship having a forward speed
+relative to water and weather conditions and parameters
+associated with energy consumption of propulsion units on
+the container ship. The information technology system also
+value chain network management platform and one or more
+maritime facilities connected to a container ship. In embodi-
+ments, the asset management application is associated with
+one or more ships connected to barges. In embodiments, the
+maritime value chain network entity is one or more ships. In 35
+embodiments, the digital twin provides for visualization of
+a navigation course of one or more of the ships.
+In embodiments, the maritime value chain network entity
+is one or more ships. In embodiments, the digital twin
+provides for visualization of an engine performance of one 40
+or more of the ships. In embodiments, the maritime value
+chain network entity is one or more ships. In embodiments,
+the digital twin provides for visualization of a hull integrity
+of one or more of the ships. In embodiments, the digital twin
+provides for visualization of a plurality of inspection points 45
+on the maritime value chain network entity and maintenance
+histories associated with those inspection points. In embodi-
+ments, the digital twin further provides for the visualization
+of the plurality of inspection points on the maritime value
+chain network entity within a geofenced area and mainte- 50
+nance histories associated with those inspection points. In
+embodiments, the digital twin further provides for details of
+a ledger of activity associated with the visualization of the
+plurality of inspection points on the maritime value chain
+network entity within a geofenced area and maintenance 55i
+histories associated with those inspection points.
+Amore complete understanding of the disclosure will be
+appreciated from the description and accompanying draw-
+ings and the claims, which follow.
+Referring to FIG. 6, the value chain network management 60
+platform 604 orchestrates a variety of factors involved in
+planning, monitoring, controlling, and optimizing various
+entities and activities involved in the value chain network
+668 as it is applied to maritime assets, activities, logistics,
+and planning including supply and production factors, 65
+demand factors, logistics and distribution factors, and the
+like. The management platform 604 can facilitate the moni-
+[col 2]
+194
+toring and managing of supply factors and demand factors,
+the sharing of status information about and between various
+entities as demand factors are understood and accounted for,
+as orders are generated and fulfilled, and as products are
+created and moved through a supply chain. Referring to FIG.
+7, the management platform 604 may include a set of value
+chain network entities 652 including various delivery sys-
+tems 632 that can include and connect to maritime facilities
+622. The maritime facilities 622 can include port infrastruc-
+and the like. In embodiments, the value chain network
+management platform 604 monitors, controls, and otherwise
+enables management (and in some cases autonomous or
+semi-autonomous behavior) of a wide range of value chain
+network 668 processes, workflows, activities, events and
+applications 630 applicable in the maritime environment.
+Referring to FIGS. 6 and 11, the management platform
+604 deployed in the maritime environment may include a set
+of data handling layers 608 each of which is configured to
+deployment of intelligence, such as for facilitating automa-
+tion, machine learning, applications of artificial intelligence,
+intelligent transactions, state management, event manage-
+ment, process management, and many others, for a wide
+variety of value chain network applications and end uses in
+the maritime environment. In embodiments, the data han-
+dling layers 608 are configured in a topology that facilitates
+shared data collection and distribution across multiple appli-
+cations and uses within the management platform 604 by the
+value chain monitoring systems layer 614. The value chain
+monitoring systems layer 614 may include, integrate with,
+and/or cooperate with various data collection and manage-
+ment systems 64o, referred to for convenience in some cases
+as data collection systems 640, for collecting and organizing
+data collected from or about value chain entities 652, as well
+as data collected from or about the various data layers 624
+or services or components thereof.
+In embodiments, the data handling layers 608 are config-
+ured in a topology that facilitates shared or common data
+storage across multiple applications and uses oftheplatform
+604 by the value chain network-oriented data storage sys-
+tems layer 624, referred to herein for convenience in some
+cases simply as the data storage layer 624 or storage layer
+624. For example, various data collected about the value
+chain entities 652, as well as data produced by the other data
+handling layers 608, may be stored in the data storage layer
+624, such that any ofthe services, applications, programs, or
+the like of the various data handling layers 608 can access
+a common data source, which may comprise a single logical
+data source that is distributed across disparate physical
+and/or virtual storage locations. This may facilitate a dra-
+matic reduction in the amount of data storage required to
+handle the enormous amount of data produced by or about
+value chain network entities 652 as applications 630 and
+uses of value chain networks grow and proliferate. For
+example, a supply chain or inventory management applica-
+tion in the value chain management platform 604, such as
+one for ordering replacement parts for a machine or item of
+equipment, may access the same data set about what parts
+have been replaced for a set of machines as a predictive
+maintenance application that is used to predict whether a
+component of a ship, or facility of a port is likely to require
+replacement parts. Similarly, prediction may be used with
+respect to resupply of items.
+Referring to FIGS. 6 and 12, the value chain network-
+oriented data storage systems layer 624 may include, with-
+out limitation, physical storage systems, virtual storage

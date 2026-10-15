@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0035342 A1
+160
+twin 8308. In another example, the CMO digital twin 8308
+may identify marketing campaign goals and record, monitor
+and track the campaign's performance relative to those goals
+and present, in real-time, the tracking of the campaign to the
+CMO within a user interface that is associated with the CMO
+digital twin 8308. Examples of marketing targets include,
+but are not limited to, unit distribution, customer acquisition
+customer retention, customer churn, customer loyalty (e.g..
+repeat purchases), customer acquisition costs, duration of
+average sales cycle, ad conversion rate, sales growth, geo-
+graphic expansion of sales, demographic expansion of sales,
+market penetration, percentage of market control, marketing
+campaign ROI, regional comparison of performance, chan-
+nel analysis, sales partner analysis, marketing partner analy-
+sis, or some other marketing target.
+[1239]In embodiments, a CMO digital twin 8308 may be
+configured to monitor customer feedback loops, customer
+opinions, customer satisfaction, complaints, product returns
+and the like based at least in part on use of the monitoring
+agent of the client application 8052, as described herein, that
+is associated with the CMO digital twin 8308. Such feed-
+back data may include, but is not limited to, data that derives
+from call center activity, chatbot activity, email (e.g., com-
+plaints), product returns, Better Business Bureau submis-
+sions, or some other type of customer feedback or manifes-
+tation of customer opinion. The client application 8052 may
+include a monitoring agent that monitors the manner by
+which customers or others respond to a marketing campaign.
+The monitoring agent may report the customer's response to
+such campaigns to the EMP 8000 for presentation in a user
+interface that is associated with the CMO digital twin 8308.
+In response, the EMP 8000 may train an executive agent
+(which may include one or more machine-learned models)
+to handle and process such notifications when they next
+arrive, and escalate and/or alert the CMO when such noti-
+fications are of an urgent nature, for example, an announce-
+ment of a class action lawsuit related to a product that is the
+subject of a marketing campaign. In embodiments, the CMO
+digital twin 8308 may generate performance alerts based on
+performance trends.This may allow a CMO to optimize
+marketing campaigns in real-time without having to manu-
+ally request such real-time performance data; the CMO
+digital twin 8308 may automatically present such informa-
+tion and related/necessary alerts as configured by the orga-
+nization, CMO, or some other interested party.
+[1240]In embodiments, a CMO digital twin 8308may be
+configured to report on the performance of the marketing
+department, personnel of the marketing department, market-
+ing campaigns, marketing content, marketing platforms,
+marketing partners, or some other aspect of management
+within a CMO's purview. Reporting may be to the CMO, the
+marketing department, to other executives of an organiza-
+tion (e.g., the CEO), or to outside third parties (e.g., mar-
+keting partners, press releases, and the like). As described
+herein, reporting may include sales summaries, customer
+data, marketing campaign performance metrics, cost-per-
+sale data, cost-per-conversion data, customer analysis, such
+as predicted customer lifetime value for newly acquired
+customers, or some other type of reporting data. Reporting
+and the content of reporting may be shared by the CMO
+digital twin 8308 with other executive digital twins, for
+example, data related to new customers having a particularly
+high predicted customer lifetime value may be shared with
+a sales staff for the purpose of exploring cross-selling
+[col 2]
+Feb.3,2022
+opportunities. The reporting functionality of the CMO digi-
+tal twin 8308 may also be used for populating required data
+for formal reporting requirements such as shareholder state-
+ments, annual reports, SEC filings, and the like. Templets of
+common reporting formats may be stored and associated
+with the CMO digital twin 8308 to automate the presentation
+of data and analytics according to pre-defined formats, styles
+and system requirements
+[1241]Inembodiments,aCMOdigital twin8308may be
+configured to monitor, store, aggregate, merge, analyze,
+prepare, report and distribute material relating to competi-
+tors of a CMO's organization, or named entities of interest.
+In embodiments, such data may be collected by the EMP
+8000 via data aggregation, spidering, web-scraping, or other
+techniques to search and collect competitor information
+from sources including, but not limited to, press releases,
+SEC or other financial reports, mergers and acquisitions
+activity, or some other publicly available data.
+[1242]  In embodiments, a CMO digital twin 8308 may be
+configured to monitor, store, aggregate, merge, analyze,
+prepare, report and distribute material relating to regulatory
+activity, such as government regulations, industry best prac-
+tices or some other requirement or standard. For example,
+the marketing industry is subject to data privacy and security
+laws in many jurisdictions, and it is an area of law and
+regulation that is experiencing rapid change. In embodi-
+ments, the CMO digital twin 8308 may be in communication
+with another enterprise digital twin, such as a General
+Counsel digital twin 8314, through which the legal team can
+keep the CMO apprised of new regulation or regulation
+changes as they occur. Similarly, as a CMO develops new
+market campaigns and selects the jurisdictions (e.g., United
+States vs Europe) and populations that will be a part of the
+campaigns (e.g., minors vs. adults), the CMO digital twin
+campaigns that are relevant for privacy law review so that
+the campaign may be vetted for legal and regulatory com-
+pliance prior to launch. In an example, such a marketing
+campaign synopsis might include a summary of the juris-
+dictions of the campaign, intended audience, means of
+obtaining consent, the type of consent to be obtained (e.g.,
+opt-in, opt-out, passive), and so forth. Once approved and
+launched, as customer consents and other data privacy-
+related information is received by an organization, the CMO
+digital twin 8308 may facilitate the CMO tracking metrics,
+for example the percentage of customers choosing to opt-in
+to receive future marketing material (e.g., email solicita-
+tions). As the organization receives privacy related material
+it may store such information for future retrieval, summary,
+deletion or other activity, for example, in response to a data
+subject request from an EU citizen who has requested their
+data be deleted (i.e., exercising their "right to be forgotten").
+In embodiments, the CMO digital twin 8308 may monitor,
+store, aggregate, merge, analyze, prepare, report and distrib-
+ute material relating to what customer data is collected, the
+party responsible for its collection and storage, the location
+and duration of storage, and so forth. This data may be called
+forth by the CMO digital twin 8308, for example, in the
+event of a data breach. The CMO digital twin 8308 may be
+able to summarize, for example, a list of persons affected by
+the breach and the type of data that was breached and share
+this information with a Chief Privacy Oficer (CPO), includ-
+ing sharing with the CPO digital twin.

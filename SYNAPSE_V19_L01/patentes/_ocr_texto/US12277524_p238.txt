@@ -1,0 +1,138 @@
+analyze the content of the four categories of content and 35 analysis, machine learning, Al processing, and other analy-
+[col 1]
+US 12,277,524 B2
+301
+performance metrics with which it is associated. For
+example, there may be a first category called "Market Tested
+Content," which consists of content that has been field
+deployed in a marketing campaign within a customer popu-
+lation, the actual performance of which is therefore fully
+known based on actual market testing. Because the market-
+ing content from this category has been field tested, the
+content may be scored based at least in part on the financial,
+performance or other data with which it is associated. A
+second category may be “New ContentSimulation 10
+Tested," which consists of content that has not been
+deployed in the field, but which has been subject to analytic
+testing such as simulated customer segmentation analysis,
+simulated A/B testing, simulated attribution modeling, simu-
+lated market mix modeling, machine learning, A.I. tech-
+niques including, but not limited to, classification, probabi-
+listic modeling, learning techniques, and the like. Because
+the marketing content from this category has been simula-
+tion tested, the content may be scored based at least in part
+on the simulated performance data or otherdata with which 20
+it is associated. Continuing the example, a third category of
+content may be “New Content-Panel Tested, which con-
+sists of content that has not been deployed in the field, nor
+simulation tested, but which has been subject to testing
+among a human panel for their views, opinions and impres- 25
+sions. Because the marketing content from this category has
+been human panel tested, the content may be scored based
+at least in part on the performance data, as reported by the
+human panel, or other data with which it is associated. A
+final, fourth category of content may be “New-Untested," 30
+which is newly developed or other content that has not been
+tested in the field, in simulation, or by a human panel. The
+CMO digital twin 8308 may utilize the machine learning.
+A.I. and other analytic capabilities, as described herein, to
+classify and score the content characteristics that are proba-
+bilistically associated with improved financial or other per-
+formance for stated types of marketing campaigns or mar-
+keting subject matter. Statistical weights may be applied to
+such characteristics,where the weight is indicative of a 40
+greater degree of financial or some performance metric of
+interest. Similarly, the characteristics of the market may be
+analyzed vis-a-vis the marketing content to determine the
+consumer characteristics that are probabilistically associated
+with improved financial or other performance for given 45
+marketing content. The CMO digital twin 8308 may provide
+a user interface within which access to this repository of
+ stored data on content category, consumer and performance
+is available. When planning a marketing campaign, the
+CMO, or other marketing personnel, may use the CMO 50
+digital twin 8308 to select from this repository of content,
+that content which probabilistically will perform better with
+the intended consumer targets of the new campaign. For
+example, from historical marketing field tests from actual
+prior marketing campaigns, the data may show that market- 55
+ing content having images of large dogs outperformed
+(based on, for example, ad conversion rates) content pictur-
+ing small dogs, and this effect was positively correlated with
+age (i.e., older persons have an even greater preference for
+larger dogs). The performance data from the simulation- 09
+tested content may show a similar, but smaller effect based
+on the size of the dog images in the content, and the
+panel-tested data may show a similar effect for large dog
+imagery in content, but also have performance data indicat-
+ing that the effect appears, based on the panel data, to be 65
+muted for persons 15 years or younger (i.e., young persons
+ are more attracted to smaller dog breeds than older persons).
+[col 2]
+302
+For the CMO using the CMO digital twin 8308 this data, and
+the characteristics of the more successful content, may be
+used to select from the fourth category of content ("New-
+Untested') that content that is most appropriate for a new
+marketing campaign intended to sell a soft drink. In embodi-
+ments, the artificial intelligence services system 8010 of the
+EMP 8000 may select the content and segment its presen-
+tation based at least in part on the prior performance data, so
+that the ads that are presented on platforms that tend to have
+persons over 15 will use content having a predominance of
+large breed dogs, and those platforms with younger audi-
+ences will offer a greater mix of dog breeds and possibly a
+preference for small breed dogs in marketing images. As the
+marketing campaign deployed to the field, the CMO digital
+twin 8308 may monitor, track and report on the marketing
+campaign's performance so that the CMO can review and
+intervene as necessary. Once the new content has been field
+tested it may be stored and classified in the first category of
+content, "Market Tested Content," along with the related
+financial and performance metrics. In another example,
+similar stored content, content categories, characteristics
+and financial and performance metrics may be used by the
+CMO digital twin 8308 to recommend, for example, search
+engine optimization (SEO), or other marketing strategies
+and techniques.
+In embodiments, a CMO digital twin 8308 may be con-
+figured to store, aggregate, merge, analyze, prepare, report
+and distribute material relating to market surveys, online
+surveys, customer panels, ratings, rankings, marketing trend
+data or other data related to marketing. A CMO digital twin
+8308 may link to, interact with, and be associated with
+external data sources, and able to upload, download, aggre-
+gate external data sources, including with the EMP's inter-
+nal data, and analyze such data, as described herein. Data
+sis may be co0rdinated between the CMO digital twin 8308
+and an analytics team based at least in part on using the
+artificial intelligence services system 8010. This cooperation
+and interaction may include assisting with seeding data
+elements and domains in the enterprisedata store 8012for
+use in modeling, machine learning, and AI processing to
+identify the optimal marketing content, sales channels, target
+consumers, price points, timing, or some other marketing-
+relating metric or aspect, as well as identification of the
+optimal data measurement parameters on which to base
+judgement of a marketing endeavor's success. Examples of
+data sources 8020 that may be connected to, associated with,
+and/or accessed from the CMO digital twin 8308 may
+include, but are not limited to, a sensor system 8022, a sales
+database 8024 that is updated with sales figures in real time,
+a CRM system 8026, a content marketing platform 8028,
+news websites, a financial database 8030 that tracks costs of
+the business, surveys 8032 (e.g., customer satisfaction sur-
+veys), an org chart 8034, a workflow management system
+8036, customer databases 8040 that store customer data,
+and/or third-party data sources 8038 that store third-party
+data.
+In embodiments, a CMO digital twin 8308 may be con-
+figured to assist in the development of a new marketing
+campaign. For example, the CMO digital twin 8308 may
+identify an internal and external partner team for a market-
+ing campaign. For example, individuals who are ideal can-
+didates to assist with a marketing campaign may be identi-
+fied based at least in part on experience and expertise data
+that is stored within or in association with the CMO digital
+twin 8308.In another example, the CMO digital twin 8308
+may identify marketing campaign goals and record, monitor

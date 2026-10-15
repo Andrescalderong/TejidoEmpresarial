@@ -1,0 +1,131 @@
+[col 1]
+US2022/0044204A1
+128
+executive digital twins. Executive digital twins may refer to
+digital twins that are configured for a respective executive
+within an enterprise. Examples of executive digital twins
+may include CEO digital twins, CFO (Financial) digital
+twins, COO (Operations) digital twins, HR digital twins,
+CTO (Technology) digital twins, CMO (Marketing) digital
+twins, General Counsel (Legal) digital twins, CIO (Infor-
+mation) digital twins, and the like. In some of these embodi-
+ments, the EMP generates different types of executive digital
+twins for users having different roles within the organiza-
+tion. In some of these embodiments, the respective configu-
+ration of each type of executive digital twin may be pre-
+defined with default digital twin data types, default
+relationships among entities, default features, and default
+granularities, among other elements. The default data types,
+entities, features and granularities may be determined based
+on a model of an organization, which may in turn be based
+on an industry-specific or domain-specific model or tem-
+plate, such as one that is based on a typical organizational
+structure for an industry (e.g-, an automotive manufacturer,
+a consumer packaged goods manufacturer, a nationwide
+retailer, a regional grocery chain, or many others). In
+embodiments, an artificial intelligence system may be
+trained, such as on a labeled industry-specific or domain-
+specific data set, to automatically generate an industry-
+specific or domain-specific digital twin for an instance of an
+EMP for an organization, with default configuration of data
+types, entities, features and granularities for various roles
+within an organization of that industry or domain. The
+defaults can then be reconfigured in a user interface of an
+authorized user to reflect company-specific variations from
+the industry-specific or domain-specific defaults. In some
+embodiments, a user (e.g-, during an on-boarding process)
+of executive digital twins, the entities to be represented, the
+features to be provided and/or the granularities of the
+different types of executive digital twins. Features may
+include what data is permitted to be accessed, what views
+are represented, levels of granularity of views, what analytic
+models and results can be accessed, what simulations can be
+undertaken, what changes can be made (including changes
+relevant to permissions of other users), communication and
+collaboration features (including receipt of alerts and the
+capacity to communicate directly to digital twins of other
+roles and users), control features, and many others. For
+convenience of reference, references to views, data, features,
+control or granularity throughout this disclosure should be
+understood to encompass any and all of the above, except
+where context specifically indicates otherwise. Granularity
+may refer to the level of detail at which a particular type of
+data or types of data is/are represented in a digital twin. For
+example, a CEO digital twin may include P&L data for a
+particular time period but may not depict the various rev-
+enue streams and costs that contribute to the P&L data
+during the time period. Continuing this example, the CFO
+digital twin may depict the various revenue streams and
+costs during the time period in addition to the high-level
+P&L data. The foregoing examples are not intended to limit
+the scope of the disclosure. Additional examples and con-
+figurations of different executive digital twins are described
+throughout the disclosure.
+[1100]  In some embodiments, executive digital twins may
+allow a user (e.g., a CEO, CFO, COO, VP, Board member,
+GC, or the like) to increase the granularity of a particular
+[col 2]
+Feb.10,2022
+down into" a state of the digital twin). For example, a CEO
+digital twin may depict low granularity snapshots or sum-
+maries of P&L data, sales figures, customer satisfaction,
+employee satisfaction, and the like. A user (e.g., the CEO of
+an enterprise) may opt to drill down into the P&L data via
+a client application depicting the CEO digital twin. In
+response, the EMP may provide higher resolution P&L data,
+such as real-time revenue streams, real-time cost streams,
+and the like. In another example, the CEO digital twin may
+include visual indicators of different states of the enterprise.
+For example, the CEO digital twin may depict different
+colored icons to differentiate a condition (e.g., current and/or
+forecasted condition) ofa respective data item. For example,
+a red icon may indicate a warning state, a yellow icon may
+indicate a neutral state, and a green icon may indicate a
+satisfactory state. In this example, the user (e.g., a CEO)
+may drill down into a particular data item (e.g., may select
+a red sales icon to drill down into the sales data, to see more
+specific and/or additional data, in order to determine why
+there is the warning state). In response, the CEO digital twin
+may depict one or more different data streams relating to the
+selected data item.
+[1101] In embodiments, a user interacting with a digital
+twin may escalate or deescalate a state to another user
+associated within an enterprise. For example, a COO or
+other operations executive may view a COO digital twin that
+depicts various operations related data. In this example, the
+COO may escalate a particular data set depicted in the COO
+digital twin to the CEO. Once escalated, the particular data
+set may appear in the CEO digital twin (e.g., with a message
+from the escalating executive).
+[1102]  In some embodiments, the EMP supports rolled-up
+real-time reporting. In some of these embodiments, data
+from IoT systems, sensors, onboard diagnostic systems,
+wearable devices, enterprise sofiware systems, and/or other
+data sources (such as data feeds, news feeds, social media
+data sources, crowdsourced data, data obtained by spidering
+websites, sales data, marketing data, advertising data, mar-
+ket data, weather data, pricing data, and many others) may
+undergo one or more data fusion operations and an Al-based
+agent may determine which individuals within the enterprise
+to report results of analytics performed on the unfused or
+fused data. In embodiments, the EMP may access data of or
+about an organization (and third-party or external data) that
+is available from a range of connected information technol-
+ogy and connectivity systems ofthe organization, including
+data collection, monitoring and storage systems as described
+elsewhere in this disclosure and in the documents incorpo-
+rated herein by reference. In embodiments, the data collec-
+tion, monitoring, and storage systems may include a “data
+pipeline" of such connected information technology and
+connectivity systems that may include one or more of
+individual sensors that are disposed on or around and/or are
+integrated into items (such as enterprise assets), packages of
+such sensors, data collection, detection and reading systems
+(such as asset tag readers, sensor readers, and many others):
+onboard diagnostic systems, log systems, and other onboard
+reporting systems producing feeds of data from machines,
+components or systems; networking devices, including
+switches, access points, routers, repeaters, mesh networking
+nodes, gateways, and the like, as well as a host of different
+types of smart or network-connected edge and IoT devices,
+and including Bluetooth, BLE, WIFI, NFC, IR and other

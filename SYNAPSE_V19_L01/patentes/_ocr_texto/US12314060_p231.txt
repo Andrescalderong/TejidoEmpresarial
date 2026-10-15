@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+97
+In some examples, as shown in FIG. 26, the adaptive
+intelligent systems 614 may include value translators 1470.
+The value translators 1470 may relate to demand side of
+transactions. Specifically, for example, the value translators
+1470 may understand negative currencies of two market-
+places and may be able to translate value currencies into
+other currencies (e.g., not only fiat currencies that already
+have clear translation functions). In some examples, value
+translators 1470 may be associated with points of a point-
+based system (e.g., in a cost-based routing system). In an 10
+example embodiment, value translators 1470 may be loyalty
+points offered that may be convertible into airline seats
+and/or may translate to refund policies for staying in a hotel
+room. In some examples, different types of entities may be
+connected as having native pricing or cost functions that do
+example, value translators 1470 may be used with network
+prioritization or cost-based routing that happens in networks
+off of priorities where the point system in these cost-based
+routing systems is not monetary-based.
+Broad Management Platform
+Referring to FIG. 28, additional details of an embodiment
+of the platform 604 are provided, in particular relating to an
+overall architecture for the platform 604. These may include,
+for the cloud-based management platform 604, employing a 25
+micro-services architecture, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 614, a set of data storage facilities or systems 624, 30
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of 35
+origin to a point of customer use of a product 1510, which
+may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with 40
+a micro-services architecture; a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities; and a set of
+applications for enabling an enterprise to manage a set of
+value chain network entities from a point of origin to a point 45
+of customer use.
+Also provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, the platform having: a set of 50 
+interfaces for accessing and configuring features of the
+platform; a set of network connectivity facilities for enabling
+a set of value chain network entities to connect to the
+platform; a set of adaptive intelligence facilities for auto-
+mating a set of capabilities of the platform; a set of data 55
+storage facilities for storing data collected and handled by
+the platform; and a set of monitoring facilities for monitor-
+ing the value chain network entities; wherein the platform
+hosts a set of applications for enabling an enterprise to
+manage a set of value chain network entities from a point of 60
+use.
+Broad Management PlatformDetails
+Referring to FIG. 29, additional details of an embodiment
+of the platform 604 are provided, in particular relating to an
+overall architecture for the platform 604. These may include,
+for the cloud-based management platform 604, employing a
+[col 2]
+98
+micro-services architecture, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 614, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 1510, which
+may be an intelligent product.
+In embodiments, the set of interfaces 702 may include a
+demand management interface 1402 and a supply chain
+management interface 1404.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to
+connect to the platform 604 may include a 5G network
+system 1410, such as one that is deployed in a supply chain
+2o infrastructure facility operated by the enterprise.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to
+connect to the platform 604 may include an Internet of
+Things system 1172, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise, in, on
+or near a value chain network entity 652, in a network
+system, and/or in a cloud computing environment (such as
+where data collection systems 640 are configured to collect
+and organize loT data).
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to
+connect to the VCNP 102 may include a cognitive network-
+ing system 1420 deployed in a supply chain infrastructure
+facility operated by the enterprise.
+In embodiments, the set of network connectivity facilities
+642 for enabling a set of value chain network entities 652 to
+connect to the VCNP 102 may include a peer-to-peer net-
+work system 1430, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 614 for automating a set of
+capabilities of the platform 604 may include an edge intel-
+ligence system 1420, such as one that is deployed in a supply
+chain infrastructure facility operated by the enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 614 for automating a set of
+capabilities of the platform 604 may include a robotic
+process automation system 1442.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 614 for automating a set of
+capabilities of the platform 604 may include or may inte-
+grate with a self-configuring data collection system 1440,
+such as one that deployed in a supply chain infrastructure
+facility operated by the enterprise, one that is deployed in a
+network, and/or one that is deployed in a cloud computing
+environment. This may include elements of the data collec-
+tion systems 640 of the data handling layers 608 that interact
+with or integrate with elements of the adaptive intelligent
+systems 614.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 614 for automating a set of
+capabilities of the platform 604 may include a digital twin
+system 1700, such as one representing attributes of a set of
+value chain network entities, such as the ones controlled by
+ 65 an enterprise.
+In embodiments, the set of adaptive intelligence facilities
+or adaptive intelligent systems 614 for automating a set of

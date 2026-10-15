@@ -1,0 +1,135 @@
+[col 1]
+US 12,277,524 B2
+335
+used to align the data streams in time, such as to help
+understand patterns that involve the understanding of the
+various streams.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain. Neurons may respond to stimuli in a restricted 10
+region of space, referred to as a receptive field. Receptive
+fields may partially overlap, such that they collectively
+cover the entire (e.g., visual) field. Node responses can be
+calculated mathematically, such as by a convolution opera-
+tion, such as using. Multilayer perceptrons that use minimal
+preprocessing. A convolutional neural network may be used
+for recognition within images and video streams, such as for
+recognizing an individual, recognizing a marker of a disease
+condition, or the like. This may include recognizing an
+individual in a crowd, such as using a camera system 20
+disposed on a mobile data collector, such as on a drone or
+mobile robot. In embodiments, a convolutional neural net-
+work may be used to provide a recommendation based on
+data inputs, including sensor inputs and other contextual
+information. In embodiments, a convolutional neural net- 25
+work may be used for processing inputs, such as for natural
+language processing of instructions provided by one or more
+parties involved in a workflow in an environment. In
+embodiments, a convolutional neural network may be
+deployed with a large number of neurons (e.g., 100,000, 30 
+500,000 or more), with multiple (e.g., 4, 5, 6 or more) layers,
+and with many (e.g-, millions) of parameters. A convolu-
+tional neural net may use one or more convolutional nets.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 35
+may use a regulatory feedback network, such as for recog-
+nizing emergent phenomena (such as new types of condi-
+tions not previously understood in an individual or popula-
+tion of individuals).
+In embodiments, methods and systems described herein 40
+that involve an expert system or self-organization capability
+may use a self-organizing map (SOM), involving unsuper-
+vised learning. A set of neurons may learn to map points in
+an input space to coordinates in an output space. The input
+ space can have different dimensions and topology from the 45
+output space, and the SOM may preserve these while
+mapping phenomena into groups.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a learning vector quantization neural net (LVQ). 5o t
+Prototypical representatives of the classes may parameter-
+ize, together with an appropriate distance measure, in a
+distance-based classification scheme.
+In embodiments, methods and systems described herein
+may use an echo state network (ESN), which may comprise
+a recurrent neural network with a sparsely connected, ran-
+dom hidden layer. The weights of output neurons may be
+changed (e.g-, the weights may be trained based on feed-
+back). In embodiments, an ESN may be used to handle time 60
+series patterns, such as, in an example, recognizing a pattern
+of progression of a process.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a Bi-directional, recurrent neural network (BRNN), 65
+such as using a finite sequence of values (e.g., voltage values
+[col 2]
+336
+sequence based on both the past and the future context of the
+element. This may be done by adding the outputs of two
+RNNs, such as one processing the sequence from left to
+right, the other one from right to left. The combined outputs
+are the predictions of target signals, such as ones provided
+by a teacher or supervisor. A bi-directional RNN may be
+combined with a long short-term memory RNN.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a hierarchical RNN that connects elements in
+various ways to decompose hierarchical behavior, such as
+into useful subprograms. In embodiments, a hierarchical
+RNN may be used to manage one or more hierarchical
+templates for data collection in a social network, a value
+chain environment, or the like.
+In embodiments, methods and systems described herein
+may use a stochastic neural network, which may introduce
+random variations into the network. Such random variations
+can be viewed as a form of statistical sampling, such as
+Monte Carlo sampling or other statistical sampling tech-
+niques.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a genetic scale recurrent neural network. In such
+embodiments, an RNN (often a LSTM) may be used where
+a series may be decomposed into a number of scales where
+every scale informs the primary length between two con-
+secutive points. A first order scale consists of a normal RNN,
+a second order consists of all points separated by two indices
+and so on. The Nth order RNN connects the first and last
+node. The outputs from all the various scales may be treated
+as a committee of members, and the associated scores may
+be used genetically for the next iteration.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a committee of machines (CoM), comprising a
+collection of different neural networks that together “"vote"
+on a given example. Because neural networks may suffer
+from local minima, starting with the same architecture and
+training, but using randomly different initial weights often
+gives different results. A CoM tends to stabilize the result.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an associative neural network (ASNN), such as
+involving an extension of a committee of machines that
+combines multiple feed forward neural networks and a
+k-nearest neighbor technique. It may use the correlation
+between ensemble responses as a measure of distance amid
+the analyzed cases for the kNN. This corrects the bias of the
+neural network ensemble. An associative neural network
+may have a memory that can coincide with a training set. If
+new data become available, the network instantly improves
+its predictive ability and provides data approximation (self-
+learns) without retraining. Another important feature of
+results by analysis of correlations between data cases in the
+space of models.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an instantaneously trained neural network (ITNN),
+where the weights of the hidden and the output layers are
+mapped directly from training vector data.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a spiking neural network, which may explicitly
+consider the timing of inputs. The network input and output

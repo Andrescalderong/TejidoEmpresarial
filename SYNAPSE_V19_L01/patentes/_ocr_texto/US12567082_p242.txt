@@ -1,0 +1,135 @@
+acteristic manner, which machine requires maintenance 55 ment of machine twins 21010 perform predictive mainte-
+[col 1]
+US 12,567,082 B2
+161
+product performance is sues predicted by the digital twin
+may be addressed in a proactive or just-in-time manner.
+The digital twins 1700 may collect events or state data
+about value chain entities 652 from the monitoring layer 614
+and historical or other data from selected data sources of the
+data storage layer 624. Predictive analytics powered by the
+artificial intelligence system 1160 dissect the data, search for
+correlations, and formulate predictions about maintenance
+need and remaining useful life of a set of value chain entities
+652.
+The platform 604 may include a system for learning on a
+training set of outcomes, parameters, and data collected
+from data sources relating to a set of value chain network
+activities to train artificial intelligence systems 1160 (includ-
+ing any of the various expert systems, artificial intelligence15
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the
+documents incorporated) for performing condition monitor-
+maintenance of a set of value chain entities 652.
+In embodiments, the platform may include a system for
+learning on a training set of machine maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of machine activities to train an artificial intelligence/ 25
+machine learning system to perform predictive maintenance
+on a machine using a digital twin of the machine.
+In embodiments, artificial intelligence system 1160 may
+train models, such as predictive models (e.g, various types
+of neural networks, classification-based models, regression 30
+based models, and other machine-learned models). In
+embodiments, training can be supervised, semi-supervised,
+or unsupervised. In embodiments, training can be done using
+training data, which may be collected or generated for
+training purposes.
+An example artificial intelligence system 1160 trains a
+machine predictive maintenance model. A predictive main-
+tenance model may be a model that receives machine related
+data and outputs one or more predictions or answers regard-
+ing theremaining life of the machine.Thetraining data can 40
+be gathered from multiple sources including machine speci-
+fications, environmental data, sensor data, run information,
+outcome data and notes maintained by machine operators.
+The artificial intelligence system 1160 takes in the raw data,
+pre-processes it and applies machine learning algorithms to 45
+generate the predictive maintenance model. In embodi-
+ments, the artificial intelligence system 1160 may store the
+predictive model in a model datastore within data storage
+layer 624.
+Some examples of questions that the predictive model 5o t
+may answer are: when will the machine fail, what type of
+failure it will be, what is the probability that a failure will
+occur within the next X hours, what is the remaining useful
+life of the machine, is the machine behaving in an unchar-
+most urgently and the like.
+The artificial intelligence system 1160 may train multiple
+predictive models to answer different questions. For
+example, a classification model may be trained to predict
+failure within a given time window, while a regression 60
+model may be trained to predict the remaining useful life of
+the machine.
+In embodiments, training may be done based on feedback
+received by the system, which is also referred to as “rein-
+forcement learning." In embodiments, the artificial intelli- 65
+gence system 1160 may receive a set of circumstances that
+led to a prediction (e.g., attributes of a machine, attributes of
+[col 2]
+162
+a model, and the like)and an outcome related to the machine
+and may update the model according to the feedback.
+In embodiments, artificial intelligence system 1160 may
+use a clustering algorithm to identify the failure pattern
+hidden in the failure data to train a model for detecting
+uncharacteristic or anomalous behavior. The failure data
+across multiple machines and their historical records may be
+clustered to understand how different patterns correlate to
+certain wear-down behavior and develop a maintenance plan
+10o resonant with the failure.
+In embodiments, artificial intelligence system 1160 may
+output scores for each possible prediction, where each
+prediction corresponds to a possible outcome. For example,
+in using a predictive model used to determine a likelihood
+that a machine will fail in the next one week, the predictive
+model may output a score for a “will fail outcome and a
+score for a “will not fail" outcome. The artificial intelligence
+system 1160 may then select the outcome with the greater
+score as the prediction. Alternatively, the system 1160 may
+embodiments, the output from system 1160 includes a
+probability of the prediction's accuracy.
+FIG. 55 is an example method used by machine twin 1770
+for detecting faults and predicting any future failures of
+machine 724.
+At 5202, a plurality of streams of machine related data
+from multiple data sources are received at the machine twin
+1770. This includes machine specifications like mechanical
+properties, data from maintenance records, operating data
+collected from the sensors, historical data including failure
+data from multiple machines running at different times and
+under different operating conditions and so on. At 5205, the
+raw data is cleaned by removing any missing or noisy data,
+35 machine at the time of collection of data. At 5208, one or
+more models are selected for training by machine twin 1770.
+The selection of model is based on the kind of data available
+at the machine twin 1770 and the desired outcome of the
+model. For example, there may be cases where failure data
+from machines is not available, or only a limited number of
+failure datasets exist because of regular maintenance being
+performed. Classification or regression models may not
+work well for such cases and clustering models may be most
+suitable. As another example, if the desired outcome of the
+model is determining current condition of the machine and
+detecting any faults, then fault detection models may be
+selected, whereas if the desired outcome is predicting future
+failures then remaining useful life prediction model may be
+selected. At 5210, the one or more models are trained using
+training dataset and tested for performance using testing
+dataset. At 5212, the trained model is used for detecting
+faults and predicting future failure of the machine on pro-
+duction data.
+FIG. 56 is an example embodiment depicting the deploy-
+nance on machines 724. Machine twin 1770 receives data
+from data storage systems 624 on a real-time or near
+real-time basis. The data storage systems 624 may store
+different types of data in different datastores. For example,
+machine datastore 5202 may store data related to machine
+identification and attributes, machine state and event data,
+data from maintenance records, historical operating data,
+notes from machine operator, etc. Sensor datastore 5204
+may store sensor data from operation such as temperature,
+pressure, and vibration that may be stored as signal or time
+series data. Failure datastore 5310 may store failure data
+from machine 724 or similar machines running at different

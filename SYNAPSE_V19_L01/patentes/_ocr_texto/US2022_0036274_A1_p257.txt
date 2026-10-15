@@ -1,0 +1,130 @@
+[col 1]
+US 2022/0036274 A1
+174
+from the input nodes to the output nodes, optionally passing
+through one or more hidden nodes, without loops. In
+embodiments, feed forward neural networks may be con-
+structed with various types of units, such as binary McCull-
+och-Pitts neurons, the simplest of which is a perceptron.
+[1341] In embodiments, methods and systems described
+capability may use a radial basis function (RBF) neural
+network, which may be preferred in some situations involv-
+ing interpolation in a multi-dimensional space (such as
+where interpolation is helpful in optimizing a multi-dimen-
+sional function, such as for optimizing a data marketplace as
+described here, optimizing the efficiency or output of a
+power generation system, a factory system, or the like, or
+other situation involving multiple dimensions. In embodi-
+ments, each neuron in the RBF neural network stores an
+involved in the functioning of this neural network offers
+RBF the advantage of not typically suffering from problems
+withlocalminima ormaxima.
+[1342] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a radial basis function (RBF) neural
+network, such as one that employs a distance criterion with
+respect to a center (e.g., a Gaussian function). A radial basis
+function may be applied as a replacement for a hidden layer,
+such as a sigmoidal hidden layer transfer, in a multi-layer
+perceptron. An RBF network may have two layers, such as
+where an input is mapped onto each RBF in a hidden layer.
+In embodiments, an output layer may comprise a linear
+combination of hidden layer values representing, for
+example, a mean predicted output. The output layer value
+may provide an output that may be the same as or similar to
+that of a regression model in statistics. In classification
+problems, the output layer may be a sigmoid function of a
+linear combination of hidden layer values, representing a
+posterior probability. Performance in both cases may be
+offten improved by shrinkage techniques, such as ridge
+regression in classical statistics. This corresponds to a prior
+belief in small parameter values (and therefore smooth
+output functions) in a Bayesian framework. RBF networks
+may avoid local minima, because the only parameters that
+are adjusted in the learning process are the linear mapping
+from hidden layer to output layer. Linearity ensures that the
+minimum. In regression problems, this can be found in one
+matrix operation.In classification problems,thefixed non-
+linearity introduced by the sigmoid output function may be
+handled using an iteratively. Re-weighted least squares
+function or the like.
+[1343]In embodiments, RBF networks may use kernel
+methods such as support vector machines (SVM) and Gauss-
+ian processes (where the RBF may be the kernel function).
+Anon-linear kernel function may be used to project the input
+data into a space where the learning problem can be solved
+using a linear model.
+[1344] In embodiments, an RBF neural network may
+include an input layer, a hidden layer and a summation layer.
+In the input layer, one neuron appears in the input layer for
+each predictor variable. In the case of categorical variables,
+N-1 neurons are used, where N is the number of categories.
+The input neurons may, in embodiments, standardize the
+value ranges by subtracting the median and dividing by the
+interquartile range. The input neurons may then feed the
+[col 2]
+Feb.3,2022
+values to each of the neurons in the hidden layer. In the
+hidden layer, a variable number of neurons may be used
+(determined by the training process). Each neuron may
+consist of a radial basis function that may be centered on a
+point with as many dimensions as a number of predictor
+variables. The spread (e.g., radius) of the RBF function may
+be different for each dimension. The centers and spreads
+may be determined by training. When presented with a
+vector of input values from the input layer, a hidden neuron
+may compute a Euclidean distance of the test case from the
+neuron's center point and then apply the RBF kernel func-
+tion to this distance, such as using the spread values. The
+resulting value may then be passed to the summation layer.
+In the summation layer, the value coming out of a neuron in
+the hidden layer may be multiplied by a weight associated
+with the neuron and may add to the weighted values of other
+neurons. This sum becomes the output. For classification
+problems, one output may be produced (with a separate set
+of weights and summation units) for each target category.
+The value output for a category is the probability that the
+case being evaluated has that category. In training of an
+RBF, various parameters may be determined, such as the
+number of neurons in a hidden layer, the coordinates of the
+center of each hidden-layer function, the spread of each
+function in each dimension, and the weights applied to
+outputs as they pass to the summation layer. Training may be
+used by clustering algorithms (such as k-means clustering),
+by evolutionary approaches, and the like.
+[1345]In embodiments, a recurrent neural network may
+have a time-varying, real-valued (more than just zero or one)
+activation (output). Each connection may have a modifiable
+real-valued weight. Some of the nodes are called labeled
+nodes, some output nodes, and other hidden nodes. For
+supervised learning in discrete time settings, training
+sequences of real-valued input vectors may become
+sequences of activations of the input nodes, one input vector
+at a time. At each time step, each non-input unit may
+compute its current activation as a nonlinear function of the
+weighted sum of the activations of all units from which it
+receives connections. The system can explicitly activate
+(independent of incoming signals) some output units at
+certain time steps.
+[1346] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a self-organizing neural network, such as
+a Kohonen self-organizing neural network, such as for
+visualization of views of data, such as low-dimensional
+views of high-dimensional data. The self-organizing neural
+network may apply competitive learning to a set of input
+data, such as from one or more sensors or other data inputs
+from or associated with an individual. In embodiments, the
+self-organizing neural network may be used to identify
+structures in data, such as unlabeled data, such as in data
+from various unstructured sources, such as social media
+sources about an individual, where sources of the data are
+unknown (such as where data comes from various unknown
+or uncertain sources). The self-organizing neural network
+may organize structures or patterns in the data, such that they
+can be recognized, analyzed, and labeled, such as identifying
+structures as corresponding to individuals, disease condi-
+tions, health states, activity states, and the like.
+[1347] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a recurrent neural network, which may

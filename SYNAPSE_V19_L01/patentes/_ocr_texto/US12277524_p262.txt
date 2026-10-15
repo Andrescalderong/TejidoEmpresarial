@@ -1,0 +1,132 @@
+exchange manager role, a broker-dealer role, a trading role, 45 role, a vendor role, a demand management role, a marketing
+[col 1]
+US 12,277,524 B2
+349
+template, a salesperson template, a service manager tem-
+plate, a maintenance operator template, and a business
+development template.
+In embodiments, a set of settings for the set of roles may
+include role-based taxonomy settings.
+In embodiments, a taxonomy setting may identify a
+taxonomy that is used to characterize data that is presented
+in a role-based digital twin, such that the data is presented
+in a taxonomy that is linked to the role corresponding to the
+role-based digital twin.
+In embodiments, a set of taxonomies includes at least one
+of a CEO taxonomy, a COO taxonomy, a CFO taxonomy, a
+counsel taxonomy, a board member taxonomy, a CTO
+taxonomy, a chief marketing officer taxonomy, an informa-
+tion technology manager taxonomy, a chief information 15
+officer taxonomy, a chief data officer taxonomy, an investor
+taxonomy, a customer taxonomy, a vendor taxonomy, a
+supplier taxonomy, an engineering manager taxonomy, a
+onomy, and a business development taxonomy.
+In embodiments, at least one role of the set of roles may
+be selected from among a CEO role, a COO role, a CFO
+role, a counsel role,a board member role, a CTO role, an 25 
+information technology manager role, a chief information
+officer role, a chief data officer role, a human resources
+manager role, an investor role, an engineering manager role,
+an accountant role, an auditor role, a resource planning role,
+a public relations manager role, a project manager role, an 30
+operations manager role, a research and development role,
+an engineer role, including but not limited to mechanical
+engineer, electrical engineer, semiconductor engineer,
+engineer, network engineer, or some othertype ofengineer,35 role.
+and a business development role.
+In embodiments, at least one role may be selected from
+factory worker role, a power plant manager role, a power
+plant operations role, a power plant worker role, an equip- 40
+ment service role, and an equipment maintenance operator
+role.
+In embodiments, at least one role may be selected from
+among a market maker role, a market analyst role, an
+a reconciliation role, a contract counterparty role, an
+exchange rate setting role, a market orchestration role, a
+market configuration role, and a contract configuration role.
+In embodiments, at least one role may be selected from
+among a chief marketing officer role, a product development 50
+role, a supply chain manager role, a product design role, a
+marketing analyst role, a product manager role, a competi-
+tive analyst role, a customer service representative role, a
+procurement operator, an inbound logistics operator, an
+outbound logistics operator, a customer role, a supplier role, 55
+a vendor role, a demand management role, a marketing
+manager role, a sales manager role, a service manager role,
+a demand forecasting role, a retail manager role, a ware-
+house manager role, a salesperson role, and a distribution
+center manager role. 60
+In embodiments of the present disclosure, a method is
+provided for training an expert agent, comprising; receiving
+digital twin data from a set of data sources, the digital twin
+data including: sensor data that is received from a set of
+sensors that monitor a set of monitored physical entities 65
+associated with the enterprise, the sensor data transported by
+a set of network entities; enterprise data streams generated
+[col 2]
+350
+by a set of enterprise assets, wherein the enterprise assets
+include at least one of physical entities associated with the
+enterprise and digital entities associated with the enterprise;
+structuring the digital twin data into a set of digital twin data
+structures that are configured to serve a plurality of different
+role-based digital twins; receiving a request for a role-based
+digital twin from a client application, wherein the role-based
+digital twin is configured with respect to a defined role
+within the enterprise; determining a subset of the structured
+digital twin data to corresponds to a set of states that are
+depicted in the role-based digital twin; providing the subset
+of the structured digital twin data to the client application;
+receiving expert agent training data sets from the client
+application, each expert agent training data set indicating a
+respective action taken by a user using the client application
+and one or more features that correspond to the respective
+action; and training an expert agent on behalf of the user
+based on the expert agent training data sets, wherein the
+expert agent is configured to determine actions to be per-
+formed on behalf of the user, wherein the determined actions
+are either recommended to the user or automatically per-
+formed on behalf of the user.
+In embodiments, a defined role may be selected from
+among a CEO role, a COO role,a CFO role, a counsel role,
+a board member role, a CTO role, an information technology
+manager role, a chief information officer role, a chief data
+officer role, an investor role, an engineering manager role, a
+project manager role, an operations manager role, and a
+business development role.
+In embodiments, a defined role may be selected from
+among a factory manager role, a factory operations role, a
+factory worker role, a power plant manager role, a power
+plant operations role, a power plant worker role, an equip-
+ment service role, and an equipment maintenance operator
+In embodiments, a defined role may be selected from
+among a market maker role, an exchange manager role, a
+broker-dealer role, a trading role, a reconciliation role, a
+contract counterparty role, an exchange rate setting role, a
+market orchestration role, a market configuration role, and a
+contract configuration role.
+In embodiments, a defined role may be selected from
+among a chief marketing officer role, a product development
+role, a supply chain manager role, a customer role, a supplier
+manager role, a sales manager role, a service manager role,
+a demand forecasting role, a retail manager role, a ware-
+house manager role, a salesperson role, and a distribution
+center manager role.
+In embodiments, an expert agent training data may
+include interactions training data that indicates a set of
+interactions with a set of experts by the user during perfor-
+mance of the role.
+In embodiments, a set of interactions used to train the
+expert agent may include interactions of the user with the
+physical entities, interactions of the user with the role-based
+digital twin, interactions of the user with the sensor data as
+depicted in the role-based digital twin, interactions of the
+experts with the data streams generated by the physical
+entities, interactions of the experts with one or more com-
+putational entities, interactions of the user with one or more
+network entities, or some other type of interaction.
+In embodiments, an expert agent may be trained to
+determine an action selected from the group comprising:
+selection of a tool, selection of a task, selection of a
+dimension, setting of a parameter, selection of an object,
+selection of a workflow, triggering of a workflow, ordering

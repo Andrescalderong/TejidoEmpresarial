@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+65
+acyclic graph may be used. For a contingent workflow, a
+cyclic graph may be used. The graph database (e.g. graph
+database architectures 1124) may include the knowledge
+graph database. In example embodiments, the knowledge
+graph may include ontology and connections (e.g-, relation-
+ships) between the ontology of the knowledge graph. In an
+example, the knowledge graph may be used to capture an
+articulation of knowledge domains of a human expert such
+that there may be an identification of opportunities to design 10
+and build robotic process automation or other intelligence
+that may replicate this knowledge set. The platform may be
+used to recognize that a type of expert is using this factual
+knowledge base (from the knowledge graph) coupled with
+competencies that may be replicable by artificial intelligence 15
+that may be different depending on type of expertise
+involved. For example, artificial intelligence such as a
+convolutional neural network may be used with spatiotem-
+up a box in a warehouse. Whereas the platform may use a
+different type of knowledge graph for a self-organizing map
+of an expert whose main job is to segment customers into
+customer segmentation groups. In some examples, the
+knowledge graph may be built from various data such as job
+credentials, job listings, parsing output deliverables. In 25
+embodiments, the data storage layer 624 may store data in
+a digital thread, ledger, or the like, such as for maintaining
+a serial or other records of an entities 652 over time,
+including any of the entities described herein. In embodi-
+ments, the data storage layer 624 may use and enable an 30 r
+asset tag 1178, which may include a data structure that is
+associated with an asset and accessible and managed, such
+as by use of access controls, so that storage and retrieval of
+data is optionally linked to local processes, but also option-
+ally open to remote retrieval and storage options. In embodi- 35
+ments, the storage layer 624 may include one or more
+blockchains 1180, such as ones that store identity data,
+transaction data, historical interaction data, and the like,
+such as with access control that may be role-based or may
+be based on credentials associated with a value chain entity
+652, a service, or one or more applications 630. Data stored
+by the data storage systems 624 may include accounting and
+other financial data 730, access data 734, asset and facility
+data 1030 (such as for any of the value chain assets and
+facilities described herein), asset tag data 1178, worker data 45
+1032, event data 1034, risk management data 732, pricing
+data 738, safety data 664 and many other types of data that
+may be associated with, produced by, or produced about any
+ofthe value chain entities and activities described herein and
+in the documents incorporated by reference. 50
+Adaptive Intelligent Systems and Monitoring Layers
+Referring to FIG. 13, additional details, components,
+sub-systems, and other elements of an optional embodiment
+of the platform 604 are illustrated. The management plat-
+form 604 may, in various optional embodiments, include the 55
+set of applications 614, by which an operator or owner of a
+value chain network entity, or other users, may manage,
+monitor, control, analyze, or otherwise interact with one or
+more elements of a value chain network entity 652, such as
+any of the elements noted in connection above and through- 60
+out this disclosure.
+In embodiments, the adaptive intelligent systems layer
+614 may include a set of systems, components, services and
+other capabilities that collectively facilitate the coordinated
+development and deployment of intelligent systems, such as 65
+ones that can enhance one or more of the applications 630
+at the application platform 604; ones that can improve the
+[col 2]
+66
+performance of one or more of the components, or the
+overall performance (e.g-, speed/latency, reliability, quality
+of service, cost reduction, or other factors) of the connec-
+tivity facilities 642; ones that can improve other capabilities
+within the adaptive intelligent systems layer 614; ones that
+improve the performance (e.g-, speed/latency, energy utili-
+zation, storage capacity, storage efficiency, reliability, secu-
+rity, or the like) of one or more of the components, or the
+overall performance, of the value chain network-oriented
+data storage systems 624; ones that optimize control, auto-
+mation, or one or more performance characteristics of one or
+more value chain network entities 652; or ones that gener-
+ally improve any of the process and application outputs and
+outcomes 1040 pursued by use of the platform 604.
+These adaptive intelligent systems 614 may include a
+robotic process automation system 1442, a set of protocol
+adaptors 1110, a packet acceleration system 1410, an edge
+intelligence system 1420 (which may be a self-adaptive
+system), an adaptive networking system 1430, a set of state
+and event managers 1450, a set of opportunity miners 1460,
+a set of artificial intelligence systems 1160, a set of digital
+twin systems 1700, a set of entity interaction systems 1920
+(such as for setting up, provisioning, configuring and oth-
+erwise managing sets of interactions between and among
+sets of value chain network entities 652 in the value chain
+network 668), and other systems.
+In embodiments, the value chain monitoring systems
+layer 614 and its data collection systems 640 may include a
+wide range of systems for the collection of data. This layer
+may include, without limitation, real time monitoring sys-
+tems 1520 (such as onboard monitoring systems like event
+and status reporting systems on ships and other floating
+assets, on delivery vehicles, on trucks and other hauling
+assets, and in shipyards, ports, warehouses, distribution
+centers and other locations; on-board diagnostic (OBD) and
+telematics systems on floating assets, vehicles and equip-
+ment; systems providing diagnostic codes and events via an
+event bus, communication port, or other communication
+system; monitoring infrastructure (such as cameras, motion
+sensors, beacons, RFID systems, smart lighting systems,
+asset tracking systems, person tracking systems, and ambi-
+ent sensing systems located in various environments where
+value chain activities and other events take place), as well as
+removable and replaceable monitoring systems, such as
+portable and mobile data collectors, RFID and other tag
+readers, smart phones, tablets and other mobile devices that
+are capable of data collection and the like); software inter-
+action observation systems 1500 (such as for logging and
+tracking events involved in interactions of users with soft-
+ware user interfaces, such as mouse movements, touchpad
+interactions, mouse clicks, cursor movements, keyboard
+interactions, navigation actions, eye movements, finger
+movements, gestures, menu selections, and many others, as
+well as software interactions that occur as a result of other
+programs, such as over APIs, among many others); mobile
+data collectors 1170 (such as described extensively herein
+and in documents incorporated by reference), visual moni-
+toring systems 1930 (such as using video and still imaging
+systems, LIDAR, IR and other systems that allow visual-
+ization of items, people, materials, components, machines,
+equipment, personnel, gestures, expressions, positions, loca-
+tions, configurations, and other factors or parameters of
+entities 652, as well as inspection systems that monitor
+processes, activities of workers and the like); point of
+interaction systems 1530 (such as dashboards, user inter-
+faces, and control systems for value chain entities); physical
+process observation systems 1510 (such as for tracking

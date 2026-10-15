@@ -1,0 +1,138 @@
+role of the user and the recipients of the report from the 35 facility where the updates to the machinery or equipment
+[col 1]
+US 12,277,524 B2
+319
+threshold. In this example, the client application 8052 may
+record and report the actions taken by the user in response
+to such events and may report the actions in relation to the
+identified events to the expert agent system 8008, as well as
+any other features that are relevant to the event. In response,
+the expert agent system 8008 may train an executive agent
+8364 on behalf of the user, such that the executive agent may
+perform or recommend actions to the user when similar
+events are encountered in the future.
+References to features and functions of the EMP and
+digital twins in this example of a human resources depart-
+ment and a CHRO digital twin 8316 should be understood
+to apply to other departments and digital twins, and their
+respective projects and workflows, except where context
+indicates otherwise. 15
+In embodiments, the executive digital twins may link to,
+interact with, integrate with and/or be used by a number of
+different applications. For example, the executive digital
+twins may be used in automated Al-reporting tools 8360,
+collaboration tools 8362, in connection with executive 20
+agents 8364, in board meeting tools 8366, for training
+modules 8368, and for planning tools 8370.
+In embodiments, AI reporting tools 8360 assist users to
+report one or more states to another user. For example, a
+subordinate may need to report an identified issue to a 25
+higher-ranking member of the enterprise (e.g., CTO may
+wish to report an issue that needs to be addressed to the
+CEO). In embodiments, the AI reporting tool 8360 may be
+configured to receive a request to report a state from a client
+device 8050. In embodiments, the AI-reporting tool 8360 30
+may identify the appropriate recipients of the reported state
+based on the type of request, the role of the user that issued
+the request and the organizational structure of the entity. In
+some embodiments, the AI-reporting tool may determine the
+organizational digital twin of the enterprise. In some
+embodiments, the AI-reporting tool 8360 may determine
+whether the intended recipients of a notification have access
+rights to the data being shared from the executive digital
+twin. For example, if the CFO is reporting to the CEO, it is 40
+likely that the CEO has access to all the enterprise's data and
+will not be precluded from receiving the report. Conversely,
+if the CFO wishes to delegate the handling of an issue via the
+Al-reporting tool to an employee in her business unit, the
+recipient may not have access to such data. In this scenario, 45
+the AI-reporting tool 8360 may notify the requesting user
+(e.g., the CFO) that certain types of data may not be shared
+with the subordinate employee and may determine a manner
+by which the issue may be reported to the subordinate
+without sharing the non-accessible data. Upon determining
+550
+that a user has access rights to view a particular state of data,
+the AI-reporting tool 8360 may generate a report that is for
+the intended recipient. In embodiments, the Al-reporting
+tool may leverage the NLP services of the intelligence
+system to generate the report. In some embodiments, the 55
+AI-reporting tool 8360 may leverage an executive agent
+8364 to determine when to report a state and the appropriate
+recipients of the reported state. In these embodiments, the
+executive agent 8364 may be trained on interactions of the
+user with the client application 8052 and digital twins that 60
+were previously presented to the user.
+In some embodiments, the AI-reporting tool 8360 may be
+configured to monitor one or more user-defined key perfor-
+mance indicators (KPIs). Examples of KPIs of an enterprise
+may include, but are not limited to, with respect to systems,
+facilities, processes, functions, or workforce units: uptime
+(e.g., of an assembly line or other manufacturing system),
+[col 2]
+320
+capacity utilization, on-standard operating efficiency, overall
+effectiveness, downtime, amount of unscheduled downtime,
+setup time, an amount of inventory turns, inventory accu-
+racy, quality, metrics relating to products and services,
+first-pass yield amounts for the enterprise, an amount of
+rework required, days-sales-outstanding (DSOs), an amount
+of scrap or waste produced, throughput, changeover, main-
+tenance percentage, yield per system or unit, overall yield,
+industry reviews, industry ratings, customer reviews, cus-
+I 1o tomer ratings, editorial reviews, awards, social media and
+website attention metrics, search engine performance met-
+rics, safety metrics, health metrics, environmental impact
+metrics, political metrics, certification and testing metrics,
+regulatory metrics, social impact metrics, financial and
+investment metrics, corporate bond ratings, trade association
+metrics, union metrics, lobbying organization ratings, adver-
+tising performance metrics, referral metrics, and many oth-
+ers. Additional or alternative KPI metrics may be defined by
+a user. Examples of these KPI metrics may include an
+amount or percentage of failed audits, a number or percent-
+age of deliveries that are on-time/late, a number of customer
+returns, a number of employee training hours, employee
+turnover percentage, number of reportable health or safety
+incidents, revenue per employee, profit per employee,
+schedule attainment metrics, total cycle time, and the like.
+In embodiments, the collaboration tools 8362 include
+various tools that allow collaboration between executives of
+the enterprise. In embodiments, the collaboration tools
+include digital-twin enabled video conferencing. In these
+embodiments, the EMP 8000 may present participants in the
+video conference with the requested view of an enterprise
+digital twin. For example, during a Board meeting, a CTO
+facility may present an environment digital twin of the
+would be made. In this example, the CTO may illustrate the
+results of simulations performed in the facility without the
+updates and with the updates. The simulation may illustrate
+how the update may benefit the enterprise using a number of
+selected metrics (e.g-, throughput, profits, employee safety,
+or the like). Collaboration and communication tools and
+associated rules may be configured to use company-, indus-
+try- and domain-specific taxonomies and lexicons when
+representing entities, states and flows within the digital twin.
+In embodiments, executive agents 8364 are expert agents
+that are trained to perform tasks on behalf of executive users.
+As discussed, in some embodiments, a client application
+may monitor the user of the client application by a user when
+using the client application 8052. In these embodiments, the
+client application 8052 may monitor the states of an execu-
+tive digital twin that the user drills down into, the states that
+the user reports to a superior and/or delegates to a team
+member in her respective business unit, decisions that are
+made, and the like. As the user uses the client application
+8052, the expert agent system 8008 may train one or more
+machine-learned models on behalf of the particular user,
+such that the models may be leveraged by an executive agent
+8364 to perform tasks on behalf of or recommend actions to
+theuser.
+In embodiments, Board meeting tools 8366 are tools that
+are used to prepare for, to access within and/or to follow-up
+on board and similar meetings, such as Board of Directors,
+Board of Trustees, shareholder meetings, annual meetings,
+investor meetings, and other important meetings. References
+65 to Board meetings herein should be understood to encom-
+pass these and other important meetings that require execu-
+tive preparation, attendance and/or attention. In embodi-

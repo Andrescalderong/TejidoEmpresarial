@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036275A1
+127
+configuration of a digital twin. In embodiments, the default
+parameters may be automatically configured for each user
+based on a role of the user within the organization, as
+inferred by the artificial intelligence system. In embodi-
+ments parameters may be adjusted by one or more autho-
+rized users, such as to adjust or correct the roles, using a
+digital twin configuration interface of the organizational
+digital twin. The parameters for configuration of a role-
+specific digital twin may include permissions (such as for
+data access), communication settings, availability of fea-
+tures (such as role-specific views of data and analytics,
+simulation features, control features, and many other fea-
+tures described throughout this disclosure), and the like. In
+embodiments the artificial intelligence services system may
+incorporate any of the techniques described throughout this
+disclosure or the documents incorporated by reference, such
+as a machine learning, deep learning, convolutional neural
+networks, robotic process automation, or the like. In
+embodiments, the artificial intelligence system may include
+a machine learning system that is trained to infer roles within
+an organizational chart or structure based on a training set of
+data, such as one where roles and relationships within an
+organizational chart are provided by a set of human experts
+and/or where roles and relationships are explicitly stated
+within the organizational chart. For example, the artificial
+intelligence system may learn that the top of the organiza-
+tional chart is likely to comprise the role of CEO and/or
+President of an organization, and that other roles, such as the
+CFO or COO, are likely to be represented in nodes that link
+directly to the CEO role. In embodiments, the artificial
+intelligence system may be trained to operate on various
+data sources to determine and/or augment understanding of
+an organizational structure, such as public data sets, such as
+securities filings, social media information, web sites (such
+as securities information sites), public relations and other
+news about the organization, or the like. In embodiments,
+the machine learning system may parse social media sites,
+such as LinkedInTM, to determine roles of individuals and/or
+to help infer roles. In embodiments, data sources such as
+social data, web data, new articles, or the like may be used
+to determine competencies of individuals, which may be
+associated with roles (e.g-, the AI system may infer that a
+person with a finance degree is likely to be in a financial role
+within the organization). In embodiments, settings for a user
+may be automatically configured to provide features that are
+appropriate for the training, education, experience and/or
+competencies of the user, as explicitly entered into the
+system or as inferred from information associated with the
+identity of the individual. For example, an individual who
+has a degree in physics and an MBA may be provided
+default access to physical model simulations and to financial
+simulations, while an individual who did not have those
+educational credentials might be required to obtain autho-
+rization and/or training before those features are made
+available in the digital twin. Thus, the EMP may include
+artificial intelligence systems that have been trained and/or
+configured to provide automated understanding of organi-
+zational structures and relationships, automated configura-
+tion of digital twins for roles within an organization based on
+the understanding of structures and relationships, and auto-
+mated configuration of digital twin parameters, settings, and
+features based on the role and/or the identity of the user
+filling the role (including the competencies, education, expe-
+rience, training, or the like of the user).
+[col 2]
+Feb.3,2022
+[1096]  In embodiments, a digital twin may be provided to
+represent the organizational structure of a third-party orga-
+nization in the cohort of the organization of the user of the
+EMP, such as a supplier, vendor, distributor, logistics part-
+ner, value added reseller, representative, agent, venture
+partner, competitor, advertiser, marketplace or the like. An
+organizational digital twin of a cohort organization may
+represent structure, relationships, roles, identities, and com-
+petencies of individuals within roles or the organization,
+such that a user of the EMP may quickly and readily view
+salient information about the relevant parts of the organiza-
+tion. The organizational digital twin of the cohort organiza-
+tion may be automatically maintained by an artificial intel-
+ligence system of the EMP, such as by spidering,
+webscraping, and parsing websites, news feeds, press
+releases, social media data, and other available data sources,
+in order to maintain an accurate representation of the orga-
+nization. The artificial intelligence system may be trained on
+a training set of data labelled by human users and/or
+automatically labelled to maintain an updated organizational
+structure. The resulting cohort digital twin may be config-
+ured to provide various role-specific views within the EMP.
+For example, a salesperson may be presented a digital twin
+view of the part of the cohort organization that is most likely
+to include individuals who are likely to be involved in a
+decision to purchase the user's offerings, while an HR
+person's view may be configured to present a digital twin
+view of the part of the cohort organization that provides the
+most comparable benchmark information for human
+resources. Digital twin views of cohort organizations may be
+automatically populated and/or configured, by training arti-
+ficial intelligence systems on a process-specific or role-
+specific basis, to support a wide range of processes and
+features within the EMP, such as identification of recruiting
+candidates, benchmarking as to organizational structures,
+benchmarking as to competencies and talent, identification
+and/or configuration of sales and business development
+targets, identification of competitive offerings and/or proj-
+ects, identification of targets for mergers and acquisitions,
+identification of targets for competitive research, and many
+others.
+[1097] Digital twins can be helpful for visualizing the
+current state of a system, running simulations on those
+systems, and modeling behaviors, amongst many other uses.
+Depending on the configuration of the digital twin, however,
+a particular view or feature may not be useful for some
+members of an organization, as the configuration of the
+digital twin dictates the data that is depicted/visualized by
+the digital twin. Thus, as noted above, in some embodi-
+ments, the EMP is configured to generate role-based digital
+twins. Role-based digital twins may refer to digital twins of
+one or more segments/aspects of an enterprise, where the
+one or more segments/aspects and/or the granularity of the
+data represented by the role-based digital twin are tailored to
+a particular role within the entity and/or to the identity of a
+user that is associated with the role (optionally accounting
+for the competencies, training, education, experience,
+authority and/or permissions of the user, or other character-
+istics). In embodiments, the role-based digital twins include
+executive digital twins. Executive digital twins may refer to
+digital twins that are configured for a respective executive
+within an enterprise. Examples of executive digital twins
+may include CEO digital twins, CFO (Financial) digital
+twins, COO (Operations) digital twins, HR digital twins,

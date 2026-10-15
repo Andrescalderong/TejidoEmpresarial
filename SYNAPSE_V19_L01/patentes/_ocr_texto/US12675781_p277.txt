@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+303
+roles, and may define relationships between roles and/or
+individuals. In embodiments, the relationships may repre-
+sent reporting structures, teams, business units, and the like.
+At 8614, an organizational digital twin of the enterprise is
+generated and deployed. In embodiments, the digital twin
+system 8004 may generate the organizational digital twin by
+connecting data from the enterprise to the organizational
+chart. This may include information relating to the individu-
+als, such as birthdate, social security or tax id, role, rela-
+tionships, citizenship, employment status, salary, stock hold- 10 e
+ings, title, current status, goals or targets, and the like. Once
+deployed, the organizational chart may be continuously
+updated from one or more enterprise data sources. In
+embodiments, the organizational digital twin may be lever-
+aged to determine the roles of individuals within an orga- 15
+nization and/or the reporting structure of the digital twin.
+The method of FIG. 74 is provided for example and not
+intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+FIG. 75 illustrates an example set of operations of a 20 
+method 8700 for generating an executive digital twin. In
+embodiments, the method may be executed at least in part by
+the digital twin system 8004. It is appreciated that the
+method may be executed by other suitable computing sys-
+tems without departing from the scope of the disclosure. 25
+At 8710, a request for an executive digital twin is received
+from a user. In embodiments, the digital twin system 8004
+may receive a request for an executive digital twin from a
+user device associated with a user, such as a mobile device,
+a personal computer, a VR device, or the like. The request 3o 
+may indicate an identity of the user and/or a role of the user.
+At 8712, a role of the user is determined. In embodiments,
+the digital twin system 8004 may determine a role of the user
+from the request and/or from an organizational digital twin
+of an enterprise associated with the user. In embodiments, 35
+the organizational digital twin may indicate the role of the
+user, the permissions of the user, the access rights ofthe user,
+restrictions of the user, and a reporting structure of the user.
+At 8714, a configuration of the executive digital twin is
+determined based on the role of the user. In embodiments,
+the configuration of the executive digital twin indicates a set
+of states that re to be depicted in the executive digital twin
+and a granularity of the digital twin. In embodiments, the
+configuration of the executive digital twin is stored in a
+configuration file in the digital twin data store associated 45 
+with the enterprise. The configuration file may define the
+initial states of the digital twin and the granularities of the
+states.
+At 8716, a digital twin is generated based on one or more
+data sources corresponding to the enterprise. In embodi- 5o 
+ments, the digital twin system 8004 may determine the
+appropriate perspective for the requested digital twin based
+on the configuration of the digital twin and any access rights
+or restrictions of the user. In embodiments, the restrictions
+may include data restrictions, interaction restrictions, depth 55
+of data restrictions, usage restrictions, length of visibility
+restrictions, that the user may have. In some embodiments,
+generating the requested digital twin may include identify-
+ing the appropriate data sources for the digital twin given the
+izes the executive digital twin from the data sources.
+At 8718, the executive digital twin is served to a user
+device of the user. In embodiments, the digital twin system
+8004 may provide a file (e.g., a JSON file) containing the
+executive digital twin data and any data structures or visual 65
+elements that are needed to depict the executive digital twin
+by the user device. In embodiments, the digital twin system
+[col 2]
+304
+8004 may also stream one or more real-time data or near-real
+time data streams to the user device (e.g., via a data bus),
+such that the executive digital twin may be updated with
+fresh data as the user interacts with the executive digital
+twin. The user may then interact with the digital twin. For
+example, the user may delegate tasks via the executive
+digital twin, request simulations via the executive digital
+twin, drill down into or zoom out of states depicted in the
+executive digital twin, report states to a supervisor via the
+executive digital twin, and/or the like.
+The method of FIG. 75 is provided for example and not
+intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+Artificial Intelligence and Neural Network Embodiments
+Referring to FIGS. 76 through 103, in embodiments of the
+present disclosure, including ones involving artificial intel-
+ligence system 1160, expert systems, self-organization,
+machine learning, automation (including robotic process
+automation, remote control, autonomous operation, auto-
+mated configuration, and the like), adaptive intelligence and
+adaptive intelligent systems, prediction, classification, opti-
+mization, and the like, may benefit from the use of a neural
+network or other artificial intelligence system, such as a
+neural net trained for pattern recognition, for classification
+of one or more parameters, characteristics, or phenomena,
+for support of autonomous control, and other purposes.
+References to artificial intelligence, neural network or neural
+net throughout this disclosure should be understood to
+encompass a wide range of different types of neural net-
+works, machine learning systems, artificial intelligence sys-
+tems, and the like, such as feed forward neural networks,
+radial basis function neural networks, self-organizing neural
+networks (e.g., Kohonen self-organizing neural networks),
+recurrent neural networks, modular neural networks, artifi-
+cial neural networks, physical neural networks, multi-lay-
+ered neural networks, convolutional neural networks,
+hybrids of neural networks with other expert systems (e.g.,
+hybrid fuzzy logicneural network systems), Autoencoder
+neural networks, probabilistic neural networks, time delay
+neural networks, convolutional neural networks,regulatory
+feedback neural networks, radial basis function neural net-
+works, recurrent neural networks, Hopfield neural networks,
+Boltzmann machine neural networks, self-organizing map
+(SOM) neural networks, learning vector quantization (LVQ)
+neural networks, fully recurrent neural networks, simple
+recurrent neural networks, echo state neural networks, long
+short-term memory neural networks, bi-directional neural
+networks, hierarchical neural networks, stochastic neural
+networks, genetic scale RNN neural networks, committee of
+machines neural networks, associative neural networks,
+physical neural networks, instantaneously trained neural
+networks, spiking neural networks, neocognition neural net-
+works, dynamic neural networks, cascading neural net-
+works, neuro-fuzzy neural networks, compositional pattern-
+producing neural networks, memory neural networks,
+hierarchical temporal memory neural networks, deep feed
+forward neural networks, gated recurrent unit (GCU) neural
+networks, auto encoder neural networks, variational auto
+encoder neural networks, de-noising auto encoder neural
+networks, sparse auto-encoder neural networks, Markov
+chain neural networks, restricted Boltzmann machine neural
+networks, deep belief neural networks, deep convolutional
+neural networks, de-convolutional neural networks, deep
+convolutional inverse graphics neural networks, generative
+adversarial neural networks, liquid state machine neural
+networks, extreme learning machine neural networks, echo
+state neural networks, deep residual neural networks, sup-

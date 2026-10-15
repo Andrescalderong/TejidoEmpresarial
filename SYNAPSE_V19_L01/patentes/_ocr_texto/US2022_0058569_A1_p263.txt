@@ -1,0 +1,131 @@
+[col 1]
+US2022/0058569A1
+180
+connected units (e.g., neurons or nodes) form a directed
+cycle. Such a network may be used to model or exhibit
+dynamic temporal behavior, such as those involved in
+dynamic systems including a wide variety of the industrial
+machines and devices described throughout this disclosure,
+speeds or frequencies in variable conditions with variable
+inputs, a robotic manufacturing system, a refining system, or
+the like, where dynamic system behavior involves complex
+interactions that an operator may desire to understand,
+predict, control and/or optimize. For example, the recurrent
+neural network may be used to anticipate the state (such as
+a maintenance state, a fault state, an operational state, or the
+like), of an industrial machine, such as one performing a
+dynamic process or action. In embodiments, the recurrent
+neural network may use internal memory to process a
+sequence of inputs, such as from other nodes and/or from
+sensors and other data inputs from the industrial environ-
+ment, of the various types described herein. In embodi-
+ments, the recurrent neural network may also be used for
+pattern recognition, such as for recognizing an industrial
+machine based on a sound signature, a heat signature, a set
+of feature vectors in an image, a chemical signature, or the
+like. In a non-limiting example, a recurrent neural network
+may recognize a shift in an operational mode of a turbine, a
+generator, a motor, a compressor, or the like (such as a gear
+shift) by learning to classify the shift from a training data set
+consisting ofa stream of data from tri-axial vibration sensors
+and/or acoustic sensors applied to one or more of such
+machines.
+[1383]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a modular neural network, which may
+comprise a series of independent neural networks (such as
+ones of various types described herein) that are moderated
+by an intermediary. Each of the independent neural networks
+in the modular neural network may work with separate
+inputs, accomplishing subtasks that make up the task the
+modular network as a whole is intended to perform. For
+example, a modular neural network may comprise a recur-
+rent neural network for pattern recognition, such as to
+recognize what type ofindustrial machine is being sensed by
+one or more sensors that are provided as input channels to
+the modular network and an RBF neural network for opti-
+mizing the behavior of the machine once understood. The
+intermediary may accept inputs of each of the individual
+neural networks, process them, and create output for the
+modular neural network, such an appropriate control param-
+eter, a prediction of state, or the like.
+[1384] Combinations among any of the pairs, triplets, or
+iarger combinations, of the various neural network types
+described herein, are encompassed by the present disclosure.
+This may include combinations where an expert system uses
+one neural network for recognizing a pattern (e.g, a pattern
+indicating a problem or fault condition) and a different
+neural network for self-organizing an activity or work flow
+based on the recognized pattern (such as providing an output
+governing autonomous control ofa system in response to the
+recognized condition or pattern). This may also include
+combinations where an expert system uses one neural net-
+work for classifying an item (e.g., identifying a machine, a
+component, or an operational mode) and a different neural
+network for predicting a state of the item (e.g-, a fault state,
+an operational state, an anticipated state, a maintenance
+[col 2]
+Feb.24,2022
+state, or the like). Modular neural networks may also include
+situations where an expert system uses one neural network
+for determining a state or context (such as a state of a
+machine, a process, a work flow, a marketplace, a storage
+system, a network, a data collector, or the like) and a
+different neural network for self-organizing a process
+involving the state or context (e.g., a data storage process, a
+network coding process, a network selection process, a data
+facturing process, a refining process, a digging process, a
+boring process, or other process described herein).
+[1385] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a physical neural network where one or
+more hardware elements are used to perform or simulate
+neural behavior. In embodiments, one or more hardware
+neurons may be configured to stream voltage values that
+represent analog vibration sensor data voltage values, to
+calculate velocity information from analog sensor inputs
+representing acoustic, vibration or other data, to calculation
+acceleration information from sensor inputs representing
+acoustic, vibration, or other data, or the like. One or more
+hardware nodes may be configured to stream output data
+resulting from the activity of the neural net. Hardware
+nodes, which may comprise one or more chips, micropro-
+cessors, integrated circuits, programmable logic controllers,
+application-specific integrated circuits,field-programmable
+gate arrays, or the like, may be provided to optimize the
+speed, input/output efliciency, energy efficiency, signal to
+noise ratio, or other parameter of some part of a neural net
+of any of the types described herein. Hardware nodes may
+include hardware for acceleration of calculations (such as
+dedicated processors for performing basic or more sophis-
+ticated calculations on input data to provide outputs, dedi-
+cated processors for filtering or compressing data, dedicated
+processors for decompressing data, dedicated processors for
+compression of specific file or data types (e.g., for handling
+image data, video streams, acoustic signals, vibration data,
+thermal images, heat maps, or the like), and the like. A
+physical neural network may be embodied in a data collec-
+tor, such as a mobile data collector described herein, includ-
+ing one that may be reconfigured by switching or routing
+inputs in varying configurations, such as to provide different
+neural net configurations within the data collector for han-
+dling different types of inputs (with the switching and
+configuration optionally under control of an expert system,
+which may include a software-based neural net located on
+the data collector or remotely). A physical, or at least
+partially physical, neural network may include physical
+hardware nodes located in a storage system, such as for
+storing data within an industrial machine or in an industrial
+environment, such as for accelerating input/output functions
+to one or more storage elements that supply data to or take
+data from the neural net. A physical, or at least partially
+physical, neural network may include physical hardware
+nodes located in a network, such as for transmitting data
+within, to or from an industrial environment, such as for
+accelerating input/output functions to one or more network
+nodes in the net, accelerating relay functions, or the like. In
+embodiments, of a physical neural network, an electrically
+adjustable resistance material may be used for emulating the
+function of a neural synapse. In embodiments, the physical
+hardware emulates the neurons, and software emulates the
+neural network between the neurons. In embodiments, neu-

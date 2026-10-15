@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+231
+shared document (e.g-, a spreadsheet or presentation docu-
+ment). Users may collaborate in additional manners with
+respect to a digital twin, as will be discussed throughout the
+disclosure. For example, in some embodiments, the collabo-
+ration suite 8006 may allow a user to call a video conference
+with another user, where the users see each other and see
+aspects of a specific digital twin that relates to the topics of
+discussion for the conference. In this example, users may,
+for example, see a representation of workpiece under dis-
+cussion and see each other, so that a user can see gestures or 10
+indications from another user about how the workpiece
+should be acted upon. In another example, a conferencing
+feature of the twin may show participants in a view of a set
+of environments of facilities by their locations, so that users
+can recognize which participants may have closest proxim- 15
+ity to relevant assets that are the subject of collaboration. In
+some embodiments, the collaboration suite 8006 interfaces
+with third-party applications, whereby data may be imported
+to and/or from the third-party application. For example, in
+collaborating on a Board presentation, different executives 20
+may export data from their respective executive digital twin
+into a shared presentation file (e.g., PowerPointTM file or
+GoogleTM slide presentation). In another example, a first
+user (e.g-, the CEO of an enterprise) may request certain
+information (e.g-, financial projections for the enterprise) 25
+from a second user (e.g., the CTO of the enterprise) via a
+first executive digital twin configured for the first user (e.g..
+a CEO digital twin of the enterprise). In response, the second
+user may upload/export the requested data from a second
+executive digital twin that was configured for the second 30
+user (e.g., the CTO) to the EMP 8000 (e.g., to the collabo-
+ration suite 8006 and/or the digital twin system 8004, which
+may then update the executive digital twin configured for the
+first user. Additional examples and descriptions of the col-
+laboration suite 8006 and underlying collaboration tools are 35
+discussed throughout the disclosure.
+In embodiments, the collaboration suite 8006 may be
+configured to interface with the digital twin system 8004
+(e.g., independent of or under control of the digital twin
+system 8004) to provide role-specific views and other fea- 40
+tures within a collaboration environment and/or workflow of
+a collaboration tool, such that different participants in the
+same collaboration environment and/or workflow experi-
+ence different views or features of the same digital twin
+entities and/or workflows. For example, a CFO may col- 45 t
+laborate with a COO and a CTO about the possible replace-
+ment of an internal system or a piece of machinery or
+equipment, where the current system, machinery or equip-
+ment and/or the potential replacement system, machinery, or
+equipment is/are represented in the digital twin by visual and 50
+other elements. During collaboration, the collaboration suite
+8006 may recognize the identities/roles of the CFO, COO
+and CTO and may automatically configure their respective
+collaboration views into the example digital twin based on
+those roles. For example, the CFO may be presented with a
+view that is augmented with financial data, such as the cost
+of the item and various possible replacements, terms and
+conditions of leasing agreements, depreciation information,
+information on the financial impacts on productivity, or the
+like. Meanwhile, the collaboration suite 8006 may present 60
+the COO with information depicting the relationship of the
+item to operational processes, such as linkages to other
+systems involved in a production line, timing information
+(such as scheduled downtimes for a facility) and the like. In
+this example, the CTO may be presented with performance 65
+specifications and capability information for an item and
+various possible replacements, including, for example, com-
+[col 2]
+232
+patibility information that indicates the extent to which
+various possible replacements are compatible with other
+items represented in the digital twin (including physical/
+mechanical compatibility, data compatibility, software com-
+patibility, and many other forms of technology compatibil-
+ity), reviews and ratings, and other technical information.
+Each executive user may be presented with respective
+information that is in the respective user's “native language"
+(e.g., information that is tailored to each executive's respec-
+tive expertise and needs) and with respective views and/or
+features that are comfortable for that user, while the group
+can collaborate (in live or asynchronous modes) to raise
+issues, engage in commentary and dialog, perform analysis
+(including simulations as described herein) to arrive at a
+decision (e.g., about selection and timing of a replacement,
+or an alternative like a repair) that is financially prudent,
+operationally effective, and technologically sound. Thus, a
+role-sensitive collaboration environment integrated with
+respect to a shared enterprise digital twin enables collabo-
+ration around digital twin entities and workflows while
+allowing users to engage with role-sensitive views and
+features. In embodiments, the collaboration suite 8006 and
+or other systems of the EMP 8000 (e.g., the digital twin
+system 8004) may access a semantic model of an enterprise
+taxonomy to automatically generate and/or provide infor-
+mation that is presented in a shared digital twin (such as
+role-specific augmentation of entities with text or symbols
+that is derived from data or metadata based on state infor-
+mation or other data). In embodiments, the enterprise tax-
+onomy may be learned by the EMP 8000 via an analysis of
+data provided by the enterprise or may be manually
+uploaded by a user (e.g., a configurating user associated with
+the enterprise). The information in the digital twin may be
+presented with a role-specific understanding of the tax-
+onomy, such as where the same entity (e.g., a piece of
+equipment) is given a different name by different groups in
+department and a “machine" by the operations team) and/or
+where attributes of the entity or related workflows use
+different terminology, codes, symbols, or the like that are
+role-specific or group-specific. In embodiments, the collabo-
+ration suite 8006 may automatically enable translation of
+terminology between roles, such as translating commentary
+that uses the name of an entity or that describes attributes of
+the entity from one role-specific form to another role-
+specific form. Automatic translation may present alternative
+terms together (e.g., as the "asset/machine" or “code red/
+urgent"). In embodiments, automated translation may be
+performed by translation models (e.g., enterprise-specific
+translation models) that are trained by machine learning or
+similar techniques, whereby the translation models may be
+leveraged to provide automated translation for role-sensitive
+entity, workflow and attribute presentation. In embodiments,
+the translation models may be trained using a training data
+ 55 set of translations generated by human experts and/or by
+unsupervised learning techniques that operate on the data of
+the enterprise to identify associations between different
+terms used by different roles and/or groups to describe the
+same thing. In embodiments, translation models may be
+seeded by an explicit translation model or may be accom-
+plished by deep learning or similar techniques known to
+those of skill in the art.
+In embodiments, the expert agent system 8008 trains
+expert agents that perform/recommend actions on behalf of
+an expert. An expert agent may be a sofiware module that
+implements and/or leverages artificial intelligence services
+to perform/recommend actions on behalf of or in lieu of an

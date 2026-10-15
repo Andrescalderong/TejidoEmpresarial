@@ -1,0 +1,135 @@
+like. Similar rules may be applied to access to features, such 45 sions, and restrictions may be defined geographically and/or
+[col 1]
+US 12,567,082 B2
+199
+a brokering workforce for a marketplace, a trading work-
+force for a marketplace, a trade reconciliation workforce for
+a marketplace, a transactional execution workforce for a
+marketplace, and/or the like. Enterprises may include addi-
+tional or alternative workforces. In some embodiments, an
+organizational digital twin may include management-level
+roles within a workforce. Examples of management-level
+roles of an enterprise include a CEO role, a COOrole,a CFO
+role, a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information 10
+officer role, a chief data officer role, an investor role, an
+engineering manager role, a project manager role, an opera-
+tions manager role, a business development role. Further-
+more, the management-level roles of a workforce may
+include a factory manager role, a factory operations role, a 15
+factory worker role, a power plant manager role, a power
+plant operations role, a power plant worker role, an equip-
+ment service role, and an equipment maintenance operator
+role. In a value chain context, the management-level roles of
+a workforce may include a chief marketing officer role, a
+product development role, a supply chain manager role, a
+customer role, a supplier role, a vendor role, a demand
+management role, a marketing manager role, a sales man-
+ager role, a service manager role, a demand forecasting role,
+a retail manager role, a warehouse manager role, a sales- 25
+person role, and a distribution center manager role. In the
+context of marketplaces, the management-level roles of a
+workforce may include a market maker role, an exchange
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate 3o
+ setting role, a market orchestration role, a market configu-
+ration role, and a contract configuration role. It is appreci-
+ated that not all of the roles defined above apply to a
+particular workforce type. Furthermore, some roles may be
+associated with different types of workforces. 35
+In some embodiments, an organizational digital twin may
+further incorporate data access rules for different divisions
+and/or roles within the organization.For example, the CEO
+may be granted access to most or all of the organization's
+data, the CFOmay be granted accessto financial-related 40
+data and restricted from viewing R&D data, the CTO may be
+granted access to R&D-related data and restricted from
+viewing financial data, members of the engineering team
+may be restricted in accessing financial related data, or the
+as analytic models, artificial intelligence systems, intelligent
+agents, and the like, including role-based or identity-based
+control of the ability to view results, to configure inputs, to
+configure or adjust models (e.g., weights, inputs, or process-
+ing functions), to undertake control actions, or the like. In 150
+some embodiments, the EMP may utilize the organizational
+digital twin when determining the level of access a particular
+individual may be granted and/or whether to deny certain
+types of access to the individual. In some embodiments, the
+can access, such as information about each individual listed
+in the organizational digital twin (e.g-, salary, start date,
+availability, work status, and the like). For example, lower
+level employees may not be granted access to sensitive
+information, such as financial data, product strategies, mar- 60
+keting strategies, trade secrets, or the like. In some embodi-
+ments, certain users may be granted permission to change
+the access rights of other employees, which may be reflected
+in the organizational digital twin. For example, certain
+executives and managers may be granted permission to grant 65
+access rights to members of their respective teams when
+working on certain projects.
+[col 2]
+200
+In embodiments, the enterprise configuration system 8002
+receives an organization chart ("org chart") definition of an
+enterprise and generates an organizational digital twin based
+on the org chart definition. In embodiments, the org chart
+definition may define the business units/departments of the
+enterprise, the reporting structure of the enterprise, various
+roles of the enterprise/within each business unit, and the
+individuals in the respective roles. In some embodiments,
+the user can upload the enterprise's org chart to the EMP
+8000 via the enterprise configuration system 8002. Addi-
+tionally or alternatively, the user can define the structure of
+the org chart (e.g., roles, business units, reporting structure)
+and may populate the various roles with names and/or other
+identifiers of the individuals filling the respective roles
+defined in the org chart. In some embodiments, the enter-
+prise configuration system 8002 may access an enterprise
+resource planning system 8044 and/or an HR system8046 of
+the enterprise to obtain organizational data of the enterprise,
+such as the roles of the enterprise, the individuals that fill the
+20 roles, the salaries of the individuals that fill the roles, the
+reporting structure of the enterprise, and the like. In these
+embodiments, the digital twin system 8004 (discussed
+below) may continue to communicate with the ERP system
+8044 and/or HR system 8046 to receive the data needed to
+maintain the organizational digital twin in a real-time or
+near-real-time manner.
+In embodiments, the enterprise configuration system 8002
+(in cooperation with the digital twin system 8004, discussed
+below) may generate an organizational digital twin of the
+enterprise based on the org chart definition and the indi-
+viduals that populate the roles within the org chart definition.
+In embodiments, a user may define one or more restrictions,
+permissions, and/or access rights of the individuals indicated
+in the organizational digital twin via the enterprise configu-
+ration system 8002. In embodiments, a restriction may
+define one or more types of data or features that a particular
+user or group of users is not allowed to access (either
+directly or in a digital twin). In embodiments, an access right
+may define one or more types of data or features that a
+access that a user or group of users can access. In embodi-
+ments, a permission may define operations that a user or a
+group of users may perform with respect to the EMP 8000.
+In embodiments, one or more of the access rights, permis-
+temporally limited. For example, some types of data or
+features may only be viewed or otherwise accessed in
+certain areas (e.g., sensitive data may only be viewed in the
+corporate offices) or at certain times (e.g., during Board
+meetings). In embodiments, the restrictions, permissions,
+and/or access rights may be set with respect to roles or the
+users themselves. As such, defining access rights, permis-
+sions, and/or restrictions for a user or a group of users may
+also include defining access rights, permissions, and/or
+restrictions to a role and/or business unit within the enter-
+prise. In embodiments, the organizational digital twin may
+be deployed to manage the rights, permissions, and/or
+restrictions for the users of an enterprise. Furthermore, in
+embodiments, the organizational digital twin may define the
+twins) that various users may have access to. In some
+embodiments, the organizational digital twin may depict
+additional or alternative information.
+In embodiments, the digital twin system 8004 is config-
+ured to generate, update, and serve enterprise digital twins of
+an enterprise. In some embodiments, the digital twin system
+8004 is configured to generate and serve role-based digital

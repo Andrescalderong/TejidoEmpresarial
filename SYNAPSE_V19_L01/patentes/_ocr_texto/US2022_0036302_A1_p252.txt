@@ -1,0 +1,132 @@
+[col 1]
+US2022/0036302A1
+169
+(DSOs), an amount of scrap or waste produced, throughput,
+changeover, maintenance percentage, yield per system or
+unit, overall yield, industry reviews, industry ratings, cus-
+tomer reviews, customer ratings, editorial reviews, awards,
+social media and website attention metrics, search engine
+performance metrics, safety metrics, health metrics, envi-
+ronmental impact metrics, political metrics, certification and
+testing metrics, regulatory metrics, social impact metrics,
+financial and investment metrics, corporate bond ratings,
+trade association metrics, union metrics, lobbying organiza-
+tion ratings, advertising performance metrics, referral met-
+rics, and many others. Additional or alternative KPI metrics
+may be defined by a user. Examples of these KPI metrics
+number or percentage of deliveries that are on-time/late, a
+number of customer returns, a number of employee training
+hours, employee turnover percentage, number of reportable
+health or safety incidents,revenue per employee, profit per
+employee, schedule attainment metrics, total cycle time, and
+the like.
+[1298]In embodiments, the collaboration tools 8362
+include various tools that allow collaboration between
+executives of the enterprise. In embodiments, the collabo-
+ration tools include digital-twin enabled video conferencing.
+In these embodiments, the EMP 8000 may present partici-
+pants in the video conference with the requested view of an
+enterprise digital twin. For example, during a Board meet-
+ing. a CTO proposing an update to the machinery or
+equipment in a facility may present an environment digital
+twin of the facility where the updates to the machinery or
+equipment would be made. In this example, the CTO may
+illustrate the results of simulations performed in the facility
+without the updates and with the updates. The simulation
+may illustrate how the update may benefit the enterprise
+using a number of selected metrics (e.g., throughput, profits,
+employee safety, or the like). Collaboration and communi-
+cation tools and associated rules may be configured to use
+company-, industry- and domain-specific taxonomies and
+lexicons when representing entities, states and flows within
+the digital twin.
+[1299]  In embodiments, executive agents 8364 are expert
+agents that are trained to perform tasks on behalf of execu-
+tive users. As discussed, in some embodiments, a client
+application may monitor the user of the client application by
+a user when using the client application 8052. In these
+embodiments, the client application 8052 may monitor the
+states of an executive digital twin that the user drills down
+into, the states that the user reports to a superior and/or
+delegates to a team member in her respective business unit,
+decisions that are made, and the like. As the user uses the
+client application 8052, the expert agent system 8008 may
+train one or more machine-learned models on behalf of the
+particular user, such that the models may be leveraged by an
+executive agent 8364 to perform tasks on behalf of or
+recommend actions to the user.
+[1300]  In embodiments, Board meeting tools 8366 are
+tools that are used to prepare for, to access within and/or to
+follow-up on board and similar meetings, such as Board of
+Directors, Board of Trustees, shareholder meetings, annual
+meetings, investor meetings, and other important meetings.
+References to Board meetings herein should be understood
+to encompass these and other important meetings that
+require executive preparation, attendance and/or attention.
+Inembodiments,Boardmeetingtools8366mayallow
+[col 2]
+Feb.3,2022
+different users to present one or more states of an enterprise
+digital twins within the context of a Board report or Board
+meeting. For example, a user (e.g., a COO) may share a
+simulation of a proposed logistics solution from the COO
+digital twin 8366 with one or more devices (e.g., a device in
+the Board room and/or devices of participants accessing the
+Board meeting remotely). In embodiments, a Board meeting
+tool 8366 may limit access to certain types of data based on
+time, scope, and permissions. For example, a Board meeting
+tool 8366 may require that all geolocations that board
+members be registered before a Board meeting (e.g., Board
+room, designated home ofices for those joining by phone or
+video, and the like), such that some or all of the data depicted
+in a digital twin that is being presented can only be viewed
+on a device that is at one of the registered geolocations
+and/or only for a defined duration, such as from a few hours
+before through a few hours after a meeting, or only during
+the meeting. Similarly, in embodiments, the Board meeting
+tools 8366 may limit access to some or all of the data shared
+in a presented digital twin to particular times (e.g-, during
+the Board meeting or the day of the Board meeting). Other
+examples of board meeting tools 8366 are discussed
+throughout the application.
+[1301]  In embodiments, training modules 8368 may
+include software tools that are used to train a user. In
+embodiments, the training modules 8368 may leverage
+digital twins to improve executive training for an enterprise.
+For example, a training module 8368 may provide real-
+world examples that are based on the data collected from the
+enterprise. The training module 8368 may present the user
+with different scenarios via an executive digital twin 8368
+and the user may take actions. Based on the actions, the
+training module 8368 may request a simulation from the
+EMP 8000, which in turn returns the results to the user. In
+this way, the user may be trained on scenarios that are based
+on the actual enterprise of the user.
+[1302]In embodiments, planning tools 8370 are software
+tools that leverage digital twins to assist users to make plans
+for the enterprise. In embodiments, a planning tool 8370
+may be configured to provide a graphical user interface that
+allows an executive to make plans (e.g., budgets, defining
+KPIs, etc.). In some embodiments, the planning tool 8370
+may be configured to request a simulation from the IMP
+8000 given the parameters set in the created plan. In
+response, the EMP 8000o may return the results of the
+simulation and the user can determine whether to adjust the
+plan.
+[1303]  In this way, the user may iteratively refine the plan
+to achieve one or more objectives. In embodiments, an
+executive agent 8362 may monitor the track the actions
+taken while the plan is being refined by the user so that the
+expert agent system 8008 may train the executive agent
+8362 to generate or recommend plans to the user in the
+future.
+[1304] The enterprise digital twins may be leveraged
+and/or interface with other software applications without
+departing from the scope of the disclosure.
+[1305] FIG.84 illustrates an example implementation of
+the EMP 8000.In this example,the EMP 8000 is in
+communication with a plurality of client applications 8052
+and a set of enterprise assets 8400. In the example, the EMP
+8000 receives enterprise data from a set of enterprise entities
+8400, such as a sensor system 8022, physical entities 8402,
+digital entities 8404, computational entities 8406, and/or

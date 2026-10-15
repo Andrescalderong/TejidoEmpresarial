@@ -1,0 +1,135 @@
+[col 1]
+US 12,277,524 B2
+295
+of which may be further associated with financial and
+performance metrics pertaining to the activity and which are
+also accessible to the COO digital twin 8306.
+In embodiments, a COO digital twin 8306 may be con-
+figured to monitor operational performance, including in
+real time, based at least in part on use of the monitoring
+agent of the client application 8052, as described herein, that
+is associated with the COO digital twin 8306. The monitor-
+ing agent may report on such activities to the EMP 8000 for
+10 presentation in a user interface that is associated with the
+COO digital twin 8306. In response, the EMP 8000 may
+train an executive agent (which may include one or more
+machine-learned models) to handle and process such noti-
+fications when they next arrive and escalate and/or alert the
+COO when such notifications are of an urgent nature.
+In embodiments, a COO digital twin 8306 may be con-
+figured to report on the performance of the operations
+department, personnel of the operations department, opera-
+tions activities, operations content, operations platforms, 20 t
+operations partners, or some other aspect of management
+within a COO's responsibilities.
+In embodiments, the EMP 100 trains and deploys execu-
+tive agents on behalf of enterprise users. In embodiments, an
+executive agent is an Al-based software system that per- 25 
+forms tasks on behalf of and/or suggests actions to a
+respective executive user. In embodiments, the EMP 100
+receives data from various data sources associated with a
+particular entity or workflow and learns the workflows
+performed by the particular user based on the data and the
+surrounding circumstances or context. For example, the user
+may be a COO that is presented a COO digital twin 8306.
+Among the responsibilities of the COO may be scheduling
+maintenance and replacement of equipment in a manufac- 35
+turing, warehouse, or other operational facility. The states
+depicted in the COO digital twin 8306 may include depic-
+tions of the condition of different pieces of equipment within
+the operational facility. In this example, the COO may
+schedule maintenance via the digital twin when a piece of
+equipment is determined to be in a first condition (e.g, a
+deteriorating condition) and may issue a request to the COO
+via the COO digital twin 8306 to replace the piece of
+equipment when the equipment is determined to be in a
+second condition (e.g-, a critical condition). The executive 45
+agent may learn the COO's tendencies based on the COO's
+previous interaction with the COO digital twin 8306. Once
+trained, the executive agent may automatically request
+replacements from the COO when a particular piece of
+equipment is determined to be in the second condition and 50
+may automatically schedule maintenance if the piece of
+equipment is in the first condition.
+In embodiments, the client application 8052 that executes
+the COO digital twin 8306 may be configured with an
+executive agent that reports a COO's behaviors and prefer- 55
+erences) to the executive agent system 8008, as described
+herein, and the executive agent system 8008 may train the
+executive agent on how the COO or other executive per-
+sonnel respond to certain situations and adjust its operation 60
+based at ieast in part on the data collection, analysis,
+machine learning and A.I. techniques, as described herein.
+The foregoing examples are optional examples and are not
+intended to limit the scope of the disclosure.
+References to features and functions of the EMP and
+digital twins in this example of an operations department
+and a COO digital twin 8306 should be understood to apply
+[col 2]
+296
+to other departments and digital twins, and their respective
+projects and workflows, except where context indicates
+otherwise.
+In embodiments, a Chief Marketing officer (CMO) digital
+twin 8308 may be a digital twin configured for a CMO of an
+enterprise, or an analogous executive tasked with overseeing
+the marketing tasks of the enterprise. A CMO digital twin
+8308 may provide functionality including, but not limited to,
+management of personnel and partners, development and
+oversight of marketing budgets and resources, management
+of marketing and advertising platforms, development and
+management of marketing content, strategies and cam-
+paigns, reporting, competitor analysis, regulatory analysis,
+and management of data privacy and security.
+In embodiments, the types of data that may populate
+and/or be utilized by a CMO digital twin 8308 may include,
+but are not limited to, macroeconomic data; market pricing
+data; competitive product and pricing data; microeconomic
+analytic data; forecast data; demand planning data; competi-
+tive matrix data; product roadmap; product capability data;
+consumer behavior data; consumer profile data; collabora-
+tive filtering data; analytic results of AI and/or machine
+learning modeling; channel data; demographic data; geo-
+graphic data; prediction data; recommendation data, or some
+other type of data relevant to the operations of the CMO
+and/or marketing department.
+In embodiments, an executive digital twin, such as a
+CMO digital twin 8308 or other executive digital twin may
+depict a twin of a department, such as the marketing
+department or other department, which the user may use to
+identify, assign, instruct, oversee and review department
+personnel and third-party personnel that are associated with
+the activities of a particular department of an organization,
+including third-party partners and other outside associates
+involved in the organization's related endeavors. Examples
+of such organization personnel include, but are not limited
+to, an organization's marketing staff, sales staff, finance
+staff, product design personnel, engineers, analysts, statisti-
+cians, data scientists, advertising staff, executive personnel,
+human resources staff, Board Members, advisors, or some
+nization's third-party personnel include, but are not limited
+to, advertising firm staff, ad exchange staff, outside creative
+or content developers, social media platform personnel,
+co-marketing partners, consultants, contractors, financial
+firm staff, auditors, or some other type of third-party per-
+sonnel. In embodiments, the departmental twin (in this
+example a marketing department twin) may include a defi-
+nition of the various roles/employees working under the
+executive (e.g., CMO), the reporting structure, and associ-
+ated permissions, for each individual in the business unit,
+and may be populated with the various the names and/or
+other identifiers of the individuals filling the respective
+roles. In embodiments, the department twin (e.g., marketing
+department twin) may include subsections that are specific
+to an activity or initiative, such as a marketing or advertising
+campaign. In this way, the executive (e.g., a CMO) may
+easily identify the personnel and third-party providers that
+are involved in the initiative and/or assign individuals and/or
+third parties to the initiative. A user may define one or more
+restrictions, permissions, and/or access rights of the indi-
+viduals indicated in the business unit (e.g., using the enter-
+prise configuration system 8002), as described herein, such
+that the restrictions, permissions, and/or access rights can be
+1 65 controlled bytheCMO (or analogous user).In embodi-
+ments, the permissions to define such restrictions and/or
+rights may be, for example, defined in the organizational

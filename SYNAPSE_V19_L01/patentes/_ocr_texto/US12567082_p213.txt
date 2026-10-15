@@ -1,0 +1,133 @@
+collection and management systems 640 may use classic 45 set of Internet of Things systems 1172 that provide coordi-
+[col 1]
+US 12,567,082 B2
+103
+reduced need for data transformation and integration, and
+others. These may include collection of data relating to
+demand factors 1540 and supply factors 1550, so that an
+application 630 may benefit from information collected by,
+processed, or produced by other applications 630 of the
+platform 604 and a user can develop insights about connec-
+tions among the factors and control one or both of them with
+coordinated intelligence. The unified data collection and
+management systems 640 may be adapted over time, such as
+by learning on outcomes 1040 or other operations of the 10
+adaptive intelligent systems 614, such as to determine which
+elements of the data collection and management systems
+640 should be made available to which applications 630,
+what data types or sources provide the most benefit, what
+data should be stored or cached for immediate retrieval, 15
+what data can be discarded versus saved, what data is most
+beneficial to support adaptive intelligent systems 614, and
+for other uses. In example embodiments, the unified data
+collection and management systems 640 may use a unified
+data schema which relates data collection and management 20
+for various applications. This may be a single point of truth
+database at the most tightly bound or a set of distributed data
+systems that may follow a schema that may be sufficiently
+common enough that a wide variety of applications may
+consume the same data as received. For example, sensor 25
+data may be pulled from a smart product that may be
+consumed by a logistics application, a financial application,
+a demand prediction application, or a genetic programming
+artificial intelligence (AI) application to change the product,
+and the like. All of these applications may consume data 30 i
+from a data framework. In an example, this may occur from
+blockchains that may contain a distributed ledger or trans-
+actional data for purchase and sales or blockchains where
+there may be an indication of whether or not events had
+occurred. In some example embodiments, as data moves 35 
+through a supply chain, this data flow may occur through
+distributed databases, relational databases, graph databases
+of all types, and the like that may be part of the unified data
+collection and management systems 640. In other examples
+the unified data collection and management systems 640 40
+may utilize memory that may be dedicated memory on an
+asset, in a tag or part of a memory structure of the device
+itself that may come from a robust pipeline tied to the value
+chain network entities. In other examples, the unified data
+data integration capabilities that may include adapting pro-
+tocols such that they can ultimately get to the unified system
+or schema.
+Thus, provided herein are methods, systems, components
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain 55 
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a
+unified set of data collection systems that support a set of
+applications of at least two types from among a set of
+demand management applications, a set of supply chain
+set of enterprise resource management applications for a
+category of goods.
+In embodiments, the unified set of data collection systems 65
+includes a set of crowdsourcing data collection systems. In
+embodiments, the unified set of data collection systems
+[col 2]
+104
+includes a set of Internet of Things data collection systems.
+In embodiments, the unified set of data collection systems
+includes a set of self-configuring sensor systems. In embodi-
+ments, the unified set of data collection systems includes a
+set of data collection systems that interact with a network-
+connected product.
+In embodiments, the unified set of data collection systems
+includes a set of mobile data collectors deployed in a set of
+value chain network environments operated by an enter-
+prise. In embodiments, the unified set of data collection
+systems includes a set of edge intelligence systems deployed
+in set of value chain network environments operated by an
+enterprise. In embodiments, the unified set of data collection
+systems includes a set of crowdsourcing data collection
+systems. In embodiments, the unified set of data collection
+systems includes a set of Internet of Things data collection
+systems. In embodiments, the unified set of data collection
+systems includes a set of self-configuring sensor systems. In
+embodiments, the unified set of data collection systems
+includes a set of data collection systems that interact with a
+network-connected product. In embodiments, the unified set
+of data collection systems includes a set of mobile data
+collectors deployed in a set of value chain network envi-
+ronments operated by an enterprise. In embodiments, the
+unified set of data collection systems includes a set of edge
+intelligence systems deployed in a set of value chain net-
+Unified IoT Monitoring Systems
+Referring to FIG. 33, an embodiment of the platform 604
+is provided.As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptiveintelligence facilities or adaptiveintelligent
+systems 1160, a set of data storage facilities or systems 624,
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 1510, which
+may be an intelligent product.
+In embodiments, the platform 604 may include a unified
+nated monitoring of various value chain entities 652 in
+service of a set of multiple applications 630 of various types,
+such as a set of supply chain management applications
+21004, demand management applications 1502, intelligent
+ment applications 1520 that monitor and/or manage a value
+chain network and a set of value chain network entities 652.
+The unified set of Internet of Things systems 1172 may
+thus provide, in embodiments, unification of monitoring of,
+and communication with, a wide range of facilities, devices,
+systems, environments, and assets, such as supply chain
+infrastructure facilities 1560 and other value chain network
+entities 652 that are involved as a product 1510 travels from
+a point of origin through distribution and retail channels to
+an environment where it is used by a customer. This unifi-
+cation may provide a number of advantages, including
+reduced need for data entry, consistency across applications
+630, reduced latency, real-time reporting and awareness,
+reduced need for data transformation and integration, and
+others. These may include Internet of Things systems 1172
+that are used in connection with demand factors 1540 and
+supply factors 1550, so that an application 630 may benefit

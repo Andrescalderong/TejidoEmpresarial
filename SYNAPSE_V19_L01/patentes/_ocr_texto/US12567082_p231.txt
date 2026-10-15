@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+139
+ments, the user may accept the packaging design, may adjust
+the packaging design, or may reject the design. In some
+embodiments, the digital twin system may run simulations
+on one or more digital twins to test different conditions that
+the package may be subjected to (e.g., outside in the snow,
+rocking in a boat, being moved by a forklift, or the like). In
+some embodiments, the digital twin system may output the
+results of a simulation to the machine-learning system 2002.
+which can train/reinforce the packaging design models
+based on the properties used to run the simulation and the 10
+outcomes stemmingtherefrom.
+In embodiments, the machine-learning system 2002 may
+receive outcome data from the packaging design system
+and/or other value chain entity data sources (e.g., smart
+warehouses, user feedback, and the like). The machine-
+learning system 2002 may use this outcome data to train/
+reinforce the packaging design models. Furthermore, in
+some embodiments, the outcome data may be used by the
+digital twin system 2020 to update/correct any incorrect
+assumptions used by the digital twin system (e.g-, the 20
+flexibility of a packaging material, the water resistance of a
+packaging material, and the like).
+FIG. 42 illustrates examples of a waste mitigation system
+that interfaces with the adaptive intelligent systems layer
+614. In embodiments, the waste mitigation system is con- 25
+figured to analyze a process within the value chain (e.g.
+manufacturing of a product, oil refining, fertilization, water
+treatment, or the like) to mitigate waste (e.g-, solid waste,
+wastewater, discarded packaging, wasted energy, wasted
+time, wasted resources, or other waste). In embodiments, the 30
+waste mitigation system may interface with the artificial
+intelligence system 2010 to automate one or more processes
+to mitigate waste.
+In embodiments, the artificial intelligence system 2010
+may provide control decisions to the waste mitigation sys- 35
+tem to mitigate solid waste production. Examples of waste
+production may include excess plastic or other non-biode-
+gradable waste, hazardous or toxic waste (e.g., nuclear
+waste, petroleum coke, or the like), and the like. In some of
+these embodiments, the artificial intelligence system 2010 40
+may receive one or more features of the process (or process
+features"). Examples of process features may include, but
+are not limited to, the steps in the process, the materials
+being used, the properties of the materials being used, and
+the like. The artificial intelligence system 2010 may leverage 45t
+one or more machine-learned models to control the process.
+In embodiments, the machine-learned models may be
+trained to classify a waste condition and/or the cause of the
+waste condition, In some of these embodiments, the artificial
+intelligence system 2010 may determine or select a waste 50
+mitigation solution based on the classified waste condition.
+For example, in some embodiments, the artificial intelli-
+gence system 2010 may apply rules-based logic to determine
+an adjustment to make to the process to reduce or resolve the
+waste condition. Additionally, or alternatively, the artificial 55
+intelligence may leverage a model that recommends an
+adjustment to make to the process to reduce or resolve the
+waste condition.
+In embodiments, the artificial intelligence system 2010
+may leverage the digital twin system 2020 to mitigate the 60
+waste produced by a process. In embodiments, the digital
+twin system 2020 may execute iterative simulations of the
+process in a digital twin of the environment in which the
+process is performed. When the simulation is executed, the
+artificial intelligence system 2010 may monitor the results of 65
+the simulation to determine a waste condition and/or the
+cause of the waste condition. During the simulations, the
+[col 2]
+140
+artificial intelligence system 2010 may adjust one or more
+aspects of the process to determine whether the adjustments
+mitigated the waste condition, worsened the waste condi-
+tion, or had no effect. When an adjustment is found to
+mitigate the waste condition, the artificial intelligence sys-
+tem 2010 may adjust other aspects of the process to deter-
+mine if an improvement can be realized. In embodiments,
+the artificial intelligence system 2010 may perform a genetic
+algorithm when iteratively adjusting the aspects of the
+process in the digital twin simulations. In these embodi-
+ments, the artificial intelligence system 2010 may identify
+aspects of the process that can be adjusted to mitigate the
+waste production.
+Smart Project Management Facilities
+Referring to FIG. 43, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 614 (including artificial intelligence 1160), a set of
+data storage facilities or systems 624, and a set of monitor-
+ing facilities or systems 808. The platform 604 may support
+a set of applications 614 (including processes, workflows,
+activities, events, use cases and applications) for enabling an
+enterprise to manage a set of value chain network entities
+652, such as from a point of origin to a point of customer use
+of a product 1510, which may be an intelligent product.
+In embodiments, the adaptive intelligence systems layer
+ment facilities 21006 that provide automated recommenda-
+tions for a set of value chain project management tasks based
+on processing current status information, a set of application
+outputs and/or a set of outcomes 1040 for a set of demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+a set of asset management applications 1530 and a set of
+enterprise resource management applications 1520 for a
+category of goods.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a set
+of project management facilities that provide automated
+recommendations for a set of value chain project manage-
+ment tasks based on processing current status information
+and a set of outcomes for a set of demand management
+applications, a set of supply chain applications, a set of
+intelligent product applications and a set of enterprise
+resource management applications for a category of goods.
+In embodiments, the set of project management facilities
+are configured to manage a wide variety of types of projects,
+such as procurement projects, logistics projects, reverse
+logistics projects, fulfillment projects, distribution projects,
+warehousing projects, inventory management projects,
+product design projects, product management projects, ship-
+ping projects, maritime projects, loading or unloading proj-
+ects, packing projects, purchasing projects, marketing proj-

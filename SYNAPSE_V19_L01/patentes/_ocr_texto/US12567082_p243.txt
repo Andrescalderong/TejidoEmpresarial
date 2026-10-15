@@ -1,0 +1,135 @@
+The outcomes 5360 may be in the form of modeling 55 integrate, integrate with, manage, control, coordinate with,
+[col 1]
+US 12,567,082 B2
+163
+times and under different operating conditions. Model data-
+store 5312 may store data related to different predictive
+models including fault detection and remaining life predic-
+tion models.
+Machine twin 1770 then coordinates with artificial intel-
+ligence system to select one or more of models based on the
+kind and quality of available data and the desired answers or
+outcomes. For example, physical models 5320 may be
+selected if the intended use of machine twin 1770 is to
+simulate what-if scenarios and predict how the machine will 10
+behave under such scenarios. Fault Detection and Diagnos-
+tics Models 5322 may be selected to determine the current
+health of the machine and any fault conditions. A simple
+fault detection model may use one or more condition indi-
+cators to distinguish between regular and faulty behaviors 15
+and may have a threshold value for the condition indicator
+that is indicative of a fault condition when exceeded. A more
+complex model may train a classifier to compare the value
+of one or more condition indicators to values associated with
+fault states and returns the probability of presence of one or 20 
+more fault states.
+Remaining Useful Life (RUL) Prediction models 5324 are
+used for predicting future failures and may include degra-
+dation models 5326, survival models 5328 and similarity
+models 5330.An example RUL prediction model may fit the 25
+time evolution of a condition indicator and predicts how
+long it will be before the condition indicator crosses some
+threshold value indicative of a failure. Another model may
+compare the time evolution of the condition indicator to
+measured or simulated time series from similar systems that 3o infrastructure.
+ran to failure.
+In embodiments, a combination of one or more of these
+models may be selected by the machine twin 1770.
+Artificial Intelligence system 1160 may include machine
+learning processes 5340, clustering processes 5342, analyt- 35 1
+ics processes 5344 and natural language processes 5348.
+Machine learning processes 5340 work with machine twin
+1770 to train one or more models as identified above. An
+example of such machine learned model is the RUL predic-
+tion model 5324. The model 5324 may be trained using 40
+training dataset 5350 from the Data Storage Systems 624.
+The performance of the model 5324 and classifier may then
+be tested using testing dataset 5350.
+Clustering processes 5342 may be implemented to iden-
+tify the failure pattern hidden in the failure data to train a 45
+model for detecting uncharacteristic or anomalous behavior.
+The failure data across multiple machines and their histori-
+cal records may be clustered to understand how different
+patterns correlate to certain wear-down behavior. Analytics
+processes 5344 perform data analytics on various data to 50
+identify insights and predict outcomes. Natural language
+processes 4348 co0rdinate with machine twin 1770 to com-
+municate the outcomes and results to the user of machine
+twin 1770.
+results 5362, alerts and warnings 5364 or remaining useful
+life (RUL) predictions 5368. Machine twin 1770 may com-
+municate with a user via multiple communication channels
+such as speech, text, gestures to convey outcomes 5360.
+In embodiments, models may then be updated or rein- 60
+forced based on the model outcomes 5360. For example, the
+stances that led to a prediction of failure and the outcome
+and may update the model based on the feedback.
+In embodiments, the platform may include a system for 65
+learning on a training set of ship maintenance outcomes,
+parameters, and data collected from data sources relating to
+[col 2]
+164
+a set of ship activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a ship using a digital twin of the ship.
+In embodiments, the platform may include a system for
+learning on a training set of barge maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of barge activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a barge using a digital twin of the barge.
+In embodiments, the platform may include a system for
+learning on a training set of port maintenance outcomes,
+parameters, and data collected from data sources relating to
+a set of port activities to train an artificial intelligence/
+machine learning system to perform predictive maintenance
+on a port infrastructure facility using a digital twin of the
+port infrastructure facility.
+In embodiments, theplatform may include a system for
+learning on a training set of repair outcomes, parameters,
+and data collected from data sources related to a set of value
+chain entities to train an artificial intelligence/machine learn-
+ing system to use a digital twin of a selected set of value
+chain entities to estimate the cost of repair of a damaged
+object.
+In embodiments, the platform may include a system for
+learning on a training set of infrastructure outcomes, param-
+eters, and data collected from data sources to train an
+artificial intelligence/machine learning system to predict
+deterioration of infrastructure using a digital twin of the
+In embodiments, the platform may include a system for
+learning on a training set of natural hazard outcomes,
+parameters, and data collected from data sources relating to
+a set of shipping activities to train an artificial intelligence/
+machine learning system to model natural hazard risks for a
+set of shipping infrastructure facilities using a digital twin of
+a city.
+In embodiments, the platform may include a system for
+learning on a training set of maintenance outcomes, param-
+eters, and data collected from data sources relating to a set
+of shipping activities to train an artificial intelligence/ma-
+chine learning system to monitor shipping infrastructure
+maintenance activities for a set of shipping infrastructure
+facilities using a digital twin of the set of facilities
+In embodiments, the platform may include a system for
+learning on a training set of maintenance outcomes, param-
+eters, and data collected from data sources relating to a set
+of shipping activities to train an artificial intelligence/ma-
+chine learning system to detect the occurrence and location
+of a maintenance issue using a digital twin of a set of
+shipping infrastructure facilities and having a system for
+automatically deploying maintenance services to the
+detected location.
+Referring to FIG. 57, the platform 604 may include,
+or otherwise handle customer digital twins 5502 and/or
+customer profile digital twins 1730.
+Customer digital twins 5502 may represent evolving.
+continuously updated digital representations of value chain
+network customers 662. In embodiments, value chain net-
+work customers 662 include consumers, licensees, busi-
+nesses, enterprises, value-added resellers and other resellers,
+distributors, retailers (including online retailers, mobile
+retailers, conventional brick and mortar retailers, pop-up
+shops and the like), end users, and others who may purchase,
+license, or otherwise use a category of goods and/or related
+services.

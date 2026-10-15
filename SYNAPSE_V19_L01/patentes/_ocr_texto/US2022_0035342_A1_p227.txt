@@ -1,0 +1,132 @@
+[col 1]
+US2022/0035342A1
+144
+tional digital twin may, as noted above, be generated auto-
+matically, such as by parsing available data sources to
+automatically construct a representation of the organization,
+such as a hierarchical organizational chart, a graph of the
+organization with nodes representing organizational entities
+(e.g., workgroups, roles, assets and personnel), links or
+connections indicating relationships (e.g-, reporting relation-
+ships, lines of authority, group affiliations, and the like), and
+data or metadata indicating other attributes of the entities
+and relationship, and the like.
+[1155]  In embodiments, the digital twin interaction man-
+ager 8114 manages the relationship between the structural
+view of the data in an enterprise digital twin (e.g., as
+depicted/represented by the client application 8052) and the
+underlying data streams and data sources. In embodiments,
+into the underlying data streams through the lens of the
+structure of the data. In embodiments, the digital twin
+interaction manager 8114 determines the types of data, or the
+nature of the human interface for building these interactions,
+that are being fed to an instance of an enterprise digital twin
+(e.g-, an environment digital twin or an executive digital
+twin) while the instance is being executed by a client
+application 8052. Put another way, the digital twin interac-
+tion manager 8114 determines and serves data for an in-use
+digital twin. In embodiments, the digital twin interaction
+manager 8114 has specific user interactions and controls that
+govern the relationship between a user interface and the role
+based digital twin. Furthermore, in embodiments,these
+role-based digital twin interactions can be with a shared
+digital twin with different roles interacting seamlessly. In
+embodiments, the digital twin interaction manager 8114
+feeds raw data received from a data source to the digital twin
+or from thedigital twin I/O system 8104,or a combination
+of the digital twin I/O system 8104 and role-based human
+interactions For example, sensor readings of temperatures
+throughout an environment may be fed directly to the
+executing environment digital twin of the environment
+through the digital twin I/O system 8104 and in response to
+a human interaction with the environment digital twin to
+adjust a temperature setting of the environment, the digital
+twin interaction manager 8114 may issue a control signal to
+a temperature controller within the environment to increase
+or decrease the temperature.
+[1156] In embodiments, the digital twin interaction man-
+ager 8114 obtains data and/or instructions that are derived by
+another component of the EMP 8000. For example, a CEO
+digital twin may depict analytical data obtained from the
+artificial intelligence services system 8010 that is derived
+from incoming financial data, marketing data, operational
+data, and sensor data. In this example, the digital twin
+interaction manager 8114 may receive a request to drill
+down into the analytical data from the user and in response,
+the digital twin interaction manager 8114 may obtain the
+financial data, marketing data, and/or the sensor data from
+which the analytical data was derived. In another example,
+the digital twin interaction manager 8114 may receive
+simulated cost data from the digital twin simulation system
+8116 to convey revenue/costs with respect to different asset
+maintenance schedules, whereby the simulated data is
+derived using historical maintenance data of the enterprise,
+historical sensor data collected by sensors in a facility of the
+enterprise. In this example, the digital twin interaction
+manager 8114 may receive requests for different mainte-
+[col 2]
+Feb.3,2022
+nance schedules from a client device depicting an executive
+digital twin (e.g., a CFO digital twin, a CTO digital twin, or
+a CEO digital twin) and may initiate the simulations for each
+of the different maintenance schedules. The digital twin
+interaction manager 8114 may then serve the results of the
+simulation to the requesting client application.
+[1157] In embodiments, the digital twin interaction man-
+ager 8114 may manage one or more workflows that are
+performed via an executive digital twin. For example, the
+EMP 8ooo may store a set of executive workflows, where
+each executive workflow corresponds to a role within an
+enterprise and includes one or more stages. In embodiments,
+the digital twin interaction manager 8114 may receive a
+request to execute a workflow. The request may indicate the
+workflow and a user identifier. In response, the digital twin
+interaction manager 8114 may retrieve the requested work-
+flow and may provide specific instructions, including role-
+based interactions, and/or data to the client device 8052
+[1158] In embodiments, the digital twin simulation system
+8116 receives requests to run simulations using one or more
+digital twins. In embodiments, the request may indicate a set
+of parameters that are to be varied and/or one or more
+simulation outcomes to output. In embodiments, the digital
+twin simulation system 8116 may request one or more
+digital twins from the digital twin generation system 8108
+and may varying a set of different parameters for the
+simulation. In embodiments, the digital twin simulation
+system 8116 may construct new digital twins and new data
+streams within existing digital twins. In embodiments, the
+digital twin simulation system 8116 may perform environ-
+ment simulations and/or data simulations. The environment
+simulation is focused on simulation of the digital twin
+ontology rather than the underlying data streams. In embodi-
+ments, the digital twin simulation system 8116 generates
+simulated data streams appropriate for respective digital
+twin environments. This simulation allows for real world
+simulations of how a digital twin will respond to specific
+events such as changes in the cost of good supplied, or
+changes in the demand on the output of the facility.
+[1159]  In embodiments, the digital twin simulation system
+8116 implements a set of models, in some instances includ-
+ing role-specific response patterns, (e.g-, physical math-
+ematical forecasts, logical representations, or process dia-
+grams) that develop the framework where data and the
+response of the digital twin can be simulated in response to
+different situational or contextual inputs/stimuli. In embodi-
+ments, the digital twin simulation system 8116 may include
+or leverage a computerized model builder that constructs a
+predicted future state of either the data and/or the response
+of the digital twin to the input data. In some embodiments,
+the computerized model library may be obtained from a
+behavior model data store 8126 that stores one or more
+models that defines one or more behaviors of entities, such
+as based on scientific, economic, statistical, psychological,
+sociological,econometric,engineering,mathematical,
+physical, chemical, biological, architectural, computational,
+or other models, formulas, functions, processes, algorithms,
+or the like of the various types described herein or in the
+documents incorporated by reference herein (collectively
+referred to herein as “behavior models" or “models" except
+where context indicates otherwise). In embodiments, value
+chain network data objects may be provided according to an
+object-oriented data model that defines classes, objects,
+attributes, parameters and other features of the set of data

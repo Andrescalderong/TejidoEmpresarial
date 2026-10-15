@@ -1,0 +1,134 @@
+data stream or feed based on the contents of the collected 20 the EMP 8000. The EMP 8000 may then determine the
+[col 1]
+US 12,675,781 B2
+239
+ment, systems and components (e.g-, onboard diagnostic
+systems, reporting systems, streaming systems, syndication
+systems, event logs and the like), data collected by data
+collectors (including drones, mobile robots, RFID and other
+readers, and human-portable collectors) and/or other suit-
+able data sources. In some of these embodiments, the edge
+devices 8042 may be configured to process sensor data (or
+other suitable data) collected at a “network edge" of the
+enterprise. Edge processing of enterprise data may include
+sensor fusion, data compression, computation, filtering, 10
+aggregation, multiplexing, selective switching, batching,
+packetization, streaming, summarization, fusion, fragmen-
+tation, encoding, decoding, transcoding, copying, storage,
+decompression, syndication, augmentation (e.g., by meta-
+data), content inspection, classification, extraction, transfor- 15
+mation, normalization, loading, formatting, error correction,
+data structuring, and/or many other processing actions. In
+some embodiments, the edge device 8042 may be config-
+ured to operate on the collected data and to adjust an output
+data and/or based on contextual information, such as net-
+work conditions, operational conditions, environmental con-
+ditions, workflow conditions, entity state information, data
+characteristics, or many others. For example, an edge device
+8042 may stream granular sensor data that is identified to be 25
+anomalous without compression, while the edge device
+8042 may compress, summarize, or otherwise pass on a less
+granular data that is considered to be within a tolerance
+range of normal conditions or that reflects characteristics
+(e.g., statistical or signal characteristics) that suggest a lower 30
+likelihood that the data is likely to be of high interest. In this
+way, the edge device 8042 may provide semi-sentient data
+streams. Semi-sentience at the edge device 8042 may be
+improved by machine learning and training on a set of
+outcomes or feedback from users using process automation, 35
+machine learning, deep learning, or other artificial intelli-
+gence techniques as described herein. In embodiments, the
+EMP 8000 may store the data streams in the data lake and/or
+or all of the received data.
+In embodiments, the client devices 8050 may execute one
+or more client applications 8052 that interface with the EMP
+8000. In embodiments, a client application 8052 may
+request and display one or more enterprise digital twins. In
+some of these embodiments, a client application 8052 may 45
+depictan executivedigital twin corresponding to the role of
+the user. For example, if the user is designated as the Chief
+Marketing Officer, the EMP 8000 may provide a CMO
+digital twin of the enterprise of the user. In some of these
+embodiments, the user data stored at the EMP 8000 and/or 50
+the client device 8050 may indicate the role of the user
+thereof) to which the user has access.
+In embodiments, the client application 8052 may display
+the requested executive digital twin and may provide one or
+more options to perform one or more respective actions/
+the states depicted therein. In embodiments, the actions/
+operations may include one or more of drilling down" into
+a particular state, escalating or otherwise notifying another 60
+user of a state or set of states, exporting a state or set of states
+into a collaborative environment (e.g., into a word processor
+document, a spreadsheet, a presentation document, a slide
+show, a model (e.g., a CAD model, a 3D model, or the like),
+a report (e.g., anannual report, a quarterly report, orthe 65
+like), a website, a Wiki, a dashboard, a collaboration envi-
+ronment location (e.g., a SlackTM location), a workflow
+[col 2]
+240
+application, or the like), sending a request for action with
+a simulation, adjusting interface elements (such as changing
+sizes, colors, locations, brightness, presence/absence of dis-
+play, etc.), or the like. For example, a COO or other
+operations executive may view an operations or COO digital
+twin. The states that may be depicted in the COO digital twin
+may include notifications of potential issues with one or
+more pieces of machinery or equipment (e.g., among many
+ others, as observed from analyzing a stream of data from one
+or more sensors on a piece of robotic equipment). In viewing
+the COO digital twin, the user may wish to escalate the
+issue, such as to the CEO, request input from another
+executive and/or to instruct an operations manager, such as
+a warehouse or plant manager, to handle the issue. In this
+example, the client application depicting the COO digital
+twin may allow the user to select an option to escalate the
+issue. In response to the user selecting the “escalate" option,
+the client application 8052 transmits the escalate request to
+appropriate user or users to which the issue is escalated. In
+some embodiments, the EMP 8000 may determine the
+reporting structure of the enterprise from an organizational
+digital twin of the enterprise to which the users belong. In
+this example, if the operations executive elects to have the
+operations manager handle the issue, the user may select an
+option to share the state with another user. The user may then
+enter an identifier of the intended recipient (e.g-, an email
+address, phone number, text address, user name, role
+description, or other identifier of the recipient (such as
+identifiers for the recipient in various workflow environ-
+ments, collaboration environments and the like (including
+other digital twins), and the like) and may input a message
+indicating instructions to the intended recipient. In response,
+the EMP 8000may communicate the identified state to the
+intended recipient.
+In another example, the client application 8052 may
+depict a CFO digital twin to a user (e.g., the CFO of an
+enterprise). In this example, the CFO may be tasked with
+preparing a quarterly report at the request of the CEO. In this
+example, the CFO may view a set of different financial
+states, including a P&L data, historical sales data (e.g.
+quarterly sales data and/or annual sales data), real-times
+sales data, projected sales data, historical cost data (e.g.
+quarterly costs and/or annual costs), projected costs, and the
+like. In this example, the CFO may select the states to
+include in the annual report, including the P&L data, quar-
+terly sales data, and quarterly cost data. In response to the
+user selection, the client application 8052 may transmit a
+request to export the selected states into the annual report. In
+this example, the EMP 8000 may receive the request,
+identify the document (e.g., the annual report), and may
+include the selected states into the identified document.
+In embodiments, the client application 8052 may include
+: 55 a monitoring agent that monitors the manner by which a user
+responds to specific requests (e.g., a request from the CEO
+to populate a report) or notifications (e.g., a notification that
+a piece of machinery requires maintenance). The monitoring
+agent may report the user's response to such prompts to the
+EMP 8000. In response, the EMP 8000 may train an execu-
+tive agent (which may include one or more machine-learned
+models) to handle such notifications when they next arrive.
+In some embodiments, the monitoring agent may be incor-
+porated in an executive agent that is incorporated in the
+client application 8052.
+FIG. 69 illustrates an example set of components of a
+digital twin system 8004. As discussed, a digital twin system

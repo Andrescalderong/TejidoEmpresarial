@@ -1,0 +1,138 @@
+use the above-discussed models 2004 to make container fleet 35 manufacturing costs, shipping times, shipping costs, loss
+[col 1]
+US 12,314,060 B2
+137
+the container contents (e.g-, cost, perishability, temperature
+restrictions, and the like), the source and destination of the
+container, whether the container is being shipped via truck.
+rail, or ship, the time of year, the cost of each container,
+and/or other relevant features. In this example, outcomes
+relating to the particular event may include whether the
+contents arrived safely, replacement costs (if any) associated
+with any damage or loss, total shipping time, and/or total
+cost of shipment (e.g., how much it cost to ship container).
+Furthermore, as international and/or interstate logistics may
+include many different sources, destinations, contents,
+weather conditions, and the like, simulations that simulate
+different shipping events may be run to richen the data used
+to train the model. For instance, simulations may be run for
+different combinations of ports and/or train depots for dif-
+ferent combinations of sources, destinations, products, and
+times of year. In this example, different digital twins may be
+generated to represent the different combinations (e.g., digi-
+tal twins of products, containers, and shipping-related envi- 20
+ronments), whereby one or more properties of the digital
+twins are varied for different simulations and the outcomes
+of each simulation may be recorded in a tuple with the
+proprieties. In this way, the model may be trained on certain
+combinations of routes, contents, time of year, container 25
+type, and/or cost that may not have been previously encoun-
+tered in the real-world outcome data. Other examples of
+training a container fleet management model may include a
+model that is trained to determine where a container should
+be stored in a storage facility (e.g., where in a stack, indoors
+30
+or outdoors, and/or the like) given the contents of the
+container, when the container needs to be moved, the type of
+container, the location, the time of year, and the like.
+In operation, the artificial intelligence system 2010 may
+management decisions on behalf of a container fleet man-
+agement system 2070 given one or more features relating to
+a task or event. For example, the artificial intelligence
+system 2010 may select a type of container (e.g, materials
+of the container, the dimensions of the container, the brand 40
+of the container, and the like) to use for a particular
+shipment. In this example, the container fleet management
+system 2070 may provide the features of an upcoming
+shipment to the artificial intelligence system 2010. These
+features may include what is being shipped (e.g., the type(s) 45 I
+of goods in the shipment),the size of the shipment,the
+source and destination, the date when the shipment is to be
+sent off, and/or the desired date or range of dates for
+delivery. In embodiments, the artificial intelligence system
+2010 may feed these features into one or more of the models 501
+discussed above to obtain one or more decisions. These
+decisions may include which type of container to use and/or
+which shipping routes to use, whereby the decisions may be
+selected to minimize overall shipping costs (e.g-, costs for
+container and transit+any replacement costs). The container 55
+fleet management system 2070 may then initiate the ship-
+ping event using the decision(s) made by the artificial
+intelligence system 2010. Furthermore, after the shipping
+event, the outcomes of the event (e.g., total shipping time,
+any reported damages or loss, replacement costs, total costs)
+may be reported to the machine-learning system 2002 to
+reinforce the models used to make the decisions. Further-
+more,in someembodiments,theoutputofthecontainerfleet
+management system 2070 and/or the other value chain entity
+data sources 2050 may be used to update one or more 65
+properties of one or more digital twins via the digital twin
+system 2020.
+[col 2]
+138
+FIG. 40 illustrates an example of a logistics design system
+that interfaces with the adaptive intelligent systems layer
+614. In embodiments, a logistics design system may be
+configured to design one or more aspects of a logistics
+solution. For example, the logistics design system may be
+configured to receive one or more logistics factors (e.g.,
+from a user via a GUI). In embodiments, logistics factors
+may include one or more present conditions, historical
+conditions, or future conditions of an organization (or poten-
+tial organization) that are relevant to forming a logistics
+solution. Examples of logistics factors may include, but are
+not limited to the type(s) of products being produced/
+farmed/shipped, features of those products (e.g., dimen-
+sions, weights, shipping requirements, shelf life, etc.), loca-
+tions of manufacturing sites, locations of distribution
+facilities, locations of warehouses, locations of customer
+bases, market penetration in certain areas, expansion loca-
+tions, supply chain features (e.g., required parts/supplies/
+resources, suppliers, supplier locations, buyers, buyer loca-
+tions), and/or the like) and may determine one or more
+design recommendations based on the factors. Examples of
+design recommendations may include supply chain recom-
+mendations (e.g-, proposed suppliers (e.g-, resource or parts
+suppliers), implementations of a smart inventory systems
+that order on-demand parts from available suppliers, and the
+like), storage and transport recommendations (e.g., proposed
+shipping routes, proposed shipping types (e.g-, air, freight,
+truck, ship), proposed storage development (e.g., locations
+and/or dimensions of new warehouses), infrastructure rec-
+ommendations (e.g, updates to machinery, adding cooled
+storage, adding heated storage, or the like), and combina-
+tions thereof. In embodiments, the logistics design system
+determines the recommendations to optimize an outcome.
+Examples of outcomes can include manufacturing times,
+rate, environmental impact, compliance to a set of rules/
+regulations, and the like.Examples of optimizations include
+increased production throughput, reduced production costs,
+reduced shipping costs, decreased shipping times, reduced
+carbon footprint, and combinations thereof.
+In embodiments, the logistics design system may inter-
+face with the artificial intelligence system 2010 to provide
+the logistics factors and to receive design recommendations
+that are based thereon. In embodiments, the artificial intel-
+ligence system 2010 may leverage one or more machine-
+learned models 2004 (e.g., logistics design recommenda-
+tions models) to determine a recommendation. As will be
+discussed, a logistics design recommendation model may be
+trained to optimize one or more outcomes given a set of
+logistics factors. For example, a logistics design recommen-
+dation model trained to design supply chains may identify a
+set of suppliers that can supply a given manufacturer, the
+location of the manufacturer, the supplies needed, and/or
+other factors. The set of suppliers may then be used to
+implement an on-demand supply side inventory. In another
+example, the logistics design recommendation may take the
+same features of another manufacturer and recommend the
+purchase and use of one or more 3D printers.
+In embodiments, the artificial intelligence system 2010
+60 may leverage the digital twin system 2020 to generate a
+digital twin of a logistics system that implements the logis-
+tics design recommendation (and, in some embodiments,
+alternative systems that implement other design recommen-
+dations). In these embodiments, the digital twin system 1700
+may receive the design recommendations and may generate
+a digital twin of a logistics environment that mirrors the
+recommendations. In embodiments, the artificial intelli-

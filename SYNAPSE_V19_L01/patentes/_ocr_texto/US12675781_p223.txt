@@ -1,0 +1,134 @@
+other financial data 730, access data 734, asset and facility 20 connections to the floating assets 620 that the port is near
+[col 1]
+US 12,675,781 B2
+195
+systems, local storage systems 1190, distributed storage
+systems, databases, memory, network-based storage, net-
+work-attached storage systems. In embodiments, the storage
+layer 624 may store data in one or more knowledge graphs
+in the graph database architectures 1124, such as a directed
+acyclic graph, a data map, a data hierarchy, a data cluster
+including links and nodes, a self-organizing map, or the like.
+In embodiments, the data storage layer 624 may store data
+in a digital thread, ledger, distributed ledger or the like, such
+as for maintaining a serial or other records of an entity 652
+over time, including any of the entities described herein. In
+embodiments, the storage layer 624 may include one or
+more blockchains 1180, such as ones that store identity data,
+transaction data, historical interaction data, and the like,
+15
+ such as with access control that may be role-based or may
+be based on credentials associated with a value chain entity
+652, a service, or one or more applications 630. Data stored
+by the data storage systems 624 may include accounting and
+data 1032, asset tag data 1178, worker data 1032, event data
+1034, risk management data 732, pricing data 738, safety
+data 664 and the like.
+Referring to FIG. 8, the value chain network management
+platform 604 includes one or more sets of value chain 25
+management platform 604, may integrate with or into the
+management platform 604, and/or may supply inputs to
+and/or take outputs from the management platform 604,
+such as ones involved in or for a wide range of value chain 30
+activities. These value chain entities 652 may include any of
+the wide variety of assets, systems, devices, machines,
+components, equipment, facilities, and individuals that can
+support a wide range of operating facilities 712 including
+maritimefacilities 622.ReferringtoFIG.63,themaritime 35
+facilities can include port infrastructure facilities 7000. In
+embodiments, the port infrastructure facilities 7000 can
+include docks 7002, yards 7004, cranes 7008, roll-0n/roll-off
+facilities 7010, ramps 7012, containers 7014, container
+handling systems 7018, waterways 732, and locks 7020, as 40
+applicable. In embodiments, the docks 7002 and their adja-
+cent areas may include piers 7022, basins 7024, stacking
+embodiments, the container handling systems 7018 can
+include portainer tracking system and sensors 7040, such as 45 
+for monitoring, reporting on, or managing one or more
+portainers or other systems for moving shipping containers,
+such as cranes (e.g., Gottwald cranes, gantry cranes, and
+others), straddle carriers, multitrailers, reach stackers, and
+the like. In embodiments, the port infrastructure facilities 5o
+7000 can further include gantry cranes 7042 and the port
+vehicles 7044 that can be used to move containers 7014,
+such as straddle carriers. In embodiments, the port infra-
+structure facilities 7000 also include refrigerated containers
+7050 with dedicated stacking areas 7052 and c0oling infra- 55
+structure to maintain the controlled environments in the
+refrigerated containers 7050.
+The port infrastructure facilities 7000 further include
+shipyard facilities 638 and floating assets 620. The floating
+assets 620 can include ships 7060 and boats, container ships 60
+7062, barges 7064, tugboats 7068, 7070, and dinghies 7072,
+as well as partially floating assets, such as submarines,
+underwater drones, and the like, By way of these examples,
+the floating assets 620 can operate among facilities and other
+items at points of origin 610 and/or points of destination 65
+628. The shipyard facilities 638 can include the hauling
+facilities 710 such as many of the floating assets 620 as well
+[col 2]
+196
+as land-based vehicles and other delivery systems 632 used
+for conveying goods, such as trucks, trains, and the like
+Referring to FIGS. 63, orchestration of a set of deeply
+interconnected value chain network entities 652 by the
+management platform 604 can include providing intercon-
+nectivity for the value chain network entities 652 using local
+network connections, a peer-to-peer connections, connec-
+tions through one or moremobile networks, and connections
+via a cloud network facility, satellite uplinks, microwave
+communications or other connections. The management
+platform 604 may manage the connections, configure or
+provision resources to enable connectivity, and/or manage
+applications 630 that take advantage of the connections
+nectivity may be poor or non-existent relative to when the
+floating assets 620 are closer to port or other land-based
+communication systems. In many examples, a port infra-
+structure facility 660, such as a yard for holding shipping
+containers 7080, may inform a fleet of floating assets 620 via
+capacity. With this knowledge, the floating assets 620 move-
+ment can be varied to extend times including reducing
+approach speeds to delay arrival, direction to other ports,
+and the like. In further examples, the news of the port
+reaching capacity can result in starting a negotiation process
+with the floating assets 620 looking to arrive at port. In
+embodiments, the negotiation process with the floating
+assets 620 can include an automated negotiation based on a
+set of rules and governed by a smart contract for the
+remaining capacity and enabling some floating assets 620 to
+be redirected to alternative ports or holding facilities.
+In embodiments, the maritime facilities 622 can include
+floating assets 620 including many different ships 7060.
+Referring to FIGS. 64 and 65, the ship 7060 can be one or
+more container ships 7062 that can haul many shipping
+containers 7080. In other examples, the ship 7060 can be one
+or more container ships 7062 that can haul raw materials,
+processed goods in bulk, gaseous cargo and many other
+forms of cargo not otherwise transported in shipping con-
+tainers 7080. In many examples, the ship 7060 can include
+a bow area 7100. The bow area 7100 can include a bulbous
+bow 7102. In some examples, the bulbous bow 7102 can be
+configured in-situ in response to control from the manage-
+ment platform 604. Inboard from the bow area 7100 and
+traveling toward the stern area 7104 of the ship 7060, the
+ship 7060 can include a forepeak tank 7110. In this same
+area, the ship 7060 can include one or more bow anchors
+7112 and bow thrusters 7114. Various passageways 7118
+connect these areas in the bow area 7100. Depending on the
+configuration of the ship 7060, the hold 7120 can be
+configured and re-configured to accommodate various prod-
+ucts such as product 650, raw materials, material in process,
+and combinations thereof. In some examples, the ship 7060
+can include multiple holds 7120. In examples, the container
+ship 7062 can be configured with eight holds: container hold
+Toward the stern area 7104, the ship 7060 includes an engine
+room 7150 including one or more propulsion units 7152.
+Each of the one or more propulsion units 7152 is fed by a
+fuel system 7154 and its emissions are controlled by an
+exhaust system 7158. In various locations on the ship 7060,
+one or more fin stabilizers 7160 may be deployed. In the
+stern area 7104, the ship 7060 includes a steering gear area
+7160 below a rear deck area 7162. One or more rudders 7164
+can extend from the steering gear area 7160.
+One or more propellers 7170 can extend from the stern
+area 7104 with a rotating power connection to the propulsion

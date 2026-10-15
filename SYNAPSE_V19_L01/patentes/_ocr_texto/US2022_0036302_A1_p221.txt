@@ -1,0 +1,129 @@
+[col 1]
+US2022/0036302A1
+138
+mathematical processing in mathematically operating on
+numerical data, executive manager processing in making
+executive decisions, creative processing when deriving
+alternative options, analytic processing when selecting from
+a set of options, and the like.
+[1132] In embodiments the expert agents include execu-
+tive agents that are trained to output actions on behalf of
+executive and/or an administrator of an executive. In these
+embodiments, an expert agent may be trained for executive
+roles, such that a user in an executive role can train the
+executive agent by performing their respective role. For
+example, an executive agentmaybe trained forperforming
+actions on behalf of or recommending actions to a user in an
+executive role. In some of these embodiments, the client
+application 8052 may provide the functionality of the enter-
+prise management platform 8000. For example, in some
+embodiments, users may view executive digital twins and/or
+may use the collaboration tools via the client application
+8052. During the use of the client application 8052, an
+executive may either escalate issues identified in the respec-
+tive executive digital twin to another member of the enter-
+prise, Each time the user interacts with the client application
+8052, the client application 8052 may monitor the user's
+actions and may report the actions back to the expert agent
+system 8008. Over time, the expert agent system 8008 may
+learn how the particular user responds to certain situations.
+For instance, if the user is the CFO and each time a critical
+state with revenue or costs is identified in the CFO digital,
+the CFO escalates the critical state to the CEO, the expert
+agent system 8008 may learn to automatically escalate
+critical revenue states and critical cost states to the CEO.
+Further implementations of the expert agent system 8008 are
+discussed further in the disclosure.
+[1133]  In embodiments, the artificial intelligence services
+system 8010 performs machine learning, artificial intelli-
+gence, and analytics tasks on behalf of the EMP 8000. In
+embodiments, the artificial intelligence services system
+8010 includes a machine learning system that trains machine
+learned models that are used by the various systems of the
+EMP 8000 to perform some intelligence tasks, including
+robotic process automation, predictions, classifications,
+natural language processing, and the like. In embodiments,
+the EMP 8000 includes an artificial intelligence system that
+performs various AI tasks, such as automated decision
+making, robotic process automation, and the like. In
+embodiments, the EMP 8000 includes an analytics system
+that performs different analytics across enterprise data to
+identify insights to various states of an enterprise. For
+example, in embodiments, the analytics system may analyze
+the financial data of an enterprise to determine whether the
+enterprise is financially stable, in a critical condition, or a
+desirable condition. In embodiments, the analytics system
+may perform the analytics in real-time as data is ingested
+from the various data sources to update one or more states
+of an enterprise digital twin. In embodiments, the intelli-
+gence system includes a robotic process automation system
+that learns behaviors of respective users and automates one
+or more tasks on behalf of the users based on the learned
+behaviors. In some of these embodiments, the robotic pro-
+behalf of an enterprise. The robotic process automation
+system may configure machine-learned models and/or AI
+embodiments, the robotic process automation system
+[col 2]
+Feb.3,2022
+receives training data sets of interactions by experts and
+configures the machine-learned models and/or AI logic
+based on the training data sets. In embodiments, the artificial
+guage processing system that receives text/speech and deter-
+mines a context of the text and/or generates text in response
+to a request to generate text. The intelligence services are
+discussed in greater detail throughout the disclosure.
+[1134]  In embodiments, the EMP 8000 includes an enter-
+prise data store 8012 that stores data on behalf of customer
+enterprises. In embodiments, each customer enterprise may
+have an associated data lake that receives data from various
+data sources 8020.In some embodiments, the EMP 8000
+receives the data via one or more APIs 8014. For example,
+in embodiments, the API may be configured to obtain
+real-time sensor data from one or more sensor systems 8022
+of an enterprise. The sensor data may be collected in a data
+lake associated with the enterprise. The digital twin system
+8004 and the artificial intelligence services system 8010 may
+structure the data in the data lake and may populate one or
+more respective enterprise digital twins based on the col-
+lected data. In some embodiments, the data sources 8020
+may include a set of edge devices 8042 that collect, receive
+and process data from a sensor system 8022, from suitable
+IoT devices, from local networking devices (e.g., wireless
+and fixed network resources, including repeaters, switches,
+mesh network nodes, routers, access points, gateways, and
+others), from general purpose networking devices (e.g.,
+computers, laptops, tablets, smartphones and the like), from
+smart products, from telemetry systems of machinery, equip-
+ment, systems and components (e.g-, onboard diagnostic
+systems, reporting systems, streaming systems, syndication
+systems, event logs and the like), data collected by data
+collectors (including drones, mobile robots, RFID and other
+readers, and human-portable collectors) and/or other suit-
+able data sources. In some of these embodiments, the edge
+devices 8042 may be configured to process sensor data (or
+other suitable data) collected at a "network edge" of the
+enterprise. Edge processing of enterprise data may include
+sensor fusion, data compression, computation, filtering,
+aggregation, multiplexing, selective switching, batching,
+packetization, streaming, summarization, fusion, fragmen-
+tation, encoding, decoding, transcoding, copying, storage,
+decompression, syndication, augmentation (e.g. by meta-
+data), content inspection, classification, extraction, transfor-
+mation, normalization, loading, formatting,error correction,
+data structuring, and/or many other processing actions. In
+some embodiments, the edge device 8042 may be config
+ured to operate on the collected data and to adjust an output
+data stream or feed based on the contents of the collected
+data and/or based on contextual information, such as net-
+work conditions, operational conditions, environmental con-
+ditions, workflow conditions, entity state information, data
+characteristics, or many others. For example, an edge device
+8042 may stream granular sensor data that is identified to be
+anomalous without compression, while the edge device
+8042 may compress, summarize, or otherwise pass on a less
+granular data that is considered to be within a tolerance
+range of normal conditions or that reflects characteristics
+(e.g., statistical or signal characteristics) that suggest a lower
+likelihood that the data is likely to be of high interest. In this
+way, the edge device 8042 may provide semi-sentient data
+streams. Semi-sentience at the edge device 8042 may be

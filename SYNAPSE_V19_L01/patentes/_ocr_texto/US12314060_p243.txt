@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+121
+of "interestingness."Association rule learning may include
+identifying, learning, and/or evolving rules to store, manipu-
+late and/or apply knowledge. The machine learning model
+3000 may be configured to learn by identifying and/or
+utilizing a set of relational rules, the relational rules collec-
+tively representing knowledge captured by the machine
+learning model 3000. Association rule learning may include
+one or more of learning classifier systems, inductive logic
+programming, and artificial immune systems. Learning clas-
+ sifier systems are algorithms that may combine a discovery
+component, such as one or more genetic algorithms, with a
+learning component, such as one or more algorithms for
+supervised learning, reinforcement learning, or unsuper-
+vised learning. Inductive logic programming may include
+rule-learning, by the machine learning model 3000, using 15
+logic programming to represent one or more of input
+examples, background knowledge, and hypothesis deter-
+mined by the machine learning model 3000 during training.
+The machine learning model 3000 may be configured to
+derive a hypothesized logic program entailing all positive
+examples given an encoding of known background knowl-
+edge and a set of examples represented as a logical database
+of facts.
+In embodiments, another set of solutions, which may be
+deployed alone or in connection with other elements of the 25
+platform, including the artificial intelligence store 3504, may
+include a set of functional imaging capabilities 3502, which
+may comprise monitoring systems 640 and in some cases
+physical process observation systems 1510 and/or software
+interaction observation systems 1500, such as for monitor- 30
+ing various value chain entities 652. Functional imaging
+systems 3502 may, in embodiments, provide considerable
+insight into the types of artificial intelligence that are likely
+to be most effective in solving particular types of problems
+most effectively.As noted elsewhere in this disclosure and in 35
+the documents incorporated by reference herein, computa-
+tional and networking systems, as they grow in scale,
+complexity and interconnections, manifest problems of
+information overload, noise, network congestion, energy
+waste, and many others. As the Internet of Things grows to
+hundreds of billions of devices, and virtually countless
+potential interconnections, optimization becomes exceed-
+ingly difficult. One source for insight is the human brain,
+which faces similar challenges and has evolved, over mil-
+lennia, reasonable solutions to a wide range of very difficult 45
+optimization problems. The human brain operates with a
+massive neural network organized into interconnected
+modular systems, each of which has a degree of adaptation
+to solve particular problems, from regulation of biological
+systems and maintenance of homeostasis, to detection of a 50
+wide range of static and dynamic patterns, to recognition of
+threats and opportunities, among many others. Functional
+imaging 3502, such as functional magnetic resonance imag-
+ing (fMRI), electroencephalogram (EEG), computed tomog-
+raphy (CT) and other brain imaging systems have improved
+to the point that patterns of brain activity can be recognized
+in real time and temporally associated with other informa-
+tion, such behaviors, stimulus information, environmental
+condition data, gestures, eye movements, and other infor-
+mation, such that via functional imaging, either alone or in 60
+combination with other information collected by monitoring
+systems 808, the platform may determine and classify what
+brain modules, operations, systems, and/or functions are
+employed during the undertaking of a set of tasks or activi-
+ties, such as ones involving software interaction 1500, 65
+physical process observations 1510, or a combination
+thereof. This classification may assist in selection and/or
+[col 2]
+122
+configuration of a set of artificial intelligence solutions, such
+as from an artificial intelligence store 3504, that includes a
+similar set of capabilities and/or functions to the set of
+modules and functions of the human brain when undertaking
+an activity, such as for the initial configuration of a robotic
+process automation (RPA) system 1442 that automates a task
+performed by an expert human. Thus, the platform may
+include a system that takes input from a functional imaging
+system to configure, optionally automatically based on
+ 10 matching of attributes between one or more biological
+systems, such as brain systems, and one or more artificial
+intelligence systems, a set of artificial intelligence capabili-
+ties for a robotic process automation system. Selection and
+configuration may further comprise selection of inputs to
+robotic process automation and/or artificial intelligence that
+are configured at least in part based on functional imaging of
+the brain while workers undertake tasks, such as selection of
+visual inputs (such as images from cameras) where vision
+systems of the brain are highly activated, selection of
+acoustic inputs where auditory systems of the brain are
+highly activated, selection of chemical inputs (such as
+chemical sensors) where olfactory systems of the brain are
+highly activated, or the like. Thus, a biologically aware
+robotic process automation system may be improved by
+having initial configuration, or iterative improvement, be
+guided, either automatically or under developer control, by
+imaging-derived information collected as workers perform
+expert tasks that may benefit from automation.
+Referring to FIG. 27, additional details of an embodiment
+of the platform 604 are provided, in particular relating to
+elements of the adaptive intelligence layer 614 that facilitate
+improved edge intelligence, including the adaptive edge
+compute management system 1400 and the edge intelligence
+system 1420. These elements provide a set of systems that
+cessing, such as by varying storage locations for data and
+processing locations (e.g., optimized by Al) between on-
+device storage, local systems, in the network and in the
+cloud. These elements enable facilitation of a dynamic
+definition by a user, such as a developer, operator, or host of
+the platform 102, of what constitutes the “edge" for purposes
+ofa given application. For example, for environments where
+data connections are slow or unreliable (such as where a
+facility does not have good access to cellular networks (such
+as due to remoteness of some environments (such as in
+geographies with poor cellular network infrastructure),
+shielding or interference (such as where density of network-
+using systems, thick metals hulls of container ships, thick
+metal container walls, underwater or underground location,
+or presence of large metal objects (such as vaults, hulls,
+containers and the like) interferes with networking perfor-
+mance), and/or congestion (such as where there are many
+devices seeking access to limited networking facilities),
+edge computing capabilities can be defined and deployed to
+operate on the local area network of an environment, in
+peer-to-peer networks of devices, or on computing capabili-
+ties of local value chain entities 652. For example, in an
+environment with a limited set of computational and/or
+networking resources, tasks may be intelligently load bal-
+anced based on a current context (e.g., network availability,
+latency, congestion, and the like) and, in an example, one
+type of data may be prioritized for processing, or one
+workflow prioritized over another workflow, and the like.
+Where strong data connections are available (such as where
+good backhaul facilities exist), edge computing capabilities
+can be disposed in the network, such as for caching fre-

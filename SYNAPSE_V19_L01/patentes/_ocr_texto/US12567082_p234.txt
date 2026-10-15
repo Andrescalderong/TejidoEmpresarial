@@ -1,0 +1,137 @@
+dashboard 4200 for managing a set of digital twins 1700. In 35 and workflows relate to a set of businesses involved in an
+[col 1]
+US 12,567,082 B2
+145
+information involves cybersecurity status. In embodiments,
+the status information involves compliance status.
+Dashboard for Managing Digital Twins
+Referring to FIG. 47, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent 10
+systems 614 (including artificial intelligence 1160), a set of
+data storage facilities or systems 624, and a set of monitor-
+ing facilities or systems 808. The platform 604 may support
+a set of applications 614 (including processes, workflows,
+activities, events, use cases and applications) for enabling an 15
+enterprise to manage a set of value chain network entities
+652, such as from a point oforigin to a point of customer use
+of a product 1510, which may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system 20
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain 25
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a
+dashboard for managing a set of digital twins, wherein at
+least one digital twin represents a set of supply chain 130
+entities, workflows and assets and at least one other digital
+twin represents a set of demand management entities and
+workflows.
+In embodiments, the VCNP 604 may further include a
+embodiments, this may include different twins, such as
+where one digital twin 1700 represents a set of supply chain
+entities, workflows and assets and another digital twin 1700
+represents a set of demand management entities and work-
+flows. In some example embodiments, managing a set of 40
+digital twins 1700 may refer to configuration (e.g., via the
+dashboard 4200) as described in the disclosure. For
+example, the digital twin 1700 may be configured through
+manage the enterprise digital twins and associated metadata 45
+of an enterprise, to configure the data structures and data
+listening threads that power the enterprise digital twins, and
+to configure features of the enterprise digital twins, includ-
+ing access features, processing features, automation fea-
+tures, reporting features, and the like, each of which may be 5o 
+affected by the type of enterprise digital twin (e.g., based on
+the role(s) that it serves, the entities it depicts, the workflows
+that it supports or enables and the like). In example embodi-
+ments, the digital twin configuration system may receive the
+types of digital twins that may be supported for the enter- 55 
+prise, as well as the different objects, entities, and/or states
+that are to be depicted in each type of digital twin. For each
+type of digital twin, the digital twin configuration system
+may determine one or more data sources and types of data
+that feed or otherwise support each object, entity, or state 60
+that is depicted in the respective type of digital twin and may
+determine any internal or external software requests (e.g..
+API calls) that obtain the identified data types or other
+suitable data acquisitions mechanisms, such as webhooks,
+that may configured to automatically receive data from an 65
+internal or external data source In some embodiments, the
+digital twin configuration system may determine internal
+[col 2]
+146
+and/or external software requests that support the identified
+data types by analyzing the relationships between the dif-
+ferent types of data that correspond to a particular state/
+entity/object and the granularity thereof. Additionally or
+alternatively, a user may define (e.g-, via a GUI) the data
+sources and/or sofiware requests and/or other data acquisi-
+tion mechanisms that support the respective data types that
+are depicted in a respective digital twin. In these example
+embodiments, the user may indicate the data source that may
+be accessed and the types of data to be obtained from the
+respective data source.
+The dashboard may be used to configure the digital twins
+1700 for use in collection, processing, and/or representation
+of information collected in the platform 604, such as status
+information 1730, such as for the benefit of a set of demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+a set of asset management applications 1530 and a set of
+enterprise resource management applications 1520 for a
+category of goods.
+In embodiments, the dashboard for managing a set of
+digital twins, wherein at least one digital twin represents a
+set of supply chain entities and workflows and at least one
+other digital twin represents a set of demand management
+entities and workflows.
+In embodiments, the entities and workflows relate to a set
+of products of an enterprise. In embodiments, the entities
+and workflows relate to a set of suppliers of an enterprise. In
+embodiments, the entities and workflows relate to a set of
+producers of a set of products. In embodiments, the entities
+and workflows relate to a set of manufacturers of a set of
+products.
+In embodiments, the entities and workflows relate to a set
+of retailers of a line of products. In embodiments, the entities
+ecosystem for a category of products. In embodiments, the
+entities and workflows relate to a set of owners of a set of
+assets involved in a value chain for a set of products. In
+embodiments, the entities and workflows relate to a set of
+operators of a setof assets involved ina value chainfor a set
+of products.
+In embodiments, the entities and workflows relate to a set
+of operating facilities. In embodiments, the entities and
+workflows relate to a set of customers.In embodiments, the
+entities and workflows relate to a set of consumers. In
+embodiments, the entities and workflows relate to a set of
+workers.
+In embodiments, the entities and workflows relate to a set
+of mobile devices. In embodiments, the entities and work-
+flows relate to a set of wearable devices. In embodiments,
+the entities and workflows relate to a set of distributors. In
+embodiments, the entities and workflows relate to a set of
+resellers.
+In embodiments, the entities and workflows relate to a set
+of supply chain infrastructure facilities. In embodiments, the
+entities and workflows relate to a set of supply chain
+processes. In embodiments, the entities and workflows relate
+to a set of logistics processes. In embodiments, the entities
+and workflows relate to a set of reverse logistics processes.
+In embodiments, the entities and workflows relate to a set
+of demand prediction processes. In embodiments, the enti-
+ties and workflows relate to a set of demand management
+processes. In embodiments, the entities and workflows relate
+to a set of demand aggregation processes. In embodiments,
+the entities and workflows relate to a set of machines.
+In embodiments, the entities and workflows relateto a set
+of ships. In embodiments, the entities and workflows relate

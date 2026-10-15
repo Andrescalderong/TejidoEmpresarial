@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+83
+systems 1160 may use application programming connectiv-
+ity facilities 642 for automating access to the monitored
+activity information 3208.
+A value chain may include a plurality of interconnected
+entities that each perform several activities for completing
+the value chain. While humans play a critical role in some
+activities within a value chain network, greater automated
+coordination and unified orchestration of supply and demand
+may be achieved using artificial intelligence-type systems
+(e.g, machine learning, expert systems, self-organizing sys- 10
+tems, and the like including such systems describe herein
+and in the documents incorporated herein by reference) for
+coordinating supply chain activities. Use of artificial intel-
+ligence may further enrich the emerging nature of self-
+adapting systems, including Internet of Things (loT) devices 15
+and intelligent products and the like that not only provide
+greater capabilities to end users, but can play a critical role
+in automated coordination of supply chain activities.
+For example, an IoT system deployed in a fulfillment
+center 628 may coordinate with an intelligent product 1510 20
+that takes customer feedback about the product 1510, and an
+application 630 for the fulfillment center 628 may, upon
+receiving customer feedback via a connection path to the
+intelligent product 1510 about a problem with the product
+1510, initiate a workflow to perform corrective actions on
+similar products 650 before the products 650 are sent out
+from the fulfillment center 628. The workflow may be
+analyzes the problem with the product 1510, develops an
+understanding of value chain network activities that produce 30
+the product, determines resources required for the workflow,
+coordinates with inventory and production systems to adapt
+any existing workflows and the like. Artificial intelligence
+ systems 1160 may further coordinate with demand manage-
+ment applications to address any temporary impact on 35 
+product availability and the like.
+In embodiments, automated coordination of a set of value
+chain network activities for a set of products for an enter-
+prise may rely on the methods and systems of coordinated
+intelligence described herein, such as to facilitate coordi- 40
+nating demand management activities, supply chain activi-
+ties and the like, optionally using artificial intelligence for
+providing the coordinated intelligence, coordinating the
+activities and the like. As an example, artificial intelligence
+may facilitate determining relationships among value 45 
+change network activities based on inputs used by the
+activities and results produced by the activities. Artificial
+intelligence may be integrated with and/or work coopera-
+tively with activities of the platform, such as value chain
+network entity activities to continuously monitor activities, 5o i
+identify temporal aspects needing coordination (e.g., when
+changes in supply temporally impact demand activities), and
+automate such coordination. Automated coordination of
+value chain network activities within and across value chain
+network entity activities may benefit from advanced artifi- 55
+cial intelligence systems that may enable use of differing
+artificial intelligence capabilities for any given value chain
+set of entities, applications, or conditions. Use of hybrid
+artificial intelligence systems may provide benefits by apply-
+ing more than one type of intelligence to a set of conditions 60
+to facilitate human and/or computer automated selection
+thereof. Artificial intelligence can further enhance auto-
+mated coordination of value chain network entity activities
+through intelligent operations such as generating sets of
+predictions, sets of classifications, generation of automate 65
+control signals (that may be communicated across value
+chain network entities and the like). Other exemplary arti-
+[col 2]
+84
+ficial intelligence-based influences on automated coordina-
+tion of value chain network entity activities include machine
+learning-based information routing and recommendations
+thereto, semi-sentient problem recognition based on both
+structured (e.g, production data) and unstructured (e.g.,
+human emotions) sources, and the like. Artificial intelligence
+systems may facilitate automated coordination of value
+chain network entity activities for a set of products or an
+enterprise based on adaptive intelligence provided by the
+platform for a category of goods under which the set of
+adaptive intelligence may be provided by the platform for a
+drapery hanging category of goods and a set of products for
+an enterprise may include a line of adaptable drapery
+hangers. Through understanding developed for the overall
+drapery hanging category, artificial intelligence capabilities
+may be applied to value chain network activities of the
+enterprise for automating aspects of the value chain, such as
+information exchange among activities and the like.
+Digital Twin System in Value Chain Entity Management
+Platform
+Referring to FIG. 22, the adaptive intelligence layer 614
+may include a value chain network digital twin system 1700,
+which may include a set of components, processes, services,
+interfaces and other elements for development and deploy-
+ment of digital twin capabilities for visualization of various
+value chain entities 652, environments, and applications
+630, as well as for coordinated intelligence (including arti-
+ficial intelligence 1160, edge intelligence 1400, analytics
+and other capabilities) and other value-added services and
+capabilities that are enabled or facilitated with a digital twin
+1700. Without limitation, a digital twin 1700 may be used
+for and/or applied to each of the processes that are managed,
+controlled, or mediated by each of the set of applications 614
+of the platform application layer.
+In embodiments, the digital twin 1700 may take advan-
+tage of the presence of multiple applications 630 within the
+value chain management platform 604, such that a pair of
+applications may share data sources (such as in the data
+storagelayer 624) and other inputs (such as from the
+monitoring layer 614) that are collected with respect to value
+chain entities 652, as well as sharing outputs, events, state
+information and outputs, which collectively may provide a
+much richer environment for enriching content in a digital
+twin 1700, including through use of artificial intelligence
+1160 (including any of the various expert systems, artificial
+intelligence systems, neural networks, supervised learning
+systems, machine learning systems, deep learning systems,
+and other systems described throughout this disclosure and
+in the documents incorporated by reference) and through use
+of content collected by the monitoring layer 614 and data
+collection systems 640.
+In embodiments, a digital twin 1700 may be used in
+connection with shared or converged processes among the
+various pairs of the applications 630 of the application 604,
+such as, without limitation, of a converged process involving
+application 820, integrated automation of blockchain-based
+applications 844 with facility management applications 850,
+ and many others. In embodiments, converged processes may
+include shared data structures for multiple applications 630
+(including ones that track the same transactions on a block-
+chain but may consume different subsets of available attri-
+butes of the data objects maintained in the blockchain or
+ones that use a set of nodes and links in a common
+knowledge graph) that may be connected to with the digital
+twin 1700 such that the digital twin 1700 is updated accord-

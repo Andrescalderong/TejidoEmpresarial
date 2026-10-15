@@ -1,0 +1,127 @@
+[col 1]
+US2022/0036302A1
+148
+these embodiments, the digital twin system 8004 may rec-
+ommend decisions to a user interacting with the enterprise
+digital twins, such as when to order certain parts for manu-
+manufactured product, when to schedule maintenance on
+machinery and/or replace machinery (e.g., when digital
+simulations on the digital twin indicates the demand for
+certain products may be the lowest or when it would have
+the least effect on the enterprise's profits and losses state-
+ment), what time of day to ship items, or the like. The
+foregoing example is a non-limiting example of the manner
+simulations in order to further one or more goals.
+[1173]FIG. 71 illustrates examples of different types of
+enterprise digital twins, including executive digital twins, in
+relation to the data layer, processing layer, and application
+layer of the enterprise digital twin framework. In embodi-
+ments, executive digital twins may include, but are not
+limited to, CEO digital twins 8302,CFO digital twins 8304,
+COO digital twins 8306, CMO digital twins 8308, CTO
+digital twins 8310, CIO digital twins 8312, GC digital twins
+8314, HR digital twins 8316, and the like. Additionally, the
+enterprise digital twins that may be relevant to the executive
+suite may include cohort digital twins 8320, agility digital
+twins 8322, CRM digital twins 8324, and the like. The
+discussion of the different types of digital twins is provided
+for example and not intended to limit the scope of the
+disclosure. It is understood that in some embodiments, users
+may alter the configuration of the various executive digital
+twins based on the business needs of the enterprise, the
+reporting structure of the enterprise, and the roles and
+responsibilities of the various executives within the enter-
+prise.
+[1174]  In embodiments, executive digital twins and the
+additional enterprise digital twins are generated using vari-
+ous types of data collected from different data sources. As
+discussed, the data may include real-time data 8330, his-
+torical data 8332, analytics data 8334, simulation/modeled
+data 8336, CRM data 8338, organizational data, such as org
+charts and/or an organizational digital twin 8340, an enter-
+prise data lake 8342, and market data 8344. In embodiments,
+the real-time data 8330 may include sensor data collected
+from one or more IoT sensor systems, which may be
+collected directly from each sensor and/or by various data
+collection devices associated with the enterprise, including
+readers (e.g., RFID, NFC, and Bluetooth readers), beacons,
+gateways, repeaters, mesh network nodes, WIFI systems,
+access points, routers, switches, gateways, local area net-
+work nodes, edge devices, and the like. Real-time data 8330
+may include additional or alternative types of data that are
+collected in real-time, such as real-time sales data, real-time
+cost data, project management data that indicates the status
+of current projects, and the like. Historical data may be any
+data collected by the enterprise and/or on behalf of the
+enterprise in the past. This may include sensor data collected
+from the sensor systems of the enterprise, sales data, cost
+data, maintenance data, purchase data, employee hiring data,
+employee on-boarding data, employee retention data, legal-
+related data indicating legal proceedings, patent filing data
+ment data indicating historical progress of past and current
+projects, product data indicating products that are on the
+market, and the like. Analytics data 8334 may be data
+derived by performing one or more analytics processes on
+[col 2]
+Feb.3,2022
+data collected by and/or on behalf of the enterprise. Simu-
+lation/modeled data 8336 may be any data derived from
+simulation and/or behavior modeling processes that are
+performed with respect to one or more digital twins. CRM
+data 8336 may include data obtained from a CRM of the
+enterprise. An organizational digital twin 8340 may be a
+digital twin of the enterprise. The enterprise data lake 8342
+may be a data lake that includes data collected from any
+number of sources. In embodiments, the market data 8342
+may include data that is collected from disparate data
+sources concerning or related to competitors and other
+cohorts in the marketplace and supply chain. Market data
+8342 may be collected from many different sources and may
+be structured or unstructured. In embodiments, market data
+depicted in a digital twin that relies on such market data
+8342, such as by showing error bars, probability cones,
+random walk paths, or the like. It is appreciated that the
+different types of data highlighted above may overlap. For
+example: historical data may be obtained from the CRM
+data; the enterprise data lake 8342 may include real-time
+data 8330, historical data 8332, analytics data 8332, simu-
+lated/modeled data 8336, and/or CRM data 8336; and ana-
+lytics data 8334 may be based on historical data 8332,
+real-time data 8332, CRM data 8336, and/or market data
+8342. Additional or alternative types of data may be used to
+populate an enterprise digital twin.
+[1175] In embodiments, the data structuring system 8106
+may structure the various data collected by and/or on behalf
+of the enterprise. In embodiments, the digital twin genera-
+tion system 8108 generates the enterprise digital twins. As
+discussed, the digital twin generation system 8108 may
+receive a request for a particular type of digital twin (e.g., a
+CEO digital twin 8302 or a CTO digital twin 8310) and may
+determine the types of data needed to populate the digital
+twin based on the configuration of the requested type of
+digital twin. In embodiments, the digital twin generation
+system 8108 may then generate the requested digital twin
+based on the various types of data (which may include
+structured data structured by the data structuring system
+8106). In some embodiments, the digital twin generation
+system 8108 may output the generated digital twin to a client
+application 8052, which may then display the requested
+digital twins.
+[1176]  In embodiments, a CEO digital twin 8302 is a
+digital twin configured for the CEO or analogous top-level
+decision maker of an enterprise. The CEO digital twin 8302
+may include high-level views of different states and/or
+operations data of the enterprise, including real-time and
+historical representations of major assets, processes, divi-
+sions, performance metrics, the condition of different busi-
+ness units of the enterprise, and any other mission-critical
+information type. In embodiments, the CEO digital twin
+8302may work in connection with the EMP 8000 to provide
+simulations, predictions, statistical summaries, decision-
+support based on analytics, machine learning, and/or other
+AI and learning-type processing of inputs (e.g-, fiscal data,
+competitor data, product data, and the like). In embodi-
+ments, a CEO digital twin 8302 may provide functionality
+including, but not limited to, management of personnel,
+delegation oftasks, decisions, ortasks, coordination with the
+Board of Directors and/or strategic partners, risk manage-

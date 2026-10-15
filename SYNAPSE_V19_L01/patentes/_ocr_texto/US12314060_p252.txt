@@ -1,0 +1,138 @@
+weight, decrease plastic or other non-biodegradable waste, 35 may provide control decisions to the waste mitigation sys-
+[col 1]
+US 12,314,060 B2
+139
+gence system 2010 may leverage the digital twin of the
+logistics environment to run simulations on the proposed
+ solution. In embodiments, the digital twin system 1700 may
+display the digital twin of the logistics environment to a user
+via a display device (e.g-, a monitor or a VR headset). In
+embodiments, the user may view the simulations in the
+digital twin. Furthermore, in embodiments, the digital twin
+ system 1700 may provide a graphical user interface that the
+user may interact with to adjust the design of the logistics
+environment to adjust the design. The design provided (at 10
+least in part) by a user may also be represented in a digital
+twin of a logistics environment, whereby the digital twin
+system 2020 may perform simulations using the digital twin.
+In some embodiments, the simulations run by the digital
+twin system 1700 may be used to train the recommendation 15
+models. Furthermore, when the design recommendations are
+implemented by an organization, the logistics system of the
+organization may be configured to report (e.g., via sensors,
+computing devices, manual human input) outcome data
+corresponding to the design recommendations to the 20
+machine learning system 2002, which may use the outcome
+data to reinforce the logistics design recommendation mod-
+els.
+FIG. 41 illustrates an example of a packaging design
+system that interfaces with the adaptive intelligent systems 25
+layer 614. In embodiments, the packaging design system
+may be configured to design one or more aspects of pack-
+aging for a physical object being conveyed in the value chain
+network. In some embodiments, the packaging design sys-
+temmay select oneormorepackaging attributes (e.g., size,30
+material, padding, etc.) of the packaging to optimize one or
+more outcomes associated with the transport of the physical
+object. For example, the packaging attributes may be
+selected to reduce costs, decrease loss/damage, decrease
+or the like. In embodiments, the packaging design system
+leverages the artificial intelligence system 2010 to obtain
+packaging attribute recommendations. In embodiments, the
+packaging design system may provide one or more features
+of the physical object. In embodiments, the features of the 40
+physical object may include the dimensions of the physical
+object, the mass of the physical object, the source of the
+physical object, one or more potential destinations of the
+physical object, the manner by which the physical object is
+shipped, and the like. In embodiments, the packaging design 45 t
+system may further provide one or more optimization goals
+for the package design (e.g., reduce cost, reduce damage,
+reduce environmental impact). In response, the artificial
+intelligence system 2010 may determine one or more rec-
+ommended packaging attributes based on the physical asset 5o j
+features and the given objective. In embodiments, the pack-
+aging design system receives the packaging attributes and
+generates a package design based thereon. The package
+design may include a material to be used, the external
+dimensions of the packaging, the internal dimensions of the 55
+packaging, the shape of the packaging, the padding/stuffing
+for the packaging, and the like.
+In some embodiments, the packaging design system may
+provide a packaging design to the digital twin system 2020,
+which generates a digital twin of the packaging and physical
+asset based on the packaging design. The digital twin of the
+packaging and physical asset may be used to run simulations
+that test the packaging (e.g., whether the packaging holds up
+in shipping, whether the packaging provides adequate insu-
+lation/padding,and the like).In embodiments, theresults of 65
+the simulation may be returned to the packaging design
+system, which may output the results to a user. In embodi-
+[col 2]
+140
+ments, the user may accept the packaging design, may adjust
+the packaging design, or may reject the design. In some
+embodiments, the digital twin system may run simulations
+on one or more digital twins to test different conditions that
+the package may be subjected to (e.g., outside in the snow,
+rocking in a boat, being moved by a forklift, or the like). In
+some embodiments, the digital twin system may output the
+results of a simulation to the machine-learning system 2002,
+which can train/reinforce the packaging design models
+based on the properties used to run the simulation and the
+outcomesstemmingtherefrom.
+In embodiments, the machine-learning system 2002 may
+receive outcome data from the packaging design system
+and/or other value chain entity data sources (e.g-, smart
+warehouses, user feedback, and the like). The machine-
+learning system 2002 may use this outcome data to train/
+reinforce the packaging design models. Furthermore, in
+some embodiments, the outcome data may be used by the
+digital twin system 2020 to update/correct any incorrect
+assumptions used by the digital twin system (e.g-, the
+flexibility of a packaging material, the water resistance of a
+packaging material, and the like).
+FIG. 42 illustrates examples of a waste mitigation system
+that interfaces with the adaptive intelligent systems layer
+614. In embodiments, the waste mitigation system is con-
+figured to analyze a process within the value chain (e.g.,
+manufacturing of a product, oil refining, fertilization, water
+treatment, or the like) to mitigate waste (e.g., solid waste,
+wastewater, discarded packaging, wasted energy, wasted
+time, wasted resources, or other waste). In embodiments, the
+waste mitigation system may interface with the artificial
+intelligence system 2010 to automate one or more processes
+to mitigate waste.
+In embodiments, the artificial intelligence system 2010
+tem to mitigate solid waste production. Examples of waste
+production may include excess plastic or other non-biode-
+gradable waste, hazardous or toxic waste (e.g-, nuclear
+waste, petroleum coke, or the like), and the like. In some of
+these embodiments, the artificial intelligence system 2010
+may receive one or more features of the process (or "process
+features"). Examples of process features may include, but
+are not limited to, the steps in the process, the materials
+being used, the properties of the materials being used, and
+the like. The artificial intelligence system 2010 may leverage
+one or more machine-learned models to control the process.
+In embodiments, the machine-learned models may be
+trained to classify a waste condition and/or the cause of the
+waste condition, In some of these embodiments, the artificial
+intelligence system 2010 may determine or select a waste
+mitigation solution based on the classified waste condition.
+For example, in some embodiments, the artificial intelli-
+gence system 2010 may apply rules-based logic to determine
+an adjustment to make to the process to reduce or resolve the
+waste condition. Additionally, or alternatively, the artificial
+intelligence may leverage a model that recommends an
+adjustment to make to the process to reduce or resolve the
+waste condition.
+In embodiments, the artificial intelligence system 2010
+60 may leverage the digital twin system 2020 to mitigate the
+waste produced by a process. In embodiments, the digital
+twin system 2020 may execute iterative simulations of the
+process in a digital twin of the environment in which the
+process is performed. When the simulation is executed, the
+artificial intelligence system 2010 may monitor the results of
+the simulation to determine a waste condition and/or the
+cause of the waste condition. During the simulations, the

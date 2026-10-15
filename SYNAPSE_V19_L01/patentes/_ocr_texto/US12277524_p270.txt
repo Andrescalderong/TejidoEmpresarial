@@ -1,0 +1,134 @@
+processor may be part of a server, cloud server, client, 20 media, ports (physical and virtual), communication devices,
+[col 1]
+US 12,277,524 B2
+365
+Software and Networking Capabilities
+While only a few embodiments of the present disclosure
+have been shown and described, it will be obvious to those
+skilled in the art that many changes and modifications may
+be made thereunto without departing from the spirit and
+ scope of the present disclosure as described in the following
+claims. All patent applications and patents, both foreign and
+domestic, and all other publications referenced herein are
+incorporated herein in their entireties to the full extent
+10 permitted by law.
+The methods and systems described herein may be
+deployed in part or in whole through a machine that executes
+computer sofiware, program codes, and/or instructions on a
+processor. The present disclosure may be implemented as a
+method on the machine, as a system or apparatus as part of
+or in relation to the machine, or as a computer program
+product embodied in a computer readable medium executing
+on one or more of the machines. In embodiments, the
+network infrastructure, mobile computing platform, station-
+ary computing platform, or other computing platforms. A
+processor may be any kind of computational or processing
+device capable of executing program instructions, codes,
+binary instructions and the like, including a central process- 25
+board, a chip (e.g., a graphics chip, a video processing chip.
+a data compression chip, or the like), a chipset, a controller,
+a system-on-chip (e.g., an RF system on chip, an AI system
+on chip, a video processing system on chip, an organ-on- 30
+chip, a quantum algorithm system on chip, or others), an
+integrated circuit, an application specific integrated circuit
+(ASIC), a field programmable gate array (FPGA), a complex
+programmable logic device (CPLD), an approximate com-
+computing processor, a neural network processor, or other
+type of processor. The processor may be or may include a
+signal processor, digital processor, data processor, embed-
+ded processor, microprocessor or any variant such as a
+co-processor (math co-processor, graphic co-processor, 40
+communication co-processor, video co-processor, AI co-
+processor, and the like) and the like that may directly or
+indirectly facilitate execution of program code or program
+instructions stored thereon. In addition, the processor may
+enable execution of multiple programs, threads, and codes. 45 r
+The threads may be executed simultaneously to enhance the
+performance of the processor and to facilitate simultaneous
+operations of the application. By way of implementation,
+methods, program codes, program instructions and the like
+describedherein may beimplemented in one or more 50
+threads. The thread may spawn other threads that may have
+assigned priorities associated with them; the processor may
+execute these threads based on priority or any other order
+based on instructions provided in the program code. The
+processor, or any machine utilizing one, may include non- 55
+transitory memory that stores methods, codes, instructions
+and programs as described herein and elsewhere. The pro-
+an interface that may store methods, codes, and instructions
+as described herein and elsewhere. The storage medium 60
+associated with the processor for storing methods, programs,
+codes, program instructions or other type of instructions
+capable of being executed by the computing or processing
+device may include but may not be limited to one or more
+ofa CD-ROM, DVD, memory, hard disk, flash drive, RAM, 65
+ROM, cache, network-attached storage, server-based stor-
+age, and the like.
+[col 2]
+366
+A processor may include one or more cores that may
+enhance speed and performance of a multiprocessor. In
+embodiments, the process may be a dual core processor,
+quad core processors, other chip-level multiprocessor and
+the like that combine two or more independent cores (some-
+times called a die).
+The methods and systems described herein may be
+deployed in part or in whole through a machine that executes
+computer software on a server, client, firewall, gateway, hub,
+router, switch, infrastructure-as-a-service, platform-as-a-ser-
+vice, or other such computer and/or networking hardware or
+system. The software may be associated with a server that
+may include a file server, print server, domain server,
+intern& server, intranet server, cloud server, infrastructure-
+as-a-service server, platform-as-a-service server, web server,
+and other variants such as secondary server, host server,
+distributed server, failover server, backup server, server
+farm, and the like. The server may include one or more of
+memories, processors, computer readable media, storage
+and interfaces capable of accessing other servers, clients,
+machines, and devices through a wired or a wireless
+medium, and the like. The methods, programs, or codes as
+described herein and elsewhere may be executed by the
+ server. In addition, other devices required for execution of
+methods as described in this application may be considered
+as a part of the infrastructure associated with the server.
+The server may provide an interface to other devices
+including, without limitation, clients, other servers, printers,
+database servers, print servers, file servers, communication
+servers, distributed servers, social networks, and the like.
+Additionally, this coupling and/or connection may facilitate
+remote execution of programs across the network. The
+networking of some or all of these devices may facilitate
+parallel processing of a program or method at one or more
+locations without deviating from the scope of the disclosure.
+In addition, any of the devices attached to the server through
+an interface may include at least one storage medium
+capable of storing methods, programs, code and/or instruc-
+tions. A central repository may provide program instructions
+to be executed on different devices. In this implementation,
+the remote repository may act as a storage medium for
+program code, instructions, and programs.
+The software program may be associated with a client that
+may include a file client, print client, domain client, intern&
+client, intranet client and other variants such as secondary
+client, host client, distributed client and the like. The client
+may include one or more of memories, processors, computer
+readable media, storage media, ports (physical and virtual),
+communication devices, and interfaces capable of accessing
+other clients, servers, machines, and devices through a wired
+or a wireless medium, and the like. The methods, programs,
+or codes as described herein and elsewhere may be executed
+by the client. In addition, other devices required for the
+execution of methods as described in this application may be
+considered as a part of the infrastructure associated with the
+client.
+The client may provide an interface to other devices
+including, without limitation, servers, other clients, printers,
+database servers, print servers, file servers, communication
+servers, distributed servers and the like. Additionally, this
+coupling and/or connection may facilitate remote execution
+of programs across the network. The networking of some or
+all of these devices may facilitate parallel processing of a
+program or method at one or more locations without devi-
+ating from the scope of the disclosure. In addition, any of the
+devices attached to the client through an interface may

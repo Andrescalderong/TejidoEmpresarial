@@ -1,0 +1,133 @@
+In embodiments, the application programming interface 35 systems, data visualization systems, data normalization sys-
+[col 1]
+US 12,567,082 B2
+125
+In embodiments,thelocal management systemuserinter-
+face facilitates configuration of a set of workflows that are
+managed by the adaptive edge computing systems.
+In embodiments, the interface is a user interface of a
+mobile computing device that has a network connection to
+the adaptive edge computing systems.
+In embodiments, the interface is an application program-
+ming interface.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a cloud-based artificial intelligence
+system.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+cloud data management platform.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a computational facility of a cloud 20 s
+data management platform.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a set of environmental sensors that
+collect data about an environment that hosts a set of value 25
+chain network entities.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a set of sensors that collect data
+about a product.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive edge
+computing systems and a set of sensors that collect data
+published by an intelligent product.
+facilitates exchange of data between the adaptive edge
+computing systems and a set of sensors that collect data
+disposed in an environment that hosts a set of value chain
+network entities.
+In embodiments, the set of demand management appli-
+cations, supply chain applications, intelligent product appli-
+may include, for example, any of the applications mentioned
+throughout this disclosure or in the documents incorporated 45
+by reference herein.
+Unified Adaptive Intelligence
+Referring to FIG. 37, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various 50
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 1160, a set of data storage facilities or systems 624, 55 i
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 1510, which
+may be an intelligent product.
+In embodiments, the VCNP 102 may include a unified set
+of adaptive intelligent systems 614 that provide coordinated
+intelligence for a set of various applications, such as demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+[col 2]
+126
+a set of enterprise resource management applications 1520
+and a set of asset management applications 1530 for a
+category of goods.
+In embodiments, the unified set of adaptive intelligence
+systems include a wide variety of systems described
+throughout this disclosure and in the documents incorpo-
+rated herein by reference, such as, without limitation, the
+edge intelligence systems 1420, classification systems 1610,
+data processing systems 1612, signal processing systems
+1614, artificial intelligence systems 1160, prediction sys-
+tems 1620, configuration systems 1630, control systems
+1640, analytic systems 1650, testing/diagnostic systems
+1660, security systems 1670 and other systems, whether
+used for edge intelligence or for intelligence within a
+network, within an application, or in the cloud, as well as to
+serve various layers of the platform 604. These include
+neural networks, deep learning systems, model-based sys-
+tems, expert systems, machine learning systems, rule-based
+systems, opportunity miners, robotic process automation
+systems, data transformation systems, data extraction sys-
+tems, data loading systems, genetic programming systems,
+image classification systems, video compression systems,
+analog-to-digital transformation systems, digital-to-analog
+transformation systems, signal analysis systems, RF filtering
+systems, point cloud processing systems, analog signal
+processing systems, signal multiplexing systems, data fusion
+systems, sensor fusion systems, data filtering systems, sta-
+tistical signal processing systems, signal filtering systems,
+signal processing systems, protocol selection systems, stor-
+age configuration systems, power management systems,
+clustering systems, variation systems, machine learning sys-
+tems, event prediction systems, autonomous control sys-
+tems, robotic control systems, robotic process automation
+tems, data cleansing systems, data deduplication systems,
+graph-based data storage systems, intelligent agent systems,
+object-oriented data storage systems, self-configuration sys-
+tems, self-healing systems, self-organizing systems, self-
+organizing map systems, cost-based routing systems, hand-
+shake negotiation systems, entity discovery systems,
+cybersecurity systems, biometric systems, natural language
+processing systems, speech processing systems, voice rec-
+ognition systems, sound processing systems, ultrasound
+processing systems, artificial intelligence systems, rules
+engine systems, workflow automation systems, opportunity
+discovery systems, physical modeling systems, testing sys-
+tems, diagnostic systems, sofiware image propagation sys-
+tems, peer-to-peer network configuration systems, RF spec-
+trum management systems, network resource management
+systems, storage management systems, data management
+systems, intrusion detection systems, firewall systems, vir-
+tualization systems, digital twin systems, Internet of Things
+monitoring systems, routing systems, switching systems,
+indoor location systems, geolocation systems, parsing sys-
+tems, semantic filtering systems, machine vision systems,
+fuzzy logic systems, recommendation systems, dialog man-
+agement systems, and others.
+Thus, provided herein are methods, systems, components
+ 60 and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivityfacilities,adaptiveintelligencefacilities,data
+storage facilities, and monitoring facilities that are coordi-
+65 nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities

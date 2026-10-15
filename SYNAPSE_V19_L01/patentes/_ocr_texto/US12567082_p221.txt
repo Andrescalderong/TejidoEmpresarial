@@ -1,0 +1,135 @@
+cumulative reward. In some embodiments, the training data 1o one or more of learning classifier systems, inductive logic
+[col 1]
+US 12,567,082 B2
+119
+The noisy, limited, and/or imprecise training labels may be
+cheaper and/or less labor intensive to produce, thus allowing
+the machine learning model 3000 to train on a larger set of
+training data for less cost and/or labor.
+In some embodiments, the machine learning model 3000
+may be defined via reinforcement learning, such as one or
+more algorithms using dynamic programming techniques
+such that the machine learning model 3000 may train by
+taking actions in an environment in order to maximize a
+is represented as a Markov Decision Process.
+In some embodiments, the machine learning model 3000
+may be defined via self-learning, wherein the machine
+learning model 3000 is configured to train using training
+data with no external rewards and no external teaching, such 15
+as by employing a Crossbar Adaptive Array (CAA). The
+CAA may compute decisions about actions and/or emotions
+about consequence situations in a crossbar fashion, thereby
+driving teaching of the machine learning model 3000 by
+interactions between cognition and emotion. 20
+In some embodiments, the machine learning model 3000
+may be defined via feature learning, i.e., one or more
+algorithms designed to discover increasingly accurate and/or
+apt representations of one or more inputs provided during
+training, e.g-, training data. Feature learning may include 25
+analysis. Feature learning algorithms may include attempt-
+ing, by the machine learning model 3000, to preserve input
+training data while also transforming the input training data
+such that the transformed input training data is useful. In 30
+ some embodiments, the machine learning model 3000 may
+be configured to transform the input training data prior to
+performing one or more classifications and/or predictions of
+the input training data. Thus, the machine learning model
+3000 may be configured to reconstruct input training data 35
+from one or more unknown data-generating distributions
+without necessarily conforming to implausible configura-
+tions of the input training data according to the distributions.
+In some embodiments, the feature learning algorithm may
+be performed by the machine learning model 3000 in a 40 
+supervised, unsupervised, or semi-supervised manner.
+In some embodiments, the machine learning model 3000
+may be defined via anomaly detection, i.e., by identifying
+rare and/or outlier instances of one or more items, events
+and/or observations. The rare and/or outlier instances may 45
+be identified by the instances differing significantly from
+patterns and/or properties of a majority of the training data.
+Unsupervised anomaly detection may include detecting of
+anomalies, by the machine learning model 3000, in an
+unlabeled training data set under an assumption that a 50
+majority of the training data is “normal." Supervised
+anomaly detection may include training on a data set
+wherein at least a portion of the training data has been
+labeled as “normal" and/or "abnormal.*"
+In some embodiments, the machine learning model 3000 55 
+may be defined via robot learning. Robot learning may
+include generation, by the machine learning model 3000, of
+one or more curricula, the curricula being sequences of
+learning experiences, and cumulatively acquiring new skills
+via exploration guided by the machine learning model 3000 60
+ and social interaction with humans by the machine learning
+model 3000. Acquisition of new skills may be facilitated by
+one or more guidance mechanisms such as active learning,
+maturation, motor synergies, and/or imitation.
+In some embodiments, the machine learning model 3000 65
+can be defined via association rule learning. Association rule
+learning may include discovering relationships, by the
+[col 2]
+120
+machine learning model 3000, between variables in data-
+bases, in order to identify strong rules using some measure
+of "interestingness." Association rule learning may include
+identifying, learning, and/or evolving rules to store, manipu-
+late and/or apply knowledge. The machine learning model
+utilizing a set of relational rules, the relational rules collec-
+tively representing knowledge captured by the machine
+learning model 3000. Association rule learning may include
+programming, and artificial immune systems. Learning clas-
+component, such as one or more genetic algorithms, with a
+learning component, such as one or more algorithms for
+supervised learning, reinforcement learning, or unsuper-
+vised learning. Inductive logic programming may include
+rule-learning, by the machine learning model 3000, using
+logic programming to represent one or more of input
+examples, background knowledge, and hypothesis deter-
+ mined by the machine learning model 3000 during training.
+The machine learning model 3000 may be configured to
+derive a hypothesized logic program entailing all positive
+examples given an encoding of known background knowl-
+edge and a set of examples represented as a logical database
+of facts.
+In embodiments, another set of solutions, which may be
+deployed alone or in connection with other elements of the
+platform, including the artificial intelligence store 3504, may
+include a set of functional imaging capabilities 3502, which
+may comprise monitoring systems 640 and in some cases
+physical process observation systems 1510 and/or software
+interaction observation systems 1500, such as for monitor-
+ing various value chain entities 652. Functional imaging
+systems 3502 may, in embodiments, provide considerable
+insight into the types of artificial intelligence that are likely
+to be most effective in solving particular types of problems
+most effectively. As noted elsewhere in this disclosure and in
+the documents incorporated by reference herein, computa-
+tional and networking systems, as they grow in scale,
+complexity and interconnections,manifest problems of
+information overload, noise, network congestion, energy
+waste, and many others. As the Internet of Things grows to
+hundreds of billions of devices, and virtually countless
+potential interconnections, optimization becomes exceed-
+ingly difficult. One source for insight is the human brain,
+which faces similar challenges and has evolved, over mil-
+lennia, reasonable solutions to a wide range of very difficult
+optimization problems. The human brain operates with a
+massive neural network organized into interconnected
+modular systems, each of which has a degree of adaptation
+to solve particular problems, from regulation of biological
+systems and maintenance of homeostasis, to detection of a
+wide range of static and dynamic patterns, to recognition of
+threats and opportunities, among many others. Functional
+imaging 3502, such as functional magnetic resonance imag-
+ing (fMRI), electroencephalogram (EEG), computed tomog-
+raphy (CT) and other brain imaging systems have improved
+to the point that patterns of brain activity can be recognized
+in real time and temporally associated with other informa-
+tion, such behaviors, stimulus information, environmental
+condition data, gestures, eye movements, and other infor-
+mation, such that via functional imaging, either alone or in
+combination with other information collected by monitoring
+systems 808, the platform may determine and classify what
+brain modules, operations, systems, and/or functions are
+employed during the undertaking of a set of tasks or activi-
+ties, such as ones involving software interaction 1500,

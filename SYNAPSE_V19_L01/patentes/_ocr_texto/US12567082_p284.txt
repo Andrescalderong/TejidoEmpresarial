@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+245
+tive filtering data; analytic results of AI and/or machine
+learning modeling; channel data; demographic data; geo-
+graphic data; prediction data; recommendation data, or some
+other type of data relevant to the operations of the CMO
+and/or marketing department.
+In embodiments, an executive digital twin, such as a
+CMO digital twin 8308 or other executive digital twin may
+depict a twin of a department, such as the marketing
+department or other department, which the user may use to
+identify, assign, instruct, oversee and review department 1o i
+personnel and third-party personnel that are associated with
+the activities of a particular department of an organization,
+including third-party partners and other outside associates
+involved in the organization's related endeavors. Examples
+of such organization personnel include, but are not limited 15
+to, an organization's marketing staff, sales staff, finance
+ staff, product design personnel, engineers, analysts, statisti-
+cians, data scientists, advertising staff, executive personnel,
+human resources staff, Board Members, advisors, or some
+other type of organization personnel. Examples of an orga- 20
+nization's third-party personnel include, but are not limited
+to, advertising firm staff, ad exchange staff, outside creative
+or content developers, social media platform personnel,
+co-marketing partners, consultants, contractors, financial
+25
+sonnel. In embodiments, the departmental twin (in this
+example a marketing department twin) may include a defi-
+nition of the various roles/employees working under the
+executive (e.g., CMO), the reporting structure, and associ-
+ated permissions, for each individual in the business unit, 30
+and may be populated with the various the names and/or
+other identifiers of the individuals filling the respective
+roles. In embodiments, the department twin (e.g., marketing
+department twin) may include subsections that are specific
+to an activity or initiative, such as a marketing or advertising 35S
+campaign. In this way, the executive (e.g., a CMO) may
+easily identify the personnel and third-party providers that
+are involved in the initiative and/or assign individuals and/or
+third parties to the initiative. A user may define one or more
+restrictions, permissions, and/or access rights of the indi- 40
+viduals indicated in the business unit (e.g., using the enter-
+prise configuration system 8002), as described herein, such
+that the restrictions, permissions, and/or access rights can be
+controlled by the CMO (or analogous user). In embodi-
+ments, the permissions to define such restrictions and/or 45
+rights may be, for example, defined in the organizational
+digital twin that lists the user as having a role that permits
+implementing permissions, restrictions, and/or access rights
+to roles/individuals In embodiments, a personnel restriction
+or right associated with a role/individual may be specific to 50
+a project, such as a marketing or advertising campaign, and
+may define one or more types of data that a particular user
+or group of users is allowed, or not allowed, to access (either
+directly or in a digital twin). For example, a first marketing
+campaign twin may allow a marketing department employee 55
+to review the first marketing budget for a first marketing
+campaign and approve marketing expenditures for the first
+marketing campaign up to s$10,000, but a second marketing
+campaign twin may disallow the same employee from any
+budgetary review or expenditures. Similar approaches can 60
+be used by projects of various types across an organization
+and its departments, such as product development projects,
+logistics projects, corporate development projects, service
+projects, and many others. In embodiments, a breach, or
+attempted breach, of a restriction, permission or access right 65
+may invoke a notice, alert, warning or some other action to
+an individual notifying them of the breach or attempted
+[col 2]
+246
+breach. In an example such a notice, alert, or warning may
+be sent to an individual that is identified based at least in part
+on the individual's position in the org chart relative to the
+person breaching or attempting to breach a restriction,
+permission or access right. In another example, such a
+notice, alert, or warning may be sent to an individual that is
+not identified in a departmental org chart and/or specific
+project or campaign, but rather may be sent to an individual
+that is identified based at least in part on a rule that is defined
+in the organizational twin of the entire enterprise. For
+example, a rule stored within an organizational digital twin
+Information Security Department staff member, or some
+other staff member, upon an attempted login to a forbidden
+file, or other, system. Other rules may be related to geo-
+graphic, temporal, or other types of restrictions, as described
+herein. In embodiments, an alert may be an email, phone
+call, text, or some other communication type.
+In embodiments, a CMO digital twin 8308 may be con-
+figured to oversee and manage personnel and human
+resources issues and activities related to the marketing
+department. For example, a marketing department twin may
+map each individual within the marketing department to her
+respective marketing department. Using the CMO digital
+twin 8308, the user may be able to select a department to see
+greater detail on the functioning of the department. Alter-
+natively, this step may be automatically performed by the
+CMO digital twin 8308, requiring no action from the user
+(e.g, the CMO) (e.g., via an executive agent trained by the
+user). For example, the greater detail might include the
+number of vacancies currently associated with the depart-
+ment and the duration that each of the open positions has
+remained unfilled, estimated salary data associated with the
+open positions, and the like. The user may be able to also
+select to see more information on the budget associated with
+a given department, such as a department with a personnel
+vacancy, in order to see if there is currently available budget
+to cover a new hire for the department. Alternatively, this
+step may be automatically performed by the CMO digital
+twin 8308, requiring no action from the user. Continuing the
+example, if there is budget to cover a new hire, the CMO
+digital twin 8308 may provide a link or other opportunity for
+the user to initiate a communication with human resources
+or some other department personnel to begin the process of
+posting a job listing. Alternatively, this step may be auto-
+matically performed by the CMO digital twin 8308 (e.g., via
+an executive agent executing on behalf of the user), requir-
+ing no action from the user. This communication may be
+drawn from a repository of form emails, letters or other
+communications so that the user need not compose the
+communication, but rather only signal within the CMO
+digital twin 8308 that such communication should be sent.
+Similarly, based on the communication type (e.g. "initiate a
+new marketing job posting") the user may not need to select
+the receiving party, whom may be stored in the EMP as the
+appropriate recipient based at least in part on a rule associ-
+ated with the communication type. Continuing the example
+further, alternatively, if there is not budget available to cover
+a new hire, a second type ofcommunication may be invoked
+by the CMO digital twin 8308, for example, an email,
+calendar invitation to reserve a meeting, or some other type
+of communication may be selected to be sent to the CFO, or
+other financial personnel, to request a meeting to discuss the
+marketing department's budget or initiate some other activ-
+ity. Following this example, if and when the new hires are
+approved, the CMO digital twin may allow the user to
+delegate the hiring task to a subordinate or herself. In the

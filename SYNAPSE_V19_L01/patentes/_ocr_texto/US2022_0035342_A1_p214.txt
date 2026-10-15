@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0035342A1
+131
+are at a critical condition, an exceptional condition, or a
+satisfactory condition. For instance, if employee turnover is
+very high and employee satisfaction is low, the COO digital
+twin may depict that the HR-state is at a critical level. In this
+configuration, the COO may select to drill down into the
+HR-state, where she may view the employee turnover rate,
+hiring rate, and employee satisfaction survey results.
+[1112]   In another example, a COO or CTO digital twin
+may be configured to represent and assist with discovery and
+management of interconnections, relationships and depen-
+dencies between enterprise operations and information tech-
+nology.For example, a COO digital twin or a CFO digital
+twin may be configured to depict a set of operations entities
+and workflows (e.g., flow diagrams that represent a produc-
+tion process, an assembly process, a logistics process, or the
+like), where entities (including human workers, robots,
+processing equipment, and other assets) are depicted to
+operate on a set of inputs such as materials, components,
+products, containers and information) in order produce and
+hand off a set of outputs (of similar varied types) to the next
+set of entities in the workflow for further processing. These
+may be represented, for example, in a flow diagram that
+depicts each entity and its relationship in the flow to other
+entity. In embodiments, a role-based digital twin (such as a
+CIO digital twin) may also represent an information tech-
+nology system, such as representing sensors, IoT devices,
+data collection and monitoring systems, data storage sys-
+tems, edge and other computational systems, wired and
+wireless networking systems, and the like, including any of
+the types described throughout this disclosure. Each infor-
+mation technology component or system may be depicted in
+the role-based digital twin, along with related data, such as
+specifications, configuration parameters and settings, pro-
+cessing capabilities, along with its relationship to other
+components, such as representing data and networking con-
+nectivity to other components or systems. In embodiments,
+a role-based digital twin may provide a converged view that
+depicts operations technology entities and information tech-
+nology entities in relation to each other, such as indicating
+which information technology entities are located with
+wired or proximal wireless connectivity to which opera-
+tional entities, indicating which informational technology
+entities are logically associated to which operational entities
+(such as where cloud resources, computational resources,
+artificial intelligence resources, database resources, applica-
+tion resources, or other resources are provisioned to support
+or interact with operational entities, such as in virtual
+machine, container or other logical relationships). In
+embodiments, the converged view presented in the role-
+based digital twin may thus depict location-based and/or
+logical interconnections between operations and information
+technologies. In embodiments, alerts, such as indicating
+failure modes, congestion, delays, interruptions in service,
+poor latency, diminished quality of service, bandwidth con-
+straints, poor performance on key performance indicators,
+downtime, or other issues may be provided as augmenta-
+tions or overlays of the converged information technology
+and operations digital twin, so that the COO, CTO, CIO or
+other user may see interconnections between information
+technology entities and operational entities that may be
+contributing to problems. Other types of issues that may be
+provided as augmentations or overlays may include alerts as
+to existing conditions and/or forecasts or predictions of such
+[col 2]
+Feb.3,2022
+ficial intelligence systems, such as expert agents trained to
+make such forecasts. In an example, if high latency in a
+control system for a warehouse is slowing down the process
+of picking and packing goods due to a related edge compu-
+tational node experiencing congestion on an input data path,
+the user of the role-based digital twin may be alerted to the
+congestion, and a recommendation may be presented to
+augment, update, upgrade, or replace either the system
+providing connectivity to the edge node or the edge node
+itself. Thus, a converged digital twin of operations technol-
+ogy entities and information technology entities may pro-
+vide for insight into how an executive may adjust operations
+and/or information technology to improve results and/or
+avoid anticipated problems before they become catastrophic
+failures.
+[1113]  In embodiments, a user (e.g., an on-boarding user)
+may connect one or more data sources 8020 to the EMP
+8000. Examples of data sources 8020 that may be connected
+to the EMP may include, but are not limited to, a sensor
+system 8022 (e.g., a set of IoT sensors), a sales database
+8024 that is updated with sales figures in real time, a
+customer relationship management (CRM) system 8026, a
+marketing campaign platform 8028, news websites 8048, a
+financial database 8030 that tracks costs of the business,
+surveys 8032 (e.g., customer satisfaction and/or employee
+satisfaction surveys), an org chart 8034, a workflow man-
+agement system 8036, customer databases 1S40 that store
+customer data, external data feeds (such as news feeds,
+public relations feeds, weather feeds, trade data, pricing
+data, market data, and the like), data obtained by spidering.
+webscraping, or otherwise parsing website and social media
+sites, data obtained by crowdsourcing, and/or data from
+many and various third-party data sources 8038 that store
+third-party data. The data sources 8020 may include addi-
+tional or alternative data sources without departing from the
+scope of the disclosure. Once the user has defined the
+configuration of each respective executive digital twin,
+where the configuration includes the selected states to be
+depicted (which may include entities, relationships, and
+characteristics), the features that are to be enabled, and/or
+the desired granularity of each state, the user may then
+define the data sources 8020 that are fed into the respective
+executive digital twin, including any of the data sources in
+the data pipeline described above. In some embodiments,
+data from one or more of the data sources may be fused
+and/or analyzed before being fed into a respective digital
+twin.
+[1114]  In some embodiments, the on-boarding user may
+select among various types of enterprise digital twins that
+are supported for the enterprise, including environment
+digital twins, information technology digital twins, opera-
+tions digital twins, organizational digital twins, supply chain
+digital twins, product digital twins, facility digital twins,
+customer digital twins, cohort digital twins and/or process
+digital twins, among others. In some of these embodiments,
+the user may define the data sources used to generate these
+digital twins and to update the enterprise digital twins. In
+embodiments, the user may define any physical locations
+that will be represented as an environment digital twin
+(which may be a digital twin of a facility or other suitable
+environments). For example, the user may define manufac-
+turing facilities (e.g factories), shipping facilities, ware-
+houses, office buildings, and the like. Each facility may be

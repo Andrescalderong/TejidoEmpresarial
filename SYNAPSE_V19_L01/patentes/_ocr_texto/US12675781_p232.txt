@@ -1,0 +1,138 @@
+like, maritime facilities, such as port infrastructure facilities, 15 and/or data-based digital twins or combinations of visual
+[col 1]
+US 12,675,781 B2
+213
+trol managers, financial asset managers, process supervisors
+and workers (for any of the processes mentioned herein),
+security personnel, safety personnel and many others); sup-
+pliers, such as suppliers of goods and related services of all
+types, component suppliers, ingredient suppliers, materials
+suppliers, manufacturers, and many others; customers,
+including consumers, licensees, businesses, enterprises,
+value added and other resellers, retailers, end users, distribu-
+tors, and others who may purchase, license, or otherwise use
+a category of goods and/or related services; a wide range of 1o r
+operating facilities, such as loading and unloading docks,
+storage and warehousing facilities, vaults, distribution facili-
+ties and fulfillment centers, air travel facilities, including
+aircraft, airports, hangars, runways, refueling depots, and the
+such as docks, yards, cranes, roll-on/roll-off facilities,
+ramps, containers, container handling systems, waterways,
+locks, and many others), shipyard facilities, floating assets,
+such as ships, barges, boats and others), facilities and other
+items at points of origin and/or points of destination, hauling
+facilities, such as container ships, barges, and other floating
+assets, as well as land-based vehicles and other delivery
+systems used for conveying goods, such as trucks, trains,
+and the like; items or elements factoring in demand (i.e.,
+demand factors), including market factors, events, and many 25
+others; items or elements factoring in supply (i.e., supply
+factors), including market factors, weather, availability of
+components and materials, and many others; logistics fac-
+tors, such as availability of travel routes, weather, fuel
+prices, regulatory factors, availability of space, such as on a 30
+vehicle, in a container, in a package, in a warehouse, in a
+fulfillment center, on a shelf, or the like, and many others;
+retailers, including online retailers and others; pathways for
+conveyance, such as waterways, roadways, air travel routes,
+railwaysand the like;robotic systems,includingmobile 35
+robots, cobots, robotic systems for assisting human workers,
+robotic delivery systems, and others; drones, including for
+package delivery, site mapping, monitoring or inspection,
+and the like; autonomous vehicles, such as for package
+delivery; software platforms, such as enterprise resource
+planning platforms, customer relationship management plat-
+forms, sales and marketing platforms, asset management
+platforms, Internet of Things platforms, supply chain man-
+agement platforms, platform-as-a-service platforms, infra-
+structure-as-a-service platforms, software-based data stor- 45 
+age platforms, analytic platforms, artificial intelligence
+platforms, and others; and many others.
+In embodiments, a digital twin can represent a process,
+such as a workflow, such as with moving elements that
+represent steps of the process, such as the flow of items 50
+through a plant or warehouse. A digital twin can also provide
+a logical representation, such as various topologies, clusters,
+networks, hierarchies or the like of logically related ele-
+ments, such as an organizational chart of roles and/or
+personnel, the logical steps of a process, or the like. Thus, 55
+the term digital twin may refer to a digital representation of
+a thing or set of things. An enterprise digital twin may refer
+to any digital twin related to an enterprise and the wide array
+of things that relate to the enterprise and its operations. This
+may include digital twins of other enterprises and cohorts 60
+related to the enterprise, such as competitors, vendors,
+suppliers, distributors, customers, and the like. An enterprise
+may refer to a company, organization, corporation, LLC,
+non-profit organization, or the like. Enterprise digital twins
+may be used for a wide variety of user-facing applications 65
+that benefit from digital representation of salient features of
+elements of the enterprise, including monitoring of assets
+[col 2]
+214
+and operations, convenient generation and representation of
+a wide variety of analytic results, generation and display of
+simulations, such as for scenario planning, generation and
+display of recommendations and other decision support,
+collaborative decision support, and control of assets and
+operations, among many others. Enterprise digital twins may
+include organizational digital twins, executive digital twins,
+cohort digital twins, process digital twins, logical digital
+twins, real-time digital twins, AI-driven digital twins, envi-
+ronment digital twins, infrastructure and equipment digital
+twins, workforce digital twins, asset digital twins, product
+digital twins, system digital twins, and/or the like, which are
+discussed in greater detail throughout the disclosure.
+In embodiments, digital twins may be visual digital twins
+and data-based digital twins. A visual digital twin may refer
+to a digital twin that is capable of being depicted in a display
+such as a traditional 2D display (optionally with touch,
+voice, optical, auditory, or other control features), a 3D
+display, an augmented reality display, a virtual-reality dis-
+play, and/or a mixed-reality display, any of which may
+include various combinations of computer-generated display
+elements (such as animations and other computer-generated
+graphics, including ones generated or derived from CAD
+and/or 3D models), elements captured by cameras (such as
+video and still images), visual elements captured or derived
+from various sensor systems, such as LIDAR and other point
+cloud systems, structured light systems, waveforms or other
+representations of information from acoustic sensor systems,
+vibration sensing systems, electromagnetic sensing systems,
+and many others, and/or elements captured, received, or
+derived from data collection and generation systems of
+enterprise assets, such as onboard diagnostic and reporting
+systems, IT systems (e.g., logs), information from wearable
+devices, and many others. A data-based digital twin may
+refer to a data structure that contains a set of parameters that
+are parameterized to represent a state of a thing or group of
+things, such that a data-based digital twin may be leveraged
+by a computing application, such as for simulation, model-
+ing, predictions, classifications, and the like. As used herein,
+the term "depict" may refer to the visual display of a thing
+and/or a digital representation of a thing in a data structure
+(e.g., in a data-based digital twin). It is noted that visual
+digital twins may also be data-based digital twins, or com-
+binations of visual and data-based digital twins.
+In some embodiments, a digital twin may be updated with
+real-time data, such that the digital twin reflects the state of
+a thing or set of things in real-time. For example, a digital
+twin of an operating environment or facility (e.g., a factory,
+warehouse, campus, or the like) may depict the physical
+structure of the environment (e.g-, walls, floors, ceilings,
+rooms and the like), as well as objects appearing in the
+environment (e.g-, machines, products, employees, robots,
+and the like). Furthermore, depending on the manner in
+which this digital twin is configured, the digital twin of the
+operating facility may include things such as piping, con-
+duits, wiring, foundations, and the like. In embodiments, the
+digital twin may represent the information technology infra-
+structure of the facility, including wireless and fixed net-
+working devices and systems and their operating capabilities
+and characteristics. In some implementations, the digital
+twin of the manufacturing environment may be updated with
+data received from sensors (e.g-, IoT sensors deployed in or
+around a facility or equipment or machinery within the
+facility, wearable devices worn by workers within the facil-
+ity, and other suitable data sources). For example, as a
+worker wearing a wearable device moves through the facil-

@@ -1,0 +1,130 @@
+[col 1]
+US2022/0058569A1
+133
+roles with names and/or other identifiers of the individuals
+filling the respective roles defined in the org chart. In some
+embodiments, the enterprise configuration system 8002 may
+access an enterprise resource planning system 8044 and/or
+an HR system 8046 of the enterprise to obtain organizational
+data of the enterprise, such as the roles of the enterprise, the
+individuals that fill the roles, the salaries of the individuals
+that fill the roles, the reporting structure of the enterprise,
+and the like. In these embodiments, the digital twin system
+8004 (discussed below)may continue to communicate with
+the ERP system 8044 and/or HR system 8046 to receive the
+data needed to maintain the organizational digital twin in a
+real-time or near-real-time manner.
+[1116]  In embodiments, the enterprise configuration sys-
+tem 8002 (in c00peration with the digital twin system 8004,
+discussed below) may generate an organizational digital
+twin of the enterprise based on the org chart definition and
+the individuals that populate the roles within the org chart
+definition. In embodiments, a user may define one or more
+restrictions, permissions, and/or access rights of the indi-
+viduals indicated in the organizational digital twin via the
+enterprise configuration system 8002. In embodiments, a
+restriction may define one or more types of data or features
+that a particular user or group of users is not allowed to
+access (either directly or in a digital twin). In embodiments,
+an access right may define one or more types of data or
+features that a particular user or group of users may access
+and the type of access that a user or group of users can
+access. In embodiments, a permission may define operations
+that a user or a group of users may perform with respect to
+the EMP 8000. In embodiments, one or more of the access
+rights, permissions, and restrictions may be defined geo-
+graphically and/or temporally limited. For example, some
+types of data or features may only be viewed or otherwise
+accessed in certain areas (e.g., sensitive data may only be
+viewed in the corporate ofices) or at certain times (e.g..
+during Board meetings). In embodiments, the restrictions,
+permissions, and/or access rights may be set with respect to
+roles or the users themselves. As such, defining access
+rights, permissions, and/or restrictions for a user or a group
+of users may also include defining access rights, permis-
+sions, and/or restrictions to a role and/or business unit within
+the enterprise. In embodiments, the organizational digital
+twin may be deployed to manage the rights, permissions,
+and/or restrictions for the users of an enterprise. Further-
+more, in embodiments, the organizational digital twin may
+define the types of role-based digital twins (and other
+enterprise digital twins) that various users may have access
+to. In some embodiments, the organizational digital twin
+may depict additional or alternative information.
+[1117]   In embodiments, the digital twin system 8004 is
+configured to generate, update, and serve enterprise digital
+twins of an enterprise. In some embodiments, the digital
+twin system 8004 is configured to generate and serve
+role-based digital twins on behalf of an enterprise and may
+serve the role-based digital twins to a client device 8050
+(e.g., a mobile device, a tablet, a personal computer, a
+laptop, AR/VR-enabled device, workflow-specific device or
+equipment, or the like). As discussed, during the configu-
+ration phase, a user may define the different types of data and
+the corresponding data sources, data sets, and features that
+are used to generate and maintain each respective type of the
+different types of enterprise digital twins. Initially, the digital
+[col 2]
+Feb.24,2022
+each type of enterprise digital twin, including any underly-
+ing data sources/databases (e.g., SQL databases, graph data-
+bases, relational databases, distributed databases, block-
+chains, distributed ledgers, data feeds, data streams, and the
+like) that store or produce data that is ingested by the
+respective enterprise digital twins. Once the data structures
+that support a digital twin are configured, the digital twin
+system 8004 receives data from one or more data sources
+8020.In embodiments, the digital twin system 8004 may
+structure and/or store the received data in one or more
+databases. When a specific digital twin is requested (e.g., by
+auservia a client application 8052orby a software
+component of the EMP 8000), the digital twin system may
+determine the views that are represented in the requested
+digital twin and may generate the requested digital twin
+based on data from the configured databases and/or real-time
+data received via an API. The digital twin system 8004 may
+serve the requested digital twin to the requestor (e.g., the
+client application or a backend software component of the
+EMP 8000). After an enterprise digital twin is served, some
+enterprise digital twins may be subsequently updated with
+real-time data received via the API system 8014. In embodi-
+ments an API may provide information to the data pipeline
+as to the type of data required for the digital twin, such that
+the data pipeline may be configured (by a user, or by an
+automated/intelligence systems) to handle the data effec-
+tively. For example, the data pipeline may be configured to
+deliver data over a data path that uses an appropriate
+protocol for efficient delivery, delivering the data over a
+cost-appropriate path (e.g., an inexpensive path for data that
+does not require low latency or real-time updating), or the
+like. Thus, in some embodiments, configuration of a digital
+twin may include providing inputs as to the requirements of
+the digital twin for low-latency, high quality-of-service, high
+accuracy, high granularity,high reliability, or the like, based
+on, for example, the priority of the mission served by the
+data type. In embodiments, an intelligent expert agent (or
+"intelligent agent" or “expert agent") may be trained on a
+training set of configurations of inputs to one or more data
+that the intelligent agent may learn to automatically config-
+ure APIs for digital twins to provide appropriate inputs to
+data pipelines for subsequent digital twins involving similar
+or analogous workflows for similar or analogous roles,
+identities, industries and/or domains. In embodiments, such
+training of an intelligent agent may include learning as to
+specific user interactions, such as learning which users
+within a role use which types of data at what times and for
+allocated to support actual user requirements. For example,
+an automated intelligent agent managing the configuration
+of a data pipeline for a COO digital twin may learn that an
+operations executive (e.g., a COO user) checks production
+data for each facility at the end of each eight-hour shift (e.g.,
+after 5:00 pm), such that mid-shift data updates are delivered
+over lower-cost data resources, but end-of-shift data is
+delivered over low-latency data paths that have high reli-
+ability and quality-of-service. Continuing this example, the
+intelligent agent may determine the frequency at which the
+production data is updated with respect to the COO digital
+twin, such that the COO digital twin is updated less fre-
+quently in the mornings and mid-afternoons, but is updated
+more frequently at the end of business hours. In embodi-
+ments, the intelligent agent may be configured with business

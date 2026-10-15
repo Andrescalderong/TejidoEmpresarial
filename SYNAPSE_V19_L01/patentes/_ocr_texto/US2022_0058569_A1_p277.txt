@@ -1,0 +1,132 @@
+[col 1]
+US2022/0058569A1
+194
+The cellular network may include mobile devices, cell sites,
+base stations, repeaters, antennas, towers, and the like. The
+cell network may be a GSM, GPRS, 3G, 4G,5G, LTE,
+EVDO, mesh, or other network types.
+[1581] The methods, program codes, and instructions
+described herein and elsewhere may be implemented on or
+through mobile devices. The mobile devices may include
+navigation devices, cell phones, mobile phones, mobile
+personal digital assistants, laptops, palmtops, netbooks, pag-
+ers, electronic book readers, music players and the like.
+These devices may include, apart from other components, a
+storage medium such as flash memory, buffer, RAM, ROM
+and one or more computing devices. The computing devices
+associated with mobile devices may be enabled to execute
+program codes, methods, and instructions stored thereon.
+Alternatively, the mobile devices may be configured to
+execute instructions in collaboration with other devices. The
+mobile devices may communicate with base stations inter-
+faced with servers and configured to execute program codes.
+The mobile devices may communicate on a peer-to-peer
+network, mesh network, or other communications network.
+The program code may be stored on the storage medium
+associated with the server and executed by a computing
+device embedded within the server. The base station may
+include a computing device and a storage medium. The
+storage device may store program codes and instructions
+executed by the computing devices associated with the base
+station.
+[1582]  The computer software, program codes, and/or
+instructions may be stored and/or accessed on machine
+readable media that may include: computer components,
+devices, and recording media that retain digital data used for
+computing for some interval of time; semiconductor storage
+known as random access memory (RAM); mass storage
+typically for more permanent storage, such as optical discs,
+forms of magnetic storage like hard disks, tapes, drums,
+cards and other types; processor registers, cache memory.
+volatile memory, non-volatile memory; optical storage such
+as CD, DVD; removable media such as flash memory (e.g..
+USB sticks or keys), floppy disks, magnetic tape, paper tape,
+punch cards, standalone RAM disks, Zip drives, removable
+mass storage, off-line, and the like; other computer memory
+such as dynamic memory, static memory, read/write storage,
+mutable storage, read only, random access, sequential
+access, location addressable, file addressable, content
+addressable, network attached storage, storage area network,
+bar codes, magnetic ink, network-attached storage, network
+storage, NVME-accessible storage, PCIE connected storage,
+distributed storage, and the like.
+[1583]The methods and systems described herein may
+transform physical and/or intangible items from one state to
+another. The methods and systems described herein may also
+transform data representing physical and/or intangible items
+from one state to another.
+[1584]The elements described and depicted herein,
+including in flow charts and block diagrams throughout the
+figures, imply logical boundaries between the elements.
+However, according to software or hardware engineering
+practices, the depicted elements and the functions thereof
+may be implemented on machines through computer execut-
+able code using a processor capable of executing program
+instructions stored thereon as a monolithic software struc-
+ture, as standalone software modules, or as modules that
+employexternal routines, code, services, and so forth, or any
+[col 2]
+Feb.24,2022
+combination of these, and all such implementations may be
+within the scope of the present disclosure. Examples of such
+machines may include, but may not be limited to, personal
+digital assistants, laptops, personal computers, mobile
+phones, other handheld computing devices, medical equip-
+ment, wired or wireless communication devices, transduc-
+ers, chips, calculators, satellites, tablet PCs, electronic
+books, gadgets, electronic devices, devices, artificial intel-
+ligence, computing devices, networking equipment, servers,
+routers and the like. Furthermore, the elements depicted in
+the flow chart and block diagrams or any other logical
+component may be implemented on a machine capable of
+executing program instructions. Thus, while the foregoing
+drawings and descriptions set forth functional aspects of the
+disclosed systems, no particular arrangement of software for
+implementing these functional aspects should be inferred
+from these descriptions unless explicitly stated or otherwise
+clear from the context. Similarly, it will be appreciated that
+the various steps identified and described above may be
+varied, and that the order of steps may be adapted to
+particular applications of the techniques disclosed herein.
+All such variations and modifications are intended to fall
+within the scope of this disclosure. As such, the depiction
+and/or description of an order for various steps should not be
+understood to require a particular order of execution for
+those steps, unless required by a particular application, or
+explicitly stated or otherwise clear from the context.
+[1585]  The methods and/or processes described above,
+and steps associated therewith, may be realized in hardware,
+software or any combination of hardware and software
+suitable for a particular application. The hardware may
+include a general-purpose computer and/or dedicated com-
+puting device or specific computing device or particular
+aspect or component of a specific computing device. The
+microcontrollers, embedded microcontrollers, program-
+mable digital signal processors or other programmable
+devices, along with internal and/or external memory. The
+processes may also, or instead, be embodied in an applica-
+tion specific integrated circuit, a programmable gate array,
+programmable array logic, or any other device or combina-
+tion of devices that may be configured to process electronic
+signals. It will further be appreciated that one or more of the
+processes may be realized as a computer executable code
+capable of being executed on a machine-readable medium.
+[1586]The computer executable code may be created
+using a structured programming language such as C, an
+object oriented programming language such as C++, or any
+other high-level or low-level programming language (in-
+cluding assembly languages, hardware description lan-
+guages, and database programming languages and technolo-
+gies) that may be stored, compiled or interpreted to run on
+one of the above devices, as well as heterogeneous combi-
+nations of processors, processor architectures, or combina-
+tions of different hardware and software, or any other
+machine capable of executing program instructions. Com-
+puter software may employ virtualization, virtual machines,
+containers, dock facilities, portainers, and other capabilities.
+[1587]  In embodiments, a value chain system that controls
+one or more processes to mitigate waste comprising: a
+machine learning system that trains machine-learned models
+that output waste mitigation decisions based on training data
+sets that each respectively defines one or more features of a
+respective process and an outcome relating to an amount of

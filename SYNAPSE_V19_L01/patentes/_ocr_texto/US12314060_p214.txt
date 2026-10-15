@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+63
+convenience as the adaptive intelligence layer 614. The
+adaptive intelligence systems layer 614 may include a set of
+data processing, artificial intelligence and computational
+systems 634 that are described in more detail elsewhere
+throughout this disclosure. Thus, use of various resources,
+such as computing resources (such as available processing
+cores, available servers, available edge computing
+resources, available on-device resources (for single devices
+or peered networks), and available cloud infrastructure,
+among others), data storage resources (including local stor- 10 
+age on devices, storage resources in or on value chain
+entities or environments (including on-device storage, stor-
+age on asset tags, local area network storage and the like).
+network storage resources, cloud-based storage resources,
+database resources and others), networking resources (in-
+cluding cellular network spectrum, wireless network
+resources, fixed network resources and others), energy
+resources (such as available battery power, available renew-
+able energy, fuel, grid-based power, and many others) and
+others may be optimized in a coordinated or shared way on 20
+behalf of an operator, enterprise, or the like, such as for the
+benefit of multiple applications, programs, workflows, or the
+like. For example, the adaptive intelligence layer 614 may
+manage and provision available network resources for both
+a supply chain management application and for a demand 25
+planning application (among many other possibilities), such
+that low latency resources are used for supply chain man-
+agement application (where rapid decisions may be impor-
+tant) and longer latency resources are used for the demand
+planning application.As described in more detail throughout 3o
+this disclosure and the documents incorporated herein by
+reference, a wide variety of adaptations may be provided on
+behalf of the various services and capabilities across the
+various layers 624, including ones based on application
+requirements, quality of service, on-time delivery, service 35
+objectives, budgets, costs, pricing, risk factors, operational
+objectives, efficiency objectives, optimization parameters,
+returns on investment, profitability, uptime/downtime,
+worker utilization, and many others.
+The value chain management platform 604, referred to in 40
+some cases herein for convenience as the platform 604, may
+include, integrate with, and enable the various value chain
+network processes, workflows, activities, events and appli-
+cations 630 described throughout this disclosure that enable
+ an operator to manage more than one aspect of a value chain 45
+network environmentor entity 652in acommonapplication
+environment (e.g., shared, pooled, similarly licenses
+whether shared data for one person, multiple people, or
+anonymized), such as one that takes advantage of common
+data storage in the data storage layer 624, common data 50
+collection or monitoring in the monitoring systems layer 614
+and/or common adaptive intelligence of the adaptive intel-
+ligence layer 614.Outputs from the applications 630 in the
+platform 604 may be provided to the other data handing
+layers 624. These may include, without limitation, state and 55
+status information for various objects, entities, processes,
+flows and the like, object information, such as identity,
+attribute and parameter information for various classes of
+objects of various data types; event and change information,
+such as for workflows, dynamic systems, processes, proce-
+dures, protocols, algorithms, and other flows, including
+timing information; outcome information, such as indica-
+tions of success and failure, indications of process or mile-
+stone completion, indications of correct or incorrect predic-
+tions, indications of correct or incorrect labeling or 65
+classification, and success metrics (including relating to
+yield, engagement, return on investment, profitability, effi-
+[col 2]
+64
+ciency, timeliness, quality of service, quality of product,
+customer satisfaction, and others) among others. Outputs
+from each application 630 can be stored in the data storage
+layer 624, distributed for processing by the data collection
+layer 614, and used by the adaptive intelligence layer 614.
+The cross-application nature of the platform 604 thus facili-
+tates convenient organization of all of the necessary infra-
+structure elements for adding intelligence to any given
+application, such as by supplying machine learning on
+outcomes across applications, providing enrichment of auto-
+mation of a given application via machine learning based on
+outcomes from other applications or other elements of the
+platform 604, and allowing application developers to focus
+on application-native processes while benefiting from other
+capabilities of the platform 604. In examples, there may be
+systems, components, services and other capabilities that
+optimize control, automation, or one or more performance
+characteristics of one or more value chain network entities
+application outputs and outcomes 1040 pursued by use of
+the platform 604. In some examples, outputs and outcomes
+1040 from various applications 630 may be used to facilitate
+automated learning and improvement of classification, pre-
+diction, or the like that is involved in a step of a process that
+is intended to be automated.
+Some Data Storage Layer DetailsAlternative Data Archi-
+tectures
+Referring to FIG. 12, additional details, components,
+sub-systems, and other elements of an optional embodiment
+of the data storage layer 624 of the platform 604 are
+illustrated. Various data architectures may be used, including
+conventional relational and object-oriented data architec-
+tures, blockchain architectures 1180, asset tag data storage
+architectures 1178, local storage architectures 1190, network
+storage architectures 1174, multi-tenant architectures 1132,
+distributed data architectures 1002, value chain network
+(VCN) data object architectures 1004, cluster-based archi-
+tectures 1128, event data-based architectures 1034, state
+data-based architectures 1140, graph database architectures
+1124, self-organizing architectures 1134, and other data
+architectures 1002.
+The adaptive intelligent systems layer 614 of the platform
+604 may include one or more protocol adaptors 1110 for
+facilitating data storage, retrieval access, query manage-
+ment, loading, extraction, normalization, and/or transforma-
+tion to enable use of the various other data storage archi-
+tectures 1002, such as allowing extraction from one form of
+database and loading to a data system that uses a different
+protocol or data structure.
+In embodiments, the value chain network-oriented data
+storage systems layer 624 may include, without limitation,
+physical storage systems, virtual storage systems, local
+storage systems (e.g., part of the local storage architectures
+1190), distributed storage systems, databases, memory, net-
+work-based storage, network-attached storage systems (e.g.,
+part of the network storage architectures 1174 such as using
+NVME, storage attached networks, and other network stor-
+age systems), and many others.
+In embodiments, the storage layer 624 may store data in
+one or more knowledge graphs (such as a directed acyclic
+graph, a data map, a data hierarchy, a data cluster including
+links and nodes, a self-organizing map, or the like) in the
+graph database architectures 1124. In example embodi-
+ments, the knowledge graph may be a prevalent example of
+when a graph database and graph database architecture may
+be used. In some examples, the knowledge graph may be
+used to graph a workflow. For a linear workflow, a directed

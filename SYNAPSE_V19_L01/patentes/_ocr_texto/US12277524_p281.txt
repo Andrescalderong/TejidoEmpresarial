@@ -1,0 +1,138 @@
+the sensor data being used as training data for the machine 15 for configuring the adaptive intelligence facilities.
+In embodiments, an information technology system 65 network entities includes an Internet of Things monitoring
+[col 1]
+US 12,277,524 B2
+387
+command to the user based on the sensor data, prior mod-
+eling commands, and simulation of the value chain entity.
+In embodiments, an information technology system lever-
+aging digital twins in a value chain having a plurality of
+value chain entities, the information technology system
+comprising: a plurality of sensors positioned in, on, and/or
+near a value chain entity of the value chain entities and
+configured to collect sensor data related to the value chain
+entity, the sensor data being substantially real-time sensor
+data; and an adaptive intelligence system connected to the 10
+plurality of sensors and configured to receive the sensor data
+from the plurality of sensors, the adaptive intelligence
+system including: an artificial intelligence system config-
+ured to input the sensor data into a machine learning model,
+learning model, the machine learning model being config-
+ured to transform the sensor data into simulation data, and
+a digital twin system configured to create a digital replica of
+the value chain entity based on the simulation data, the
+digital replica of the value chain entity providing for sub- 20
+stantially real-time representation of the value chain entity
+and providing for simulation ofa possible future state ofthe
+value chain entity via the simulation data; wherein the
+machine learning model is configured to determine which
+instances of the sensor data to include in transformation into 25
+the simulation data based on training of the machine learn-
+ing model.
+In embodiments, an information technology system lever-
+aging digital twins in a value chain having a plurality of
+value chain entities, the information technology system
+30
+comprising: a plurality of sensors positioned in, on, and/or
+near a value chain entity of the value chain entities and
+configured to collect sensor data related to the value chain
+entity, the sensor data being substantially real-time sensor
+data; and an adaptive intelligence system connected to the 35
+plurality of sensors and configured to receive the sensor data
+from the plurality of sensors, the adaptive intelligence
+system including: an artificial intelligence system config-
+ured to input the sensor data into a machine learning model.
+the sensor data being used as training data for the machine 40
+learning model, the machine learning model being config-
+ured to transform the sensor data into simulation data; and
+a digital twin system configured to create a digital replica of
+the value chain entity based on the simulation data, the
+digital replica of the value chain entity providing for sub- 45
+stantially real-time representation of the value chain entity
+and providing for simulation of a possible future state of the
+value chain entity via the simulation data; wherein the
+machine learning model is configured to provide a plurality
+of sets of hypothetical simulation data to the digital twin 50
+system based on training of the machine learning model, the
+digital twin system being configured to create a set of
+hypothetical digital replicas of the value chain entity, each of
+the hypothetical digital replicas being based on a set of
+hypothetical simulation data and the simulation data; and 55 
+wherein the machine learning model is configured to evalu-
+ate performance of each hypothetical digital replica of the
+set of hypothetical digital replicas, determine which hypo-
+thetical digital replicas perform better than others of the set
+of hypothetical digital replicas, and determine why the 60
+hypothetical digital replicas that perform better than the
+others of the set of hypothetical digital replicas perform
+better than the others of the set of hypothetical digital
+replicas.
+including a cloud-based management platform with a micro-
+services architecture, a set of interfaces, network connec-
+[col 2]
+388
+tivity facilities, adaptive intelligence facilities, data storage
+facilities, and monitoring facilities that are coordinated for
+monitoring and management of a set of value chain network
+entities; a set of applications for enabling an enterprise to
+manage a set of value chain network entities from a point of
+origin to a point of customer use; and a user interface that
+provides a set of unified views for a set of demand man-
+agement information and supply chain information for a
+category ofgoods.
+In embodiments, the user interface includes a voice oper-
+ated assistant. In the embodiments, the user interface
+includes a digital twin for presenting a visual representation
+of a set of attributes of a set of value chain network entities.
+In embodiments, the user interface includes an interface
+In embodiments, the set of interfaces includes a demand
+management interface and a supply chain management
+interface. In embodiments, the set of network connectivity
+facilities for enabling a set of value chain network entities to
+connect to the platform includes a 5G network system
+deployed in a supply chain infrastructure facility operated by
+the enterprise. In embodiments, the set of network connec-
+tivity facilities for enabling a set of value chain network
+entities to connect to the platform includes an Internet of
+Things system deployed in a supply chain infrastructure
+facility operated by the enterprise. In embodiments, the set
+of network connectivity facilities for enabling a set of value
+chain network entities to connect to the platform includes a
+cognitive networking system deployed in a supply chain
+infrastructure facility operated by the enterprise. In embodi-
+ments, the set of network connectivity facilities for enabling
+a set of value chain network entities to connect to the
+platform includes a peer-to-peer network system deployed in
+a supply chain infrastructure facility operated by the enter-
+prise. In embodiments, the set of adaptive intelligence
+facilities for automating a set of capabilities of the platform
+includes an edge intelligence system deployed in a supply
+chain infrastructure facility operated by the enterprise.
+In embodiments, the set of adaptive intelligence facilities
+for automating a set of capabilities of the platform includes
+a robotic process automation system. In embodiments, the
+set of adaptive intelligence facilities for automating a set of
+capabilities of the platform includes a self-configuring data
+collection system deployed in a supply chain infrastructure
+facility operated by the enterprise. In embodiments, the set
+of adaptive intelligence facilities for automating a set of
+capabilities of the platform includes a digital twin system
+representing attributes of value chain network entity con-
+trolled by the enterprise. In embodiments, the set of adaptive
+intelligence facilities for automating a set of capabilities of
+the platform includes a smart contract system for automating
+a set of interactions among a set of value chain network
+entities. In embodiments, the set of data storage facilities for
+storing data collected and handled by the platform uses a
+distributed data architecture. In embodiments, the set of data
+storage facilities for storing data collected and handled by
+the platform uses a blockchain. In embodiments, the set of
+data storage facilities for storing data collected and handled
+by the platform uses a distributed ledger.
+In embodiments, the set of data storage facilities for
+storing data collected and handled by the platform uses
+graph database representing a set of hierarchical relation-
+ships of value chain network entities. In embodiments, the
+set of monitoring facilities for monitoring the value chain
+system. In embodiments, the set of monitoring facilities for
+monitoring the value chain network entities includes a

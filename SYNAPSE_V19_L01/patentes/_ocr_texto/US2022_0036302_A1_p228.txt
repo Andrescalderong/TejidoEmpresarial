@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036302A1
+145
+environment where users can watch and manipulate salient
+features of the simulated environment seeing how the entire
+system responds to specific changes in the environment. For
+example, the digital twin simulation may display how a set
+of objects that are stacked in a container will respond to
+tilting the container, where the behavior of the objects is
+based on a mechanical engineering model and/or an archi-
+tectural model of the stacked objects, including structural
+features, weight distributions, and the like. This may assist
+in assessing the probability and/or impact of various fault
+modes, such as breaking, spilling, or the like, in response to
+seismic events, road conditions, weather conditions, wave
+action, or the like, as well as in simulating the response of
+other objects in the simulated environment, including in a
+chain of events. This may, for example, allow a user to
+identify events and consequences that occur as a result of
+multiple simultaneous or related faults or other events.
+[1160]In embodiments, digital twin behavior models may
+be updated and improved using results of actual experiments
+and real-world events. The use of such digital twin math-
+ematical models and their simulations avoids actual experi-
+mentation, which can be costly and time-consuming.
+Instead, acquired knowledge about behavior of entities and
+computational power are used to diagnose and solve real-
+world problems cheaply and/or in a time-efficient manner.
+As such, the digital twin simulation system 8116 can facili-
+tate understanding a system's behavior without actually
+testing the system in the real world. For example, to deter-
+mine which type of wheel configuration would improve
+traction the most while designing a tractor, a digital twin
+model simulation of the tractor could be used to estimate the
+effect of different wheel configurations on towing capacity.
+Useful insights about different decisions in the design may
+be gleaned without actually building the tractor. In addition,
+the digital twin simulation can support experimentation that
+occurs totally in software, or in human-in-the-loop environ-
+ments where the digital twin represents systems or generates
+data needed to meet experiment objectives. Furthermore,
+digital twin simulations can be used to train persons using a
+perspective-appropriate virtual environment that would oth-
+erwise be difficult or expensive to produce.
+[1161]In embodiments, simulation environments may be
+constructed using models configured to predict a set of
+future states. These models may include deep learning.
+regression models, quantum prediction engines, inference
+engines, pattern recognition engines, and many other forms
+of modelling engines that use historical outcomes, current
+state information, and other inputs to build a future state
+prediction. In some embodiments, a consideration in making
+the digital twin models'function is the ability to also show
+the response of the perspective-based digital twin structural
+elements (e.g-, defining the deformation of the axle of a
+vehicle in response to different size loads). For example, the
+resultant digital twin representation can then be presented to
+the user in a virtual reality or augmented reality environment
+where specific perspectives are shown in their digital twin
+form.
+[1162]In embodiments, digital twins, as described herein,
+may operate in coordination with an adaptive edge comput-
+ing system and/or a set of adaptive edge computing systems
+that provide coordinated edge computation include a wide
+range of systems, such as classification systems (such as
+image classification systems, object type recognition sys-
+tems, and others), video processing systems (such as video
+[col 2]
+Feb.3,2022
+compression systems), signal processing systems (such as
+analog-to-digital transformation systems, digital-to-analog
+transformation systems, RF filtering systems, analog signal
+processing systems, multiplexing systems, statistical signal
+processing systems, signal filtering systems, natural lan-
+guage processing systems, sound processing systems, ultra-
+sound processing systems, and many others), data process-
+ing systems (such as data filtering systems, data integration
+systems, data extraction systems, data loading systems, data
+transformation systems, point cloud processing systems,
+data normalization systems, data cleansing system, data
+deduplication systems, graph-based data storage systems,
+object-oriented data storage systems, and others), predictive
+systems (such as motion prediction systems, output predic-
+tion systems, activity prediction systems, fault prediction
+systems, failure prediction systems, accident prediction sys-
+tems, event predictions systems, event prediction systems,
+and many others), configuration systems (such as protocol
+selection systems, storage configuration systems, peer-to-
+peer network configuration systems, power management
+systems, self-configuration systems, self-healing systems,
+handshake negotiation systems, and others), artificial intel-
+ligence systems (such as clustering systems, variation sys-
+tems, machine learning systems, expert systems, rule-based
+systems, deep learning systems, and many others), system
+management and control systems (such as autonomous
+control systems, robotic control systems, RF spectrum man-
+agement systems, network resource management systems,
+storage management systems, data management systems,
+and others), robotic process automation systems, analytic
+and modeling systems (such as data visualization systems,
+clustering systems, similarity analysis systems, random for-
+est systems, physical modeling systems, interaction model-
+ing systems, simulation systems, and many others), entity
+discovery systems, security systems (such as cybersecurity
+systems, biometric systems, intrusion detection systems,
+firewall systems, and others), rules engine systems, work-
+flow automation systems, opportunity discovery systems,
+testing and diagnostic systems, software image propagation
+systems, virtualization systems, digital twin systems, IoT
+monitoring systems, routing systems, switching systems,
+indoor location systems, geolocation systems, and others.
+[1163] In embodiments, the digital twin notification sys-
+tem 8118 provides notifications to users via enterprise digital
+twins associated with the respective users. In some embodi-
+ments, digital twin notifications are an important part of the
+overall interaction. Digital twin notification system 8118
+may provide the digital twin notifications within the context
+of the digital twin setting so that the perspective view of the
+notification is set up specifically to enable enlightenment of
+how the notification fits into the general digital twin repre-
+sented ontology, taxonomy, topology or the like.
+[1164] As discussed, a digital twin model is based on a
+combination of data and the data's relationship to the digital
+twin environments and/or processes. As such, different digi-
+tal twins may share the same data and different digital twin
+perspectives can be the results of a set of metadata built on
+top of a digital twin data model or data environment. In
+embodiments, the digital twin data model provides the
+details of the information to be stored and it is used to build
+a layered system where the final computer software code is
+able to represent the information in the lower levels in a
+form that is appropriate for the digital twin perspective being
+used. One aspect of the digital twin model is that one digital

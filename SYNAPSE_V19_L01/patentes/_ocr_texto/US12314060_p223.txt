@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+81
+characterize problem states input as training data. These
+factors 3180 may further be used by an instance of artificial
+intelligence 1160t that operates on computing resources
+3170 that are local to value chain network entities that are
+experiencing the problem/result of a pain point. A goal of
+such a configuration of artificial intelligence systems, data
+sets, and value chain networks is to recognize a problem
+state in a portion of the selected value chain.
+In embodiments, recognizing problem states may be
+based on variance analysis, such as variances that occur in 10
+value chain measures (e.g., loading, latency, delivery time,
+cost, and the like), particularly in a specific measure over
+time. Variances that exceed a variance threshold (e.g., an
+optionally dynamic range of results of a value chain opera-
+tion, such as production, shipping, clearing customs, and the 15
+like) may be indicative of a pain point.
+In addition to detecting problem states, the platform 102.
+such as through the methods of semi-sentient problem
+recognition, predict a pain point based at least in part on a
+correlation with a detected problem state. The correlation 20
+may be derived from the value chain, such as a shipper
+cannot deliver international goods until they are processed
+through customs, or a sales forecast cannot be provided with
+a high degree of confidence without high quality field data
+and the like. In embodiments, a predicted pain point may be 25
+an activity that occurs in a related activity (e.g., tax planning
+is related to tax laws), and the like. A predicted pain point
+may be assigned a risk value based on aspects of the detected
+problem state and correlations between the predicted pain 30 s
+point activity and the problem state activity. If a production
+operation can receive materials from two suppliers, a prob-
+lem state with one of the suppliers may indicate a low risk
+of a pain point of use of the material. Likewise, if a demand
+management application indicates high demand for a good 35
+and a problem is detected with information on which the
+demand is based, a risk of excess inventory (pain point) may
+be high depending on, for example how far along in the
+value chain the good has progressed.
+In embodiments, semi-sentient problem recognition may
+involve more than mere linkages of data and operational
+ states of entities engaged in a value chain. Problem recog-
+nition may also be based on human factors, such as per-
+ceived stress of production supervisors, shippers, and the
+like. Human factors for use in semi-sentient problem rec- 45
+ognition may be collected from sensors that facilitate detec-
+tion of human stress level and the like (e.g., wearable
+physiological sensors, and the like).
+In embodiments, semi-sentient problem recognition may
+also be based on unstructured information, such as digital 5o 
+communication, voice messaging, and the like that may be
+shared among, originate with, or be received by humans
+involved in the value chain operations. As an example,
+natural language processing of email communications
+among workers in an enterprise may indicate a degree of 55
+discomfort with, for example, a supplier to a value chain.
+While data associated with the supplier (e.g-, on-time pro-
+duction, quality, and the like) may be within a variance range
+deemed acceptable, information within this unstructured
+content may indicate a potential pain point, such as a 60
+personal issue with a key participant at the supplier and the
+like. By employing natural language processing, artificial
+intelligence, and optionally machine learning, problem state
+recognition may be enhanced.
+In embodiments, semi-sentient problem recognition may 65
+be based on analysis of variances of measures of a value
+chain operation/entity/application including variance of a
+[col 2]
+82
+given measure over time, variance of two related measures,
+and the like. In embodiments, variance in outcomes over
+point. In embodiments, an artificial intelligence-based sys-
+tem may determine an acceptable range of outcome variance
+and apply that range to measures of a select set of value
+chain network entities, such as entities that share one or
+more similarities, to facilitate detection of a problem state.
+In embodiments, an acceptable range of outcome variance
+may indicate a problem state trigger threshold that may be
+used by a local instance of artificial intelligence to signal a
+problem state. In such a scenario, a problem state may be
+detected when at least one measure of the value chain
+activity/entity and the like is greater than the artificial
+intelligence-determined problem state threshold. Variance
+analysis for problem state detection may include detecting
+variances in start/end times of scheduled value chain net-
+work entity activities, variances in at least one of production
+time, production quality, production rate, production start
+time, production resource availability or trends thereof,
+variances in a measure of shipping supply chain entity,
+variances in a duration of time for transfer from one mode
+of transport to another (e.g, when the variance is greater
+than a transport mode problem state threshold), variances in
+quality testing, and the like.
+In embodiments, a semi-sentient problem recognition
+system may include a machine learning/artificial intelli-
+gence prediction of a correlated pain point further along a
+supply chain due to a detected pain point, such as a risk
+and/or need for overtime, expedited shipping, discounting
+goods prices, and the like.
+In embodiments, a machine learning/artificial intelligence
+system may process outcomes, parameters, and data col-
+lected from a set of data sources relating to a set of value
+chain entities and activities to detect at least one pain point
+selected from the list of pain points consisting of late
+shipment, damaged container, damaged goods, wrong
+goods, customs delay, unpaid duties, weather event, dam-
+aged infrastructure,blocked waterway,incompatible infra-
+structure, congested port, congested handling infrastructure,
+congested roadway, congested distribution center, rejected
+goods, returned goods, waste material, wasted energy,
+wasted labor force, untrained workforce, poor customer
+service, empty transport vehicle on return route, excessive
+fuel prices, excessive tariffs, and the like.
+Referring to FIG. 21, a management platform of an
+information technology system, such as a management
+platform for a value chain of goods and/or services is
+depicted as a block diagram of functional elements and
+representative interconnections automated coordination of a
+set of value chain network activities for a set of products of
+an enterprise. The management platform includes a set of
+network-connected value chain network entities 3202 that
+produce activity information 3208 that is used by an artifi-
+cial intelligence system 1160 to provide automate coordi-
+nation 3220 of value chain network activities 3212 for a set
+of products 3210 for an enterprise 3204. In embodiments,
+value chain monitoring systems 614 may monitor activities
+of the set of network-connected value chain entities 3202
+and work cooperatively with data collection and manage-
+ment systems 640 to gather and store value chain entity
+monitored information, such as activity information, con-
+figuration information, and the like. This gathered informa-
+tion may be configured as activity information 3208 for a set
+of activities associated with a set of products 3210 of an
+enterprise 3204. In embodiments, the artificial intelligence

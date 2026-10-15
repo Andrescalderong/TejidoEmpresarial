@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+187
+collected signals and the like) with respect to value chain
+entities 652, as well sharing outputs, events, state informa-
+tion and outputs, which collectively may provide a much
+richer environment for enriching content in a digital twin
+1700, including through use of artificial intelligence 1160
+including any of the various expert systems, artificial intel-
+ligence systems, neural networks, supervised learning sys-
+tems, machine learning systems, deep learning systems, and
+other systems described throughout this disclosure and in the
+documents incorporated by reference and through use of 10
+content collected by the monitoring layer 614 and data
+collection systems 640.
+Referring to FIG. 23, any of the value chain network
+entities 652 can be depicted in a set of one or more digital
+twins 1700, such as by populating the digital twin 1700 with
+value chain network data object 1004, such as event data
+1034, state data 1140, or other data with respect to value
+chain network entities 652, applications 630, or components
+or elements of the platform 604 as described throughout this
+disclosure.
+Thus, the platform 604 may include, integrate, integrate
+with, manage, control, coordinate with, or otherwise handle
+any of a wide variety of digital twins 1700, such as distri-
+bution twins 1714 (such as representing distribution facili-
+ties, assets, objects, workers, or the like); warehousing twins 25
+1712 (such as representing warehouse facilities, assets,
+objects, workers and the like); port infrastructure twins 1714
+(such as representing a seaport, an airport, or other facility,
+as well as assets, objects, workers and the like); shipping
+facility twins 1720; operating facility twins 1172; customer 30
+twins 1730; worker twins 1740; wearable/portable device
+twins 1750; process twins 1760; machine twins 21010 (such
+as for various machines used to support a value chain
+network 668): product twins 1780; point of origin twins
+1502; supplier twins 1630; supply factor twins 1650; mari- 35
+time facility twins 1572; floating asset twins 1570; shipyard
+twins 1620; destination twins 1562; fulfillment twins 1600;
+delivery system twins 1610; demand factor twins 1640;
+retailer twins 1790; ecommerce and online site and operator
+twins 1800;waterwaytwins 1810; roadway twins 1820;40
+railway twins 1830; air facility twins 1840 (such as twins of
+aircraft, runways, airports, hangars, warehouses, air travel
+routes, refueling facilities and other assets, objects, workers
+and the like used in connection with air transport of products
+650); autonomous vehicle twins 1850; robotics twins 1860; 45
+drone twins 1870; and logistics factor twins 1880; among
+others.
+Referring to FIG. 27, additional details of an embodiment
+of the platform 604 are provided, in particular relating to
+elements of the adaptive intelligence layer 614 that facilitate 50
+improved edge intelligence, including the adaptive edge
+compute management system 1400 and the edge intelligence
+system 1420. These elements provide a set of systems that
+adaptively manage "edge" computation, storage and pro-
+cessing, such as by varying storage locations for data and 55 2
+processing locations (e.g., optimized by Al) between on-
+device storage, local systems, peer-to-peer, in the network
+and in the cloud. These elements can enable facilitation of a
+dynamic definition by a user, such as a developer, operator,
+or host of the platform 102, of what constitutes the *edge" 60
+for purposes of a given application anywhere in the world
+and especially in regions of the oceans where connectivity
+can be constrained.For example, for environments where
+data connections are slow or unreliable (such as where a
+facility does not have good access to cellular networks (such 65
+as due to remoteness on the globe), shielding or interference
+(such as where density of network-using systems, thick
+[col 2]
+188
+metals hulls of container ships, thick metal container walls,
+underwater or underground location, or presence of large
+metal objects (such as vaults, hulls, containers, cranes,
+stacked raw materials, and the like,) interferes with network-
+ing performance), and/or congestion (such as where there
+are many devices seeking access to limited networking
+facilities), edge computing capabilities can be defined and
+deployed to operate on the local area network of an envi-
+ronment, in peer-to-peer networks of devices, or on com-
+puting capabilities of local value chain entities 652. Where
+strong data connections are available (such as where good
+backhaul facilities exist), edge computing capabilities can be
+disposed in the network, such as for caching frequently used
+data at locations that improve input/output performance,
+reduce latency, or the like. Thus, adaptive definition and
+specification of where edge computing operations are
+enabled, under control of a developer or operator, or option-
+ally determined automatically among a fleet or deployed in
+2o a geographic region, such as by an expert system or auto-
+mation system that may be based on detected network
+conditions for an environment. In embodiments, edge intel-
+ligence 1420 enables adaptation of edge computation (in-
+cluding where computation occurs within various available
+networking resources, how networking occurs (such as by
+protocol selection), where data storage occurs, and the like)
+that is multi-application aware, such as accounting for QoS,
+latency requirements, congestion, and cost as understood
+and prioritized based on awareness of the requirements, the
+prioritization, and the value of edge computation capabilities
+across more than one application.
+In embodiments, the digital twin system 1700 may host
+floating asset twins 1570 that can be associated with one or
+more of the floating assets 620. By way of these examples,
+one ormore of the floatingasset twins1570can simulate
+how one or more of the floating assets 620 will perform
+without needing to test the one or more of the floating assets
+620 in the real world.Further examples include visualization
+of all systems of the ship, its navigation course, and func-
+tional needs including various details all forms of informa-
+tion on a ship, from engine performance to hull integrity,
+available at a glance throughout the full lifetime of the vessel
+through its floating asset twins 1570.
+In embodiments, use of the floating asset twins 1570
+during operation can be shown to provide beneficial visu-
+alization of any and all important components of the one or
+more the floating assets 620. The use of the floating asset
+twins 1570 during operation can be shown to be beneficial
+to carry out analyses and improve the operation on the
+structural and functional components of the floating assets
+620. In further examples, use of the floating asset twins 1570
+during operation of the one or more of the floating assets 620
+can be used to model in-situ hydrodynamic and aerodynamic
+changes to the structures and hull surfaces of the floating
+assets 620. In embodiments, the floating assets 620 can
+deploy systems to alter the configuration of the cross-
+sections of certain portions of the hull, alter the configura-
+tion of hydrodynamic control surfaces below the water line,
+alter the configuration of aerodynamic control surfaces
+above the waterline, extended additional buoyant members
+from the hull to improve hull stability during certain maneu-
+vers, and the like. In these examples, artificial intelligence
+systems 1160 can study simulated hull configurations
+deployed on the floating asset twins 1570 to determine a
+schedule of hull configuration changes to improve fuel
+efficiency using known routes of travel and historical
+weather patterns.

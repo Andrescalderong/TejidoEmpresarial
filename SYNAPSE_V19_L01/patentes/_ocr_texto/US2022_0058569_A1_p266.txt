@@ -1,0 +1,131 @@
+[col 1]
+US2022/0058569A1
+183
+neural network may have a memory that can coincide with
+a training set. If new data become available, the network
+instantly improves its predictive ability and provides data
+approximation (self-learns) without retraining. Another
+important feature of ASNN is the possibility to interpret
+neural network results by analysis of correlations between
+data cases in the spaceof models.
+[1403] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use an instantaneously trained neural net-
+work ("ITNN"), where the weights of the hidden and the
+output layers are mapped directly from training vector data.
+[1404] In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a spiking neural network, which may
+explicitly consider the timing of inputs. The network input
+and output may be represented as a series of spikes (such as
+a delta function or more complex shapes). SNNs can process
+information in the time domain (e.g., signals that vary over
+time, such as signals involving dynamic behavior of indus-
+trial machines). They are often implemented as recurrent
+networks.
+[1405]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a dynamic neural network that addresses
+nonlinear multivariate behavior and includes learning of
+time-dependent behavior, such as transient phenomena and
+delay effects. Transients may include behavior of shifting
+industrial components, such as variable speeds of rotating
+shafts or other rotating components.
+[1406]In embodiments, cascade correlation may be used
+as an architecture and supervised learning algorithm, supple-
+menting adjustment of the weights in a network of fixed
+topology. Cascade-correlation may begin with a minimal
+network, then automatically trains and adds new hidden
+units one by one, creating a multi-layer structure. Once anew
+hidden unit has been added to the network, its input-side
+weights may be frozen. This unit then becomes a permanent
+feature-detector in the network, available for producing
+outputs or for creating other, more complex feature detec-
+tors. The cascade-correlation architecture may learn quickly,
+determine its own size and topology, and retain the struc-
+tures it has built even if the training set changes and requires
+no back-propagation.
+[1407]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a neuro-fuzzy network, such as involving
+a fuzzy inference system in the body of an artificial neural
+network. Depending on the type, several layers may simu-
+late the processes involved in a fuzzy inference, such as
+fuzzification, inference, aggregation and defuzzification.
+Embedding a fuzzy system in a general structure of a neural
+net as the benefit of using available training methods to find
+the parameters of a fuzzy system.
+[1408]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a compositional pattern-producing net-
+work ("CPPN"), such as a variation of an associative neural
+network ("ANN") that differs the set of activation functions
+and how they are applied. While typical ANNs often contain
+only sigmoid functions (and sometimes Gaussian functions),
+CPPNs can include both types of functions and many others.
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete
+[col 2]
+Feb.24,2022
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+sampled for a particular display at whatever resolution is
+optimal.
+[1409]  This type of network can add new patterns without
+re-training. In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+such as by creating a specific memory structure, which
+assigns each new pattern to an orthogonal plane using
+adjacently connected hierarchical arrays.
+[1410]   In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a hierarchical temporal memory
+("HTM") neural network, such as involving the structural
+and algorithmic properties of the neocortex. HTM may use
+a biomimetic model based on memory-prediction theory.
+HTM may be used to discover and infer the high-level
+causes of observed input patterns and sequences.
+[1411]  In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a holographic associative memory
+("HAM") neural network, which may comprise an analog.
+correlation-based, associative, stimulus-response system.
+Information may be mapped onto the phase orientation of
+complex numbers. The memory is effective for associative
+memory tasks, generalization and pattern recognition with
+changeable attention.
+[1412]  In embodiments, various embodiments involving
+network coding may be used to code transmission data
+among network nodes in neural net, such as where nodes are
+located in one or more data collectors or machines in an
+industrial environment.
+[1413]  In embodiments of the present disclosure, a method
+is provided for configuring role-based digital twins, com-
+more processors, an organizational definition of an enter-
+prise, wherein the organizational definition defines a set of
+roles within the enterprise; generating, by the processing
+system, an organizational digital twin of the enterprise based
+on the organizational definition, wherein the organizational
+digital twin is a digital representation of an organizational
+structure of the enterprise; determining. by the processing
+system, a set of relationships between different roles within
+the set of roles based on the organizational definition;
+determining, by the processing system, a set of settings for
+a role from the set of roles based on the determined set of
+relationships; linking an identity of a respective individual to
+the role; determining, by the processing system, a configu-
+ration of a presentation layer of a role-based digital twin
+corresponding to the role based on the settings of the role
+that is linked to the identity, wherein the configuration ofthe
+presentation layer defines a set of states that is depicted in
+the role-based digital twin associated with the role; deter-
+mining, by the processing system, a set of data sources that
+provide data corresponding to the set of states, wherein each
+data source provides one or more respective types of data;
+and configuring one or more data structures that is received
+from the one or more data sources, wherein the one or more
+data structures are configured to provide data used to popu-
+late one or more of the set of states in the role-based digital
+twin.
+[1414]  In embodiments, an organizational definition may
+further identify a set of physical assets of the enterprise.

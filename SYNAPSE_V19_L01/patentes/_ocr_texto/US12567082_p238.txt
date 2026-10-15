@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+153
+chain network entities 652. The digital twins 1700 may be
+updated continuously to reflect the current condition of the
+value chain network entities 652, based on sensor data, test
+and inspection results, conducted maintenance, modifica-
+tions, etc. The digital twins 1700 may also be configured to
+communicate with a user via multiple communication chan-
+nels, such as speech, text, gestures, and the like. For
+example, a digital twin 1700 may receive queries from a user
+about the value chain network entities 652, generate
+responses for the queries, and communicate such responses 10
+to the user. Additionally or alternatively, digital twins 1700
+may communicate with one another to learn from and
+identify similar operating patterns and issues in other value
+chain network entities 652, as well as steps taken to resolve
+those issues. The digital twins 1700 may be used for 15
+monitoring, diagnostics, simulation, management, remote
+control, and prognostics, such as to optimize the individual
+and collective performance and utilization of value chain
+network entities 652.
+For example, machine twins 21010 may continuously 20
+capture the key operational metrics of the machines 724 and
+may be used to monitor and optimize machine performance
+in real time. Machine twins 21010 may combine sensor,
+performance, and environmental data, including insights
+from similar machines 724, enabling prediction of life span 25
+of various machine components and informed maintenance
+decisions. In embodiments, machine twins 21010 may gen-
+erate an alert or other warning based on a change in
+operating characteristics of the machine 724. The alert may
+be due to an issue with a component of the machine 724. 30 t
+Additionally, machine twins 21010 may determine similar
+issues that have previously occurred with the machine or
+similar machines, provide a description of what caused the
+issues, what was done to address the issues, and explain
+differences between the presentissue and the previous issues 35
+and what actions to take to resolve the issue, etc.
+Similarly, warehousing twins 1712 may combine a 3D
+model of the warehouse with inventory and operational data
+including the size, quantity, location, and demand charac-
+teristics of different products. The warehousing twins 1712 40
+may also collect sensor data in a connected warehouse, as
+well as data on the movement of inventory and personnel
+within the warehouse. Warehousing twins 1712 may help in
+optimizing space utilization and aid in identification and
+elimination of waste in warehouse operations. The simula- 45
+tion using warehousing twins 1712 of the movement of
+products, personnel, and material handling equipment may
+enable warehouse managers to test and evaluate the potential
+ment and new processes. 50
+In embodiments, multiple digital twins of the value chain
+network entities 652 may be integrated, thereby aggregating
+data across the value chain network to drive not only
+entity-level insights but also system-level insights. For
+example, consider a simple value chain network with an 55
+including conveyors, robots, and inspection devices. The
+operating facility digital twin 1172 may need to integrate the
+data from digital twins 1770 of different machines to get a
+holistic picture of the complete conveyor line in the oper-
+ating facility 712 (e.g., a warehouse, distribution center, or
+fulfillment center where packages are moved along a con-
+veyor and inspected before being sent out for delivery.
+While the digital twin of conveyor line may provide insights
+about only its performance, the composite digital twin may 65
+aggregate data across the different machines in the operating
+facility 712. Thus, it may provide an integrated view of
+[col 2]
+154
+individual machines and their interactions with environmen-
+tal factors in the operating facility leading to insights about
+the overall health of the conveyor line within the operating
+facility 712. As another example, the supply factor twins
+1650 and demand factor twins 1640 may be integrated to
+create a holistic picture of demand-supply equilibrium for a
+product 1510. The integration of digital twins also enables
+the querying of multiple value chain network entities 652
+and create a 360-degree view of the value chain network 668
+and its various systems and subsystems.
+It will be apparent that the ability to integrate digital twins
+of the value chain network entities 652 may be used to
+generate a value chain network digital twin system from a
+plurality of digital twin subsystems representing entities
+selected from among supply chain entities, demand man-
+agement entities and value chain network entities. For
+example, a machine digital twin 1770 is comprised of
+multiple digital twins of sub-systems and individual com-
+ponents constituting the machine 724. The machine's digital
+twin may integrate all such component twins and their inputs
+and outputs to build the model of the machine. Also, for
+example, a distribution facility twins system 1714 may be
+comprised of subsystems, such as warehousing twins 1712,
+fulfilment twins 1600 and delivery system twins 1610.
+Similarly, the process digital twin may be seen as com-
+prised of digital twins of multiple sub-processes represent-
+ing entities selected from among supply chain entities,
+demand management entities and value chain network enti-
+ties. For example, the digital twin of a packaging process is
+comprised of digital twins of sub-processes for picking,
+moving, inspecting and packing the product. As another
+example, the digital twin of warehousing process may be
+seen as comprised of digital twins of multiple sub-processes
+including receiving, storing, picking and shipping of stored
+inventories.
+It will be apparent that a value chain network digital twin
+system may be generated from a plurality of digital twin
+subsystems or conversely a digital twin subsystem may be
+generated from a digital twin system, wherein at least one of
+the digital twin subsystem and the digital twin system
+represents entities selected from among supply chain enti-
+ties, demand management entities and value chain network
+entities.
+ Similarly, a value chain network digital twin process may
+be generated from a plurality of digital twin sub-processes or
+conversely digital twin sub-process generated from a digital
+twin process wherein at least one of the digital twin sub-
+process and the digital twin process represents entities
+ selected from among supply chain entities, demand man-
+agement entities and value chain network entities.
+The analytics obtained from digital twins 1700 of the
+value chain network entities 652 and their interactions with
+one another provide a systemic view of the value chain
+network as well as its systems, sub-systems, processes and
+sub-processes. This may help in generating new insights into
+ways the various systems and processes may be evolved to
+improve their performance and efficiency.
+In embodiments, the platform 604 and applications 630
+60 may have a system for generating and updating a self-
+expanding digital twin that represents a set of value chain
+entities. The self-expanding digital twin continuously keeps
+learning and expanding in scope, with more and more data
+it collects and scenarios it encounters. As a result, the
+self-expanding twin can evolve with time and take on more
+complex tasks and answer more complex questions posed by
+a user of the self-expanding digital twin.

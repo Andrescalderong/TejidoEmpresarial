@@ -1,0 +1,137 @@
+lifts, haulers, trucks, loading machines, unloading machines, 45 robots, cobots, robotic systems for assisting human workers,
+[col 1]
+US 12,567,082 B2
+193
+associated with the value chain network management plat-
+form and one or more maritime facilities connected to a
+container ship.
+In embodiments, the asset management application is
+associated with one or more ships connected to barges.
+In embodiments, the maritime value chain network entity
+is one or more ships and the digital twin can provide for
+visualization of a navigation course of one or more of the
+ships. In embodiments, the maritime value chain network
+entity is one or more ships and the digital twin can provide 10
+for visualization of an engine performance of one or more of
+the ships. In embodiments, the maritime value chain net-
+work entity is one or more ships and the digital twin can
+provide for visualization of a hull integrity of one or more
+of the ships. 15
+In embodiments, the digital twin can provide for visual-
+ization of a plurality of inspection points 7730 on the
+maritime value chain network entity and maintenance his-
+tories 7732 associated with those inspection points. In
+embodiments, the digital twin can further providefor the 20
+visualization of the plurality of the inspection points 7730 on
+the maritime value chain network entity within geofenced
+parameters 7740 and maintenance histories 7732 associated
+withthose inspectionpoints 7730.
+In embodiments, the digital twin can further provide for 25s
+details of a ledger 7750 of activity associated with the
+visualization of the plurality ofinspection points 7730 on the
+maritime value chain network entity within geofenced
+parameters 7740 and maintenance histories mardst832 ass0-
+ciated with those inspection points 7730. 301
+Control Tower and Enterprise Management Platform for
+Value Chain Network
+In embodiments, the control tower may include or inter-
+face with an enterprise management platform (or"EMP"). In
+embodiments, an EMP may be configured to generate, 35 
+integrate with, support, and/or or operate on one or more
+digital twins. In general, digital twins merge data from
+multiple data sources into a model and representation of the
+salient characteristics of things, assets, systems, devices,
+machines, components, equipment, facilities, individuals or 40
+other entities mentioned throughout this disclosure or in the
+documents incorporated herein by reference, such as, with-
+out limitation: machines and their components (e.g., deliv-
+ery vehicles, forklifts, conveyors, loading machines, cranes,
+packing machines, picking machines, and many others,
+including robotic systems (e.g., physical robots, collabora-
+tive robots, “cobots"), drones, autonomous vehicles, soft-
+ware bots and many others); value chain processes, such as
+shipping processes, hauling processes,maritime processes,5o
+inspection processes, hauling processes, loading/unloading
+processes, packing/unpacking processes, configuration pro-
+cesses, assembly processes, installation processes, quality
+control processes, environmental control processes (e.g.
+temperature control, humidity control, pressure control, 55 
+vibration control, and others), border control processes,
+port-related processes, software processes (including appli-
+cations, programs, services, and others), packing and load-
+ing processes, financial processes (e.g., insurance processes,
+reporting processes, transactional processes, and many oth- 6o t
+ers), testing and diagnostic processes, security processes,
+safety processes, reporting processes, asset tracking pro-
+cesses, and many others; wearable and portable devices,
+such as mobile phones, tablets, dedicated portable devices
+for value chain applications and processes, data collectors 65
+(including mobile data collectors), sensor-based devices,
+watches, glasses, wearables, head-worn devices, clothing-
+[col 2]
+194
+integrated devices, bands, bracelets, neck-worn devices,
+AR/VR devices, headphones, and many others; workers,
+such as delivery workers, shipping workers, barge workers,
+port workers, dock workers, train workers, ship workers,
+distribution of fulfillment center workers, warehouse work-
+ers, vehicle drivers, business managers, engineers, floor
+managers, demand managers, marketing managers, inven-
+tory managers, supply chain managers, cargo handling
+workers, inspectors, delivery personnel, environmental con-
+trol managers, financial asset managers, process supervisors
+and workers (for any of the processes mentioned herein),
+pliers, such as suppliers of goods and related services of all
+types, component suppliers, ingredient suppliers, materials
+suppliers, manufacturers, and many others; customers,
+including consumers, licensees, businesses, enterprises,
+value added and other resellers, retailers, end users, distribu-
+tors, and others who may purchase, license, or otherwise use
+a category of goods and/or related services; a wide range of
+operating facilities, such as loading and unloading docks,
+storage and warehousing facilities, vaults, distribution facili-
+ties and fulfillment centers, air travel facilities, including
+aircraft, airports, hangars, runways, refueling depots, and the
+like, maritime facilities, such as port infrastructure facilities,
+such as docks, yards, cranes, roll-on/roll-off facilities,
+ramps, containers, container handling systems, waterways,
+locks, and many others), shipyard facilities, floating assets,
+such as ships, barges, boats and others), facilities and other
+items at points of origin and/or points of destination, hauling
+facilities, such as container ships, barges, and other floating
+assets, as well as land-based vehicles and other delivery
+systems used for conveying goods, such as trucks, trains,
+and the like; items or elements factoring in demand (i.e.,
+demand factors), including market factors, events, and many
+others; items or elements factoring in supply (i.e., supply
+factors), including market factors, weather, availability of
+components and materials, and many others; logistics fac-
+tors, such as availability of travel routes, weather, fuel
+prices, regulatory factors, availability of space, such as on a
+vehicle, in a container, in a package, in a warehouse, in a
+fulfillment center, on a shelf, or the like, and many others;
+retailers, including online retailers and others; pathways for
+conveyance, such as waterways, roadways, air travel routes,
+railways and the like; robotic systems, including mobile
+robotic delivery systems, and others; drones, including for
+package delivery, site mapping, monitoring or inspection,
+and the like; autonomous vehicles, such as for package
+delivery; software platforms, such as enterprise resource
+planning platforms, customer relationship management plat-
+forms, sales and marketing platforms, asset management
+platforms, Internet of Things platforms, supply chain man-
+agement platforms,platform-as-a-service platforms, infra-
+structure-as-a-service platforms, software-based data stor-
+age platforms, analytic platforms, artificial intelligence
+platforms, and others; and many others.
+FIG. 68 is a schematic of an example environment of an
+enterprise management platform 8000. In embodiments, the
+EMP 8000 may be integrated with or accessible to a control
+tower via an application programming interface (API). In
+some of these embodiments, the EMP 8000 may be a series
+of microservices that are accessible to the control tower.
+In embodiments, the EMP 8000 includes an enterprise
+configuration system 8002, a digital twin system 8004, a
+collaboration suite 8006, an expert agent system 8008, and
+an intelligence service system 8010. In embodiments, the
+EMP 8000 includes an API system 8014 that facilitates the

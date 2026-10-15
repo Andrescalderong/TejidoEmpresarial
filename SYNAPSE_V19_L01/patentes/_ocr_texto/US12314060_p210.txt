@@ -1,0 +1,134 @@
+[col 1]
+US 12,314,060 B2
+55
+ketplace); a vendor management application 832 (such as,
+without limitation, an application for managing a set of
+vendors or prospective vendors and/or for managing pro-
+curement of a set of goods, components or materials that
+may be supplied in a value chain, such as involving features
+such as vendor qualification, vendor rating, requests for
+proposal, requests for information, bonds or other assur-
+ances of performance, contract management, and others); an
+analytics application 838 (such as, without limitation, an
+analytic application with respect to any of the data types, 10 
+applications, events, workflows, or entities mentioned
+throughout this disclosure or the documents incorporated by
+reference herein, such as a big data application, a user
+behavior application, a prediction application, a classifica-
+tion application, a dashboard, a pattern recognition applica- 15
+tion, an econometric application, a financial yield applica-
+tion, a return on investment application, a scenario planning
+application, a decision support application, a demand pre-
+diction application, a demand planning application, a route
+planning application, a weather prediction application, and 20
+limitation, for pricing of goods, services (including any
+mentioned throughout this disclosure and the documents
+incorporated by reference herein; and a smart contract
+application, solution, or service (referred to collectively 25
+herein as a smart contract application 848, such as, without
+limitation, any of the smart contract types referred to in this
+disclosure or in the documents incorporated herein by ref-
+erence, such as a smart contract for sale of goods, a smart
+contract for an order for goods, a smart contract for a 30
+shipping resource, a smart contract for a worker, a smart
+contract for delivery of goods, a smart contract for instal-
+lation of goods, a smart contract using a token or crypto-
+currency for consideration, a smart contract that vests a
+right, an option, a future, or an interest based on a future 35 
+condition, a smart contract for a security, commodity, future,
+option, derivative, or the like, a smart contract for current or
+future resources, a smart contract that is configured to
+parameter, a smart contract that is configured to execute an 40
+arbitrage transaction, or many others). Thus, the value chain
+management platform 604 may host an enable interaction
+among a wide range of disparate applications 630 (such term
+including the above-referenced and other value chain appli-
+cations, services, solutions, and the like), such that by virtue 45
+of shared microservices, shared data infrastructure, and
+isolated application of the same type.
+Referring still to FIG. 10, the set of applications 614 50 r
+provided on the VCNP 604, integrated with the VCNP 604
+and/or managed by or for the VCNP 604 and/or involving a
+set of value chain network entities 652 may further include,
+without limitation: a payments application 860 (such as for
+calculating payments (including based on situational factors 55
+such as applicable taxes, duties and the like for the geog-
+raphy of an entity 652), transferring funds, resolving pay-
+ments to parties, and the like, for any of the applications 630
+as for managing any of the processes or workflows described
+throughout this disclosure, including supply processes,
+demand processes, logistics processes, delivery processes,
+fulfillment processes, distribution processes, ordering pro-
+cesses, navigation processes, and many others); a compat-
+ibility testing application 864, such as for assessing com- 65
+patibility among value chain network entities 652 or
+activities involved in any of the processes, workflows,
+[col 2]
+56
+activities, or other applications 630 described herein (such
+as for determining compatibility of a container or package
+with a product 1510, the compatibility of a product 1510
+with a set of customer requirements, the compatibility of a
+product 1510 with another product 1510 (such as where one
+is a refill, resupply, replacement part, or the like for the
+other), the compatibility of a infrastructure and equipment
+entities 652 (such as between a container ship or barge and
+a port or waterway, between a container and a storage
+facility, between a truck and a roadway, between a drone or
+robot and a package, between a drone, AV or robot and a
+delivery destination, and many others); an infrastructure
+testing application 802 (such as for testing the capabilities of
+infrastructure elements to support a product 1510 or an
+application 630 (such as, without limitation, storage capa-
+bilities, lifting capabilities, moving capabilities, storage
+capacity, network capabilities, environmental control capa-
+bilities, software capabilities, security capabilities, and
+many others); and/or an incident management application
+910 (such as for managing events, accidents, and other
+incidents that may occur in one or more environments
+involving value chain network entities 652, such as, without
+limitation, vehicle accidents, worker injuries, shutdown inci-
+dents, property damage incidents, product damage incidents,
+product liability incidents, regulatory non-compliance inci-
+dents, health and/or safety incidents, traffic congestion and/
+or delay incidents (including network traffic, data traffic,
+vehicle traffic, maritime traffic, human worker traffic, and
+others, as well as combinations among them), product
+failure incidents, system failure incidents, system perfor-
+mance incidents, fraud incidents, misuse incidents, unau-
+thorized use incidents, and many others).
+Referring still to FIG. 10, the set of applications 614
+provided on the VCNP 604, integrated with the VCNP 604
+and/or managed by or for the VCNP 604 and/or involving a
+set of value chain network entities 652 may further include,
+without limitation: a predictive maintenance application 910
+(such as for anticipating, predicting, and undertaking actions
+to manage faults, failures, shutdowns, damage, required
+maintenance, required repairs, required service, required
+support, or the like for a set of value chain network entities
+652, such as products 650, equipment, infrastructure, build-
+ings, vehicles, and others); a logistics application 912 (such
+as for managing logistics for pickups, deliveries, transfer of
+goods onto hauling facilities, loading, unloading, packing,
+picking, shipping, driving, and other activities involving in
+the scheduling and management of the movement of prod-
+ucts 650 and other items between points of origin and points
+of destination through various intermediate locations; a
+reverse logistic application 914 (such as for handling logis-
+tics for returned products 650, waste products, damaged
+goods, or other items that can be transferred on a return
+logistics path); a waste reduction application 920 (such as
+for reducing packaging waste, solid waste, waste of energy,
+liquid waste, pollution, contaminants, waste of computing
+resources, waste of human resources, or other waste involv-
+ing a value chain network entity 652 or activity); an aug-
+mented reality, mixed reality and/or virtual reality applica-
+tion 930 (such as for visualizing one or more value chain
+160network entities 652 or activities involved in one or more of
+the applications 630, such as, without limitation, movement
+of a product 1510, the interior of a facility, the status or
+condition of an item of goods, one or more environmental
+conditions, a weather condition, a packing configuration for
+a container or a set of containers, or many others); a demand
+prediction application 940 (such as for predicting demand
+for a product 1510, a category of products, a potential

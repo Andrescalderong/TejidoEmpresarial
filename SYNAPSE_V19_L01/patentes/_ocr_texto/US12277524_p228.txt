@@ -1,0 +1,139 @@
+[col 1]
+US 12,277,524 B2
+281
+data collected by the enterprise and/or on behalf of the
+enterprise in the past. This may include sensor data collected
+from the sensor systems of the enterprise, sales data, cost
+data, maintenance data, purchase data, employee hiring data,
+employee on-boarding data, employee retention data, legal-
+related data indicating legal proceedings, patent filing data
+indicating patent filings and issued patents, project manage-
+ment data indicating historical progress of past and current
+projects, product data indicating products that are on the
+market, and the like. Analytics data 8334 may be data 10
+derived by performing one or more analytics processes on
+data collected by and/or on behalf of the enterprise. Simu-
+lation/modeled data 8336 may be any data derived from
+simulation and/or behavior modeling processes that are
+performed with respect to one or more digital twins. CRM 15 
+data 8336 may include data obtained from a CRM of the
+enterprise. An organizational digital twin 8340 may be a
+digital twin of the enterprise. The enterprise data lake 8342
+may be a data lake that includes data collected from any
+number of sources. In embodiments, the market data 8342 20
+may include data that is collected from disparate data
+sources concerning or related to competitors and other
+cohorts in the marketplace and supply chain, Market data
+8342 may be collected from many different sources and may
+be structured or unstructured. In embodiments, market data 25
+8342 may contain an element of uncertainty that may be
+depicted in a digital twin that relies on such market data
+8342, such as by showing error bars, probability cones,
+random walk paths, or the like. It is appreciated that the
+different types of data highlighted above may overlap. For 30
+example: historical data may be obtained from the CRM
+data; the enterprise data lake 8342 may include real-time
+data 8330, historical data 8332, analytics data 8332, simu-
+lated/modeled data 8336, and/or CRM data 8336; and ana-
+lytics data 8334 may be based on historical data 8332, 35 r
+real-time data 8332, CRM data 8336, and/or market data
+8342. Additional or alternative types of data may be used to
+populate an enterprise digital twin.
+In embodiments, the data structuring system 8106 may
+structure the various data collected by and/or on behalf of 40
+the enterprise. In embodiments, the digital twin generation
+system 8108 generates the enterprise digital twins. As dis-
+cussed, the digital twin generation system 8108 may receive
+a request for a particular type of digital twin (e.g., a CEO
+digital twin 8302 or a CTO digital twin 8310) and may 45
+determine the types of data needed to populate the digital
+twin based on the configuration of the requested type of
+digital twin. In embodiments, the digital twin generation
+system 8108 may then generate the requested digital twin
+based on the various types of data (which may include 50
+structured data structured by the data structuring system
+8106). In some embodiments, the digital twin generation
+system 8108 may output the generated digital twin to a client
+application 8052, which may then display the requested
+digital twins. 55
+In embodiments, a CEO digital twin 8302 is a digital twin
+configured for the CEO or analogous top-level decision
+maker of an enterprise. The CEO digital twin 8302 may
+include high-level views of different states and/or operations
+data of the enterprise, including real-time and historical
+representations of major assets, processes, divisions, perfor-
+mance metrics, the condition of different business units of
+the enterprise, and any other mission-critical information
+type. In embodiments, the CEO digital twin 8302 may work
+in connection with the EMP 8000 to provide simulations, 65
+predictions, statistical summaries, decision-support based on
+analytics, machine learning, and/or other AI and learning-
+[col 2]
+282
+type processing of inputs (e.g., fiscal data, competitor data,
+product data, and the like). In embodiments, a CEO digital
+twin 8302 may provide functionality including, but not
+limited to, management of personnel, delegation of tasks,
+decisions, or tasks, coordination with the Board of Directors
+and/or strategic partners, risk management, policy manage-
+ment, oversight of budgets, resource allocation, investments,
+and other executive-related resources.
+In embodiments, the types of data that may be populate a
+CEO digital twin 8302 may include, but are not limited to:
+macroeconomic data, microeconomic analytic data, forecast
+data, demand planning data, employment and salary data,
+analytic results of AI and/or machine learning modeling
+(e.g., financial forecasting), prediction data, recommenda-
+tion data, securities-relevant financial data (e.g., earnings,
+profitability), industry analyst data (e.g., Gartner quadrant),
+strategic competitive data (e.g. news and events regarding
+industry trends and competitors), business performance met-
+rics by business unit that may be relevant to evaluating
+performance of the business units (e.g-, P&L, head count,
+factory health, supply chain metrics, sales metrics, R&D
+metrics, marketing metrics, and many others), Board pack-
+age data, or some other type of data relevant to the opera-
+tions of the CEO and/or executive department. In embodi-
+ments, the digital twin system 8004 may obtain securities-
+relevant financial data from, for example, the enterprise's
+accounting sofiware (e.g., via an API), publicly disclosed
+financial statements, third-party reports, tax filings, and the
+like. In embodiments, the digital twin system 8004 may
+obtain strategic competitive data from public news sources,
+from publicly disclosed financial reports, and the like. In
+embodiments, macroeconomic data may be derived analyti-
+cally from various financial and operational data collected
+by the EMP 8000. In embodiments, the business perfor-
+mance metrics may be derived analytically, based at least in
+part on real time operations data, by the artificial intelligence
+services system 8010 and/or provided from other users
+and/or their respective executive digital twins. The CEO
+digital twin 8302 may be used to define real time operations
+data parameters of interest and to monitor, collect, analyze,
+and interpret real time operations data for conformance to
+and alignment with an organization's stated business
+objects, Board requirements, industry best practice, regula-
+tion, or some other criterion.
+In embodiments, a CEO digital twin 8302 may include
+high-level views of different states of the enterprise, includ-
+ing real-time and historical representations of major assets,
+the condition of different business units of the enterprise,
+and any mission-critical information. The CEO digital twin
+8302 may initially depict the various states at a lower
+granularity level. In embodiments, a user that is viewing the
+CEO digital twin 8302 may select a state to drill down into
+the selected state and view the selected state at a higher level
+of granularity. For example, the CEO digital twin 8302 may
+initially depict a subset of the various states of the enterprise
+at a lower granularity level, including a financial-department
+state (e.g., a visual indicator indicating an overall financial
+health score of the enterprise). In response to selection, the
+CEO digital twin 8302 may provide data, analytics, sum-
+mary, and/or reporting including, but not limited to, real-
+time, historical, aggregated, comparison, and/or forecasted
+financial information (e.g., real-time, historical, simulated,
+and/or forecasted revenues, liabilities, and the like), In this
+way, the CEO digital twin 8302 may initially present the
+user (e.g., the CEO) with a view of various different aspects
+of the enterprise (e.g., different indicators to indicate differ-
+ent "health" levels of a respective business unit or part of the

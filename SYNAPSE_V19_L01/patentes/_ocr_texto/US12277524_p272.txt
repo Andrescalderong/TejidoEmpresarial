@@ -1,0 +1,135 @@
+come data. In embodiments, a value chain system that 55 application outputs to provide the coordinated intelligence.
+[col 1]
+US 12,277,524 B2
+369
+may be configured to process electronic signals. It will
+further be appreciated that one or more of the processes may
+be realized as a computer executable code capable of being
+executed on a machine-readable medium.
+The computer executable code may be created using a
+structured programming language such as C, an object
+oriented programming language such as C++, or any other
+high-level or low-level programming language (including
+assembly languages, hardware description languages, and
+database programming languages and technologies) that 10
+may be stored, compiled or interpreted to run on one of the
+above devices, as well as heterogeneous combinations of
+processors, processor architectures, or combinations of dif-
+ferent hardware and sofiware, or any other machine capable
+of executing program instructions. Computer software may
+employ virtualization, virtual machines, containers, dock
+facilities,portainers,and other capabilities.
+In embodiments, a value chain system that controls one or
+more processes to mitigate waste comprising: a machine 20
+learning system that trains machine-learned models that
+output waste mitigation decisions based on training data sets
+that each respectively defines one or more features of a
+respective process and an outcome relating to an amount of
+25
+artificial intelligence system that receives a request for a
+waste mitigation decision and determines the waste mitiga-
+tion decision based on one or more of the machine-learned
+models and the request; and a digital twin system that
+generates a digital twin of a process that incorporates the 30 c
+waste mitigation decision and executes a simulation based
+on the digital twin. In embodiments, the digital twin system
+outputs a graphical representation of the digital twin to a
+display, whereby a user views the simulation via the display.
+In embodiments,thedigital twin system outputs a graphi- 35
+cal representation of the digital twin in a graphical user
+interface, whereby a user edits the process via the graphical
+user interface.
+In embodiments, the digital twin system outputs a simu-
+lation outcome of the simulation to the machine learning 40
+system and the machine learning system reinforces the one
+or more machine learned models based on the simulation
+outcome. In embodiments, the request received by the
+features ofthe process. In embodiments, the process features 45
+include one or more of: a type of object being the physical
+objects, dimensions of the physical objects, masses of the
+physical objects, and shipping methods of the physical
+objects. In embodiments, a waste mitigation system adjusts
+the process in accordance with the waste mitigation decision 50
+and provides outcome data relating to the waste mitigation
+decision to the machine learning system, and the machine
+learning system reinforces the one or more models that
+provided the waste mitigation decision based on the out-
+controls one or more processes to mitigate wastewater
+resulting from the one or more processes comprising: a
+machine learning system that trains machine-learned models
+that output wastewater mitigation decisions based on train-
+ing data sets that each respectively defines one or more
+features of a respective process that generates wastewater
+and an outcome relating to an amount of wastewater gen-
+erated by the respective process; an artificial intelligence
+system that receives a request for a wastewater mitigation
+decision and determines the wastewater mitigation decision 65
+based on one or more of the machine-learned models and the
+request; and a digital twin system that generates a digital
+[col 2]
+370
+twin ofa process that incorporates the wastewater mitigation
+decision and executes a simulation based on the digital twin.
+In embodiments, an information technology system hav-
+ing a management platform with a user interface that pro-
+vides a set of adaptive intelligence systems that provide
+coordinated intelligence for a set of demand management
+applications and a set of supply chain applications for a
+category of goods.
+In embodiments, coordinated intelligence comprises arti-
+ficial intelligence capabilities.
+In embodiments, the artificial intelligence system facili-
+tates coordinated intelligence for the set of demand man-
+agement applications or the set of supply chain applications,
+or both for a category of goods by processing data that is
+available in any of a plurality of data sources including
+processes, bill of materials, weather, traffic, design specifi-
+cation, customer complaint logs, customer reviews, Enter-
+prise Resource Planning (ERP) System, Customer Relation-
+ship Management (CRM) System, Customer Experience
+Management (CEM) System, Service Lifecycle Manage-
+ment (SLM) System, Product Lifecycle Management (PLM)
+System.
+In embodiments the set of adaptive intelligence systems
+provide user access to artificial intelligence applications for
+coordinating intelligence for the sets of applications. In
+embodiments, the user interface presents a set of artificial
+intelligence systems responsive to the category of goods. In
+embodiments, the user interface facilitates configuring the
+set of adaptive intelligence systems with at least one artifi-
+cial intelligence system.
+In embodiments, the at least one artificial intelligence
+system is a hybrid artificial intelligence system. In embodi-
+ments, the at least one artificial intelligence system com-
+prises a hybrid neural network.
+In embodiments, the set of adaptive intelligence systems
+provides a set of capabilities that facilitate development and
+deployment of intelligence for at least one function selected
+from a list of functions consisting of supply chain applica-
+tion automation, demand management application automa-
+tion, machine learning, artificial intelligence, intelligent
+transactions, intelligent operations, remote control, analyt-
+ics, monitoring, reporting, state management, event man-
+agement, and process management. In embodiments, coor-
+ capabilities that operate on or responsive to data collected by
+or produced by other systems of an adaptive intelligence
+systems layer. In embodiments, the coordinated intelligence
+comprises artificial intelligence capabilities that provide
+coordinated intelligence for a specific operator and/or enter-
+prise that participates in the supply chain for the category of
+goods. In embodiments, the coordinated intelligence
+includes a portion of a set of artificial intelligence systems
+that employs a neural network that processes at least one of
+demand management application outputs and supply chain
+In embodiments, the coordinated intelligence is config-
+ured through the user interface for at least two demand
+management applications selected from the list consisting of
+a demand planning application, a demand prediction appli-
+cation, a sales application, a future demand aggregation
+application, a marketing application, an advertising appli-
+cation, an e-commerce application, a marketing analytics
+application, a customer relationship management applica-
+tion, a search engine optimization application, a sales man-
+agement application, an advertising network application, a
+behavioral tracking application, a marketing analytics appli-
+cation, a location-based product or service-targeting appli-

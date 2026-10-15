@@ -1,0 +1,136 @@
+Referring still to FIG. 10, the set of applications 614 20 compliance with policies and regulations, to ensure safety, to
+[col 1]
+US 12,314,060 B2
+57
+product, and/or a factor involved in demand, such as a
+market factor, a wealth factor, a demographic factor, a
+weather factor, an economic factor, or the like); a demand
+aggregation application 942 (such as for aggregating infor-
+mation, orders and/or commitments (optionally embodied in
+oneormorecontracts,whichmaybesmartcontracts)for
+one or more products 650, categories, or the like, including
+current demand for existing products and future demand for
+application 944 (such as for profiling one or more demo- 10
+graphic, psychographic, behavioral, economic, geographic,
+or other attributes of a set of customers, including based on
+historical purchasing data, loyalty program data, behavioral
+tracking data (including data captured in interactions by a
+customer with a smart product 1510), online clickstream 15
+data, interactions with intelligent agents, and other data
+sources); and/or a component supply application 948 (such
+as for managing a supply chain of components for a set of
+products 650).
+provided on the VCNP 604, integrated with the VCNP 604
+and/or managed by or for the VCNP 604 and/or involving a
+set of value chain network entities 652 may further include,
+without limitation: a policy management application 868
+(such as for deploying one or more policies, rules, or the like 25
+for governance of one or more value chain network entities
+652 or applications 630, such as to govern execution of one
+or more workflows (which may involve configuring polices
+in the platform 604 on a per-workflow basis), to govern
+compliancewithregulations (includingmaritime,foodand 3oi
+drug, medical, environmental, health, safety, tax, financial
+reporting, commercial, and other regulations as described
+throughout this disclosure or as would be understood in the
+art), to govern provisioning of resources (such as connec-
+tivity,computing,human,energy,and otherresources),to 35
+govern compliance with corporate policies, to govern com-
+pliance with contracts (including smart contracts, wherein
+the platform 604 may automatically deploy governance
+features to relevant entities 652 and applications 630, such
+as via connectivity facilities 642), to govern interactions 40
+with other entities (such as involving policies for sharing of
+information and access to resources), to govern data access
+(including privacy data, operational data, status data, and
+many other data types), to govern security access to infra-
+structure, products, equipment, locations, or the like, and 45
+many others; a product configuration application 870 (such
+as for allowing a product manager and/or automated product
+configuration process (optionally using robotic process auto-
+mation) to determine a configuration for a product 1510,
+including configuration on-the-fly, such as during agile 5o 
+manufacturing, or involving configuration or customization
+in route (such as by 3D printing one or more features or
+elements), or involving configuration or customization
+remotely, such as by downloading firmware, configuring
+field programmable gate arrays, installing software, or the 55
+like; a warehousing and fulfillment application 872 (such as
+for managing a warehouse, distribution center, fulfillment
+center, or the like, such as involving selection of products,
+configuring storage locations for products, determining
+routes by which personnel, mobile robots, and the like move 60
+products around a facility, determining picking and packing
+schedules, routes and workflows, managing operations of
+robots, drones, conveyors, and other facilities, determining
+schedules for moving products out to loading docks or the
+like, and many other functions); a kit configuration and 65
+deployment application 874 (such as for enabling a user of
+the VCNP to configure a kit, box, or otherwise pre-inte-
+[col 2]
+58
+grated, pre-provisioned, and/or pre-configured system to
+allow a customer or worker to rapidly deploy a subset of
+capabilities of the VCNP 604 for a specific value chain
+network entity 652 and/or application 630); and/or a product
+testing application 878 for testing a product 1510 (including
+testing for performance, activation of capabilities and fea-
+tures, safety, compliance with policy or regulations, quality.
+quality of service, likelihood of failure, and many other
+factors).
+Referring still to FIG. 10, the set of applications 614
+provided on the VCNP 604, integrated with the VCNP 604
+and/or managed by or for the VCNP 604 and/or involving a
+set of value chain network entities 652 may further include,
+without limitation a maritime fleet management application
+880 (for managing a set of maritime assets, such as container
+ships, barges, boats, and the like, as well as related infra-
+structure facilities such as docks, cranes, ports, and others,
+such as to determine optimal routes for fleet assets based on
+weather, market,trafic, and other conditions,to ensure
+improve environmental factors, to improve financial met-
+rics, and many others); a shipping management application
+882 (such as for managing a set of shipping assets, such as
+trucks, trains, airplanes, and the like, such as to optimize
+financial yield, to improve safety, to reduce energy con-
+sumption, to reduce delays, to mitigate environmental
+impact, and for many other purposes); an opportunity
+matching application 884 (such as for matching one or more
+demand factors with one or more supply factors, for match-
+ing needs and capabilities of value chain network entities
+652, for identifying reverse logistics opportunities, for iden-
+tifying opportunities for inputs to enrich analytics, artificial
+intelligence and/or automation, for identifying cost-saving
+opportunities, for identifying profit and/or arbitrage oppor-
+cation 888 (such as for managing workers in various work
+forces, including work forces in, on or for fulfillment
+centers, ships, ports, warehouses, distribution centers, enter-
+prise management locations, retail stores, online/ecommerce
+site management facilities, ports, ships, boats, barges, trains,
+depots, and other facilities mentioned throughout this dis-
+closure); a distribution and delivery application 890 (such as
+for planning, scheduling, routing, and otherwise managing
+distribution and delivery of products 650 and other items);
+and/or an enterprise resource planning (ERP) application
+892 (such as for planning utilization of enterprise resources,
+including workforce resources, financial resources, energy
+resources, physical assets, digital assets, and other
+resources),
+Core Capabilities and Interactions of the Data Handling
+Layers (Adaptive Intelligence, Monitoring, Data Storage
+and Applications)
+Referring to FIG. 11, a high-level schematic of an
+embodiment of the value chain network management plat-
+form 604 is illustrated, including a set of systems, applica-
+tions, processes, modules, services, layers, devices, compo-
+nents,machines,products,sub-systems,interfaces,
+connections, and other elements working in coordination to
+enable intelligent management of sets of the value chain
+entities 652 that may occur, operate, transact or the like
+within, or own, operate, support or enable, one or more value
+chain network processes, workflows, activities, events and/
+or applications 630 or that may otherwise be part of,
+integrated with, linked to, or operated on by the platform 604
+in connection with a product 1510 (which may be a finished
+good, software product, hardware product, component prod-
+uct, material, item of equipment, consumer packaged good,

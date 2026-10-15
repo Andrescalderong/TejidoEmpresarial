@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+255
+application based on the structural elements of the digital
+twin, the connected systems data sources, and the foreign
+key of the digital twin. In embodiments, the digital twins
+may be role-based digital twin, whereby the views into the
+digital twin that are served to a user occupying a particular
+role within an organization. In this way, each user can
+interact with a respective role-based digital twin and may
+gain appropriate perspectives based on their respective
+needs with respect to an organization. In another embodi-
+ment, a plurality of users can interact with a shared role- 10
+enabled digital twin and may gain appropriate perspectives
+based on their respective needs with respect to an organi-
+zation to that single digital twin. In embodiments, a role-
+based digital twin may allow the user to provide feedback to
+the source systems to allow for controls of the source system 15
+environments, such as corrective actions taken with respect
+to a source system. In some embodiments, a plurality of
+users can make operational changes with a shared role-based
+digital twin and each user sees these changes in an appro-
+priate way for their role. Furthermore if the operational 20
+change involves multiple users, the digital twin can enable
+a role-based workflow management of the depicted envi-
+ronment (e.g-, the CEO may approve an expenditure to
+change machinery as requested by the CTO).
+In embodiments, the digital twin system 8004 may 25 
+receive requests to execute digital twin simulations with
+respect to a digital twin. Requests to perform digital twin
+simulations may be received from digital twin applications
+and/or from internal processes. In embodiments, a digital
+twin simulation allows forthe building ofinteractive models 30
+based on the processes, layouts, and/or spatial representa-
+tions of a digital twin. The digital twin simulations may
+provide the degrees of freedom to allow for the different
+processes to be altered in response to dynamic data inputs.
+For example, a digital twin simulation may be executed to 35
+depict how a bearing can move on a compressor when the
+compressor is operated at different operating conditions or
+how water flows through a systems of pipes model at
+different temperatures or with different amounts of buildup
+in the piping. In embodiments, the digital twin system 8004 40
+may output the results of the simulation, which may, for
+example, depict the impact of the simulation parameters on
+a particular aspect of the digital twin.
+In embodiments, a digital twin application may request
+and depict a digital twin to a user, this digital twin can be a 45
+new twin for that user or role specific access with role
+specific views to an existing or shared digital twin. A digital
+twin application may be provided on mobile applications,
+virtual reality applications, PCs, and the like. In embodi-
+ments, a digital twin application provides a request to the ：50
+digital twin system 8004 for a particular digital twin, where
+the request may include a user identifier of the user and/or
+a role of the user. In embodiments, the digital twin system
+8004 may include or interface with digital twin application
+coordinators that receive requests from digital twin appli- 55
+cations for a digital twin. In embodiments, a digital twin
+application controller maintains and leverages a set of
+business rules for a particular digital twin that are required
+by a digital twin application. In some of these embodiments,
+the set of role-based rules are a set of role-based rules that 60
+control the states that a user can access given their role
+within an organization and a clearance of the user. In these
+embodiments, the digital twin application controller may
+determine whether to grant an instance of a digital twin
+application access to a particular user based on the business 65
+rules and the role of the user. In embodiments, the digital
+[col 2]
+256
+that allows multiple users to connect to the back end of the
+digital twin application coordinator, either directly or
+through a shared digital twin. In embodiments, these con-
+nections may include web services, publish and subscribe
+information buses, simple object access protocols, and/or
+other suitable application interfaces. The application ser-
+vices layer may return a requested digital twin to a request-
+ing instance of a digital twin application, which in turn
+depicts the digital twin to the user. The user may then
+interact with the digital twin via the application to view
+different states of the digital twin, to request simulations, or
+to interact with other users of the same role or different roles
+in the digital twin environment, and the like.
+In an example implementation of the framework dis-
+cussed in FIG. 70, the digital twin system 8004 may be
+configured to generate enterprise digital twins in connection
+with a value chain. For example, an enterprise that produces
+goods internationally (or at multiple facilities) may config-
+ure a set of digital twins, such as supplier twins that depict
+the enterprise's supply chain, factory twins of the various
+production facilities, product twins that represent the prod-
+ucts made by the enterprise, distribution twins that represent
+the enterprise's distribution chains, and other suitable twins.
+In doing so, the enterprise may define the structural elements
+of each respective digital twin as well as any system data
+that corresponds to the structural elements of the digital
+the enterprise may the layout and spatial definitions of the
+facility and any processes that are performed in the facility.
+The enterprise may also define data sources corresponding
+to value chain entities, such as sensor systems, smart manu-
+facturing equipment, inventory systems, logistics systems,
+and the like that provide data relevant to the facility. The
+enterprise may associate the data sources with elements of
+the production facility and/or the processes occurring the
+facility. Similarly, the enterprise may define the structural,
+process, and layout definitions of its supply chain and its
+distribution chain and may connect relevant data sources,
+such as supplier databases, logistics platforms, to generate
+respective distribution chain and supply chain twins. The
+enterprise may further associate these digital twins to have
+a view of its value chain. In embodiments, the digital twin
+system 8004 may perform simulations of the enterprise's
+value chain that incorporate real-time data obtained from the
+various value chain entities of the enterprise. In some of
+these embodiments, the digital twin system 8004 may rec-
+ommend decisions to a user interacting with the enterprise
+digital twins, such as when to order certain parts for manu-
+facturing a certain product given a predicted demand for the
+manufactured product, when to schedule maintenance on
+machinery and/or replace machinery (e.g., when digital
+simulations on the digital twin indicates the demand for
+certain products may be the lowest or when it would have
+the least effect on the enterprise's profits and losses state-
+ment), what time of day to ship items, or the like. The
+foregoing example is a non-limiting example of the manner
+simulations in order to further one or more goals.
+FIG. 71 illustrates examples of different types of enter-
+prise digital twins, including executive digital twins, in
+relation to the data layer, processing layer, and application
+layer of the enterprise digital twin framework. In embodi-
+ments, executive digital twins may include, but are not
+limited to,CEOdigital twins 8302,CFOdigital twins 8304,
+COO digital twins 8306, CMO digital twins 8308, CTO
+digital twins 8310, CIO digital twins 8312, GC digital twins
+8314, HR digital twins 8316, and the like. Additionally, the

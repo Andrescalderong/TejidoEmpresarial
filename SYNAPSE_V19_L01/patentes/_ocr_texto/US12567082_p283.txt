@@ -1,0 +1,138 @@
+sentation tools, word processing tools, spreadsheet tools, 2o equipment is determined to be in a first condition (e.g-, a
+[col 1]
+US 12,567,082 B2
+243
+In embodiments, a COO digital twin 8306 may depict a
+twin of the operations department, which the user may use
+to identify, assign, instruct, oversee and review operations
+department personnel and third-party personnel that are
+associated with the design, implementation and evaluation
+of operational processes, internal infrastructures, reporting
+systems, company policies, and the like.
+In embodiments, the COO digital twin 8306 may include
+a definition of the various roles/employees working under
+the COO, the reporting structure, and associated permis- 10
+sions, for each individual in the business unit, and may be
+populated with the various names and/or other identifiers of
+the individuals flling the respective roles.
+In embodiments, a COO digital twin 8306may be con-
+figured to interface with the collaboration suite 8006 to 15
+ specify and provide a set of collaboration tools that may be
+leveraged by the operations department and associated par-
+ties. The collaboration tools may include video conferencing
+tools, "in-twin" collaboration tools, whiteboard tools, pre-
+and the like, as described herein. Collaboration and com-
+munication rules may be configured based at least in part on
+using the Al reporting tool, as described herein.
+In some of these embodiments, the COO digital twin 8306
+may be configured to simulate operations activities, such as 25
+a proposed new operational plan, process or program. In
+these embodiments, the digital twin simulation system 8116
+may receive a request to perform the simulation requested
+by the COO digital twin 8306, where the request indicates
+features and the parameters of the operational plan or other 301
+activity that is proposed for implementation, the associated
+variables for which may be altered or varied to produce
+differing simulation environments. In response, the digital
+twin simulation system 8116 may return the simulation
+resultstotheCOOdigital twin8306, which inturnoutputs 35
+the results to the user via the client device display. In this
+way, the user is provided with various outcomes correspond-
+ing to different operational parameter configurations. In
+embodiments, an executive agent trained by the user may
+selecttheparameter sets based on thevarious outcomes. 40
+In embodiments, a COO digital twin 8306 may be con-
+figured to store, aggregate, merge, analyze, prepare, report
+and distribute material relating to an operations strategy,
+plan, activity or initiative. For example, the COO digital
+twin 8306 may be associated with a plurality of databases or 45
+other repositories of operational data, summaries and reports
+and analytics, including such materials, summaries and
+reports and analytics related to prior operations activity, each
+of which may be further associated with financial and
+performance metrics pertaining to the activity and which are 50
+also accessible to the COO digital twin 8306.
+In embodiments, a COO digital twin 8306 may be con-
+figured to monitor operational performance, including in
+real time, based at least in part on use of the monitoring
+agent of the client application 8052, as described herein, that 55
+is associated with the COO digital twin 8306. The monitor-
+ing agent may report on such activities to the EMP 8000 for
+presentation in a user interface that is associated with the
+COO digital twin 8306.In response, the EMP 8000 may
+train an executive agent (which may include one or more 60
+machine-learned models) to handle and process such noti-
+fications when they next arrive and escalate and/or alert the
+COO when such notifications are of an urgent nature.
+In embodiments, a COO digital twin 8306 may be con-
+figured to report on the performance of the operations 65
+department, personnel of the operations department, opera-
+tions activities, operations content, operations platforms,
+[col 2]
+244
+operations partners, or some other aspect of management
+within a COO's responsibilities.
+In embodiments, the EMP 100 trains and deploys execu-
+tive agents on behalf of enterprise users. In embodiments, an
+executive agent is an Al-based software system that per-
+forms tasks on behalf of and/or suggests actions to a
+respective executive user. In embodiments, the EMP 100
+receives data from various data sources associated with a
+particular entity or workflow and learns the workflows
+performed by the particular user based on the data and the
+surrounding circumstances or context. For example, the user
+may be a COO that is presented a COO digital twin 8306.
+Among the responsibilities of the COO may be scheduling
+maintenance and replacement of equipment in a manufac-
+turing, warehouse, or other operational facility. The states
+depicted in the COO digital twin 8306 may include depic-
+tions of the condition of different pieces of equipment within
+the operational facility. In this example, the COO may
+schedule maintenance via the digital twin when a piece of
+deteriorating condition) and may issue a request to the COO
+via the COO digital twin 8306 to replace the piece of
+equipment when the equipment is determined to be in a
+second condition (e.g., a critical condition). The executive
+agent may learn the COO's tendencies based on the COO's
+previous interaction with the COO digital twin 8306. Once
+trained, the executive agent may automatically request
+replacements from the COO when a particular piece of
+equipment is determined to be in the second condition and
+may automatically schedule maintenance if the piece of
+equipment is in the first condition.
+In embodiments, the client application 8052 that executes
+the CO0O digital twin 8306 may be configured with an
+executive agent that reports a COO's behaviors and prefer-
+ences (or other operations personnel's behaviors and pref-
+erences) to the executive agent system 8008, as described
+herein, and the executive agent system 8008 may train the
+executive agent on how the COO or other executive per-
+sonnel respond to certain situations and adjust its operation
+based at least in part on the data collection, analysis,
+machine learning and A.I. techniques, as described herein.
+The foregoing examples are optional examples and are not
+intended to limit the scope of the disclosure.
+References to features and functions of the EMP and
+digital twins in this example of an operations department
+and a COO digital twin 8306 should be understood to apply
+to other departments and digital twins, and their respective
+projects and workflows, except where context indicates
+otherwise.
+In embodiments, a Chief Marketing officer (CMO) digital
+twin 8308 may be a digital twin configured for a CMO of an
+enterprise, or an analogous executive tasked with overseeing
+the marketing tasks of the enterprise. A CMO digital twin
+8308 may provide functionality including, but not limited to,
+management of personnel and partners, development and
+oversight of marketing budgets and resources, management
+of marketing and advertising platforms, development and
+management of marketing content, strategies and cam-
+paigns, reporting, competitor analysis, regulatory analysis,
+and management of data privacy and security.
+In embodiments, the types of data that may populate
+and/or be utilized by a CMO digital twin 8308 may include,
+but are not limited to, macroeconomic data; market pricing
+data; competitive product and pricing data; microeconomic
+analytic data; forecast data; demand planning data; competi-
+tive matrix data; product roadmap; product capability data;
+consumer behavior data; consumer profile data; collabora-

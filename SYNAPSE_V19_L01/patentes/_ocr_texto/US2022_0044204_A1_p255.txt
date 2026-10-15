@@ -1,0 +1,133 @@
+[col 1]
+US2022/0044204A1
+172
+the CEO may require the context of third-party alternatives,
+market forces, and current strategic initiatives. In this
+example, the perspective builder 8110 takes these consider-
+ations into account in producing the level of digital twin
+appropriate for the CEO, furthermore this will impact the
+data selection process as different grains of data are appro-
+priate for the different views. These different perspectives
+can be simultaneously interacted with various roles allowing
+the executive to provide their guidance on the same topic
+while seeing and interaction with information relevant to
+their specific needs.
+[1319]At 8522, user notifications are enabled. In embodi-
+ments, notifications within the digital twin are controlled by
+the grain of the data selected and the required perspective.
+For example, a CTO level view requires notifications of
+various technology changes and technology market forces,
+the CTO digital twin is constantly being overlaid with these
+notifications that are structurally associated with the relevant
+part of the digital environment abstract or concrete. For
+example, in an organizational chart the CTO could be seeing
+the implementation options for new technology to provide
+more efficient communication between organizational units
+in strategic planning exercise to acquire a new company.
+Simultaneously the CFO is seeing the financial impacts of
+these various options, and the CEO is being notified of
+decisions that might impact the future market opportunities
+regarding the upcoming company acquisition.
+[1320]The method is provided for example only. Addi-
+tional and/or alternative methods may be performed to
+generate and serve digital twins without departing from the
+scope of the disclosure.
+[1321]The method of FIG. 73 is provided for example and
+not intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+[1322]FIG. 74 illustrates an example set of operations of
+a method 8600 for configuring an organizational digital
+twin. In embodiments, the method may be executed at least
+in part by the digital twin system 8004. It is appreciated that
+the method may be executed by other suitable computing
+systems without departing from the scope of the disclosure.
+[1323]At 8610 an organizational chart of an enterprise is
+determined. In embodiments, a user may upload the orga-
+nizational chart via a GUI displayed to the user. In some
+embodiments, the digital twin system 8004 or a connected
+component may crawl one or more websites (e.g., the
+enterprise website, a social networking website, or the like)
+and may parse the crawled website(s) to determine the
+organizational chart.
+[1324]At 8612, the organizational framework ofthe enter-
+prise is updated based on user input. In embodiments, a user
+may define roles within the enterprise to individuals listed in
+the organizational chart, grant access rights to different roles
+and/or individuals, grant permissions to individuals and/or
+roles,and may define relationships between roles and/or
+individuals. In embodiments, the relationships may repre-
+sent reporting structures, teams, business units, and the like.
+[1325] At 8614, an organizational digital twin of the
+enterprise is generated and deployed. In embodiments, the
+digital twin system 8004 may generate the organizational
+digital twin by connecting data from the enterprise to the
+organizational chart. This may include information relating
+to the individuals, such as birthdate, social security or tax id,
+role, relationships, citizenship, employment status, salary,
+stock holdings, title, current status, goals or targets, and the
+[col 2]
+Feb.10,2022
+like. Once deployed, the organizational chart may be con-
+tinuously updated from one or more enterprise data sources.
+In embodiments, the organizational digital twin may be
+leveraged to determine the roles of individuals within an
+organization and/or the reporting structure of the digital
+twin.
+[1326]  The method ofFIG. 74 is provided for example and
+not intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+[1327]  FIG. 75 illustrates an example set of operations of
+a method 8700 for generating an executive digital twin. In
+embodiments, the method may be executed at least in part by
+the digital twin system 8004. It is appreciated that the
+method may be executed by other suitable computing sys-
+tems without departing from the scope of the disclosure.
+[1328]At 8710, a request for an executive digital twin is
+received from a user. In embodiments, the digital twin
+system 8004 may receive a request for an executive digital
+twin from a user device associated with a user, such as a
+mobile device, a personal computer, a VR device, or the like.
+The request may indicate an identity of the user and/or a role
+of the user.
+[1329]At 8712, a role of the user is determined. In
+embodiments, the digital twin system 8004 may determine
+a role of the user from the request and/or from an organi-
+zational digital twin of an enterprise associated with the user.
+In embodiments, the organizational digital twin may indi-
+cate the role of the user, the permissions of the user, the
+access rights of the user, restrictions of the user, and a
+reporting structure of the user.
+[1330] At 8714, a configuration of the executive digital
+twin is determined based on the role of the user. In embodi-
+ments, the configuration of the executive digital twin indi-
+cates a set of states that re to be depicted in the executive
+digital twin and a granularity of the digital twin. In embodi-
+ments, the configuration of the executive digital twin is
+stored in a configuration file in the digital twin data store
+associated with the enterprise. The configuration file may
+define the initial states of the digital twin and the granulari-
+ties of the states.
+[1331]  At 8716, a digital twin is generated based on one or
+more data sources corresponding to the enterprise. In
+embodiments, the digital twin system 8004 may determine
+the appropriate perspective for the requested digital twin
+based on the configuration of the digital twin and any access
+rights or restrictions of the user. In embodiments, the restric-
+tions may include data restrictions, interaction restrictions,
+depth of data restrictions, usage restrictions, length of vis-
+ibility restrictions, that the user may have. In some embodi-
+ments, generating the requested digital twin may include
+identifying the appropriate data sources for the digital twin
+given the perspective and obtaining any data that initially
+parameterizes the executive digital twin from the data
+sources.
+[1332] At 8718, the executive digital twin is served to a
+user device of the user. In embodiments, the digital twin
+system 8004 may provide a file (e.g., a JSON file) containing
+the executive digital twin data and any data structures or
+visual elements that are needed to depict the executive
+digital twin by the user device. In embodiments, the digital
+twin system 8004 may also stream one or more real-time
+data or near-real time data streams to the user device (e.g.,
+via a data bus), such that the executive digital twin may be
+updated with fresh data as the user interacts with the

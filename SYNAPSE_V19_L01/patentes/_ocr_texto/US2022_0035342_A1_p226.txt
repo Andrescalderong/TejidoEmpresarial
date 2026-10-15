@@ -1,0 +1,132 @@
+[col 1]
+US2022/0035342A1
+143
+manager to a warehouse worker. In embodiments, layers
+may include workflow or process flow layers, such as from
+an overall process to its sub-components and decision
+points, such as an overall assembly process having sub-
+layers of gathering of input materials and components,
+positioning of workers, a series of assembly steps, inspec-
+tion of outputs, and delivery to a post-assembly location.
+[1152] In embodiments, the digital twin perspective
+builder 8110 leverages metadata, artificial intelligence, heu-
+ristic methods, 3D rendering algorithms and/or other data
+processing techniques to produce a definition of information
+required for generation of the digital twin in the digital twin
+generation system 8108. In some embodiments, different
+relevant datasets are hooked to a digital twin (e.g., an
+executive digital twin, an environment digital twin, or the
+like) at the appropriate level of granularity, thereby allowing
+for the structural aspects of the data (e.g., system of
+accounts, sensor readings, sales data, or the like) to be a part
+of the data analytics process. One aspect of making a
+perspective function is that the user can change the structural
+view or the granularity of data while potentially forecasting
+future events or changes to the structure to guide control of
+the area of the business at question. In embodiments, the
+term grain of data" may refer to the base unit of a type of
+data, such as a single line of data, a single aggregated line
+of data, a single byte of data, a single file, a single instance,
+or the like. Examples of "grains of data"may include a
+detailed record on a single sale, a single block in a block-
+chain in a distributed ledger, a single event in an event log.
+a single vibration reading from a vibration sensor, or similar
+singular or atomic data units, and the like. Grain or atomicity
+may impose a constraint in how the data can be combined or
+processed to form different outputs. For example if some
+element of data is captured only at the level of once-per-day,
+gation of days) and cannot be broken down to hours or
+minutes, unless derived from the day representation (e.g..
+using inference techniques and/or statistical models). Simi-
+larly, if data is provided only at the aggregate business unit
+level, it can be broken down to the level of an individual
+employee only by,for example, averaging,modeling,or
+inductive functions. Generally, role-based and other enter-
+prise digital twins may often benefit from finer levels of
+data, as aggregations and other processing steps may pro-
+duce outputs that are dynamic in nature and/or that relate to
+dynamic processes and/or real-time decision-making. It is
+noted that different types of digital twins may have different
+"sized" grains of data. For example, the grains of data that
+feed a CEO digital twin may be at a higher granularity level
+than the grains of data that feed a COO digital twin. In some
+embodiments, however, a CEO may drill down into a state
+of the CEO digital twin and the granularity for the selected
+state may be increased.
+[1153] In embodiments, the perspective builder 8110 adds
+relevant perspective to the data underlying the digital twin,
+which is provided to the digital twin generation system
+8108. In embodiments, “perspective" may refer to the
+adjustments to, aggregations of, simplifications of, and/or
+detail additions to the ontology of a particular digital twin
+(e.g., a role-based digital twin) that provide the appropriate
+ontological view of the underlying data with the correct
+types at the appropriate granularity level. For example, a
+CEO digital twin may link in fuzzy data with markets data
+and depict the potential impacts of market forces on a
+[col 2]
+Feb.3,2022
+simulated digital twin environment for different scenarios.
+In another example, in a CFO level digital twin, the internal
+financial system of accounts may be allocated across the
+physical structure of the digital twin providing an ability to
+understand the relationship between revenue generation,
+cost allocation, and the structural aspects of the business
+(e.g. the layout of a factory floor, a warehouse, a distribution
+center, a logistics facility, an office building, a retail location,
+a container ship, or the like). Continuing this example, the
+CTO digital twin may include data overlays with current
+market information on new technologies and linkages ther-
+ebetween. In this example, the CTO digital twin builds in
+linkages between an impact of changing technology plat-
+forms and outside information that may be used for enhance-
+ment of the facility. These different perspectives generated
+by the perspective builder 8110 combine with the digital
+twin simulation system 8116 to provide relevant simulations
+of how scenario-based future states might be handled by the
+facility, the digital twin simulation system 8116 provides for,
+recommendations on how to enhance the digitally twin
+represented facility structurally to meet the needs of the
+future states, responses to specific changes in the digital twin
+environment or alterations in the information relating to
+digital twin simulate elements. In embodiments, the per-
+spective builder 8110 may build perspectives that depict
+intersections or overlays of operational states and entities
+with information technology states and entities, which may
+facilitate recognition of opportunities and/or problems
+involving the interplay and convergence of information
+technology and operations technology within the operations
+of a wide range of industries and domains. In further
+embodiments, the perspective builder 8110 may build per-
+spectives that allow for different roles to interact with the
+same digital twin while maintaining different perspectives
+on the operational states and entities, which allows for these
+different roles to have a meaningful interaction while main-
+taining their role-specific perspective. In embodiments, the
+perspective builder 8110 builds a perspective for a digital
+twin by providing each different user/role with a respective
+diagrammatic view expressed as in the digital twin where
+that diagram includes information and structure at a level
+relevant to the specific user's role. This user-specific dia-
+gram is then connected to the underlying data to provide for
+the role-based digital twin experience.
+[1154] In embodiments, the digital twin access controller
+8112 informs the generation system 8108 of specific con-
+straints around the roles ofusers able to view the digital twin
+as well as providing for dynamically adjustable digital twins
+that can adapt to constrain or release views of the data or
+other features specific to each user role. For example sen-
+sitive salary data might be obfuscated from most adminis-
+trative employees when viewing an organizational digital
+twin, but the CEO may be granted access to view the salary
+information directly. In embodiments, the digital twin access
+controller 8112 may receive a user identifier and one or more
+data types. In response, the digital twin access controller
+8112 may determine whether the user indicated by the user
+identifier has access to the one more data types or other
+features. In some of these embodiments, the digital twin
+access controller may look up the user in the organizational
+digital twin of the enterprise of the user and may determine
+the user's permissions and restrictions based thereon. Alter-
+natively, the user's permissions and restrictions may be
+indicated in a user database. In embodiments the organiza-

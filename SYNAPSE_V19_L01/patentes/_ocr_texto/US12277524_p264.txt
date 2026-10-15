@@ -1,0 +1,138 @@
+[col 1]
+US 12,277,524 B2
+353
+interactions used to train the artificial intelligence system
+may include interactions of the expert with the network
+entities.
+In embodiments, a set of interactions may be parsed to
+identify a chain of reasoning of the expert worker upon a set
+of information and the chain of reasoning is embodied in the
+configuration of the artificial intelligence system.
+In embodiments, an artificial intelligence system may be
+trained based on the set interactions to determine an action
+selected from: selection of a tool, selection of a task,
+selection of a dimension, setting of a parameter, selection of
+an object, selection of a workflow, triggering of a workflow,
+ordering of a process, ordering of a workflow, cessation of
+a workflow, selection of a data set, selection of a design
+choice, creation of a set of design choices, identification of
+a failure mode, identification of a fault, identification of an
+operating mode, identification of a problem, selection of a
+human resource, selection of a workforce resource, provid-
+ing an instruction to a human resource, and providing an 20
+instruction to a workforce resource.
+In embodiments, a chain of reasoning may be parsed to
+identify a type of reasoning of the expert worker and the type
+of reasoning is used as a basis for configuration of the
+artificial intelligence system. 25
+In embodiments, a chain of reasoning may be a deductive
+chain of reasoning from a set of data.
+In embodiments, a chain of reasoning may be an inductive
+chain of reasoning, a classification chain of reasoning, a
+predictive chain of reasoning, an iterative chain of reason- 30
+ing, a trial-and-error chain of reasoning, a Bayesian chain of
+reasoning, a scientific method chain of reasoning, or some
+other reasoning method or system.
+In embodiments, an artificial intelligence system may be
+trained on a training set to perform an action selected from 35
+among determining an architecture for a system, reporting
+on a status, reporting on an event, reporting on a context,
+reporting on a condition, determining a model, configuring
+a model, populating a model, designing a system, designing
+a process, designing an apparatus, engineering a system, 40
+engineering a device, engineering a process, engineering a
+product, maintaining a system, maintaining a device, main-
+taining a process, maintaining a network, maintaining a
+computational resource, maintaining equipment, maintain-
+ing hardware, repairing a system, repairing a device, repair- 45 s
+ing a process, repairing a network, repairing a computational
+resource, repairing equipment, repairing hardware, assem-
+bling a system, assembling a device, assembling a process,
+ assembling a network, assembling a computational resource,
+assembling equipment, assembling hardware, setting a price, 50 
+physically securing a system, physically securing a device,
+physically securing a process, physically securing a net-
+work, physically securing a computational resource, physi-
+cally securing equipment, physically securing hardware,
+cyber-securing a system, cyber-securing a device, cyber- 55 
+ securing a process, cyber-securing a network, cyber-secur-
+ing a computational resource, cyber-securing equipment,
+cyber-securing hardware, detecting a threat, detecting a
+fault, tuning a system, tuning a device, tuning a process,
+tuning a network, tuning a computational resource, tuning 60
+equipment, tuning hardware, optimizing a system, optimiz-
+ing a device, optimizing a process, optimizing a network,
+optimizing a computational resource, optimizing equipment,
+optimizing hardware, monitoring a system, monitoring a
+device, monitoring a process, monitoring a network, moni- 65
+toring a computational resource, monitoring equipment,
+monitoring hardware, configuring a system, configuring a
+[col 2]
+354
+device, configuring a process, configuring a network, con-
+figuring a computational resource, configuring equipment,
+and configuring hardware.
+In embodiments, a training set of interactions may be
+parsed to identify a type of processing of the expert worker
+upon a set of information and the type of processing is
+embodied in the configuration of the artificial intelligence
+system.
+In embodiments, a type of processing may use visual
+processing of the expert worker and the artificial intelligence
+system is configured to operate on image or video informa-
+tion.
+In embodiments, a type of processing may use audio
+processing of the expert worker and the artificial intelligence
+system may be configured to operate on audio information.
+In embodiments, a type of processing may use touch
+processing of the expert worker and the artificial intelligence
+system may be configured to operate on physical sensor
+information.
+In embodiments, a type of processing may use olfactory
+processing of the expert worker and the artificial intelligence
+system may be configured to operate on chemical sensing
+information.
+In embodiments, a type of processing may use textual
+information processing of the expert worker and the artificial
+intelligence system may be configured to operate on text
+information.
+In embodiments, a type of processing may use motion
+processing of the expert worker and the artificial intelligence
+system may be configured to operate on motion information.
+In embodiments, a type of processing may use taste
+processing of the expert worker and the artificial intelligence
+system may be configured to operate on chemical informa-
+tion.
+In embodiments, a type of processing may use mathemati-
+cal processing of the expert worker and the artificial intel-
+ligence system may be configured to operate mathematically
+on availabledata.
+In embodiments, a type of processing may use executive
+manager processing of the expert worker and the artificial
+intelligence system may be configured to provide executive
+decision support.
+In embodiments, a type of processing may use creative
+processing of the expert worker and the artificial intelligence
+system may be configured to provide a set of alternative
+options.
+In embodiments, a type of processing may use analytic
+processing of the expert worker to select among a set of
+available choices and the artificial intelligence system may
+be configured to provide a recommendation among a set of
+choices.
+In embodiments, an artificial intelligence system may be
+trained on a training set of outcomes.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+In embodiments, an artificial intelligence system may be
+at least one of trained and configured via feedback from the
+specific expert worker regarding a set of outputs of the
+artificial intelligence system.
+In embodiments, a set of outputs of the artificial intelli-
+gence system upon which the expert provides feedback may

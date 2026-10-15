@@ -1,0 +1,135 @@
+series data. Failure datastore 5310 may store failure data 65 learning on a training set of ship maintenance outcomes,
+[col 1]
+US 12,314,060 B2
+163
+In embodiments, artificial intelligence system 1160 may
+use a clustering algorithm to identify the failure pattern
+hidden in the failure data to train a model for detecting
+uncharacteristic or anomalous behavior. The failure data
+across multiple machines and their historical records may be
+clustered to understand how different patterns correlate to
+certain wear-down behavior and develop a maintenance plan
+resonant with the failure.
+In embodiments, artificial intelligence system 1160 may
+output scores for each possible prediction, where each
+prediction corresponds to a possible outcome. For example,
+in using a predictive model used to determine a likelihood
+that a machine will fail in the next one week, the predictive
+model may output a score for a "will fail outcome and a
+score for a “will not fail" outcome. The artificial intelligence
+system 1160 may then select the outcome with the greater
+score as the prediction. Alternatively, the system 1160 may
+output the respective scores to a requesting system. In
+embodiments, the output from system 1160 includes a 20 more fault states.
+probability of the prediction's accuracy.
+FIG. 55 is an example method used by machine twin 1770
+for detecting faults and predicting any future failures of
+machine 724.
+At 5202, a plurality of streams of machine related data 25 t
+from multiple data sources are received at the machine twin
+1770. This includes machine specifications like mechanical
+properties, data from maintenance records, operating data
+collected from the sensors, historical data including failure
+data from multiple machines running at different times and 3o ran to failure.
+under different operating conditions and so on. At 5205, the
+raw data is cleaned by removing any missing or noisy data,
+which may occur due to any technical problems in the
+machine at the time of collection of data. At 5208, one or
+more models are selected for training by machine twin 1770. 35
+The selection of model is based on the kind of data available
+at the machine twin 1770 and the desired outcome of the
+model. For example, there may be cases where failure data
+from machines is not available, or only a limited number of
+failure datasets exist because of regular maintenance being 40
+performed. Classification or regression models may not
+work well for such cases and clustering models may be most
+suitable. As another example, if the desired outcome of the
+model is determining current condition of the machine and
+detecting any faults, then fault detection models may be 45
+selected, whereas if the desired outcome is predicting future
+failures then remaining useful life prediction model may be
+ selected. At 5210, the one or more models are trained using
+training dataset and tested for performance using testing
+dataset. At 5212, the trained model is used for detecting 50 i
+faults and predicting future failure of the machine on pro-
+duction data.
+FIG. 56 is an example embodiment depicting the deploy-
+ment of machine twins 21010 perform predictive mainte-
+nance on machines 724. Machine twin 1770 receives data 55
+from data storage systems 624 on a real-time or near
+real-time basis. The data storage systems 624 may store
+different types of data in different datastores. For example,
+machine datastore 5202 may store data related to machine
+identification and attributes, machine state and event data, 6o f
+data from maintenance records, historical operating data,
+notes from machine operator, etc. Sensor datastore 5204
+may store sensor data from operation such as temperature,
+pressure, and vibration that may be stored as signal or time
+from machine 724 or similar machines running at different
+times and under different operating conditions. Model data-
+[col 2]
+164
+store 5312 may store data related to different predictive
+models including fault detection and remaining life predic-
+tion models.
+Machine twin 1770 then coordinates with artificial intel-
+ligence system to select one or more of models based on the
+kind and quality of available data and the desired answers or
+outcomes. For example, physical models 5320 may be
+selected if the intended use of machine twin 1770 is to
+simulate what-if scenarios and predict how the machine will
+behave under such scenarios. Fault Detection and Diagnos-
+tics Models 5322 may be selected to determine the current
+health of the machine and any fault conditions. A simple
+fault detection model may use one or more condition indi-
+cators to distinguish between regular and faulty behaviors
+and may have a threshold value for the condition indicator
+that is indicative of a fault condition when exceeded. Amore
+complex model may train a classifier to compare the value
+of one or more condition indicators to values associated with
+fault states and returns the probability of presence of one or
+Remaining Useful Life (RUL) Prediction models 5324 are
+used for predicting future failures and may include degra-
+dation models 5326, survival models 5328 and similarity
+models 5330. An example RUL prediction model may fit the
+time evolution of a condition indicator and predicts how
+long it will be before the condition indicator crosses some
+threshold value indicative of a failure. Another model may
+compare the time evolution of the condition indicator to
+measured or simulated time series from similar systems that
+In embodiments, a combination of one or more of these
+models may be selected by the machine twin 1770.
+Artificial Intelligence system 1160 may include machine
+learning processes 5340, clustering processes 5342, analyt-
+ics processes 5344 and natural language processes 5348.
+Machine learning processes 5340 work with machine twin
+1770 to train one or more models as identified above. An
+example of such machine learned model is the RUL predic-
+tion model 5324. The model 5324 may be trained using
+training dataset 5350 from the Data Storage Systems 624.
+The performance of the model 5324 and classifier may then
+be tested using testing dataset 5350.
+Clustering processes 5342 may be implemented to iden-
+tify the failure pattern hidden in the failure data to train a
+model for detecting uncharacteristic or anomalous behavior.
+The failure data across multiple machines and their histori-
+cal records may be clustered to understand how different
+patterns correlate to certain wear-down behavior. Analytics
+processes 5344 perform data analytics on various data to
+identify insights and predict outcomes. Natural language
+processes 4348 coordinate with machine twin 1770 to com-
+municate the outcomes and results to the user of machine
+twin 1770.
+The outcomes 5360 may be in the form of modeling
+results 5362, alerts and warnings 5364 or remaining useful
+life (RUL)predictions 5368.Machine twin 1770 may com-
+municatewitha uservia multiple communication channels
+such as speech, text, gestures to convey outcomes 5360.
+In embodiments, models may then be updated or rein-
+forced based on themodel outcomes 5360.For example, the
+artificial intelligence system may receive a set of circum-
+stances that led to a prediction of failure and the outcome
+and may update the model based on the feedback.
+In embodiments, the platform may include a system for
+parameters, and data collected from data sources relating to
+a set of ship activities to train an artificial intelligence/

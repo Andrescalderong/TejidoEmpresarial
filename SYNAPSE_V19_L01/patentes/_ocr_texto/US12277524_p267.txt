@@ -1,0 +1,137 @@
+[col 1]
+US 12,277,524 B2
+359
+In embodiments, a set of outputs of the artificial intelli-
+gence system upon which the workforce members provide
+feedback may include at least one of a recommendation, a
+classification, a prediction, a control instruction, an input
+selection, a protocol selection, a communication, an alert, a
+target selection for a communication, a data storage selec-
+tion, a computational selection, a configuration, an event
+detection, and a forecast.
+In embodiments, a feedback of the workforce members
+may be solicited to train the artificial intelligence system to 10
+replicate the operation of the workforce in the defined set of
+roles.
+In embodiments, a feedback of the workforce members
+may be used to modify the set of inputs to the artificial
+intelligence system. 15
+In embodiments, a feedback of the workforce members
+may be used to identify and characterize at least one error by
+the artificial intelligence system.
+In embodiments, a report on a set of errors may be
+provided to a manager of the artificial intelligence system to 20
+enable reconfiguring of the artificial intelligence system
+based on the feedback.
+In embodiments, reconfiguring the artificial intelligence
+system may include at least one of removing an input that is
+the source of the error, reconfiguring a set of nodes of the 25
+artificial intelligence system, reconfiguring a set of weights
+of the artificial intelligence system, reconfiguring a set of
+outputs of the artificial intelligence system, reconfiguring a
+processing flow within the artificial intelligence system, and
+augmenting the set of inputs to the artificial intelligence 30 c
+system.
+In embodiments, an artificial intelligence system may be
+configured to provide at least one of training and guidance
+to enable the other worker to perform a role within the
+defined set of roles of the workforce.
+In embodiments, an artificial intelligence system may
+learn on a training set of outcomes to enhance the training
+and guidance.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production 45
+outcome.
+In embodiments, an artificial intelligence system may be
+trained to perform an action selected from among determin-
+ing an architecture for a system, reporting on a status,
+condition, determining a model, configuring a model, popu-
+lating a model, designing a system, designing a process,
+designing an apparatus, engineering a system, engineering a
+device, engineering a process, engineering a product, main-
+taining a system, maintaining a device, maintaining a pro- 55
+cess, maintaining a network, maintaining a computational
+resource, maintaining equipment, maintaining hardware,
+repairing a system, repairing a device, repairing a process,
+repairing a network, repairing a computational resource,
+repairing equipment, repairing hardware, assembling a sys-
+tem, assembling a device, assembling a process, assembling
+a network, assembling a computational resource, assembling
+equipment, assembling hardware, setting a price, physically
+securing a system, physically securing a device, physically
+securing a process, physically securing a network, physi- 65
+cally securing a computational resource, physically securing
+equipment, physically securing hardware, cyber-securing a
+[col 2]
+360
+system, cyber-securing a device, cyber-securing a process,
+cyber-securing a network, cyber-securing a computational
+resource, cyber-securing equipment, cyber-securing hard-
+ware, detecting a threat, detecting a fault, tuning a system,
+tuning a device, tuning a process, tuning a network, tuning
+a computational resource, tuning equipment, tuning hard-
+ware, optimizing a system, optimizing a device, optimizing
+a process, optimizing a network, optimizing a computational
+resource, optimizing equipment, optimizing hardware,
+monitoring a system, monitoring a device, monitoring a
+process, monitoring a network, monitoring a computational
+resource, monitoring equipment, monitoring hardware, con-
+figuring a system, configuring a device, configuring a pro-
+cess, configuring a network, configuring a computational
+resource, configuring equipment, and configuring hardware.
+In embodiments, an artificial intelligence system may be
+configured to provide at least one of training and guidance
+to the workforce to enable the workforce to perform the
+defined role.
+In embodiments, an artificial intelligence system may
+learn on a training set of outcomes to enhance the training
+and guidance.
+In embodiments, a training set of outcomes may include.
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome
+In embodiments, outcomes may be compared between a
+set of actions of the workforce and a set of outputs of the
+artificial intelligence system, wherein the comparison is
+35 used to train the workforce and/or is used to improve the
+artificial intelligence system.
+In embodiments, at least one role within the set of roles
+of the workforce may be selected from among a CEO role,
+a COO role, a CFO role, a counsel role, a board member
+role, a CTO role, an information technology manager role,
+a chief information officer role, a chief data officer role, an
+investor role, an engineering manager role, a project man-
+ager role, an operations manager role, and a business devel-
+opment role.
+In embodiments, a workforce may be a factory operations
+workforce, a plant operations workforce, a resource extrac-
+tion operations workforce, a network operations workforce
+responsible for operating a network for an industrial pro-
+duction environment, a supply chain management work-
+force, a demand planning workforce, a logistics planning
+workforce, a vendor management workforce, or some other
+kind of workforce.
+In embodiments, a workforce may be a brokering work-
+force for a marketplace, a trading workforce for a market-
+place, a trade reconciliation workforce for a marketplace, a
+transactional execution workforce for a marketplace, or
+some other kind of workforce.
+In embodiments, computational entities and the network
+entities may be integrated as a converged computational and
+network entity.
+In embodiments of the present disclosure, a method is
+provided for configuring a digital twin of a workforce,
+comprising: representing an enterprise organizational struc-
+ture in a digital twin of an enterprise; parsing the structure
+to infer relationships among a set of roles within the orga-
+nizational structure, the relationships and the roles defining
+a workforce of the enterprise; and configuring the presen-

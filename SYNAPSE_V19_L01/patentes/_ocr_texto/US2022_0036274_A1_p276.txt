@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036274A1
+193
+type of processor. The processor may be or may include a
+signal processor, digital processor, data processor, embed-
+ded processor, microprocessor or any variant such as a
+co-processor (math co-processor, graphic co-processor,
+communication co-processor, video co-processor, Al co-
+processor, and the like) and the like that may directly or
+indirectly facilitate execution of program code or program
+instructions stored thereon. In addition, the processor may
+enable execution of multiple programs, threads, and codes.
+The threads may be executed simultaneously to enhance the
+performance of the processor and to facilitate simultaneous
+operations of the application.By way of implementation,
+methods, program codes, program instructions and the like
+described herein may be implemented in one or more
+threads. The thread may spawn other threads that may have
+assigned priorities associated with them; the processor may
+execute these threads based on priority or any other order
+based on instructions provided in the program code. The
+processor, or any machine utilizing one, may include non-
+transitory memory that stores methods, codes, instructions
+and programs as described herein and elsewhere. The pro-
+cessor may access a non-transitory storage medium through
+an interface that may store methods, codes, and instructions
+as described herein and elsewhere. The storage medium
+associated with the processor for storing methods, programs,
+codes, program instructions or other type of instructions
+capable of being executed by the computing or processing
+device may include but may not be limited to one or more
+of a CD-ROM, DVD, memory, hard disk, flash drive, RAM,
+ROM, cache, network-attached storage, server-based stor-
+age, and the like.
+[1578]A processor may include one or more cores that
+may enhance speed and performance of a multiprocessor. In
+embodiments, the process may be a dual core processor,
+quad core processors, other chip-level multiprocessor and
+the like that combine two or more independent cores (some-
+times called a die).
+[1579] The methods and systems described herein may be
+deployed in part or in whole through a machine that executes
+computer software on a server, client, firewall, gateway, hub,
+router, switch, infrastructure-as-a-service, platform-as-a-ser-
+vice, or other such computer and/or networking hardware or
+system. The sofiware may be associated with a server that
+may include a file server, print server, domain server,
+internet server, intranet server, cloud server, infrastructure-
+as-a-service server, platform-as-a-service server, web server,
+and other variants such as secondary server, host server,
+distributed server, failover server, backup server, server
+farm, and the like. The server may include one or more of
+memories, processors, computer readable media, storage
+media, ports (physical and virtual), communication devices,
+and interfaces capable of accessing other servers, clients.
+machines, and devices through a wired or a wireless
+medium, and the like. The methods, programs, or codes as
+described herein and elsewhere may be executed by the
+server. In addition, other devices required for execution of
+methods as described in this application may be considered
+as a part of the infrastructure associated with the server.
+[1580] The server may provide an interface to other
+devices including, without limitation, clients, other servers,
+printers, database servers, print servers, file servers, com-
+munication servers, distributed servers, social networks, and
+the like.Additionally, this coupling and/or connection may
+facilitate remote execution of programs across the network.
+[col 2]
+Feb.3,2022
+The networking of some or all of these devices may facilitate
+parallel processing of a program or method at one or more
+locations without deviating from the scope of the disclosure.
+In addition, any of the devices attached to the server through
+an interface may include at least one storage medium
+capable of storing methods, programs, code and/or instruc-
+tions. A central repository may provide program instructions
+to be executed on different devices. In this implementation,
+the remote repository may act as a storage medium for
+program code, instructions, and programs.
+[1581] , The software program may be associated with a
+client that may include a file client, print client, domain
+client, internet client, intranet client and other variants such
+as secondary client, host client, distributed client and the
+like. The client may include one or more of memories,
+processors, computer readable media, storage media, ports
+(physical and virtual), communication devices, and inter-
+faces capable of accessing other clients, servers, machines,
+and devices through a wired or a wireless medium, and the
+like. The methods, programs, or codes as described herein
+and elsewhere may be executed by the client. In addition,
+other devices required for the execution of methods as
+described in this application may be considered as a part of
+the infrastructure associated with the client.
+[1582]  The client may provide an interface to other
+devices including, without limitation, servers, other clients,
+printers, database servers, print servers, file servers, com-
+munication servers, distributed servers and the like. Addi-
+tionally, this coupling and/or connection may facilitate
+remote execution of programs across the network. The
+networking of some or all of these devices may facilitate
+parallel processing of a program or method at one or more
+locations without deviating from the scope of the disclosure.
+In addition, any of the devices attached to the client through
+an interface may include at least one storage medium
+capable of storing methods, programs, applications, code
+and/or instructions. A central repository may provide pro-
+gram instructions to be executed on different devices. In this
+implementation, the remote repository may act as a storage
+medium for program code, instructions, and programs.
+[1583]  The methods and systems described herein may be
+deployed in part or in whole through network infrastruc-
+tures. The network infrastructure may include elements such
+as computing devices, servers, routers, hubs, firewalls, cli-
+ents, personal computers, communication devices, routing
+devices and other active and passive devices, modules
+and/or components as known in the art. The computing
+and/or non-computing device(s) associated with the network
+infrastructure may include, apart from other components, a
+storage medium such as flash memory, buffer, stack, RAM,
+ROM and the like. The processes, methods, program codes,
+instructions described herein and elsewhere may be
+executed by one or more of the network infrastructural
+elements. The methods and systems described herein may be
+adapted for use with any kind of private, community, or
+hybrid cloud computing network or cloud computing envi-
+ronment, including those which involve features of software
+as a service (SaaS), platform as a service (PaaS), and/or
+infrastructure as a service (laaS).
+[1584] The methods, program codes, and instructions
+described herein and elsewhere may be implemented on a
+cellular network with multiple cells. The cellular network
+may either be frequency division multiple access (FDMA)
+network or code division multiple access (CDMA) network.

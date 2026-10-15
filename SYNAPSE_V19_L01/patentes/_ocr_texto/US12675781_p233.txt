@@ -1,0 +1,138 @@
+the digital twin that conforms with real-word conditions and 45 inferred by the artificial intelligence system. In embodi-
+[col 1]
+US 12,675,781 B2
+215
+ity, the wearable device may communicate the relative
+location of the worker within the environment to the EMP,
+which in turn may update the digital twin to reflect the
+location of a representation of the worker in the digital twin
+of the facility. In scenarios where the digital twin is of a
+process, the digital twin may depict the process. For
+example, in the context of a manufacturing process, a digital
+twin of the process may depict the status and/or outcomes of
+different stages in the manufacturing pipeline. In some
+implementations, theEMP 80 may receive data from various10
+sources (e.g, IoT sensors, data from smart equipment,
+computing devices, smart products, smart infrastructure, or
+the like) and may update the digital twin of the process to
+reflect the received data. The EMP may be configured to
+generate, update, and/or provide enterprise digital twins for 15
+different types of enterprises, including manufacturing
+enterprises, retail and marketing enterprises (merchants,
+advertisers, retail chains, restaurant chains, malls, and the
+like), technology enterprises (e.g-, software, database and
+information technology companies), logistics enterprises 20
+(e.g., shipping and delivery entities), service-based enter-
+prises (e.g., airlines, law firms, hospitals, accounting firms,
+and the like)and many others. For example, enterprise
+digital twins of a fast food enterprise may include digital
+twins of food production facilities, food production pro- 25
+cesses, food shipping facilities (e.g., warehouses and/or
+trucks), retail locations (e.g, individual restaurant loca-
+tions), and/or retail processes (e.g-, food preparation pro-
+cesses and/or customer workflows). In this example, these
+digital twins may identify the sources of contaminations 30
+(e.g., based on abnormal temperature readings in a food
+production facility), delays (e.g., based on outcomes of the
+production and/or shipping processes), customer satisfaction
+(e.g., based on data related to food preparation and/or
+customer workflows), and the like. 35
+In embodiments, the EMP may be configured to perform
+simulations using and/or with respect to one or more enter-
+prise digital twins. In embodiments, digital twins (including
+enterprise digital twins) may be configured to behave in
+accordancewithasetof constraints, such as laws of nature, 40
+laws of physics, mechanical properties, material properties,
+economic principals, chemical properties, and the like. In
+this way, the EMP may vary one or more parameters of an
+enterprise digital twin and may execute a simulation within
+behaviors. For example, in executing a simulation of a
+logistics process that simulates outcomes associated with
+different packaging materials, the EMP may simulate varia-
+tion of the packaging materials of one or more products.
+During the simulation, the products may be "exposed" to 50
+different conditions (e.g-, different temperatures, humidity,
+motions, and the like) by varying one or more parameters of
+an environment digital twin of an environment of the
+products, a product digital twin of the product, and/or the
+logistics digital twin. The simulation may be executed to 55
+determine the fraction of products that are likely to be
+damaged using the different packaging materials, which may
+affect the profitability of shipments vis-a-vis the cost of the
+different packaging materials and cost of replacing damaged
+products. In this way, the simulation may be run to help
+ select the most cost-effective packaging material, such that
+estimated product loss is taken into account. Furthermore, in
+some embodiments, digital twins may be leveraged to per-
+form simulations to predict future states of the thing or group
+of things and/or modeling behaviors in order to extrapolate 65
+states of the thing or group of things; to represent results of
+such simulations (including states, event and flows); and to
+[col 2]
+216
+offer opportunities to control things that are represented in
+the digital twins based on the simulations. For example, the
+EMP may receive sensor readings from temperature sensors,
+humidity sensors, and fan speed sensors deployed through-
+out an environment. The EMP may apply one or more
+thermodynamics equations to the received sensor readings
+and the dimensions of the environment to model the ther-
+modynamic behavior of the environment to determine, to
+represent in the digital twin the temperatures in areas that do
+not have temperature sensors and to offer opportunities to
+adjust one or more systems, such as HVAC systems, or
+components thereof, to induce a change in the environment.
+In some embodiments, the EMP is configured to generate
+organizational digital twins. In some embodiments, an orga-
+nizational digital twin incorporates the organization chart
+("org chart') of an enterprise. In embodiments, an org chart
+may define the different divisions (also referred to as busi-
+ness units) within an enterprise, the roles within each
+division, the reporting structure of the enterprise, and the
+individuals filling these roles. In embodiments, the organi-
+zational digital twin may further include additional data for
+the business units, roles, and/or individuals filling the roles.
+For example, the organizational digital twin may include
+budgets for each business unit, salary ranges for roles, titles
+for roles, salaries for individuals, open roles, start dates for
+individuals, and the like. In some embodiments, an organi-
+zational digital twin may further incorporate data access
+rules for different divisions and/or roles within the organi-
+zation, including permissions, access rights, and restrictions.
+In some embodiments an organizational digital twin may
+represent the organization as a hierarchy or other topology,
+where entities and relationships are represented, such as
+reporting relationships, relationships of authority or deci-
+sion-making, or the like. In embodiments, the organizational
+structure may be represented and maintained in a graph
+structure, such as a directed acyclic graph, a tree, or the like.
+In embodiments, an organizational structure, such as an
+organizational chart or graph, may be parsed by an artificial
+intelligence system to automatically infer a set of entities,
+relationships, and roles, which in turn may be used to
+determine, or recommend, a set of default parameters for
+configuration of a digital twin. In embodiments, the default
+parameters may be automatically configured for each user
+based on a role of the user within the organization, as
+ments parameters may be adjusted by one or more autho-
+rized users, such as to adjust or correct the roles, using a
+digital twin configuration interface of the organizational
+digital twin. The parameters for configuration of a role-
+specific digital twin may include permissions (such as for
+data access), communication settings, availability of fea-
+tures (such as role-specific views of data and analytics,
+simulation features, control features, and many other fea-
+tures described throughout this disclosure), and the like. In
+embodiments, the artificial intelligence services system may
+incorporate any of the techniques described throughout this
+disclosure or the documents incorporated by reference, such
+as a machine learning, deep learning, convolutional neural
+networks, robotic process automation, or the like. In
+embodiments, the artificial intelligence system may include
+a machine learning system that is trained to infer roles within
+an organizational chart or structure based on a training set of
+data, such as one where roles and relationships within an
+organizational chart are provided by a set of human experts
+and/or where roles and relationships are explicitly stated
+within the organizational chart. For example, the artificial
+intelligence system may learn that the top of the organiza-

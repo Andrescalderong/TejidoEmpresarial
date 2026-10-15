@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+185
+Referring to FIG. 26, a set of opportunity miners 1460
+may be provided as part of the adaptive intelligence layer
+614, which may be configured to seek and recommend
+opportunities to improve one or more of the elements of the
+platform 604, such as via addition of artificial intelligence
+1160, automation (including robotic process automation
+1402), or the like to one or more of the maritime facilities
+622 and for each of floating assets 620 including their
+systems, sub-systems, components, applications with which
+the platform 100 interacts. In embodiments, the opportunity
+10
+miners 1460 may be configured or used by developers of AI
+or RPA solutions to find opportunities for better solutions
+and to optimize existing solutions in a value chain network
+668. In embodiments, the opportunity miners 1460 may
+include a set of systems that collect information within the 15
+management platform 604 and collect information within,
+about and for a set of maritime facilities 622 and for each of
+floating assets 620, where the collected information has the
+potential to help identify and prioritize opportunities for
+increased automation and/or intelligence about the value 20
+chain network 668, about applications 630, one or more of
+the maritime facilities 622 and the floating assets 620. For
+example, the opportunity miners 1460 may include systems
+that observe clusters of value chain network workers by
+time, by type, and by location (whether on the water or land), 25 t
+such as using cameras, wearables, or other sensors, such as
+chain network 668 environments. These may be presented,
+such as in a ranked or prioritized list, or in a visualization
+(such as a heat map showing dwell times of customers, 30 
+workers or other individuals on a map of an environment or
+a heat map showing routes traveled by customers or workers
+within an environment) to show places with high labor
+activity. In embodiments, analytics 838 may be used to
+identify which environments or activities would mostbenefit 35
+from automation for purposes of improved delivery times,
+mitigation of congestion, and other performance improve-
+ments.
+In embodiments, opportunity mining may include facili-
+ties for solicitation of appropriate training data sets that may 40
+be used to facilitate process automation. For example,
+certain kinds of inputs, if available, would provide very high
+value for automation, such as video data sets that capture
+very experienced and/or highly expert workers performing
+complex tasks. This information becomes even more valu- 45 
+able when collected in close proximity to other maritime
+facilities 622 and with deployed floating assets 620. Oppor-
+tunity miners 1460 may search for such video data sets as
+described herein; however, in the absence of success (or to
+ supplement available data), the management platform 604 50
+may include systems by which a user at a maritime facility
+or deployed on a maritime asset may specify a desired type
+of data, such as software interaction data (such as of an
+expert working with a program to perform a particular task),
+video data (such as video showing a set of experts perform- 55
+ing a certain kind of delivery process, unloading process,
+securing and logistics process, cleaning and maintenance
+process, a container movement process, or the like), and/or
+physical process observation data (such as video, sensor
+data, or the like). The resulting library of interactions 60
+captured in response to the specification may be captured as
+a data set in the data storage layer 624, such as for con-
+sumption by various applications 630, adaptive intelligence
+systems 614, and other processes and systems. In embodi-
+ments, the library may include videos that are specifically 65
+developed as instructional videos, such as to facilitate devel-
+oping an automation map that can follow instructions in the
+[col 2]
+186
+video, such as providing a sequence of steps according to a
+procedure or protocol, breaking down the procedure or
+protocol into sub-steps that are candidates for automation,
+and the like. In embodiments, such videos may be processed
+by natural language processing, such as to automatically
+develop a sequence of labeled instructions that can be used
+by a developer to facilitate a map, a graph, or other models
+of a process that assists with development of automation for
+the process.
+In embodiments, the value chain monitoring systems
+layer 614 and its data collection systems 640 may include an
+entity discovery system 1900 for discovering one or more
+value chain network entities 652, such as any of the entities
+described throughout this disclosure and especially those
+that can be loaded and offloaded as control passes from
+various maritime facilities 622 and floating assets 620. This
+may include components or sub-systems for searching for
+entities at maritime facilities 622 and floating assets 620
+within the value chain network 668, such as by device
+identifier, by network location, by geolocation (such as by
+known resources, such as IoT-enabled devices and infra-
+structure, Wifi routers, switches, or the like), by cellular
+location (such as by proximity to cellular towers), by mari-
+time navigation aids and vessel identity beacons, by identity
+management systems (such as where an entity 652 is asso-
+ciated with another entity 652, such as an owner, operator,
+user, or enterprise by an identifier that is assigned by and/or
+managed by the platform 604), and the like. In these
+examples, an entity discovery system 1900 may interact
+with established maritime asset logistic systems used to
+track traffic and location. In these examples, an entity
+discovery system 1900 may interact with established mari-
+information relevant to intended navigation destinations and
+from there, the error and magnitude of corrective action need
+to arrive at the navigation destination.
+Referring to FIG. 22, the adaptive intelligence layer 614
+may include a value chain network digital twin system 1700,
+which may include a set of components, processes, services,
+interfaces and other elements for development and deploy-
+ment of digital twin capabilities for visualization of various
+value chain entities 652 in environments, and applications
+630, as well as for coordinated intelligence (including arti-
+ficial intelligence 1160, edge intelligence 1420, analytics
+and other capabilities) and other value-added services and
+capabilities that are enabled or facilitated with a digital twin
+1700. In embodiments, a digital twin system 1700 may be
+deployed with each facility (or groups thereof) among the
+maritime facilities 622 and may be deployed for each of
+floating assets 620. In many instances, each floating asset
+620 and physical assets in the maritime facilities 622 can be
+coordinated and managed with its digital twin supported by
+the digital twin system 1700. Without limitation, a digital
+twin system 1700 may be used for and/or applied to each of
+the processes that is managed, controlled, or mediated by
+each of the set of applications 614 of the platform applica-
+tion layer that may be deployed in various systems, net-
+works, and infrastructures (or across groups thereof) of the
+floating assets 620 and in and among the maritime facilities
+622.
+In embodiments, the digital twin 1700 may take advan-
+tage of the presence of multiple applications 630 within the
+value chain management platform 604, such that a pair of
+applications may share data sources (such as in the data
+storage layer 624) and other inputs (such as from the
+monitoring layer 614) that are collected (to support fusion of

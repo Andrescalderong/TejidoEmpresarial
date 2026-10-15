@@ -1,0 +1,138 @@
+In embodiments, the digital twin generation system 8108 5o logical relationships of entities and actions in a workflow. In
+[col 1]
+US 12,675,781 B2
+245
+In embodiments, the data structuring system 8106 is
+configured to process and structure data into a format that
+can be consumed by an enterprise digital twin. In embodi-
+ments, processing by the data structuring system 8106 may
+include compression, computation, filtering, aggregation,
+multiplexing, selective switching, batching, packetization,
+ streaming, summarization, fusion, fragmentation, encoding.
+decoding, transcoding, encryption, decryption, duplication,
+deduplication, normalization, cleansing,identification,
+copying, storage, decompression, syndication, augmentation 10
+(e.g., by metadata), content inspection, classification, extrac-
+tion, transformation, loading, formatting, error correction,
+data structuring, and/or many other processing actions. In
+embodiments, the data structuring system 8106 may lever-
+age ETL (extract, transform, load) tools, data streaming, and 15
+other data integration tooling to structure the various types
+of digital twin data. In embodiments, the data structuring
+system 8106 structures the data according to a digital twin
+data model that may be defined by the digital twin configu-
+ration system 8102 and/or a user. In embodiments, a digital 20
+twin data model may refer to an abstract model that orga-
+nizes elements of enterprise-related data and standardizes
+the manner by which those elements relate to one another
+and to the properties of digital twin entities. For instance, a
+digital twin data model of an environment that includes 25
+vehicles (e.g., a vehicle assembly facility or an environment
+where vehicles operate) may specify that the data element
+representing a vehicle be composed of a number of other
+elements which represent sub-elements or attributes of the
+vehicle (the color of the vehicle, the dimensions of the 3o
+vehicle, the engine of the vehicle, the engine parts of the
+vehicle, the owner of the vehicle, the performance specifi-
+cations of the vehicle, and the like). In this example, the
+digital twin model components may define how the physical
+attributes are tied to respective physical locations on the 35
+vehicle. In embodiments, digital twin data models may
+define a formalization of the objects and relationships found
+in a particular application domain. For example, a digital
+twin data model may represent the customers, products, and
+orders found in a manufacturing enterpriseand how they 4o
+relate to each other within the various digital twins. In
+another example, a digital twin data model may define a set
+of concepts (e.g., entities, attributes, relations, tables, and/or
+the like) used in defining such formalizations of data or
+metadata within the environment. For example, a digital 45
+twin data model used in connection with a banking appli-
+cation may be defined using the entity-relationship data
+model and how the entity-relationship data model is then
+related to the various executive digital twin views.
+serves enterprise digital twins on behalf of an enterprise. In
+some instances, the digital twin generation system 8108
+receives a request for a specific type of digital twin from a
+client application 8052 being executed by a client device
+8050 (e.g-, via an API). Additionally or alternatively, the 55
+digital twin generation system 8108 receives a request for a
+specific type of digital twin from a component of EMP 8000
+(e.g., the digital twin simulation system 8116). The request
+may indicate the enterprise, the type of digital twin, the user
+(whose access rights may be verified or determined by the 60
+digital access controller 8112), and/or a role of the user. In
+some embodiments, the digital twin generation system 8108
+may determine and provide the client device 8050 (or
+requesting component) with the data structures, definition of
+grain of data the, response patterns to specific inputs, 65
+animation sequences for illustrating behaviors, display
+aggregation methods for smaller displays (such as mobile
+[col 2]
+246
+phone), immersive data interaction systems, security con-
+straints on the data viewing, viewing interaction speed
+(frame rate), nature of light sources (simulate actual or
+continuous), multiple user engagement protocols, network
+bandwidth constraints, metadata, ontology and information
+on hooks to data feeds as well as the digital twin constructs.
+This information may be used by the client to generate the
+digital twin in the end user device (e.g-, an immersive
+device, such as AR devices or VR devices, tablet, personal
+computer, mobile, or the like). In embodiments, the digital
+twin generation system 8108 may determine the appropriate
+perspective for the requested digital twin (e.g., via the digital
+twin perspective builder 8110, which may include device-
+sensitive perspectives, such as delivering in appropriate
+formats based on the type of end user device) and any data
+restrictions, interaction restrictions, depth of data restric-
+tions, usage restrictions, length of visibility restrictions, that
+the user may have (e.g., via the access controller 8112). In
+response to determining the perspective and data restric-
+tions, the digital twin generation system 8108 may generate
+the requested digital twin. In some embodiments, generating
+the requested digital twin may include identifying the appro-
+priate data structure given the perspective and obtaining the
+data that parameterizes the digital twin, as well as any
+additional metadata that is served with the enterprise digital
+twin.
+In embodiments, the digital twin generation system 8108
+may deliver the enterprise digital twin to the requesting
+client application 8052 (or requesting component). In
+embodiments, the digital twin generation system 8108 (or
+another suitable component) may continue to update a
+served digital twin with real-time data (or data that is derived
+from real-time data) as the real-time data is received and
+potentially analyzed, extrapolated, derived, predicted, and/
+or simulated by the EMP 8000.
+In some embodiments, the digital twin generation system
+8108 (in combination with the digital twin I/0 system 8104)
+may obtain data streams from traditional data sources, such
+as relational databases, API interfaces, direct sensor input,
+human generated input, Hadoop file stores, graph databases
+that underlie operational and reporting tooling in the envi-
+ronment, telemetry data sources, onboard diagnostic sys-
+tems, blockchains, distributed ledgers, distributed data
+sources, feed, streams, and many other sources. In embodi-
+ments, the digital twin generation system 8108 may obtain
+data streams that are associated with the structural aspects of
+the data, such as the layout and 3D object properties of
+entities within facilities, geospatial information systems, the
+hierarchical design of a system of accounts, and/or the
+embodiments, the data streams may include metadata
+streams that are associated with the nature of the data and
+data streams containing primary data (e.g., sensor data, sales
+data, survey data, and the like). For example, the metadata
+associated with a physical facility or other entity may
+include the types and layers of data that are being managed,
+while the primary data may include the instances of objects
+that fall within each layer. Layers for which metadata may
+be tracked and/or created may include, for example, meta-
+data with respect to attributes, parameters or representations
+of a whole facility, component systems and assets within the
+facility (equipment, network entities, workforce entities,
+assets, and the like), sub-components and sub-systems, and
+further sub-components and sub-systems down to arbitrarily
+lower levels of granularity (e.g., a ball bearing of a rotating
+axle assembly of a fan that is part of a motor assembly
+driving an assembly line in a location of a warehouse). In

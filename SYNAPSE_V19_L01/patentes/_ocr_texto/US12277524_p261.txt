@@ -1,0 +1,134 @@
+[col 1]
+US 12,277,524 B2
+347
+In embodiments, cascade correlation may be used as an
+architecture and supervised learning algorithm, supplement-
+ing adjustment of the weights in a network of fixed topology.
+Cascade-correlation may begin with a minimal network,
+then automatically trains and adds new hidden units one by
+one, creating a multi-layer structure. Once anew hidden unit
+has been added to the network, its input-side weights may be
+frozen. This unit then becomes a permanent feature-detector
+in the network, available for producing outputs or for
+creating other, more complex feature detectors. The cascade-
+correlation architecture may learn quickly, determine its
+own size and topology, and retain the structures it has built
+propagation.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a neuro-fuzzy network, such as involving a fuzzy
+inference system in the body of an artificial neural network.
+Depending on the type, several layers may simulate the 20
+processes involved in a fuzzy inference, such as fuzzifica-
+tion, inference, aggregation and defuzzification. Embedding
+a fuzzy system in a general structure of a neural net as the
+benefit of using available training methods to find the
+parameters of a fuzzy system. 25
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a compositional pattern-producing network
+("CPPN""), such as a variation of an associative neural
+network("ANN")thatdiffersthe setofactivationfunctions 30
+and how they are applied. While typical ANNs often contain
+only sigmoid functions (and sometimes Gaussian functions),
+CPPNs can include both types of functions and many others.
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete 35 
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+optimal.
+This type of network can add new patterns without 4o role from the set of roles.
+re-training. In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a one-shot associative memory network,
+such as by creating a specific memory structure, which
+assigns each new pattern to an orthogonal plane using 45 j
+adjacently connected hierarchical arrays.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a hierarchical temporal memory ("HTM") neural
+network, such as involving the structural and algorithmic 5o
+properties of the neocortex. HTM may use a biomimetic
+model based on memory-prediction theory. HTM may be
+used to discover and infer the high-level causes of observed
+input patterns and sequences.
+In embodiments, methods and systems described herein 55
+that involve an expert system or self-organization capability
+may use a holographic associative memory ("HAM") neural
+network, which may comprise an analog, correlation-based,
+associative, stimulus-response system. Information may be
+mapped onto the phase orientation of complex numbers. The 60
+memory is effective for associative memory tasks, general-
+ization and pattern recognition with changeable attention.
+Inembodiments,variousembodimentsinvolvingnetwork
+coding may be used to code transmission data among
+network nodes in neural net, such as where nodes are located 65
+in one or more data collectors or machines in an industrial
+environment.
+[col 2]
+348
+In embodiments of the present disclosure, a method is
+provided for configuring role-based digital twins, compris-
+ing: receiving, by a processing system having one or more
+processors, an organizational definition of an enterprise,
+wherein the organizational definition defines a set of roles
+within the enterprise; generating, by the processing system,
+an organizational digital twin of the enterprise based on the
+organizational definition, wherein the organizational digital
+twin is a digital representation of an organizational structure
+of the enterprise; determining, by the processing system, a
+set of relationships between different roles within the set of
+roles based on the organizational definition; determining, by
+the processing system, a set of settings for a role from the set
+of roles based on the determined set of relationships; linking
+an identity of a respective individual to the role; determin-
+ing, by the processing system, a configuration of a presen-
+tation layer of a role-based digital twin corresponding to the
+role based on the settings of the role that is linked to the
+identity, wherein the configuration of the presentation layer
+defines a set of states that is depicted in the role-based digital
+twin associated with the role; determining, by the processing
+system, a set of data sources that provide data corresponding
+to the set of states, wherein each data source provides one or
+more respective types of data; and configuring one or more
+data structures that is received from the one or more data
+sources, wherein the one or more data structures are con-
+figured to provide data used to populate one or more of the
+set of states in the role-based digital twin.
+In embodiments, an organizational definition may further
+identify a set of physical assets of the enterprise.
+In embodiments, determining a set of relationships may
+include parsing the organizational definition to identify a
+reporting structure and one or more business units of the
+enterprise.
+In embodiments, a set of relationships may be inferred
+from a reporting structure and a business unit.
+In embodiments, a set of identities may be linked to a set
+of roles, wherein each identity corresponds to a respective
+In embodiments, a role-based digital twin may integrate
+with an enterprise resource planning system that operates on
+the organizational digital twin that represents a set of roles
+in the enterprise, such that changes in an enterprise resource
+planning system are automatically reflected in the organi-
+zational digital twin.
+In embodiments, an organizational structure may include
+hierarchical components, which may be embodied in a graph
+data structure.
+In embodiments, a set of settings for the set of roles may
+include role-based permission settings.
+In embodiments, a role-based permission setting may be
+based on hierarchical components defined in the organiza-
+tional definition.
+In embodiments, a set of settings for a set of roles may
+include role-based preference settings.
+In embodiments, a role-based preference setting may be
+configured based on a set of role-specific templates.
+In embodiments, a set of templates may include at least
+one of a CEO template, a COO template, a CFO template,
+a counsel template, a board member template, a CTO
+template, a chief marketing officer template, an information
+technology manager template, a chief information officer
+template, a chief data officer template, an investor template,
+a customer template, a vendor template, a supplier template,
+an engineering manager template, a project manager tem-
+plate, an operations manager template, a sales manager

@@ -1,0 +1,133 @@
+[col 1]
+US 12,277,524 B2
+351
+of a process, ordering of a workflow, cessation of a work-
+flow, selection of a data set, selection of a design choice,
+creation of a set of design choices, identification of a failure
+mode, identification of a fault, identification of an operating
+mode, identification of a problem, selection of a human
+resource, selection of a workforce resource, providing an
+instruction to a human resource, and providing an instruc-
+tion to a workforce resource.
+In embodiments, an executive may be trained on a train-
+ing set of outcomes resulting from the actions taken by the
+executive.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+In embodiments, an expert agent may be trained to
+perform an action selected from among determining an
+architecture for a system, reporting on a status, reporting on
+an event, reporting on a context, reporting on a condition,
+determining a model, configuring a model, populating a
+model, designing a system, designing a process, designing
+an apparatus, engineering a system, engineering a device,
+system, maintaining a device, maintaining a process, main-
+301 taining a network, maintaining a computational resource,
+maintaining equipment, maintaining hardware, repairing a
+system, repairing a device, repairing a process, repairing a
+network, repairing a computational resource, repairing
+equipment, repairing hardware, assembling a system, assem- 35
+bling a device, assembling a process, assembling a network,
+assembling a computational resource, assembling equip-
+ment, assembling hardware, setting a price, physically
+securing a system, physically securing a device, physically
+securing a process, physically securing a network, physi-
+cally securing a computational resource, physically securing
+equipment, physically securing hardware, cyber-securing a
+system, cyber-securing a device, cyber-securing a process,
+cyber-securing a network, cyber-securing a computational
+resource, cyber-securing equipment, cyber-securing hard- 45
+ware, detecting a threat, detecting a fault, tuning a system,
+tuning a device, tuning a process, tuning a network, tuning
+a computational resource, tuning equipment, tuning hard-
+ware, optimizing a system, optimizing a device, optimizing
+a process, optimizing a network, optimizing a computational 50
+resource, optimizing equipment, optimizing hardware,
+monitoring a system, monitoring a device, monitoring a
+process, monitoring a network, monitoring a computational
+resource, monitoring equipment, monitoring hardware, con-
+figuring a system, configuring a device, configuring a pro- 55 t
+cess, configuring a network, configuring a computational
+resource, configuring equipment, and configuring hardware.
+In embodiments, an expert agent is at least one of trained
+and configured via feedback from at least one expert in the
+defined role regarding a set of outputs of expert agent.
+In embodiments, a set of outputs of the expert agent upon
+which the expert provides feedback may include at least one
+of a recommendation, a classification, a prediction, a control
+instruction, an input selection, a protocol selection, a com-
+munication, an alert, a target selection for a communication, 65
+a data storage selection, a computational selection, a con-
+figuration, an event detection, and a forecast.
+[col 2]
+352
+In embodiments, feedback of the at least one expert may
+be solicited to train the expert agent to replicate the expertise
+of the expert in the role.
+In embodiments, a feedback of the at least one expert may
+be used to modify the set of inputs to the expert agent and/or
+used to identify and characterize at least one error by the
+expert agent.
+In embodiments, a report on a set of errors may be
+provided to a user of the expert agent to enable reconfiguring
+of the expert agent based on the feedback from the expert.
+In embodiments, reconfiguring the artificial intelligence
+system may include at least one of removing an input that is
+the source of the error, reconfiguring a set of nodes of the
+artificial intelligence system, reconfiguring a set of weights
+of the artificial intelligence system, reconfiguring a set of
+outputs of the artificial intelligence system, reconfiguring a
+processing flow within the artificial intelligence system, and
+augmenting the set of inputs to the artificial intelligence
+20 system.
+In embodiments, an expert agent may be trained learn
+upon a training set of outcomes and to provide at least one
+of training and guidance to an individual who is responsible
+for performing the defined role.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+In embodiments of the present disclosure, a method is
+supports a digital twin of a set of physical and digital
+entities, the architecture including: a set of sensors that
+provide sensor data about the set of physical entities; a set
+of data streams generated by at least a subset of the set of
+physical and digital entities; a set of computational entities
+for processing data and a set of network entities for trans-
+porting data that is derived from the set of sensors and the
+set of data streams; a set of data processing systems for
+ported by the network entities into a set of resources that are
+sources for the digital twin; and integrating an artificial
+intelligence system with the information technology archi-
+tecture, wherein the artificial intelligence system is config-
+ured to operate as a double of an expert worker for a defined
+role of the enterprise.
+In embodiments, an artificial intelligence system may be
+trained upon a training set of data that includes a set of
+interactions by a specific expert worker during performance
+of the defined role.
+In embodiments, a set of interactions may be used to train
+the artificial intelligence system may include interactions of
+the expert with the physical entities, wherein the set of
+interactions used to train the artificial intelligence system
+includes interactions of the expert with the digital twin.
+In embodiments, a set of interactions used to train the
+6o artificial intelligence system may include interactions of the
+expert with the sensor data, wherein the set of interactions
+used to train the artificial intelligence system includes inter-
+actions of the expert with the data streams generated by the
+physical entities.
+In embodiments, a set of interactions used to train the
+artificial intelligence system may include interactions of the
+expert with the computational entities, wherein the set of

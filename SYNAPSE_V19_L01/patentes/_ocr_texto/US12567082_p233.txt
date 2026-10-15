@@ -1,0 +1,136 @@
+Referring to FIG. 44, an embodiment of the platform 604 20 routing. In embodiments, the routing includes latency-sen-
+[col 1]
+US 12,567,082 B2
+143
+In embodiments, the automated recommendations relate
+to a set of route selection activities. In embodiments, the
+automated recommendations relate to a set of factory selec-
+tion activities. In embodiments, the automated recommen-
+dations relate to a set of product assortment activities. In
+embodiments, the automated recommendations relate to a
+set of product management activities. In embodiments, the
+automated recommendations relate to a set of logistics
+activities.
+In embodiments, the automated recommendations relate 10
+to a set of reverse logistics activities. In embodiments, the
+automated recommendations relate to a set of artificial
+intelligence configuration activities. In embodiments, the
+automated recommendations relate to a set of maintenance
+activities. In embodiments, the automated recommendations 15
+relate to a set of product support activities. In embodiments,
+the automated recommendations relate to a set of product
+recommendation activities.
+Optimized Routing Among Nodes
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set 25
+of adaptive intelligence facilities or adaptive intelligent
+systems 614 (including artificial intelligence 1160), a set of
+data storage facilities or systems 624, and a set of monitor-
+ing facilities or systems 808. The platform 604 may support
+a set of applications 614 (including processes, workflows, 30 
+activities, events, use cases and applications) for enabling an
+enterprise to manage a set of value chain network entities
+652, such as from a point oforigin to a point of customer use
+Thus, provided herein are methods, systems, components 35
+and other elements for an information technology system
+that may include: a cloud-based management platform for a
+value chain network with a micro-services architecture, a set
+of interfaces, network connectivity facilities, adaptive intel-
+ligence facilities, data storage facilities, and monitoring
+facilities that are coordinated for monitoring and manage-
+ment of a set of value chain network entities; and a set of
+applications for enabling an enterprise to manage a set of
+value chain network entities from a point of origin to a point
+of customer use; wherein a set of routing facilities generate 45 j
+a set of routing instructions for routing information among
+a set of nodes in the value chain network based on current
+status information for the value chain network.
+In embodiments, the adaptive intelligent systems layer
+614 may further include a set of routing facilities 1720 that 50
+generate a set of routing instructions for routing information
+among a set of nodes in the value chain network, such as
+based on processing current status information 1730, a set of
+application outputs and/or a set of outcomes 1040, or other
+information collected by or used in the VCNP 102. Routing 55 t
+may include routing for the benefit of a set of demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+a set of asset management applications 1530 and a set of
+enterprise resource management applications 1520 for a 60
+category of goods.
+In embodiments, the set of routing facilities that generate
+a set of routing instructions for routing information among
+a set of nodes in the value chain network use a wide variety
+of routing systems or configurations, such as involving, 65
+without limitation, priority-based routing, master controller
+routing, least cost routing, rule-based routing, genetically
+[col 2]
+144
+programmed routing, random linear network coding routing,
+traffic-based routing, spectrum-based routing, RF condition-
+based routing, energy-based routing, latency-sensitive rout-
+ing, protocol compatibility based routing, dynamic spectrum
+access routing, peer-to-peer negotiated routing, queue-based
+routing, and others.
+In embodiments, the routing includes priority-based rout-
+ing. In embodiments, the routing includes master controller
+routing. In embodiments, the routing includes least cost
+routing. In embodiments, the routing includes rule-based
+routing. In embodiments, the routing includes genetically
+programmed routing.
+In embodiments, the routing includes random linear net-
+work coding routing. In embodiments, the routing includes
+traffic-based routing. In embodiments, the routing includes
+spectrum-based routing.
+In embodiments, the routing includes RF condition-based
+routing. In embodiments, the routing includes energy-based
+sitive routing.
+In embodiments, the routing includes protocol compat-
+ibility-based routing.
+In embodiments, the routing includes dynamic spectrum
+access routing. In embodiments, the routing includes peer-
+to-peer negotiated routing. In embodiments, the routing
+includes queue-based routing.
+In embodiments, the status information for the value
+chain network involves a wide range of states, events,
+workflows, activities, occurrences, or the like, such as,
+without limitation, traffic status, congestion status, band-
+width status, operating status, workflow progress status,
+incident status, damage status, safety status, power avail-
+ability status, worker status, data availability status, pre-
+dicted system status, shipment location status, shipment
+timing status, delivery status, anticipated delivery status,
+environmental condition status, system diagnostic status,
+system fault status, cybersecurity status, compliance status,
+demand status, supply status, price status, volatility status,
+ 40 need status, interest status, aggregate status for a group or
+population, individual status, and many others.
+In embodiments, the status information involves traffic
+status. In embodiments, the status information involves
+congestion status. In embodiments, the status information
+involves bandwidth status. In embodiments, the status infor-
+mation involves operating status. In embodiments, the status
+information involves workflow progress status.
+In embodiments, the status information involves incident
+status. In embodiments, the status information involves
+damage status. In embodiments, the status information
+involves safety status.
+In embodiments, the status information involves power
+availability status. In embodiments, the status information
+involves worker status. In embodiments, the status informa-
+tion involves data availability status.
+In embodiments, the status information involves predicted
+system status.In embodiments, the status information
+involves shipment location status. In embodiments, the
+status information involves shipment timing status. In
+embodiments, the status information involves delivery sta-
+tus.
+In embodiments, the status information involves antici-
+pated delivery status. In embodiments, the status informa-
+tion involves environmental condition status.
+In embodiments, the status information involves system
+diagnostic status. In embodiments, the status information
+involves system fault status. In embodiments, the status

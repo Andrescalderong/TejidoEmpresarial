@@ -1,0 +1,133 @@
+[col 1]
+US 2022/0036275A1
+156
+receives data from various data sources associated with a
+particular entity or workflow and learns the workflows
+performed by the particular user based on the data and the
+surrounding circumstances or context. For example, the user
+may be a COO that is presented a COO digital twin 8306.
+Among the responsibilities of the COO may be scheduling
+maintenance and replacement of equipment in a manufac-
+turing, warehouse, or other operational facility. The states
+depicted in the COO digital twin 8306 may include depic-
+tions of the condition of different pieces of equipment within
+the operational facility. In this example, the COO may
+schedule maintenance via the digital twin when a piece of
+equipment is determined to be in a first condition (e.g., a
+deteriorating condition) and may issue a request to the COO
+via the COO digital twin 8306 to replace the piece of
+equipment when the equipment is determined to be in a
+second condition (e.g., a critical condition). The executive
+agent may learn the COO's tendencies based on the COO's
+previous interaction with the COO digital twin 8306. Once
+trained, the executive agent may automatically request
+replacements from the COO when a particular piece of
+equipment is determined to be in the second condition and
+may automatically schedule maintenance if the piece of
+equipment is in the first condition.
+[1222] In embodiments, the client application 8052 that
+executes the COO digital twin 8306 may be configured with
+an executive agent that reports a COO's behaviors and
+preferences (or other operations personnel's behaviors and
+preferences) to the executive agent system 8008, as
+described herein, and the executive agent system 8008 may
+train the executive agent on how the COO or other executive
+personnel respond to certain situations and adjust its opera-
+tion based at least in part on the data collection, analysis,
+machine learning and A.I. techniques, as described herein.
+The foregoing examples are optional examples and are not
+intended to limit the scope of the disclosure.
+[1223] References to features and functions of the EMP
+and digital twins in this example of an operations depart-
+ment and a COO digital twin 8306 should be understood to
+apply to other departments and digital twins, and their
+respective projects and workflows, except where context
+indicates otherwise.
+[1224] In embodiments, a Chief Marketing officer (CMO)
+digital twin 8308 may be a digital twin configured for a
+CMO of an enterprise, or an analogous executive tasked
+with overseeing the marketing tasks of the enterprise. A
+CMO digital twin 8308 may provide functionality including,
+but not limited to, management of personnel and partners,
+development and oversight of marketing budgets and
+resources, management of marketing and advertising plat-
+forms, development and management of marketing content,
+strategies and campaigns, reporting, competitor analysis.
+regulatory analysis, and management of data privacy and
+security.
+[1225] In embodiments, the types of data that may popu-
+iate and/or be utilized by a CMO digital twin 8308 may
+include, but are not limited to, macroeconomic data; market
+pricing data; competitive product and pricing data; micro-
+economic analytic data; forecast data; demand planning
+data; competitive matrix data; product roadmap; product
+capability data; consumer behavior data; consumer profile
+data; collaborative filtering data; analytic results of AI
+and/or machine learning modeling; channel data; demo-
+graphic data; geographic data; prediction data; recommen-
+[col 2]
+Feb.3,2022
+dation data, or some other type of data relevant to the
+operations of the CMO and/or marketing department.
+[1226]  In embodiments, an executive digital twin, such as
+a CMO digital twin 8308 or other executive digital twin may
+depict a twin of a department, such as the marketing
+department or other department, which the user may use to
+identify, assign, instruct, oversee and review department
+personnel and third-party personnel that are associated with
+the activities of a particular department of an organization,
+including third-party partners and other outside associates
+involved in the organization's related endeavors. Examples
+of such organization personnel include, but are not limited
+to, an organization's marketing staff, sales staff, finance
+staff, product design personnel, engineers, analysts, statisti-
+cians, data scientists, advertising staff, executive personnel,
+human resources staff, Board Members, advisors, or some
+other type of organization personnel. Examples of an orga-
+nization's third-party personnel include, but are not limited
+to, advertising firm staff, ad exchange staff, outside creative
+or content developers, social media platform personnel,
+co-marketing partners, consultants, contractors, financial
+firm staff, auditors, or some other type of third-party per-
+sonnel. In embodiments, the departmental twin (in this
+example a marketing department twin) may include a defi-
+nition of the various roles/employees working under the
+executive (e.g., CMO), the reporting structure, and associ-
+ated permissions, for each individual in the business unit,
+and may be populated with the various the names and/or
+other identifiers of the individuals filling the respective
+roles. In embodiments, the department twin (e.g., marketing
+department twin) may include subsections that are specific
+to an activity or initiative, such as a marketing or advertising
+campaign. In this way, the executive (e.g., a CMO) may
+easily identify the personnel and third-party providers that
+are involved in the initiative and/or assign individuals and/or
+third parties to the initiative. A user may define one or more
+restrictions, permissions, and/or access rights of the indi-
+viduals indicated in the business unit (e.g., using the enter-
+prise configuration system 8002), as described herein, such
+that the restrictions, permissions, and/or access rights can be
+controlled by the CMO (or analogous user). In embodi-
+ments, the permissions to define such restrictions and/or
+rights may be, for example, defined in the organizational
+digital twin that lists the user as having a role that permits
+implementing permissions, restrictions, and/or access rights
+to roles/individuals In embodiments, a personnel restriction
+or right associated with a role/individual may be specific to
+a project, such as a marketing or advertising campaign, and
+may define one or more types of data that a particular user
+or group of users is allowed, or not allowed, to access (either
+directly or in a digital twin). For example, a first marketing
+campaign twin may allow a marketing department employee
+to review the first marketing budget for a first marketing
+campaign and approve marketing expenditures for the first
+marketing campaign up to $10,000, but a second marketing
+campaign twin may disallow the same employee from any
+budgetary review or expenditures. Similar approaches can
+be used by projects of various types across an organization
+and its departments, such as product development projects,
+logistics projects, corporate development projects, service
+projects, and many others. In embodiments, a breach, or
+attempted breach, of a restriction, permission or access right
+may invoke a notice, alert, warning or some other action to
+an individual notifying them of the breach or attempted

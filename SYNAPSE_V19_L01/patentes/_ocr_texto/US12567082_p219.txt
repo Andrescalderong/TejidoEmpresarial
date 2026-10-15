@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+115
+and the digital twin system 1700 to create a digital replica
+simulation of one value chain entity 652 or a set of value
+chain entities of the plurality of 652, may include a com-
+mand for the digital replica simulation to be one or more of
+a real-time simulation, and a hypothetical simulation. The
+modeling command may also include, for example, param-
+eters for what types of sensor data should be used, sampling
+rates for the sensor data, and other parameters for the sensor
+data used in the one or more digital replica simulations. In
+some embodiments, the machine learning model 3000 may 10
+be configured to predict modeling commands, such as by
+using previous modeling commands as training data. The
+machine learning model 3000 may propose predicted mod-
+eling commands to a user of the information technology
+system, for example, to facilitate simulation of one or more 15
+of the value chain entities 652 that may be useful for the
+management of the value chain entities 652 and/or to allow
+the user to easily identify potential issues with or possible
+improvements to the value chain entities 652.
+In some embodiments, the machine learning model 3000
+may be configured to evaluate a set of hypothetical simu-
+lations of one or more of the value chain entities 652. The
+set of hypothetical simulations may be created by the
+machine learning model 3000 and the digital twin system
+1700 as a result of one or more modeling commands, as a 25
+result of one or more modeling goals, one or more modeling
+commands, by prediction by the machine learning model
+3000, or a combination thereof. The machine learning model
+3000 may evaluate the set of hypothetical simulations based
+on one or more metrics defined by the user, one or more 30
+metrics defined by the machine learning model 3000, or a
+combination thereof. In some embodiments, the machine
+learning model 3000 may evaluate each of the hypothetical
+simulations of the set of hypothetical simulations indepen-
+dently of one another. In some embodiments, the machine 35
+learning model 3000 may evaluate one or more of the
+hypothetical simulations of the set of hypothetical simula-
+tions in relation to one another, for example by ranking the
+hypothetical simulations or creating tiers of the hypothetical
+simulations based on one or more metrics. 40
+In some embodiments, the machine learning model 3000
+may include one or more model interpretability systems to
+facilitate human understanding of outputs of the machine
+learning model 3000, as well as information and insight
+related to cognition and processes of the machine learning 45
+model 3000, i.e., the one or more model interpretability
+systems allow for human understanding of not only “what"
+the machine learning model 3000 is outputting, but also
+"why" the machine learning model 3000 is outputting the
+outputs thereof, and what process led to the 3000 formulat-
+ing the outputs. The one or more model interpretability
+systems may also be used by a human user to improve and
+guide training of the machine learning model 3000, to help
+debug the machine learning model 3000, to help recognize
+bias in the machine learning model 3000. The one or more 55
+model interpretability systems may include one or more of
+linear regression, logistic regression, a generalized linear
+model (GLM), a generalized additive model (GAM), a
+decision tree, a decision rule, RuleFit, Naive Bayes Classi-
+fier, a K-nearest neighbors algorithm, a partial dependence 60
+plot, individual conditional expectation (ICE), an accumu-
+lated local effects (ALE) plot, feature interaction, permuta-
+tion feature importance, a global surrogate model, a local
+surrogate (LIME) model, scoped rules, i.e., anchors, Shapley
+values, Shapley additive explanations (SHAP), feature visu- 65
+alization, network dissection, or any other suitable machine
+[col 2]
+116
+ments, the one or more model interpretability systems may
+include a model dataset visualization system. The model
+dataset visualization system is configured to automatically
+provide to a human user of the information technology
+system visual analysis related to distribution of values of the
+sensor data, the simulation data, and data nodes of the
+machine learning model 3000.
+In some embodiments, the machine learning model 3000
+may include and/or implement an embedded model inter-
+pretability system, such as a Bayesian case model (BCM) or
+glass box. The Bayesian case model uses Bayesian case-
+based reasoning, prototype classification, and clustering to
+facilitate human understanding of data such as the sensor
+data, the simulation data, and data nodes of the machine
+learning model 3000. In some embodiments, the model
+interpretability system may include and/or implement a
+glass box interpretability method, such as a Gaussian pro-
+cess, to facilitate human understanding of data such as the
+sensor data, the simulation data, and data nodes of the
+20machinelearningmodel3000.
+In some embodiments, the machine learning model 3000
+may include and/or implement testing with concept activa-
+tion vectors (TCAV). The TCAV allows the machine learn-
+ing model 3000 to learn human-interpretable concepts, such
+process including defining the concept, determining concept
+activation vectors, and calculating directional derivatives.
+By learning human-interpretable concepts, objects, states,
+etc., TCAV may allow the machine learning model 3000 to
+output useful information related to the value chain entities
+652 and data collected therefrom in a format that is readily
+understood by a human user of the information technology
+system.
+In some embodiments, the machine learning model 3000
+may be and/or include an artificial neural network, e.g., a
+connectionist system configured to *learn" to perform tasks
+by considering examples and without being explicitly pro-
+grammed with task-specific rules. The machine learning
+model 3000 may be based on a collection of connected units
+and/or nodes that may act like artificial neurons that may in
+some ways emulate neurons in a biological brain. The units
+and/or nodes may each have one or more connections to
+other units and/or nodes. The units and/or nodes may be
+configured to transmit information, e.g, one or more signals,
+to other units and/or nodes, process signals received from
+other units and/or nodes, and forward processed signals to
+other units and/or nodes. One or more of the units and/or
+nodes and connections therebetween may have one or more
+numerical "weights" assigned. The assigned weights may be
+configured to facilitate learning, i.e., training, of the machine
+learning model 3000. The weights assigned weights may
+increase and/or decrease one or more signals between one or
+more units and/or nodes, and in some embodiments may
+have one or more thresholds associated with one or more of
+the weights. The one or more thresholds may be configured
+such that a signal is only sent between one or more units
+and/or nodes, if a signal and/or aggregate signal crosses the
+threshold. In some embodiments, the units and/or nodes may
+be assigned to a plurality of layers, each of the layers having
+one or both of inputs and outputs. A first layer may be
+configured to receive training data, transform at least a
+portion of the training data, and transmit signals related to
+the training data and transformation thereof to a second
+layer. A final layer may be configured to output an estimate,
+conclusion, product, or other consequence of processing of
+one or more inputs by the machine learning model 3000.

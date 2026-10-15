@@ -1,0 +1,138 @@
+In embodiments, the digital twin presents an indicator of 1o intelligence and may provide a set of recommendations,
+[col 1]
+US 12,567,082 B2
+109
+In embodiments, the digital twin presents an indicator of
+the type of activity based on the output of the artificial
+intelligence system.
+In embodiments, the machine vision system includes an
+artificial intelligence system that is trained to recognize a
+safety hazard involving a value chain entity based on a
+training data set that includes a set of images of value chain
+network activities and a set of value chain network safety
+outcomes.
+the hazard based on the output of the artificial intelligence
+system.
+In embodiments, the machine vision system includes an
+artificial intelligence system that is trained to predict a delay
+based on a training data set that includes a set of images of 15
+value chain network activities and a set of value chain
+networktiming outcomes.
+In embodiments, the digital twin presents an indicator of
+a likelihood of delay based on the output of the artificial
+intelligence system. 20
+As noted elsewhere herein and in documents incorporated
+by reference, artificial intelligence (such as any of the
+techniques or systems described throughout this disclosure)
+in connection with value chain network entities 652 and
+related processes and applications may be used to facilitate, 25 
+among other things: (a) the optimization, automation and/or
+control of various functions, workflows, applications, fea-
+tures, resource utilization and other factors, (b) recognition
+or diagnosis of various states, entities, patterns, events,
+contexts, behaviors, or other elements; and/or (c) the fore-  30
+casting ofvarious states, events, contexts or other factors. As
+artificial intelligence improves, a large array of domain-
+specific and/or general artificial intelligence systems have
+become available and are likely to continue to proliferate. As
+developersseek solutionstodomain-specificproblems, such 35
+as ones relevant to value chain entities 652 and applications
+630 described throughout this disclosure they face chal-
+lenges in selecting artificial intelligence models (such as
+what set of neural networks, machine learning systems,
+expert systems, ortheliketo select)and in discovering and 4o
+selecting what inputs may enable effective and efficient use
+of artificial intelligence for a given problem. As noted above,
+opportunity miners 1460 may assist with the discovery of
+opportunities for increased automation and intelligence;
+however, once opportunities are discovered, selection and 45 
+configuration of an artificial intelligence solution still pres-
+ents a significant challenge, one that is likely to continue to
+grow as artificial intelligence solutions proliferate.
+One set of solutions to these challenges is an artificial
+intelligence store 3504 that is configured to enable collec- 50
+tion, organization, recommendation and presentation of rel-
+evant sets of artificial intelligence systems based on one or
+more attributes of a domain and/or a domain-related prob-
+lem. In embodiments, an artificial intelligence store 3504
+may include a set of interfaces to artificial intelligence 55
+systems, such as enabling the download of relevant artificial
+intelligence applications, establishment of links or other
+connections to artificial intelligence systems (such as links
+to cloud-deployed artificial intelligence systems via APIs,
+ports, connectors, or other interfaces) and the like. The 60
+artificial intelligence store 3504 may include descriptive
+content with respect to each of a variety of artificial intel-
+ligence systems, such as metadata or other descriptive
+material indicating suitability of a system for solving par-
+ticular types of problems (e.g, forecasting, NLP, image 65
+recognition, pattern recognition, motion detection, route
+optimization, or many others) and/or for operating on
+[col 2]
+110
+domain-specific inputs, data or other entities. In embodi-
+ments, the artificial intelligence store 3504 may be organized
+by category, such as domain, input types, processing types,
+output types, computational requirements and capabilities,
+cost, energy usage, and other factors. In embodiments, an
+interface to the application store3504 may take input from
+a developer and/or from the platform (such as from an
+opportunity miner 1460) that indicates one or more attri-
+butes of a problem that may be addressed through artificial
+such as via an artificial intelligence attribute search engine,
+for a subset of artificial intelligence solutions that may
+represent favorable candidates based on the developer's
+domain-specific problem.
+Search results or recommendations may, in embodiments,
+be based at least in part on collaborative filtering, such as by
+asking developers to indicate or select elements of favorable
+models, as well as by clustering, such as by using similarity
+matrices, k-means clustering, or other clustering techniques
+that associate similar developers, similar domain-specific
+problems, and/or similar artificial intelligence solutions. The
+artificial intelligence store 3504 may include e-commerce
+features, such as ratings, reviews, links to relevant content,
+and mechanisms for provisioning, licensing, delivery and
+payment (including allocation of payments to affiliates and
+or contributors), including ones that operate using smart
+contract and/or blockchain features to automate purchasing,
+licensing, payment tracking, settlement of transactions, or
+other features.
+Referring to FIG. 43, the artificial intelligence system
+1160 may define a machine learning model 3000 for per-
+forming analytics, simulation, decision making, and predic-
+tion making related to data processing, data analysis, simu-
+lation creation, and simulation analysis of one or more of the
+value chain entities 652. The machine learning model 3000
+is an algorithm and/or statistical model that performs spe-
+cific tasks without using explicit instructions, relying instead
+on patterns and inference. The machine learning model 3000
+builds one or more mathematical models based on training
+data to make predictions and/or decisions without being
+explicitly programmed to perform the specific tasks. The
+machine learning model 3000 may receive inputs of sensor
+data as training data, including event data 1034 and state
+data 1140 related to one or more of the value chain entities
+652. The sensor data input to the machine learning model
+3000 may be used to train the machine learning model 3000
+to perform the analytics, simulation, decision making, and
+prediction making relating to the data processing, data
+analysis, simulation creation, and simulation analysis of the
+one or more of the value chain entities 652. The machine
+learning model 3000 may also use input data from a user or
+users of the information technology system. The machine
+learning model 3000 may include an artificial neural net-
+work, a decision tree, a support vector machine, a Bayesian
+network, a genetic algorithm, any other suitable form of
+machine learning model, or a combination thereof. The
+machine learning model 3000 may be configured to learn
+through supervised learning, unsupervised learning, rein-
+forcement jearning, self-learning, feature learning, sparse
+dictionary learning, anomaly detection, association rules, a
+combination thereof, or any other suitable algorithm for
+learning.
+The artificial intelligence system 1160 may also define the
+digital twin system 1700 to create a digital replica of one or
+more of the value chain entities 652. The digital replica of
+the one or more of the value chain entities 652 may use
+substantially real-time sensor data to provide for substan-

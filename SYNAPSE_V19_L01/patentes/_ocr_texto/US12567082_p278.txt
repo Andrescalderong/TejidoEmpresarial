@@ -1,0 +1,137 @@
+a parameter set based on the respective outcomes associated 55 critical situation (e.g., failure state, dangerous condition, or
+[col 1]
+US 12,567,082 B2
+233
+photos, maps of product distribution, graphs of anticipated
+sales), forecasting data (e.g., market growth expected), or
+some other type of data and assemble such information in a
+presentation format, such as presentation slides, white paper
+template, speech talking points, press release, or some other
+summary format that may form the basis of the presentation
+or be distributed in conjunction with the presentation and/or
+its marketing.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to track and report on stakeholder communications
+(e.g., reports, Board requests, investor requests) related to
+the executive department. The CEO digital twin 8302 may
+present, store, analyze, reconcile and/or report on executive
+activities related to parties with whom the executive depart-
+15
+ment is contracting, cooperating with, reporting to and so
+forth, such as key personnel, outside contractors, the press,
+the Board of Directors, or others.
+In embodiments, the CEO digital twin 8302 may be
+configured to simulate one or more aspects of the enterprise. 20
+Such simulations may assist the user (e.g. the CEO) in
+making executive level decisions. For example, simulations
+ofa proposed executive initiative may be tested, for example
+using the modeling, machine learning, and/or AI techniques,
+as described herein, by simulating temporal effects on ini- 25
+tiatives (e.g., introduction of a new product), varying finan-
+cial parameters (e.g. potential investment levels), targeting
+parameters (e.g, geographic, demographic, or the like),
+and/or other suitable executive parameters. In embodiments,
+the digital twin simulation system 81l6 may receive a 30
+request to perform an executive simulation requested by the
+CEO digital twin 8302, where the request indicates one or
+more parameters that are to be varied in one or more
+enterprise digital twins. In response, the digital twin simu-
+lationsystem8116mayreturnthesimulationresultstothe 35
+CEO digital twin 8302, which in turn outputs the results to
+the user via the client device display. In this way, the user
+may be provided with various outcomes corresponding to
+different parameter configurations. For example, a user may
+request a set of simulations to be run to test different supply 40
+chain strategies to see how the different strategies affect the
+throughput of a manufacturing facility and the overall
+impact on the profits and losses of the enterprise. The digital
+twin simulation system 8116 may perform the simulations
+by varying the different supply chain strategies and may 45 s
+output the throughputs and P&L forecasts for each respec-
+tive supply chain strategy. In some embodiments, the user
+may select a parameter set based on the various outcomes,
+and iterate simulations based at least on the varied prior
+outcomes. Drawing from the previous example, the user 50
+may decide to select the supply chain strategy that maxi-
+mizes P&L forecasts but does not adversely affect through-
+put of the manufacturing facility. In some embodiments, an
+executive agent may be trained to recommend and/or select
+with each respective parameter set.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to store, aggregate, merge, analyze, prepare, report
+and distribute material relating to an executive strategy,
+executive planning, executive activities, and/or executive 60
+initiatives. For example, the CEO digital twin 8302 may be
+associated with a plurality of databases or other repositories
+of financial materials, summaries and reports and analytics,
+including such materials, summaries and reports and ana-
+lytics related to prior executive activity (e.g., prior quarterly 65
+partners, co-developments, and the like), each of which may
+[col 2]
+234
+befurtherassociatedwithfinancial and performancemetrics
+pertaining to the campaign and which are also accessible to
+the CEO digital twin 8302.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to store, aggregate, merge, analyze, prepare, report
+and distribute material relating to financial reporting, rat-
+ings, rankings, financial trend data, income data, or other
+data related to an executive's responsibilities. A CEO digital
+twin 8302 may link to, interact with, and be associated with
+external data sources, and able to upload, download, aggre-
+gate external data sources, including with the EMP's inter-
+nal data, and analyze such data, as described herein. Data
+analysis, machine learning, AI processing, and other analy-
+sis may be co0rdinated between the CEO digital twin 8302
+and an analytics team based at least in part on using the
+artificial intelligence services system 8010. This cooperation
+and interaction may include assisting with seeding execu-
+tive-related data elements and domains in the enterprise data
+store 8012 for use in modeling, machine learning, and AI
+processing to identify an optimal business strategy, or some
+other executive-relating metric or aspect, as well as identi-
+fication of the optimal data measurement parameters on
+which to base judgement of an executive initiative's success.
+Examples of data sources 8020 that may be connected to,
+associated with, and/oraccessed from the CEO digital twin
+8302 may include, but are not limited to, the sensor system
+8022 having sensors that sensor data from facilities (e.g.,
+manufacturing facilities, shipping and logistics facilities,
+transportation facilities, agricultural facilities, resource
+extraction facilities, computing facilities, and many others)
+and/or other physical entities of the enterprise, the sales
+database 8024 that is updated with sales figures in real time,
+the CRM system 8026, the content marketing platform 8028,
+financial databases 8030, surveys 8032, org charts 8034,
+workflow management systems 8036, third-party data
+sources 8038, customer databases 8040 that store customer
+data, and/or third-party data sources 8038 that store third-
+party data, edge devices 8042 that report data relating to
+physical assets (e.g., smart machinery/manufacturing equip-
+ment, sensor kits, autonomous vehicles of the enterprise,
+wearable devices, and the like), enterprise resource man-
+agement systems 8044, HR systems 8046, content manage-
+ment systems 8016, and the like). In embodiments, the
+digital twin system 8004 abstracts the different views (or
+states) within the digital twin to the appropriate granularity.
+For instance, the digital twin system 8004 may have access
+to all the sensor data collected on behalf of the enterprise as
+well as access to real-time sensor data streams. Typically,
+such data is far too granular for an executive such as a CEO,
+and sensor data readings are often of little importance to the
+CEO unless associated with a mission critical state or
+operation. In this example, however, if the sensor readings
+from a particular physical asset (e.g., a critical piece of
+manufacturing equipment) are indicative of a potentially
+the like), then the analytics that indicate the potentially
+critical situation may become very important to the CEO.
+Thus, the digital twin system 8004 may, when building the
+appropriate perspective for the CEO, include a state indica-
+tor of the physical asset in the CEO digital twin. In this way,
+the CEO can drill down into the state indicator of the
+physical asset to view the potentially critical situation at a
+greater granularity (e.g., the machinery and an analysis of
+the sensor data used to identify the situation).
+In embodiments, a CEO digital twin 8302 may be con-
+figured to monitor an organization's performance based at
+least in part on real time operations data and the use of the

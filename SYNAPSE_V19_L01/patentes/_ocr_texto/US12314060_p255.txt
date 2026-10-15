@@ -1,0 +1,136 @@
+routing. In embodiments, the routing includes latency-sen- 2o and other elements for an information technology system
+[col 1]
+US 12,314,060 B2
+145
+programmed routing, random linear network coding routing,
+traffic-based routing, spectrum-based routing, RF condition-
+based routing, energy-based routing, latency-sensitive rout-
+ing, protocol compatibility based routing, dynamic spectrum
+15
+routing, and others.
+In embodiments, the routing includes priority-based rout-
+ing. In embodiments, the routing includes master controller
+routing. In embodiments, the routing includes least cost
+routing. In embodiments, the routing includes rule-based
+routing. In embodiments, the routing includes genetically
+programmed routing.
+In embodiments, the routing includes random linear net-
+work coding routing. In embodiments, the routing includes
+traffic-based routing. In embodiments, the routing includes
+spectrum-based routing.
+In embodiments, the routing includes RF condition-based
+routing. In embodiments, the routing includes energy-based
+sitive routing.
+In embodiments, the routing includes protocol compat-
+ibility-based routing.
+In embodiments, the routing includes dynamic spectrum
+access routing. In embodiments, the routing includes peer- 25
+to-peer negotiated routing. In embodiments, the routing
+includes queue-based routing.
+In embodiments, the status information for the value
+chain network involves a wide range of states, events,
+workflows,activities,occurrences,orthe like,such as,3o
+without limitation, traffic status, congestion status, band-
+width status, operating status, workflow progress status,
+incident status, damage status, safety status, power avail-
+ability status, worker status, data availability status, pre-
+dicted system status,shipmentlocation status,shipment35
+timing status, delivery status, anticipated delivery status,
+environmental condition status, system diagnostic status,
+system fault status, cybersecurity status, compliance status,
+demand status, supply status, price status, volatility status,
+need status, interest status, aggregate status for a group or 40
+population, individual status, and many others.
+In embodiments, the status information involves traffic
+status. In embodiments, the status information involves
+congestion status. In embodiments, the status information
+involves bandwidth status. In embodiments, the status infor- 45
+mation involves operating status. In embodiments, the status
+information involves workflow progress status.
+In embodiments, the status information involves incident
+status. In embodiments, the status information involves
+damage status. In embodiments, the status information 5o 
+involves safety status.
+In embodiments, the status information involves power
+availability status. In embodiments, the status information
+involves worker status. In embodiments, the status informa-
+tion involves data availability status. 55
+In embodiments, the status information involves predicted
+system status. In embodiments, the status information
+involves shipment location status. In embodiments, the
+status information involves shipment timing status. In
+embodiments, the status information involves delivery sta- 6o 
+tus.
+In embodiments, the status information involves antici-
+pated delivery status. In embodiments, the status informa-
+tion involves environmental condition status.
+In embodiments,the status informationinvolves system 65
+diagnostic status. In embodiments, the status information
+involves system fault status. In embodiments, the status
+[col 2]
+146
+information involves cybersecurity status. In embodiments,
+the status information involves compliance status.
+Dashboard for Managing Digital Twins
+Referring to FIG. 47, an embodiment of the platform 604
+is provided. As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+10 of adaptive intelligence facilities or adaptive intelligent
+systems 614 (including artificial intelligence 1160), a set of
+data storage facilities or systems 624, and a set of monitor-
+ing facilities or systems 808. The platform 604 may support
+a set of applications 614 (including processes, workflows,
+activities, events, use cases and applications) for enabling an
+enterprise to manage a set of value chain network entities
+652, such as from a point of origin to a point of customer use
+of a product 1510, which may be an intelligent product.
+Thus, provided herein are methods, systems, components
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+dashboard for managing a set of digital twins, wherein at
+least one digital twin represents a set of supply chain
+entities, workflows and assets and at least one other digital
+twin represents a set of demand management entities and
+workflows.
+In embodiments, the VCNP 604 may further include a
+dashboard 4200 for managing a set of digital twins 1700. In
+embodiments, this may include different twins, such as
+where one digital twin 1700 represents a set of supply chain
+entities, workflows and assets and another digital twin 1700
+represents a set of demand management entities and work-
+flows. In some example embodiments, managing a set of
+digital twins 1700 may refer to configuration (e.g., via the
+dashboard 4200) as described in the disclosure.For
+example, the digital twin 1700 may be configured through
+use of a digital twin configuration system to set up and
+manage the enterprise digital twins and associated metadata
+of an enterprise, to configure the data structures and data
+listening threads that power the enterprise digital twins, and
+to configure features of the enterprise digital twins, includ-
+ing access features, processing features, automation fea-
+tures, reporting features, and the like, each of which may be
+affected by the type of enterprise digital twin (e.g, based on
+the role(s) that it serves, the entities it depicts, the workflows
+that it supports or enables and the like). In example embodi-
+ments, the digital twin configuration system may receive the
+types of digital twins that may be supported for the enter-
+prise, as well as the different objects, entities, and/or states
+that are to be depicted in each type of digital twin. For each
+type of digital twin, the digital twin configuration system
+may determine one or more data sources and types of data
+that feed or otherwise support each object, entity, or state
+that is depicted in the respective type of digital twin and may
+determine any internal or external software requests (e.g.
+API calls) that obtain the identified data types or other
+suitable data acquisitions mechanisms, such as webhooks,
+that may configured to automatically receive data from an
+internal or external data source In some embodiments, the
+digital twin configuration system may determine internal

@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+147
+to a set of barges. In embodiments, the entities and work-
+flows relate to a set of warehouses. In embodiments, the
+entities and workflows relate to a set of maritime ports.
+In embodiments, the entities and workflows relate to a set
+of airports. In embodiments, the entities and workflows
+relate to a set of airways. In embodiments, the entities and
+workflows relate to a set of waterways. In embodiments, the
+entities and workflows relate to a set of roadways.
+In embodiments, the entities and workflows relate to a set
+of railways. In embodiments, the entities and workflows
+relate to a set of bridges. In embodiments, the entities and
+workflows relate to a set of tunnels. In embodiments, the
+entities and workflows relate to a set of online retailers.
+In embodiments, the entities and workflows relate to a set
+of ecommerce sites. In embodiments, the entities and work-
+flows relate to a set of demand factors. In embodiments, the
+entities and workflows relate to a set of supply factors. In
+embodiments, the entities and workflows relate to a set of
+delivery systems. 20
+In embodiments, the entities and workflows relate to a set
+of floating assets. In embodiments, the entities and work-
+flows relate to a set of points of origin. In embodiments, the
+entities and workflows relate to a set of points of destination.
+In embodiments, the entities and workflows relate to a set of 25 r
+points of storage.
+In embodiments, the entities and workflows relate to a set
+of points of product usage. In embodiments, the entities and
+workflows relate to a set of networks. In embodiments, the
+entities and workflows relate to a set of information tech- 30
+nology systems. In embodiments, the entities and workflows
+relate to a set of software platforms.
+In embodiments, the entities and workflows relate to a set
+of distribution centers. In embodiments, the entities and
+workflows relate to a set of fulfillment centers. In embodi- 35
+ments, the entities and workflows relate to a set of contain-
+ers. In embodiments, the entities and workflows relate to a
+set of container handling facilities.
+In embodiments, the entities and workflows relate to a set
+of customs.In embodiments,the entitiesand workflows 40
+relate to a set of export control. In embodiments, the entities
+and workflows relate to a set of border control. In embodi-
+ments, the entities and workflows relate to a set of drones.
+In embodiments, the entities and workflows relate to a set
+of robots. In embodiments, the entities and workflows relate 45
+to a set of autonomous vehicles. In embodiments, the entities
+and workflows relate to a set of hauling facilities. In embodi-
+ments, the entities and workflows relate to a set of drones,
+robots and autonomous vehicles. In embodiments, the enti-
+ties and workflows relate to a set of waterways. In embodi- 5o t
+ments, the entities and workflows relate to a set of port
+infrastructure facilities.
+In embodiments, the set of digital twins may include, for
+example and without limitation, distribution twins, ware-
+housing twins, port infrastructure twins, shipping facility 55
+twins, operating facility twins, customer twins, worker
+twins, wearable device twins, portable device twins, mobile
+device twins, process twins, machine twins, asset twins,
+product twins, point of origin twins, point of destination
+twins, supply factor twins, maritime facility twins, floating 60
+asset twins, shipyard twins, fulfllment twins, delivery sys-
+tem twins, demand factors twins, retailer twins, ecommerce
+twins, online twins, waterway twins, roadway twins, road-
+way twins, railway twins, air facility twins, aircraft twins,
+ship twins, vehicle twins, train twins, autonomous vehicle 65
+twins, robotic system twins, drone twins, logistics factor
+twins and many others.
+[col 2]
+148
+Microservices Architecture
+Referring to FIG. 48, an embodiment of the platform 604
+is provided.As with other embodiments, the platform 604
+may employ a micro-services architecture with the various
+data handling layers 608, a set of network connectivity
+facilities 642 (which may include or connect to a set of
+interfaces 702 of various layers of the platform 604), a set
+of adaptive intelligence facilities or adaptive intelligent
+systems 614, a set of data storage facilities or systems 624.
+and a set of monitoring facilities or systems 808. The
+platform 604 may support a set of applications 614 (includ-
+ing processes, workflows, activities, events, use cases and
+applications) for enabling an enterprise to manage a set of
+value chain network entities 652, such as from a point of
+origin to a point of customer use of a product 1510, which
+may be an intelligent product.
+Thus, provided herein are methods, systems, components
+and other elements for an information technology system
+that may include: a cloud-based management platform with
+a micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+from a point of origin to a point of customer use; and a set
+porting at least one supply chain application and at least one
+demand management application, wherein the applications
+of the application layer use a common set of services among
+a set of data processing services, data collection services,
+and data storage services.
+In embodiments, the VCNP 604 may further include a set
+of microservices layers including an application layer sup-
+porting at least two applications among a set of demand
+management applications 1502, a set of supply chain appli-
+cations 1500, a set of intelligent product applications 1510,
+a set of asset management applications 1530 and a set of
+enterprise resource management applications 1520 for a
+category of goods.
+A microservices architecture provides several advantages
+to the platform 604. For example, one advantage may be the
+ability to leverage creation of improved microservices cre-
+ated by others such that developer may only need to define
+inputs and outputs such that the platform may use readily
+adapted services created by others. Also, use of the micro-
+services architecture may provide ability to modularize
+microservices into collections that may be used to achieve
+tasks. For example, a goal to determine what is happening in
+a warehouse may be achieved with a variety of microser-
+vices with minimal cost such as vision-based service, series
+of regular prompts that may ask and receive, reading off of
+event logs or feeds, and the like. Each one of these micro-
+services may be a distinct microservice that may be easily
+plugged in and used. If a particular microservice does not
+work effectively, the microservice may be replaced easily
+with another service with minimal impact to other compo-
+nents in the platform, Other microservices that may be used
+include recommendation service, collaborative filtering ser-
+vice, deep learning with semi-supervised learning service,
+etc. The microservice architecture may provide modularity
+at each stage in building a full workflow. In an example
+embodiment, a microservice may be built for multiple
+applications that may be consumed including shared data
+steam and anything else enabled by the microservices archi-
+tecture.

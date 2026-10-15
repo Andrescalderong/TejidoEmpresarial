@@ -1,0 +1,135 @@
+behalf of and/or suggests actions to a respective user having 2o of microservices that are accessible to the control tower.
+member role, a CDO (chief data oficer) role, a CPO (chief 35 herein by reference. In embodiments, the enterprise data
+[col 1]
+US 12,277,524 B2
+245
+tions, and the like), or some other type of collaboration tool.
+In these embodiments, users may import data from a digital
+twin (e.g., an executive twin) into a medium, such as into a
+word processor document or a spreadsheet. For example,
+when preparing a quarterly report, a CFO may import data
+from a CFO digital twin directly into the document contain-
+ing the quarterly report. Collaboration tools are described in
+greater detail throughout the disclosure. In embodiments, a
+digital twin may import data from one or more other
+collaboration environments into the digital twin, such that 10
+collaboration entities can be viewed alongside other entities
+represented in the digital twin. For example, a GoogleTM
+document containing an analytic report on the performance
+of a logistics system may be presented in a view of the
+elements of the logistics system in a digital twin. 15
+In embodiments, the EMP trains and deploys expert
+agents on behalf of enterprise users. In embodiments, an
+expert agent is an Al-based sofiware agent, using, for
+example, robotic process automation, that performs tasks on
+a defined role that requires some expertise in a particular
+field. In embodiments, the expert agent may be trained
+within the EMP or otherwise, such as based on interactions
+of the user with a client application, such as actions taken by
+a user with respect to an executive digital twin, interactions 25
+with sensor data or other data collected by the EMP, inter-
+actions with systems or components of a workflow, and the
+like. In embodiments, an expert agent may be an executive
+agent trained for executive roles. For example, an executive
+agent may be trained for performing or recommending
+30t
+actions to a user in an executive role, such as CEO role, a
+COO role, a CFO role, a CTO role, a CIO role, a CTO role,
+a CMO (chief marketing officer) role, a GC (general coun-
+sel) role, an HR (human resources) executive role, a board
+product officer) role, and the like. In embodiments, the EMP
+includes capabilities to train expert agents for other roles
+within an enterprise, such as an investor role, an engineering
+manager role, a project manager role, an operations manager
+role, and a business development role, a factory manager
+role, a factory operations role, a factory worker role, a power
+plant manager role, a power plant operations role, a power
+plant worker role, an equipment service role, an equipment
+maintenance operator role, a logistics manager role, a supply
+chain manager, and the like. 45
+In embodiments, the expert agents are trained based on
+training data that includes actions taken by users and fea-
+tures relating to the circumstances surrounding the action
+(e.g., the type of action taken, the scenario that prompted the
+action, and the like). In embodiments, the EMP receives 5o 
+telemetry data from a client application associated with a
+particular user and learns the workflows performed by the
+particular user based on the telemetry data and the surround-
+ing circumstances. For example, the user may be a COO that
+is presented a COO digital twin. Among the responsibilities 55
+of the COO may be scheduling maintenance and replace-
+ment of equipment or other infrastructure in a facility. The
+ states depicted in the COO digital twin may include depic-
+tions of the condition of different pieces of equipment or
+infrastructure within the facility. In this example, the COO 60
+may schedule maintenance via the digital twin when a piece
+of equipment is determined to be in a first condition (e.g., a
+deteriorating condition) and may issue a request to the CFO
+via the COO digital twin for authorization of finances to
+replace the piece of equipment when the equipment is 65
+determined to be in a second condition (e.g., a critical
+condition). The executive agent may be trained to identify
+[col 2]
+246
+the COO's tendencies based on the COO's previous inter-
+action with the COO digital twin. Once trained, the execu-
+tive agent may automatically request replacements from the
+CEO when a particular piece of equipment is determined to
+be in the second condition and may automatically schedule
+maintenance if the piece of equipment is in the first condi-
+tion. Further discussion of executive agents is provided
+throughout the disclosure. While reference is made to an
+expert agent being trained for a particular user, it is under-
+ stood that an expert agent may be trained using the actions
+of one or more different users and may be used in connection
+with users that were not involved in training the expert
+agent. Expert agents, including executive agents, are dis-
+cussed in greater detail throughout the disclosure.
+FIG. 68 is a schematic of an example environment of an
+enterprise management platform 8000. In embodiments, the
+EMP 8000 may be integrated with or accessible to a control
+tower via an application programming interface (API). In
+some of these embodiments, the EMP 8000 may be a series
+In embodiments, the EMP 8000 includes an enterprise
+configuration system 8002, a digital twin system 8004, a
+collaboration suite 8006, an expert agent system 8008, and
+an intelligence service system 8010. In embodiments, the
+EMP 8000 includes an API system 8014 that facilitates the
+transfer of data between one or more external systems and
+the EMP 8000. In some embodiments, the EMP8010
+includes an enterprise data store 8012 that stores data
+the digital twin system 8004, the collaboration suite 8006,
+and/or the expert agent system 8008. The enterprise data
+store 8012 may store any of a wide variety of data, such as
+any data involved in the data pipeline described above and
+throughout this disclosure and the documents incorporated
+store 8012 may store data that is being used to update digital
+twins in real-time or substantially real time. In embodi-
+ments, the enterprise data store 8012 may store databases,
+file systems, folders, fles, documents, transient data (e.g.
+4oreal-timedata orsubstantiallyreal-timedata),sensordata,
+and the like.
+In embodiments, the enterprise configuration system 8002
+provides an interface (e.g., a graphical user interface (GUI))
+otherwise provide data relating to an enterprise. As used
+herein, an enterprise may refer to a for-profit or non-profit
+organization, company, governmental agency, non-govern-
+ing organization, or the like. While described as an on-
+boarding user, the configuration of the enterprise manage-
+ment platform 8000 for a particular enterprise may be
+associated with the enterprise, individuals associated with
+the EMP, and/or individuals associated with a third-party,
+such as a third host of a hosted EMP for an enterprise (which
+may be deployed on cloud resources, platform-as-a-service,
+software-as-a-service, multi-tenant data resources and/or
+similar resources) and/or a service provider.
+In embodiments, the on-boarding user may define the
+types of enterprise digital twins that may be generated by the
+digital twin system 8004 on behalf of the enterprise being
+on-boarded. in embodiments, the on-boarding user may
+select different types of digital twins that will be supported
+forthe enterprise by the EMP 8000via a GUI presented by
+the enterprise configuration system 8002. For example, the
+user may select different types role-based digital twins from
+a menu of digital twin types, where the different types of
+role-based digital twins include executive digital twins. As

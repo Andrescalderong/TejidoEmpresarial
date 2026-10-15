@@ -1,0 +1,135 @@
+navigation aids within the water or on land to facilitate the 10 outcomes 1040 pursued by use of the platform 604.
+[col 1]
+US 12,314,060 B2
+183
+chain network management platform 604 monitors, controls,
+and otherwise enables management (and in some cases
+ autonomous or semi-autonomous behavior) of a wide range
+ofvalue chain network 668 processes, workflows, activities,
+events and applications 630 applicable in the maritime
+environment. The maritime facilities 622 can include one or more ships
+7060 of various sizes to service the facilities. The maritime
+facilities 622 can include one or more fixed or moored
+movement ships of various sizes and vehicles on land. In
+embodiments, the maritime facilities 622 can be configured
+as a seaport in that it can be configured to accept deep-draft
+ships with a draft of 20 feet or more. In embodiments, some
+of the larger maritime facilities 622 can include areas outside 15
+the boundaries of the seaports, shipyard, maritime ports, and
+the like that are related to port operations or to an intermodal
+connection to the seaports, shipyard, maritime ports, and the
+like.
+In embodiments, the management platform 604 can man- 20 t
+age port gate-in and gate-out improvements to the logistics
+of the flow of assets and cargoes around the maritime
+facilities 622. In embodiments, the management platform
+604 can manage road improvements both within and con-
+necting to the maritime facilities 622. In embodiments, the 25
+both within and connecting to the maritime facilities 622. In
+embodiments, the management platform 604 can manage
+berth improvements in the maritime facilities 622 including
+to docks, wharves, piers and the like. In embodiments, the 30
+management platform 604 can manage berth improvements
+including dredging at the berths, approach and departure
+areas adjacent to the berth, and in areas around maritime
+facilities. In embodiments, the management platform 604
+can manage cargo moving equipment used on land.In 35
+embodiments, the management platform 604 can manage
+facilities necessary to improve cargo transport including
+ silos, elevators, conveyors, container terminais, roll-on/roll-
+off facilities including parking garages necessary for inter-
+modal freight transfer, warehouses including refrigerated 40
+facilities, bunkering facilities for oil or gas products, lay-
+down areas, transit sheds, and the like. In embodiments, the
+management platform 604 can manage utilities necessary for
+standard operations including lighting, stormwater, and the
+like that can be incidental to a larger set of maritime 45
+facilities. In embodiments, the management platform 604
+hardware and software including all technologies used to
+promote efficient port movements including routing and
+communications for vessels, trucks, and rail cargo move- 50 
+ments as well as flow-through processing for import/export
+requirements, storage and tracking, and asset/equipment
+management. In embodiments, the management platform
+604 can manage phytosanitary treatment facilities to support
+phytosanitary treatment requirements. In embodiments, the 55
+management platform 604 can manage, configure and re-
+configure fully automated cargo-handling equipment.
+In embodiments, the adaptive intelligent systems layer
+614 may include a set of systems, components, services and
+other capabilities that collectively facilitate the coordinated
+development and deployment of intelligent systems, such as
+ones that can enhance one or more of the applications 630
+at the application platform 604; ones that can improve the
+performance of one or more of the components, or the
+overall performance (e.g., speed/latency, reliability, quality
+of service, cost reduction, or other factors) of the connec-
+tivity facilities 642; ones that can improve other capabilities
+[col 2]
+184
+within the adaptive intelligent systems layer 614; ones that
+improve the performance (e.g., speed/latency, energy utili-
+zation, storage capacity, storage efficiency, reliability, secu-
+rity, or the like) of one or more of the components, or the
+overall performance, of the value chain network-oriented
+data storage systems 624; ones that optimize control, auto-
+mation, or one or more performance characteristics of one or
+more value chain network entities 652; or ones that gener-
+ally improve any of the process and application outputs and
+These adaptive intelligent systems 614 may be deployed
+in and among the maritime facilities 622 and floating assets
+620. These adaptive intelligent systems 614 may include a
+robotic process automation system 1442, a set of protocol
+adaptors 1110, a packet acceleration system 1410, an edge
+intelligence system 1430 (which may be a self-adaptive
+system), an adaptive networking system 1430, a set of state
+and event managers 1450, a set of opportunity miners 1460
+a set of artificial intelligence systems 1160, a set of digital
+twin systems 1700, a set of entity interaction management
+systems 1902 (such as for setting up, provisioning, config-
+uring and otherwise managing sets of interactions between
+and among sets of value chain network entities 652 in the
+value chain network 668), and other systems.
+In embodiments, a set of digital twin systems 1700 may
+be deployed for each of the maritime facilities 622 and each
+of the floating assets 620. Referring to FIG. 6, the connected
+value chain network 668 benefits from digital twin systems
+deployed throughout the value chain network management
+platform 604 to facilitate the management, visualization, and
+modeling of the orchestration of a variety of factors involved
+in planning, monitoring, controlling, and optimizing various
+entities and activities involved in the value chain network
+668, such as supply and production factors, demand factors,
+logistics and distribution factors, and the like. By virtue of
+the unified platform 604 for monitoring and managing
+supply factors and demand factors, digital twins for status
+information can be shared about and between various enti-
+ties to facilitate modeling and analytics and to provide for
+visualization of changing demand factors becomes opera-
+tional realities, as orders are generated and fulflled, and as
+products are created and moved through a supply chain.
+In embodiments, the value chain monitoring systems
+layer 614 and its data collection systems 640 may include a
+wide range of systems for the collection of data from the
+maritime facilities 622 and the floating assets 620. This layer
+may include, without limitation, real time monitoring sys-
+tems 1520 (such as onboard monitoring systems like event
+and status reporting systems on ships and other floating
+assets, on delivery vehicles, on trucks and other hauling
+assets, and in shipyards, ports, warehouses, distribution
+centers and other locations; on-board diagnostic (OBD) and
+telematics systems on floating assets, vehicles and equip-
+ment; systems providing diagnostic codes and events via an
+event bus, communication port, or other communication
+system; monitoring infrastructure (such as cameras, motion
+sensors, beacons, RFID systems, smart lighting systems,
+satellite connections, asset tracking systems, person tracking
+systems, and ambient sensing systems located in various
+environments where value chain activities and other events
+take place), as well as removable and replaceable monitoring
+systems on maritime assets and cargo or other assets con-
+tained therein or in transit thereon, such as portable and
+mobile data collectors, RFID and other tag readers, smart
+phones, tablets and other mobile devices that are capable of
+data collection and the like); software interaction observa-
+tion systems 1500 that can be deployed into portable and

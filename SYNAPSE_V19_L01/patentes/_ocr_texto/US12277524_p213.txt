@@ -1,0 +1,138 @@
+[col 1]
+US 12,277,524 B2
+251
+viewing financial data, members of the engineering team
+may be restricted in accessing financial related data, or the
+like. Similar rules may be applied to access to features, such
+as analytic models, artificial intelligence systems, intelligent
+agents, and the like, including role-based or identity-based
+control of the ability to view results, to configure inputs, to
+configure or adjust models (e.g., weights, inputs, or process-
+ing functions), to undertake control actions, or the like. In
+some embodiments, the EMP may utilize the organizational
+digital twin when determining the level of access a particular 10
+individual may be granted and/or whether to deny certain
+types of access to the individual. In some embodiments, the
+access rights may limit the types of data that particular users
+can access, such as information about each individual listed
+in the organizational digital twin (e.g-, salary, start date, 15
+availability, work status, and the like). For example, lower
+level employees may not be granted access to sensitive
+information, such as financial data, product strategies, mar-
+keting strategies, trade secrets, or the like. In some embodi-
+ments, certain users may be granted permission to change 20
+the access rights of other employees, which may be reflected
+in the organizational digital twin. For example, certain
+executives and managers may be granted permission to grant
+access rights to members of their respective teams when
+working on certain projects. 25
+In embodiments, the enterprise configuration system 8002
+receives an organization chart ("org chart") definition of an
+enterprise and generates an organizational digital twin based
+on the org chart definition. In embodiments, the org chart
+definition may define the business units/departments of the 30 t
+enterprise, the reporting structure of the enterprise, various
+roles of the enterprise/within each business unit, and the
+individuals in the respective roles. In some embodiments,
+the user can upload the enterprise's org chart to the EMP
+8000 via the enterprise configuration system 8002. Addi- 35 s
+tionally or alternatively, the user can define the structure of
+the org chart (e.g, roles, business units, reporting structure)
+and may populate the various roles with names and/or other
+identifiers of the individuals filling the respective roles
+defined in the org chart. In some embodiments, the enter-
+prise configuration system 8002 may access an enterprise
+resource planning system 8044 and/or an HR system 8046 of
+the enterprise to obtain organizational data of the enterprise,
+such as the roles of the enterprise, the individuals that fill the
+roles, the salaries of the individuals that fill the roles, the 45
+reporting structure of the enterprise, and the like. In these
+embodiments, the digital twin system 8004 (discussed
+below) may continue to communicate with the ERP system
+8044 and/or HR system 8046 to receive the data needed to
+maintain the organizational digital twin in a real-time or 5o r
+near-real-time manner.
+In embodiments,the enterpriseconfiguration system 8002
+(in co0peration with the digital twin system 8004, discussed
+below) may generate an organizational digital twin of the
+enterprise based on the org chart definition and the indi- 55 
+viduals that populate the roles within the org chart definition.
+In embodiments, a user may define one or more restrictions,
+permissions, and/or access rights of the individuals indicated
+in the organizational digital twin via the enterprise configu-
+ration system 8002. In embodiments, a restriction may 60
+define one or more types of data or features that a particular
+user or group of users is not allowed to access (either
+directly or in a digital twin), In embodiments,an access right
+may define one or more types of data or features that a
+particular user or group of users may access and the type of 65
+access that a user or group of users can access. In embodi-
+ments, a permission may define operations that a user or a
+[col 2]
+252
+group of users may perform with respect to the EMP 8000.
+In embodiments, one or more of the access rights, permis-
+sions, and restrictions may be defined geographically and/or
+temporally limited. For example, some types of data or
+features may only be viewed or otherwise accessed in
+certain areas (e.g., sensitive data may only be viewed in the
+corporate offices) or at certain times (e.g., during Board
+meetings). In embodiments, the restrictions, permissions,
+and/or access rights may be set with respect to roles or the
+users themselves. As such, defining access rights, permis-
+sions, and/or restrictions for a user or a group of users may
+also include defining access rights, permissions, and/or
+restrictions to a role and/or business unit within the enter-
+prise. In embodiments, the organizational digital twin may
+be deployed to manage the rights, permissions, and/or
+restrictions for the users of an enterprise. Furthermore, in
+embodiments, the organizational digital twin may define the
+types of role-based digital twins (and other enterprise digital
+twins) that various users may have access to. In some
+embodiments, the organizational digital twin may depict
+additional or alternativeinformation.
+In embodiments, the digital twin system 8004 is config-
+ured to generate, update, and serve enterprise digital twins of
+an enterprise. In some embodiments, the digital twin system
+8004 is configured to generate and serve role-based digital
+twins on behalf of an enterprise and may serve the role-
+based digital twins to a client device 8050 (e.g. a mobile
+device, a tablet, a personal computer, a laptop, AR/VR-
+enabled device, workflow-specific device or equipment, or
+the like). As discussed, during the configuration phase, a
+user may define the different types of data and the corre-
+sponding data sources, data sets, and features that are used
+to generate and maintain each respective type of the different
+types of enterprise digital twins. Initially, the digital twin
+ system 8004 configures the data structures that support each
+type of enterprise digital twin, including any underlying data
+sources/databases (e.g., SQL databases, graph databases,
+relational databases, distributed databases, blockchains, dis-
+tributed ledgers, data feeds, data streams, and the like) that
+store or produce data that is ingested by the respective
+enterprise digital twins. Once the data structures that support
+a digital twin are configured, the digital twin system 8004
+receives data from one or more data sources 8020. In
+embodiments, the digital twin system 8004 may structure
+and/or store the received data in one or more databases.
+When a specific digital twin is requested (e.g., by a user via
+a client application 8052 or by a software component of the
+EMP 8000), the digital twin system may determine the
+views that are represented in the requested digital twin and
+may generate the requested digital twin based on data from
+the configured databases and/or real-time data received via
+an API. The digital twin system 8004 may serve the
+requested digital twin to the requestor (e.g-, the client
+application or a backend software component of the EMP
+8000). After an enterprise digital twin is served, some
+real-time data received via the API system 8014. In embodi-
+ments an API may provide information to the data pipeline
+as to the type of data required for the digital twin, such that
+the data pipeline may be configured (by a user, or by an
+automated/intelligence systems) to handle the data effec-
+tively. For example, the data pipeline may be configured to
+deliver data over a data path that uses an appropriate
+protocol for efficient delivery, delivering the data over a
+cost-appropriate path (e.g., an inexpensive path for data that
+does not require low latency or real-time updating), or the
+like. Thus, in some embodiments, configuration of a digital

@@ -1,0 +1,128 @@
+[col 1]
+US2022/0058569A1
+129
+systems, and many others; computational systems, including
+edge computational systems, serverless computational sys-
+tems; and clients, servers, on-premises IT systems, cloud-
+based systems, and many others. Data may be transmitted
+and/or stored at points along this pipeline in raw form (such
+as in packets of raw data, with metadata, in streams, as
+events or transactions, as syndicated data, and in other
+forms) and/or in various processed forms, such as com-
+pressed data (including where compression is undertaken by
+trained artificial intelligence systems), summarized data
+(including where summarization is undertaking by trained
+artificial intelligence system), augmented data (such as by
+metadata and/or one or more analytic results), fused (e.g.,
+multiplexed with one or more other sources), or the like.
+Collection, processing, storage and or transmission may be
+automated by one or more intelligence services systems as
+disclosed elsewhere in this document and the documents
+incorporated by reference herein, such as to provide for
+improved reliability, quality-of-service, efficiency, or the
+like, such as by intelligent protocol selection for data paths
+among nodes, intelligent filtering of RF-domain wireless
+transmission, and the like. As an example, a set of vibration
+factory may report vibration signatures of various compo-
+nents of the industrial machines/equipment. Edge devices
+may be configured to fuse the sensor data from an environ-
+ment (e.g-, a factory, warehouse, distribution center, office
+building, or many others) with other data collected with
+respect to the environment, whereby the fused data is fed to
+the digital twin. The EMP may then update the digital twin
+with the fused data and an AI system may analyze the digital
+twin and/or the fused data to identify data items to report, the
+proper role(s) to report to (e.g., CEO, COO, CFO, or the
+like), and then may provide the report to the appropriate
+individual(s). Enterprise digital twins, including executive
+digital twins, are discussed in greater detail throughout the
+application.
+[1101]  In embodiments, the EMP may be configured to
+provide a set of collaboration tools that allow for collabo-
+ration between users (e.g., members of an organization
+and/or with third parties). In some embodiments, the col-
+laboration tools allow users to collaborate with respect to
+and/or within one or more enterprise digital twins. In some
+embodiments, users can interact while viewing the same
+digital twin or multiple digital twins showing different
+aspects of the enterprise, showing different views or features
+of the digital twin(s) and/or displaying information at dif-
+ferent granularities.
+[1102] In embodiments, the collaboration tools include a
+video conferencing service. In some of these embodiments,
+the video conferencing service includes a graphical user
+interface that allows a user to create subchats during a video
+conference. A subchat may refer to an embedded video
+conferencing session where the members of the subchat are
+selected from an ongoing video chat. In some embodiments,
+the video conferencing service allows users to participate in
+video conferences within a digital twin. For example, users
+may access an environment digital twin via a VR-head set,
+whereby the participants may view the environment digital
+twin" video conference. In embodiments, configuration of
+subchats may be created based on roles within an enterprise,
+such as where a role has authority to pull other roles into a
+subchat, such as roles that report to the authority role.
+[col 2]
+Feb.24,2022
+[1103] In embodiments, the collaboration tools include
+interactive white boards, productivity tools (e.g., word pro-
+cessors, spreadsheets applications, slide decks/presentation
+applications, and the like), or some other type of collabo-
+ration tool. In these embodiments, users may import data
+from a digital twin (e.g., an executive twin) into a medium,
+import data from a CFO digital twin directly into the
+document containing the quarterly report. Collaboration
+tools are described in greater detail throughout the disclo-
+sure. In embodiments, a digital twin may import data from
+one or more other collaboration environments into the
+digital twin, such that collaboration entities can be viewed
+alongside other entities represented in the digital twin. For
+example, a GoogleTM document containing an analytic
+presented in a view of the elements of the logistics system
+in a digital twin.
+[1104]In embodiments, the EMPtrains and deploys expert
+agents on behalf of enterprise users. In embodiments, an
+expert agent is an AI-based software agent, using, for
+example, robotic process automation, that performs tasks on
+behalf of and/or suggests actions to a respective user having
+a defined role that requires some expertise in a particular
+field. In embodiments, the expert agent may be trained
+within the EMP or otherwise, such as based on interactions
+of the user with a client application, such as actions taken by
+a user with respect to an executive digital twin, interactions
+with sensor data or other data collected by the EMP, inter-
+actions with systems or components of a workflow, and the
+like. In embodiments, an expert agent may be an executive
+agent trained for executive roles. For example, an executive
+agent may be trained for performing or recommending
+actions to a user in an executive role, such as CEO role, a
+COO role, a CFO role, a CTO role, a CIO role, a CTO role,
+a CMO (chief marketing officer) role, a GC (general coun-
+sel) role, an HR (human resources) executive role, a board
+member role, a CDO (chief data officer) role, a CPO (chief
+product officer) role, and the like. In embodiments, the EMP
+includes capabilities to train expert agents for other roles
+within an enterprise, such as an investor role, an engineering
+manager role, a project manager role, an operations manager
+role, and a business development role, a factory manager
+role, a factory operations role, a factory worker role, a power
+plant manager role, a power plant operations role, a power
+plant worker role, an equipment service role, an equipment
+maintenance operator role, a logistics manager role, a supply
+chain manager, and the like.
+[1105]   In embodiments, the expert agents are trained
+based on training data that includes actions taken by users
+and features relating to the circumstances surrounding the
+action (e.g., the type of action taken, the scenario that
+prompted the action, and the like). In embodiments, the
+EMP receives telemetry data from a client application asso-
+ciated with a particular user and learns the workflows
+performed by the particular user based on the telemetry data
+and the surrounding circumstances. For example, the user
+may be a COO that is presented a COO digital twin. Among
+the responsibilities of the COO may be scheduling mainte-
+nance and replacement of equipment or other infrastructure
+in a facility. The states depicted in the COO digital twin may
+include depictions of the condition of different pieces of
+equipment or infrastructure within the facility. In this

@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+131
+support the adaptive intelligence systems. In embodiments,
+the local management system user interface facilitates con-
+figuration of a set of workflows that are managed by the
+adaptive intelligence systems.
+In embodiments, the interface is a user interface of a
+mobile computing device that has a network connection to
+the adaptive intelligence systems.
+In embodiments, the interface is an application program-
+ming interface. In embodiments, the application program-
+ming interface facilitates exchange of data between the ：101
+adaptive intelligence systems and a cloud-based artificial
+intelligence system. In embodiments, the application pro-
+gramming interface facilitates exchange of data between the
+adaptive intelligence systems and a real-time operating
+ system of a cloud data management platform. 15
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive intelli-
+gence systems and a computational facility of a cloud data
+management platform.
+In embodiments, the application programming interface 20 t
+facilitates exchange of data between the adaptive intelli-
+gence systems and a set of environmental sensors that
+collect data about an environment that hosts a set of value
+chain network entities. In embodiments, the application
+programming interface facilitates exchange of data between 25
+the adaptive intelligence systems and a set of sensors that
+collect data about a product.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive intelli-
+gence systems and a set of sensors that collect data published 30
+by an intelligent product.
+In embodiments, the application programming interface
+facilitates exchange of data between the adaptive intelli-
+gence systems and a set of sensors that collect data published
+by a set of Internet of Things systems that are disposed in an 35 
+environment that hosts a set of value chain network entities.
+In embodiments, the set of demand management appli-
+cations, supply chain applications, intelligent product appli-
+may include, any of the applications mentioned throughout 40
+this disclosure or the documents incorporated herein by
+reference.
+In embodiments, the adaptive intelligent systems layer
+614 is configured to train and deploy artificial intelligence
+systems to perform value-chain related tasks. For example, 45
+the adaptive intelligent systems layer 614 may be leveraged
+to manage a container fleet, design a logistics system,
+control one or more aspects of a logistics system, select
+packaging attributes of packages in the value chain, design
+a process to meet regulatory requirements, automate pro- 50
+cesses to mitigate waste production (e.g-, solid waste or
+waste water), and/or other suitable tasks related to the
+value-chain.
+In some of these embodiments, one or more digital twins
+may be leveraged by the adaptive intelligent systems layer 55
+614. A digital twin may refer to a digital representation of a
+physical object (e.g., an asset, a device, a product, a package,
+a container, a vehicle, a ship, or the like), an environment
+(e.g., a facility), an individual (e.g., a customer or worker),
+or other entity (including any of the value chain network 60
+entities 652 described herein), or combination thereof. Fur-
+ther examples of physical assets include containers (e.g..
+boxes, shipping containers, boxes, palates, barrels, and the
+like), goods/products (e.g-, widgets, food, household prod-
+ucts, toys, clothing, water, gas, oil, equipment, and the like), 65
+components (e.g., chips, boards, screens, chipsets, wires,
+cables, cards, memory, software components, firmware,
+[col 2]
+132
+parts, connectors, housings, and the like), furniture (e.g.,
+tables, counters, workstations, shelving, etc.), and the like.
+Examples of devices include computers, sensors, vehicles
+(e.g., cars, trucks, tankers, trains, forklifts, cranes, and the
+like), equipment, conveyer belts, and the like. Examples of
+environments may include facilities (e.g-, factories, refiner-
+ies, warehouses, retail locations, storage buildings, parking
+lots, airports, commercial buildings, residential buildings,
+and the like), roads, water ways, cities, countries, land
+masses, and the like. Examples of different types of physical
+assets, devices, and environments are referenced throughout
+the disclosure.
+In embodiments, a digital twin may be comprised of (e.g..
+via reference, or by partial or complete integration) other
+digital twins. For example, a digital twin of a package may
+include a digital twin of a container and one or more digital
+twins of one or more respective goods enclosed within the
+container. Taking this example one step further, one or more
+digital twins of the packages may be contained in a digital
+twin of a vehicle traversing a digital twin of a road or may
+be positioned on a digital twin of a shelf within a digital twin
+of a warehouse, which would include digital twins of other
+physical assets and devices.
+In embodiments, the digital representation for a digital
+twin may include a set of data structures (e.g., classes of
+objects) that collectively define a set of properties, attributes,
+and/or parameters of a represented physical asset, device, or
+environment, possible behaviors or activities thereof and/or
+possible states or conditions thereof, among other things.
+For example, a set of properties of a physical asset may
+include a type of the physical asset, the shape and/or
+dimensions of the asset, the mass of the asset, the density of
+the asset, the material(s) of the asset, the physical properties
+of the material(s), the chemical properties of the asset, the
+expected lifetime of the asset, the surface of the physical
+asset, a price of the physical asset, the status of the physical
+asset, a location of the physical asset, and/or other proper-
+ties, as well as identifiers of other digital twins contained
+within or linked to the digital twin and/or other relevant data
+sources that may be used to populate the digital twin (such
+as data sources within the management platform described
+herein or external data sources, such as environmental data
+sources that may impact properties represented in the digital
+twin (e.g., where ambient air pressure or temperature affects
+the physical dimensions of an asset that inflates or deflates).
+Examples of a behavior of a physical asset may include a
+state of matter of the physical asset (e.g., a solid, liquid,
+plasma or gas), a melting point of the physical asset, a
+density of the physical asset when in a liquid state, a
+viscosity of the physical asset when in a liquid state, a
+freezing point of the physical asset, a density of the physical
+asset when in a solid state, a hardness of the physical asset
+when in a solid state, the malleability of the physical asset,
+the buoyancy of the physical asset, the conductivity of the
+physical asset, electromagnetic properties of the physical
+asset, radiation properties, optical properties (e.g., reflectiv-
+ity, transparency, opacity, albedo, and the like), wave inter-
+action properties (e.g., transparency or opacity to radio
+waves, reflection properties, shielding properties, or the
+like), a burning point of the physical asset, the manner by
+which humidity affects the physical asset, the manner by
+which water or other liquids affect the physical asset, and the
+like. In another example, the set of properties of a device
+may include a type of the device, the dimensions of the
+device, the mass of the device, the density of the density of
+the device, the material(s) of the device, the physical prop-
+erties of the material(s), the surface of the device, the output
