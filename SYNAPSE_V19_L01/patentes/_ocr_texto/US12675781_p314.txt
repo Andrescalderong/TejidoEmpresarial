@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+377
+sensors, thermal sensors, etc.) and other environmental
+sensors (e.g., temperature sensors, humidity sensors, air
+movement sensors, etc.), and the like. The chip 9300 may be
+reconfigured to receive and interpret specific sensor data
+based on sensor specification(s) that enable the chip 9300 to
+receive and interpret sensor data from the corresponding
+sensors.
+In embodiments, the chip 9300 may be configured or
+reconfigured to perform organic analyses, lab analyses,
+and/or electromechanical analyses based on the sensor data.
+For example, the chip 9300 may include lab-on-chip and/or
+organ-on-chip functionality that may allow it to simulate
+organisms, perform lab analyses, perform electromechanical
+analyses, etc. The chip 9300 may receive, store, and leverage
+ specific analytics libraries and/or intelligence modules that
+enable the chip 9300 to perform corresponding simulations/
+analyses, make predictions using corresponding Al tech-
+niques (e.g., using deep learning models trained to interpret
+corresponding sensor data), and the like. Using similar 2o t
+techniques, the chip 9300 may further combine the results of
+various analyses in order to perform one or more combined
+analyses.
+In embodiments, the chip 9300 may be configured to use
+governance libraries to control analyses, make predictions, 25
+and/or provide recommendations. For example, governance
+libraries may indicate whether particular conditions are
+acceptable or not, and thus may control whether actions
+should be taken to address a condition. The chip 9300 may
+be configured to report the results of any analyses, including 30
+current or predicted conditions, recommended actions to
+address the conditions, and the like.
+In embodiments, the chip(s) 9300 can be modular com-
+ponent(s) that may be integrated with a host system in
+with a mobile host system (e.g., a robot), a stationary host
+system, or any other host system that receives sensor inputs.
+To facilitate this modularity, the chip(s) 9300 may be
+provided partially or completely within a housing (not
+shown)and may receivethe inputs 9392 and/or providethe 40
+outputs 9394 via electrical connectors, optical connectors,
+and/or wireless connectors (e.g., antennae, inductive coils,
+etc.). Additionally or alternatively, the chip(s) 9300 may be
+integrated with other circuits, processors, systems, etc.,
+either on one or multiple substrates/chips. 45
+The chip(s)9300 may be and/or include one or more
+system-on-chips (SOCs), integrated circuits (ICs), applica-
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9300 and/or
+any other functionality.For example, the chip 9300 may be 50
+provided as part of a SOC that also provides other functions
+described herein. In general, the components of the chip
+9300 may comprise one or more general-purpose processing
+chips that are configured using software instructions or other
+code, and/or may comprise special-purpose processing chips 55
+(e.g., ASICs) customized to perform the functions described
+herein.
+Multiple chip(s) 9300 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9300
+may use serial, parallel, and/or other processing techniques 60
+to perform analyses more quickly, to perform analyses more
+efficiently by offloading more complex computations from
+one chip 9300 to another chip 9300 with a better power
+ source, and/or the like. As another example, one chip 9300
+may be used to provide a first analysis and a second analysis, 65
+while another chip 9300 may be used to provide a combined
+analysis based on the first analysis and the second analysis.
+[col 2]
+378
+In embodiments, the physical input interface 9302
+receives one or more inputs 9392 to the diagnostic chip 9300
+as described herein. The inputs 9392 may be transmitted to
+the physical input interface 9302 by other chips, circuits,
+modules, and/or other components of the host system, or by
+other devices in communication with the host system (e.g.,
+via a communication network). For example, the input data
+may come from sensors, sensor-processing chips/modules/
+circuits, antennae, storage devices, network interfaces, or
+any other source of data for the chip(s) 9300 as described
+herein. The physical input interface 9302 may connect with
+the source(s) of the inputs 9392 via wired or wireless
+connections. As state above, the inputs 9392 may include
+any type of sensor data. The inputs 9392 may also include
+data that may be stored in storage 9350, such as analytics
+rules/configurations for analytics library 9352, governance
+rules/configurations for a governance library 9354, one or
+more system specification(s) 9356 (e.g., sensor specifica-
+tions), and/or one or more intelligence module(s) 9358.
+The output data 9394 transmitted from the physical output
+interface 9304 may include report(s) indicating the results of
+the analyses, particular conditions indicated by the analyses,
+predictions, other diagnostics information, and/or recom-
+mended actions to address any particular conditions or
+predicted conditions. In embodiments, the outputs of the
+chip 9300 may be transmitted by the physical output inter-
+face 9304 to other chips, circuits, modules, and/or other
+components of a host system or another device in commu-
+nication with the host system as described herein. The
+physical output interface 9304 may connect to these com-
+ponents via wired or wireless connections.
+In embodiments, the chip 9300 may include one or more
+of a sensor module 9310, an analysis module 9320, and/or
+an output module 9330. In embodiments, the sensor module
+9310 may comprise circuits 9312-9318 for receiving and
+performing initial processing (e.g., filtering) on sensor data
+received as inputs 9392. Additionally or alternatively, the
+chip 9300 may include an analysis module 9320 comprising
+circuits 9322-9326 for performing analyses, detecting con-
+ditions, predicting future conditions, generating other diag-
+nostic information, and generating recommendations for
+addressing any conditions. Additionally or alternatively, the
+chip 9300 may include an output module 9330 comprising
+circuits 9332-9336 for performing additional combined
+analyses, enforcing governance rules on the analyses, pre-
+dictions, recommendations, etc., and outputting a report
+including diagnostic/analysis data. The functionalities of the
+various circuits of the modules 9310, 9320, and/or 9330 are
+described in more detail below.
+The processing core(s) 9306 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9300, either with or
+without the assistance of the various modules 9310, 9320,
+and/or 9330. For example, the processing core(s) 9306 may
+leverage and/or invoke various modules to perform various
+functions described herein. The processing core(s) 9306
+may comprise general-purpose and/or special-purpose pro-
+cessors. In embodiments, the processing core(s) 9306 may
+use serial, parallel, and/or other processing techniques to
+accomplish the functions described herein.
+Accordingly, the processing core(s) 9306 may perform
+functions in addition to the functions provided by the
+various modules 9310, 9320, and/or 9330. For example, the
+processing core(s) may receive an output of one module
+(e.g., sensor data output by the sensor module 9310) and
+provide it as input to another module (e.g., to the analysis

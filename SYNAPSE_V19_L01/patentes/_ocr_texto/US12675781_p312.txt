@@ -1,0 +1,139 @@
+[col 1]
+US 12,675,781 B2
+373
+problems or other conditions on the network. For example,
+the network diagnostic circuit 9216 may poll network
+devices for status information, attempt to transmit data
+through one or more communication networks, send or
+receive test data flows to measure bandwidth, throughput,
+etc., and perform other such diagnostic functions. In
+embodiments, the network diagnostic circuit 9216 may use
+the determined network/diagnostic information to generate
+or update one or more network digital twins 9254 corre-
+10 sponding to a particular network, network device, data
+configuration, rate schedule, and/or the like.
+In embodiments, the optimization module 9220 may
+leverage the network analysis outputted by the network
+analysis modules 9210 and/or network digital twin(s) 9254
+to determine one or more optimizations for the network and
+the predicted effects of the optimizations. The optimization
+module 9220 may use AI-assisted functions (e.g., machine-
+learned models or other intelligence modules 9258) to
+predict that certain optimizations will improve the function- 20
+ing of the network, schedule of the network, quality of data
+transmitted via the network, security of data transmitted via
+the network, and the like.
+In embodiments, the data optimization circuit 9222 may
+predict the effects one or more optimizations to be applied 25
+to network data. For example, the data optimization circuit
+9222 may leverage intelligence modules 9258 (e.g., trained
+deep learning models) and/or stored optimization param-
+eters to determine, based on current network information,
+that a particular type of data should be re-routed (e.g..
+30
+through a different network), compressed, down-sampled,
+dropped, buffered, and/or re-scheduled in order to optimize
+a particular network metric. The optimization parameters
+may be specified by one or more system specifications 9256.
+and thus the data optimization circuit 9222 may be config-
+ured to optimize communications networks in specified
+ways by storing corresponding system specifications in
+storage 9250. As another example, the data optimization
+circuit 9222 may use AI-assisted techniques (e.g., leveraging
+intelligence modules 9258)to determine that the network 40 r
+has sufficient capacity to increase the quality of data trans-
+mitted via the network, such as by up-sampling, uncom-
+pressing, providing a higher priority to, or otherwise increas-
+ing the quality of data transmitted via the network. In this
+example, a system specification 9256 may indicate that the 45
+data optimization circuit 9222 should optimize for increased
+data quality in general, increased data quality for a particular
+application, flow, type of data, sending/receiving network
+device, and/or the like. Accordingly, the data optimization
+circuit 9222 may leverage AI techniques to optimize various 50
+network parameters as required by a particular system
+specification.
+In embodiments, the network optimization circuit 9224
+may determine one or more optimizations to be applied to
+network devices. For example, the network optimization 55
+circuit 9224 may leverage intelligence modules 9258 (e.g..
+trained deep learning models) to determine, based on current
+network information, that a particular network device should
+perform particular actions (e.g-, power up or down, switch
+networks, adjust a transmission schedule of another device, 60
+adjust a protocol used by another network device, re-route
+traffic from another device, perform compression or some
+other data modification on all traffic sent or received by
+another device, and/or the like) to improve network perfor-
+mance or optimize for some other parameter (e.g., as indi- 65
+cated by a system specification 9256). Similarly, the network
+optimization circuit 9224 may determine that network
+[col 2]
+374
+devices should take certain actions to improve the quality of
+data transmitted via the network and/or perform any other
+optimizations.
+In embodiments, the data optimization circuit 9222 and/or
+the network optimization circuit 9224 may leverage the
+network security circuit 9226 and/or the network gover-
+nance circuit 9228 as part of determining optimizations to
+data and/or the network. The network security circuit 9226
+may enforce security rule(s) that may alter and/or may
+override optimizations proposed by the data optimization
+circuit 9222 and/or the network optimization circuit 9224.
+For example, the network security circuit 9226 may analyze
+proposed optimizations to the network device(s), data, and/
+or network(s) to determine whether the proposed optimiza-
+tions are sufficiently secure or insufficiently secure, or
+otherwise comply with security rules. As a specific example,
+the network security circuit 9226 may determine that a
+proposed optimization involving decryption of network traf-
+fic may be insecure for a particular data type or traffic flow,
+ and thus may override and/or alter the proposed optimiza-
+tion.
+In a similar manner, the network governance circuit 9228
+may enforce governance rules that specify certain legal
+requirements, business requirements, technical require-
+ments, and the like. Accordingly, the network governance
+circuit 9228 may alter and/or may override optimizations
+proposed by the data optimization circuit 9222 and/or net-
+work optimization circuit 9224 so that the optimizations will
+comply with the governance rule(s). In embodiments, the
+network security circuit 9226 and/or network governance
+circuit 9228 may leverage intelligence modules 9258 that
+store and/or otherwise specify the security and/or gover-
+nance rules. In embodiments, the network security circuit
+9226 and/or network governance circuit 9228 may imple-
+ment any of the functionalities of the intelligence service
+8800 (as described with respect to FIG. 104) using the
+intelligence modules 9258 (which may include one or more
+of the artificial intelligence modules 8804 of FIG. 104).
+In embodiments, the data configuration module 9230 may
+receive data traffic via inputs 9292 and apply any optimi-
+zations determined by the data optimization circuit 9222
+and/or by the network optimization circuit 9224 to the
+received data traffic before transmitting the optimized data
+traffic as outputs 9294. The data capture/extraction circuit
+may receive inbound or outbound data packets (e.g., from
+other network devices and/or from the host device) and may
+extract the data from the data packets.
+The data encryption circuit 9234 may perform any nec-
+essary encryption/decryption operations on the extracted
+data. The data encryption circuit 9234 may decrypt data
+received from another device so that the data may be
+analyzed and data-specific optimizations may be applied.
+For example, if the optimization module 9220 indicates that
+data should be re-formatted (e.g-, up- or down-sampled,
+compressed/decompressed, and/or the like), the data may
+first need to be decrypted by the data encryption circuit 9234
+before the optimizations may be applied. Additionally or
+alternatively, the data encryption circuit 9234 may apply
+encryption to the data if the optimization module 9220
+determines that data encryption should be applied (e.g., to
+increase the security of a particular type of data or traffic
+flow).
+The data processing circuit 9236 may perform any pro-
+cessing on the data to implement the optimizations deter-
+mined by the optimization module 9220. For example, if the
+data optimization circuit 9222 and/or the network optimi-
+zation circuit 9224 determine that data associated with

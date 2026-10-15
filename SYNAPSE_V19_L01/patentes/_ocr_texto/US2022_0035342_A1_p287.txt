@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0035342 A1
+204
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data;
+[1674]  wherein the artificial intelligence system includes a
+model interpretability system, the model interpretability
+system being configured to facilitate human understanding
+of training and outputs of the machine learning model; and
+wherein the model interpretability system is configured to
+implement Testing with Concept Activation Vectors (TCAV)
+functionality, whereby the model interpretability facilitates
+learning of human-interpretable concepts by the machine
+learning model.
+[1675]  In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+intelligence system including: an artificial intelligence sys-
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data; wherein the
+digital replica of the value chain entity is configured to
+accept a modeling command from a user of the information
+technology system to facilitate simulation of the value chain
+entity, the digital twin system being configured to adjust the
+digital replica in response to the modeling command; and
+wherein the machine learning model is configured to predict
+the modeling command and suggest the predicted modeling
+command to the user based on the sensor data, prior mod-
+eling commands, and simulation of the value chain entity.
+[1676] In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+[col 2]
+Feb.3,2022
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data, wherein the
+machine learning model is configured to determine which
+instances of the sensor data to include in transformation into
+the simulation data based on training of the machine learn-
+ing model.
+[1677] In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+intelligence system including: an artificial intelligence sys-
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation
+data, and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data, wherein the
+machine learning model is configured to provide a plurality
+of sets of hypothetical simulation data to the digital twin
+system based on training of the machine learning model, the
+digital twin system being configured to create a set of
+hypothetical digital replicas ofthe value chain entity, each of
+the hypothetical digital replicas being based on a set of
+hypothetical simulation data and the simulation data, and
+wherein the machine learning model is configured to evalu-
+ate performance of each hypothetical digital replica of the
+set of hypothetical digital replicas, determine which hypo-
+thetical digital replicas perform better than others of the set
+of hypothetical digital replicas, and determine why the
+hypothetical digital replicas that perform better than the
+others of the set of hypothetical digital replicas perform
+better than the others of the set of hypothetical digital
+replicas.
+[1678] In embodiments, an information technology sys-
+tem including a cloud-based management platform with a
+micro-services architecture, a set of interfaces, network
+connectivity facilities, adaptive intelligence facilities, data
+storage facilities, and monitoring facilities that are coordi-
+nated for monitoring and management of a set of value chain
+network entities; a set of applications for enabling an
+enterprise to manage a set of value chain network entities
+interface that provides a set of unified views for a set of
+demand management information and supply chain infor-
+mation for a category of goods.
+[1679] In embodiments, the user interface includes a voice
+operated assistant. In the embodiments, the user interface
+includes a digital twin for presenting a visual representation
+of a set of attributes of a set of value chain network entities.
+[1680] In embodiments, the user interface includes an
+interface for configuring the adaptive intelligence facilities.
+[1681]  In embodiments, the set of interfaces includes a
+demand management interface and a supply chain manage-
+ment interface. In embodiments, the set of network connec-

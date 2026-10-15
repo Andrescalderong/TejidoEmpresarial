@@ -1,0 +1,136 @@
+Training and inference may be performed on a cloud, on a 15 include and/or provide access to a digital twin module 8820.
+ments, an RPA module 8816 may learn to perform certain 55 ronment in response to certain stimuli.
+[col 1]
+US 12,675,781 B2
+353
+may use gradient descent and may include one or more
+iterations. The training process is repeated for each training
+image in the training set.
+The training process and inference process described
+above may be performed on hardware, software, or a com-
+bination of hardware and sofiware. However, training a
+convolutional neural network like CNN 8860 or using the
+trained CNN for inference generally requires significant
+amounts of computation power to perform, for example, the
+matrix multiplications or convolutions. Thus, specialized 10
+hardware circuits, such as graphic processing units (GPUs),
+tensor processing units (TPUs), neural network processing
+units (NPUs), FPGAs, ASICs, or other highly parallel pro-
+cessing circuits may be used for training and/or inference.
+data center, or on a device.
+Region Based CNNs (RCNNs) and Object Detection
+In embodiments, an object detection model extends the
+functionality of CNN based image classification neural
+network models by not only classifying objects but also 20
+determining their locations in an image in terms of bounding
+boxes. Region-based CNN (R-CNN) methods are used to
+extract regions of interest (ROI), where each ROI is a
+rectangle that may represent the boundary of an object in
+image. Conceptually, R-CNN operates in two phases. In a 25
+first phase, region proposal methods generate all potential
+bounding box candidates in the image. In a second phase, for
+between objects. Alternatively, a fast R-CNN architecture
+can be used, which integrates the feature extractor and 3o i
+classifier into a unified network. Another faster R-CNN can
+be used, which incorporates a Region Proposal Network
+(RPN) and fast R-CNN into an end-to-end trainable frame-
+work. Mask R-CNN adds instance segmentation, while
+mesh R-CNN adds the ability to generate a 3D mesh from 35 
+a 2D image.
+In embodiments, artificial intelligence modules 8804 may
+provide access to and/or integrate a robotic process auto-
+mation (RPA) module 8816. The RPA module 8816 may
+facilitate,amongotherthings,computerautomationofpro-
+ducing and validating workflows. In embodiments, an RPA
+module 8816 may monitor human interaction with various
+systems to learn patterns and processes performed by
+humans in performance of respective tasks. This may
+include observation of human actions that involve interac- 45
+tions with hardware elements, with software interfaces, and
+with other elements. Observations may include field obser-
+vations as humans perform real tasks, as well as observa-
+tions of simulations or other activities in which a human
+performs an action with the explicit intent to provide a 50 I
+training data set or input for the RPA system, such as where
+a human tags or labels a training data set with features that
+assist the RPA system in learning to recognize or classify
+features or objects, among many other examples. In embodi-
+tasks based on the learned patterns and processes, such that
+the tasks may be performed by the RPA module 8816 in lieul
+or in support of a human decision maker. Examples of RPA
+modules 8816 may encompass those in this disclosure and in
+the documents incorporated by reference herein and may
+involve automation of any of the wide range of value chain
+network activities or entities described therein.
+In embodiments, the artificial intelligence modules 8804
+may include and/or provide access to an analytics module
+8818. In embodiments, an analytics module 8818 is config- 65
+ured to perform various analytical processes on data output
+from value chain entities or other data sources. In example
+[col 2]
+354
+embodiments, analytics produced by the analytics module
+8818 may facilitate quantification of system performance as
+compared to a set of goals and/or metrics. The goals and/or
+metrics may be preconfigured, determined dynamically from
+operating results, and the like. Examples of analytics pro-
+cesses that can be performed by an analytics module 8818
+are discussed below and in the document incorporated
+herein by reference. In some example implementations,
+analytics processes may include tracking goals and/or spe-
+cific metrics that involve coordination of value chain activi-
+ties and demand intelligence, such as involving forecasting
+demand for a set of relevant items by location and time
+(among many others).
+In embodiments, artificial intelligence modules 8804 may
+The digital twin module 8820 may encompass any of a wide
+range of features and capabilities described herein In
+embodiments, a digital twin module 8820 may be configured
+to provide, among other things, execution environments for
+and different types of digital twins, such as twins of physical
+environments, twins of robot operating units, logistics twins,
+executive digital twins, organizational digital twins, role-
+based digital twins, and the like. In embodiments, the digital
+twin module 8820 may be configured in accordance with
+digital twin systems and/or modules described elsewhere
+throughout the disclosure. In example embodiments, a digi-
+tal twin module 8820 may be configured to generate digital
+twins that are requested by intelligence clients 8836. Further
+the digital twin module 8820 may be configured with
+interfaces, such as APIs and the like for receiving informa-
+tion from external data sources. For instance, the digital twin
+module 8820 may receive real-time data from sensor sys-
+tems of a machinery, vehicle, robot, or other device, and/or
+sensor systems of the physical environment in which a
+device operates. In embodiments, the digital twin module
+8820 may receive digital twin data from other suitable data
+sources, such as third-party services (e.g, weather services,
+traffic data services, logistics systems and databases, and the
+like. In embodiments, the digital twin module 8820 may
+include digital twin data representing features, states, or the
+like of value chain network entities, such as supply chain
+infrastructure entities, transportation or logistic entities, con-
+tainers, goods, or the like, as well as demand entities, such
+as customers, merchants, stores, points-of-sale, points-of-
+use, and the like. The digital twin module 8820 may be
+integrated with or into,link to, or otherwise interact with an
+interface (e.g., a control tower or dashboard), for coordina-
+tion of supply and demand, including coordination of auto-
+mation within supply chain activities and demand manage-
+ment activities.
+In embodiments, a digital twin module 8820 may provide
+access to and manage a library of digital twins. Artificial
+intelligence modules 8804 may access the library to perform
+functions, such as a simulation of actions in a given envi-
+In embodiments, artificial intelligence modules 8804 may
+include and/or provide access to a machine vision module
+8822. In embodiments, a machine vision module 8822 is
+configured to process images (e.g., captured by a camera) to
+detect and classify objects in the image. In embodiments, the
+machine vision module 8822 receives one or more images
+(which may be frames of a video feed or single still shot
+images) and identifies "blobs" in an image (e.g., using edge
+detection techniques or the like). The machine vision mod-
+ule 8822maythen classify the blobs. In some embodiments,
+the machine vision module 8822 leverages one or more
+machine-learned image classification models and/or neural

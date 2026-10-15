@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+309
+embodiments, a digital twin module 8820 may be configured
+to provide, among other things, execution environments for
+and different types of digital twins, such as twins of physical
+environments, twins of robot operating units, logistics twins,
+executive digital twins, organizational digital twins, role-
+based digital twins, and the like. In embodiments, the digital
+twin module 8820 may be configured in accordance with
+digital twin systems and/or modules described elsewhere
+throughout the disclosure. In example embodiments, a digi-
+tal twin module 8820 may be configured to generate digital 10
+twins that are requested by intelligence clients 8836. Further,
+the digital twin module 8820 may be configured with
+interfaces, such as APIs and the like for receiving informa-
+tion from external data sources. For instance, the digital twin
+module 8820 may receive real-time data from sensor sys- 15
+tems of a machinery, vehicle, robot, or other device, and/or
+sensor systems of the physical environment in which a
+device operates. In embodiments, the digital twin module
+8820 may receive digital twin data from other suitable data
+sources, such as third-party services (e.g., weather services, 20
+traffic data services, logistics systems and databases, and the
+like. In embodiments, the digital twin module 8820 may
+include digital twin data representing features, states, or the
+like of value chain network entities, such as supply chain
+infrastructure entities, transportation or logistic entities, con- 25
+tainers, goods, or the like, as well as demand entities, such
+as customers, merchants, stores, points-of-sale, points-of-
+use, and the like. The digital twin module 8820 may be
+integrated with or into, link to, or otherwise interact with an
+interface (e.g., a control tower or dashboard), for coordina- 3o 
+tion of supply and demand, including coordination of auto-
+mation within supply chain activities and demand manage-
+ment activities.
+In embodiments, a digital twin module 8820 may provide
+access to and manage a library of digital twins. Artificial 35
+intelligence modules 8804 may access the library to perform
+functions, such as a simulation of actions in a given envi-
+ronment in response to certain stimuli.
+In embodiments, artificial intelligence modules 8804 may
+include and/or provide access to a machine vision module 40
+8822. In embodiments, a machine vision module 8822 is
+configured to process images (e.g., captured by a camera) to
+detect and classify objects in the image. In embodiments, the
+machine vision module 8822 receives one or more images
+(which may be frames of a video feed or single still shot 45
+images) and identifies "blobs" in an image (e.g., using edge
+detection techniques or the like). The machine vision mod-
+ule8822may then classify theblobs.In some embodiments,
+the machine vision module 8822 leverages one or more
+machine-learned image classification models and/or neural 50
+networks (e.g., convolutional neural networks) to classify
+the blobs in the image. In some embodiments, the machine
+vision module 8822 may perform feature extraction on the
+images and/or the respective blobs in the image prior to
+classification. In some embodiments, the machine vision 55
+module 8822 may leverage classification made in a previous
+image to affirm or update classification(s) from the previous
+image. For example, if an object that was detected in a
+previous frame was classified with a lower confidence score
+(e.g, the object was partially occluded or out of focus), the 60
+machine vision module 8822 may affirm or update the
+classification if the machine vision module 8822 is able to
+determine a classification of the object with a higher degree
+of confidence. In embodiments, the machine vision module
+8822 is configured to detect occlusions, such as objects that 65
+may be occluded by another object. In embodiments, the
+machine vision module 8822 receives additional input to
+[col 2]
+310
+assist in image classification tasks, such as from a radar, a
+sonar, a digital twin of an environment (which may show
+locations of known objects), and/or the like. In some
+embodiments, a machine-vision module 8822 may include
+or interface with a liquid lens. In these embodiments, the
+liquid lens may facilitate improved machine vision (e.g.,
+when focusing at multiple distances is necessitated by the
+environment and job of a robot) and/or other machine vision
+tasks that are enabled by a liquid lens.
+In embodiments, the artificial intelligence modules 8804
+may include and/or provide access to a natural language
+processing (NLP) module 8824. In embodiments, an NLP
+module 8824 performs natural language tasks on behalf of
+an intelligence service client 8836. Examples of natural
+language processing techniques may include, but are not
+limited to, speech recognition, speech segmentation, speaker
+diarization,text-to-speech,lemmatization,morphological
+segmentation, parts-of-speech tagging, stemming, syntactic
+analysis, lexical analysis, and the like. In embodiments, the
+NLP module 8824 may enable voice commands that are
+received from a human. In embodiments, the NLP module
+8824 receives an audio stream (e.g., from a microphone) and
+may perform voice-to-text conversion on the audio stream to
+obtain a transcription of the audio stream. The NLP module
+8824 may process text (e.g., a transcription of the audio
+stream) to determine a meaning of the text using various
+NLP techniques (e.g., NLP models, neural networks, and/or
+the like). In embodiments, the NLP module 8824 may
+determine an action or command that was spoken in the
+audio stream based on the results of the NLP. In embodi-
+ments, the NLP module 8824 may output the results of the
+NLP to an intelligence service client 8836.
+In embodiments, the NLP module 8824 provides an
+intelligence service client 8836 with the ability to parse one
+or more conversational voice instructions provided by a
+human user to perform one or more tasks as well as
+communicate with the human user. The NLP module 8824
+may perform speech recognition to recognize the voice
+instructions, natural language understanding to parse and
+derive meaning from the instructions, and natural language
+generation to generate a voice response for the user upon
+processing of the user instructions. In some embodiments,
+the NLP module 8824 enables an intelligence service client
+8836 to understand the instructions and, upon successful
+completion of the task by the intelligence service client
+8836, provide a response to the user. In embodiments, the
+NLP module 8824 may formulate and ask questions to a user
+if the context of the user request is not completely clear. In
+embodiments, the NLP module 8824 may utilize inputs
+received from one or more sensors including vision sensors,
+location-based data (e.g-, GPS data) to determine context
+information associated with processed speech or text data.
+In embodiments, the NLP module 8824 uses neural net-
+works when performing NLP tasks, such as recurrent neural
+networks, long short term memory (LSTMs), gated recurrent
+unit (GRUs), transformer neural networks, convolutional
+neural networks and/or the like.
+FIG. 107 illustrates an example neural network 8800 for
+implementing NLPmodule 8824.In the illustrated example,
+the example neural network is a transformer neural network.
+In the example, the transformer neural network 8800
+includes three input stages and five output stages to trans-
+example transformer includes an encoder 8802 and a
+decoder 8804. The encoder 8802 processes input, and the
+decoder 8804 generates output probabilities, for example.
+The encoder 8802 includes three stages, and the decoder

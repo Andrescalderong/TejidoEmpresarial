@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+319
+without the assistance of the various modules 9110, 9120,
+9130, and/or 9140. For example, the processing core(s) 9106
+may leverage and/or invoke various modules to perform
+various functions described herein. The processing core(s)
+processors. In embodiments, the processing core(s) 9106
+may use serial, parallel, and/or other processing techniques
+to accomplish the functions described herein.
+Accordingly, the processing core(s) 9106 may perform
+functions in addition to the functions provided by the
+various modules 9110, 9120, 9130, and/or 9140. For
+example, the processing core(s) may receive an output of
+one module (e.g., a location output by location module 9110)
+and provide it as input to another module (e.g., to the
+orientation module 9140). The processing core(s) 9106 may
+15 also process the output of any of the module(s) to convert the
+output into a different format.
+The processing core(s) 9106 may also compare the data
+output by different modules for error checking and/or to
+enhance accuracy. For example, if the location module 9110
+indicates that a location of a system has changed, but the
+relative motion module 9120 indicates that the system's
+location has not changed (e.g., a location signal may be
+incorrect due to a reflected signal or due to the imprecision
+of GPS at granular levels), the processing core(s) 9106 may
+discard and/or modify the output of the location module
+9110.
+In embodiments, the processing core(s) 9106 may gener-
+ate data based on the outputs of different modules. For
+example, the processing core(s) 9106 may determine a 30
+velocity vector data structure based on both a current
+location output by the location module 9110 and on the
+relative motion output by the relative motion module 9120.
+Other outputs of various modules may be combined in
+similar ways. 35
+In embodiments, the processing core(s) 9106 may further
+operate to store and/or retrieve data to/from storage 9150.
+For example, the processing core(s) 9106 may store and
+retrieve images in an image library 9152 (e.g., for use by the
+machine vision module 9130, as described in more detail 40
+below), may store and retrieve an environment digital twin
+9154 (e.g., as generated/updated by the orientation module
+9140, as described in more detail below), may store and
+retrieve system specification(s) 9156 (e.g., for determining
+information about components of the mobile system), and/or 45
+may store and retrieve intelligence module(s) 9158 for
+implementing the various functions described herein. In
+embodiments, the processing core(s) may implement any of
+the functionalities of the intelligence service 8800 (as
+described with respect to FIG. 104) using the intelligence 50
+modules 9158 (which may include one or more of the
+artificial intelligence modules 8804 of FIG. 104).
+The location module 9110 may receive location signals
+(e.g., GPS signals, cellular signals, WI-FI signals) and
+determine a location (e.g-, GPS coordinates or coordinates 55
+within some other real or simulated coordinate system/
+frame). In some embodiments, the location signal capture
+circuit 9112 may receive location signal data from the inputs
+9192 and perform initial processing on the location signal
+data to capture data from the location signal (e.g-, demodu-
+lation, storage in a buffer, initial sanity checking, etc.). In
+some cases (e.g. if the location is being determined within
+coordinates of an environment digital twin), the location
+signal capture circuit 9112 may retrieve an environment
+digital twin 9154 from storage and/or from an environment 65
+digital twin circuit 9142. The location determination circuit
+9114 may then calculate a location based on the captured
+[col 2]
+320
+location data, For example, the location determination cir-
+cuit 9114 may use trilateration techniques to compute GPS
+coordinates and related data (e.g., accuracy/error data) based
+on GPS signals received from multiple satellites. As another
+example, the location determination circuit 9114 may use
+cellular and/or WI-FI data to determine a location of the
+mobile system. In embodiments, multiple location signals
+may be used by the location determination circuit 9114 to
+improve accuracy. The location output circuit 9116 may then
+output (e.g., to the processing core(s) 9106) the location data
+(e.g., one or more data structures indicating coordinates
+and/or related data), which in turn may provide the location
+data to other modules, output the location data as outputs
+9194, or otherwise process the location data to determine
+orientation information.
+The relative motion module 9120 may receive acceler-
+ometer, gyroscope, and/or other relative motion signals as
+inputs 9192 and determine relative motion data (e.g., change
+in position and/or rotation/heading, velocity data, and/or
+acceleration data) with respect to one or more real or
+simulated points/frames. The motion sensor capture circuit
+9122 may receive data signals from motion sensors such as
+accelerometers, gyroscopes, and the like and perform initial
+processing on the data to capture the relative motion data
+(e.g, demodulation, storage in a buffer, initial sanity check-
+ing, etc.). In some cases (e.g., if the relative motion is being
+determined with respect to an environment digital twin), the
+motion sensor capture circuit 9122 may retrieve an envi-
+environment digital twin circuit 9142. The relative motion
+determination circuit 9124 may then process the relative
+motion data using integration techniques, dead reckoning
+techniques, and/or the like to generate relative motion data
+(e.g., one or more data structures indicating change in
+eration, angular acceleration, and/or the like) with respect to
+a given point/frame, whether real or simulated. The relative
+motion output circuit 9126 may then output (e.g, to the
+processing core(s) 9106) the relative motion data, which in
+turn may provide the relative motion data to other modules,
+output the relative motion data as outputs 9194, or otherwise
+process the relative motion data to determine orientation
+information.
+In embodiments, the machine vision module 9130 may
+receive image, video, or other vision-related signals (e.g.,
+LIDAR data) and process the data to detect and/or classify
+objects. The image sensor capture circuit 9132 may receive
+vision-related signals from the inputs 9192 and perform
+initial processing on the vision-related signals to capture
+images or other vision data (e.g-, demodulation, storage in a
+buffer, extraction of images from video, image generation
+based on LIDAR data, etc.). The object detection circuit
+9134 may then detect one or more objects appearing in the
+image or other vision data. For example, the object detection
+circuit 9134 may use image-processing techniques such as
+line/edge detection and/or other machine-learning tech-
+niques to detect the location of objects in image/vision data.
+In some embodiments, the object detection circuit 9134 may
+leverage machine-learned models (e.g., stored as intelli-
+gence modules 9158) for object detection.
+The object classification circuit 9136 may recognize or
+otherwise classify objects appearing in the image or other
+vision data. In some embodiments (not shown), the object
+detection circuit 9134 and the object classification circuit
+9136 may be the same circuit. For example, the machine
+vision module 9130 may use deep learning techniques to
+both detect and recognize/classify objects in the image/

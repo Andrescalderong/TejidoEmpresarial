@@ -1,0 +1,136 @@
+some embodiments, the interactions may be parsed to iden- 15 role within an enterprise. In these embodiments, the expert
+[col 1]
+US 12,314,060 B2
+209
+the expert agent. In some of these embodiments, a smart
+contract may govern the administration of the reward to the
+expert user.
+In some embodiments, a set of expert agents trained by
+the expert agent system 8008 may be deployed as a double
+of at least a portion of a workforce of an enterprise, where
+the expert agents perform tasks of different roles within the
+enterprise. In some of these embodiments, the expert agents
+may be trained upon a training set of data that includes a set
+of interactions by members of a defined workforce of the
+enterprise during performance of the defined set of roles of
+the defined workforce (e.g., interactions with physical enti-
+ties, digital twins, sensor data, data streams, computational
+entities, and/or network entities, among many others). In
+tify a chain of operations performed by the workforce and/or
+a chain of reasoning, whereby the chain of operations and/or
+chain of reasoning are used to train the expert agents. In
+some embodiments, the interactions may be parsed to iden-
+tify types of processing performed by the workforce upon a 20
+set ofinformation, whereby the type of processing is embod-
+ied in the configuration of the respective expert agents.
+Examples of workforces may include, factory operations,
+plant operations, resource extraction operations, network
+operations (e.g-, responsible for operating a network for an 25
+industrial enterprise), a supply chain workforce, a logistics
+planning workforce, a vendor management workforce, a
+brokering workforce for a marketplace, a trading workforce
+for a marketplace, a trade reconciliation workforce for a
+marketplace, a transactional execution workforce for a mar- 3o j
+ketplace, and the like.
+In some embodiments, the expert agent system 8008
+and/or a client application 8052 can monitor outcomes
+related to the user's interactions and may reinforce the
+training of the expert agent based on the outcomes. For 35
+example, each time the user takes a corrective action, the
+expert agent system 8008 may determine the outcome (e.g..
+whether a particular condition or issue was resolved) and
+whether the outcome is a positive outcome or a negative
+outcome. The expert agent system 8008 may then retrain the 40
+expert agent based on the outcome. Examples of outcomes
+may include data relating to at least one of a financial
+outcome, an operational outcome, a fault outcome, a success
+outcome, a performance indicator outcome, an output out-
+come, a consumption outcome, an energy utilization out- 45
+come, a resource utilization outcome, a cost outcome, a
+profit outcome, a revenue outcome, a sales outcome, and a
+production outcome. In these embodiments, the expert agent
+system 8008 may monitor data obtained from the various
+data sources after an action is taken to determine an outcome 50
+(e.g., sales increased/decreased and by how much, energy
+utilization decreased/increased and by how much, costs
+decreased/increased and by how much, revenue increased/
+decreased and by how much, whether consumption
+decreased/increased and by how much, whether a fault 55
+condition was resolved, and the like). The expert agent
+system 8008 may include the outcome in the training data set
+associated with the action undertaken by the expert that
+resulted in the outcome.
+In some embodiments, the expert agent system 8008
+receives feedback from users regarding respective executive
+agents. For example, in some embodiments, a client appli-
+cation 8052 that leverages an expert agent may provide an
+interface by which a user can provide feedback regarding an
+action output by an expert agent. In embodiments, the user 65
+provides the feedback that identifies and characterizes any
+errors by the expert agent. In some of these embodiments, a
+[col 2]
+210
+report may be generated (e.g., by the client application or the
+EMP 8000) that indicates the set of errors encountered by
+the expert. The report may be used to reconfigure/retrain the
+executive agent. In embodiments, the reconfiguring/retrain-
+ing an executive agent may include removing an input that
+is the source of the error, reconfiguring a set of nodes of the
+artificial intelligence system, reconfiguring a set of weights
+of the artificial intelligence system, reconfiguring a set of
+outputs of the artificial intelligence system, reconfiguring a
+processing flow within the artificial intelligence system,
+and/or augmenting the set of inputs to the artificial intelli-
+gence system.
+In embodiments, the expert agent may be configured to, at
+least partially, operate as a double of the expert for a defined
+agent system 8008 trains an expert agent based on a training
+data set that includes a set of interactions by a specific expert
+worker during the performance of their respective role. For
+example, the set of interactions that may be used to train the
+executive agent may include interactions of the expert with
+the physical entities of an enterprise, interactions of the
+enterprise, interactions of the expert with data streams
+generated by the physical entities of the enterprise, interac-
+tions of the expert with the computational entities of the
+enterprise, interactions of the expert with the network enti-
+ties, and the like. In some embodiments, the expert agent
+system 8008 parses the training data set of interactions to
+identify a chain of reasoning of the expert upon a set of
+interactions. In some of these embodiments, the chain of
+reasoning may be parsed to identify a type of reasoning of
+the worker, which may be used as a basis for configuring/
+training the expert agent. For example, the chain of reason-
+ing may be a deductive chain of reasoning, an inductive
+chain of reasoning, a predictive chain of reasoning, a clas-
+sification chain of reasoning, an iterative chain of reasoning,
+a trial-and-error chain of reasoning, a Bayesian chain of
+reasoning, a scientific method chain of reasoning, and the
+like. In some embodiments, the expert agent system parses
+the training data set of interactions to identify a type of
+processing undertaking by the expert in analyzing the set of
+interactions. For example, types of processing may include
+audio processing in analyzing audible information, tactile or
+*touch" processing in analyzing physical sensor informa-
+tion, olfactory processing in analyzing chemical sensing
+information, textual information processing in analyzing
+text, motion processing in analyzing motion information,
+taste processing in analyzing chemical information, math-
+ematical processing in mathematically operating on numeri-
+cal data, executive manager processing in making executive
+decisions, creative processing when deriving alternative
+options, analytic processing when selecting from a set of
+options, and the like.
+In embodiments, the expert agents include executive
+agents that are trained to output actions on behalf of execu-
+tive and/or an administrator of an executive. In these
+embodiments, an expert agent may be trained for executive
+roles, such that a user in an executive role can train the
+executive agent by performing their respective role. For
+example, an executive agent may be trained for performing
+actions on behalf of or recommending actions to a user in an
+executive role. In some of these embodiments, the client
+application 8052 may provide the functionality of the enter-
+prise management platform 8000. For example, in some
+embodiments, users may view executive digital twins and/or
+may use the collaboration tools via the client application

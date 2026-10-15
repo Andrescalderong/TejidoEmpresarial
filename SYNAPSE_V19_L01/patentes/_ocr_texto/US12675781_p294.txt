@@ -1,0 +1,138 @@
+workforce, a vendor management workforce, or some other 1o role, and a distribution center manager role.
+[col 1]
+US 12,675,781 B2
+337
+investor role, an engineering manager role, a project man-
+ager role, an operations manager role, and a business devel-
+opment role.
+In embodiments, a workforce may be a factory operations
+workforce, a plant operations workforce, a resource extrac-
+tion operations workforce, a network operations workforce
+responsible for operating a network for an industrial pro-
+duction environment, a supply chain management work-
+force, a demand planning workforce, a logistics planning
+kind of workforce.
+In embodiments, a workforce may be a brokering work-
+force for a marketplace, a trading workforce for a market-
+place, a trade reconciliation workforce for a marketplace, a
+transactional execution workforce for a marketplace, or 15 
+some other kind of workforce.
+In embodiments, computational entities and the network
+entities may be integrated as a converged computational and
+network entity.
+In embodiments of the present disclosure, a method is 20
+provided for configuring a digital twin of a workforce,
+comprising: representing an enterprise organizational struc-
+ture in a digital twin of an enterprise; parsing the structure
+to infer relationships among a set of roles within the orga-
+nizational structure, the relationships and the roles defining 25 f
+a workforce of the enterprise; and configuring the presen-
+tation layer of a digital twin to represent the enterprise as a
+set of workforces having a set of attributes and relationships.
+In embodiments, a digital twin may integrate with an
+enterprise resource planning system that operates on a data 30
+structure representing a set of roles in the enterprise, such
+that changes in the enterprise resource planning system are
+automatically reflected in the digital twin.
+In embodiments, an organizational structure may include
+hierarchical components. 35
+In embodiments, hierarchical components may be embod-
+ied in a graph data structure.
+In embodiments, a workforce may be a factory operations
+workforce, a plant operations workforce, a resource extrac-
+tionoperationsworkforce,or some othertypeofworkforce.40
+In embodiments, a workforce may be a network opera-
+tions workforce responsible for operating a network for an
+industrial production environment, wherein the workforce is
+a supply chain management workforce, a demand planning
+workforce, a logistics planning workforce, a vendor man- 45
+agement workforce, a brokering workforce for a market-
+place, a trading workforce for a marketplace, a trade recon-
+ciliation workforce for a marketplace, a transactional
+execution workforce for a marketplace, or some other type
+of workforce.
+In embodiments, at least one workforce role may be
+selected from among a CEO role, a COO role, a CFO role,
+a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+officer role, a chief data officer role, an investor role, an 55
+engineering manager role, a project manager role, an opera-
+tions manager role, and a business development role.
+In embodiments, at least one workforce role may be
+selected from among a factory manager role, a factory
+operations role, a factory worker role, a power plant man- 60
+ager role, a power plant operations role, a power plant
+worker role, an equipment service role, and an equipment
+maintenance operator role.
+In embodiments, at least one workforce role may be
+selected from among a market maker role, an exchange 65
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate
+[col 2]
+338
+setting role, a market orchestration role, a market configu-
+ration role, and a contract configuration role.
+In embodiments, at least one workforce role may be
+selected from among a chief marketing officer role, a prod-
+uct development role, a supply chain manager role, a cus-
+tomer role, a supplier role, a vendor role, a demand man-
+agement role, a marketing manager role, a sales manager
+role, a service manager role, a demand forecasting role, a
+retail manager role, a warehouse manager role, a salesperson
+In embodiments, a digital twin may represent a recom-
+mendation for training for the workforce, a recommendation
+for augmentation of the workforce, a recommendation for
+configuration of a set of operations involving the workforce,
+a recommendation for configuration of the workforce, or
+some other kind of recommendation.
+In embodiments of the present disclosure, a method is
+provided for providing a digital twin of a workforce, com-
+prising: maintaining an information technology architecture
+that supports a digital twin of a set of physical and digital
+entities, the architecture including: a set of sensors that
+provide sensor data about the set of physical entities; a set
+of data streams generated by at least a subset of the set of
+physical and digital entities; a set of computational entities
+for processing data and a set of network entities for trans-
+porting data that is derived from the set of sensors and the
+set of data streams; a set of data processing systems for
+extracting, transforming and loading the data that is trans-
+ported by the network entities into a set of resources that are
+sources for the digital twin; representing an enterprise
+organizational structure in a digital twin of an enterprise;
+parsing the structure to infer relationships among a set of
+roles within the organizational structure, the relationships
+and the roles defining a workforce of the enterprise; inte-
+grating an artificial intelligence system with the information
+technology architecture, wherein the artificial intelligence
+system is configured to operate as a double of a set of
+workers for a set of defined roles of the enterprise and
+configuring the presentation layer of a digital twin to rep-
+resent the enterprise as a set of workforces having a set of
+attributes and relationships, wherein the attributes and rela-
+tionships include human worker attributes and relationships
+and artificial intelligence double attributes and relationships.
+In embodiments, a digital twin may integrate with an
+enterprise resource planning system that operates on a data
+structure representing a set of roles in the enterprise, such
+that changes in the enterprise resource planning system are
+automatically reflected in the digital twin.
+In embodiments, an organizational structure may include
+hierarchical components.
+In embodiments, hierarchical components may be embod-
+ied in a graph data structure.
+In embodiments, a workforce may be a factory operations
+workforce, a plant operations workforce, a resource extrac-
+tion operations workforce, a network operations workforce
+responsible for operating a network for an industrial pro-
+duction environment, a supply chain management work-
+force, a demand planning workforce, a logistics planning
+workforce, a vendor management workforce, a brokering
+workforce, a trading workforce, a trade reconciliation work-
+force, a transactional execution workforce, or some other
+type of workforce.
+In embodiments, at least one workforce role may be
+selected from among a CEO role, a COO role, a CFO role,
+a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+officer role, a chief data officer role, an investor role, an

@@ -1,0 +1,137 @@
+standard or a safety standard. In response to analyzing a 50 action a, and following policy t.
+[col 1]
+US 12,567,082 B2
+313
+ernance standards. It is appreciated that the standards librar-
+ies in the governance library may be defined by the platform
+provider, customers, and/or third parties. The standards may
+be government standards, industry standards, customer stan-
+dards, or other suitable sources. In embodiments, each set of
+standards may include a set of conditions that implicate the
+respective set of standards, such that the conditions may be
+used to determine which standards to apply given a situation
+In some embodiments, the analysis management module
+8806 may determine one or more analyses that are to be 10
+performed with respect to a particular decision and may
+provide corresponding analysis modules 8808 that perform
+those analyses to the artificial intelligence modules 8804,
+such that the artificial intelligence modules 8804 leverage
+the corresponding analysis modules 8808 to analyze a
+decision before outputting the decision to the requesting
+client. In embodiments, the analysis modules 8808 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by a processing system 20
+that hosts the instance of the intelligence services 8800.
+Non-limiting examples of analysis modules 8808 may
+include risk analysis module(s), security analysis module(s),
+decision tree analysis module(s), ethics analysis module(s),
+failure mode and effects (FMEA) analysis module(s), hazard
+analysis module(s), quality analysis module(s), safety analy-
+sis module(s), regulatory analysis module(s), legal analysis
+module(s),and/or other suitable analysis modules.
+In some embodiments, the analysis management module
+8806 is configured to determine which types of analyses to
+30
+perform based on the type of decision that was requested by
+an intelligence service client 8836. In some of these embodi-
+ments, the analysis management module 8806 may include
+an index or other suitable mechanism that identifies a set of
+analysis modules 8808 based on a requested decision type. 35
+In these embodiments, the analysis management module
+8806 may receive the decision type and may determine a set
+of analysis modules 8808 that are to be executed based on
+the decision type. Additionally or alternatively, one or more
+governance standards may define when a particular analysis 40
+is to be performed. For example, the engineering standards
+may define what scenarios necessitate a FMEA analysis. In
+this example, the engineering standards may have been
+implicated by a request for a particular type of decision and
+the engineering standards may define scenarios when an 45 s
+FMEA analysis is to be performed. In this example, artificial
+intelligence modules 8804 may execute a safety analysis
+module and/or a risk analysis module and may determine an
+alternative decision if the action would violate a legal
+proposed decision, artificial intelligence modules 8804 may
+selectively output the proposed condition based on the
+results of the executed analyses. If a decision is allowed,
+artificial intelligence modules 8804 may output the decision
+to the requesting intelligence service client 8836. If the 55
+proposed configuration is flagged by one or more of the
+analyses, artificial intelligence modules 8804 may determine
+an alternative decision and execute the analyses with respect
+to the alternate proposed decision until a conforming deci-
+sion is obtained. 60
+It is noted here that in some embodiments, one or more
+analysis modules 8808 may themselves be defined in a
+standard, and one or more relevant standards used together
+may comprise a particular analysis. For example, the appli-
+cable safety standard may call for a risk analysis that can use 65
+or more allowable methods. In this example, an ISO stan-
+dard for overall process and documentation, and an ASTM
+[col 2]
+314
+standard for a narrowly defined procedure may be employed
+to complete the risk analysis required by the safety gover-
+nance standard.
+As mentioned, the foregoing framework of an intelligence
+services 8800 may be applied in and/or leveraged by various
+entities of a value chain. For example, in some embodi-
+ments, a platform-level intelligence system may be config-
+ured with the entire capabilities of the intelligence services
+8800, and certain configurations of the intelligence services
+8800 may be provisioned for respective value chain entities.
+Furthermore, in some embodiments, an intelligence service
+client 8836 may be configured to escalate an intelligence
+system task to a higher-level value chain entity (e.g., edge-
+level or the platform-level) when the intelligence service
+client 8836 cannot perform the task autonomously. It is
+noted that in some embodiments, an intelligence service
+controller 8802 may direct intelligencetasks to a lower-level
+component. Furthermore, in some implementations, an intel-
+ligence services 8800 may be configured to output default
+actions when a decision cannot be reached by the intelli-
+gence services 8800 and/or a higher or lower-level intelli-
+gence system. In some of these implementations, the default
+decisions may be defined in a rule and/or in a standards
+25library.
+Reinforcement Learning to Determine Optimal Policy
+Reinforcement learning (RL), is a machine learning tech-
+nique where an agent iteratively learns optimal policy
+through interactions with the environment. In RL, the agent
+must discover correct actions by trial-and-error so as to
+maximize some notion of long-term reward. Specifically, in
+a system employing RL, there exist two entities: (1) an
+program component that is connected to its environment
+such that it can sense the state of the environment as well as
+execute actions on the environment. On each step of inter-
+action, the agent senses the current state of the environment,
+s, and chooses an action to take, a. The action changes the
+state of the environment, and the value of this state transition
+is communicated to the agent by a reward signal, r, where the
+magnitude of r indicates the desirability of an action. Over
+time, the agent builds a policy, , which specifies the action
+the agent will take for each state of the environment.
+Formally, in reinforcement learning, there exists a discrete
+set of environment states, S; a discrete set of agent actions,
+A; and a set of scalar reinforcement signals, R. After
+learning, the system creates a policy, t, that defines the value
+of taking action aeA in state seS. The policy defines Q(s,
+a) as the expected return value for starting from s, taking
+The reinforcement learning agent is trained in a policy
+through iterative exposure to various states, having the agent
+select an action as per the policy and providing a reward
+based on a function designed to reward desirable behavior.
+Based on the reward feedback, the system may *learn" the
+policy and becomes trained in producing desirable actions.
+For example, for navigation policy, RL agent may evaluate
+its state repeatedly (e.g., location, distance from a target
+object), select an action (e.g., provide input to the motors for
+movement towards the target object), evaluate the action
+using a reward signal, which provides an indication of the of
+the success of the action. (e.g., a reward of +10 if movement
+reduces the distance between a mobile system and a target
+object and -1o if the movement increases the distance).
+Similarly, the RL agent may be trained in grasping policy by
+iteratively obtaining images of a target object to be grasped,
+attempt to grasp the object, evaluate the attempt, and then

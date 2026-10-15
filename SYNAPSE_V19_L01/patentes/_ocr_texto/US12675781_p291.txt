@@ -1,0 +1,136 @@
+In embodiments, a report on a set of errors may be 40 role, a counsel role, a boardmemberrole, aCTOrole, achief
+[col 1]
+US 12,675,781 B2
+331
+In embodiments, a type of processing may use creative
+processing of the expert worker and the artificial intelligence
+system may be configured to provide a set of alternative
+options.
+In embodiments, a type of processing may use analytic
+processing of the expert worker to select among a set of
+available choices and the artificial intelligence system may
+be configured to provide a recommendation among a set of
+choices.
+In embodiments, an artificial intelligence system may be
+trained on a training set of outcomes.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome. 20
+In embodiments, an artificial intelligence system may be
+at least one of trained and configured via feedback from the
+specific expert worker regarding a set of outputs of the
+artificial intelligence system.
+In embodiments, a set of outputs of the artificial intelli- 25 
+gence system upon which the expert provides feedback may
+include at least one of a recommendation, a classification, a
+prediction, a control instruction, an input selection, a pro-
+tocol selection, a communication, an alert, a target selection
+30 for a communication, a data storage selection, a computa-
+tional selection, a configuration, an event detection, and a
+forecast.
+In embodiments, a feedback of the expert may be solicited
+to train the artificial intelligence system to replicate the
+35
+expertise of the expert in the role, used to modify the set of
+inputs to the artificial intelligence system, and or used to
+identify and characterize at least one error by the artificial
+intelligence system.
+provided to a manager associated with the artificial intelli-
+gence system to enable reconfiguring of the artificial intel-
+ligence system based on the feedback from the expert.
+In embodiments, reconfiguring the artificial intelligence
+ system may include at least one of removing an input that is 45 
+the source of the error, reconfiguring a set of nodes of the
+artificial intelligence system, reconfiguring a set of weights
+of the artificial intelligence system, reconfiguring a set of
+outputs of the artificial intelligence system, reconfiguring a
+processing flow within the artificial intelligence system, and 501
+augmenting the set of inputs to the artificial intelligence
+system.
+In embodiments, an artificial intelligence system may be
+configured to provide at least one of training and guidance
+to another worker to enable the other worker to perform the 55 1
+defined role.
+In embodiments, an artificial intelligence system may
+learn on a training set of outcomes to enhance the training
+and guidance.
+In embodiments, a training set of outcomes may include 60 s
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out- 65
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+[col 2]
+332
+In embodiments, an artificial intelligence system may be
+configured to provide at least one of training and guidance
+to another worker to enable the other worker to perform the
+defined role.
+In embodiments, an artificial intelligence system may
+learn on a training set of outcomes to enhance the training
+and guidance.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+10 operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+configured to provide at least one of training and guidance
+to the expert worker to enable the expert worker to perform
+the defined role.
+In embodiments, an artificial intelligence system may
+learn on a training set of outcomes to enhance the training
+and guidance.
+In embodiments, a training set of outcomes may include
+data relating to at least one of a financial outcome, an
+operational outcome, a fault outcome, a success outcome, a
+performance indicator outcome, an output outcome, a con-
+sumption outcome, an energy utilization outcome, a
+resource utilization outcome, a cost outcome, a profit out-
+come, a revenue outcome, a sales outcome, and a production
+outcome.
+In embodiments, outcomes may be compared between a
+set of actions of the expert worker and a set of outputs of the
+artificial intelligence system.
+In embodiments, a comparison may be used to train the
+expert worker.
+In embodiments, a comparison may be used to improve
+the artificial intelligence system.
+In embodiments, a defined role of the expert worker may
+be selected from among a CEO role, a COO role, a CFO
+marketing officer role, an information technology manager
+role, a chief information officer role, a chief data officer role,
+an investor role, a customer role, a vendor role, a supplier
+role, an engineering manager role, a project manager role, an
+operations manager role, a sales manager role, a salesperson
+role, a service manager role, a maintenance operator role,
+and a business development role.
+In embodiments, computational entities and the network
+entities may be integrated as a converged computational and
+network entity.
+In embodiments of the present disclosure, a method is
+provided for maintaining an information technology archi-
+tecture that supports a digital twin of a set of physical
+entities, the architecture including: a set of sensors that
+provide sensor data about the set of physical entities; a set
+of data streams generated by at least a subset of the set of
+physical entities; a set of computational entities for process-
+ing data and a set of network entities for transporting data
+that is derived from the set of sensors and the set of data
+streams; a set of data processing systems for extracting,
+transforming and loading the data that is transported by the
+network entities into a set of resources that are sources for
+the digital twin; and integrating an artificial intelligence
+system with the information technology architecture,
+wherein the artificial intelligence system is configured to
+operate as a double of an expert worker for a defined role of
+the enterprise and wherein an electronic account associated

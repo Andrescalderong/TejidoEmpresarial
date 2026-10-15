@@ -1,0 +1,136 @@
+perform simple regression or multiple regression. As 3o networks; hidden Markov models; etc.
+[col 1]
+US 12,567,082 B2
+299
+In embodiments, machine learning models may output a
+probabilistic classification. For example, machine learning
+distribution over a set of classes. Thus, rather than outputting
+only the most likely class to which the sample input should
+belong, machine learning models can output, for each class,
+a probability that the sample input belongs to such class. In
+embodiments, the probability distribution over all possible
+classes can sum to one. In embodiments, a Softmax function,
+or other type of function or layer can be used to turn a set 10
+of real values respectively associated with the possible
+classes to a set of real values in the range (O, 1) that sum to
+one. In embodiments, the probabilities provided by the
+probability distribution can be compared to one or more
+thresholds to render a discrete categorical prediction. In
+embodiments, only a certain number of classes (e.g., one)
+with the relatively largest predicted probability can be
+selected to render a discrete categorical prediction.
+In embodiments, machine learning models can perform
+regression to provide output data in the form of a continuous
+numeric value. As examples, machine learning models can
+perform linear regression, polynomial regression, or nonlin-
+ear regression, As described, in embodiments, a Softmax
+function or other function or layer can be used to squash a
+set of real values respectively associated with a two or more 25
+possible classes to a set of real values in the range (0, 1) that
+sum to one. For example, machine learning models can
+perform linear regression, polynomial regression, or nonlin-
+ear regression. As examples, machine learning models can
+described above, in some implementations, a Softmax func-
+tion or other function or layer can be used to squash a set of
+real values respectively associated with a two or more
+possible classes to a set of real values in the range (O, 1) that
+sum to one. 35
+In embodiments, machine learning models may perform
+various types of clustering. For example, machine learning
+models may identify one or more previously-defined clusters
+to which the input data most likely corresponds. In some
+implementations in which machine learning models per-
+forms clustering, machine learning models can be trained
+using unsupervised learning techniques.
+In embodiments, machine learning models may perform
+anomaly detection or outlier detection. For example,
+machine learning models can identify input data that does 45
+not conformtoan expectedpattern or other characteristic
+(e.g., as previously observed from previous input data). As
+examples, the anomaly detection can be used for fraud
+detection or system failure detection.
+In some implementations, machine learning models can 50 
+provide output data in the form of one or more recommen-
+dations.For example, machine learning models can be
+included in a recommendation system or engine. As an
+example, given input data that describes previous outcomes
+for certain entities (e.g-, a score, ranking, or rating indicative 55
+of an amount of success or enjoyment), machine learning
+models can output a suggestion or recommendation of one
+or more additional entities that, based on the previous
+outcomes,are expected to have a desired outcome
+As described above, machine learning models can be or 60 t
+include one or more of various different types of machine-
+learned models. Examples of such different types of
+machine-learned models are provided below for illustration.
+One ormore of the examplemodels described below can be
+used (e.g., combined) to provide the output data in response 65
+to the input data. Additional models beyond the example
+models provided below can be used as well.
+[col 2]
+300
+In some implementations, machine learning models can
+be or include one or more classifier models such as, for
+example, linear classification models; quadratic classifica-
+tion models; etc. Machine learning models may be or
+include one or more regression models such as, for example,
+simple linear regression models; multiple linear regression
+models; logistic regression models; stepwise regression
+models; multivariate adaptive regression splines; locally
+estimated scatterplot smoothing models; etc.
+In some examples, machine learning models can be or
+include one or more decision tree-based models such as, for
+example, classification and/or regression trees; chi-squared
+automatic interaction detection decision trees; decision
+stumps; conditional decision trees; etc.
+Machine learning models may be or include one or more
+kernel machines. In some implementations, machine learn-
+ing models can be or include one or more support vector
+machines. Machine learning models may be or include one
+or more instance-based learning models such as, for
+20 example, learning vector quantization models; self-organiz-
+ing map models; locally weighted learning models; etc. In
+some implementations, machine learning models can be or
+include one or more nearest neighbor models such as, for
+example, k-nearest neighbor classifications models; k-near-
+est neighbors regression models; etc. Machine learning
+models can be or include one or more Bayesian models such
+as, for example, naive Bayes models; Gaussian naive Bayes
+models; multinomial naive Bayes models; averaged one-
+dependence estimators; Bayesian networks; Bayesian belief
+Machine learning models may include one or more clus-
+tering models such as, for example, k-means clustering
+models; k-medians clustering models; expectation maximi-
+zation models; hierarchical clustering models; etc.
+In some implementations, machine learning models can
+perform one or more dimensionality reduction techniques
+such as, for example, principal component analysis; kernel
+principal component analysis; graph-based kernel principal
+least squares regression; Sammon mapping; multidimen-
+sional scaling; projection pursuit; linear discriminant analy-
+sis; mixture discriminant analysis; quadratic discriminant
+analysis; generalized discriminant analysis; flexible dis-
+criminant analysis; autoencoding; etc.
+In some implementations, machine learning models can
+perform or be subjected to one or more reinforcement
+learning techniques such as Markov decision processes;
+dynamic programming; Q functions or Q-learning; value
+function approaches; deep Q-networks; differentiable neural
+computers; asynchronous advantage actor-critics; determin-
+istic policy gradient; etc.
+In embodiments, artificial intelligence modules 8804 may
+include and/or provide access to a neural network module
+8814. In embodiments, the neural network module 8814 is
+configured to train, deploy, and/or leverage artificial neural
+networks (or “neural networks) on behalf of an intelligence
+service client 8836. It is noted that in the description, the
+term machine learning model may include neural networks,
+and as such, the neural network module 8814 may be part of
+the machine learning module 8812. In embodiments, the
+neural network module 8814 may be configured to train
+neural networks that may be used by the intelligence clients
+8836. Non-limiting examples of different types of neural
+networks may include any of the neural network types
+described throughout this disclosure and the documents
+incorporated herein by reference, including without limita-
+tion convolutional neural networks (CNN), deep convolu-

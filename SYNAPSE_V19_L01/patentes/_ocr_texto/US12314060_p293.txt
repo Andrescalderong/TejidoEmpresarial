@@ -1,0 +1,136 @@
+(e.g., the layout ofa factory floor, a warehouse, a distribution 15 and relationship, and the like.
+[col 1]
+US 12,314,060 B2
+221
+8108. In embodiments, “perspective" may refer to the
+adjustments to, aggregations of, simplifications of, and/or
+detail additions to the ontology of a particular digital twin
+(e.g., a role-based digital twin) that provide the appropriate
+ontological view of the underlying data with the correct
+types at the appropriate granularity level. For example, a
+CEO digital twin may link in fuzzy data with markets data
+and depict the potential impacts of market forces on a
+simulated digital twin environment for different scenarios.
+In another example, in a CFO level digital twin, the internal
+financial system of accounts may be allocated across the
+physical structure of the digital twin providing an ability to
+understand the relationship between revenue generation,
+cost allocation, and the structural aspects of the business
+center, a logistics facility, an office building, a retail location,
+a container ship, or the like). Continuing this example, the
+CTO digital twin may include data overlays with current
+market information on new technologies and linkages ther-
+ebetween.In this example,the CTO digital twin builds in 20
+linkages between an impact of changing technology plat-
+forms and outside information that may be used for enhance-
+ment of the facility. These different perspectives generated
+by the perspective builder 8110 combine with the digital
+twin simulation system 8116 to provide relevant simulations 25
+of how scenario-based future states might be handled by the
+facility, the digital twin simulation system 8116 provides for,
+recommendations on how to enhance the digitally twin
+represented facility structurally to meet the needs of the
+future states, responses to specific changes in the digital twin 30
+environment or alterations in the information relating to
+digital twin simulate elements. In embodiments, the per-
+spective builder 8110 may build perspectives that depict
+intersections or overlays of operational states and entities
+35
+facilitate recognition of opportunities and/or problems
+involving the interplay and convergence of information
+of a wide range of industries and domains. In further
+embodiments, the perspective builder 8110 may build per- 40
+spectives that allow for different roles to interact with the
+same digital twin while maintaining different perspectives
+on the operational states and entities, which allows for these
+different roles to have a meaningful interaction while main-
+taining their role-specific perspective. In embodiments, the 45
+perspective builder 8110 builds a perspective for a digital
+twin by providing each different user/role with a respective
+diagrammatic view expressed as in the digital twin where
+that diagram includes information and structure at a level
+relevant to the specific user's role. This user-specific dia- 50
+gram is then connected to the underlying data to provide for
+the role-based digital twin experience.
+In embodiments, the digital twin access controller 8112
+informs the generation system 8108 of specific constraints
+around the roles ofusers abletoview the digital twin as well 55
+as providing for dynamically adjustable digital twins that
+can adapt to constrain or release views of the data or other
+features specific to each user role. For example sensitive
+salary data might be obfuscated from most administrative
+employees when viewing an organizational digital twin, but 60
+the CEO may be granted access to view the salary informa-
+tion directly. In embodiments, the digital twin access con-
+troller 8112 may receive a user identifier and one or more
+data types. In response, the digital twin access controller
+8112 may determine whether the user indicated by the user 65
+identifier has access to the one more data types or other
+features. In some of these embodiments, the digital twin
+[col 2]
+222
+access controller may look up the user in the organizational
+digital twin of the enterprise of the user and may determine
+the user's permissions and restrictions based thereon. Alter-
+natively, the user's permissions and restrictions may be
+indicated in a user database. In embodiments, the organiza-
+tional digital twin may, as noted above, be generated auto-
+matically, such as by parsing available data sources to
+automatically construct a representation of the organization,
+such as a hierarchical organizational chart, a graph of the
+organization with nodes representing organizational entities
+(e.g., workgroups, roles, assets and personnel), links or
+connections indicating relationships (e.g., reporting relation-
+ships, lines of authority, group affiliations, and the like), and
+data or metadata indicating other attributes of the entities
+In embodiments, the digital twin interaction manager
+8114 manages the relationship between the structural view
+of the data in an enterprise digital twin (e.g., as depicted/
+represented by the client application 8052) and the under-
+lying data streams and data sources. In embodiments, this
+interaction layer makes the digital twin into a window into
+the underlying data streams through the lens of the structure
+of the data. In embodiments, the digital twin interaction
+manager 8114 determines the types of data, or the nature of
+the human interface for building these interactions, that are
+being fed to an instance of an enterprise digital twin (e.g., an
+environment digital twin or an executive digital twin) while
+the instance is being executed by a client application 8052.
+Put another way, the digital twin interaction manager 8114
+determines and serves data for an in-use digital twin. In
+embodiments, the digital twin interaction manager 8114 has
+specific user interactions and controls that govern the rela-
+tionship between a user interface and the role based digital
+twin. Furthermore, in embodiments, these role-based digital
+twin interactions can be with a shared digital twin with
+different roles interacting seamlessly. In embodiments, the
+digital twin interaction manager 8114 feeds raw data
+received from a data source to the digital twin or from the
+digital twin I/O system 8104, or a combination of the digital
+twin I/O system 8104 and role-based human interactions.
+For example, sensor readings of temperatures throughout an
+environment may be fed directly to the executing environ-
+ment digital twin of the environment through the digital twin
+I/O system 8104 and in response to a human interaction with
+the environment digital twin to adjust a temperature setting
+of the environment, the digital twin interaction manager
+8114 may issue a control signal to a temperature controller
+within the environment to increase or decrease the tempera-
+ture.
+In embodiments, the digital twin interaction manager
+another component of the EMP 8ooo.For example, a CEO
+digital twin may depict analytical data obtained from the
+artificial intelligence services system 8010 that is derived
+from incoming financial data, marketing data, operational
+data, and sensor data. In this example, the digital twin
+interaction manager 8114 may receive a request to drill
+down into the analytical data from the user and in response,
+the digital twin interaction manager 8114 may obtain the
+financial data, marketing data, and/or the sensor data from
+which the analytical data was derived. In another example,
+the digital twin interaction manager 8114 may receive
+simulated cost data from the digital twin simulation system
+8116 to convey revenue/costs with respect to different asset
+maintenance schedules, whereby the simulated data is
+derived using historical maintenance data of the enterprise,
+historical sensor data collected by sensors in a facility of the

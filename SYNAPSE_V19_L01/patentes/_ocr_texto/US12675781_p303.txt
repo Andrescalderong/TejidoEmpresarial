@@ -1,0 +1,137 @@
+segmentation, parts-of-speech tagging, stemming, syntactic 35 Stages 3-4 of the decoder 8804 include N layers (e.g., N=6,
+[col 1]
+US 12,675,781 B2
+355
+networks (e.g, convolutional neural networks) to classify
+the blobs in the image. In some embodiments, the machine
+vision module 8822 may perform feature extraction on the
+images and/or the respective blobs in the image prior to
+classification. In some embodiments, the machine vision
+module 8822 may leverage classification made in a previous
+image to affirm or update classification(s) from the previous
+image. For example, if an object that was detected in a
+previous frame was classified with a lower confidence score
+(e.g., the object was partially occluded or out of focus), the 10 t
+machine vision module 8822 may affirm or update the
+classification if the machine vision module 8822 is able to
+determine a classification of the object with a higher degree
+of confidence. In embodiments, the machine vision module
+8822 is configured to detect occlusions, such as objects that 15
+may be occluded by another object. In embodiments, the
+machine vision module 8822 receives additional input to
+assist in image classification tasks, such as from a radar, a
+sonar, a digital twin of an environment (which may show
+locations of known objects), and/or the like. In some 20
+embodiments, a machine-vision module 8822 may include
+or interface with a liquid lens. In these embodiments, the
+liquid lens may facilitate improved machine vision (e.g.,
+when focusing at multiple distances is necessitated by the
+environmentandjobofarobot)and/orothermachinevision25
+tasks that are enabled by a liquid lens.
+In embodiments, the artificial intelligence modules 8804
+may include and/or provide access to a natural language
+processing (NLP) module 8824. In embodiments, an NLP
+module 8824 performs natural language tasks on behalf of 30
+an intelligence service client 8836. Examples of natural
+language processing techniques may include, but are not
+limited to, speech recognition, speech segmentation, speaker
+diarization, text-to-speech, lemmatization, morphological
+analysis, lexical analysis, and the like. In embodiments, the
+NLP module 8824 may enable voice commands that are
+received from a human. In embodiments, the NLP module
+8824 receives an audio stream (e.g., from a microphone) and
+mayperformvoice-to-textconversion onthe audio streamto
+obtain a transcription of the audio stream. The NLP module
+8824 may process text (e.g., a transcription of the audio
+stream) to determine a meaning of the text using various
+NLP techniques (e.g., NLP models, neural networks, and/or
+the like). In embodiments,the NLP module 8824 may 45
+determine an action or command that was spoken in the
+audio stream based on the results of the NLP. In embodi-
+ments, the NLP module 8824 may output the results of the
+NLP to an intelligence service client 8836.
+In embodiments, the NLP module 8824 provides an 50
+intelligence service client 8836 with the ability to parse one
+or more conversational voice instructions provided by a
+human user to perform one or more tasks as well as
+communicate with the human user. The NLP module 8824
+may perform speech recognition to recognize the voice 55
+instructions, natural language understanding to parse and
+derive meaning from the instructions, and natural language
+generation to generate a voice response for the user upon
+processing of the user instructions. In some embodiments,
+the NLP module 8824 enables an intelligence service client 60
+8836 to understand the instructions and, upon successful
+completion of the task by the intelligence service client
+8836, provide a response to the user. In embodiments, the
+NLP module 8824 may formulate and ask questions to a user
+if the context of the user request is not completely clear. In 65
+embodiments, the NLP module 8824 may utilize inputs
+received from one or more sensors including vision sensors,
+[col 2]
+356
+location-based data (e.g-, GPS data) to determine context
+information associated with processed speech or text data.
+In embodiments, the NLP module 8824 uses neural net-
+works when performing NLP tasks, such as recurrent neural
+networks, long short term memory (LSTMs), gated recurrent
+unit (GRUs), transformer neural networks, convolutional
+neural networks and/or the like.
+FIG. 107 illustrates an example neural network 8800 for
+implementing NLP module 8824. In the illustrated example,
+the example neural network is a transformer neural network.
+In the example, the transformer neural network 8800
+includes three input stages and five output stages to trans-
+form an input sequence into an output sequence. The
+example transformer includes an encoder 8802 and a
+decoder 8804. The encoder 8802 processes input, and the
+decoder 8804 generates output probabilities, for example.
+The encoder 8802 includes three stages, and the decoder
+8804 includes five stages. Encoder 8802 stage 1 represents
+an input as a sequence of positional encodings added to
+embedded inputs. Encoder 8802 stages 2 and 3 include N
+layers (e.g., N=6, etc.) in which each layer includes a
+position-wise feedforward neural network (FNN) and an
+attention-based sublayer Each attention-based sublayer of
+encoder 8802 stage 2 includes four linear projections and
+multi-head attention logic to be added and normalized to be
+provided to the position-wise FNN of encoder 8802 stage 3.
+Encoder 8802 stages 2 and 3 employ a residual connection
+followed by a normalization layer at their output.
+The example decoder 8804 processes an output embed-
+ding as its input with the output embedding shifted right by
+one position to help ensure that a prediction for position i is
+dependent on positions previous to/less than i. In stage 2 of
+the decoder 8804, masked multi-head attention is modified
+to prevent positions from attending to subsequent positions.
+etc.)in which each layer includes a position-wise FNN and
+attention-based sublayers. Each attention-based two
+projections and multi-head attention logic to be added and
+normalized to be provided to the position-wise FNN of
+decoder 8804 stage 4. Decoder 8804 stages 2-4 employ a
+residual connection followed by a normalization layer at
+their output. Decoder 8804 stage 5 provides a linear trans-
+formation followed by a softmax function to normalize a
+resulting vector of K numbers into a probability distribution
+8806 including K probabilities proportional to exponentials
+of the K input numbers.
+Additional examples of neural networks may be found
+elsewhere in the disclosure (e.g., FIGS. 78-103).
+Referring back to FIG. 104, in embodiments, artificial
+intelligence modules 8804 may also include and/or provide
+access to a rules-based module 8828 that may be integrated
+into or be accessed by an intelligence service client 8836. In
+some embodiments, a rules-based module 8828 may be
+configured with programmatic logic that defines a set of
+rules and other conditions that trigger certain actions that
+may be performed in connection with an intelligence client.
+In embodiments, the rule-based module 8828 may be con-
+figured with programmatic logic that receives input and
+determines whether one or more rules are met based on the
+input. If a condition is met, the rules-based module 8828
+determines an action to perform, which may be output to a
+requesting intelligence service client 8836. The data
+received by the rules-based engine may be received from an
+intelligence service input source 8832 and/or may be
+requested from another module in artificial intelligence
+modules 8804, such as the machine vision module 8822, the

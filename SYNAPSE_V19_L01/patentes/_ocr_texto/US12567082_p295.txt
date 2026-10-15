@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+267
+resume data, applicant cover letters, applicant offer data, and
+the like. The CHRO digital twin 8316 may interact with and
+share such applicant data and reporting with other executive
+digital twins, as described herein. The CHRO digital twin
+8316 may include machine learning, AI, and/or other intel-
+ligence such as analytics, to process job applications,
+resumes, cover letters, applicant reference materials, appli-
+cant screening data, applicant interview data, and the like in
+order to identify and select potential new employees and/or
+10 to identify other executives or enterprise stakeholders that
+may be interested in such information.
+In embodiments, the EMP 8000 may obtain HR-relevant
+data from the enterprise's human resources management
+software (e.g., via an API), human capital software, work-
+force management software, payroll software, applicant
+tracking software, accounting software, employee applicant
+software, publicly disclosed financial statements, third-party
+reports, tax filings, social media software, job listing web-
+sites, recruitment software, and the like. 20
+In embodiments, a CHRO digital twin 8316 may provide
+an interface for an HR executive to perform one or more
+HR-related workflows. For example, the CHRO digital twin
+8316 may provide an interface for an HR-executive to
+perform, supervise, or monitor workflows, the entities 25
+involved in the workflows, and attributes thereof, such as
+onboarding workflows, offboarding workflows, dismissal
+workflows, decision documentation workflows, succession
+planning workflows, candidate assessment workflows, can-
+didate screening workflows, compliance workflows, disci- 3o
+plinary workflows,review workflows,interview workflows,
+offer workflows, employee training workflows, and many
+others.
+In embodiments, a CHRO digital twin 8316 may leverage
+an executive agent 8364 that is trained on a user's (e.g., an 35 s
+HR executive's) actions (e.g., behaviors, responses, inter-
+actions and preferences) using the expert agent system 8008
+in response to events and situations encountered by the user
+(e.g., alerts, notifications, escalations, delegations, presen-
+tations of data, events, and the like).In some of these 40
+embodiments, the client application 8052 hosting the CHRO
+digital twin 8316 may report actions taken by the user in
+response to various events encountered by the user via the
+CHRO digital twin 8316. For example, the client application
+8052 may identify events such as a request to authorize a 45
+new hire, a request to terminate an employee, or a notifica-
+tion indicating that employee turnover has reached a critical
+threshold. In this example, the client application 8052 may
+record and report the actions taken by the user in response
+to such events and may report the actions in relation to the 50
+identified events to the expert agent system 8008, as well as
+any other features that are relevant to the event. In response,
+the expert agent system 8008 may train an executive agent
+8364 on behalf of the user, such that the executive agent may
+perform or recommend actions to the user when similar 55
+events are encountered in the future.
+References to features and functions of the EMP and
+digital twins in this example of a human resources depart-
+ment and a CHRO digital twin 8316 should be understood
+to apply to other departments and digital twins, and their 60
+respective projects and workflows, except where context
+indicates otherwise.
+In embodiments, the executive digital twins may link to,
+interact with, integrate with and/or be used by a number of
+different applications. For example, the executive digital 65
+twins may be used in automated AI-reporting tools 8360,
+collaboration tools 8362, in connection with executive
+[col 2]
+268
+agents 8364, in board meeting tools 8366, for training
+modules 8368, and for planning tools 8370.
+In embodiments, AI reporting tools 8360 assist users to
+report one or more states to another user. For example, a
+subordinate may need to report an identified issue to a
+higher-ranking member of the enterprise (e.g-, CTO may
+wish to report an issue that needs to be addressed to the
+CEO). In embodiments, the AI reporting tool 8360 may be
+configured to receive a request to report a state from a client
+device 8050. In embodiments, the AI-reporting tool 8360
+may identify the appropriate recipients of the reported state
+based on the type of request, the role of the user that issued
+the request and the organizational structure of the entity. In
+some embodiments, the AI-reporting tool may determine the
+role of the user and the recipients of the report from the
+organizational digital twin of the enterprise. In some
+embodiments, the AI-reporting tool 8360 may determine
+whether the intended recipients of a notification have access
+rights to the data being shared from the executive digital
+twin. For example, if the CFO is reporting to the CEO, it is
+likely that the CEO has access to all the enterprise's data and
+will not be precluded from receiving the report. Conversely,
+if the CFOwishes to delegate the handling of an issue via the
+Al-reporting tool to an employee in her business unit, the
+recipient may not have access to such data. In this scenario,
+the AI-reporting tool 8360 may notify the requesting user
+(e.g., the CFO) that certain types of data may not be shared
+with the subordinate employee and may determine a manner
+by which the issue may be reported to the subordinate
+without sharing the non-accessible data. Upon determining
+that a user has access rights to view a particular state of data,
+the AI-reporting tool 8360 may generate a report that is for
+the intended recipient. In embodiments, the AI-reporting
+tool may leverage the NLP services of the intelligence
+system to generate the report. In some embodiments, the
+Al-reporting tool 8360 may leverage an executive agent
+8364 to determine when to report a state and the appropriate
+recipients of the reported state. In these embodiments, the
+executive agent 8364 may be trained on interactions of the
+user with the client application 8052 and digital twins that
+were previously presented to the user.
+In some embodiments, the A-reporting tool 8360 may be
+configured to monitor one or more user-defined key perfor-
+mance indicators (KPIs). Examples of KPIs of an enterprise
+may include, but are not limited to, with respect to systems,
+facilities, processes, functions, or workforce units: uptime
+(e.g-, of an assembly line or other manufacturing system),
+capacity utilization, on-standard operating efficiency, overall
+effectiveness, downtime, amount of unscheduled downtime,
+racy, quality metrics relating to products and services,
+first-pass yield amounts for the enterprise, an amount of
+rework required, days-sales-outstanding (DSOs), an amount
+of scrap or waste produced, throughput, changeover, main-
+tenance percentage, yield per system or unit, overall yield,
+industry reviews, industry ratings, customer reviews, cus-
+tomer ratings, editorial reviews, awards, social media and
+website attention metrics, search engine performance met-
+rics, safety metrics, health metrics, environmental impact
+metrics, political metrics, certification and testing metrics,
+regulatory metrics, social impact metrics, financial and
+investment metrics, corporate bond ratings, trade association
+metrics, union metrics, lobbying organization ratings, adver-
+tising performance metrics, referral metrics, and many oth-
+ers. Additional or alternative KPI metrics may be defined by
+a user. Examples of these KPI metrics may include an
+amount or percentage of failed audits, a number or percent-

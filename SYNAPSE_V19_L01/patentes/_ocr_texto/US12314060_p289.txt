@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+213
+operations may include one or more of "drilling down" into
+a particular state, escalating or otherwise notifying another
+user ofa state or set of states, exporting a state or set of states
+into a collaborative environment (e.g., into a word processor
+document, a spreadsheet, a presentation document, a slide
+show, a model (e.g., a CAD model, a 3D model, or the like),
+a report (e.g., an annual report, a quarterly report, or the
+like), a website, a Wiki, a dashboard, a collaboration envi-
+ronment location (e.g., a SlackTM location), a workflow
+application, or the like), sending a request for action with 10
+respect to one or more states from another user, performing
+a simulation, adjusting interface elements (such as changing
+sizes, colors, locations, brightness, presence/absence of dis-
+play, etc.), or the like. For example, a COO or other
+operations executive may view an operations or COO digital 15
+twin. The states that may be depicted in the COO digital twin
+may include notifications of potential issues with one or
+more pieces of machinery or equipment (e.g., among many
+others, as observed from analyzing a stream of data from one
+or more sensors on a piece of robotic equipment). In viewing 20 
+the COO digital twin, the user may wish to escalate the
+issue, such as to the CEO, request input from another
+executive and/or to instruct an operations manager, such as
+a warehouse or plant manager, to handle the issue. In this
+example, the client application depicting the COO digital
+twin may allow the user to select an option to escalate the
+issue. In response to the user selecting the “escalate" option,
+the client application 8052 transmits the escalate request to
+theEMP8000.The EMP 8000maythen determine the
+appropriate user or users to which the issue is escalated. In 30
+some embodiments, the EMP 8000 may determine the
+reporting structure of the enterprise from an organizational
+digital twin of the enterprise to which the users belong. In
+this example, if the operations executive elects to have the
+operations manager handle the issue, the usermay select an 35
+option to share the state with another user. The user may then
+enter an identifier of the intended recipient (e.g-, an email
+address, phone number, text address, user name, role
+description, or other identifier of the recipient (such as
+identifiers for the recipient in various workflow environ-
+ments, collaboration environments and the like (including
+other digital twins), and the like) and may input a message
+indicating instructions to the intended recipient. In response,
+the EMP 8000 may communicate the identified state to the
+intended recipient. 45
+In another example, the client application 8052 may
+depict a CFO digital twin to a user (e.g., the CFO of an
+enterprise). In this example, the CFO may be tasked with
+preparing a quarterly report at the request of the CEO. In this
+example, the CFO may view a set of different financial 50
+ states, including a P&L data, historical sales data (e.g.,
+quarterly sales data and/or annual sales data), real-times
+sales data, projected sales data, historical cost data (e.g..
+quarterly costs and/or annual costs), projected costs, and the
+like. In this example, the CFO may select the states to 55
+include in the annual report, including the P&L data, quar-
+terly sales data, and quarterly cost data. In response to the
+user selection, the client application 8052 may transmit a
+request to export the selected states into the annual report. In
+this example, the EMP 8000 may receive the request, 60
+identify the document (e.g., the annual report), and may
+include the selected states into the identified document.
+In embodiments, the client application 8052 may include
+a monitoring agent that monitors the manner by which a user
+responds to specific requests (e.g-, a request from the CEO 65
+to populate a report) or notifications (e.g., a notification that
+a piece of machinery requires maintenance). The monitoring
+[col 2]
+214
+agent may report the user's response to such prompts to the
+EMP 8000. In response, the EMP 8000 may train an execu-
+tive agent (which may include one or more machine-learned
+models) to handle such notifications when they next arrive.
+In some embodiments, the monitoring agent may be incor-
+porated in an executive agent that is incorporated in the
+client application 8052.
+FIG. 69 illustrates an example set of components of a
+digital twin system 8004. As discussed, a digital twin system
+8004 is configured to generate visual and/or data-based
+digital twins, including enterprise digital twins, and to serve
+the digital twins to a client (e.g., a user device, a server,
+and/or internal and/or external applications that leverage
+digital twins). In embodiments, the digital twin system 8004
+is an infrastructure component of the EMP 8000. In embodi-
+ments, the digital twin system 8004 is a microservice that is
+accessible by the EMP 8000 and/or other components of a
+value chain control tower.
+In embodiments, the digital twin system 8004 is executed
+by a computing system (e.g. one or more servers) that may
+include a processing system 8100 that includes one or more
+processors, a storage system 8120 that includes one or more
+computer-readable mediums, and a network interface 8130
+that includes one or more communication units that com-
+municate with a network (e.g., the Internet, a private net-
+work, and thelike).In the illustrated example embodiments,
+the processing system 8100 may execute one or more of a
+digital twin configuration system 8102, digital twin I/O
+system 8104, a data structuring system 8106, a digital twin
+generation system 8108, a digital twin perspective builder
+8110, a digital twin access controller 8112, a digital twin
+interaction manager 8114, an digital twin simulation system
+8116, and a digital twin notification system 8118. The
+processing system 8100 may execute additional or alterna-
+tive components without departing from the scope of the
+disclosure. In embodiments, the storage system 8120 may
+store enterprise data, such as an enterprise data lake 8122, a
+digital twin data store 8124, a behavior datastore 8126
+and/or other datastore, such as a distributed datastore, such
+as a set of blockchains or distributed data storage resources.
+The storage system 8120 may store additional or alternative
+data stores without departing from the scope of the disclo-
+sure. In embodiments, the digital twin system 8004 may
+interface with the other components of the EMP 8000, such
+as the enterprise configuration system 8002, the collabora-
+tion suite 8006, the expert agent system 8008, and/or the
+artificial intelligence services system 8010.
+In embodiments, the digital twin configuration system
+8102 is configured to set up and manage the enterprise
+digital twins and associated metadata of an enterprise, to
+configure the data structures and data listening threads that
+power the enterprise digital twins, and to configure features
+of the enterprise digital twins, including access features,
+processing features, automation features, reporting features,
+and the like, each of which may be affected by the type of
+enterprise digital twin (e.g., based on the role(s) that it
+serves, the entities it depicts, the workflows that it supports
+or enables and the like). In embodiments, the digital twin
+configuration system 8102 receives the types of digital twins
+that will be supported for the enterprise, as well as the
+different objects, entities, and/or states that are to be depicted
+in each type of digital twin. For each type of digital twin, the
+digital twin configuration system 8102 determines one or
+more data sources and types of data that feed or otherwise
+support each object, entity, or state that is depicted in the
+respective type of digital twin and may determine any
+internal or external software requests (e.g., API calls) that

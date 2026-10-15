@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+265
+real-time, the tracking of the project to the GC within a user
+interface that is associated with the GC digital twin 8314.
+For example, the GC digital twin 8314 may include a
+clickable dashboard that, when clicked, illustrates the status
+of a set of legal projects. In some embodiments, the dash-
+board may include timelines for each project and a relative
+status of each project with respect to its timeline.
+In embodiments, a GC digital twin 8314 may be config-
+ured to report on the performance of the legal department,
+personnel of the legal department, legal actions, legal con- 10
+tent, legal platforms, legal partners, or some other aspect of
+a GC's management. Reporting may be to the GC, the legal
+department, to other executives of an organization (e.g., the
+CEO), or to outside third parties (e.g., outside counsel, legal
+notices, press releases, and the like). Reporting and the 15
+content of reporting may be shared by the GC digital twin
+8314 with other executive digital twins, for example, data
+related to regulation compliance, ongoing litigation, or some
+other legal activity. The reporting functionality of the GC
+digital twin 8314 may also be used for populating required 20
+data for formal reporting requirements such as shareholder
+statements, annual reports, SEC filings, and the like. Tem-
+plates of common reporting formats may be stored and
+associated with the GC digital twin 8314 to automate the
+presentation of data and analytics according to pre-defined 25
+formats, styles and system requirements. In some embodi-
+ments, the GC digital twin may be configured to leverage an
+executive agent 8364 trained on behalf of the GC to create
+and disseminate the reports.
+In embodiments, a GC digital twin 8314 may be config- 30 1
+ured to monitor, store, aggregate, merge, analyze, prepare,
+report and distribute material relating to regulatory activity,
+such as government regulations, regulatory compliance,
+legislation, court opinions, industry best practices or some
+other requirement or standard. For example, the GC digital 35
+twin 8314 may keep the GC apprised of new regulation or
+regulation changes as they occur. The GC may set param-
+eters of the GC digital twin 8314 regarding the legal
+domains, subject matter areas, jurisdictions, or some other
+parameter, that are of interest to the GC that the GC digital 40 i
+twin 8314 should monitor.
+In embodiments, a GC digital twin 8314 may leverage an
+executive agent 8364 that is trained on user's (e.g., GC)
+behaviors and preferences (or other legal personnel's behav-
+iors and preferences). In embodiments, the client application 45
+8052hosting theGC digital twin 8314may track the users
+actions relating to various events, notifications, alerts, or the
+like and may report the tracked events using the expert agent
+ system 8008, as described herein. In response, the expert
+agent system 8008 may learn how the GC or other legal 50
+personnel respond to certain situations and may train an
+execute agent 8364 on behalf of the user (e.g., GC), such that
+the executive agent 8364 may respond to similar situations
+once deployed.
+References to features and functions of the EMP and 55
+digital twins in this example of a legal department and a GC
+departments and digital twins, and their respective projects
+and workflows, except where context indicates otherwise.
+In embodiments, a Chief Human Resources Officer 60
+(CHRO) digital twin 8316 (or HR digital twin 8316) is an
+executive digital twin configured for a human resources
+executive (e.g-, a CHRO) of an enterprise or analogous
+executive tasked with overseeing the human resources HR
+aspects of the enterprise, such as a Chief People Officer
+(CPO), a chief talent oficer, a head of human resources, a
+director of human resources, or the like. In embodiments, the
+[col 2]
+266
+CHRO digital twin 8316 may depict different HR-related
+states of the enterprise, such as states relating to human
+capital management, workforce management, risk manage-
+ment, and the management of payroll, recruitment, regula-
+tory compliance, employee performance, benefits, employee
+relations, time and attendance, training and development,
+compensation, onboarding, offboarding, succession plan-
+ning, and the like. In embodiments, the CHRO digital twin
+8316 may initially depict the various states at a lower
+granularity level. A user that is viewing the CHRO digital
+twin 8316 may select a state to drill down into the selected
+state and view the selected state at a higher level of granu-
+larity.
+In embodiments, the types of data that may be depicted in
+CHRO digital twin 8316 may include, but are not limited to:
+individual employee data, key performance indicators by
+business unit, key performance indicators by individual
+employee, risk management data, regulatory compliance
+data (e.g., OSHA and EPA compliance data), safety data,
+diversity data, benefits data (e.g., medical, dental, vision,
+and health savings accounts (HSA)) compensation data,
+compensation comparison data, compensation trend data,
+payroll data, overtime data, recruitment data, employee
+referrals data, applicant data, applicant screening data, appli-
+cant reference data, applicant background check data, offer
+data, time and attendance data, employee relations data,
+employee complaints data, onboarding data, offboarding
+data, employee training and development data, employee
+turnover rate data, voluntary employee turnover rate data,
+new hire turnover rate data, high performer turnover rate
+data, turnover rate by performance rating data, headcount
+and/or headcount planning data (e.g., headcount to plan
+percentage), promotion rate data, succession plan data, orga-
+nizational levels data, span of control data, employee survey
+data, cost to move employees below midpoint data, com-
+parative ratio data, simulation data, decision support data
+from AI and/or machine learning systems, prediction data
+from AI and/or machine learning systems, classification data
+from AI and/or machine learning systems, detection and/or
+identification data from AI and/ormachine learning systems,
+and the like.
+In embodiments, a CHRO digital twin 8316 may depict a
+data item with an icon indicating whether the data item is at
+a normal state, a suboptimal state, a critical state, or an alarm
+state. In embodiments, the icons may be different colors,
+fonts, symbols, codes or the like.For example, a CHRO
+digital twin 8316 may depict high performer turnover rate
+data with an orange icon indicating that the high performer
+turnover rate is at a critical level. Continuing the example,
+an HR executive may be enabled to escalate the high
+performer turnover rate data to another executive, such as
+the CEO, via the CHRO digital twin 8316. In embodiments,
+a CHRO digital twin 8316 may automatically highlight data
+items that are at suboptimal, critical, or alarm state.
+In embodiments, a CHRO digital twin 8316 may be
+ing tools that may facilitate communication and collabora-
+tion between enterprise stakeholders. In embodiments, the
+"in-twin collaboration tools may include an interface
+enabling a user to escalate and/or deescalate data sets to
+another user associated with the enterprise. In embodiments,
+the interface may be configured to enable a user to send a
+message with the data set, generate a request or assign a task
+related to the data set, and/or schedule an event associated
+65withthe data set.In embodiments,AI and/ormachine
+learning could be leveraged to suggest message content,
+suggest event scheduling, suggest a request or task, and/or

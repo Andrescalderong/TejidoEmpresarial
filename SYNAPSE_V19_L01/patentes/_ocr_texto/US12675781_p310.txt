@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+369
+enhancement chip 9200 may use this information to generate
+and/or or update a network digital twin.
+In embodiments, the network enhancement chip 9200
+may use one or more AI-enhanced techniques to determine
+optimizations for the network based on the current state of
+the network, a past state ofthe network, or a future predicted
+state of the network (e.g, as indicated by historical network
+data metrics, predicted network demands, a network digital
+twin, and/or the like), as described in more detail below.
+Accordingly, the network enhancement chip 9200 may
+determine optimizations to traffic flows of the network,
+specific types or configurations of data carried on the
+network, messages on the network, and/or devices on the
+network, and the predicted effects of these optimizations. 15
+The network enhancement chip 9200 may then initiate
+and/or perform the network optimizations. For example, the
+networkenhancement chip 9200 maybe configured to
+reconfigure the network or a segment thereof (e.g., by
+performing traffic shaping or otherwise modifying data 20 j
+flows or other data received as inputs 9292) and/or to
+instruct other devices to reconfigure the network or a seg-
+ment thereof.
+The network enhancement chip 9200 may initiate recon-
+figuration of the network, traffic flows on the network, data 25
+transmitted via the network, devices on the network, etc., as
+described in more detail below. In embodiments, the net-
+work enhancement chip 9200 may instruct one or more
+network devices to perform one or more reconfiguration
+functions in order to cause an optimization to the network. 30o 
+Additionally or alternatively, the network enhancement chip
+9200 may reconfigure the network by re-routing the flows
+(e.g., switching from one network to another and/or switch-
+ing a routing path on a network), changing a format and/or
+protocol of the flows, or otherwise modifying the flows. 35
+In embodiments, the network enhancement chip 9200
+may reconfigure data transmitted via the network by pro-
+cessing the data in accordance with one or more optimiza-
+tions. For example, the network enhancement chip 9200
+may be configured to compress or decompress data, refor- 4o r
+mat data, resample data, batch data and schedule data
+transfer of the batched data, and/or the like.
+In embodiments, the chip(s) 9200 can be modular com-
+ponent(s) that may be integrated with one or more networks
+(e.g., as standalone devices) and/or network device(s) in 45 1
+various ways. For example, multiple network devices may
+each include a network enhancement chip 9200, which may
+communicate with each other in order to exchange infor-
+mation, determine optimizations, and/or configure the net-
+work at various points of the network. To facilitate modu- 50
+larity, the chip(s) 9200 may be provided partially or
+completely within a housing (not shown) and may receive
+the inputs 9292 and/or provide the outputs 9294 via elec-
+trical connectors, optical connectors, and/or wireless con-
+nectors (e.g, antennae, inductive coils, etc.).Additionally or 55
+alternatively, the chip(s) 9200 may be integrated with other
+circuits, processors, systems, etc., either on one or multiple
+substrates/chips.
+The chip(s) 9200 may be and/or include one or more
+system-on-chips (SOCs), integrated circuits (ICs), applica- 60
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9200 and/or
+any other functionality. For example, the chip 9200 may be
+provided as part of a SOC that also provides other functions
+described herein. In general, the components of the chip 65
+9200 may comprise one or more general-purpose processing
+chips that are configured using software instructions or other
+[col 2]
+370
+code, and/or may comprise special-purpose processing chips
+(e.g., ASICs) customized to perform the functions described
+herein.
+Multiple chip(s) 9200 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9200
+may use serial, parallel, and/or other processing techniques
+to perform analysis, optimization, and/or configuration func-
+tions more quickly, to perform such functions more effi-
+ciently by offloading more complex computations from one
+chip 9200 to another chip 9200 with a better power source,
+and/or the like. As another example, one chip 9200 may be
+used to provide network enhancement functionality for one
+part of the network (e.g., a particular area covered by a
+wireless network), while another chip 9200 may be used to
+provide network enhancement functionality for a second
+part of the network (e.g., a different area covered by the
+same wireless network).
+In embodiments, the physical input interface 9202
+receives one or more inputs 9292 to the network enhance-
+ment chip 9200 as described herein. The inputs 9292 may be
+transmitted to the physical input interface 9202 via one or
+more physical network(s) by other network devices, which
+ment chip(s) 9200. The physical network(s) may include any
+form of wired or wireless networks. The inputs 9292 may
+include one or more of network traffic, information about the
+network, information about network devices, instructions
+for optimizing or otherwise configuring the network (e.g., as
+received from other network enhancement chip(s) 9200),
+and/or the like. The inputs 9292 may also include data that
+may be stored in storage 9250, such as protocols for protocol
+library 9252, a network digital twin 9254 (e.g., a digital
+representation of the network), one or more system speci-
+fication(s) 9256, and/or one or more intelligence module(s)
+9258.
+As stated above, the output data 9294 transmitted from the
+physical output interface 9204 may include network traffic,
+information about a host device that includes the network
+enhancement chip (e.g., for use by another network enhance-
+ment chip9200,and/or instructionstooptimize or otherwise
+configure the network (e.g-, to be sent to other network
+devices and/or network enhancement chip(s) 9200). In
+embodiments, the outputs of the chip 9200 may be trans-
+mitted by the physical output interface 9204 via any of the
+physical network(s) connected to the host device.
+In embodiments, the chip 9200 may include one or more
+of a network analysis module 9210, an optimization module
+9220, a data configuration module 9230, and a network
+configuration module 9240. In embodiments, the network
+analysis module 9210 may comprise circuits 9212-9216 for
+analyzing the network based on inputs 9292 and/or gener-
+ating/updating a network digital twin. Additionally or alter-
+natively, the chip 9200 may include an optimization module
+9220 comprising circuits 9222-9228 for predicting one or
+more optimizations to the network based on the inputs 9292
+and/or a network digital twin. Additionally or alternatively.
+the chip9200 may include a data configuration module9230
+comprising circuits 9232-9236 for configuring/optimizing
+network data received as inputs 9292 and transmitting the
+configured/optimized network data as outputs 9294. Addi-
+tionally or alternatively, the chip 9200 may include a net-
+work configuration module 9240 comprising circuits 9242-
+9246 for receiving traffic flows as inputs 9292, configuring/
+optimizing the traffic flows, transmitting instructions to
+other network devices in order to cause configuration/
+optimization of the traffic flows, and outputting the config-
+ured/optimized traffic flows and/or instructions as outputs

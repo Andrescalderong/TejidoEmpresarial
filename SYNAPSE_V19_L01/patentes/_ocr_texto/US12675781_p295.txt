@@ -1,0 +1,135 @@
+entities that are related to the enterprise; providing, by the 45 workforce, a vendor management workforce, or some other
+In embodiments, an appropriate granularity level for at 65 ration role, and a contract configuration role.
+[col 1]
+US 12,675,781 B2
+339
+engineering manager role, a project manager role, an opera-
+tions manager role, and a business development role.
+In embodiments, at least one workforce role may be
+selected from among a factory manager role, a factory
+operations role, a factory worker role, a power plant man-
+ager role, a power plant operations role, a power plant
+worker role, an equipment service role, and an equipment
+maintenance operator role.
+In embodiments, at least one workforce role may be
+selected from among a market maker role, an exchange
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate
+setting role, a market orchestration role, a market configu-
+ration role, and a contract configuration role.
+In embodiments, at least one workforce role may be
+selected from among a chief marketing officer role, a prod-
+uct development role, a supply chain manager role, a cus-
+tomer role, a supplier role, a vendor role, a demand man-
+agement role, a marketing manager role, a sales manager 20 t
+role, a service manager role, a demand forecasting role, a
+retail manager role, a warehouse manager role, a salesperson
+role, and a distribution center manager role.
+In embodiments, a digital twin may represent a recom-
+mendation for training for the workforce, a recommendation 25
+for augmentation of the workforce, a recommendation for
+configuration of a set of operations involving the workforce,
+a recommendation for configuration of the workforce, a set
+of capacities and competencies of a set of workers and a set
+of doubles, and/or a set of mixed workgroups of human
+workers and artificial intelligence doubles.
+In embodiments of the present disclosure, a method is
+provided for serving digital twins comprising: receiving, by
+a processing system of a digital twin system, a request for a 35
+digital twin from a user device of a user associated with an
+enterprise, the enterprise deploying a sensor system to
+monitor one or more facilities of the enterprise; determining.
+by the processing system, a workforce role of the user with
+40
+system, a role-based digital twin corresponding to the work-
+force role of the user based on a perspective view corre-
+sponding to the workforce role of the user, wherein the
+role-based digital twin depicts one or more states and/or
+processing system, the role-based digital twin to the user
+device, wherein providing the role-based digital twin: iden-
+used to populate the at least one of the states and/or entities
+50 of the role-based digital twin, wherein the set of data types
+include one or more sensor data feeds that are received from
+the sensor system deployed by the enterprise; and connect-
+ing, by the processing system, the one or more sensor data
+streams to the role-based digital twin.
+55
+In embodiments, generating a role-based digital twin may
+include determining the perspective view corresponding to
+the workforce role of the user based on the workforce role
+of the user and a set of data types that are relevant to the
+workforce role of the user.
+60
+In embodiments, determining the perspective view cor-
+responding to the workforce role of the user may include
+determining an appropriate granularity level for each of the
+data types.
+least one of the data types may be defined in a default
+configuration corresponding to the workforce role.
+[col 2]
+340
+In embodiments, an appropriate granularity level for at
+least one of the data types may be determined based on
+previous interactions of the user with the role-based digital
+twin.
+In embodiments, a sensor system may include an edge
+device that receives sensor data from a set of sensors within
+the sensor system and generates the sensor data stream that
+is provided to the digital twin system via a network.
+In embodiments, an edge device may receive sensor data
+from the set of sensors and selectively compresses the sensor
+data based on values indicated in the sensor data to obtain
+the sensor data stream.
+In embodiments, connecting the one or more sensor
+streams may include: receiving the sensor data stream from
+the edge device; and routing the sensor data stream to the
+user device that is presenting the role-based digital twin to
+the user.
+In embodiments, connecting the one or more sensor
+streams may include: receiving the sensor data stream from
+the edge device; analyzing the sensor data stream to identify
+one or more fault conditions corresponding to an object
+being monitored by the sensor system; and routing an
+indicator of thefault condition to theuser devicethat is
+presenting the role-based digital twin to the user.
+In embodiments, connecting the one or more sensor
+streams may include: receiving the sensor data stream from
+the edge device; analyzing the sensor data stream to identify
+a recommendation corresponding to the workforce role of
+the user; and routing an indicator of the recommendation to
+the user device that is presenting the role-based digital twin
+to the user.
+In embodiments, connecting the one or more sensor
+streams may include: receiving the sensor data stream from
+the edge device; analyzing the sensor data stream to identify
+a recommendation corresponding totheworkforceroleof
+the user; and routing an indicator of the recommendation to
+the user device that is presenting the role-based digital twin
+to the user.
+In embodiments, a workforce may be a factory operations
+workforce,a plantoperations workforce, a resourceextrac-
+tion operations workforce, a network operations workforce
+responsible for operating a network for an industrial pro-
+duction environment, a supply chain management work-
+force, a demand planning workforce, a logistics planning
+type of workforce.
+In embodiments, at least one workforce role may be
+selected from among a CEO role, a COO role, a CFO role,
+a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+officer role, a chief data officer role, an investor role, an
+engineering manager role, a project manager role, an opera-
+tions manager role, and a business development role.
+In embodiments, at least one workforce role may be
+selected from among a factory manager role, a factory
+operations role, a factory worker role, a power plant man-
+ager role, a power plant operations role, a power plant
+worker role, an equipment service role, and an equipment
+maintenance operator role.
+In embodiments, at least one workforce role may be
+selected from among a market maker role, an exchange
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate
+setting role, a market orchestration role, a market configu-
+In embodiments, at least one workforce role may be
+selected from among a chief marketing officer role, a prod-

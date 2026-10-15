@@ -1,0 +1,138 @@
+In embodiments, the types of data that may populate 3o identify key departments, personnel, third-party or others
+[col 1]
+US 12,567,082 B2
+261
+In embodiments, a CIO digital twin 8312 may be config-
+ured to report on the performance of an organization's IT
+assets, network, or some other aspect of management within
+a CIO's responsibilities. In embodiments, the client appli-
+cation 8052 that executes the CI0 digital twin 8312 may be
+configured with an executive agent that reports a CIO's
+behaviors and preferences to the executive agent system
+8008, and the executive agent system 8008 may train the
+executive agent on how the CIO or other personnel respond
+to certain IT situations and adjust its operation based at least 10
+in part on the data collection, analysis, machine learning and
+A.I. techniques described throughout the disclosure.
+References to features and functions of the EMP and
+digital twins in this example of a marketing department and
+a CIO digital twin 8312 should be understood to apply to 15
+other departments and digital twins, and their respective
+projects and workflows, except where context indicates
+otherwise.
+In embodiments, a general counsel (GC) digital twin 8314
+may be an executive digital twin configured for the general
+counsel (GC) of an enterprise, or an analogous executive
+tasked with overseeing the legal department and/or outside
+counsel of the enterprise. A GC digital twin 8314 may
+provide functionality including, but not limited to, manage-
+ment of legal personnel, partners and outside counsel, over- 25
+sight of legal budgets and resources, compliance, manage-
+ment of contracting and litigation, management of internal
+policies, intellectual property, employment law, tax law,
+privacy law, reporting, and regulatory analysis.
+and/or be utilized by a GC digital twin 8314 may include,
+but are not limited to, budgetary data (e.g., external legal
+spend, internal legal spend, ancillary legal costs, and the
+like), regulatory data (e.g., regulatory requirements, regula-
+tory actions taken, and the like); contract and licensing data 35
+(e.g., in progress negotiations, current contract obligations,
+past contract obligations, and the like); compliance data
+(e.g, compliance requirements, compliance actions taken,
+and the like, litigation data (e.g.. potential litigations
+sources, pending litigations, past litigations, settlement 40
+agreements, and the like), employment data (e.g-, employ-
+ment contracts, employee complaints, employee stock
+options, and the like), intellectual property data (e.g., filed
+patent applications, patent dockets, issued patents, trade-
+mark applications, trademark docket data, registered trade- 45
+marks, and the like), tax data, privacy data, regulatory data,
+analytic results of AI and/or machine learning modeling;
+prediction data; recommendation data, or some other type of
+data relevant to the operations of the GC and/or legal
+department. 50
+In embodiments, a GC digital twin 8314 may be config-
+ured based at least in part on using the collaboration suite
+8006 to specify and provide a set of collaboration tools that
+may be leveraged by the legal department and associated
+parties. The collaboration tools may include video confer- 55
+encing tools,"in-twin" collaboration tools, whiteboard tools,
+presentation tools, word processing tools, spreadsheet tools,
+and the like, as described herein. Collaboration and com-
+munication rules may be configured based at least in part on
+using the AI reporting tool, as described herein. Collabora-
+tion and communication tools and associated rules may be
+configured to use company-, industry- and domain-specific
+taxonomies and lexicons when representing entities, states
+and flows within the GC digital twin 8314, such as ones
+related to particular bodies of law, regulation, jurisdiction, or 65
+practice area, such as ones related to corporate law, com-
+mercial law, bankruptcy law, the law of secured transactions,
+[col 2]
+262
+banking law, customs law, export control regulations, mari-
+time law, trade law, international treaties, securities law,
+contracts law, environmental law, international law, privacy
+law, data privacy law, patent law, civil and criminal proce-
+dure, trademark law, copyright law, trade secret law, unfair
+competition law, law of torts, property law, advertising law,
+and many others.
+In embodiments, a GC digital twin 8314 may be config-
+ured to research, create, track and issue reports on a legal
+department budget including, but not limited to, an overall
+department budget, a budget for a specific project, such as
+"U.S. patent filings," or group of projects, a budget for a
+specific litigation, a budget for a third-party vendor, such as
+outside counsel, or some other type of legal budget. A GC
+digital twin 8314 may be configured to create, track, provide
+research, and report on financial data related to material
+under review or supervisions of the legal department includ-
+ing, but not limited to, licensing revenues, licensing expen-
+ditures, or some other type of financial data related to legal
+department review and responsibilities. In embodiments, the
+GC digital twin 8314 may interact with and share such
+licensing revenue and/or budget data and reporting with
+otherexecutivetwins,as described herein,including, butnot
+limited to, a CFOdigital twin 8304, CEO digital twin, COO
+digital twin, CTO digital twin, and the like. In embodiments,
+the GC digital twin 8314 may include intelligence, based at
+least in part on the data analytics, machine learning and A.I.
+processes, as described herein, to read legal contracts,
+licenses, budgets and related summaries and data in order to
+that are, for example, listed in, or subject to, or impacted by
+a license and/or budget line item and who therefore may
+have an interest in such material. License and/or budget
+material pertaining to a given party may be abstracted and
+summarized for presentation independent from the entirety
+of the budget, and formatted and presented automatically, or
+at the direction of a user, to the party that is the subject of
+the budget item. In a simplified example, a GC may have
+license(s) under her department's review which have line
+items, schedules, appendices and the like detailing licensing
+revenues that will be owed to the organization over a
+prescribed timeframe. The GC may use the GC digital twin
+8314 to consolidate, summarize and/or share such financial
+data derived, or to be derived, from licensing revenues with
+another executive in an organization, such as the CFO (e.g.,
+via a CFO digital twin) and/or CEO (e.g., via a CEO digital
+twin). The data shared may indicate the licensing revenues
+to be obtained in a given financial quarter to assist the CFO
+and others in maintaining an accurate and current summary
+of projected quarterly revenues.
+In embodiments, a GC digital twin 8314 may be config-
+ured to track and report on inbound (e.g., settlement or
+litigation revenue) and outbound billing (e.g., outside coun-
+sel costs) related to the legal department. The billing depart-
+ment, personnel, processes and systems may interact with
+the GC digital twin 8314 to present, store, analyze, reconcile
+and/or report on billing activities related to parties with
+whom the legal department is contracting, such as outside
+counsel, consultants, research services, online entities, or
+others. In embodiments, a GC digital twin 8314 may be
+configured to research, track, monitor, store, analyze, create
+and distribute legal content, and automatically report on
+such activity to a user interface associated with the GC
+digital twin 8314. Such activities might include storing data
+so that the GC digital twin 8314 may detect a state change,
+for example, a new court filing in a litigation, a communi-
+cation received from outside counsel, a new license draft

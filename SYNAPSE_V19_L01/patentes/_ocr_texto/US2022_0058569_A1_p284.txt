@@ -1,0 +1,132 @@
+[col 1]
+US2022/0058569A1
+201
+coordinated set of demand management applications and
+supply chain applications. In embodiments, the set of auto-
+mated control signals comprises at least one control signal
+for execution of a demand management application in the
+coordinated set of demand management applications and
+supply chain applications. In embodiments, the automated
+control signals control timing of demand management appli-
+cations based on goods supply status. In embodiments, the
+adaptive intelligence systems apply machine learning to
+outcomes of supply to automatically adapt a set of demand
+management application control signals. In embodiments,
+the adaptive intelligence systems apply machine learning to
+outcomes of demand management to automatically adapt a
+set of supply chain application control signals.
+[1649]In embodiments, the set of adaptive intelligence
+systems determine aspects of a value chain that impact
+automated control of the coordinated set of demand man-
+agement applications and supply chain applications for a
+category of goods. In embodiments, the set of adaptive
+intelligence systems determines at least one range of appli-
+cation control values within which control can be auto-
+mated. In embodiments, the at least one range is a supply
+rate.
+[1650]In embodiments, the at least one range is a supply
+timing rate. In embodiments, the at least one range is a mix
+of goods in the category of goods.
+[1651] In embodiments, an information technology sys-
+tem having an artificial intelligence/machine learning sys-
+tem for learning on a training set of outcomes, parameters,
+and data collected from a set of information routing activi-
+ties in a set of value chain networks and for providing an
+information routing recommendation based on current status
+information for a selected value chain network. In embodi-
+ments, the artificial intelligence/machine learning system
+trains on transaction types within the value chain network.
+In embodiments, the information routing recommendation is
+based on a transaction type within the value chain network
+for which information is being routed. In embodiments the
+information routing recommendation is based on a type of
+information being routed within the value chain network. In
+embodiments,the information routing recommendation is
+based on network types within the value chain network. In
+embodiments, the information routing recommendation is
+based on compatibility of information being routed with a
+network routing protocol for at least one candidate route
+within the value chain network. In embodiments, the infor-
+mation routing recommendation is based on detected net-
+work conditions. In embodiments, the information routing
+recommendation is based on an existence of edge intelli-
+gence. In embodiments, the information routing recommen-
+dation is based on an availability of networking resources. In
+embodiments, the information routing recommendation is
+based on network storage resources.
+[1652] In embodiments, the information routing recom-
+mendation is based on detection of network resources/
+entities.
+[1653]   In embodiments, the information routing recom-
+mendation is based on goals of routing. In embodiments, the
+goals of routing comprise a measure of quality of service
+(QoS). In embodiments, the goals of routing comprise a
+measure reliability. In embodiments, the measure of reli-
+ability is a transmission failure rate. In embodiments, the
+goals of routing comprise a measure of latency associated
+[col 2]
+Feb.24,2022
+with a candidate route. In embodiments, the goals of routing
+are based on information availability within the selected
+value chain network. In embodiments, the goals of routing
+are based on information persistence within the selected
+value chain network. In embodiments, the artificial intelli-
+gence/machine learning system develops an understanding
+of parameters of routing that impact information value. In
+embodiments, the artificial intelligence/machine learning
+system facilitates recommending routes that maintain infor-
+mation value. In embodiments, the artificial intelligence/
+machine learning system is configured to develop an under-
+standing of timing of information supply versus information
+demand.
+[1654] In embodiments, the artificial intelligence/machine
+learning system develops an understanding of needs for
+coordination ofinformation delivery. In embodiments, coor-
+dination of information delivery includes ensuring delivery
+of an item of information to a first node before delivering the
+item of information to a second node in the selected value
+chain network. In embodiments, the artificial intelligence/
+machine learning system is selected from a list of systems
+consisting of decision trees, k-nearest neighbor, linear
+regression, k-means clustering, deep learning neural net-
+work, random forest, logistic regression, naive Bayes, learn-
+ing vector quantization, support vector machines, linear
+discriminant analysis, boosting, principal component analy-
+sis, hybrid of k-means and linear regression. In embodi-
+ments, the routing recommendations are based on a topology
+of the selected value chain network. In embodiments, the
+routing recommendations are adapted based on availability
+of edge intelligence in the selected value chain network. In
+embodiments, the routing recommendations are adapted
+based on location and availability of network storage
+resources in the selected value chain network.
+[1655]   In embodiments, an information technology sys-
+tem having an artificial intelligence/machine learning sys-
+tem for learning on a training set of outcomes, parameters,
+and data collected from a set of data sources relating to a set
+of value chain entities and activities to recognize a problem
+state in a portion of a value chain network using computing
+resources that are local to a set of value chain network
+entities that are experiencing the problem. In embodiments,
+to recognize a problem state is based on variances in
+outcomes over time from a portion of the value chain
+network. In embodiments, variances in outcomes over time
+indicate a problem state. In embodiments, the artificial
+intelligence/machine learning system determines an accept-
+able range of outcome variance. In embodiments, the accept-
+able range is a standard deviation of the outcomes.
+[1656]In embodiments, the artificial intelligence/machine
+learning system determines a problem state threshold for at
+least one measure of the value chain network. In embodi-
+ments, to recognize a problem state comprises detecting at
+least one measure of the value chain that is greater than the
+problem state threshold.
+[1657]  In embodiments, to recognize a problem state is
+based on variances in start/end times of scheduled value
+chain network entity activities. In embodiments, to recog-
+nize a problem state is based on variances in at least one of
+production time, production quality, production rate, pro-
+duction start time, production resource availability or trends
+thereof. In embodiments, to recognize a problem state is
+based on variances in a measure of shipping supply. In
+embodiments, a problem state is a duration of time for

@@ -1,0 +1,138 @@
+configuration module 9240. In embodiments, the network 20 torical network device information, network digital twin(s)
+[col 1]
+US 12,567,082 B2
+325
+and/or the like. The inputs 9292 may also include data that
+may be stored in storage 9250, such as protocols for protocol
+library 9252, a network digital twin 9254 (e.g., a digital
+representation of the network), one or more system speci-
+fication(s) 9256, and/or one or more intelligence module(s)
+9258.
+As stated above, the output data 9294 transmitted from the
+physical output interface 9204 may include network traffic,
+information about a host device that includes the network
+enhancement chip (e.g., for use by another network enhance- 1o
+ment chip 9200, and/or instructions to optimize or otherwise
+configure the network (e.g., to be sent to other network
+devices and/or network enhancement chip(s) 9200). In
+embodiments, the outputs of the chip 9200 may be trans-
+mitted by the physical output interface 9204 via any of the 15
+physical network(s) connected to the host device.
+In embodiments, the chip 9200 may include one or more
+of a network analysis module 9210, an optimization module
+9220, a data configuration module 9230, and a network
+analysis module 9210 may comprise circuits 9212-9216 for
+analyzing the network based on inputs 9292 and/or gener-
+ating/updating a network digital twin. Additionally or alter-
+natively,the chip 9200 may include an optimization module
+9220 comprising circuits 9222-9228 for predicting one or 2.5
+more optimizations to the network based on the inputs 9292
+and/or a network digital twin. Additionally or alternatively,
+the chip 9200 may include a data configuration module 9230
+comprising circuits 9232-9236 for configuring/optimizing
+network data received as inputs 9292 and transmitting the 30
+configured/optimized network data as outputs 9294. Addi-
+tionally or alternatively, the chip 9200 may include a net-
+work configuration module 9240 comprising circuits 9242-
+9246 for receiving traffic flows as inputs 9292, configuring/
+optimizing the traffic flows, transmitting instructions to 35
+other network devices in order to cause configuration/
+optimization of the traffic flows, and outputting the config-
+ured/optimized traffic flows and/or instructions as outputs
+9294. The functionalities of the various circuits of the
+modules9210,9220,9230,and/or9240aredescribed in 40
+more detail below.
+The processing core(s) 9206 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9200, either with or
+without the assistance of the various modules 9210, 9220, 45
+9230, and/or 9240. For example, the processing core(s) 9206
+may leverage and/or invoke various modules to perform
+various functions described herein. The processing core(s)
+9206 may comprise general-purpose and/or special-purpose
+processors. In embodiments, the processing core(s) 9206 50
+may use serial, parallel, and/or other processing techniques
+to accomplish the functions described herein.
+Accordingly, the processing core(s) 9206 may perform
+functions in addition to the functions provided by the
+various modules 9210, 9220, 9230, and/or 9240. For
+example, the processing core(s) may receive an output of
+one module (e.g., an optimization determined by optimiza-
+tion module 9220) and provide it as input to another module
+(e.g., to the data configuration module 9230 and/or network
+configuration module 9240). The processing core(s) 9206 60
+may also process the output of any of the module(s) to
+convert the output into a different format.
+In embodiments, the processing core(s) 9206 may further
+operate to store and/or retrieve data to/from storage 9250.
+For example, the processing core(s) 9206 may store and 65
+retrieve protocols in a protocol library 9252 (e.g-, for use by
+the various modules, as described in more detail below),
+[col 2]
+326
+may store and retrieve a network digital twin 9254 (e.g., as
+generated/updated or otherwise leveraged by the various
+modules, as described in more detail below), may store and
+retrieve system specification(s) 9256 (e.g., for determining
+information about various network devices), and/or may
+store and retrieve intelligence module(s) 9258 for imple-
+menting the various functions described herein. In embodi-
+ments, the processing core(s) may implement any of the
+functionalities of the intelligence service 8800 (as described
+with respect to FIG. 104) using the intelligence modules
+9258 (which may include one or more of the artificial
+intelligence modules 8804 of FIG. 104).
+The network analysis module 9210 may receive network
+signals (e.g., network traffic between various network end-
+point devices, messages including information about net-
+work devices, etc.), information about network signals (e.g.,
+signal strength or other physical attributes of network sig-
+nals), and/or other network information (e.g., data indicating
+current or historical network performance, current or his-
+generated by other devices, etc.) and determine information
+about the network, as well as generate and/or update one or
+more network digital twin(s) corresponding to various com-
+munication network(s).
+In embodiments, the signal analysis circuit 9212 may
+receive network signals from the inputs 9292 and perform
+signal analysis (e.g., analysis of header information and/or
+payload information) to determine information about the
+signal. For example, the signal analysis circuit 9212 may
+analyze whether network traffic belongs to a certain traffic
+flow based on header information (e.g., from/to addresses,
+protocols, flow identifiers, etc.) and/or payload information
+(e.g., based on the type of data included in the payload,
+whether the data is encrypted, etc.). As another example, the
+signal analysis circuit 9212 may detect messages that
+include device information about a network device. Addi-
+tionally or alternatively, the signal analysis circuit 9212 may
+analyze physical attributes of the signals received as inputs
+9292, such as signal strength indicators. In these embodi-
+ments, the signal analysis circuit 9212 may further analyze
+the physical attributes over time (e.g., to determine that a
+signal strength has been weakening and/or predict that a
+corresponding wireless link is likely to be lost). The signal
+analysis circuit 9212 may analyze all or only some of any
+network trafic received as inputs 9292. For example, the
+signal analysis circuit may sample one of every N network
+packets received as inputs 9292, analyze the physical attri-
+butes of signals every N number of microseconds, and/or the
+like).
+In embodiments, the data analysis circuit 9214 may
+determine further network information based on data within
+the analyzed signals. For example, the data analysis circuit
+9214 may analyze whether the data for a particular traffic
+flow is encrypted, compressed, has a particular format, is
+associated with a particular priority level (e.g-, a priority
+level associated with a contracted data rate), or the like. The
+data analysis circuit 9214 may add such information to one
+or more corresponding network digital twins, each of which
+may be specific to a particular communication network
+carrying the data, one or more devices on the network, one
+or more data configurations for the network, one or more
+rate schedules for the network, etc. In embodiments, the data
+analysis circuit 9214 may analyze application-specific data
+that may indicate a particular application and/or one or more
+attributes (e.g., whether the data is payment data, customer
+data, whether the data is associated with a particular project,
+etc.). In these embodiments, the data analysis circuit 9214

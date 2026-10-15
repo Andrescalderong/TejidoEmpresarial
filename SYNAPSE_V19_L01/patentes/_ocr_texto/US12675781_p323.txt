@@ -1,0 +1,136 @@
+tions, etc.), to provide predictions based on the biometric 1o rication machines; injection molding machines and the like.
+[col 1]
+US 12,675,781 B2
+395
+vide predictions based on the transaction data (e.g., demand
+response, fraud estimation and response, asset allocation,
+etc.), and to provide recommendations based on the classi-
+fications and predictions (e.g-, increasing production, real-
+location inventory, investing in security and enforcement,
+adjusting profit forecasts, redeploying assets, etc.). Accord-
+ing to a third example, the chip 9500 may be configured to
+automatically analyze and classify biometric (e.g. to rec-
+ognize faces, voice, gestures, identify groups, evaluate emo-
+data (e.g., personal or group behavior, security, cognitive
+assessments, etc.), and to provide recommendations based
+on the classifications and predictions (e.g., health or psy-
+chological screenings, security authentications/evaluations,
+etc.). According to a fourth example, the chip 9500 may be 15
+configured to automatically analyze and classify motion
+capture data (e.g., to classify behavior as normal or abnor-
+mal, safe or unsafe, etc.), to provide predictions based on the
+motion capture data (e.g., group behavior based on indi-
+vidual reactions, etc.), and to provide recommendations 20
+based on the classifications and predictions (e.g., interven-
+tions, re-routing of group flow patterns, etc.). According to
+a fifth example, the chip 9500 may be configured to auto-
+matically analyze and classify pathology data (e.g-, to detect
+diseases, population health, disease prevalence and spread, 25 1
+etc.), to provide predictions based on the pathology data and
+classifications (e.g., disease spread, population changes,
+health care costs, etc.), and to provide recommendations
+based on the classifications and predictions (e.g., quaran-
+tines, allocation of medical resources, adjustment of insur- 30
+ance premiums, etc.).
+Additive Manufacturing
+FIGS. 114-121 describe various embodiments of an addi-
+tive manufacturing platform. In embodiments, an additive
+be integrated into a larger system, where the additive manu-
+facturing platform is a value chain entity. In embodiments,
+"additive manufacturing" refers to a collection of versatile
+fabrication techniques for rapid prototyping and/or manu-
+facturing ofparts that allow3D digital models(CAD40 f
+designs) to be converted to three dimensional objects by
+depositing multiple thin layers of material, such as accord-
+ing to a series of two-dimensional, cross-sectional deposi-
+tion maps.
+Accordingly, the term “additive manufacturing platform" 45 n
+used herein encompasses a platform that prints, builds, or
+otherwise produces 3D parts and/or products at least in part
+using an additive manufacturing technique. The additive
+manufacturing platform may encompass technologies like
+3D printing, vapor deposition, polymer (or other material)
+50i
+coating, epitaxial and/or crystalline growth approaches, and
+others, alone or in combination with other technologies,
+such as subtractive or assembly technologies, enables manu-
+facturing of a three-dimensional product from a design via
+a process of forming successive layers of the product, with 55 
+optional interim or subsequent steps to arrive at a finished
+component or system. The design may be in the form of a
+data source like an electronic 3D model created with a
+computer aided design package or via 3D scanner. The 3D
+printing or other additive process then involves forming a 60
+first material-layer and then adding successive material
+layers wherein each new material-layer is added on a pre-
+formed material-layer, until the entire designed three-dimen-
+sional product is completed. The additive manufacturing
+platform may be a stand-alone unit, a sub-unit of a larger 65
+system or production line, and/or may include other non-
+additive manufacturing features, such as subtractive-manu-
+[col 2]
+396
+facturing features, pick-and-place features, coating features,
+finishing features (such as etching, lithography, painting,
+polishing and the like), two-dimensional printing features,
+and the like. Further, the platform may include three-
+dimensional additive manufacturing machines configured
+for rapid prototyping, three-dimensional printing, two-di-
+mensional printing, freeform fabrication, solid freeform
+fabrication, and stereolithography; subtractive manufactur-
+ing machines including computer numerical controlled fab-
+FIG. 114 is a diagrammatic view illustrating an example
+form 10110 according to some embodiments of the present
+disclosure. The platform operates within a manufacturing
+node 10100, which in turn is a part of a larger network of
+value chain entities. The manufacturing node 10100
+includes an additive manufacturing unit 10102, such as a 3D
+printer for printing with metal materials, biocompatible
+materials, bioactive materials, biological materials, or other
+more conventional additive manufacturing materials, or
+other additive manufacturing type described herein, in the
+documents incorporated herein by reference, or as under-
+stood in the art. The manufacturing node 10100 may include,
+among other elements, a pre-processing system 10104, a
+post-processing system 10106 and a material handling sys-
+tem i0108. The autonomous additive manufacturing plat-
+form 10110 helps in automating and optimizing the digital
+production workflow leading to better outcomes at all stages
+ofoperation, from initial design through printing and supply
+chain logistics to points of sale, service and utilization of
+resulting outputs, among others. In embodiments, user Inter-
+face 10112 receives input data from data sources 10114 as
+well as design and modelling data from design and simula-
+tion system 10116. A data processing and intelligence com-
+ponent 10118 of the autonomous additive manufacturing
+platform 10110 runs artificial intelligence systems, such as
+involving machine learning or other algorithms, neural
+networks, expert systems, models and others, to process the
+input data and calculate an optimal set of process parameters
+for printing or other additive manufacturing. Process control
+component 10120 of the autonomous additive manufactur-
+ing platform 10110 then adjusts one or more process param-
+eters in real time and the additive manufacturing unit 10102
+uses these process parameters to complete the additive
+manufacturing process. In embodiments, finishing systems
+10121 at the manufacturing node 10128, such as subtractive
+and the like may undertake further processing, optionally in
+iterative sequences with additive stages, resulting in a fin-
+ished item (e.g-, a part, component, or finished good). In
+embodiments, the resulting product is then optionally pack-
+aged at a packaging system 10122 and may be shipped,
+using a shipping system 10124 and one or more value chain
+network (VCN) entities 10126 right up to an end customer.
+In other embodiments, the additive manufacturing platform
+10110 and/or a set of additive manufacturing units 10102
+may comprise portable or otherwise mobile units, such as
+handheld units, units equipped with robotic or other autono-
+mous mobility, and/or units positioned in or on vehicles,
+including general purpose vehicles and special purpose
+vehicles. In such cases, actions from design through delivery
+may occur in parallel with mobility of the units 10102 and
+in coordination, by the additive manufacturing platform
+10110, with the location and mobility of other value chain
+network entities 10126. In one of many possible examples,
+a set of autonomously mobile 3D printing units may be
+coordinated to points of service work, such as a set of home

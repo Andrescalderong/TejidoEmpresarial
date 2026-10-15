@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+295
+from local minima, starting with the same architecture and
+training, but using randomly different initial weights often
+gives different results. A CoM tends to stabilize the result.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an associative neural network ("ASNN"), such as
+involving an extension of committee of machines that com-
+bines multiple feed forward neural networks and a k-nearest
+neighbor technique. It may use the correlation between
+10 ensemble responses as a measure of distance amid the
+analyzed cases for the kNN. This corrects the bias of the
+neural network ensemble. An associative neural network
+may have a memory that can coincide with a training set. If
+new data become available, the network instantly improves
+its predictive ability and provides data approximation (self-
+learns) without retraining. Another important feature of
+ASNN is the possibility to interpret neural network results
+by analysis of correlations between data cases in the space
+of models.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an instantaneously trained neural network
+("ITNN"), where the weights of the hidden and the output
+layers are mapped directly from training vector data. 25
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a spiking neural network, which may explicitly
+consider the timing of inputs. The network input and output
+may be represented as a series of spikes (such as a delta 30
+function or more complex shapes). SNNs can process infor-
+mation in the time domain (e.g, signals that vary over time,
+such as signals involving dynamic behavior of industrial
+machines). They are often implemented as recurrent net-
+works. 35
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a dynamic neural network that addresses nonlinear
+multivariate behavior and includes learning of time-depen-
+dent behavior, such as transient phenomena and delay 40
+effects. Transients may include behavior of shifting indus-
+trial components, such as variable speeds of rotating shafts
+or other rotating components.
+In embodiments, cascade correlation may be used as an
+architecture and supervised learning algorithm, supplement- 45 
+ing adjustment of the weights in a network of fixed topology.
+Cascade-correlation may begin with a minimal network,
+then automatically trains and adds new hidden units one by
+one, creating a multi-layer structure. Once a new hidden unit
+has been added to the network, its input-side weights may be 50 i
+frozen. This unit then becomes a permanent feature-detector
+in the network, available for producing outputs or for
+creating other, more complex feature detectors. The cascade-
+correlation architecture may learn quickly, determine its
+own size and topology, and retain the structures it has built 55
+even if the training set changes and requires no back-
+propagation.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a neuro-fuzzy network, such as involving a fuzzy 60
+inference system in the body of an artificial neural network.
+Depending on the type, several layers may simulate the
+processes involved in a fuzzy inference, such as fuzzifica-
+tion, inference, aggregation and defuzzification. Embedding
+a fuzzy system in a general structure of a neural net as the 65
+benefit of using available training methods to find the
+parameters of a fuzzy system.
+[col 2]
+296
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a compositional pattern-producing network
+("CPPN"), such as a variation of an associative neural
+network ("ANN") that differs the set of activation functions
+and how they are applied. While typical ANNs often contain
+only sigmoid functions (and sometimes Gaussian functions),
+CPPNs can include both types of functions and many others.
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+sampled for a particular display at whatever resolution is
+optimal.
+This type of network can add new patterns without
+re-training. In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a one-shot associative memory network,
+such as by creating a specific memory structure, which
+20 assigns each new pattern to an orthogonal plane using
+adjacently connected hierarchical arrays.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a hierarchical temporal memory (HTM) neural
+network, such as involving the structural and algorithmic
+properties of the neocortex. HTM may use a biomimetic
+model based on memory-prediction theory. HTM may be
+used to discover and infer the high-level causes of observed
+input patterns and sequences.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a holographic associative memory ("HAM") neural
+network, which may comprise an analog, correlation-based,
+associative, stimulus-response system. Information may be
+mapped onto the phase orientation of complex numbers. The
+memory is effective for associative memory tasks, general-
+ization and pattern recognition with changeable attention.
+IntelligenceSystem
+FIG. 104 illustrates an example intelligence services
+system 8800 (also referred to as “"intelligence services")
+according to some embodiments of the present disclosure. In
+embodiments, the intelligence services 8800 provides a
+framework for providing intelligence services to one or
+more intelligence service clients 8836. In some embodi-
+ments, the intelligence services 8800 framework may be
+adapted to be at least partially replicated in respective
+intelligence clients 8836 (e.g., VCN control towers and/or
+various VCN entities). In these embodiments, an individual
+client 8836may include some or all of the capabilities of the
+intelligence services 8800, whereby the intelligence services
+8800 is adapted for the specific functions performed by the
+subsystems of the intelligence client. Additionally or alter-
+natively, in some embodiments, the intelligence services
+8800 may be implemented as a set of microservices, such
+that different intelligence clients 8836 may leverage the
+intelligence services 8800 via one or more APIs exposed to
+the intelligence clients. In these embodiments, the intelli-
+gence services 8800 may be configured to perform various
+types of intelligence services that may be adapted for
+different intelligence clients 8836. In either of these con-
+figurations, an intelligence service client 8836 may provide
+an intelligence request to the intelligence services 8800,
+whereby the request is to perform a specific intelligence task
+(e.g., a decision, a recommendation, a report, an instruction,
+a classification, a prediction, a training action, an NLP
+request, or the like). In response, the intelligence services
+8800 executes the requested intelligence task and returns a

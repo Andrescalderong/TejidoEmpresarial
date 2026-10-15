@@ -1,0 +1,137 @@
+works, convolutional neural networks, hybrids of neural 45 back may be provided in a process of variation and selection,
+[col 1]
+US 12,314,060 B2
+277
+ing the appropriate data sources for the digital twin given the
+perspective and obtaining any data that initially parameter-
+izes the executive digital twin from the data sources.
+At 8718, the executive digital twin is served to a user
+device of the user In embodiments, the digital twin system
+8004 may provide a file (e.g., a JSON file) containing the
+executive digital twin data and any data structures or visual
+elements that are needed to depict the executive digital twin
+by the user device. In embodiments, the digital twin system
+ 8004 may also stream one or more real-time data or near-real
+10
+time data streams to the user device (e.g., via a data bus),
+such that the executive digital twin may be updated with
+fresh data as the user interacts with the executive digital
+twin. The user may then interact with the digital twin. For
+example, the user may delegate tasks via the executive 15
+digital twin, request simulations via the executive digital
+twin, drill down into or zoom out of states depicted in the
+executive digital twin, report states to a supervisor via the
+executive digital twin, and/or the like.
+The method of FIG. 75 is provided for example and not 20 
+intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+Artificial Intelligence and Neural Network Embodiments
+Referring to FIGS. 76 through 103, in embodiments of the
+present disclosure, including ones involving artificial intel- 25
+ligence 1160, expert systems, self-organization, machine
+learning, automation (including robotic process automation,
+remote control, autonomous operation, automated configu-
+ration, and the like), adaptive intelligence and adaptive
+intelligent systems, prediction, classification, optimization, 30
+and the like, may benefit from the use of a neural network
+or other artificial intelligence system, such as a neural net
+trained for pattern recognition, for classification of one or
+more parameters, characteristics, or phenomena, for support
+artificial intelligence, neural network or neural net through-
+out this disclosure should be understood to encompass a
+wide range of different types of neural networks, machine
+learning systems, artificial intelligence systems, and the like,
+such as feed forward neural networks, radial basis function 40
+neural networks, self-organizing neural networks (e.g-,
+Kohonen self-organizing neural networks), recurrent neural
+networks,modular neural networks,artificial neural net-
+works, physical neural networks, multi-layered neural net-
+networks with other expert systems (e.g. hybrid fuzzy
+logicneural network systems), Autoencoder neural net-
+works, probabilistic neural networks, time delay neural
+networks, convolutional neural networks, regulatory feed-
+back neural networks, radial basis function neural networks, 5o
+recurrent neural networks, Hopfield neural networks, Boltz-
+mann machine neural networks, self-organizing map (SOM)
+neural networks, learning vector quantization (LVQ) neural
+networks, fully recurrent neural networks, simple recurrent
+neural networks, echo state neural networks, long short-term 55
+memory neural networks, bi-directional neural networks,
+hierarchical neural networks, stochastic neural networks,
+genetic scale RNN neural networks, committee of machines
+neural networks, associative neural networks, physical neu-
+ral networks, instantaneously trained neural networks, spik- 60
+ing neural networks, neocognition neural networks, dynamic
+neural networks, cascading neural networks, neuro-fuzzy
+neural networks, compositional pattern-producing neural
+networks, memory neural networks, hierarchical temporal
+memory neural networks, deep feed forward neural net- 65
+works, gated recurrent unit (GCU) neural networks, auto
+encoder neural networks, variational auto encoder neural
+[col 2]
+278
+networks, de-noising auto encoder neural networks, sparse
+auto-encoder neural networks, Markov chain neural net-
+works, restricted Boltzmann machine neural networks, deep
+belief neural networks, deep convolutional neural networks,
+de-convolutional neural networks, deep convolutional
+inverse graphics neural networks, generative adversarial
+neural networks, liquid state machine neural networks,
+extreme learning machine neural networks, echo state neural
+networks, deep residual neural networks, support vector
+machine neural networks, neural Turing machine neural
+networks, and/or holographic associative memory neural
+networks, or hybrids or combinations of the foregoing, or
+combinations with other expert systems, such as rule-based
+systems, model-based systems (including ones based on
+physical models, statistical models, flow-based models, bio-
+logical models, biomimetic models, and the like).
+The foregoing neural networks may have a variety of
+nodes or neurons, which may perform a variety of functions
+on inputs, such as inputs received from sensors or other data
+sources, including other nodes. Functions may involve
+weights, features, feature vectors, and the like. Neurons may
+include perceptron, neurons that mimic biological functions
+(such as of the human senses of touch, vision, taste, hearing,
+and smell), and the like. Continuous neurons, such as with
+sigmoidal activation, may be used in the context of various
+forms of neural net, such as where back propagation is
+involved.
+In many embodiments, an expert system or neural net-
+work may be trained, such as by a human operator or
+supervisor, or based on a data set, model, or the like.
+Training may include presenting the neural network with
+one or more training data sets that represent values (includ-
+ing the many types described throughout this disclosure), as
+35wellasoneormoreindicatorsofanoutcome,suchasan
+outcome of a process, an outcome of a calculation, an
+outcome of an event, an outcome of an activity, or the like.
+Training may include training in optimization, such as
+training a neural network to optimize one or more systems
+based on one or more optimization approaches, such as
+Bayesianapproaches,parametricBayesclassifier
+approaches, k-nearest-neighbor classifier approaches, itera-
+tive approaches, interpolation approaches, Pareto optimiza-
+tion approaches, algorithmic approaches, and the like. Feed-
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+In embodiments, a plurality of neural networks may be
+deployed in a cloud platform that receives data streams and
+other inputs collected (such as by mobile data collectors) in
+one or more environments and transmitted to the cloud
+platform over one or more networks, including using net-
+work coding to provide efficient transmission. In the cloud
+platform, optionally using massively parallel computational
+capability, a plurality of different neural networks of various
+types (including modular forms, structure-adaptive forms,
+hybrids, and the like) may be used to undertake prediction,
+classification, control functions, and provide other outputs as
+described in connection with expert systems disclosed
+throughout this disclosure. The different neural networks
+may be structured to compete with each other (optionally
+including use evolutionary algorithms, genetic algorithms
+or the like), such that an appropriate type of neural network,
+with appropriate input sets, weights, node types and func-
+tions, and the like, may be selected, such as by an expert
+system, for a specific task involved in a given context,
+workflow, environment process, system, or the like.

@@ -1,0 +1,128 @@
+[col 1]
+US 2022/0036275 A1
+203
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data; wherein the
+machine learning model is configured to determine which
+types of the sensor data are to be included in the simulation
+data used to create the digital replica of the value chain
+entity by the digital twin system, the machine learning
+model determining which types of the sensor data are to be
+included based on one or both of a modeling goal and a
+quality of the type of sensor data.
+[1667] In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data; wherein the
+artificial intelligence system includes a model interpretabil-
+ured to facilitate human understanding of training and
+outputs of the machine learning model.
+[1668] In embodiments, the model interpretability system
+includes one or more of linear regression, logistic regres-
+sion, a generalized linear model (GLM), a generalized
+additive model (GAM), a decision tree, a decision rule,
+RuleFit, Naive Bayes Classifier, a K-nearest neighbors algo-
+rithm, a partial dependence plot, individual conditional
+expectation (ICE), an accumulated local effects (ALE) plot,
+feature interaction, permutation feature importance, a global
+surrogate model, a local surrogate (LIME) model, scoped
+rules, i.e. anchors, Shapley values, Shapley additive expla-
+nations (SHAP), feature visualization, and network dissec-
+tion.
+[1669] In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+intelligence system including: an artificial intelligence sys-
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+[col 2]
+Feb.3,2022
+being configured to transform the sensor data into simulation
+data, and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data; wherein the
+ity system, the model interpretability system being config-
+ured to facilitate human understanding of training and
+outputs of the machine learning model; and wherein the
+model dataset visualization system provides human-read-
+able analysis related to distribution of values across features
+of the simulation data.
+[1670] In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+intelligence system including: an artificial intelligence sys-
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation
+data; and a digital twin system configured to create a digital
+replica of the value chain entity based on the simulation
+data, the digital replica of the value chain entity providing
+for substantially real-time representation of the value chain
+entity and providing for simulation of a possible future state
+of the value chain entity via the simulation data; wherein the
+artificial intelligence system includes an embedded model
+interpretability system, the embedded model interpretability
+system being configured to facilitate human understanding
+of training and outputs of the machine learning model, and
+the embedded model interpretability system including a
+model dataset visualization system. In embodiments, the
+embedded model interpretability system implements a
+Bayesian case model that facilitates human understanding of
+the cognition of the machine learning model. In embodi-
+ments, the embedded model interpretability system imple-
+ments a glass box model that facilitates human understand-
+ing of the cognition of the machine learning model. In
+embodiments, the glass box model is a Gaussian process
+model.
+[1671]   In embodiments, an information technology sys-
+tem leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology
+system comprising: a plurality of sensors positioned in, on,
+and/or near a value chain entity of the value chain entities
+and configured to collect sensor data related to the value
+chain entity, the sensor data being substantially real-time
+sensor data; and an adaptive intelligence system connected
+to the plurality of sensors and configured to receive the
+sensor data from the plurality of sensors, the adaptive
+tem configured to input the sensor data into a machine
+learning model, the sensor data being used as training data
+for the machine learning model, the machine learning model
+being configured to transform the sensor data into simulation

@@ -1,0 +1,127 @@
+[col 1]
+US 12,567,082 B2
+303
+embodiments,a node in the neural network 8840 may have
+connections to all nodes in the immediately preceding layer
+and the immediate next layer. Thus, the layers may be
+referred to as fully-connected layers. In some embodiments,
+a node in the neural network 8840 may have connections to
+only some of the nodes in the immediately preceding layer
+and the immediate next layer. Thus, the layers may be
+referred to as sparsely-connected layers. Each neuron in the
+neural network consists of a weighted linear combination of
+its inputs and the computation on each neural network layer 10
+may be described as a multiplication of an input matrix and
+a weight matrix. A bias matrix is then added to the resulting
+product matrix to account for the threshold of each neuron
+in the next level. Further, an activation function is applied to
+each resultant value, and the resulting values are placed in 15
+the matrix for the next layer. Thus, the output from a node
+i in the neural network may be represented as:
+yi=f(Zxiwi+bi)
+where fis the activation function, Zxiwi is the weighted sum 20
+of input matrix and bi is the bias matrix.
+The activation function determines the activity level or
+excitation level generated in the node as a result of an input
+signal of a particular size. The purpose of the activation
+function is to introduce non-linearity into the output of a
+neural network node because most real-world functions are
+non-linear and it is desirable that the neurons can learn these
+non-linear representations. Several activation functions may
+be used in an artificial neural network. One example acti-
+vation function is the sigmoid function o(x), which is a 30
+continuous S-shaped monotonically increasing function that
+asymptotically approaches fixed values as the input
+approaches plus or minus infinity. The sigmoid function o(x)
+takes a real-valued input and transforms it into a value
+between 0 and 1: 35
+0(x)=1/(1+exp(-x).
+Another example activation function is the tan h function,
+which takes a real-valued input and transforms it into a value
+within the range of [-1, 1]: 40
+tan h(x)=20(2x)-1
+A third example activation function is the rectified linear
+unit (ReLU) function. The ReLU function takes a real-
+valued input and thresholds it above zero (i.e., replacing 45
+negative values with zero):
+f(x)=max(0,x).
+It will be apparent that the above activation functions are
+provided as examples and in various embodiments, neural 50
+network 8840 may utilize a variety of activation functions
+including (but not limited to) identity, binary step, logistic,
+soft step, tan h, arctan, softsign, rectified linear unit (ReLU).
+leaky rectified linear unit, parameteric rectified linear unit,
+randomized leaky rectified linear unit, exponential linear 55
+unit, s-shaped rectified linear activation unit, adaptive piece-
+wise linear, softplus, bent identity, softexponential, sinusoid,
+sinc, gaussian, softmax, maxout, and/or a combination of
+activationfunctions.
+In the example shown in FIG. 105, nodes 8842, 8844, 60 1
+8846, 8848 and 8850 in the input layer may take external
+inputs xl, x2, x3, x4 and x5 which may be numerical values
+depending upon the input dataset. It will be understood that
+even though only five inputs are shown in FIG. 105, in
+various implementations, a node may include tens, hun- 65
+dreds, thousands, or more inputs. As discussed above, no
+computation is performed on the input layer and thus the
+[col 2]
+304
+outputs from nodes 8842, 8844, 8846, 8848 and 8850 of
+input layer are x1, x2, x3, x4 and x5 respectively, which are
+fed into hidden layer. The output of node 8852 in the hidden
+x2, x3, x4 and x5) and weights associated with connections
+(wl, w2, w3, w4 and w5). Thus, the output from node 8852
+may be computed as:
+Yg852=(x1wl+x2w2+x3w3+x4w4+x5w5+bs852).
+The outputs from the nodes 8854 and 8856 in the hidden
+layer may also be computed in a similar manner and then be
+fed to the node 8858 in the output layer. Node 8858 in the
+output layer may perform similar computations (using
+weights vl, v2 and v3 associated with the connections) as
+the nodes 8852, 8854 and 8856 in the hidden layers:
+Y858=fVs852V1+y8854v2+ys856v3+bs858);
+where Yss5s is the output of the neural network 8840.
+As mentioned, the connections between nodes in the
+neural network have associated weights, which determine
+how much relative effect an input value has on the output
+value of the node in question. Before the network is trained,
+random values are selected for each of the weights. The
+weights are adjusted during the training process and this
+adjustment of weights to determine the best set of weights
+that maximize the accuracy of the neural network is referred
+to as training. For every input in a training dataset, the output
+of the artificial neural network may be observed and com-
+pared with the expected output, and the error between the
+expected output and the observed output may be propagated
+back to the previous layer. The weights may be adjusted
+accordingly based on the error. This process is repeated until
+the output error is below a predetermined threshold.
+In embodiments, backpropagation (e.g., backward propa-
+gation of errors) is utilized with an optimization method
+such as gradient descent to adjust weights and update the
+neural network characteristics. Backpropagation may be a
+supervised training scheme that learns from labeled training
+data and errors at the nodes by changing parameters of the
+neural network to reduce the errors. For example, a result of
+forward propagation (e.g-, output activation value(s) deter-
+mined using training input data is compared against a
+corresponding known reference output data to calculate a
+loss function gradient. The gradient may be then utilized in
+an optimization method to determine new updated weights
+in an attempt to minimize a loss function. For example, to
+measure error, the mean square error is determined using the
+equation:
+E-(target-output)?
+To determine the gradient for a weight "w," a partial
+derivative of the error with respect to the weight may be
+determined, where:
+gradient-8E/8w
+The calculation of the partial derivative of the errors with
+respect to the weights may flow backwards through the node
+levels of the neural network. Then a portion (e.g., ratio,
+percentage, etc.) of the gradient is subtracted from the
+weight to determine the updated weight. The portion may be
+determining the updated weight is given by the formula:
+wnew=wold-aaE/@w
+The learning rate must be selected such that it is not too
+small (e.g., a rate that is too small may lead to a slow

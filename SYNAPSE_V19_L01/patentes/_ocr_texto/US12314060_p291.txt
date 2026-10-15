@@ -1,0 +1,138 @@
+system I/O system 8104 may periodically query and/or 35 where vehicles operate) may specify that the data element
+[col 1]
+US 12,314,060 B2
+217
+threads to access an API, SDK, port, webhook, search
+facility, database access facility, and/or other connection
+facility of the CRM 8026 of the enterprise on behalf of the
+enterprise and may obtain any necessary security credentials
+to access the API. In another example, in order to collect
+data from one or more edge devices 8042 of the enterprise,
+the configuration system 8102 may initiate a process of
+granting access to the edge devices 8042 of the enterprise to
+the APIs of the EMP 8000, such that the edge devices 8042
+may provide digital twin data to the EMP 8000.
+In embodiments, the digital twin I/O system 8104 is
+configured to obtain data from a set of data sources (e.g..
+users, sensor systems, internal and/or external databases,
+software platforms (e.g-, CRMs, ERPs, CRMs, workflow
+management system), surveys, customers, and the like). In 15
+some embodiments, the digital twin I/O system 8104 (or
+other suitable component) may provide a graphical user
+interface that allows a user affiliated with an enterprise to
+upload various types of data that may be leveraged to
+generate the enterprise digital twins of the enterprise. For 20
+example, in providing data to support an environment digital
+twin, a user may upload 3D scans, still and video images,
+LIDAR scans, structured light scans, blueprints, 3D floor
+plans, object types (e.g., products, sensors, machinery, fur-
+niture, and the like), object properties (e.g., materials, physi- 25
+cal properties, descriptions, price, and the like), output type
+(e.g., sensor units), architectural drawings, CAD documents,
+equipment specifications, and many others via the digital
+twin I/O system 8104. In embodiments, the digital twin I/O
+system 8104 may subscribe to or otherwise automatically 30
+receive data streams (e.g., publicly available data streams,
+such as RSs feeds, news streams, event streams, log
+streams, sensor system streams, and the like) on behalf of an
+enterprise. Additionally or alternatively, the digital twin
+receive data from a connected data source 8020, such as the
+sensor system 8022 having sensors that sensor data from
+facilities (e.g., manufacturing facilities, shipping facilities,
+warehouse facilities, logistics facilities, retail facilities, dis-
+tributionfacilities,agriculturalfacilities,resourceextraction 40
+facilities, computing facilities, transportation facilities,
+infrastructure facilities, networking facilities, data center
+facilities, and many others) and/or other physical entities of
+the enterprise, the sales database 8024 that is updated with
+sales figures in real time, the CRM system 8026, the content 45
+marketing platform 8028, financial databases 8030, surveys
+8032, org charts 8034, workflow management systems 8036,
+third-party data sources 8038, customer databases 8040 that
+store customer data, and/or third-party data sources 8038
+that store third-party data, edge devices 8042 that report data 50
+relating to physical assets (e.g, smart machinery/manufac-
+turing equipment, sensor kits, autonomous vehicles, of the
+enterprise, wearable devices, and the like), enterprise
+resource management systems 8044, HR systems 8046,
+content management systems 8026, and the like). In embodi- 55
+ments, the digital twin I/0 system 8104 may employ a set of
+web crawlers to obtain data.In embodiments,the digital
+twin I/O system 8104 may include listening threads that
+listen for new data from a respective data source. In embodi-
+ments, the digital twin I/O system 8104 may be configured 60
+with a set of webhooks that receive data from a respective
+set of data sources. In these embodiments, the digital twin
+I/Q system8104 may receive data that ispushedfrom an
+external data source, such as real-time data.
+In some embodiments, the digital twin I/O system 8104 is 65s
+configured to serve the obtained data to instances of enter-
+prise digital twins (which is used to populate digital twins)
+[col 2]
+218
+that are executed by the client device 8050 or the EMP 8000.
+In embodiments, the digital twin I/O system 8104 receives
+data stream feeds received data streams received and/or
+collected on behalf on an enterprise and stores at least a
+portion of the streams into a data lake 8122 associated with
+the enterprise. In embodiments, the data that is streamed into
+the data lake 8122 may be structured and stored in one or
+more databases stored in the digital twin data stores 8124.
+In embodiments, the data structuring system 8106 is
+10 configured to process and structure data into a format that
+can be consumed by an enterprise digital twin. In embodi-
+ments, processing by the data structuring system 8106 may
+include compression, computation, filtering, aggregation,
+multiplexing, selective switching, batching, packetization,
+ streaming, summarization, fusion, fragmentation, encoding,
+decoding, transcoding, encryption, decryption, duplication,
+deduplication, normalization, cleansing,identification,
+copying, storage, decompression, syndication, augmentation
+(e.g., by metadata), content inspection, classification, extrac-
+tion, transformation, loading, formatting, error correction,
+data structuring, and/or many other processing actions. In
+embodiments, the data structuring system 8106 may lever-
+age ETL (extract, transform, load) tools, data streaming, and
+other data integration tooling to structure the various types
+of digital twin data. In embodiments, the data structuring
+system 8106 structures the data according to a digital twin
+data model that may be defined by the digital twin configu-
+ration system 8102 and/or a user. In embodiments, a digital
+twin data model may refer to an abstract model that orga-
+nizes elements of enterprise-related data and standardizes
+the manner by which those elements relate to one another
+and to the properties of digital twin entities. For instance, a
+digital twin data model of an environment that includes
+vehicles (e.g., a vehicle assembly facility or an environment
+representing a vehicle be composed of a number of other
+elements which represent sub-elements or attributes of the
+vehicle (the color of the vehicle, the dimensions of the
+vehicle, the engine of the vehicle, the engine parts of the
+vehicle,the owner of the vehicle,the performance specifi-
+cations of the vehicle, and the like). In this example, the
+digital twin model components may define how the physical
+attributes are tied to respective physical locations on the
+vehicle. In embodiments, digital twin data models may
+define a formalization of the objects and relationships found
+in a particular application domain. For example, a digital
+twin data model may represent the customers, products, and
+orders found in a manufacturing enterprise and how they
+relate to each other within the various digital twins. In
+another example, a digital twin data model may define a set
+of concepts (e.g., entities, attributes, relations, tables, and/or
+the like) used in defining such formalizations of data or
+metadata within the environment. For example, a digital
+twin data model used in connection with a banking appli-
+cation may be defined using the entity-relationship data
+model and how the entity-relationship data model is then
+related to the various executive digital twin views.
+In embodiments, the digital twin generation system 8108
+serves enterprise digital twins on behalf of an enterprise. In
+some instances, the digital twin generation system 8108
+receives a request for a specific type of digital twin from a
+client application 8052 being executed by the client device
+8050 (e.g, via an API). Additionally or alternatively, the
+digital twin generation system 8108 receives a request for a
+specifictypeofdigital twinfroma componentof EMP8000
+(e.g., the digital twin simulation system 8116). The request
+may indicate the enterprise, the type of digital twin, the user

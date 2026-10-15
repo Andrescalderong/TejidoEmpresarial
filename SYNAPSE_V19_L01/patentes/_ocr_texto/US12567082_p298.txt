@@ -1,0 +1,136 @@
+twin 8410 may include the enterprise data and/or data that 10 customer hierarchical views.
+[col 1]
+US 12,567,082 B2
+273
+databases, relational databases, SQL databases, distributed
+databases, blockchains, caches, servers, and/or the like). In
+embodiments, the client application 8052 requests an enter-
+prise digital twin 8410 from the EMP 8000. In response, the
+digital twin system 8004 may generate and serve the
+requested enterprise digital twin 8410 (e.g., a role-based
+digital twin, executive digital twin, environment digital
+twin, process digital twin, cohort digital twins, or the like)
+to the client application 8052, whereby the enterprise digital
+was derived from the enterprise data (e.g, by the intelli-
+gence services system). The client application 8052 may
+provide an interface for the user of the client application
+8052 to interact with the requested digital twin 8410. For
+example, the user may delegate tasks relating to a depicted 15
+depicted state via the digital twin interface. In another
+example, the user may drill down into a particular state and
+may initiate a corrective action via the digital twin interface.
+In some embodiments, the client application 8052 may 20
+allow the user to share the digital twin 8410 (or a portion
+thereof) within a collaboration tool 8414 or access collabo-
+ration features of a collaboration tool 8414 within the twin
+8410.For example, the client application 8052 may allow
+the user to share a depicted state of the digital twin 8410 into
+a board meeting collaboration tool Additionally or alterna-
+tively, an expert agent 8364 may monitor the interactions of
+the user with the digital twin and may report the interactions
+to the expert agent system 8008 of the EMP. In embodi-
+ments, the expert agent system 8008 may receive the inter- 30j
+actions and may train the expert agent 8364 based on the
+interactions with the digital twin, as well as outcomes
+stemming from the expert agent. For example, the expert
+agent may be trained to identify situations where the user
+delegates tasks or notifies a superior. 35
+The executive digital twins discussed with respect to FIG.
+71 are provided for example and not intended to limit the
+ scope of the disclosure. Additional and/or alternative data
+types may be included in a respective type of executive
+digital twin.
+FIG. 73 illustrates an example method 8510 for config-
+uring and serving an enterprise digital twin. In embodi-
+ments, the method may be executed by the digital twin
+ system 8004. The method may be performed with respect to
+different types of enterprise digital twins, including role- 45
+based digital twins (e.g., executive digital twins), cohort
+digital twins, environment digital twins, process digital
+twins, and/or the like.
+At 8512, the structural views for a particular type of
+digital twin are selected. In embodiments, the structural 50
+views can be stored in a graph database (representing
+interconnected data) or in a geospatial database (represent-
+ing coordinates of actual facilities).
+At 8514, associated transactional data for the digital twin
+is selected. In embodiments, a combination of interaction 55
+data and transaction data is selected at grain that is suitable
+for the dynamic interaction within the digital twin is
+selected. This selection process may involve dynamic con-
+figuration of the structure, functions and features of a data
+mart or other summarization system and/or may work 60
+storage mechanisms (such as columnar databases or in
+memory databases).
+At 8516, embellishment and/or augmentation data for the
+digital twin is selected, In embodiments, embellishment data 65
+are the associated attributes that can be tied to elements
+within the executive digital twin. For example, in generating
+[col 2]
+274
+an environment digital twin of a facility, embellishment or
+augmentation data may include the ages of machinery or
+other assets in the facility, the names of key third-party
+suppliers that could replace items with supply chain deliv-
+eries, the inputs or outputs of process flows that occur within
+the facility, identities of managers, indicators of states and
+flows, and many others. In an abstract executive digital twin
+the embellishment data may include social media data, for
+example sentiment analytics that can be associated with the
+At 8518, a representation medium for the digital twin is
+selected. In embodiments, the final representation can be
+multi-faceted, this can include a range of devices from
+simple mobile phone-based devices and touchscreen tablets
+to special-purpose devices and/or immersive AR/VR head-
+sets, among many others. The representation medium
+impacts the volume and nature of data that is preferably
+selected in the earlier steps. In embodiments, selection of a
+representation medium is provided as a feedback indicator to
+the data and networking pipeline, such that filtering and data
+path selection can be undertaken with awareness of end
+device and other capabilities and requirements of the rep-
+resentation medium. This may occur automatically, such as
+by an agent that is trained to provide context-sensitive
+ 25 feedback based on a training set of outcomes.
+At 8520, the perspective views are constructed. In
+embodiments, the perspective builder 8110 generates a level
+and nature of data that allows for different types of user to
+interact with the digital twin while gaining the appropriate
+level of perspective. For example, with a CEO-level view
+the CEO may require the context of third-party alternatives,
+market forces, and current strategic initiatives. In this
+example, the perspective builder 8ii0 takes these consider-
+ations into account in producing the level of digital twin
+appropriate for the CEO, furthermore this will impact the
+data selection process as different grains of data are appro-
+priate for the different views. These different perspectives
+can be simultaneously interacted with various roles allowing
+the executive to provide their guidance on the same topic
+while seeing and interaction with information relevantto
+their specific needs.
+At 8522, user notifications are enabled. In embodiments,
+notifications within the digital twin are controlled by the
+grain of the data selected and the required perspective. For
+example, a CTO level view requires notifications of various
+technology changes and technology marketforces, the CTO
+digital twin is constantly being overlaid with these notifi-
+cations that are structurally associated with the relevant part
+of the digital environment abstract or concrete. For example,
+in an organizational chart the CTO could be seeing the
+implementation options for new technology to provide more
+efficient communication between organizational units in
+strategic planning exercise to acquire a new company.
+Simultaneously the CFO is seeing the financial impacts of
+these various options, and the CEO is being notified of
+decisions that might impact the future market opportunities
+regarding the upcoming company acquisition.
+The method is provided for example only. Additional
+and/or alternative methods may be performed to generate
+and serve digital twins without departing from the scope of
+the disclosure.
+The method of FIG. 73 is provided for example and not
+intended to limit the scope of the disclosure. The method
+may include additional or alternative operations.
+FIG. 74 illustrates an example set of operations of a
+method 8600 for configuring an organizational digital twin.
+In embodiments, the method may be executed at least in part

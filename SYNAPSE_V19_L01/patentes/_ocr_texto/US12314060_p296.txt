@@ -1,0 +1,137 @@
+the user may provide API interface or keys and/or webhook 3o a role-based workflow management of the depicted envi-
+[col 1]
+US 12,314,060 B2
+227
+natively, the digital twin system 8004 may provide a graphi-
+cal user interface that allows users to define the layout
+definitions, process definitions, and/or spatial definitions. In
+some embodiments, users may import digital twins from 3rd
+party sources. For example, a producer of a particular object
+may also provide a digital twin ofthe object, which may then
+be imported to the digital twin system 8004.
+During system data configuration and ingestion, a user
+defines the data sources that provide data that hydrates or
+populates a digital twin and configures a data bus to receive
+data from the various data sources. As discussed, the data
+sources may be received from various systems, including
+sensor systems, ERPs, CRMs, financial systems, inventory
+management systems, invoicing systems, 3rd party systems
+(e.g, weather services, news services, government data-
+bases, and the like), and other suitable systems. In embodi-
+ments, the user may identify the data sources and may
+provide any information required to enable a data bus to
+receive data from the data sources and may further define the 20
+associations between the data derived from the data sources
+and the digital twin elements. A data bus may refer to a
+middleware layer that provides the data wiring and data
+infrastructure for moving data from one system to another.
+The data bus may be configured to handle real-time data, 25
+near real-time data, aggregated data, and/or stored data, or
+any combination thereof. The data bus may provide data
+directly to a digital twin and/or may store the data in the data
+warehouse that hydrates the digital twins. In embodiments,
+URLs to the digital twin system 8004 (e.g., via a GUI)
+thereby enabling data acquisition from the data sources. In
+embodiments, the digital twin system 8004 may configure
+the data bus to access the data sources and/or to receive data
+fromthe data sources.In some of these embodiments,the 35
+digital twin system 8004 may generate a webhook URL for
+a particular digital twin or set of digital twins and may
+provide the webhook URL to the data source, such that the
+data source can push real-time or near real-time data to the
+data bus. Additionally or alternatively, the digital twin 40
+system 8004 may obtain an API interface orkey from the
+data source, such that the data bus can request data from the
+data source using the API interface or key.
+In embodiments, the digital twin system 8004 may gen-
+erate a foreign key that associates different types of data with 45
+the structural elements of the digital twin. In this way, the
+foreign key ties particular data types to various structural or
+logical or schematic elements, such that when the digital
+twin is depicted, the real-world data collected from the
+various data sources is connected to the corresponding states 5o
+of the digital twin. For example, sensor data received from
+a subset of sensors of a sensor system that monitor a
+particular machine component in a real world environment
+may be associated with a digital twin of a machine compo-
+nent, such that the sensor data may be depicted in the digital 55
+twin of the machine component. In embodiments, the user
+may provide input to the digital twin system 8004 during the
+configuration phase to tie particular data types to various
+elements of a digital twin. The data types that are associated
+with the digital twin may include raw data, processed data, 60
+analytical data, derived data, and the like. To the extent a
+particular data stream is processed before being served into
+a digital twin (e.g-, sensor data that is averaged over a period
+of time or a warning condition that is depicted when sales
+data dips below a threshold), the user may define the 65
+operations or the associated display highlight that are per-
+formed on the data before it is served into a digital twin. In
+[col 2]
+228
+these scenarios, the processed data may be associated with
+a respective digital twin component in the foreign key.
+Once the data bus is configured for a particular digital
+twin and the structural, logical, or schematic elements (e.g..
+layout definitions, process definitions, and spatial defini-
+tions) of the digital twin are defined, the digital twin system
+8004 may perform digital simulations on the digital twin
+and/or may serve the digital twin to a digital twin-enabled
+application based on the structural elements of the digital
+twin, the connected systems data sources, and the foreign
+key of the digital twin. In embodiments, the digital twins
+may be role-based digital twin, whereby the views into the
+digital twin that are served to a user occupying a particular
+role within an organization. In this way, each user can
+interact with a respective role-based digital twin and may
+gain appropriate perspectives based on their respective
+needs with respect to an organization. In another embodi-
+ment, a plurality of users can interact with a shared role-
+enabled digital twin and may gain appropriate perspectives
+based on their respective needs with respect to an organi-
+zation to that single digital twin. In embodiments, a role-
+based digital twin may allow the user to provide feedback to
+the source systems to allow for controls of the source system
+environments, such as corrective actions taken with respect
+to a source system. In some embodiments, a plurality of
+users can make operational changes with a shared role-based
+digital twin and each user sees these changes in an appro-
+priate way for their role. Furthermore if the operational
+change involves multiple users, the digital twin can enable
+ronment (e.g-, the CEO may approve an expenditure to
+change machinery as requested by the CTO).
+In embodiments, the digital twin system 8004 may
+receive requests to execute digital twin simulations with
+respect to a digital twin. Requests to perform digital twin
+simulations may be received from digital twin applications
+and/or from internal processes. In embodiments, a digital
+twin simulation allows for the building of interactive models
+based on the processes, layouts, and/or spatial representa-
+tions of a digital twin. The digital twin simulations may
+provide the degrees of freedom to allow for the different
+processes to be altered in response to dynamic data inputs.
+For example, a digital twin simulation may be executed to
+depict how a bearing can move on a compressor when the
+compressor is operated at different operating conditions or
+how water flows through a systems of pipes model at
+different temperatures or with different amounts of buildup
+in the piping. In embodiments, the digital twin system 8004
+may output the results of the simulation, which may, for
+example, depict the impact of the simulation parameters on
+a particular aspect of the digital twin.
+In embodiments, a digital twin application may request
+and depict a digital twin to a user, this digital twin can be a
+new twin for that user or role specific access with role
+specific views to an existing or shared digital twin. A digital
+twin application may be provided on mobile applications,
+virtual reality applications, PCs, and the like. In embodi-
+ments, a digital twin application provides a request to the
+digital twin system 8004 for a particular digital twin, where
+the request may include a user identifier of the user and/or
+a role of the user. In embodiments, the digital twin system
+8004 may include or interface with digital twin application
+coordinators that receive requests from digital twin appli-
+cations for a digital twin. In embodiments, a digital twin
+application controller maintains and leverages a set of
+business rules for a particular digital twin that are required
+by a digital twin application. In some of these embodiments,

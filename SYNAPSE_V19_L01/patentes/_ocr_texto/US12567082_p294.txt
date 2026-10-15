@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+265
+In embodiments, a Chief Human Resources Officer
+(CHRO) digital twin 8316 (or HR digital twin 8316) is an
+executive digital twin configured for a human resources
+executive (e.g. a CHRO) of an enterprise or analogous
+executive tasked with overseeing the human resources HR
+aspects of the enterprise, such as a Chief People Officer
+(CPO), a chief talent officer, a head of human resources, a
+director of human resources, or the like. In embodiments, the
+CHRO digital twin 8316 may depict different HR-related
+states of the enterprise, such as states relating to human 10
+capital management, workforce management, risk manage-
+ment, and the management of payroll, recruitment, regula-
+tory compliance, employee performance, benefits, employee
+relations, time and attendance, training and development,
+compensation, onboarding, offboarding, succession plan-
+ning, and the like. In embodiments, the CHRO digital twin
+8316 may initially depict the various states at a lower
+granularity level. A user that is viewing the CHRO digital
+twin 8316 may select a state to drill down into the selected
+state and view the selected state at a higher level of granu- 20
+larity.
+In embodiments, the types of data that may be depicted in
+CHRO digital twin 8316 may include, but are not limited to:
+individual employee data, key performance indicators by
+business unit, key performance indicators by individual 25
+employee, risk management data, regulatory compliance
+data (e.g., OSHA and EPA compliance data), safety data,
+diversity data, benefits data (e.g., medical, dental, vision,
+and health savings accounts (HSA)) compensation data,
+compensation comparison data, compensation trend data, 30
+payroll data, overtime data, recruitment data, employee
+referrals data, applicant data, applicant screening data, appli-
+cant reference data, applicant background check data, offer
+data, time and attendance data, employee relations data,
+employee complaints data, onboarding data, offboarding
+data, employee training and development data, employee
+turnover rate data, voluntary employee turnover rate data,
+new hire turnover rate data, high performer turnover rate
+data, turnover rate by performance rating data, headcount
+and/or headcount planning data (e.g+, headcount to plan 40
+percentage), promotion rate data, succession plan data, orga-
+nizational levels data, span of control data, employee survey
+data, cost to move employees below midpoint data, com-
+parative ratio data, simulation data, decision support data
+from AI and/or machine learning systems, prediction data 45 
+from AI and/or machine learning systems, classification data
+from AI and/or machine learning systems, detection and/or
+identification data from AI and/or machine learning systems,
+and the like.
+In embodiments,aCHROdigital twin 8316may depict a 50
+data item with an icon indicating whether the data item is at
+a normal state, a suboptimal state, a critical state, or an alarm
+state. In embodiments, the icons may be different colors,
+fonts, symbols, codes or the like. For example, a CHRO
+digital twin 8316 may depict high performer turnover rate 55
+data with an orange icon indicating that the high performer
+turnover rate is at a critical level. Continuing the example,
+an HR executive may be enabled to escalate the high
+performer turnover rate data to another executive, such as
+the CEO, via the CHRO digital twin 8316. In embodiments,
+a CHRO digital twin 8316 may automatically highlight data
+items that are at suboptimal, critical, or alarm state.
+In embodiments, a CHRO digital twin 8316 may be
+configured to provide an "in-twin" collaboration suite hav-
+ing tools that may facilitate communication and collabora- 65
+tion between enterprise stakeholders. In embodiments, the
+"in-twin collaboration tools may include an interface
+[col 2]
+266
+enabling a user to escalate and/or deescalate data sets to
+another user associated with the enterprise. In embodiments,
+the interface may be configured to enable a user to send a
+message with the data set, generate a request or assign a task
+related to the data set, and/or schedule an event associated
+with the data set. In embodiments, AI and/or machine
+learning could be leveraged to suggest message content,
+suggest event scheduling, suggest a request or task, and/or
+suggest a request or task assignee. For example, an HR
+executive could escalate a data set related to employee
+training to the GC with a predictive text message about
+employee training and a calendar request at a time deter-
+mined by AI and/or machine learning to attend a meeting
+related to employee training. In embodiments, the "in twin"
+collaboration tools include digital twin conferences. In
+embodiments, the “in twin" collaboration tools may include
+conferencing system for enabling enterprise stakeholders to
+communicate. In embodiments, a machine learning and/or
+Al system may be leveraged for automatically generating
+and/or assigning tasks from these communications. In
+embodiments, the “in-twin" videoconferencing system sup-
+ports subchats. In embodiments, the subchats may be created
+via a "drag-and-drop action in the user interface. In
+embodiments, the “in-twin" videoconferencing system may
+leverage machine learning and/or AI to make suggestions to
+optimize a user's lighting, audio, camera placement, and the
+like. In embodiments, the "in twin" videoconferencing sys-
+tem leverages machine learning and/or Al to automatically
+disable the video feed upon the detection of an inappropriate
+activity in the video feed. In embodiments, the “in twin"
+collaboration suite includes an “in-twin" stakeholder
+approval system for collecting approval on actions from
+other enterprise stakeholders. In embodiments, “in-twin"
+g 35 collaboration tools may include an Al-driven translation
+system configured to intelligently translate communications
+amongst enterprise stakeholders to achieve maximum under-
+standing by the user of the digital twin, wherein the Al
+driven translation system is configured to translate from a
+first language to a second language (e.g., translate English
+into a foreign language) and is also configured to translate
+terminology or jargon such that it is consumable by the user.
+These features described in connection with the CHRO
+digital twin 8316 may be deployed with other types of digital
+twins described herein, including ones for other executives,
+including to facilitate collaboration among different types of
+executives, such as for enterprise control tower activities,
+such as monitoring operations, development activities, or
+other aspects of the enterprise across locations, departments,
+and functions. Collaboration and communication tools and
+associated rules may be configured to use company-, indus-
+try- and domain-specific taxonomies and lexicons when
+representing entities, states and flows within the CHRO
+digital twin 8316, such as ones relating to health and safety
+of workers, ones related to education and training, ones
+related to performance indicators, ones related to worker
+attributes (including psychographic, demographic and simi-
+lar factors), and many others.
+In embodiments, a CHRO digital twin 8316 may be
+configured to identify, interview, select, hire, and onboard
+new employees. In some of these embodiments, the CHRO
+digital twin 8316 may be configured to research, track, and
+report on applicant data, including, but not limited to,
+employee referral data, applicant education data, applicant
+testing data, applicant experience data, applicant reference
+data, applicant screening data, applicant background check

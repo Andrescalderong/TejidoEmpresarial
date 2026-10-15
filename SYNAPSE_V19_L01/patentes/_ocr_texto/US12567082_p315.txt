@@ -1,0 +1,136 @@
+classify each training image). These classification vectors 45 network activities or entities described therein.
+[col 1]
+US 12,567,082 B2
+307
+derive outputs for a next layer with one or more other
+components for further processing within CNN 8860.
+The initial layers of CNN 8860 e.g., convolution layers.
+may extract low level features such as edges and/or gradi-
+ents from the input image 8862. Subsequent layers may
+extract or detect progressively more complex features and
+patterns such as presence of curvatures and textures in image
+data and so on. The output of each layer may serve as an
+input of a succeeding layer in CNN 8860 to learn hierar-
+chical feature representations from data in the input image
+8862. This allows convolutional neural networks to effi-
+ciently learn increasingly complex and abstract visual con-
+cepts.
+Although only two convolution layers are shown in the
+example, the present disclosure is not limited to the example
+architecture, and CNN 8860 architecture may comprise any
+number of layers in total, and any number of layers for
+convolution, activation and pooling. For example, there
+have been many variations and improvements over the basic 20
+CNN model described above. Some examples include
+Alexnet, GoogLeNet, VGGNet (that stacks many layers
+containing narrow convolutional layers followed by max
+pooling layers), Residual network or ResNet (that uses
+residual blocks and skip connections to learn residual map- 25
+ping), DenseNet (that connects each layer of CNN to every
+other layer in a feed-forward fashion), Squeeze and excita-
+tion networks (that incorporate global context into features)
+and AmobeaNet (that uses evolutionary algorithms to search
+30 and find optimal architecture for image recognition).
+Training of Convolutional Neural Network
+The training process of a convolutional neural network,
+ such as CNN 8860, may be similar to the training process
+discussed in FIG. 105 with respect to neural network 8840. 3.5
+In embodiments, all parameters and weights (including
+the weights in the filters and weights for the fully-connected
+layer are initially assigned (e.g., randomly assigned). Then,
+during training, a training image or images, in which the
+objects have been detected and classified, are provided as the 40 
+input to the CNN 8860, which performs the forward propa-
+gation steps. In other words, CNN 8860 applies convolution,
+non-linear activation, and pooling layers to each training
+image to determine the classification vectors (i.e., detect and
+are compared with the predetermined classification vectors.
+The error (e.g., the squared sum of differences, log loss,
+softmax log loss) between the classification vectors of the
+CNN and the predetermined classification vectors is deter-
+mined. This erroris then employed to update the weights and 5o f
+parameters of the CNN in a backpropagation process which
+may use gradient descent and may include one or more
+iterations. The training process is repeated for each training
+image in the training set.
+The training process and inference process described 55 (
+above may be performed on hardware, software, or a com-
+bination of hardware and software. However, training a
+convolutional neural network like CNN 8860 or using the
+trained CNN for inference generally requires significant
+amounts of computation power to perform, for example, the 60
+matrix multiplications or convolutions. Thus, specialized
+hardware circuits, such as graphic processing units (GPUs),
+tensor processing units (TPUs), neural network processing
+units (NPUs), FPGAs, ASICs, or other highly parallel pro-
+cessing circuits may be used for training and/or inference. 65
+Training and inference may be performed on a cloud, on a
+data center, or on a device.
+[col 2]
+308
+Region Based CNNS (RCNNS) and Object Detection
+In embodiments, an object detection model extends the
+functionality of CNN based image classification neural
+network models by not only classifying objects but also
+determining their locations in an image in terms of bounding
+boxes. Region-based CNN (R-CNN) methods are used to
+extract regions of interest (ROD), where each ROI is a
+rectangle that may represent the boundary of an object in
+image. Conceptually, R-CNN operates in two phases. In a
+first phase, region proposal methods generate all potential
+bounding box candidates in the image. In a second phase, for
+every proposal, a CNN classifier is applied to distinguish
+between objects. Alternatively, a fast R-CNN architecture
+can be used, which integrates the feature extractor and
+classifier into a unified network. Another faster R-CNN can
+be used, which incorporates a Region Proposal Network
+(RPN) and fast R-CNN into an end-to-end trainable frame-
+work. Mask R-CNN adds instance segmentation, while
+mesh R-CNN adds the ability to generate a 3D mesh from
+a 2D image.
+In embodiments, artificial intelligence modules 8804 may
+provide access to and/or integrate a robotic process auto-
+mation (RPA) module 8816. The RPA module 8816 may
+facilitate, among other things, computer automation of pro-
+ducing and validating workflows. In embodiments, an RPA
+module 8816 may monitor human interaction with various
+systems to learn patterns and processes performed by
+humans in performance of respective tasks. This may
+include observation of human actions that involve interac-
+tions with hardware elements, with software interfaces, and
+with other elements. Observations may include field obser-
+vations as humans perform real tasks, as well as observa-
+tions of simulations or other activities in which a human
+performs an action with the explicit intent to provide a
+training data set or input for the RPA system, such as where
+a human tags or labels a training data set with features that
+assist the RPA system in learning to recognize or classify
+features or objects, among many other examples. In embodi-
+ments, an RPA module 8816 may learn to perform certain
+tasks based on the learned patterns and processes, such that
+the tasks may be performed by the RPAmodule 8816 in lieu
+or in support of a human decisionmaker.Examples of RPA
+modules 8816 may encompass those in this disclosure and in
+the documents incorporated by reference herein and may
+involve automation of any of the wide range of value chain
+In embodiments, the artificial intelligence modules 8804
+may include and/or provide access to an analytics module
+8818. In embodiments, an analytics module 8818 is config-
+ured to perform various analytical processes on data output
+from value chain entities or other data sources. In example
+embodiments, analytics produced by the analytics module
+8818 may facilitate quantification of system performance as
+compared to a set of goals and/or metrics. The goals and/or
+metrics may be preconfigured, determined dynamically from
+operating results, and the like. Examples of analytics pro-
+cesses that can be performed by an analytics module 8818
+are discussed below and in the document incorporated
+herein by reference. In some example implementations,
+analytics processes may include tracking goals and/or spe-
+cific metrics that involve coordination of value chain activi-
+ties and demand intelligence, such as involving forecasting
+(among many others).
+In embodiments, artificial intelligence modules 8804 may
+include and/or provide access to a digital twin module 8820.
+The digital twin module 8820 may encompass any of a wide
+range of features and capabilities described herein In

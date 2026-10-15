@@ -1,0 +1,132 @@
+[col 1]
+US 12,567,082 B2
+315
+execute the subsequent iteration using the evaluation of the
+attempt of the preceding iteration(s) to assist in determining
+the next attempt.
+There may be several approaches for training the RL
+which the agent learns from state/action pairs where the
+actions are those that would be chosen by an expert (e.g., a
+human) in response to an observed state. Imitation learning
+not just solves sample-inefficiency or computational feasi-
+bility problems, but also makes the training process safer. 10
+The RL agent may derive multiple examples of the state/
+action pairs by observing a human (e.g., navigating towards
+and grasping a target object), and uses them as a basis for
+training the policy. Behavior cloning (BC), that focuses on
+learning the expert's policy using supervised learning is an 15
+example of imitation learning approach.
+Value based learning approach aims to find a policy
+comprising a sequence of actions that maximizes the expec-
+tation value of future reward (or minimizes the expected
+cost). The RL agent may learn the value/cost function and 20
+then derives a policy with respect to the same. Two different
+expectation values are often referred to: the state value V(s)
+and the action value Q (s,a) respectively. The state value
+function V(s) represents the value associated with the agent
+at each state whereas the action value function Q(s,a) 251
+represents the value associated with the agent at state s and
+works by approximating optimal value (V* or Q*) and then
+deriving an optimal policy. For example, the optimal value
+function Q*(s, a) may be identified by finding the sequence 30
+of actions which maximize the state-action value function Q
+(s, a). The optimal policy for each state can be derived by
+identifying the highest valued action that can be taken from
+each state.
+*(s)=argmax Q*(s,a)
+To iteratively calculate the value function as actions
+within the sequence are executed and the mobile system
+transitions from one state to another, the Bellman Optimality
+equation may be applied. The optimal value function Q*(s,a)
+obeys Bellman Optimality equation and can be expressed as:
+Q*(s,a,)-E[r+I+y max Q*($+1a+1)]
+Policy based learning approach directly optimizes the
+policy function  using a suitable optimization technique 45
+(e.g., stochastic gradient descent) to fine tune a vector of
+parameters without calculating a value function. The policy-
+based learning approach is typically effective in high-di-
+mensional or continuous action spaces.
+FIG. 108 illustrates an approach based on reinforcement 50 (
+learning and including evaluation of various states, actions
+or more tasks by a mobile system.
+At 8902, a reinforcement learning agent (e.g-, of the
+intelligence services system 8900) receives sensor informa- 55
+system in the environment. The analysis of one or more of
+these images may enable the agent to determine a first state
+associated with the mobile system at 8904. The data repre-
+senting the first state may include information about the 60
+environment, such as images, sounds, temperature or time
+and information about the mobile system, including its
+position, speed, internal state (e.g-, battery life, clock set-
+ting) etc.
+At 8906, 8908, and 8910, various potential actions 65
+responsive to the state may be determined. Some examples
+of potential actions include providing control instructions to
+[col 2]
+316
+actuators,motors,wheels, wingsflaps,or other components
+that controls the agent's speed, acceleration, orientation, or
+position; changing the agent's internal settings, such as
+putting certain components into a sleep mode to conserve
+battery life; changing the direction if the agent is in danger
+of colliding with an obstacle object; acquiring or transmit-
+ting data; attempting to grasp a target object and the like.
+At 8912,8914 and 8916, expected rewards may be
+determined for each of the potential actions based on a
+reward function. For each of the determined potential
+actions, an expected reward may be determined based on a
+reward function. The reward may be predicated on a desired
+outcome, such as avoiding an obstacle, conserving power, or
+acquiring data. If the action yields the desired outcome (e.g.,
+avoiding the obstacle), the reward is high; otherwise, the
+reward may be low.
+The agent may also look to the future to analyze whether
+there may be opportunities for realizing higher rewards in
+the future. At 8918, 8920, and 8922, the agent may deter-
+mine future states resulting from potential actions respec-
+tively at 8906, 8908, and 8910.
+For each of the future states predicted at 8918, 8920, and
+8922, one or more future actions may be determined and
+evaluated.At steps 8924,8926,and 8928,for example,
+with one or more of the future actions may be developed.
+The expected rewards associated with the one or more future
+actions may be evaluated by comparing values of reward
+functions associated with each future action
+At 8930, an action may be selected based on a comparison
+of expected current and future rewards.
+In embodiments, the reinforcement learning agent may be
+pre-trained through simulations in a digital twin system. In
+embodiments, the reinforcement agent may be pre-trained
+35 using behavior cloning. In embodiments, the reinforcement
+agent may be trained using a deep reinforcement learning
+algorithm selected from Deep Q-Network (DQN), double
+deep Q-Network (DDQN), Deep Deterministic Policy Gra-
+dient (DDPG), soft actor critic (SAC), advantage actor critic
+(A2C), asynchronous advantage actor critic (A3C), proxi-
+mal policy optimization (PPO), trust region policy optimi-
+zation (TRPO).
+In embodiments, the reinforcement learning agent may
+look to balance exploitation (of current knowledge) with
+exploration (of uncharted territory) while traversing the
+action space.For example,the agent may follow an -greedy
+policy by randomly selecting exploration occasionally with
+probability c while taking the optimal action most of the
+time with probability 1-, where  is a parameter satisfying
+0<<1.
+Specialized Chips
+FIGS. 109-113 illustrate a plurality of specialized chips
+that provide various system functionalities for use in a
+variety of contexts, and that may be leveraged in systems
+described herein and/or to provide functionalities described
+herein. As explained in more detail below, the chip func-
+tionalities are configurable for specific contexts and to
+address specific tasks. Therefore, using the functionalities of
+one or more of the chips, systems of systems such as those
+described herein may be more easily created, configured,
+deployed, and reconfigured. Any of the chips may be used in
+the various systems described herein and by various value
+chain entities in ways that will be evident from the disclo-
+sures of the capabilities of each chip.
+FIG. 109 illustrates a physical orientation determination
+chip 9100, one or more of which may be used to determine
+data about one or more physical orientations as described

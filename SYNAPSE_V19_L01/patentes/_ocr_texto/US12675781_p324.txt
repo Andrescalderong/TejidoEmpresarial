@@ -1,0 +1,140 @@
+[col 1]
+US 12,675,781 B2
+397
+or business locations, where they may be configured to print
+tools, parts, or other items to support the service work, such
+as repairs or replacements. In embodiments, additive manu-
+facturing, including design generation, design review, pre-
+processing, and printing steps, may commence while the
+unit 10102 is in transit to the point of service. In another
+example, a mobile autonomous additive manufacturing unit
+10102 (either autonomous, semi-autonomous or with an
+operator) and packaging unit may complete final steps of
+manufacturing in transit, such as by adding customization 10 i
+elements (e.g, a final coating of a selected color, a customer-
+specific design element, or the like) in transit and optionally
+completing final packaging in transit. In embodiments, one
+or more components of the additive manufacturing platform
+10110 may be disposed in or integrated with a smart 15
+container or a smart package, as described elsewhere herein
+and in the documents incorporated by reference herein. In
+embodiments, a set of additive manufacturing units 10102
+may be integrated into or with a set of robotic systems, such
+as mobile and/or autonomous robotic systems.For example, 20
+the additive manufacturing unit 10102 may be contained
+within the housing or body of a robotic system, such as a
+multi-purpose/general purpose robotic system, such as one
+that simulates human or other animal species capabilities.
+Alternatively, or additionally, the additive manufacturing 25
+unit 10102 may be configured to deliver additive layering
+from a nozzle that is disposed on an operating end of a
+robotic arm or other assembly. In embodiments, multiple
+additive manufacturing units 10102, or multiple nozzles,
+printheads or other working elements may be integrated with
+301
+a single mobile, autonomous, and/or or multi-purpose
+robotic system, such as where one additive manufacturing
+unit 10102 is housed and prints/layers within the body of the
+robotic system (such as in a chamber, such as vacuum
+chamber, pressurized chamber, heated chamber, or the like)
+ and another additive manufacturing unit 10102 prints/layers
+or otherwise operates upon an external site, such as a target
+location of a machine, product, or the like, such as by a
+nozzle, printhead, or the like that is disposed on an arm or
+similar element of the robot. In embodiments, multiple 40
+printing/layering elements are served by a common material
+source, such as of thermoplastic material. In embodiments,
+multiple material sources are available for internal and
+external printing/layering elements. In embodiments, an
+internal printing element operates within a chamber using 45
+materials that require control over the printing environment,
+or operates on high-value production elements, such as parts
+that are intended for long-term use, such as metal manufac-
+tured parts. In embodiments, the external working unit uses
+materials or does jobs that require other materials and/or 50 j
+have other purposes, such as production of disposable tools,
+grips, supports, fasteners and the like in support of a job.
+such as a repair or replacement job, among many others. In
+embodiments, the external printing/layering unit is com-
+bined with a robotic arc welding unit, such as to provide, in 55
+series or parallel, a set of printing/layering steps and a series
+of arc welding steps to undertake a job on an external site,
+workpiece, or the like. In embodiments, an assembly may be
+provided to encapsulate and/or shield an external working
+unit, such as a temporary chamber, balloon, tent, or other 60
+volume that isolates the area where the nozzle, printhead, or
+the like will print, layer or the like, optionally also encap-
+sulating or shielding a workpiece or target location for
+printing/layering within the same shielded/isolated space as
+the additive manufacturing element. In embodiments, the 65 i
+encapsulated/shielded area may be sealed to allow pressur-
+ization, depressurization, vacuum creation, introduction of
+[col 2]
+398
+materials for deposition, and the like. In embodiments, the
+encapsulation/shielding may use an additively manufactured
+element, or combination thereof with another element. In
+embodiments, an AI system 10212 may automate one or
+more of the design, configuration, scheduling, coordination
+and/or execution of a set of robotic jobs and a set of additive
+manufacturing jobs, such that the capabilities of an inte-
+grated mobile robotic and additive manufacturing unit are
+coordinated across the various jobs in time (e.g-, where an
+interior 3D printer or other additive manufacturing unit
+10102 prints a tool, workpiece, part or the like for a later job
+while the robotic unit performs a current job) and/or wherein
+jobs are coordinated across a fleet or workforce of robotic
+units, additive manufacturing units, and integrated combi-
+nations thereof (such as where units are matched to jobs
+according to locations, robotic capabilities, additive manu-
+facturing capabilities, and other factors).
+In embodiments, material handling systems 10108 pro-
+vide storage, movement, control and handling of materials
+through the process of manufacturing and distribution. For
+example, the material handling systems 10108 may feed,
+orient, load/unload, or otherwise manipulate metal materi-
+als, biocompatible materials, bioactive materials, biological
+materials, or other more conventional additive manufactur-
+ing materials in the manufacturing space. In embodiments,
+the material handling systems 10108 may be semi or fully
+automated and may include one or more robotic units for
+material handling.
+In embodiments, the material handling systems 10108
+may include or integrate with, optionally in the same hous-
+ing, unit or system, a material capture and processing system
+10127 for capturing material (such as recapturing unused
+material from jobs and/or capturing available material from
+a work site, such as from used, broken, or defective items)
+35 and rendering the material suitable to use as a source
+material, such as by: (a) automatically analyzing an item to
+determine its compatibility for use as source material (e.g.,
+by identifying it as a given type of metal, alloy, polymer or
+plastic, such as by machine vision, chemical testing, image-
+based testing, weighing the item, or the like); (b) cleaning,
+filtering, disassembling, or otherwise pre-processing the
+item or material, such as to remove non-conforming mate-
+rial; (c) rendering a solid item or material into a thermo-
+plastic state, such as by controlled heating, such as accord-
+ing to a material-specific heating profile; (d) filtering or
+otherwise treating the material, such as to remove defects;
+(e) storing the item in an appropriate vessel or form factor
+for later use, with appropriate reporting of capacity and
+availability, such as to a broader system for managing jobs,
+including cooling and/or otherwise processing the material
+into a wire, powder, mesh, rod, filament or the like until the
+need for a job arises; (f) delivering the item for additive
+manufacturing operation; and/or (g) reporting on measures
+of recapture and savings, including material cost savings,
+savings on recycling costs, and/or time savings. For
+example, in embodiments a broken part may be melted down
+onsite and reprinted. For example, in embodiments a mate-
+rial that would otherwise be disposed of or recycled may be
+rendered useful on site, without the need for reverse logis-
+tics. In embodiments a common heating source is used, with
+alternate points of heating at different temperatures, to
+render recaptured material into a thermoplastic state and for
+preparing material for additive manufacturing operations.
+The value chain entities 10126 include various entities
+involved in production, supply, demand, distribution or
+supply chain environments including any of the wide variety
+of assets, systems, devices, machines, components, equip-

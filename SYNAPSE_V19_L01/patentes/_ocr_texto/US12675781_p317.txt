@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+383
+safety and quality standards may apply to a given set of data.
+The governance standards may only apply to the set of data
+based on certain conditions, such as a location or other
+condition of a particular device in communication with the
+chip 9400, a current state of a module, device, system, or
+network, or other such conditions.
+Accordingly, the chip 9400 may initially analyze a par-
+ticular data set (e.g., a data set received as inputs 9492) to
+determine whether one or more governance standards apply,
+as described in more detail below. Based on determining that 10
+ one or more governance standards apply, the chip 9400 may
+then prioritize the applicable standards and generate and/or
+validate a model that enforces the governance standards. The
+model may include one or more flows for checking that data
+complies with the governance standards, performing actions 15
+to cause compliance with the governance standards, taking
+remedial actions when governance violations occur, and the
+like. When multiple governance standards apply, the chip
+9400 may generate a model that reconciles any potential
+overlaps or conflicts between the multiple standards. The 20
+chip 9400 may validate a model using test data or other
+strategies, as described in more detail below.
+After the model is generated and/or validated, the chip
+9400 may use the model to enforce governance standards.
+The chip 9400 may use the model to enforce governance 25
+standards on one or more received data sets, including data
+sets that are not received until after the model has been
+generated and validated. In embodiments, the chip 9400 may
+continually optimize the model over time to ensure gover-
+nance compliance as conditions change, and may generate 30 c
+reports and other outputs for allowing review of governance
+enforcement and/or for causing other devices to perform
+enforcement of governance.
+In embodiments, the chip(s) 9400 can be modular com-
+ponent(s) that may be integrated with a host system in 35
+various ways. For example, the chip(s) may be integrated
+with a mobile host system, a stationary host system, or any
+other host system that receives input data subject to gover-
+nance. To facilitate this modularity, the chip(s) 9400 may be
+provided partially or completely within a housing (not 40
+shown) and may receive the inputs 9492 and/or provide the
+outputs 9494 via electrical connectors, optical connectors,
+and/or wireless connectors (e.g., antennae, inductive coils,
+etc.). Additionally or alternatively, the chip(s) 9400 may be
+integrated with other circuits, processors, systems, etc., 45 i
+either on oneormultiplesubstrates/chips.
+The chip(s) 9400 may be and/or include one or more
+system-on-chips (SOCs), integrated circuits (ICs), applica-
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9400 and/or 50 
+any other functionality. For example, the chip 9400 may be
+provided as part of a SOC that also provides other functions
+described herein. In general, the components of the chip
+9400 may comprise one or more general-purpose processing
+chips that are configured using software instructions or other 55
+code, and/or may comprise special-purpose processing chips
+(e.g., ASICs) customized to perform the functions described
+herein.
+Multiple chip(s) 9400 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9400 60
+may use serial, parallel, and/or other processing techniques
+to perform analysis and/or governance functions more
+quickly, to perform analysis and/or governance functions
+more efficiently by offloading more complex computations
+from one chip 9400 to another chip 9400 with a better power 65
+source, and/or the like. As another example, one chip 9400
+may be used to provide a first analysis and governance
+[col 2]
+384
+function, while another chip 9400 may be used to provide a
+second analysis and governance function on the same data
+set.
+In embodiments, the physical input interface 9402
+receives one or more inputs 9492 to the governance chip
+9400 as described herein. The inputs 9492 may be trans-
+mitted to the physical input interface 9402 by other chips,
+circuits, modules, and/or other components of the host
+system, orby other devices in communication with the host
+system (e.g., via a communication network). For example,
+the input data may come from sensors, sensor-processing
+chips/modules/circuits, antennae, storage devices, network
+interfaces, or any other source of data for the chip(s) 9400
+ as described herein. The physical input interface 9402 may
+connect with the source(s) of the inputs 9492 via wired or
+wireless connections. The inputs 9492 may include any type
+of data to which governance may be applied. The inputs
+9492 may also include data that may be stored in storage
+9450, such as governance rules/configurations for the gov-
+ernance library 9452, one or more digital twins for the
+digital twin library 9454, one or more system
+specification(s) 9456, and/or one or more intelligence mod-
+ule(s) 9458.
+The output data 9494 transmitted from the physical output
+interface 9404 may include report(s) indicating the status of
+governance functions (e.g, governance compliance and/or
+violations that may occur), data indicating the functioning of
+generated models (e.g-, as part of a model validation pro-
+cess), instructions directed to other modules/devices/sys-
+tems to enforce compliance with governance standards,
+and/or the like. In embodiments, the outputs of the chip 9400
+may be transmitted by the physical output interface 9404 to
+other chips, circuits, modules, and/or other components of a
+host system or another device in communication with the
+host system as described herein. The physical output inter-
+face 9404 may connect to these components via wired or
+wireless connections.
+In embodiments, the chip 9400 may include one or more
+of a governance analysis module 9410, a governance frame-
+work module 9420, and/or a governance output module
+9430. In embodiments, the governance analysis module
+9410 may comprise circuits 9412-9416 for receiving and
+ity and to format the input data for the application of
+governance. Additionally or alternatively, the chip 9400 may
+include a governance framework module 9420 comprising
+circuits 9422-9426 for prioritizing governance, creating
+governance models, and validating governance models.
+Additionally or alternatively, the chip 9400 may include a
+governance output module 9430 comprising circuits 9432-
+9436 for executing, monitoring, and otherwise processing a
+governance model, optimizing the model, and formatting
+results for output. The functionalities of the various circuits
+of the modules 9410, 9420, and/or 9430 are described in
+more detail below.
+The processing core(s) 9406 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9400, either with or
+without the assistance of the various modules 9410, 9420,
+and/or 9430. For example, the processing core(s) 9406 may
+leverage and/or invoke various modules to perform various
+functions described herein. The processing core(s) 9406
+may comprise general-purpose and/or special-purpose pro-
+cessors. In embodiments, the processing core(s) 9406 may
+use serial, parallel, and/or other processing techniques to
+accomplish the functions described herein.

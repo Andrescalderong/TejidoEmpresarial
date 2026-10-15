@@ -1,0 +1,138 @@
+various tools that allow collaboration between executives of 65 the training modules 8368 may leverage digital twins to
+[col 1]
+US 12,314,060 B2
+269
+device 8050. In embodiments, the AI-reporting tool 8360
+may identify the appropriate recipients of the reported state
+based on the type of request, the role of the user that issued
+the request and the organizational structure of the entity. In
+some embodiments, the Al-reporting tool may determine the
+role of the user and the recipients of the report from the
+organizational digital twin of the enterprise. In some
+embodiments, the AI-reporting tool 8360 may determine
+whether the intended recipients of a notification have access
+rights to the data being shared from the executive digital 1o
+twin. For example, if the CFO is reporting to the CEO, it is
+likely that the CEO has access to all the enterprise's data and
+will not be precluded from receiving the report. Conversely,
+if the CFO wishes to delegate the handling of an issue via the
+Al-reporting tool to an employee in her business unit, the 15
+recipient may not have access to such data. In this scenario,
+the AI-reporting tool 8360 may notify the requesting user
+(e.g., the CFO) that certain types of data may not be shared
+with the subordinate employee and may determine a manner
+by which the issue may be reported to the subordinate
+without sharing the non-accessible data. Upon determining
+that a user has access rights to view a particular state of data,
+the Al-reporting tool 8360 may generate a report that is for
+the intended recipient. In embodiments, the AI-reporting
+tool may leverage the NLP services of the intelligence 25
+system to generate the report. In some embodiments, the
+Al-reporting tool 8360 may leverage an executive agent
+8364 to determine when to report a state and the appropriate
+recipients of the reported state. In these embodiments, the
+executive agent 8364 may be trained on interactions of the 30 t
+user with the client application 8052 and digital twins that
+were previously presented to the user.
+In some embodiments, the AI-reporting tool 8360 may be
+configured to monitor one or more user-defined key perfor-
+mance indicators (KPIs).Examples ofKPIs of an enterprise 35
+may include, but are not limited to, with respect to systems,
+facilities, processes, functions, or workforce units: uptime
+(e.g., of an assembly line or other manufacturing system),
+capacity utilization, on-standard operating efficiency, overall
+effectiveness, downtime, amountof unscheduled downtime,40
+setup time, an amount of inventory turns, inventory accu-
+racy, quality metrics relating to products and services,
+first-pass yield amounts for the enterprise, an amount of
+rework required, days-sales-outstanding (DSOs), an amount
+of scrap or waste produced, throughput, changeover, main- 45 
+tenance percentage, yield per system or unit, overall yield,
+industry reviews, industry ratings, customer reviews, cus-
+tomer ratings, editorial reviews, awards, social media and
+website attention metrics, search engine performance met-
+rics, safety metrics, health metrics, environmental impact 50
+metrics, political metrics, certification and testing metrics,
+regulatory metrics, social impact metrics, financial and
+investment metrics, corporate bond ratings, trade association
+metrics, union metrics, lobbying organization ratings, adver-
+tising performance metrics, referral metrics, and many oth- 55
+ers. Additional or alternative KPI metrics may be defined by
+a user. Examples of these KPI metrics may include an
+amount or percentage of failed audits, a number or percent-
+age of deliveries that are on-time/late, a number of customer
+returns, a number of employee training hours, employee 60
+turnover percentage, number of reportable health or safety
+incidents, revenue per employee, profit per employee,
+schedule attainment metrics, total cycle time, and the like.
+In embodiments, the collaboration tools 8362 include
+the enterprise. In embodiments, the collaboration tools
+include digital-twin enabled video conferencing. In these
+[col 2]
+270
+embodiments, the EMP 8000 may present participants in the
+video conference with the requested view of an enterprise
+digital twin. For example, during a Board meeting, a CTO
+proposing an update to the machinery or equipment in a
+facility may present an environment digital twin of the
+facility where the updates to the machinery or equipment
+would be made. In this example, the CTO may illustrate the
+results of simulations performed in the facility without the
+updates and with the updates. The simulation may illustrate
+how the update may benefit the enterprise using a number of
+selected metrics (e.g, throughput, profits, employee safety,
+or the like). Collaboration and communication tools and
+associated rules may be configured to use company-, indus-
+try- and domain-specific taxonomies and lexicons when
+representing entities, states and flows within the digital twin.
+In embodiments, executive agents 8364 are expert agents
+that are trained to perform tasks on behalf of executive users.
+As discussed, in some embodiments, a client application
+may monitor the user of the client application by a user when
+using the client application 8052. In these embodiments, the
+client application 8052 may monitor the states of an execu-
+tive digital twin that the user drills down into, the states that
+the user reports to a superior and/or delegates to a team
+member in her respective business unit, decisions that are
+made, and the like. As the user uses the client application
+8052, the expert agent system 8008 may train one or more
+machine-learned models on behalf of the particular user,
+such that the models may be leveraged by an executive agent
+8364 to perform tasks on behalf of or recommend actions to
+the user.
+In embodiments, Board meeting tools 8366 are tools that
+are used to prepare for, to access within and/or to follow-up
+on board and similar meetings, such as Board of Directors,
+Board of Trustees, shareholder meetings, annual meetings,
+investor meetings, and other important meetings. References
+to Board meetings herein should be understood to encom-
+pass these and other important meetings that require execu-
+tive preparation, attendance and/or attention. In embodi-
+ments, Board meeting tools 8366 may allow different users
+to present one or more states of an enterprise digital twins
+within the context of a Board report or Board meeting. For
+example, a user (e.g., a COO) may share a simulation of a
+proposed logistics solution from the COO digital twin 8366
+with one or more devices (e.g., a device in the Board room
+ and/or devices of participants accessing the Board meeting
+remotely). In embodiments, a Board meeting tool 8366 may
+limit access to certain types of data based on time, scope,
+and permissions. For example, a Board meeting tool 8366
+may require that all geolocations that board members be
+registered before a Board meeting (e.g., Board room, des-
+ignated home offices for those joining by phone or video,
+and the like), such that some or all of the data depicted in a
+digital twin that is being presented can only be viewed on a
+device that is at one of the registered geolocations and/or
+only for a defined duration, such as from a few hours before
+through a few hours after a meeting, or only during the
+meeting. Similarly, in embodiments, the Board meeting
+tools 8366 may limit access to some or all of the data shared
+in a presented digital twin to particular times (e.g, during
+the Board meeting or the day of the Board meeting). Other
+examples of board meeting tools 8366 are discussed
+throughout the application.
+In embodiments, training modules 8368 may include
+software tools that are used to train a user. In embodiments,
+improve executive training for an enterprise. For example, a
+training module 8368 may provide real-world examples that

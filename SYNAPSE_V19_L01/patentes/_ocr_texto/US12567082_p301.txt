@@ -1,0 +1,137 @@
+tion to this distance, such as using the spread values. The 2o or the like. In embodiments, the recurrent neural network
+used by clustering algorithms (such as k-means clustering), 35 sources, such as social media sources.
+[col 1]
+US 12,567,082 B2
+279
+In embodiments, an RBF neural network may include an
+input layer, a hidden layer and a summation layer. In the
+input layer, one neuron appears in the input layer for each
+predictor variable. In the case of categorical variables, N-1
+neurons are used, where N is the number of categories. The
+input neurons may, in embodiments, standardize the value
+ranges by subtracting the median and dividing by the
+interquartile range. The input neurons may then feed the
+values to each of the neurons in the hidden layer. In the
+hidden layer, a variable number of neurons may be used 10
+(determined by the training process). Each neuron may
+consist of a radial basis function that may be centered on a
+point with as many dimensions as a number of predictor
+variables. The spread (e.g, radius) of the RBF function may
+be different for each dimension. The centers and spreads 15
+may be determined by training. When presented with a
+vector of input values from the input layer, a hidden neuron
+may compute a Euclidean distance of the test case from the
+neuron's center point and then apply the RBF kernel func-
+resulting value may then be passed to the summation layer.
+In the summation layer, the value coming out of a neuron in
+the hidden layer may be multiplied by a weight associated
+with the neuron and may add to the weighted values of other
+neurons. This sum becomes the output. For classification 25
+problems, one output may be produced (with a separate set
+of weights and summation units) for each target category.
+The value output for a category is the probability that the
+case being evaluated has that category. In training of an
+RBF, various parameters may be determined, such as the 30
+number of neurons in a hidden layer, the coordinates of the
+center of each hidden-layer function, the spread of each
+function in each dimension, and the weights applied to
+outputs as they pass to the summation layer. Training may be
+by evolutionary approaches, and the like.
+In embodiments, a recurrent neural network may have a
+time-varying, real-valued (more than just zero or one) acti-
+vation (output). Each connection may have a modifiable
+real-valued weight. Some of the nodes are called labeled 40
+nodes, some output nodes, and other hidden nodes. For
+supervised learning in discrete time settings, training
+sequences of real-valued input vectors may become
+sequences of activations of the input nodes, one input vector
+at a time. At each time step, each non-input unit may 45 1
+compute its current activation as a nonlinear function of the
+weighted sum of the activations of all units from which it
+receives connections. The system can explicitly activate
+(independent of incoming signals) some output units at
+certain time steps. 50
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a self-organizing neural network, such as a
+Kohonen self-organizing neural network, such as for visu-
+alization of views of data, such as low-dimensional views of 55
+high-dimensional data. The self-organizing neural network
+may apply competitive learning to a set of input data, such
+as from one or more sensors or other data inputs from or
+associated with an individual. In embodiments, the self-
+organizing neural network may be used to identify structures 60
+in data, such as unlabeled data, such as in data from various
+unstructured sources, such as social media sources about an
+individual, where sources of the data are unknown (such as
+where data comes from various unknown or uncertain
+sources). The self-organizing neural network may organize 65
+structures or patterns in the data, such that they can be
+recognized, analyzed, and labeled, such as identifying struc-
+[col 2]
+280
+tures as corresponding to individuals, disease conditions,
+health states, activity states, and the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a recurrent neural network, which may allow for a
+bi-directional flow of data, such as where connected units
+(e.g., neurons or nodes) form a directed cycle. Such a
+network may be used to model or exhibit dynamic temporal
+behavior, such as involved in dynamic systems, such as a
+wide variety of the disease conditions, health states, and
+biological systems described throughout this disclosure,
+such as a body experiencing multiple different diseases or
+health conditions, or the like, where dynamic system behav-
+ior involves complex interactions that an observer may
+desire to understand, diagnose, predict, control, treat and/or
+optimize. For example, the recurrent neural network may be
+used to anticipate the state (such as a maintenance state, a
+health state, a disease state, or the like), of an individual,
+such as one interacting with a system, performing an action,
+may use internal memory to process a sequence of inputs,
+such as from other nodes and/or from sensors and other data
+inputs from an environment, of the various types described
+herein, such as a social network, a home or work environ-
+ment, a health care environment, a recreational or sports
+environment, or the like. In embodiments, the recurrent
+neural network may also be used for pattern recognition,
+such as for recognizing a person based on a biomarker, a
+face, a voice or sound signature, a heat signature, a set of
+feature vectors in an image, a chemical signature, or the like.
+In a non-limiting example, a recurrent neural network may
+recognize a change or shift in a state of a human by learning
+to classify the shift or change from a training data set
+consisting of a stream of data from unstructured data
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a modular neural network, which may comprise a
+series of independent neural networks (such as ones of
+various types described herein) that are moderated by an
+intermediary. Each ofthe independent neural networks in the
+modular neural network may work with separate inputs,
+accomplishing subtasks that make up the task the modular
+network as a whole is intended to perform. For example, a
+modular neural network may comprise a recurrent neural
+network for pattern recognition, such as to recognize what
+type of person, condition, state, or the like is being sensed
+by one or more sensors that are provided as input channels
+to the modular network and an RBF neural network for
+optimizing a system, protocol, or the like, once understood.
+The intermediary may accept inputs of each of the individual
+neural networks, process them, and create output for the
+modular neural network, such an appropriate control param-
+eter, a prediction of state, or the like.
+Combinations among any of the pairs, triplets, or larger
+combinations, of the various neural network types described
+herein, are encompassed by the present disclosure. This may
+include combinations where an expert system uses one
+neural network for recognizing a pattern (e.g., a pattern
+indicating a problem or fault condition) and a different
+neural network for self-organizing an activity or work flow
+based on the recognized pattern (such as providing an output
+governing autonomous control ofa system in response to the
+recognized condition or pattern). This may also include
+combinations where an expert system uses one neural net-
+work for classifying an item (e.g., identifying a machine, a
+component, or an operational mode) and a different neural

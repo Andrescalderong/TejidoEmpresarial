@@ -1,0 +1,134 @@
+[col 1]
+US 12,314,060 B2
+215
+obtain the identified data types or other suitable data acqui-
+sitions mechanisms, such as webhooks, that are configured
+to automatically receive data from an internal or external
+data source In some embodiments, the digital twin configu-
+ration system 8102 determines internal and/or external soft-
+ware requests that support the identified data types by
+analyzing the relationships between the different types of
+data that correspond to a particular state/entity/object and
+the granularity thereof. Additionally or alternatively, a user
+may define (e.g., via a GUI) the data sources and/or software 10
+requests and/or other data acquisition mechanisms that sup-
+port the respective data types that are depicted in a respec-
+tive digital twin. In these embodiments, the user may
+indicate the data source that are to be accessed and the types
+of data to be obtained from the respective data source. For 15
+example, if a user is configuring an enterprise digital twin of
+a supply chain process, the user may identify an inventory
+management system to obtain inventory levels, various
+ supplier systems to obtain pricing data of particular items,
+sensor systems to obtain sensor data from various points 20
+within the enterprise's supply chain (e.g., manufacturing
+facilities, warehouse facilities, and the like), and other
+suitable systems for other suitable data types. In this data
+definition process a user may associate specific data types
+and/or data sources to corresponding structural elements of 25
+a digital twin (e.g., layouts, spatial elements, processes, or
+components thereof). For example, the user can match a
+specific cost of a good (e.g-, the cost of a bearing on a
+compressor, a headlight that goes into an automobile, an
+automobile, or any other suitable good) that is obtained via
+an API request to a seller of the good with a digital twin
+element representing the good (e.g-, a 3D model of the
+good). In this example, the digital twin of the good may
+depict the cost of the good, and as the price of the good
+changes, so too may the depiction of the good.
+In embodiments, the configuration system 8102 generates
+one or more foreign keys for each digital twin that collec-
+tively associate different data types with the structural
+elements of the digital twin. Thus, when a digital twin is
+generated, the foreign key may be leveraged to connect data 40
+obtained from the data sources to the structural elements of
+the digital twin. In some embodiments, a configuring user
+may define the associations that are used to generate the set
+of foreign keys.
+In embodiments, the digital twin configuration system 45 f
+8102 determines, defines, and manages the data structures
+needed to support each type of digital twin, such as data
+lakes, relational databases, SQL databases, NOSQL data-
+bases, graph databases, and the like. For example, for an
+environment digital twin, the digital twin configuration 50
+system 8102 may instantiate a database (e.g, a graph
+database that defines the ontology of the environment and
+the objects existing (or potentially existing) within the
+environment and the relationships therebetween), whereby
+the instantiated database contains and/or references the 55
+underlying data that powers the environmental digital twin
+(e.g., sensor data and analytics relating thereto, 3D maps,
+physical asset twins within the environment, and the like). In
+some embodiments, a user may define an ontology of a
+respective digital twin, such that the ontology defines the 60
+types of data depicted in the digital twin and the relation-
+ships between those data types. Additionally or alternatively,
+the digital twin configuration system 8102 may derive the
+ontology based on the types of digital twins that are to be
+configured. 65
+In some embodiments, the different types of enterprise
+digital twins may be configured in accordance with a set of
+[col 2]
+216
+preference settings, granularity settings, alert settings, tax-
+onomy settings, topology settings, and the like. In some
+embodiments, the configuration system 8102 may utilize
+pre-defined preferences (e.g., default preference templates
+for different types of enterprise digital twins, including ones
+that are domain-specific, role-specific, industry-specific,
+workflow-specific and the like), taxonomies (e.g., default
+taxonomies for different types of enterprise digital twins),
+and/or topologies (e.g., default topologies for different types
+of twins, such as graph-based topologies, tree-based topolo-
+gies, serial topologies, flow-based topologies, loop-based
+topologies, network-based topologies, mesh topologies, and
+others)). Additionally or alternatively, the configuration sys-
+tem 8102 may receive custom preference settings and tax-
+onomies from a configuring user. Non-limiting examples of
+role-specific templates that are used to configure a role-
+based digital twin may include may include CEO template,
+a COO template, a CFO template, a counsel template, a
+board member template, a CTO template, a chief marketing
+officer template, an information technology manager tem-
+plate, a chief information officer template, a chief data
+officer template, an investor template, a customer template,
+a vendor template, a supplier template, an engineering
+manager template, a project manager template, an operations
+manager template, a sales manager template, a salesperson
+template, a service manager template, a maintenance opera-
+tor template, and/or a business development template. Simi-
+larly, examples of taxonomies that are used to configure
+different types of role-based digital twins may include CEO
+taxonomy, a board member taxonomy, a CTO taxonomy, a
+chief marketing officer taxonomy, an information technol-
+ogy manager taxonomy, a chief information officer tax-
+onomy, a chief data officer taxonomy, an investor taxonomy,
+ager taxonomy, an operations manager taxonomy, a sales
+business development taxonomy. Each of the role-specific
+templates may include data types that are specific to the
+kinds of interactions the role might have and the specific
+responses to interactions, which may be role-based. For
+example, a CEO template may include data type definitions
+for supplier information and labor cost information across
+the entire organization, and may include responses to inter-
+actions with a CEO digital twin, such as drilling down to
+specific suppliers and/or labor groups within the enterprise.
+In embodiments, the digital twin configuration system
+8102 may be configured to configure and instantiate the
+databases that support each respective enterprise digital twin
+of an enterprise (e.g., role-based digital twins, environment
+digital twins, organizational digital twins, process digital
+twins, and the like), which may be stored on the digital twin
+data store 8124. In embodiments, for each database con-
+figuration, the digital twin configuration system 8102 may
+identify and connect any external resources needed to collect
+data for each respective data type. For each identified
+external resource, the digital twin configuration system 8102
+may configure one or more data collection threads to access
+an API, SDK, port, webhook, search facility, database access
+facility, and/or other connection facility For example, certain
+executive digital twins (e.g-, CEO digital twin, CFO digital
+twin, COO digital twin, and CMO digital twin) may each
+require data derived and/or obtained from the CRM 8026 of
+the enterprise. In this example, the digital twin configuration
+system 8102 may configure one or more data collection

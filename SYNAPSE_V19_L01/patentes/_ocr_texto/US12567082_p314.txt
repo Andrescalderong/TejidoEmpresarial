@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+305
+convergence to the desired weights) and not too large (e.g..
+ a rate that is too large may cause the weights to not converge
+to the desired weights).
+After the weight adjustment, the network should perform
+better than before for the same input because the weights
+have now been adjusted to minimize the errors.
+As mentioned, neural networks may include convolu-
+tional neural networks (CNN). A CNN is a specialized
+neural network for processing data having a known, grid-
+like topology, such as image data. Accordingly, CNNs are 10
+commonly used for classification, object recognition and
+computer vision applications, but they also may be used for
+other types of pattern recognition such as speech and lan-
+guage processing.
+A convolutional neural network learns highly non-linear 15
+mappings by interconnecting layers of artificial neurons
+arranged in many different layers with activation functions
+that make the layers dependent. It includes one or more
+convolutional layers, interspersed with one or more sub-
+sampling layers and non-linear layers, which are typically 20
+followed by one or more fully connected layers.
+Referring to FIG. 106, a CNN 8860 includes an input
+layer with an input image 8862 to be classified by the CNN
+8860, a hidden layer which in turn includes one or more
+convolutional layers, interspersed with one or more activa- 25
+tion or non-linear layers (e.g., ReLU) and pooling or sub-
+one or more fully connected layers. Input image 8862 may
+be represented by a matrix of pixels and may have multiple
+channels. For example, a colored image may have a red, a
+green, and blue channels each representing red, green, and
+blue (RGB) components of the input image. Each channel
+may be represented by a 2-D matrix of pixels having pixel
+values in the range of 0 to 255. A gray-scale image on the
+other hand may have only one channel. The following 35
+ section describes processing of a single image channel using
+CNN 8860. It wili be understood that multiple channels may
+be processed in a similar manner.
+As shown, input image 8862 may be processed by the
+hidden layer, which includes sets of convolutional and 40
+activation layers 8864 and 8868, each followed by p0oling
+layers 8866 and 8870.
+The convolutional layers of the convolutional neural
+network serve as feature extractors capable of learning and
+decomposing the input image into hierarchical features. The 45
+convolution layers may perform convolution operations on
+the input image where a filter (also referred as a kernel or
+feature detector) may slide over the input image at a certain
+step size (referred to as the stride). For every position (or
+step), element-wise multiplications between the filter matrix 50
+and the overlapped matrix in the input image may be
+calculated and summed to get a final value that represents a
+single element of an output matrix constituting a feature
+map. The feature map refers to image data that represents
+smaller dimensions as compared to the input image. The
+activation or non-linear layers use different non-linear trig-
+ger functions to signal distinct identification of likely fea-
+tures on each hidden layer. Non-linear layers use a variety of
+specific functions to implement the non-linear triggering, 60
+including the rectified iinear units (ReLUs), hyperbolic
+tangent, absolute of hyperbolic tangent and sigmoid func-
+tions. In one implementation, a ReLU activation implements
+the function y-max(x, O) and keeps the input and output
+sizes of a layer the same. The advantage of using ReLU is 65
+that the convolutional neural network is trained many times
+faster. ReLU is a non-continuous, non-saturating activation
+[col 2]
+306
+function that is linear with respect to the input if the input
+values are larger than zero and zero otherwise.
+As shown in FIG. 106, the first convolution and activation
+using multiple filters followed by non-linearity operation
+(e.g-, ReLU) to generate multiple output matrices (or feature
+maps) 8872. The number of filters used may be referred to
+as the depth of the convolution layer. Thus, the first convo-
+lution and activation layer 8864 in the example of FIG. 106
+has a depth of three and generates three feature maps using
+three filters. Feature maps 8872 may then be passed to the
+first pooling layer that may sub-sample or down-sample the
+feature maps using a pooling function to generate output
+matrix 8874. The pooling function replaces the feature map
+with a summary statistic to reduce the spatial dimensions of
+the extracted feature map thereby reducing the number of
+parameters and computations in the network. Thus, the
+pooling layer reduces the dimensionality of the feature maps
+while retaining the most important information. The pooling
+function can also be used to introduce translation invariance
+into the neural network, such that small translations to the
+input do not change the pooled outputs. Different pooling
+functions may be used in the pooling layer, including max
+pooling, average pooling, and 12-norm pooling.
+Output matrix 8874 may then be processed by a second
+convolution and activation layer 8868 to perform convolu-
+tions and non-linear activation operations (e.g., ReLU) as
+described above to generate feature maps 8876. In the
+example shown in FIG.106, second convolution and acti-
+vation layer 8868 may have a depth of five. Feature maps
+8876 may then be passed to a pooling layer 8870, where
+feature maps 8876 may be subsampled or down-sampled to
+generate an output matrix 8878.
+Output matrix 8878 generated by pooling layer 8870 is
+then processed by one or more fully connected layer 8880
+that forms a part of the output layer of CNN 8860. The fully
+connected layer 8880 has a full connection with all the
+feature maps of the output matrix 8878 of the pooling layer
+8870.In embodiments, thefully connected layer 8880may
+take the output matrix 8878 generated by the pooling layer
+8870 as the input in vector form, and perform high-level
+determination to output a feature vector containing infor-
+mation of the structures in the input image. In embodiments,
+the fully-connected layer 8880 may classify the object in
+input image 8862 into one of several categories using a
+Softmax function. The Softmax function may be used as the
+activation function in the output layer and takes a vector of
+real-valued scores and maps it to a vector of values between
+zero and one that sum to one. In embodiments, other
+classifiers, such as a support vector machine (SVM) classi-
+fier, may be used.
+In embodiments, one or more normalization layers may
+be added to the CNN 8860 to normalize the output of the
+convolution filters. The normalization layer may provide
+whitening or lateral inhibition, avoid vanishing or exploding
+gradients, stabilize training, and enable learning with higher
+rates and faster convergence. In embodiments, the normal-
+ization layers are added after the convolution layer but
+before the activation layer.
+CNN 8860 may thus be seen as multiple sets of convo-
+lution, activation, pooling, normalization and fully con-
+nected layers stacked together to learn, enhance and extract
+implicit features and patterns in the input image 8862. A
+layer as used herein, can refer to one or more components
+that operate with similar function by mathematical or other
+functional means to process received inputs to generate/

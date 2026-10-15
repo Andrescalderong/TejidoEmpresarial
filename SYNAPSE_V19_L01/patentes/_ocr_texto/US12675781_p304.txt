@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+357
+neural network module 8814, the ML module 8812, and/or
+the like. For example, a rule-based module 8828 may
+receive classifications of objects in a field of view of a
+mobile system (e.g., robot, autonomous vehicle, or the like)
+from a machine vision system and/or sensor data from a lidar
+ sensor of the mobile system and, in response, may determine
+whether the mobile system should continue in its path,
+change its course, or stop. In embodiments, the rules-based
+module 8828 may be configured to make other suitable
+rules-based decisions on behalf of a respective client 8836, 10
+examples of which are discussed throughout the disclosure.
+In some embodiments, the rules-based engine may apply
+governance standards and/or analysis modules, which are
+described in greater detail below.
+In embodiments, artificial intelligence modules 8804 15 
+interface with an intelligence service controller 8802, which
+is configured to determine a type of request issued by an
+intelligence service client 8836 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+when responding to the request. In embodiments, the intel-
+ligence service controller 8802 may include an analysis
+management module 8806, a set of analysis modules 8808,
+and a governance library 8810.
+In embodiments, an intelligence service controller 8802 is 25 u
+configured to determine a type of request issued by an
+intelligence service client 8836 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+to be applied by the artificial intelligence modules 8804
+when responding to the request. In embodiments, the intel- 30
+ligence service controller 8802 may include an analysis
+management module 8806, a set of analysis modules 8808,
+and a governance library 8810. In embodiments, the analysis
+management module 8806 receives an artificial intelligence
+module 8804 request and determines the governance stan- 35 
+dards and/or analyses implicated by the request. In embodi-
+ments, the analysis management module 8806 may deter-
+mine the governance standards that apply to the request
+based on the type of decision that was requested and/or
+whether certain analyses are to be performed with respect to 40
+the requested decision. For example, a request for a control
+decision that results in an intelligence service client 8836
+performing an action may implicate a certain set of gover-
+nance standards that apply, such as safety standards, legal
+standards, quality standards, or the like, and/or may impli- 45 r
+cate one or more analyses regarding the control decision,
+such as a risk analysis, a safety analysis, an engineering
+analysis, or the like.
+In some embodiments, the analysis management module
+8806 may determine the governance standards that apply to 50
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a geolocation in which a
+decision is being made, an environment that the decision
+will affect, current or predicted environment conditions of 55
+the environment and/or the like. In embodiments, the gov-
+ernance standards may be defined as a set of standards
+libraries stored in a governance library 8810. In embodi-
+ments, standards libraries may define conditions, thresholds,
+rules, recommendations, or other suitable parameters by 60
+which a decision may be analyzed. Examples of standards
+libraries may include, legal standards library, a regulatory
+standards library, a safety standards library, a financial
+standards library, and/or other suitable types of standards 65
+libraries. In embodiments, the governance library 8810 may
+include an index that indexes certain standards defined in the
+[col 2]
+358
+respective standards library based on different conditions.
+Examples of conditions may be a jurisdiction or geographic
+areas to which certain standards apply, environmental con-
+ditions to which certain standards apply, device types to
+which certain standards apply, materials or products to
+which certain standards apply, and/or the like.
+In some embodiments, the analysis management module
+8806 may determine the appropriate set of standards that
+must be applied with respect to a particular decision and may
+provide the appropriate set of standards to the artificial
+intelligence modules 8804, such that the artificial intelli-
+gence modules 8804 leverages the implicated governance
+standards when determining a decision. In these embodi-
+ments, the artificial intelligence modules 8804 may be
+configured to apply the standards in the decision-making
+process, such that a decision output by the artificial intelli-
+gence modules 8804 is consistent with the implicated gov-
+ernance standards. It is appreciated that the standards librar-
+ies in the governance library may be defined by the platform
+provider, customers, and/or third parties. The standards may
+be government standards, industry standards, customer stan-
+dards, or other suitable sources. In embodiments, each set of
+standards may include a set of conditions that implicate the
+respective set of standards, such that the conditions may be
+used to determine which standards to apply given a situation.
+In some embodiments, the analysis management module
+8806 may determine one or more analyses that are to be
+performed with respect to a particular decision and may
+provide corresponding analysis modules 8808 that perform
+those analyses to the artificial intelligence modules 8804,
+such that the artificial intelligence modules 8804 leverage
+the corresponding analysis modules 8808 to analyze a
+decision before outputting the decision to the requesting
+client. In embodiments, the analysis modules 8808 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by a processing system
+that hosts the instance of the intelligence services 8800.
+Non-limiting examples of analysis modules 8808 may
+include risk analysis module(s), security analysis module(s),
+decision tree analysis module(s), ethics analysis module(s),
+failure mode and effects (FMEA) analysis module(s), hazard
+analysis module(s), quality analysis module(s), safety analy-
+sis module(s), regulatory analysis module(s), legal analysis
+module(s), and/or other suitable analysis modules.
+In some embodiments, the analysis management module
+8806 is configured to determine which types of analyses to
+perform based on the type of decision that was requested by
+an intelligence service client 8836. In some of these embodi-
+ments, the analysis management module 8806 may include
+an index or other suitable mechanism that identifies a set of
+analysis modules 8808 based on a requested decision type.
+In these embodiments, the analysis management module
+8806 may receive the decision type and may determine a set
+of analysis modules 8808 that are to be executed based on
+the decision type. Additionally or alternatively, one or more
+governance standards may define when a particular analysis
+is to be performed. For example, the engineering standards
+may define what scenarios necessitate a FMEA analysis. In
+this example, the engineering standards may have been
+implicated by a request for a particular type of decision and
+the engineering standards may define scenarios when an
+FMEA analysis is to be performed. In this example, artificial
+intelligence modules 8804 may execute a safety analysis
+module and/or a risk analysis module and may determine an
+alternative decision if the action would violate a legal
+standard or a safety standard. In response to analyzing a

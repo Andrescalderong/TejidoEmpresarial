@@ -1,0 +1,138 @@
+like), the efficiencies ofthe processes, the financial health of 1o optimize the flow of data. In some embodiments, the net-
+[col 1]
+US 12,567,082 B2
+271
+puting infrastructure of an enterprise. In some embodiments,
+the enterprise management system 8000 may receive data
+from other sources as well, including third-party data 8038
+from third-party data providers. Taken in combination, the
+data from the enterprise assets 8400 and/or other data
+sources may provide information relating to the status of the
+industrial facility and the machinery contained therein, the
+state of various processes (e.g., industrial processes, sales
+workflows, hiring processes, logistics workflows, and the
+the enterprise, and the like.
+In embodiments, the enterprise entities may communicate
+directly with the EMP 8000 via a communication network.
+Additionally or alternatively, one or more of the enterprise
+assets may stream data to a local data collection system 8420 15
+that collects and stores enterprise data locally. In some
+embodiments, the local data collection system 8420 may
+provide the collected data to an edge intelligence system
+8422 of the enterprise.
+In embodiments, the edge intelligence system 8422 may 20
+be executed by an edge device 8042 configured to receive
+data, such as from the local data collection systems 8420, a
+local sensor system 8022, or other enterprise entities 8400
+that are located in or near a physical location of the entities
+(e.g., at an industrial facility) and may perform one or more
+edge-related processes relating to the received data. The
+edge device may be a pre-configured and/or substantially
+ self- or automatically configuring computing device, such as
+an "edge intelligence in a box" device. An edge-related
+process may refer to a process that is performed at an edge 30
+device in order to store sensor data, reduce bandwidth on a
+communication network, and/or reduce the computational
+resources required at a backend system. Examples of edge
+processes can include data filtering, signal filtering, data
+processing, compression, encoding, quick-predictions, 35
+quick-notifications, emergency alarming, and the like, and
+may include creation of automated smart data bands. For
+example, the edge intelligence system 8422 may determine
+whether to transmit a subset of the data to the EMP 8000 or
+to store the subset of the data locally until it is explicitly 40
+requested from the EMP 8000. In another example, the edge
+intelligence system 8422 may be configured to compress
+data streams (e.g, sensor data streams) to improve data
+throughput of high-volume data streams (e.g. vibration
+data). In some embodiments, the edge intelligence system 45
+8422 may be configured to analyze the high-volume data to
+determine whether to compress or stream a raw data stream.
+In some embodiments, the local data collection system 8420
+and the edge intelligence system 8422 may be embodied in
+edge devices 8042 of the enterprise. In some embodiments, 50
+the edge intelligence system 8422 may communicate data to
+the EMP 8000. In some of these embodiments, the edge
+intelligence system 8422 communicates data to the EMP
+8000 via a network enhancement system 8424.
+In embodiments, the network enhancement system 8424 55 i
+may be configured to optimize flow of data transmitted from
+one or both of the edge intelligence system 8422 and the
+local data collection system 8420 and received by the EMP
+8000. For example, a local data collection system 8420 may
+be configured to collect data from one or more real world 60
+environments, entities, ecosystems, and/or processes, which
+may be analyzed by a connected edge intelligence system
+8422. In this example, the edge intelligence system 8422
+may transmit the collected data to the network enhancement
+system 8424, which may optimize transmission of the data 65
+to the EMP 8000 for processing and implementation by the
+EMP 8000. The EMP 8000 may store, analyze, or otherwise
+[col 2]
+272
+process the transmitted data to the client applications 8052,
+such that the client applications 8052 may update enterprise
+digital twins (e.g., role-based digital twins, environment
+digital twins, cohort digital twins, and the like) that are
+hosted by the client applications 8052.
+In embodiments, the network enhancement system 8424
+may include one or more signal amplifiers, signal repeaters,
+digital filters, analog filters, digital-to-analog converters,
+analog-to-digital converter and/or antennae configured to
+work enhancement system may include a wireless repeater
+system such as is disclosed by U.S. Pat. No. 7,623,826 to
+Pergal, the entirety of which is hereby incorporated by
+reference. The network enhancement system 8424 may
+optimize the flow of data by, for example, filtering data,
+repeating data transmission, amplifying data transmission,
+adjusting one or more sampling rates and/or transmission
+rates, and implementing one or more data communication
+protocols.
+In embodiments, the network enhancement system 8424
+may include one or more processors configured to perform
+digital signal processing to optimize the flow of data. The
+one or more processors may implement optimization algo-
+rithms to optimize the flow of data. The one or more
+processors may determine one or more optimal paths in a
+network, the network enhancement system 8424 transmit-
+ting the data along the one or more optimal paths. The
+network enhancement system 8424 may be configured to
+implement a software filter via the one or more processors.
+The software filter may filter data before transmission to the
+EMP 8000, for example to lower network bandwidth con-
+sumed by data transmission. The one or more processors
+may determine that portions of data are relevant only to one
+or more intended recipients, such as digital twins, executive
+agents, collaboration suites, or other components of the
+EMP 8000 and determine optimal paths based upon intended
+recipients of the portions of data.
+In embodiments, the network enhancement system 8424
+may be configured to optimize data flow between a plurality
+of nodes over aplurality of datapaths. In some embodi-
+ments, the network enhancement system 8424 may transmit
+a first portion of data over a first path of the plurality of data
+paths and a second portion of data over a second path of the
+plurality of data paths. The network enhancement system
+8424 may determine that one or more data paths, such as the
+first data path, the second data path, other data paths, are
+advantageous for transmission of one or more portions of
+data. The network enhancement system 8424 may make
+determinations of advantageous data paths based upon one
+or more networking variables, such as one or more types of
+data being transmitted, one or more protocols being suitable
+for transmission, present and/or anticipated network con-
+gestion, timing of data transmission, present and/or antici-
+pated volumes of data being or to be transmitted, and the
+like. Protocols suitable for transmission may include trans-
+mission control protocol (TCP), user datagram protocol
+(UDP), and the like. In some embodiments,the network
+enhancement system may be configured to implement a
+method for data communication such as is disclosed by U.S.
+Pat. No. 9,979,664 to Ho et al., the entirety of which is
+hereby incorporated by reference.
+The EMP 8000 receives enterprise data (e.g., directly or
+via the network enhancement system 8424, an edge intelli-
+gence system 8422, a local data collection system 8420 or
+from any other data source). In embodiments, the digital
+twin system 8004 may structure and/or store the enterprise
+data in one or more digital twin databases (e.g., graph

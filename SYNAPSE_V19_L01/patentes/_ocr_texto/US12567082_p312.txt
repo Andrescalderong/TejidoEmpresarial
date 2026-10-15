@@ -1,0 +1,134 @@
+In embodiments, the neural networks can be or include 3o works; stacked autoencoders; etc. Any of the neural net-
+In embodiments, the neural networks can be or include 35 layer, a hidden layer, and an output layer with each layer
+In some examples, sequential input data can include 45 from different sources and may include library data xl,
+on self-attention, such as Transformer networks. Details of 65 layer detects a set of primitive patterns in the input (e.g-.
+[col 1]
+US 12,567,082 B2
+301
+tional neural networks (DCN), feed forward neural networks
+(including deep feed forward neural networks), recurrent
+neural networks (RNN) (including without limitation gated
+RNNs), long/short term memory (LTSM) neural networks,
+and the like, as well as hybrids or combinations of the above,
+such as deployed in series, in parallel, in acyclic (e.g.
+directed graph-based) flows, and/or in more complex flows
+that may include intermediate decision nodes, recursive
+loops, and the like, where a given type of neural network
+takes inputs from a data source or other neural network and
+provides outputs that are included within the input sets of
+another neural network until a flow is completed and a final
+output is provided. In embodiments, the neural network
+gence modules 8804, such as the machine vision module
+8822, the NLP module 8824, the rules-based module 8828,
+the digital twin module 8826, and so on. Example applica-
+tions of the neural network module 8814 are described
+throughout the disclosure.
+20
+A neural network includes a group of connected nodes,
+which also can be referred to as neurons or perceptrons. A
+neural network can be organized into one or more layers.
+Neural networks that include multiple layers can be referred
+to as "deep" networks. A deep network can include an input 25
+layer, an output layer, and one or more hidden layers
+positioned between the input layer and the output layer. The
+nodes of the neural network can be connected or non-fully
+connected.
+one or more feed forward neural networks. In feed forward
+networks, the connections between nodes do not form a
+cycle. For example, each connection can connect a node
+from an earlier layer to a node from a later layer.
+one or more recurrent neural networks. In some instances, at
+least some of the nodes of a recurrent neural network can
+form a cycle. Recurrent neural networks can be especially
+useful for processing input data that is sequential in nature.
+In particular, in some instances, a recurrent neural network 40
+can pass or retain information from a previous portion of the
+input data sequence to a subsequent portion of the input data
+sequence through the use of recurrent or directed cyclical
+node connections.
+time-series data (e.g-, sensor data versus time or imagery
+captured at different times). For example, a recurrent neural
+network can analyze sensor data versus time to detect or
+predict a swipe direction, to perform handwriting recogni-
+tion, etc. Sequential input data may include words in a 50
+sentence (e.g., for natural language processing, speech
+detection or processing, etc.); notes in a musical composi-
+tion; sequential actions taken by a user (e.g., to detect or
+predict sequential application usage); sequential object
+states; etc. In some example embodiments, recurrent neural 55
+networks include long short-term (LSTM) recurrent neural
+networks; gated recurrent units; bi-direction recurrent neural
+networks; continuous time recurrent neural networks; neural
+history compressors; echo state networks; Elman networks;
+Jordan networks; recursive neural networks; Hopfield net- 60
+works; fully recurrent networks; sequence-to-sequence con-
+figurations; etc.
+In some examples, neural networks can be or include one
+or more non-recurrent sequence-to-sequence models based
+an exemplary transformer network can be found at http://
+papers.nips.cc/paper/7181-attention-is-all-you-need.pdf.
+[col 2]
+302
+In embodiments, the neural networks can be or include
+one or more convolutional neural networks. In some
+instances, a convolutional neural network can include one or
+more convolutional layers that perform convolutions over
+input data using learned filters. Filters can also be referred
+to as kernels. Convolutional neural networks can be espe-
+cially useful for vision problems such as when the input data
+includes imagery such as still images or video. However,
+convolutional neural networks can also be applied for natu-
+10 ral language processing.
+In embodiments, the neural networks can be or include
+one or more generative networks such as, for example.
+generative adversarial networks. Generative networks can
+be used to generate new data such as new images or other
+content.
+In embodiments, the neural networks may be or include
+autoencoders. In some instances, the aim of an autoencoder
+is to learn a representation (e.g., a lower-dimensional encod-
+ing) for a set of data, typically for the purpose of dimen-
+sionality reduction. For example, in some instances, an
+autoencoder can seek to encode the input data and then
+provide output data that reconstructs the input data from the
+encoding. Recently, the autoencoder concept has become
+more widely used for learning generative models of data. In
+some instances, the autoencoder can include additional
+losses beyond reconstructing the input data.
+In embodiments, the neural networks may be or include
+one or more other forms of artificial neural networks such as,
+for example, deep Boltzmann machines; deep belief net-
+works described herein can be combined (e.g., stacked) to
+form more complex networks.
+FIG. 105 illustrates an example neural network with
+multiple layers. Neural network 8840 may include an input
+comprising a plurality of nodes or neurons that respond to
+different combinations of inputs from the previous layers.
+The connections between the neurons have numeric weights
+that determine how much relative effect an input has on the
+output value ofthe node in question. Input layer may include
+a plurality of input nodes 8842,8844,8846,8848and 8850
+that may provide information from the outside world or
+input data (e.g. sensor data, image data, text data, audio
+data, etc.) to the neural network 8840. The input data may be
+simulation data x2, user input data x3, training data x4 and
+outcome data x5. The input nodes 8842, 8844, 8846, 8848
+and 8850 may pass on the information to the next layer, and
+no computation may be performed by the input nodes.
+Hidden layers may include a plurality of nodes, such as
+nodes 8852, 8854, and 8856. The nodes in the hidden layer
+8852, 8854, and 8856 may process theinformation from the
+input layer based on the weights of the connections between
+the input layer and the hidden layer and transfer information
+to the output layer. Output layer may include an output node
+8858 which processes information based on the weights of
+the connections between the hidden layer and the output
+layer and is responsible for computing and transferring
+information from the network to the outside world, such as
+recognizing certain objects or activities, or predicting a
+condition or an action.
+In embodiments, a neural network 8840 may include two
+or more hidden layers and may be referred to as a deep
+neural network. The layers are constructed so that the first
+image) data, the second layer detects patterns of patterns and
+the third layer detects patterns of those patterns. In some

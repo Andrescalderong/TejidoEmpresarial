@@ -1,0 +1,137 @@
+straints on the data viewing, viewing interaction speed 1o cal or operational layers, such as a reporting structure, such
+[col 1]
+US 12,314,060 B2
+219
+(whose access rights may be verified or determined by the
+digital access controller 8112), and/or a role of the user. In
+some embodiments, the digital twin generation system 8108
+may determine and provide the client device 8050 (or
+requesting component) with the data structures, definition of
+grain of data the, response patterns to specific inputs,
+animation sequences for illustrating behaviors, display
+aggregation methods for smaller displays (such as mobile
+phone), immersive data interaction systems, security con-
+(frame rate), nature of light sources (simulate actual or
+continuous), multiple user engagement protocols, network
+bandwidth constraints, metadata, ontology and information
+on hooks to data feeds as well as the digital twin constructs.
+This information may be used by the client to generate the 15
+digital twin in the end user device (e.g., an immersive
+device, such as AR devices or VR devices, tablet, personal
+computer, mobile, or the like). In embodiments, the digital
+twin generation system 8108 may determine the appropriate
+perspective for the requested digital twin (e.g., via the digital 20
+twin perspective builder 8110, which may include device-
+sensitive perspectives, such as delivering in appropriate
+formats based on the type of end user device) and any data
+restrictions, interaction restrictions, depth of data restric-
+tions, usage restrictions, length of visibility restrictions, that 25
+the user may have (e.g., via the access controller 8112). In
+response to determining the perspective and data restric-
+tions, the digital twin generation system 8108 may generate
+the requested digital twin. In some embodiments, generating
+the requested digital twin may include identifying the appro-
+priate data structure given the perspective and obtaining the
+data that parameterizes the digital twin, as well as any
+additional metadata that is served with the enterprise digital
+twin.
+In embodiments, the digital twin generation system 8108 35
+may deliver the enterprise digital twin to the requesting
+client application 8052 (or requesting component). In
+embodiments, the digital twin generation system 8108 (or
+another suitable component) may continue to update a
+served digital twin with real-time data (or data that is derived
+from real-time data) as the real-time data is received and
+potentially analyzed, extrapolated, derived, predicted, and/
+or simulated by the EMP 8000.
+In some embodiments, the digital twin generation system
+8108 (in combination with the digital twin I/O system 8104)
+may obtain data streams from traditional data sources, such
+as relational databases, API interfaces, direct sensor input,
+human generated input, Hadoop file stores, graph databases
+that underlie operational and reporting tooling in the envi-
+ronment, telemetry data sources, onboard diagnostic sys- 5o s
+tems, blockchains, distributed ledgers, distributed data
+sources, feed, streams, and many other sources. In embodi-
+ments, the digital twin generation system 8108 may obtain
+data streams that are associated with the structural aspects of
+the data, such as the layout and 3D object properties of 55
+entities within facilities, geospatial information systems, the
+hierarchical design of a system of accounts, and/or the
+logical relationships of entities and actions in a workflow. In
+embodiments, the data streams may include metadata
+streams that are associated with the nature of the data and
+data streams containing primary data (e.g-, sensor data, sales
+data, survey data, and the like). For example, the metadata
+include the types and layers of data that are being managed,
+while the primary data may include the instances of objects 65
+that fall within each layer. Layers for which metadata may
+be tracked and/or created may include, for example, meta-
+[col 2]
+220
+data with respect to attributes, parameters or representations
+of a whole facility, component systems and assets within the
+facility (equipment, network entities, workforce entities,
+assets, and the like), sub-components and sub-systems, and
+further sub-components and sub-systems down to arbitrarily
+lower levels of granularity (e.g., a ball bearing of a rotating
+axle assembly of a fan that is part of a motor assembly
+driving an assembly line in a location of a warehouse). In
+embodiments, layers may include, in another example, logi-
+as from a COO to a VP of operations to a distribution
+manager to a warehouse manager to a shift manager to a
+warehouse worker. In embodiments, layers may include
+workflow or process flow layers, such as from an overall
+process to its sub-components and decision points, such as
+an overall assembly process having sub-layers of gathering
+of input materials and components, positioning of workers,
+a series of assembly steps, inspection of outputs, and deliv-
+ery to a post-assembly location.
+In embodiments, the digital twin perspective builder 8110
+leverages metadata, artificial intelligence, heuristic methods,
+3D rendering algorithms and/or other data processing tech-
+niques to produce a definition of information required for
+generation of the digital twin in the digital twin generation
+system 8108. In some embodiments, different relevant data-
+sets are hooked to a digital twin (e.g., an executive digital
+twin, an environment digital twin, or the like) at the appro-
+priate level of granularity, thereby allowing for the structural
+aspects of the data (e.g., system of accounts, sensor readings,
+sales data, or the like) to be a part of the data analytics
+process. One aspect of making a perspective function is that
+the user can change the structural view or the granularity of
+data while potentially forecasting future events or changes to
+the structure to guide control of the area of the business at
+question. In embodiments, the term “grain of data" may
+refer to the base unit of a type of data, such as a single line
+of data, a single aggregated line of data, a single byte of data,
+a single file, a single instance, or the like. Examples of
+"grains of data" may include a detailed record on a single
+ sale, a single block in a blockchain in a distributed ledger,
+a single event in an event log, a single vibration reading from
+a vibration sensor, or similar singular or atomic data units,
+and the like. Grain or atomicity may impose a constraint in
+how the data can be combined or processed to form different
+outputs. For example if some element of data is captured
+only at the level of once-per-day, then it can only be broken
+down to single days (or aggregation of days) and cannot be
+broken down to hours or minutes, unless derived from the
+day representation (e.g-, using inference techniques and/or
+statistical models). Similarly, if data is provided only at the
+aggregate business unit level, it can be broken down to the
+level of an individual employee only by, for example,
+averaging, modeling, or inductive functions. Generally, role-
+based and other enterprise digital twins may often benefit
+from finer levels of data, as aggregations and other process-
+ing steps may produce outputs that are dynamic in nature
+and/or that relate to dynamic processes and/or real-time
+decision-making. It is noted that different types of digital
+twins may have different "sized" grains of data. For
+example, the grains of data that feed a CEO digital twin may
+be at a higher granularity level than the grains of data that
+feed a COO digital twin. In some embodiments, however, a
+CEOmay drill down into a state of the CEO digital twin and
+the granularity for the selected state may be increased.
+In embodiments, the perspective builder 8110 adds rel-
+evant perspective to the data underlying the digital twin,
+which is provided to the digital twin generation system

@@ -1,0 +1,136 @@
+instruction, a proposed action, machine-generated text, and/ 2o feeds, human input, and/or other suitable data.
+vision module 8822 may request a digital twin of a specified 50 learning models may perform classification, prediction,
+[col 1]
+US 12,567,082 B2
+297
+response to the intelligence service client 8836. Additionally
+or alternatively, in some embodiments, the intelligence
+services 8800 may be implemented using one or more
+specialized chips that are configured to provide AI assisted
+microservices such as image processing, diagnostics, loca-
+tion and orientation, chemical analysis, data processing, and
+so forth. Examples of AI-enabled chips are discussed else-
+where in the disclosure.
+In embodiments, an intelligence services 8800 may
+include an intelligence service controller 8802 and artificial
+intelligence (AI) modules 8804. In embodiments, an artifi-
+cial intelligence services 8800 receives an intelligence
+request from an intelligence service client 8836 and any
+required data to process the request from the intelligence
+service client 8836. In response to the request and the 15
+ specific data, one or more implicated artificial intelligence
+modules 8804 perform the intelligence task and output an
+"intelligence response". Examples of intelligence modules
+8804 responses may include a decision (e.g., a control
+or the like), a prediction (e.g., a predicted meaning of a text
+snippet, a predicted outcome associated with a proposed
+action, a predicted fault condition, and/or the like), a clas-
+sification (e.g., a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con- 25
+dition based on sensor data, and/or the like), and/or other
+suitable outputs of an artificial intelligence system.
+In embodiments, artificial intelligence modules 8804 may
+include an ML module 8812, a rules-based module 8828, an
+analytics module8818, an RPAmodule 8816, a digital twin 301
+module 8820, a machine vision module 8822, an NLP
+module 8824, and/or a neural network module 8814. It is
+appreciated that the foregoing are non-limiting examples of
+artificial intelligence modules, and that some of the modules
+maybeincludedorleveraged by otherartificial intelligence 35
+modules. For example, the NLP module 8824 and the
+machine vision module 8822 may leverage different neural
+networks that are part of the neural network module 8814 in
+performance of their respective functions.
+It is further noted that in some scenarios, artificial intel- 40
+ligence modules 8804 themselves may also be intelligence
+clients 8836. For example, a rules-based intelligence module
+8828 may request an intelligence task from an ML module
+8812 or a neural networkF41 module 8814, such as request-
+ing a classification of an object appearing in a video and/or 45 i
+a motion of the object. In this example, the rules-based
+intelligence module 8828 may be an intelligence service
+client 8836 that uses the classification to determine whether
+to take a specified action. In another example, a machine
+environment from a digital twin module 8820, such that the
+ML module 8812 may request specific data from the digital
+twin as features to train a machine-learned model that is
+trained for a specific environment.
+In embodiments, an intelligence task may require specific 55
+types of data to respond to the request. For example, a
+machine vision task requires one or more images (and
+image or set of images, to determine features within the set
+of images (such as locations of items, presence of faces, 60
+symbols or instructions, expressions, parameters of motion,
+changes in status, and many others), and the like. In another
+example, an NLP task requires audio of speech and/or text
+data (and potentially other data) to determine a meaning or
+other element of the speech and/or text. In yet another 65
+example, an Al-based control task (e.g., a decision on
+movement of a robot) may require environment data (e.g..
+[col 2]
+298
+maps, coordinates of known obstacles, images, and/or the
+like) and/or a motion plan to make a decision as to how to
+control the motion of a robot. In a platform-level example,
+an analytics-based reporting task may require data from a
+number of different databases to generate a report. Thus, in
+embodiments, tasks that can be performed by an intelligence
+services 8800 may require, or benefit from, specific intelli-
+gence service inputs 8832. In some embodiments, an intel-
+ligence services 8800 may be configured to receive and/or
+1o request specific data from the intelligence service inputs
+8832 to perform a respective intelligence task. Additionally
+or alternatively, the requesting intelligence service client
+8836 may provide the specific data in the request. For
+instance, the intelligence services 8800 may expose one or
+more APIs to the intelligence clients 8836, whereby a
+requesting client 8836 provides the specific data in the
+request via the API. Examples of intelligence service inputs
+may include, but are not limited to, sensors that provide
+sensor data, video streams, audio streams, databases, data
+In embodiments, intelligence modules 8804 includes and
+provides access to an ML module 8812 that may be inte-
+grated into or be accessed by one or more intelligence clients
+8836. In embodiments, the ML module 8812 may provide
+machine-based learning capabilities, features, functions, and
+algorithms for use by an intelligence service client 8836
+such as training ML models, leveraging ML models, rein-
+forcing ML models, performing various clustering tech-
+niques, feature extraction, and/or the like. In an example, a
+machine learning module 8812 may provide machine learn-
+ing computing, data storage, and feedback infrastructure to
+a simulation system (e.g., as described above). The machine
+learning module 8812 may also operate cooperatively with
+other modules, such as the rules-based module 8828, the
+machine vision module 8822, the RPAmodule 8816, and/or
+the like.
+The machine learning module 8812 may define one or
+more machine learning models for performing analytics,
+simulation, decision making, and predictive analytics related
+to data processing,dataanalysis,simulation creation,and
+simulation analysis of one or more components or subsys-
+tems of an intelligence service client 8836. In embodiments,
+the machine learning models are algorithms and/or statistical
+models that perform specific tasks without using explicit
+instructions, relying instead on patterns and inference. The
+machine learning models build one or more mathematical
+models based on training data to make predictions and/or
+decisions without being explicitly programmed to perform
+the specific tasks. In example implementations, machine
+regression, clustering, anomaly detection, recommendation
+generation, and/or other tasks.
+In embodiments, the machine learning models may per-
+form various types of classification based on the input data.
+Classification is a predictive modeling problem where a
+class label is predicted for a given example of input data. For
+example, machine learning models can perform binary clas-
+sification, multi-class or multi-label classification. In
+embodiments, the machine-learning model may output
+*confidence scores" that are indicative of a respective con-
+fidence associated with classification of the input into the
+respective class. In embodiments, the confidence scores can
+be compared to one or more thresholds to render a discrete
+categorical prediction. In embodiments, only a certain num-
+ber of classes (e.g-, one) with the relatively largest confi-
+dence scores can be selected to render a discrete categorical
+prediction.

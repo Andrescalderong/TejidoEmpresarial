@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+365
+9140, as described in more detail below), may store and
+retrieve system specification(s) 9156 (e.g., for determining
+information about components of the mobile system), and/or
+may store and retrieve intelligence module(s) 9158 for
+implementing the various functions described herein. In
+embodiments, the processing core(s) may implement any of
+the functionalities of the intelligence service 8800 (as
+described with respect to FIG. 104) using the intelligence
+modules 9158 (which may include one or more of the
+10 artificial intelligence modules 8804 of FIG. 104).
+The location module 9110 may receive location signals
+(e.g., GPS signals, cellular signals, WI-FI signals) and
+determine a location (e.g-, GPS coordinates or coordinates
+within some other real or simulated coordinate system/
+frame). In some embodiments, the location signal capture
+circuit 9112 may receive location signal data from the inputs
+9192 and perform initial processing on the location signal
+data to capture data from the location signal (e.g., demodu-
+lation, storage in a buffer, initial sanity checking, etc.). In 20 g
+some cases (e.g., if the location is being determined within
+coordinates of an environment digital twin), the location
+signal capture circuit 9112 may retrieve an environment
+digital twin 9154 from storage and/or from an environment
+digital twin circuit 9142. The location determination circuit 25
+9114 may then calculate a location based on the captured
+location data. For example, the location determination cir-
+cuit 9114 may use trilateration techniques to compute GPS
+coordinates and related data (e.g., accuracy/error data) based
+on GPS signals received from multiple satellites. As another
+example, the location determination circuit 9114 may use
+cellular and/or WI-FI data to determine a location of the
+mobile system. In embodiments, multiple location signals
+may be used by the location determination circuit 9114 to 35
+improve accuracy. The location output circuit 9116 may then
+output (e.g., to the processing core(s) 9106) the location data
+(e.g., one or more data structures indicating coordinates
+and/or related data), which in turn may provide the location
+data to other modules, output the location data as outputs 40 
+9194, or otherwise process the location data to determine
+orientation information.
+The relative motion module 9120 may receive acceler-
+ometer, gyroscope, and/or other relative motion signals as
+inputs 9192 and determine relative motion data (e.g., change 45 s
+in position and/or rotation/heading, velocity data, and/or
+acceleration data) with respect to one or more real or
+simulated points/frames. The motion sensor capture circuit
+9122 may receive data signals from motion sensors such as
+accelerometers, gyroscopes, and the like and perform initial 50
+processing on the data to capture the relative motion data
+(e.g., demodulation, storage in a buffer, initial sanity check-
+ing, etc.). In some cases (e.g., if the relative motion is being
+determined with respect to an environment digital twin), the
+motion sensor capture circuit 9122 may retrieve an envi- 55
+ronment digital twin 9154 from storage and/or from an
+environment digital twin circuit 9142. The relative motion
+determination circuit 9124 may then process the relative
+motion data using integration techniques, dead reckoning
+techniques, and/or the like to generate relative motion data 60
+(e.g., one or more data structures indicating change in
+position/rotation/heading, velocity, angular velocity, accel-
+eration, angular acceleration, and/or the like) with respect to
+a given point/frame, whether real or simulated. The relative
+motion output circuit 9126 may then output (e.g-, to the
+processing core(s) 9106) the relative motion data, which in
+turn may provide the relative motion data to other modules,
+[col 2]
+366
+output the relative motion data as outputs 9194, or otherwise
+process the relative motion data to determine orientation
+information.
+In embodiments, the machine vision module 9130 may
+receive image, video, or other vision-related signals (e.g..
+LIDAR data) and process the data to detect and/or classify
+objects. The image sensor capture circuit 9132 may receive
+vision-related signals from the inputs 9192 and perform
+initial processing on the vision-related signals to capture
+images or other vision data (e.g, demodulation, storage in a
+buffer, extraction of images from video, image generation
+based on LIDAR data, etc.). The object detection circuit
+9134 may then detect one or more objects appearing in the
+image or other vision data. For example, the object detection
+circuit 9134 may use image-processing techniques such as
+line/edge detection and/or other machine-learning tech-
+niques to detect the location of objects in image/vision data.
+In some embodiments, the object detection circuit 9134 may
+leverage machine-learned models (e.g., stored as intelli-
+gence modules 9158) for object detection.
+The object classification circuit 9136 may recognize or
+otherwise classify objects appearing in the image or other
+vision data. In some embodiments (not shown), the object
+detection circuit 9134 and the object classification circuit
+9136 may be the same circuit. For example, the machine
+vision module 9130 may use deep learning techniques to
+both detect and recognize/classify objects in the image/
+vision data. In some embodiments, as shown, the machine
+vision module 9130 may use separate circuits and different
+ 30 techniques (e.g., different machine-learned models) to detect
+and classify objects.
+In some embodiments, the machine vision module 9130
+may leverage image data stored in image library 9152. For
+example, the machine vision module 9130 and/or the pro-
+cessing core(s) 9106 may cause the object detection circuit
+9134 and/or the object classification circuit 9136 to be
+trained to recognize/classify objects based on training data
+stored in the image library 9152. Examples of image/object
+classification are described in greater detail throughout the
+disclosure.In some embodiments, trained models may be
+stored as intelligence modules 9158. Thus, for example, the
+chip 9100 may be configured to recognize objects in a
+particular environment by storing images of the objects in
+the image library 9152 for training purposes, and/or by
+storing customized intelligence modules 9158 trained for a
+particular environment.
+In embodiments, the orientation module 9140 may
+receive various data from inputs 9192 and/or data from other
+modules of the chip 9100 and may process the various data
+to determine orientation data relating to the mobile system.
+In some embodiments, the environment digital twin circuit
+9142 may construct and/or update an environment digital
+twin based on inputs 9192, and/or may retrieve the stored
+environment digital twin 9154. For example, the environ-
+ment digital twin circuit 9142 may use LIDAR data, radar
+data, sonar data, and/or the like to determine objects, sur-
+faces, or other environment features nearby the mobile
+system. In some cases, the environment digital twin circuit
+9142 may update the stored environment digital twin 9154
+based on data detected from inputs 9192. For example, if the
+stored environment digital twin 9154 indicates that a par-
+ticular object is at a particular location, but the environment
+digital twin circuit 9142 detects that the object is actually at
+a second location (e.g, based on objects classified by the
+e 65 machine vision system), the environment digital twin 9154
+may beupdatedwith the correct location information for the
+object.

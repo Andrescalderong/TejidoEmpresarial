@@ -1,0 +1,137 @@
+two attention-based sublayers. Each attention-based 20 ments, the analysis management module 8806 may deter-
+In embodiments, artificial intelligence modules 8804 65 configured to apply the standards in the decision-making
+[col 1]
+US 12,567,082 B2
+311
+8804 includes five stages. Encoder 8802 stage 1 represents
+an input as a sequence of positional encodings added to
+embedded inputs. Encoder 8802 stages 2 and 3 include N
+layers (e.g., N=6, etc.) in which each layer includes a
+position-wise feedforward neural network (FNN) and an
+attention-based sublayer. Each attention-based sublayer of
+encoder 8802 stage 2 includes four linear projections and
+multi-head attention logic to be added and normalized to be
+provided to the position-wise FNN of encoder 8802 stage 3.
+Encoder 8802 stages 2 and 3 employ a residual connection 10
+followed by a normalization layer at their output.
+The example decoder 8804 processes an output embed-
+ding as its input with the output embedding shifted right by
+one position to help ensure that a prediction for position i is
+dependent on positions previous to/less than i. In stage 2 of
+the decoder 8804, masked multi-head attention is modified
+to prevent positions from attending to subsequent positions.
+Stages 3-4 of the decoder 8804 include N layers (e.g., N=6,
+etc.) in which each layer includes a position-wise FNN and
+sublayer of decoder 8804 stage 3 includes four linear
+projections and multi-head attention logic to be added and
+normalized to be provided to the position-wise FNN of
+decoder 8804 stage 4. Decoder 8804 stages 2-4 employ a
+residual connection followed by a normalization layer at 25
+their output. Decoder 8804 stage 5 provides a linear trans-
+formation followed by a softmax function to normalize a
+resulting vector of K numbers into a probability distribution
+8806 including K probabilities proportional to exponentials
+of the K input numbers. 30
+Additional examples of neural networks may be found
+elsewhere in the disclosure (e.g., FIGS. 78-103).
+Referring back to FIG. 104, in embodiments, artificial
+intelligence modules 8804 may also include and/or provide
+access to a rules-based module 8828 that may be integrated 35
+into or be accessed by an intelligence service client 8836. In
+some embodiments, a rules-based module 8828 may be
+configured with programmatic logic that defines a set of
+rules and other conditions that trigger certain actions that
+may be performed in connection with an intelligence client.40
+In embodiments, the rule-based module 8828 may be con-
+figured with programmatic logic that receives input and
+determines whether one or more rules are met based on the
+input. If a condition is met, the rules-based module 8828
+determines an action to perform, which may be output to a 45 
+requesting intelligence service client 8836. The data
+received by the rules-based engine may be received from an
+intelligence service input source 8832 and/or may be
+requested from another module in artificial intelligence
+modules 8804, such as the machine vision module 8822, the 50
+neural network module 8814, the ML module 8812, and/or
+the like. For example, a rule-based module 8828 may
+receive classifications of objects in a field of view of a
+mobile system (e.g., robot, autonomous vehicle, or the like)
+from a machine vision system and/or sensor data from a lidar 55
+sensor of the mobile system and, in response, may determine
+whether the mobile system should continue in its path,
+change its course, or stop. In embodiments, the rules-based
+module 8828 may be configured to make other suitable
+rules-based decisions on behalf of a respective client 8836, 60
+examples of which are discussed throughout the disclosure.
+In some embodiments, the rules-based engine may apply
+governance standards and/or analysis modules, which are
+described in greater detail below.
+interface with an intelligence service controller 8802, which
+is configured to determine a type of request issued by an
+[col 2]
+312
+intelligence service client 8836 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+to be applied by the artificial intelligence modules 8804
+when responding to the request. In embodiments, the intel-
+ligence service controller 8802 may include an analysis
+management module 8806, a set of analysis modules 8808,
+and a governance library 8810.
+In embodiments, an intelligence service controller 8802 is
+configured to determine a type of request issued by an
+intelligence service client 8836 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+to be applied by the artificial intelligence modules 8804
+when responding to the request. In embodiments, the intel-
+ligence service controller 8802 may include an analysis
+management module 8806, a set of analysis modules 8808,
+and a governance library 8810. In embodiments, the analysis
+management module 8806 receives an artificial intelligence
+module 8804 request and determines the governance stan-
+dards and/or analyses implicated by the request. In embodi-
+mine the governance standards that apply to the request
+based on the type of decision that was requested and/or
+whether certain analyses are to be performed with respect to
+the requested decision. For example, a request for a control
+decision that results in an intelligence service client 8836
+performing an action may implicate a certain set of gover-
+nance standards that apply, such as safety standards, legal
+standards, quality standards, or the like, and/or may impli-
+cate one or more analyses regarding the control decision,
+such as a risk analysis, a safety analysis, an engineering
+analysis, or the like.
+In some embodiments, the analysis management module
+8806 may determine the governance standards that apply to
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a geolocation in which a
+decision is being made, an environment that the decision
+will affect, current or predicted environment conditions of
+the environment and/or the like. In embodiments, the gov-
+ernance standards may be defined as a set of standards
+libraries stored in a governance library 8810. In embodi-
+ments, standards libraries may define conditions, thresholds,
+rules, recommendations, or other suitable parameters by
+which a decision may be analyzed. Examples of standards
+libraries may include, legal standards library, a regulatory
+standards library, a quality standards library, an engineering
+standards library, a safety standards library, a financial
+standards library, and/or other suitable types of standards
+libraries. In embodiments, the governance library 8810 may
+include an index that indexes certain standards defined in the
+respective standards library based on different conditions.
+Examples of conditions may be a jurisdiction or geographic
+areas to which certain standards apply, environmental con-
+ditions to which certain standards apply, device types to
+which certain standards apply, materials or products to
+which certain standards apply, and/or the like.
+In some embodiments, the analysis management module
+8806 may determine the appropriate set of standards that
+must be applied with respect to a particular decision and may
+provide the appropriate set of standards to the artificial
+intelligence modules 8804, such that the artificial intelli-
+gence modules 8804 leverages the implicated governance
+standards when determining a decision. In these embodi-
+ments, the artificial intelligence modules 8804 may be
+process, such that a decision output by the artificial intelli-
+gence modules 8804 is consistent with the implicated gov-

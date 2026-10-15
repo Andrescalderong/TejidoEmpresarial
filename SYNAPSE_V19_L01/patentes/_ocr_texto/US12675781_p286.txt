@@ -1,0 +1,137 @@
+temperature data, a stream of pressure data, and the like, 15 voltage values from a sensor) to predict or label each
+be deployed with a large number of neurons (e.g-, 100,000, 45 Nth order RNN connects the first and last node. The outputs
+[col 1]
+US 12,675,781 B2
+321
+may use a time delay neural network (TDNN), which may
+comprise a feedforward architecture for sequential data that
+recognizes features independent of sequence position. In
+embodiments, to account for time shifts in data, delays are
+added to one or more inputs, or between one or more nodes,
+so that multiple data points (from distinct points in time) are
+analyzed together. A time delay neural network may form
+part of a larger pattern recognition system, such as using a
+perceptron network. In embodiments, a TDNN may be
+trained with supervised learning, such as where connection 10 
+weights are trained with back propagation or under feed-
+back. In embodiments, a TDNN may be used to process
+sensor data from distinct streams, such as a stream of
+velocity data, a stream of acceleration data, a stream of
+where time delays are used to align the data streams in time,
+such as to help understand patterns that involve understand-
+ing of the various streams (e.g-, where increases in pressure
+ and acceleration occur as an industrial machine overheats).
+In embodiments, methods and systems described herein 20
+that involve an expert system or self-organization capability
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the 25
+human brain. Neurons may respond to stimuli in a restricted
+region of space, referred to as a receptive field. Receptive
+fields may partially overlap, such that they collectively
+cover the entire (e.g., visual) field. Node responses can be
+calculated mathematically, such as by a convolution opera-
+301
+tion, such as using multilayer perceptrons that use minimal
+preprocessing. A convolutional neural network may be used
+for recognition within images and video streams, such as for
+recognizing a type of machine in a large environment using
+a camera system disposed on a mobile data collector, such 35
+as on a drone or mobile robot. In embodiments, a convolu-
+tional neural network may be used to provide a recommen-
+dation based on data inputs, including sensor inputs and
+other contextual information, such as recommending a route
+foramobiledata collector.Inembodiments,aconvolutional 40
+neural network may be used for processing inputs, such as
+for natural language processing of instructions provided by
+one or more parties involved in a workflow in an environ-
+ment. In embodiments, a convolutional neural network may
+500,000 or more), with multiple (e.g., 4, 5, 6 or more) layers,
+and with many (e.g., millions) parameters. A convolutional
+neural net may use one or more convolutional nets.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 50 t
+may use a regulatory feedback network, such as for recog-
+nizing emergent phenomena (such as new types of faults not
+previously understood in an industrial environment).
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 55 t
+may use a self-organizing map ("SOM"), involving unsu-
+pervised learning. A set of neurons may learn to map points
+in an input space to coordinates in an output space. The input
+ space can have different dimensions and topology from the
+output space, and the SOM may preserve these while 60
+mapping phenomena into groups.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a learning vector quantization neural net ("LVQ").
+Prototypical representatives of the classes may parameter- 65
+ize, together with an appropriate distance measure, in a
+distance-based classification scheme.
+[col 2]
+322
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an echo state network ("ESN"), which may com-
+prise a recurrent neural network with a sparsely connected,
+random hidden layer. The weights of output neurons may be
+changed (e.g., the weights may be trained based on feed-
+back). In embodiments, an ESN may be used to handle time
+series patterns, such as, in an example, recognizing a pattern
+of events associated with a gear shift in an industrial turbine,
+generator, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a bi-directional, recurrent neural network
+("BRNN"), such as using a finite sequence of values (e.g.,
+element of the sequence based on both the past and the
+future context of the element. This may be done by adding
+the outputs of two RNNs, such as one processing the
+sequence from left to right, the other one from right to left.
+The combined outputs are the predictions of target signals,
+such as those provided by a teacher or supervisor. A bi-
+directional RNN may be combined with a long short-term
+memory RNN.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a hierarchical RNN that connects elements in
+various ways to decompose hierarchical behavior, such as
+into useful subprograms. In embodiments, a hierarchical
+templates for data collection in an industrial environment.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a stochastic neural network, which may introduce
+random variations into the network. Such random variations
+can be viewed as a form of statistical sampling, such as
+MonteCarlosampling.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a genetic scale recurrent neural network. In such
+embodiments, a RNN (often a LSTM) is used where a series
+is decomposed into a number of scales where every scale
+informs the primary length between two consecutive points.
+A first order scale consists of a normal RNN, a second order
+consists of all points separated by two indices and so on. The
+from all the various scales may be treated as a committee of
+members, and the associated scores may be used genetically
+for the next iteration.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a committee of machines ("CoM"), comprising a
+collection of different neural networks that together “vote"
+on a given example. Because neural networks may suffer
+from local minima, starting with the same architecture and
+training, but using randomly different initial weights often
+gives different results. A CoM tends to stabilize the result.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an associative neural network ("ASNN), such as
+involving an extension of committee of machines that com-
+bines multiple feed forward neural networks and a k-nearest
+neighbor technique. It may use the correlation between
+ensemble responses as a measure of distance amid the
+analyzed cases for the kNN. This corrects the bias of the
+neural network ensemble. An associative neural network
+may have a memory that can coincide with a training set. If
+new data become available, the network instantly improves
