@@ -1,0 +1,193 @@
+# FB-L01-059 | D059 — Redefinition of Digital Twin and Its Situation Awareness Framework Designing Toward Fourth Paradigm for Energy Internet of Things
+
+> Corpus de origen: **SCOPUS** · Archivo: `SCOPUS_Tejido empresarial/Redefinition_of_Digital_Twin_and_Its_Situation_Awareness_Framework_Designing_Toward_Fourth_Paradigm_for_Energy_Internet_of_Things.pdf` · 16 páginas · Relevancia para el eje del corpus: **Periférico** (Redefine el gemelo digital en el contexto del internet de las cosas de la energía (EIoT) como motor de datos de un marco de conciencia situacional (DT-SA) alineado con el 'cuarto paradigma' de la ciencia basada en datos, y lo ilustra con tres casos de redes eléctricas, entre ellos diagnóstico de fallas con un indicador espectral de teoría de matrices aleatorias. Aporta una concepción de gemelo orientada a datos y a conciencia situacional, pero su dominio es energía y no trata sismos ni empresas.)
+
+## PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0)
+
+### Capa 1 — Núcleo bibliográfico
+
+- **FB_ID / DOC_ID:** FB-L01-059 / D059
+- **Tipo de recurso:** Artículo científico (journal peer-reviewed, IEEE Transactions on Systems, Man, and Cybernetics: Systems)
+- **Referencia APA 7:** He, X., Tang, Y., Ma, S., Ai, Q., Tao, F., & Qiu, R. (2024). Redefinition of Digital Twin and Its Situation Awareness Framework Designing Toward Fourth Paradigm for Energy Internet of Things. *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, *54*(11), 6873-6888. https://doi.org/10.1109/TSMC.2024.3407061
+- **Autores:** He, Xing (7404408137); Tang, Yuezhong (57199306917); Ma, Shuyan (59244778200); Ai, Qian (8704400400); Tao, Fei (12141248300); Qiu, Robert (57732575500)
+- **Afiliaciones:** Shanghai Jiao Tong University, School of Electronic Information and Electrical Engineering, Shanghai, 200240, China; State Grid Corporation of China, State Grid Shanghai Municipal Electric Power Company, Shanghai, China; Beihang University, School of Automation Science and Electical Engineering, Beijing, 100191, China; Huazhong University of Science and Technology, School of Electronic Information and Communications, Wuhan, 430074, China
+- **Fecha de publicación:** 2024
+- **Fuente/contenedor:** IEEE Transactions on Systems, Man, and Cybernetics: Systems · vol. 54(11)
+- **Identificador persistente:** DOI 10.1109/TSMC.2024.3407061 · ISSN 21682216
+- **URL de acceso:** https://www.scopus.com/inward/record.uri?eid=2-s2.0-85207065199&doi=10.1109%2fTSMC.2024.3407061&partnerID=40&md5=c9487d4c67690fbc18330283e1b5bb55
+- **Fecha de consulta:** 2026-10-15
+- **Citas Scopus (a la fecha del export):** 17
+
+### Capa 2 — Extracción metodológica
+
+**Objetivo de la investigación.** Introducir un marco de conciencia situacional (SA) basado en datos y en gemelo digital (DT-SA) para el internet de las cosas de la energía (EIoT), en el cual el gemelo se redefine como motor de datos alineado con el paradigma de descubrimiento científico intensivo en datos (el cuarto paradigma). El marco se explora en cuatro pasos (digitalización, simulación, informatización e intelectualización) y busca habilitar un modelo grande (BM) continuamente autoadaptativo, autoaprendiz y autoevolutivo, para mejorar las capacidades de conciencia situacional de operadores y usuarios y para aportar al reconocimiento de patrones y la inteligencia de máquina en sistemas complejos.
+
+**Pregunta de investigación.** El artículo no formula preguntas de investigación explícitas. Las preguntas implícitas son cómo reconcebir el gemelo digital para aprovechar los datos de sistemas energéticos complejos cuando los modelos basados en conocimiento no escalan, cómo construir una entidad virtual con indicadores de alta dimensión que mantenga la sensibilidad cuando fallan sensores, y cómo evidenciar la superioridad del enfoque frente a modos tradicionales.
+
+**Marco teórico.** El marco combina la teoría de sistemas, que considera los sistemas complejos con comportamientos emergentes indivisibles, y el cuarto paradigma de la ciencia, con el gemelo digital como motor de datos y el modelo grande como motor de inteligencia. Se distingue la entidad física (PE) de la entidad virtual (VE), que se concibe más como un metaverso que como una réplica. Los indicadores de alta dimensión se construyen con teoría de matrices aleatorias, con un indicador de espectro de valores propios lineal (LES) que aprovecha la correlación espacio-temporal de series de tiempo de muchos sensores, frente a indicadores clásicos de baja dimensión.
+
+**Metodología.** El artículo desarrolla el mapa conceptual de DT-SA y sus cuatro pasos y propone modelar y simular la VE con datos de campo. Se presentan tres casos. El caso 1 compara tres modos (tradicional, gemelo y metaverso) para el diagnóstico de fallas de equipos de subestación, en particular fallas de tierra de corriente pequeña en redes de distribución, usando datos de siete registradores de fallas (FR) con datos espacio-temporales de 42 dimensiones y el indicador LES, frente al indicador clásico de corriente de secuencia cero. El caso 2 describe un proyecto DT-SA y normas relacionadas para el EIoT en Lingang (China). Se simulan en el mundo digital escenarios en que tres registradores sensibles fallan. No se describen tamaños de muestra, número de eventos ni métricas de desempeño con detalle. El texto presenta una genealogía del concepto desde los simuladores gemelos del programa Apolo y el rescate del Apolo 13, y define tres tipos de modelo para la entidad virtual (mecanístico, de red profunda y estadístico) que se combinan de forma híbrida de conocimiento y datos. El caso 2 describe el proyecto de Lingang, un distrito de zona de libre comercio de Shanghái con recursos energéticos naturales (cerca de 500 MW instalados) y usuarios diversos, donde se estudia el comportamiento de recursos energéticos distribuidos.
+
+**Resultados principales.** En el caso 1, el indicador LES de 42 dimensiones sigue la misma tendencia que los indicadores clásicos de corriente de secuencia cero de los registradores sensibles, y aprovecha la correlación espacio-temporal de los siete registradores asociados. Cuando se simula que los datos de tres registradores sensibles no son fiables o faltan, los indicadores clásicos restantes no permiten una conciencia situacional correcta de la red, pero el indicador LES de 24 dimensiones, calculado con los otros cuatro registradores, sigue siendo eficaz. Los autores concluyen que el DT-SA supera a los modos tradicionales y que puede aplicarse a proyectos reales y a la elaboración de normas del sector. No se reportan tasas de detección, falsos positivos ni comparaciones numéricas con otros métodos de diagnóstico. El caso 2 se presenta como ejemplo de implementación del marco DT-SA en un proyecto real y de desarrollo de normas, con descripción del contexto energético de Lingang, pero sin indicadores de desempeño del proyecto en el texto leído. Los autores indican que la virtualidad permite probar y mejorar los indicadores de ingeniería en el mundo digital antes de llevarlos al campo, y que el proceso sigue un ciclo de modelado, despliegue, prueba, actualización y remodelado continuo.
+
+**Discusión y contribución.** Los autores sostienen que la redefinición del gemelo digital como motor de datos del EIoT, con un modelo grande como motor de inteligencia, permite despertar los datos 'dormidos' de los sistemas energéticos y sustituir enfoques basados en conocimiento que no escalan con la complejidad. Afirman que el marco es compatible con las contribuciones de la industria y la academia, que sirve como base para colaboración entre campos y que puede adaptarse a ciudades inteligentes y fábricas inteligentes. Reconocen que la interacción entre dimensiones de datos y la complejidad de los sistemas exigen enfoques más allá del reduccionismo, y destacan que el gemelo puede evolucionar de simple réplica a entidad virtual capaz de simular, informar y razonar sobre escenarios. Indican además que el marco aporta a la ciencia de datos al convertir los datos de operación en conocimiento sobre el sistema.
+
+**Limitaciones declaradas.** Declaradas: no se presenta una sección de limitaciones; se reconocen las brechas entre datos y requisitos y la complejidad del EIoT. No declaradas: las comparaciones se hacen sobre tendencias de indicadores sin tasas de detección ni errores; muestras y eventos no descritos; casos de una empresa de red eléctrica y de un proyecto específico; el 'modelo grande' se describe de forma conceptual sin evaluación; la redefinición del gemelo digital como metaverso carece de una definición operacional contrastable; el artículo es largo en conceptos y breve en evidencia empírica.
+
+**Trabajo futuro.** El texto no formula una sección de trabajo futuro explícita; en la conclusión plantea la colaboración entre campos, la extensión a ciudades inteligentes y fábricas inteligentes y el aporte a la ciencia de datos.
+
+**Palabras clave.** Declaradas: Big data analytics; complex system; digital twin (DT); Energy Internet of Things (EIoT); fourth Paradigm; situation awareness (SA) | Inferidas: gemelo digital, conciencia situacional, internet de las cosas de la energía, cuarto paradigma, teoría de matrices aleatorias, macrodatos, entidad virtual, modelo grande, sistema complejo, diagnóstico de fallas
+
+### Capa 3 — Abstracción propositiva
+
+**Tesis central (abstraída).** El gemelo digital, redefinido para el EIoT como motor de datos en el marco del cuarto paradigma y combinado con un modelo grande como motor de inteligencia, permite una conciencia situacional basada en datos que supera a los modos tradicionales de conocimiento: con indicadores de alta dimensión basados en teoría de matrices aleatorias, mantiene la capacidad de diagnóstico aun cuando fallan sensores clave, y el marco es extensible a otros sistemas complejos como ciudades y fábricas.
+
+**Antítesis identificada.** El artículo ofrece más programa conceptual que evidencia comparativa. La superioridad del marco se muestra con una tendencia de un indicador frente a otro en un caso y con una simulación de pérdida de sensores, sin tasas de detección ni intervalos. El modelo grande y los pasos de informatización e intelectualización no se evalúan empíricamente. La redefinición del gemelo digital como metaverso amplía el término hasta hacerlo difícil de falsar. Los casos provienen de una misma red de investigación y de una empresa de red eléctrica, sin réplica independiente, y se extrapola a otros sistemas sin pruebas. La afirmación de validación con numerosos casos reales no se corresponde con tres casos presentados.
+
+**Síntesis propuesta.** La contribución sostenible es una propuesta de diseño de gemelos orientados a datos con indicadores de alta dimensión que usan la correlación entre sensores y tolerancia a fallas parciales de la medición, y una conceptualización en pasos del uso del gemelo para la conciencia situacional. Para el corpus, el valor es, ante todo, de analogía: un gemelo que usa muchos sensores correlacionados puede mantener el diagnóstico cuando algunos fallan, lo cual es relevante después de un sismo. La demostración es limitada y no hay evidencia en infraestructura civil ni empresas, de modo que el uso en el proyecto se limita a inspirar criterios de robustez de los indicadores ante pérdida de sensores.
+
+**Áreas grises detectadas.**
+
+1. Evidencia comparativa: el caso 1 muestra que el indicador de alta dimensión sigue la tendencia de los indicadores clásicos y que, con tres registradores no fiables, el indicador de 24 dimensiones sigue siendo eficaz; no se informan tasas de detección, falsos positivos ni número de eventos, de modo que la superioridad es cualitativa.
+2. Definición del gemelo: se redefine el gemelo como algo 'más parecido a un metaverso', con entidad virtual que evoluciona más allá de la réplica; la definición no es operacional ni contrastable con otras concepciones de gemelo digital, lo que dificulta evaluar qué evidencia lo confirmaría o lo refutaría.
+3. Modelo grande: el motor de inteligencia se presenta como autoadaptativo, autoaprendiz y autoevolutivo, pero el artículo no muestra su entrenamiento, evaluación ni resultados, y se limita a describir su papel en el marco.
+4. Generalización: se afirma que el marco es adaptable a ciudades y fábricas inteligentes sin pruebas fuera de redes eléctricas, y se declara validación con numerosos casos reales cuando se presentan tres.
+
+**Puntos oscuros aclarados.** Llama la atención que el resumen declare que numerosos casos reales validan el marco cuando el cuerpo presenta tres casos, con una evidencia comparativa cualitativa en el principal. También es notable que se redefina el gemelo digital como algo próximo al metaverso, con un modelo grande autoevolutivo, sin una definición que permita contrastarlo. La robustez frente a la falla de sensores, el punto más relevante del enfoque, se demuestra por simulación de ausencia de datos en un solo caso. Además, el artículo combina referencias a la ciencia de datos, la teoría de sistemas y la filosofía de la ciencia con poco desarrollo experimental. Por último, la afirmación de contribuir al reconocimiento de patrones y a la inteligencia de máquina no se apoya en resultados cuantitativos, y la genealogía histórica del gemelo, aunque ilustrativa, no sustituye una evaluación del marco ni una comparación con otras definiciones. Además, el caso 2 describe contexto y no resultados.
+
+**Ideas propositivas novedosas.**
+
+1. Indicador espectral para gemelos de edificios con sensores parciales: aplicar un indicador de alta dimensión basado en correlación espacio-temporal de muchos sensores de vibración a un edificio instrumentado, y evaluar si mantiene el diagnóstico de daño cuando falla una fracción de los sensores tras un sismo. Se compararía con indicadores clásicos de un solo sensor y se reportaría la pérdida de sensibilidad según la fracción de sensores perdidos, con un umbral de pérdida que el gemelo puede tolerar sin perder el diagnóstico, usando registros de vibración de un edificio con un evento real o con simulación de daño en un modelo calibrado de elementos finitos.
+2. Evaluación cuantitativa del marco de conciencia situacional: reproducir el caso de fallas de tierra con un conjunto etiquetado de eventos y medir sensibilidad, especificidad y tiempo de detección de los modos tradicional, de gemelo y de metaverso, con intervalos de confianza. Un resultado cuantitativo permitiría decidir si la complejidad adicional se justifica y qué parte de las ganancias proviene del indicador de alta dimensión y no del marco conceptual del gemelo, para lo cual se haría un estudio de ablación que retire cada componente por separado y se reportaría la variación de cada métrica y su intervalo.
+
+**Relaciones poco exploradas.**
+
+1. Gemelo orientado a datos (se relaciona con) D018 y D043: D018 aplica inteligencia artificial agéntica y gemelos en redes eléctricas y D043 trata la corrupción de datos de sensores en gemelos; D059 aporta indicadores de alta dimensión tolerantes a pérdida de sensores.
+2. Tolerancia a fallas de sensores (comparte problema con) D039 y D057: D039 corrige el desfase temporal de sensores y D057 optimiza la red de comunicación; D059 muestra un indicador que sigue funcionando con menos sensores.
+
+**Robustez argumentativa:** 2.1/10 (ponderación 30/30/25/15) — consistencia lógica 2/10; calidad de la evidencia 2/10; validez de inferencias causales 2/10; generalizabilidad 3/10.
+
+**Valor estratégico:** 3/10 — Ofrece una concepción orientada a datos del gemelo digital y un indicador de alta dimensión tolerante a pérdida parcial de sensores, con tres casos de redes eléctricas. Su valor para el corpus es periférico: el dominio es energía, la evidencia comparativa es cualitativa, la redefinición del gemelo es poco operacional y no hay infraestructura civil, sismos o empresas. Sirve como fuente de la idea de robustez ante pérdida de sensores.
+
+**Conexiones inter-documentales.**
+
+- (Se completan en el Análisis Relacional de la Parte final del lote.)
+
+### Capa 4 — Control de calidad
+
+- **Falacias detectadas:** Exageración del alcance de la validación (Se declara que numerosos casos reales validan el marco cuando se presentan tres con evidencia cualitativa (Resumen, p. 1; Sec. VI, p. 11-13)); Definición elástica (Se redefine el gemelo digital como algo próximo al metaverso, con un modelo grande autoevolutivo, sin criterios contrastables (Sec. I-II, p. 2-4)); Generalización apresurada (Se afirma adaptabilidad a ciudades y fábricas inteligentes a partir de redes eléctricas (Sec. VII, p. 15))
+- **Bradford-Hill:** No aplica: es un desarrollo conceptual con casos ilustrativos; no estima efectos causales.
+- **TRL asignado:** 4 — 'Numerous real-world cases validate our DT-SA framework' (p. 1)
+- **Versión de ficha:** v1.0 | 2026-10-15 | SYNAPSE V19.0
+- **Notas de proceso:** Texto completo extraído (16 páginas). Los casos 2 y 3 (proyecto en Lingang y normas) se describen de forma breve y no se detallan. Las páginas siguen los marcadores del PDF. La cita de IRL procede del pasaje del caso 1 sobre la fragilidad de los registradores de fallas.
+
+---
+
+## PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
+
+### B.1 Análisis dialéctico
+
+| TESIS | ANTÍTESIS | SÍNTESIS | ROBUSTEZ |
+|---|---|---|---|
+| El gemelo digital, redefinido para el EIoT como motor de datos en el marco del cuarto paradigma y combinado con un modelo grande como motor de inteligencia, permite una conciencia situacional basada en datos que supera a los modos tradicionales de conocimiento: con indicadores de alta dimensión basados en teoría de matrices aleatorias, mantiene la capacidad de diagnóstico aun cuando fallan sensores clave, y el marco es extensible a otros sistemas complejos como ciudades y fábricas.  | El artículo ofrece más programa conceptual que evidencia comparativa. La superioridad del marco se muestra con una tendencia de un indicador frente a otro en un caso y con una simulación de pérdida de sensores, sin tasas de detección ni intervalos. El modelo grande y los pasos de informatización e intelectualización no se evalúan empíricamente. La redefinición del gemelo digital como metaverso amplía el término hasta hacerlo difícil de falsar. Los casos provienen de una misma red de investigación y de una empresa de red eléctrica, sin réplica independiente, y se extrapola a otros sistemas sin pruebas. La afirmación de validación con numerosos casos reales no se corresponde con tres casos presentados.  | La contribución sostenible es una propuesta de diseño de gemelos orientados a datos con indicadores de alta dimensión que usan la correlación entre sensores y tolerancia a fallas parciales de la medición, y una conceptualización en pasos del uso del gemelo para la conciencia situacional. Para el corpus, el valor es, ante todo, de analogía: un gemelo que usa muchos sensores correlacionados puede mantener el diagnóstico cuando algunos fallan, lo cual es relevante después de un sismo. La demostración es limitada y no hay evidencia en infraestructura civil ni empresas, de modo que el uso en el proyecto se limita a inspirar criterios de robustez de los indicadores ante pérdida de sensores.  | 2.1/10 |
+
+### B.2 Interrogación socrática
+
+- **P1 Definición:** 'DT-SA' es el marco de conciencia situacional con gemelo digital; 'entidad virtual' es el modelo digital más allá de la réplica; 'LES' es un indicador de espectro de valores propios de alta dimensión.
+- **P2 Supuestos:** Supone que los datos contienen la información necesaria, que el indicador de alta dimensión refleja el estado del sistema y que el modelo grande es viable.
+- **P3 Evidencia:** La evidencia son tres casos de redes eléctricas con comparación cualitativa de indicadores y una simulación de pérdida de tres registradores.
+- **P4 Consecuencias:** Si es cierto, los operadores mantienen conciencia situacional con datos parciales; si es falso, pueden confiar en un indicador no validado con métricas.
+- **P5 Contraejemplos:** No se examinan tasas de detección, otros dominios, ni la evaluación del modelo grande.
+- **P6 Alternativas:** Alternativas: que un indicador clásico con redundancia de sensores logre lo mismo; que la ventaja dependa del evento; que el marco conceptual no aporte más que el indicador.
+
+### B.3 KPIs extraídos
+
+| KPI | VALOR | UNIDAD | CONTEXTO | UBICACIÓN | FUENTE | CONFIANZA | LIMITACIÓN |
+|---|---|---|---|---|---|---|---|
+| Registradores de fallas asociados al evento en el caso 1 | 7 | registradores | Datos espacio-temporales de 42 dimensiones | Sec. VI-A, p. 12 | Texto | Alta | Fallas de tierra de corriente pequeña |
+| Dimensión del indicador LES con todos los registradores | 42 | dimensiones | Indicador τ1-42 | Sec. VI-A, p. 12 | Texto | Alta | Misma tendencia que los indicadores clásicos |
+| Dimensión del indicador LES con 4 registradores | 24 | dimensiones | Cuando 3 registradores sensibles son poco fiables | Sec. VI-A, p. 12-13 | Texto | Alta | Sigue siendo eficaz (cualitativo) |
+| Pasos del marco DT-SA | 4 | pasos | Digitalización, simulación, informatización e intelectualización | Resumen, p. 1 | Texto | Alta | Marco conceptual |
+| Casos de estudio presentados | 3 | casos | Aplicaciones del EIoT | Sec. VI, p. 11 | Texto | Alta | El resumen habla de numerosos casos |
+
+### B.4 Evaluación multinivel de madurez
+
+| Dimensión | Score | Aplica | Evidencia | Justificación |
+|---|---|---|---|---|
+| TRL | 4 | Sí | 'Numerous real-world cases validate our DT-SA framework' (p. 1) | Validación con datos de campo de redes eléctricas en casos cualitativos; sin evaluación operativa extensa. |
+| MRL | N/A | No | No aplica | Sin manufactura. |
+| BRL | 2 | Sí | 'DT-SA not only enhances management practices for EIoT users/operators' (p. 1) | Beneficio para operadores afirmado sin costos ni modelo de negocio; se menciona elaboración de normas. |
+| IRL | 3 | Sí | 'FR is vulnerable to external environment, communication and other factors' (p. 11) | Integración de datos de varios registradores heterogéneos con sus fallas; sin pruebas de interoperabilidad a gran escala. |
+| DRL | 3 | Sí | 'Traditional knowledge-based situation awareness (SA) modes struggle to adapt to the escalating complexity of today’s Energy Internet of Things (EIoT)' (p. 1) | Necesidad argumentada para operadores de redes; sin estudio de mercado. |
+| SRL | 1.0 | Sí | Componentes: Entidad virtual con indicadores de alta dimensión (TRL 4), Modelo grande de inteligencia (TRL 2) | SRL=Σ(TRLi×IRLij)/2 términos ordenados = 6.0; ÷9 → 0.67; nivel acotado a [1,9] = 1.00 |
+
+**Análisis de brechas**
+
+| Brecha | Valor | Interpretación |
+|---|---|---|
+| Gap TRL-BRL | 2 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Gap TRL-MRL | N/A | N/A |
+| Gap TRL-IRL | 1 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Gap BRL-DRL | -1 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Brecha crítica | 2 | Valle de la Muerte Comercial (TRL-BRL) |
+
+**Valle de la muerte:** V1 Investigación sin aplicación · Severidad: Media · TRL 4 con BRL 2 e IRL 3: casos cualitativos de campo, modelo grande sin evaluación y sin análisis de costos. · Estrategia de salida: Evaluación cuantitativa con eventos etiquetados y réplica independiente.
+
+### B.5 Robustez argumentativa y causalidad
+
+| Falacia | Evidencia | Impacto |
+|---|---|---|
+| Exageración del alcance de la validación | Se declara que numerosos casos reales validan el marco cuando se presentan tres con evidencia cualitativa (Resumen, p. 1; Sec. VI, p. 11-13) | Afirmación mayor que la evidencia |
+| Definición elástica | Se redefine el gemelo digital como algo próximo al metaverso, con un modelo grande autoevolutivo, sin criterios contrastables (Sec. I-II, p. 2-4) | Término poco falsable |
+| Generalización apresurada | Se afirma adaptabilidad a ciudades y fábricas inteligentes a partir de redes eléctricas (Sec. VII, p. 15) | Sin pruebas en otros dominios |
+
+**Recomendación:** Aceptar con reservas
+
+| Relación propuesta | Evidencia correlacional | Criterios cumplidos | Criterios no cumplidos | Confusores | Score | Veredicto |
+|---|---|---|---|---|---|---|
+| Uso de indicador de alta dimensión → diagnóstico robusto ante pérdida de sensores | Caso con simulación de pérdida de tres registradores | Plausibilidad (redundancia de información) | Tasas de detección en eventos etiquetados | Tipo de falla, correlación entre sensores | 2 | Evidencia cualitativa de un caso |
+
+### B.6 Gaps identificados
+
+| Tipo | Descripción | Magnitud | Viabilidad | Prioridad |
+|---|---|---|---|---|
+| Metodológico | Evaluación cuantitativa con eventos etiquetados y comparación con métodos de diagnóstico | Crítico | Media | 8 |
+| Conocimiento | Definición operacional del gemelo digital y del modelo grande | Significativo | Media | 7 |
+| Tecnológico | Aplicación a infraestructura civil y a sensores sísmicos | Significativo | Media | 7 |
+| Mercado | Costos y adopción por operadores | Moderado | Baja | 5 |
+
+### B.7 Figuras y tablas clave
+
+| N.º | Título | Tipo | Descripción | Datos extraídos | Relevancia |
+|---|---|---|---|---|---|
+| Fig. 6 | Indicadores de baja y alta dimensión sobre datos de registradores | Diagrama | Corriente de secuencia cero frente a LES | No aplica | Media |
+| Fig. 11 | Diagnóstico de fallas con modos tradicional, gemelo y metaverso | Diagrama | Comparación de modos | No aplica | Media |
+| Fig. 13 | Indicadores clásicos frente a LES en el mundo digital | Gráfico | LES de 42 y 24 dimensiones frente a corriente de secuencia cero | 42; 24 | Media |
+
+### B.8 Competidores / actores / alternativas tecnológicas
+
+| Nombre | País | Tipo | Tecnología núcleo | Ventaja | Desventaja | Tendencia |
+|---|---|---|---|---|---|---|
+| Indicadores de corriente de secuencia cero con registradores de fallas | No especificado en documento | Empresa | Diagnóstico clásico de fallas de tierra | Simplicidad y uso extendido | Baja dimensión, vulnerable a sensores no fiables y a umbrales difíciles de fijar | Estable |
+
+### B.9 Variables econométricas y vacíos
+
+- **Y:** Sensibilidad del indicador de falla (cualitativa)
+- **X:** Modo de conciencia situacional (tradicional, gemelo, metaverso) e indicador (clásico o LES)
+- **Z (controles):** Número de registradores disponibles
+- **Datos:** Datos de campo de siete registradores de fallas en una red de distribución
+- **Método:** Indicadores espectrales de teoría de matrices aleatorias
+- **Efecto reportado:** LES de 24 dimensiones eficaz con tres registradores no fiables (cualitativo)
+- **Endogeneidad tratada:** No - no se discute
+- **Instrumento:** No aplica
+- **Robustez reportada:** Simulación de pérdida de registradores; sin métricas
+
+| Vacío | Tipo | Descripción |
+|---|---|---|
+| V-059-01 | TERR | China (Lingang y redes de distribución de la empresa de red eléctrica); sin otras regiones |
+| V-059-02 | POBL | Operadores de redes eléctricas; sin empresas ni usuarios |
+| V-059-03 | TEMP | Eventos individuales; sin evolución del sistema |
+| V-059-04 | MET | Evidencia cualitativa sin métricas de detección ni réplica |
+| V-059-05 | VAR | Faltan tasas de detección, costos y tiempo de respuesta |
+| V-059-06 | TEOR | Teoría de sistemas y cuarto paradigma; sin teoría de resiliencia |
+| V-059-07 | CAUS | Sin evidencia causal |
