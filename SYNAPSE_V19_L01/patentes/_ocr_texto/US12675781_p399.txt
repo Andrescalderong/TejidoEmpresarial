@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+547
+embodiments, the control interface module 12130 may
+include one or more software modules to provide connec-
+tivity, power, security, sensing, computing and artificial
+intelligence (AI) like capabilities. In embodiments, the
+physical interface module 12122 may include one or more
+end effectors, or end of arm tooling systems configured to
+provide the MPR 12100 with the ability to perform certain
+operational tasks.
+In embodiments, a control interface module 12130
+includes one or more interfaces that are configured to 101
+receive respective modules configured to enhance various
+capabilities of the MPR 12100 such as sensing capabilities,
+power capabilities, networking capabilities, edge computing
+capabilities, and/or the like. Such capabilities may enable
+the MPR 12100 to perform specialized functions such as 15
+specialized sensing and evaluation and to work in environ-
+ments with edge and networking constrains, power con-
+straints, mobility constraints and the like.
+In embodiments, the control interface module 12130 may
+include networking modules 12131, sensor modules 12132, 20
+computing modules 12133, security modules 12134,AI
+modules 12135, communications modules 12136 and user
+interface modules 12138. In embodiments, the control inter-
+face module 12130 receives one or more sensor modules
+12132. The sensor modules that are used to configure an 25
+MPR 12100 may depend on the tasks and jobs that the MPR
+12100 is being configured to perform. For instance, the
+sensor modules 12132 may include weight sensors, envi-
+ronment sensors (e.g., temperature, humidity, ambient light,
+motion sensors, vision sensors (e.g., cameras, lidar sensors,
+radar sensors, etc.), or other suitable sensors. In embodi-
+ments, the sensor modules 12130 may be specialized chips,
+ such as a lab-on-a-chip package, an organ-on-chip package,
+or the like.
+In embodiments, the control interface module 12130 35
+incorporates one or more modular, removable and replace-
+able lab-on-a-chip sensor package to provide chemical and
+biological sensing. The lab-on-a-chip sensor package may
+enable the MPR 12100 to perform chemical and diagnostic
+testing including chemical assays, microbiological culture 40
+assays, immunoassays and nucleic acid assays and may be
+useful for environmental conditions testing, water and gas
+particle analysis, first responder testing, toxicology, military.
+disaster, and related applications.
+In embodiments, the control interface module 12130 45 1
+incorporates one or more modular, removable and replace-
+able organ-on-a-chip sensor package tailored to sense and
+evaluate biological and related hazards. The organ-on-a-chip
+sensor package may be a microfluidic culture device that
+simulates the architecture, mechanics, functions and physi- 50
+ological response of living human organs, including the
+lung, intestine, kidney, skin, bone marrow and blood-brain
+barrier, among others. Some example use-cases include
+first-responders, operator health, pandemic, and related
+applications. 55
+In embodiments, the control interface module 12130
+incorporates one or more modular, resettable and replace-
+able collision sensors package configured to detect potential
+collisions and disengage or send a signal to the robot to stop
+or reverse movement when a collision is detected. The
+collision sensor package may help with preventing, reducing
+or eliminating damage to the end effector, tooling and the
+parts or products being processed.
+In embodiments, the control interface module 12130
+incorporates one or more modular, removable and replace- 65
+able Al-on-a-chip package configured for a specific task or
+policy, and integrated to work with a variety of visual and
+[col 2]
+548
+other sensor inputs. Some examples of task specific Al-on-
+a-chip packages include machine vision packages, natural
+language processing packages, image classification pack-
+ages, video analysis packages, predictive analysis packages,
+optimization packages, control packages or packages con-
+figured for implementing one or more policies in policy
+libraries. In embodiments, the modular AI-on-a-chip pack-
+ages may be configured for training of one or more of
+machine learning models, reinforcement learning models,
+neural networks, policy networks and the like. In embodi-
+ments, the modular A-on-a-chip packages may be config-
+ured for specific environments like warehouses, manufac-
+turing environments, agricultural and farming environments,
+shipping and logistics environment, medical environments
+and the like. The modular Al-on-a-chip packages may be
+trained with domain-specific models that are built for the
+specific environment or use cases. For example, the package
+may include a natural language processing model specifi-
+cally customized for understanding language used in an
+agricultural or warehouse environment.As another example,
+the model may be trained on a set of medical images and
+used for identifying microbial infections. In embodiments,
+the control interface module 12130 incorporates one or more
+modular, removable and replaceable Al-on-a-chip package
+configured for specific environments including environ-
+ments with low or intermittent power, extreme environmen-
+tal conditions, high temperature and low heat dispersion, and
+the like. In embodiments, the modular AI-on-a-chip pack-
+resources based on a task specific requirement including
+optimization for compute; storage; network; energy; heat-
+ing/cooling capacity; battery capacity; human resources
+capacity; space; additive manufacturing capacity and the
+like.
+In embodiments, the modular AI-on-a-chip packages may
+be trained with models to execute and govern robotic
+process automation, such as recognizing situations (bottle-
+necks in warehouse, congestion/lines in store, thin/sparse
+customer mix in part of an environment), classifying and
+recognizing objects/faces/products/emotions, setting
+demand-side parameters (price, promotion, advertising loca-
+tion); managing supply-side interactions including govern-
+ing onboard chatbot interactions, managing recommenda-
+tion engine for recommending a basket of complementary
+products and the like. In embodiments, the modular Al-on-
+a-chip packages may be trained with models to analyze
+physiological, neurological, emotional, cognitive state of a
+user and tailor the response of the MPR 12100 based on such
+state. For example, the package may analyze facial expres-
+sions, speech, tone, body movements of a user to determine
+the state, analyze the state information to derive information
+on customer interest, response, preference etc. and then feed
+such information to edge devices for content delivery, prod-
+uct recommendations, advertising, and the like. In embodi-
+ments, the modular AI-on-a-chip packages may be trained
+with models to analyze security threat vectors and other
+vulnerabilities to the MPR 12100 or the robotic fleet. For
+example, the package may use biometric analysis, behav-
+ioral modeling, facial and voice recognition, for enabling
+6o authentication; learning models for recognizing and prevent-
+ing attacks by malware, spyware, ransomware, viruses,
+worms, trojans and the like; classification, clustering or
+regression models for threat intelligence, anomaly detection,
+network and end-point security etc. In embodiments, the
+modular AI-on-a-chip packages may be trained with models
+to analyze weather conditions, light, temperature, water
+usage or soil conditions collected from farms in agricultural

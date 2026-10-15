@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+679
+data sources 18004 and transmitting the data (e.g., after
+intake data management) to various destinations. In embodi-
+ments, the control system 18002 may include other system
+subsystems 18050, such as analysis subsystems, various
+processing chips, or any other subsystems that may use the
+managed data to make decisions, generate analyses, or
+otherwise perform data operations. In embodiments, an
+intelligence service 18010 may operate to route the managed
+data to various other system subsystems 18050, or otherwise
+perform initial and/or final processing on the data.
+In embodiments, the SOS control system 18002 can
+override the thalamus filtering and decide to focus on a
+different area for any specific reason. For example, during a
+security incident, the SOS control system may route around
+thalamus filtering (which might normally de-prioritize data 15
+from security sensors) in order to ensure that data from
+security sensors are delivered in full without any de-priori-
+tization, suppression, filtering, etc. As another example,
+during regular inspections of equipment, sensor data that
+measures operation of the equipment (e.g., vibration sensor 20
+data) may be un-suppressed, even if the data appears to be
+within normal parameters and therefore might usually be
+suppressed or filtered.
+In embodiments, the control system 18002 may include a
+PMCP device interface 18052, which may be used to trans- 25
+mit and/or receive data using PMCP. Details of a PMCP
+device interface are further shown within a second PMCP
+device interface 18060. In embodiments, the PMCP device
+interface 18052may be in communication with thePMCP
+device interface18060.The PMCPdevice interface 18052 30
+may have the same components as shown within the PMCP
+device interface 18060.
+In embodiments, the PMCP device interface may be used
+to convert data to a vectorized format prior to transmission.
+In these embodiments, a vector may be considered an 35
+example of a simple predictive model (e.g, a vector may
+indicate an amount of change and a direction of change for
+a data value, thus predicting a future state of a data value if
+the change continues). For example, the conversion of a long
+sequence of oftentimes similar data values into a vector 40
+indicating an amount and direction of change, which may
+imply a future state of the data values, makes the commu-
+nication of the data values both smaller in size and forward
+looking in nature.
+In embodiments, PMCP may use various types of predic- 45 
+tive models to predict current and future data values, includ-
+ing weighted moving average; Kalman filtering; exponential
+smoothing; autoregressive moving average (ARMA) (fore-
+casts depend on past values of the variable being forecast,
+and on past prediction errors); autoregressive integrated 5o
+moving average (ARIMA) (ARMA on the period-to-period
+change in the forecasted variable); extrapolation; linear
+prediction; trend estimation (predicting the variable as a
+linear or polynomial function of time); growth curve (e.g.
+ statistics); and recurrent neural network based forecasting. 55
+Using the PMCP protocol, instead of traditional streams
+where individual data items are transmitted, vectors repre-
+senting how the data is changing or what are the forecast
+trends in the data are communicated. The PMCP system may
+transmit actual model parameters to receiving units such that 60
+edge devices can apply the vector-based predictive models
+to determine future states. For example, each automated
+device in a value chain network may be configured to train
+a regression model or a neural network, constantly fitting the
+data streams to current input data. In some embodiments,
+ automated devices leveraging the PMCP system are able to
+react in advance of events actually happening, rather than,
+[col 2]
+680
+for example, waiting for the depletion of inventory for an
+item to occur. Continuing the example, the stateless auto-
+mated device can react to the forecast future state and make
+the necessary adjustments, such as ordering more of the
+item.
+In embodiments, the PMCP system enables communicat-
+ing vectorized information together with model parameters
+that allow predictive models on a receiving end to predict
+probabilities of future values. The vectorized information
+10 may be transmitted and processed to determine a number of
+probability-based states. For example, motion vectors and
+model parameters for predicting future locations based on
+motion vectors may be transmitted using PMCP, and a
+receiving location may use the motion vectors as inputs to a
+parameterized predictive model (e.g., a model that deter-
+mines future locations of an item using the model param-
+eters), which may generate probabilities that an item asso-
+ciated with a motion vector is in different locations. As
+another example, the PMCP system may support commu-
+nicating vectorized sensor readings together with model
+parameters that allow current and/or future sensor readings
+to be predicted. Applied in an environment with large
+numbers of sensors with different accuracies and reliabili-
+ties, the probabilistic vector-based mechanism of the PMCP
+system allows large numbers, if not all, data streams to be
+used to produce refined models representing the current
+state, past states and likely future states of value chain items
+(e.g., goods, services, and/or the like). Approximation meth-
+ods may include importance sampling, and the resulting
+predictive model may be a particle filter, condensation
+algorithm, Monte Carlo localization, or other suitable mod-
+els.
+In embodiments, the vector-based communication of the
+PMCP system allows devices and/or other systems to antici-
+pate future security events. For example, a set of simple edge
+devices may be configured to run semi-autonomously using
+PMCP to generate and transmit model parameters based on
+locally-sensed security data. In this example, the edge
+devices may be configured to build a set of forecast models
+showing trends in the data. The parameters of this set of
+forecast models may be transmitted using the PMCP system.
+In this example, the edge devices may be configured to build
+a set of forecast models showing trends in the data. The
+parameters of this set of forecast models may be transmitted
+using the PMCP system so that the security data may be
+rebuilt and used to predict future states at a receiving device.
+In embodiments, security systems may generate and
+transmit vectors showing changes in state, as unusual events
+tend to cause one or more vectors to show unusual patterns.
+In a security setting, detecting multiple simultaneous
+unusual vectors may trigger escalation and a response by, for
+example, a control tower or other systems in the system of
+systems. In addition, one of the major areas of communi-
+cation security concern is around the protection of stored
+data, and in a vector-based system data may not need to be
+stored (or may be stored on fewer devices), so the risk of
+data loss is removed or reduced.
+In embodiments, PMCP data can be directly stored in a
+queryable database where the actual data is reconstructed
+dynamically in response to a query. In some embodiments,
+the PMCP data streams can be used to recreate the fine-
+grained data so they become part of an Extract Transform
+and Load (ETL) process.
+A PMCP device interface may include several modules
+65including a transceivermodule 18062, amodelling module
+18064, a library module 18066, and a storage module 18068.
+The transceiver module may include a data transceiver

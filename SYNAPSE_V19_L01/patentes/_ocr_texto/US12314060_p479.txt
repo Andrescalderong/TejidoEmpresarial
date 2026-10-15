@@ -1,0 +1,136 @@
+materials, boxes, dumpsters, cooling towers, vats, pallets, 25 representation of a logistics workflow, a cargo loading
+[col 1]
+US 12,314,060 B2
+593
+suitable APIs, brokers, connectors, bridges, gateways, hubs,
+ports, routers, switches, data integration systems, peer-to-
+peer systems, and the like to facilitate the transferring of data
+to and from the digital twin module 13420. In these embodi-
+ments, these connective components may allow an IOT
+sensor or an intermediary device (e.g-, a relay, an edge
+device, a switch, or the like) within a sensor system 13304
+to communicate data to the digital twin module 13420
+and/or to receive data (e.g., configuration data, control data,
+or the like) from the digital twin module 13420 or another 10
+external system. In embodiments, the digital twin module
+13420 may further include a digital twin datastore 13316
+that stores shipping digital twins 13302.
+A digital twin may refer to a digital representation of one
+or more shipping entities, such as an individual smart
+container 13026, a fleet of smart containers 13026, a ship-
+ping environment (e.g., a physical location along a route, a
+shipping container port or terminal, a smart container charg-
+ing station, a shipping yard, a container storage facility, a
+container ship, or the like), smart container machinery, a 20
+physical object, a device, a sensor, a human, or any com-
+bination thereof. Non-limiting examples of physical objects
+include smart container cargo, physical barriers along a
+route, raw materials, manufactured products, excavated
+barrels, palates, bins, and many more. Non-limiting
+examples of devices include robots, computers, vehicles
+(e.g., ships, cars, trucks, trains, etc.), machinery/equipment
+(e.g., forklifts, cranes, reach stackers, packaging systems,
+sorting systems, tractors, tillers, drills, presses, assembly 30 i
+lines, conveyer belts, etc.), and the like. The sensors may be
+any sensor devices and/or sensor aggregation devices that
+are found in a sensor system within an environment. Non-
+limiting examples of sensors that may be implemented in a
+sensor system may include temperature sensors, humidity 35 s
+sensors, vibration sensors, LIDAR sensors, SLAM sensors,
+SONAR sensors, motion sensors, chemical sensors, audio
+sensors, pressure sensors, weight sensors, radiation sensors,
+video sensors, wearable devices, relays, edge devices, cros-
+spoint switches, and/or any other suitable sensors. Examples
+of different types of physical objects, devices, sensors, and
+environments are referenced throughout the disclosure.
+In some embodiments, on-device sensor fusion and data
+storage for smart containers is supported, where data from
+multiple sensors is multiplexed at the device for storage of 45t
+a fused data stream. For example, pressure and temperature
+data may be multiplexed into a data stream that combines
+pressure and temperature in a time series, such as in a
+byte-like structure (where time, pressure, and temperature
+are bytes in a data structure, so that pressure and temperature 50
+remain linked in time, without requiring separate processing
+of the streams by outside systems), or by adding, dividing.
+multiplying, subtracting, or the like, such that the fused data
+can be stored on the smart container. Any of the sensor data
+types described throughout this disclosure, can be fused in 55
+this manner and stored in a local data pool, in storage, or on
+an IoT device, such as a data collector, a component of a
+machine, or the like.
+In some embodiments, a set of digital twins may represent
+an entire organization, such as shipping lines, container 6o t
+terminal operators, shippers, manufacturers, energy produc-
+tion organizations, regulatory organizations, governments,
+and the like. In these examples, the digital twins may include
+digital twins of one or more facilities of the organization.
+In embodiments, the digital twin management system 65
+13306 generates digital twins.A digital twin may be com-
+prised of (e.g. via reference) other digital twins. In this way,
+[col 2]
+594
+a discrete digital twin may be comprised of a set of other
+discrete digital twins. For example, a digital twin of a smart
+container may include digital twins of sensors on and within
+the smart container, digital twins of components that make
+up the smart container, digital twins of smart container
+cargo, digital twins of other devices that are incorporated in
+or integrated with the smart container (such as robots, 3D
+printers, packaging systems, or sorting systems), and the
+like. Taking this example one step further, a digital twin of
+a container terminal may include a digital twin representing
+the layout of the terminal, including the arrangement of
+physical assets and systems in or around the terminal, digital
+twins of the shipping entities within the terminal, as well as
+digital twins of storage areas in the terminal, and the like. In
+this second example, the digital twin of the container ter-
+minal may reference the embedded digital twins, which may
+then reference other digital twins embedded within those
+digital twins.
+In some embodiments, a digital twin may represent
+abstract entities, such as workflows and/or processes, includ-
+ing inputs, outputs, sequences of steps, decision points,
+processing loops, and the like that make up such workflows
+and processes. For example, a digital twin may be a digital
+process, a cargo unloading process, a customs process, a 3D
+printing process, a smart container energy charging process,
+or the like. In these embodiments, the digital twin may
+include references to the shipping entities that are included
+in the workflow or process. The digital twin of the shipping
+process may reflect the various stages of the process. In
+some of these embodiments, the digital twin module 13420
+may receive real-time data from a smart container, shipping
+entity, and/or shipping environment (e.g. from a sensor
+system of the container port facility) in which the shipping
+process takes place and reflects a current (or substantially
+current) state of the process in real-time.
+In embodiments, the digital representation may include a
+set of data structures (e.g., classes) that collectively define a
+set of properties of a represented smart container, smart
+container fleet, physical object (e.g, cargo), device, sensor,
+or shipping environment and/or possible behaviors thereof.
+For example, the set of properties of a smart container may
+include a type or class of smart container, the dimensions of
+the smart container, the mass or weight of the smart con-
+tainer, the material(s) of the smart container, the physical
+properties of the smart container materials(s), the surface of
+the smart container, the status of the smart container, a
+location of the smart container, identifiers of other digital
+twins contained within the smart container, and/or other
+suitable properties.
+Examples of the behaviors of a smart container may
+include a maximum acceleration of a smart container, a
+maximum speed of a smart container, ranges of motion of a
+smart container, a heating profile of a smart container
+interior, a cooling profile of a smart container interior,
+tions that are performed by the smart container, and the like.
+The set of properties of a physical object may include a
+type of physical object, the dimensions of the physical
+object, the mass or weight of the physical object, the density
+of the physical object, the material(s) of the physical object,
+the physical properties of the materials(s), the surface of the
+physical object, the status of the physical object, a location
+of the physical object, identifiers of other digital twins
+contained within the physical object, and/or other suitable
+properties.

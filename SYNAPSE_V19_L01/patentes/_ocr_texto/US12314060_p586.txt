@@ -1,0 +1,134 @@
+mine 18107 a potential risk in the value chain network 45 This can include disruptions to production, distribution, or
+[col 1]
+US 12,314,060 B2
+807
+(e.g., a predicted meaning of a text snippet, a predicted
+outcome associated with a proposed action, a predicted fault
+condition, a predicted disruption or risk in the value chain
+network, a prediction of future demand, and/or the like), a
+classification (e.g-, a classification of an object in an image,
+a classification of a spoken utterance, a classified fault
+condition based on sensor data, and/or the like), and/or other
+suitable outputs of an A system. For instance, assume for
+example purposes only that VCN process 10 has used one or
+more Al-based learning models to determine that there is a 10
+potential risk in the value chain network. In the example,
+VCN process 10 may mitigate the potential risk in the value
+chain network by using upstream data to predict demand for
+a product (e.g-, demand enhancement/planning) As an
+example, VCN process 10 may include or interact with a 15
+demand planning application that may automatically calcu-
+late demand (demand sensing) and stock forecasts based on
+upstream data (e.g., sales forecasts, warehouse data, etc.).
+This may allow a precise view of when to place optimal
+orders that cover specific product demands. 20
+In some implementations, the set of AI-based learning
+models may include at least one of a transformer model, a
+convolutional neural network, a deep learning model trained
+on a set of outcomes of the value chain network entity, a
+supervised model, a semi-supervised model, an unsuper- 25
+vised model, or a reinforcement model, and the training data
+set for the set of AI-based learning models may include one
+of a set of objects or events that are labeled to classify the
+set of objects or events according to a classification tax-
+onomy that may include at least one of the above-noted 3o 
+operating state, the fault condition, the operating flow, or the
+behavior. Other examples of Al-based learning models (e.g.,
+machine learning models) may include neural networks in
+general (e.g-, deep neural networks, convolution neural
+networks, and many others),regression based models, deci- 35
+sion trees, hidden forests, Hidden Markov models, Bayesian
+models, and the like. In some implementations, VCN pro-
+cess 10 may include combinations where an expert system
+uses one neural network for classifying an item (e.g., iden-
+tifying a machine, a component, or an operational mode) and 40
+a different (or the same) neural network for predicting a state
+of the item (e.g., a fault state, an operational state, an
+anticipated state, a maintenance state, or the like).
+In some implementations, VCN process 10 may deter-
+associated with the at least one value chain network entity
+based upon, at least in part, an output of the Al-based
+learning models. For instance, in some implementations,
+VCN process 10 may information that leverages a highly
+accurate daily forecast for every (desired) item at every 50
+(known) location, processing hundreds of internal and exter-
+nal signals to arrive at unbiased predictions and deliver
+profitable business decisions. VCN process 10 may use
+automation, Al and Al-based learning models to analyze
+real-time supply chain data and determine the influence of 55
+new demand signals. For example, VCN process 10's pre-
+dictive sourcing may allow procurement teams to be proac-
+tive to market changes and know when to source to avoid
+higher prices. For example, predictive sourcing may have
+seen a global semiconductor shortage and its impact on, e.g.. 60
+the automobile industry. As there were only several dozen
+chip fabrication plants in operation, with a few companies
+dominating making semiconductors under contract for other
+companies, which in turn sell chips through the supply
+chain, VCN process 10's predictive analytics in procure- 65
+ment would have seen the warning signs converging based
+upon information such as, e.g., increased demand for high-
+[col 2]
+808
+tech products across multiple sectors; a new generation of
+game console launching; geopolitical tensions resulting in
+Chinese companies buying up microprocessor stockpiles;
+and chip fabrication plants starting to reach their maximum
+production capacity. This information may be sent to or
+example sources, and may include such things as internal
+data assets and external data assets. Internal data assets may
+include, e.g-, supplier provided datasuch as invoices and
+purchase orders; transactional (ERP) data; tactical data-
+such as Excel and SharePoint, and external data assets may
+include, e.g., Public internet datasuch as supplier infor-
+mation, currency rates, publicity traded commodities; 3rd
+ and CSR profiles, and certain indexes, procurement bench-
+marking and supplier discover.
+Some non-limiting examples of procurement analytics
+used by VCN process 10 may include, e.g., spend analytics
+(procurement spend data from internal or external data
+sources), invoice analytics (invoice data and payment cycles
+from internal or external data sources), purchase order
+analytics (purchase order (PO) coverage, maverick spend,
+and PO cycle times from internal or external data sources),
+payment term analytics (identify and act on working capital
+improvement opportunities), supplier analytics (individual
+suppliers' performance, comparison of supplier perfor-
+mance, analysis of supplier risk, sustainability or diversity,
+or analysis of supplier base), diversity analytics (social
+responsibility and diversity in the supply base, on category
+and individual supplier level), sustainability analytics (Envi-
+ronmental, Labor & Human Rights, Ethics, and Sustainable
+Procurement targets from the supply chain), supplier risk
+supply chain), contract analytics (supplier contracts and
+their meta-data, such as payment terms and expiration
+dates).
+In some implementations, an example potential risk may
+be a supply chain disruption. A supply chain disruption may
+occur when there is a break in the flow of goods or services
+from the supplier to the customer. This can be caused by a
+variety of factors, such as natural disasters, political insta-
+bility, or pandemics. A value chain risk (e.g., disruption) is
+a broader term that refers to any disruption that affects the
+flow of goods or services within a company or organization.
+sales. Therefore, VCN process 10 may utilize an AI system
+that can track and predict potential supply chain risks (or
+other types of disruptions) and generate predictive insights
+based upon the above-noted generated information provided
+to the AI-based learning models. In some implementations,
+the determination may be a prediction of a future potential
+risk, or predicted current potential risk.
+In some implementations, VCN process 10 may either
+output 18109 a recommendation to mitigate the potential
+risk in the value chain network and/or may automatically
+execute 18111 an action to mitigate the potential risk in the
+value chain network. For instance, once a potential risk has
+been predicted (or determined/identified), VCN process 10
+may execute an action to mitigate that potential risk. In some
+implementations, the action may be automatically executed
+without human interaction, or manually executed (e.g.
+output via a UI, such as the control tower UI discussed
+throughout). In some implementations, the action taken may
+be recorded in a log or a feed for viewing. In some
+implementations, the action may be VCN process 10 sug-
+gesting diversifying suppliers, which means having multiple

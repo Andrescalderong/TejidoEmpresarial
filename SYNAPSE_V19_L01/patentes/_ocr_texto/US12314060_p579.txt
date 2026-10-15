@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+793
+delays and offer a discount, backordering option, alternative
+products, or other incentive, etc.
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include
+predicting 17914 when to place an order based upon, at least
+in part, upstream data. For instance, assume for example
+purposes only that VCN process 10 has used one or more
+AI-based learning models to determine that there is a
+potential risk in the value chain network. In the example,
+VCN process 10 may mitigate the potential risk in the value
+：10
+place an order (e.g., demand enhancement/planning) As an
+example, VCN process 10 may include or interact with a
+demand planning application that may automatically calcu-
+late demand (demand sensing) and stock forecasts based on 15
+upstream data (e.g., sales forecasts, warehouse data, etc.).
+This may allow a precise view of when to place optimal
+orders that cover specific product demands In some imple-
+mentations, VCN process 10 may resolve this situation by
+automatically executing (without human interaction) a reor- 20
+dering of the engine part, or providing a suggestion on a user
+interface to reorder the engine part at the optimal time,
+which may be manually executed (e.g-, receiving a user
+input to approve the suggested action).
+As an example, VCN process 10 may determine potential  25
+risk in the stocking of an engine part. Data obtained from
+suppliers, distributors, manufacturers, or other upstream
+value chain network entities may be analyzed by one or
+more Al-based learning models to generate a risk assessment
+for immediate or future procurement of the engine part. In 30
+ some implementations, the VCN process may mitigate this
+risk by adjusting the timing or quantity of the part procure-
+ment. In some implementations, the VCN process may
+mitigate risk by automatically identifying alternate suppliers
+for the engine part and placing an order for the part with the 35
+identified supplier.
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include
+supply planning 17916. Generally, supply planning ensures
+that products, materials, and resources will have optimal 40
+ availability in order to meet current and anticipated demand
+while minimizing costs and preventing delays in delivery.
+For instance, assume for example purposes only that VCN
+process 10 has used one or more AI-based learning models
+to determine that there is a potential risk in the value chain 45
+network.In the example, VCN process 10 may mitigate the
+potential risk in the value chain network by using upstream
+data for supply planning. As an example, VCN process 10
+may include or interact with a supply planning application
+that may automatically calculate supply (supply sensing)
+50
+and stock forecasts based on upstream data (e.g., sales
+forecasts, warehouse data, etc.). This may allow a precise
+view of when to place optimal orders that cover specific
+product supplies. In some implementations, VCN process 10
+may resolve this situation by automatically executing (with- 55
+out human interaction) a reordering of the engine part, or
+providing a suggestion on a user interface to reorder the
+executed (e.g., receiving a user input to approve the sug-
+gested action). 60
+In another example embodiment, an automotive manu-
+facturer may use supply planning of VCN process 10 to
+mitigate risks associated with component availability and
+anticipated demand. Consider an automotive manufacturer
+that anticipates an increase in demand for a specific car 65
+model in the upcoming quarter based on analysis that takes
+into account data including, but not limited to, historical
+[col 2]
+794
+sales, current market trends, and planned promotional ini-
+tiatives. The manufacturer projects that an additional 10,000
+cars will need to be manufactured during the next quarter in
+order to meet the predicted demand. The manufacturer
+assesses their current inventory and finds that they only have
+enough engine parts to manufacture 2,000 cars and therefore
+needs to order additional stock from their suppliers. A first
+supplier is able to commit to delivering engine parts suffi-
+cient for the manufacturing of 5,000 cars within a one month
+time frame. A second supplier is able to commit to delivering
+engine parts sufficient for the manufacturing of 3,000 cars
+with a two month lead time.A third supplier is able to deliver
+any requested volume of engine parts with a delivery time of
+only two weeks, but charges a premium for the expedited
+delivery. The automotive manufacturer uses this supplier
+information to plan production scheduling such that car
+production ramps up after 1.5 months to ensure that com-
+ponent availability is adequate and demand is met in time.
+The third supplier is used as an auxiliary supplier to mitigate
+risk in the event that delays are encountered with the primary
+suppliers. In this manner, the automotive manufacturer uses
+supply planning to maximize production efficiency and
+optimize expenses while ensuring sufficient supply to meet
+anticipated demand.
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include
+optimizing 17918 an inventory mix. For instance, assume
+for example purposes only that VCN process 1o has used
+one or more Al-based learning models to determine that
+there is a potential risk in the value chain network. In the
+example, VCN process 10 may mitigate the potential risk in
+the value chain network by using upstream data to optimize
+an inventory mix. Generally, an inventory mix is the com-
+position of a company's inventory. Inventory mix may be
+calculated by VCN process 10 dividing the value of each
+product category by the total value of the inventory. For
+instance, assume for example purposes only that there is a
+local sporting goods store that learns via VCN process 10
+that it needs to optimize its inventory mix. In the example,
+the store's sales data shows (e.g., via VCN process 10) that
+basketballs are the most popular product in the store. The
+store also knows from VCN process 1o that basketball
+season is coming up, so VCN process 10 recommends to
+increase their stock of basketballs. VCN process 10 also
+recommends to stock a wider variety of basketballs, includ-
+ing different sizes, colors, and brands. This will help to
+appeal to a wider range of customers. VCN process 10 may
+also know that baseball season is ending, so VCN process 10
+may recommend reducing their stock of baseball bats and
+gloves. VCN process 10 may also recommend that the store
+sell off any remaining inventory at a discount. This will help
+to clear out space for new inventory and reduce the amount
+ofobsoleteinventory.
+In some implementations, VCN process 10 may receive
+17920 external data, and VCN process 10 may determine
+at least in part, the external data. For instance, assume for
+example purposes only that VCN process 10 has used one or
+more Al-based learning models to determine that there is a
+potential to reduce transportation costs in the value chain
+network based upon received data. In the example, VCN
+process 10 may receive the external data to both determine
+that there is the potential to reduce transportation costs, and
+determine how to do so. As an example, VCN process 10
+may include or interact with a transportation application that
+may automatically calculate the fastest or most optimal route
+and transportation method (e.g., air, boat, truck, etc.) based

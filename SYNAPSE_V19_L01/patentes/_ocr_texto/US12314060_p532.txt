@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+699
+to roadside vehicle chargers, industrial growth facilities,
+crypto mining facilities, and/or the like. In some examples.
+a builder of a new facility (e.g., an industrial growth, power
+plant, crypto-mining facility) may crowd-source power gen-
+eration without having to give up equity in their own
+business or taking out loans. In this scenario, excess energy
+may be sold into the grid, which would then increase the
+value of the ownership tokens.
+In example embodiments, there may be various examples
+of a battery-based printed circuit board fabrication plant. For 10
+example, a printed circuit board fabrication plant may
+receive raw materials, produce millions of polychlorinated
+biphenyls (PCBs) per day, have AI-enabled issue/defect
+identification and prediction, and may ship the PCBs to
+ports, warehouses, distribution centers, etc. on electric 15 c
+vehicles (e.g-, electric trucks and cargo vans). The manu-
+facturing plant may have solar panels atop and nearby the
+plant building that may feed to batteries stored within the
+plant. A nearby ocean coast may have wave energy harvest-
+ing devices installed, with the energy harvested thereby 20
+transmitted to the plant and stored in the batteries as well. A
+nearby field may have a wind farm stored thereon, with the
+wind energy being transmitted to the batteries. There may be
+several sets of batteries where each set of batteries may
+receive power from one or more of the solar panels, wave 25
+energy harvesting devices, and wind farm. One of the sets of
+batteries may be configured to power the manufacturing
+plant during operating hours. A second set of batteries, or a
+subset of the first set of batteries, may be configured to feed
+into transformers configured to charge the electric vehicles. 30
+The power coming from the solar, wave, and wind energy
+sources may be conditioned for storage in different types of
+batteries and use in different applications, such as by adjust-
+ing phase, capacitance, etc. to feed electrical vehicle (EV)
+charging transformers vs manufacturing machines, vs. high- 35
+powered computing devices such as Al-enabled prediction
+and plant management/control systems.
+In example embodiments, there may be various examples
+of using an energy index. For example, where this is
+competition on energy efficiency among suppliers in a 40
+private network or supply chain, an energy index may be
+added to determine price of goods (e.g., uniform or compa-
+rable goods such as similar parts that may go into a final
+product). Goods that may have used more energy for manu-
+facturing (or make and deliver) may be sold at a discount 45 j
+while goods that may have used less energy for manufac-
+turing (or make and deliver) may be sold at a premium. A
+blockchain may be used to track batches, if not individual
+items. The ability to verify (or certify) may be necessary.
+The source of energy may also be a factor, such as coal vs. 5o
+renewable. If multiple manufacturers of a final product
+participate, anti-trust mechanisms may need to be in place.
+In some examples, these use cases may be tied with energy
+production cost tracking technologies (e.g-, to feed block-
+chain). 55
+Dual Process Artificial Neural Networks
+Referring to FIG. 104 in combination with FIG. 165, in
+embodiments, the intelligence services include a dual pro-
+cess artificial neural network (DPANN) system 20000. The
+DPANN system 20000 includes an artificial neural network 60
+(ANN) having behaviors and operational processes (such as
+decision-making) that are products of a training system and
+a retraining system. The training system is configured to
+perform automatic, trained execution of ANN operations.
+The retraining system performs effortful, analytical, inten- 65
+tional retraining of the ANN, such as based on one or more
+relevant aspects of the ANN, such as memory, one or more
+[col 2]
+700
+input data sets (including time information with respect to
+elements in such data sets), one or more goals or objectives
+(including ones that may vary dynamically, such as periodi-
+cally and/or based on contextual changes, such as ones
+relating to the usage context of the ANN), and/or others. In
+cases involving memory-based retraining, the memory may
+include original/historical training data and refined training
+data. The DPANN system 20000 includes a dual process
+learning function (DPLF) configured to manage and perform
+ an ongoing data retention process. The DPLF (including,
+where applicable, memory management process) facilitate
+retraining and refining of behavior of the ANN. The DPLF
+provides a framework by which the ANN creates outputs
+such as predictions, classifications, recommendations, con-
+clusions and/or other outputs based on a historic inputs, new
+inputs, and new outputs (including outputs configured for
+specific use cases, including ones determined by parameters
+ofthe context of utilization (which may include performance
+consistency parameters, bandwidth utilization parameters,
+processing capacity utilization parameters, prioritization
+parameters, energy utilization parameters, and many others).
+In embodiments, the DPANN system 20000 stores train-
+ing data, thereby allowing for constant retraining based on
+results of decisions, predictions, and/or other operations of
+the ANN, as well as allowing for analysis of training data
+upon the outputs of the ANN. The management of entities
+stored in the memory allows the construction and execution
+of new models, such as ones that may be processed,
+executed or otherwise performed by or under management
+of the training system. The DPANN system 20000 uses
+instances of the memory to validate actions (e.g., in a
+manner similar to the thinking of a biological neural network
+(including retrospective or self-reflective thinking about
+whether actions that were undertaken under a given situation
+where optimal) and perform training of the ANN, including
+training that intentionally feeds the ANN with appropriate
+sets of memories (i.e., ones that produce favorable outcomes
+given the performance requirements for the ANN).
+In embodiments, the DPLF may be or include the con-
+tinued process retention of one or more training datasets
+and/or memories stored in the memory over time. The DPLF
+thereby allows the ANN to apply existing neural functions
+and draw upon sets of past events (including ones that are
+intentionally varied and/or curated for distinct purposes),
+such as to frame understanding of and behavior within
+present, recent, and/or new scenarios, including in simula-
+tions, during training processes, and in fully operational
+deployments of the ANN. The DPLF may provide the ANN
+with a framework by which the ANN may analyze, evaluate,
+and/or manage data, such as data related to the past, present
+and future. As such, the DPLF plays a crucial role in training
+and retraining the ANN via the training system and the
+retraining system.
+In embodiments, the DPLF is configured to perform a
+dual-process operation to manage existing training pro-
+cesses and is also configured to manage and/or perform new
+training processes, i.e., retraining processes. In embodi-
+ments, each instance of the ANN is trained via the training
+system and configured to be retrained via the retraining
+system. The ANN encodes training and/or retraining data-
+sets, stores the datasets, and retrieves the datasets during
+both training via the training system and retraining via the
+retraining system. The DPANN system 20000 may recog-
+nize whether a dataset (the term dataset in this context
+optionally including various subsets, supersets, combina-
+tions, permutations, elements, metadata, augmentations, or

@@ -1,0 +1,132 @@
+FIG. 123 is a schematic illustrating an example imple- 30 frequently, adjusting based on, for example, environment
+[col 1]
+US 12,675,781 B2
+461
+11104 that attempts to focus light from the object 11102 onto
+a sensor 11106. The sensor 1i106 may be an image sensor
+ such as a charge coupled device (CCD) or complementary
+metal oxide semiconductor (CMOS) device containing array
+of photo sensitive elements. The sensor may convert the
+intensity. An analog to digital (AD) converter 11108 then
+converts analog voltage into digital data. This raw digital
+data is then sent to an image processing system 11110 for
+analysis. The image processing system 11110 then processes 10 1
+the raw digital data to generate an image 11112. The image
+and post-processing including image scaling, noise reduc-
+tion, color adjustment, brightness adjustment, white balance
+adjustment, sharpness, adjustment, contrast adjustment and 15
+the like to enhance the image quality. Further the image may
+be analyzed using machine learning or other algorithms to
+identify one or more objects in the image.
+Conventional computer vision systems 11100 have many
+limitations. The attempt to recreate vision by creating 20
+focused images leads to the loss of a large amount of
+information and leaves the vision system 11100 with limited
+data. The computer vision system 11100 typically generate
+two dimensional images of three-dimensional objects and
+are unable to capture information related to aspects like 25
+object depth, motion, orientation and the like. The algo-
+rithms in the computer vision system 11100 attempt to infer
+information about a 3D scene/object from 2D frames and
+information thereby limiting the quality of inferences.
+mentation of a dynamic vision system 11200 for dynami-
+interest according to an embodiment of the present disclo-
+sure. The dynamic vision system 11200 may replace and/or
+augment the lens 11104 of a conventional vision system 35
+11100 with a variable focus liquid lens 11204. The variable
+focus liquid lens 11204 may be an electrically controlled cell
+containing optical-grade liquid, that is deformed through
+electric current, changing the shape of the lens. The dynamic
+vision system 11200leverages this flexibility of liquid lens 40
+11204 by constantly adjusting lens parameters to dynami-
+cally change various optical characteristics of light that pass
+through the lens including focal length, spherical aberration,
+field curvature, coma, chromatics aberrations, distortion,
+vignetting, ghosting and flaring, and diffraction of light. A 45 real-world vision result.
+fully variable liquid lens thus allows for more dynamic input
+for a sensor 11206 enabling it to capture visual information
+and metadata that is otherwise lost in the conventional
+computer vision system 11100.
+An analog to digital (AD) converter 11208 may generate 50
+digital data from the rich visual information captured at the
+pre-processing, and post-processing capabilities may gener-
+ate images that are based with additional optical parameters
+as part of image. The processing system 11209 may also 55 t
+include a control system 11212 configured to adjust one or
+more optical parameters in real time including focal length,
+liquid materials, specularity, color, environment and lens
+shape. An adaptive intelligence system 11214 may then
+dynamically learn on a training set of outcomes, parameters, 60
+and data collected from the liquid lens 11204 to generate an
+object concept 11216. The object concept 11216 may
+include contextual intelligence about the object and its
+environment which may then be processed by adaptive
+intelligence system 11214 to recognize the object 11202. 65
+In embodiments, the adaptive intelligence system 11214
+may include artificial intelligence capability, such as involv-
+[col 2]
+462
+ing machine learning or other algorithms, neural networks,
+expert systems, models and others, to process the input data
+from the liquid lens and dynamically learn the object con-
+cept to provide superior object recognition and vision.
+In embodiments, adaptive intelligence system 11214 may
+be implemented as the intelligence layer 140 that receives
+requests from a set of intelligence layer clients and responds
+to such request by providing intelligence services to such
+clients (e.g., a decision, a classification, a prediction or the
+like).
+In embodiments, the dynamic vision system 11200 may
+feed real-time adjustable data streams to the processing
+system 11209 to generate situational awareness or create
+out-of-focus images of the object 11202 so as to capture
+large amounts of information that is otherwise lost when
+inferring depth and distance in a focused image of a con-
+ventional vision system 11100. The dynamic input to the
+liquid lens 11204 may provide richer metadata for image
+processing as the images are based on additional optical
+parameters than just focal length and aperture. The image
+processing system 11210 may incorporate previously lost
+information so as to generate new set of insights about the
+object and its surroundings not captured by the conventional
+computer vision systems 11100.
+Compared to conventional computer vision systems
+11100, that utilize fixed sensory elements, the dynamic
+vision system 11200 provided herein may utilize a dynami-
+cally learned liquid lens assembly. The conformable liquid
+lens 11204 in the assembly may be continuously, and/or
+factors and/or on feedback from the processing system
+11209 to generate training data that is deeper in context and
+that corresponds to the physical light that the image repre-
+sents. By training the dynamic vision system 11200 to
+recognize objects using variable optical parameters through
+the liquid lens assembly, the processing system 11209 may
+learn an optimum optical setting(s) to detect an object. The
+more dynamic input to the dynamic vision system 11200
+may result in creating a richer context and providing supe-
+rior object recognition.
+The dynamic vision system 11200 may integrate sensing,
+control and processing functions and dynamically adjusts
+the liquid lens 11204 as the vision algorithms in the pro-
+cessing system 11209 take different inputs to produce a
+The dynamic vision system 11200 mimics biological
+vision by integrating sensing, control and processing func-
+tions (biological vision involves a stream of information
+passing directly through deep learning systems where these
+deep learning systems can directly change aspects of vision
+processing, including orientation, fovea centralis attention,
+eyelid actions, blinking and communication with other
+humans).
+In embodiments, the dynamic vision system 11200 may
+utilize saccades to characterize objects by context and build
+contextual intelligence through associations. This mirrors
+how saccades capture information about an object in its
+environment. Saccade denotes a quick, simultaneous move-
+ment of both eyes between two or more areas of focus.
+While viewing a scene, human eyes make sporadic saccadic
+movements stopping several times while locating key parts
+of the scene, moving quickly between each stop and building
+up a mental three-dimensional map corresponding to the
+scene. The dynamic vision system 11200 and methods
+described herein may use saccades to characterize objects by
+context and allow control of an optical system to more

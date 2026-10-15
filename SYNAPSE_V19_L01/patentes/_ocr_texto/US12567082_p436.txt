@@ -1,0 +1,135 @@
+In some embodiments, the analysis management module 5o a platform level intelligence system may be configured with
+[col 1]
+US 12,567,082 B2
+549
+implicate one or more analyses regarding the control deci-
+ sion, such as a risk analysis, a safety analysis, an engineering
+analysis, or the like.
+In some embodiments, the analysis management module
+13406 may determine the governance standards that apply to
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a geolocation in which a
+decision is being made, an environment that the decision
+will affect, current or predicted environment conditions of
+the environment and/or the like. In embodiments, the gov-
+ernance standards may be defined as a set of standards
+libraries stored in a governance library 13410. In embodi-
+ments, standards libraries may define conditions, thresholds,
+rules, recommendations, or other suitable parameters by
+which a decision may be analyzed. Examples of standards
+libraries may include a legal standards library, a regulatory
+standards library, a safety standards library, a financial
+20
+standards library, and/or other suitable types of standards
+libraries. In embodiments, the governance library 13410
+may include an index that indexes certain standards defined
+in the respective standards library based on different condi-
+tions. Examples of conditions may be a jurisdiction or 25
+geographic areas to which certain standards apply, environ-
+mental conditions to which certain standards apply, device
+types to which certain standards apply, materials or products
+to which certain standards apply, and/or the like.
+In some embodiments, the analysis management module 30 1
+13406 may determine the appropriate set of standards that
+must be applied with respect to a particular decision and may
+provide the appropriate set of standards to the artificial
+intelligence modules 13404, such that the artificial intelli-
+gence modules 13404 leverages the implicated governance 35
+standards when determining a decision. In these embodi-
+ments, the artificial intelligence modules 13404 may be
+configured to apply the standards in the decision-making
+process, such that a decision output by the artificial intelli-
+gence modules 13404 is consistent with the implicated 140
+governance standards. It is appreciated that the standards
+libraries in the governance library may be defined by the
+platform provider, customers, and/or third parties. The stan-
+dards may be government standards, industry standards,
+customer standards, or other suitable sources. In embodi- 45
+ments, each set of standards may include a set of conditions
+that implicate the respective set of standards, such that the
+conditions may be used to determine which standards to
+apply given a situation.
+13406 may determine one or more analyses that are to be
+performed with respect to a particular decision and may
+provide corresponding analysis modules 13408 that perform
+those analyses to the artificial intelligence modules 13404,
+such that the artificial intelligence modules 13404 leverage 55
+the corresponding analysis modules 13408 to analyze a
+decision before outputting the decision to the requesting
+client. In embodiments, the analysis modules 13408 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby 60
+the respective modules are executed by a processing system
+that hosts the instance of the intelligence service 13004.
+Non-limiting examples of analysis modules 13408 may
+include risk analysis module(s), security analysis module(s),
+decision tree analysis module(s), ethics analysis module(s), 65
+failure mode and effects (FMEA) analysis module(s), hazard
+[col 2]
+550
+sis module(s), regulatory analysis module(s), legal analysis
+module(s), and/or other suitable analysis modules.
+In some embodiments, the analysis management module
+13406 is configured to determine which types of analyses to
+perform based on the type of decision that was requested by
+an intelligence service client 13324. In some of these
+embodiments, the analysis management module 13406 may
+include an index or other suitable mechanism that identifies
+a set of analysis modules 13408 based on a requested
+decision type. In these embodiments, the analysis manage-
+ment module 13406 may receive the decision type and may
+determine a set of analysis modules 13408 that are to be
+executed based on the decision type. Additionally, or alter-
+natively, one or more governance standards may define
+when a particular analysis is to be performed. For example,
+the engineering standards may define what scenarios neces-
+sitate a FMEA analysis. In this example, the engineering
+standards may have been implicated by a request for a
+particular type of decision and the engineering standards
+may define scenarios when an FMEA analysis is to be
+performed. In this example, artificial intelligence modules
+13404 may execute a safety analysis module and/or a risk
+analysis module and may determine an alternative decision
+if the action would violate a legal standard or a safety
+standard. In response to analyzing a proposed decision,
+artificial intelligence modules 13404 may selectively output
+the proposed condition based on the results of the executed
+analyses. If a decision is allowed, artificial intelligence
+modules 13404 may output the decision to the requesting
+intelligence service client 13324. If the proposed configu-
+ration is flagged by one or more of the analyses, artificial
+intelligence modules 13404 may determine an alternative
+decision and execute the analyses with respect to the alter-
+nate proposed decision until a conforming decision is
+obtained.
+It is noted here that in some embodiments, one or more
+analysis modules 13408 may themselves be defined in a
+standard, and one or more relevant standards used together
+may comprise a particular analysis. For example, the appli-
+cable safety standard may call for a risk analysis that can use
+one or more allowable methods. In this example, an ISO
+standard for overall process and documentation, and an
+ASTM standard for a narrowly defined procedure may be
+employed to complete the risk analysis required by the
+safety governance standard.
+As mentioned, the foregoing framework of an intelligence
+service 13004 may be applied and/or leveraged at various
+levels of a value chain. For example, in some embodiments,
+the entire capabilities of the intelligence service 13004, and
+certain configurations of the intelligence service 13004 may
+be provisioned for respective value chain entities. Further-
+more, in some embodiments, an intelligence service client
+13324, such as the smart container system 13000, may be
+configured to escalate an intelligence system task to a
+higher-level value chain entity (e.g., edge-level or the plat-
+form-level) when the intelligence service client 13324 can-
+not perform the task autonomously. It is noted that in some
+embodiments, an intelligence service controller 13402 may
+direct intelligence tasks to a lower-level component. Fur-
+thermore, in some implementations, an intelligence service
+13004 may be configured to output default actions when a
+decision cannot be reached by the intelligence service 13004
+and/or a higher or lower-level intelligence system. In some
+of these implementations, the default decisions may be
+defined in a rule and/or in a standards library.

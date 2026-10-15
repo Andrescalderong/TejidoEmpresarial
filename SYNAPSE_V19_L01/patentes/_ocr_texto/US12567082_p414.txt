@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+505
+for engaging a surface of an object and using a negative or
+suction pressure or vacuum to grasp the object; electro-
+magnetic grippers may be used for gripping metal objects,
+hydraulic grippers powered by hydraulic fluids may be used
+for heavy duty applications like lifting heavy objects, soft
+grippers may mimic human fingers to pick and manipulate
+delicate objects of differing shapes and sizes like fresh fruits
+and vegetables, Bernoulli grippers may use airflow to adhere
+to an object without physical contact and may be used for
+handling sterile material to prevent contamination and so on.
+In embodiments, the grippers may include sensors aiding the
+gripper in locating, handling, and positioning products. In
+embodiments, the grippers may include accessories like
+force torque sensors and compliant force feedback systems
+for force-controlled processes requiring application of pre-
+cise force. In embodiments, the grippers may be powered by
+compressed air,vacuum or electricity. In some example
+embodiments, the end effectors 12124 may have a wide
+variety of process tooling devices attached for various 20
+applications including arc welding, spot welding, paint
+spraying, machining, drilling, water-jet cutting, flaming.
+riveting, grinding, deburring, assembling, additive manufac-
+turing, injection molding and/or the like.
+In embodiments, motive adapters 12126 may include 25 j
+suitable modular components that allow the MPR 12100 to
+traverse certain environments and/or conditions. For
+example, motive adapters 12126 may include different
+wheel sets, movable legs, fins, jets, turbines, or other suit-
+able means of transport.
+30
+In embodiments, 3D printer adapters 12128 incorporate
+an integrated set of additive manufacturing capabilities for
+printing on a need basis. For example, the additive manu-
+facturing capabilities may include printing tools, such as
+agricultural tools or parts, constructions tools or parts, 35 
+packaging tools or parts, replacement parts, and/or other
+suitable additive manufacturing capabilities that allow a
+robot to print items on a need basis. In these embodiments,
+the additive manufacturing capabilities may include suitably
+dimensioned printing devices for printing items, as well as 40
+any materials needed for the printing.
+The foregoing descriptions of different modules are pro-
+vided for example of respective types of physical modules
+and control modules. It is understood the physical modules
+interfaces 12122 and control module interfaces 12130 may 45
+receive other additional or alternative modules without
+departing from the scope of the disclosure.
+FIG. 140 is an example architecture of the robot control
+system 12150 depicting detailed view of various compo-
+nents thereof, according to some embodiments of the present 50
+disclosure. In embodiments, the intelligence layer 12140
+receives requests from a set of intelligence layer clients and
+responds to such request by providing intelligence services
+to such clients (e.g-, a decision, a classification, a prediction
+or the like). At the robot level, such clients may include 55i
+various components and subsystems of the robot control
+system 12150 including the performance management sys-
+tem 12146, the task management system 12144, the module
+management system 12148, the navigation system 12154,
+the motion planning system 12158, and the like; various 60
+components of the baseline system 12102 including the
+energy storage and power distribution 12104, the electro-
+mechanical and electro-fluidic system 12108 the transport
+system 12110, the vision and sensing system 12112 and the
+structural system 12114 or other suitable systems of MPR 65 c
+12100 including the module system 12120 or the robot
+security system 12170.
+[col 2]
+506
+As an example, the intelligence layer 12140 may take as
+input sensor data including environment data, video camera
+streams, maps, audio streams, images, coordinates of known
+obstacles, and/or the like from vision and sensing system
+12112. The intelligence layer 12140 may then coordinate
+with motion planning system 12158 to make one or more
+decisions about the motion of MPR 12100 or portions
+thereof, coordinate with the navigation system 12154 to
+make decisions about navigating in the environment and
+coordinate with task management system 12144 to make
+decisions about performing one or more tasks. The control-
+ler 12160 in the robot control system 12150 may then
+generate the control instructions to drive the actuators
+enabling the MPR 12100 to move, navigate in the environ-
+ment and perform various tasks.
+In embodiments, the motion planning system (MPS)
+12158 may be configured to control the motion of MPR
+12100 or portions thereof (e.g., end effectors, end of arm
+tools). In embodiments, a motion planning system (MPS)
+12158 may specify a series of transition that the MPR 12100
+can follow getting from a “"start state" and navigating to a
+"goal state" without colliding with any obstacles in the
+environment. In embodiments, the start state and the goal
+state may be determined based on the task or sub-task to be
+performed. The start state and goal state may be expressed
+as positions of the robot, poses of the robot, geolocations of
+the robot, and/or the like.
+In some embodiments, the MPS 12158 may take as input
+one or more images and other sensor data from a vision and
+sensing system as well as information indicative ofthe“"start
+state" and the “"goal state" (e.g., from the navigation system
+12154 or other suitable component). In embodiments, the
+MPS 12158 may then build a motion plan for the robot. In
+some embodiments, the motion plan is a motion planning
+graph that represents the geometric structure of the envi-
+ronment with the states of the MPR 12100 as nodes and
+transitions between the states as edges of the graph). In
+embodiments, a graph search may be performed to find a
+path between the nodes representing the “start state"' and the
+"goal state" The MPS 12158 may also perform collision
+assessment determining the probability of collision between
+the MPR 12100 and one or more obstacles in the path and
+assign cost values to edges of the graph based on the
+probability of collision for the corresponding transition. The
+MPS 12158 may perform a least cost analysis on the motion
+planning graph to determine a set of transitions or path from
+the “start state" to the “goal state". In embodiments, the
+MPS 12158 may coordinate with intelligence layer 12140
+and navigation system 12154 to implement a navigation
+policy with the identified set of transitions or path. The MPS
+12158 may also coordinate with controller 12160 to generate
+control instructions to actuate one or more actuators or
+motors in the MPR 12100 so as to execute the motion plan.
+In embodiments, theMPS12158may be configured to
+identify an optimal collision free path in a 3D workspace
+while taking into account various kinematic, geometric,
+physical and temporal constraints as well as account for
+additional constraints including complex tasks (e.g.
+manipulation of objects) and uncertainty (the movement of
+the one or more obstacles). Collision detection determines if
+the volume in 3D space swept by the MPR 12100 moving
+from one state to another collides with any obstacles. The
+surface of the swept volume and the obstacles may be
+represented as polygons and collision detection involves
+computing whether these polygons intersect.
+In embodiments, the MPS 12158 may utilize one or more
+machine learning models 12664 in the intelligence layer

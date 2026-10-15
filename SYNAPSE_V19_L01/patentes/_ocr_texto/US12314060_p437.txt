@@ -1,0 +1,138 @@
+The policies may be defined and updated in any suitable 55 may determine the governance standards that apply to the
+[col 1]
+US 12,314,060 B2
+509
+ing). Moreover, the right technique to grasp may differ based
+on the object characteristics. For example, the points at
+which to grasp the object and the force that may be applied
+while grasping may be very different for different objects
+(e.g., depending on consistency, fragility, shape, size, and/or
+the like). The MPR 12100 may need to work with a very
+wide variety of objects with different shapes or forms like
+glasses, boxes, boxes with side handles, markers, flower-
+pots, manufacturing parts, machine tools, desks, chairs,
+lamps and the like and may require different techniques and 10
+accessories to grasp and pick up such objects. The task
+layer i2140 to identify object characteristics and adapt the
+policy based on such characteristics. For example, the force
+applied during grasping an object may be adjusted based on 15
+whether the object is made of delicate materials like glass or
+ceramic as opposed to when the object is made of metal. As
+another example, the MPR 12100 may use side handles to
+grasp a box when such handles are available. Accordingly,
+the task management system 12144 may also work with the 20
+module management system 12148 to identify and select a
+suitable end effector 12124 or other accessory required to
+complete the task.
+In embodiments, when a suitable end-effector is not
+found, the task management system 12144 may leverage the 25
+intelligence layer 12140 (e.g., machine learning services,
+RPA services, and/or the like) to determine and/or design an
+end effector 12124 or other accessory for executing the task,
+which may be subsequently ordered or printed. In the latter
+scenario, the task management system 12144 can utilize an 30
+additive manufacturing system and its associated design
+advantages, to print the suitable end-effector that meets the
+task requirements and specifications as defined by the task
+management system 12144.
+In embodiments,thetask management system 12144may35
+include one or more policy libraries that define a set of
+pre-trained policies for performing common robotic tasks.
+The policies are simply the sequence of actions that need to
+be taken by the MPR 12100 for performing a task. Some
+examples forcommontasksforwhichpolicies maybe 40
+provided include, navigating, grasping, lifting, transporting,
+counting, sorting, stacking, cleaning, twisting, bending,
+compacting, drilling, polishing, loading/unloading, assem-
+bling/disassembling. packaging/unpackaging:, palletizing/
+depalletizing, grinding, welding, painting, sealing, planting, 45
+harvesting, cutting, pruning, weeding, and/or the like. In
+embodiments, the policy libraries may include multiple
+additive or nested learning loops for complex or multi-step
+tasks. For example, transporting the object from source to
+destination may involve grasping and lifting the object, and
+50
+then navigating to the destination and placing the object
+there. In embodiments, the policy libraries may refer to task
+definitions available in library 12314 to ensure consistency
+with the overall job assignment.
+manner In some embodiments, the policies may be defined
+by a human user (e.g., a programmer): In some embodi-
+ments, the task management system 12144 may work with
+the intelligence layer 12140 (e.g., an RPA service) to learn
+and optimize policies based on the quality of task comple- 60
+tion (where quality may be measured by metrics such as
+breakage, task completion rate, safety, accuracy, etc.). In
+some embodiments, the policies may be pre-trained using
+training data collected from expert demonstrations. For
+instance, the training data for welding may be obtained from 65
+an expert welding professional engaged in the act of weld-
+ing. The data may be obtaining from real-world setting like
+[col 2]
+510
+a manufacturing workshop or from a controlled environ-
+ment. In some embodiments, the policies may be pre-trained
+using training data collected from simulation environments.
+For instance, the training data for grasping may be obtained
+using a digital twin system performing simulations using the
+arm and one or more of end effectors.
+In embodiments, the policies may be pre-trained on a
+wide variety of objects and may be adapted based on
+characteristics of the object on which the policy is applied.
+For example, to train the grasping policy, the digital twin
+system 12630 may perform simulations on different objects
+including glasses, boxes, boxes with side handles, markers,
+flowerpots, manufacturing parts, machine tools, desks,
+chairs. Also, transfer learning may be used for adapting or
+tuning data collected for one task on another related task.
+For example, transfer learning may reuse a model developed
+for one task as the starting point for a model on a second
+related task.
+In some embodiments, the intelligence layer 12140 may
+employ transfer learning for domain adaptation. For
+example, one or more transfer learning algorithms may be
+used for adapting the data collected by the digital twin
+system in the simulation environment to the real-world
+environment. In embodiments, the intelligence layer 12140
+may employ adversarial training for domain adaptation. For
+example, a Generative Adversarial Networks (GAN) may be
+used to generate synthetic data for the real-world environ-
+ment, which is then used for training. Also, specialized
+neural networks like Domain-Adversarial Neural Network
+(DANN) by Ganin et al may be used for domain adaptation.
+Robot-Level Intelligence Layer
+In embodiments, the robot-level intelligence layer 12140
+of the MPR 12100 may be configured as part of a broader
+intelligence system (e.g., the intelligence services system
+12200 of FIG.130) as described above. In embodiments, the
+robot-level intelligence layer 12140 provides intelligence
+services to the MPR 12100, thereby enabling the MPR
+12100 to make decisions, predictions, classifications, or the
+like. In embodiments, the robot-level intelligence layer
+12140may include capabilitiestoperform some orallof the
+intelligence services that are consumed by the MPR 12100
+and/or may be configured to request intelligence services
+from an external source (e.g., another robot, an edge device,
+and/or the fleet management platform).
+In embodiments, the intelligence layer 12140 may include
+the intelligence layer controller 12141 and a set of artificial
+intelligence (A) services 12143. In embodiments, the intel-
+ligence layer controller 12141 may include an analysis
+management module 12600, a set of analysis modules
+12610, and a governance library 12620. In embodiments, the
+analysis management module 12600 receives a request for
+an artificial intelligence service and determines the gover-
+nance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 12600
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with
+respect to the requested decision. For example, a request for
+a control decision that results in the MPR 12100 navigating
+to a nuclear waste treatment site may implicate a certain set
+of governance standards that apply, such as safety standards,
+legal standards, quality standards, regulatory standards,
+financial standards or the like, and/or may implicate one or
+more analyses regarding the control decision, such as a risk
+analysis, a safety analysis, an engineering analysis, or the
+like. In embodiments, the governance standards may be
+defined as a set of standards libraries stored in a governance

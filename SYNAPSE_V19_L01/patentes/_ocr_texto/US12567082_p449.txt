@@ -1,0 +1,137 @@
+perform other intelligence-based tasks with respect to the 35 simulation system to optimize the task definitions.
+[col 1]
+US 12,567,082 B2
+575
+workflow definition system) may reference a library 13044
+to identify content and structural filters for distinguishing
+smart container automation job content from other job
+content (e.g., cost, payment, financing, etc.), preconfigured
+candidate tasks, workflows, and/or completed job configu-
+rations that substantially meet the requirements of the freight
+storage and/or transportation service order. In embodiments,
+the library 13044 or another job configuration library may
+facilitate mapping indicia of the job content with target
+terms that indicate smart container automation. As an 10
+example of a use of an automated task from the library
+13044, a requested freight transportation service may
+include a requirement for measuring the temperature inside
+the smart container using a set of temperature sensors. The
+job parsing system may identify the temperature measure- 15
+ment requirement, and in response, the task definition sys-
+suring container temperature in the library 13044 that meets
+the requirements of that portion of the freight storage and/or
+transportation service order, which may be used in defining 20
+the order execution plan. If job configuration system 13018
+determines that a suitable job configuration is available (e.g..
+from the library 13044), such as if the freight storage and/or
+transportation service ordered had previously been
+requested, the job configuration system 13018 may use a 25
+previous job configuration corresponding to the previously
+requested job as a proposed job configuration for further
+validation with current fleet standards and the like. For
+example, the intelligence service 13004 may analyze the
+proposed job configuration (e.g., with one or more intelli-
+30
+gence services, including without limitation a machine
+learning service) with respect to a set of governance stan-
+dards to ensure that the proposed job configuration comports
+with said standards. The intelligence service 13004 may
+proposed job configuration.
+In some scenarios, the job configuration system 13018
+may determine that one or more tasks, workflows, routines,
+and the like do not have a suitable counterpart in the library
+13044.In such a scenario, the job parsing system may
+generate a data set that includes smart container-fleet
+focused requirements (e.g., task definition parameters, smart
+container configuration parameters, suggested task order,
+and the like) for performing the task that is passed along to
+other shipment configuration system modules for process- 45
+ing. In embodiments, the job parsing system may rely on the
+intelligence service 13004 for suggestions of such require-
+ments, including combinations of tasks that when optionally
+adapted may satisfy the job requirement.
+In embodiments, the job parsing system may include 50 1
+and/or interface with the analysis modules/governance
+libraries of the intelligence service 13004 of the system
+13000. The job parsing system may leverage the gover-
+nance-based analyses by providing portions of the candidate
+ smart container automation portions of the job content (e.g-, 55
+terms and the like) for processing. The intelligence service
+13004 may, in response to the provided portion of job
+content, provide and/or indicate one or more of safety
+standards and/or one or more of operational standards to be
+applied during preparation of the order execution plan by the 60
+job configuration system 13018.
+In embodiments, the job parsing system may include a job
+requirements module that produces a set of freight storage
+and/or transportation service order instance-specific require-
+ments for use when the job configuration system 13018 65
+defines smart container tasks, configures fleet resources,
+defines workflows, simulates workflows, generates an order
+[col 2]
+576
+execution plan, and/or the like. In embodiments, the set of
+freight storage and/or transportation service order instance-
+specific requirements may be determined based on at least
+one or more of: the candidate portions of the job content that
+indicate smart container automation (e.g., terms that indicate
+a smart container task), one or more inputs from the user
+interface (e.g., clarification of terms), safety and operational
+standards (e.g., from the governance layer), and a recom-
+mended smart container task and associated contextual
+information (e.g., provided by a fleet intelligence service).
+In embodiments, the job parsing system may apply con-
+tent filters and/or structural filters to identify structural
+elements in the job content that may indicate one or more of
+tasks, sub-tasks, task ordering, task dependencies, task
+requirements, and the like. In embodiments, the detected
+structural elements may facilitate selection and configura-
+tion of smart container operating units by, for example, the
+fleet configuration system 13020. In an example,a structural
+element that distinguishes a set of tasks may be used by the
+fleet configuration system to avoid assigning the same smart
+container operating unit to tasks within the set of tasks
+delineated by the structural element and tasks outside of the
+set.
+In embodiments, the job parsing system may incorporate
+and/or utilize a freight storage and/or transportation service
+order configuration agent/expert system that may be con-
+structed to facilitate developing job description parsing
+capabilities.
+In embodiments, the task definition system may organize
+job data into task definitions (e.g., discrete smart container
+tasks or tasks performed by smart container teams). The task
+definition system may further coordinate other systems of
+the job configuration system 13018, such as a workflow
+In embodiments, the task definition system may refine job
+data compiled by the job parsing system to facilitate defining
+discrete operations of one or more smart container operating
+units in the fleet of smart containers in performance of a
+requested job.Defining tasks may be based on information
+regarding smart containers, shipping container ports, con-
+tainer ships, railways, trucks, hyperloops, smart container
+types, smart container features, and smart container con-
+figurations that can perform a defined task. In embodiments.
+the task definition system may further provide information
+in task definitions that facilitate a fleet configuration system
+13020 in determining use of smart containers for each
+defined task. In embodiments, the task definition system
+may reference the library 13044, the intelligence service
+13004, or other system-specific or accessible resources
+when making task suggestions.
+As the task definition system defines the tasks of a job, the
+task definition may be cataloged and stored for future use,
+such as in the library 13044. In some embodiments, the task
+definition system may adapt a task definition from a previ-
+ously cataloged task definition (e.g., adapting a task defini-
+tion for a particular type of environment or certain condi-
+tions thereof from a previously catalogued task definition).
+In these embodiments, the task definition system may cata-
+logue the derivative task definition in the library 13044 with
+adaptation instructions. In some embodiments, a task defi-
+nition that is catalogued in the library 13044 may be
+associated with an already cataloged task definition and/or
+may replace an already cataloged task definition, may be
+cataloged as a sub-task of an existing task, and the like. In
+general, task definition may include associated tasks, seri-
+alized tasks, nested tasks, and the like.

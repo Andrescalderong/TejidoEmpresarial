@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+453
+robot operating unit control signaling, such as when a team
+supervisor robot is directing one or more robot team mem-
+bers to perform tasks. Other examples of remote-control
+signal management may include human-to-exoskeleton sig-
+naling, robot-to-robot fleet support signaling, intra-team
+robot operating unit signaling, and the like.
+In embodiments, the fleet operations system 12002
+includes a remote-control system 12012 that is constructed
+to assist the job execution system 12022 and provide a
+framework for remotely controlling robot operating units 10
+and other external resources to complete tasks and/or jobs.
+The remote-control system may manage definition and use
+of control signals for remote operation of robot operating
+units (e.g-, multi-purpose, special purpose, exoskeleton,
+humans, and the like), fleet support units, external resources 15
+and the like. Robot remote-control as enabled by the remote-
+control system 12012 may include definition and manage-
+ment of local robot operating unit to robot operating unit
+control signaling, such as when a team supervisor robot is
+directing one or more robot team members to perform tasks. 20
+Other examples of remote-control signal management may
+include human-to-exoskeleton signaling, robot-to-robot fleet
+ support signaling, intra-team robot operating unit signaling,
+and the like. In embodiments, the remote-control system
+uses resources of the fleet management platform 12000 25
+and/or a fleet configuration, including, for example, the fleet
+communication management system 12010, the fleet secu-
+rity system 12006, and/or fleet network system 380 to access
+information, in some cases make decisions, and execute
+commands. The framework for remotely controlling robot
+operating units may comprise a series of actions based
+standard rules, adapted rules modified by situational aware-
+ness, emergency rules, exceptions, human decisions, ethical
+rules, the fleet intelligence system, etc. However, special-
+ized, fall-over, or other communications necessary to handle 35
+a range of remote-control requirements may be part of the
+communication management system 12010 that may facili-
+tate delivery of remote control communication/signaling
+while what the communications should be versus may be
+determined from use of the remote-control system 12012. 40
+The remote-control system 12012 may recognize a plu-
+rality of initiators of remote-control signals, including local
+supervisor remote-control initiators, human (local or
+remote) remote-control initiators, automated fleet-based
+remote-control initiators (e.g-, fleet artificial intelligence 45
+system and the like), third-party remote-control initiators
+(e.g., for law enforcement and the like). Remote control
+ signaling may include managing remote control signals to
+fleet-external resources, such as fire and emergency
+response resources, infrastructure resources, third-party 50 
+robot service providers, and the like.
+The fleet resources that may participate in remote-control
+operations may be diverse in both implementation and
+protocols, such as older generation robot operating units,
+human fleet resources, quantum computing elements and the 55
+like. Therefore, the remote-control system 12012 (in coop-
+eration with the communication system 12006) may be
+constructed with knowledge of multiple remote operational
+protocol (multi-protocol) capabilities to ensure any two
+devices exchanging control signals can do so reliably. In 60
+embodiments, multi-protocol capabilities may include han-
+dling and/or providing as a service protocol-to-protocol
+translation, remote-control signal consolidation and inter-
+pretation, protocol normalization, and the like. In embodi-
+ments, the communication management system 12010 may 65
+utilize these protocol handling capabilities directly as noted
+above and by API and the like, or by being configured with
+[col 2]
+454
+such protocol handling capabilities (e.g., deployed with
+protocol handling capabilities of the remote-control system
+12012. In embodiments, the remote-control system 12012
+(or equivalent functions thereof integrated with the commu-
+nication management system 12010) may rely on portions of
+the fleet intelligence layer, such as digital twin and/or
+artificial intelligence service, to facilitate, for example pro-
+tocol translation and/or adaptation. Therefore, the remote-
+control system 12012 may provide real-time, on demand
+protocol translation, optionally assisted by the fleet intelli-
+gence system. The remote-control system 12012 may sup-
+port fleet-external remote-control via a port that is config-
+ured for integration with external and/or third-party remote-
+Remote-control control architectures. may be
+communicated via dedicated infrastructure and/or commu-
+nication features (e.g., short-distance broadcast capabilities).
+A remote-control system 12012 may include an ethics
+capability that may provide guidance and/or regulation of
+remote control based on ethics factors, such as ensuring that
+a robot does no harm to humans, animals, the environment,
+and the like. Ethics factors may be influenced by govern-
+ment and/or industry regulations, human behavior models
+that facilitate determining fairness, and the like. Ethics may
+be enforced through statistical measures, such as based on
+voting by member of a team of robot operating units. As an
+example of statistics-based ethics enforcement, an action to
+override a job execution plan, an attempt at a remote
+takeover of a robot operating unit, or any other exception
+t 30 may be evaluated by a portion of team members wherein
+each member of the portion may contribute a perspective on
+the remote operation. Each perspective may be a vote
+for/against permitting/taking the remote-control action. A
+robot operating unit vote may be split among possible
+0utcomes (e.g., 90% for, 10% against) and the like to enact
+a form of weighting of the perspective on possible outcomes.
+The remote-control system 12012 may be constructed to be
+influenced by ethics-based decision making, such as robot
+operating unit voting as described herein. Ethics-based con-
+trol, and the like, may be combined with other remote-
+control system 12012 control capabilities so that factors
+beyond ethics, such as cost, and the like may be factored into
+remote-control. In embodiments, ethics capabilities may be
+leveraged via the intelligence layer 12200. In these embodi-
+ments, remote control instructions may be analyzed using
+one or more analysis modules 12208 and/or and with respect
+to one or more set of governance standards.
+Remote-control, such as control of robot operating units
+may be initiated, at least in part, by a human operator. In
+embodiments, a fleet operations system 12002 may encoun-
+ter unexpected and/or unknown conditions during job execu-
+tion (e.g., as may exemplarily be reported by the job
+execution system 12022) and defer to a human operator to
+remotely control robot operating unit(s). Optionally one or
+more fleet intelligence system 12022 components, such as
+an artificial intelligence system may be referenced for at
+least candidate remote-control signals. In embodiments, a
+job execution plan may indicate, at a predetermined opera-
+tional task, that robot operation should be guided by a
+human operator. When such a task is anticipated to occur in
+a job workflow (e.g., by a job execution monitoring instance,
+such as a supervisor robot and the like), the remote-control
+system 12012 may be called upon to oversee a remote-
+control connection between a suitable human operator and
+the robot, robot operating units, team, team supervisor and
+the like executing the workflow that calls for human opera-
+tor control.

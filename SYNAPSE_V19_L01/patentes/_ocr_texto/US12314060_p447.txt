@@ -1,0 +1,136 @@
+unit(s) that is/are assigned to the respective service or task. 35 system, or a semi-autonomous storage condition system,
+[col 1]
+US 12,314,060 B2
+529
+ment system 13002 may determine a smart container fleet
+configuration that includes a set of smart container operating
+units and may assign smart container operating units to the
+freight storage and/or transportation service order. As used
+herein, a smart container operating unit may refer to an
+individual smart container, a team of smart containers, a fleet
+of smart containers that operate to complete a request, or the
+like. As will be discussed, in some embodiments, the smart
+container fleet management system 13002 may define a
+configuration of one or more smart containers to execute a 10
+freight storage and/or transportation service order and/or to
+operate in a certain type of environment as part of the fleet
+configuration. As will be discussed, a smart container may
+be configured with various modules that allow the smart
+container to perform certain tasks. For instance, a smart 15
+container may be provisioned with specialized devices and
+systems, such as IoT devices (including cameras and sensor-
+based devices), edge network devices, chipsets, chips and
+other devices that have data storage, computation, process-
+ingand/or connectivity capabilityto enablethesmartcon- 2o
+tainer to perform intelligence tasks; specialized sensors for
+particular environments; liquid lenses for enabling certain
+machine-vision functionality; specialized robots that per-
+form certain tasks, specialized tools and/or systems that are
+task specific (e.g., lighting, irrigation systems, heating, cool- 25
+ing, 3D printer, clamps, grippers, drils, lifts, cranes, con-
+veyors, mixers, forklifts, and/or the like); smart ramps and
+the like; and/or other modules that configure the smart
+container to perform a certain task or set of tasks.
+In some embodiments, the smart intermodal container 30
+system's fleet management system 13002 may define a set of
+workflows, wherein a workflow may define an order by
+which certain freight storage and/or transportation services
+or tasks are performed and the smart container operating
+In some embodiments, the smart container fleet management
+system may perform workflow simulations to iteratively
+redefine fleet configurations and/or workflows to substan-
+tially optimize the operation of the smart container fleet. For
+example,thefleetconfigurationsand/orworkflowsmaybe 4o
+ciencies, reduce the overall shipment time, reduce carbon
+emissions, or the like. Once the fleet configuration and
+workflows are finalized, the smart container fleet manage-
+ment system may deploy the fleet. In some embodiments, 45
+the smart container fleet management system may facilitate
+the logistics involved with supplying smart container oper-
+ating units and/or smart container components, and/or sup-
+porting resources. Furthermore, in some embodiments, the
+additive manufacturing capabilities, such as 3D printers or
+other capabilities described herein, in furtherance of accom-
+modating localized preferences with rapid customization,
+such that items that are capable of being 3D-printed within
+the smart container as it approaches a destination. In 55
+embodiments, the smart container fleet management system
+may monitor the smart container fleet, including the status of
+smart container operating units, the performance of smart
+container units (e.g., timing performance, financial perfor-
+mance, or the like), the status of cargo contained within the 60
+ smart container, and the like. In some of these embodiments,
+the smart container system 13000 may automate mainte-
+nance of smart containers and/or resources to ensure an
+efficient use of an available inventory and/or to reduce
+downtime. 55
+In embodiments, the smart container system 13000 may
+automatically govern the storage conditions of a set of items,
+[col 2]
+530
+such as by classifying the items (such as using a machine
+vision-based artificial intelligence system that is trained on
+a training set of data to recognize items by type); determin-
+ing the appropriate storage conditions for the set (which may
+include factoring in, such as based on an economic or other
+model, the value of items that may have different optimal
+storage conditions, which may also be undertaken by an
+artificial intelligence system, such as one trained on expert
+interactions with a model, expert instructions or setting of
+storage conditions and/or outcomes from operations, among
+others); and providing an instruction set for storage, such as
+a set of temperature profiles, humidity profiles, movement
+profiles (e.g., to avoid excessive shaking of fragile goods)
+and the like, which may be taken as a recommendation for
+further consideration (such as by a human operator or other
+entity) or used an input to an autonomous or semi-autono-
+mous control system for the environment. An AI or expert
+system may include a variety of factors in determining
+appropriate storage, including factors related to the sensi-
+tivity of contents to shaking, temperature variations, humid-
+ity, radiation, chemical factors (e.g., corrosion from salt),
+and many others; factors related to value of contents (such
+as the price, cost, or profit margins of contents, including
+based on market factors, contractual terms, risk allocation,
+and the like); and transportation factors (such as equipment
+conditions, road, waterway, airway or railway conditions,
+weather conditions, and the like); and others. Over time,
+input factors may be added or removed depending on the
+success of artificial intelligence systems (including model-
+based, deep learning, or other systems), which may be
+seeded with expert models, trained on expert-labeled data
+sets and/or upon expert interactions (such as using robotic
+process automation) and/or trained on outcomes from use.
+Thus, a self-governing or autonomous storage condition
+may be integrated with or into a container system.
+In some embodiments, the smart container system may
+support digital twins that depict the status of the smart
+container operating units and/or performance based on data
+received from the smart container operating units or other
+suitable data sources, such as edge devices, environmental
+sensor systems, logistics systems, and/or other suitable data
+sources. The digital twins served by the smart intermodal
+container system may be adapted for various uses. In some
+example embodiments, a digital twin may be configured to
+provide a status of a smart container fleet, including indi-
+vidual smart containers within the fleet. In these examples,
+a user may drill down onto individual smart containers in a
+team or fleet of smart containers to view the status of the
+ smart containers. For example, the user may view the battery
+life of a smart container, the availability of smart container
+energy sources and/or charging stations, the location of a
+smart container, the mobility options for the smart container,
+the status of cargo within the smart container, task comple-
+tion status of a smart container, maintenance alerts of a smart
+container, and/or the like. In some example embodiments,
+the smart container system may serve environment digital
+twins that depict the environment of a smart container fleet
+with real-time information, such as locations of available
+smart container infrastructure and/or modes of transport
+(e.g., container ships, submarines, spacecraft, hyperloops,
+railways, trucks, or the like), facilities (e.g., container ter-
+minals, shipyards, storage areas, or the like), objects, other
+smart containers, sensor readings of the environment, and
+the like. In these embodiments, a user may leverage an
+environment digital twin to provide remote control com-
+mands to a smart container, a team of smart containers, or a

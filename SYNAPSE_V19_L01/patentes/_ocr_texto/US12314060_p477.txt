@@ -1,0 +1,139 @@
+identifier), smart container operating unit capabilities, and 20 rely on a fleet team organizer module that assists in deter-
+[col 1]
+US 12,314,060 B2
+589
+fleet configuration proxy module are further described in
+association with the job configuration system 13018 herein.
+The fleet configuration proxy module may process task
+definitions and forward them to fleet resource identification
+systems, such as a fleet smart container operating unit
+identification and a fleet non-smart container operating unit
+identification system. Each of these identification systems
+may process the task definition data provided through the
+fleet configuration proxy, separating operational data from
+fleet resource data. A task definition may describe a set of 1o 
+fleet resources required to perform the task, such as types of
+smart container operating units, support resources (e.g.,
+power systems, robots, cranes, communication systems, and
+the like). The smart container operating unit type identifi-
+cation system may provide job-specific smart container 15
+operating unit demand data to the fleet configuration sched-
+uler. The job-specific smart container operating unit demand
+data may identify types and quantities of smart containers,
+specific smart container operating units (e.g., by unique
+the like.
+In some embodiments, a fleet configuration scheduler
+may respond to a freight storage and/or transportation ser-
+vice order by allocating fleet resources to meet the freight
+storage and/or transportation service order needs. These 25
+needs may be preprocessed, as described herein by a job
+configuration system 13018 and specifically by the task
+definition system to facilitate fleet configuration, allocation,
+and scheduling. The fleet configuration scheduler processes
+inputs that describe fleet inventories, such as smart container 3o 1
+operating unit inventories and traditional container operat-
+ing unit inventories to identify candidate inventory elements
+for satisfying a freight storage and/or transportation service
+order. These inventories may be adjusted based on existing
+allocations of smart container operating units and traditional 35
+container operating units. As an example, all smart contain-
+ers of a type identified in the smart container operating unit
+job-specific demand data may be allocated throughout a
+duration of time within which a requested job is constrained
+to be performed. The fleet configuration scheduler (e.g., with 40
+support from other system resources such as intelligence
+service 13004, resource provisioning system 13014 and the
+like) may allocate, based on conditions in the freight storage
+ and/or transportation service order and smart container type,
+equivalence data available to the fleet configuration sched- 45
+uler, a smart container for the activities requested. To
+accomplish this allocation, an intelligence service 13004
+may be provided with information descriptive of the func-
+tionality to be provided by the smart container indicated in
+the job-specific demand data and information descriptive of 50
+the tasks and/or activities required to be performed by the
+smart container. Other context, such as differences in speci-
+fications for performing tasks by a properly configured smart
+container, may also be available to the intelligence service
+13004. Through use of artificial intelligence, which may 55
+include determining an impact on an overall freight storage
+and/or transportation service order based on use of the two
+different smart container types, the intelligence service
+13004 may provide smart container substitution guidance to
+the fleet configuration scheduler. This guidance may result in
+60
+allocation of a smart container and necessary configuration
+data/features for use when executing an order execution plan
+that corresponds to the freight storage and/or transportation
+service order that prompted this fleet configuration sched-
+uling activity.
+In embodiments, a task definition may include recom-
+mendations for one or more types of smart containers (e.g..
+[col 2]
+590
+based on alignment of, for example, task requirements,
+smart container characteristics, and smart container types),
+and a preferred type may be designated in the task definition.
+The fleet configuration scheduler may rely on other fleet
+ systems, such as a resource provisioning module 13014 that
+may contribute to and/or determine provisioning of fleet and
+third-party resources and supplies.
+The intelligence service 13004, the resource provisioning
+module 13014 and other fleet systems, including the fleet
+configuration scheduler may interact with a fleet configura-
+tion modeling system that may facilitate generation of fleet
+configuration options that can be considered by the fleet
+configuration scheduler when configuring a fleet in response
+to job configuration activities and the like. The fleet con-
+figuration modeling system may provide simulation of fleet
+configurations, such as by using fleet digital twins, which
+may optionally be associated with a digital twin module
+13420 of the intelligence service 13004.
+In embodiments, the fleet configuration scheduler may
+mining and/or effecting team configurations. Job-specific
+data may identify (e.g., recommend) set(s) of smart con-
+tainer operating units to be configured as teams. Also,
+job-specific data may indicate information that may be
+indicative of configuring teams, such as co-location of smart
+containers at a container terminal and the like. The fleet team
+organizer module may confirm and/or designate team meta-
+data for use when configuring a fleet. The team metadata
+may indicate team membership and time frame for the
+membership (e.g., from one date to another, from a start of
+a task until the task is complete, and the like).
+The fleet configuration scheduler may update fleet allo-
+cation data sets (that may be used by fleet resource allocation
+and/or reservation capabilities described herein), such as the
+fleet smart container operating unit allocation data set and
+the fleet of non-container operating unit allocation data set
+with fleet configuration allocation information based on
+configuration(s) generated for the job-specific demand data
+provided. The various inputs, including fleet configuration
+impacting external data 13036 (e.g-, weather, location data,
+traffic data, industry standards, job-specific contextual infor-
+mation, and the like) may be processed, optionally itera-
+tively, by the fleet configuration scheduler to produce,
+among other things, fleet configurations that may be
+returned to an executing instance of a job configuration
+system 13018 via the fleet configuration proxy module.
+In embodiments, a workflow definition system may be
+constructed to generate definitions of workflows for
+requested jobs utilizing resources of the smart container fleet
+management system. The construction of the workflow
+definition system may include an ingestion module that
+receives and processes task definitions that may be provided
+from the task definition system or sourced from the library
+13044, and job specific fleet configuration information that
+may be provided from job configuration system 13018
+interactions with the fleet configuration system 13020 (e.g.
+via the fleet configuration proxy module).
+Ingestion of task definitions and/or fleet configuration
+information may include aligning the fleet configuration
+information with one or more task definitions. As an
+example of aligning tasks with fleet configuration informa-
+tion, fleet configuration information may be tagged as apply-
+ing to one or more tasks in the set of task definitions
+ingested, such as with an identifier of the task or tasks. Other
+65 ways of aligning task definition(s) with fleet configuration
+information may be based on timing of such ingestion so
+that, for example, when a fleet configuration reference/value

@@ -1,0 +1,134 @@
+[col 1]
+US 12,314,060 B2
+459
+In embodiments, the fleet operations system 12002
+includes a logistics system 12015 that handles, among other
+things, logistics planning and execution for meeting job
+requirements, maintaining robots, maintaining availability
+of fleet resources (robot operating units, physical resources,
+and the like), pickup and delivery of parts (e.g., replacement
+parts, end effectors, supplies, and the like). In some embodi-
+ments, the logistics system 12015 may be configured to
+identify availability and locality of 3D printing resources to
+satisfy demand that otherwise might not be feasible through
+conventional logistics (e.g., truck-based) transport means. In
+embodiments, the logistics system 12015 can leverage intel-
+ligence services, such as machine learning systems and/or
+artificial intelligence systems to recommend logistics plans.
+Logistics plans may refer to a workflow that is generated 15
+to result in the delivery of a set of items to a particular
+location. In embodiments, the logistics system 12015 may
+generate logistics plans that utilize fleet resources, such as
+transport type robots for execution of a logistics plan. Other
+than fleet resources may be utilized, such as common 20
+carriers, for-hire over-the-road truckers, private delivery
+couriers, and the like. A determination of which resource to
+use for execution of a logistics plan may be based on costs
+and availability of resources. For example, the logistics
+system 12015 may determine that there are available fleet 25
+third-party trucking service to deliver the available resources
+from a remote location and, in response, the logistics system
+12015 may select the available resources over the third-party
+trucking solution. In embodiments, the fleet operation sys- 30 i
+tem 12002 may leverage the (platform-level) intelligence
+layer 12004 to assist in logistics planning and decision-
+making.
+In embodiments, the fleet operations system 12002
+includes a maintenance management system 12026 that may 35
+be configured to schedule and effectuate maintenance for
+fleet resources, such as robot operating units. A maintenance
+management system 12026 may handle field maintenance
+needs and requests, including scheduled maintenance of
+fleet recourses in the field to mitigate impact on robot 40
+operating unit utilization due to travel from a deployed job
+site to a repair depot. The maintenance management system
+12026 may also coordinate maintenance and repair opera-
+tions at repair depots, and the like. Further the maintenance
+management system 12026 may work cooperatively with 45 
+other platform systems, such as a logistics system 12015 to
+cause maintenance to be performed during transport of a
+fleet resource, such as a robot operating unit, between job
+sites. In embodiments, a maintenance management system
+12026 may include, provide access to, and/or be integrated 50
+with mobile maintenance vehicles, spare parts depots, third-
+party maintenance service providers and the like. In embodi-
+ments, maintenance needs for fleet resources housed in
+storage areas, such as warehouses, remote inventory depots
+and the like may be evaluated by the maintenance manage-
+ment system 12026 for pre-scheduled maintenance, such as
+when a preventive maintenance activity for a robot is
+upcoming so that the robot is less likely to require mainte-
+nance during a deployment.
+In embodiments, the maintenance management system 60
+12026 may monitor the state of the fleet resources, such as
+robot operating units via resource state reports that may be
+provided on a scheduled basis or in response to an inquiry
+for robot operating unit state by the maintenance manage-
+ment system 12026 and the like. In embodiments, the 65
+operating unit communication for an indication of a poten-
+[col 2]
+460
+tial service condition, such as a robot operating unit signal-
+ing to a supervisor robot that it is experiencing reduced
+power output, a robot operating unit reporting exposure to
+certain ambient conditions (e.g., excessive heat), a lack of
+heartbeat signal from a robot operating unit to a robot health
+monitor resource, and the like. Further, a maintenance
+management system 12026 may deploy probes within robot
+maintenance management functions on a robot operating
+1o unit, such as monitoring information in a robot data store
+that stores robot operating unit state information, activating
+self-test operating modes, collection of data that provides
+indications of robot maintenance needs and the like. Yet
+further a maintenance management system 12026 may
+include maintenance robots that may be deployed with other
+requested job. A maintenance robot may be a configuration
+of a multi-purpose robot deployed with a robot team. Such
+a configuration may be temporal within bounds of a team
+deployment. A multi-purpose robot deployed for performing
+tasks of a job workflow may be reconfigured dynamically
+(and optionally temporarily) while deployed to a team to
+perform maintenance actions on other robots and fleet
+resources.
+A maintenance management system 12026 may be con-
+structed to take advantage of a range of platform services
+and capabilities to schedule and effectuate maintenance,
+including leveraging human/operator input (e.g, a human
+observer may indicate that a robot operating unit appears to
+be operating erratically), robotic process automation of
+maintenance activities, artificial intelligence for predicting
+maintenance instances for scheduling, machine learning to
+help identify new opportunities for scheduling and perform-
+ing maintenance (e.g., analyze performance of robot oper-
+ating units that have been maintained for certain conditions
+before performing certain tasks under those conditions, such
+as replacing air filters before performing tasks in a dusty
+environment), and the like. In embodiments, a maintenance
+management system 12026 may receive maintenance related
+input. Maintenance related input may include maintenance
+requests from robot operating units (for the requesting robot
+operating unit or for another robot operating unit, such as a
+companion robot operating unit). Maintenance related input
+may include request from or for maintenance of edge
+devices (e.g., fixed infrastructure devices, fleet resources,
+job site proximal and/or job-specific edge devices, such as
+edge devices deployed at a job site by a job requestor and the
+like). Other candidate sources of maintenance related input
+may include supervisor robot operating units, human opera-
+tors/observers, maintenance scheduling services, third-party
+service providers, robot production vendors, and parts pro-
+viders to schedule maintenance. The maintenance manage-
+ment system 12026 may also leverage business rules (e.g.
+rules established for a team, fleet, by a job requestor,
+determined by a regulatory agency and the like), association
+tables, data sets, databases, and/or maintenance management
+libraries to determine appropriate maintenance workflows,
+service actions, needed parts and the like. In embodiments,
+a maintenance activity may be assigned by the maintenance
+management system to a fleet resource, such as a mainte-
+nance robot, a human technician, a third-party service pro-
+vider and the like.
+In embodiments, robot operating units that are deployed
+may be configured with one or more maintenance protocols
+to perform, among other things self-maintenance, such as
+structures to maintain a high degree of mobility, and the like.

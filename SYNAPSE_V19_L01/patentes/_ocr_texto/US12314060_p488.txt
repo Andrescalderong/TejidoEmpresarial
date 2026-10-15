@@ -1,0 +1,132 @@
+based on data including the vibration data for the second 25 module. In embodiments, the adapter module may convert
+malfunction of the respective sensor or another fault condi- 45 actions may be modeled using historical data that is col-
+within the smart container. The costs and benefits may 55 time and modeling said performance.
+[col 1]
+US 12,314,060 B2
+611
+correspond to and be obtained from the one or more real-
+world elements corresponding to the digital twin. For
+example, in some embodiments, the digital twin may cor-
+respond to one real-world element that is a fixed digital
+vibration sensor on a piece of smart container cargo, and
+vibration data for the digital twin may be obtained by polling
+or fetching vibration data measured by the fixed digital
+vibration sensor on the cargo. In a further example, the
+digital twin may correspond to a plurality of real-world
+elements that are each a fixed digital vibration sensor on a
+smart container component, and vibration data for the digital
+twin may be obtained by polling or fetching vibration data
+measured by each of the fixed digital vibration sensors on
+the plurality of real-world elements. Additionally, or alter-
+natively, vibration data of a first digital twin may be obtained
+by fetching vibration data of a second digital twin that is
+embedded within the first digital twin, and vibration data for
+the first digital twin may include or be derived from vibra-
+tion data for the second digital twin. For example, the first 2o
+digital twin may be a digital twin of a smart container and
+the second digital twin may be a digital twin corresponding
+to a cargo within the smart container such that the vibration
+data for the first digital twin is obtained from or calculated
+digital twin.
+In embodiments, the digital twin module 13420 monitors
+properties of the real-world elements using sensors that may
+be represented by a digital twin and/or outputs of models for
+one or more simulated elements. In embodiments, the digital
+30
+twin module 13420 may minimize network congestion
+while maintaining effective monitoring of processes by
+extending polling intervals and/or minimizing data transfer
+for sensors that correspond to affected real-world elements
+and performing simulations (e.g., via the digital twin simu- 35
+lation system 13310) during the extended interval using data
+that was obtained from other sources (e.g., sensors that are
+physically proximate to or have an effect on the affected
+real-world elements). Additionally, or alternatively, error
+sensor data with data obtained from the digital twin simu-
+lation system 13310. For example, consistent deviations or
+fluctuations between sensor data obtained from the real-
+world element and the simulated element may indicate
+tion. In embodiments, the digital twin module 13420 may
+optimize features of smart container fleets, smart containers,
+and other shipping entities and/or environments through use
+of one or more simulated elements. For example, the digital 50
+twin module 13420 may evaluate effects of the simulated
+elements within a digital twin of a smart container to quickly
+and efficiently determine costs and/or benefits flowing from
+inclusion, exclusion, or substitution of real-world elements
+include, for example, manufacturing costs, maintenance
+costs, efficiency (e.g., process optimization to reduce waste
+or increase throughput), climate considerations (e.g., carbon
+footprint), lifespans, minimization of component faults,
+component downtime, or the like. 60
+In embodiments, the digital twin I/O system 13308 may
+include one or more software modules that are executed by
+one or more controllers of one or more devices (e.g-, server
+devices, user devices, and/or distributed devices) to affect
+the described functions. The digital twin I/O system 13308
+may include, for example, an input module, an output
+module, and an adapter module.
+[col 2]
+612
+In embodiments, the input module may obtain or import
+data from data sources in communication with the digital
+twin I/0 system 13308, such as the sensor system and the
+digital twin simulation system 13310. The data may be
+immediately used by or stored within the digital twin
+module 13420.The imported data maybe ingested from data
+streams, data batches, in response to a triggering event,
+combinations thereof, and the like. The input module may
+receive data in a format suitable to transfer, read, and/or
+write information within the digital twin module 13420.
+In embodiments,the output modulemay output or export
+data to other system components (e.g, the digital twin
+datastore 13316, the digital twin simulation system 13310,
+the intelligence service 13004, etc.), devices, and/or the
+client application 13324. The data may be output in data
+streams, data batches, in response to a triggering event (e.g..
+a request), combinations thereof, and the like.The output
+module may output data in a format that is suitable to be
+used or stored by the target element (e.g., one protocol for
+output to the client application and another protocol for the
+digital twin datastore 13316).
+In embodiments, the adapter module may process and/or
+convert data between the input module and the output
+and/or route data automatically (e.g., based on data type) or
+in response to a received request (e.g., in response to
+informationwithinthe data).
+In embodiments, the digital twin module 13420 may
+represent a set of shipping workpiece elements in a digital
+twin, and the digital twin simulation system 13310 simulates
+a set of physical interactions of a worker or shipping robot
+with the workpiece elements.
+In embodiments, the digital twin simulation system 13310
+may determine process outcomes for the simulated physical
+interactions accounting for simulated human factors. For
+example, variations in workpiece throughput may be mod-
+eled by the digital twin module 13420 including, for
+example,workerresponsetimesto events,workerfatigue,
+discontinuity within worker actions (e.g., natural variations
+in human-movement speed, differing positioning times,
+etc.), effects of discontinuities on downstream processes,
+and the like. In embodiments, individualized worker inter-
+lected, acquired, and/or stored by the digital twin module
+13420. The simulation may begin based on estimated
+amounts (e.g., worker age, industry averages, workplace
+expectations, etc.). The simulation may also individualize
+data for each worker (e.g., comparing estimated amounts to
+collected worker-specific outcomes).
+In embodiments, information relating to workers (e.g.,
+fatigue rates, efficiency rates, and the like) may be deter-
+mined by analyzing performance of specific workers over
+In embodiments, the digital twin module 13420 includes
+plurality of proximity sensors within the sensor array. The
+proximity sensors are or may be configured to detect ele-
+ments of a shipping entity or environment that are within a
+predetermined area. For example, proximity sensors may
+include electromagnetic sensors, light sensors, and/or acous-
+tic sensors.
+The electromagnetic sensors are or may be configured to
+sense objects or interactions via one or more electromag-
+ 65 netic fields (e.g-, emitted electromagnetic radiation or
+received electromagnetic radiation). In embodiments, the
+electromagnetic sensors include inductive sensors (e.g.

@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+697
+to manufacture and how/when to transport depending on
+real-time and predicted cost of energy as an input. This may
+be accomplished by monitoring all entities across the VCN
+and analyzing different variables to ensure customer
+demands are being met while keeping energy costs to a
+minimum (e.g-, using Al, predictive analytics, and quan-
+tum). The same may be applied to multi-tenancy facilities to
+offer customers opportunities to optimize their energy use
+costs. In addition, predicting and securing future energy
+needs may be based on anticipated customer demands.
+In example embodiments, the energy system 19000 may
+include technologies such as a system for slicing production,
+storage, and/or delivery of energy (e.g., type/mix, time, and
+location tracking).
+In example embodiments, the energy system 19000 may
+15 be utilized in a variety of use cases. In example embodi-
+ments, the energy system or process 19000 may be applied
+with various use cases such as co-location of modular/small-
+scale energy supply systems and various production systems
+for high-value items that may have localized demand (e.g..
+20
+growing high-margin foods, high-energy computational
+workloads, and/or high-temperature materials processes). In
+example embodiments, other use cases may include moving
+energy storage (e.g., a system having a network of moving
+energy storage such as energy trucks), a food-energy value 25
+chain network, fractional ownership of micro power stations
+(e.g, a system for tokenizing ownership stakes in micro-
+power stations such that the investment costs of the micro-
+power station may be crowd-sourced amongst owners),
+integration of solar panels and roadway (e.g., roadway 30 i
+having integrated solar panels), a system for coordinating
+points of supply and demand intersection (e.g-, both geo-
+graphic and in time with land use permission, compute
+tery-based printed circuit board fabrication plant (e.g-, 35 
+energy may be generated from renewable energy sources),
+and/or energy index (e.g-, an energy index to determine a
+price of goods). In some example embodiments, robotics
+utilized together (e.g-, providing energy-optimized platform 40
+for autonomous robot operations).
+In example embodiments, there may be various examples
+of fractional ownership of micro power stations. Ownership
+stakes in "micro-power stations" may be tokenized (e.g., use
+of "ownership" tokens), such that the investment costs of 45
+such renewable energy sources may be crowd-sourced
+amongst owners. Each micro-power station may include
+renewable energy sources, such as solar panels, wind tur-
+bines, geothermal energy conversion, and/or energy stores
+(e.g., large batteries). Furthermore, a property owner on 50
+which the micro-power stations may be located may also be
+awarded ownership tokens. A smart contract may be created
+to release energy to a grid, whereby each micro-power
+station (e.g., energy source/battery) may be *"coin operated".
+The smart contract may include conditional logic that may 55
+define a price for the energy and may be configured to
+grid when the requisite funds are deposited to an account
+associated with the smart contract. The smart contract may
+then apportion the funds to the collective owners of the 60
+energy source, energy store, and/or property owner based on
+the ownership tokens that each owner owns (e.g., owner of
+/4 of the ownership tokens for a micro-power station may
+receive /4 of the distribution). Ownership tokens may then
+become tradeable, assuming a micro-power station is suc-
+cessful. While this contemplates putting energy back into the
+grid", other examples may be applied to solutions relating
+[col 2]
+698
+to roadside vehicle chargers, industrial growth facilities,
+crypto mining facilities, and/or the like. In some examples,
+a builder of a new facility (e.g., an industrial growth, power
+plant, crypto-mining facility) may crowd-source power gen-
+business or taking out loans. In this scenario, excess energy
+may be sold into the grid, which would then increase the
+value of the ownership tokens.
+In example embodiments, there may be various examples
+10 of a battery-based printed circuit board fabrication plant. For
+example, a printed circuit board fabrication plant may
+receive raw materials, produce millions of polychlorinated
+biphenyls (PCBs) per day, have AI-enabled issue/defect
+identification and prediction, and may ship the PCBs to
+ports, warehouses, distribution centers, etc. on electric
+vehicles (e.g., electric trucks and cargo vans). The manu-
+facturing plant may have solar panels atop and nearby the
+plant building that may feed to batteries stored within the
+plant. A nearby ocean coast may have wave energy harvest-
+ing devices installed, with the energy harvested thereby
+transmitted to the plant and stored in the batteries as well. A
+nearby field may have a wind farm stored thereon, with the
+wind energy being transmitted to the batteries. There may be
+several sets of batteries where each set of batteries may
+receive power from one or more of the solar panels, wave
+energy harvesting devices, and wind farm. One of the sets of
+batteries may be configured to power the manufacturing
+plant during operating hours. A second set of batteries, or a
+subset of the first set of batteries, may be configured to feed
+into transformers configured to charge the electric vehicles.
+The power coming from the solar, wave, and wind energy
+sources may be conditioned for storage in different types of
+batteries and use in different applications, such as by adjust-
+ing phase, capacitance, etc. to feed electrical vehicle (EV)
+charging transformers vs. manufacturing machines, vs. high-
+powered computing devices such as Al-enabled prediction
+and plant management/control systems.
+In example embodiments, there may be various examples
+of using an energy index. For example, where this is
+competition on energy efficiency among suppliers in a
+private network or supply chain, an energy index may be
+added to determine price of goods (e.g., uniform or compa-
+rable goods such as similar parts that may go into a final
+product). Goods that may have used more energy for manu-
+facturing (or make and deliver) may be sold at a discount
+while goods that may have used less energy for manufac-
+turing (or make and deliver) may be sold at a premium. A
+blockchain may be used to track batches, if not individual
+items. The ability to verify (or certify) may be necessary.
+The source of energy may also be a factor, such as coal vs.
+renewable. If multiple manufacturers of a final product
+participate, anti-trust mechanisms may need to be in place.
+In some examples, these use cases may be tied with energy
+production cost tracking technologies (e.g-, to feed block-
+chain).
+Dual Process Artificial Neural Networks
+Referring to FIG. 104 in combination with FIG. 165, in
+embodiments, the intelligence services include a dual pro-
+cess artificial neural network (DPANN) system 20000. The
+DPANN system 20000 includes an artificial neural network
+(ANN) having behaviors and operational processes (such as
+decision-making) that are products of a training system and
+a retraining system. The training system is configured to
+perform automatic, trained execution of ANN operations.
+The retraining system performs effortful, analytical, inten-
+tional retraining of the ANN, such as based on one or more
+relevant aspects of the ANN, such as memory, one or more

@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+651
+item, such that the set of smart futures contracts automati-
+cally execute to obtain commitments for supply upon dis-
+covery of market conditions that satisfy a set of parameters
+or conditions (such as pricing conditions) set in the de-
+risking algorithms. The robotic agent may be trained on a
+training set of data, such as a training set of interactions of
+a set of expert procurement professionals with a set of
+inputs, such as demand planning inputs (e.g., demand fore-
+casts, inventory forecasts, and the like, demand elasticity
+curves, predictions of competitive behavior, supply chain 10 
+predictions and many others), including contracts recom-
+mended or engaged by such professionals under such con-
+ditions. This may include interactions of such professionals
+within enterprise demand planning software suites. The
+agent may include or be trained to interact with a set of
+demand planning models, such as models that forecast
+demand factors, supply factors, pricing factors, and other
+factors, including anticipated equilibria between supply and
+demand, and ones that generate estimates of appropriate
+inventory, recommendations for pricing, location and timing 20
+recommendations for supply and/or distribution, and the
+like. In embodiments, the de-risking algorithms may include
+ones for reducing a variety of risks and contingencies,
+including the ones noted above, such as shortages in supply,
+supply chain disruptions, changes in demand, changes in 25
+prices of inputs, and changes in market prices, as well as
+ones involving macro-economic factors, geopolitical disrup-
+tions, disruptions due to weather and climate, impacts of
+epidemics or pandemics, counterparty risks (including anti-
+money laundering risks, credit risks, risk of default, and 30
+many others), and the like. In embodiments, de-risking
+algorithms may include algorithms that seek to mitigate
+risks created by use of other algorithms, such as ones that
+help identify various biases, which may include input bias
+(such as biases in training inputs, biases in models, biases 35
+due to incomplete or inaccurate data, and the like), biases in
+weighting, and others, as well as ones that identify where
+algorithmic performance is inferior to human performance
+(such as where intelligence systems cannot effectively rep-
+licate some important element of a human decision maker).4o
+In embodiments, such de-risking algorithms can provide a
+set of recommendations for adjustments to smart futures
+contracts and/or to the de-risking algorithms that are used to
+configure smart futures contracts. In some embodiments, the
+smart futures contract system 15000 operates from, embod- 45
+ies, or integrates with a digital twin (e.g., supply chain
+digital twin or a general digital twin interface).
+In some embodiments, the smart contract system 15000
+configures and/or enters a set of smart future contracts with
+the futures system 15006 based on conditions in a value 50 many other factors.
+chain network. In some embodiments, the smart futures
+contract system 15000 acts on the value chain network based
+on conditions and prices in a set of futures markets.
+In some embodiments, the smart futures contract system
+15000 may be at least partially incorporated in a product or
+product packaging to manage or mitigate risk. For example,
+if a product or product packaging is exposed to adverse
+environmental conditions, a smart futures contract may be
+automatically configured as an option to acquire a set of
+replacement products, covering the contingency that the 60
+product has incurred damage that will require replacement.
+This may occur, for example, while the product/package is
+still in transport, such as determined by sensors on the
+product, the package, a transport vehicle, or proximal infra-
+structure, such as before it is possible or convenient to test 65
+a set of products well enough to determine whether replace-
+ment will in fact be required. Configuration of such an
+[col 2]
+652
+option-type futures contract may be based on a model or
+ated by an algorithm that may be trained on historical data
+sets and other inputs) that provides a prediction as to the
+probability that a product (or some subset thereof) will need
+to be replaced based on known exposure data, as well as
+upon a prediction of the impact of the need for replacement
+(including the impact of delays and/or reduced supply on
+pricing and other factors). In embodiments, the smart futures
+contract may be configured with an appropriate duration of
+option to allow for determination of the actual extent of need
+for replacement, an appropriate option price, and the like,
+such that the risk of a catastrophic loss is mitigated, while
+the likelihood of a profitable outcome is maintained to the
+extent possible under the circumstances. In embodiments, an
+option-type futures contract to acquire replacement goods
+may be paired with an automatically configured set of
+futures contracts that mitigate the risk by setting terms and
+conditions for alternatives to replacement, such as a set of
+smart contracts that offer refunds to customers, that offer
+alternatives goods or services, that offer incentives to accept
+delayed goods, or the like. Such contracts may be configured
+using similar inputs, models and algorithms to the ones used
+for other smart futures contracts described herein.
+In some embodiments, the smart futures contract system
+15000 renegotiates a set of future prices based on a current
+market state. Renegotiation may be performed by a set of
+robotic process automation agents or other artificial intelli-
+gence system, such as trained on historical data, on feedback
+from outcomes, and/or upon human interactions involved in
+contract negotiations. As one of many examples, upon
+recognition of a likely widespread supply chain disruption
+for an input component for a set of goods, the system may
+offer to renegotiate future pricing ofinputs (such as to ensure
+continuity of supply), future pricing of outputs (such as to
+reflect likely increases in market prices), and other factors,
+which may be offered in a set of futures smart contracts that
+embody offered terms and conditions of renegotiation.
+In some embodiments, the smart futures contract system
+15000 relates to or undertakes predictive procurement to
+forecast future price trends, price fluctuations, future risks to
+manage, and other elements potentially required, optionally
+with the aid of an analysis, model, or the like based on
+previous procurement data. This may include models that
+account for weather, climate, geopolitical situations, epi-
+demics/pandemics, counterparty behaviors, government
+behavior (including import and export regulations and their
+enforcement), traffic, congestion at ports, inventory levels of
+key components, availability and pricing of materials, and
+In the example provided, the smart futures contract sys-
+tem 15000 includes at least one contracting entity 15001, at
+least one data source 15002, at least one intelligence service
+15004, at least one futures system 15006, and at least one
+distribution system 15008. The contracting entity 15001 is
+the entity of the value chain network that owns, rents, leases,
+purchases, or otherwise controls the intelligence service
+15004. For example, the contracting entity 15001 may be a
+manufacturer of goods who is interested in managing the
+risk of raw material scarcity in future product cycles. In
+another example, the contracting entity 15001 may be an
+apparel manufacturer who is interested in early identification
+and price negotiation for fabrics, dies, designs, or the like
+that may become popular for the next fashion season. In yet
+another example, the contracting entity 15001 may be an
+industrial entity who monitors the status of components
+within various machines and places orders for future deliv-

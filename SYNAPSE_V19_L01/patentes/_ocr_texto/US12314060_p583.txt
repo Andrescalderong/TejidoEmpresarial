@@ -1,0 +1,135 @@
+In some implementations, executing the procurement 15 18015 real-time information on supplier performance. For
+when to place optimal orders that cover specific product 5o request to change contract terms (e.g-, price, delivery terms,
+[col 1]
+US 12,314,060 B2
+801
+(e.g., approving an action suggested by VCN process 10). In
+some implementations, the action taken may be recorded in
+a log or a feed for viewing.
+In some implementations, another example procurement
+action may include VCN process 10, e.g., identifying needs,
+researching suppliers, placing orders, receiving and inspect-
+ing goods, making payments, issuing a purchase order to a
+supplier for a new batch of widgets, signing a contract with
+a logistics provider to transport goods from its warehouse to
+its customers, negotiating a new pricing agreement with a 10
+ supplier of raw materials, conducting a competitive bidding
+process to select a new vendor for its IT services, developing
+a new supplier onboarding process to ensure that new
+suppliers are meeting its standards, etc.
+action may include resolving 18009 an out-of-stock situa-
+tion. For instance, assume for example purposes only that
+VCN process 10 has used one or more AI-based learning
+models to determine that there is a potential risk in the value
+chain network. In the example,VCN process 10 may miti- 20
+gate the potential risk in the value chain network by resolv-
+ing an out-of-stock situation with a procurement action. As
+an example, VCN process may determine that a particular
+concern, such as a lack of semiconductor devices of a
+particular supplier being used by a value chain network 25
+entity is out-of-stock or will soon be out-of-stock based
+upon the AI-based learning models. In some implementa-
+tions, VCN process 10 may resolve this situation by auto-
+matically executing (without human interaction) a negotia-
+tion of a contract with another supplier that does have 3o 1
+ semiconductor devices in stock, or providing a suggestion
+on a user interface to negotiate a contract with another
+supplier that does have semiconductor devices in stock,
+which may be manually executed (e.g., receiving a user
+input to approve the suggested action). 35
+In some implementations, executing the procurement
+action may include predicting 18011 when to place an order
+based upon, at least in part, upstream data. For instance,
+assume for example purposes only that VCN process 10 has
+used one or more Al-based learning models to determine 40
+that there is a potential risk in the value chain network. In the
+example, VCN process 10 may mitigate the potential risk in
+the value chain network by using upstream data to predict
+when to place an order (e.g., demand enhancement/plan-
+ning) As an example, VCN process 10 may include or 45
+interact with a demand planning application that may auto-
+matically calculate demand (demand sensing) and stock
+forecasts based on upstream data (e.g., sales forecasts,
+warehouse data, etc.). This may allow a precise view of
+demands. For instance, VCN process 10 may use upstream
+and/or external data to determine there is a risk of significant
+inflation of copper (a component used in semiconductor
+devices) for a supplier that is currently supplying semicon-
+ductor devices. In the example, VCN process 10 may 55
+execute a procurement action of proactively order semicon-
+ductor devices from the supplier prior to an anticipated price
+hike by the supplier resulting from the predicted or actual
+inflation. In some implementations, VCN process 10 may
+accomplish this by automatically executing (without human 60
+interaction) a reordering of the semiconductor devices, or
+providing a suggestion on a user interface to reorder the
+semiconductor devices at the optimal time, which may be
+manually executed (e.g., receiving a user input to approve
+the suggested action). 65
+In some implementations, VCN process 10 may provide
+18013 an alert describing the procurement action that was
+[col 2]
+802
+executed. For instance, in some implementations, VCN
+process 10 may use Al-based learning models to automati-
+cally draft and send communications (e.g., text, email,
+pop-ups, notification feed, chat, etc.) explaining what the
+determined procurement action(s) may be/are, what infor-
+mation was used to determine the procurement action, and
+the intended result of executing the procurement action (e.g..
+faster delivery, lower costs, better quality, etc.). This may
+allow a user to verify whether the procurement action should
+be confirmed, and take any additional appropriate action. In
+some implementations, the potential risk may also be
+flagged in an application's user interface (UI), such as the
+above-noted control tower UI.
+In some implementations, VCN process 10 may provide
+example, in some implementations, VCN process 10 may
+monitor 18017 compliance of suppliers and procurement
+teams. For instance, VCN process 10 may include supplier
+management functionality, which may include an intelligent
+procurement system that enable effective supplier manage-
+ment by providing real-time information on supplier perfor-
+mance, including delivery times, quality metrics, and pric-
+ing. This information, as noted above, may be used to make
+informed decisions about supplier selection, performance
+management, or other procurement actions. In some imple-
+mentations, the real-time information may also be flagged or
+otherwise displayed in an application's user interface (UI),
+such as the above-noted control tower UI.
+For instance, assume for example purposes only that VCN
+process 1o has used one or more AI-based learning models
+to determine that there is a potential to reduce transportation
+costs in the value chain network based upon received data.
+In the example, VCN process 10 may receive the external
+data to both determine that there is the potential to reduce
+transportation costs, and determine how to do so. As an
+example, VCN process 10 may include or interact with a
+transportation application that may automatically calculate
+the fastest or most optimal route and transportation method
+(e.g., air, boat, truck, etc.) based on external data (e.g., gas
+prices, traffic data, transportation time, sales forecasts, ware-
+house data, etc.) for past behavior over time, historical data,
+and/or current data. This may allow a precise view of such
+procurement actions including, e.g., when to order, when to
+pay invoices, etc. In some implementations, the external
+data may be received and analyzed in real-time or near
+real-time, enabling rapid time-to-value by collaborating
+globally with carriers to reduce transportation costs. In some
+implementations, VCN process 10 may resolve this situation
+by automatically executing (without human interaction) a
+and quality standards, etc.), or providing a suggestion on a
+user interface to change contract terms, which may be
+the suggested action).
+In some implementations, VCN process 10 may automati-
+cally generate 18019 purchase orders associated with the
+procurement action, and in some implementations, VCN
+cessing associated with the procurement action. For
+instance, assume for example purposes only that VCN
+process 10 has used one or more AI-based learning models
+to determine that there is a potential risk in the value chain
+network. In the example, VCN process 10 may mitigate the
+potential risk in the value chain network by using upstream
+data to predict when to place an order (e.g-, demand
+enhancement/planning). As an example, VCN process 10
+may include or interact with a demand planning application

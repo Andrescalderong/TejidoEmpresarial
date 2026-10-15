@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+677
+or more notifications of unusual behavior by other sensors or
+systems (which may lead to temporary suppression of less
+important data), one or more human inputs (e.g-, a human
+disabling a security alert, which may suppress a previous
+focus on security data), one or more events triggered by
+other systems or sensors (e.g-, an automated security alert,
+which may lead to suppression of certain data to allow
+resources to be dedicated to security data collection, trans-
+mission, and analysis), one or more contexts detected from
+other sensor data (e.g., a reduction in available bandwidth 1o 
+reported by a network sensor, which may lead to the
+suppression of certain data until available bandwidth
+improves), or any other context-based condition or event. In
+this context, the filtering may suppress information flows not
+relating to the data from the event. 15
+In embodiments, the thalamus service 18000 may receive
+data from a variety of data sources 18004, including analy-
+ses 18018, databases 18020, sensors 18022, and/or rep0rts
+18024. For example, the thalamus service 18000 may
+receive analyses and/or reports from other analysis/process-
+ing/reporting devices that have already pre-processed sensor
+data or other data. Additionally or alternatively, the thalamus
+service 18000 may receive data (e.g., historical data) that is
+stored in a database 18020 in addition to current or historical
+data from sensors 18022. In embodiments, data may be 25
+received and/or generated (e.g., predictive models may
+generate future data) from the PMCP device interface
+18052.
+In embodiments, the thalamus service 18000 may process
+and/or interpret inputs from any of the data sources 18004 30
+based on an intake application library 18012, which may
+include a networking library 18014, a security library 18016,
+input data. For example, the thalamus service 18000 may
+use a networking library 18014 to parse, interpret, extract, 35
+and/or otherwise process network data (e.g., data received
+from networking sensors or devices, networking analyses,
+networking reports, network database data, etc.). Similarly,
+the thalamus service 18000 may use a security library 18016
+to parse, interpret, extract, and/or otherwise process security 40
+data (e.g., data received from security sensors or devices,
+security analyses, security reports, security database data.
+etc.). In embodiments, the intake data may also be processed
+using an intake learning module 18026, which may use one
+or more artificial intelligence techniques to pre-process the 45
+data, generate predictive models using the data, predict
+future states of the data, and/or the like. After processing
+using the intake application library 18012 and/or the intake
+learning module 18026, the data may be ready for manage-
+ment by the intake data management system 18028. 50
+The intake data management system 18028 may process
+the data by prioritizing 18030, formatting 18032, suppress-
+ing 18034, using an area focus 18036, filtering 18038, and/or
+combining 18040 the data. The prioritizing 18030 may
+involve ranking or otherwise assigning priorities (e.g., cat- 55 i
+egories, numerical priority scores, etc.) such that limited
+resources may be assigned to the most important data. For
+example, the suppressing 18034 and/or filtering 18038 may
+operate based on priorities in order to suppress or filter out
+the least important data (e.g-, the data associated with a 60
+lowest priority score) in order to avoid overwhelming lim-
+ited transmission, processing, and/or analysis resources. The
+formatting 18032 may involve formatting data in order to
+allow for easier management, which may involve compress-
+ing or otherwise dropping certain parts of data to reduce the 65t
+use of transmission resources, un-compressing data to
+reduce the use of decompression resources (e.g., if band-
+[col 2]
+678
+width is sufficient and data is important), formatting data to
+emphasize or de-emphasize certain aspects, or otherwise
+adjust formatting. In embodiments, the formatting 18032
+may depend on the prioritizing 18030 such that more
+important data may be formatted in order to allow for more
+or better analysis, while less important data may be format-
+ted in order to reduce its usage of various resources.
+In embodiments, the suppressing 18034 may involve
+reducing the amount of data, the number of destinations to
+which the data is transmitted, or otherwise reducing the
+usage of limited resources (e.g., bandwidth, processing,
+analysis, etc.) of the data. In embodiments, suppressed data
+may be stored (e.g., in a database) and dealt with (e.g..
+transmitted, processed) at a later time. In embodiments, the
+suppressing 18034 may be based on various factors as
+described above.
+In embodiments, an area focus 18036 may involve
+increasing the attention paid to certain high priority data. For
+example, during a security incident, security sensor data
+may be sent to additional destinations, processed using
+additional analyses, allowed additional bandwidth and pro-
+cessing power, and/or the like. In embodiments, an area
+focus 18036 may cause the suppression or filtering of other
+data that is not associated with the area focus 18036.
+In embodiments, the filtering 18038 may involve ignor-
+ing, deleting, or otherwise removing data that is not impor-
+tant (e.g., does not match an area focus 18036, is low
+priority, etc.). In embodiments, data may be initially sup-
+pressed (e.g-, reduced or stored for later), but conditions may
+further change, causing the data to be filtered (e.g., deleted,
+ignored). Thus, intake data management system 18028 may
+allow for a progressive downgrade of data by first suppress-
+ing and later filtering the data depending on conditions.
+In embodiments, the combining 18040 may include com-
+bining various types of data in order to provide better
+analyses, generate new data, reduce the volume of data (e.g.,
+by combining multiple data values into a single data value),
+improve the quality of data (e.g., by averaging different
+sensor readings to obtain a more accurate average reading),
+and/or the like. In some embodiments, lower priority data
+may be combined with other data in order to reduce require-
+ments. Additionally or alternatively, higher priority data may
+be combined with other data in order to improve data
+quality.
+ In embodiments, the intake data management system may
+interface with an intake controller18008 and/or an intelli-
+gence system 18042. The intelligence system 18042, for
+example, may use various artificial intelligence techniques
+to perform the intake data management (e.g-, prioritize the
+data, format the data, suppress the data, select an area focus
+and/or assign data to an area focus, filter the data, combine
+the data, etc.), predict the outcomes of intake data manage-
+ment, predict future data values, and/or the like. Addition-
+ally or alternatively, the intake controller 18008 and/or an
+intelligence system 18042 may operate in accordance with
+configured thalamus parameters 18044, which may govern
+the intake data management, the artificial intelligence tech-
+niques (e.g., the parameters may be model parameters for AI
+models), and/or otherwise configure the operations of the
+intake management system 18006.
+In embodiments, the control system 18002 may, in some
+cases, use a quantum computing service 18046, which may
+provide quantum computing resources to more quickly
+process large volumes of data, use quantum models, and/or
+the like.
+The control system 18002 may further comprise one or
+more data interfaces 18048 for receiving data from various

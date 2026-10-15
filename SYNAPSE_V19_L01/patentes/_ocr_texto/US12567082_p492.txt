@@ -1,0 +1,135 @@
+with the edge environment 16102-108 on which the edge 10 has edge data integration with service-oriented architecture.
+determining optimal traffic flow for a 5G network, deter- 5o has an AI-enhanced edge-aware network fabric.
+one or more AI and/or machine-learning processes. For 55 has a machine learning and/or artificial intelligence system
+[col 1]
+US 12,567,082 B2
+661
+In embodiments, the AI chipset interfacing module 16312
+is configured to enable performing of one or more network-
+ing tasks by the edge networking system 16100 via one or
+more AI chipsets. For example, the edge networking system
+16100 may make one or more network routing determina-
+tions via an AI system embedded on an AI chipset. Addi-
+tionally or alternatively, the AI chipset interfacing module
+16312 may be configured to facilitate receiving data from
+and/or transmitting data to an AI chipset in communication
+networking system 16100 is installed, such as via the VCN
+bus 16110.
+In embodiments, the 5G software definition module
+16314 is configured to facilitate management, customiza-
+tion, handling, and/or other tasks related to 5G networks. For 15
+example, telecom installation 16106 on which the edge
+networking system 16100 is installed may be or include a 5G
+base station, and the software definition module 16314 of the
+edge networking system 16100 of the 5G base station may
+perform one or more networking tasks related to managing 2o
+traffic passing through the 5G base station. Additionally or
+alternatively, in some examples, 5G-enabled mobile devices
+connected to a 5G network may have communication via the
+network facilitated by instances of the 5G software defini-
+tion module 16314 installed thereon.
+In embodiments, the edge networking AI module 16316 is
+configured to perform artificial intelligence and/or machine-
+learning-related functions related to one or more of the
+networking tasks. For example, routing determinations, pro-
+tocol selections,protocol management,encryption pro-30
+cesses, filtering determinations, and/or any other suitable
+type of networking task may be performed and/or assisted
+by AI/ML via the edge networking AI module 16316.
+In embodiments, the tunable signal filtering module
+16318 is configured to perform tuning of digital signals 35 a
+transmitted and/or received by and/or within the edge envi-
+ronment 16102-108. The tunable signal filtering module
+16318 may include one or more tunable digital filters. The
+tunable digital filters may tune signals to, for example,
+reduce network traffic by culling unnecessary communica-
+tions, remove or reduce third-party signals “piggybacking"
+on the edge environment 16102-108, filter IoT sensor data,
+and/or the like.
+In embodiments, the network routing module 16320 is
+configured to perform network routing operations with 45 feedback on outcomes.
+respect to signals sent and/or received by the edge environ-
+ment 16102-108. The network routing operations may
+include networking tasks such as, for example, determining
+an optimal data path for sensor data within a premises,
+mining a routing device by which mobile data should be
+transmitted, and the like.
+In embodiments, the AI network enhancement module
+16322 is configured to optimize network performance via
+example, the AI network enhancement module 16322 may
+use one or more AI and/or machine learning processes to
+determine optimal protocols for data throughput, and/or to
+make predictions and/or simulations of network conditions
+and congestion/throughput thereof. 60
+In embodiments, the edge network digital twin module
+16324 is configured to create and/or manage one or more
+digital twins related to networking by, at, and/or on one or
+more ofthe edge environments 16102-108.Forexample, the
+digital twin module 16324 may model a network withina
+production factory and run simulations via the digital twin to
+predict network congestion.
+[col 2]
+662
+In some embodiments, the edge network system 16100
+has a system for decoupling congestion control from link
+loss.
+In some embodiments, the edge network system 16100
+has an intelligent layer on top of UDP.
+In some embodiments, the edge network system 16100
+has an automated policy and governance engine for edge
+workload deployment.
+In some embodiments, the edge network system 16100
+In some embodiments, the edge network system 16100
+has edge-specific protocols.
+In some embodiments, the edge network system 16100
+has an edge storage protocol.
+In some embodiments, the edge network system 16100
+has an edge storage protocol integrated with Al-managed
+storage.
+In some embodiments, the edge network system 16100
+has a distributed edge database.
+In some embodiments, the edge network system 16100
+has edge-distributed query language.
+In some embodiments, the edge network system 16100
+has an edge policy engine.
+In some embodiments, the edge network system 16100
+25 has an automated edge data marketplace.
+In some embodiments, the edge network system 16100
+has an RF filtering system for wireless nodes.
+In some embodiments, the edge network system 16100
+has network coding.
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+at each node of a network.
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+at each node of a network configured for filtering and
+multi-level signal compression based on signal characteris-
+tics.
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+at each node of a network configured for filtering based on
+context and/or content.
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+at each node of a network configured for filtering based on
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+configured for archiving at an optimal level of granularity
+In some embodiments, the edge network system 16100
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+configured for optimization of storage capacity
+In some embodiments, the edge network system 16100
+configured for optimization of compute.
+In some embodiments, the edge network system 16100
+has a machine learning and/or artificial intelligence system
+configured for optimization of energy.
+In some embodiments, the edge network system 16100
+has a mail protocol for mail.
+In some embodiments, the edge network system 16100
+has a video streaming protocol for video streaming.
+In some embodiments, the edge network system 16100
+ 65 has a gaming protocol forgaming.
+In some embodiments, the edge network system 16100
+has a system for monitoring packet activity.

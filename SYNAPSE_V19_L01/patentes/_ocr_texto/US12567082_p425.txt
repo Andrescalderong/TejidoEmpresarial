@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+527
+other materials. In embodiments, the smart containers may
+be biodegradable. In embodiments, the smart containers may
+be 3D printed smart containers or may contain 3D-printed
+elements. In embodiments, the 3D printed smart containers
+may be printed as single integrated units. In embodiments,
+the 3D printed smart containers may have embedded 3D
+printed electronics. In embodiments, a smart container con-
+tains a 3D printer or other additive manufacturing facility
+that prints one or more components, tools, accessories or the
+like for integration into and/or use by the container. 10
+In embodiments, the intermodal smart container 13026
+may be autonomous and/or self-driving. For example, an
+intermodal smart container may be configured to autono-
+mously traverse terrestrial, subterrestrial, marine, sub-ma-
+rine, air, and/or space environments. In embodiments, the 15
+smart container may be configured with retractable or non-
+retractable wheels (e.g., for roadways, terrain, rail, or the
+like), continuous track systems, skis, sails, propellers, pro-
+pulsion systems, legs, and the like to support transportation
+in different environments.Additionally, or alternatively, the 20
+smart container may be transported by traditional methods
+of railways, trucks, container ships, air, and the like. For
+example, a smart container with retractable wheels may be
+able to autonomously drive across a container terminal,
+drive up a ramp onto a container ship, drive to a particular 25
+location on a container ship, and be transported via the
+container ship to another container terminal. Smart contain-
+systems and networks.
+In some embodiments, the smart containers 13026 may be 30
+configured to be self-stacking. For example, the smart
+containers may have mechanical stacking rails on the sides
+that allow containers to slide up and down and/or across
+other containers. In embodiments, the rails may be electro-
+magnetic rails. Additionally, or alternatively, smart contain- 35
+ers may be configured with retractable or non-retractable
+mechanical lift systems, container handling devices, and the
+like. For example, smart containers may be configured with
+lift systems, such as scissor lifts (e.g., hydraulic scissor lifts,
+diesel scissor lifts, electric scissor lifts, rough terrain scissor 40
+lifts, or pneumatic scissor lifts), retractable extendable legs,
+or the like that enable the self-stacking of smart shipping
+containers. In another example, smart containers may be
+configured as cranes, forklifts, reach stackers, or the like.
+In embodiments, the smart intermodal container system 45
+13000's fleet management system 13002 receives a freight
+storage and/or transportation service order (e.g., from a
+client device) and identifies the freight storage and/or trans-
+portation services to be performed in completion of the
+order. In some embodiments, a user may be presented a GUI 50
+on a client device to provide one or more freight transpor-
+tation service requirement parameter values. For instance,
+the GUI may include fields for the user to define service
+timing requirements (e.g., how quickly cargo needs to be
+delivered), origin of shipment, whether the shipment is 55
+received at a terminal/ramp or at another location, destina-
+tion of shipment, whether the delivery is to a terminal/ramp
+or to another location, type of container required, number of
+containers required, container usage requirements (e.g., full
+container (FCL) vs. shared container (LCL)), container size 60
+requirements for FCL shipments (e.g., 20-ft container, 40-ft
+container, 40-ft high-cube, tank, or the like), cargo descrip-
+tions for LCL shipments (e.g-, number of packages, total
+volume, total weight, or the like), whether the cargo includes
+personal effects, and the like. In response to determining the 65
+requirements of the freight storage and/or transportation
+service order, the smart container system's fleet manage-
+[col 2]
+528
+ment system 13002 may determine a smart container fleet
+configuration that includes a set of smart container operating
+units and may assign smart container operating units to the
+freight storage and/or transportation service order. As used
+herein, a smart container operating unit may refer to an
+individual smart container, a team of smart containers, a fleet
+of smart containers that operate to complete a request, or the
+like. As will be discussed, in some embodiments, the smart
+container fleet management system 13002 may define a
+configuration of one or more smart containers to execute a
+freight storage and/or transportation service order and/or to
+operate in a certain type of environment as part of the fleet
+configuration. As will be discussed, a smart container may
+be configured with various modules that allow the smart
+container to perform certain tasks. For instance, a smart
+container may be provisioned with specialized devices and
+systems, such as IoT devices (including cameras and sensor-
+based devices), edge network devices, chipsets, chips and
+other devices that have data storage, computation, process-
+ing and/or connectivity capability to enable the smart con-
+tainer to perform intelligence tasks; specialized sensors for
+particular environments; liquid lenses for enabling certain
+machine-vision functionality; specialized robots that per-
+form certain tasks, specialized tools and/or systems that are
+task specific (e.g., lighting, irrigation systems, heating, cool-
+ing, 3D printer, clamps, grippers, drils, lifts, cranes, con-
+veyors, mixers, forklifts, and/or the like); smart ramps and
+the like; and/or other modules that configure the smart
+container to perform a certain task or set of tasks.
+In some embodiments, the smart intermodal container
+system's fleet management system 13002 may define a set of
+workflows, wherein a workflow may define an order by
+which certain freight storage and/or transportation services
+or tasks are performed and the smart container operating
+unit(s) that is/are assigned to the respective service or task.
+In some embodiments, the smart container fleet management
+system may perform workflow simulations to iteratively
+redefine fleet configurations and/or workflows to substan-
+tially optimize the operation of the smart container fleet. For
+example,the fleet configurations and/or workflows may be
+iteratively adjusted to reduce costs, improve logistical effi-
+ciencies, reduce the overall shipment time, reduce carbon
+emissions, or the like. Once the fleet configuration and
+workflows are finalized, the smart container fleet manage-
+ment system may deploy the fleet. In some embodiments,
+the smart container fleet management system may facilitate
+the logistics involved with supplying smart container oper-
+ating units and/or smart container components, and/or sup-
+porting resources. Furthermore, in some embodiments, the
+additive manufacturing capabilities, such as 3D printers or
+other capabilities described herein, in furtherance of accom-
+modating localized preferences with rapid customization,
+such that items that are capable of being 3D-printed within
+the smart container as it approaches a destination. In
+embodiments, the smart container fleet management system
+may monitor the smart container fleet, including the status of
+smart container operating units, the performance of smart
+container units (e.g. timing performance, financial perfor-
+mance, or the like), the status of cargo contained within the
+smart container, and the like. In some of these embodiments,
+the smart container system 13000 may automate mainte-
+nance of smart containers and/or resources to ensure an
+efficient use of an available inventory and/or to reduce
+downtime.
+In embodiments, the smart container system 13000 may
+automatically govern the storage conditions of a set of items,

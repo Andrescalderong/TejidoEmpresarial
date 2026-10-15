@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+477
+fleet configuration system 12020 configures robot operating
+units (e.g., individual robots and/or robot fleets) to complete
+a job execution plan. In embodiments, the job execution
+system 12022 executes, monitors, and/or reports on jobs
+being performed by robot operating units (e.g., in accor-
+dance with a job execution plan) to ensuring efficient use of
+fleet resources while executing the job plan and addressing
+job and fleet related reporting requirements. In embodi-
+ments, the human interface system provides an interface by
+which a human user may interface with a robot operating
+unit.
+As mentioned, a robot operating unit 12040 may refer to
+individual robots, individual robot task assemblies 12050,
+robot fleets 12060, and/or robot fleet support units 12080. In
+15
+embodiments, individual robots may include, but are not
+limited to, multi-purpose robots 12042, special-purpose
+robots 12044, exoskeleton robots 12046, and the like. FIG.
+129 illustrates a non-limiting example set of components of
+robot 12180.
+In embodiments, SPRs 12180 and MPRs 12100 may
+include a baseline system 12102, a robot control system
+12150, and a robot security system 12170. In embodiments,
+the robot control system 12150 includes a data processing 25
+system 12142 and an intelligence layer 12140. As will be
+discussed, the data processing system may include data
+processing resources that may be centralized and/or distrib-
+uted amongst a team or fleet of robots. Additionally or
+alternatively, the data processing resources may include 3o r
+general purpose chipsets, specialized chipsets, and/or con-
+figurable chipsets. As will be discussed, the intelligence
+layer 12140 performs intelligence related tasks on behalf of
+the robot or a collection of robots (e.g., a task assembly or
+fleet).For example, the robot-level intelligence layer 12140 35
+may perform such tasks as artificial intelligence, machine-
+learning, natural language processing, machine vision, ana-
+lytics, and/or the like and may leverage complex data
+structures (e.g., digital twins) and disparate data sources
+(e.g., from IoT, edge and other network-enabled devices, 40
+from on-premises and cloud-deployed databases and other
+resources, and/or from APIs, event streams, logs, or other
+data sources, among many others) in performance thereof.
+Robot-level and fleet-level intelligence layers are discussed
+in greater detail below. In embodiments, the robot security 45t
+system 12170 performs security related functions on behalf
+of a robot or a collection of robots (e.g. a task assembly or
+fleet). These security-related functions may include autono-
+mous adaptive and non-adaptive security functions as well
+as manual security functions. 50
+In embodiments, a baseline system 12102 of an MPR
+p0wer distribution system 12104, enclosure 12106, an elec-
+tro-mechanical and/or electro-fluidic system 12108, a trans-
+port system 12110, a vision and sensing system 12112, 55 t
+and/or a structural system 12114. As will be discussed
+further below, the configuration of a baseline system of an
+SPR 12190 depends on the types of tasks that the SPR 12190
+is configured to perform. For instance, the baseline systems
+of autonomous drones greatly differ from the baselines 60
+systems of autonomous vehicles or factory floor robots
+Similarly, the baseline systems of MPRs 12100 depend on
+the type of environments that the MPR12100 is intended to
+operate in. For example, MPRs 12100 that are configured to
+operate in deep water conditions may have different baseline 65
+systems than MPRs 12100 that are configured to operate in
+arctic conditions or aerial robots.
+[col 2]
+478
+AnMPR 12100differs from an SPR12190 in that a MPR
+12100 can be configured to perform a wider range of
+disparate tasks. In embodiments, an MPR 12100 may further
+include a module system 12120 that allows an MPR 12100
+to be configured with various hardware and/or software
+components. In this way, an MPR 12100 may be fitted with
+different appendages, sensor sets, chipsets, motive adaptors,
+and/or the like depending on the range of tasks that the MPR
+12100 is configured to do. In embodiments, the module
+system 12100 may include control module interfaces 12130
+and physical module interfaces 12122. The control modules
+interfaces 12120 and physical modules interfaces 12122
+may refer to mechanical, electrical, and/or digital interfaces
+that receive auxiliary components to configure an MPR
+12100 to perform certain tasks. In embodiments, the control
+module interfaces 12130 receive (or otherwise “connect" to)
+auxiliary components that alter one or more features that
+relate to control of the MPR 12100. These may include
+chipsets (e.g., Al chipsets, machine-learning chipsets,
+machine-vision chipsets, communications chipsets, or the
+like), sensor modules, communication modules, AI modules,
+security modules, computing modules, and/or the like. In
+embodiments, the physical module interfaces 12122 receive
+(or otherwise connect to) auxiliary physical modules that
+alter the physical actions that may be taken by MPR 12100
+and/or the physical operation of the MPR 12100. Examples
+of physical modules may include, but are not limited to, end
+effectors, motive adaptors, 3D printers, power supplies,
+and/or the like.As will be discussed, an MPR 12100 may be
+reconfigured to perform one or more tasks in completion of
+a job. In these embodiments, the fleet management platform
+12000 may define a job execution plan and a supporting
+robot fleet, and may provision one or more modules to an
+MPR 12100 in the supporting robot fleet, such that the MPR
+12100 is reconfigured to perform one or more specified tasks
+in the job execution plan.
+Referring back to FIG. 128, individual robot task assem-
+blies 12050 may refer to a collection of one or more
+individual robots that are assigned to perform a specific task
+or a set of related tasks. The robots in a robot task assembly
+may include any combination of MPRs 12042, SPRs 12044,
+exoskeleton robots 12046, and the like. In some embodi-
+ments, an individual robot task assembly 12050 may include
+a local manager that controls or otherwise provides instruc-
+tions to robots in the task assembly 12050. In these embodi-
+ments, the local manager may be a designated supervisor
+robot or a human operator. In embodiments, a supervisor
+robot may refer to a robot that is designated to organize,
+instruct, monitor, reassign, and/or reconfigure (or request
+reconfiguration of) the robots in a task assembly 12050. In
+embodiments, the robot supervisor may act as an edge
+device on behalf of the task assembly 12050, such that the
+robot supervisor may be allocated specific processing and/or
+communication capabilities that allow the robot supervisor
+to communicate with the fleet management platform 12000
+or other suitable devices or systems and/or to perform data
+processing operations on behalf of the task assembly 12050.
+In embodiments, a robot fleet is a collection of individual
+robots and/or task assemblies that collectively perform a set
+of projects in completion of a job. In embodiments, a robot
+fleet may include individual SPRs, MPRs, exoskeletons, and
+the like. Furthermore, fleets may be arranged as a fleet of
+task groups, regional fleets, and/or a fleet of fleets. In
+embodiments, a robot fleet may be supported by robot fleet
+support. In embodiments, examples of robot fleet support
+may include on premises, edge and IoT devices, local data
+storages (and corresponding data interfaces), maintenance

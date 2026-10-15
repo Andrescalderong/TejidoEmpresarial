@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+553
+may include an input set of training data representing
+categorizations or classifications of cargo by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for categorization or classification of
+cargo may include shipping data of the many types described
+herein, shipper profile data, as well as external data sources
+that may assist with classification or categorization of cargo.
+Such artificial intelligence systems used for classification, in
+the present example and other examples described herein,
+may include a recurrent neural network (including a gated  10
+recurrent neural network), a convolutional neural network, a
+combination of a recurrent neural network and a convolu-
+tional neural network, or other type of neural network or
+combination or hybrid of types of neural network described
+herein or in the documents incorporated by reference herein. 15
+In another example, a set of machine-learned models may
+be used to optimize smart container design. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu-
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the feature vectors into
+machine-learned models trained (e.g-, using a combination
+of simulation data and real-world data) to optimize the
+design of the smart container, such as based on a training 25
+data set of outcomes. In embodiments, the intelligence
+representing smart container optimization by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for optimization of marketplace effi- 30
+ciency may include shipping data of the many types
+described herein that may assist with smart container design
+optimization. Such artificial intelligence systems used for
+optimization, in the present example and other examples
+described herein, may include a recurrent neural network 35
+(including a gated recurrent neural network), a convolu-
+tional neural network, a combination of a recurrent neural
+network and a convolutional neural network, or other type of
+neural network or combination or hybrid of types of neural
+network described herein or in the documents incorporated 40
+by reference herein. In embodiments, the smart container
+design may be optimized for cost, carbon emissions, speed,
+efficiency, performance, performance in specific environ-
+ments (e.g., optimized to operate in arctic conditions),
+carrying capacity, safety, and the like. 45
+In another example, a set of machine-learned models may
+be used to optimize a smart container route. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu-
+ments incorporated by reference herein and may generate a
+50
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the feature vectors into
+machine-learned models trained (e.g., using a combination
+of simulation data and real-world data) to optimize the smart
+container route, such as based on a training data set of 55
+outcomes. In embodiments, the intelligence service 13004
+marketplace profitability optimization by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for optimization of the smart container 60
+route may include shipping data of the many types described
+herein that may assist with the smart container route opti-
+mization, including historical route data, order data, weather
+data, maritime data, traffic data, truck fleet data, railway
+data, news data, or the like.
+The foregoing examples are non-limiting examples and
+the intelligence service 13004 may be used for any other
+[col 2]
+554
+suitable Al/machine-learning related tasks that are per-
+formed with respect to smart containers and shipping envi-
+ronments.
+In embodiments, a security system 13046 includes a
+framework that may be implemented at various levels of the
+disclosed systems. In these embodiments, instances of the
+security system 13046 may be implemented at the system-
+level, at the fleet- or team-level, or individual-level. For
+example, at the system-level, the security system 13046 may
+provide security-related functionality on behalf of the sys-
+tem 13000 and/or with respect to any communications
+and/or other interactions with smart container operating
+units. In embodiments, a security system 13046 imple-
+mented at the fleet-level or team-level, whereby the security-
+system may be configured to provide security-related func-
+tionality on behalf of the smart container team or fleet and/or
+with respect to communications and/or other interactions
+with smart containers in the team or fleet. In embodiments,
+a security system 13046 implemented at the smart container-
+level may be configured to provide security-related func-
+tionality on behalf of the smart container and/or with respect
+to communications and/or other interactions with other
+smart containers, smart container teams, and/or the system
+13000.
+In embodiments, a security system 13046 may include an
+autonomous adaptive security module, an autonomous non-
+adaptive security module, and/or a manual security module.
+An autonomous adaptive security module may be configured
+to request intelligence tasks from intelligence service13004,
+whereby an adaptive security module leverages the artificial
+intelligence modules of an intelligence service 13004 to
+assess a security risk and determine an action based on an
+output of the intelligence service 13004. For example, the
+adaptive security module of a smart container fleet may
+monitor one or more conditions associated with the smart
+container fleet by receiving data from a set of data sources,
+such as monitoring a route for potentially dangerous con-
+ditions based on a set of data sources (e.g., weather data,
+video feeds, sensor data from the smart containers and/or
+environment, input from individual smart containers, and/or
+the like). In response to receiving the data, the adaptive
+security module may request an assessment (e.g., a classi-
+fication) of an environment from the intelligence service
+13004 regarding the security of the environment. In
+response, the intelligence service 13004 may provide one or
+more classifications that indicate an assessment of the envi-
+ronment. The adaptive security module may then determine
+whether the assessment necessitates an action to be taken,
+and if so, what particular action to take. In some of these
+embodiments, the adaptive security module may use a
+rules-based approach to determine whether the assessment
+necessitates an action and, if so, what action to take.
+Additionally, or alternatively, the adaptive security module
+may leverage a neural network that is trained to an action to
+recommend given a set of features (e.g., classifications,
+sensor readings from one or more smart containers, loca-
+tions of smart containers, objects detected in the environ-
+ment and locations thereof, and/or any other relevant fea-
+tures). In these embodiments, the neural network module
+13414 may receive the features from the adaptive security
+module and/or a set of intelligence service inputs 13470 and
+may output a proposed action given the set of features. In
+some of these embodiments, an intelligence service control-
+ler 13402 of the intelligence service 13004 may allow or
+override decisions made by the artificial intelligence mod-
+ules 13404. For instance, the analysis modules 13408 may
+perform dynamic risk analyses and/or static risk analyses.

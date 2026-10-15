@@ -1,0 +1,140 @@
+[col 1]
+US 12,567,082 B2
+653
+ery of components that are predicted to fail in the near
+future. In the industrial entity example, the contracting entity
+15001 may configure the intelligence service 15004 to
+compare future prices for purchasing new machines with
+futures prices for selling non-failing components of the
+machine to enter contracts for“parting out"a machine rather
+than repairing when futures prices indicate that parting out
+and purchasing a new machine is less costly than continued
+repair.
+10 The data source 15002 generates data for use by the
+intelligence service 15004. The data may be locally mea-
+sured (such as by sensors or IoT devices), retrieved from
+third parties, determined or enhanced by other intelligence
+services, or gathered in any other way without departing
+15
+from the scope of the present disclosure. For example, the
+data source 15002 may generate product level data, cus-
+tomer level data, or data at other value chain levels. In the
+example provided, the data source 15002 includes directly
+connected customers 15010, intelligent products 15012, and
+20
+environment sensors 15014. The intelligent products 15012
+and environmental sensors 15014 may provide sensor data
+associated with any measurable parameter, such as at least
+one of vibration, humidity, temperature, pressure, proximity,
+level, accelerometers, gyroscope, infrared sensors, optical 25
+sensors, MEMS, liquid lenses, shock, security, machine,
+product, pneumatic, conductive, state dependent frequency
+monitor, ultrasonic, capacitance, or microwave. The data
+source 15002 may generate data associated with any suitable
+topic or industry, such as at least one of Internet of Things 30
+(loT), social networks, social media, automated agent
+behavior, business entity behavior, human behavior, data
+source outcomes, data source parameters, wearables, per-
+sonal, financial, economic, credit score, environment,
+weather, labor, employment, census, crime, health, living, 35
+journalism/media, entertainment, location/motion, loyalty,
+reputation, real estate, reviews, marketing, food and drug,
+education, retail, transportation, biometric, travel, event, or
+customer activity.
+The intelligence service 15004 may be a configured 40s
+version of the intelligence service 1IT00. For example, the
+intelligence service 15004 may be adapted to execute the
+specific functions of the smart futures contract system 15000
+described below. In the example provided, the intelligence
+service 15004 includes at least one data storage 15019, a 45 
+ smart contract service 15020, a demand aggregation service
+15022, a digital wallet 15024, a risk determination service
+15026, and a robotic process automation (RPA) service
+15028.
+The data storage 15019 may be any type of non-transitory 501
+storage medium, such as one or more of a CD-ROM, DVD,
+memory, hard disk, flash drive, RAM, ROM, cache, net-
+work-attached storage, server-based storage, and the like.
+The data storage 15019 stores methods, programs, codes,
+program instructions, or other type of instructions capable of 55 i
+being executed by processors of the intelligence service
+15004.
+The data storage 15019 stores the data in various data
+structures. In the example provided, the data storage 15019
+includes a risk data structure 15021 and a robotic process 60
+automation (RPA) data structure 15022. The risk data struc-
+ture 15021 stores risk tolerance information, risk identifi-
+cation, risk assessment, and other risk information associ-
+ated with the contracting entity 15001. For example, the risk
+data structure 15021 may store a price fluctuation tolerance 65
+and a maximum price the contracting entity 15001 may be
+interested in paying for products in the future.
+[col 2]
+654
+The RPA data structure 15022 stores the robotic process
+automation algorithms executed by the RPA service 15028
+The algorithms may use various artificial intelligence
+embodiments described throughout this disclosure and the
+documents incorporated by reference herein, such as neural
+networks of various types, various algorithms and expert
+systems, and others.
+The smart contract service 15020 creates, modifies, and
+monitors performance of smart contracts based on data from
+the data sources 15002, information received from the
+futures systems 15006, and analysis from other features of
+the intelligence service 15004. For example, the smart
+contract service 15020 may detail the type of commodity, a
+number of units (e.g-, barrels ofoil, bushels of wheat, ounces
+of gold, or the like), a contract price to be paid for the
+commodity, the execution date of the futures contract, and
+other suitable parameter values in a smart contract govern-
+ing a futures contract with respect to a commodity. In some
+embodiments, the smart contract service 15020 may indicate
+parameter values corresponding to triggering actions, such
+as initiating a certification process associated with the trans-
+action, initiating a reporting process associated with the
+transaction, configuring logistics information associated
+with the transaction, reconfiguring of terms (e.g-, premium
+rates, interest rates, contract price, delivery date, payment
+due date, and/or the like). It should be appreciated that the
+types of data that may be used to parameterize a smart
+contract may differ without departing from the scope of the
+present disclosure.
+In some embodiments, the smart contract service 15020
+may operate autonomously. For example, the smart contract
+service 15020 may operate without human intervention
+based on instructions from the RPA service 15028 or based
+on other criteria provided by the contracting entity 15001.
+In some embodiments, the demand aggregation service
+15022 may predict that demand for a specific raw material
+used in the manufacture of a product may increase in the
+near future based on data from environment sensors 15014.
+Based on the predicted demand increase, the smart contract
+service 15020 may create a smart contract with the futures
+system 15006 for future delivery of the raw materials in
+anticipation of a price increase due to the predicted demand
+increase and other data from data sources 15002 suggesting
+that production of the raw materials may not outpace the
+anticipated rise in demand.
+The smart contract service 15020 receives evidence of
+completion of a task to trigger actions (e.g payments,
+recordation, or the like) in response to completed tasks. In
+another example, the smart contract service 15020 may
+monitor futures pricing and purchase or sell goods and
+services based on risk tolerances indicated by the contract-
+ing entity.
+The demand aggregation service 15022 aggregates
+demand across groups, locales, etc. The aggregation may
+include aggregating demand for at least one of hypothetical
+products, hypothetical events, hypothetical services, or ser-
+vices related to the hypothetical products or events. The
+demand aggregation service 15022 monitors demand
+response across multiple systems, such as how demand
+responds to changes in supply (e.g., scarcity effects), price
+changes, customization, pricing, advertising, etc.
+In some embodiments, the demand aggregation service
+15022 aggregates information, orders, and/or commitments
+(optionally embodied in one or more contracts, which may
+be smart contracts) for one or more products, categories, raw
+materials, components, logistics reservations, consumables,
+equipment, or the like. The demand aggregation may include

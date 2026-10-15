@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+443
+The distributed computing node is essentially a comput-
+ing device having a processor and a computer-readable
+medium having machine-readable instructions stored
+thereon and contains full copy of the transaction history of
+the distributed ledger. The nodes of the distributed ledger
+may be implemented in a variety of computing systems
+including additive manufacturing systems, enterprise sys-
+tems, inventory management systems, packaging systems,
+shipping and/or delivery tracking systems, SKU databases,
+smart factories and so on. Whenever additional transactions 10
+are proposed to be added to the distributed ledger, one or
+more of the nodes typically validate the proposed additional
+transaction records, such as via a consensus algorithm.
+Typically, once the proposed transaction has been validated
+e.g., through any consensus algorithm, the proposed trans-
+action is added to each copy of the distributed ledger across
+all the nodes.
+In embodiments, the transaction data is validated by the
+nodes through a proof-of-work (POW) consensus algorithm
+and hashed into an ongoing chain of cryptographically 20
+approved blocks of transaction records constituting the
+distributed ledger.
+In embodiments, proof of work algorithms require the
+nodes to perform a series of calculations to solve a crypto-
+graphic puzzle. For instance, in order to validate a pending 25
+data record, the nodes may be required to calculate a hash
+via a hash algorithm (e.g-, SHA256) that satisfies certain
+conditions set by the system. The calculating of a hash in this
+manner may be referred to herein as “mining," and the nodes
+performing the mining may be referred to as “miners" or 30
+"miner nodes." The distributed ledger may, for example.
+require the value of the hash to be under a specific threshold.
+In such embodiments, the nodes may combine a “"base
+string"' (i.e., a combination of various types of metadata
+within a block header, e.g., root hashes, hashes of previous 35
+blocks, timestamps, etc.) with a “"nonce" (e.g., a whole
+number value) to be input into the POW algorithm to
+produce a hash. In an exemplary embodiment, the nonce
+may initially be set to O when calculating a hash value using
+the POW algorithm. The nonce may then be incremented by 40
+a value of 1 and used to calculate a new hash value as
+necessary until a node is able to determine a nonce value that
+results in a hash value under a specified threshold (e.g., a
+requirement that the resulting hash begins with a specified
+number of zeros). The first node to identify a valid nonce 45t
+may broadcast the solution (in this example, the nonce
+value) to the other nodes of the distributed ledger for
+validation. Once the other nodes have validated the "win-
+ning" node's solution, the pending transaction record may
+be appended to the last block in the distributed ledger. In 50
+ some cases, a divergence in distributed ledger copies may
+occur if multiple nodes calculate a valid solution in a short
+timeframe. In such cases, the nodes using the POW algo-
+rithm accept the longest chain of blocks (i.e., the chain with
+the greatest proof of work) as the *true" version of the 55
+distributed ledger. Subsequently, all nodes having a diver-
+gent version of the distributed ledger may reconcile their
+copies of the ledger to match the true version as determined
+bythe consensus algorithm.
+In other embodiments, the consensus algorithm may be a 60
+“proof of stake" ("Pos") algorithm, in which the validation
+of pending transaction records depends on a user's “stake"
+within the distributed ledger. For example, the user's "stake"
+may depend on the user's stake in a digital currency or point
+system (e.g., a cryptocurrency, token system, asset share
+system, reputation point system, etc.) within the distributed
+ledger. The next block in the distributed ledger may then be
+[col 2]
+444
+decided by the pending transaction record that collects the
+greatest number of votes. A greater stake (e.g., in a given
+of votes that the user may allocate to particular pending
+transaction records, which in turn increases the chance for a
+particular user to create blocks in the distributed ledger. In
+embodiments, a distributed ledger need not be based on a
+token or cryptocurrency system, but rather may be secured
+by conventional or other security techniques, for example. In
+embodiments, such as ones involving a digital thread, proof
+of stake may be weighted, such as where a product manu-
+facturer's votes, a customer's votes, or the like count more
+than an arbitrary third party.
+In yet other embodiments, a consensus algorithm may be
+15 a“practical byzantine fault tolerance"("PBFT") algorithm,
+in which each node validates pending transaction records by
+using a stored internal state within the node. In particular, a
+user or node may submit a request to post a pending
+transaction record to the distributed ledger. Each of the
+nodes in the distributed ledger may then run the PBFT
+algorithm using the pending transaction record and each
+node's internal state to come to a conclusion about the
+pending transaction record's validity. Upon reaching said
+conclusion, each node may submit a vote (e.g., "yes or
+*no") to the other nodes in the distributed ledger. A consen-
+sus is reached amongst the nodes by taking into account the
+total number of votes submitted by the nodes. Subsequently,
+once a threshold number of nodes have voted "yes," the
+pending transaction record is treated as "valid" and is
+thereafter appended to the distributed ledger across all of the
+nodes.
+In embodiments, the nodes are paid a transaction fee for
+their mining activities. In embodiments, the distributed
+ledger is a private and permissioned blockchain controlled
+by a single entity or a consortium of trusted entities, that's
+built using a pre-built API provided on CORDA,
+Hyperledger, and Quorum.
+In embodiments, the distributed ledger is a public, per-
+missionless blockchain that's built on Ethereum or bitcoin
+blockchain. In embodiments, the event data related to the
+movement of goods through the supply chain in the trade
+finance network may be tracked using an IoT subsystem.
+In embodiments, transaction records stored in the distrib-
+uted ledger may be hashed, encrypted, or otherwise pro-
+tected from unauthorized access and may only be accessible
+utilizing a private key to decrypt the stored information/data.
+The blockchain may be a single blockchain configured for
+storing all transactions therein, or it may comprise a plurality
+of blockchains, wherein each blockchain is utilized to store
+transaction records indicative of a particular type of trans-
+action. For example, a first blockchain may be configured to
+store shipment data and supply chain transactions, and a
+second blockchain may be configured to store financial
+transactions (e.g., via a virtual currency).
+In embodiments, the distributed ledger system includes a
+decentralized application downloadable by entities in the
+distributed manufacturing network.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide a set of unified views of
+the workflows to the set of entities of a distributed manu-
+facturing network.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide tracking and reporting
+on state and movement of a product from order through
+ 65 manufacture and assembly to final delivery to the customer.
+In embodiments, the distributed ledger system includes a
+system for digital rights management of entities in the

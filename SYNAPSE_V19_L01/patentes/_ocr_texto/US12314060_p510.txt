@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+655
+The RPA data structure 15022 stores the robotic process
+automation algorithms executed by the RPA service 15028.
+The algorithms may use various artificial intelligence
+embodiments described throughout this disclosure and the
+documents incorporated by reference herein, such as neural
+networks of various types, various algorithms and expert
+systems, and others.
+The smart contract service 15020 creates, modifies, and
+monitors performance of smart contracts based on data from
+the data sources 15002, information received from the
+10
+futures systems 15006, and analysis from other features of
+the intelligence service 15004. For example, the smart
+contract service 15020 may detail the type of commodity, a
+number of units (e.g., barrels of oil, bushels of wheat, ounces
+of gold, or the like), a contract price to be paid for the 15
+commodity, the execution date of the futures contract, and
+other suitable parameter values in a smart contract govern-
+ing a futures contract with respect to a commodity. In some
+embodiments, the smart contract service 15020 may indicate
+parameter values corresponding to triggering actions, such 2o
+as initiating a certification process associated with the trans-
+action, initiating a reporting process associated with the
+transaction, configuring logistics information associated
+with the transaction, reconfiguring of terms (e.g., premium
+rates, interest rates, contract price, delivery date, payment 25
+due date, and/or the like). It should be appreciated that the
+types of data that may be used to parameterize a smart
+contract may differ without departing from the scope of the
+present disclosure.
+In some embodiments, the smart contract service 15020 30
+may operate autonomously. For example, the smart contract
+service 15020 may operate without human intervention
+based on instructions from the RPA service 15028 or based
+on other criteria provided by the contracting entity 15001.
+In some embodiments, the demand aggregation service 35 
+15022 may predict that demand for a specific raw material
+used in the manufacture of a product may increase in the
+near future based on data from environment sensors 15014.
+Based on the predicted demand increase, the smart contract
+service 15020 may create a smart contract with the futures 40
+system 15006 for future delivery of the raw materials in
+anticipation of a price increase due to the predicted demand
+increase and other data from data sources 15002 suggesting
+that production of the raw materials may not outpace the
+anticipated rise in demand. 45
+The smart contract service 15020 receives evidence of
+completion of a task to trigger actions (e.g., payments,
+recordation, or the like) in response to completed tasks. In
+another example, the smart contract service 15020 may
+services based on risk tolerances indicated by the contract-
+ing entity.
+The demand aggregation service 15022 aggregates
+demand across groups, locales, etc. The aggregation may
+include aggregating demand for at least one of hypothetical 55
+products, hypothetical events, hypothetical services, or ser-
+vices related to the hypothetical products or events. The
+demand aggregation service 15022 monitors demand
+response across multiple systems, such as how demand
+responds to changes in supply (e.g, scarcity effects), price
+changes, customization, pricing, advertising, etc.
+In some embodiments, the demand aggregation service
+15022 aggregates information, orders, and/or commitments
+(optionally embodied in one or more contracts, which may
+be smart contracts) for one or more products, categories, raw 65
+materials, components, logistics reservations, consumables,
+equipment, or the like. The demand aggregation may include
+[col 2]
+656
+current demand for existing products and future demand for
+products that are not yet available.
+The digital wallet 15024 stores banking and finance
+information for payments into and out of the futures system
+15006. For example, the digital wallet 15024 may store
+cryptocurrency information, bank balance and routing infor-
+mation, and other information that may be used to complete
+transactions in the futures systems and distribution systems
+15008.
+The risk determination service 15026 determines the risk
+associated with events and conditions received by data
+sources 15002, demand aggregation service 15022, and
+futures system 15006. For example, the risk determination
+service 15026 may supply data to the smart contracts service
+15020 indicating that the financial risk of waiting to pur-
+chase raw materials as they are needed is greater than the
+risk of purchasing the raw materials in the futures system
+15006 at some time before the raw materials are needed for
+delivery when the raw materials are needed. In some
+embodiments, the risk determination service 15026 retrieves
+risk information-such as price fluctuation tolerancefrom
+the risk data 15021. With a low price fluctuation tolerance,
+the smart contract service 15020 may execute a smart
+contract for future delivery of the raw materials as the
+futures price approaches the maximum price the contracting
+entity 15001 is interested in paying. With a high price
+fluctuation tolerance, the smart contract service 15020 may
+allow the future price to exceed the maximum price in the
+hope that the price may later decrease.
+The robotic process automation (RPA) service 15028 may
+facilitate, among other things, computer automation of pro-
+ducing and validating smart contracts between the contract-
+ing entity 15001 and the futures system 15006. In some
+embodiments, the RPA service 15028 monitors human inter-
+action with various systems to learn patterns and processes
+performed by humans in performance of respective tasks.
+This may include observation of human actions that involve
+interactions with hardware elements, with software inter-
+faces, and with other elements. Observations may include
+field observations as humans perform real tasks, as well as
+observations of simulations or other activities in which a
+human performs an action with the explicit intent to provide
+a training data set or input for the RPA system, such as where
+a human tags or labels a training data set with features that
+assist the RPA system in learning to recognize or classify
+features or objects,amongmany other examples.
+In some embodiments, the RPA service 15028 may learn
+to perform certain tasks based on the learned patterns and
+processes, such that the tasks may be performed by the RPA
+service 15028 in lieu or in support of a human decision
+maker. For example, the RPA service 15028 may identify
+that a farmer typically reserves trucking services to transport
+a crop to a place of sale approximately two weeks before
+harvesting a crop. The RPA service 15028 may further
+identify that the farmer performs an annual service on a
+harvesting machine and that the crop has grown to a con-
+sistent height approximately three weeks before harvesting
+the crop. Based on detecting the annual service of the
+harvesting machine (e.g., by data from the machine itself, by
+60 identifying fuel filters in a credit card receipt, by machine
+vision identifying the service, etc.) or based on identifying
+that the height of the crop has reached the consistent height
+(e.g., by machine vision data from data source 15002), the
+RPA service 15028 may query the logistics reservations
+system 15038. Based on the response from the logistics
+reservations system 15038, the smart contract 15020 may
+present reservation options to the farmer or negotiate reser-

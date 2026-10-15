@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+545
+beaNet (that uses evolutionary algorithms to search and find
+optimal architecture for image recognition).
+The training process of a convolutional neural network,
+such as CNN, may be similar to the training process dis-
+cussed in FIG. 148 with respect to neural network.
+In embodiments, all parameters and weights (including
+the weights in the filters and weights for the fully-connected
+layer are initially assigned (e.g., randomly assigned). Then,
+during training, a training image or images, in which the
+objects have been detected and classified, are provided as the 10
+input to the CNN, which performs the forward propagation
+steps. In other words, CNN applies convolution, non-linear
+activation, and pooling layers to each training image to
+determine the classification vectors (i.e., detect and classify
+each training image). These classification vectors are com- 15
+pared with the predetermined classification vectors. The
+error (e.g., the squared sum of differences, log loss, Softmax
+log loss) between the classification vectors of the CNN and
+the predetermined classification vectors is determined. This
+error is then employed to update the weights and parameters
+of the CNN in a backpropagation process which may use
+gradient descent and may include one or more iterations.
+The training process is repeated for each training image in
+the training set.
+The training process and inference process described 25 
+above may be performed on hardware, software, or a com-
+bination of hardware and software. However, training a
+convolutional neural network like CNN or using the trained
+CNN for inference generally requires significant amounts of
+computation power to perform, for example, the matrix 3o :
+multiplications or convolutions. Thus, specialized hardware
+circuits, such as graphic processing units (GPUs), tensor
+processing units (TPUs), neural network processing units
+(NPUs), FPGAs, ASICs, or other highly parallel processing
+circuits may be used for training and/or inference. Training 35 1
+and inference may be performed on a cloud, on a data center,
+or on a device.
+In embodiments, an object detection model extends the
+functionality of CNN-based image classification neural net-
+work models by not only classifying objects but also deter- 40
+mining their locations in an image in terms of bounding
+boxes. Region-based CNN (R-CNN) methods are used to
+extract regions of interest (ROD), where each ROI is a
+rectangle that may represent the boundary of an object in
+image. Conceptually, R-CNN operates in two phases. In a 45
+first phase, region proposal methods generate all potential
+bounding box candidates in the image. In a second phase, for
+every proposal, a CNN classifier is applied to distinguish
+between objects. Alternatively, a fast R-CNN architecture
+can be used, which integrates the feature extractor and 50
+classifier into a unified network. Another faster R-CNN can
+be used, which incorporates a Region Proposal Network
+(RPN) and fast R-CNN into an end-to-end trainable frame-
+work. Mask R-CNN adds instance segmentation, while
+mesh R-CNN adds the ability to generate a 3D mesh from 55 J
+a 2D image.
+In embodiments, artificial intelligence modules 13404
+may provide access to and/or integrate a robotic process
+automation (RPA)module 13416.The RPAmodule 13416
+may facilitate, among other things, computer automation of
+producing and validating workflows. In embodiments, an
+RPA module 13416 may monitor human interaction with
+various systems to learn patterns and processes performed
+by humans in performance of respective tasks. This may
+include observation of human actions that involve interac- 65
+tions with hardware elements, with software interfaces, and
+with other elements. Observations may include field obser-
+[col 2]
+546
+vations as humans perform real tasks, as well as observa-
+tions of simulations or other activities in which a human
+performs an action with the explicit intent to provide a
+training data set or input for the RPA system, such as where
+a human tags or labels a training data set with features that
+assist the RPA system in learning to recognize or classify
+features or objects, among many other examples. In embodi-
+ments, an RPA module 13416 may learn to perform certain
+tasks based on the learned patterns and processes, such that
+the tasks may be performed by the RPA module 13416 in
+lieu or in support of a human decision maker Examples of
+RPA modules 13416 may encompass those in this disclosure
+and in the documents incorporated by reference herein and
+may involve automation of any of the wide range of value
+chain network activities or entities described therein.
+In embodiments, the artificial intelligence modules 13404
+may include and/or provide access to an analytics module
+13418. In embodiments, an analytics module 13418 is
+configured to perform various analytical processes on data
+output from value chain entities or other data sources. In
+example embodiments, analytics produced by the analytics
+module 13418 may facilitate quantification of system per-
+formance as compared to a set of goals and/or metrics. The
+goals and/or metrics may be preconfigured, determined
+dynamically from operating results, and the like. Examples
+of analytics processes that can be performed by an analytics
+module 13418 are discussed below and in the document
+incorporated herein by reference. In some example imple-
+mentations, analytics processes may include tracking goals
+and/or specific metrics that involve coordination of value
+chain activities and demand intelligence, such as involving
+forecasting demand for a set of smart containers by location
+and time (among many others).
+In embodiments, artificial intelligence modules 13404
+may include and/or provide access to a digital twin module
+13420. The digital twin module 13420 may encompass any
+of a wide range of features and capabilities described herein.
+In embodiments, a digital twin module 13420 may be
+configured to provide, among other things, execution envi-
+ronments for different types of digital twins, such as smart
+container digital twins 13504, digital twins of physical
+shipping environments (shipping yard, container port, or the
+like), digital twins of modes of transportation (container
+ship, truck, railway, or the like), digital twins of smart
+container operating units, logistics digital twins, organiza-
+tional digital twins, role-based digital twins, and the like. In
+embodiments, the digital twin module 13420 may be con-
+figured in accordance with digital twin systems and/or
+modules described elsewhere throughout the disclosure. In
+example embodiments, a digital twin module 13420 may be
+configured to generate digital twins that are requested by
+intelligence service clients. Further, the digital twin module
+13420 may be configured with interfaces, such as APIs and
+the like for receiving information from external data sources.
+For instance, the digital twin module 13420 may receive
+real-time data from sensor systems of a smart container,
+machinery, vehicle, robot, or other device, and/or sensor
+systems of the physical environment in which a device
+operates. In embodiments, the digital twin module 13420
+may receive digital twin data from other suitable data
+sources, such as 3d party services (e.g., weather services,
+traffic data services, logistics systems and databases, and the
+like.In embodiments,the digital twin module 13420 may
+include digital twin data representing features, states, or the
+like of value chain network entities, such as supply chain
+infrastructure entities, transportation or logistic entities, con-
+tainers, goods, or the like, as well as demand entities, such

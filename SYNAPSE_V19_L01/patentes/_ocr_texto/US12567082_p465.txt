@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+607
+digital twin module 13420 abstracts the different views (or
+ states) within the digital twin to the appropriate granularity.
+For instance, the digital twin module 13420 may have access
+to all the sensor data collected on behalf of the 13000 as well
+as access to real-time sensor data streams. In this example,
+if the sensor readings from a particular smart container are
+indicative of a potentially critical situation (e.g, failure
+state, dangerous condition, damaged cargo, potentially ille-
+gal cargo, or the like), then the analytics that indicate the
+potentially critical situation may become very important to 10
+the fleet manager. Thus, the digital twin module 13420,
+when building the appropriate perspective for the fleet
+manager, may include a state indicator of the smart container
+in the fleet manager digital twin 13328. In this way, the fleet
+manager can drill down into the state indicator of the smart 15
+container to view the potentially critical situation at a greater
+granularity (e.g., smart container machinery and an analysis
+of the sensor data used to identify the situation).
+In embodiments, a smart container fleet manager digital
+twin 13328 may be configured to report on the performance 20
+of smart containers in the fleet. As described herein, report-
+ing may include timing performance metrics, financial per-
+formance metrics, physical performance metrics, cargo dam-
+age metrics, data regarding resource usage, or some other
+type of reporting data. In embodiments, an intelligent agent 25
+trained by the user may be trained to surface the most
+important reports to the user. For example, if the user (e.g..
+the fleet manager) consistently views and follows up on
+timing performance but routinely skips over reports relating
+to financial performance, the executive agent may automati-
+cally surface reports related to timing metrics to the user
+while suppressing financial performance data.
+In embodiments, a smart container fleet manager digital
+twin 13328 may be configured to monitor, store, aggregate,
+merge, analyze, prepare, report, and distribute material 35
+relating to other shipping entities (e.g., shippers, shipping
+lines, container terminals, or named entities of interest). In
+embodiments, such data may be collected by the system
+13000 via data aggregation, webscraping, or other tech-
+niques to search and collect shipping entity information 40 
+from sources including, but not limited to, regulatory infor-
+mation, information on shipping, press releases, SEC or
+other financial reports, or some other publicly available data.
+For example, a user wishing to monitor a certain shipping
+entity may request that the smart container fleet manager 45 AR-enabled device.
+digital twin 13328 provide materials relating to the certain
+shipping entity. In response, the system 13000 may identify
+a set of data sources that are either publicly available or to
+which the fleet manager has access (e.g., internal data
+sources, licensed 3rd party data, or the like).
+50
+In embodiments, the client application 13324, such as
+13000, that executes the smart container fleet manager
+digital twin 13328 may be configured with an intelligent
+agent that is trained on the fleet manager's actions (which
+may be indicative of behaviors, and/or preferences). In 55
+embodiments, the intelligent agent may record the features
+relating to the actions (e.g., the circumstances relating to the
+user's action) to the intelligent agent system. For example,
+the intelligent agent may record each time the user approves
+a freight storage and/or transportation service order (which 60
+is the action) as well as the features surrounding the approval
+(e.g., the type of action, the type of order, the price of the
+order, the shipper, the quantity of smart containers, route
+information, and the like). The intelligent agent may report
+the actions and features to the intelligent agent system that 65
+may train the intelligent agent on the manner by which the
+intelligent agent can undertake or recommend approval tasks
+[col 2]
+608
+and other tasks in the future. Once trained, the intelligent
+agent may automatically perform actions and/or recommend
+actions to the user. Furthermore, in embodiments, the intel-
+ligent agent may record outcomes related to the performed/
+recommended actions, thereby creating a feedback loop with
+the intelligent agent system.
+In embodiments, a smart container fleet manager digital
+twin 13328 may provide an interface for a fleet manager to
+perform one or more fleet manager-related workflows. For
+example, the smart container fleet manager digital twin
+13328 may provide an interface for a manager to perform,
+supervise, or monitor freight transportation order approval
+workflows, smart container maintenance workflows, logis-
+tics workflows, smart contract workflows, shipping and/or
+delivery workflows, regulatory workflows, and the like.
+In another example, a user may request a filtered view of
+a digital twin of a process, whereby the digital twin of the
+process only shows shipping entities that are involved in the
+process. In this example, the digital twin visualization
+module 13322 may retrieve a digital twin of the process, as
+well as any related digital twins (e.g., a digital twin of the
+impact the process). The digital twin visualization module
+13322 may then render each of the digital twins (e.g-, the
+environment and the relevant shipping entities) and then
+may perform the process on the rendered digital twins. It is
+noted that, as a process may be performed over a period of
+time and may include moving items and/or parts, the digital
+twin visualization module 13322 may generate a series of
+sequential frames that demonstrate the process. In this
+scenario, the movements of the shipping entities implicated
+by the process may be determined according to the behav-
+iors defined in the respective digital twins of the machines
+and/or devices.
+As discussed, the digital twin visualization module 13322
+may output the requested digital twin to a client application
+13324. In some embodiments, the client application 13324
+is a virtual reality application, whereby the requested digital
+twin is displayed on a virtual reality headset. In some
+embodiments, the client application 13324 is an augmented
+reality application, whereby the requested digital twin is
+depicted in an AR-enabled device. In these embodiments,
+the requested digital twin may be filtered such that visual
+elements and/or text are overlaid on the display of the
+It is noted that, while a graph database is discussed, the
+digital twin module 13420 may employ other suitable data
+structures to store information relating to a set of digital
+twins. In these embodiments, the data structures, and any
+related storage system, may be implemented such that the
+data structures provide for some degree of feedback loops
+and/or recursion when representing iteration of flows.
+In embodiments, a digital twin I/O system 13308 inter-
+faces with the shipping entity and/or environment, the
+digital twin module 13420, and/or components thereof to
+provide bi-directional transfer of data between coupled
+components according to some embodiments of the present
+disclosure.
+In embodiments, the transferred data includes signals
+(e.g., request signals, command signals, response signals,
+etc.) between connected components, which may include
+software components,hardware components,physical
+devices,virtualized devices, simulated devices, combina-
+tions thereof, and the like. The signals may define material
+properties (e.g., physical quantities of temperature, pressure,
+humidity, density, viscosity, etc.), measured values (e.g..
+contemporaneous or stored values acquired by the device or

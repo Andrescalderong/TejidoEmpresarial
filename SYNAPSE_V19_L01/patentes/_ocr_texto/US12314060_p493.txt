@@ -1,0 +1,138 @@
+ing disassembly without direct communication between the 10 13312 leverages digital twin dynamic models 13374 to
+[col 1]
+US 12,314,060 B2
+621
+transported to other areas for repair (e.g-, dust-sensitive
+components), assemblies or subassemblies that need lubri-
+cation, and locations of objects for reassembly (e.g., storing
+location that the wearer has placed removed objects and
+directing the wearer or another wearer to the stored locations
+to expedite reassembly and minimize furtherdisassembly or
+missing parts in the reassembled element). This can expedite
+repair work, minimize process impact, allow workers to
+disassemble and reassemble equipment (e.g., by coordinat-
+workers), increase equipment longevity and reliability (e.g.,
+by assuring that all components are properly replaced prior
+to placing back in service), combinations thereof, and the
+like.
+In embodiments, the digital twin module 13420 may 15
+include, integrate, integrate with, manage, handle, link to,
+take input from, provide output to, control, coordinate with,
+or otherwise interact with a digital twin dynamic model
+system 13312. The digital twin dynamic model system
+13312 can update the properties of a set of digital twins of 20
+a set of shipping entities and/or environments, including
+properties of physical shipping assets, workers, processes,
+shipping facilities, warehouses, and the like (or any of the
+other types of entities or environments described in this
+disclosure or in the documents incorporated by reference 25
+herein) in such a manner that the digital twins may represent
+those shipping entities and environments, and properties or
+attributes thereof, in real-time or very near real-time. In
+some embodiments, the digital twin dynamic model system
+13312 may obtain sensor data received from a sensor system
+30
+and may determine one or more properties of a shipping
+environment or a shipping entity based on the sensor data
+and based on one or more dynamic models.
+In embodiments, the digital twin dynamic model system
+13312 may update/assign values of various properties in a 35
+digital twin and/or one or more embedded digital twins,
+including, but not limited to, vibration values, probability of
+failure values, probability of downtime values, cost of
+downtime values, pricing values, energy values, perfor-
+mancevalues,financialvalues,temperaturevalues,humid- 4o
+ity values, heat flow values, cargo load values, fluid flow
+values, radiation values, substance concentration values,
+velocity values, acceleration values, location values, pres-
+sure values, stress values, strain values, light intensity val-
+ues, sound level values, volume values, shape characteris- 45 1
+tics,material characteristics, and dimensions. In embodiments, a digital twin may be comprised of (e.g..
+via reference) other embedded digital twins. For example, a
+digital twin of a container terminal may include an embed-
+ded digital twin of a container ship and one or more 50
+embedded digital twins of one or more respective smart
+containers enclosed within the container ship. A digital twin
+may be embedded, for example, in the memory of a smart
+container that has an onboard IT system (e.g., the memory
+of an Onboard Diagnostic System, control system (e.g-, 55
+SCADA system) or the like). Other non-limiting examples
+of where a digital twin may be embedded include the
+following: on a wearable device of a worker; in memory on
+a local network asset, such as a switch, router, access point,
+or the like; in a cloud computing resource that is provisioned 60
+for an environment or entity; and on an asset tag or other
+memory structure that is dedicated to an entity.
+In embodiments, the digital twin dynamic model system
+13312 can update the properties of a digital twin and/or one
+or more embedded digital twins on behalf of a client 65 
+application 13324 (such as the smart container system
+13000). In embodiments, a client application 13324 may be
+[col 2]
+622
+the smart container system 13000, an application relating to
+a shipping component or environment (e.g., monitoring a
+shipping facility or a component within, simulating a ship-
+ping environment, or the like). In embodiments, the client
+application 13324 may be used in connection with both fixed
+and mobile data collection systems. In embodiments, the
+client application 13324 may be used in connection with
+Industrial Internet of Things sensor system.
+In embodiments, the digital twin dynamic model system
+model the behavior of a shipping entity and/or environment.
+Dynamic models 13374 may enable digital twins to repre-
+sent physical reality, including the interactions of shipping
+entities, by using a limited number of measurements to
+enrich the digital representation of a shipping entity and/or
+environment, such as based on scientific principles. In
+embodiments, the dynamic models 13374 are formulaic or
+mathematical models. In embodiments, the dynamic models
+13374 adhere to scientific laws, laws of nature, and formulas
+(e.g., Newton's laws of motion, second law of thermody-
+namics, Bernoulli's principle, ideal gas law, Dalton's law of
+partial pressures, Hooke's law of elasticity, Fourier's law of
+heatconduction, Archimedes'principle of buoyancy,and the
+like). In embodiments, the dynamic models are machine-
+learned models.
+In embodiments, the digital twin module 13420 may have
+a digital twin dynamic model datastore 13376 for storing
+dynamic models 13374 that may be represented in digital
+twins. In embodiments, digital twin dynamic model data-
+store 13376 can be searchable and/or discoverable.In
+embodiments, digital twin dynamic model datastore 13376
+can contain metadata that allows a user to understand what
+characteristics a given dynamic model can handle, what
+inputs are required, what outputs are provided, and the like.
+In some embodiments, digital twin dynamic model datastore
+13376 can be hierarchical, such as where a model can be
+deepened or made simpler based on the extent of available
+data and/or inputs, the granularity of the inputs, and/or
+situational factors (such as where something becomes of
+high interest and a higher fidelity model is accessed for a
+period of time).
+In embodiments, a digital twin or digital representation of
+a shipping entity or environment may include a set of data
+structures that collectively define a set of properties of a
+represented physical shipping asset, device, worker, process,
+facility, and/or environment, and/or possible behaviors
+thereof. In embodiments, the digital twin dynamic model
+system 13312 may leverage the dynamic models 13374 to
+inform the set of data structures that collectively define a
+digital twin with real-time data values. The digital twin
+dynamic models 13374 may receive one or more sensor
+measurements, Industrial Internet of Things device data,
+and/or other suitable data as inputs and calculate one or more
+outputs based on the received data and one or more dynamic
+models 13374. The digital twin dynamic model system
+13312 then uses the one or more outputs to update the digital
+twin data structures.
+In one example, the set of properties of a digital twin of
+an shipping entity that may be updated by the digital twin
+dynamic model system 13312 using dynamic models 13374
+may include the vibration characteristics of the shipping
+entity, temperature(s) of the shipping entity, the state of the
+shipping entity (e.g-, a solid, liquid, or gas), the location of
+the shipping entity, the displacement of the shipping entity,
+the velocity of the shipping entity, the acceleration of the
+shipping entity, probability of downtime values associated
+with the shipping entity, cost of downtime values associated

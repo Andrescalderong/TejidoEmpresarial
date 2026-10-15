@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+659
+more instances of the edge networking system 16100 may
+transmit data to and receive signals from the VCN control
+tower 16112.
+FIG. 158 illustrates an exemplary embodiment of an
+environment of the edge networking system 16100 wherein
+a plurality ofVCN system services 16202-206 are connected
+to the VCN bus 16110. In embodiments, the edge network-
+ing system 16100 may transmit data to and/or receive data
+from one or more of theVCN control tower and/or other
+VCN system services 16202-206 (e.g., the DPNW system,
+the ROBO system, an energy system and process such as
+NRGY system, etc.). The energy system and process may be
+referred to as the energy system (e.g., NRGY system) which
+may be or may include an energy system, process, module,
+service, platform, and/or the like as described in the disclo-
+ sure. Data received by the edge networking system 16100
+from the VCN control tower 16112 may include, for
+example, data related to VCN tasks to be directed by the
+between multiple of the VCN entities. The edge networking
+system 16100 may perform one or more networking tasks
+according to the one or more VCN tasks, such as encryption
+codes, routing data, protocol information, data, Al predic-
+tions, AI routing information, AI conclusions, or any other 25 t
+suitable data. The edge networking system 16100 may
+additionally or alternatively transmit data to other of the
+VCN entities via the VCN bus.
+In some embodiments, the edge networking system 16100
+is configured to facilitate optimization of communication 301
+and processes between other VCN modules. The edge
+networking system 16100 may perform one or more net-
+working tasks with relation to one or more of the other VCN
+modules, for example by optimizing data packet communi-
+cation and/or encryption protocols for a data stream between 35
+two of the other VCN modules, and/or between one or more
+data sources and other of the VCN modules. For example, a
+VCN task requiring fast transmission of data from IoT
+sensors to one or modules of the ROBO system as well as
+fast reporting of energy systems by the NRGY system to the 40
+ROBO system may involve the VCN control tower 16112
+instructing the edge networking system 16100 to optimize
+data routes and protocols between the ROBO system and
+one or more of the IoT data sources and the NRGY system.
+FIG. 159 illustrates an exemplary embodiment of an edge 45
+device 16102 containing an instance of the edge networking
+system 16100. While FIG. 159 illustrates the edge network-
+ing system 16100 installed on a device 16102, it is to be
+appreciated that the edge networking system and/or config-
+ured instances thereof may be uploaded to/installed/operated 50
+on or within any suitable type of edge environment 16102-
+108 disclosed herein. The instance of the edge networking
+system 16100 may include one or more modules configured
+to facilitate performing of networking tasks by the edge
+networking system 16100. The modules that an instance of 55
+the edge networking system 16100 may be specifically
+changed, added, removed, and/or otherwise tailored to suit
+the desired performance of the instance of the edge net-
+working system 16100 for the particular edge environment
+on which the configured instance of the edge networking 60
+system 16100 is stored. For example, different configura-
+tions of the edge networking system 16100 may be config-
+ured for and uploaded to/installed on each of the different
+types of edge environments 16102-108, as well as to/on
+individual edge environments within the types of edge 65
+environments 16102-108 on a case-by-case basis. The con-
+figurations of the individual instances of the edge network-
+[col 2]
+660
+ing system may be determined by the VCN control tower
+16112 according to one or more of the VCN tasks.
+In embodiments, the edge networking system 16100 may
+include one or more of the following modules: edge device-
+as-a-service module 16302, application-specific protocol
+module 16304, edge robotics module 16306, SDWAN mod-
+ule 16308, network customization module 16310, AI chipset
+interfacing module 16312, 5G software definition module
+16314, edge networking AI module 16316, tunable signal
+filtering module 16318, network routing module 16320, AI
+network enhancement module 16322, and edge network
+digital twin module 16324.
+In embodiments, the edge device-as-a-service module
+16302 is configured to facilitate provision of one or more
+functions of the edge environment 16102-108 on which the
+edge networking system 16100 is installed and/or of one or
+more functions of the configured edge networking device
+16100 to other devices and/or platforms with which the edge
+networking system 16100 is in communication, such as via
+the VCN bus 16110. For example, a configured instance of
+the edge networking system 16100 installed on a smart
+container may make functions of the smart container avail-
+able to other connected items (e.g., a fulfillment system) via
+the edge device-as-a-service module 16302.
+In embodiments, the application-specific protocol module
+16304 is configured to determine and/or facilitate provision
+of one or more application-specific networking protocols to
+the edge environment 16102-108 on which the edge net-
+working system 16100 is installed and/or to one or more
+other devices and/or platforms with which the edge net-
+working system 16100 is in communication, such as via the
+VCN bus 16110. For example, the application-specific pro-
+tocol module 16304 may facilitate communication to and/or
+from an application that requires transmitting and/or receiv-
+ing data via a proprietary encrypted communication proto-
+col.
+In embodiments, the edge robotics module 16306 is
+configured to facilitate networking related to robotics at the
+edge environment 16102-16108. The edge robotics module
+16306 may, for example, provide one or more of robotics-
+related data routing, robotics-related communication proto-
+col selection and enabling, local control interfacing, remote
+control interfacing, sensor data transmission and reception,
+and other suitable features to robots local to and/or remote
+from the edge environment 16102-108 on which the edge
+networking system16100is installed.
+In embodiments, the SDWAN module 16308 is config-
+ured to facilitate creation, management, and/or handling of
+communications via a software-defined wide area network
+(SDWAN). The edge networking system 16100 may, for
+example, define a SDWAN via the SDWAN module 16308,
+and/or some or all of the devices connected to the SDWAN
+may have instances of the edge networking system 16100
+installed thereon to facilitate communications within the
+SDWAN defined by one or more SDWAN modules 16308.
+In embodiments, the network customization module
+16310 is configured to facilitate creation, management,
+customization, and/or handling of one or more networks.
+The edge networking system 16100 may customize a net-
+work for a specific VCN task via the network customization
+module 16310. For example, the network customization
+module may facilitate customization of a network related to
+a VCN task involving demand prediction for a particular
+product and/or industry. The network may be customized to
+facilitate fast, efficient, secure communication between
+devices connected thereto.

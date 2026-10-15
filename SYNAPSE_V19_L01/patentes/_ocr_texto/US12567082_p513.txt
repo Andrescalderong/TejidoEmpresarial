@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+703
+cess, or others (including combinations of the above) as
+described in this disclosure or the documents incorporated
+herein by reference.
+Referring to FIG. 165, in embodiments, the DPLF may
+perform an encoding process of the DPLF to process data-
+sets into a stored form for future use, such as retraining of
+the ANN by the retraining system. The encoding process
+enables datasets to be taken in, understood, and altered by
+the DPLF to better support storage in and usage from the
+edge and/or reasoning to consolidate new input values. The
+memory can include short-term memory (STM), long-term
+memory (LTM), or a combination thereof. The datasets may
+be stored in one or both of the STM and the LTM. The STM
+may be implemented by the application of specialized
+behaviors inside the ANN (such as recurrent neural network,
+neural networks). The LTM may be implemented by storing
+scenarios, associated data, and/or unprocessed data that can
+be applied to the discovery of new scenarios. The encoding 20
+process may include processing and/or storing, for example
+visual encoding data (e.g. processed through a Convolution
+Neural Network), acoustic sensor encoding data (e.g., how
+something sounds, speech encoding data (e.g., processed
+through a deep neural network (DNN), optionally including
+for phoneme recognition), semantic encoding data of words,
+ such to determine semantic meaning, e.g., by using a Hidden
+Markov Model (HMM); and/or movement and/or tactile
+encoding data (such as operation on vibration/accelerometer
+sensor data, touch sensor data, positional or geolocation 30
+data, and the like). While datasets may enter the DPLF
+system through one of these modes, the form in which the
+datasets are stored may differ from an original form of the
+datasets and may pass-through neural processing engines to
+be encoded into compressed and/or context-relevant format. 35
+For example, an unsupervised instance of the ANN can be
+used to learn the historic data into a compressed format.
+In embodiments, the encoded datasets are retained within
+the DPLF system. Encoded datasets are first stored in
+short-term DPLF, i.e., STM. For example, sensor datasets
+may be primarily stored in STM, and may be kept in STM
+through constant repetition. The datasets stored in the STM
+are active and function as a kind of immediate response to
+new input values. The DPANN system 20000 may remove
+due to, for example, running out of space in STM as new
+data is imported, processed and/or stored. For example, it is
+viable for short-term DPLF to only last between 15 and 30
+ seconds. STM may only store small amounts of data typi-
+cally embedded inside the ANN. 50
+In embodiments, the DPANN system 20000 may measure
+attention based on utilization of the training system, of the
+DPANN system 20000 as a whole, and/or the like, such as
+by consuming various indicators of attention to and/or
+utilization of outputs from the ANN and transmitting such
+indicators to the ANN in response (similar to a "moment of
+recognition" in the brain where attention passes over some-
+thing and the cognitive system says “aha!"). In embodi-
+ments, attention can be measured by the sheer amount of the
+activity of one or both of the systems on the data stream. In 60
+embodiments, a system using output from the ANN can
+explicitly indicate attention, such as by an operator directing
+the ANN to pay attention to a particular activity (e.g., to
+respond to a diagnosed problem, among many other possi-
+bilities). The DPANN system 20000 may manage data 65
+inputs to facilitate measures of attention, such as by prompt-
+ing and/or calculating greater attention to data that has high
+[col 2]
+704
+inherent variability from historical patterns (e.g-, in rates of
+change, departure from norm, etc.), data indicative of high
+variability in historical performance (such as data having
+similar characteristics to data sets involved in situations
+where the ANN performed poorly in training), or the like.
+In embodiments, the DPANN system 20000 may retain
+encoded datasets within the DPLF system according to
+and/or as part of one or more storage processes. The DPLF
+system may store the encoded datasets in LTM as necessary
+after the encoded datasets have been stored in STM and
+determined to be no longer necessary and/or low priority for
+a current operation of the ANN, training process, retraining
+process, etc. The LTM may be implemented by storing
+scenarios, and the DPANN system 20000 may apply asso-
+ciated data and/or unprocessed data to the discovery of new
+scenarios. For example, data from certain processed data
+streams, such as semantically encoded datasets, may be
+primarily stored in LTM. The LTM may also store image
+(and sensor) datasets in encoded form, among many other
+examples.
+In embodiments, the LTM may have relatively high
+storage capacity, and datasets stored within LTM may, in
+some scenarios, be effectively stored indefinitely. The
+DPANN system 20000 may be configured to remove data-
+sets from the LTM, such as by passing LTM data through a
+series of memory structures that have increasingly long
+retrieval periods or increasingly high threshold requirements
+to trigger utilization (similar to where a biological brain
+"thinks very hard" to find precedent to deal with a challeng-
+ing problem), thereby providing increased salience of more
+recent or more frequently used memories while retaining the
+ability to retrieve (with more time/effort) older memories
+when the situation justifies more comprehensive memory
+utilization. As such, the DPANN system 20000 may arrange
+datasets stored in the LTM on a timeline, such as by storing
+the older memories (measured by time of origination and/or
+latest time of utilization) on a separate and/or slower system,
+by penalizing older memories by imposing artificial delays
+in retrieval thereof, and/or by imposing threshold require-
+ments before utilization (such as indicators of high demand
+for improved results). Additionally or alternatively, LTM
+may be clustered according to other categorization proto-
+cols, such as by topic. For example, all memories proximal
+in time to a periodically recognized person may be clustered
+for retrieval together, and/or all memories that were related
+to a scenario may be clustered for retrieval together.
+In embodiments, the DPANN system 20000 may modu-
+larize and link LTM datasets, such as in a catalog, a
+hierarchy, a cluster, a knowledge graph (directed/acyclic or
+having conditional logic), or the like, such as to facilitate
+search for relevant memories. For example, all memory
+modules that have instances involving a person, a topic, an
+item, a process, a linkage of n-tuples of such things (e.g., all
+memory modules that involve a selected pair of entities), etc.
+The DPANN system 20000 may select sub-graphs of the
+knowledge graph for the DPLF to implement in one or more
+domain-specific and/or task-specific uses, such as training a
+model to predict robotic or human agent behavior by using
+memories that relate to a particular set of robotic or human
+agents, and/or similar robotic or human agents. The DPLF
+system may cache frequently used modules for different
+speed and/or probability of utilization. High value modules
+(e.g-, ones with high-quality outcomes, performance char-
+acteristics, or the like) can be used for other functions, such
+as selection/training of sTM keep/forget processes.
+In embodiments, the DPANN system 20000 may modu-
+larize and link LTM datasets, such as in various ways noted

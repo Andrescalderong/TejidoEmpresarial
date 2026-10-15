@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+443
+sis module(s), regulatory analysis module(s), legal analysis
+module(s), and/or other suitable analysis modules.
+In some embodiments, the analysis management module
+12206 is configured to determine which types of analyses to
+perform based on the type of decision that was requested by
+an intelligence system client 12260. In some of these
+embodiments, the analysis management module 12206 may
+include an index or other suitable mechanism that identifies
+a set of analysis modules 12208 based on a requested
+10 decision type. In these embodiments, the analysis manage-
+ment module 12206 may receive the decision type and may
+determine a set of analysis modules 12208 that are to be run
+executed based on the decision type. Additionally or alter-
+natively, one or more governance standards may define
+when a particular analysis is to be performed. For example,
+the engineering standards may define what scenarios neces-
+sitate a FMEA analysis. In this example, the engineering
+standards may have been implicated by a request for a
+particular type of decision (e.g, a fleet configuration
+120
+request) and the engineering standards may define scenarios
+when an FMEA analysis is to be performed (e.g., when the
+fleet is to operate in a certain type of environment, such as
+underwater, underground, in enclosures, or when working
+with hazardous materials). Continuing this example, the 25
+rules-based system 12228 of the AI service 12204 may
+determine that the request corresponds to one of the defined
+scenarios and then may invoke an FMEA analysis module to
+perform the analysis with respect to the requested decision.
+When an artificial intelligence service 12204 is perform- 30
+ing an intelligence task that implicates an analysis, the
+artificial intelligence service 12204 may execute the corre-
+sponding analysis module(s) to analyze a potential decision
+determined with respect to requested intelligence task. If
+none of the implicated analysis modules 12208 flag the 35
+decision as having violated the respective analysis, the
+artificial intelligence service 12204 may output the proposed
+decision to the intelligence client 12260. If the proposed
+decision is flagged by one or more analysis modules 12208.
+the artificial intelligence service 12204 may determine an
+alternative decision and may execute the implicated analysis
+module(s) until a decision is reached.
+In embodiments, an analysis module 12208 may leverage
+one or more standards that are defined in one or more
+standards libraries that are stored in a governance library 45 s
+12210. In some embodiments, standards libraries may define
+conditions, thresholds, rules, recommendations, or other
+suitable parameters by which a decision may be analyzed.
+Examples of standards libraries may include, legal standards
+library, a regulatory standards library, a quality standards 50 
+library, an engineering standards library, a safety standards
+library, a financial standards library, and/or other suitable
+types of standards libraries. In embodiments, a respective
+standards library may include an index that indexes certain
+parameter sets defined in the respective standards library 55
+based on different conditions. Examples of conditions may
+be a jurisdictions or geographic areas to which certain
+standards apply, environmental conditions to which certain
+standards apply, robot types to which certain standards
+apply, materials or products to which certain standards 60
+apply, and/or the like. In these embodiments, the analysis
+management module 12206 may determine the appropriate
+set of standards that must be applied to a particular decision,
+whereby the corresponding analysis module is parameter-
+izes with the determined standards, such that the parameter- 65
+ized analysis module 12206 performs the respective analysis
+using these standards. In these embodiments, the analysis
+[col 2]
+444
+modules 12208 may be configured to apply different stan-
+dards to the same analysis based on one or more conditions
+surrounding the decision.
+In an example, before outputting a proposed control
+decision that instructs a robot to move forward is provided
+to a robot controller of the robot, an intelligence service
+12204 of the robot may analyze a proposed decision with
+respect to a set of standards and/or rules corresponding to the
+control decision, In this example, the artificial intelligence
+service 12204 may execute a safety analysis module and/or
+a risk analysis module and may determine an alternative
+decision if the action would violate a legal standard or a
+safety standard. In another example, before a fleet configu-
+ration proposal is output to the requesting client, an intelli-
+gence service 12204 of the fleet management platform 100
+may analyze the proposed fleet configuration to ensure that
+the proposed fleet configuration does not violate any juris-
+dictional legal or regulatory standards (e.g., certain types of
+robots may be prohibited from operating in certain areas or
+environments, certain communication protocols may be
+prohibited in certain areas or environments) and/or does not
+potentially threaten the quality of job performance (e.g., the
+selected configuration may include robots that do not per-
+form well in certain conditions) and/or the condition of the
+robots (e.g., operating certain types of robots in unsuitable
+conditions, such as freezing temperatures, high humidity
+areas, salt or fresh water, and/or the like). In response to
+analyzing the proposed decision, the artificial intelligence
+service 12204 may selectively output the proposed condition
+based on the results of the executed analyses. If a decision
+is allowed, the artificial intelligence service 12204 may
+output the decision to the requesting intelligence layer client
+12260.If the proposed configuration is flagged by one or
+more of the analyses, the artificial intelligence service 12204
+may determine an alternative decision and execute the
+analyses with respect to the alternate proposed decision until
+a conforming decision is obtained.
+It is noted here that in some embodiments, one or more
+analysis modules 12208 may themselves be defined in a
+standard, and one or more relevant standards used together
+may comprise a particular analysis. For example, the appli-
+cable safety standard may call for a risk analysis that can use
+or more allowable methods. In this example, an ISO stan-
+dard for overall process and documentation, and an ASTM
+standard for a narrowly defined procedure may be employed
+to complete the risk analysis required by the safety gover-
+nance standard.
+As mentioned, the foregoing framework of an intelligence
+system 12200 may be applied at various levels of the
+disclosed environment. For example, in some embodiments,
+a platform level intelligence system (e.g, intelligence layer
+12200) may be configured with the entire capabilities of the
+intelligence system 12200, and certain configurations of the
+intelligence system 12200 may be provisioned for respective
+robot operating units depending on the jobs assigned to the
+robot operating units. Furthermore, in some embodiments, a
+robot operating unit may be configured to escalate an
+intelligence system task to a higher level (e.g., the fleet level,
+edge device, or the platform 12000) when the robot oper-
+ating unit cannot perform the task autonomously. It is noted
+that in some embodiments, an intelligence layer controller
+12200 may direct intelligence tasks to a lower level com-
+ponent. For example, the intelligence layer controller 12202
+of a robot fleet or the fleet management platform 12000 may
+direct an intelligence request to an intelligence layer 12200
+of a particular robot provided the robot has access to the
+intelligence data sources 12270 necessitated by the intelli-

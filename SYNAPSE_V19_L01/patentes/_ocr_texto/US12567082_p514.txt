@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+705
+above, to facilitate search for relevant memories. For
+example, memory modules that have instances involving a
+person, a topic, an item, a process, a linkage of n-tuples of
+such things (such as all memory modules that involve a
+selected pair of entities), or all memories associated with a
+scenario, etc., may be linked and searched. The DPANN
+system 20000 may select subsets of the scenario (e.g.
+sub-graphs of a knowledge graph) for the DPLF for a
+domain-specific and/or task-specific use, such as training a
+model to predict robotic or human agent behavior by using
+memories that relate to a particular set of robotic or human
+agents and/or similar robotic or human agents. Frequently
+used modules or scenarios can be cached for different
+ speed/probability of utilization, or other performance char-
+acteristics. High value modules or scenarios (ones where 15
+high-quality outcomes results) can be used for other func-
+tions, such as selection/training of STM keep/forget pro-
+cesses, among others.
+In embodiments, the DPANN system 20000 may perform
+LTM planning, such as to find a procedural course of action 20
+for a declaratively described system to reach its goals while
+optimizing overall performance measures. The DPANN
+system 20000 may perform LTM planning when, for
+example, a problem can be described in a declarative way,
+the DPANN system 20000has domain knowledge that 25
+should not be ignored, there is a structure to a problem that
+makes the problem difficult for pure learning techniques,
+and/or the ANN needs to be trained and/or retrained to be
+able to explain a particular course of action taken by the
+DPANN system 20000.In embodiments, theDPANN sys- 30
+tem 20000 may be applied to a plan recognition problem,
+i.e., the inverse of a planning problem: instead of a goal
+state, one is given a set of possible goals, and the objective
+in plan recognition is to find out which goal was being
+achieved and how. 35
+In embodiments, the DPANN system 20000 may facilitate
+LTM scenario planning by users to develop long-term plans.
+For example, LTM scenario planning for risk management
+use cases may place added emphasis on identifying extreme
+or unusual, yet possible, risks and opportunities that are not 40
+usually considered in daily operations, such as ones that are
+outside a bell curve or normal distribution, but that in fact
+or “fat tail"' situations, such as involving information or
+market pricing processes, among many others. LTM sce- 45 1
+nario planning may involve analyzing relationships between
+forces (such as social, technical, economic, environmental,
+and/or political trends) in order to explain the current
+situation, and/or may include providing scenarios for poten-
+tial future states. 50
+In embodiments, the DPANN system 20000 may facilitate
+LTM scenario planning for predicting and anticipating pos-
+sible alternative futures along with the ability to respond to
+the predicted states. The LTM planning may be induced
+from expert domain knowledge or projected from current 55
+scenarios, because many scenarios (such as ones involving
+results of combinatorial processes that result in new entities
+or behaviors) have never yet occurred and thus cannot be
+projected by probabilistic means that rely entirely on his-
+torical distributions. The DPANN system 20000 may pre- 60
+pare the application to LTM to generate many different
+scenarios, exploring a variety of possible futures to the
+DPLM for both expected and surprising futures. This may be
+facilitated or augmented by genetic programming and rea-
+soning techniques as noted above, among others. 65
+In embodiments, the DPANN system 20000 may imple-
+ment LTM scenario planning to facilitate transforming risk
+[col 2]
+706
+management into a plan recognition problem and apply the
+DPLF to generate potential solutions. LTM scenario induc-
+tion addresses several challenges inherent to forecast plan-
+ning. LTM scenario induction may be applicable when, for
+example, models that are used for forecasting have incon-
+sistent, missing, unreliable observations; when it is possible
+to generate not just one but many future plans; and/or when
+LTM domain knowledge can be captured and encoded to
+improve forecasting (e.g-, where domain experts tend to
+ 10 outperform available computational models). LTM sce-
+narios can be focused on applying LTM scenario planning
+for risk management. LTM scenarios planning may provide
+situational awareness of relevant risk drivers by detecting
+emerging storylines. In addition, LTM scenario planning can
+generate future scenarios that allow DPLM, or operators, to
+reason about, and plan for, contingencies and opportunities
+in the future.
+In embodiments, the DPANN system 20000 may be
+configured to perform a retrieval process via the DPLF to
+access stored datasets of the ANN. The retrieval process may
+determine how well the ANN performs with regard to
+assignments designed to test recall. For example, the ANN
+may be trained to perform a controlled vehicle parking
+operation, whereby the autonomous vehicle returns to a
+designated spot, or the exit, by associating a prior visit via
+retrieval of data stored in the LTM. The datasets stored in the
+STM and the LTM may be retrieved by differing processes.
+The datasets stored in the STM may be retrieved in response
+to specific input and/or by order in which the datasets are
+stored, e.g., by a sequential list of numbers. The datasets
+stored in the LTM may be retrieved through association
+and/or matching of events to historic activities, e.g., through
+complex associations and indexing of large datasets.
+In embodiments, the DPANN system 20000 may imple-
+ment scenario monitoring as at least a part of the retrieval
+process. A scenario may provide context for contextual
+decision-making processes. In embodiments, scenarios may
+involve explicit reasoning (such as cause-and-effect reason-
+ing, Bayesian, casuistic, conditional logic, or the like, or
+combinations thereof)the output of which declares what
+LTM-stored data is retrieved (e.g., a timeline of events being
+evaluated and other timelines involving events that poten-
+tially follow a similar cause-and-effect pattern). For
+example, diagnosis of a failure of a machine or workflow
+may retrieve historical sensor data as well as LTM data on
+various failure modes of that type of machine or workflow
+(and/or a similar process involving a diagnosis of a problem
+state or condition, recognition of an event or behavior, a
+failure mode (e.g-, a financial failure, contract breach, or the
+like), or many others).
+Edge-Distributed Database and Edge Query Language
+FIGS. 166-172 relate to various embodiments of a dis-
+tributed database and query language that is configured to
+store and retrieve a wide variety of data, including data
+generated by various components of a value chain network
+as described herein. In some embodiments, the distributed
+database may be configured to store data at various compo-
+nents of a network, which may include any of the networks
+described throughout the disclosure. As will be discussed,
+these components may act as edge devices and/or aggrega-
+tors to store data in a scalable and distributed manner.
+Although devices are described as being edge devices and/or
+aggregators, it should be understood that the edge devices
+and/or aggregators may be implemented by any of the
+networked devices described throughout this disclosure.
+Furthermore, it should be understood that the data to be
+stored in the distributed database may be any of the data

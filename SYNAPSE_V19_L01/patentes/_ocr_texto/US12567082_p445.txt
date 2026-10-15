@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+567
+In embodiments, the fleet management system 13002
+includes a job configuration system 13018. In embodiments,
+a shipment configuration system receives freight storage
+and/or transportation service orders, such as from customers
+that book a smart container shipping service. In embodi-
+ments, a freight storage and/or transportation service order
+may indicate a set of freight storage and/or transportation
+service order parameters. Non-limiting examples of freight
+storage and/or transportation service order parameters may
+include: timing requirements, origin and destination of ship- 10
+ment (e.g., region, address, coordinates, or the like), number
+of smart containers required, type of containers required
+(e.g, tank containers, bulk containers, 20-ft standard con-
+tainers, 40-ft high-cube containers, or the like), container
+utilization requirements (e.g-, full container (FCL) vs.
+shared container (LCL), cargo descriptions (e.g., number of
+packages, total volume, or total weight), whether the cargo
+includes personal effects, other required tasks (e.g., inspec-
+tion tasks, packaging tasks, unpackaging tasks, unloading
+tasks, loading tasks, 3D printing tasks, growing tasks, 20
+assembling tasks, monitoring tasks, or the like), pricing
+information, and any other suitable parameters. In embodi-
+ments, the freight storage and/or transportation service order
+parameters which may be indicative of what types of smart
+container operating units are needed and/or functionalities 25
+thereof. These and other freight storage and/or transporta-
+tion service order details are described elsewhere herein.
+In embodiments, quantum optimization may be enabled
+by a quantum computing service 13008 that may optimize
+assignments across fleet resources, such as smart container 30
+operating units and the like. A quantum computing service
+13008 may further optimize routing (logical, physical, and
+electronic) associated with smart container fleets, shipments,
+team, communications, logistics and the like. Additionally
+or alternatively, in some embodiments a quantum computing 351
+ service 13008 may be employed to optimize combinations
+of smart container resources with other resources across a
+variety of fleet functions, including energy consumption,
+computational capacity and utilization, infrastructure
+resource planning, engagement and utilization, risk manage- 40
+ment, computing storage capacity, and the like. The quantum
+computing service 13008 may also be used for optimizing
+smart container design, optimizing smart container services
+pricing, optimizing smart container charging (e.g. optimiz-
+ing the route of a smart container having solar panels such 45 f
+that it receives sufficient levels of sunlight), or the like.
+In embodiments, a job configuration system 13018 and
+other fleet resources (e.g., fleet configuration, system intel-
+ligence, smart container operation and the like) may benefit
+from use of deep learning techniques for task, workflow, and 50
+order execution plan optimization as well as for learning,
+among other things, from failures. In these embodiments,
+the job configuration system 13018 may request deep learn-
+ing services from the system-level intelligence service
+13004, which leverages neural networks and/or other 55
+machine-learned models to determine job configurations
+based on a set of features, including features extracted from
+a freight storage and/or transportation service order. In these
+embodiments, the artificial intelligence services may be
+configured to learn task workflows, job configurations, and 160
+the like.
+In embodiments, job configuration, fleet configuration
+(which may include smart container configuration), and/or
+as order execution may further enhance fleet functions,
+performance, and outcomes through use of local context- 65
+adaptive task assignment, execution, resource routing and
+the like. This adaptive capability may be further enabled
+[col 2]
+568
+through peer-to-peer based communication (e.g., smart con-
+tainer operating units within a team) that reveals context of
+job activities rapidly and efficiently.
+In embodiments, artificial intelligence for automation of
+smart container assignment and execution (e.g-, smart con-
+tainer process automation through learning) may function
+cooperatively with elements of the smart container system
+13000, such as a fleet management system 13002 and
+intelligence service 13004, to learn smart container assign-
+ment from, for example, human operator assignment activ-
+ity. Other learning that an artificial intelligence system may
+yield in context of smart container fleet configuration and
+operation may be based on outcome measures of success,
+including task completion, time to completion, percentage of
+damage-free shipments delivered, cost of completion, qual-
+ity of completion, ROI for resources, resource utilization,
+and others.
+These and other job configuration details, including
+operational flows of the job configuration system 13018 are
+depicted and described in related figures herein.
+In embodiments, the fleet management system 13002
+includes a fleet and smart container configuration system
+13020 (also referred to as fleet configuration system 13020)
+that may work cooperatively with a job configuration system
+13018 to determine configurations of fleet resources (e.g.,
+smart container operating units, teams, and the like) to
+satisfy freight storage and/or transportation service orders
+from a plurality of concurrent and/or overlapping freight
+storage and/or transportation service orders. The fleet con-
+figuration system 13020 may determine fleet and smart
+container configurations based on freight storage and/or
+transportation service orders, required tasks, budget, a time-
+line, availability of smart containers or smart container
+types, availability of container ships or other modes of
+transport, traffic at container terminals or ports, and/or other
+suitable considerations. In some embodiments, the fleet
+configuration system 13020 may leverage the system-level
+intelligence service 13004 to determine fleet and/or smart
+container configurations. In some of these embodiments, the
+intelligence request may include a proposed fleet configu-
+ration and other relevant data (e.g., cost constraints, cargo
+type, origin location, destination location, route environ-
+ments, etc.). In response, the intelligence service 13004 may
+output a proposed fleet configuration. Further details of a
+fleet configuration system 13020 are described and depicted
+in figures elsewhere herein.
+In embodiments, a fleet management system 13002 may
+include an order execution, monitoring, and reporting sys-
+tem 13022 (also referred to as an order execution system
+13022). An order execution system 13022 may receive an
+order execution plan from the job configuration system
+13018 that it processes by co0rdinating activities of system
+functions, such as logistics for smart container and fleet
+resource delivery, data processing system 13024 allocation
+for facilitating data collection, cataloging, library manage-
+ment and data processing activities for order execution. In
+general, the order execution system 13022 may start a job
+with committing and managing resources, including
+resources beyond those configured by the job configuration
+system 13018, such as computing, storage, bandwidth, and
+the like as may be defined by and/or determined to be useful
+for executing the order execution plan.
+In embodiments, the order execution system 13022 may
+further facilitate adherence to reporting requirements (e.g.,
+shipment-specific, fleet-specific, compliance-related report-
+ing, and the like) associated with order execution. In
+embodiments, reporting may include data collection (e.g.

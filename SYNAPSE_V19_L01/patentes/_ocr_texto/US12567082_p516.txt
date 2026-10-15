@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+709
+to shuffle data across nodes, data movement may be mini-
+mized through the use of probabilistic data distributions
+described in a dynamic ledger.
+In embodiments, data may be duplicated at various grain
+levels through the use of a dynamic ledger and probabilistic
+models, which allow for targeted and potentially massive
+distribution of data while leveraging lower storage costs to
+provide for potentially massive distributed scalability.
+In embodiments, the distributed database system may
+allow for data updates and versioning while handling the 1o
+potential cascading impacts of a single update. The distrib-
+uted database system may allow for multiple versions of the
+truth based on latency (with all data also knowing its state
+as at a point in time).
+In embodiments, techniques described herein provide the 15 j
+ability to distribute and process data evenly across all the
+edge nodes in a distributed cluster, thus supporting horizon-
+tal scale-out (e.g-, of an IoT platform-based data collection
+system) with considerably less need to move data to cen-
+tralized systems. This effect reduces network requirements 20
+and allows for greater scalability of the final system.
+In embodiments, edge nodes added to the system may
+primarily store data according to the localized needs of
+nearby edge systems (e.g, edge systems connected via local
+networks or other high bandwidth and/or low latency links),25
+which may allow for additional nodes to be added without
+impairing the operation of a centralized monitoring system.
+In embodiments, edge nodes connected to a probability-
+based dynamic ledger and localized storage are able to
+operate without central connectivity. This independence 30
+allows for greatly increased fault tolerance and removes
+dependence on network communications for provision of
+highly available systems.
+Other distributed systems tend to operate on NoSQL (not
+only SQL)environmentswhere data is stored in aform that 35
+is very close to the input format. This centralized format
+forces the application developer to have a direct understand-
+ing of the fundamental data and index structures. Systems
+and techniques described herein, by contrast, offer scale-out
+benefits and (in some embodiments)may also provide 4o
+consistency and a SQL-like interface. Additionally, systems
+and techniques described herein offer an advantage for new,
+modern, edge-enabled cloud-native applications by provid-
+ing a seamless data access layer that is similar to the
+underlying layer in most application frameworks. 45
+FIG.166A shows an environment 20100 including a
+plurality of devices that implement and/or interact with the
+distributed database and dynamic ledger as discussed herein.
+The environment 2020100 may include one or more query
+devices 20110 that may generate queries for querying the 50 
+distributed database as further described herein. The envi-
+devices 20120 comprising and/or connected to edge storage
+20122, which may store data that may be used to respond to
+queries received from query devices. In embodiments, the 55 
+gators 20140, which may communicate with and/or imple-
+"high grain" data (also referred to herein as *summary"
+data) based on data stored at various edge devices, to 60
+implement various probabilistic models for the generation of
+query responses, to distributed data throughout the distrib-
+uted database, and/or to perform other dynamic ledger
+functions as described herein. In some embodiments, edge
+device/aggregators 20130 may perform the functions of both 65
+edge devices 20120 and/or aggregators 20140, and thus may
+include and/or communicate with various edge storage
+[col 2]
+710
+20132, communicate with and/or implement a dynamic
+ledger 20150, and otherwise perform the functions ascribed
+to edge devices 20120 and/or the functions ascribed to
+aggregators 20140 as discussed herein. Although the envi-
+ronment 20100 illustrates edge devices 20120, edge devices/
+aggregators 20130, and aggregators 20140, in some embodi-
+ments not all of these devices may be used. For example, a
+particular embodiment may use edge devices 20120 and
+aggregators 20140, but not edge devices/aggregators 20130.
+Additionally or alternatively, a particular embodiment may
+use edge devices/aggregators 20130, but not edge devices
+20120 or aggregators 20140.
+In embodiments, the distributed database may include
+multiple clusters (not shown), each of which may include a
+plurality of edge devices 20120, aggregators 20140, and/or
+edge/device aggregators 20130. For example, a first cluster
+may correspond to various nodes/devices in a first location,
+while a second cluster may correspond to various nodes/
+devices in a second location.
+In embodiments, query devices 20110 may be any com-
+puting device that may be capable of generating and trans-
+mitting a query. In some embodiments, the distributed
+database may store, for example, sensor data captured by
+various sensors that are part of and/or in communication
+with edge devices. In these embodiments, the query devices
+20110 may thus include any device that wishes to obtain
+sensor data, summary data generated based on sensor data,
+probabilistic data generated based on sensor data, and/or the
+like. The query devices 20110 in these embodiments may
+include various control systems, monitoring systems, user
+devices (e.g., a device associated with a maintenance engi-
+neer tasked with monitoring the system and/or diagnosing
+problems), prediction systems (e.g., a device tasked with
+predicting a future state based on current or past sensor
+and/or the like. However, it should be noted that sensor data
+is merely an example type of data that may be stored in the
+distributed database, and the distributed database may there-
+fore store other types of data that may be useful for other
+applications.
+In embodiments, edge devices 20120 (and/or edge
+devices/aggregators 20130) may include and/or communi-
+cate with a sensor or other data source that generates data for
+storage in the distributed database (e.g., via edge storage).
+Edge devices thus may be responsible for maintaining the
+data generated by the sensor or other data source in the edge
+storage. As discussed above, edge devices may maintain
+very large volumes of data in edge storage, such that it may
+be impractical or impossible to centralize all of the edge
+data. Accordingly, edge devices may be configured to pro-
+vide limited amounts of data (e.g, slices of edge data,
+summary data based on edge data, parameters for probabi-
+listic models that describe edge data, reference tables based
+on edge data, etc.) to other devices in the network and/or to
+a dynamic ledger, as described in more detail herein. In
+embodiments, an edge device may receive a query from a
+query device, determine a query plan for obtaining any
+necessary data and responding to the query, cause execution
+of the query plan, and provide a query response to the query
+device 20110. In other words, a query device 20110 may
+transmit a query to an edge device 20120, which may be
+configured to handle the query using the techniques
+described herein.
+In embodiments, edge devices 20120 and/or aggregators
+20140 (e.g., including edge devices/aggregators 20130) may
+communicate with and/or implement a dynamic ledger
+20150 that may store various data for enabling and optimiz-

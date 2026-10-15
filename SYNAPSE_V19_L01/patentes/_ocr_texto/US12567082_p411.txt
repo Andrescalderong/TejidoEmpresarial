@@ -1,0 +1,138 @@
+interface to outside networks, a data management system 45 like motion sensor, depth sensor, proximity sensor, LIDAR
+[col 1]
+US 12,567,082 B2
+499
+the MPR 12100. In embodiments, the machine learning
+models may be trained using data about robot specifications,
+parameters, maintenance outcomes, environmental data,
+sensor data, run information, notes to perform failure fore-
+casting and predictive maintenance. Additionally or alterna-
+tively, the machine learning services may include a cluster-
+ing algorithm to identify the failure pattern hidden in the
+failure data to train a model for detecting uncharacteristic or
+anomalous behavior. The failure data across multiple robots
+and their historical records may be clustered to understand 10（
+how different patterns correlate to certain wear-down behav-
+ior and develop a maintenance plan resonant with the failure.
+In another example, the predictive maintenance service
+12165 may leverage a digital twin service of the intelligence
+layer 12140 to simulate operation of the MPR 12100 in a 15
+digital twin (e.g., in the environment that the MPR 12100 is
+operating in or will be operating in), whereby the digital
+MPR2B00 and/or a potential failure of components of the
+MPR 12100.In these examples, over-servicing or over- 20
+maintaining the MPR 12100 may be mitigated, thereby
+reducing costly downtime, repairs or replacement of the
+MPR 12100 or its components, by addressing such issues in
+a proactive or just-in-time manner.
+In embodiments, the task management system 12144 25 r
+coordinates between job execution system of the fleet opera-
+tions system 12002, library 12314, vision and sensing sys-
+tem 12112 and the intelligence layer 12140 to execute a task.
+Task management system 12144 is described in greater
+detail throughout the disclosure.
+302
+In embodiments, the data processing system 12142 may
+include data processing resources that may be centralized
+and/or distributed and may include general purpose chipsets,
+specialized chipsets, and/or configurable chipsets. Data pro-
+cessing system 12142mayinclude oneormoreprocessors 35
+providing scalable computation capabilities for robot control
+system 12150 including various intelligence resources in the
+intelligence layer 12140. The processors in the data pro-
+cessing system 12142 may communicate with a number of
+peripheral devices via a bus system. The peripheral devices 40
+may include a data stores including for example, a memory
+subsystem for storage of instructions and data and a file
+ storage subsystem providing persistent storage for program
+and data files, a network interface system providing an
+with capabilities including data allocation, data caching,
+data pruning and data management and access to and control
+of intelligence and data resources and user interface input
+and output devices.
+In embodiments, the data processing system 12142 50 
+includes a data handling service 12166 and a data processing
+service 12167. The data handling service 12166 is config-
+ured to store, retrieve, and otherwise manage the data of the
+MPR 12100. In embodiments, the data handling service
+12166 accesses a set of data stores 12168 and/or libraries 55
+12169, whereby the data handling service 12166 writes and
+reads data from the data stores 12168 and/or libraries 12169
+on behalf of other components of the MPR 12100. In
+embodiments, the data processing service 12167 performs
+data processing operations on behalf of various components 60
+of the MPR 12100. For example, the data processing service
+12167 may perform database operations (e.g., table joins,
+retrieves, etc.), data fusion operations, and the like.
+In embodiments, the module management system 12148
+coordinates the use and configuration of various control 65
+interface modules 12130 and physical interface modules
+12122 as described below.
+[col 2]
+500
+In embodiments, the communication system 12152 is
+constructed to enable efficient, high speed electronic and
+wireless communication among components and subsys-
+tems of the MPR 12100 as well as communication of the
+MPR 12100 with fleet operation system and its elements as
+described herein, external data sources 12036, third party
+systems (e.g., via an Internet and the like), robot operating
+units, support systems and equipment, human fleet resources
+and the like. The communication system 12152 may include
+or provide access to one or more network types, such as
+wired, wireless and the like that may support various data
+protocols, such as Internet Protocol (IP), Bluetooth commu-
+nication protocol, wireless communication protocols (e.g..
+IEEE 802, 4G communication protocol, 5G communication
+protocol), and/or the like. In embodiments, the communi-
+cation system 12152 may leverage intelligence services to
+configures, prioritizes and controls data and resources to
+various systems internal and external to the MPR 12100.
+In embodiments, the navigation system 12154 allows the
+MPR 12100 to navigate known, partially known and
+unknown environments by establishing its own position and
+orientation within the environment (localization) while cre-
+ating a map of the environment (mapping) as it moves
+around in the environment. In some embodiments, the
+navigation system 12154 may employ Simultaneous Local-
+ization and Mapping (SLAM) for autonomous navigation of
+robots by recognizing its own position using a sensor while
+mapping the environment. The SLAM algorithm creates a
+map of the surrounding environment at the initial position
+and estimates the position of the robot and the map of the
+surrounding environment by repeating the process of finding
+the position of the moved robot based on the created map.
+The navigation system 12154 may utilize additional or
+alternative navigation algorithms as well.
+In embodiments, the navigation system 12154 may work
+with vision and sensing system 12112 to generate one or
+more images of the MPR 12100 within its environment.
+Such images may be clicked by cameras and image sensors
+of the vision and sensing system 12112 and may include one
+ormoreimages clickedusingthecamera12608withthe
+conformable variable focus liquid lens 12612. The images
+may be to the machine vision system 12618 may utilize one
+or more neural network models including CNN or RCNN to
+locate the MPR 12100. Additionally, multiple other sensors
+etc,may be used in conjunction with one anotherto localize
+the MPR 12100 more accurately within its environment.
+Further, the in some embodiments, the navigation system
+12154 may incrementally build and/or update a map of the
+environment where the “map" denotes a field of static
+objects that surround the robot. The MPR 12100 traverses
+through this map and attempts to measure range to each
+object, either through imaging, laser range finding, or ultra-
+sonics, and continuously updates both the location of the
+detected objects and its own location, with respect to the
+objects.
+In embodiments, the navigation system 12154may also
+work with the motion planning system 12158 to plan the
+path of the robot and/or the task management system 12144
+(in conjunction with the robot-level intelligence layer
+12140) to determine an optimal navigation policy within the
+environment. In some embodiments, the navigation system
+12154 coordinates with robot control system 12150 to
+generate control instructions to effectuate movement of one
+or more actuators or motors in accordance with the naviga-
+tion policy enabling the MPR 12100 navigate its environ-
+ment.

@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+435
+vised, semi-supervised and/or deep learning. The artificial
+intelligence system may further adjust a set of contract terms
+and conditions for feedstock purchasing according to the
+modified plan, such as by operating on a set of smart
+contracts via their APIs or other interfaces and/or by pro-
+viding a set of recommendations for execution by a user or
+a hybrid of a user and an intelligent agent or other artificial
+intelligence system.
+In embodiments, the feedstock formulation system 10706
+may formulate one or more custom feedstocks with help 1o
+from the machine learning system 10210, the artificial
+intelligence system 10212, the machine learning model
+10213 forfeedback formulation, the simulation management
+system 10514, and the feedstock formulation twin 10708.
+The machine learning system 10210 may train a model using
+feedstock data that may be stored in a feedstock datastore,
+according to performance properties. The simulation man-
+agement system 10514 may run simulations using the feed-
+stock formulation twin 10708 to vary feedstock properties
+20
+and to record the outcome of each simulation. In embodi-
+ments, printer twin 10506 may also be used to simulate and
+compare future manufacturing outcomes when varying feed-
+stock formulation.
+Referring to FIGS. 116 and 119, the feedstock formulation 25 t
+system 10706 works with the artificial intelligence system
+10212, and the machine learning system 10210. A combi-
+nation of training, manufacturing outcome, and external data
+customer feedback is collected at the data collection and 3o s
+management system 10202, where it is used to train or
+improve the initial machine learning model 10213 for feed-
+back formulation.
+Referring now to FIGS. 114, 115 and 119, in embodi-
+ments, the feedstock formulation system 10706.may include 35
+a physical subsystem that is integrated with the manufac-
+turing node 10100 and one or more of the additive manu-
+facturing units 10102. This physical subsystem of the feed-
+autonomous additive manufacturing platform 10110. The 40
+manufacturing workflow management applications 10208
+may include an application that routes feedstock material as
+necessary, and the data collection and management system
+10202 may provide feedstock inventory levels. The feed-
+stock formulation system 10706 may include one or more 45
+automated production and transport systems that deliver
+feedstock material and perform feedstock material changes
+for the additive manufacturing unit 10102.
+Design Optimization
+Optimizing part design for use with additive manufactur- 50 s
+ing processes typically requires special software, equipment,
+training, technical knowledge, and the ability to provide and
+interpret process data and manufacturing outcomes. Autono-
+mous or guided product design can be used to improve value
+chain outcomes by using pre-engineered part libraries or 55
+expert systems to provide either autonomous part design, or
+expert-assisted designs that are optimized for metal additive
+manufacturing processes. Resulting workflow and process
+functionality may be further optimized by incorporating
+limitations or recommendations based on real-time analysis 60
+ofvalue chain entities that provide data on the availability of
+a selected material or 3D printer, part cost and delivery time,
+and so on.
+Referring to FIG. 118, part design optimization for 3D
+printing processes may be automated using the design and 651
+simulation 10116, where part function and/or class criteria
+are organized in a design library 10618 and used to guide or
+[col 2]
+436
+fully automate part design for manufacturing. Part functions
+and classes have inherent minimum design criteria imposed
+by standards, best practices, engineering experts, and so on.
+Part function examples include a self-lubricating bearing
+made from sintered metal that must meet chemical,
+mechanical, and other properties found in the ISO 5755
+standard, or an electrical hand tool where materials must
+meet 1000V electrical insulation standards found in the IEC
+60900 standard. Part classification examples include parts
+for use in explosive atmospheres, where materials of con-
+struction must be non-sparking, or parts for medical tools
+used in surgery, where corrosion characteristics must com-
+ply with the ASTM F1089 standard.
+Referring to FIGS. 115, 116, 118, and 119, in one example
+15 embodiment, a new part request that has a specific function
+is received by the user interface 10112 and communicated to
+the design and simulation 10116, where the design libraries
+10618 are searched for tested and viable 3D printed part
+models that match part function. In embodiments, one or
+more parts from the design library 10618 are recommended
+to the user, such as via the interface 10112, as a design
+recommendation or guidance. In embodiments, design
+libraries may also include product assemblies, wherein com-
+pleted assemblies and all parts in the assembly meet func-
+tional or class criteria.
+In embodiments, one or more candidate parts are auto-
+matically selected by a design optimization system 10710.
+With help from the machine learning system 10210 and the
+artificial intelligence system 10212, the design optimization
+system 10710 optimizes the part design and submits the
+same to the autonomous additive manufacturing platform
+10110 for manufacturing.
+In embodiments, the design optimization system 10710
+may use machine learning models trained by product design
+experts. In embodiments, the design optimization system
+10710 may use machine learning models trained using data
+of prior designs and their outcomes.
+In embodiments, the design optimization system 10710
+may use a generative or evolutionary approach to design.
+The system may start with design goals and then explore
+innumerable variations by adding constraints before select-
+ing a final design based on evolutionary models. The evo-
+lutionary models are based on the principle of natural
+selection, such as where the most optimal designs are
+selected from among an initial population of potential
+designs through a series of evolutionary stages. Generative
+models may include models like DALL-ETM that mix visual
+and text-based artificial intelligence systems, as well as
+further hybrids for generating visual, 3D, text, color, texture,
+strength, flexibility, and many other properties, including
+using specialized artificial intelligence systems for generat-
+ing variations of each of a large set of properties and
+generating combinations, such as pairs, triplets, and higher-
+order n-tuples of properties. In embodiments, generative
+models may generate and/or select design instance that
+represent combinations of properties that are shared among
+semantically distinct objects or topics, such as a cat and
+basket in order to produce and/or select a set of designs that
+embody the shared set of properties.
+In embodiments, evolutionary models may be based on
+genetic algorithms (GA), evolution strategy (ES) algo-
+rithms, evolutionary programming (EP), genetic program-
+ming (GP), and other suitable evolutionary algorithms. In
+embodiments, the evolutionary models may use various
+feedback and filtering functions, such as ones based on
+semantic properties, ones based on design constraints (such
+as acceptable color palette for brand), ones based on physi-

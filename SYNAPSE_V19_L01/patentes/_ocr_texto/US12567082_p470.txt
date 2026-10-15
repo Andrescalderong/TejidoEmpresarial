@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+617
+twin simulation system 13310 may collect and/or be pro-
+vided with values relevant to the evaluated set of states. In
+simulating the impact of the one or more set of states, the
+digital twin simulation system 13310 may recursively evalu-
+ate performance characteristics of affected digital twins until
+convergence is achieved. The digital twin simulation system
+13310 may work, for example, in tandem with the intelli-
+gence service 13004 to determine response actions to alle-
+viate, mitigate, inhibit, and/or prevent occurrence of the one
+or more set of states. For example, the digital twin simula- 10
+tion system 13310 may recursively simulate impacts of the
+one or more set of states until achieving a desired fit (e.g..
+convergence is achieved), provide the simulated values to
+the intelligence service 13004 for evaluation and determi-
+nation of potential actions, receive the potential actions, 15
+and/or evaluate impacts of each of the potential actions for
+a respective desired fit (e.g., cost functions for minimizing
+production disturbance, preserving critical components,
+minimizing maintenance and/or downtime, optimizing sys-
+tem, worker, user, or personal safety, etc.).
+In embodiments, the digital twin simulation system 13310
+and the intelligence service 13004 may repeatedly share and
+update the simulated values and response actions for each
+desired outcome until desired conditions are met (e.g-,
+convergence for each evaluated cost function for each evalu- 25
+ated action). The digital twin module 13420 may store the
+results in the digital twin datastore 13316 for use in response
+to determining that one or more set of states has occurred.
+Additionally, simulations and evaluations by the digital twin
+simulation system 13310 and/or the intelligence service 30
+13004 may occur in response to occurrence or detection of
+the event.
+In embodiments, simulations and evaluations are trig-
+the digital twin module 13420. In further embodiments, 35 
+simulations and evaluations are performed concurrently
+with use of stored actions to evaluate the efficacy or effec-
+tiveness of the actions in real time and/or evaluate whether
+further actions should be employed or whether unrecognized
+states may have occurred. In embodiments, the intelligence 40
+service 13004 may also be provided with notifications of
+instances of undesired actions with or without data on the
+undesired aspects or results of such actions to optimize later
+evaluations.
+In embodiments, the digital twin module 13420 evaluates 45 
+and/orrepresents the impact of downtime of smart contain-
+ers within a digital twin of a smart container fleet. For
+example, the digital twin module 13420 may employ the
+digital twin simulation system 13310 to simulate the imme-
+diate, upstream, downstream, and/or continuing effects of a 50
+smart container downtime state. The digital twin simulation
+system 13310 may collect or be provided with performance-
+related values such as optimal, suboptimal, and minimum
+performance requirements for elements (e.g-, real-world
+elements and/or nested digital twins) within the affected 55 
+digital twins, and/or characteristics thereof that are available
+to the affected digital twins, effect on nested digital twins,
+redundant systems within the affected digital twins, combi-
+nations thereof, and the like.
+In embodiments, the digital twin module 13420 is con- 60
+figured to: simulate one or more operating parameters for the
+real-world elements in response to the shipping entity or
+environment being supplied with given characteristics using
+the real-world-element digital twins; calculate a mitigating
+action to be taken by one or more of the real-world elements
+in response to being supplied with the contemporaneous
+characteristics; and actuate, in response to detecting the
+[col 2]
+618
+contemporaneous characteristics, the mitigating action. The
+calculation may be performed in response to detecting
+contemporaneous characteristics or operating parameters
+falling outside of respective design parameters or may be
+determined via a simulation prior to detection of such
+characteristics.
+Additionally, or alternatively, the digital twin module
+13420 may provide alerts to one or more users or system
+elements in response to detecting states.
+In embodiments, the digital twin I/O system 13308
+includes a pathing module. The pathing module may ingest
+navigational data from the elements, provide and/or request
+navigational data to components of the digital twin module
+13420 (e.g., the digital twin simulation system 13310, the
+digital twin dynamic model system 13312, and/or the intel-
+ligence service 13004), and/or output navigational data to
+elements (e.g., to the wearable devices). The navigational
+data may be collected or estimated using, for example,
+historical data, guidance data provided to the elements,
+2o combinations thereof, and the like.
+For example, the navigational data may be collected or
+estimated using historical data stored by the digital twin
+module 13420. The historical data may include or be pro-
+cessed to provide information such as acquisition time,
+associated elements, polling intervals, task performed, laden
+or unladen conditions, whether prior guidance data was
+provided and/or followed, conditions of a shipping entity or
+environment, other elements within the shipping entity or
+environment, combinations thereof, and the like. The esti-
+mated data may be determined using one or more suitable
+pathing algorithms. For example, the estimated data may be
+calculated using suitable order-picking algorithms, suitable
+path-search algorithms, combinations thereof, and the like.
+The order-picking algorithm may be, for example, a largest
+gap algorithm, an s-shape algorithm, an aisle-by-aisle algo-
+rithm, a combined algorithm, combinations thereof, and the
+like. The path-search algorithms may be, for example,
+Dijkstra's algorithm, the A* algorithm, hierarchical path-
+finding algorithms, incremental path-finding algorithms, any
+angle path-finding algorithms, flow field algorithms, com-
+binations thereof, and the like.
+In embodiments, the digital twin module 13420 ingests
+navigational data for a set of smart containers for represen-
+tation in a digital twin. Additionally, or alternatively, the
+digital twin module 13420 ingests navigational data for a set
+of mobile equipment assets of a shipping environment into
+a digital twin.
+In embodiments, the digital twin module 13420 ingests a
+system for modeling traffic of mobile elements (e.g., smart
+containers, container ships, robots, trucks, trains, cargo, or
+the like) in a shipping digital twin. For example, the digital
+twin module 13420 may model traffic patterns for a set of
+smart containers, mobile equipment assets, cargo combina-
+tions thereof, and the like. The traffic patterns may be
+estimated based on modeling traffic patterns from and his-
+torical data and contemporaneous ingested data. Further, the
+traffic patterns may be continuously or intermittently
+updated depending on conditions.
+The digital twin module 13420 may alter traffic patterns
+(e.g., by providing updated navigational data to one or more
+of the mobile elements) to achieve one or more predeter-
+mined criteria. The predetermined criteria may include, for
+example, increasing process eficiency, decreasing interac-
+tions between smart containers and mobile equipment
+assets, minimizing smart container path length, routing
+smart containers around paths or potential paths of persons,
+combinations thereof, and the like.

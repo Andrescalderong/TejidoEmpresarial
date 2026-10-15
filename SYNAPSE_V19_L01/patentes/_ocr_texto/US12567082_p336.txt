@@ -1,0 +1,137 @@
+adjusting profit forecasts, redeploying assets, etc.). Accord- 45 for rapid prototyping, three-dimensional printing, two-di-
+[col 1]
+US 12,567,082 B2
+349
+retrain) any models used by the classification module 9510,
+prediction module 9520, and/or recommendation module
+9530.
+Although the classification, prediction, and recommenda-
+tion chip 9500 may thus perform a wide variety of classi-
+fication, prediction, and recommendation tasks, including
+any of the classification, prediction, and recommendation
+tasks described herein, a few examples may be useful to
+explain the flexibility and functionality of the classification,
+prediction, and recommendation chip 9500. According to a 10
+first example, the chip 9500 may be configured to automati-
+cally analyze and classify satellite images (e.g., to recognize
+specific vegetation types, density and location, animal popu-
+lation and movement, etc.), to provide predictions based on
+classified objects in the images (e.g., crop valuations, fire 15
+hazard assessments, water allocations and prices, etc.), and
+to provide recommendations based on the classifications and
+predictions (e.g., crop production adjustments, clearing of
+brush, increase of insurance reserves, reduction of water
+allocations, etc.).According to this first example, a wide 2o
+variety of inputs 9592 may be used, including enterprise
+resource planning system inputs (e.g., inventory, pricing.
+accounting, sales, employee information), customer rela-
+tionship management system inputs (e.g., customer data,
+payment methods, etc.), security system inputs (e.g-, data 25
+access and management, surveillance video, authentication
+data), inputs comprising crime statistics, police reports, cost
+of living reports, and the like. Additionally, system specifi-
+cations 9556 in this example may indicate that various
+actions may include increasing/reducing/maintaining store 30
+hours, products, or services provided, adjusting levels of
+security, and the like. Moreover, the system specifications
+9556 may include lists of the stores, products or services
+which may be adjusted, such that a three-dimensional action
+matrix indicating an action, a store, and an adjustment may
+be developed. According to a second example, the chip 9500
+may be configured to automatically analyze and classify
+financial transactions (e.g., to recognize fraud or theft, types
+of purchases, contracts, customers, products, etc.), to pro-
+vide predictions based on the transaction data (e.g-, demand 40
+response, fraud estimation and response, asset allocation,
+etc.), and to provide recommendations based on the classi-
+fications and predictions (e.g., increasing production, real-
+location inventory, investing in security and enforcement,
+ing to a third example, the chip 9500 may be configured to
+automatically analyze and classify biometric (e.g., to rec-
+ognize faces, voice, gestures, identify groups, evaluate emo-
+tions, etc.), to provide predictions based on the biometric
+data (e.g., personal or group behavior, security, cognitive 50
+assessments, etc.), and to provide recommendations based
+on the classifications and predictions (e.g. health or psy-
+chological screenings, security authentications/evaluations,
+etc.). According to a fourth example, the chip 9500 may be
+configured to automatically analyze and classify motion 55
+capture data (e.g., to classify behavior as normal or abnor-
+mal, safe or unsafe, etc.), to provide predictions based on the
+motion capture data (e.g., group behavior based on indi-
+vidual reactions, etc.), and to provide recommendations
+based on the classifications and predictions (e.g., interven- 60
+tions, re-routing of group flow patterns, etc.). According to
+a fifth example, the chip 9500 may be configured to auto-
+matically analyze and classify pathology data (e.g, to detect
+diseases, population health, disease prevalence and spread,
+etc.), to provide predictions based on the pathology data and 65
+classifications (e.g., disease spread, population changes,
+health care costs, etc.), and to provide recommendations
+[col 2]
+350
+based on the classifications and predictions (e.g., quaran-
+tines, allocation of medical resources, adjustment of insur-
+ance premiums, etc.).
+AdditiveManufacturing
+FIGS. 114-121 describe various embodiments of an addi-
+tive manufacturing platform, In embodiments, an additive
+manufacturing platform may be a standalone system or may
+be integrated into a larger system, where the additive manu-
+facturing platform is a value chain entity. In embodiments,
+*additive manufacturing" refers to a collection of versatile
+fabrication techniques for rapid prototyping and/or manu-
+facturing of parts that allow 3D digital models (CAD
+designs) to be converted to three dimensional objects by
+depositing multiple thin layers of material, such as accord-
+ing to a series of two-dimensional, cross-sectional deposi-
+tion maps.
+Accordingly, the term “"additive manufacturing platform"
+used herein encompasses a platform that prints, builds, or
+otherwise produces 3D parts and/or products at least in part
+using an additive manufacturing technique. The additive
+manufacturing platform may encompass technologies like
+3D printing, vapor deposition, polymer (or other material)
+coating, epitaxial and/or crystalline growth approaches, and
+others, alone or in combination with other technologies,
+ such as subtractive or assembly technologies, enables manu-
+facturing of a three-dimensional product from a design via
+a process of forming successive layers of the product, with
+optional interim or subsequent steps to arrive at a finished
+component or system. The design may be in the form of a
+data source like an electronic 3D model created with a
+computer aided design package or via 3D scanner. The 3D
+printing or other additive process then involves forming a
+first material-layer and then adding successive material
+layers wherein each new material-layer is added on a pre-
+formed material-layer, until the entire designed three-dimen-
+sional product is completed. The additive manufacturing
+platform may be a stand-alone unit, a sub-unit of a larger
+system or production line, and/or may include other non-
+additive manufacturing features, such as subtractive-manu-
+facturing features,pick-and-place features, coatingfeatures,
+finishing features (such as etching, lithography, painting,
+polishing and the like), two-dimensional printing features,
+and the like. Further, the platform may include three-
+dimensional additive manufacturing machines configured
+mensional printing, freeform fabrication, solid freeform
+fabrication, and stereolithography; subtractive manufactur-
+ing machines including computer numerical controlled fab-
+rication machines; injection molding machines and the like.
+FIG. 114 is a diagrammatic view illustrating an example
+form 10110 according to some embodiments of the present
+disclosure. The platform operates within a manufacturing
+node 10100, which in turn is a part of a larger network of
+value chain entities. The manufacturing node 10100
+includes an additive manufacturing unit 10102, such as a 3D
+printer for printing with metal materials, biocompatible
+materials, bioactive materials, biological materials, or other
+more conventional additive manufacturing materials, or
+other additive manufacturing type described herein, in the
+documents incorporated herein by reference, or as under-
+stood in the art. The manufacturing node 10100 may include,
+among other elements, a pre-processing system 10104, a
+post-processing system 10106 and a material handling sys-
+tem 10108. The autonomous additive manufacturing plat-
+form 10110 helps in automating and optimizing the digital
+production workflow leading to better outcomes at all stages

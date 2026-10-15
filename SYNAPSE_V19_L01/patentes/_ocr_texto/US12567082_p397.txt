@@ -1,0 +1,136 @@
+may reference the library 12314, the platform 12000 intel- 35 learning, artificial intelligence, and the like when determin-
+[col 1]
+US 12,567,082 B2
+471
+element that distinguishes set of tasks may be used by the
+fleet configuration system to avoid assigning the same robot
+operating unit to tasks within the set of tasks delineated by
+the structural element and tasks outside of the set.
+In embodiments, the job parsing system 12302 may
+incorporate and/or utilize a job request configuration agent/
+expert system that may be constructed to facilitate develop-
+ing job description parsing capabilities.
+In embodiments, the task definition system 12304 may
+organize job data into task definitions 12304D (e.g., discrete
+robot tasks or tasks performed by robot teams). The task
+definition system 12304 may further coordinate other sys-
+tems of the job configuration system 12018, such as the
+workflow simulation system 12308 to optimize the task
+definitions.
+In embodiments, the task definition system 12304 may
+refine job data compiled by the job parsing system 12302 to
+facilitate defining discrete operations of one or more robot
+operating units in the fleet of robots in performance of a 20
+requested job. Defining tasks may be based on information
+regarding robots, robot types, robot features, and robot
+configurations that can perform a defined task. In embodi-
+ments, thetask definition system 12304may further provide
+information in task definitions 12304D that facilitate a fleet 25
+configuration system 12020 in determining use of general/
+multi-purpose robots, special purpose robots and/or combi-
+nations thereof for each defined task. In embodiments, the
+task definition system 12304 may define tasks that meet a
+first fleet object of a set of fleet objectives. A first fleet object 301
+may include defining tasks that can be performed by a
+multi-purpose robot by, for example, breaking down job
+content into smaller tasks that require less customization of
+the robot. In embodiments, the task definition system 12304
+ligence layer 12004, or other platform-specific or accessible
+resources when making task suggestions.
+As the task definition system 12304D defines the tasks of
+a job, the task definition may be cataloged and stored for
+futureuse,such as in the library12314.In some embodi- 40
+ments, the task definition system 12304D may adapt a task
+definition from a previously cataloged task definition (e.g..
+adapting a task definition for a particular type of environ-
+ment or certain conditions thereof from a previously cata-
+logued task definition). In these embodiments, the task 45 t
+definition system 12304Dmay cataloguethederivativetask
+definition in the library 12314 with adaptation instructions.
+In some embodiments, a task definition that is catalogued in
+the library 12314 may be associated with an already cata-
+loged task definition, may be cataloged as a sub-task of an
+existing task and the like. In general, task definition may
+include associated tasks, serialized tasks, nested tasks and
+the like.
+Information about a job may be stored in the library 12314 55
+for future use, therefore, the task definition system 12304
+may access the library 12314 to retrieve information about
+the job, robots, fleets, and the like. In the current exemplary
+embodiment of inspection ofa ventilation system, the infor-
+mation accessible through the library 12314 may include, 60
+for example how to access information about the physical
+configuration of the ventilation system. The task definition
+system 12304 may also access the library 12314 to update
+information, such as by adding one or more tasks to a list of
+tasks for the ventilation inspection job, results from optimi- 65
+zations of task definition performed by the job execution
+system, and the like.
+[col 2]
+472
+Optimization features of the task definition system are
+described below in association with feedback from other
+elements of the job configuration system 12018, such as the
+workflow simulation system 12308 and the like.
+Task definitions may be generated and provided to other
+elements of the job configuration system 12018, such as the
+workflow definition system 12306 and a fleet configuration
+system proxy 12305. In embodiments, the fleet that may
+provide the task definitions (and other suitable information)
+to the fleet configuration system 12020. In an example, a
+fleet configuration system proxy 12305 may narrow down
+sets of candidate robots for performing tasks (as indicated in
+task description(s) 12304A) to a specific robot type (and
+optionally a specific robot in the fleet) based on fleet
+configuration and fleet resource inventory and allocation
+data relevant to the requested job (e.g., based on geography,
+timing, and the like). The fleet configuration system proxy
+12305 may process task definitions, which may include
+robot identification information (e.g., robot type and the
+like), for aligning resources ofthefleet with the relevant task
+information. In an example, a fleet configuration proxy
+12305 may generate data suitable for use by fleet operational
+elements, such as a fleet resource provisioning system
+12014, to perform fleet resource allocation, scheduling, and
+the like that supports at least a portion of the goals of a job
+request being processed through the job configuration sys-
+tem 12018. The fleet configuration proxy 12305 may employ
+fleet configuration modeling to determine candidate fleet
+configurations that meet job requirements. The modeling
+may be useful in determining an impact on fleet resources
+that may then be taken into consideration during fleet
+configuration functions, resource allocation, and the like. In
+embodiments, fleet configuration modeling may include use
+of platform intelligence layer resources, such as machine
+ing one or more preferred fleet configurations that also
+satisfy one or more job description requirements. The fleet
+configuration system 12020 is described in further detail
+elsewhere in this disclosure.
+WorkflowDefinition System
+In embodiments, the job configuration system 12018 may
+include the workflow definition system 12306 that receives
+task definitions from the task definition system 12304, fleet
+configuration information from the fleet configuration sys-
+tem 12020, other job request information that may facilitate
+task sequencing (e.g., timing of deliverables and/or tasks)
+and generates one or more task workflows based thereon. In
+embodiments, the workflow definition system 12306 incor-
+porates information from the fleet management system to
+identify workflow possibilities using output from the task
+definition, job parsing system, and real-time external data
+such as maintenance management systems, ERP systems,
+and so forth to determine the task workflows. In embodi-
+ments, a task workflow defines an order and manner in
+which tasks are performed for performing a project/job. In
+embodiments, the workflow definition system 12306 may
+apply job descriptive information to a set of task definitions
+and fleet configuration data to produce one or more work-
+flows to perform one or more activities of the job. As an
+example, a workflow may cover an activity such as entering
+a ventilation conduit via a portal, such as a ventilation inlet
+port and the like. The tasks defined for this activity may be
+collected into a workflow or portion thereof, ordered to
+ensure proper compliance with the job requirements, and
+published as a set of requirements to perform the activity/
+workflow. A job workflow definition may include informa-
+tion descriptive of quantities and types of robots, tools/end

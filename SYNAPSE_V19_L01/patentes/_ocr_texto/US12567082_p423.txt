@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+523
+may be provided to the 3D printing control system to
+produce an adaptor for an armature of the robot. A result of
+the AI-based shape recognition may identify the object as
+similar to a type that was previously encountered by the
+platform. As an example, parameters of the object may be
+used to identify candidate objects in a library of objects for
+which the platform has managed a fleet of robot tasks. The
+library may further indicate that a sling was successfully
+used on one or more previous encounters with this class of
+object. In embodiments, the control of robotic system for 3D 10
+printing may be directed to produce a suitable sling to be
+used by one or more robots assigned to perform the object-
+specific task to lift and transport the object. In yet another
+exemplary embodiment of a robot management platform
+having both 3D printing control and artificial intelligence- 15
+based shape recognition capabilities, repair of the object
+may be achieved by use of visual and other sensors of the
+robotic system determining that a handle of the object to be
+repaired is broken, thereby preventing performance of the
+repair as instructed. Based on the determination of this 20
+unexpected condition, a supplemental set of robot operations
+may be generated for the current repair assignment to
+instruct the robotic control system for 3D printing to fashion
+a replacement handle or perform a repair of the handle (e.g..
+mend a break in a structural portion of the handle). These 25
+ supplemental operations may be determined based on an
+assessment of an object to be repaired and integrated in the
+current instance of the object repair process even when the
+cause of failure that requires the repair task is other than the
+handle. 30
+According to some example implementations, a robot
+fleet management platform having a conformable (e.g.,
+liquid) lens vision system may also have an AI loop-based
+training and learning system that may be focused on com-
+pleting a set of tasks using quality oftask completion as one 35
+of one or more training factors. In embodiments, a conform-
+able lens vision system may be configured, controlled, and
+adapted through use of artificial intelligence for improving
+image formation. Feedback from the AI loop-based training
+and learning system may be used as one element of feedback 40
+for adjusting the conformable lens for improved image
+formation. In embodiments, a combined AI system may
+facilitate adapting the conformable lens to improve quality
+of task completion. Factors such as breakage of task objects
+and/or robotic components, when based on robot operations 45
+that have a track record of success (e.g., not breaking things)
+may suggest that image formation needs improvement. A
+robotic vision system with conformable lens technology
+based learning capabilities to train itself to detect and 50 s
+provide guidance to avoid task execution risk factors, such
+as objects along a path, and the like.
+According to some example implementations, a robot
+fleet management platform having quantum optimization of
+thermal and energy factors in a robotic system may also have 55
+chip-sensor system (e.g., organ on a chip and the like) that
+provided biological sensing and evaluation. In some of these
+embodiments, the system senses radioactivity for evaluating
+conditions associated with use and deployment of radioac-
+tive materials (e.g-, as a fuel for an electricity generator). 60
+Sensitivity of radioactive sensors and many other types of
+sensors may be impacted by temperature conditions proxi-
+mal to the sensing element. Ensuring that thermal factors are
+automatically and properly addressed throughout a robot
+task assignment and over the life of the robot (or at least the 65
+potentially facilitate detecting potentially dangerous levels
+[col 2]
+524
+thermal stability may further provide benefits to other
+robotic sensing capabilities, such as chip-based medical
+diagnosis sensors, chip-based medical laboratory testing,
+and the like.
+According to some example implementations, a robot
+fleet management platform having a computer vision infra-
+structure for tracking and governing general robotic assets
+may also have shared economy robotic resource scheduling
+and routing capabilities. In embodiments, the computer
+vision robot tracking infrastructure may provide contextual
+data to an autonomous robotic resource routing embodiment
+of the shared economy robotic resource scheduling and
+routing capabilities. In an example, the computer vision
+infrastructure may detect out-of-compliance robotic behav-
+iors that may indicate a need for routing of robotic resources
+to replace/support/regulate one or more robots at the source
+of the detected out-of-compliance behaviors. Further a com-
+puter vision infrastructure for governing robotic assets may
+provide evidence of task completion for an autonomously
+routed robotic resource to facilitate automated billing for
+deployment of and task completion by the routed resource.
+This evidence may further substantiate claims by third-
+parties (e.g., other robotic fleet platforms) of lack of required
+on-location robotic support, which may include lack of
+on-location presence, out-of-compliance robotic behaviors
+and the like.
+FIG. 143 illustrates an example data flow of the MPR
+12100 adapted to harvest crops of produce. In embodiments,
+the data flow of the MPR 12100 is executed in part by the
+vision and sensing system 12112, a motion planning system
+12158, a robot control system 12150, and a module man-
+agement system 12148 of the MPR 12100. In this example,
+the MPR 12100 may be employed as part of a robotic fleet
+that services an agricultural environment (e.g-, an outdoor
+farming facility, an indoor farming facility, a container
+configured for growing produce, or the like), whereby the
+MPR 12100 selectively harvest agricultural units. In
+embodiments, the MPR 12100 may be configured to identify
+the units in the agricultural farm that are ready to be
+harvested. In response, the MPR 12100 navigates the envi-
+ronment to reach such units to perform the harvesting task.
+The MPR 12100 may utilize vision and sensing system
+12112 for identifying which units are ready to be harvested.
+In response, the motion planning system 12158 may create
+a motion plan to navigate the environment and reach the
+location of the units determined to be ready to be harvested.
+In embodiments, the MPR 12100 may select one or more
+suitable end effectors 12124 from module system 12120 for
+selective harvesting of the ready unit.
+At 12652, the MPR 12100 may capture image data from
+an agricultural environment. The image data may include the
+one or more images captured by cameras and/or other image
+sensors of the vision and sensing system 12112. In some
+embodiments, the one or more of the images may be
+captured using a camera 12608 with the conformable vari-
+able focus liquid lens 12612. The images may be captured
+from multiple different viewpoints and may include one or
+more aerial images. In embodiments, the camera and/or
+other image sensors may be integrated in the housing of the
+MPR 12100, such that the MPR 12100 navigates the agri-
+cultural environment to capture the images. Additionally or
+alternatively, one or more cameras and/or other image
+tioned in various areas of the agricultural environment, such
+that the captured images are communicated to the MPR

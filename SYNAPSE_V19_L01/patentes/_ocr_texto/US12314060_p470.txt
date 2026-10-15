@@ -1,0 +1,138 @@
+may generate a request for clarifying content, as discussed 25 requested, the job configuration system 13018 may use a
+[col 1]
+US 12,314,060 B2
+575
+learning may bebased on experience with other job content
+parsing actions (e.g., prior freight storage and/or transpor-
+tation service orders), common and special knowledge bases
+(such as technical dictionaries), expert humans, and the like.
+In embodiments, parsing of job content may include
+automated parsing of structured and unstructured text. In
+some embodiments, the job parsing system may be config-
+ured to identify (and optionally resolve) missing/unclear
+data and qualified job content data (collectively referred to
+10
+insufficient information, the job parsing system may gener-
+ate and provide a request to a human operator via a user
+interface for clarification with respect to the insufficient
+information. Such a request may identify specific inputs
+from the user to provide, such that the request identifies the
+clarifying content that was missing or unclear initially.
+Additionally, or alternatively, the parsing system 13214 may
+determine the clarifying content from (e.g., through a query
+of) a library 13044 that maintains data from prior freight
+storage and/or transportation service orders, such that the 20
+clarifying content may be obtained using the prior freight
+storage and/or transportation service order information and
+context from the request. If the parsing job is unable to
+determine the clarifying content, the parsing system 13214
+above.
+In embodiments, a range of job description information
+may be provided to, determined, and/or extracted by the job
+configuration system 13018. Examples of freight storage
+and/or transportation service order parameters may include, 3o r
+but are not limited to: origin location and destination loca-
+tion information and/or other physical locations along a
+route; weight requirements; volume requirements; cargo
+descriptions; smart container type(s); the number of smart
+containers required; mode of transportation (container ship, 35 
+truck, rail, self-driving smart container, hyperloop, and the
+like). 3D printing requirements (such as for last-mile cus-
+tomization); digital data for environment layouts of ships,
+shipping container ports, shipping container storage facili-
+ties, and the like, such as 3DCADmodels orscansmaybe 40
+available or might be completed as part of initial job scoping
+and may be used to automatically provide task priority and
+workflow routing, smart container selection, supervisory
+needs, etc.; operating environment (such as along a route)
+including temperature, hazard description(s), terrain, 45
+weather, etc.; deliverables, such as data, reports, analysis,
+and the like; customer interfaces for data exchange, such as
+network interfaces, APIs, security; communication network
+availability, such as land line, 4G, 5G, Wi-Fi, private net-
+works, satellite, connectivity constraints, and the like; bud- 50
+get constraints; timing requirements, including scheduling
+for port availability, scheduling for ship availability, earliest
+start time, latest finish time, rate of activity, such as the
+number of smart containers active at any given time, and the
+like. Examples of other job description information that may 55
+be handled by a job parsing system may include contract-
+related information, such as smart contract terms, certifica-
+tion level of smart container operational software for
+deployed smart containers, insurance provisions, regulatory
+requirements (e.g-, customs requirements), site access 60
+requirements (e.g., a particular container port can be
+accessed only when humans are present or only through
+coordination with humans that are present on the site),
+conditions for assigning a proxy for a task, activity, work-
+flow, or the entire job. 65
+In embodiments, the job configuration system 13018
+systems (e.g., job parsing system, task definition system, and
+[col 2]
+576
+workflow definition system)may reference a library 13044
+to identify content and structural filters for distinguishing
+smart container automation job content from other job
+content (e.g., cost, payment, financing, etc.), preconfigured
+candidate tasks, workflows, and/or completed job configu-
+rations that substantially meet the requirements ofthe freight
+storage and/or transportation service order. In embodiments,
+the library 13044 or another job configuration library may
+facilitate mapping indicia of the job content with target
+terms that indicate smart container automation. As an
+example of a use of an automated task from the library
+13044, a requested freight transportation service may
+include a requirement for measuring the temperature inside
+the smart container using a set of temperature sensors. The
+e 15 job parsing system may identify the temperature measure-
+ment requirement, and in response, the task definition sys-
+tem may identify an automated measurement task for mea-
+suring container temperature in the library 13044 that meets
+the requirements of that portion of the freight storage and/or
+transportation service order, which may be used in defining
+the order execution plan. If job configuration system 13018
+determines that a suitable job configuration is available (e.g.
+from the library 13044), such as if the freight storage and/or
+transportation service ordered had previously been
+previous job configuration corresponding to the previously
+requested job as a proposed job configuration for further
+validation with current fleet standards and the like. For
+example, the intelligence service 13004 may analyze the
+proposed job configuration (e.g., with one or more intelli-
+gence services, including without limitation a machine
+learning service) with respect to a set of governance stan-
+dards to ensure that the proposed job configuration comports
+with said standards. The intelligence service 13004 may
+perform other intelligence-based tasks with respect to the
+proposed job configuration.
+In some scenarios, the job configuration system 13018
+may determine that one or more tasks, workflows, routines,
+and the like do not have a suitable counterpart in the library
+13044. In such a scenario, the job parsing system may
+generate a data set that includes smart container-fleet
+focused requirements (e.g., task definition parameters, smart
+container configuration parameters, suggested task order,
+and the like) for performing the task that is passed along to
+other shipment configuration system modules for process-
+ing. In embodiments, the job parsing system may rely on the
+intelligence service 13004 for suggestions of such require-
+ments, including combinations of tasks that when optionally
+adapted may satisfy the job requirement.
+In embodiments, the job parsing system may include
+and/or interface with the analysis modules/governance
+libraries of the intelligence service 13004 of the system
+13000. The job parsing system may leverage the gover-
+nance-based analyses by providing portions of the candidate
+smart container automation portions of the job content (e.g.,
+terms and the like) for processing. The intelligence service
+13004 may, in response to the provided portion of job
+content, provide and/or indicate one or more of safety
+standards and/or one or more of operational standards to be
+applied during preparation of the order execution plan by the
+job configuration system 13018.
+In embodiments, the job parsing system may include a job
+requirements module that produces a set of freight storage
+and/or transportation service order instance-specific require-
+ments for use when the job configuration system 13018
+defines smart container tasks, configures fleet resources,
+defines workflows, simulates workflows, generates an order

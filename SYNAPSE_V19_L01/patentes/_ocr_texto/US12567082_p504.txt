@@ -1,0 +1,136 @@
+may provide modular adaptive resource package technology 55 a design and value chain consideration process.
+[col 1]
+US 12,567,082 B2
+685
+In embodiments, each tagged item may be represented as a
+probability-based location matrix showing the likely prob-
+ability of the tagged item being at a position in space. The
+communication of movement shows the transformation of
+the location probability matrix to a new set of probabilities.
+This probabilistic locational overview provides for constant
+modeling of areas of likely intersection of moving units and
+allows for refinement of the probabilistic view of the loca-
+tion of items within the value chain network. Moving to a
+10 vector-based probability matrix allows units to constantly
+handle the inherent uncertainty in the measurement of the
+status of value chain network items, entities, and the like. In
+embodiments, status includes, but is not limited to, location,
+temperature,movement and power consumption.
+In embodiments, continuous connectivity is not required
+for continuous monitoring of sensor inputs in a PMCP-based
+communication system. For example, a mobile robotic
+device with a plurality of sensors can continue to build
+models and predictions of data streams while disconnected
+from the network, and upon reconnection, the updated
+models are communicated. Furthermore, other systems or
+devices that use input from the monitored system or device
+can apply the best known, typically last communicated,
+vector predictions to continue to maintain a probabilistic 25 
+understanding of the states of the value chain goods.
+Energy Systems and Processes
+The disclosure relates to energy systems and processes. In
+example embodiments, there is an energy system and pro-
+cess (e.g. also referred to as energy system which may be or 30 
+may include an energy system, process, module, service,
+platform, and/or the like). In example embodiments, as
+shown in FIG. 164, there is an energy system 19000 that
+cess, platform (e.g-,the value chain network management 35
+platform), and the like as described in the disclosure. In
+some examples, the energy system 19000 may be a separate
+system that is external to systems, subsystems, components,
+processes, platforms, etc. in the disclosure. In other
+examples, the energy system 19000 may be integrated with 40
+any one of the systems, subsystems, components, processes,
+platforms, etc. in the disclosure. For example, as shown in
+FIG. 164, the energy system 19000 communicates with the
+value chain network entity 652 and the data handling layers
+608 (e.g., including the value chain management platform 45 
+604, adaptive intelligent systems 614, monitoring systems
+808, data storage systems 624, interfaces 702, connectivity
+facilities 642, and “process and application outputs and
+outcomes" 1040). The energy system 19000 (e.g., including
+at least one energy process) may utilize an energy model.
+The energy system 19000 may be part of a group of value
+chain building blocks that may be combined with various
+other processes and/or systems within the enterprise control
+tower. In example embodiments, the energy system 19000
+(e.g., having energy, energy computing, and/or energy net-
+working processes).For example, the energy system 19000
+may relate to energy storage on a modular level across a
+network of energy storage systems and devices (e.g, use of
+modular energy storage). The energy system 19000 may 60
+address various needs for power management across com-
+munities,businesses/companies, organizations, colleges/
+universities, etc. This may be accomplished, for example, by
+modularization of power storage. In example embodiments,
+where there may be limited power resources and a need to 65
+focus on renewable energy, optimization and modularization
+of power storage may address these issues.
+[col 2]
+686
+In example embodiments, the energy system 19000 may
+include and/or utilize any one or more of the following
+technologies, systems, and/or processes: 3-dimensional (3d)
+printing of batteries, a battery energy storage system
+(BESS), various battery types, coordination processes,
+decentralized energy grids, energy pricing, energy storage
+technology, energy-as-a-service such as an energy-as-a-
+service system (e.g. energy distributed and localized),
+energy-related sectors and transactions, machine learning
+(ML) and/or artificial intelligence (AI) for energy optimi-
+zation, ML/AI for automation, ML/AI for matching energy
+utilization/demand to energy production across a distributed
+network (e.g., network of energy production, storage, and
+delivery systems), quantum, renewable energy (e.g., renew-
+able energy kit), technologies for slicing (e.g., systems
+and/or processes for slicing production, storage, and deliv-
+ery), and the like.
+In example embodiments, the energy system 19000 may
+include energy storage technology. In some examples, the
+1 20 energy storage technology may include one or more types of
+batteries. For example, the batteries may include lithium-ion
+batteries, flexible batteries, structural batteries, solid-state
+batteries (e.g-, technology advancements may lead to emer-
+gence or re-emergence in some cases of solid-state batteries
+as commercial alternatives), and/or flow batteries.
+In example embodiments, new materials and manufactur-
+ing methods may have resulted in the introduction of flexible
+batteries (e.g-, flexible primary and secondary cells), and a
+pipeline of new possibilities. Use case or product driven
+conformable and conforming capabilities may offer a new
+variable to optimize product design. Flexible batteries may
+be designed as an integral part of a product rather than as an
+add-on module, and may be adapted for clothing and other
+wearable electronics, medical devices, drug delivery sys-
+tems, micro IoT devices, flexible electronic devices that
+incorporate both flexible circuits and batteries, etc.
+In example embodiments, structural batteries may use
+carbon fiber as a negative electrode and lithium iron phos-
+phate-coated aluminum foil as a positive electrode.
+Tradeoffs between battery weight and product performance
+may sometimes eliminate or limit battery powered product
+categories. Technological advances may provide opportuni-
+ties for designs that incorporate at least one structural battery
+into a product itself. Batteries that employ carbon nanotube
+electrodes as structural elements may provide design flex-
+ibility and opportunities for an overall weight reduction, for
+example, as part of a hull of a vessel. Structural storage
+elements may support integrated systems for battery-pow-
+ered, and possibly grid-independent infrastructure, vehicles,
+devices, etc., that may incorporate transactions capabilities.
+Example uses may include sidewalks, roads, airports, etc.
+(public or private). Shape, cost, structural requirements,
+design life, thermal management, power and energy, or a
+combination of these features may be automated as part of
+In example embodiments, flow batteries may be used to
+decouple energy and power. For example, using a type of
+flow batteries that decouple energy and power may offer
+ some unique design and integration opportunities such as
+purpose-built buildings and infrastructure. These flow bat-
+tery systems may provide a near-term alternative to lithium-
+ion batteries. New chemistries such as organic formulations
+may lead to easier use of abundant and less corrosive
+electrolytes that may make this technology less costly.
+In example embodiments, the energy storage technology
+may include smart batteries. The smart batteries may be
+smart batteries with a battery management system (BMS)

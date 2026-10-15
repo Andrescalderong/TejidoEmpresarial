@@ -1,0 +1,133 @@
+[col 1]
+US 12,314,060 B2
+287
+interference system in the body of an artificial neural net-
+work. Depending on the type, several layers may simulate
+the processes involved in a fuzzy inference, such as fuzzi-
+fication, inference, aggregation and defuzzification. Embed-
+ding a fuzzy system in a general structure of a neural net as
+the benefit of using available training methods to find the
+parameters of a fuzzy system.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a compositional pattern-producing network 10
+(CPPN), such as a variation of an associative neural network
+(ANN) that differs the set of activation functions and how
+they are applied. While typical ANNs often contain only
+sigmoid functions (and sometimes Gaussian functions.
+PPNs can include both types of functions and many others. 15
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+20
+be optimal. This type of network can add new patterns
+without re-training. In embodiments, methods and systems
+described herein that involve an expert system or self-
+organization capability may use a one-shot associative
+memory network, such as by creating a specific memory 25
+ structure, which assigns each new pattern to an orthogonal
+plane using adjacently connected hierarchical arrays.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a hierarchical temporal memory (HTM) neural 301
+network, such as involving the structural and algorithmic
+properties of the neocortex. HTM may use a biomimetic
+model, such as based on memory-prediction. HTM may be
+used to discover and infer the high-level causes of observed
+input patterns and sequences. 35
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a holographic associative memory (HAM) neural
+network, which may comprise an analog, correlation-based,
+associative, stimulus-response system. Information may be 40o perceptron.
+mapped onto the phase orientation of complex numbers. The
+memory may be effective for associative memory tasks,
+generalization and pattern recognition with changeable
+attention.
+The foregoing neural networks may have a variety of 45
+nodes or neurons, which may perform a variety of functions
+on inputs, such as inputs received from sensors or other data
+sources, including other nodes. Functions may involve
+weights, features, feature vectors, and the like. Neurons may
+include perceptrons, neurons that mimic biological functions 5oi
+(such as of the human senses of touch, vision, taste, hearing,
+and smell), and the like. Continuous neurons, such as with
+sigmoidal activation, may be used in the context of various
+forms of neural net, such as where back propagation is
+involved.
+In many embodiments, an expert system or neural net-
+supervisor, or based on a data set, model, or the like.
+Training may include presenting the neural network with
+one or more training data sets that represent values, such as 60
+sensor data, event data, parameter data, and other types of
+data (including the many types described throughout this
+disclosure), as well as one or more indicators of an outcome,
+such as an outcome of a process, an outcome of a calcula-
+tion, an outcome of an event, an outcome of an activity, or 65
+the like. Training may include training in optimization, such
+as training a neural network to optimize one or more systems
+[col 2]
+288
+based on one or more optimization approaches, such as
+Bayesian approaches, parametric Bayes classifier
+approaches, k-nearest-neighbor classifier approaches, itera-
+tive approaches, interpolation approaches, Pareto optimiza-
+tion approaches, algorithmic approaches, and the like. Feed-
+back maybeprovided in aprocess ofvariation and selection,
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+In embodiments, a plurality of neural networks may be
+deployed in a cloud platform that receives data streams and
+other inputs collected (such as by mobile data collectors) in
+one or more industrial environments and transmitted to the
+cloud platform over one or more networks, including using
+network coding to provide efficient transmission. In the
+cloud platform, optionally using massively parallel compu-
+tational capability, a plurality of different neural networks of
+several types (including modular forms, structure-adaptive
+forms, hybrids, and the like) may be used to undertake
+prediction, classification, control functions, and provide
+other outputs as described in connection with expert systems
+disclosed throughout this disclosure. The different neural
+networks may be structured to compete with each other
+(optionally including the use of evolutionary algorithms,
+genetic algorithms, or the like), such that an appropriate type
+of neural network, with appropriate input sets, weights, node
+types and functions, and the ike, may be selected, such as
+context, workflow, environment process, system, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a feed forward neural network, which moves
+information in one direction, such as from a data input, like
+machine, through a series of neurons or nodes, to an output.
+Data may move from the input nodes to the output nodes,
+optionally passing through one or more hidden nodes, with-
+out loops. In embodiments, feedforward neural networks
+may be constructed with various types of units, such as
+binary McCulloch-Pitts neurons, the simplest of which is a
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a radial basis function (RBF) neural network, which
+may be preferred in some situations involving interpolation
+in a multi-dimensional space (such as where interpolation is
+helpful in optimizing a multi-dimensional function, such as
+for optimizing a data marketplace as described here, opti-
+mizing the eficiency or output of a power generation
+system, a factory system, or the like, or other situation
+involving multiple dimensions). In embodiments, each neu-
+ron in the RBF neural network stores an example from a
+functioning of this neural network offers RBF the advantage
+of not typically suffering from problems with local minima
+55 or maxima.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a radial basis function (RBF) neural network, such
+as one that employs a distance criterion with respect to a
+center (e.g., a Gaussian function). A radial basis function
+may be applied as a replacement for a hidden layer (such as
+tron. An RBF network may have two layers, such as the case
+where an input is mapped onto each RBF in a hidden layer.
+In embodiments, an output layer may comprise a linear
+combination of hidden layer values representing, for
+example, a mean predicted output. The output layer value

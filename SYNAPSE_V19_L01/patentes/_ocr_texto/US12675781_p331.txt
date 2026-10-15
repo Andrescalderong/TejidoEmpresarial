@@ -1,0 +1,137 @@
+platform 10110 provides for optimization of a build prepa- 50 additives; however, most 3D printing methods can only
+[col 1]
+US 12,675,781 B2
+411
+as in a local area network of a building, campus, or other
+premises where the additive manufacturing unit(s) 10102 are
+located and/or in a connected vehicle that transports the
+additive manufacturing unit(s) 10102) and/or that is inte-
+grated with or into the additive manufacturing unit 10102,
+such as where the additive manufacturing unit 10102 has
+onboard edge computational and/or connectivity resources,
+such as 5G (or other cellular), Wifi, Bluetooth, fixed net-
+working resources, or the like, offers opportunities to pro-
+vide rapid, real time or near real time processing respon- 1o
+siveness while benefiting from the expansive computing and
+data storage capabilities provided by highly scalable cloud
+computing resources, such as servers and the like.
+In embodiments, data may also be stored in a blockchain,
+such as one where storage is distributed across multiple 15
+manufacturing nodes as well as other data storage devices or
+systems. In embodiments this may take the form of a
+distributed ledger that may capture transactions, events, or
+the like, such as financial events involving additive manu-
+facturing, smart contract-related events, operational events 20
+(such as scheduling or completion of jobs), and others. The
+data may also be multiplexed or otherwise condensed using
+sensor fusion and relayed over a network and fed into the
+machine learning system employing one or more machine
+learning models. 25
+At 10306, the parameters may be dynamically adjusted as
+needed based on the analysis of sensor data. As the 3D
+printing is complete, the data related to the outcome of the
+3D printing process is collected at 10308. The outcome data
+may be collected through a user interface wherein a user 3o 
+provides information regarding the success or failure of the
+3D print. The data is then provided as feedback to the
+machine learning system 102i0 which uses the feedback to
+train or improve the initial machine learning model (such as
+improvementsby adjusting weights,rules,parameters, or 35
+the like, based on the feedback). In embodiments, the
+feedback is utilized to analyze trends over multiple 3D prints
+performed by one or more users across multiple additive
+manufacturing units 10102 and manufacturing nodes 10100.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides optimization and process control
+across the entire lifecycle of manufacturing using machine
+learning, from product conception and design through
+manufacturing and distribution to service and maintenance.
+In embodiments, the autonomous additive manufacturing 45
+platform 10110 provides for generative design and topology
+optimization to determine at least one product design suit-
+able forfabrication.
+In embodiments, the autonomous additive manufacturing
+ration process.
+In embodiments, the autonomous additive manufacturing
+platform 10110 optimizes part orientation process for supe-
+rior production results.
+In embodiments, the autonomous additive manufacturing 55 
+platform 10110 automatically determines and recommends
+support structures to minimize material costs, print time,
+post processing, and risk of damage to the 3D printed part
+(on support removal).
+In embodiments, the autonomous additive manufacturing 60
+platform 10110 provides for optimizing toolpath generation.
+For example, in a 3D printer, a toolpath may comprise the
+trajectory of the nozzle and/or print head. In embodiments,
+toolpath generation enables a manufacturing process to fill
+theboundary and interiorareas of each sliced layer.Various 65
+types of toolpath strategies and algorithms, such as zigzag.
+contour, spiral and partition patterns, are possible with
+[col 2]
+412
+considerations on the build time, cost, geometrical quality,
+warpage, shrinkage, strength and stiffiness of a manufactur-
+ing model. In embodiments, an artificial intelligence system
+may be trained on outcomes, such as described above, to
+provide a recommended toolpath and/or to entirely automate
+toolpath generation.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for optimized dynamic 2D, 2.5D
+and 3D nesting to maximize the number of printed parts
+while minimizing the raw material waste. In embodiments,
+nesting is optimized such that the nesting algorithm evalu-
+handled accordingly, such as with scheduling priority, pri-
+ority in quality, priority in ease-of-use, priority of position-
+ing, or the like. In embodiments, nesting is optimized such
+that the nesting algorithm minimizes the travel time for the
+cutting tool. In embodiments, nesting is optimized such that
+the nesting algorithm integrates with support structure opti-
+mization.
+ In embodiments, the autonomous additive manufacturing
+platform 10110 provides for optimization of post processing
+processes.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for an automated powder removal
+system utilizing a digital twin wherein the digital twin
+calculates the optimal movement of the powder removal
+system while de-powdering.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for an automated, hands-free sup-
+port structure removal.
+ In embodiments, the autonomous additive manufacturing
+platform 10110 provides for automated surface finishing.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for automated part metrology for
+use with integrated quality and process control systems.
+In embodiments, manufacturing methods described
+herein may use material additives during processing that
+impart various characteristics in finished parts. Examples in
+plastic injection molding include glass fiber for added
+strength, and electrically conductive and shielding fibers for
+tailored electrical properties. For some applications, orien-
+tation of added fibers or other materials may affect the
+performance of finished parts. For example, in a glass fiber
+reinforcement application, long fiber orientation may dictate
+minimum and maximum deformation orientations under
+stress. Fiber orientation during manufacturing may be only
+partially controlled through mold design, injection nozzle
+location and pressure, and other process controls.
+3D printed parts may also be manufactured using material
+produce materials with limited ability to optimize additive
+characteristics such as fiber orientation to help optimize
+finished part performance. For example, 3D printers may use
+nozzles that extrude various plastic materials, but inherent
+flow characteristics of a fixed nozzle, and limitations of the
+3D printing process in general, limit options for finished part
+material engineering. Such use of 3D printing nozzles offer
+the ability to control orientation of additive materials as they
+are laid down for part production. This development pro-
+vides the opportunity to finely tailor material performance,
+for example, localized orientations for structural enhance-
+ment, or homogeneous random orientation for electrical
+shielding performance. In examples, this capability may be
+provided by a 3D printing nozzle that uses actuated flexible
+elements to change the shape of the nozzle during material
+application, resulting in predictable fiber orientations. This
+may be used in conjunction with other printing process

@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+391
+ments, printer twin 10506 may also be used to simulate and
+compare future manufacturing outcomes when varying feed-
+stock formulation.
+Referring to FIGS.116 and 119, the feedstock formulation
+system 10706 works with the artificial intelligence system
+10212, and the machine learning system 10210. A combi-
+nation of training, manufacturing outcome, and external data
+such as pricing and availability information and expert and
+customer feedback is collected at the data collection and
+management system 10202, where it is used to train or
+improve the initial machine learning model 10213 for feed-
+backformulation.
+Referring now to FIGS. 114, 115 and 119, in embodi-
+ments, the feedstock formulation system 10706. may include
+a physical subsystem that is integrated with the manufac- 15
+turing node 10100 and one or more of the additive manu-
+facturing units 10102. This physical subsystem of the feed-
+autonomous additive manufacturing platform 10110. The
+manufacturing workflow management applications 10208 20
+may include an application that routes feedstock material as
+necessary, and the data collection and management system
+10202 may provide feedstock inventory levels. The feed-
+stock formulation system 10706 may include one or more
+automated production and transport systems that deliver 25
+feedstock material and perform feedstock material changes
+for the additive manufacturing unit 10102.
+Design Optimization
+Optimizing part design for use with additive manufactur-
+ing processes typically requires special software, equipment,
+30
+training, technical knowledge, and the ability to provide and
+interpret process data and manufacturing outcomes. Autono-
+mous or guided product design can be used to improve value
+chain outcomes by using pre-engineered part libraries or
+expert-assisted designs that are optimized for metal additive
+manufacturing processes. Resulting workflow and process
+limitations or recommendations based on real-time analysis
+ofvalue chain entities that providedata on the availability of 40
+a selected material or 3D printer, part cost and delivery time,
+and so on.
+Referring to FIG. 118, part design optimization for 3D
+printing processes may be automated using the design and
+simulation 10116, where part function and/or class criteria 45
+are organized in a design library 10618 and used to guide or
+fully automate part design for manufacturing. Part functions
+and classes have inherent minimum design criteria imposed
+by standards, best practices, engineering experts, and so on.
+Part function examples include a self-lubricating bearing 50
+made from sintered metal that must meet chemical,
+mechanical, and other properties found in the ISO 5755
+standard, or an electrical hand tool where materials must
+meet 1000V electrical insulation standards found in the IEC
+60900 standard. Part classification examples include parts 55
+for use in explosive atmospheres, where materials of con-
+struction must be non-sparking, or parts for medical tools
+used in surgery, where corrosion characteristics must com-
+ply with the ASTMF1089 standard.
+Referring to FIGS. 115, 116, 118, and 119, in one example 60
+embodiment, a new part request that has a specific function
+is received by the user interface 10112 and communicated to
+the design and simulation 10116, where the design libraries
+10618 are searched for tested and viable 3D printed part
+models that match part function. In embodiments, one or
+more parts from the design library 10618 are recommended
+to the user, such as via the interface 10112, as a design
+[col 2]
+392
+recommendation or guidance. In embodiments, design
+libraries may also include product assemblies, wherein com-
+pleted assemblies and all parts in the assembly meet func-
+tional or class criteria.
+In embodiments, one or more candidate parts are auto-
+matically selected by a design optimization system 10710.
+With help from the machine learning system 10210 and the
+artificial intelligence system 10212, the design optimization
+system 10710 optimizes the part design and submits the
+same to the autonomous additive manufacturing platform
+10110 for manufacturing.
+In embodiments, the design optimization system 10710
+may use machine learning models trained by product design
+experts. In embodiments, the design optimization system
+10710 may use machine learning models trained using data
+of prior designs and their outcomes.
+In embodiments, the design optimization system 10710
+The system may start with design goals and then explore
+innumerable variations by adding constraints before select-
+ing a final design based on evolutionary models. The evo-
+lutionary models are based on the principle of natural
+selection, such as where the most optimal designs are
+selected from among an initial population of potential
+designs through a series of evolutionary stages. Generative
+models may include models like DALL-ETM that mix visual
+and text-based artificial intelligence systems, as well as
+further hybrids for generating visual, 3D, text, color, texture,
+strength, flexibility, and many other properties, including
+using specialized artificial intelligence systems for generat-
+ing variations of each of a large set of properties and
+generating combinations, such as pairs, triplets, and higher-
+order n-tuples of properties. In embodiments, generative
+models may generate and/or select design instance that
+represent combinations of properties that are shared among
+semantically distinct objects or topics, such as a cat and
+basket in order to produce and/or select a set of designs that
+embody the shared set of properties.
+In embodiments, evolutionary models may be based on
+genetic algorithms (GA), evolution strategy (ES) algo-
+rithms, evolutionary programming (EP), genetic program-
+ming (GP), and other suitable evolutionary algorithms. In
+embodiments, the evolutionary models may use various
+feedback and filtering functions, such as ones based on
+semantic properties, ones based on design constraints (such
+as acceptable color palette for brand), ones based on physi-
+cal or functional requirements, ones created by consumer
+engagement (such as surveys, engagement tracking and/or
+A/B testing), ones based on outcomes (such as sales, profits,
+or others), ones based on cost (of materials, manufacturing,
+logistics, or others), ones based on safety or liability, ones
+based on regulatory requirements or certification, and many
+others. In embodiments, feedback to design evolution is
+taken from a set of smart contracts, such as a set of smart
+contracts that offer various design variations for purchase,
+reservation, or the like. For example, a design may be
+evolved based on favorable smart contract engagement, such
+as where a particular design is reserved via the set of smart
+contracts at a profitable price and in favorable volumes.
+In embodiments, an evolutionary design system coupled
+to a set of additive manufacturing units 10102 continuously
+offers a set of products via smart reservation contracts by
+which users may reserve units for manufacturing according
+to the offered designs, such that the capacity of the additive
+manufacturing system is continuously engaged in evolving
+the designs to provide the most favorable outcomes in the
+smart contracts (based on measures of profitability, for

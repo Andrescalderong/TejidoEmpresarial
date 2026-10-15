@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+543
+In embodiments, the energy management service 12162
+helps a robot intelligently manage available energy
+resources and maintain system capability while working in
+dynamic operating environments. For example, upon dis-
+covering that grid energy may not be available and the robot
+needs to conserve the available battery, an energy manage-
+ment service of the MPR 12100 may activate one or more
+energy storing and recovering devices like flywheels
+capacitors, supercapacitors, hydro-pneumatic accumulators
+and the like. The devices enable the MPR 12100 to harvest 10
+the energy during the braking phase of a motorwhich
+energy is usually wastedstore it, and provide it back to the
+system when necessary. In embodiments, energy sharing
+devices may share the braking energy of a motor for driving
+other (non-braking) motors or actuators on a common net- 15
+work. In embodiments, the energy management service
+12162 may include machine learning-based predictive
+energy management that automatically activates energy har-
+vesting and sharing devices and deactivates non-essential
+functions on need basis. 20
+In embodiments, the monitoring and notification service
+12163 may be configured to monitor for and report on one
+or more conditions of the MBR 12100.In some of these
+embodiments, the monitoring and notification service 12163
+performs summary calculations on tracking metrics of vari- 25
+ous resources to discover out-of-routine characteristics. In
+some example embodiments, monitoring and notification
+service 12163 may perform vibration analyses that are
+indicative of robot health including conditions of one or
+more motors or mechanical components. In some of these 30
+embodiments, the monitoring and notification service 12163
+may leverage machine-learned models that are trained to
+diagnose certain conditions of a robot (e.g., failing compo-
+nents, loose components, and/or the like) to predict the
+existence or likely occurrence of the certain conditions. In 351
+embodiments, the monitoring and notification service 12163
+may leverage one or more machine learned models includ-
+ing vision models for monitoring, discovering and predict-
+ing emerging robotic fault modes. In embodiments, moni-
+toring and notification service12163 may also provide alerts 40
+and notifications upon discovering any out-of-routine char-
+acteristics to a user. For example, upon predicting that the
+battery is about to get completely depleted, a monitoring and
+notification service 12163 may provide alerts and notifica-
+tions to the user using a voice message. Additionally or 45 
+alternatively, the monitoring and notification service 12163
+may use email, text message, instant message, phone call,
+and/or other communication (e.g., using the Internet or other
+data or messaging network) to transmit the notification to a
+computing device of the user (e.g., a computer, tablet 50 
+computer, smart phone, telephone, mobile phone, PDA, TV,
+gaming console and the like). In embodiments, the error
+notifications may provide options for the user stopping
+operations or making adjustments to one or more settings
+associated with the error notification. In embodiments, a 55
+monitoring and notifications service 12163 may provide a
+user with custom reports including analytics based on real-
+time and historical data about statuses and/or diagnoses of
+various of theMPR's 12100 resources.
+In embodiments, the network management service 12164 60 
+includes a set of policies, procedures, workflows, and
+responsibilities assigned to improve or maintain optimal
+network performance. In embodiments, the network man-
+agement service 12164 may assess network flow data,
+packet data and network infrastructure metrics to identify
+and mitigate instances of bottlenecks or network issues that
+may affect the operation of the MPR 12100.
+[col 2]
+544
+In embodiments, the predictive maintenance service
+12165 may predict when one or more components or sub-
+systems of the MPR 12100 should receive maintenance
+based on simulation data derived from digital twin system or
+real-world data derived from monitoring and notification
+12163. In embodiments, the predictive maintenance service
+12165 may access the intelligence layer 12140 of the MPR
+12100 to predict the anticipated wear and failure of com-
+ponents of the MPR 12100 by reviewing historical and
+current operational data, thereby reducing the risk of
+unplanned downtime and the need for scheduled mainte-
+nance. For example, in embodiments the predictive main-
+tenance service 12165 may provide an intelligence request
+to the intelligence layer that includes current operational
+data obtained from the MPR 12100 (e.g., sensor data,
+environmental data, and/or the like), whereby the intelli-
+gence layer 12140 (e.g., the machine-learning service) may
+leverage one or more machine-learning models (e.g., pre-
+diction models, classification models,neural networks, and/
+or the like) to identify a potential failure of a component of
+the MPR 12100. In embodiments, the machine learning
+models may be trained using data about robot specifications,
+parameters, maintenance outcomes, environmental data,
+sensor data, run information, notes to perform failure fore-
+casting and predictive maintenance. Additionally or alterna-
+tively, the machine learning services may include a cluster-
+ing algorithm to identify the failure pattern hidden in the
+failure data to train a model for detecting uncharacteristic or
+anomalous behavior. The failure data across multiple robots
+and their historical records may be clustered to understand
+how different patterns correlate to certain wear-down behav-
+ior and develop a maintenance plan resonant with the failure.
+In another example, the predictive maintenance service
+12165may leverageadigital twin service ofthe intelligence
+layer 12140 to simulate operation of the MPR 12100 in a
+digital twin (e.g., in the environment that the MPR 12100 is
+operating in or will be operating in), whereby the digital
+twin simulation may uncover potential wear and tear of the
+MPR12100 and/ora potentialfailureof components of the
+MPR 12100. In these examples, over-servicing or over-
+maintaining the MPR 12100 may be mitigated, thereby
+reducing costly downtime, repairs or replacement of the
+MPR 12100 or its components, by addressing such issues in
+a proactive or just-in-time manner.
+In embodiments, the task management system 12144
+coordinates between job execution system of the fleet opera-
+tions system 12002, library 12314, vision and sensing sys-
+tem 12112 and the intelligence layer 12140 to execute a task.
+Task management system 12144 is described in greater
+detail throughout the disclosure.
+In embodiments, the data processing system 12142 may
+include data processing resources that may be centralized
+and/or distributed and may include general purpose chipsets,
+specialized chipsets, and/or configurable chipsets. Data pro-
+cessing system 12142 may include one or more processors
+providing scalable computation capabilities for robot control
+system 12150 including various intelligence resources in the
+intelligence layer 12140. The processors in the data pro-
+cessing system 12142 may communicate with a number of
+peripheral devices via a bus system. The peripheral devices
+may include a data stores including for example, a memory
+subsystem for storage of instructions and data and a file
+storage subsystem providing persistent storage for program
+ 65 and data files, a network interface system providing an
+interface to outside networks, a data management system
+with capabilities including data allocation, data caching,

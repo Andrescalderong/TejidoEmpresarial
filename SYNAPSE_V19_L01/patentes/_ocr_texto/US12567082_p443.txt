@@ -1,0 +1,137 @@
+In embodiments, the fleet management system 13002 35 receive, such as from a job configuration system 13018,
+[col 1]
+US 12,567,082 B2
+563
+In embodiments, the smart container system 13000 may
+include a human interface system 13038 that provides a
+human interface that allows users to access the smart con-
+tainer system 13000 and/or individual smart container oper-
+ating units (e.g, for remote control) from a remote device
+(e.g., a user device, a VR device, an AR device, and/or the
+like). In embodiments, the human interface system 13038
+facilitates freight storage and/or transportation service order
+entry (including any job-related parameters), fleet operations
+management, fleet resource management, fleet computing
+ system, software and data structure management (e.g., sys-
+tem upgrades and the like), human access to smart container
+operating units (e.g., for remote control of a smart container
+operating unit), augmented and/or virtual reality visualiza-
+tions of fleet operation, and data extraction (e.g., for gen- 15
+eration of and/or validation of smart contracts associated one
+or more freight storage and/or transportation service orders
+and the like). As an example of use of a human interface
+system 13038, a user may access status updates of a
+requested job via the human interface system 13038. The 20
+user may use a remote device to observe smart container
+operating units performing tasks for the requested job. In
+this example, the human interface system 13038 may inter-
+act with other fleet components, such as the order execution
+ system 13022, to direct image capture resources (e.g., cam- 25
+era-based overhead drones) to provide images of smart
+container operating units assigned to and currently perform-
+ing job tasks.
+In embodiments, the fleet management system 13002 may
+include a job configuration system 13018, a fleet configu- 30
+ration system 13020, a resource provisioning system 13014,
+a logistics system 13016, and an order execution, monitor-
+ing, and reporting system 13022 (also referred to as a "order
+execution system" 13022).
+includes a resource provisioning system 13014 that manages
+provisioning resources for smart container operating units in
+a fleet, such as provisioning resources for smart container
+teams, smart container fleets, smart containers, and/or sup-
+porting resources (e.g,edgedevices,communication 40
+devices, container ships, cranes, additive manufacturing
+systems (e.g., 3D printers), and the like). In embodiments,
+resources may include physical resources, digital resources,
+and/or consumable resources. Examples of physical
+resources may include, but are not limited to, end effectors/ 45 f
+manipulators, environmental shielding components, sensors
+and/or sensor systems, companion resources (e.g., drones,
+robots, container ships, trucks, railway systems, cranes, lifts,
+and the like), hardware resources (e.g-, specialized process-
+ing modules, data storage, networking modules, tethering 5o i
+modules, and the like), spare parts, human resources (e.g.,
+technicians, operators, and the like), power sources (e.g..
+generators, portable batteries), and the like. Non-limiting
+examples of digital resources may include software, oper-
+ating parameters, job-specific data sets, and the like. Non- 55
+limiting examples of consumable resources may include
+fuel, packaging supplies, welding supplies, washdown/
+cleanup supplies, and many others.
+In embodiments, the resource provisioning system 13014
+may provision physical resources from an inventory of 60
+physical resources, such as fleet-specific inventories,
+regional public-use inventories, rental/per-use fee-based
+resource inventories, on-demand resource production sys-
+tems (e.g., 3D printing of end effectors and the like), third
+party inventories, and the like.
+In embodiments, the resource provisioning system 13014
+may work cooperatively with other systems of the fleet
+[col 2]
+564
+operations system, such as fleet configuration systems, fleet
+resource scheduling and utilization systems, and the like to
+ensure fleet resource provisioning rules are followed. Physi-
+cal resources to be provisioned may also include computing
+resources, such as on-smart container computing resources,
+smart container operating unit-local fleet-controlled com-
+puting resources, cloud/third-party based computing
+resources, computing and other modules and chips (e.g., for
+deployment with/within a smart container operating unit),
+ 1o and the like. In some embodiments, the fleet resource
+provisioning rules may be defined in governance standards
+libraries, such that the resource provisioning system 13014
+interfaces with the intelligence service to ensure that provi-
+sioned resources comply with the provisioning rules.
+In embodiments, digital resources to be provisioned by
+the resource provisioning system 13014 may be provisioned
+through fleet configuration capabilities, such as software/
+firmware update pushing (e.g., to update a smart container's
+on-board software), resource access credentialing (e.g., to
+access network resources, such as job-specific smart con-
+tainer configuration data and the like), on-smart container
+data storage configuration/allocation/utilization data, and
+the like. Use of a provisioning system 13014 may include
+provisioning equipment, material, software, data structures,
+and the like that are made and/or sourced specifically for a
+given freight storage and/or transportation service order.
+In embodiments, the provisioning system 13014 may
+further operate cooperatively with contract systems, such as
+third-party smart contract systems, and the like. In some
+embodiments, a freight storage and/or transportation service
+order may reference or comprise a smart contract that may
+include and/or result in configuration of an instance of the
+provisioning system 13014 that is compliant with the
+request. As an example, a provisioning system 13014 may
+smart contract terms that call out provisioning constraints
+and/or guidance. The provisioning system 13014 may inter-
+pret these contract terms, thereby producing a set of fleet and
+consumable resource provisioning constraints.
+While the examples described above for a resource pro-
+visioning system 13014 generally focus on order execution-
+related provisioning, the resource provisioning system
+13014 may further handle provisioning of fleet resources,
+such as computing resources, access to and/or execution of
+fleet elements, such as a fleet configuration system, intelli-
+gence service, and the like. In embodiments, provisioning of
+certain resources may be enacted as part of a negotiation
+workflow for acceptance of a freight storage and/or trans-
+portation service order. As an example, provisioning certain
+intelligence services (e.g, a fleet level intelligence service)
+intelligence services (e.g-, only a smart container-level intel-
+ligence service being deployed smart container operating
+units). As noted above and elsewhere herein, intelligence
+services can bring value to the fleet and job configuration
+functions of the system; therefore, provisioning such sys-
+tems as part of a freight storage and/or transportation service
+order negotiation may justify the additional cost to the
+shipper. In some scenarios, prioritization of the system
+resources, such as a fleet configuration system, may impact
+provisioning system 13014 functions.
+In embodiments, the fleet management system 13002
+includes alogistics system13016thathandles,amongother
+things, logistics planning and execution for meeting ship-
+ment requirements, maintaining smart containers, maintain-
+ing availability of fleet resources (smart container operating
+units, physical resources, and the like), and pickup and

@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+361
+impact, and others), timing factors (such as for coordination
+with workflows and activities, including various ongoing
+manufacturing, service, maintenance, marketing, delivery
+and/or logistics processes), prioritization factors, and many
+others. In embodiments, the artificial intelligence system of
+the platform 10110 is trained based on a training set of data
+that includes expert interactions with a set of additive
+manufacturing projects that involve various types of additive
+manufacturing options. In embodiments, the AI system is
+trained based on outcome factors, such as product quality 10
+and/or product defect outcomes, economic outcomes, on-
+time completion outcomes, and the like, such as involving
+deep learning, supervised learning and/or semi-supervised
+learning. In embodiments, the AI system is distributed
+between the additive manufacturing units 10102 and a host 15
+system, such as a cloud-based system. In embodiments, the
+AI system is integrated into the additive manufacturing unit
+10102. In embodiments, the AI system is distributed across
+a set of additive manufacturing units 10102, such as a mesh
+or network of additive manufacturing unit 10102 nodes, 20
+such that the above capabilities are coordinated across the
+units, such as by self-configuration of the units 10102 in
+coordination with other units, such as a fleet of additive
+manufacturing units 10102 owned by an enterprise and/or
+co-operated and/or shared by a set of users (such as in an 25
+"additive manufacturing as a service" system). As one
+example among many possible examples, the AI system of
+the platform 10110 may take a set of design requirements,
+such as functional requirements, generate a set of designs
+that satisfy the functional requirements, determine the opti- 30
+mal combination of additive manufacturing types to produce
+each set of designs, find and compare available additive
+manufacturing units for each combination (such as using
+economic factors and other factors), and select, configure
+and schedule units to undertake the design. For example, 35
+among many possibilities across a wide range of product
+categories, the AI system may take functional requirements
+for a customized wearable device for a latex-allergic indi-
+vidual user that meets a design requirement of using bio-
+compatible, waterproof materials, while being capable of 40
+withstanding impacts and bending, in a color that matches
+the customers exact preference from a large palette of colors.
+The AI system may automatically generate an instruction set
+for producing the wearable device using a combination/
+hybrid of light polymerization (operating on a non-latex 45
+polymer) for components of the wearable that will touch the
+user and a DMLS process for interior metal/alloy compo-
+nents. The AI system may then find available units, such as
+different units or an integrated/hybrid unit, schedule the
+units to undertake jobs (e.g., to fit a targeted delivery time), 50 
+configure the units, send the jobs and schedule delivery.
+Thus, the AI system may automatically manage the design,
+generation and delivery, through use of a set of additive
+manufacturing units, a highly customized product based on
+customer specific design requirements, including health 55
+requirements, physical configuration requirements, eco-
+nomic factors, and preferences, among many others.
+In embodiments, the AI system is implemented as the
+intelligence layer 140 that receives requests from a set of
+intelligence layer clients and responds to such request by 60
+providing intelligence services to such clients (e.g., a deci-
+sion, a classification, a prediction or the like).
+In embodiments, the machine learning model 10213 is an
+algorithm and/or statistical model that performs specific
+tasks without using explicit instructions, relying instead on 65
+patterns and inference. The machine learning model 10213
+may build one or more mathematical models based on
+[col 2]
+362
+training data to make predictions and/or decisions without
+being explicitly programmed to perform the specific tasks.
+The machine learning model 10213 may receive inputs of
+sensor data or other data as training data, including event
+data and state data related to one or more of the entities or
+assets, or other inputs noted above or throughout this dis-
+closure. The sensor data input to the machine learning model
+10213 may be used to train the machine learning model
+10213 to perform the analytics, simulation, decision making,
+and/or predictive analytics relating to the data processing,
+data analysis, simulation creation, and/or simulation analy-
+sis of the one or more of the distributed manufacturing
+network entities or assets. The machine learning model
+10213 may also use input data from a user or users of the
+autonomous additive manufacturing platform 10110. In
+embodiments, the machine learning model 10213 may use
+the input data and sensor data to determine an optimal set of
+process parameters for 3D printing of a part by the additive
+manufacturing unit 10102. The machine learning model
+10213 may include an artificial neural network, a decision
+tree, a logistic regression model, a stochastic gradient
+descent model, a fuzzy classifier, a support vector machine,
+a Bayesian network, a hierarchical clustering algorithm, a
+k-means algorithm, a genetic algorithm, any other suitable
+form of machine learning model, or a combination thereof.
+The machine learning model 10213 may be configured to
+learn through supervised learning, unsupervised learning,
+reinforcement learning, self-learning, feature learning,
+sparse dictionary learning, anomaly detection, association
+rules, a combination thereof, or any other suitable algorithm
+forlearning.
+In embodiments, the artificial intelligence system 10212
+may define a digital twin system 10214 to create a digital
+replica or digital twin of one or more of the distributed
+manufacturing network entities. The digital twin of the one
+or more of the distributed manufacturing network entities
+may use substantially real-time sensor data to provide for
+substantially real-time virtual representation of the distrib-
+uted manufacturing network entities and for simulation of
+one or more possible future states of the one or more
+distributed manufacturing network entities. The digital twin
+exists simultaneously with the one or more distributed
+manufacturing network entities being replicated (physical
+twin) and may be updated continuously based on sensor
+data, test and inspection results, conducted maintenance,
+modifications etc. to reflect the current condition or param-
+eter values of the one or more distributed manufacturing
+network entities. The digital twin provides one or more
+simulations of both physical elements and characteristics of
+the one or more distributed manufacturing network entities
+being replicated and the dynamics thereof, in embodiments
+throughout the lifecycle of the one or more distributed
+manufacturing network entities being replicated. The digital
+twin may provide a hypothetical simulation of the one or
+more distributed manufacturing network entities, for
+example during a design phase before the one or more
+entities are manufactured or fabricated, or during or after
+construction or fabrication of the one or more entities by
+allowing for hypothetical extrapolation of sensor data to
+ simulate a state of the one or more distributed manufacturing
+network entities, such as during high stress, after a period of
+time has passed during which component wear may be an
+issue, during maximum throughput operation, after one or
+more hypothetical or planned improvements have been
+made to the one or more distributed manufacturing network
+entities, or any other suitable hypothetical situation. In
+embodiments, the machine learning model 10213 may auto-

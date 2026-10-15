@@ -1,0 +1,137 @@
+A job workflow definition system may examine task to 1o job execution time. In embodiments, a task twin capability
+[col 1]
+US 12,675,781 B2
+519
+flows of such tasks. These and related reconfigured sensor
+and detection packages may combine sensor selection, sens-
+ing, information collection, preprocessing, routing, consoli-
+dation, processing, and the like. These sensor and detection
+packages may be included in a fleet configuration process,
+such as being included in a job execution plan for use by the
+job execution, monitoring, and reporting system 12022. In
+embodiments, use thereof is indicated as serving a range of
+monitoring activities and the like.
+task dependency (e.g-, performing a second task is depen-
+dent on completing a first task) to identify potential work-
+flow independence and dependence for among other things
+configuring a job execution plan that may include paral-
+lelized use of fleet resources, such as teams and the like.
+Features of an intelligence layer, such as the team twin
+capability, fleet twin capability, and the like may also be
+beneficially applied to simulate and validate workflows,
+such as with a workflow simulation system 12308 of the job
+configuration system 12018. The workflow simulation sys-
+tem i2308 may perform simulations of portions of a job
+configuration, such as those portions organized into job
+workflows by the workflow definition system. In an example
+of workflow simulation, a set of tasks defined by the task
+definition system and organized into a portion of a job 251
+workflow may be modeled using functional equivalents for
+robots, tasks, workflows and the like, such as robot twins,
+task twins, workflow twins, team twins, and fleet twins.
+These twins may be retrieved from the library 12314 and
+executed by a processor to simulate the set of tasks, such as 30
+to validate the defined tasks. In embodiments, the fleet
+intelligence system may be utilized for providing at least a
+portion of these workflow simulations, such as by applying
+workflows definitions and task definitions to one or more
+workflow models and/or task/robot/fleet twins operating in 35
+an artificial intelligence environment machine learning envi-
+ronment.
+The workflow simulation system 12308 may also generate
+feedback from simulating workflows defined by the work-
+flow definition system that may be useful in improving a 40
+workflow definition, a task definition, a robot selection and
+the like.
+The workflow simulation system 12308 may establish or
+otherwise access criteria for determining if a workflow
+meets the criteria, such as timely and successfully complet- 45
+ing a task, job, and the like. By applying these criteria for
+measuring outcomes of workflow simulations, the workflow
+simulation system 12308 may validate one or more work-
+flow options, robot options passed along to the workflow
+definition system, fleet configuration options, and the like 50 1
+before providing feedback to, for example the task definition
+system, the job parsing system and the like. Options that do
+not meet the criteria (e.g., consumes an excess of resources,
+results in wear down of a robot, fails to meet a schedule and
+the like) may be marked as such for improving job configu- 55
+ration functions, such as structuring tasks into workflows
+and the like.
+Further a workflow simulation system 12308 may lever-
+age the platform 12000 intelligence layer. In embodiments,
+the platform 12000 intelligence layer may provide access to
+and operation of instances of fleet twin modules that may
+provide critical understanding of fleet-based impacts on
+workflow definition for performing a requested job. In
+embodiments, a logistics twin of the fleet intelligence sys-
+tem may provide useful workflow simulation information 65
+through operation of modeling of shipments and costs of
+robots, personnel, support equipment and the like for robot
+[col 2]
+520
+fleet delivery to a job site. This modeling of fleet logistics
+may reveal that a local fleet that will soon become available
+(perhaps after the preferred start date of a requested job) may
+complete the job at a lower cost than using a currently
+available crew that requires logics and transportation to the
+job site. In embodiments, a fleet twin may facilitate identi-
+fying robot operational assets that are available during the
+scheduled job by modeling fleet operations, such as robot
+maintenance requirements for robots during the preferred
+of the fleet intelligence system may facilitate modeling of
+robot configurations, such as when a multi-purpose robot is
+reconfigured during a job (e.g., during a task) to perform
+different tasks (e.g-, (i) bringing a ventilation inspection
+wand to a ventilation system port; and (i) collecting and
+dispositioning debris being removed from the ventilation
+system. Atask twin capability of the fleet intelligence system
+may further benefit workflow definition clarity through
+workflow simulation by applying a virtual set of preconfig-
+ured robot twins to perform a candidate workflow, or portion
+thereof, that is optionally being defined. In embodiments, a
+team twin capability of a fleet intelligence system may
+benefit a workflow simulation system of the job configura-
+tion system 12018 by using, for example, preconfigured
+robot teams to operate and validate candidate workflows
+prepared by the workflow definition system.
+In embodiments, a result of workflow simulation may
+include one or more data structures that are suitable for use
+in a job execution plan.
+In addition to task definitions, robot definitions, workflow
+definitions, fleet configuration parameters, and the like, a job
+execution plan may identify contracts for the job, such as
+smart contracts that may be constructed/configured by or in
+association with the job configuration system 12018, deliv-
+ery times for job resources (e.g., fleets of robots), a schedule
+of deliverables, and the like.
+In embodiments, the fleet configuration system 12020
+configures resources of a fleet for a job based on the task
+definitions and/or workflow definitions. The fleet configu-
+ration system12020maydeterminethefleet configuration
+based on other considerations, such as budget, environmen-
+tal conditions, time constraints, available inventory of robots
+and/or parts, and/or the like. The fleet configuration system
+system 12018, such as when tasks are to be organized into
+workflows. Task definitions may, for example, define tasks
+that can be performed by special purpose or multi-purpose
+robots. Job workflows may be impacted by availability of
+each type of robot, so a job configuration system 12018 may
+leverage the fleet configuration system 12020 when deter-
+mining candidate job workflows. As an example, a workflow
+that includes allocation by the fleet configuration system of
+a special purpose robot (e.g., the special purpose robot can
+be provided for the job being configured) may need to be
+adjusted (as compared to the workflow utilizing a multi-
+purpose robot) to account for differences between these
+types of robots. The special purpose robot may perform a
+task or tasks more efficiently and/or with greater precision
+than a multi-purpose robot; therefore, a special purpose
+6orobot workflowmay be configured with a shortercompletion
+time (e.g., greater robot efficiency) or without an indepen-
+dent confirmation step (e.g., greater precision or self-vali-
+dating special purpose robot capability). These are merely
+examples to illustrate the potential for impacts on workflow
+definition of a fleet configuration system.
+In embodiments, fleet configuration for a requested job
+may include configuring fleet resources into a robot team

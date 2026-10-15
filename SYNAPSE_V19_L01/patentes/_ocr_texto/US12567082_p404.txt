@@ -1,0 +1,136 @@
+identified as SAMPLE-T1. A first robot may be assigned by 35 and job specific fleet configuration information 12504 that
+[col 1]
+US 12,567,082 B2
+485
+This guidance may result in allocation of a multi-purpose
+robot and necessary configuration data/features (e.g-, end
+effectors and the like) for use when executing a job execu-
+tion plan that corresponds to the job request that prompted
+this fleet configuration scheduling activity. In an example of
+fleet configuration scheduling, a 3D printing capable robot
+or fleet-servicing resource (e.g, a 3D printing factory or
+third-party provider) may be allocated to the job to print
+robot parts that enable the multi-purpose robot to perform
+arm/end effector 3D printed as a flexible/soft structure that
+can conform to an irregular shape for performing a task).
+In embodiments, a task definition 12304D may include
+recommendations for one or more types of robots (e.g.)
+based on alignment of, for example, task requirements, robot 15
+characteristics, and robot types), and a preferred type may be
+designated in the task definition 12304D. As an example, a
+task may be suitable for performance by a multi-purpose
+robot or a special purpose robot (e.g, robot characteristics
+that align with the task information may be found in the 20
+library 12314 for a configuration-specific multi-purpose
+robot and for a special purpose robot). While the multi-
+purpose robot may be suitable, a special purpose robot may
+be preferred due to other factors in the job request, such as
+an accumulated error threshold that may be exceeded by use 25
+of a multi-purpose robot, pricing, availability, and/or the
+like. When a multi-purpose robot type is indicated in the task
+definition 12304D, a reference to configuration data (and/or
+the data itself) may also be communicated in the task
+definition 12304D.
+As described above, task information may be converted
+into a task definition that may require different or at least
+multiple robots. As an example, a sampling task requiring
+robots with different characteristics that is defined may be
+the fleet configuration system 12020 for a first portion of the
+task (e.g, SAMPLE-T1-A for a sample site preparation
+activity, such as removing objects obstructing the sample
+operation), and a second robot/robot type may be assigned
+for a second portion of the task (e.g, SAMPLE-T1-B for a 40 i
+sample-taking activity) and the like. When at least two robot
+units are identified in the task, a task team designator may
+be communicated. By linking a team designator to a task
+identifier, the fleet configuration system 12020 may consider
+the specific needs of the team members to perform the task 45 
+when preparing fleet resource allocation for job execution.
+The fleet configuration scheduler 12468 may rely on other
+fleet systems, such as a fleet provisioning module 12014 that
+may contribute to and/or determine provisioning of fleet and
+third-party resources and supplies. 50
+The platform 12000 intelligence layer 12004, the fleet
+provisioning module 12014 and other fleet systems, includ-
+ing the fleet configuration scheduler 12468 may interact with
+a fleet configuration modeling system 12474 that may facili-
+tate generation of fleet configuration options 12472 that can 55
+be considered by the fleet configuration scheduler 12468
+when configuring a fleet in response to job configuration
+activities and the like. Fleet configuration modeling 12474
+may provide simulation of fleet configurations, such as by
+using fleet digital twins, which may optionally be associated 60
+with a digital twin system of the fleet intelligence layer
+12004.
+In embodiments, the fleet configuration scheduler 12468
+may rely on a fleet team organizer module 12470 that assists
+in determining/effecting team configurations.Job-specific 65
+demand data 12476 may identify (e.g., recommend) set(s) of
+robot operating units to be configured as teams. Also,
+[col 2]
+486
+job-specific demand data 12476 may indicate information
+that may be indicative of configuring teams, such as co-
+location of robots performing a task and the like. The team
+organizer 12470 may confirm and/or designate team meta-
+data for use when configuring a fleet. The team metadata
+may indicate team membership and time frame for the
+membership (e.g., from one date to another, from a start of
+a task until the task is complete, and the like).
+The fleet configuration scheduler 12468 may update fleet
+allocation and/or reservation capabilities described herein),
+such as the fleet robot operating unit allocation data set
+12462 and the fleet non-robot operating unit allocation data
+set 12456 with fleet configuration allocation information
+based on configuration(s) generated for the job-specific
+demand data 12476 provided. The various inputs, including
+fleet configuration impacting external data 12464 (e.g.,
+weather, location data, traffic data, industry standards, job-
+specific contextual information, and the like) may be pro-
+cessed, optionally iteratively, by the fleet configuration
+scheduler 12468 to produce, among other things, fleet con-
+figurations 12478 that may be returned to an executing
+instance of a job configuration system 12018 via the fleet
+configuration proxy 12466.
+FIG. 139 illustrates example embodiments of the work-
+flow definition system 12306 according to some embodi-
+ments of the present disclosure. In embodiments, the work-
+flow definition system 12306 may be constructed to generate
+definitions of workflows for requested jobs utilizing
+resources of the fleet management platform. The construc-
+tion ofthe workflow definition system12306 may include an
+ingestion module 12502 that receives and processes task
+definitions 12304D that may be provided from the task
+definition system 12304 or sourced from the library 12314,
+may be provided from job configuration system 12018
+interactions with the fleet configuration system 12020 (e.g.,
+via the fleet configuration proxy 12305).
+Ingestion of task definitions and/or fleet configuration
+information may include aligning the fleet configuration
+information 12504 with one or more task definitions
+12304D. As an example of aligning tasks with fleet con-
+figuration information, fleet configuration information may
+be tagged as applying to one or more tasks in the set of task
+definitions ingested, such as with an identifier of the tasks or
+tasks. Other ways of aligning task definition(s) with fleet
+configuration information may be based on timing of such
+ingestion so that, for example, when a fleet configuration
+reference/value is received contemporaneously with a task
+definition the ingestion module 12502 may mark these two
+data items as aligned. Other ways of aligning task
+definition(s) with fleet configuration information may
+include one or more data values in the task definition, which
+may be a data set, linked list, flat file, structured data set and
+the like indicating fleet configuration information to which
+the task(s) should be aligned. Fleet configuration informa-
+tion may include one more task identifiers to which the fleet
+configuration information pertains and/or should be applied
+when generating workflow definitions.
+Ingestion may further include processing references (e.g.,
+URLs, hyperlinks, external names, and the like) to workflow
+content in the library 12314 that may be found in any of the
+ingested content. In an example, a task definition may
+include a name of a task that is stored in the library 12314.
+The ingestion module 12502 may identify the name by its
+syntax (e.g., a prefix may be added to a task identifier that
+indicates the task is to be retrieved from the library) and/or

@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+603
+the digital twin module 13420 (e.g-, via the real-time sensor
+API 13326) either directly or via an aggregation device of
+the sensor system. In response to receiving the sensor data
+from the wearable device of a worker, the digital twin update
+module 13320 may update a digital twin of a worker to
+reflect, for example, a location of the worker, a trajectory of
+the worker, a health status of the worker, or the like. In some
+of these embodiments, the digital twin update module 13320
+may update a node representing a worker and/or an edge that
+connects the node representing the environment with the 10
+collected sensor data to reflect the current status of the
+worker.
+In some embodiments, the digital twin update module
+13320 may provide the sensor data from one or more sensors
+to the digital twin dynamic model system 13312, which may 15
+model a behavior of a shipping environment and/or one or
+more shipping entities to extrapolate additional state data.
+In embodiments, the digital twin visualization module
+13322 receives requests to view a visual digital twin or a
+portion thereof. In embodiments, the request may indicate
+the digital twin to be viewed (e.g., smart container identifier)
+. In response, the digital twin visualization module 13322
+may determine the requested digital twin and any other
+digital twins implicated by the request. For example, in
+requesting to view a digital twin of smart container, the
+digital twin visualization module 13322 may further identify
+the digital twins of any shipping entities within the smart
+container. In embodiments, the digital twin visualization
+module 13322 may identify the spatial relationships between
+the shipping entities and the smart container based on, for 3o t
+example, the relationships defined in a graph database. In
+these embodiments, the digital twin visualization module
+13322 can determine the relative location of embedded
+digital twins within the containing digital twin, relative
+locations of adjoining digital twins, and/or the transience of 35
+the relationship (e.g., is an object fixed to a point or does the
+object move). The digital twin visualization module 13322
+may render the requested digital twins and any other impli-
+cated digital twin based on the identified relationships. In
+some embodiments, the digital twin visualization module 40
+13322 may, for each digital twin, determine the surfaces of
+the digital twin. In some embodiments, the surfaces of a
+digital may be defined or referenced in a record correspond-
+ing to the digital twin, which may be provided by a user,
+determined from imported images, or defined by a manu- 45
+facturer of a shipping entity. In the scenario that an object
+can take different poses or shapes (e.g., a shipping robot), the
+digital twin visualization module 13322 may determine a
+pose or shape of the object for the digital twin. The digital
+twin visualization module 13322 may embed the digital 50J
+twins into the requested digital twin and may output the
+requested digital twin to the client application.
+In some of these embodiments, the request to view a
+digital twin may further indicate the type of view. As
+discussed, in some embodiments, digital twins may be 55
+depicted in a number of different view types. For example,
+a shipping entity or environment may be viewed in a
+"real-world" view that depicts the environment or device as
+they typically appear, in a “heat" view that depicts the
+environment or entity in a manner that is indicative of a 60
+temperature of the environment or entity, in a "vibration"
+view that depicts shipping entities in a manner that is
+indicative of vibrational characteristics of the entities, in a
+"velocity" view that depicts shipping entities in a manner
+that is indicative of the velocity of the entities, in a "filtered65
+view that only displays certain types of objects or compo-
+nents (such as objects that require attention resulting from,
+[col 2]
+604
+for example, recognition of a fault condition, an alert, an
+updated report, or other factor), an augmented view that
+overlays data on the digital twin, and/or any other suitable
+view types.
+In embodiments, digital twins may be depicted in a
+number of different role-based view types. For example, a
+smart container fleet may be viewed in a “manager" view
+that depicts the smart container in a manner suitable for a
+smart container fleet manager, a container terminal environ-
+ment may be viewed in an “operator" view that depicts the
+container terminal in a manner that is suitable for a container
+facility in a manner that is suitable for regulatory managers,
+a shipper may view a smart container digital twin 13504 in
+a "shipper" view that depicts the smart container in a manner
+suitable for a shipper, and the like. In response to a request
+that indicates a view type, the digital twin visualization
+module 13322 may retrieve the data for each digital twin that
+corresponds to the view type. For example, if a user has
+requested a heat view of a smart container fleet, the digital
+twin visualization module 13322 may retrieve temperature
+data for that set of smart containers (which may include
+temperature measurements taken from smart containers,
+shipping environments, different smart container compo-
+nents, and/or temperature measurements that were extrapo-
+lated by the digital twin dynamic model system 13312
+and/or simulated temperature data from digital twin simu-
+lation system 13310) as well as available temperature data
+for any other shipping entities. In this example, the digital
+twin visualization module 13322 may determine colors
+corresponding to each smart container that represents a
+temperature fault level state (e.g., red for alarm, orange for
+critical, yellow for suboptimal, and green for normal opera-
+tion). The digital twin visualization module 13322 may then
+render the digital twins of the smart containers based on the
+determined colors. It is noted that in some embodiments, the
+digital twin module 13420 may include an analytics system
+(not shown) that determines the manner by which the digital
+twin visualization module 13322 presents information to a
+human user. For example, the analytics system may track
+outcomes relating to human interactions with real-world
+environments or objects in response to information pre-
+sented in a visual digital twin. In some embodiments, the
+analytics system may apply cognitive models to determine
+the most effective manner to display visualized information
+(e.g., what colors to use to denote an alarm condition, what
+kind of movements or animations bring attention to an alarm
+condition, or the like) or audio information (what sounds to
+use to denote an alarm condition) based on the outcome data.
+In some embodiments, the analytics system may apply
+cognitive models to determine the most suitable manner to
+display visualized information based on the role of the user.
+In embodiments, the visualization may include display of
+information related to the visualized digital twins, including
+graphical information, graphical information depicting
+physical characteristics, graphical information depicting
+financial characteristics, graphical information depicting
+performance characteristics, recommendations from intelli-
+gence service 13004, predictions from intelligence service
+13004, probability of failure data, maintenance history data,
+time to failure data, cost of downtime data, probability of
+downtime data, cost of repair data, cost of replacement data
+(e.g-, replacing a smart container or smart container com-
+ponent), and the like.
+In embodiments, a smart container fleet manager digital
+twin 13328 is a digital twin configured for a manager and/or
+operator of a fleet of smart containers. In embodiments, the

@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+335
+and/or electromechanical sensors. Additionally or alterna-
+tively, the environmental sensing circuit 9318 may receive
+and/or process (e.g., filter, sanity check, error check, etc.)
+sensor data from environmental sensors, including atmo-
+spheric sensors, imaging sensors, and/or the like.
+In embodiments, each of the biological sensing circuit
+9312, the chemical sensing circuit 9314, and/or the electro-
+mechanical sensing circuit 9316 may access system speci-
+fications 9356 corresponding to particular sensors in order to
+configure the sensing circuit to process corresponding sensor 10
+data. For example, when the diagnostic chip 9300 is con-
+figured to perform a particular organic analysis (e.g., pre-
+diction/simulation/testing of a particular organ or organ
+ system), the biological sensing circuit 9312 may retrieve the
+system specifications 9356 for corresponding sensors (e.g-, 15
+microfluidic sensors, bioMEMS sensors, etc.) so that the
+biological sensing circuit 9312 may receive and process
+(e.g., format, filter, error check, etc.) the relevant sensor
+data. As another example, when the diagnostic chip 9300 is
+configured to perform a particular lab analysis (e.g-, drug 20
+testing, disease testing etc.), the chemical sensing circuit
+9314 may retrieve the system specifications 9356 for cor-
+responding sensors (e.g, chemical sensors) so that the
+chemical sensing circuit 9314 may receive and process (e.g.,
+format, filter, error check, etc.) the relevant sensor data. As 25
+another example, when the diagnostic chip 9300 is config-
+ured to perform electromechanical analysis (e.g., a diagnos-
+tic analysis of a particular machine/circuit based on vibra-
+tion sensors, electric sensors, electromechanical sensors,
+etc.), the electromechanical sensing circuit 9316 may 30
+retrieve the system specifications 9356 for corresponding
+sensors (e.g., MEMS sensors, vibration sensors, etc.) so that
+the electromechanical sensing circuit 9316 may receive and
+process (e.g., format, filter, error check, etc.) the relevant
+sensor data. As another example, when the diagnostic chip 35
+9300 is configured to perform environmental analysis (e.g.,
+a diagnostic analysis based on imaging data and/or environ-
+mental data), the environmental sensing circuit 9318 may
+retrieve the system specifications 9356 for corresponding
+sensors (e.g-, imaging sensors, optical sensors, other envi-
+ronmental sensors, etc.) so that the environmental sensing
+circuit 9318 may receive and process (e.g., format, filter,
+error check, etc.) the relevant sensor data.
+The analysis module 9320 may receive processed sensor
+data from the sensor module 9310 and perform various 45
+analyses using the organic analysis circuit 9322, lab analysis
+circuit 9324, and/or electromechanical analysis circuit 9326.
+Each of the organic analysis circuit 9322, lab analysis circuit
+9324, electromechanical analysis circuit 9326, and/or envi-
+ronmental analysis circuit 9328 may retrieve analytics con- 50
+figuration(s) from analytics library 9352 and/or intelligence
+module(s) 9358 in order to perform relevant analyses. For
+example, when the diagnostic chip 9300 is configured to
+perform simulation of a particular organ or organ system, the
+organic analysis circuit 9322 may retrieve analytics data 55 analysis.
+from analytics library 9352 specifying configuration param-
+eters corresponding to the organ/organ system (e.g., a par-
+ticular biology, functional mechanisms, etc.) and may
+retrieve an intelligence module 9358 trained to predict
+and/or analyze a response of the organ/organ system to 60
+physiological stimuli, particular drugs, particular diseases,
+and/or other inputs. Similarly, when the diagnostic chip
+9300 is configured to perform disease testing/analysis, the
+lab analysis circuit 9324 may retrieve analytics data from
+analytics library 9352 specifying configuration parameters 65
+corresponding to the disease (e.g., particular indicators,
+symptoms, etc.) and may retrieve an intelligence module
+[col 2]
+336
+9358 trained to predict a progression of the disease, a
+response of the disease to treatment, and/or the like. Simi-
+larly, when the diagnostic chip 9300 is configured to perform
+diagnostic analysis of a machine, the electromechanical
+analysis circuit 9326 may retrieve analytics data from ana-
+lytics library 9352 specifying configuration parameters for
+the machine (e.g. frequencies and/or frequency patterns
+indicating particular states of the machine or sub-parts of the
+machine, electrical information indicating correct or incor-
+rect operating levels for electrical circuits of the machine,
+etc.) and may retrieve an intelligence module 9358 trained
+to predict a potential breakdown or other condition of the
+machine, effects of maintenance actions, etc. Similarly,
+when the diagnostic chip 9300 is configured to perform a
+diagnostic environmental analysis, the environmental analy-
+sis circuit 9328 may retrieve analytics data from analytics
+library 9352 specifying configuration parameters for the
+environment (e.g., image/optical data and/or other environ-
+mental data indicating particular conditions of the environ-
+ment, etc.) and may retrieve an intelligence module 9358
+trained to predict a potential environmental condition such
+as conditions that are safe/unsafe for humans and/or other
+environmental conditions.
+Each of the organic analysis circuit 9322, lab analysis
+circuit 9324, electromechanical analysis circuit 9326, and/or
+environmental analysis circuit 9328 may use one or more
+Al-assisted techniques to perform analyses, determine/pre-
+dict conditions, predict the effects of treatments/mainte-
+nance/preventative actions, and/or the like. For example,
+one of the circuits may configure (e.g., using configuration
+parameters specified by an analytics library) a first Al-
+assisted technique to detect a particular condition (e.g., a
+gradient-boosted trees model), and then the same or another
+circuit may use a different Al-assisted technique (e.g., a
+neural network trained using deep learning techniques) to
+predict the response to a treatment plan for the particular
+condition. Similarly, the chip 9300 may use multiple AI-
+assisted techniques in order to perform the same tasks in
+order to improve the accuracy of diagnostic information.
+Thus, by leveraging multiple Al-assisted techniques, the
+chip 9300 may be capable of performing complex and
+highly accurate workflows that leverage different Al-as-
+sisted techniques.
+In embodiments, multiple intelligence module(s) 9358
+may be used to provide different types of diagnostics for a
+single workflow. In embodiments, the intelligence modules
+9358 may include one or more of the artificial intelligence
+modules 8804 of FIG. 104. Additionally or alternatively,
+multiple of the analysis circuits 9322-9328 may be used for
+an analysis workflow. For example, an analysis for disease
+diagnostics applications may use both chemical and biologi-
+cal sensors as inputs, and the chip 9300 may correspond-
+ingly use both the organic analysis circuit 9322 and/or the
+lab analysis circuit 9324 to perform aspects of the relevant
+In embodiments, the output module 9330 may perform
+combined analyses using the outcomes of the analysis
+module 9320, may enforce governance rules, and/or may
+generate/transmit reports including the results of the analy-
+ses generated by the analysis module 9320 and/or the
+combined analysis circuit 9332.
+The combined analysis circuit 9332 may correlate and
+further analyze multiple analyses generated by the analysis
+module 9320. For example, if a first diagnostic analysis
+(e.g., using a first Al-assisted technique and/or a first set of
+sensor inputs) indicated the presence of a particular condi-
+tion (e.g., that a disease is present), and a second diagnostic

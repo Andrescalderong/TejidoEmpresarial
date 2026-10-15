@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+421
+necessary, and augmented by sensors may be adapted to
+perform facial recognition for human faces obscured by face
+masks.
+FIG. 125 depicts a flow diagram illustrating a method for
+object recognition by the liquid lens based dynamic vision
+system according to some embodiments of the present
+disclosure.
+Referring to FIG. 125, at 11402, real time data streams
+representing object concept are received from the liquid lens
+based optical assembly. The data streams may be received at 1o
+the sensor and include rich contextual and visual informa-
+response to changes in optical parameters. The data streams
+may be analyzed at edge devices or sent to data processing
+by local or remote intelligence. The use of cloud-connect- 15
+able edge devices, such as within computing infrastructure
+that is proximal to the dynamic vision system 11300 and/or
+that is integrated with or into the dynamic vision system
+11300, such as where the dynamic vision system 11300 has
+onboard edge computational and/or connectivity resources, 20
+such as 5G (or other cellular), Wi-Fi, Bluetooth, fixed
+networking resources, or the like, may offer opportunities to
+provide rapid, real-time or near real-time processing respon-
+siveness. At 11404, the real-time data streams are processed
+by the image processing system to determine an object 25
+concept that includes contextual intelligence about the
+object and its environment. At 11406, the optical parameters
+are adjusted by the control system leading to a change in
+configuration of the liquid lens. The constantly adjusting
+liquid lens creates real time data streams at the sensor and
+30
+rich metadata for image processing as the images are based
+on additional optical parameters than just focal length and
+aperture. At 11408, the object concept is sequentially revised
+and used as an input to train a machine learning model,
+which dynamically learns on a training set of outcomes, 35
+parameters and data collected from the liquid lens based
+optical assembly. At 11410, the object concept including
+is utilized by artificial intelligence to make classifications,
+predictions, and other decisions relating to the object includ- 40
+ing determining the position, orientation and motion of the
+object.
+FIG. 126 depicts a schematic illustrating an example
+implementation of a dynamic vision system for modelling.
+design and lighting parameters of the dynamic vision system
+according to some embodiments of the present disclosure.
+The dynamic vision system may learn on data captured by
+sensors in response to sequentially adjusting the liquid lens
+to train the artificial learning system to use digital twins for 50
+classification, predictions and decision-making.
+The digital twin system 11320 may be configured to
+simulate operation of the dynamic vision system 11300 so as
+to continuously capture the key operational metrics and may
+be used to monitor and optimize the performance of the 55
+dynamic vision system 11300 in real-time, or near real-time.
+The digital twin system 11320 may create a digital replica or
+digital twins 502 of one or more of the components or
+subsystems of the dynamic vision system 11300. The digital
+twins 502 of the one or more of the components or subsys-
+tems may use substantially real-time sensor data to provide
+for substantially real-time virtual representation and for
+simulation of one or more possible future states of the one
+or more components and subsystems. The digital twins 502
+may be updated continuously based on sensor data, to reflect 65
+the current condition or parameter values of the component
+or subsystem. The digital twins thus provide a high fidelity,
+[col 2]
+422
+digital simulation of the behavior of the component or
+subsystem. This capability may be used to produce a digital
+profile of both the prior and current behaviors of the com-
+ponent or subsystem with the resulting profile used to detect
+behavior that is less than optimal as well as to predict future
+behavior of the component or subsystem.
+Referring to FIG. 126, the digital twins 11502 in the
+dynamic vision system 11300 may include object twin
+11504, environment twin 11506, liquid lens twin 11508,
+optical lens twin 11510, sensor twin 11512, process twin
+11514, actuator twin 11516, object concept twin 11518 and
+the like, that allow for modeling, simulation, prediction,
+decision-making, and classification by the processing sys-
+tem 11306. The digital twins 11502 may be populated with
+relevant data, for example the liquid lens twins 11508 may
+be populated with data related to corresponding a liquid lens
+including dimension data, material data, shape data, feature
+data, thermal data, vibration data, and the like. The digital
+twins may provide one or more simulations of both physical
+elements and characteristics of the one or more components
+or subsystems being replicated and the dynamics thereof, in
+embodiments throughout the lifecycle of the one or more
+components being replicated.
+In embodiments, the digital twins 11502 may provide a
+hypothetical simulation of the one or more components or
+subsystems, for example during a design phase before the
+one or more components are manufactured or fabricated, or
+during or after construction or fabrication of the one or more
+components by allowing for hypothetical extrapolation of
+sensor data to simulate a state of the one or more compo-
+nents, such as during any suitable hypothetical situation. In
+embodiments, the machine learning model 11520 may auto-
+matically predict hypothetical situations for simulation with
+the digital twins 11502, such as by predicting possible
+improvements to the one or more components, predicting if
+one or more components are compatible with one another,
+predicting when one or more components may fail and/or
+suggesting possible improvements to the one or more com-
+ponents, such as changes to parameters, arrangements, con-
+figurations, or any other suitable change to the components.
+For example, the liquid lens twins 11506 and optical lens
+twins 11510 may run hypothetical simulations to check for
+compatibility with one another as well as with the optical
+assembly and predict the optimal arrangement in the assem-
+In embodiments, the machine learning models 11520 in
+conjunction with digital twins 11502 may help drive various
+applications including material selection 11522, design opti-
+mization 11524, and motion prediction 11526.
+In embodiments, the digital twins 11502 may allow for
+simulation of the one or more components during both
+design and operation phases of the one or more components,
+as well as simulation of hypothetical operation conditions
+and configurations of the one or more components by
+facilitating observation, measurement and analysis of vari-
+ous metrics and then passing the insights onto the design or
+operational processes for improvement of these processes.
+The simulation system 11322 may set up, provision,
+configure, and otherwise manage interactions and simula-
+tions between and among digital twins 11502. Thus, the
+simulation system may help simulate, evaluate and optimize
+the behavior and characteristics of various components and
+subsystems of the dynamic vision system 11300 using the
+digital twins 11502 of such components and subsystems.
+In embodiments, the artificial intelligent system 11326
+may be configured to execute simulations in the simulation
+system 11322 using the liquid lens twins 11508 and/or other

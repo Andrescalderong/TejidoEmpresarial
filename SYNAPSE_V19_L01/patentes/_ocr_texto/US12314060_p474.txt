@@ -1,0 +1,136 @@
+efficient job completion, profitability, fleet smart container 2o container configuration data structures (e.g., from the library
+[col 1]
+US 12,314,060 B2
+583
+However, the fleet configuration system 13020 may work
+cooperatively with the task definition system to generate a
+task-specific fleet configuration that includes more than one
+smart container type/configuration combination, thereby
+allowing other elements of the smart container system 13000
+to efficiently manage execution of a requested job. Such a
+fleet configuration may indicate a preferred smart container
+and/or smart container combination for meeting a goal, such
+as efficient use of smart containers and the like that other
+elements of the shipment configuration system (e.g., a job
+workflow generation system) may consider when configur-
+ing, for example, a plurality of defined smart container tasks
+into a job workflow. Therefore, a fleet configuration may
+include primary, secondary, and tertiary smart container 15
+indications for performing a task. Alternatively, a fleet
+configuration for a freight storage and/or transportation
+service order may identify a plurality of smart containers,
+each assigned utilization weights based on criteria, such as
+use preferences and the like.
+In embodiments, the fleet configuration system 13020
+may reference an inventory data store to determine the
+available smart containers and/or modules (e.g-, physical
+modules and/or software modules) to configure a smart 25
+container, locations of those smart containers and/or parts,
+statuses of the parts (e.g. whether maintenance is due or
+needed for available smart containers or parts), and the like.
+In this way, the fleet configuration for a job, task, team or the
+like may be determined by the available inventory of smart 30
+containers, modules, support equipment, and/or spare parts.
+Further, a fleet maintenance management system as
+described herein may track aspects of smart container status
+that may be added to and/or be supplemental to the inventory
+data store, such as which smart containers are being reserved 35
+from use for critical maintenance, which smart containers
+can be deployed, but with diminished capability due to
+service and/or maintenance or other concerns, status of spare
+parts, or other service activities (e.g., due date, current
+location, anticipated installation, and thelike).Therefore, 401
+the fleet configuration system 13020 may reference and/or
+be informed by the fleet maintenance management system
+about fleet resource maintenance knowledge that may be
+job-impacting. Additionally, or alternatively, the fleet con-
+figuration system 13020 may request a fleet configuration 45 
+from the intelligence service 13004, where artificial intelli-
+gence modules 13404 may receive a set of parameters,
+including task definitions, workflow definitions, budget,
+environment definition, job timeline, or the like as input,
+evaluate a plurality of candidate fleet configurations and 50
+determine a target fleet configuration that can perform the
+job. In embodiments, a human can define or redefine any
+portion of a fleet configuration via a human interface of the
+fleet configuration system.
+In embodiments, the job and fleet configurations may be 55
+fed to a digital twin system, whereby the digital twin system
+may perform a simulation of the job given the job and fleet
+configurations. The job configuration system i3018 and/or
+the fleet configuration system 13020 may iteratively redefine
+the job configuration and the fleet configuration to optimize 60
+(or substantially optimize) one or more parameters, such as
+a job timeline, overall cost, smart container downtime,
+maintenance-related downtime, shipping costs, or the like.
+Once the job configuration system 13018 and the fleet
+configuration system 13020 have determined the task and 65
+workflow definitions, as well as the fleet configurations, the
+[col 2]
+584
+order execution plan corresponding to the freight storage
+and/or transportation service order.
+In embodiments, the fleet configuration system 13020
+may leverage digital twins when configuring fleet resources.
+Use of digital twins with fleet configuration may include
+identifying and/or defining one or more digital twins of one
+or more smart containers based on information in the task
+definition.Fleet configuration may include identifying con-
+figuration and/or operation of a smart container so that a
+10 smart container can perform the route and/or task or a
+portion thereof. Such smart container task configuration
+instructions may be generated through the use of a digital
+twin for one or more of a set of candidate smart containers
+for performing a task. In an illustrative example, a smart
+container may be associated with a plurality of configura-
+tion/operational data structures for configuring the smart
+container to perform routines, actions, routes, tasks and the
+like. The fleet configuration system 13020 may identify or
+otherwise be provided with one or more candidate smart
+13044) for use to perform a task. A portion of such a
+candidate configuration data structure may include a rate of
+movement for moving up a ramp onto a container ship. The
+requested job requirements may explicitly or implicitly
+indicate that a movement rate is different than the value in
+the candidate configuration data structure. In embodiments,
+the fleet configuration system may make any adjustments to
+the candidate configuration data structure (e.g, reducing
+movement rate), apply it to an instantiation of a digital twin
+of the candidate smart container, observe and/or evaluate the
+execution (e.g., simulation) of the digital twin with the
+adjusted configuration data structure, and store it in the
+library 13044 and the like. The newly stored configuration
+data structure may be cataloged based on the freight storage
+and/or transportation service order and/or other parameters
+of the requested job, task, and the like to make for efficient
+access in the future.
+A smart container configuration library may include job
+information, smart container information, fleet information,
+task definition rules/metadata that may be useful to deter-
+mine how to define smart container tasks, workflow con-
+figuration rules and/or techniques, prior freight storage and/
+or transportation service order results from application of the
+shipment configuration system (e.g., prior order execution
+plans), and the like. The library 13044 may be accessed
+and/or updated by functions of the job operations system.
+Illustrative examples of the library 13044 are described
+herein variously in conjunction with job operations system
+functions and features, such as job configuration and the
+like. As an example, the smart container configuration
+library may include specific reference to configurations of
+smart containers that may be utilized during fleet configu-
+ration, order execution and the like. In this example, the
+smart container configuration library may have references to
+smart container configuration data sets (e.g., data that when
+uploaded to a smart container may enable the smart con-
+tainer to perform a function, such as 3D printing in-
+container packaging, and the like). Further, the library may
+provide a cross-reference of smart container configurations
+with other smart container-related information, such as base
+model, version, required features, and the like that may be
+required for successful deployment of a smart container
+configured with a given configuration. Yet further, the
+library may suggest alternatives to certain combinations of
+smart containers and configurations, such as indicating that
+a newer version of a smart container model may include
+built-in capabilities provided by a specific configuration.

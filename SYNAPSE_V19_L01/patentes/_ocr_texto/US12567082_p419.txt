@@ -1,0 +1,137 @@
+erated by the MPR2B00 over a period of time for anomaly, 45 12144 and controller 12160 to generate the control instruc-
+[col 1]
+US 12,567,082 B2
+515
+the agent is presented with, in addition to its new state, a
+reward (e.g., +10 for allowing sufficient space between the
+robot and an obstacle in front of it and -10 for allowing
+insufficient space) which provides some indication of the
+ success of the action. The goal for a reinforcement learning
+agent is to learn an optimal policy or behavior that maxi-
+mizes the expected cumulative reward.
+Reinforcement learning system 12668 includes one or
+more reinforcement learning algorithms for evaluating vari-
+ous states, actions and rewards in determining optimal 10
+policy for executing one or more tasks by the MPR 12100.
+RPA system 12652 enables the MPR 12100 automate
+workflows as well as any repetitive tasks and processes. In
+embodiments, the RPA system 12652 may monitor human
+interaction with various systems to learn patterns and pro- 15
+cesses performed by humans in performance of respective
+tasks. In embodiments, an RPA system 12652 may learn to
+perform certain tasks based on the learned patterns and
+processes, such that the tasks may be performed by the RPA
+system 12652 in lieu or in support of a human decision 20 s
+maker.
+NLP system 12656 provides the MPR12100 with the
+ability to parse one or more conversational voice instruc-
+tions provided by a human user to perform one or more tasks
+as well as communicate with the human user. In embodi- 25
+ments, the NLP system 12656 may be configured as part of,
+may leverage or may be included in NLP system 4D24
+described in conjunction with FIG. 4. The NLP system
+12656 may leverage one or more neural networks from the
+neural network system 12662 including feed forward neural 30
+networks, convolutional neural networks (CNN), recurrent
+neural networks (RNN), long short-term memory (LSTM),
+transformer neural networks and the like for performing
+various natural language processing functions. Example
+implementations of an NLP system 12656 are described in 35
+greater detail elsewhere in the disclosure (e.g., with respect
+to FIG. 104 and related description).
+In embodiments, the artificial intelligence services 12143
+may include and/or provide access to an analytics system
+12660.Inembodiments,ananalyticssystem12660iscon-40
+figured to perform various analytical processes on data
+output from the MPR 12100 or one or more components or
+subsystems. For example, the analytics system 12660 may
+perform data analytics on thermal and vibration data gen-
+detection, system failure detection, predictive maintenance
+and for avoiding costly downtime and disruption of opera-
+tion of the MPR2B00. In another example, the analytics
+ system 12660 may analyze sensor data of the MPR 12100 to
+generate insights about things like general health of the 50
+MPR 12100 efficiency of one or more tasks performed by
+the MPR 12100, optimal positions and setting for the MPR
+12100 and so on.
+Neural Networks (or Artificial Neural Networks) are a
+family of statistical learning models inspired by biological
+neural networks and are used to estimate or approximate
+functions that may depend on a large number of inputs and
+are generally unknown. Neural networks represent a system
+other. The connections have numeric weights that can be 60
+tuned based on experience, making neural nets adaptive to
+inputs and capable of learning.
+Neural network system 12662 include one or more neural
+networks including feed forward neural networks, convolu-
+tional neural networks (CNN), recurrent neural networks 65 J
+(RNN), long short-term memory (LSTM) neural networks,
+gated recurrent unit (GRU) neural networks, self-organizing
+[col 2]
+516
+map (SOM) neural networks (e.g., Kohonen self-organizing
+neural networks), Autoencoder (AE) neural networks,
+Encoder-Decoder neural networks, modular neural net-
+works, or variations, hybrids or combinations of the fore-
+going, or combinations with reinforcement learning (RL)
+systems or other expert systems, such as rule-based systems,
+model-based systems (including ones based on physical
+models, statistical models, flow-based models, biological
+models, biomimetic models, and the like). Examples of
+neural networks and neural network systems 12662 have
+been described in more details elsewhere in the disclosure
+(e.g., FIGS. 93-107).
+FIG. 141 schematically depicts an example architecture of
+the robot control system i2150 that utilizes data from
+multiple sensors in the vision and sensing system 12112 to
+learn about the environment to implement policies and drive
+control for one or more components of the baseline system
+12102 including energy storage and power distribution
+system 12104, the electromechanical and electro-fluidic
+system 12108, or the transport system 12110 to perform a
+task.
+In embodiments, the MPR 12100 may acquire sensor data
+from one or more sensors 12602 and extract *state infor-
+mation"about the position of the MPR 12100 with respect
+to the environment 12604 and one or more objects 12606.
+For example, the MPR 12100 may use camera 12608 to
+capture images of objects 12606. An additional vision sensor
+may be mounted at a position different from that of the
+camera 12608 to capture image data from multiple view-
+points. The camera and vision sensors may generate images
+related to shape, color, depth, and/or other features of
+object(s) that are in the line of sight of the sensors. The
+image data may be processed and the machine vision system
+12618 may execute one or more machine learning algo-
+rithms including the CNN variants described above for
+object detection. Data from additional sensors (e.g., tactile
+sensor, sound sensor and/or gas sensor) may be combined to
+help build a more accurate model of the world in order for
+the MPR 12100 to navigate and behave more successfully in
+its environment.Inembodiments,Kalmanfiltersanddata
+fusion techniques may be used for combining the data from
+multiple sensors.
+In embodiments, the intelligence layer 12140 may coor-
+dinate with policy libraries in the task management system
+tions for performing one or more tasks including navigation,
+object grasping, sorting cleaning, loading/unloading, pack-
+aging/unpackaging, assembly, palletizing/depalletizing and
+the like.
+Upon the control system 12150 receiving an input (e.g.,
+from a user or from another robot) indicating one or more
+tasks to be performed, the intelligence layer 12140 may
+select one or more policies from the policy libraries in the
+task management system 12144 to implement. For example,
+upon receiving an instruction to grasp an object placed in the
+environment of the MPR 12100, the intelligence layer 12140
+may determine that the MPR12100 needs to use navigation
+policy for navigating to the location of the object foliowed
+by grasping policy to grasp the object. The intelligence layer
+12140 may use the sensor data from one or more sensors
+12602 to determine“"state information" describing informa-
+tion extracted from a scene in the environment of the MPR
+12100. The state information may include images or image
+streams from one or more vision sensors, information col-
+lected from other sensors like gas sensor, tactile sensor and
+sound sensor. The state information may also include infor-
+mation obtained after analysis of sensor information and

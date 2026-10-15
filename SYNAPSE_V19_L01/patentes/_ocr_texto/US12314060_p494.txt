@@ -1,0 +1,137 @@
+be configured to calculate, interpolate, extrapolate, and/or 1o operation isn't working as expected (perhaps due to missing
+[col 1]
+US 12,314,060 B2
+623
+with the shipping entity,financial information associated
+with the shipping entity, heat flow characteristics associated
+with the shipping entity, fluid flow rates associated with the
+shipping entity (e.g., fluid flow rates of a fluid flowing
+through a pipe), identifiers of other digital twins embedded
+within the digital twin of the shipping entity and/or identi-
+fiers of digital twins embedding the digital twin of the
+shipping entity, and/or other suitable properties. Dynamic
+models 13374 associated with a digital twin of an asset can
+output values for such asset digital twin properties based on
+input data collected from sensors and/or devices disposed in
+the industrial setting and/or other suitable data and subse-
+quently populate the asset digital twin with the calculated
+values. 15
+In some embodiments, the set of properties of a digital
+twin of an shipping device that may be updated by the digital
+twin dynamic model system 13312 using dynamic models
+13374 may include the status of the device, a location of the
+device, the temperature(s) of a device, a trajectory of the 20
+device, identifiers of other digital twins that the digital twin
+of the device is embedded within, embeds, is linked to,
+includes, integrates with, takes input from, provides output
+to, and/or interacts with, and the like. Dynamic models
+13374 associated with a digital twin of a device can be 25
+configured to calculate or output values for these device
+digital twin properties based on input data and subsequently
+update the device digital twin with the calculated values.
+Example properties of a digital twin of a shipping envi-
+ronment that may be updated by the digital twin dynamic 30
+model system 13312 using dynamic models 13374 may
+include the dimensions of the shipping environment, the
+temperature(s) of the shipping environment, the humidity
+value(s) of the shipping environment, the fluid flow char-
+acteristics in the shipping environment, the heat flow char- 35
+acteristics of the shipping environment, the lighting charac-
+teristics of the shipping environment, the acoustic
+characteristics of the shipping environment the physical
+objects in the environment, processes occurring in the ship-
+pingenvironment, currentsoftheshippingenvironment(if40
+a body of water), and the like. Dynamic models associated
+with a digital twin of a shipping environment can be
+configured to calculate or output these properties based on
+input data collected from sensors and/or devices disposed in
+the shipping environment and/or other suitable data and 45 c
+subsequently populate the shipping environment digital twin
+with the calculated values.
+In embodiments, dynamic models 13374 may adhere to
+physical limitations that define boundary conditions, con-
+stants or variables for digital twin modeling.For example, 5oI
+the physical characterization of a digital twin of a shipping
+entity or shipping environment may include a gravity con-
+stant (e.g., 9.8 m/s?), friction coefficients of surfaces, ther-
+mal coeficients of materials, maximum temperatures of
+assets, maximum flow capacities, and the like. Additionally, 55
+or alternatively, the dynamic models may adhere to laws of
+nature. For example, dynamic models may adhere to the
+laws of thermodynamics,laws of motion,laws of fluid
+dynamics, laws of buoyancy, laws of heat transfer, laws of
+radiation, laws of quantum dynamics, and the like. In some 60
+embodiments, dynamic models may adhere to biological
+aging theories or mechanical aging principles. Thus, when
+the digital twin dynamic model system 13312 facilitates a
+real-time digital representation, the digital representation
+may conform to dynamic models, such that the digital 65
+representations mimic real world conditions. In some
+embodiments, the output(s) from a dynamic model can be
+[col 2]
+624
+presented to a human user and/or compared against real-
+world data to ensure convergence of the dynamic models
+with the real world. Furthermore, as dynamic models are
+based partly on assumptions, the properties of a digital twin
+may be improved and/or corrected when a real-world behav-
+ior differs from that of the digital twin. In embodiments,
+additional data collection and/or instrumentation can be
+recommended based on the recognition that an input is
+missing from a desired dynamic model, that a model in
+and/or faulty sensor information), that a different result is
+needed (such as due to situational factors that make some-
+thing of high interest), and the like.
+Dynamic models may be obtained from a number of
+different sources. In some embodiments, a user can upload
+a model created by the user or a third party. Additionally, or
+alternatively, the models may be created on the digital twin
+system using a graphical user interface. The dynamic models
+may include bespoke models that are configured for a
+particular environment and/or set of shipping entities and/or
+agnostic models that are applicable to similar types of digital
+twins. The dynamic models may be machine-learned mod-
+els. In embodiments, the dynamic models may be machine-
+learned models provided by the intelligence service 13004.
+In embodiments, digital twin dynamic model system
+13312 leverages one or more dynamic models 13374 to
+update a set of properties of a digital twin and/or one or more
+embedded digital twins on behalf of client application 13324
+based on the impact of collected sensor data from sensor
+system, data collected from Internet of Things connected
+devices 13338, and/or other suitable data in the set of
+dynamic modeis 13374 that are used to enable the shipping
+digital twins. In embodiments, the digital twin dynamic
+model system 13312 may be instructed to run specific
+resent physical shipping entities, devices, workers, pro-
+cesses, and/or shipping environments that are managed,
+maintained, and/or monitored by the client applications
+13324.
+In embodiments, the digital twin dynamic model system
+13312 may obtain data from other types of external data
+sources that are not necessarily shipping data sources, but
+may provide data that can be used as input data for the
+dynamic models. For example, traffic data, trucking fleet
+data, aviation data, road data, freight data, maritime data,
+weather data, news events, social media data, and the like
+may be collected, crawled, subscribed to, and the like to
+supplement sensor data, Industrial Internet of Things device
+data, and/or other data that is used by the dynamic models.
+In embodiments, the digital twin dynamic model system
+13312 may obtain data from a machine vision module
+13422. Machine vision module 13422 may use video and/or
+still images to provide measurements (e.g., locations, sta-
+tuses, and the like) that may be used as inputs by the
+dynamic models.
+In embodiments, the digital twin dynamic model system
+13312 may feed this data into one or more of the dynamic
+models discussed above to obtain one or more outputs.
+These outputs may include calculated vibration characteris-
+tics, probability of failure values, probability of downtime
+values, cost of downtime values, time to failure values,
+temperature values, pressure values, humidity values, pre-
+cipitation values, visibility values, air quality values, strain
+values, stress values, displacement values, velocity values,
+acceleration values, location values, performance values,
+financial values, pricing values, electrodynamic values, ther-
+modynamic values, fluid flow rate values, and the like. The

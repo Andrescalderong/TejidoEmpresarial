@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+709
+events at the finest grain). According to techniques described
+herein, either or both of these requirements may be handled
+by configuring edge nodes to collect and provision vast
+quantities of data without the need for massive data flows to
+a centralized and consolidated database.
+In embodiments, activities that are closer to a control
+system may require much finer data grains and faster
+response times. In addition, edge nodes may not require
+aggregation of data (e.g, if they are responding in the
+moment to specific events). According to techniques 10 
+described herein, EDQL leverages these usage patterns to
+allow for distributed queries to the edge against the entire
+edge-sharded database, where fine grained data is held in
+high volume edge systems and transmitted as the EDQL
+system deems the data required. 15
+Techniques described herein provide several technologi-
+cal benefits when compared to prior database solutions.
+First, distributed databases configured as described herein
+provide for powerful and seamless abstraction of data que-
+ries from the underlying data structures, such that query 20
+users do not need to worry about the edge-distributed
+ storage. Additionally, distributed databases configured as
+described herein provide for seamless distribution and man-
+agement of a dynamic ledger of information relating to
+underlying datasets. Additionally, the EDQL database pro- 25
+vides for potential failure rate on queries to allow for
+prioritization of results.
+In embodiments, each edge node and/or edge cluster can
+hold data independently and redundantly, making the data-
+base fault tolerant to centralized failure.Additionally, local- 30
+ized encryption and/or block chain storage mechanisms may
+ensure localized data is secure against cyber-attack in both
+nature and type.
+In embodiments, distributed databases as configured
+herein optimize network usage such that, rather than burying 35
+the system in massive volumes of data, systems configured
+as described herein may focus on transmitting data that is
+required to respond to a received query or predicted future
+query. Furthermore, centralized queries against distributed
+fine-grained data may be possible, thus providing access to 40
+the finest grain data without overloading a network.
+In embodiments, EDQL may be implemented using
+extensions of a structured query language (SQL), such as by
+using data definition language (DDL) and/or data manipu-
+lation language (DML) extensions of SQL. In particular, 45 u
+DDL and DML extensions may extend SQL to handle the
+distribution of data across the distributed database. The use
+of SQL and extensions thereof may make it easy to query
+data, whether in in memory, rowstore or columnstore tables,
+with a well-understood language extended using DDL and 50 
+DML extensions.
+In embodiments, every edge table DDL may have at least
+one edge shard algorithm, which can contain any number of
+column parameters. The shard algorithms may be used to
+distribute data across the network. 55
+In embodiments, the distributed database may be config-
+ured to efficiently execute any join query, taking advantage
+of opportunities to improve efficiency based on edge shard-
+ing and replicated reference tables. Because reference tables
+may be replicated on some or all devices in a cluster, edge 60
+nodes can join against local copies of reference tables with
+optimal performance.
+edge shard algorithms to determine how a query should be
+executed. For example, queries that fully match an edge 65
+shard algorithm can be routed directly to a single partition
+associated with a single edge device. For queries that need
+[col 2]
+710
+to shuffle data across nodes, data movement may be mini-
+mized through the use of probabilistic data distributions
+described in a dynamic ledger.
+In embodiments, data may be duplicated at various grain
+levels through the use of a dynamic ledger and probabilistic
+models, which allow for targeted and potentially massive
+distribution of data while leveraging lower storage costs to
+provide for potentially massive distributed scalability.
+In embodiments, the distributed database system may
+allow for data updates and versioning while handling the
+potential cascading impacts of a single update. The distrib-
+uted database system may allow for multiple versions of the
+truth based on latency (with all data also knowing its state
+as at a point in time).
+In embodiments, techniques described herein provide the
+ability to distribute and process data evenly across all the
+edge nodes in a distributed cluster, thus supporting horizon-
+tal scale-out (e.g-, of an IoT platform-based data collection
+system) with considerably less need to move data to cen-
+tralized systems. This effect reduces network requirements
+and allows for greater scalability of the final system.
+In embodiments, edge nodes added to the system may
+primarily store data according to the localized needs of
+nearby edge systems (e.g., edge systems connected via local
+networks or other high bandwidth and/or low latency links),
+which may allow for additional nodes to be added without
+impairing the operation of a centralized monitoring system.
+In embodiments, edge nodes connected to a probability-
+based dynamic ledger and localized storage are able to
+operate without central connectivity. This independence
+allows for greatly increased fault tolerance and removes
+dependence on network communications for provision of
+highly available systems.
+Other distributed systems tend to operate on NoSQL ("not
+only SQL") environments where data is stored in a form that
+is very close to the input format. This centralized format
+forces the application developer to have a direct understand-
+ing of the fundamental data and index structures. Systems
+and techniques described herein, by contrast, offer scale-out
+benefits and (in some embodiments)may alsoprovide
+consistency and a SQL-like interface. Additionally, systems
+and techniques described herein offer an advantage for new,
+modern, edge-enabled cloud-native applications by provid-
+ing a seamless data access layer that is similar to the
+underlying layer in most application frameworks.
+FIG.166A shows an environment 20100 including a
+plurality of devices that implement and/or interact with the
+distributed database and dynamic ledger as discussed herein.
+The environment 2020100 may include one or more query
+devices 20110 that may generate queries for querying the
+distributed database as further described herein. The envi-
+ronment 20100 may further include one or more edge
+devices 20120 comprising and/or connected to edge storage
+20122, which may store data that may be used to respond to
+queries received from query devices. In embodiments, the
+gators 20140, which may communicate with and/or imple-
+ment a dynamic ledger 20150 that may be used to store
+"high grain" data (also referred to herein as "summary"
+data) based on data stored at various edge devices, to
+implement various probabilistic models for the generation of
+query responses, to distributed data throughout the distrib-
+uted database, and/or to perform other dynamic ledger
+functions as described herein. In some embodiments, edge
+device/aggregators 20130 may perform the functions of both
+edge devices 20120 and/or aggregators 20140, and thus may
+include and/or communicate with various edge storage

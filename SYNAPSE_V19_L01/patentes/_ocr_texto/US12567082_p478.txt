@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+633
+the smart container system 13000, may transmit updates to
+one another, or a combination thereof.
+In some embodiments, wherein the smart container sys-
+tem 13000 includes a plurality of edge devices, the edge
+devices may communicate with one another to record and/or
+validate shipping data. The edge devices may also commu-
+nicate data with one another related to one or more smart
+containers, smart container fleets, container ships, container
+terminals, shipping yards, charging stations, regions, users,
+shippers, shipping lines, third parties, and the like. An edge 10
+device of the plurality of edge devices may communicate
+such information when able in cases where an edge device
+is electronically isolated from other edge devices and/or
+other components of the smart container system 13000.
+In some embodiments, a first edge device that is electri- 15 
+cally isolated and is assigned to facilitate a smart container
+repair may be supported by a second edge device. The
+second edge device may be assigned to facilitate the same
+repair in case the first edge device fails to facilitate the repair
+and/or is out of communication with other components of 20
+the smart container system 13000 for an extended period of
+time such that facilitation of repair by the first edge device
+is unverifiable. Upon reentering communication range, the
+first edge device may update the second edge device and/or
+other components of the smart container system 13000 with 25
+maintenance operations that took place while the first edge
+device was electronically isolated.
+In some embodiments, the smart container system 13000
+may implement a hardware failure algorithm configured to
+make decisions when one or more components of the smart 302
+container system 13000, such as the edge device, ceases
+operation and/or is otherwise unable to completely operate
+properly. The hardware failure algorithm may include, for
+example, assigning an edge device to overtake operations
+that had been previously assigned to a now malfunctioning 35
+or nonfunctioning edge device.
+In some embodiments, the smart container system 13000
+may implement a data routing algorithm configured to
+optimize flow of data transmitted to and/or from the edge
+device, other components of the fleet system, external sys- 40
+tems, or a combination thereof. The edge device may include
+one or more signal amplifiers, signal repeaters, digital filters,
+analog filters, digital-to-analog converters, analog-to-digital
+converters and/or antennae configured to optimize the flow
+of data. In some embodiments, the network enhancement 45
+system may include a wireless repeater system such as is
+disclosed by U.S. Pat. No. 7,623,826 to Pergal, the entirety
+of which is hereby incorporated by reference. The edge
+device may optimize the flow of data by, for example,
+filtering data, repeating data transmission, amplifying data 50
+transmission, adjusting one or more sampling rates and/or
+transmission rates, and implementing one or more data
+communication protocols. In embodiments, the edge device
+may transmit a first portion of data over a first path of the
+plurality of data paths and a second portion of data over a 55
+second path of the plurality of data paths. The edge device
+may determine that one or more data paths, such as the first
+data path, the second data path, and/or other data paths, are
+advantageous for transmission of one or more portions of
+data. The edge device may make determinations of advan- 60
+tageous data paths based upon one or more networking
+variables, such as one or more types of data being transmit-
+ted, one or more protocols being suitable for transmission,
+present and/or anticipated network congestion, timing of
+data transmission, present and/or anticipated volumes of 65
+data being or to be transmitted, and the like. Protocols
+[col 2]
+634
+protocol (TCP), user datagram protocol (UDP), and the like.
+In some embodiments, the edge device may be configured to
+implement a method for data communication such as is
+disclosed by U.S. Pat. No. 9,979,664 to Ho et al., the entirety
+of which is hereby incorporated by reference.
+In embodiments, the smart container system 13000
+includes a digital twin module 13420 configured to receive
+data from the edge device and create a digital twin from the
+received data. The digital twin created by the digital twin
+module 13420 may be a digital twin of one or more of a
+smart container fleet, a smart container, a fleet manager, a
+container terminal, a shipping yard, a container ship, a
+shipper, cargo, and the like, and may be created using any or
+all of the data received from the edge device. The edge
+device may transmit shipping-related data, such as data
+related to a smart container, smart container cargo, a shipper,
+a container port, and the like, or a combination thereof. In
+embodiments, where the smart container system 13000
+includes a plurality of edge devices, the digitai twin module
+13420 may create the digital twin based on data received
+from multiple of the plurality of edge devices.
+In some embodiments, the edge device may be configured
+to facilitate pre-calculation and aggregation of data for a set
+of user-configured reports. The user-configured reports may
+be integrated into the digital twin created by the digital twin
+module 13420. A user of the smart container system 13000
+may define one or more parameters of the user-configured
+report to be included in the digital twin. The edge device
+may implement one or more data processing and/or filtering
+according to the parameters of the user-configured report.
+The edge device may transmit processed and/or filtered data
+relevant to the user-configured report parameters to the
+digital twin module 13420. Upon receiving the processed
+and/or filtered data, the digital twin module 13420 may
+create the digital twin including the user-configured report
+using the received data and present the digital twin to the
+user.
+In some embodiments, the edge device may be configured
+to collect and process data for use by one or more artificial
+intelligence (AI) systems. The AI systems may include the
+intelligence service 13004, one or more artificial intelligence
+systems configured to facilitate creation of the digital twin
+by the digital twin module 13420, and/or any other artificial
+intelligence systems connected to and/or included in the
+smart container system 13000. The edge device may be
+configured to collect and process and/or filter data such that
+the data is suitable for use by the one or more AI systems.
+An example of processed and/or filtered data collected by
+the edge device for use by the one or more Al systems is
+training data for use in training one or more machine-learned
+models.
+In some embodiments, the edge device may be configured
+to locally store data related to creation of the digital twin by
+the digital twin module 13420. In cases where the digital
+twin is related to a particular region, shipper, smart con-
+tainer, fleet, container port, ship, or the like, the edge device
+may be particularly positioned to collect and store data for
+use in populating the digital twin, for example, by being
+positioned nearby to the particular region, shipper, smart
+container, fleet, container port, ship, etc. The edge device
+may receive, process, filter, organize, and/or store data prior
+to transmission of the data to the digital twin module 13420
+such that the data is relevant to and/or suitable for population
+of the digital twin. In some embodiments, the edge device
+may be configured to organize timing of transmission of data
+used to populate the digital twin. The edge device may
+implement one or more algorithms configured to measure

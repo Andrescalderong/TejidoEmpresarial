@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+731
+In embodiments, the portioning of a distributed table may
+affect the performance of some kinds of queries (e.g., EDQL
+queries with a SELECT statement). In embodiments, an
+EXPLAIN statement/command may be used to examine
+query planning module 20356, a query execution module
+20308, and/or an edge storage module 20310.
+In embodiments, a query language with DML extensions
+for a distributed database (e.g., EDQL) may leverage one or
+more of a variety of shard algorithms In embodiments, the 10
+selection of shard algorithm may determine overall location
+of data and thus query performance. In embodiments, shard
+algorithms may include one or more of a distributed logical
+algorithm (e.g-, an algorithm for the partitioning of data
+within the edge cluster based on a set of logical rules, such 15
+ as column values), a local neural algorithm (e.g., an algo-
+rithm for the partitioning of data that is local to a specific
+cluster and is based on a neural network), and/or a local
+genetic algorithm (e.g., an algorithm for the partitioning of
+data that is local to a specific cluster and is based on a 20
+genetic algorithms network).In embodiments, EDQL DML
+commands may be used to communicate directly with edge
+devices 20120 to find data location.
+FIG.171A illustrates an example data flow 20600 in
+which a query may be directed to a single partition. For 25
+example, if an equality is specified on every column in the
+shard algorithm parameters, then a device that receives the
+query (e.g., an aggregator 20140) will direct the query to
+exactly one partition. In the illustrated embodiment, the
+queries 20602A and 20602B have been directed to an edge 301
+device 20120, which may correspond to a specified
+"edge_node_id value of "42" as shown in the illustrated
+example queries 20602A, 20602B. In other words, the
+queries are directed to the edge device 20120 that matches
+the node identifier specified in the query (in the example 35
+case, a single edge device 20120).
+In embodiments, many queries may not correspond to the
+pattern of FIG. 171A, where the query corresponds to a
+ single partition. In these cases, for example, an aggregator
+20140 may send the queries to several partitions (e.g., every
+40
+partition in a particular local cluster) for intermediate results,
+then stitch them together.
+FIG.171B illustrates an example data flow 20650 in
+which example queries 20652A, 20652B match m0re than a
+single partition. In the illustrated example, the queries 45
+20652A, 20652B are not specified to a single partition (e.g.,
+edge device or edge storage), but the queries may be
+received by a single edge device 20120. In such a case,
+several behaviors are possible. In some embodiments, the
+edge device 20120 (and/or a connected aggregator 20140) 50
+may execute either or both of the methods 20400, 20430 of
+FIGS. 169A, 169B in order to cause the query to be stored
+on the dynamic ledger 20150, thus allowing the queries
+20652A, 20652B to be distributed to multiple edge devices
+20120 (e.g., as a pending data request 20268). Additionally 55 2
+or alternatively, the queries 20652A, 20652B may be
+directly sent (e.g, by an aggregator 20140) to multiple
+partitions in the distributed database (and/or local cluster
+thereof). In these embodiments, each edge node 20120 may
+use its part of a secondary index to speed up the (e.g, query
+20652A, which matches a secondary index). Thus, although
+the overall performance of the query may be dictated by the
+seek and scan time of these indexes, sending the query
+widely in the cluster can increase the variance (and therefore
+overall latency) of the query. Furthermore, an optimization 65
+(e.g., as implemented by an aggregator 20140) may be to
+prioritize the distribution of the data to other partitions to
+[col 2]
+732
+facilitate local processing,for example if two edge nodes
+require shared data and the latency between them is low
+(e.g., such that local replication of data may be cost effec-
+tive).
+Additionally or alternatively, queries that do not match
+any index (e.g., query 20652B) may cause wide distribution
+of the query and potential auto rearrangement to local edge
+devices 20120. From the perspective of the edge devices
+queries that match a secondary index (e.g., query 20652A),
+although they may have a larger local calculation cost (e.g.,
+a local table scan).
+In embodiments, aggregators 20140 and/or other devices
+within the distributed database may perform aggregation in
+various manners. For example, calculations on a numerator
+sum (e.g., SUM, COUNT, AVG statements and the like) may
+be converted (e.g., to SUM(expr)/COUNT(expr) and the
+like). Additionally or alternatively, calculations that require
+a complete knowledge of the dataset (e.g., COUNT DIS-
+TINCT, MEDIAN statements) may be handled in various
+ways. In the case of non-set-based calculations (e.g., calcu-
+lations with SUM or COUNT statements), the aggregations
+can be distributed in the cluster and aggregated dynamically
+efficiently.Additionally or alternatively, in the case of com-
+plete knowledge aggregations, approximation algorithms
+may be used based on the underlying data structure (e.g..
+accepting the results can be within tolerances of error) to
+provide for distribution of a query. For example, a sample of
+data may be used to determine the median value and,
+provided that distributed datasets have a similar shape,
+query results may be efficiently calculated. Additionally or
+alternatively, COUNT DISTINCT results may be estimated
+by probability models showing the expected number of
+distinct values based on the overall size of the dataset.
+In embodiments, ORDER BY queries may leverage
+ordering at the edge node to provide for final merge only
+requirements on data processing at the aggregate level (e.g.,
+at an aggregator 20140).
+In embodiments, for aggregate queries, query results may
+be based on a final output of one or more edge nodes and/or
+may be based on estimates from information stored on the
+dynamic ledger 20150, such as probability distribution mod-
+els 20260. Additionally or alternatively, associative results
+may be calculated at the final node (e.g., the edge device
+20i20 and/or aggregator 20140 that received the query) to
+allow for dynamic data aggregation.
+In embodiments, GROUP BY queries may rely on distri-
+butions of different kinds of aggregates and/or edge device
+aggregation to allow for the final results to be calculated.
+In embodiments, HAVING queries may be based on
+partition algorithm logic or summary frequency analysis
+and/or may be calculated in edge devices where there is
+partition separation and/or at a final node.
+FIGS. 172A-C illustrate example data flows 20700,
+20740, 20780 for creating and query tables of the distributed
+database using a query language (e.g., EDQL) as described
+herein. In the illustrated examples, queries are formatted in
+an SQL format with custom and DDL and DML extensions
+(e.g., EDQL format). However, it should be understood that,
+in some embodiments, the queries may be formatted in other
+query languages. The example data flows 20700, 20740,
+20780 illustrate specific concepts related to distributed joins
+and reference tables that may be used to query a distributed
+database in the context of the edge distributed system as
+described herein.
+FIG. 172A illustrates several example queries 20702A,
+20702B, 20702C that create distributed tables linked by

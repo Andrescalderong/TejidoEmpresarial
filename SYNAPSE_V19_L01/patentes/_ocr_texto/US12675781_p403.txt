@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+555
+intelligence (A1) services 12143. In embodiments, the intel-
+management module 12600, a set of analysis modules
+12610, and a governance library 12620. In embodiments, the
+analysis management module 12600 receives a request for
+an artificial intelligence service and determines the gover-
+nance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 12600
+may determine the governance standards that apply to the
+request based on the type of decision that was requested 10
+and/or whether certain analyses are to be performed with
+respect to the requested decision. For example, a request for
+a control decision that results in the MPR i2100 navigating
+to a nuclear waste treatment site may implicate a certain set
+of governance standards that apply, such as safety standards, 15
+legal standards, quality standards, regulatory standards,
+financial standards or the like, and/or may implicate one or
+more analyses regarding the control decision, such as a risk
+like. In embodiments, the governance standards may be
+defined as a set of standards libraries stored in a governance
+library 12620. In embodiments, the governance library
+12620 may define conditions, thresholds, rules, recommen-
+dations, or other suitable parameters by which a decision
+may be analyzed. In some embodiments, the analysis man-
+agement module 12600 may determine one or more analyses
+that are to be performed with respect to a particular decision
+and may provide corresponding analysis modules 12610 that
+perform those analyses to the artificial intelligence service
+12143. In embodiments, the analysis modules 12610 may
+30
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by the data processing
+ system 12142 that hosts the instance of the intelligence layer
+12140.Continuing the example of the decision for theMPR35
+12100 navigating to a nuclear waste treatment site, the level
+of risk and hazard at the site may need to be analyzed to
+make the navigation decision. Non-limiting examples of
+analysis modules 12610 may include risk analysis
+module(s), security analysis module(s), decision tree analy- 40
+sis module(s), ethics analysis module(s), failure mode and
+effects (FMEA) analysis module(s), hazard analysis
+module(s), quality analysis module(s), safety analysis mod-
+ule(s), legal analysis module(s), financial analysis module(s)
+and/or other suitable analysis modules. 45
+Artificial intelligence services 12143 may include a digi-
+tal twin system 12630, a machine vision system 12618, a
+machine-learning (ML) system 12632, a robotic process
+automation (RPA) system 12652, a natural language pro-
+cessing (NLP) system 12656, an analytics system 12660, 50 s
+and/or a neural network system 12662. The machine learn-
+ing system 12632 may further include machine learning
+models 12664 and reinforcement learning system 12668.
+The digital twin system 12630 may be constructed to
+generate digital twins for MPR 12100, robotic subsystems 55
+like the electromechanical and electro-fluidic system 12108,
+the transport system 12110, the vision and sensing system
+12112 etc., robotic components like batteries, sensors,
+valves, actuators, motors, end effectors etc., robotic policies
+like navigating, grasping, lifting, transporting etc. The digi- 60
+tal twins of the MPR 12i00 may have a visual user interface,
+e.g., in the form of 3D models, and/or may consist of system
+specifications or ontologies describing the architecture,
+including components and their interfaces of the MPR
+12100. The digital twin may be configured to simulate 65
+operation of the MPR 12100 so as to continuously capture
+the key operational metrics and may be used to monitor and
+[col 2]
+556
+optimize the performance of the MPR 12100 in real time.
+The robot digital twin may also be configured to commu-
+nicate with one or more users, twins or other robots via
+multiple communication channels such as speech, text,
+gestures, and the like. For example, the digital twin may
+receive queries from a user about the MPR 12100, generate
+responses for the queries and communicate such responses.
+Further, the digital twin system 12630 may be configured
+with interfaces, such as APIs and the like for receiving
+information from the operating environment of the MPR
+12100.
+In embodiments, the digital twin system 12630 may be
+used to simulate the behavior of the MPR 12100 or one or
+more of its components or subsystems. For example, the
+behavior of the MPR 12100 while grasping a glass bottle and
+moving it from source to destination may be predicted and
+optimized by the intelligence layer 12140. The insights
+gained from analysis and simulation using digital twins may
+be passed onto a reinforcement learning agent for improve-
+20 ment of theseprocesses.
+In embodiments, multiple digital twins of the components
+and subsystems of the MPR 12100 may be integrated
+thereby aggregating data across the value chain network to
+generate a digital twin for the MPR 12100 and to drive not
+only entity-level insights but also system-level insights.
+Similarly, the digital twins of policies may combine to form
+a digital twin of a multi-step task or a job twin. For example,
+the digital twin for transporting may be seen as comprised of
+digital twins of grasping, lifting and navigating.
+The machine vision system 12618 includes software to
+enable the MPR 12100 extract information from digital
+images to recognize one or more objects in the environment
+of the MPR 12100. The machine vision system 12618 may
+execute one or more machine learning algorithms to perform
+one or more machine vision tasks including object classifi-
+cation, object detection, scene classification, pose detection,
+semantic segmentation, instance segmentation and image
+captioning and so on. The machine vision system may
+include pre-trained machine learning models to execute the
+different machine vision tasks including a neural network
+like, convolutional neural network (CNN), transformer net-
+work, Region-based CNN, fast RCNN, mask RCNN and the
+like.
+Machine Learning System
+The machine learning system 12632 may define one or
+more machine learning models 12664 for performing ana-
+lytics, simulation, decision making, and predictive analytics
+related to data processing, data analysis, simulation creation,
+and simulation analysis of one or more components or
+subsystems of the MPR 12100. In embodiments, the
+machine learning models 12664 are algorithms and/or sta-
+tistical models that perform specific tasks without using
+explicit instructions, relying instead on patterns and infer-
+ence. The machine learning models 12664 build one or more
+mathematical models based on training data to make pre-
+dictions and/or decisions without being explicitly pro-
+grammed to perform the specific tasks. In example imple-
+mentations, machine learning models 12664 may perform
+classification, prediction, regression, clustering, anomaly
+detection, recommendation generation, and/or other tasks.
+In embodiments, the machine learning models 12664 may
+perform various types of classification based on the input
+data. Classification is a predictive modeling problem where
+a class label is predicted for a given example of input data.
+For example, machine learning models can perform binary
+classification, multi-class or multi-label classification. In
+embodiments, the machine-learning model may output

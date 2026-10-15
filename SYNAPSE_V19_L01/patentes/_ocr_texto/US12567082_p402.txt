@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+481
+back 12324 to be extracted and sent to the fleet intelligence
+layer 12004. In embodiments, a job execution plan 12310
+may be configured with indicators of types of data to be
+collected and used for learning and optimization feedback
+12324. The fleet intelligence layer 12004 may recommend to
+the job configuration system 12018 the types of data to be so
+indicated based on other factors known to the fleet intelli-
+gence system, such as inquiries made by robot design
+engineering teams and the like. In embodiments, learning
+and optimization feedback 12324 may be used by the fleet 10
+intelligence layer to perform, among other things, optimi-
+zation of artificial intelligence service (e.g., recommending
+robot teams, robot types, workflows, and the like). Referring
+to descriptions herein, preconfigured tasks, robot configu-
+rations, team configurations, and the like may be retrieved 15
+from the library 12314. When these preconfigured aspects of
+a job execution plan are executed, data representative of the
+performance thereof may be flagged for use as learning and
+optimization feedback 12324 to continuously improve these
+preconfigured aspects. An outcome of use of this data 20
+includes field condition-adapted preconfigured tasks b that
+may perform better in the real world. Another outcome of
+use of this data includes improved digital twins and machine
+learningmodels.
+Referring to FIG. 137, embodiments of a job parsing 25
+system 12302 and a task definition system 12304 are
+depicted in an interconnected block and data flow diagram.
+A job description to be parsed may include relevant job
+descriptive details, goals, objectives, requirements, prefer-
+ences and the like and as may be described elsewhere herein. 30
+While not all pertinent job information may be included
+within the request, one or more links to ancillary job
+description data 12404 may be included. Ancillary job data
+12404 may be stored remote from a job request data set (e.g..
+may be accessed through an Internet URL of the job 35
+description). Optionally, ancillary job data 12404 may be
+stored in data structures that are accessible to the fleet
+management platform 12000, such as in a fleet library
+12314, requestor-specific storage, and the like. Ancillary job
+data 12404 may include formal standards (e.g., local distur- 40
+bance regulations, safety (OSHA), electrical (NEC), quality,
+and the like), permitting requirements (e.g., forms, steps,
+timing, dependencies on other tasks, and the like), legal
+requirements (e.g., union approval, relevant laws, and the
+like) details of the job, requestor work standards (e.g-, a 45
+workmanship standard for the requestor), industry norms
+(e.g., work hours, material selection, templates, and the like)
+approved vendors (e.g., from whom supplies and other
+consumables are to be acquired), references to preconfigured
+tasks, user interface templates/menus/screen for each aspect 50
+of a job (e.g., how a user can request status, observe activity,
+change a job requirement, respond to an inquiry, and the
+like) and the like. The job request data and, if indicated, the
+ancillary data 12404 are processed by a task definition
+ingestion facility 12402 that works cooperatively with a job 55
+data conversion module 12403 to generate job instance-
+specific content 12408. This job instance-specific content
+may include, among other things, initial sequence timing as
+may be defined in the input data (e.g., *do task A before task
+B") and/or derived therefrom (e.g-, installing an object 60
+necessarily must occur after the object is received). The job
+data conversion module 12403 may interact with the data
+processing system 12030 when converting job description
+data to utilize information derived from a fleet management
+platform accessible library, such as job and fleet library
+12314. The ingestion facility 12402 may store some job
+description content directly into the job instance storage
+[col 2]
+482
+12408, such as job identification information, links to inter-
+nal ancillary data and the like.
+In embodiments, one or more human interactive capabili-
+ties for facilitating job parsing and task definition may
+include knowledge-based systems (e.g-, Al-based and the
+like) that may interact with a human (e.g-, via text input,
+conversation-bot, haptic-input, and the like) to gather infor-
+mation for preformatting, organizing, and vetting job and
+task data. These interactions may be in lieu of or supple-
+mental to receiving a job description. As an example, a job
+description may include a reference to performing tasks after
+normal work hours, which may include working after sun-
+down. The interactive job description vetting capabilities
+and others mentioned here, may determine that clarification
+could benefit job description parsing and task definition,
+such as will the job require human-suitable illumination and
+if so under what conditions. Because robot sensing may not
+require such illumination (e.g., robot visual functions may
+be met through use of infrared or other non-human visible
+light emissions), human-visible lighting may only be
+required to be deployed at certain times during job execution
+(e.g., at start of a function, when a delivery is being made,
+when a human inspector is on-site, and the like). By pro-
+viding a capability for human interaction as part of job
+parsing, such questions can be asked and answered interac-
+tively.
+The job data conversion module 12403 may use job
+descriptive information produced by or passed through the
+ingestion facility 12402 to construct job instance content
+suitable for task definition. The job data conversion module
+12403 may use the information provided by the ingestion
+facility 12402 to query content in the library 12314 (e.g., via
+the data processing facility 12030 as optionally depicted).
+Content in the library that may be useful or informative of
+task definition may include job syntax (e.g., terms that are
+relevant to a given job, job type, set of tasks and the like,
+and others), robot types, robot capabilities (e.g., by type,
+cost, availability, etc.), keyword-to-task cross reference,
+workflow definition rules,job execution plan format/con-
+tent/structure. Further the library may include templates for
+various task definition-related activities, such as exemplary
+multi-purpose robot configurations (e.g., based on task key-
+word and the like), exemplary team configurations (e.g., for
+performing certain types or classes of tasks), task defini-
+tions, workflows and workflow definitions, exemplary job
+execution plan(s) and the like.
+A keyword-based task lookup module 124010 may
+retrieve information in the job instance storage 12408, such
+as task-oriented keywords and the like and apply those to the
+library 12314 to potentially identify preconfigured or tem-
+plated tasks or portions thereof. As an example, a job
+description may include keywords, such as “"submerged
+and the like that may suggest a need for robots that can
+perform tasks when submerged. When such keywords are
+combined with an action “"submerged excavation", the key-
+word-based task lookup facility 12410 may identify robot
+types that perform excavation and can be submerged. If a
+descriptor of a task in the library aligns with one or more job
+description keywords, the task may be considered a candi-
+date task for the job.
+In embodiments, a task definer module 12412 may pro-
+cess candidate tasks provided by the task lookup module
+12410 as well as information in the job instance storage
+12408 to form definitions 12304D for tasks to be performed
+by one or more robots. Defining tasks may include tasks that
+are predefined by standards, laws, and the like. As an

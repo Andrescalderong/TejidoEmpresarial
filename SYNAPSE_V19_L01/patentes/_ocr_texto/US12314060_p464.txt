@@ -1,0 +1,137 @@
+control signals, abstractions thereof and the like) at the fleet 30 include a job configuration system 13018, a fleet configu-
+[col 1]
+US 12,314,060 B2
+563
+performing certain tasks remotely. The remote-control sys-
+tem 13012 may, based on context of a workflow being
+performed, suggest to a human operator and/or an automated
+control system one or more remote-control signal sequences.
+In embodiments, the remote-control system may process
+input from a human operator (e.g-, commands such as
+"stop", “"unload" and the like), optionally with help of other
+fleet resources (e.g., an artificial intelligence system and the
+like) and generate a set of remote-control signals for
+remotely controlling fleet resource, such as a smart container 10
+operating unit and the like. Remote control signal sequences
+may be preconfigured for handling a range of real-time
+situations, such as security breaches, equipment failure, and
+the like. In addition to facilitating and/or managing remote-
+control of a smart container operating unit, remote-control 15
+signal sequences may be used for reconfiguration of fleet
+resources deployed and/or allocated for a job, task, work-
+flow, and the like. A human operator (or an automated
+system monitor-type application) may provide remote con-
+trol signals that are communicated to the viable members of 20 r
+the team to adjust task roles and actions accordingly, such as
+by communicating a remote-control signal to one or more of
+the viable members to communicate with a smart container
+operating unit configuration server to receive reconfigura-
+tion instructions and reconfiguration data. 25
+Although generally described herein as remote-control
+signals, the remote-control system 13012 may facilitate
+remote-control by arranging remote control signals into
+remote control instructions (e.g., combinations of remote-
+level, team level, smart container level and the like. As an
+example of remote-control instruction functionality, the
+remote-control system 13012 may receive input, such as
+from a human operator desiring to instruct a smart container
+to drive up a ramp onto a container ship. In this example, the 35
+remote-control system may receive the human operator
+remote-control instruction, adapt that instruction into one or
+more different remote-control signals for the smart container
+13026, generate corresponding remote-control signals, and
+ensure communication of those signals (e.g-, via the com- 40
+munication management system i3010 resources) to the
+smart container 13026 to be remotely controlled by the
+human operator.
+ Smart container operating unit responsiveness to aggre-
+gated remote-control signals (e.g-, instructions or set of 45
+instructions) may be based on a wide range of fleet intelli-
+gence capabilities, knowledge, priorities, goals, and the like.
+In general, use of system-based and/or smart container
+operating unit-based artificial intelligence capabilities sup-
+ports wider independent decision-making capabilities for 50 i
+individual smart container operating units with greater con-
+textual gravity.
+In embodiments, the remote-control system 13012 may
+integrate security features to thwart takeover, compromise,
+misuse, or interference with control of remotely controlled 55
+smart container operating units. Resources used by the
+remote-control system 13012 (e.g, data storage resources,
+computing resources, remote-control system state data, and
+the like) may be configured with security features, such as
+encoding, decoding, packetizing, and the like. Further, the
+remote-control system 13012 may include and/or support
+control override capabilities that enable a human operator
+(for example) to securely gain remote-control of a smart
+container that is otherwise not directly engaged with remote-
+control signaling or operating independently of remote- 65
+control signals, such as, autonomously, collaboratively with
+other smart container operating units and the like.
+[col 2]
+564
+In embodiments, the smart container system 13000 may
+include a human interface system 13038 that provides a
+human interface that allows users to access the smart con-
+tainer system 13000 and/or individual smart container oper-
+ating units (e.g-, for remote control) from a remote device
+(e.g., a user device, a VR device, an AR device, and/or the
+like). In embodiments, the human interface system 13038
+facilitates freight storage and/or transportation service order
+entry (including any job-related parameters), fleet operations
+management, fleet resource management, fleet computing
+system, software and data structure management (e.g., sys-
+tem upgrades and the like), human access to smart container
+operating units (e.g., for remote control of a smart container
+operating unit), augmented and/or virtual reality visualiza-
+tions of fleet operation, and data extraction (e.g., for gen-
+eration of and/or validation of smart contracts associated one
+or more freight storage and/or transportation service orders
+and the like). As an example of use of a human interface
+requested job via the human interface system 13038. The
+user may use a remote device to observe smart container
+operating units performing tasks for the requested job. In
+this example, the human interface system 13038 may inter-
+act with other fleet components, such as the order execution
+system 13022, to direct image capture resources (e.g., cam-
+era-based overhead drones) to provide images of smart
+container operating units assigned to and currently perform-
+ing job tasks.
+In embodiments, the fleet management system 13002 may
+ration system 13020, a resource provisioning system 13014,
+a logistics system 13016, and an order execution, monitor-
+ing, and reporting system 13022 (also referred to as a "order
+execution system" 13022).
+In embodiments, the fleet management system 13002
+includes a resource provisioning system 13014 that manages
+provisioning resources for smart container operating units in
+a fleet, such as provisioning resources for smart container
+teams, smart container fleets, smart containers, and/or sup-
+porting resources (e.g, edge devices, communication
+devices, container ships, cranes, additive manufacturing
+systems (e.g., 3D printers), and the like). In embodiments,
+resources may include physical resources, digital resources,
+and/or consumable resources.Examples of physical
+resources may include, but are not limited to, end effectors/
+manipulators, environmental shielding components, sensors
+and/or sensor systems, companion resources (e.g., drones,
+robots, container ships, trucks, railway systems, cranes, lifts,
+and the like), hardware resources (e.g-, specialized process-
+ing modules, data storage, networking modules, tethering
+modules, and the like), spare parts, human resources (e.g.,
+technicians, operators, and the like), power sources (e.g..
+generators, portable batteries), and the like. Non-limiting
+examples of digital resources may include software, oper-
+ating parameters, job-specific data sets, and the like. Non-
+limiting examples of consumable resources may include
+fuel, packaging supplies, welding supplies, washdown/
+cleanup supplies, and many others.
+In embodiments, the resource provisioning system 13014
+6o may provision physical resources from an inventory of
+physical resources, such as fleet-specific inventories,
+regional public-use inventories, rental/per-use fee-based
+resource inventories, on-demand resource production sys-
+tems (e.g., 3D printing of end effectors and the like), third
+party inventories, and the like.
+In embodiments, the resource provisioning system 13014
+may work cooperatively with other systems of the fleet

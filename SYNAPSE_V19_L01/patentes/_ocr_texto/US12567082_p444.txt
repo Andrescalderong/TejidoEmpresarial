@@ -1,0 +1,133 @@
+[col 1]
+US 12,567,082 B2
+565
+delivery of parts (e.g., replacement parts, end effectors,
+supplies, and the like). In embodiments, the logistics system
+13016 can leverage intelligence services, such as machine
+learning systems and/or artificial intelligence systems to
+recommend logistics plans.
+Logistics plans may refer to a workflow that is generated
+to result in the delivery of a set of items to a particular
+location. In embodiments, the logistics system 13016 may
+generate logistics plans that utilize fleet resources (e.g.,
+smart containers, container ships, robots, trucks, cranes, 10
+railways, or the like) for execution of a logistics plan. In
+embodiments, the fleet operation system 13002 may lever-
+age the (system-level) intelligence service 13004 to assist in
+logistics planning and decision-making.
+In embodiments, the fleet management system 13002 15
+includes a maintenance management system 13028 that may
+be configured to schedule and effectuate maintenance for
+fleet resources, such as smart container operating units. A
+maintenance management system 13028 may handle field
+maintenance needs and requests, including scheduled main- 20
+tenance of fleet recourses in the field to mitigate impact on
+smart container operating unit utilization due to travel from
+a deployed job site to a repair depot. The maintenance
+management system 13028 may also coordinate mainte-
+nance and repair operations at repair depots, and the like. In 25
+embodiments, a maintenance management system 13028
+may include, provide access to, and/or be integrated with
+mobile maintenance vehicles, spare parts depots, third-party
+maintenance service providers and the like. In embodiments,
+maintenance needs for fleet resources housed in storage 301
+areas, such as warehouses, remote inventory depots and the
+like may be evaluated by the maintenance management
+ system 13028 for pre-scheduled maintenance, such as when
+a preventive maintenance activity for a smart container is
+maintenance during a deployment.
+In embodiments, the maintenance management system
+13028 may monitor the state of the fleet resources, such as
+smart container operating units, via resource state reports
+that may be provided on a scheduled basis or in response to 40
+an inquiry for smart container operating unit state by the
+maintenance management system 13028 and the like. In
+embodiments, the maintenance management system 13028
+may monitor smart container operating unit communication
+for an indication of a potential service condition, such as a 45
+ing reduced power output, a smart container operating unit
+reporting _exposure to certain ambient conditions (e.g..
+excessive heat), a smart container operating unit reporting a
+leak involving liquid cargo that requires cleaning, a lack of 50
+heartbeat signal from a smart container operating unit to a
+smart container health monitor resource, and the like. Fur-
+ther, a maintenance management system 13028 may deploy
+tions on a smart container operating unit, such as monitoring
+information ina smart containerdata storethat stores smart
+container operating unit state information, activating self-
+test operating modes, collection of data that provides indi-
+cations of smart container maintenance needs, and the like. 60
+Yet further, a maintenance management system 13028 may
+include maintenance robots that may be deployed with smart
+containers in a team of smart container operating units for
+performing a requested job.
+A maintenance management system 13028 may be con- 65 
+structed to take advantage of a range of system services and
+capabilities to schedule and effectuate maintenance, includ-
+[col 2]
+566
+ing leveraging human/operator input (e.g., a human observer
+may indicate that a smart container operating unit appears to
+be operating erratically), smart container process automation
+of maintenance activities, artificial intelligence for predict-
+ing maintenance instances for scheduling, machine learning
+to help identify new opportunities for scheduling and per-
+forming maintenance (e.g., analyze performance of smart
+container operating units that have been maintained for
+certain conditions before operating under those conditions,
+before operating in a high temperature environment), and the
+like. In embodiments, a maintenance management system
+13028 may receive maintenance-related input. In embodi-
+ments, candidate sources of maintenance related input may
+include human operators/observers, maintenance scheduling
+services, third-party service providers, smart container pro-
+duction vendors, and parts providers to schedule mainte-
+nance. The maintenance management system 13028 may
+also leverage business rules (e.g-, rules established for a
+team, fleet, by a shipper, determined by a regulatory agency,
+and the like), association tables, data sets, databases, and/or
+maintenance management libraries to determine appropriate
+maintenance workflows, service actions, needed parts, and
+the like. In embodiments, a maintenance activity may be
+assigned by the maintenance management system to a fleet
+resource, such as a maintenance smart container, a human
+technician, a third-party service provider, and the like.
+In embodiments, smart container operating units that are
+deployed may be configured with one or more maintenance
+protocols to perform, among other things, self-maintenance,
+such as self-cleaning, calibrating end effector operations,
+and the like. Self-maintenance may include, without limi-
+tation, reduction in capabilities responsive to detection of a
+compromised smart container operating unit feature, such as
+cargo (e.g., steel strapping, polyester strapping, dunnage
+bags, or the like). A deployed smart container operating unit
+may determine that a capability is compromised and, option-
+ally with support of the maintenance management system
+13028,may switch assignmentswithanother smart con-
+tainer so that the compromised capability can be resolved
+when time permits rather than causing a delay in completion
+of a shipment. Also, smart container operating unit intelli-
+gence (e.g., on-smart container AI and the like) may predict
+a compromise in smart container capabilities based on, for
+example, time-to-failure data for the smart container capa-
+bility.
+In embodiments, the maintenance management system
+13028 may leverage the intelligence service 13004 (e.g., the
+system level intelligence service 13004) to predict when
+maintenance may be performed for smart container operat-
+ing units and/or components thereof. In some of these
+embodiments, the maintenance management system 13028
+may request a digital twin of a smart container operating unit
+from the intelligence service 13004. In these embodiments,
+the digital twin may reflect a current condition of the smart
+container operating unit, such that the smart container oper-
+ating unit digital twin may be analyzed to determine whether
+maintenance is required for the smart container operating
+unit. Additionally, or alternatively, the digital twin service of
+the intelligence service 13004 may run one or more simu-
+lations involving the smart container operating unit to pre-
+dict when maintenance may be required. In some of these
+embodiments, outputs of the digital twin of the smart
+container operating unit may be analyzed (e.g., using a
+machine-learned prediction model or a neural network) to
+predict if/when maintenance may be required.

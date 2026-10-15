@@ -1,0 +1,134 @@
+In embodiments, the navigation system 12154 may work 35 system 12144, the motion planning system 12158, the
+detected objects and its own location, with respect to the 55 includes one or more interfaces that are configured to
+[col 1]
+US 12,314,060 B2
+501
+In embodiments, the communication system 12152 is
+constructed to enable efficient, high speed electronic and
+wireless communication among components and subsys-
+tems of the MPR 12100 as well as communication of the
+MPR 12100 with fleet operation system and its elements as
+described herein, external data sources 12036, third party
+systems (e.g., via an Internet and the like), robot operating
+units, support systems and equipment, human fleet resources
+and the like. The communication system 12152 may include
+or provide access to one or more network types, such as 10
+wired, wireless and the like that may support various data
+protocols, such as Internet Protocol (IP), Bluetooth commu-
+nication protocol, wireless communication protocols (e.g.
+IEEE 802, 4G communication protocol, 5G communication
+protocol), and/or the like. In embodiments, the communi- 15
+cation system 12152 may leverage intelligence services to
+configures, prioritizes and controls data and resources to
+various systems internal and external to the MPR 12100.
+In embodiments, the navigation system 12154 allows the
+MPR 12100 to navigate known,partially known and 120
+unknown environments by establishing its own position and
+orientation within the environment (localization)while cre-
+ating a map of the environment (mapping) as it moves
+around in the environment. In some embodiments, the
+navigation system 12154 may employ Simultaneous Local- 25
+ization and Mapping (SLAM) for autonomous navigation of
+robots by recognizing its own position using a sensor while
+mapping the environment. The SLAM algorithm creates a
+map of the surrounding environment at the initial position
+and estimates the position of the robot and the map of the 30
+ surrounding environment by repeating the process of finding
+the position of the moved robot based on the created map.
+The navigation system 12154 may utilize additional or
+alternative navigation algorithms as well.
+with vision and sensing system 12112 to generate one or
+more images of the MPR 12100 within its environment.
+Such images may be clicked by cameras and image sensors
+of the vision and sensing system 12112 and may include one
+or more images clicked using the camera 12608 with the 40
+conformable variable focus liquid lens 12612. The images
+may be to the machine vision system 12618 may utilize one
+or more neural network models including CNN or RCNN to
+locate theMPR12100.Additionally,multiple other sensors
+like motion sensor, depth sensor, proximity sensor, LIDAR 45 f
+etc,may be used in conjunction with one another to localize
+the MPR 12100 more accurately within its environment.
+Further, the in some embodiments, the navigation system
+objects that surround the robot. The MPR 12100 traverses
+through this map and attempts to measure range to each
+object, either through imaging, laser range finding, or ultra-
+sonics, and continuously updates both the location of the
+objects.
+In embodiments, the navigation system 12154 may also
+work with the motion planning system 12158 to plan the
+path of the robot and/or the task management system 12144
+(in conjunction with the robot-level intelligence layer 60
+12140) to determine an optimal navigation policy within the
+environment. In some embodiments, the navigation system
+12154 coordinates with robot control system 12150 to
+generate control instructions to effectuate movement of one
+or more actuators or motors in accordance with the naviga- 65
+tion policy enabling the MPR 12100 navigate its environ-
+ment.
+[col 2]
+502
+In embodiments, the safety and compliance system 12156
+is configured to perform safety assessments, including
+mechanical safety, electrical safety and functional safety. In
+embodiments, the safety and compliance system 12156 is
+configured to ensure compliance with one or more safety
+standards and generate workflow and process control docu-
+mentation to obtain certificates of conformance from one or
+more standards or certifications authorities. In embodiments,
+safety and compliance system 12156 ensures compliances
+with one or more Standards Authorities include International
+Organization for Standardization (ISO), Underwriters Labo-
+ratories (UL), TUV SUD, ANSI (American National Stan-
+dards Institute) and the like. For example, ISO 10218
+describes four separate robot-human collaborative operating
+able risks. Similarly, ISO/TS 15066 provides technical
+specification and engineering guidance for users to conduct
+risk assessments when installing collaborative robot. In
+some embodiments, the safety and compliance system
+12156 may leverage the intelligence services in making
+safety assessments.
+In embodiments, the motion planning system 12158 may
+be configured to control the motion of the MPR 12100 or
+portions thereof and build an optimal collision free path for
+the MPR2B00. Example embodiments of the motion plan-
+ning system 12158 are described in further detail in con-
+junction with FIG. 140.
+In embodiments, the controller 12160 in the control
+system may drive the actuators in the transport system
+12110, end effectors, or other any other electro-mechanical
+component of the MPR2BO0, thereby enabling the MPR
+12100 to perform at least a portion of a task. In embodi-
+ments, the controller 12160 may receive signals from one or
+more of the navigation system 12154, the task management
+communication system 12152, and/or the module manage-
+ment system 12148 to determine a control signal to issue to
+an implicated actuator, which the controller 12160 may
+output to the implicated actuator.
+In embodiments, the module system 12120 may be con-
+figured to provide one or more task specific capabilities to
+the MPR i2100 using one or more configurable and inter-
+changeable hardware and software modules. In embodi-
+ments, the module system 12120 includes the control inter-
+face module 12130 and/or a physical interface module
+12122. In embodiments, the control interface module 12130
+may include one or more software modules to provide
+connectivity, power, security, sensing, computing and arti-
+ficial intelligence (AI) like capabilities. In embodiments, the
+physical interface module 12122 may include one or more
+end effectors, or end of arm tooling systems configured to
+provide the MPR 12100 with the ability to perform certain
+operational tasks.
+In embodiments, a control interface module 12130
+receive respective modules configured to enhance various
+capabilities of the MPR2B00 such as sensing capabilities,
+power capabilities, networking capabilities, edge computing
+capabilities, and/or the like. Such capabilities may enable
+the MPR2B00 to perform specialized functions such as
+specialized sensing and evaluation and to work in environ-
+ments with edge and networking constrains, power con-
+straints,mobility constraints and the like.
+In embodiments, the control interface module 12130 may
+includenetworkingmodules12131, sensor modules 12132
+computing modules 12133,security modules 12134,AI
+modules 12135, communications modules 12136 and user

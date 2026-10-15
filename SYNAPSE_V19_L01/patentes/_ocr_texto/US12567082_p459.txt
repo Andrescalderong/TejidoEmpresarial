@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+595
+element (e.g., a smart container) to view additional infor-
+mation regarding the element (e.g. the state of a smart
+container, properties of the smart container, or the like). In
+some embodiments, the digital twin may be rendered and
+output in a virtual reality display. For example, a user may
+view a 3D rendering of a shipping environment (e.g-, using
+monitor, augmented reality headset, or virtual reality head-
+set). While doing so, the user may view/inspect digital twins
+of smart containers, physical assets, devices, or the like in
+the environment.
+In some embodiments, a data structure of the visual digital
+twins (i.e., digital twins that are configured to be displayed
+in a 2D or 3D manner) may include surfaces (e.g. splines,
+meshes, polygons meshes, or the like). In some embodi-
+ments, the surfaces may include texture data, shading infor-
+mation, and/or reflection data. In this way, a surface may be
+displayed in a more realistic manner. In some embodiments,
+such surfaces may be rendered by a visualization engine (not
+shown) when the digital twin is within a field of view and/or
+when existing in a larger digital twin (e.g., a digital twin of
+a shipping environment). In these embodiments, the digital
+twin module 13420 may render the surfaces of digital
+objects, whereby a rendered digital twin may be depicted as
+a set of adjoined surfaces.
+In embodiments, a user may provide input that controls 25 e
+interface. For example, a user may provide input that
+changes a property of a digital twin. In response, the digital
+twin module 13420 can calculate the effects of the changed
+property and may update the digital twin and any other 3o t
+digital twins affected by the change of the property.
+In embodiments, a user may view processes being per-
+formed with respect to one or more digital twins (e.g..
+last-mile customization of a product via a 3D printer in the
+smart container, cargo inspection, cargo sorting, and the 35
+like). In these embodiments, a user may view the entire
+process or specific steps within a process.
+In some embodiments, a shipping digital twin (and any
+non-visual representation (or"data representation").In these
+embodiments, a digital twin and any embedded digital twins
+exist in a binary representation, but the relationships
+between the digital twins are maintained. For example, in
+embodiments, each digital twin and/or the components
+thereof may be represented by a set of physical dimensions 45
+that define a shape of the digital twin (or component
+thereof). Furthermore, the data structure embodying the
+digital twin may include a location of the digital twin. In
+some embodiments, the location of the digital twin may be
+provided in a set of coordinates. For example, a digital twin 50
+of a shipping environment may be defined with respect to a
+coordinate space (e.g., a Cartesian coordinate space, a polar
+coordinate space, or the like). In embodiments, embedded
+digital twins may be represented as a set of one or more
+ordered triples (e.g., [x coordinate, y coordinate, z coordi- 55
+nates] or other vector-based representations). In some of
+these embodiments, each ordered triple may represent a
+location of a specific point (e.g., center point, top point,
+bottom point, or the like) on the shipping entity (e.g., smart
+container, object, device, sensor, or the like) in relation to the 60
+environment in which the shipping entity resides. In some
+embodiments, a data structure of a digital twin may include
+a vector that indicates a motion of the digital twin with
+respect to the environment. For example, fluids (e.g., liquids
+or gasses) or solids may be represented by a vector that 65
+indicates a velocity (e.g-, direction and magnitude of speed)
+of the entity represented by the digital twin. In embodi-
+[col 2]
+596
+ments, a vector within a digital twin may represent a
+microscopic subcomponent, such as a particle within a fluid,
+and a digital twin may represent physical properties, such as
+displacement, velocity, acceleration, momentum, kinetic
+energy, vibrational characteristics, thermal properties, elec-
+tromagnetic properties, and the like.
+In some embodiments, a set of two or more digital twins
+may be represented by a graph database that includes nodes
+and edges that connect the nodes. In some implementations,
+10 an edge may represent a spatial relationship (e.g., "abuts",
+ments, each node in the graph database represents a digital
+twin of an entity (e.g., a shipping entity) and may include the
+data structure defining the digital twin. In these embodi-
+ments, each edge in the graph database may represent a
+relationship between two entities represented by connected
+nodes. In some implementations, an edge may represent a
+spatial relationship (e.g., “abuts", “"rests upon", “interlocks
+with", *bears", "contains", and the like). In embodiments,
+various types of data may be stored in a node or an edge. In
+embodiments, a node may store property data, state data,
+and/or metadata relating to a facility, system, subsystem,
+and/or component. Types of property data and state data will
+differ based on the entity represented by a node. For
+example, a node representing a shipping robot may include
+property data that indicates a material of the robot, the
+dimensions of the robot (or components thereof), a mass of
+the robot, and the like. In this example, the state data of the
+robot may include a current pose of the robot, a location of
+the robot (e.g., within a smart container or on a container
+ship), or the like. In embodiments, an edge may store
+relationship data and metadata data relating to a relationship
+between two nodes.Examples of relationship data may
+include the nature of the relationship, whether the relation-
+ship is permanent (e.g., a fixed component would have a
+permanent relationship with the structure to which it is
+attached or resting on), and the like. In embodiments, an
+edge may include metadata concerning the relationship
+between two entities. For example, a sensor may take
+measurements relating to a state of a smart container,
+whereby one relationship between the sensor and the smart
+surement type that is measured by the sensor. In this
+example, the metadata stored in an edge may include a list
+of N measurements taken and a timestamp of each respec-
+tive measurement. In this way, temporal data relating to the
+nature of the relationship between two entities may be
+maintained, thereby allowing for an analytics engine,
+machine-learning engine, and/or visualization engine to
+leverage such temporal relationship data, such as by aligning
+disparate data sets with a series of points in time, such as to
+facilitate cause-and-effect analysis used for prediction sys-
+tems.
+In some embodiments, a graph database may be imple-
+mented in a hierarchical manner, such that the graph data-
+base relates a set of facilities, systems, and components. For
+example, a digital twin of a shipping environment may
+include a node representing the shipping environment. The
+graph database may further include nodes representing vari-
+ous systems within the shipping environment, such as nodes
+representing a smart container fleet, a smart container charg-
+ing area, a storage area, and the like, all of which may
+connect to the node representing the shipping environment.
+In this example, each of the systems may further connect to
+various subsystems and/or components of the system. For
+example, the smart container system may connect to a
+subsystem node representing a cooling system of the smart

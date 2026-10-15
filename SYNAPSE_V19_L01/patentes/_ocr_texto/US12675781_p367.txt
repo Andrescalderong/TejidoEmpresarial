@@ -1,0 +1,136 @@
+automation systems that undertake automation of a set of 45 robot operating units, teams, tasks, fleet resources and/or a
+[col 1]
+US 12,675,781 B2
+483
+to perform certain tasks based on the learned patterns and
+processes, such that the tasks may be performed by the RPA
+system 12216 in lieu or in support of a human decision
+maker. Examples of the RPA systems 12216 may encompass
+those in this disclosure and in the documents incorporated
+by reference herein and may involve automation of any of
+the wide range of value chain network activities or entities
+described therein. In embodiments, the artificial intelligence
+services 12204 may include and/or provide access to an
+analytics system 12218. In embodiments, an analytics sys- 10
+tem 12218 is configured to perform various analytical pro-
+cesses on data output from fleet functional components, such
+as the fleet configuration system 12020, robot operating
+units, and the like. In example embodiments, analytics
+produced by the analytics system 12218 may facilitate 15
+quantification of fleet system and system module perfor-
+mance as compared to a set of goals and/or metrics. The
+goals and/or metrics may be preconfigured, determined
+dynamically from historical fleet operations results, and the
+like. An analytics system 12218 may be confirmed to
+perform various analytics-based processes on behalf of the
+platform 12000, robot fleets, teams, and/or individual
+robots. Examples of analytics processes that can be per-
+formed by an analytics system 12218 are discussed below
+and in the document incorporated herein by reference. In 25
+some example implementations, analytics processes may
+include tracking goals and/or specific metrics that involve
+coordination of supply chain activities that may involve
+robotic capabilities (such as picking items and preparing it
+for delivery by an autonomous vehicle, among many others) 3os
+and demand intelligence, such as involving forecasting
+demand for a set of relevant items by location and time
+(among many others).
+In embodiments, a value chain network analytic system
+of demand intelligence robotic process automation data to
+produce a recommended action that coordinates supply and
+demand for a set of goods or other items. In embodiments,
+a value chain network automation system is provided that
+includes a supply chain robotic fleet data set including 40
+attributes of a set of states and capabilities of a set of robotic
+systems in a supply chain for a set of goods; a demand
+intelligence robotic process automation data set including
+attributes of a set of states of a set of robotic process
+demand forecasting tasks for the set of goods; and a coor-
+dination system that provides a set of robotic task instruc-
+tions for the supply chain robotic fleet based on processing
+the supply chain robotic fleet data set and the demand
+intelligence robotic process automation data set to coordi- 5o 
+nate supply and demand for the set of goods.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a digital twin system
+12220. The digital twin system 12220 may encompass any
+of a wide range of features and capabilities described herein 55
+and in the documents incorporated herein by reference. In
+embodiments, a digital twin system 12220 may be config-
+ured to provide, among other things, execution environ-
+ments for and different types of digital twins, such as twins
+of physical environments, twins of robot operating units, 60
+logistics twins, and the like. In example embodiments, a
+digital twin system 12220 may further be constructed to
+generate digital twins for fleet resources, job aspects and the
+like, such as robot operating units assigned to a team; robot
+operating units in a fleet and the like. For example, a digital 65
+twin system 12220 may generate digital twins of robot
+resources (e.g., exchangeable end effectors, power supplies,
+[col 2]
+484
+communication capabilities, motive adaptors, and the like).
+Further the digital twin system 12220 may be configured
+with interfaces, such as APIs and the like for receiving
+information from external data sources, such as data
+received from a physical robot operating unit and/or an
+environment thereof. For instance, the digital twin system
+12220 may receive real-time data from sensor systems of a
+robot operating unit and/or sensor systems of the physical
+environment in which the robot operating unit operates. In
+embodiments, the digital twin system 12220 may receive
+digital twin data from other suitable data sources, such as
+third-party services (e.g., weather services, traffic data ser-
+vices, logistics systems and databases, and the like. In
+embodiments, the digital twin system 12220 may include
+digital twin data representing features, states, or the like of
+value chain network entities, such as supply chain infra-
+structure entities, transportation or logistic entities, contain-
+ers, goods, or the like, as well as demand entities, such as
+customers, merchants, stores, points-of-sale, points-of-use,
+20 and the like.The digital twin system 12220 may be inte-
+grated with or into, link to, or otherwise interact with an
+interface (e.g., a control tower or dashboard), for coordina-
+tion of supply and demand, including coordination of auto-
+mation within supply chain activities and demand manage-
+ment activities.
+In embodiments, a digital twin system 12220 may provide
+access to and manage a library of robot operating unit digital
+twin systems. Systems, such as an artificial intelligence
+services 12240 may access the library to perform functions,
+such as a simulation of actions of a robot operating unit in
+to certain stimuli. In embodiments, a digital twin system
+12220 may include and provide access to as well as facilitate
+execution of robot twins (e.g., digital twin of individual
+robot operating units), task twins (e.g-, digital representation
+oftasks as defined by, for example the task definition system
+and/or pre-configured library of robot task building blocks,
+which may be optimized for certain job conditions/require-
+ments), team twins (e.g., digital embodiment of designated
+teams of robotoperating units that may include digital twins
+ofindividual robot operating units and the tasks that they are
+performing and/or pre-configured task-range-specific team
+twins), project twins (e.g., digital embodiment of a defined
+job execution plan, optionally including digital twins for
+set of preconfigured project-specific project twins that can
+address a range of specific tasks), fleet twins (e.g., an
+aggregation of robot operating unit digital twins along with
+fleet operational and organizational models that take into
+consideration cross-job fleet functions, such as maintenance,
+robot operating unit retirement and replacement, backup
+robot operating units and the like), operator twins (e.g., a
+digital embodiment of a human operator, such as may be
+determined through use of robotic process automation and
+the like), logistics twins (e.g-, digital modeling for shipment
+and cost of robots, personnel, and support equipmentjob
+independent and as needed for addressing a particular job
+request), environment twins (e.g., modeling mobility con-
+straints and required capabilities, edge and networking con-
+straints and capabilities, and power constraints and capa-
+bilities), and the like.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a machine vision
+system 12222. In embodiments, a machine vision system
+12222 is configured to process images (e.g., captured by a
+camera) to detect and classify objects in the image. In
+embodiments, the machine vision system 12222 receives

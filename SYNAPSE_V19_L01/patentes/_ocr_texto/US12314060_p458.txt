@@ -1,0 +1,135 @@
+nate proposed decision until a conforming decision is 35 be used to detect illicit and/or illegal items being shipped. In
+[col 1]
+US 12,314,060 B2
+551
+sis module(s), regulatory analysis module(s), legal analysis
+module(s), and/or other suitable analysis modules.
+In some embodiments, the analysis management module
+13406 is configured to determine which types of analyses to
+perform based on the type of decision that was requested by
+an intelligence service client 13324. In some of these
+embodiments, the analysis management module 13406 may
+include an index or other suitable mechanism that identifies
+a set of analysis modules 13408 based on a requested
+10 decision type. In these embodiments, the analysis manage-
+ment module 13406 may receive the decision type and may
+determine a set of analysis modules 13408 that are to be
+executed based on the decision type. Additionally, or alter-
+natively, one or more governance standards may define
+when a particular analysis is to be performed. For example,
+the engineering standards may define what scenarios neces-
+sitate a FMEA analysis. In this example, the engineering
+standards may have been implicated by a request for a
+particular type of decision and the engineering standards 20 systems or models.
+may define scenarios when an FMEA analysis is to be
+performed. In this example, artificial intelligence modules
+13404 may execute a safety analysis module and/or a risk
+analysis module and may determine an alternative decision
+if the action would violate a legal standard or a safety 25
+standard. In response to analyzing a proposed decision,
+artificial intelligence modules 13404 may selectively output
+the proposed condition based on the results of the executed
+analyses. If a decision is allowed, artificial intelligence
+modules 13404 may output the decision to the requesting 30
+intelligence service client 13324. If the proposed configu-
+ration is flagged by one or more of the analyses, artificial
+intelligence modules 13404 may determine an alternative
+decision and execute the analyses with respect to the alter-
+obtained.
+It is noted here that in some embodiments, one or more
+analysis modules 13408 may themselves be defined in a
+standard, and one or more relevant standards used together
+may compriseaparticularanalysis.Forexample,theappli-4o
+cable safety standard may call for a risk analysis that can use
+one or more allowable methods. In this example, an ISO
+standard for overall process and documentation, and an
+ASTM standard for a narrowly defined procedure may be
+employed to complete the risk analysis required by the 45 c
+safety governance standard.
+As mentioned, the foregoing framework of an intelligence
+service 13004 may be applied and/or leveraged at various
+levels of a value chain. For example, in some embodiments,
+a platform level intelligence system may be configured with 50
+the entire capabilities of the intelligence service 13004, and
+certain configurations of the intelligence service 13004 may
+be provisioned for respective value chain entities. Further-
+more, in some embodiments, an intelligence service client
+13324, such as the smart container system 13000, may be 55 i
+configured to escalate an intelligence system task to a
+higher-level value chain entity (e.g., edge-level or the plat-
+form-level) when the intelligence service client 13324 can-
+not perform the task autonomously. It is noted that in some
+embodiments, an intelligence service controller 13402 may 60
+direct intelligence tasks to a lower-level component. Fur-
+thermore, in some implementations, an intelligence service
+13004 may be configured to output default actions when a
+decision cannot be reached by the intelligence service 13004
+and/or a higher or lower-level intelligence system. In some 65
+of these implementations, the default decisions may be
+defined in a rule and/or in a standards library.
+[col 2]
+In embodiments, a “"set" of machine-learned models may
+include a set with multiple members. In embodiments, a
+"set" of machine-learned models may include hybrids of
+different types of models (e.g., hybrids of RNN and CNN).
+In one example, a set of machine-learned models may be
+used for smart container predictive maintenance. In this
+example, the intelligence service 13004 may receive 0order
+data, historical order data, maintenance data, weather data,
+and/or video feed from sensors inside a smart container for
+the user device 13094 and may generate a set of feature
+vectors based on the received data. The intelligence service
+13004 may input the feature vectors into machine-learned
+models trained (e.g., using a combination of simulation data
+and real-world data) to predict when a particular smart
+container will require maintenance, such as based on a
+training data set of outcomes. In embodiments, the intelli-
+gence service 13004 may include an input set of training
+data representing predictions or the probability of required
+maintenance by a set of human experts and/or by other
+In yet another example, a set of machine-learned models
+may be used to predict the traffic at a container terminal at
+a given point in time. In this example, the intelligence
+service 13004 may receive historical container terminal
+traffic data, maritime data, news data, and weather data and
+may generate feature vectors based on the received data. In
+embodiments, feature vectors may include other data, such
+as data characterizing container terminal layout elements
+upon which traffic may depend. The intelligence service
+13004 may input the feature vectors into machine-learned
+models trained (e.g., using a combination simulation data
+and real-world data) to predict the traffic at a container
+terminal.
+In another example, a set of machine-learned models may
+this example, the intelligence service 13004 may receive
+order data, shipper data, historical cargo data, and/or video
+feed and other sensor data from sensors disposed inside of
+a smart container and may generate feature vectors based on
+the received data. The intelligence service 13004 may input
+the feature vectors into machine-learned models trained
+(e.g., using a combination of simulation data and real-world
+data) to detect illicit and/or illegal items. In embodiments,
+detection of illicit and/or illegal items may involve a set of
+distinct models that are respectively trained based on train-
+ing data sets and/or feature vector inputs that are specific to
+jurisdictional factors, including laws or regulations (e.g,
+training with awareness of legality), cultural factors (e.g..
+where whether the item is considered illicit varies based on
+cultural norms, and the like. In embodiments, training may
+include providing, such as through human experts, informa-
+tion about alternative terminology, or the like, that shippers
+or other users may employ to describe illegal or illicit items
+(such as when shippers or other users describe the cargo to
+be shipped in an order), such as code words, euphemisms, or
+the like. In embodiments, a model may be trained to provide
+a word cloud, cluster of words, or other features, such as to
+facilitate recognition of illegal or illicit items and/or recog-
+nition of words, images, or other elements used to charac-
+terize them. As one non-limiting example, a self-organizing
+map (SOM) may be employed to generate a mapping of
+entities, such as mapping entities, classes, objects, work-
+flows, or the like to jurisdictions, to topics, to each other, or
+the like. Additionally, or alternatively, the machine-learned
+models may be configured to identify container contents.
+In another example, a set of machine-learned models may
+be used to provide decision support related to the pricing of

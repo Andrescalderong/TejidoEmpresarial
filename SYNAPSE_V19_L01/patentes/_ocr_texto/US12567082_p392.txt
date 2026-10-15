@@ -1,0 +1,137 @@
+gence services may be configured to learn task workflows, 35 storage, bandwidth, and the like as may be defined by and/or
+[col 1]
+US 12,567,082 B2
+461
+job configuration system 12018 may determine the projects,
+workflows, and tasks using a combination of techniques and
+resources including: (i) artificial intelligence techniques to
+define the projects, workflows, and/or tasks; (ii) libraries that
+can define default configurations of different types of jobs
+and/or projects; (ii) robotic process automation; (iv) intel-
+ligence services (e.g., deep learning); and (v) quantum
+optimization.
+In embodiments, quantum optimization may be enabled
+by a quantum optimization system 12008 that may optimize 10
+task assignment across fleet resources, such as robot oper-
+ating units and the like. A quantum optimization system
+12008 may further optimize routing (logical, physical, and
+electronic) associated with robot fleets, jobs, team, commu-
+nications, logistics and the like. Additionally or alterna- 15
+tively, in some embodiments a quantum optimization system
+12008 may be employed to optimize combinations of
+robotic resource with other resources across a variety of fleet
+functions including workforce diversity, energy consump-
+tion, computational capacity and utilization, infrastructure 20
+resource planning, engagement and utilization, risk manage-
+ment, computing storage capacity, and the like.
+In embodiments, a job configuration system 12018 and
+other fleet resources (e.g., fleet configuration, platform intel-
+ligence, robot operation and the like) may benefit from use 25
+of deep learning techniques for task, workflow, and job
+execution plan optimization as well as for learning, among
+other things, from failures. In these embodiments, the job
+configuration system 12018 may request deep learning ser-
+vices from the platform 12000-level intelligence layer 30
+12004, which leverages neural networks and/or other
+machine-learned models to determine job configurations
+based on a set of features, including features extracted from
+a job request. In these embodiments, the artificial intelli-
+job configurations, and the like.
+In embodiments, job configuration, fleet configuration
+(which may include robot configuration), and/or as job
+execution may further enhance fleet functions, performance,
+and outcomesthrough use of local context-adaptivetask 4o
+assignment, execution, resource routing and the like. This
+adaptive capability may be further enabled through peer-to-
+peer based communication (e.g-, robot operating units
+within a team) that reveals context of job activities rapidly
+and efficiently.
+In embodiments, artificial intelligence for automation of
+multi-purpose robot task assignment and execution (e.g..
+robotic process automation through learning) may function
+cooperatively with elements of the fleet management plat-
+form 12000, such as a fleet operations system 12002 and 50 
+platform intelligence layer 12004, to learn robot assignment
+from, for example, human operator assignment activity.
+Other learning that an artificial intelligence system may
+yield in context of robot fleet configuration and operation
+may be based on outcome measures of success including 55
+task completion, time to completion, cost of completion,
+quality of completion, ROI for resources, resource utiliza-
+tion, and others.
+These and other job configuration details, including
+operational flows of the job configuration system 12018 are 60
+depicted and described in related figures herein.
+In embodiments, a fleet operations system 12002 includes
+a fleet and robot configuration system 12020 (also referred
+to as fleet configuration system 12020) that may work
+cooperatively with a job configuration system 12018 to 65
+determine configurations of fleet resources (e.g., robot oper-
+ating units, teams, and the like) to satisfy job requests from
+[col 2]
+462
+a plurality of concurrent and/or overlapping job requests.
+The fleet configuration system 12020 may determine fleet
+and robot configurations based on job requests, projects,
+robot tasks, a budget, a timeline, availability of robots or
+robot types, the configurability options of multi-purpose
+robots, and/or other suitable considerations.As an example,
+fleet configuration may include specifying a quantity of each
+type of robot that can be configured per job, project, task or
+other unit of configuration. In some embodiments, the fleet
+configuration system 12020 may leverage the platform
+12000-level intelligence layer 12004 to determine fleet
+and/or multi-purpose robot configurations. In some of these
+embodiments, the intelligence request may include a pro-
+posed job configuration and other relevant data (e.g., bud-
+getary constraints, location, environment, etc.). In response,
+the intelligence layer 12004 may output a proposed fleet
+configuration (which may include multi-purpose robot con-
+figurations). Further details of a fleet configuration system
+12020 are described and depicted in figures elsewhere
+herein.
+In embodiments, a fleet operations system 12002 may
+include a job execution, monitoring, and reporting system
+12022 (also referred to as a job execution system 12022). A
+job execution system 12022 may receive a job execution
+plan from the job configuration system 120i8 that it pro-
+cesses by coordinating activities of platform functions, such
+as logistics for robot and fleet resource delivery, data pro-
+cessing system 12030 allocation for facilitating data collec-
+tion, cataloging, library management and data processing
+activities for job execution. In general, the job execution
+system 12022 may start a job with committing and manag-
+ing resources, including resources beyond those configured
+by the job configuration system 12018, such as computing.
+determined to be useful for executing the job execution plan.
+In embodiments, the job execution system 12022 may
+further facilitate adherence to reporting requirements (e.g.,
+job-specific, fleet-specific, compliance-related _ reporting,
+and the like)associatedwith job execution. In embodiments,
+reporting may include data collection (e.g-, from robot
+operating units, sensor systems, user devices, databases,
+and/or the like), data processing, and feedback preparation
+for use of job execution data by job and fleet configuration
+systems and the like. In embodiments, the job execution
+system 12022 may be assisted by other platform capabilities
+that transmit, process, store, and manage data that impacts
+job execution, such as the maintenance management system
+12026, the resource provisioning system 12014, and the
+communication management system 12010 that facilitates
+communications among robot operating units, teams, and
+fleets, and others. These and other fleet and external
+resources may provide information to the job execution
+system 12022 for facilitating operational aspects of a
+requested job, such as which communication resources has
+the fleet communication management system 12010
+reserved and/or allocated for the requested job, service
+and/or maintenance requirements for robot operating unit
+and other resources being used to execute a job, changes to
+resource provisioning that occur after operation of a job has
+commenced, and the like.
+In embodiments, the job execution system 12022 may
+further facilitate evaluation and modification of a job execu-
+tion plan while executing the job by, for example identifying
+bottle necks that are developing due to on-the-job conditions
+(e.g., traffic jams, ground conditions not as expected due to
+excessive rain, and the like).

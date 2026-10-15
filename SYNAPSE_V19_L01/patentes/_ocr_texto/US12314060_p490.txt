@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+615
+building algorithms may allow for a higher uncertainty
+tolerance using simple bounded-region representations and
+identifying possible digital twins. Additionally, or alterna-
+tively, the digital twin module 13420 may use a bounded-
+region representation to limit the number of digital twins,
+analyze the group of potential twins for distinguishing
+features, then perform higher precision analysis for the
+distinguishing features to identify and/or eliminate catego-
+ries of, groups of, or individual digital twins and, in the event
+that no matching digital twin is found, perform a precision 1o 
+scan of only the remaining areas to be scanned.
+In embodiments, the digital twin module 13420 may
+further reduce compute required to build a location map by
+leveraging data captured from other sensors within the
+environment (e.g., captured images or video, radio images,  15
+etc.) to perform an initial map-building process (e.g., a
+simple bounded-region map or other suitable photogramme-
+try method), associate digital twins of known environmental
+objects with features of the simple bounded-region map to
+refine the simple bounded-region map, and perform more 20
+precise scans of the remaining simple bounded regions to
+further refine the map. In some embodiments, the digital
+twin module 13420 may detect objects within received
+mapping information and, for each detected object, deter-
+mine whether the detected object corresponds to an existing 25
+digital twin of a real-world-element. In response to deter-
+mining that the detected object does not correspond to an
+existing real-world-element digital twin, the digital twin
+module 13420 may use, for example, the digital twin con-
+figuration module 13318 to generate a new digital twin 30
+corresponding to the detected object (e.g., a detected-object
+digital twin) and add the detected-object digital twin to the
+real-world-element digital twins within the digital twin
+datastore. Additionally, or alternatively, in response to deter-
+mining that the detected object corresponds to an existing 35 
+real-world-element digital twin, the digital twin module
+13420 may update the real-world-element digital twin to
+include new information detected by the simultaneous loca-
+tion and mapping sensor, if any.
+In embodiments, the digital twin module13420 represents 40
+locations of autonomously or remotely moveable elements
+and attributes thereof within a shipping digital twin. Such
+movable elements may include, for example, cargo,
+vehicles, autonomous vehicles, robots, etc. The locations of
+the moveable elements may be updated in response to a 45
+triggering condition. Such triggering conditions may
+include, for example, expiration of a static or a dynamic
+predetermined interval, receiving an automatically gener-
+ated request or instruction from the digital twin module
+13420 or components thereof, interaction of an element with 50
+a respective sensor or sensors (e.g., in response to a worker
+or machine breaking a beam or coming within a predeter-
+mined distance from a proximity sensor), interaction of a
+user with a digital twin (e.g+, selection of a shipping digital
+twin, a sensor array digital twin, or a sensor digital twin), 55
+combinations thereof, and the like.
+In embodiments, the time intervals may be based on
+probability of the respective movable element having moved
+within a time period. For example, the time interval for
+updating a robot location may be relatively shorter for robots 60
+expected to move frequently (e.g., a robot tasked with lifting
+and carrying cargo within and through a container terminal)
+and relatively longer for robots expected to move infre-
+quently (e.g-, a robot tasked with monitoring a process).
+Additionally or alternatively, the time interval may be 65
+dynamically adjusted based on applicable conditions, such
+as increasing the time interval when no movable elements
+[col 2]
+616
+are detected, decreasing the time interval as or when the
+number of moveable elements within an environment
+increases (e.g., increasing number of robots and robot inter-
+actions), increasing the time interval during periods of
+reduced activity, decreasing the time interval during periods
+of abnormal activity (e.g., inspections or maintenance),
+decreasing the time interval when unexpected or uncharac-
+teristic movement is detected (e.g., frequent movement by a
+example, of robots approaching an exit or moving coopera-
+tively to carry a large object), combinations thereof, and the
+like. Further, the time interval may also include additional,
+semi-random acquisitions. For example, occasional mid-
+interval locations may be acquired by the digital twin
+module 13420 to reinforce or evaluate the efficacy of the
+particular time interval.
+In embodiments, the digital twin module 13420 may
+analyze data received from the digital twin I/O system
+13308 to refine, remove, or add conditions. For example, the
+digital twin module 13420 may optimize data collection
+times for movable elements that are updated more frequently
+than needed (e.g-, multiple consecutive received positions
+being identical or within a predetermined margin of error).
+In embodiments, the digital twin module 13420 may
+receive, identifyand/or store a set of states related to
+shipping entities or environments. The set of states may be,
+for example, data structures that include a plurality of
+attributes and a set of identifying criteria to uniquely identify
+each respective state. In embodiments, the set of states may
+correspond to states where it is desirable for the digital twin
+module 13420 to set or alter conditions of real-world ele-
+ments and/or the environment (e.g., increase/decrease moni-
+toring intervals, alter operating conditions, etc.).
+In embodiments, the set of states may further include, for
+example, minimum monitored attributes for each state, the
+set of identifying criteria for each state, and/or actions
+available to be taken or recommended to be taken in
+response to each state. Such information may be stored by,
+for example, the digital twin datastore 13316 or another
+datastore. The set of states or portions thereof may be
+provided to, determined by, or altered by the digital twin
+module 13420. Further, the set of states may include data
+from disparate sources. For example, details to identify
+and/or respond to occurrence of a first state may be provided
+to the digital twin module 13420 via user input, details to
+identify and/or respond to occurrence of a second state may
+be provided to the digital twin module 13420 via an external
+system, details to identify and/or respond to occurrence of a
+third state may be determined by the digital twin module
+13420 (e.g., via simulations or analysis of process data), and
+details to identify and/or respond to occurrence of a fourth
+state may be stored by the digital twin module 13420 and
+altered as desired (e.g., in response to simulated occurrence
+of the state or analysis of data collected during an occurrence
+of and response to the state).
+In embodiments, the plurality of attributes includes at
+least the attributes needed to identify the respective state.
+The plurality of attributes may further include additional
+attributes that are or may be monitored in determining the
+respective state, but are not needed to identify the respective
+state. For example, the plurality of attributes for a first state
+may include relevant information such as rotational speed,
+battery level, energy input, linear speed, acceleration, tem-
+perature, strain, torque, volume, weight, etc.
+The set of identifying criteria may include information for
+each of the set of attributes to uniquely identify the respec-
+tive state. The identifying criteria may include, for example,

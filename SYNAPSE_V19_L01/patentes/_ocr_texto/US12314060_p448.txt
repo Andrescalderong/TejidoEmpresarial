@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+531
+fleet of smart containers. For instance, a smart container or
+team of smart containers may encounter an unidentified
+object obstructing a route and may need to generate a
+decision related to re-routing. In some embodiments, the
+smart container fleet management system may obtain rel-
+evant data (e.g., LIDAR data, video feeds, environment
+maps, and the like) which may be depicted in an environ-
+ment digital twin. The user may view the current scenario in
+the environment digital twin and may provide instructions to
+the smart container fleet on how to proceed given the
+scenario presented in the environment digital twin. The
+foregoing are non-limiting examples of digital twins that
+may be used in connection with a smart container fleet
+management system and other examples are discussed
+below.
+FIG. 144 illustrates an example environment of a smart
+container system 13000. In embodiments, a smart container
+ system 13000 includes a fleet management system 13002 a
+data processing system 13024, and an intelligence service 20
+13004 (e.g., a system level intelligence service 13004). In
+embodiments, the fleet management system 13002 config-
+ures and manages smart container operating units 13040
+and/or freight storage and/or transportation services and/or
+tasks that are performed by smart container operating units 25
+13040.As will be discussed, a smart container operating unit
+13040 may refer to individual smart containers, individual
+smart container task assemblies 13050, smart container
+fleets 13060, and/or smart container fleet support units
+13080.
+In embodiments, the fleet management system 13002
+includes, but is not limited to, a communication manage-
+ment system 13010, the remote-control system 13012, a
+resource provisioning system 13014, a logistics system
+13016, a job configuration system 13018, a fleet configura-
+tion system 13020, an order execution, monitoring, and
+reporting system 13022 (also referred to as an *order execu-
+tion system" 13022), a human interface system 13038, and
+a maintenance management system 13028. In embodiments,
+the communication management system 13010 is configured 40
+to facilitate fleet management system communications,
+including with elements external to the smart container
+ system 13000. In embodiments, the fleet management sys-
+tem communications include satellite communications. In
+embodiments, the remote-control system 13012 is config- 45
+ured to manage and enable control of smart container
+operating units and fleet resources remotely. In embodi-
+ments, the resource provisioning system 13014 is configured
+to handle allocation and access to fleet resources (e.g-, smart
+container operating units). In embodiments, the logistics 50
+ system 13016 coordinates use and transportation of fleet
+resources and supplies to smart container operating units. In
+embodiments, the maintenance management system 13028
+facilitates coordinated, timely maintenance of fleet
+resources. In embodiments, the job configuration system 55 i
+13018 generates an order execution plan based on a freight
+storage and/or transportation service order. In embodiments,
+a fleet configuration system 13020 configures smart con-
+tainer operating units (e.g, individual smart containers
+and/or smart container fleets) to complete an order execution 60
+plan. In embodiments, the order execution system 13022
+executes, monitors, and/or reports on freight storage and/or
+transportation services being performed by smart container
+operating units (e.g., in accordance with an order execution
+plan) to ensure efficient use of fleet resources while execut- 65
+ing the order execution plan and addressing shipment and
+fleet related reporting requirements. In embodiments, the
+[col 2]
+532
+human interface system provides an interface by which a
+human user may interface with a smart container operating
+unit.
+As mentioned, a smart container operating unit 13040
+may refer to individual smart containers 13026, individual
+smart container task assemblies 13050, smart container
+fleets 13060, and/or smart container fleet support units
+13080.
+As shown in FIG. 145, smart container 13026 may
+include a baseline system 13106, a smart container control
+system 13104, and a smart container security system 13046.
+In embodiments, the smart container control system 13104
+includes a data processing system 13024 and an intelligence
+service 13004. As will be discussed, the data processing
+system may include data processing resources that may be
+centralized and/or distributed amongst a team or fleet of
+smart containers. Additionally, or alternatively, the data
+processing resources may include general purpose chipsets,
+specialized chipsets, and/or configurable chipsets. As will be
+discussed, the intelligence service 13004 performs intelli-
+gence related tasks on behalf of the smart container or a
+collection of smart containers (e.g., a task assembly or fleet).
+For example, the intelligence service 13004 may perform
+such tasks as artificial intelligence, machine-learning, natu-
+ral language processing, machine vision, analytics, and/or
+the like and may leverage complex data structures (e.g.
+digital twins) and disparate data sources (e.g., from IoT,
+edge and other network-enabled devices, from on-premises
+and cloud-deployed databases and other resources, and/or
+from APIs, event streams, logs, or other data sources, among
+many others) in performance thereof. Smart container-level
+and fleet-level intelligence services are discussed in greater
+detail below. In embodiments, the smart container security
+system 13046 performs security related functions on behalf
+of a smart container or a collection of smart containers (e.g.
+a task assembly or fleet). These security-related functions
+may include autonomous adaptive and non-adaptive security
+functions as well as manual security functions.
+In embodiments, a baseline system 13106 of a smart
+container 13026 may include an energy storage and power
+distribution system 13112, enclosure 13114, an electro-
+mechanical and/or electro-fluidic system 13116, a transport
+system 13118, a vision and sensing system 13120, and/or a
+structural system 13122. As will be discussed further below,
+the configuration of a baseline system of a smart container
+13026 depends on the types of freight storage and/or trans-
+portation services and/or tasks that the smart container
+13026 is configured to perform and/or the type of environ-
+ments that the smart container is intended to operate in. For
+example, smart containers that are configured to operate in
+deep water conditions may have different baseline systems
+than smart containers that are configured to operate in arctic
+conditions or aerial smart containers.
+In embodiments, a smart container 13026 may further
+include a module system 13102 that allows the smart
+container to be configured with various hardware and/or
+software components. In this way, the smart container 13026
+may be fitted with different accessories, sensor sets, chipsets,
+motive adaptors, and/or the like depending on the range of
+freight storage and/or transportation services and/or tasks
+that the smart container is configured for and/or the envi-
+ronments the smart container is configured to operate in. In
+embodiments,the module system 13102 may include con-
+trol module interfaces 13108 and physical module interfaces
+13110. The control module interfaces 13108 and physical
+module interfaces 13110 may refer to mechanical, electrical,
+and/or digital interfaces that receive auxiliary components to

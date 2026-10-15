@@ -1,0 +1,134 @@
+configures resources of a fleet for a job based on the task 2o multi-purpose robot configuration information (e.g, as may
+[col 1]
+US 12,567,082 B2
+475
+ured robot twins to perform a candidate workflow, or portion
+thereof, that is optionally being defined. In embodiments, a
+team twin capability of a fleet intelligence system may
+benefit a workflow simulation system of the job configura-
+tion system 12018 by using, for example, preconfigured
+robot teams to operate and validate candidate workflows
+prepared by the workflow definition system.
+In embodiments, a result of workflow simulation may
+include one or more data structures that are suitable for use 1o s
+in a job execution plan.
+In addition to task definitions, robot definitions, workflow
+definitions, fleet configuration parameters, and the like, a job
+execution plan may identify contracts for the job, such as
+smart contracts that may be constructed/configured by or in 15
+association with the job configuration system 12018, deliv-
+ery times for job resources (e.g., fleets of robots), a schedule
+of deliverables, and the like.
+In embodiments, the fleet configuration system 12020
+definitions and/or workflow definitions. The fleet configu-
+ration system 12020 may determine the fleet configuration
+based on other considerations, such as budget, environmen-
+tal conditions, time constraints,available inventory of robots
+and/or parts, and/or the like. The fleet configuration system 25
+12020 may operate cooperatively with a job configuration
+system 12018, such as when tasks are to be organized into
+workflows. Task definitions may, for example, define tasks
+that can be performed by special purpose or multi-purpose
+robots. Job workflows may be impacted by availability of 30
+each type of robot, so a job configuration system 12018 may
+leverage the fleet configuration system 12020 when deter-
+mining candidate job workflows. As an example, a workflow
+that includes allocation by the fleet configuration system of
+a special purpose robot (e.g-, the special purpose robot can 35
+be provided for the job being configured) may need to be
+adjusted (as compared to the workflow utilizing a multi-
+purpose robot) to account for differences between these
+types of robots. The special purpose robot may perform a
+task or tasks more efficiently and/or with greater precision 40
+than a multi-purpose robot; therefore, a special purpose
+robot workflow may be configured with a shorter completion
+time (e.g-, greater robot efficiency) or without an indepen-
+dent confirmation step (e.g., greater precision or self-vali-
+examples to illustrate the potential for impacts on workflow
+definition of a fleet configuration system.
+In embodiments, fleet configuration for a requested job
+may include configuring fleet resources into a robot team
+that is assigned to a specific task and/or project (noting that 50
+a robot or a team of robots may be assigned multiple tasks
+and/or projects). Each robot team may include one or more
+of special purpose robots, multi-purpose robots, rigid and/or
+soft robots, exoskeleton robots, humans, work animals, and 55
+the like. Further, a configured robot team may be job-
+specific and team membership may be transient for any
+given robot operating unit. As an example, a special purpose
+welding robot, or optionally a multi-purpose robot config-
+ured to perform welding operations may be assigned to a 60
+first robot team for only the duration of time during which
+team. The same welding-capable robot may also be assigned
+to a second robot team for only the duration of time during
+which second robot team welding is being performed. Time
+sharing of fleet resources, such as a welding-capable robot
+can be communicated to a job configuration system from the
+[col 2]
+476
+fleet configuration system 12020, for example, so that work-
+flows being defined by the job configuration system can
+consider availability of the welding-capable robot for each
+of the robot teams. In embodiments, any given robot or
+group of robots may be assigned to multiple teams spread
+across multiple jobs by the fleet configuration system 12020
+using a robot-specific time-sharing approach or other
+resource utilization optimization technique. In an example,
+a fleet configuration system 12020 may use a multi-dimen-
+ sional robot utilization planning system that allocates each
+robot in a fleet to one job during a unit of time, such as a day,
+hour, or fraction thereof, allowing each instance of a job
+configuration system to request use of the robot for a specific
+time (e.g-, Tuesday the 23rd from 10 AM-4 PM) or a
+quantity of time units (e.g, six consecutive hours). The fleet
+configuration system 12020 may respond to the request with
+robot fleet configuration descriptions that inform job work-
+flow definitions and the like.
+In embodiments, a fleet configuration may further include
+be indicated by a task definition system and the like) for
+configuring multi-purpose robots that are included in a team
+or fleet of robots for performance of one or more tasks in a
+job. The multi-purpose robot configuration information may
+define modules that may be coupled to the robot, including
+end effectors, motive adaptors, sensors, image processing
+modules, special-purpose processing modules, communica-
+tions modules, and/or the like. Multi-purpose robot modules
+and their utilization are further described elsewhere herein.
+In some embodiments, fleet configuration for a requested
+job may include allocating robot support resources, such as
+edge devices, charging capabilities, local data storage capa-
+bilities, shipping containers, docking stations, spare parts,
+required technicians, and the like. In embodiments, the fleet
+configuration system may also assign robots to distinct roles,
+such as roles related to team organization (e.g-, supervisor),
+security, human interaction, inspection/quality control, and
+the like. These roles may not be separately defined in a job
+request; however, criteria in a job request (e.g., quality
+inspection reporting) may lead to such robot role assign-
+ment. In embodiments, the fleet configuration system 12020
+may designate some team roles for humans, including
+human team member participation requirements, support,
+equipment, and the like. A fleet configuration system may
+take into consideration human safety when designating a
+human as a team member. As an example, a human team
+member may be required to wear a safety face shield when
+participating on a team that is performing welding opera-
+tions.
+In embodiments, the fleet configuration system 12020
+may leverage libraries to determine the fleet configurations.
+In these embodiments, the fleet configuration system 12020
+may determine team configurations for defined tasks or
+projects using a library 12314 that defines different configu-
+rations to perform certain tasks, whereby a lookup table or
+other association is used to determine the team configura-
+tions for given a set of tasks. In embodiments, the library
+12314 may include attributes of different robot types, such
+as a multi-purpose robot. As an example, an attribute of a
+multi-purpose robot may indicate a minimum size of a
+multi-purpose robot. In embodiments, the fleet configuration
+system 12020 may filter the types of robots that may perform
+a task based on the attributes and one or more job request
+parameters identified by the job parsing system 12302 (and
+optionally configured into a task definition).When a task or
+job operation requires (e.g., based on data generated by the
+job parsing system 12302, an existing job execution plan

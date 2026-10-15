@@ -1,0 +1,137 @@
+actions may be modeled using historical data that is col- 45 collects and/or stores RFID data in response to interaction of
+[col 1]
+US 12,567,082 B2
+611
+may include, for example, an input module, an output
+module, and an adapter module.
+In embodiments, the input module may obtain or import
+data from data sources in communication with the digital
+twin I/O system 13308, such as the sensor system and the
+digital twin simulation system 13310. The data may be
+immediately used by or stored within the digital twin
+module 13420. The imported data may be ingested from data
+streams, data batches, in response to a triggering event,
+combinations thereof, and the like. The input module may 1o
+receive data in a format suitable to transfer, read, and/or
+write information within the digital twin module 13420.
+In embodiments, the output module may output or export
+data to other system components (e.g., the digital twin
+datastore 13316, the digital twin simulation system 13310, 15
+the intelligence service 13004, etc.), devices, and/or the
+client application 13324. The data may be output in data
+streams, data batches, in response to a triggering event (e.g.,
+a request), combinations thereof, and the like. The output
+module may output data in a format that is suitabletobe 20
+used or stored by the target element (e.g., one protocol for
+output to the client application and another protocol for the
+digital twin datastore 13316).
+In embodiments, the adapter module may process and/or
+convert data between the input module and the output 25
+module. In embodiments, the adapter module may convert
+and/or route data automatically (e.g., based on data type) or
+in response to a received request (e.g., in response to
+information within the data).
+In embodiments, the digital twin module 13420 may 30 cesses).
+represent a set of shipping workpiece elements in a digital
+twin, and the digital twin simulation system 13310 simulates
+a set of physical interactions of a worker or shipping robot
+with the workpiece elements.
+In embodiments, the digital twin simulation system 13310 35
+may determine process outcomes for the simulated physical
+interactions accounting for simulated human factors. For
+example, variations in workpiece throughput may be mod-
+eled by the digital twin module 13420 including, for
+example, worker response times to events, worker fatigue, 40
+discontinuity within worker actions (e.g., natural variations
+in human-movement speed, differing positioning times,
+etc.), effects of discontinuities on downstream processes,
+and the like. In embodiments, individualized worker inter-
+lected, acquired, and/or stored by the digital twin module
+13420. The simulation may begin based on estimated
+amounts (e.g., worker age, industry averages, workplace
+expectations, etc.). The simulation may also individualize
+data for each worker (e.g-, comparing estimated amounts to 50 A
+collected worker-specific outcomes).
+In embodiments, information relating to workers (e.g.,
+fatigue rates, efficiency rates, and the like) may be deter-
+mined by analyzing performance of specific workers over
+time and modeling said performance. 55
+In embodiments, the digital twin module 13420 includes
+plurality of proximity sensors within the sensor array. The
+proximity sensors are or may be configured to detect ele-
+ments of a shipping entity or environment that are within a
+predetermined area. For example, proximity sensors may 60
+include electromagnetic sensors, light sensors, and/or acous-
+tic sensors.
+The electromagnetic sensors are or may be configured to
+ sense objects or interactions via one or more electromag-
+netic fields (e.g-, emitted electromagnetic radiation or 65
+received electromagnetic radiation). In embodiments, the
+electromagnetic sensors include inductive sensors (e.g.
+[col 2]
+612
+radio-frequency identification sensors), capacitive sensors
+(e.g., contact and contactless capacitive sensors), combina-
+tions thereof, and the like.
+The light sensors are or may be configured to sense
+objects or interactions via electromagnetic radiation in, for
+example, the far-infrared, near-infrared, optical, and/or
+ultraviolet spectra. In embodiments, the light sensors may
+include image sensors (e.g., charge-coupled devices and
+CMOS active-pixel sensors), photoelectric sensors (e.g.,
+through-beam sensors, retroreflective sensors, and diffuse
+sensors), combinations thereof, and the like. In embodi-
+ments, the light sensors may include liquid lens vision
+systems. Further, the light sensors may be implemented as
+part of a system or subsystem, such as a light detection and
+ranging ("LIDAR") sensor.
+The acoustic sensors are or may be configured to sense
+objects or interactions via sound waves that are emitted
+and/or received by the acoustic sensors. In embodiments, the
+acoustic sensors may include infrasonic, sonic, and/or ultra-
+sonic sensors. Further, the acoustic sensors may be grouped
+as part of a system or subsystem, such as a sound navigation
+and ranging ("SONAR) sensor.
+In embodiments, the digital twin module 13420 stores and
+collects data from a set of proximity sensors. The collected
+data may be stored, for example, in the digital twin datastore
+13316 for use by components the digital twin module 13420
+and/or visualization by a user. Such use and/or visualization
+may occur contemporaneously with or after collection of the
+data (e.g, during later analysis and/or optimization of pro-
+In embodiments, data collection may occur in response to
+a triggering condition. These triggering conditions may
+include, for example, expiration of a static or a dynamic
+predetermined interval, obtaining a value short of or in
+excess of a static or dynamic value, receiving an automati-
+cally generated request or instruction from the digital twin
+module 13420 or components thereof, interaction of an
+element with the respective sensor or sensors (e.g-, in
+response to an object coming within a predetermined dis-
+tance from the proximity sensor), interaction of a user with
+a digital twin (e.g., selection of a smart container digital
+twin, a sensor array digital twin, or a sensor digital twin),
+combinations thereof, and the like.
+In some embodiments, the digital twin module 13420
+a worker or robot with a real-world element. For example,
+in response to a robot interaction with a smart container
+cargo, the digital twin will collect and/or store RFID data
+from RFID sensors associated with the corresponding cargo.
+Additionally, or alternatively, robot interaction with a sen-
+sor-array digital twin will collect and/or store RFID data
+from RFID sensors within or associated with the corre-
+sponding sensor array. Similarly, robot interaction with a
+sensor digital twin will collect and/or store RFID data from
+the corresponding sensor. The RFID data may include
+suitable data attainable by RFID sensors such as proximate
+RFID tags, RFID tag position, authorized RFID tags, unau-
+thorized RFID tags, unrecognized RFID tags, RFID type
+(e.g., active or passive), error codes, combinations thereof,
+and the like.
+In embodiments, the digital twin module 13420 may
+further embed outputs from one or more devices within a
+corresponding digital twin. In embodiments, the digital twin
+module 13420 embeds output from a set of individual-
+associated devices into a shipping digital twin. For example,
+the digital twin I/0 system 13308 may receive information
+output from one or more wearable devices or mobile devices

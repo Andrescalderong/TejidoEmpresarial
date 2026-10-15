@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+489
+to one or more of the tasks for this procedural step may
+include, without limitation, size limitations of a robot enter-
+ing the ventilation system (which may not be specified in the
+procedure, but may require determination as a task based on
+the ventilation system entry port, based on the information
+about the physical configuration of the ventilation system,
+and the like), weight limits of such one or more robots and
+the like. In embodiments, tasks defined by the task definition
+system 12304 may include data analysis tasks that may be
+performed by fleet resources, including resources other than 10
+individual robot operating units, such as digital twins and the
+like that may operate on platform processing systems,
+human fleet resources, and the like. Other routines/tasks for
+entering a ventilation system that may require definition may
+include orienting a robot for entry. A consequence of such a 15
+determination may result in adding requirements for a robot
+to perform the task(s). In embodiments, vertical entry may
+require ventilation duct grippers being oriented at the front
+ofthe robot. A task definition 12304D may include specifics,
+such as duct gripper orientation and the like that other 20
+systems of the platform 12000, such as the fleet configura-
+tion system 12020 may use when configuring aspects of a
+fleet. In general, a discrete robot task definition 12304D may
+include (explicitly or implicitly) a plurality of (basic/rudi-
+mentary/generic) robot movements and/or routines option- 25
+ally ordered and aggregated together to meet a low-level
+objective (e.g., task) of a robot fleet job. Therefore, a task
+definition system 12304 producing task definitions 12304D
+for a specific robot fleet job (e.g., inspecting a ventilation
+system as exemplified herein) may generate task definitions
+30
+that embody more than generic robot element movement,
+such as by aggregating and/or adapting such robot move-
+ments to satisfy some criteria for performing the target job,
+such as removing an access panel for a ventilation system.
+Robot operations, such as locating and turning a fastener,
+gripping an access panel, dispositioning the removed panel,
+reserving the fasteners, and the like may be generic robot
+routines or movements that can be aggregated and adapted
+into a job-specific task. These generic robot routines or
+movements may be available to the task definition system 40
+12304 to facilitate defining relevant aspects of tasks based
+on job request and related criteria. In the example of
+inspecting a ventilation system, locating a fastener on an
+access panel may be adapted during operation of this task
+based on details of the target access panel that may be 45 
+identified in the task definition 12304D or may be left up to
+an intelligence system, such as a robot-based intelligence
+system and the like for on-the-task adaptation. A basic robot
+action, such as turning the fastener to remove it may be
+adapted based on information provided in the task definition 50
+that may define the proper end effector, torque, and length of
+movement. In embodiments, these adaptations may be left
+up to a robot control function that determines contempora-
+neously with performance of the task which end effector, and
+the like to use. Information in the task definition 12304D 55
+may facilitate robot adjustments for gripping the access
+panel. This information may include an orientation of the
+panel, a weight of the panel, features of the panel, size of the
+panel, and the like to avoid damaging the panel, while
+ensuring to grip it securely. A task/action of dispositioning 60
+the removed panel may be configured with a degree of
+location-specific flexibility to defer to a robot operating
+control system that may utilize other criteria (e.g-, safety
+standards and practices, workplace policies, governance and
+the like) to ensure that objects in the task location (e.g-. 65
+furniture, windows, walls, and the like) are not damaged by
+the panel and pathways through the task location are not
+[col 2]
+490
+blocked or made dangerous for humans. Such a task may
+therefore be interpreted by the fleet configuration system
+12020 so that a robot that includes features for evaluating a
+deployment location, such as a vision system and the like
+may be matched with the defined task. In embodiments, such
+flexibility may be selected from the robot configuration
+library 12314.
+Continuing further with the exemplary robot fleet job of
+inspecting a building ventilation system, the workflow defi-
+nition system 12306 may gather information output by the
+task definition system 12304 and the fleet configuration
+system 12020 (e.g., optionally via the fleet configuration
+proxy 12305) when establishing a workflow for at ieast the
+procedural step of entering the ventilation system. At a level
+of abstraction, this procedural step may include two primary
+tasks: (i) removing the access panel, and (i) entering the
+ventilation system. Information from the task definition
+system 12304 may indicate that task (i) is a prerequisite for
+performing task (ii). The workflow system 12306 may
+therefore define a workflow for this portion of the requested
+job with task (i) occurring before task (ii). An additional task
+(ii) may include 3D image capture of the environment
+where entry is being made to the ventilation system. Infor-
+mation from the fleet configuration system 12020 about one
+or more robots configured for these tasks may indicate that
+two robots are configured, a first robot for task (i) and a
+second for task (ii). The workflow system may utilize this
+information to determine that an order of tasks (i), (ii), and
+(iii) can be optimized by defining a workflow that has the
+second robot perform task (ii) while waiting for the first
+robot to complete task (i). If the fleet configuration infor-
+mation for these tasks indicated that a single robot is
+provisioned for these 3 tasks, then the workflow system may
+define an order of tasks as (ii) followed by (i) and then
+35 followed by (ii).These alternate workflow configurations
+responsive to information provided to the workflow system
+indicate a degree of flexibility of the workflow system when
+defining workflows, such as to ensure efficient use of fleet
+resources and the like.
+Simulation of a workflow of these three tasks via the
+workflow simulations system 12308 may also provide
+insight into any of the task definitions, fleet resource allo-
+cation, workflow definitions. As a non-limiting example,
+simulation of a workflow that defines an order of tasks as (i),
+(ii) and finally (ii) may yield that step (iii) cannot be
+performed for a single robot allocation as indicated because
+the single robot operating unit performing these three tasks
+would be disposed inside the ventilation system at step (ii).
+A result of the simulation may be provided back to at least
+the workflow system to rework the workflow. In embodi-
+ments, data resulting from the simulation (e.g., failure of
+a job configuration system process, such as task definition,
+fleet configuration and the like. In another example of
+workflow simulation, with two robots configured to perform
+these tasks as described above, if the workflow calls for 3D
+imaging of the task area (task (ii) by the second robot
+contemporaneously with the first robot removing the access
+panel (task (i)), the simulation may attempt to perform a
+simulation of the 3D imaging function with, for example, a
+digital twin of the second robot. The simulation may fail if
+the second robot is not configured by the fleet configuration
+system with the 3D imaging capability. Feedback from such
+a simulation may result in a range of changes in job
+configuration. Two example changes may include: (i) adjust
+robot configuration (retain the workflow and change the
+configuration of the second robot to include 3D imaging

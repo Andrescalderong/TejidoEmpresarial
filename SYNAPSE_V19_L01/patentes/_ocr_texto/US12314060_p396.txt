@@ -1,0 +1,135 @@
+[col 1]
+US 12,314,060 B2
+427
+works. In some instances, at least some of the nodes of a
+recurrent neural network can form a cycle. Recurrent neural
+networks can be especially useful for processing input data
+that is sequential in nature. In particular, in some instances,
+a recurrent neural network may pass or retain information
+from a previous portion of the input data sequence to a
+subsequent portion of the input data sequence through the
+use of recurrent or directed cyclical node connections.
+In some examples, sequential input data may include
+time-series data (e.g., sensor data versus time or imagery
+captured at different times). For example, a recurrent neural
+network may analyze sensor data versus time to detect or
+predict a swipe direction, to perform handwriting recogni-
+tion, etc. Sequential input data may include words in a
+sentence (e.g., for natural language processing, speech
+detection or processing, and the like); notes in a musical
+composition; sequential actions taken by a user (e.g-, to
+detect or predict sequential application usage); sequential
+object states; and the like.
+Example recurrent neural networks include long short-
+term (LSTM) recurrent neural networks; gated recurrent
+units; bi-direction recurrent neural networks; continuous
+time recurrent neural networks; neural history compressors;
+echo state networks; Elman networks; Jordan networks; 25 orientation and motion.
+recursive neural networks; Hopfield networks; fully recur-
+rent networks; sequence-to-sequence configurations; and the
+like.
+In some examples, the machine learning models 11520
+may be or may include one or more non-recurrent sequence-
+to-sequence models based on self-attention, such as Trans-
+former networks.
+In some implementations, the machine learning models
+11520 may be or may include one or more convolutional
+neural networks. In some instances, a convolutional neural
+network may include one or more convolutional layers that
+perform convolutions over input data using learned filters.
+Filters may also be referred to as kernels. Convolutional
+neural networks may be especially useful for vision prob- 40 F
+lems such as when the input data includes imagery such as
+still images or video. However, convolutional neural net-
+works may also be applied for natural language processing.
+In some examples, the machine learning models 11520
+may be or may include one or more generative networks 45 c
+such as, for example, generative adversarial networks. Gen-
+erative networks may be used to generate new data such as
+new images or other content.
+The machine learning models 11520 may be or may
+include an autoencoder. In some instances, the aim of an 5o 
+autoencoder may learn a representation (e.g., a lower-di-
+mensional encoding) for a set of data, typically for the
+purpose of dimensionality reduction. For example, in some
+instances, an autoencoder may seek to encode the input data
+and the provide output data that reconstructs the input data 55
+from the encoding. Recently, the autoencoder concept has
+become more widely used for learning generative models of
+data. In some instances, the autoencoder may include addi-
+tional losses beyond reconstructing the input data.
+The machine learning models 11520 may be or may
+include one or more other forms of artificial neural networks
+such as, for example, deep Boltzmann machines; deep belief
+networks; stacked autoencoders; and the like. Any of the neural networks described herein may be combined (e.g.,
+stacked) to form more complex networks. 65
+The machine learning models 11520 may include one or
+more clustering models such as, for example, k-means
+[col 2]
+428
+clustering models; k-medians clustering models; expectation
+maximization models; hierarchical clustering models; and
+the like.
+In some implementations, the machine learning models
+11520 may perform one or more dimensionality reduction
+techniques such as, for example, principal component analy-
+sis; kernel principal component analysis; graph-based kernel
+principal component analysis; principal component regres-
+sion; partial least squares regression; Sammon mapping;
+multidimensional scaling; projection pursuit; linear dis-
+criminant analysis; mixture discriminant analysis; quadratic
+discriminant analysis; generalized discriminant analysis;
+flexible discriminant analysis; autoencoding; and the like.
+In some implementations, the machine learning models
+11520 may perform or be subjected to one or more rein-
+forcement learning techniques such as Markov decision
+processes; dynamic programming; Q functions or Q-learn-
+ing; value function approaches; deep Q-networks; differen-
+tiable neural computers; asynchronous advantage actor-
+20 critics; deterministic policy gradient; and the like.
+In embodiments, the data processing system is imple-
+mented using a neural network to provide real-time, adap-
+tive control of the dynamic vision system 11300 including
+object classification and determination of object position,
+In some embodiments, a neural network model may be
+used directly to determine adjustments to optical parameters
+using training or learning of a neural network model. Ini-
+tially, the model may be allowed to choose randomly from
+30 a range of values for each input optical control parameter or
+action. If the sequence of optical control parameter adjust-
+ments or actions leads to an incorrect prediction/classifica-
+tion, it may be scored as leading to an undesirable (or
+negative) outcome. Repetition of the process using different
+sets of randomly chosen values for each optical control
+parameter or action leads to reinforcement of those
+sequences that least to desirable (or positive) outcomes.
+Ultimately, the neural network model "learns" what adjust-
+ments to make to a set or sequence of optical control
+parameters or actions in orderto achieve the target outcome
+i.e., a correct prediction or classification.
+In embodiments, methods and systems described herein
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain.
+The initial layers of the CNN (e.g., convolution layers),
+may extract low level features such as edges and/or gradi-
+ents from the input object concept 720. Subsequent layers
+may extract or detect progressively more complex features
+and patterns such as presence of curvatures and textures in
+image data and so on. The output of each layer may serve as
+an input of a succeeding layer in the CNN to learn hierar-
+chical feature representations from data in the input object
+concept 72o. This allows convolutional neural networks to
+efficiently learn increasingly complex and abstract visual
+concepts.
+In embodiments, capsule networks may be employed to
+60 use fewer labeled training examples to achieve similar
+classification performance of CNNs.
+In embodiments, transformer-based, encoder-decoder
+architectures using attention mechanisms may be used in
+conjunction with or in place of convolutional neural net-
+works.
+FIG. 127 depicts a schematic view illustrating an example
+implementation of a dynamic vision system depicting a

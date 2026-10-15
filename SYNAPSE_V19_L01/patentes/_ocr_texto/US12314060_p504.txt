@@ -1,0 +1,131 @@
+products 14310 detect complaints about other digital prod- 45 14508 is a construction, home improvement, quality control,
+structure. In some embodiments, the intelligence layer 65 cooling products, air filter products, window state detection
+[col 1]
+US 12,314,060 B2
+643
+the set of digital products in task 14416. The digital product
+network 14300 writes the product level data structure to at
+least one of the product memory and the control memory in
+task 14418. The digital product network 14300 processes the
+product level data structure in task 14420. The digital
+product network 14300 transmits the processed data to the
+user system in task 14422.
+In some embodiments, the intelligence layer 14320
+includes a graphical user interface (GUI) module 14340 and
+a proximity module 14342. The GUI module may generate
+at least one user interface display for presentation on the
+display 14311. The GUI module 14340 may generate the
+parameters of at least one digitally enabled product of the set
+of digital products in the at least one user interface display
+and may generate a proximity display of proximal digital
+products of the set of digital products in the at least one user
+interface display. In some embodiments, generating the
+proximity display includes generating the proximity display
+of proximal products that are geographically proximate, 20 s
+where the digital product network is further programmed to
+product capability, or product brand. In some embodiments,
+generating the proximity display includes generating the
+proximity display of proximal products that are proximate to 25
+In some embodiments, the intelligence layer 14320
+includes a data integration module 14344. In some embodi-
+ments, the intelligence layer 14320 includes an edge com- 30
+putation and edge intelligence module or edge module
+14346 for edge distributed decision making among the set of
+digital products. In some embodiments, the edge module
+14346 is configured for edge network bandwidth manage-
+ment between or out of the set of digital products.
+In some embodiments, the intelligence layer 14320
+includes a distributed ledger system module 14348. In some
+embodiments, the distributed ledger system may be distrib-
+uted exclusively within the digital products 14310. In some
+embodiments, the distributed ledger is a block chain ledger. 40
+In some embodiments, the intelligence layer 14320
+includes a quality management system having a product
+complaint module 14350 for capturing product complaints at
+the set of digital products. In some embodiments, the digital
+ucts 14310. For example, a digital product may use machine
+vision or sound processing to identify dissatisfaction of a
+user while the user is using a different digital product.
+In some embodiments, the intelligence layer 14320
+includes a product condition module 14352. Product condi- 501
+tion module 14352 may identify a condition of the set of
+ther encode the condition as one of the parameters of the
+product level data structure. Product condition module
+14352 may further yet track and/or monitor the condition 55
+across the set of digital products. For example, a bicycle
+manufacturer may monitor the condition of sold smart
+bicycles to determine potential demand for repair parts or
+new bicycles. In another example, a rentable scooter com-
+pany may monitor the condition of the active scooters in the 60
+scooter fleet to budget for repairs and replacement scooters.
+In some embodiments, the intelligence layer 14320
+includes a smart contract module 14354 for enabling the
+creation of smart contracts based on the product level data
+14320 configures the smart contracts based on a co-location-
+sensitive configuration of terms such that smart contract
+[col 2]
+644
+terms and conditions depend on proximity of a plurality of
+digital products of the set of digital products.
+In some embodiments, the intelligence layer 14320
+includes a robotic program automation (RPA) module
+14356. In some embodiments, the RPA module 14356 is
+configured to gamify an interaction based on what digital
+products are in the set of digital products. In some embodi-
+ments, the RPA module 14356 generates RPA processes
+based on use of a plurality of digital products of the set of
+digital products.
+FIG. 155 illustrates an example of a digital product
+network system 14508 where a data enhancement system
+14510 receives data from digital products 14512 for use by
+data user systems 14514. In some embodiments, the data
+enhancement includes at least one of data fusion and data
+integration to leverage cross-product data. The data
+enhancement system 14510 may be part of the intelligence
+service or layer, part of a digital twin, part of a control tower,
+in distributed processors in the products, or in other suitable
+systems.
+The digital products 14512 are similar to the connected
+products 14110 described above. Each of the digital prod-
+ucts 14512 provides data to the data enhancement system
+14510. In the example provided, three different digital
+products 14512 are sharing data with the data enhancement
+system 14510. The data may be usage data for the product,
+sensor data collected by the product, data retrieved from
+other products, data incorporated from external sources, or
+other data obtained through other methods. For example,
+usage data may include a timestamp indicating when a
+product was used, length of time data indicating how long
+the product is in use, data indicating what other products the
+product interacted with during use, and any other suitable
+usage data. Sensor data may include environmental data,
+condition data, image data, sound data, and the like.
+The data user system 14514 may be any systems that use
+or generate enhanced data. In some embodiments, the data
+user systems incorporate the data enhancement system
+14510.For example, a machine learning system may train
+on various data streams from the products 14512 to generate
+enhanced data. In the example provided, the data user
+systems 14514 include AI/ML systems, Robotic Process
+Automation (RPA) systems, and digital twin systems.
+In some embodiments, the digital product network system
+or similar system,For example,theproducts14512 may be
+part of a family of tools. A laser level may provide leveling
+data input to a hand held self-levelling drill for ensuring
+accurate drill positioning. The digital product network may
+retrieve relevant specifications (e.g, for proper load bearing)
+provided from a job control facility. A tool belt may indicate
+the appropriate tool to use or access for the next task based
+on the specification. A tool box with digital capabilities may
+then indicate the appropriate drill bit and fastener type based
+on the material of the substrate to be drilled. The self-
+leveling drill may then retrieve the specification to set
+rotation speed, turn on or off a hammer drill function, etc.
+Data generated by the digital product tools may then be
+combined for validation of proper execution according to a
+workmanship specification.
+In some embodiments, the digital product network system
+14508 may be an air quality system, an energy auditing
+system, or a similar system. For example, the digital prod-
+ucts 14512 may be cleaning products, air heating and
+products, or the like. A digital vacuum cleaner may detect

@@ -1,0 +1,137 @@
+The intake controller 18008 may ingest the data and 2o PMCP allows real contextual information about production
+connect the device to any kind of network. To overcome this 55 via a user interface), including highlighting of areas of
+[col 1]
+US 12,314,060 B2
+683
+important data before the occurrence of potential issues that
+may need various actions (e.g., interventions, maintenance,
+purchase orders, supply adjustments, estimate adjustments,
+etc.).
+FIG. 163 shows the interaction of the intake controller
+18008, intake management system 18006, and various other
+components of the thalamus service 18000 with PMCP
+according to some embodiments of the invention. In the
+illustrated embodiments, inputs may be received to the
+intake controller 18008 from different sources. For example, 10
+a first source of data may include various sensors, external
+systems, process data, and other such data 18102 that may
+be received from various data generators, data analysis
+systems, and other data outputs outside of the thalamus
+service. Additionally or alternatively, a second source of 15
+data may include one or more preconfigured PMCP devices
+with location processing, which may provide at 18104 that
+may include PMCP model parameters, vectorized data, or
+other PMCP data.
+determine whether the data is PMCP data or not at a decision
+18106. If the data is not PMCP data, then the intake
+controller 18008 may determine if the data has been reduced
+or not. If the data has not been reduced, then the data may
+be sent to the intake management system for processing 25
+(e.g., prioritization, formatting, suppressing, area focus,
+filtering, combining, etc. as discussed above). In other
+words, if the data has not already been reduced in some way
+(e.g., either via PMCP or using other data reduction tech-
+niques), the data may be processing and potentially filtered, 30 t
+ suppressed, or otherwise reduced. Thus, the thalamus ser-
+vice may provide one data reduction techniques that may be
+used in addition to or as an alternative to other data reduction
+techniques, which may include PMCP.
+If the data was not PMCP data but was reduced as 35 
+determined at 18108, or if the data was PMCP data as
+determined at 18106, then the intake controller 18110 may
+determine whether the thalamus service is acting as a PMCP
+consumer for the data. If so, the data may be sent to the
+PMCP device interface 18052 for reception and processing 40
+(e.g., modelling, prediction, etc.). If not, then one or more
+ETL processes may be used at 18114 to extract, transform,
+and load the data into the PMCP database.
+Whether the data is processed by the PMCP device
+interface 18052 or using ETL processes at 18114, the 45 t
+resulting data may then be provided to downstream system
+of systems data consumers for further processing at 18116.
+PMCP and thalamus service techniques may be used
+(together or separately) in a wide variety of embodiments. In
+embodiments where edge devices are configured with very 50
+limited capacities, additional edge communication devices
+can be added to convert the data into PMCP format. For
+example, to protect distributed medical equipment from
+hacking attempts, many manufacturers will choose to not
+limitation, the medical equipment may be monitored using
+sensors, such as cameras, sound monitors, voltage detectors
+for power usage, chemical sniffers, and the like. Functional
+unit learning and other data techniques may be used to
+determine the actual usage of the medical equipment 60
+detached from the network functional unit, generate vector-
+ized data therefrom, and/or transmit various model param-
+eters using PMCP. On the receiving end, a thalamus service
+may receive the vectorized data and/or model parameters,
+may use thalamus techniques to determine whether the 65
+PMCP data and/or other data received from other medical
+devices should be prioritized, filtered, suppressed, or the
+[col 2]
+684
+like, may predict future states of the medical equipment
+based on the PMCP data, and may use any or all of the data
+to take various actions, perform various analyses, and the
+like.
+In some embodiments, communication within the value
+chain using vectorized data allows for a value chain to have
+a constant view of what the likely future state is. These
+techniques allow for future states to be communicated to the
+value chain, thus allowing value chain entities to respond
+ ahead of future state requirements without needing access to
+fine-grained data.
+In some embodiments, the PMCP protocol can be used to
+transmit and receive relevant information (e.g., important or
+high priority information, as determined by a thalamus
+ service) about production levels and future trends in pro-
+duction to various external entities. In some of these
+example embodiments, a PMCP data feed may be used for
+data obfuscation (e.g., communicating sensitive data as
+vectorized data and/or model parameters). For example,
+levels to be shared with consumers, regulators, and other
+entities external to the value chain network without the
+directsharingof sensitivedatavalues,Forexample,whena
+customer chooses to purchase a new car, one or more value
+chain entities may be integrated into the selection process
+and may determine (e.g., based on predictive models) that
+there is an upcoming shortage of red paint. In this case, the
+value chain entities could communicate PMCP data that
+would be processed and used to show the customer device
+the impact of different choices on delivery time, without
+providing sensitive data to the customer device or other
+external entity.
+PMCP and vectorized data processes further enable
+simple data-informed interactive systems that a user can
+apply without having to build enormously complex big data
+engines. As an example, an upstream manufacturer may
+have an enormously complex task of coordinating many
+downstream consumption points. Through the use of PMCP
+and/or thalamus services, the manufacturer may be able to
+provide real information to consumers without the need to
+store detailed data and build complex models, which may
+require setting up large-scale systems for processing large
+amounts of data and the like.
+In embodiments, edge device units may communicate via
+the PMCP system to show direction of movement and likely
+futurepositions,Forexample,amovingrobotcancommu-
+nicate its likely track of future movement. In embodiments
+involving large numbers of moving robots, a thalamus
+service may determine which robots need to be prioritized
+and monitored closely (e.g-, because they are moving out-
+side of prescribed boundaries, behaving in unpredictable
+ways, etc.).
+In embodiments, the PMCP system and/or thalamus sys-
+tem enables visual representations of vector-based data (e.g.,
+concern without the need to process enormous volumes of
+data. The visual representation allows for the display of
+many monitored vector inputs. The user interface can then
+display information relating to the key items of interest,
+specifically vectors showing areas of unusual or troublesome
+movement. This mechanism allows sophisticated models
+that are built at the edge device edge nodes to feed into end
+user communications in a visually informative way.
+As can be appreciated, functional units produce a constant
+stream of "boring" data (e.g-, data that does not change,
+changes slightly, or changes very predictably). By changing
+from producing data, to monitoring for problems, issues

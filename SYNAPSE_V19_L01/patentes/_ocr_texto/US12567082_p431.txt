@@ -1,0 +1,133 @@
+[col 1]
+US 12,567,082 B2
+539
+In embodiments, the neural networks can be or include
+one or more generative networks such as, for example,
+generative adversarial networks. Generative networks can
+be used to generate new data such as new images or other
+content.
+In embodiments, the neural networks may be or include
+autoencoders. In some instances, the aim of an autoencoder
+is to learn a representation (e.g., a lower-dimensional encod-
+sionality reduction. For example, in some instances, an 10
+autoencoder can seek to encode the input data and then
+provide output data that reconstructs the input data from the
+encoding. Recently, the autoencoder concept has become
+more widely used for learning generative models of data. In
+some instances, the autoencoder can include additional 15
+losses beyond reconstructing the input data.
+In embodiments, the neural networks may be or include
+one or more other forms of artificial neural networks such as,
+for example, deep Boltzmann machines; deep belief net-
+works; stacked autoencoders; etc. Any of the neural net- 20 :
+works described herein can be combined (e.g., stacked) to
+form more complex networks.
+In embodiments, a neural network may include an input
+layer, a hidden layer, and an output layer with each layer
+comprising a plurality of nodes or neurons that respond to 25
+different combinations of inputs from the previous layers.
+The connections between the neurons have numeric weights
+that determine how much relative effect an input has on the
+output value of the node in question. Input layer may include
+a plurality of input nodes and that may provide information 30
+from the outside world or input data (e.g., sensor data, image
+data, text data, audio data, etc.) to the neural network. The
+input data may be from different sources and may include
+library data xl, simulation data x2, user input data x3,
+training data x4 and outcome data x5. The input nodes and 35
+may pass on the information to the next iayer, and no
+computation may be performed by the input nodes. Hidden
+layers may include a plurality of nodes. The nodes in the
+hidden layer and may process the information from the input
+layer based on the weights of the connections between the 40
+input layer and the hidden layer and transfer information to
+the output layer. The output layer may include an output
+node, which processes information based on the weights of
+the connections between the hidden layer and the output
+layer and is responsible for computing and transferring 45 s
+information from the network to the outside world, such as
+recognizing certain objects or activities, or predicting a
+condition or an action.
+In embodiments, a neural network may include two or
+more hidden layers and may be referred to as a deep neural 50
+network. The layers are constructed so that the first layer
+detects a set of primitive patterns in the input (e.g., image)
+data, the second layer detects patterns of patterns, and the
+third layer detects patterns of those patterns. In some
+embodiments, a node in the neural network may have 55
+connections to all nodes in the immediately preceding layer
+referred to as fully connected layers. In some embodiments,
+a node in the neural network may have connections to only
+some of the nodes in the immediately preceding layer and
+the immediate next layer. Thus, the layers may be referred
+to as sparsely connected layers. Each neuron in the neural
+network consists of a weighted linear combination of its
+inputs and the computation on each neural network layer
+may be described as a multiplication of an input matrix and
+a weight matrix. A bias matrix is then added to the resulting
+product matrix to account for the threshold of each neuron
+[col 2]
+540
+in the next level, Further, an activation function is applied to
+each resultant value, and the resulting values are placed in
+the matrix for the next layer. Thus, the output from a node
+i in the neural network may be represented as:
+yi=(Zxiwi+bi)
+where fis the activation function, Zxiwi is the weighted sum
+of input matrix and bi is the bias matrix.
+The activation function determines the activity level or
+excitation level generated in the node as a result of an input
+signal of a particular size. The purpose of the activation
+function is to introduce non-linearity into the output of a
+neural network node because most real-world functions are
+non-linear and it is desirable that the neurons can learn these
+non-linear representations. Several activation functions may
+be used in an artificial neural network. One example acti-
+vation function is the sigmoid function o(x), which is a
+continuous S-shaped monotonically increasing function that
+asymptotically approaches fixed values as the input
+approaches plus or minus infinity. The sigmoid function o(x)
+takes a real-valued input and transforms it into a value
+between 0 and 1:
+o(x)=1/(1+exp(x).
+Another example activation function is the tan h function,
+which takes a real-valued input and transforms it into a value
+within the range of [-1, 1]:
+tan h(x)=2o(2x)-1
+A third example activation function is the rectified linear
+unit (ReLU) function. The ReLU function takes a real-
+valued input and thresholds it above zero (i.e., replacing
+negative values with zero):
+f(x)=max(0,x).
+It will be apparent that the above activation functions are
+provided as examples and in various embodiments, neural
+network may utilize a variety of activation functions includ-
+ing (but not limited to) identity, binary step, logistic, soft
+step, tan h, arctan, softsign, rectified linear unit (ReLU),
+leaky rectified linear unit, parameteric rectified linear unit,
+randomized leaky rectified linear unit, exponential linear
+unit, s-shaped rectified linear activation unit, adaptive piece-
+wise linear, softplus, bent identity, softexponential, sinusoid,
+sinc, gaussian, softmax, maxout, and/or a combination of
+activation functions.
+In embodiments, the input layer may take external inputs
+xl, x2, x3, x4 and x5, which may be numerical values
+depending upon the input dataset. It will be understood that
+a node may include tens, hundreds, thousands, or more
+inputs. As discussed above, no computation is performed on
+the input layer and thus the outputs are x1, x2, x3, x4 and x5
+respectively, which are fed into a hidden layer. The output of
+nodes in the hidden layer may depend on the outputs from
+the input layer (xl, x2, x3, x4 and x5) and weights associated
+with connections (wl,w2,w3,w4 and w5)between the
+input layer and the hidden layer.
+The outputs from the nodes and in the hidden layer may
+also be computed in a similar manner and then be fed to the
+node in the output layer. Node in the output layer may
+perform similar computations (using weights v1, v2 and v3
+associated with the connections) as the nodes, and in the
+hidden layers.
+As mentioned, the connections between nodes in the
+65 neural network have associated weights, which determine
+how much relative effect an input value has on the output
+value of the node in question. Before the network is trained,

@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+599
+and/or environment and may apply one or more dynamic
+models to the digital twin based on the sensor data. In other
+scenarios, a data representation of a digital twin may be used
+to perform simulations, as is discussed in greater detail
+throughout the specification.
+In some embodiments, the digital twin module 13420 may
+execute a digital ghost that is executed with respect to a
+digital twin of a shipping entity (e.g., a smart container fleet
+or individual smart container) and/or a shipping environ-
+ment. In these embodiments, the digital ghost may monitor 10
+one or more sensors of a sensor system of a shipping entity
+and/or environment to detect anomalies that may indicate a
+malicious virus, compromised sensors, or other security
+issues.
+As discussed, the digital twin module 13420 may include
+a digital twin management system 13306, a digital twin I/0
+system 13308, a digital twin simulation system 13310, a
+digital twin dynamic model system 13312, and/or a digital
+twin control module 13314.
+In embodiments, the digital twin management system 20
+13306 generates new digital twins, maintains/updates exist-
+ing digital twins, and/or renders digital twins. The digital
+twin management system 13306 may receive user input,
+uploaded data, and/or sensor data to create and maintain
+existing digital twins. Upon creating a new digital twin, the 25
+digital twin management system 13306 may store the digital
+twin in the digital twin datastore 13316. Creating, updating.
+and rendering digital twins are discussed in greater detail
+throughout the disclosure.
+In embodiments, the digital twin I/O system 13308 30 s
+receives input from various sources and outputs data to
+various recipients. In embodiments, the digital twin I/O
+system receives sensor data from one or more sensor sys-
+tems. In these embodiments, each sensor system may
+include one or more sensors that output respective sensor 35
+data. Each sensor may be assigned an IP address or may
+have another suitable identifier. Each sensor may output
+sensor packets that include an identifier of the sensor and the
+sensor data. In some embodiments, the sensor packets may
+further include a timestamp indicating a time at which the 40
+sensor data was collected. In some embodiments, the digital
+twin I/0 system 13308 may interface with a sensor system
+via the real-time sensor API. In these embodiments, one or
+more devices (e.g., sensors, aggregators, edge devices) in the
+sensor system may transmit the sensor packets containing 45
+sensor data to the digital twin I/O system 13308 via the API.
+The digital twin I/O system may determine the sensor
+system that transmitted the sensor packets and the cargo
+thereof and may provide the sensor data and any other
+relevant data (e.g-, time stamp, environment identifier/sen- 50 
+sor system identifier, and the like) to the digital twin
+management system 13306.
+In embodiments, the digital twin I/O system 13308 may
+receive imported data from one or more sources. For
+example, the digital twin module 13420 may provide a 55
+portal for users to create and manage their digital twins. In
+these embodiments, a user may upload one or more files
+(e.g., image files, LIDAR scans, blueprints, and the like) in
+connection with a new digital twin that is being created. In
+response, the digital twin I/O system 13308 may provide the 60
+imported data to the digital twin management system 13306.
+The digital twin I/O system 13308 may receive other suit-
+able types of data without departing from the scope of the
+disclosure.
+In some embodiments, the digital twin simulation system 65
+13310 is configured to execute simulations using the digital
+twin. For example, the digital twin simulation system 13310
+[col 2]
+600
+may iteratively adjust one or more parameters of a digital
+twin and/or one or more embedded digital twins. In embodi-
+ments, the digital twin simulation system 13310, for each set
+of parameters, executes a simulation based on the set of
+parameters and may collect the simulation outcome data
+resulting from the simulation. Put another way, the digital
+twin simulation system 13310 may collect data relating to
+the properties of the digital twin and the digital twins within
+or containing the digital twin used during the simulation as
+well as any outcomes stemming from the simulation. For
+example, in running a simulation on a digital twin of a
+potential new smart container design, the digital twin simu-
+lation system 13310 can vary the dimensions, materials,
+capabilities, and/or other relevant parameters and can
+execute simulations that output outcomes resulting from
+different combinations of the parameters. In another
+example, the digital twin simulation system 13310 may
+simulate the vibration of cargo within a smart container. In
+this example, the digital twin of the smart container may
+include a set of operating parameters of the smart container.
+In some embodiments, the operating parameters may be
+varied to evaluate the effect of the operating parameters on
+cargo damage. The digital twin simulation system 13310 is
+discussed in further detail throughout the disclosure.
+In embodiments, the digital twin dynamic model system
+13312 is configured to model one or more behaviors with
+respect to a digital twin of an environment. In embodiments,
+the digital twin dynamic model system 13312 may receive
+a request to model a certain type of behavior regarding a
+shipping entity, environment, or process and may model that
+behavior using a dynamic model, the digital twin of the
+environment or process, and sensor data collected from one
+or more sensors that are monitoring the environment or
+process. For example, an operator of a smart container fleet
+may wish to model the performance of the fleet to determine
+whether the fleet can withstand an increase in freight trans-
+portation service demand. In this example, the digital twin
+dynamic model system 13312 may execute a dynamic model
+that is configured to determine whether an increase in
+demand would result in adverse consequences (e.g-, failures,
+downtime, or the like). The digital twin dynamic model
+system 13312 is discussed in further detail throughout the
+disclosure.
+In embodiments, the intelligence service 13004 performs
+machine learning and artificial intelligence-related tasks on
+behalf of the digital twin system. In embodiments, the
+intelligence service 13004 train machine learned models
+using the output of simulations executed by the digital twin
+simulation system 13310. In some of these embodiments,
+the outcomes of the simulations may be used to supplement
+training data collected from real-world environments and/or
+processes. In embodiments, the intelligence service 13004
+leverages machine learned models to make predictions and
+classifications and provide decision support relating to the
+real-world environments and/or processes represented by
+respective digital twins.
+For example, a machine-learned prediction model may be
+used to predict the cause of irregular vibrational patterns for
+a bearing of an engine of a smart container. In this example,
+the intelligence service 13004 may receive vibration sensor
+data from one or more vibration sensors disposed on or near
+the engine and may receive maintenance data from the smart
+container and may generate a feature vector based on the
+vibration sensor data and the maintenance data. The intel-
+ligence service 13004 may input the feature vector into a
+machine-learned model trained specifically for the engine
+(e.g., using a combination simulation data and real-world

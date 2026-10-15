@@ -1,0 +1,138 @@
+system 12144, the motion planning system 12158, the 35 incorporates one or more modular, resettable and replace-
+[col 1]
+US 12,567,082 B2
+501
+In embodiments, the safety and compliance system 12156
+is configured to perform safety assessments, including
+mechanical safety, electrical safety and functional safety. In
+embodiments, the safety and compliance system 12156 is
+configured to ensure compliance with one or more safety
+standards and generate workflow and process control docu-
+mentation to obtain certificates of conformance from one or
+more standards or certifications authorities. In embodiments,
+safety and compliance system 12156 ensures compliances
+with one or more Standards Authorities include International 10
+Organization for Standardization (ISO), Underwriters Labo-
+ratories (UL), TUV SUD, ANSI (American National Stan-
+dards Institute) and the like.For example, ISO 10218
+describes four separate robot-human collaborative operating
+modes to ensure that humans are not exposed to unaccept- 15
+able risks. Similarly, ISO/TS 15066 provides technical
+specification and engineering guidance for users to conduct
+risk assessments when installing collaborative robot. In
+some embodiments, the safety and compliance system
+12156 may leverage the intelligence services in making
+safety assessments.
+In embodiments, the motion planning system 12158 may
+be configured to control the motion of the MPR 12100 or
+portions thereof and build an optimal collision free path for
+the MPR2B00. Example embodiments of the motion plan- 25 
+ning system 12158 are described in further detail in con-
+junction with FIG.140.
+In embodiments, the controller 12160 in the control
+system may drive the actuators in the transport system
+12110, end effectors, or other any other electro-mechanical
+component of the MPR2BO0, thereby enabling the MPR
+12100 to perform at least a portion of a task. In embodi-
+ments, the controller 12160 may receive signals from one or
+more of the navigation system 12154, the task management
+communication system 12152, and/or the module manage-
+ment system 12148 to determine a control signal to issue to
+an implicated actuator, which the controller 12160 may
+output to the implicated actuator.
+In embodiments, the module system 12120 may be con- 40
+figured to provide one or more task specific capabilities to
+the MPR i2100 using one or more configurable and inter-
+changeable hardware and software modules. In embodi-
+ments, the module system 12120 includes the control inter-
+face module 12130 and/or a physical interface module 45
+12122.In embodiments, the control interface module 12130
+may include one or more software modules to provide
+connectivity, power, security, sensing, computing and arti-
+ficial intelligence (AI) like capabilities. In embodiments, the
+physical interface module 12122 may include one or more 50
+end effectors, or end of arm tooling systems configured to
+provide the MPR 12100 with the ability to perform certain
+operational tasks.
+In embodiments, a control interface module 12130
+includes one or more interfaces that are configured to 55
+receive respective modules configured to enhance various
+capabilities of the MPR2B00 such as sensing capabilities,
+power capabilities, networking capabilities, edge computing
+capabilities, and/or the like. Such capabilities may enable
+the MPR2B00 to perform specialized functions such as 60
+specialized sensing and evaluation and to work in environ-
+ments with edge and networking constrains, power con-
+straints, mobility constraints and the like.
+In embodiments, the control interface module 12130 may
+include networking modules 12131, sensor modules 12132,
+computing modules 12133, security modules 12134,AI
+modules 12135, communications modules 12136 and user
+[col 2]
+502
+interface modules 12138. In embodiments, the control inter-
+face module 12130 receives one or more sensor modules
+12132. The sensor modules that are used to configure the
+MPR 12100 may depend on the tasks and jobs that the MPR
+12100 is being configured to perform. For instance, the
+sensor modules 12132 may include weight sensors, envi-
+ronment sensors (e.g., temperature, humidity, ambient light,
+motion sensors, vision sensors (e.g., cameras, lidar sensors,
+radar sensors, etc.), or other suitable sensors. In embodi-
+ments, the sensor modules 12130 may be specialized chips,
+such as a lab-on-a-chip package, an organ-on-chip package,
+or the like.
+In embodiments, the control interface module 12130
+incorporates one or more modular, removable and replace-
+able lab-on-a-chip sensor package to provide chemical and
+biological sensing. The lab-on-a-chip sensor package may
+enable the MPR2B00 to perform chemical and diagnostic
+testing including chemical assays, microbiological culture
+assays, immunoassays and nucleic acid assays and may be
+2o useful for environmental conditions testing, water and gas
+particle analysis, first responder testing, toxicology, military,
+disaster, and related applications.
+In embodiments,the controlinterfacemodule12130
+incorporates one or more modular, removable and replace-
+able organ-on-a-chip sensor package tailored to sense and
+evaluate biological and related hazards. The organ-on-a-chip
+sensor package may be a microfluidic culture device that
+simulates the architecture, mechanics, functions and physi-
+ological response of living human organs, including the
+I 3o lung, intestine, kidney, skin, bone marrow and blood-brain
+barrier, among others. Some example use-cases include
+first-responders, operator health, pandemic, and related
+applications.
+In embodiments, the control interface module 12130
+able collision sensors package configured to detect potential
+collisions and disengage or send a signal to the robot to stop
+or reverse movement when a collision is detected. The
+collision sensor package may help with preventing, reducing
+or eliminating damage to the end effector, tooling and the
+parts or products being processed.
+In embodiments, the control interface module 12130
+incorporates one or more modular, removable and replace-
+able Al-on-a-chip package configured for a specific task or
+policy, and integrated to work with a variety of visual and
+other sensor inputs.Some examples oftask specific Al-on-
+a-chip packages include machine vision packages, natural
+language processing packages, image classification pack-
+ages, video analysis packages, predictive analysis packages,
+optimization packages, control packages or packages con-
+figured for implementing one or more policies in policy
+libraries. In embodiments, the modular AI-on-a-chip pack-
+ages may be configured for training of one or more of
+machine learning models, reinforcement learning models,
+neural networks, policy networks and the like. In embodi-
+ments, the modular AI-on-a-chip packages may be config-
+ured for specific environments like warehouses, manufac-
+turing environments, agricultural and farming environments,
+shipping and logistics environment, medical environments
+and the like. The modular AI-on-a-chip packages may be
+trained with domain-specific models that are built for the
+specific environment or use cases. For example, the package
+may include a natural language processing model specifi-
+cally customized for understanding language used in an
+agricultural or warehouse environment.As another example,
+the model may be trained on a set of medical images and
+used for identifying microbial infections. In embodiments,

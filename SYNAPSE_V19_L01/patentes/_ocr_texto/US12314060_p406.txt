@@ -1,0 +1,137 @@
+self-destructing, or the like. In embodiments, the non-adap- 35 and control portions of the fleet management platform
+FIG. 133 ilustrates an example set of components of the 55 and/or adaptation of robot fleet communication resources
+[col 1]
+US 12,314,060 B2
+447
+some of these embodiments, an intelligence controller
+12202 of the intelligence system 12200 may allow or
+override decisions made by the artificial intelligence ser-
+vices 12204. For instance, the analysis modules 12208 may
+perform dynamic risk analyses 12292 and/or static risk
+analyses 12294. Examples of dynamic risk analysis may
+include, but are not limited to, real-time data driven analyses
+(e.g, current weather patterns, current political climates,
+current health crises, and/or the like) and/or job-specific risk
+analyses (e.g., contractual risks, environmental risks, safety 10 
+liabilities, monetary liabilities, and/or the like). Examples of
+static risk analyses may include, but are not limited to,
+operational risks (e.g-, product design risks, manufacturing
+risks, quality control risks, and/or the like) and/or regula-
+tory/compliance risks.
+15 In embodiments, the autonomous adaptive security mod-
+ule 12282 may operate in an isolated manner (e.g., without
+communication with external devices or systems) or in a
+connected manner (e.g-, with communication with external
+devices or systems). 20
+In embodiments, the security system 12280 may include
+an autonomous non-adaptive security module 12284. In
+embodiments, the autonomous non-adaptive security mod-
+ule 12284 is configured to make security related decisions
+on behalf of a client autonomously (e.g., without human 25
+intervention). In embodiments, a non-adaptive security
+module 12284 performs logic-based security-related actions
+(e.g, risk mitigation actions) in response to detecting one or
+more specific sets of conditions. For example, a non-adap-
+tive security module 12284 may be configured to, in 30
+response to detecting a specific set of conditions, trigger
+actions such actions as turning off the robot, stopping a
+movement of the robot, initiating charging, sounding an
+alarm, sending a notification to another device or system,
+tive security module 12284 responds to risks that are more
+easily diagnosable, such as overheating conditions, moving
+or being taken out of a geofenced area, detected internal
+leaks, low power conditions, low fluid levels, and/or the like.
+In embodiments,the security system 12280may include 40
+a manual security module 12286. In embodiments, the
+manual security module 12286 is configured to allow a user
+to make decisions regarding security-related actions. In
+some of these embodiments, the manual security module
+12286 is configured to receive a notification of an assessed 45
+risk (e.g., from the adaptive security module 12282, the
+non-adaptive security module 12284, from an intelligence
+client 12260, or the like). In these embodiments, the human
+user may interface with the manual security module 12286
+via a human interface, which may be provided via a user 5o
+device (e.g., mobile device, tablet, computing device, or the
+like).
+Various security and risk-mitigation strategies are dis-
+cussed throughout the disclosure.
+fleet operations system 12002 of a fleet management plat-
+form. In embodiments, the fleet operations system 12002
+may utilize the features and capabilities of the robot fleet
+management platform 12000 to facilitate substantially opti-
+mized utilization of fleet resources by anticipating fleet 60
+resource needs and preparing those resources in advance of
+anticipated use. In embodiments, resource need anticipation
+may include coordinating maintenance activities with job
+scheduling to ensure that preventable interruptions due to
+lack of maintenance are prevented. Additionally or alterna-
+tively, resource need anticipation may be based on alignment
+of detected fleet resource use with information that supports,
+[col 2]
+448
+among other things, anticipation of job requests. In embodi-
+ments, factors such as weather pattern forecasting, time of
+year, location, and/or the like may influence the likelihood
+of certain job requests (e.g., during hurricane season, urgent
+infrastructure repair jobs are likely to be requested).
+Example implementations for generating fleet need predic-
+tions and addressing those predictions follow the discussion
+of the components of the fleet operations system 12002 and
+those of the related robot fleet management platform 12000.
+As previously discussed, example components of the fleet
+operations system 12002 may include a communication
+management system 12010, the remote-control system
+12012, a resource provisioning system 12014, a logistics
+system 12016, a job configuration system 12018, a fleet
+configuration system 12020, a job execution, monitoring,
+and reporting system 12022 (also referred to as a job
+execution system 12022), and a human interface system
+12024.
+In embodiments, the communication management system
+12010 is configured to enable communication (e.g., efficient
+and/or high speed communication) among fleet management
+platform elements, such as the fleet operations system 12002
+and its elements as described herein, the fleet intelligence
+layer 12004 and its elements as described herein, external
+data sources 12036, third party systems (e.g., via an Internet
+and the like), robot operating units, support systems and
+equipment, human fleet resources and the like. The com-
+munication management system 12010 may include or pro-
+vide access to one or more communication network types,
+such as wired, wireless and the like that may support various
+data protocols, such as Internet Protocol (IP) and the like.
+The communication management system may include or
+have access to intelligence services (e.g. via the fleet
+intelligence system resources described herein) that manage
+infrastructure associated with communication to ensure, for
+example: timely delivery of data collected by deployed robot
+operating units to critical computation, analysis and/or data
+storage resources; prioritized delivery of robot configuration
+and operational instructions; and the like. In fleet resource
+management and control embodiments, the communication
+management system 12010 may prioritize fleet security
+system communications use of fleet communication
+resources over communications among fleet intelligence
+system components to support a high degree of security and
+integrity of fleet resources. The communication manage-
+ment system 12010 may provide and manage access to
+networking, including fleet platform network system 380
+that connects at least the fleet management platform 12000
+with external systems, deployed robot operating units, and
+other network-connectable elements (e.g., fleet edge devices
+and the like).
+In embodiments, capabilities of the communication man-
+agement system 12010 may include contextual specification,
+(e.g-, networks, radio systems, data communication devices,
+such as routers, and the like) based on, among other things,
+a job execution plan, plan definitions, task definitions, robot
+operating unit configurations, real-time job status, and the
+like. Communication management system 12010 adaptation
+of fleet communication resources may be impacted by a
+range of real-world conditions (e.g., weather, atmospheric
+conditions, building structures, working environment (e.g.,
+land-to-submerged, subterranean), and the like). In embodi-
+ments, the communication management system 12010 may
+glean context from a job request that may facilitate antici-
+pating a need for and types of adaptation during job execu-

@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+625
+client application 13324 may then initiate a digital twin
+visualization event using the results obtained by the digital
+twin dynamic model system 13312. In embodiments, the
+visualization may be a heat map visualization.
+As illustrated by FIG. 148, the digital twin dynamic
+model system 13312 may receive requests to update one or
+more properties of digital twins of shipping entities and/or
+environments such that the digital twins represent the ship-
+ping entities and/or environments in real-time. At step A100,
+the digital twin dynamic model system 13312 receives a 10
+request to update one or more properties of one or more the
+digital twins of shipping entities and/or environments. For
+example, the digital twin dynamic model system 13312 may
+receive the request from a client application 13324 or from
+another process executed by the digital twin module 13420 15
+indicate the one or more properties and the digital twin or
+digital twins implicated by the request. In step A102, the
+digital twin dynamic model system 13312 determines the
+one or more digital twins required to fulfill the request and 20
+retrieves the one or more required digital twins, including
+any embedded digital twins, from digital twin datastore
+13316. At step A104, digital twin dynamic model system
+13312 determines one or more dynamic models required to
+fulfill the request and retrieves the one or more required
+dynamic models from digital twin dynamic model datastore
+13376. At step A106, the digital twin dynamic model system
+13312 selects one or more sensors from sensor system, data
+collected from Internet of Things connected devices 13338,
+and/or other data sources from digital twin I/O system 13308
+based on available data sources and the one or more required
+inputs of the dynamic model(s). In embodiments, the data
+sources may be defined in the inputs required by the one or
+more dynamic models or may be selected using a lookup
+table. At step A108, the digital twin dynamic model system 35
+13312 retrieves the selected data from digital twin I/O
+system 13308. At step A110, digital twin dynamic model
+system 13312 runs the dynamic model(s) using the retrieved
+input data (e.g., velocity sensor data, image data, and the
+like) as inputs and determines one or more output values 40
+based on the dynamic model(s) and the input data. At step
+A112, the digital twin dynamic model system 13312 updates
+the values of one or more properties of the one or more
+digital twins based on the one or more outputs of the
+dynamic model(s). 45
+In example embodiments, client application 13324 may
+be configured to provide a digital representation and/or
+visualization of the digital twin of a shipping entity. In
+embodiments, the client application 13324 may include one
+50
+server devices. These software modules may be configured
+to quantify properties of the digital twin, model properties of
+a digital twin, and/or to visualize digital twin behaviors. In
+embodiments, these software modules may enable a user to
+select a particular digital twin behavior visualization for 55
+viewing. In embodiments, these software modules may
+enable a user to select to view a digital twin behavior
+visualization playback. In some embodiments, the client
+application 13324 may provide a selected behavior visual-
+ization to digital twin dynamic model system 13312. 60
+In embodiments, the digital twin dynamic model system
+13312 may receive requests from client application 13324 to
+update properties of a digital twin in order to enable a digital
+representation of a shipping entity and/or environment
+wherein the real-time digital representation is a visualization 65
+of the digital twin. In embodiments, a digital twin may be
+rendered by a computing device, such that a human user can
+[col 2]
+626
+view the digital representations of real-world shipping enti-
+ties, devices, workers, processes and/or environments. For
+example, the digital twin may be rendered an outcome to a
+display device. In embodiments, dynamic model outputs
+and/or related data may be overlaid on the rendering of the
+digital twin, In embodiments, dynamic model outputs and/or
+related information may appear with the rendering of the
+digital twin in a display interface. In embodiments, the
+related information may include real-time video footage
+associated with the real-world entity represented by the
+digital twin. In embodiments, the related information may be
+graphical information. In embodiments, graphical informa-
+tion may depict motion, wherein a user is enabled to select
+a view of the graphical information in the x, y, and z
+dimensions. In embodiments, the related information may be
+cost data, including cost of downtime per day data, cost of
+repair data, cost of new part data, cost of new machine data,
+and the like. In embodiments, related information may be
+probability of downtime data, probability of failure data, and
+the like. In embodiments, related information may be time to
+failure data.
+In embodiments, the related information may be recom-
+mendations and/or insights. For example, recommendations
+or insights received from the intelligence service related to
+a smart container may appear with the rendering of the
+digital twin of a smart container in a display interface.
+In embodiments, clicking, touching, or otherwise inter-
+acting with the digital twin rendered in the display interface
+can allow a user to "drill down" and see underlying sub-
+systems or processes and/or embedded digital twins.In
+embodiments, clicking, touching, or otherwise interacting
+with information related to the digital twin rendered in the
+underlying information
+In some embodiments, the digital twin dynamic model
+system 13312 may receive requests from client application
+13324 to update properties of a digital twin in order to
+enable a digital representation of shipping entities and/or
+environments wherein the digital representation is a heat
+map visualization of the digital twin.In embodiments, a
+platform is provided having heat maps displaying collected
+data from the sensor system, Internet of Things connected
+devices 13338, and data outputs from dynamic models
+13374 for providing input to a display interface. In embodi-
+ments, the heat map interface is provided as an output for
+digital twin data, such as for handling and providing infor-
+mation for visualization of various sensor data, dynamic
+model output data, and other data (such as map data, analog
+sensor data, and other data), such as to another system, such
+as a mobile device, tablet, dashboard, computer, AR/VR
+device, or the like. A digital twin representation may be
+provided in a form factor (e.g., user device, VR-enabled
+device, AR-enabled device, or the like) suitable for deliv-
+ering visual input to a user, such as the presentation of a map
+that includes indicators of levels of analog sensor data,
+digital sensor data, and output values from the dynamic
+models. In embodiments, signals from various sensors or
+input sources (or selective combinations, permutations,
+mixes, and the like) as well as data determined by the digital
+twin dynamic model system 13312 may provide input data
+to a heat map. Coordinates may include real world location
+coordinates (such as geo-location or location on a map), as
+well as other coordinates, such as time-based coordinates,
+frequency-based coordinates, or other coordinates that allow
+for representation of analog sensor signals, digital signals,
+dynamic model outputs, input source information, and vari-
+ous combinations, and/or in a map-based visualization, such

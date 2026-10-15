@@ -1,0 +1,134 @@
+[col 1]
+US 12,314,060 B2
+717
+take on various roles, such as in distributed databases with
+localized needs-based devices, where devices may perform
+in one role out of two or more. For example, devices in a first
+role may be responsible for collecting, managing, and/or
+maintaining one type of data, whereas devices in a second
+role may be similarly responsible for a second type of data.
+This role-based approach may bring the advantage that
+metadata management may be isolated to only nodes in a
+particular role. Thus, for example, a distributed database
+may use many different kinds of edge devices based on the 10
+nature and type of operations being performed by the edge
+devices.
+In embodiments, the dynamic ledger 20150 may include
+probability distribution models 20260, which may be used to
+provide approximate answers to queries or partial queries. 15
+For example, a probability distribution models may indicate
+means/medians/modes (e.g., overall, for a particular region,
+for a particular time frame, etc.), standard distributions,
+frequency distributions matrices, maximums, minimums,
+outlier values, etc. for various sensors, sensor types, regions, 20
+etc. The probability distribution models 20260 may enable
+(at least approximately) responding to a query that requests,
+for example, an average sensor reading for a region without
+requiring network communications with most or all of the
+edge devices in the region. In embodiments, the probability 25
+distribution models 20260 may be implemented as, for
+example, trained neural networks or other machine learning
+models that may be trained to predict values (e.g-, average
+historical data stored in the distributed database. The prob- 30
+ability distribution models 20260 may be determined/
+trained/etc. by the edge devices 20120, edge device/aggre-
+gators 20130, and/or aggregators 20140.
+In embodiments, the dynamic ledger 20150 may include
+query prediction models 20262, which may be used to 35
+predict future queries for an upcoming time period, deter-
+mine the most common future query, etc. The query predic-
+tion models 20262 may be implemented as, for example,
+trained neural networks or other machine learning models
+historical query data (which may be stored as query logs
+the dynamic ledger 20150). The query prediction models
+20262 may be trained by the edge devices 20120, edge
+device/aggregators 20130, and/or aggregators 20140. The 45 c
+query prediction models may be used to prepare summary
+data and/or update distribution models in advance so that the
+dynamic ledger 20150 stores the most relevant data for
+optimizing the operation of the distributed database, as
+described in more detail below with respect to FIG. 169D. 50
+In embodiments, the dynamic ledger 20150 may include
+reference tables 20264, which may be identical or distinct
+from the reference tables 20216 stored in the edge storage
+20122. Additionally or alternatively, the dynamic ledger
+20150 may include query logs 20266, which may include 55
+data taken from various query logs stored in edge storage
+(e.g., a first set of queries from query logs 20218A, a second
+set of queries from query logs 20218B, etc.).
+In embodiments, the dynamic ledger 20150 may include
+pending data requests 20268, which may include pending 60
+queries or other data requests that may be monitored by edge
+devices in order to respond with requested data. In embodi-
+ments, although the summary data 20252, 20254 and/or
+probability distribution models 20260 may enable responses
+(e.g., approximate responses) to some queries, for other 65
+queries data may need to be retrieved from edge devices.
+Additionally or alternatively, summary data 20252, 20254
+[col 2]
+718
+and/or probability distribution models 20260 may need to be
+continually updated/retrained in order to incorporate the
+latest data, in order to respond to future predicted queries,
+and/or the like. Accordingly, pending data requests 20268
+may be stored in the dynamic ledger 20150 and monitored
+by the various edge devices 20120. A pending data request
+20268, for example, may include a formatted query (e.g., the
+identical query received from a query device 20110, a
+portion of a query, etc.). Edge devices 20120 may monitor
+the pending data requests 20268 and (e.g., when resources
+are available), upload data (e.g-, data stored in edge storage)
+data themselves in order to update summary data, retrain a
+probability distribution model, respond to a query, and/or the
+like. In embodiments, aggregators 20140 may maintain a list
+edge devices 20120 respond to the most important pending
+data requests first when resources are available. Additionally
+or alternatively, the pending data requests may be ordered in
+chronological order such that the edge devices respond to
+the oldest requests first (e.g., first in first out).
+In embodiments, device sofiware (e.g., configured mod-
+ules running on edge devices and/or aggregators) may have
+automatic and/or configurable edge-sharding (also referred
+to herein as “partitioning") built in. Some implementations
+of the modules may be targeted more at transactional work-
+loads, and some at analytical workloads, many of the
+products may combine both kinds of workloads into one.
+Database modules may accomplish this combination by the
+use of a multi-layered architecture using microservice com-
+ponents or modules.
+FIG. 168A illustrates example modular components of an
+example edge device 20120A. In embodiments, each edge
+device may have the illustrated modules and/or other mod-
+ules, which may be implemented as microservices running
+on the edge device 20120A. Additionally or alternatively,
+different edge devices 20120 can have different modules.
+For example, aggregators 20140 may cause different mod-
+ules to be distributed to different edge devices 20120 accord-
+ing to roles of different edge devices, data available to
+different edge devices, to dynamically handle different que-
+ries or other loads at different parts of a network, and/or the
+like. Accordingly, the illustrated modules are example mod-
+ules that may not be replicated and/or used on every edge
+device, may be switched on or off dynamically, and the like.
+In embodiments, an edge device 20120 includes an API
+module 20302 for receiving queries (e.g., from query
+devices 20110) and routing the received queries to other
+modules for processing, receiving instructions from aggre-
+gators and routing the instructions to other modules for
+processing, and/or otherwise interfacing between the other
+modules of the edge device 20120 and/or other devices. In
+embodiments, the API module allows a user to interact with
+tables and data stored inside the distributed database as the
+queries are running against a single server relational data-
+base. Users may use the API to insert, update/delete, perform
+join operations, or select data from tables (e.g., for a web
+application). As shown in the figure, the API module 20302
+may be in communication with query devices 20110 (e.g.,
+for receiving queries and transmitting query responses),
+other edge devices 20120B-N (e.g., to share redundant data
+as instructed by an aggregator 20140), and/or aggregators
+20140 (e.g., to receive instructions for operation, for trans-
+mission of data, etc.).
+In embodiments, an edge device 20120 includes a mod-
+elling module 20304 for building probability distribution
+models 20260, generating estimates using the models

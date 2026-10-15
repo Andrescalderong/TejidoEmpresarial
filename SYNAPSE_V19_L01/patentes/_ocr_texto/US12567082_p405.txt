@@ -1,0 +1,137 @@
+maintenance needs, earliest task start/finish time, latest task 45 ration, fleet configuration, and/or the like
+[col 1]
+US 12,567,082 B2
+487
+task definition structuring (e.g., a list of task names stored
+within a subset of the task definition that is structured to
+indicate the subset of tasks are to be retrieved from the
+library). While the examples of ingestion herein pertain to an
+instance of ingestion of one or more task definitions, inges-
+tion may be performed on batches of tasks. Multiple
+instances of the ingestion module 12502 may be instantiated
+and operating concurrently to process a plurality of task
+definitions may be performed. Optionally, a stream of tasks
+definitions may be received by ingestion and each task in the 10 v
+stream is ingested in sequence.
+One or more outcomes of processing by the ingestion
+module 12502 may be presented to a set of workflow
+definition activities including a task dependency determina-
+tion module 12506 that may determine dependencies among 15
+tasks, such which tasks need to be performed in a sequence
+and which tasks can be performed independently of other
+tasks. The task dependency determination module 12506
+may also determine dependency of tasks on other factors,
+such as availability of fleet resources, calendar/date/time, 20
+readiness of supply materials and the like. Dependency on
+other factors may be identified in the task definition, such as
+by marking a given job state as a start point for the task. In
+an example of job state task dependency, a task of process-
+ing a sample of material may be dependent on the material 25
+being received by a sample cataloging robot and the like.
+Further other factor task dependency may be attributed to a
+given task definition during ingestion (e.g., based on align-
+ing a task with a fleet configuration that sets a dependency
+on availability of fleet resources, such as a special purpose 30 e
+robot and the like).
+A task grouping activity 12508 may process outcomes of
+the task dependency activity 12506 to generate groups of
+tasks based on a range criteria, such as tasks that depend on
+a given task being complete (e.g-, opening a building ven- 35
+tilation system port) may be grouped for concurrent execu-
+tion. Grouping tasks may be based on dependency on fleet
+resource availability, so that tasks that are dependent on a
+fleet resource may be grouped and performed once the
+resource is available.The order of performance of these 40
+grouped tasks may be based on inter-task dependency.
+Generally, tasks may be grouped for a range of purposes,
+such as cost savings, resource guarding, job prioritization,
+available job execution funds, anticipated fleet resource
+start/finish time and the like.
+A task workflow step definition activity 12510 may deter-
+mine which task(s) can be organized into each step of one or
+more workflows. Based on inter-task dependency (or lack
+thereof) multiple workflows may be defined, each workflow 50
+including one or more workflow steps that are defined in
+workflow step definition activity 12510.As an example of
+inter-task dependency, a proscribed task, such as one driven
+by an electrical safety standard, may serve as a reference
+point to which other workflow development activities must 55 i
+conform. Referring again to the building ventilation system
+inspection example referenced herein, a set of workflow
+steps for opening a ventilation port may be configured (with
+optional adaptation based on other conditions) into multiple
+workflows, one for each ventilation port. Further, a work- 60
+flow step, once defined, may be assigned to and/or refer-
+enced in a plurality of workflows. When dependencies exist,
+such as availability of a special purpose robot for performing
+a task in a workflow step, a plurality of workflows may
+themselves be made dependent. In an example, when a task
+of opening a ventilation port is defined for a special purpose
+robot and the job requires opening four ports, workflows that
+[col 2]
+488
+include this port opening tasks may be made dependent so
+that each workflow is started only when the required
+resource is available. Performance of other tasks in these
+workflows may be concurrent even if the initial task of
+opening the port must be done sequentially due to the fleet
+resource utilization dependency.
+In embodiments, a defined workflow step may be an
+adapted variant of a candidate workflow step 12514, such as
+a workflow step that is retrieved from the library 12314. The
+workflow step definition activity 12510 may request input
+from other fleet resource platform services, such as the data
+vices 12028 to adapt a candidate workflow step for use when
+defining one or more workflow steps for a given job.
+Information such as workflow step dependency may be
+utilized by a workflow step linking activity 12512 that may
+receive step linking recommendation(s) 12516 from the fleet
+intelligence layer 12004 and the like. Workflow step linking
+activity 12512 may generate a data structure that indicates a
+sequence of performing defined workflow steps (e.g., a
+workflow definition 12306D. The workflow definition
+12306D may include data that captures job-specific work-
+flow information, such as workflow step ordering, workflow
+step performance sequence, workflow step independence,
+step-by-step links to workflow steps, workflow success
+criteria, cross-workflow dependencies, and/or the like.
+In embodiments, workflow definition(s) 12306D may be
+stored in a job instance storage 12408 where they can be
+referenced as needed during job configuration and/or job
+execution. They may be stored in the fleet library 12314
+where they can be referenced by other jobs, by third parties,
+such as job requestor and the like. They may be stored
+elsewhere (e.g., a cloud storage facility) based on architec-
+tural considerations, such as being distributed to edge com-
+puting infrastructure resources proximal to job deployment
+sites and the like.
+In embodiments, workflows may be simulated as indi-
+cated in the description of the job configuration system
+12018. Outcomes of simulation may be directed to, for
+example, theingestion module 12502 where ingestion
+operations, such as alignment of fleet configuration data
+with task description data may be improved. Outcomes may
+also be passed to as feedback 12406 to other components of
+the platform 12000 to improve task definition, job configu-
+In a specific example, an exemplary robot fleet job may
+comprise inspecting a building ventilation system. The job
+request parsing system 12302 may parse a job request and
+any related documents to identify ventilation system inspec-
+tion routines, tasks, actions, steps, requirements, and the
+like. The job request parsing system 12302 may provide the
+parsed information to the task definition system 12304. In
+embodiments, an inspection procedure associated with the
+job request may indicate one such inspection procedure step
+for entering the ventilation system (e.g., through a wall or
+ceiling register and the like). The task definition system
+12304 may identify a plurality of tasks associated with the
+procedural step of entering the ventilation system. These
+tasks may include: gathering information about the physical
+configuration of the ventilation system that may identify the
+location and type of registers available in the building.
+analyzing the ventilation physical information to select
+candidate registers, determining requirements for accessing
+the register (e.g., is it located behind a locked door, will
+entering the system through the register require lifting a
+robot, and the like), tools for removing a cover/grate of the
+register, and the like. Further information that may be related

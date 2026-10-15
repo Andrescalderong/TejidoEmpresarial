@@ -1,0 +1,138 @@
+nicating vectorized sensor readings together with model 20 role. In a transmission role, the modelling module 18064
+[col 1]
+US 12,567,082 B2
+679
+for example, waiting for the depletion of inventory for an
+item to occur. Continuing the example, the stateless auto-
+mated device can react to the forecast future state and make
+the necessary adjustments, such as ordering more of the
+item.
+In embodiments, the PMCP system enables communicat-
+ing vectorized information together with model parameters
+that allow predictive models on a receiving end to predict
+probabilities of future values. The vectorized information
+may be transmitted and processed to determine a number of 1o i
+probability-based states. For example, motion vectors and
+model parameters for predicting future locations based on
+motion vectors may be transmitted using PMCP, and a
+receiving location may use the motion vectors as inputs to a
+parameterized predictive model (e.g., a model that deter- 15
+mines future locations of an item using the model param-
+eters), which may generate probabilities that an item asso-
+ciated with a motion vector is in different locations. As
+another example, the PMCP system may support commu-
+parameters that allow current and/or future sensor readings
+to be predicted. Applied in an environment with large
+numbers of sensors with different accuracies and reliabili-
+ties, the probabilistic vector-based mechanism of the PMCP
+system allows large numbers, if not all, data streams to be 25
+used to produce refined models representing the current
+ state, past states and likely future states of value chain items
+(e.g, goods, services, and/or the like). Approximation meth-
+ods may include importance sampling, and the resulting
+predictive model may be a particle filter, condensation 30
+algorithm, Monte Carlo localization, or other suitable mod-
+els.
+In embodiments, the vector-based communication of the
+PMCP system allows devices and/or other systems to antici-
+pate future security events.For example,a set of simple edge 35
+devices may be configured to run semi-autonomously using
+PMCP to generate and transmit model parameters based on
+locally-sensed security data. In this example, the edge
+devices may be configured to build a set of forecast models
+showingtrends in thedata.Theparameters of this setof 4o
+forecast models may be transmitted using the PMCP system.
+In this example, the edge devices may be configured to build
+a set of forecast models showing trends in the data. The
+parameters of this set of forecast models may be transmitted
+using the PMCP system so that the security data may be 45
+rebuilt and used to predict future states at a receiving device.
+In embodiments, security systems may generate and
+transmit vectors showing changes in state, as unusual events
+tend to cause one or more vectors to show unusual patterns.
+In a security setting, detecting multiple simultaneous 50
+unusual vectors may trigger escalation and a response by, for
+example, a control tower or other systems in the system of
+systems. In addition, one of the major areas of communi-
+cation security concern is around the protection of stored
+data, and in a vector-based system data may not need to be 55
+stored (or may be stored on fewer devices), so the risk of
+data loss is removed or reduced.
+In embodiments, PMCP data can be directly stored in a
+queryable database where the actual data is reconstructed
+dynamically in response to a query. In some embodiments, 60
+the PMCP data streams can be used to recreate the fine-
+grained data so they become part of an Extract Transform
+and Load (ETL) process.
+A PMCP device interface may include several modules
+including a transceiver module 18062, a modelling module
+18064, a library module 18066, and a storage module 18068.
+The transceiver module may include a data transceiver
+[col 2]
+680
+18070 that may be used to transmit/receive data, including
+various data from data sources 18004 and/or PMCP data
+(e.g., vectors, model parameters, etc.) to/from other PMCP
+device interfaces (e.g., PMCP device interface 18052) and/
+or to/from other components of a system including the
+PMCP device interface. In embodiments, the transceiver
+module 18062 may include an intelligence system 18072,
+which may use artificial intelligence techniques to assist in
+transmission and/or reception processing. For example, the
+intelligence system 18072 may route various types of
+incoming and outgoing data, prioritize or deprioritize trans-
+mitted and/or received data from data sources 18004 vs
+PMCP data, and/or the like. The intelligence system 18072
+may further include a PMCP controller 18074, which may
+understand PMCP transmissions, parse PMCP data, and
+provide the received PMCP data to the modelling module for
+further operations.
+The modelling module 18064 may be responsible for
+various operations in a transmission role and/or in a receiver
+may continually receive data from various data sources
+18004 (e.g., sensors 18022) and continually generate and/or
+refine models that predict future states of the incoming data.
+The various models may be, for example, classification
+models, behavioral analysis models, prediction models, data
+augmentation models, and/or any other types of model.
+Model parameters (e.g., neural network weights) from the
+generated/refined models may then be transmitted to receiv-
+ers, which may use the parameters to perform classifications,
+behavior analysis, prediction, augmentation and/or the like
+without needing to have access to the data stream. Accord-
+ingly, in a receiver role, the modelling module 18064 may
+use various parameters received from another PMCP device
+interface to parameterize various types of models, then use
+the parameterized models to generate data for further use by
+the receiving device.
+In embodiments, the PMCP device interface may train
+and/or execute classification models 18076, which may be
+trained using data captured from data sources 18004 gener-
+ate various labels or classifications. For example, classifi-
+cation models may be used to output various states or
+conditions based on input data, including predicted future
+states or conditions. By transmitting classification model
+parameters to a receiving device using PMCP, the receiving
+device may also be able to predict the future states or
+conditions without having to receive the input data from the
+data sources 18004.
+In embodiments, the PMCP device interface may train
+and/or execute behavior analysis models 18078, which may
+be trained using data captured from data sources 18004 to
+generate various behavioral analyses and future behavioral
+data. For example, behavior analysis models may be used to
+output current or future actions that are likely to be taken by
+certain entities and/or analyses of whether the actions are
+within normal conditions or unusual, By transmitting behav-
+ioral analysis model parameters to a receiving device using
+PMCP, the receiving device may also be able to predict the
+future actions and/or analyses without having to receive the
+input data from the data sources 18004.
+In embodiments, the PMCP device interface may train
+and/or execute prediction models 18080, which may be
+trained using data streams captured from data sources 18004
+to generate current and predicted data values for the data
+streams. For example, prediction models may be used to
+e 65 output current or future sensor readings based on data
+captured from sensors 18022. By transmitting prediction
+model parameters to a receiving device using PMCP, the

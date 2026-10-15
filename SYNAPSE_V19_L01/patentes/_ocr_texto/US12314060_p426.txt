@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+487
+job-specific demand data 12476 may indicate information
+that may be indicative of configuring teams, such as co-
+location of robots performing a task and the like. The team
+organizer 12470 may confirm and/or designate team meta-
+data for use when configuring a fleet. The team metadata
+may indicate team membership and time frame for the
+membership (e.g., from one date to another, from a start of
+a task until the task is complete, and the like).
+The fleet configuration scheduler 12468 may update fleet
+allocation data sets (that may be used by fleet resource 10
+allocation and/or reservation capabilities described herein),
+such as the fleet robot operating unit allocation data set
+12462 and the fleet non-robot operating unit allocation data
+set 12456 with fleet configuration allocation information
+based on configuration(s) generated for the job-specific 15
+demand data 12476 provided. The various inputs, including
+fleet configuration impacting external data 12464 (e.g.
+weather, location data, traffic data, industry standards, job-
+specific contextual information, and the like) may be pro-
+cessed, optionally iteratively, by the fleet configuration 20
+scheduler 12468 to produce, among other things, fleet con-
+figurations 12478 that may be returned to an executing
+instance of a job configuration system 12018 via the fleet
+configuration proxy 12466.
+FIG. 139 illustrates example embodiments of the work- 25 i
+flow definition system 12306 according to some embodi-
+ments of the present disclosure. In embodiments, the work-
+flow definition system 12306 may be constructed to generate
+definitions of workflows for requested jobs utilizing
+resources of the fleet management platform. The construc- 30
+tion ofthe workflow definition system12306 may include an
+ingestion module 12502 that receives and processes task
+definitions 12304D that may be provided from the task
+definition system 12304 or sourced from the library 12314,
+and job specific fleet configuration information 12504 that 35
+may be provided from job configuration system 12018
+interactions with the fleet configuration system 12020 (e.g..
+via the fleet configuration proxy 12305).
+Ingestion of task definitions and/or fleet configuration
+information may include aligning the fleet configuration 40
+information 12504 with one or more task definitions
+12304D. As an example of aligning tasks with fleet con-
+figuration information, fleet configuration information may
+be tagged as applying to one or more tasks in the set of task
+definitions ingested, such as with an identifier of the tasks or 45
+tasks. Other ways of aligning task definition(s) with fleet
+configuration information may be based on timing of such
+ingestion so that, for example, when a fleet configuration
+reference/value is received contemporaneously with a task
+definition the ingestion module 12502 may mark these two 50
+data items as aligned. Other ways of aligning task
+definition(s) with fleet configuration information may
+include one or more data values in the task definition, which
+may be a data set, linked list, flat file, structured data set and
+the like indicating fleet configuration information to which 55
+tion may include one more task identifiers to which the fleet
+configuration information pertains and/or should be applied
+when generating workflow definitions.
+Ingestion may further include processing references (e.g., 60
+URLs, hyperlinks, external names, and the like) to workflow
+content in the library 12314 that may be found in any of the
+ingested content. In an example, a task definition may
+include a name of a task that is stored in the library 12314.
+The ingestion module 12502 may identify the name by its 65
+syntax (e.g., a prefix may be added to a task identifier that
+indicates the task is to be retrieved from the library) and/or
+[col 2]
+488
+task definition structuring (e.g., a list of task names stored
+within a subset of the task definition that is structured to
+indicate the subset of tasks are to be retrieved from the
+library). While the examples of ingestion herein pertain to an
+instance of ingestion of one or more task definitions, inges-
+tion may be performed on batches of tasks. Multiple
+instances of the ingestion module 12502 may be instantiated
+and operating concurrently to process a plurality of task
+definitions may be performed. Optionally, a stream of tasks
+definitions may be received by ingestion and each task in the
+stream is ingested in sequence.
+One or more outcomes of processing by the ingestion
+module 12502 may be presented to a set of workflow
+definition activities including a task dependency determina-
+tion module 12506 that may determine dependencies among
+tasks, such which tasks need to be performed in a sequence
+and which tasks can be performed independently of other
+tasks. The task dependency determination module 12506
+may also determine dependency of tasks on other factors,
+such as availability of fleet resources, calendar/date/time,
+readiness of supply materials and the like. Dependency on
+other factors may be identified in the task definition, such as
+by marking a given job state as a start point for the task. In
+an example of job state task dependency, a task of process-
+ing a sample of material may be dependent on the material
+being received by a sample cataloging robot and the like.
+Further other factor task dependency may be attributed to a
+given task definition during ingestion (e.g., based on align-
+ing a task with a fleet configuration that sets a dependency
+on availability of fleet resources, such as a special purpose
+robot and the like).
+A task grouping activity 12508 may process outcomes of
+the task dependency activity 12506 to generate groups of
+tasks based on a range criteria, such as tasks that depend on
+a given task being complete (e.g-, opening a building ven-
+tilation system port) may be grouped for concurrent execu-
+tion. Grouping tasks may be based on dependency on fleet
+resource availability, so that tasks that are dependent on a
+fleet resource may be grouped and performed once the
+resource is available. The order of performance of these
+grouped tasks may be based on inter-task dependency.
+Generally, tasks may be grouped for a range of purposes,
+such as cost savings, resource guarding, job prioritization,
+available job execution funds, anticipated fleet resource
+maintenance needs, earliest task start/finish time, latest task
+start/finishtime and the like.
+A task workflow step definition activity 12510 may deter-
+mine which task(s) can be organized into each step of one or
+more workflows. Based on inter-task dependency (or lack
+thereof) multiple workflows may be defined, each workflow
+including one or more workflow steps that are defined in
+workflow step definition activity 12510. As an example of
+inter-task dependency, a proscribed task, such as one driven
+by an electrical safety standard, may serve as a reference
+point to which other workflow development activities must
+conform. Referring again to the building ventilation system
+inspection example referenced herein, a set of workflow
+steps for opening a ventilation port may be configured (with
+optional adaptation based on other conditions) into multiple
+workflows, one for each ventilation port. Further, a work-
+flow step, once defined, may be assigned to and/or refer-
+enced in a plurality of workflows. When dependencies exist,
+such as availability of a special purpose robot for performing
+a task in a workflow step, a plurality of workflows may
+themselves be made dependent. In an example, when a task
+of opening a ventilation port is defined for a special purpose

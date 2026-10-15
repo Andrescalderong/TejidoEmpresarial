@@ -1,0 +1,136 @@
+12146 is configured to manage the performance of one or 20 toring and notification service 12163 may also provide alerts
+[col 1]
+US 12,567,082 B2
+497
+ligence (A1) service 12143. In embodiments,the intelligence
+layer controller 12141 may be configured to determine the
+type of services to be provided by artificial intelligence
+governance standards and/or analyses to be applied by the
+artificial intelligence services 12143. The intelligence layer
+12140 of the MPR 12100 (or SPRs or exoskeletons)may
+include some or all of the intelligence services 12143 of the
+intelligence system described above. Furthermore, in some
+embodiments, the robot-level intelligence layer 12140 may
+be configured to escalate an intelligence request to a higher
+level (e.g., the fleet level, edge device, or the fleet manage-
+ment platform 12000) when the MPR 12100 cannot perform
+the task autonomously. Example embodiments of a robot-
+level intelligence layer 12140 along with its components and
+subsystems are described in detail in conjunction with FIG.
+140.
+In embodiments, the performance management system
+more robotic resources including health, energy, thermal
+flows, network and the like. In embodiments, the perfor-
+mance management system 12146 may include a thermal
+management service 12161, an energy management service
+12162, a monitoring and notifications service 12163, a 25
+network management service 12164 and/or a predictive
+maintenance service 12165.
+In embodiments, the thermal management service 12161
+may use robot sensors, task historical data, ambient condi-
+tions, material characteristics, form factors, and/or the like 30
+and a set of acceptable outcomes to drive optimization
+algorithms that manage thermal flows in a multi-purpose
+robot 12100. This couid be used to actively manage thermal
+conditions or optimize heat transfer to maintain acceptable
+operating conditions. In embodiments, the thermal manage- 35 
+ment service 12161 may help reclaim waste heat energy. For
+example, waste heat could be moved to actively cool hotter
+components, used with emerging nanoscale or other ther-
+moelectric devices, etc. In embodiments, thermal manage-
+ment service12161mayleveragerobot sensordata,task 40
+historical data, ambient conditions, material characteristics,
+form factors, etc. plus a set of acceptable outcomes to drive
+optimization algorithms (e.g-, quantum optimization algo-
+rithms and/or neural network optimization algorithms) that
+design and manage operation of heat transfer components 45 
+like fins, vanes, biomimicking elements, meshes, fabrics,
+fans, etc.in the MPR 12100.
+In embodiments, the energy management service 12162
+helps a robot intelligently manage available energy
+resources and maintain system capability while working in 50 :
+dynamic operating environments. For example, upon dis-
+covering that grid energy may not be available and the robot
+needs to conserve the available battery, an energy manage-
+ment service of the MPR 12100 may activate one or more
+energy storing and recovering devices like flywheels, 55
+capacitors, supercapacitors, hydro-pneumatic accumulators
+and the like. The devices enable the MPR 12100 to harvest
+the energy during the braking phase of a motorwhich
+energy is usually wastedstore it, and provide it back to the
+system when necessary. In embodiments, energy sharing 60
+devices may share the braking energy of a motor for driving
+other (non-braking) motors or actuators on a common net-
+work. In embodiments, the energy management service
+12162 may include machine learning-based predictive
+energy management that automatically activates energy har- 65
+vesting and sharing devices and deactivates non-essential
+functions on need basis.
+[col 2]
+498
+In embodiments, the monitoring and notification service
+12163 may be configured to monitor for and report on one
+or more conditions of the MBR 12100. In some of these
+embodiments, the monitoring and notification service 12163
+performs summary calculations on tracking metrics of vari-
+ous resources to discover out-of-routine characteristics. In
+some example embodiments, monitoring and notification
+service 12163 may perform vibration analyses that are
+indicative of robot health including conditions of one or
+more motors or mechanical components. In some of these
+embodiments, the monitoring and notification service 12163
+may leverage machine-learned models that are trained to
+diagnose certain conditions of a robot (e.g., failing compo-
+nents, loose components, and/or the like) to predict the
+existence or likely occurrence of the certain conditions. In
+embodiments, the monitoring and notification service 12163
+may leverage one or more machine learned models includ-
+ing vision models for monitoring, discovering and predict-
+ing emerging robotic fault modes. In embodiments, moni-
+and notifications upon discovering any out-of-routine char-
+acteristics to a user. For example, upon predicting that the
+battery is about to get completely depleted, a monitoring and
+notification service 12163 may provide alerts and notifica-
+tions to the user using a voice message. Additionally or
+alternatively, the monitoring and notification service 12163
+may use email, text message, instant message, phone call,
+and/or other communication (e.g-, using the Internet or other
+data or messaging network) to transmit the notification to a
+computing device of the user (e.g., a computer, tablet
+computer, smart phone, telephone, mobile phone, PDA, TV,
+gaming console and the like). In embodiments, the error
+notifications may provide options for the user stopping
+operations or making adjustments to one or more settings
+associated with the error notification. In embodiments, a
+monitoring and notifications service 12163 may provide a
+user with custom reports including analytics based on real-
+time and historical data about statuses and/or diagnoses of
+various of the MPR's 12100 resources.
+In embodiments, the network management service12164
+includes a set of policies, procedures, workflows, and
+responsibilities assigned to improve or maintain optimal
+network performance. In embodiments, the network man-
+agement service 12164 may assess network flow data,
+packet data and network infrastructure metrics to identify
+and mitigate instances of bottlenecks or network issues that
+may affect the operation of the MPR 12100.
+In embodiments, the predictive maintenance service
+12165 may predict when one or more components or sub-
+systems of the MPR 12100 should receive maintenance
+based on simulation data derived from digital twin system or
+real-world data derived from monitoring and notification
+12163. In embodiments, the predictive maintenance service
+12165 may access the intelligence layer 12140 of the MPR
+12100 to predict the anticipated wear and failure of com-
+ponents of the MPR 12100 by reviewing historical and
+current operational data, thereby reducing the risk of
+unplanned downtime and the need for scheduled mainte-
+nance. For example, in embodiments the predictive main-
+tenance service 12165 may provide an intelligence request
+to the intelligence layer that includes current operational
+data obtained from the MPR 12100 (e.g., sensor data,
+environmental data, and/or the like),whereby the intelli-
+gence layer 12140 (e.g., the machine-learning service) may
+jeverage one or more machine-learning models (e.g, pre-
+diction models, classification models, neural networks, and/
+or the like) to identify a potential failure of a component of

@@ -1,0 +1,135 @@
+[col 1]
+US 12,314,060 B2
+451
+access to different communication systems. As an example,
+a job execution system executing a first requested job may
+not be provided access to certain resources based on
+geofence conditions (e.g., when the resource is outside of a
+designated region). In another example, a fleet operations
+ating units allocated to different jobs for performing fleet
+supervisory functions.
+In addition to and/or instead of separated communication
+systems, the fleet communication management system 10
+12010 may provide for redundancy (multi-frequency radios,
+and the like) to address exception conditions that may cause
+network compromise, may require overriding operational
+communication channels for emergency use and the like.
+In embodiments, the fleet communication management 15 :
+system 12010 may provide fleet resource-specific (e.g.
+individual robot operating unit) secure communication so
+that two fleet resources (e.g., two robot operating units, a
+robot operating unit and a fleet monitoring system, and the
+like) may communicate securely. The fleet communication
+management system 12010 may further provide broadcast
+capabilities to support notification, update, alert, and other
+services. Broadcast capabilities may be fleet-wide (e.g-, a
+notice to all fleet resources to observe daylight savings
+time), team-specific (e.g-, an update to all team members 25
+regarding role changes of team members), job-specific (e.g..
+an alert to fleet resources assigned to a job, which may
+include a plurality of robot teams, that the job is put on hold),
+fleet resource type-specific to address issues that concern
+certain types of fleet resources (e.g., such as fleet robot 30 i
+operating units, multi-purpose robot operating units, one or
+more types of special-purpose robot operating units, robot
+operating units configured in supervisory roles), fleet sup-
+port units, location-specific units (e.g., all units within a
+flash flood zone), and the like. 35
+In embodiments, the fleet communication management
+system 12010 may use or manage job-specific communica-
+tions elements together with other fleet management plat-
+form features or services including, without limitation, the
+fleet security system 12006, the fleet network system 380,
+and various resources including Artificial Intelligence (AI)
+chipsets, data encoders, communication spectrum frequen-
+cies, and the like. The fleet communication management
+system 12010 may work together with the fleet security
+system 12006, such as by providing secure high-up-time 45
+access to fleet and associated communication resources. As
+an example, a fleet security system 12006 may utilize a
+portion of configured communication channels (e.g., wired
+inter-computer links, wireless networks, and the like) that
+for security use. The portion may include physically dedi-
+cated elements (e.g., wired connections, wireless access
+points that operate over a dedicated set of frequencies, and
+the like). In embodiments, providing dedicated wireless
+access may include prioritization of security system access 55
+to existing wireless networks, such as by routing security
+system data packets, streams, and the like ahead of non-
+security system packets. As another example, a communi-
+cation management system may allocate communication
+devices with greater battery energy (higher charge) and/or 60
+fixed power supply for security system use while allocating
+lower power, lower energy, and/or rechargeable devices for
+non-security system use. Security system communication
+resource management and control may be fleet-wide, job-
+specific, team-specific, deployment locale-based, geoloca-
+tion-based, and the like. As an example, the fleet configu-
+ration system may specify a configuration of fleet
+[col 2]
+452
+communication resources for meeting a security aspect of a
+requested job. This configuration may be applied to fleet
+resources and maintained by the communication manage-
+requested job.
+A further cooperative operation of fleet security system
+12006 with the fleet communication management system
+12010 may include managing access by fleet resources to
+external resources (e.g., websites, and the like) as well as
+access by external resources to fleet resources. The fleet
+like to fleet resources based on allocation/configuration of
+those resources. As an example, a firewall-type security
+function of the fleet security system 12006 may be deployed
+at, among other things, access points managed by the fleet
+communication management system to connect distinct job-
+specific communication systems. The fleet communication
+system 12010may also support management of one or more
+fleet resources, such as mobile robot operating units, that are
+ 2o configured by the fleet configuration system to have access
+to multiple isolated communication systems (e.g., a hub type
+deployment that facilitates access among isolated commu-
+nication systems). The fleet security system 12006 may
+enforce inter communication system access rights by
+deploying and operating a centrally managed threat detec-
+tion and management system agent on such hubs.
+In embodiments, the fleet communication management
+system 12010 may take advantages of intelligence capabili-
+ties of fleet resources, such as resources with artificial
+intelligence capabilities (optionally provided by AI-specific
+chips and chip sets and the like), to establish dynamic
+communication management functions that enrich and work
+with fleet security capabilities to further reduce the likeli-
+hood of a successful intrusion into a fleet communication
+system. As an example, Al-based functionality deployed
+throughout at least portions of a fleet resources (e.g-, indi-
+vidual robot operating units and the like) may be relied upon
+to detect local environments with increased risk of intrusion
+or other threat (e.g., based on contextual and historical
+information representative of such environments and the
+like) so that the communication management system,
+optionally in cooperation with the fleet security system
+12006 may adapt fleet communication resources for reduc-
+ing such risk.
+The fleet communication management system 12010 may
+make use of and/or facilitate control of use by others of the
+fleet network system 380. As an example of management of
+the fleet network system 380, the fleet communication
+management system 12010 may treat the fleet network
+system 380 as a resource to be managed for use by fleet
+resources for communicating, such as by determining and/or
+controlling which resources utilize the network, how
+resources using the network at the same time may be
+coordinated, network loading limits for such resources, and
+the like.
+In embodiments, the fleet operations system 12002
+includes a remote-control system12012that is configured to
+assist the job execution system 12022 and provide a frame-
+work for remotely controlling robot operating units and
+other external resources to complete tasks and/or jobs. In
+embodiments, the remote-control system 12012 may man-
+age definition and use of control signals for remote operation
+of robot operating units (e.g, multi-purpose, special pur-
+pose, exoskeleton, humans, and the like), fleet support units,
+external resources and the like. Robot remote-control as
+enabled by the remote-control system 12012 may include
+definition and management of local robot operating unit to

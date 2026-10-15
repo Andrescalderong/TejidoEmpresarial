@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+591
+ing one or moreworkflow steps that are defined in workflow
+step definition activity. Further, a workflow step, once
+defined, may be assigned to and/or referenced in a plurality
+of workflows. When dependencies exist, such as availability
+of a smart container for performing a task in a workflow
+step, a plurality of workflows may themselves be made
+dependent. Performance of other tasks in these workflows
+may be concurrent even if the initial task of opening the port
+must be done sequentially due to the fleet resource utiliza-
+tion dependency.
+10
+In embodiments, a defined workflow step may be an
+adapted variant of a candidate workflow step, such as a
+workflow step that is retrieved from the library 13044. The
+workflow step definition activity may request input from
+other fleet resource system services, such as the data pro-
+cessing system 13024 and/or artificial intelligence modules
+13404 to adapt a candidate workflow step for use when
+defining one or more workflow steps for a given job.
+Information such as workflow step dependency may be
+utilized by a workflow step linking activity that may receive 20
+step linking recommendation(s) from the intelligence ser-
+vice 13004 and the like.Workflow step linking activity may
+generate a data structure that indicates a sequence of per-
+forming defined workflow steps (e.g-, a workflow definition.
+The workflow definition may include data that captures 25
+job-specific workflow information, such as workflow step
+ordering,workflow step performance sequence, workflow
+step independence, step-by-step links to workflow steps,
+workflow success criteria, cross-workflow dependencies,
+and/or the like.
+In embodiments, workflow definition(s) may be stored in
+a job instance storage where they can be referenced as
+needed during job configuration and/or order execution.
+They may be stored in the fleet library 13044 where they can
+be referenced by other jobs, by third parties, such as shipper
+and the like. They may be stored elsewhere (e.g., a cloud
+storage facility) based on architectural considerations, such
+as being distributed to edge computing infrastructure
+resources proximal to job deployment sites and the like.
+In embodiments, workflows may be simulated as indi- 40
+cated in the description of the job configuration system
+13018. Outcomes of simulation may be directed to, for
+example, the ingestion module where ingestion operations,
+such as alignment of fleet configuration data with task
+description data may be improved. Outcomes may also be 45
+passed to as feedback to other components of the system to
+improve task definition, job configuration, fleet configura-
+tion, and/or the like.
+FIG. 147 illustrates a digital twin module according to
+some embodiments of the present disclosure. In embodi- 5o 
+ments, the digital twin module 13420 generates a set of
+shipping digital twins 13302 (e.g., individual smart con-
+tainer digital twins 13504, smart container fleet digital twins,
+container ship digital twins, container port digital twins,
+smart container fleet manager or operator digital twins, 55 
+shipper digital twins, and the like). In embodiments, the
+digital twin module 13420 maintains a set of states of the
+respective shipping digital twins 13302, such as using sensor
+data obtained from respective sensor systems 13304 that
+monitor the shipping digital twins 13302. In embodiments, 60
+the digital twin module 13420 may include a digital twin
+management system 13306, a digital twin I/0 system 13308,
+a digital twin simulation system 13310, a digital twin
+dynamic model system 13312, and/or a digital twin control
+module 13314. In embodiments, the digital twin module 65
+13420 may provide a real time sensor API that provides a set
+of capabilities for enabling a set ofinterfaces for the sensors
+[col 2]
+592
+ofthe respective sensor systems 13304. In embodiments, the
+digital twin module 13420 may include and/or employ other
+suitable APIs, brokers, connectors, bridges, gateways, hubs,
+ports, routers, switches, data integration systems, peer-to-
+peer systems, and the like to facilitate the transferring of data
+to and from the digital twin module 13420. In these embodi-
+ments, these connective components may allow an IIOT
+sensor or an intermediary device (e.g., a relay, an edge
+device, a switch, or the like) within a sensor system 13304
+to communicate data to the digital twin module 13420
+and/or to receive data (e.g., configuration data, control data,
+or the like) from the digital twin module 13420 or another
+external system. In embodiments, the digital twin module
+13420 may further include a digital twin datastore 13316
+that stores shipping digital twins 13302.
+A digital twin may refer to a digital representation of one
+or more shipping entities, such as an individual smart
+container 13026, a fleet of smart containers 13026, a ship-
+ping environment (e.g., a physical location along a route, a
+shipping container port or terminal, a smart container charg-
+ing station, a shipping yard, a container storage facility, a
+container ship, or the like), smart container machinery, a
+physical object, a device, a sensor, a human, or any com-
+bination thereof. Non-limiting examples of physical objects
+include smart container cargo, physical barriers along a
+route, raw materials, manufactured products, excavated
+materials, boxes, dumpsters, cooling towers, vats, pallets,
+barrels, palates, bins, and many more. Non-limiting
+examples of devices include robots, computers, vehicles
+(e.g., ships, cars, trucks, trains, etc.), machinery/equipment
+(e.g., forklifts, cranes, reach stackers, packaging systems,
+sorting systems, tractors, tillers, drills, presses, assembly
+lines, conveyer belts, etc.), and the like. The sensors may be
+r 35 any sensor devices and/or sensor aggregation devices that
+are found in a sensor system within an environment. Non-
+limiting examples of sensors that may be implemented in a
+sensor system may include temperature sensors, humidity
+sensors, vibration sensors, LIDAR sensors, SLAM sensors,
+SONAR sensors,motion sensors, chemical sensors,audio
+sensors, pressure sensors, weight sensors, radiation sensors,
+video sensors, wearable devices, relays, edge devices, cros-
+spoint switches, and/or any other suitable sensors. Examples
+of different types of physical objects, devices, sensors, and
+environments are referenced throughout the disclosure.
+In some embodiments, on-device sensor fusion and data
+storage for smart containers is supported, where data from
+multiple sensors is multiplexed at the device for storage of
+a fused data stream. For example, pressure and temperature
+data may be multiplexed into a data stream that combines
+pressure and temperature in a time series, such as in a
+byte-like structure (where time, pressure, and temperature
+are bytes in a data structure, so that pressure and temperature
+remain linked in time, without requiring separate processing
+of the streams by outside systems), or by adding, dividing,
+multiplying, subtracting, or the like, such that the fused data
+can be stored on the smart container.Any of the sensor data
+types described throughout this disclosure, can be fused in
+this manner and stored in a local data pool, in storage, or on
+an IoT device, such as a data collector, a component of a
+machine, or the like.
+In some embodiments, a set of digital twins may represent
+an entire organization, such as shipping lines, container
+terminal operators, shippers, manufacturers, energy produc-
+tion organizations, regulatory organizations, governments,
+and the like. In these examples, the digital twins may include
+digital twins of one or more facilities of the organization.

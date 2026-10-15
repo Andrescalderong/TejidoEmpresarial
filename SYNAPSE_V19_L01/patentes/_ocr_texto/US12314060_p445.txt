@@ -1,0 +1,137 @@
+12112 for identifying which units are ready to be harvested. 45 a motion plan for the robot arm so as to rotate or move the
+[col 1]
+US 12,314,060 B2
+of radioactivity with a greater margin of safety. Maintaining
+thermal stability may further provide benefits to other
+robotic sensing capabilities, such as chip-based medical
+diagnosis sensors, chip-based medical laboratory testing.
+and the like.
+According to some example implementations, a robot
+fleet management platform having a computer vision infra-
+structure for tracking and governing general robotic assets
+may also have shared economy robotic resource scheduling
+and routing capabilities. In embodiments, the computer
+vision robot tracking infrastructure may provide contextual
+data to an autonomous robotic resource routing embodiment
+of the shared economy robotic resource scheduling and
+routing capabilities. In an example, the computer vision
+infrastructure may detect out-of-compliance robotic behav-
+iors that may indicate a need for routing of robotic resources
+to replace/support/regulate one ormore robots at the source
+of the detected out-of-compliance behaviors. Further a com-
+puter vision infrastructure for governing robotic assets may 20 t
+provide evidence of task completion for an autonomously
+routed robotic resource to facilitate automated billing for
+deployment of and task completion by the routed resource.
+This evidence may further substantiate claims by third-
+parties (e.g., other robotic fleet platforms) of lack of required 25
+on-location robotic support, which may include lack of
+on-location presence, out-of-compliance robotic behaviors
+and the like.
+FIG. 143 illustrates an example data flow of the MPR
+12100 adapted to harvest crops of produce. In embodiments,
+30
+the data flow of the MPR 12100 is executed in part by the
+vision and sensing system 12112, a motion planning system
+12158, a robot control system 12150, and a module man-
+agement system 12148 of the MPR 12100. In this example,
+the MPR 12100 may be employed as part of a robotic fleet 35 t
+that services an agricultural environment (e.g., an outdoor
+farming facility, an indoor farming facility, a container
+configured for growing produce, or the like), whereby the
+MPR 12100 selectively harvest agricultural units. In
+embodiments, the MPR 12100 may be configured to identify 40
+the units in the agricultural farm that are ready to be
+harvested. In response, the MPR 12100 navigates the envi-
+ronment to reach such units to perform the harvesting task.
+The MPR 12100 may utilize vision and sensing system
+In response, the motion planning system 12158 may create
+a motion plan to navigate the environment and reach the
+location of the units determined to be ready to be harvested.
+In embodiments, the MPR 12100 may select one or more
+suitable end effectors 12124 from module system 12120 for 50
+selective harvesting of the ready unit.
+At 12652, the MPR 12100 may capture image data from
+an agricultural environment. The image data may include the
+one or more images captured by cameras and/or other image
+sensors of the vision and sensing system 12112. In some 55 a
+embodiments, the one or more of the images may be
+captured using a camera 12608 with the conformable vari-
+able focus liquid lens 12612. The images may be captured
+from multiple different viewpoints and may include one or
+more aerial images. In embodiments, the camera and/or 60
+other image sensors may be integrated in the housing of the
+MPR 12100, such that the MPR 12100 navigates the agri-
+cultural environment to capture the images. Additionally or
+alternatively, one or more cameras and/or other image
+sensors may be integrated in other robots or may be posi- 65
+tioned in various areas of the agricultural environment, such
+that the captured images are communicated to the MPR
+[col 2]
+526
+12100 for processing. The image data may be provided to
+the machine vision system 12618 of the intelligence layer
+12140.
+At 12654, the machine vision system 12618 may then
+analyze the image data to identify obstacles in the environ-
+ment. In embodiments, the machine vision system 12618
+may leverage one or more neural network models (e.g., a
+CNN or RCNN) to detect various objects and obstacles in
+the images. In embodiments, the motion planning system
+12158 builds a motion planning graph representing the
+geometric structure of the environment as well as the
+different possible paths that may lead to the crops to be
+harvested (target objects).
+At 12656, the motion planning system creates a motion
+plan for the MPR 12100 to identify an optimal path therefor.
+In embodiments, the motion planning system 12158 works
+with the intelligence layer 12140 to determine an optimal
+path after taking in account a cost function based on colli-
+sion assessment. The optimal path may be communicated to
+the robot control system 12150.At 12658, the robot control
+system 12150 drives the actuators in the transport system
+12110 enabling the MPR 12100 to navigate to the location
+of the units to be harvested. The navigation actions for MPR
+12100 (e.g-, move forward, move backward, turn right,
+rotate and the like) are based on a trained navigation policy
+(machine learning algorithm). At 12660, a reinforcement
+learning system of 12622 the intelligence layer 12140 may
+collect the outcome data for the navigation policy so as to
+update and improve the policy.
+Once the MPR 12100 is in the proximity of the crops to
+be harvested, the controller may drive the movable arm to
+click additional images using the camera 12608 mounted at
+the end of the arm. The movable arm must be flexible in a
+dynamic environment and accurate enough not to damage
+the crops while moving.
+At 12662, the MPR 12100 may capture additional image
+data. For example, a camera 12608 and/or other sensors
+mounted on the arm of the MPR 12100 may capture images
+or other sensor data an area proximate to the arm of the MPR
+12100.At12664, themachine vision system12618 analyzes
+the images (using neural network models including CNN or
+RCNN) to identify the one or more crops to be harvested. At
+12666, the images may be analyzed by the motion planning
+system 12158 to determine the optimal path as well as build
+arm without damaging the crops.At 12668,the optimal path
+may be communicated to the control system 12150 and the
+controller 12160 may drive actuators in the arm and end
+effectors 12124 to harvest the units of crops. At 12670, the
+outcome data for the harvesting policy is collected by the
+reinforcement learning system 12622 in the intelligence
+layer 12140 as feedback to improve the harvesting policy.
+Smart Containers
+In some embodiments, a value chain network may include
+ a smart intermodal shipping container system 13000 that
+enables various capabilities noted above, including smart
+container fleet management services within a value chain
+network. The system 1300 (such term, as noted above,
+encompassing, except where context indicates otherwise,
+systems, methods, articles of manufacture, devices,
+machines, equipment, algorithms, parts, components, ser-
+vices, modules, workflows, processes, structures, products,
+and other elements) is arranged to embody or enable a range
+of highly functional, smart shipping containers, as well as to
+configure fleets of smart container operating units to con-
+nect, engage and coordinate with other elements and entities
+of a value chain network, such as to perform freight storage

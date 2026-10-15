@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+753
+e.g-, trucking logistics, flight logistics, and water vessel
+logistics. Accordingly, each of those three logistic channels
+may be configured to have its own CSS such that the
+secondary system 21200 provides configuration data for the
+operations of the three CSSs associated with each of those
+logistic channels. In this respect, the secondary system
+21200 is able to generate configuration data that ensures that
+each CSS associated with each of the logistic channels
+collectively is optimized for the primary task. For instance,
+instead of each of the CSs of the logistic channels only 10
+seeking their own self-optimization, the optimization is
+driven from a higher level. Meaning, that, for example, the
+water vessel logistics on its own may not seem to be
+optimized specifically for water vessel logistics of the prod-
+uct, but in the scheme of the entire logistics for the product, 15
+it is optimized in conjunction with the flight logistics and the
+trucking logistics so that the target metric is maximized (or
+minimized) across all of the logistic systems.
+In some implementations, the primary system 21100 is the
+system that dictates or determines the set of services/tasks 20
+performed by each secondary system 21200. For example,
+the intelligence associated with the primary system 21100
+determines the number of secondary systems 21200 that
+may be required for a particular primary task and/or the
+available systems that would enable the primary task. For 25
+instance, the primary system determines a combination of
+available systems that would enable the primary task. In this
+situation, the intelligence of the primary system 21100
+recognizes that individually configured systems working
+together in some combination can perform some aspect of 30 u
+the primary task.
+In some implementations, as noted above, VCN process
+10 may assign 17404 at least a portion of one or more
+computing devices capable of fulfilling the primary com-
+mand as a set of one or more computing devices to be 35
+managed by the set of secondary computing devices. For
+example, primary system 21100 as a control tower SOS
+receives a primary task or service request, as discussed
+above. In response to the receipt of the primary task or
+service request, the primary system 21100 determines a set 40
+of systems that can fulfill the request from a pool of
+available system resources (e.g., a pool of autonomous-
+oriented systems). In some implementations, the determined
+each group is assigned to a secondary system 21200. As will 45 
+be discussed below, each secondary system 21200 may
+generate a set of CSSs for the set of systems that are assigned
+to it.
+In some implementations, VCN process 10 (e.g., via the
+set of secondary computing devices) may configure 17406 50
+the set of one or more computing devices to fulfill one or
+more secondary commands based upon, at least in part, the
+primary command. For instance, with the CSSs scaled to the
+assigned set of systems, the secondary system 21200 con-
+figures each system of the set using the CSSs so that the set 55 J
+associated with the secondary system 21200 can collectively
+perform/enable the primary task with execution of its one or
+more tasks/services.
+In some implementations, as noted above, configuring the
+set of one or more computing devices to fulfill the one or
+more secondary commands may include generating 17412 a
+set of at least one configured system service (CSS). For
+instance, FIG. 175A depicts a single primary system 21100
+as the control tower SOS and a secondary system 21200 as
+a value chain SOS. Each SOS (e.g, the primary system 65
+least one configured system service (CsS) and a general
+[col 2]
+754
+system service (GsS). For example, the primary system
+21100 is shown with a first CSS (CSS1) and a first GSS
+(GSS1) while the secondary system 21200 is shown with a
+second CSS (CSS2) and a second GSS (GSS2). In this
+respect, each CSS and GSS may be tailored or dependent
+upon the SOS with which it is associated. For example, in
+some implementations, when the primary system 21100 as
+the control tower SOS is setup for oversight, the CSS1 and
+the GsS1 are configured to provide service(s) for oversight.
+It will be appreciated after reading the present disclosure
+that any individual parts of the present disclosure that use a
+processor may include some or all of VCN process 10 (and
+vice versa). For example, VCN process 10 may include
+some or all of a CsS, a GsS, a primary system, a secondary
+system, a service, an application, etc. That is, any individual
+parts of the present disclosure that use a processor may be
+configured to effectuate some or all of the functionality of
+VCN process 10 (and vice versa). Accordingly, in some
+implementations, VCN process 10 may be a purely server-
+side process, a purely client-side process, or a hybrid server-
+side/client-side process that is cooperatively executed. Fur-
+thermore, it will be appreciated after reading the present
+disclosure that VCN process 10 may apply equally to the
+demand side as the supply side. That is, VCN process 10 is
+described with examples of obtaining information and
+insights for things affecting the supply of an item; however,
+VCN process 10 may also be used with examples of obtain-
+ing information and insights for things affecting the demand
+of an item. As such, the description ofVCN process 10 being
+used for the supply side should be taken as example only and
+not to otherwise limit the scope of the present disclosure.
+Factors that may affect the demand of an item may
+include, e.g.: Customer attributes, such as geographic loca-
+tion, historical purchasing habits and preferences, financial
+capacity, interactions with similar or proximal products,
+lifetime value; Market trends, such as popularity of particu-
+lar products or categories of products, activism or social
+movements (e.g., palm oil is linked to the destruction of
+biodiversity, deforestation, etc. and demand for products
+with this ingredient may be suppressed as a result of
+increasing social awareness of negative impacts), seasonal
+demand; Competition, such as availability/price/appearance/
+brand value of competing or substitute products; Economic,
+such as correlation of item purchases with economic factors
+such as consumer spending, interest rates, exchange rates,
+etc.; Governmental/Regulatory, such as trade restrictions,
+tariffs, regulations related to import/export control or mate-
+rials/ingredients; Marketing, such as advertising campaign
+metrics (e.g., website traffic, total page views, bounce rate,
+engagement rate, cost per click, cost per lead, cost per
+acquisition, conversion rate, longevity).
+The GSS functions to provide general system integration
+and operations such as data storage, data processing, net-
+working, and other shared functionality (e.g., the GSS may
+have similar functionality to aspects of data processing
+systems 1612, 10206,12030, 12130, 12142,13024 and/or
+data storage systems 624). In FIGS. 175A and 175B, the
+GSS is shown with a dashed-lined perimeter to represent
+that the GSS may be included locally within a deployed
+instance of an sOs (e.g., a primary system or a secondary
+SOS. When deployed locally, the GSS may be configured in
+dedication to its associated SOs. In that respect, aspects of
+the GSS may be optimized, programmed, or configured to
+the instance of the SOs. When functioning remotely, the
+GSS may operate as a global GsS that one or more systems
+(e.g., a primary system 21100 and/or a secondary system(s)

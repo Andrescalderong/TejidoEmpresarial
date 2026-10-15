@@ -1,0 +1,136 @@
+10902 is stored in the form of a unique record represented 55 network 10130. In embodiments, the distributed manufac-
+[col 1]
+US 12,675,781 B2
+445
+distributed manufacturing network. In embodiments, the
+distributed ledger system stores digital fingerprinting infor-
+mation of documents/files and other information including
+creation, modification.
+In embodiments, the distributed ledger system includes a
+cryptocurrency token to incentivize value creation and trans- fer value between entities in the distributed manufacturing
+network.
+In embodiments, the distributed ledger system includes a
+system for attesting the experience of a manufacturing node. 1o t
+In embodiments, the distributed ledger system includes a
+system for capturing the end-to-end traceability of a part.
+In embodiments, the distributed ledger system includes a
+system for tracking all transactions, modifications, quality
+checks and certifications on the distributed ledger. 15
+In embodiments, the distributed ledger system includes a
+system for validating capabilities of a manufacturing node.
+In embodiments, the distributed ledger system includes
+smart contracts for automating and managing the workflows
+in the distributed manufacturing network.
+In embodiments, the distributed ledger system includes a
+smart contract for executing a purchase order covering the
+scope of work, quotation, timelines, and payment terms.
+In embodiments, the distributed ledger system includes a
+upon delivery of product.
+In embodiments, the distributed ledger system includes a
+smart contract for processing insurance claims for a defec-
+tive product.
+In embodiments, the distributed ledger system includes a 30 i
+ smart contract for processing warranty claims.
+In embodiments, the distributed ledger system includes a
+smart contract for automated execution and payment for
+maintenance.
+FIG. 121 is a schematic illustrating an example imple- 35 
+mentation of a distributed manufacturing network where the
+digital thread data is tokenized and stored in a distributed
+ledger so as to ensure traceability of parts printed at one or
+more manufacturing nodes in the network according to some
+embodimentsof thepresent disclosure.Auserof thedis- 40
+tributed manufacturing network 10130 may provide the
+product requirements in the form of a purchase order or a 3D
+printing instruction set 10902. The 3D printing instruction
+set 10902 contains key specifications and requirements like
+product design, material for printing, quantity to be printed, 45 i
+price that the user is willing to pay for the print and the
+timelines for completing the printing. The 3D printing
+instruction set 10902 may also include one or more files
+(e.g., a CAD file and/or an STL file) and any accompanying
+instructions for printing the product defined in the file. 50
+Upon receipt, the 3D printing instruction set 10902 is
+tokenized and stored in the distributed ledger 10624 in the
+autonomous additive manufacturing platform 10110. The
+underlying information in the 3D printing instruction set
+by a block number with an address on the distributed ledger,
+which in turn is represented by a cryptographic token. The
+cryptographic token captures the value of the underlying
+information in the 3D printing instruction set 10902 as
+ownership or access rights to the distributed ledger address 60
+and tracks the transfer of such ownership between users of
+the distributed manufacturing network 10130. For example,
+in FIG. 121, the 3D printing instruction set 10902 is token-
+ized in the form of a random 256 bit integer A091BC3 . :
+, and stored in the distributed ledger 10624 represented by 65
+address BC22. As the new block is added to the distributed
+ledger 10624 at node 10128 all the copies stored at various
+[col 2]
+446
+nodes including the manufacturing node 10100, the manu-
+facturing node 10800 and the manufacturing node 10802 get
+updated with the new block. The matching system 10632 in
+the autonomous additive manufacturing platform 10110 may
+help with matching the purchase order or the 3D printing
+instruction set 10902 with one or more manufacturing nodes
+or 3D printers. The matching may be based on factors like
+printer capabilities, locations of the customer and the manu-
+facturing nodes, available capacity at each node, pricing and
+timelines requirements. In embodiments, a smart contract
+operates on the ledger, such as to trigger conditional logic
+embodied in the smart contract, such as tracking satisfaction
+of delivery obligations, releasing insurance obligations
+(such as insurance covering products during shipment), and
+the like. In embodiments, the smart contract may allocate
+financial value, such as to tax and customs authorities, to
+credit and debit card issuers, to distributers and resellers, to
+recipients of commissions, to recipients of royalties, to
+recipients of rebates, credits and the like, to shippers/
+2o carriers, and to the manufacturer, among others.
+In embodiments, the matching system 10632 may deter-
+mine that the parts 10904 and 10910 of the product be
+matched to the manufacturing node 10100 for printing, parts
+10906 and10908 to themanufacturing node10128 and parts
+10912 and 10914 matched to the manufacturing node 10802.
+The assembly of all the parts into the final product may be
+matched to the manufacturing node 10800.
+Each of the part may also be tokenized to capture infor-
+mation including purchase order identifier (orderID),
+instruction set identifier (filelD), manufacturing node
+(manufacturerID), 3D printer (printerID), part number
+(partID) and part specifications containing information like
+material and quantity etc. and stored as a record or block in
+the distributed ledger. The parts can then be tracked using a
+physical tracker using a unique part number, engraving,
+RFID tags, bar codes or smart labels linked to the block and
+unique to the token. In a similar manner, the product
+assembled from all the parts may also be tokenized and
+tracked as it moves through the distributed manufacturing
+network 10130 and throughvariousVCNentities 10126to
+the customer.
+In embodiments, tokenizing the part, product or 3D
+printed instruction set may include wrapping access, intel-
+lectual property, licensing, ownership, financial, time-shar-
+ing, leasing, rental, usage sharing and/or other suitable rights
+related to the part, product or instruction set into a token
+such that the access, licensing, ownership and/or other
+suitable rights managed by one or more of the tokens.
+In embodiments, the distributed manufacturing network
+10130 may define permissions and/or operations associated
+with the tokens. For example, the token may allow the
+tokenized 3D printed instruction set to be viewed, edited,
+copied, bought, sold, and/or licensed based on permissions
+set at a time of tokenization by the distributed manufacturing
+turing network 10130 may provide for orchestration of a
+distributed manufacturing marketplace or exchange, such as
+where 3D printed instruction sets may be exchanged, such
+as, without limitation, through tokens that are optionally
+governed by smart contracts that may be configured by a
+host of the distributed manufacturing exchange or market-
+place and/or by manufacturing nodes. For example, an
+exchange or marketplace may host exchanges for tokenized
+3D printed instruction sets, parts, products, expertise, trade
+secrets, insight, where transaction terms are pre-defined
+and/or configurable (such as with configurable smart con-
+tracts that enable various transaction models, including

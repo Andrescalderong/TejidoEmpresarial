@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+749
+erally includes a primary system 21100 (e.g., a PAO system)
+Each of the primary system 21100 and the second secondary
+system(s) 21200 functions in the control architecture 21000
+as a system of systems (SOS). Here, a "system of systems"
+refers to a structure that provides cooperative coordination
+among a set of systems (e.g., already deployed/available
+configurable for the execution of one or more services/tasks.
+The terminology of "system" of systems therefore indicates 10
+that a particular system (e.g., primary or secondary system)
+is the liaison system for a set of underlying systems. For
+instance, an SOS is deployed for a particular management or
+facilitation goal (e.g-, to achieve a particular target metric or
+quantifiable measure of value). This type of SOS structure 15
+allows a first SOS to communicate with a second SOS
+without the need to interface with the set of systems for
+which an SOS is responsible for.
+By having a first SOS communicate with a second SOS
+without the need to interface with the set of systems for 20
+which the second SOs is responsible, the control architec-
+ture 21000 may be able to minimize compatibility issues
+between all of the systems demanded for execution a pri-
+mary task (e.g., autonomous execution). For example, if the
+underling systems are combinations of different hardware 25
+ and/or programmable software, being able to have a uniform
+communication language or protocol to have the systems
+communicate with each can be incredibly difficult. With the
+control architecture 21000, systems may be setup in a set or
+a grouping that is configured by a particular SOS that is 30
+capable of communicating with members of the set. In this
+respect, the SOS of the group/set only needs communication
+tools for its set of systems and for outside communication
+with one or more SOSs. For instance, the secondary system
+21200 includes communication tools to configure its under- 35
+lying set of systems and communication tools to interface
+with the primary system 21100. The control architecture
+21000 therefore can be quite elastic and permit scalability
+for communication between multiple SOSs without any
+individual SOs being responsible for all or a substantial 40
+portion of communication tools for all systems utilized
+within a particular implementation (i.e., instance) of the
+control architecture 21000.
+As will be discussed in greater detail below, VCN process
+10 may assign at least a portion of one or more computing 45
+devices capable of fulfilling the primary command as a set
+of one or more computing devices to be managed by the set
+of secondary computing devices. In some implementations,
+assigning at least the portion of one or more computing
+devices capable of fulfilling the primary command as the set 5o 
+of one or more computing devices to be managed by the
+secondary computing device may include executing 17418
+an enrollment process between the set of one or more
+computing devices and the secondary computing device, and
+in some implementations, executing the enrollment process 55
+may include conducting 17420 an inventory of communi-
+cation protocols and data formats used by the set of one or
+more computing devices. In some configurations, to promote
+communication compatibility, the systems of a set of sys-
+tems for an SOs undergo an enrollment process. In this 60
+respect, the enrollment process may function as a configu-
+ration stage where an SOS ensures that it can communicate
+with the set of systems that it is intended to manage. For
+instance, each system may include its own data format(s)
+and/or communication protocol(s). In order for the SOS to
+manage and/or to configure its corresponding systems, it
+may therefore need to inventory and/or learn one or more
+[col 2]
+750
+ways to communicate using the communication protocols of
+its underlying system(s) and one or more ways to translate
+data formats amongst its enrolled members.
+In some implementations, this configuration state may
+include enrolling a member system by determining at least
+one communication protocol for the enrollee and/or at least
+one data format for the enrollee. Once determined, the SOS
+may log or map this information (e.g., the communication
+protocol and/or data format) to inform the SOS the means of
+communication or data formatting to use when communi-
+cating with a particular system. In some configurations, the
+enrollment process can serve as a form of maintenance to
+ensure that the SOS is capable of communicating with and
+among its systems. For instance, when a system enrolls with
+the SOS, the SOS can check that it supports the enrolling
+systems' communication protocol(s) and/or data format(s).
+As an example of this check, the SOS may determine
+whether it has the latest version of a communication proto-
+col or data format.
+In some implementations, the secondary computing
+device (e.g., via VCN process 10) may obtain 17422 one or
+communication and data format translation between each
+computing device of the set of one or more computing
+devices and the secondary computing device. For instance,
+the enrollment process may configure aspects of an interface
+layer (e.g., discussed in detail below with respect to the
+interface layer 21350). For example, the enrollment process
+may determine and/or assign the appropriate application
+programming interfaces (APIs) or software development
+kits (SDKs) (or portions thereof) to be accessible or avail-
+able to an SOS. For instance, the enrollment process gen-
+erates a library of communication tools that permit commu-
+nication with the systems associated with the SOS such that
+the SOS can reference or implement tools from the library
+to configure systems, integrate system outputs, and/or com-
+municate data to/from a particular system.
+In some examples, the set of systems corresponding to an
+SOS is a grouping of similar or interoperable systems. For
+instance, a clustering algorithm may identify systems that
+can be grouped together and managed by an SOS to perform
+a particular task/service. To form such a grouping, the
+clustering algorithm may consider various communication
+protocols and/or data formats. Additionally and/or alterna-
+tively, the clustering algorithm considers the task or service
+that the SOS is configuring and generates a set of candidate
+systems that are capable of performing some portion of the
+task (e.g, individually or collectively). For instance, some
+aspect of robotics is involved in the task and the clustering
+algorithm identifies candidate robots from a robotic fleet.
+Generally, there are at least two primary avenues for
+companies to achieve control towers. As an example, large
+companies may create their own solutions in their respective
+ecosystems through the integration of disparate tools (e.g.,
+Enterprise resource planning (ERP), TCM, product lifecycle
+management (PLM), etc.), where the ultimate control tower
+may be driven/enabled by ERP systems. As another
+example, small and medium companies may opt to contract
+and outsource control tower capabilities and operations with
+third/fourth party logistics providers (e.g-, FedEx, DHL,
+BlueYonder, etc.) that integrate with ERP systems and are
+possibly connected by the cloud providers (both private and
+public). However, as noted above, while distributing execut-
+able tasks across a vast number of resources (eg-, SAO
+systems) may result in efficient time for processing, this
+efficiency has a cost in terms of coordination effort and
+complexity, not to mention communication protocol and

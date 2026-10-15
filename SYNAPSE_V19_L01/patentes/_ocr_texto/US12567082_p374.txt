@@ -1,0 +1,135 @@
+models; Gaussian naive Bayes models; multinomial naive 45 may be or may include one or more generative networks
+[col 1]
+US 12,567,082 B2
+425
+previous outcomes for certain entities (e.g., a score, ranking,
+or rating indicative of an amount of success or enjoyment).
+the machine learning models 11520 may output a suggestion
+or recommendation of one or more additional entities that,
+based on the previous outcomes, are expected to have a
+desired outcome.
+As described above, the machine learning models 11520
+may be or may include one or more of various different types
+of machine-learned models. Examples of such different
+types of machine-learned models are provided below for 10
+illustration. One or more of the example models described
+below can be used (e.g., combined) to provide the output
+data in response to the input data. Additional models beyond
+the example models provided herein can be used as well.
+In some implementations, the machine learning models
+11520 may be or may include one or more classifier models
+such as, for example, linear classification models; quadratic
+classification models; and the like. The machine learning
+models 11520 may be or may include one or more regression
+models such as, for example, simple linear regression mod- 2o 
+els; multiple linear regression models; logistic regression
+models; stepwise regression models; multivariate adaptive
+regression splines; locally estimated scatterplot smoothing
+models; and the like.
+In some examples, the machine learning models 11520 25
+may be or may include one or more decision tree-based
+models such as, for example, classification and/or regression
+trees; chi-squared automatic interaction detection decision
+trees; decision stumps; conditional decision trees; and the
+like.
+30
+The machine learning models 11520 may be or may
+include one or more kernel machines. In some implemen-
+tations, the machine learning models 11520 may be or may
+include one or more support vector machines. The machine
+learning models 11520 may be or may include one or more 35
+instance-based learning models such as, for example, learn-
+ing vector quantization models; self-organizing map mod-
+els; locally weighted learning models, and the like. In some
+implementations, the machine learning models 11520 may
+be ormay include one ormore nearest neighbor models such
+as, for example, k-nearest neighbor classifications models;
+k-nearest neighbors regression models; and the like. The
+machine learning models 11520 may be or may include one
+or more Bayesian models such as, for example, naive Bayes
+Bayes models; averaged one-dependence estimators; Bayes-
+ian networks; Bayesian belief networks; hidden Markov
+models; and the like.
+In some implementations, the machine learning models
+11520 may be or may include one or more artificial neural
+networks (also referred to simply as neural networks). A
+neural network may include a group of connected nodes,
+which also can be referred to as neurons or perceptrons. A
+neural network may be organized into one or more layers.
+Neural networks that include multiple layers may be referred
+layer, an output layer, and one or more hidden layers
+positioned between the input layer and the output layer. The
+nodes of the neural network may be connected or non-fully
+connected. 60
+The machine learning models 11520 may be or may
+include one or more feed forward neural networks. In feed
+forward networks,the connections between nodes do not
+form a cycle. For example, each connection can connect a
+node from an earlier layer to a node from a later layer. 65
+In some instances, the machine learning models 11520
+may be or may include one or more recurrent neural net-
+[col 2]
+426
+works. In some instances, at least some of the nodes of a
+recurrent neural network can form a cycle. Recurrent neural
+networks can be especially useful for processing input data
+that is sequential in nature. In particular, in some instances,
+a recurrent neural network may pass or retain information
+from a previous portion of the input data sequence to a
+subsequent portion of the input data sequence through the
+use of recurrent or directed cyclical node connections.
+In some examples, sequential input data may include
+time-series data (e.g., sensor data versus time or imagery
+captured at different times). For example, a recurrent neural
+network may analyze sensor data versus time to detect or
+predict a swipe direction, to perform handwriting recogni-
+tion, etc. Sequential input data may include words in a
+sentence (e.g., for natural language processing, speech
+detection or processing, and the like); notes in a musical
+composition; sequential actions taken by a user (e.g-, to
+detect or predict sequential application usage); sequential
+object states; and the like.
+Example recurrent neural networks include long short-
+term (LSTM) recurrent neural networks; gated recurrent
+units; bi-direction recurrent neural networks; continuous
+time recurrent neural networks; neural history compressors;
+echo state networks; Elman networks; Jordan networks;
+recursive neural networks; Hopfield networks; fully recur-
+rent networks; sequence-to-sequence configurations; and the
+like.
+In some examples, the machine learning models 11520
+may be or may include one or more non-recurrent sequence-
+to-sequence models based on self-attention, such as Trans-
+former networks.
+In some implementations, the machine learning models
+11520 may be or may include one or more convolutional
+neural networks. In some instances, a convolutional neural
+network may include one or more convolutional layers that
+perform convolutions over input data using learned filters.
+Filters may also be referred to as kernels. Convolutional
+neural networks may be especially useful for vision prob-
+lems such as when the input data includes imagery such as
+still images or video. However, convolutional neural net-
+In some examples, the machine learning models 11520
+such as, for example,generative adversarial networks. Gen-
+erative networks may be used to generate new data such as
+new images or other content.
+The machine learning models 11520 may be or may
+I 5o include an autoencoder. In some instances, the aim of an
+autoencoder may learn a representation (e.g-, a lower-di-
+mensional encoding) for a set of data, typically for the
+purpose of dimensionality reduction. For example, in some
+instances, an autoencoder may seek to encode the input data
+1 55 and the provide output data that reconstructs the input data
+from the encoding. Recently, the autoencoder concept has
+become more widely used for learning generative models of
+data. In some instances, the autoencoder may include addi-
+tional losses beyond reconstructing the input data.
+The machine learning models 11520 may be or may
+include one or more other forms of artificial neural networks
+such as, for example, deep Boltzmann machines; deep belief
+networks; stacked autoencoders; and the like. Any of the
+neural networks described herein may be combined (e.g.,
+stacked)to form more complex networks.
+The machine learning models 11520 may include one or
+more clustering models such as, for example, k-means

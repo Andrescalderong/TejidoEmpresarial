@@ -1,0 +1,136 @@
+configuration scheduler when configuring a fleet in response 15 URLs, hyperlinks, external names, and the like) to workflow
+[col 1]
+US 12,567,082 B2
+589
+In embodiments, a task definition may include recom-
+mendations for one or more types of smart containers (e.g..
+based on alignment of, for example, task requirements,
+smart container characteristics, and smart container types),
+and a preferred type may be designated in the task definition.
+The fleet configuration scheduler may rely on other fleet
+systems, such as a resource provisioning module 13014 that
+may contribute to and/or determine provisioning of fleet and
+third-party resources and supplies.
+The intelligence service 13004, the resource provisioning 10 J
+module 13014 and other fleet systems, including the fleet
+configuration scheduler may interact with a fleet configura-
+tion modeling system that may facilitate generation of fleet
+configuration options that can be considered by the fleet
+to job configuration activities and the like. The fleet con-
+figuration modeling system may provide simulation of fleet
+configurations, such as by using fleet digital twins, which
+may optionally be associated with a digital twin module
+13420 of the intelligence service 13004. 20
+In embodiments, the fleet configuration scheduler may
+rely on a fleet team organizer module that assists in deter-
+mining and/or effecting team configurations. Job-specific
+data may identify (e.g., recommend) set(s) of smart con-
+tainer operating units to be configured as teams. Also, 25
+job-specific data may indicate information that may be
+indicative of configuring teams, such as co-location of smart
+containers at a container terminal and the like. The fleet team
+organizer module may confirm and/or designate team meta-
+data for use when configuring a fleet. The team metadata 3o 
+may indicate team membership and time frame for the
+membership (e.g., from one date to another, from a start of
+a task until the task is complete, and the like).
+The fleet configuration scheduler may update fleet allo-
+cationdata sets (thatmaybeusedbyfleetresourceallocation 35
+and/or reservation capabilities described herein), such as the
+fleet smart container operating unit allocation data set and
+the fleet of non-container operating unit allocation data set
+with fleet configuration allocation information based on
+configuration(s) generated for the job-specific demand data 40
+provided. The various inputs, including fleet configuration
+impacting external data 13036 (e.g. weather, location data,
+traffic data, industry standards, job-specific contextual infor-
+mation, and the like) may be processed, optionally itera-
+tively, by the fleet configuration scheduler to produce, 45
+among other things, fleet configurations that may be
+returned to an executing instance of a job configuration
+system 13018 via the fleet configuration proxy module.
+In embodiments, a workflow definition system may be
+constructed to generate definitions of workflows for 50
+requested jobs utilizing resources of the smart container fleet
+management system. The construction of the workflow
+definition system may include an ingestion module that
+receives and processes task definitions that may be provided
+from the task definition system or sourced from the library 55
+13044, and job specific fleet configuration information that
+may be provided from job configuration system 13018
+interactions with the fleet configuration system 13020 (e.g..
+via the fleet configuration proxy module).
+Ingestion of task definitions and/or fleet configuration 60 s
+information may include aligning the fleet configuration
+information with one or more task definitions. As an
+example of aligning tasks with fleet configuration informa-
+tion, fleet configuration information may be tagged as apply-
+ing to one or more tasks in the set of task definitions
+ingested, such as with an identifier of the task or tasks. Other
+ways of aligning task definition(s) with fleet configuration
+[col 2]
+590
+information may be based on timing of such ingestion so
+that, for example, when a fleet configuration reference/value
+is received contemporaneously with a task definition, the
+ingestion module may mark these two data items as aligned.
+ration informationmayinclude one ormoredatavalues in
+the task definition, which may be a data set, linked list, flat
+file, structured data set and the like indicating fleet configu-
+ration information to which the task(s) should be aligned.
+Fleet configuration information may include one more task
+identifiers to which the fleet configuration information per-
+tains and/or should be applied when generating workflow
+definitions.
+Ingestion may further include processing references (e.g.,
+content in the library 13044 that may be found in any of the
+ingested content. In an example, a task definition may
+include a name of a task that is stored in the library 13044.
+The ingestion module may identify the name by its syntax
+(e.g., a prefix may be added to a task identifier that indicates
+the task is to be retrieved from the library) and/or task
+definition structuring (e.g., a list of task names stored within
+a subset of the task definition that is structured to indicate the
+subset of tasks are to be retrieved from the library). While
+the examples of ingestion herein pertain to an instance of
+ingestion of one or more task definitions, ingestion may be
+performed on batches of tasks. Multiple instances of the
+ingestion module may be instantiated and operating concur-
+rently to process a plurality of task definitions that may be
+performed. Optionally, a stream of tasks definitions may be
+received by ingestion and each task in the stream is ingested
+in sequence.
+One or more outcomes of processing by the ingestion
+module may be presented to a set of workflow definition
+activities, including a task dependency determination mod-
+ule that may determine dependencies among tasks, such as
+which tasks need to be performed in a sequence and which
+tasks can be performed independently of other tasks. The
+task dependency determination module may also determine
+dependency of tasks on other factors, such as availability of
+fleet resources, calendar/date/time, readiness of supply
+materials, and the like. Dependency on other factors may be
+identified in the task definition, such as by marking a given
+job state as a start point for the task. Further, dependency on
+other factors may be attributed to a given task definition
+during ingestion (e.g., based on aligning a task with a fleet
+resources, such as a special purpose smart container and the
+like).
+A task grouping activity may process outcomes of the task
+dependency activity to generate groups of tasks based on a
+range of criteria, such as, tasks that depend on a given task
+being complete may be grouped for concurrent execution.
+Grouping tasks may be based on dependency on fleet
+resource availability, so that tasks that are dependent on a
+fleet resource may be grouped and performed once the
+resource is available. The order of performance of these
+grouped tasks may be based on inter-task dependency.
+Generally, tasks may be grouped for a range of purposes,
+such as cost savings, resource guarding, job prioritization,
+available order execution funds, anticipated fleet resource
+maintenance needs, earliest task start/finish time, latest task
+start/finish time and the like.
+A task workflow step definition activity may determine
+s65 which task(s) can be organized into each step of one or more
+workflows. Based on inter-task dependency (or lack thereof)
+multiple workflows may be defined, each workflow includ-

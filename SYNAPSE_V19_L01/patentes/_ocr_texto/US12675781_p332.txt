@@ -1,0 +1,137 @@
+The foregoing neural networks may have a variety of 5o system, for a specific task involved in a given context,
+[col 1]
+US 12,675,781 B2
+413
+parameters such as nozzle orientation, flow rate and pres-
+sure, and the like to further refine material characteristics.
+Use case examples include, but are not limited to: one or
+more engineering characteristics that may vary across a
+single part to provide targeted performance, for example
+varying stiffness; optimized use of materials based on
+enhanced process control, for example using less material to
+produce a part with the same functional performance, and
+providing control of multiple additives to impart combined
+capabilities, for example orientation of structural long fibers 10
+for structural performance, combined with randomized con-
+ductive additives for a specified electrical performance.
+In embodiments of the present disclosure, including ones
+involving artificial intelligence, machine learning, automa-
+tion (including robotic process automation, remote control, 15
+autonomous operation, automated configuration, and the
+like), expert systems, self-organization, adaptive intelligent
+systems for prediction, classification, optimization, and the
+like, may benefit from the use of a neural network, such as
+a neural network trained for pattern recognition, for classi- 20
+fication of one or more parameters, characteristics, or phe-
+nomena, for support of autonomous control, and other
+purposes.
+Neural networks (or artificial neural networks) are a
+family of statistical learning models inspired by biological 25
+neural networks and are used to estimate or approximate
+functions that may depend on a large number of inputs and
+are generally unknown. Neural networks represent a system
+of interconnected “"neurons" which send messages to each
+other. The connections have numeric weights that can be 3o s
+tuned based on experience, making neural nets adaptive to
+inputs and capable of learning.
+References to artificial intelligence, neural networks or
+neural net throughout this disclosure should be understood
+to encompass a wide range of different types of machine 35
+learning systems, neural networks, such as feed forward
+neural networks, convolutional neural networks (CNN),
+recurrent neural networks (RNN), long short-term memory
+(LSTM) neural networks, gated recurrent unit (GRU) neural
+networks, self-organizing map (SOM) neural networks (e.g-, 40
+Kohonen self-organizing neural networks), autoencoder
+(AE) neural networks, encoder-decoder neural networks,
+modular neural networks, or variations, hybrids or combi-
+nations of the foregoing, or combinations with reinforce-
+ment learning (RL) systems or other expert systems, such as 45
+rule-based systems, and model-based systems (including
+ones based on physical models, statistical models, flow-
+based models, biological models, biomimetic models and
+the like).
+nodes or neurons, which may perform a variety of functions
+on inputs, such as inputs received from sensors or other data
+sources, including other nodes to predict one or more
+outputs. Functions may involve weights, features, feature
+vectors, and the like. Neurons may include perceptrons, 55i
+neurons that mimic biological functions (such as the human
+senses of touch, vision, taste, hearing, and smell), and the
+like. Neural networks can employ multiple layers of opera-
+tions including one or more hidden layers situated between
+60
+can be used as input to another layer, e.g., the next hidden
+layer or the output layer. The output of a particular neuron
+can be a weighted sum of the inputs to the neuron, adjusted
+with a bias and multiplied by an activation function, e.g, a
+rectified linear unit (ReLU) or a sigmoid function.
+In many embodiments, an expert system or neural net-
+[col 2]
+414
+supervisor, or based on a data set, model, or the like.
+Training a neural network can involve providing inputs to
+the untrained neural network to generate predicted outputs,
+comparing the predicted outputs to expected outputs, and
+updating the algorithm's weights and biases to account for
+the difference between the predicted outputs and the
+expected outputs. Specifically, a cost function can be used to
+calculate a difference between the predicted outputs and the
+expected outputs. By computing the derivative of the cost
+function with respect to the weights and biases of the
+network, the weights and biases can be iteratively adjusted
+over multiple cycles to minimize the cost function. Training
+may be compiete when the predicted outputs satisfy a
+convergence condition, e.g., a small magnitude of calculated
+cost as determined by the cost function.
+Training may include presenting the neural network with
+one or more training data sets that represent values (includ-
+ing the many types described throughout this disclosure), as
+well as one or more indicators of an outcome, such as an
+outcome of a process, an outcome of a calculation, an
+outcome of an event, an outcome of an activity, or the like.
+Training may include training in optimization, such as
+training a neural network to optimize one or more systems
+based on one or more optimization approaches, such as
+Bayesian approaches, parametric Bayes classifier
+approaches, k-nearest-neighbor classifier approaches, itera-
+tive approaches, interpolation approaches, Pareto optimiza-
+tion approaches, algorithmic approaches, and the like. Feed-
+back may be provided in a process of variation and selection,
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+In embodiments, a plurality of neural networks may be
+deployed in a cloud platform that receives data streams and
+other inputs collected (such as by mobile data collectors) in
+one or more environments and transmitted to the cloud
+platform over one or more networks, including using net-
+work coding to provide efficient transmission. In the cloud
+platform, optionally using massively parallel computational
+capability, a plurality of different neural networks of various
+types (including modular forms, structure-adaptive forms,
+hybrids, and the like) may be used to undertake prediction,
+classification, control functions, and provide other outputs as
+described in connection with expert systems disclosed
+throughout this disclosure. The different neural networks
+may be structured to compete with each other (optionally
+including use evolutionary algorithms, genetic algorithms,
+or the like), such that an appropriate type of neural network,
+with appropriate input sets, weights, node types and func-
+tions, and the like, may be selected, such as by an expert
+workflow, environment process system, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a feed forward neural network, which moves
+information in one direction, such as from a data input, like
+a source of data about an individual, through a series of
+neurons or nodes, to an output. Data may move from the
+input nodes to the output nodes, optionally passing through
+one or more hidden nodes, without loops. In embodiments,
+feed forward neural networks may be constructed with
+various types of units, such as binary McCulloch-Pitts
+neurons, the simplest of which is a perceptron.
+In embodiments, artificial intelligence and machine learn-
+ing systems in the data processing system of the autonomous
+65 additive manufacturing platform 10110 may enable auto-
+matic classification and clustering of 3D printed parts and
+products. In embodiments, artificial intelligence and

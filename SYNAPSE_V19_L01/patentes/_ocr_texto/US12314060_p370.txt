@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+375
+systems, arms, conveyors, and the like, as well as human
+workforce) and/or the surrounding environment (such as a
+vehicle, a manufacturing facility, a campus, or even a larger
+scale entity, such as a city).
+In embodiments, the artificial intelligence system 10212
+may be configured to manage the real time dynamics affect-
+ing inventory levels for smart inventory and materials man-
+agement. This may include, for example, forecasting inven-
+tory levels based on a set of demand factors and/or supply
+factors of various types described herein and configuring ：10
+schedules for additive manufacturing units 10102 to produce
+items for locations where shortages are anticipated.
+In embodiments, the artificial intelligence system 10212
+may be configured to build, maintain, and provide a library
+of parts with preconfigured parameters, that may be search- 15
+able by materials, properties, part type, part class, industry,
+compliance, etc. This may include, for example, a set of
+search algorithms that discover parts by referencing pub-
+lished materials, including website materials, product speci-
+fications, or the like; a set of algorithms that query APIs or 20
+other interfaces of parts providers, such as to query data-
+bases for parts information; and/or a set of data collection
+systems that capture images, sensor data, test data, or the
+like of or about parts.
+In embodiments, the artificial intelligence system 10212 25
+may be configured to analyze usage patterns associated with
+one or more users and learning user preferences with respect
+to outputs, timing, materials, colors, shapes, orientations,
+and/or print strategies. For example, the system 10212 may
+develop a profile, such as by the additive manufacturing unit 30
+10102, by location, by user, by organization, by role, or the
+like, that indicates what materials were used for manufac-
+turing, what processes were used for manufacturing, what
+taken, what colors were used, whatfunctions were enabled, 35
+and the like. The profile may be used to determine, infer, or
+suggest preferences of users, organizations, or the like. For
+example, an organization's preferred brand colors may be
+recognized, such that conforming materials and coatings are
+recommended and/or preconfigured in development of addi- 40s
+tive manufacturing steps.
+In embodiments, the artificial intelligence system 10212
+may be configured to perform real time calibration for one
+or more 3D printers. This may include training on a training
+data set of calibration interactions of expert users. Calibra- 45
+tion may be job-specific, such as by training the artificial
+intelligence system 10212 to calibrate the additive manu-
+facturing unit 10102 to operate with a specific material,
+which may include material from a specific bin or lot of the
+same general type of material. 50
+In embodiments, the artificial intelligence system 10212
+may be configured to minimize the material waste produc-
+tion during the additive manufacturing process. This may
+include configuring production to minimize material that
+needs to be removed in finishing steps, configuring produc- 55
+tion to produce outputs where unused material is easily
+removed for reuse, and/or configuring production to favor
+reusable/recyclable materials.
+In embodiments, the artificial intelligence system 10212
+may be configured to detect cyber security risks and threats 6o s
+to the platform 10110.
+In embodiments, the artificial intelligence system 10212
+may be configured to assess regulatory compliance. For
+example, in embodiments the artificial intelligence system
+10212 may be configured to search a library or other source 65
+of approved or certified product designs, such as ones that
+are UL or CE certified, FDA approved, OSHA-approved, or
+[col 2]
+376
+the like and compare a design configuration to the same to
+confirm that an output of additive manufacturing will result
+in a compliant/approved form of product. In embodiments,
+the artificial intelligence system 10212 may work with a
+digital twin system, a simulation system, or the like to
+simulate performance of a resulting output and may compare
+the simulated performance to regulatory or other require-
+ments, such as ones applying to the ability to withstand
+forces, chemical effects, biological effects, radiation, or the
+like. For example, where a product component, such as a
+housing, is intended to provide shielding from radiation, the
+artificial intelligence system 10212 may operate on or within
+a digital twin that includes a radiation propagation physics
+model to automatically assess whether product materials,
+thicknesses, and shapes will provide shielding suficient to
+meet regulatory and/or design requirements.
+In embodiments, the artificial intelligence system 10212
+may be configured to optimize power consumption for the
+platform 10110. This may include training the artificial
+intelligence system 10212 on a training set of operational
+data that includes (a) measuring power consumed by various
+available activities; (b) training the artificial intelligence
+system 10212 to undertake scheduling of additive manufac-
+turing jobs according to a predictive model of energy
+pricing; and/or (c) having the artificial intelligence system
+undertake a large body of simulations to select a preferred
+sequence of operations that produces a favorable power
+consumption pattern.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+predicting part shrinkage or expansion. This may include
+having the artificial intelligence system 10212 use a set of
+physical models that include thermal coefficients of expan-
+sion for elements, alloys, compounds, mixtures and/or com-
+binations, including, in embodiments, graded layers ofmate-
+rial where there is not a clear boundary between materials.
+In embodiments, the artificial intelligence system 10212
+may be trained based on observed shrinking and/or expan-
+sion during manufacturing and/or use.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+predicting part warpage. This may include having the arti-
+ficial intelligence system 10212 use a set of physical models
+that includethermal coefficients of expansion for elements,
+alloys, compounds, mixtures and/or combinations, includ-
+ing, in embodiments, graded layers of material where there
+is not a clear boundary between materials. In embodiments,
+the artificial intelligence system 10212 may be trained based
+on observed warpage during manufacturing and/or use.
+In embodiments, the models trained by the machine
+intelligence system 10212 to execute simulations on part
+twins for calculating necessary changes to the 3D printed
+process to compensate for part shrinkage, expansion and/or
+warpage.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+testing the compatibility of additively manufactured parts. In
+embodiments, the compatibility may be tested with one or
+more other parts in an assembly. In embodiments, the
+compatibility may be tested with an operating environment.
+In embodiments, the compatibility may be tested with a 3D
+printer. Compatibility may include shape compatibility (e.g.
+key-in-lock; housing-around-interior; peg-in-hole; male-

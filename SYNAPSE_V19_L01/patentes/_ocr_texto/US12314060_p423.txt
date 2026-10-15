@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+481
+ventilation inspection example of job execution plan itera-
+tion, a task of entering a ventilation system may involve
+removing a ventilation portal cover at a plurality of locations
+in the building. Based on job execution-time feedback from
+a robot (or team of robots) removing the initial ventilation
+portal cover from a ceiling port, the definition of this task
+may be adapted to require a different retention technique for
+holding the cover in place without damaging it while remov-
+ing the fasteners. In embodiments, the feedback may include
+images and/or video of the removal task. In embodiments,
+the feedback may include a measurement of the weight of
+the cover as determined by the robot(s) performing the
+removal task.
+This real-time (or near-real time) visual feedback may be
+analyzed by the fleet intelligence system to determine, for 15
+example, that a portion of the baffles on the cover were
+deformed during removal. An artificial intelligence system
+of the fleet intelligence layer 12004 may perform simula-
+tions of various cover support techniques and recommend
+one or more as input to the job configuration system 12018 20
+for updating corresponding task definitions. In embodi-
+ments, the fleet intelligence system may send an alert to the
+fleet operations system 12002 regarding the need for adapt-
+ing this task definition that may be used by the system to
+update, for example, preconfigured task definitions stored in 25
+the robot task library 12314 and the like. Such an alert may
+be used by the fleet operations system to coordinate with the
+job execution system 12022 so that pending ceiling-based
+ventilation cover removal tasks are not executed before
+being refreshed in the job execution plan 12310. In embodi- 30
+ments, the job configuration system 12018 may release only
+portions of the job execution plan 12310 to the job execution
+system 12022 so that unreleased portions can be adapted;
+thereby mitigating impacts on the job execution system,
+such as requiring work to be halted, delayed, or otherwise 35
+impaired while updates to the execution plan are made.
+While the examples for job configuration and the like
+presented herein generally consider a single job being con-
+figured by the job configuration system 12018, there may be
+many jobs being configured concurrently. The methods and 40
+ systems for real-time or near real-time feedback described
+activity being performed so that feedback on task definition
+of a first job may benefit task definition of a second job,
+while maintaining necessary job-isolation requirements 45
+(e.g., job identifying data may be obfuscated) to support
+concurrently processing job requests from different entities.
+Also, depicted in FIG. 136 is a means for further enhanc-
+ing configuration activities (e.g., job and fleet configuration
+as described herein) for handling future job requests by 50
+optionally capturing data representative of completion of a
+requested job as a form of feedback for use by the fleet
+intelligence layer 12004 for, among other things, learning
+and optimization. In embodiments, capturing data represen-
+tative of completion of a requested job may include extract- 55
+ing such data from a job completion data set 12326. This job
+completion data set 12326 may be constructed to facilitate
+identifying information that may be useful for learning and
+optimization 12324. In an example, the job completion data
+set my designate, such as by use of metadata tags, logical
+ and/or physical separation, or other indicia data that repre-
+sents exceptions or large variants from expectation. In an
+example, at job completion, a count of repetitions of a robot
+function (e.g, articulated arm movements to remove debris
+from a building ventilation system) may exceed an expected 65
+number. This excessive count of repetitions may be flagged
+as candidate information for learning and optimization feed-
+[col 2]
+482
+back 12324 to be extracted and sent to the fleet intelligence
+layer 12004. In embodiments, a job execution plan 12310
+may be configured with indicators of types of data to be
+collected and used for learning and optimization feedback
+12324. The fleet intelligence layer 12004 may recommend to
+the job configuration system 12018 the types of data to be so
+indicated based on other factors known to the fleet intelli-
+gence system, such as inquiries made by robot design
+engineering teams and the like. In embodiments, learning
+10 and optimization feedback 12324 may be used by the fleet
+intelligence layer to perform, among other things, optimi-
+zation of artificial intelligence service (e.g., recommending
+robot teams, robot types, workflows, and the like). Referring
+to descriptions herein, preconfigured tasks, robot configu-
+rations, team configurations, and the like may be retrieved
+from the library 12314. When these preconfigured aspects of
+a job execution plan are executed, data representative of the
+performance thereof may be flagged for use as learning and
+optimization feedback 12324 to continuously improve these
+preconfigured aspects. An outcome of use of this data
+includes field condition-adapted preconfigured tasks b that
+may perform better in the real world. Another outcome of
+use of this data includes improved digital twins and machine
+learning models.
+Referring to FIG. 137, embodiments of a job parsing
+system 12302 and a task definition system 12304 are
+depicted in an interconnected block and data flow diagram.
+A job description to be parsed may include relevant job
+descriptive details, goals, objectives, requirements, prefer-
+ences and the like and as may be described elsewhere herein.
+While not all pertinent job information may be included
+within the request, one or more links to ancillary job
+description data 12404 may be included. Ancillary job data
+12404 may be stored remote from a job request data set (e.g.
+may be accessed through an Internet URL of the job
+description). Optionally, ancillary job data 12404 may be
+stored in data structures that are accessible to the fleet
+management platform 12000, such as in a fleet library
+12314, requestor-specific storage, and the like. Ancillary job
+data 12404 may include formal standards (e.g., local distur-
+bance regulations, safety (OSHA), electrical (NEC), quality,
+and the like), permitting requirements (e.g., forms, steps,
+timing, dependencies on other tasks, and the like), legal
+requirements (e.g., union approval, relevant laws, and the
+like) details of the job, requestor work standards (e.g., a
+workmanship standard for the requestor), industry norms
+(e.g., work hours, material selection, templates, and the like)
+approved vendors (e.g, from whom supplies and other
+consumables are to be acquired), references to preconfigured
+tasks, user interface templates/menus/screen for each aspect
+of a job (e.g., how a user can request status, observe activity,
+change a job requirement, respond to an inquiry, and the
+like) and the like. The job request data and, if indicated, the
+ancillary data 12404 are processed by a task definition
+ingestion facility 12402 that works co0peratively with a job
+data conversion module 12403 to generate job instance-
+specific content 12408. This job instance-specific content
+may include, among other things, initial sequence timing as
+may be defined in the input data (e.g., do task A before task
+B") and/or derived therefrom (e.g-, installing an object
+necessarily must occur after the object is received). The job
+data conversion module 12403 may interact with the data
+processing system 12030 when converting job description
+data to utilize information derived from a fleet management
+platform accessible library, such as job and fleet library
+12314. The ingestion facility 12402 may store some job
+description content directly into the job instance storage

@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+387
+compare part design dimensions and accuracy with available
+3D printer working envelopes and specifications.
+After a part design is validated to be compatible with one
+or more of the additive manufacturing units 10102 in the
+manufacturing node 10100, part data for manufacturing may
+be optimized for export at the design and simulation 10116.
+For example, an optimized STL file may be produced from
+a finely meshed 3D CAD surface model to meet part
+accuracy requirements, and then exported to the autonomous
+additive manufacturing platform 10110. 10
+The autonomous additive manufacturing platform 10110
+may include a process and material selection system 10704.
+Using optimized part data from the design and simulation
+10116, external information including pricing and market
+related information from sources such as the value chain 15
+entities 10126, and help from the artificial intelligence
+system 10212, the process and material selection system
+10702 performs analysis to select one or more of the additive
+manufacturing units 10102 for part manufacturing. In one
+example, the process and material selection system 10702
+may analyze availability and cost of printer feedstock mate-
+rials to select the additive manufacturing unit 10102 that
+manufactures the part according to specifications while
+optimizing for the lowest cost of manufacture.
+Referring to FIGS. 116, 118 and 120, when manufacturing 25
+is complete, part and process data related to the outcome of
+the 3D printing process is collected by the data collection
+and management system 10202. Outcome data is provided
+to the machine learning system 10210 along with simula-
+tion, external, and training data to train orimprove the initial 30 r
+machine learning model 10213.
+The following is an example of autonomous design vali-
+dation and selection of a 3D printing process and material.
+Referencing FIGS. 114 and 115, part design data is entered
+at user the interface 10112 and is then provided as input to 35
+the design and simulation 10116 for part validation. The part
+design data provided at the user interface 10112 may include
+the following part specifications and order requirements: A
+form or shape described by a 3D CAD solid model; Use-case
+loading as applied to the provided 3D CAD model; Part 40
+design stress factor of safety: >2; Maximum part weight;
+Corrosion requirement: Compatibility with seawater and salt
+spray; Order part quantity 10; and Delivery time.
+With help from the artificial intelligence system 10212,
+the design and simulation 10116 performs multiple screen- 45
+ing analyses as follows: a material analysis that identifies
+titanium, Inconel, and 316 stainless steel as materials that
+meet corrosion requirements; a material analysis, assisted by
+simulations from the printer twin 10506 and the process and
+material selection twin 10702, that identifies powder bed 50 
+fusion or metal material extrusion as 3D printing processes
+that match availability of the additive manufacturing units
+10102; a stress and weight matrix analysis calculated for
+part geometry and loading that eliminates Inconel and 316
+stainless steel due to weight considerations, but qualifies 55
+titanium for both weight and maximum stress. Following
+completion of the screening analysis, process and selection
+system 10704 is used to complete final additive manufac-
+turing unit 10102 selection from the subset of additive
+manufacturing units 10102 available for manufacturing.
+Hybrid Part Workflows
+The selection and use of one or more hybrid manufactur-
+assembly. Hybrid part workflows can be used to develop
+new manufacturing processes, repair existing parts, and
+modify existing parts to improve value chain outcomes.
+[col 2]
+388
+The autonomous additive manufacturing platform 10110
+may take as input existing and OEM part information
+comprising physical, chemical, manufacturers specifica-
+tions, etc., including information based on expert feedback
+and/or feedback from trials/outcomes. The AI system 10212
+uses input data to help with automatic validation of a part for
+one or more hybrid workflows in the workflow management
+applications 10208.
+In a part repair example, data from the user interface
+10112 and the data sources 10114 are provided to the design
+and simulation 10116. Example data includes a combination
+of measurements and expert observations and/or OEM part
+information such as specifications and CAD models. The
+design and simulation system 10116 analyzes part dimen-
+sional and material repair requirements with reference to
+their compatibility with at least one type of additive manu-
+facturing unit 10102 in the manufacturing node 10100. The
+design and simulation 10116 may be assisted by the artificial
+intelligence 10212, the simulation management 10514, and
+20 the digital twin systems 10214, for example, analyses may
+include the use of the printer twin 10506 and the part twin
+10504 in the digital twin system 10214 to simulate modified
+part manufacturing outcomes using available 3D printer
+capabilities or determine compatibility of OEM part material
+with available 3D printer materials.
+After a modified part is validated by the design and
+simulation 10116 to be compatible with one or more of the
+additive manufacturing units 10102 in the manufacturing
+node 10100, modified part data is exported to the autono-
+mous additive manufacturing platform 10110 where the
+process and material selection system 10704 selects one or
+more of the additive manufacturing units 10102 for manu-
+facturing using one or more hybrid workflows. Example
+hybrid workflows include the build-up of worn part areas or
+replacement of chipped or cracked areas of parts.
+Referring to FIGS. 118 and 119, when modified part
+manufacturing is complete, part and process data related to
+the outcome of the 3D printing process is collected by the
+data collection and the management system 10202, where
+data comprising modified part parameters, measurements,
+and so on can be exported to systems responsible for
+managing warranty, safety, and related compliance, for
+example the ERP system 10644, the certification system
+10654, the compliance system 10656, etc. In embodiments,
+data may be used to set parameters for a smart contract, such
+as populating warranty-related, safety-related, liability-re-
+lated, or other terms of a smart contract. The platform and/or
+smart contract may store the data in a blockchain.
+In embodiments, hybrid manufacturing workflows may be
+design, for example when incorporating new functional or
+In embodiments, hybrid manufacturing workflows may be
+used to produce new parts comprising multiple materials
+that may require more than one 3D printer or 3D printing
+process to produce targeted part or product characteristics.
+Referring to FIGS. 114 and 115, in embodiments, hybrid
+manufacturing workflows may specify and manage special-
+ized pre-processing 10104 and post-processing 10106, for
+60 the additive manufacturing unit 10102 manufacturing.
+Examples include part cleaning, machining, grinding, sur-
+face finishing, etc. to enable 3D printing, or to produce
+tions.
+65 FeedstockFormulation
+The selection, purchase, and management of 3D printer
+feedstock may be automated and optimized to improve

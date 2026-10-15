@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+607
+example, the smart container fleet manager digital twin
+13328 may initially depict a subset of the various states of
+ a smart container fleet at a lower granularity level, including
+a pricing state (e.g., a visual indicator indicating pricing for
+smart containers). In response to a selection, the smart
+container fleet manager digital twin 13328 may provide
+data, analytics, summary, and/or reporting including, but not
+limited to, real-time, historical, aggregated, comparison,
+and/or forecasted pricing data (e.g., real-time, historical,
+simulated, and/or forecasted revenues, liabilities, and the 10
+like). In embodiments, the smart container fleet manager
+digital twin 13328 may initially present the user (e.g., the
+fleet manager) with a view of various different aspects of the
+fleet (e.g-, different indicators to indicate different "health"
+levels of a fleet) but may allow the user to select which 15
+aspects require more of his or her attention. In response to
+such a selection, the smart container fleet manager digital
+twin 13328 may request a more granular view of the selected
+state(s) from the system 13000, which may return the
+requested states at the more granular level. 20
+In embodiments, the digital twin simulation system 13310
+may receive a request to perform a simulation requested by
+the smart container fleet manager digital twin 13328, where
+the request indicates one or more parameters that are to be
+varied in one or more digital twins. In response, the digital
+twin simulation system 13310 may return the simulation
+results to the smart container fleet manager digital twin
+13328, which in turn outputs the results to the user via the
+client device display. In this way, the user may be provided
+with various outcomes corresponding to different parameter 30
+configurations. For example, a user may request a set of
+simulations to be run to test different fleet configurations to
+see how the different configurations affect the overall impact
+on profits and losses. The digital twin simulation system
+13310may perform the simulationsby varying the different 35
+configurations and may output the financial forecasts for
+each respective configuration. In some embodiments, the
+user may select a parameter set based on the various
+outcomes, and iterate simulations based at least on the varied
+prior outcomes. In some embodiments, an intelligent agent 40
+may be trained to recommend and/or select a parameter set
+based on the respective outcomes associated with each
+respective parameter set.
+In embodiments, a smart container fleet manager digital
+twin 13328 may be configured to store, aggregate, merge, 45
+analyze, prepare, report, and distribute material relating to
+pricing, scheduling, financial reporting, performance, main-
+tenance, regulatory data, or other data related to a smart
+container shipping services. A smart container fleet manager
+digital twin 13328 may link to, interact with, and be asso- 50
+ciated with external data sources, and able to upload, down-
+load, aggregate external data sources, including with the
+system 13000's internal data, and analyze such data, as
+described herein. Data analysis, machine learning, AI pro-
+cessing, and other analysis may be coordinated between the 55
+smart container fleet manager digital twin 13328 and the
+intelligence service 13004. This cooperation and interaction
+may include assisting with seeding shipping-related data
+elements and domains in the digital twin data store 13316 for
+use in modeling, machine learning, and Al processing to
+identify an optimal fleet configuration, optimal scheduling
+execution of freight storage and/or transportation service
+orders, or some other shipping-related metric or aspect, as
+well as identification of the optimal data measurement
+65
+ration or scheduling execution success. In embodiments, the
+digital twin module 13420 abstracts the different views (or
+[col 2]
+608
+states) within the digital twin to the appropriate granularity.
+For instance, the digital twin module 13420 may have access
+to all the sensor data collected on behalf of the 13000 as well
+as access to real-time sensor data streams. In this example,
+if the sensor readings from a particular smart container are
+indicative of a potentially critical situation (e.g-, failure
+state, dangerous condition, damaged cargo, potentially ille-
+gal cargo, or the like), then the analytics that indicate the
+potentially critical situation may become very important to
+the fleet manager. Thus, the digital twin module 13420,
+when building the appropriate perspective for the fleet
+manager, may include a state indicator of the smart container
+in the fleet manager digital twin 13328. In this way, the fleet
+manager can drill down into the state indicator of the smart
+container to view the potentially critical situation at a greater
+granularity (e.g., smart container machinery and an analysis
+of the sensor data used to identify the situation).
+In embodiments, a smart container fleet manager digital
+twin 13328 may be configured to reporton the performance
+of smart containers in the fleet. As described herein, report-
+ing may include timing performance metrics, financial per-
+formance metrics, physical performance metrics, cargo dam-
+age metrics, data regarding resource usage, or some other
+type of reporting data. In embodiments, an intelligent agent
+trained by the user may be trained to surface the most
+important reports to the user. For example, if the user (e.g..
+the fleet manager) consistently views and follows up on
+timing performance but routinely skips over reports relating
+to financial performance, the executive agent may automati-
+cally surface reports related to timing metrics to the user
+while suppressing financial performance data.
+In embodiments, a smart container fleet manager digital
+twin 13328 may be configured to monitor, store, aggregate,
+merge, analyze, prepare, report, and distribute material
+relating to other shipping entities (e.g-, shippers, shipping
+lines, container terminals, or named entities of interest). In
+embodiments, such data may be collected by the system
+13000 via data aggregation, webscraping, or other tech-
+niques to search and collect shipping entity information
+from sources including, but not limited to, regulatory infor-
+mation, information on shipping, press releases, SEC or
+other financial reports, or some other publicly available data.
+For example, a user wishing to monitor a certain shipping
+digital twin 13328 provide materials relating to the certain
+shipping entity. In response, the system 13000 may identify
+a set of data sources that are either publicly available or to
+which the fleet manager has access (e.g., internal data
+sources, licensed 3rd party data, or the like).
+In embodiments, the client application 13324, such as
+13000, that executes the smart container fleet manager
+digital twin 13328 may be configured with an intelligent
+agent that is trained on the fleet manager's actions (which
+may be indicative of behaviors, and/or preferences). In
+embodiments, the intelligent agent may record the features
+relating to the actions (e.g., the circumstances relating to the
+user's action) to the intelligent agent system. For example,
+the intelligent agent may record each time the user approves
+a freight storage and/or transportation service order (which
+is the action) as well as the features surrounding the approval
+(e.g., the type of action, the type of order, the price of the
+order, the shipper, the quantity of smart containers, route
+information, and the like). The intelligent agent may report
+the actions and features to the intelligent agent system that
+may train the intelligent agent on the manner by which the
+intelligent agent can undertake or recommend approval tasks
+and other tasks in the future. Once trained, the intelligent

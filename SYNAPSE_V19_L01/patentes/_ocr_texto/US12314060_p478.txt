@@ -1,0 +1,136 @@
+tains and/or should be applied when generating workflow 1o adapted variant of a candidate workflow step, such as a
+which tasks need to be performed in a sequence and which 35 storage facility) based on architectural considerations, such
+[col 1]
+US 12,314,060 B2
+591
+is received contemporaneously with a task definition, the
+ingestion module may mark these two data items as aligned.
+Other ways of aligning task definition(s) with fleet configu-
+ration information may include one or more data values in
+the task definition, which may be a data set, linked list, flat
+file, structured data set and the like indicating fleet configu-
+ration information to which the task(s) should be aligned.
+Fleet configuration information may include one more task
+identifiers to which the fleet configuration information per-
+definitions.
+Ingestion may further include processing references (e.g..
+URLs, hyperlinks, external names, and the like) to workflow
+content in the library 13044 that may be found in any of the
+ingested content. In an example, a task definition may
+include a name of a task that is stored in the library 13044.
+The ingestion module may identify the name by its syntax
+(e.g., a prefix may be added to a task identifier that indicates
+the task is to be retrieved from the library) and/or task
+definition structuring (e.g., a list of task names stored within 20
+a subset of the task definition that is structured to indicate the
+subset of tasks are to be retrieved from the library). While
+the examples of ingestion herein pertain to an instance of
+ingestion of one or more task definitions,ingestion may be
+performed on batches of tasks. Multiple instances of the 25
+ingestion module may be instantiated and operating concur-
+rently to process a plurality of task definitions that may be
+performed. Optionally, a stream of tasks definitions may be
+received by ingestion and each task in the stream is ingested
+in sequence.
+One or more outcomes of processing by the ingestion
+module may be presented to a set of workflow definition
+activities, including a task dependency determination mod-
+ule that may determine dependencies among tasks, such as
+tasks can be performed independently of other tasks. The
+task dependency determination module may also determine
+dependency of tasks on other factors, such as availability of
+fleet resources, calendar/date/time, readiness of supply
+materials, and the like. Dependency on otherfactors may be 40
+identified in the task definition, such as by marking a given
+job state as a start point for the task. Further, dependency on
+other factors may be attributed to a given task definition
+during ingestion (e.g., based on aligning a task with a fleet
+configuration that sets a dependency on availability of fleet 45
+resources, such as a special purpose smart container and the
+like).
+Atask grouping activity may process outcomes of the task
+dependency activity to generate groups of tasks based on a
+range of criteria, such as, tasks that depend on a given task 50 s
+being complete may be grouped for concurrent execution.
+Grouping tasks may be based on dependency on fleet
+resource availability, so that tasks that are dependent on a
+fleet resource may be grouped and performed once the
+resource is available. The order of performance of these 55
+grouped tasks may be based on inter-task dependency.
+Generally, tasks may be grouped for a range of purposes,
+such as cost savings, resource guarding, job prioritization,
+available order execution funds, anticipated fleet resource
+maintenance needs, earliest task start/finish time, latest task 6o r
+start/finish time and the like.
+A task workflow step definition activity may determine
+which task(s) can be organized into each step of one or more
+workflows. Based on inter-task dependency (or lack thereof)
+multiple workflows may be defined, each workflow includ- 65
+ing one or more workflow steps that are defined in workflow
+step definition activity. Further, a workflow step, once
+[col 2]
+592
+defined, may be assigned to and/or referenced in a plurality
+of workflows. When dependencies exist, such as availability
+of a smart container for performing a task in a workflow
+step, a plurality of workflows may themselves be made
+dependent. Performance of other tasks in these workflows
+may be concurrent even if the initial task of opening the port
+must be done sequentially due to the fleet resource utiliza-
+tion dependency.
+In embodiments, a defined workflow step may be an
+workflow step that is retrieved from the library 13044. The
+workflow step definition activity may request input from
+other fleet resource system services, such as the data pro-
+cessing system 13024 and/or artificial intelligence modules
+13404 to adapt a candidate workflow step for use when
+defining one or more workflow steps for a given job.
+Information such as workflow step dependency may be
+utilized by a workflow step linking activity that may receive
+step linking recommendation(s) from the intelligence ser-
+vice 13004 and the like. Workflow step linking activity may
+generate a data structure that indicates a sequence of per-
+forming defined workflow steps (e.g., a workflow definition.
+The workflow definition may include data that captures
+job-specific workflow information, such as workflow step
+ordering, workflow step performance sequence, workflow
+step independence, step-by-step links to workflow steps,
+workflow success criteria, cross-workflow dependencies,
+and/or the like.
+In embodiments, workflow definition(s)may be stored in
+30 a job instance storage where they can be referenced as
+needed during job configuration and/or order execution.
+They may be stored in the fleet library 13044 where they can
+be referenced by other jobs, by third parties, such as shipper
+and the like. They may be stored elsewhere (e.g., a cloud
+as being distributed to edge computing infrastructure
+resources proximal to job deployment sites and the like.
+In embodiments, workflows may be simulated as indi-
+cated in the description of the job configuration system
+13018. Outcomes of simulation may be directed to, for
+example, the ingestion module where ingestion operations,
+such as alignment of fleet configuration data with task
+description data may be improved. Outcomes may also be
+passed to as feedback to other components of the system to
+improve task definition, job configuration, fleet configura-
+tion, and/or the like.
+FIG. 147 illustrates a digital twin module according to
+some embodiments of the present disclosure. In embodi-
+ments, the digital twin module 13420 generates a set of
+shipping digital twins 13302 (e.g., individual smart con-
+tainer digital twins 13504, smart container fleet digital twins,
+smart container fleet manager or operator digital twins,
+shipper digital twins, and the like). In embodiments, the
+digital twin module 13420 maintains a set of states of the
+respective shipping digital twins 13302, such as using sensor
+data obtained from respective sensor systems 13304 that
+monitor the shipping digital twins 13302. In embodiments,
+the digital twin module 13420 may include a digital twin
+management system 13306, a digital twin I/0 system 13308,
+a digital twin simulation system 13310, a digital twin
+dynamic model system 13312, and/or a digital twin control
+module 13314. In embodiments, the digital twin module
+13420 may provide a real time sensor API that provides a set
+of capabilities for enabling a set of interfaces for the sensors
+of the respective sensor systems 13304. In embodiments, the
+digital twin module 13420 may include and/or employ other

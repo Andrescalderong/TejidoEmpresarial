@@ -1,0 +1,133 @@
+[col 1]
+US 12,675,781 B2
+537
+functions of the MPR 12100. In some embodiments, the
+baseline system 12102 may include an energy storage and
+power distribution 12104 that stores energy and delivers
+power to the other components of the robot, enclosures
+12106 that enclose some or all of the components of the
+MPR 12100, an electromechanical and electro-fluidic sys-
+tem 12108 that actuates and control the mechanical compo-
+nents of the MPR 12100, a transport system 12110 that
+includes mechanical components that physically move the
+MPR 12100 in an intended environment, a vision and 10
+sensing system 12112 including a baseline set of sensors that
+are used in connection with performance of the baseline
+functions and/or certain task-specific functions, and a struc-
+tural system 12114 including one or more skeletal compo-
+nents configured to provide form and structure to the MPR 15
+12100.
+As can be appreciated, the baseline system 12102 of an
+MPR 12100 may be configured in accordance with the
+characteristics required to operate the MPR 12100 in certain
+operating environments or conditions (e.g-, to operate in 20 t
+heat, cold, humidity, land, sea, underwater, air, underground
+and/or the like), regardless of the tasks that the MPR 12100
+may be customized to perform. Thus, different classes of
+MPRs 12100 configured for operation in different operating
+environments or conditions will have different configura-
+tions of the respective baseline system 12102 of the MPR
+12100. For instance, an example baseline system 12102 of
+a four-legged terrestrial MPR 12100 designed to operate on
+solid ground in rainy conditions may include, for example,
+an IP-43 rated enclosure 12106 that houses four individual
+mechanical legs 12110 with electric motors 12112 in each
+leg 12110, powered by electrical energy stored in a battery
+and supplied by a wireless power distribution system 12104.
+In another example, an example baseline system 12102 of an
+may include an IP 68-rated enclosure 12106 houses a
+water-jet propulsion system that uses an electric motor
+12112 powered by electrical energy stored in a battery
+12104. In yet another example, a third baseline system
+12102 of an MPR 12100 designed to operate in mud may 401
+include tracked wheels 12110, where power is supplied by
+a gasoline engine coupled with a hose-less hydraulic power
+transmission system 12104.
+In embodiments, the energy storage and power distribu-
+tion system 12104 of an MPR 12100 may include one or 45
+more power source(s) configured to supply power to various
+components of the MPR 12100 like a hydraulic system, an
+electrical system, a nuclear system, supercapacitors, fly-
+wheels, solar cell or photovoltaic cells, fuel cells, batteries,
+a power cord, kinetic or piezo electric battery charging 50
+device, inductive charging or wireless power receiver and
+other types of power systems. In embodiments, the choice of
+the power source may depend on different factors like the
+size and shape of the MPR 12100, the environment the MPR
+12100 is operating in, the tasks that the MPR 12100 needs 55
+to perform and so on. In embodiments, the choice of a power
+source may be based on these factors and may support wide
+range of use case scenarios for the MPR 12100. For
+example, the MPR 12100 may rely on lithium ion battery
+system while operating as a mobile robot tasked with
+cleaning a house but switch to wall power supply for fixed
+e.g., to move heavy loads in construction or earth moving
+applications. In embodiments, the different components of
+the MPR 12100 may be powered by the same power source, 65
+to a different power source.
+[col 2]
+538
+In embodiments, the power source component in the
+energy storage and power distribution system 12104
+includes multiple lithium-ion smart batteries, and may
+include rechargeable batteries or battery packs configured to
+provide charge to other components of the MPR 12100. The
+use of smart batteries allows for a modular battery system,
+potential upgrades when new chemistries become available,
+and monitoring of power system status at the individual
+battery level. Using multiple batteries results in a system that
+is tolerant of the failure of any single battery element, since
+such a loss only reduces the maximum available power and
+energy storage. In embodiments, the MPR 12100 may be
+electricity supply grid from a power grid and a secondary
+source constituted by a battery pack. In embodiments,
+system power is provided by a fixed source external to the
+MPR 12100 using one or more power repeater coils and an
+integrated wireless power distribution system provides,
+monitors, and manages power flow and supply to subsys-
+tems of the MPR 12100 such as sensor packages.
+In embodiments, the power source in the energy storage
+and power distribution components 12104 includes a
+hydraulic system configured to use fluid power to drive the
+MPR 12100. The various components of the MPR 12100
+may operate based on hydraulic fluid being stored in a
+reservoir and transmitted through a high-pressure supply
+line using a pump at a specified pressure and flow rate to one
+or more hydraulic members like various hydraulic motors,
+hydraulic cylinders, and actuators for example. The hydrau-
+lic system may transfer hydraulic power by way of pressur-
+ized hydraulic fluid through tubes, flexible hoses, or other
+links between components of the MPR 12100. The particular
+design and components of the hydraulic system can vary and
+any number or combination of valves, control systems,
+included as desired. The typical response time of this type of
+hydraulic system is very rapid, of the order of a few
+milliseconds or less.
+In embodiments, the hydraulic system is designed to
+utilize additive manufacturing methods and its associated
+design advantages to produce manifolds and reservoirs that
+minimize hoses and connections that can result in leaks and
+system inefficiencies. The hydraulic system may include the
+ability for the MPR 12100 to apply repairs, service equip-
+tion work arounds.In embodiments, the hydraulic system is
+designed to utilize additive manufacturing methods and its
+associated design advantages to produce manifolds, reser-
+voirs, and distribution systems that incorporate valve actua-
+tion.
+In embodiments, the enclosure 12106 of an MPR 12100
+may include any housings or other physical components that
+contain at least a portion of the MPR 12100. The structure
+of the enclosures 12106 may vary and may depend on the
+operation that the MPR 12100 may have been designed to
+perform. In embodiments, the enclosure 12106 is a rectan-
+gular metal box with an internal spacewhich is isolated from
+the environment by external walls having predetermined
+environmental resistance. The internal space may house
+various components of the MPR 12100 including energy
+storage and power distribution system 12104, electrome-
+chanical and electro-fluidic system 12108, transport system
+12110, vision and sensing system 12112, robot control
+system 12150, robot security system 12170 and the like.
+In some embodiments,the enclosure 12106of a MPR
+12100 may be designed for robustness and ability to tolerate
+the external environment. For example, protection may be

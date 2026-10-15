@@ -1,0 +1,138 @@
+An artificial intelligence system of the intelligence service 45 and machine learning models.
+[col 1]
+US 12,314,060 B2
+585
+Therefore, the fleet configuration system may have greater
+flexibility in deciding which smart containers to deploy for
+different jobs. References are made herein to the library
+13044, using contextual modifiers, such as smart container
+configuration library and the like. These contextual modifi-
+library 13044 for illustrative purposes only.
+In embodiments, optimization features of the task defini-
+tion system are described below in association with feed-
+back from other elements of the job configuration system 10t
+13018, such as the workflow simulation system and the like.
+In some embodiments, the fleet operations system and the
+fleet intelligence system perform a feedback for order execu-
+tion-time iteration of configuration activities, such as for
+adapting and executing instances of an order execution plan.
+In these embodiments, feedback within a job configuration
+system 13018 facilitates iterating configuration activities
+when producing components of an order execution plan,
+such as task definitions and workflow definitions. As
+described for these embodiments, the intelligence service 20
+13004 may be used for at least these iterations. However, it
+is envisioned that the resources of the intelligence service
+13004 may also or, in addition, be used for enhancing
+execution of an order execution plan.
+In embodiments, the order execution system 13022 of the 25]
+fleet management system 13002 may receive order execu-
+tion plans from the job configuration system 13018 respon-
+ sive to, for example, a freight storage and/or transportation
+service order. The order execution system 13022 may facili-
+tate performance of an order execution plan by stepping
+30
+through the plan, activating, and monitoring smart container
+units and other fleet resources, and providing feedback,
+optionally real-time feedback based on, for example, smart
+container unit monitoring data. This feedback may be pro-
+cessed by,for example, artificial intelligence capabilities of 35
+the intelligence service 13004 for determining adjustments
+to an order execution plan, such as task definitions and the
+like. When the feedback and adjustments are done in real-
+time or near real-time (e.g., before an upcoming order
+execution activity, such as a step in a workflow),functions 40
+amend an existing order execution plan, such as an instance
+of a plan that is currently being executed by the order
+execution system 13022.
+13004 may perform simulations and use the results of the
+simulation as one or more as input to the job configuration
+system 13018 for updating corresponding task definitions. In
+embodiments, the fleet intelligence system may send an alert
+to the fleet management system 13002 regarding the need 50 i
+for adapting this task definition that may be used by the
+system to update, for example, preconfigured task defini-
+tions stored in the smart container task library 13044 and the
+like. Such an alert may be used by the fleet operations
+ system to coordinate with the order execution system 13022 55
+so that pending tasks are not executed before being refreshed
+in the order execution plan. In embodiments, the job con-
+figuration system 13018 may release only portions of the
+order execution plan to the order execution system 13022 so
+that unreleased portions can be adapted, thereby mitigating
+09
+impacts on the order execution system, such as requiring
+work to be halted, delayed, or otherwise impaired while
+updates to the execution plan are made.
+While the examples for job configuration and the like
+presented herein generally consider a single job being con- 65
+figured by the job configuration system 13018, there may be
+many jobs being configured concurrently. The methods and
+[col 2]
+586
+systems for real-time or near real-time feedback described
+herein may apply to any instance of job configuration
+activity being performed so that feedback on task definition
+of a first job may benefit task definition of a second job,
+while maintaining necessary job-isolation requirements
+(e.g., job identifying data may be obfuscated) to support
+concurrently processing freight storage and/or transportation
+service orders from different entities.
+In embodiments, capturing data representative of comple-
+tion of a requested job may include extracting such data
+from a job completion data set. This job completion data set
+may be constructed to facilitate identifying information that
+may be useful for learning and optimization. In an example,
+the job completion data set may designate, such as by use of
+metadata tags, logical and/or physical separation, or other
+indicia data that represents exceptions or large variants from
+expectation. In an example, at job completion, a percentage
+of damaged packages carried by a smart container may
+exceed an expected and/or acceptable number. This exces-
+sive count of damaged packages may be flagged as candi-
+date information for learning and optimization feedback to
+be extracted and sent to the intelligence service 13004. In
+embodiments, an order execution plan may be configured
+with indicators of types of data to be collected and used for
+learning and optimization feedback, The intelligence service
+13004 may recommend to the job configuration system
+13018 the types of data to be so indicated based on other
+factors known to the fleet intelligence system, such as
+inquiries made by smart container design engineering teams
+and the like. In embodiments, learning and optimization
+feedback may be used by the fleet intelligence service to
+perform, among other things, optimization of artificial intel-
+ligence service (e.g., recommending smart container teams,
+smart container types, workflows, and the like). Referring to
+descriptions herein, preconfigured tasks, smart container
+configurations, team configurations, and the like may be
+retrieved from the library 13044. When these preconfigured
+aspects of an order execution plan are executed, data rep-
+resentative of the performance thereof may be flagged for
+use as learning and optimization feedback to continuously
+improve these preconfigured aspects. An outcome of use of
+this data includes field condition-adapted preconfigured
+tasks that may perform better in the real world. Another
+outcome of use of this data includes improved digital twins
+In embodiments, a job description to be parsed may
+include relevant job descriptive details, goals, objectives,
+requirements, preferences, and the like and as may be
+described elsewhere herein. While not all pertinent job
+information may be included within the request, one or more
+links to ancillary job description data may be included.
+Ancillary job data may be stored remote from a freight
+storage and/or transportation service order data set (e.g.
+may be accessed through an Internet URL of the job
+description). Optionally, ancillary job data may be stored in
+data structures that are accessible to the smart container
+system 13000, such as in a fleet library 13044, requestor-
+specific storage, and the like. Ancillary job data may include
+formal standards (e.g-, local disturbance regulations, safety
+(OSHA), electrical (NEC), quality, and the like), permitting
+requirements (e.g., forms, steps, timing, dependencies on
+other tasks, and the like), legal requirements (e.g., customs
+requirements, relevant laws, and the like) details of the job,
+shipper standards (e.g., an acceptable percentage of dam-
+aged cargo), industry norms (e.g., work hours, material
+selection, templates, and the like), approved vendors (e.g.,
+from whom supplies and other consumables are to be

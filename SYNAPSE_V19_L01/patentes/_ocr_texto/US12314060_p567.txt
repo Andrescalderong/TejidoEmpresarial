@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+769
+implementations, the CSS2, at 21428, determines whether
+the process satisfies a designed objective function. In some
+instances, the objective function is based on the primary task
+(e.g., in combination with any external controls included in
+the primary system input 21102). In other instances, the
+objective function is based on the secondary task specified
+by the directed action request from the secondary system
+input 21202.
+At 21430, the CSS2 reports a response to the directed
+action request as an output 21204 of the secondary system
+21200. For example, the output 21204 is an action plan for
+the primary task. Additionally and/or alternatively, the out-
+put 21204 of the secondary system 21200 being reported to
+the primary system 21100 is that some set of actions were
+executed at the secondary system 21200 to support the 15
+primary task as directed by the direct action request from the
+primary system 21100. When reporting the execution of
+some set of actions, the output 21204 of the secondary
+system 21200 may include data or information related to the
+execution of the set of actions. In some configurations, the 20
+data or information is monitoring data that characterizes the
+performance of the set of actions implemented by the
+secondary system 21200 at some snapshot in time or over a
+certain period of time.
+Although FIG. 177A illustrates operational details about 25 r
+the inputs and outputs of a single primary system 21100 and
+a single secondary system 21200 (e.g., as shown in FIG.
+175A), there may be any number of secondary systems
+21200 managed by either the primary system 21100 or a
+particular secondary system 21200. When a set of additional
+30
+secondary systems 21200 are managed by the secondary
+system 21200, these additional secondary systems 21200
+may be referred to as secondary subsystems. When there are
+multiple secondary systems 21200 for a control architecture
+21000 (e.g., as shown in FIG. 175B), each secondary system 35 s
+21200 may follow a similar set of operations (e.g., opera-
+tions referenced by 21412-21430) in support of the primary
+task for the primary system 21100.
+Mini Control Tower for Value Chain Network Entities
+A mini control tower is typically connected to a larger 40
+control tower (e.g-, a larger secondary computing device, a
+primary computing device, etc.), which is responsible for
+managing the overall performance of the VCN. As will be
+discussed below, the larger control tower integrates data
+from all of the mini control towers and other sources to 45
+provide a comprehensive view of the VCN. This enables the
+larger control tower to identify trends, predict potential
+issues, and optimize the performance of the entire supply
+chain network. In some implementations, the mini control
+tower(s) and the larger control tower may be connected 5o s
+through a communication network that enables real-time
+data exchange and collaboration. The mini control tower
+may provide detailed information on specific areas of the
+ supply chain network, while the larger control tower pro-
+vides a more holistic view of the entire network. This 55 
+integration enables the control towers to work together to
+optimize the performance of the supply chain network and
+ensure that it operates efficiently and effectively.
+Referring to the example implementation of FIG. 175C, in
+some implementations, a control architecture 21000' gener- 60
+and one or more sub-level computing devices 21200t. Each
+of the primary system 21100' and the sub-level computing
+devices 21200t may function in the control architecture
+21000' as a system of systems (SOS). Here, a "system of
+systems" refers to a structure that provides cooperative
+coordination among a set of systems (e.g., already deployed/
+[col 2]
+770
+available systems such as autonomous-oriented systems)
+that are configurable for the execution of one or more
+services/tasks. The terminology of “system of systems
+therefore indicates that a particular system (e.g-, primary or
+secondary system) is the liaison system for a set of under-
+lying systems. For instance, an Os is deployed for a
+particular management or facilitation goal (e.g., to achieve
+a particular target metric or quantifiable measure of value).
+This type of SOS structure allows a first SOS to communi-
+cate with a second SOS without the need to interface with
+the set of systems for which an SOS is responsible for.
+By having a first SOS communicate with a second SOS
+without the need to interface with the set of systems for
+which the second SOs is responsible, the control architec-
+ture 21000' may be able to minimize compatibility issues
+between all of the systems demanded for execution a pri-
+mary task (e.g., autonomous execution). For example, if the
+underling systems are combinations of different hardware
+and/or programmable software, being able to have a uniform
+communication language or protocol to have the systems
+communicate with each can be incredibly difficult. With the
+control architecture 21000t, systems may be setup in a set or
+a grouping that is configured by a particular SOS that is
+capable of communicating with members of the set. In this
+respect, the SOS of the group/set only needs communication
+tools for its set of systems and for outside communication
+with one or more SOSs. For instance, the sub-level com-
+puting device 21200' may include communication tools to
+configure its underlying set of systems and communication
+tools to interface with the primary system 21100t. The
+control architecture 21000' therefore can be quite elastic and
+permit scalability for communication between multiple
+SOSs without any individual SOS being responsible for all
+or a substantial portion of communication tools for all
+systems utilized within a particular implementation (i.e.,
+instance) of the control architecture 21000' as well as control
+architecture 21000 of FIGS.175A and 175B.
+For instance, in some implementations, a VCN process,
+such as VCN process 10, may configure 17800 a set of
+sub-level computing devices (e.g-, sub-level computing
+devices 21200')for communication with a primary comput-
+ing device (e.g., primary system 2100'), wherein the primary
+computing device may manage the set of sub-level comput-
+ing devices to orchestrate performance of a set of value
+chain network entities. For instance, in the example imple-
+mentation depicted in FIG. 175C, the primary system 21100°
+is deployed as a control tower SOS. When a system is
+arranged as a control tower SOS, the system is typically
+deployed as a manager or primary facilitator among a set of
+sub-level computing devices 21200' (e.g., as shown in FIG.
+175D). As a manager (or other similar user), the overarching
+goal of the control tower may be to propagate a strategy
+(e.g-, optimize a set of sub-level computing devices 21200'
+for a particular primary task or primary service), to provide
+oversight to a system arrangement (e.g., system monitoring),
+and/or to control a set of systems (e.g., tune input parameters
+to sub-level computing devices 21200t to produce a target
+result).
+In some implementations, VCN process 10 may receive
+17802 (e.g-, via at least one member of the set of sub-level
+computing devices) a set of primary commands from the
+primary computing device, wherein each of the set of
+commands may be at least one of a task or a request
+associated with the value chain network. For instance, and
+f 65referringatleast to the example implementation of FIG.
+177B, the primary system 21100' receives a set of inputs
+21102'. Here, some examples of these inputs 21102' include

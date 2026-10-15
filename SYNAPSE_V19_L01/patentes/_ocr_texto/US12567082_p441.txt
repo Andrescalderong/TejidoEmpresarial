@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+559
+munication management system 13010 may further provide
+broadcast capabilities to support notification, update, alert,
+and other services. Broadcast capabilities may be fleet-wide
+(e.g., a notice to all fleet resources to observe daylight
+savings time), team-specific (e.g-, an update to all team
+members regarding role changes of team members), job-
+specific (e.g., an alert to fleet resources assigned to a job,
+which may include a plurality of smart container teams, that
+the job is put on hold), fleet resource type-specific to address
+issues that concern certain types of fleet resources (e.g-, such 10
+as smart container operating units), fleet support units,
+location-specific units (e.g-, all units within a foreign juris-
+diction), and the like.
+In embodiments, the communication management system
+13010 may use or manage job-specific communications 15
+elements together with other fleet management system fea-
+tures or services including, without limitation, the security
+system 13046, the network system 13202, and various
+resources including Artificial Intelligence (AI) chipsets, data
+encoders, communication spectrum frequencies, and the 20
+like. The communication management system 13010 may
+work together with the security system 13046, such as by
+providing secure high-up-time access to fleet and associated
+communication resources. As an example, a security system
+13046 may utilize a portion of configured communication 25
+channels (e.g., wired inter-computer links, wireless net-
+works, and the like) that may be reserved by the commu-
+nication management system for security use. The portion
+may include physically dedicated elements (e.g, wired
+connections, wireless access points that operate over a 30 
+dedicated set of frequencies, and the like). In embodiments,
+providing dedicated wireless access may include prioritiza-
+tion of security system access to existing wireless networks,
+such as by routing security system data packets, streams, and
+the like ahead of non-security system packets. As another 35
+example, a communication management system may allo-
+cate communication devices with greater battery energy
+(higher charge) and/or fixed power supply for security
+system use while allocating lower power, lower energy,
+and/or rechargeable devices for non-security system use.
+Security system communication resource management and
+control may be fleet-wide, job-specific, team-specific,
+deployment locale-based, geolocation-based, and the like.
+A further cooperative operation of security system 13046
+with the communication management system 13010 may 45
+include managing access by fleet resources to external
+resources (e.g., websites, and the like) as well as access by
+external resources to fleet resources. The security system
+13046 may deploy security agents and the like to fleet
+resources based on allocation and/or configuration of those 5o t
+resources. As an example, a firewall-type security function
+of the security system 13046 may be deployed at, among
+other things, access points managed by the communication
+management system to connect distinct job-specific com-
+munication systems.
+In embodiments, the communication management system
+13010 may take advantage of intelligence capabilities of
+fleet resources, such as resources with artificial intelligence
+capabilities (optionally provided by Al-specific chips and
+chip sets and the like), to establish dynamic communication
+management functions that enrich and work with fleet
+security capabilities to further reduce the likelihood of a
+successful intrusion into a fleet communication system. As
+an example, Al-based functionality deployed throughout at
+least portions of fleet resources (e.g., individual smart con-
+tainer operating units and the like) may be relied upon to
+detect local environments with increased risk of intrusion or
+[col 2]
+560
+other threat (e.g., based on contextual and historical infor-
+mation representative of such environments and the like) so
+that the communication management system, optionally in
+co0operation with the security system 13046, may adapt fleet
+communication resources for reducing such risk.
+The communication management system 13010 may
+make use of and/or facilitate control of use by others of the
+network system 13202. As an example of management of the
+network system 13202, the communication management
+system 13010 may treat the network system 13202 as a
+resource to be managed for use by fleet resources for
+communicating, such as by determining and/or controlling
+which resources utilize the network, how resources using the
+network at the same time may be coordinated, network
+loading limits for such resources, and the like.
+In embodiments, the smart container system includes a
+remote-control system 13012 that is configured to provide a
+framework for remotely controlling smart container operat-
+ing units and other external resources to complete freight
+storage and/or transportation service orders. In embodi-
+ments, the remote-control system 13012 may manage defi-
+nition and use of control signals for remote operation of
+smart container operating units, fleet support units, external
+resources and the like. Smart container remote-control as
+enabled by the remote-control system 13012 may include
+definition and management of local smart container operat-
+ing unit to smart container operating unit control signaling,
+such as when a team supervisor smart container is directing
+one or more smart container team members to self-load onto
+a container ship. Other examples of remote-control signal
+management may include smart container-to-smart con-
+tainer fleet support signaling, intra-team smart container
+operating unit signaling, and the like.
+In embodiments, the remote-control system 13012 is
+constructed to assist the order execution system 13022 and
+provide a framework for remotely controlling smart con-
+tainer operating units and other external resources to com-
+plete tasks and/or jobs. The remote-control system may
+manage definition and use of control signals for remote
+operation of smart container operating units, fleet support
+units, external resources and the like. Smart container
+remote-control as enabled by the remote-control system
+13012 may include definition and management of local
+unit control signaling, such as when a team supervisor smart
+container is directing one or more smart container team
+members to load and/or unload cargo. Other examples of
+remote-control signal management may include smart con-
+tainer-to-smart container fleet support signaling, intra-team
+smart container operating unit signaling, and the like. In
+embodiments, the remote-control system uses resources of
+the smart container system 13000, including, for example,
+the communication management system 13010, the security
+55 system 13046, and/or network system 13202 to access
+information, in some cases make decisions, and execute
+commands.The framework for remotely controlling smart
+container operating units may comprise a series of actions-
+based standard rules, adapted rules modified by situational
+awareness, emergency rules, exceptions, human decisions,
+ethical rules, the fleet intelligence system, etc. However,
+specialized, fall-over, or other communications necessary to
+handle a range of remote-control requirements may be part
+of the communication management system 13010 that may
+facilitate delivery of remote-control communication and/or
+signaling what the communications should be versus may be
+determined from use of the remote-control system 13012.

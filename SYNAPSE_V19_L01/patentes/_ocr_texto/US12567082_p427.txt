@@ -1,0 +1,136 @@
+freight storage and/or transportation services and/or tasks 60 include a data processing system 13024. In embodiments,
+[col 1]
+US 12,567,082 B2
+531
+human interface system provides an interface by which a
+human user may interface with a smart container operating
+unit.
+As mentioned, a smart container operating unit 13040
+may refer to individual smart containers 13026, individual
+smart container task assemblies 13050, smart container
+fleets 13060, and/or smart container fleet support units
+13080.
+As shown in FIG. 145, smart container 13026 may
+include a baseline system 13106, a smart container control
+system 13104, and a smart container security system 13046
+In embodiments, the smart container control system 13104
+includes a data processing system 13024 and an intelligence
+service 13004. As will be discussed, the data processing
+ system may include data processing resources that may be 15
+centralized and/or distributed amongst a team or fleet of
+smart containers. Additionally, or alternatively, the data
+processing resources may include general purpose chipsets,
+specialized chipsets, and/or configurable chipsets. As will be
+discussed, the intelligence service 13004 performs intelli- 20
+gence related tasks on behalf of the smart container or a
+collection of smart containers (e.g. a task assembly or fleet).
+For example, the intelligence service 13004 may perform
+such tasks as artificial intelligence, machine-learning, natu-
+ral language processing, machine vision, analytics, and/or 25 f
+the like and may leverage complex data structures (e.g..
+digital twins) and disparate data sources (e.g., from IoT,
+edge and other network-enabled devices, from on-premises
+and cloud-deployed databases and other resources, and/or
+from APIs, event streams, logs, or other data sources, among 30
+many others) in performance thereof. Smart container-level
+and fleet-level intelligence services are discussed in greater
+detail below. In embodiments, the smart container security
+system 13046 performs security related functions on behalf
+ofasmartcontaineroracollectionof smartcontainers (e.g-,35
+a task assembly or fleet). These security-related functions
+may include autonomous adaptive and non-adaptive security
+functions as well as manual security functions.
+In embodiments, a baseline system 13106 of a smart
+container 13026 may include an energy storage and power 40
+distribution system 13112, enclosure 13114, an electro-
+mechanical and/or electro-fluidic system 13116, a transport
+system 13118, a vision and sensing system 13120, and/or a
+structural system 13122. As will be discussed further below,
+the configuration of a baseline system of a smart container 45
+13026 depends on the types of freight storage and/or trans-
+portation services and/or tasks that the smart container
+13026 is configured to perform and/or the type of environ-
+ments that the smart container is intended to operate in. For
+example, smart containers that are configured to operate in 5o r
+deep water conditions may have different baseline systems
+than smart containers that are configured to operate in arctic
+conditions or aerial smart containers.
+In embodiments, a smart container 13026 may further
+include a module system 13102 that allows the smart 55 
+container to be configured with various hardware and/or
+software components.Inthisway,the smart container13026
+may be fitted with different accessories, sensor sets, chipsets,
+motive adaptors, and/or the like depending on the range of
+that the smart container is configured for and/or the envi-
+ronments the smart container is configured to operate in. In
+embodiments, the module system 13102 may include con-
+trol module interfaces 13108 and physical module interfaces
+13110. The control module interfaces 13108 and physical 65
+module interfaces 13110 may refer to mechanical, electrical,
+and/or digital interfaces that receive auxiliary components to
+[col 2]
+532
+configure a smart container 13026 to perform certain tasks.
+In embodiments, the control module interfaces 13108
+receive (or otherwise “connect"to) auxiliary components
+that alter one or more features that relate to control of smart
+container 13026. These may include chipsets (e.g-, AI chip-
+sets, machine-learning chipsets, machine-vision chipsets,
+communications chipsets, and/or the like), sensor modules,
+communication modules, AI modules, security modules,
+computing modules, and/or the like. In embodiments, the
+physical module interfaces 13110 receive (or otherwise
+connect to) auxiliary physical modules that alter the physical
+and/or the physical operation of the smart container.
+Examples of physical modules may include, but are not
+limited to, wheels, robotic arms, sorting systems, packaging
+systems, 3D printers, cranes, lifts, power supplies, and/or the
+like. As will be discussed, a smart container 13026 may be
+reconfigured to perform one or more tasks in completion of
+a freight storage and/or transportation service order. In these
+embodiments, the smart container system 13000 may define
+an order execution plan and a supporting smart container or
+ules to a smart container 13026, such that the smart con-
+tainer 13026 is reconfigured to perform one or more speci-
+fied tasks in the order execution plan.
+Referring back to FIG. 144, individual smart container
+task assemblies 13050 may refer to a collection of one or
+more individual smart containers that are assigned to a
+freight storage and/or transportation service order. The smart
+containers in a smart container task assembly may include
+any combination of smart containers (e.g., a 40-ft smart
+container and a tanker). In some embodiments, an individual
+smart container task assembly 13050 may include a local
+manager that controls or otherwise provides instructions to
+smart containers in the task assembly 13050.In these
+embodiments, the local manager may be a designated super-
+visor smart container, a robot, or a human operator. In
+embodiments, the smart container supervisor may act as an
+edge device on behalf of the task assembly 13050, such that
+the smart container supervisor may be allocated specific
+processing and/or communication capabilities that allow the
+smart container supervisor to communicate with the smart
+container system 13000 or other suitable devices or systems
+and/or to perform data processing operations on behalf of
+the task assembly 13050. In embodiments, a smart container
+fleet is a collection of individual smart containers and/or task
+assemblies that collectively perform a set of tasks in comple-
+tion of a freight storage and/or transportation service order.
+Furthermore, fleets may be arranged as a fleet of task groups,
+regional fleets, and/or a fleet of fleets. In embodiments, a
+smart container fleet may be supported by smart container
+fleet support. In embodiments, examples of smart container
+fleet support may include on premises edge and IoT devices,
+local data storages (and corresponding data interfaces),
+forklifts, cranes, mechanical lifts, reach stackers, mainte-
+nance support, charging stations and devices, replacement
+parts, batteries, accessories, docking stations, spare parts,
+and/or technicians.
+In embodiments, the smart container system 13000 may
+the data processing system 13024 includes a data handling
+service 13032 and a data processing service 13030. The data
+handling service 13032 is configured to store, retrieve, and
+otherwise manage the data of the smart container system
+13000.In embodiments, the data handling service 13032
+accesses a set of data stores 13042 and/or libraries 13044
+whereby the data handling service 13032 writes and reads

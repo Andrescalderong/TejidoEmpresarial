@@ -1,0 +1,135 @@
+[col 1]
+US 12,314,060 B2
+803
+that may automatically calculate demand (demand sensing)
+and stock forecasts based on upstream data (e.g., sales
+forecasts, warehouse data, etc.). This may allow a precise
+view of when to generate purchase orders that cover specific
+product demands and when to process invoice processing for
+the purchase orders. For instance, VCN process 10 may use
+upstream and/or external data to determine there is a risk of
+significant inflation of copper (a component used in semi-
+conductor devices) for a supplier that is currently supplying
+semiconductor devices. In the example, VCN process 10
+may execute a procurement action of proactively generating
+purchase orders for semiconductor devices from the supplier
+prior to an anticipated price hike by the supplier resulting
+from the predicted or actual inflation. In some implementa-
+tions, VCN process 10 may accomplish this by automati- 15
+cally executing (without human interaction) a reordering of
+the semiconductor devices through purchase order genera-
+tion and/or submission, or providing a suggestion on a user
+interface to reorder the semiconductor devices through pur-
+chase order generation and/or submission at the optimal 20
+time, which may be manually executed (e.g., receiving a
+user input to approve the suggested action).
+In some implementations, VCN process 10 may unify
+18023 data associated with warehouse management, inven-
+tory management, order management, analytics to optimize 25
+an omnichannel fulfillment. For instance, assume for
+example purposes only that VCN process 10 has used one or
+more Al-based learning models to determine that there is a
+potential to optimize an omnichannel fulfillment in the value
+chain network based upon received data (e.g., warehouse 30
+management, inventory management, order management,
+and analytics). Generally, dynamic fulfllment considers the
+value of inventory according to the location where it is
+maintained. For example, if a store is in an overstock
+position anticipating mark-downs to move the excess, these 35
+items can be given priority for on-line orders. The net result
+is higher profit and customer satisfaction. Thus, in some
+implementations, VCN process 10 may provide a single
+platform that unifies warehouse management, inventory
+management, order management, analytics, and more for 40 
+full network visibility.
+In some implementations, VCN process 10 may execute
+the procurement action by a value chain network digital
+twin. For example, VCN process 10 may suggest diversi-
+fying suppliers, which means having multiple suppliers for 45 r
+the same product or service. This can help to reduce the risk
+of a disruption from one supplier affecting the entire supply
+chain. Another example suggestion from VCN process 10
+may be building inventory buffers, which means having
+more inventory than is normally needed. This can help to 50
+ensure that there is enough product available to meet
+demand even if there is a disruption or other issues. Another
+example suggestion from VCN process 10 may be identi-
+fying suppliers that use alternative transportation methods,
+which means using different modes of transportation, such 55
+as air freight or rail, if there are disruptions to road or sea
+transportation. Another example suggestion from VCN pro-
+cess 10 may be renegotiating contracts, which means nego-
+tiating with suppliers to change the terms of contracts, such
+as delivery dates or pricing, if there are disruptions or other 60
+risks. Another example suggestion from VCN process 10
+may be using technology, meaning the use of technology to
+track shipments, manage inventory, and communicate with
+suppliers about the potential risk. This can help to improve
+visibility and coordination in the supply chain and make it 65
+easier to respond to disruptions or other risks. Another
+example suggestion from VCN process 10 may be additional
+[col 2]
+804
+innovation, such as flagging/responding in a digital twin
+(e.g., a value chain network digital twin as discussed
+throughout), where the response may involve, e.g., placing
+an order in an embedded marketplace of the digital twin.
+In some implementations, the control tower UI (or other
+type of UI) may be considered as something of a command
+and control center that provides intelligent and automated
+control over operations, enabling more efficient risk man-
+agement to cope with increasing volatility. Example control
+tower UI features may include, e.g.: Dashboards with inter-
+active widgets to provide an at-a-glance view of key per-
+formance indicators (KPIs) such as stock levels, in-transit
+goods, and supplier performance; Notification Panel for
+real-time alerts for any disruptions, pending tasks, or anoma-
+lies in the supply chain; Digital twin with 3D Visualizations,
+such as an interactive three-dimensional representation of
+the entire supply chain, from suppliers to end-users, Layered
+Views, such as a toggle between different aspects of the
+supply chain (e.g., transportation, warehousing) on the digi-
+tal twin to drill down into reduced dimensionality views to
+reveal higher levels of detail, or zoom out to lower dimen-
+sionality views, Simulation Controls for tools to run various
+scenarios and forecasts on the digital twin, like potential
+supply disruptions or demand spikes, Logistics, such as
+allowing users to zoom, pan, or click on specific routes or
+shipments for detailed information, Timeline Views for a
+chronological representation of the supply chain process,
+from order placement to delivery, Heatmaps for a visual
+representation of data densities, such as areas with the
+highest sales or locations of frequent supply disruptions,
+real-time data, such as Live Data Feeds for continuous
+updating of data as it comes in, be it from IoT devices,
+supplier inputs, or point-of-sale systems, a Historical Data
+Toggle to compare real-time data with historical data to
+identify trends or anomalies, a search functionality for
+dynamic searching to allow users to quickly locate specific
+products, shipments, or suppliers, customizable filters to
+refine views based on criteria like date range, product type,
+or transportation mode, an Intelligent chatbot, such as an Al
+Chatbot Interface to allow users to chat with the control
+tower in natural language utterances to obtain information
+cesses, Reporting and Analytics, Custom Report Builder that
+allows users to generate detailed reports based on selected
+data sets, Trend Analysis for graphical tools to identify and
+analyze supply chain trends over time, Predictive Analytics
+to utilize Al algorithms to predict future supply chain
+scenarios based on current and historical data and present
+the results to the user in a visual framework, Summary
+Widgets for quick stats on the total number of shipments,
+those in-transit, delayed, received, dispatched, etc., a Noti-
+fication Panel for real-time alerts for pending shipments,
+potential delays, or any anomalies, Interactive Shipment
+Map for visualizing the real-time location and status of each
+shipment (e.g., which may enable hovering/clicking/touch-
+ing, etc. on shipment icons for detailed information),
+Dynamic Search for quickly locating a specific shipment
+using shipment ID, sender/receiver name, etc., Advanced
+Filters for shipments by status (e.g., in-transit, delivered),
+date range, carrier, destination, etc., Shipment Details for
+comprehensive information about a specific shipment,
+including items, quantity, origin, destination, carrier details,
+and expected vs. actual delivery times, attachments like bill
+of lading, invoice, or any other relevant documents, Carrier

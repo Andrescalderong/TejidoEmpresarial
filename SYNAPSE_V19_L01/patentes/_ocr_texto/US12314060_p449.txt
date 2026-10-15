@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+533
+configure a smart container 13026 to perform certain tasks.
+In embodiments, the control module interfaces 13108
+receive (or otherwise “connect"to) auxiliary components
+that alter one or more features that relate to control of smart
+container 13026. These may include chipsets (e.g-, AI chip-
+sets, machine-learning chipsets, machine-vision chipsets,
+communications chipsets, and/or the like), sensor modules,
+communication modules, AI modules, security modules,
+computing modules, and/or the like. In embodiments, the
+physical module interfaces 13110 receive (or otherwise 10 
+connect to) auxiliary physical modules that alter the physical
+actions that may be taken by the smart container 13026
+and/or the physical operation of the smart container.
+Examples of physical modules may include, but are not
+limited to, wheels, robotic arms, sorting systems, packaging
+15 systems, 3D printers, cranes, lifts, power supplies, and/or the
+like. As will be discussed, a smart container 13026 may be
+reconfigured to perform one or more tasks in completion of
+a freight storage and/or transportation service order. In these
+embodiments, the smart container system 13000 may define 20
+an order execution plan and a supporting smart container or
+ules to a smart container 13026, such that the smart con-
+tainer 13026 is reconfigured to perform one or more speci-
+fied tasks in the order execution plan. 25
+Referring back to FIG. 144, individual smart container
+task assemblies 13050 may refer to a collection of one or
+more individual smart containers that are assigned to a
+freight storage and/or transportation service order. The smart
+containers in a smart container task assembly may include 3o r
+any combination of smart containers (e.g., a 4o-ft smart
+container and a tanker). In some embodiments, an individual
+smart container task assembly 13050 may include a local
+manager that controls or otherwise provides instructions to
+smart containers in the task assembly 13050.In these 35 s
+embodiments, the local manager may be a designated super-
+visor smart container, a robot, or a human operator. In
+embodiments, the smart container supervisor may act as an
+edge device on behalf of the task assembly 13050, such that
+the smart container supervisor may be allocated specific 4o
+processing and/or communication capabilities that allow the
+smart container supervisor to communicate with the smart
+container system 13000 or other suitable devices or systems
+and/or to perform data processing operations on behalf of
+the task assembly 13050. In embodiments, a smart container 45
+fleet is a collection of individual smart containers and/or task
+assemblies that collectively perform a set of tasks in comple-
+tion of a freight storage and/or transportation service order.
+Furthermore, fleets may be arranged as a fleet of task groups,
+regional fleets, and/or a fleet of fleets. In embodiments, a 50
+fleet support. In embodiments, examples of smart container
+fleet support may include on premises edge and IoT devices,
+local data storages (and corresponding data interfaces),
+forklifts, cranes, mechanical lifts, reach stackers, mainte- 55
+nance support, charging stations and devices, replacement
+parts, batteries, accessories, docking stations, spare parts,
+and/or technicians.
+In embodiments, the smart container system 13000 may
+include a data processing system 13024. In embodiments, 60
+the data processing system 13024 includes a data handling
+service 13032 and a data processing service 13030. The data
+handling service 13032 is configured to store,retrieve, and
+otherwise manage the data of the smart container system
+13000. In embodiments, the data handling service 13032
+accesses a set of data stores 13042 and/or libraries 13044,
+whereby the data handling service 13032 writes and reads
+[col 2]
+534
+data from the data stores 13042 and/or libraries 13044 on
+behalf of other components of the smart container system
+13000 and/or the smart container operating units 13040. In
+embodiments, the data processing service 13030 performs
+data processing operations on behalf of other components of
+the smart container system 13000 and/orthe smart container
+operating units 13040. For example, the data processing
+service 13030 may perform database operations (e.g., table
+joins, retrieves, etc.), data fusion operations, and the like. In
+embodiments, the data processing system may include dis-
+tributed resources, centralized resources, and/or "on-chip"
+resources.
+As shown in FIG. 146, an intelligence service 13004 is
+adapted to provide intelligence services to the smart inter-
+modal container system 13000 and/or other intelligence
+service clients. In some embodiments, the intelligence ser-
+vice 13004 framework may be at least partially replicated in
+the smart intermodal container system 13000, smart con-
+tainers, VCN control towers, various VCN entities, and/or
+other intel. In these embodiments,the smart intermodal
+container system 13000 may include some or all of the
+capabilities of the intelligence service 13004, whereby the
+intelligence service 13004 is adapted for the specific func-
+tions performed by the subsystems of the intelligence client.
+Additionally, or alternatively, in some embodiments, the
+intelligence service 13004 may be implemented as a set of
+microservices, such that different intelligence service clients
+may leverage the intelligence service 13004 via one or more
+APIs exposed to the intelligence clients. In these embodi-
+ments, the intelligence service 13004 may be configured to
+adapted for different intelligence service clients. In either of
+these configurations, an intelligence service client 13324
+may provide an intelligence request to the intelligence
+service 13004, whereby the request is to perform a specific
+intelligence task (e.g-, a detection/identification, a decision,
+a recommendation, a report, an instruction, a classification,
+a prediction, an optimization, a control action, a configura-
+tion action, an automation, a training action, an NLP request,
+or the like).In response, the intelligence service 13004
+executes the requested intelligence task and returns a
+response to the intelligence service client 13324. Addition-
+ally, or alternatively, in some embodiments, the intelligence
+service 13004 may be implemented using one or more
+specialized chips that are configured to provide AI assisted
+microservices such as image processing, diagnostics, loca-
+tion and orientation, chemical analysis, data processing, and
+so forth. For example, a smart container having an AI chipset
+may be configured to implement the intelligence service
+13004 to provide navigation instructions, container security
+(e.g., biometric access), environmental monitoring, generate
+insights related to container and/or cargo weight, generate
+insights related to container capacity, generate insights
+related to the container's structural integrity, generate
+insights related to cargo damage, predict regulatory issues
+(e.g-, customs), detect illegal and/or dangerous cargo, pro-
+vide autonomous control, or the like.
+It is further noted that in some scenarios, artificial intel-
+ligence modules 13404 themselves may also be intelligence
+service clients. For example, a rules-based intelligence mod-
+ule 13428 may request an intelligence task from a machine
+learning module 13412 or a neural network module 13414,
+such as requesting a classification of an object appearing in
+a video and/or a motion of the object. In this example, the
+65 rules-based intelligence module 13428 may be an intelli-
+gence service client 13324 that uses the classification to
+determine whether to take a specified action. In another

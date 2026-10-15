@@ -1,0 +1,139 @@
+ommendation generation, digital twin creation and/or other 60 other characteristic (e.g-, as previously observed from pre-
+[col 1]
+US 12,567,082 B2
+423
+digital twins 11502 available to the digital twin system 214.
+For example, the processing system 11306 may adjust one or
+more optical parameters of the liquid lens twin 11508. In
+embodiments, the artificial intelligent system 11326 may, for
+each set of parameters, execute a simulation based on the set
+of parameters and may collect the simulation outcome data
+resulting from the simulation. For example, the artificial
+intelligent system 11326 may execute simulations by vary-
+ing the optical parameters of the liquid lens twin 11506 to
+generate simulation outcomes in the form of object concept 10
+twin 11518. During the simulation, the processing system
+11306 may vary the focal length, fluid materials, specularity,
+color, environment, lens shape and any other parameters of
+the liquid lens twin 11506. The outcome data from such
+simulations in the form of object concept twins 11518 in 15
+addition to other sensor data as well as data from other
+sources may then be used to train the machine learning
+models 11520 by the machine learning system 11324.
+In embodiments, the machine learning models 11520 may
+process the data received from sensors, including the event 20
+data and the state data to define simulation data for use by
+the digital twin system 11320. The machine learning models
+11520 may, for example, receive state data and event data
+related to a particular component of the dynamic vision
+system 11300 and perform a series of operations on the state 25
+data and the event data to format the state data and the event
+data into a format suitable for use by the digital twin system
+11320. For example, machine learning models 11520 may
+collect data from one or more sensors positioned on, near, in,
+and/or around the liquid lens to process the sensor data into
+30
+simulation data and output the simulation data to the digital
+twin system 11320. The digital twin system 11320 may then
+use the simulation data to create the liquid lens twin 11506.
+the simulation including for example metrics including
+shape, material,focal length, specularity, environment, 35
+lighting, color, temperature, pressure, wear and vibration.
+The simulation may be a substantially real-time simulation,
+allowing for a user of the dynamic vision system 11300 to
+view the simulation of the liquid lens, metrics related
+thereto, and metrics related to parts thereof, in substantially 4o
+real time. The simulation may be a predictive or hypothetical
+situation, allowing for a user of the dynamic vision system
+11300 to view a predictive or hypothetical simulation of the
+liquid lens, metrics related thereto, and metrics related to
+components thereof. 45
+In embodiments, the machine learning models 11520 and
+the digital twin system 11320 may process sensor data and
+create a digital twin for a set of components to facilitate
+real-time simulation, predictive simulation, and/or hypo-
+thetical simulation of a related group of components. 50
+The machine learning models 11520 may be algorithms
+and/or statistical models that performs specific tasks without
+using explicit instructions, relying instead on patterns and
+inference. The machine learning models 11520 may build
+one or more mathematical models based on training data to 55
+make predictions and/or decisions without being explicitly
+programmed to perform the specific tasks. In example
+implementations, machine learning models may perform
+classification, regression, clustering, anomaly detection, rec-
+tasks.
+In embodiments, the machine learning models 11520 may
+perform various types of classification based on the input
+data. Classification is a predictive modeling problem where
+a class label is predicted for a given example of input data. 65
+For example, the machine learning models 11520 can per-
+form binary classification, multi-class or multi-label classi-
+[col 2]
+424
+fication. In embodiments, the machine-learning model may
+output “confidence scores" that are indicative of a respective
+confidence associated with classification of the input into the
+respective class. In embodiments, the confidence scores can
+be compared to one or more thresholds to render a discrete
+categorical prediction. In embodiments, a certain number of
+classes (e.g., one) with the relatively largest confidence
+scores can be selected to render a discrete categorical
+prediction.
+In embodiments, the machine learning models 11520 may
+output a probabilistic classification. For example, the
+machine learning models 11520 may predict, given a sample
+input, a probability distribution over a set of classes. Thus,
+rather than outputting only the most likely class to which the
+sample input should belong, the machine learning models
+11520 can output, for each class, a probability that the
+sample input belongs to such class. In embodiments, the
+probability distribution over all possible classes can sum to
+one. In embodiments, a Softmax function, or other type of
+function or layer can be used to turn a set of real values
+respectively associated with the possible classes to a set of
+real values in the range (0, 1) that sum to one. In embodi-
+ments, the probabilities provided by the probability distri-
+bution can be compared to one or more thresholds to render
+a discrete categorical prediction. In embodiments, only a
+certain number of classes (e.g., one) with the relatively
+largest predicted probability can be selected to render a
+discrete categorical prediction.
+In embodiments, the machine learning models 11520 may
+perform regression modeling and related processes to pro-
+vide output data in the form of a continuous numeric value.
+As examples, the machine learning models 11520 may
+perform linear regression, polynomial regression, logistic
+regression, nonlinear regression, or some other modeling
+process. As described, in embodiments, a Softmax function
+or other function or layer can be used to squash a set of real
+values respectively associated with a two or more possible
+classes to a set of real values in the range (0, 1) that sum to
+one. For example, the machine learning models 11520 can
+perform linear regression, polynomial regression, or nonlin-
+ear regression. As examples, the machine learning models
+11520 can perform simple regression or multiple regression.
+As described above, in some implementations, a Softmax
+function or other function or layer can be used to squash a
+set of real values respectively associated with a two or more
+possible classes to a set of real values in the range (O, 1) that
+sum to one.
+In embodiments, the machine learning models 11520 may
+perform various types of clustering. For example, the
+machine learning models 11520 may identify one or more
+previously-defined clusters to which the input data most
+likely corresponds. In some implementations in which the
+machine learning models 11520 performs clustering, the
+machine learning models 11520 can be trained using unsu-
+pervised learning techniques.
+In embodiments, the machine learning models 11520 may
+perform anomaly detection or outlier detection. For
+example, the machine learning models 11520 can identify
+input data that does not conform to an expected pattern or
+vious input data). As examples, the anomaly detection can
+be used for fraud detection or system failure detection.
+In some implementations, the machine learning models
+11520 may provide output data in the form of one or more
+recommendations,For example,the machine learning mod-
+els 11520 may be included in a recommendation system or
+engine. As an example, given input data that describes

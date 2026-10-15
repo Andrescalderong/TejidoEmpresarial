@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+297
+CPPNs can include both types of functions and many others.
+Furthermore, CPPNs may be applied across the entire space
+of possible inputs, so that they can represent a complete
+image. Since they are compositions of functions, CPPNs in
+effect encode images at infinite resolution and can be
+sampled for a particular display at whatever resolution is
+optimal.
+This type of network can add new patterns without
+re-training. In embodiments, methods and systems described
+herein that involve an expert system or self-organization
+capability may use a one-shot associative memory network,
+such as by creating a specific memory structure, which
+assigns each new pattern to an orthogonal plane using
+adjacently connected hierarchical arrays. 15
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+network, such as involving the structural and algorithmic
+properties of the neocortex. HTM may use a biomimetic 20 c
+model based on memory-prediction theory. HTM may be
+used to discover and infer the high-level causes of observed
+input patterns and sequences.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 25
+network, which may comprise an analog, correlation-based,
+associative, stimulus-response system. Information may be
+mapped onto the phase orientation ofcomplex numbers. The
+memory is effective for associative memory tasks, general-
+ization and pattern recognition with changeable attention.
+Intelligence System
+FIG. 104 illustrates an example intelligence services
+system 8800 (also referred to as "intelligence services")
+according to some embodiments of the present disclosure. In
+embodiments, the intelligence services 8800 provides a
+framework for providing intelligence services to one or
+more intelligence service clients 8836. In some embodi-
+ments, the intelligence services 8800 framework may be
+40
+adapted to be at least partially replicated in respective
+intelligence clients 8836 (e.g., VCN control towers and/or
+various VCN entities). In these embodiments, an individual
+client 8836 may include some or all of the capabilities of the
+intelligence services 8800, whereby the intelligence services 45
+8800 is adapted for the specific functions performed by the
+subsystems of the intelligence client. Additionally or alter-
+natively, in some embodiments, the intelligence services
+8800 may be implemented as a set of microservices, such
+that different intelligence clients 8836 may leverage the 50
+intelligence services 8800 via one or more APIs exposed to
+the intelligence clients. In these embodiments, the intelli-
+gence services 8800 may be configured to perform various
+types of intelligence services that may be adapted for
+different intelligence clients 8836. In either of these con- 55
+figurations, an intelligence service client 8836 may provide
+an intelligence request to the intelligence services 8800,
+whereby the request is to perform a specific intelligence task
+(e.g., a decision, a recommendation, a report, an instruction,
+a classification, a prediction, a training action, an NLP 60
+request, or the like). In response, the intelligence services
+8800 executes the requested intelligence task and returns a
+response to the intelligence service client 8836. Additionally
+or alternatively, in some embodiments, the intelligence
+services 8800 may be implemented using one or more 65
+specialized chips that are configured to provide AI assisted
+microservices such as image processing, diagnostics, loca-
+[col 2]
+298
+tion and orientation, chemical analysis, data processing, and
+so forth. Examples of AI-enabled chips are discussed else-
+where in the disclosure.
+In embodiments, an intelligence services 8800 may
+include an intelligence service controller 8802 and artificial
+intelligence (AI) modules 8804. In embodiments, an artifi-
+cial intelligence services 8800 receives an intelligence
+request from an intelligence service client 8836 and any
+required data to process the request from the intelligence
+service client 8836. In response to the request and the
+specific data, one or more implicated artificial intelligence
+modules 8804 perform the intelligence task and output an
+"intelligence response". Examples of intelligence modules
+8804 responses may include a decision (e.g., a control
+instruction, a proposed action, machine-generated text, and/
+or the like), a prediction (e.g., a predicted meaning of a text
+snippet, a predicted outcome associated with a proposed
+action, a predicted fault condition, and/or the like), a clas-
+sification (e.g-, a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con-
+dition based on sensor data, and/or the like), and/or other
+suitable outputs of an artificial intelligence system.
+In embodiments, artificial intelligence modules 8804 may
+include an ML module 8812, a rules-based module 8828, an
+analytics module 8818, an RPA module 8816, a digital twin
+module 8820, a machine vision module 8822, an NLP
+module 8824, and/or a neural network module 8814. It is
+appreciated that the foregoing are non-limiting examples of
+artificial intelligence modules, and that some of the modules
+30 may be included or leveraged by other artificial intelligence
+modules. For example, the NLP module 8824 and the
+machine vision module 8822 may leverage different neural
+networks that are part of the neural network module 8814 in
+performance of their respective functions.
+It is further noted that in some scenarios, artificial intel-
+ligence modules 8804 themselves may also be intelligence
+clients 8836. For example, a rules-based intelligence module
+8828 may request an intelligence task from an ML module
+8812 or a neural network F41 module 8814, such as request-
+ing a classification of an object appearing in a video and/or
+a motion of the object. In this example, the rules-based
+intelligence module 8828 may be an intelligence service
+client 8836 that uses the classification to determine whether
+to take a specified action. In another example, a machine
+vision module 8822 may request a digital twin of a specified
+environment from a digital twin module 8820, such that the
+ML module 8812 may request specific data from the digital
+twin as features to train a machine-learned model that is
+trained for a specific environment.
+In embodiments, an intelligence task may require specific
+types of data to respond to the request. For example, a
+machine vision task requires one or more images (and
+potentially other data) to classify objects appearing in an
+image or set of images, to determine features within the set
+of images (such as locations of items, presence of faces,
+symbols or instructions, expressions, parameters of motion,
+changes in status, and many others), and the like. In another
+example, an NLP task requires audio of speech and/or text
+data (and potentially other data) to determine a meaning or
+other element of the speech and/or text. In yet another
+example, an Al-based control task (e.g-, a decision on
+movement of a robot) may require environment data (e.g..
+maps, coordinates of known obstacles, images, and/or the
+like) and/or a motion plan to make a decision as to how to
+control the motion of a robot. In a platform-level example,
+an analytics-based reporting task may require data from a
+number of different databases to generate a report. Thus, in

@@ -1,0 +1,137 @@
+adhesive in the powder. After the first cross-sectional portion 55 hyperspectral imaging, sound sensor and air quality sensor.
+[col 1]
+US 12,314,060 B2
+359
+thereby allowing for switching and/or simultaneous work on
+different target locations and/or different material types.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute stereo-lithography (SLA)
+processes. The process may employ a resin, such as from a
+vat of liquid ultraviolet curable photopolymer material, and
+an ultraviolet laser to build layers one at a time. For each
+layer, the laser beam traces a cross-section of the part pattern
+on the surface of the liquid resin. Exposure to the ultraviolet
+laser light cures and solidifies the pattern traced on the resin 10
+and joins it to the layer below. In embodiments, the SLA
+process may involve multiple UV lasers, allowing for
+switching and/or simultaneous work on different target
+locations and/or different material types.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute digital light processing (DLP)
+methods. Digital light processing uses a projector to project
+an image of a cross-section of an object into a vat of
+photopolymer (light reactive plastic). The light selectively
+hardens only the area specified in that image. A printed layer 20
+is then repositioned to leave room for unhardened photopo-
+lymer to fill the newly created space between the print and
+the projector. Repeating this process builds up the object one
+layer at a time. In embodiments, multiple DLP sources
+deliver light to different locations, allowing for switching 25
+and/or simultaneous work on different target locations
+within the light reactive plastic material.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute light polymerization methods.
+In this process, drops ofa liquid plastic are exposed to alaser 30
+beam of ultraviolet light. During this exposure, light con-
+verts the liquid into a solid. Light polymerization may
+employ a technique where a rising or falling layer of
+light-sensitive polymer is subjected to the type of light
+which causes it to harden in changing areas over time as it 35
+rises or falls and/or a technique where a moving (e.g., laser)
+light source is targeted to different locations where liquid
+polymer/plastic material is positioned. This causes these
+areas of the polymer to harden, and once the desired shape
+is created, the remaining liquid polymer that did not harden 40
+is removed, leaving the finished product. Light polymeriza-
+tion is useful because of how fast the final product completes
+with some types working up to a hundred times faster, or
+more, than other 3D printing methods for some designs.
+In embodiments, the additive manufacturing unit 10102 45
+may involve the use of an inkjet type printhead to deliver a
+liquid or colloidal binder material to layers of a powdered
+build material. The printing technique may involve applying
+a layer of a powdered build material to a surface, such as
+using a roller. After the build material is applied to the 50 c
+surface, the printhead delivers the liquid binder to predeter-
+mined areas of the layer of material. The binder infiltrates
+the material and reacts with the powder, causing the layer to
+ solidify in the printed areas by, for example, activating an
+is formed, the steps are repeated, and successive cross-
+sectional portions are fabricated until the final product is
+formed.
+In embodiments, the methods performed by the additive
+manufacturing unit 10102 may involve deposition of suc- 60
+cessive layers of a build material on a rotary build table and
+deposition of a liquid in a predetermined pattern on each
+successive layer of the build material to form a 3D object.
+In embodiments, the additive manufacturing unit 10102
+may incorporate multiple types of additive manufacturing 65
+capabilities among those described herein or understood by
+those of ordinary skill in the art, thereby forming a hybrid
+[col 2]
+360
+additive manufacturing unit. In embodiments, hybrid addi-
+tive manufacturing units may further integrate other manu-
+facturing capabilities, such as subtractive techniques, assem-
+bly systems, handling systems, finishing systems, and the
+like. In embodiments, a hybrid additive manufacturing unit
+may integrate inject delivery of a colloidal binder material
+with a liquid polymerization technique.
+In embodiments, the platform 10110 may provide 3D
+printed products that conform to a body part/anatomy of the
+user including wearables like eyewear, footwear, earwear
+and headgear. Conformance may, in embodiments, be based
+on a scan of a body part or anatomical feature, such as a laser
+or other structured light scan, a MRI, EEG, computed
+tomography, ultrasound or other imaging scan, or the like. A
+15 3D topology for the anatomical feature may be used as an
+input source for generation by a CAD system or other design
+system (which may be linked to or integrated into an
+additive manufacturing platform) of a design for additive
+manufacturing. The design may be configured to produce an
+anatomy-compatible item that conforms well to anatomy
+(such as a hearable unit that fits the inner ear, headgear that
+fits the head, a brace that fits a joint, or the like) and/or an
+item that is intended to replace a part of the anatomy, such
+as a prosthetic.
+In embodiments, the platform 10110 has the capability to
+self-start and self-power.
+In embodiments, the platform 10110 has a built-in recy-
+returned to the production process and support materials and
+excess powders may be returned to the production process.
+FIG. 115 is a schematic illustrating an example imple-
+mentation of the autonomous additive manufacturing plat-
+form for automating and optimizing the digital production
+workflow for additive manufacturing (e.g., metal manufac-
+turing) according to some embodiments of the present
+disclosure.
+The autonomous additive manufacturing platform 10110
+includes a data collection and management system 10202, a
+data storage system 10204 and a data processing system
+10206. Manufacturing workflow management applications
+10208 manage the various workflows, events and applica-
+tions related to printing and supply chain including moni-
+toring, inventory aggregation, queue management, storage
+management, production reporting, production analysis and
+so on.
+The data collection and management system 10202 col-
+lects and organizes data collected from various data sources
+including real time data collected from a set of sensors.
+Some examples of sensors providing data as input to the data
+collection and management system 10202 include a power
+and energy sensor, mass sensor, location sensor, temperature
+sensor, humidity sensor, pressure sensor, viscosity sensor,
+flow sensor, chemical/gas sensor, strain gauge to measure,
+image capture/camera, video capture, thermal imaging,
+The data storage system 10204 may store a wide range of
+data types using various storage media, data architecture and
+formats including but not limited to: entity or asset data
+(such as part profile, product profile, printer profile), state
+data (such as indicating a state, condition status, or other
+indicator with respect to any asset, entity, application, com-
+ponents or elements of the platform 10110), user data
+(including identity data, role data, task data, workflow data,
+health data, performance data, quality data and many other
+types), event data (such as with respect to any of a wide
+range of events, including operational data, transactional
+data, workflow data, maintenance data, and many other

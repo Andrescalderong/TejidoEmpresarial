@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+557
+"confidence scores" that are indicative of a respective con-
+fidence associated with classification of the input into the
+respective class. In embodiments, the confidence scores can
+be compared to one or more thresholds to render a discrete
+categorical prediction. In embodiments, only a certain num-
+ber of classes (e.g., one) with the relatively largest confi-
+dence scores can be selected to render a discrete categorical
+prediction.
+In embodiments, machine learning models 12664 may
+10 output a probabilistic classification. For example, machine
+learning models may predict, given a sample input, a prob-
+ability distribution over a set of classes. Thus, rather than
+outputting only the most likely class to which the sample
+input should belong, machine learning models can output,
+for each class, a probability that the sample input belongs to
+such class. In embodiments, the probability distribution over
+all possible classes can sum to one. In embodiments, a
+Softmax function, or other type of function or layer can be
+used to turn a set of real values respectively associated with
+the possible classes to a set of real values in the range (O, 1)
+that sum to one. In embodiments, the probabilities provided
+by the probability distribution can be compared to one or
+more thresholds to render a discrete categorical prediction.
+In embodiments, only a certain number of classes (e.g., one) 25
+with the relatively largest predicted probability can be
+selected to render a discrete categorical prediction.
+In embodiments, machine learning models 12664 can
+perform regression to provide output data in the form of a
+continuous numeric value. As examples, machine learning
+models can perform linear regression, polynomial regres-
+sion, or nonlinear regression. As described, in embodiments,
+a Softmax function or other function or layer can be used to
+squash a set of real values respectively associated with a two
+or more possible classes to a set of real values in the range
+(0, 1) that sum to one. For example, machine learning
+models 12664 can perform linear regression, polynomial
+regression, or nonlinear regression. As examples, machine
+learning models 12664 can perform simple regression or
+40
+multiple regression. As described above, in some implemen-
+tations, a Softmax function or other function or layer can be
+used to squash a set of real values respectively associated
+with a two or more possible classes to a set of real values in
+the range (o, 1) that sum to one. 45
+In embodiments, machine learning models 12664 may
+perform various types of clustering. For example, machine
+defined clusters to which the input data most likely corre-
+sponds. In some implementations in which machine learning 50
+models performs clustering, machine learning models can be
+trained using unsupervised learning techniques.
+In embodiments, machine learning models 12664 may
+perform anomaly detection or outlier detection. For
+example, machine learning models can identify input data 55
+that does not conform to an expected pattern or other
+characteristic (e.g., as previously observed from previous
+input data). As examples, the anomaly detection can be used
+for fraud detection or system failure detection.
+In some implementations, machine learning models 60
+12664 can provide output data in the form of one or more
+recommendations. For example, machine learning models
+12664 can be included in a recommendation system or
+engine. As an example, given input data that describes
+previous outcomes for certain entities (e.g., a score, ranking, 65
+or rating indicative of an amount of success or enjoyment),
+machine learning models can output a suggestion or recom-
+[col 2]
+558
+mendation of one or more additional entities that, based on
+the previous outcomes, are expected to have a desired
+outcome
+As described above, machine learning models 12664 can
+be or include one or more of various different types of
+machine-learned models. Examples of such different types
+of machine-learned models are provided below for illustra-
+tion. One or more of the example models described below
+can be used (e.g-, combined) to provide the output data in
+response to the input data. Additional models beyond the
+example models provided below can be used as well.
+In some implementations, machine learning models
+12664 can be or include one or more classifier models such
+as, for example, linear classification models; quadratic clas-
+sification models; etc. Machine learning models 12664 may
+be or include one or more regression models such as, for
+example, simple linear regression models; multiple linear
+regression models; logistic regression models; stepwise
+regression models; multivariate adaptive regression splines;
+I 20 locally estimated scatterplot smoothing models; etc.
+In some examples, machine learning models 12664 can be
+or include one or more decision tree-based models such as,
+for example, classification and/or regression trees; chi-
+squared automatic interaction detection decision trees; deci-
+sion stumps; conditional decision trees; etc.
+Machine learning models 12664 may be or include one or
+more kernel machines. In some implementations, machine
+learning models 12664 can be or include one or more
+support vector machines. Machine learning models 12664
+may be or include one or more instance-based learning
+models such as, for example, learning vector quantization
+models; self-organizing map models; locally weighted
+learning models; etc. In some implementations, machine
+learning models can be or include one or more nearest
+neighbor models such as, for example, k-nearest neighbor
+classifications models; k-nearest neighbors regression mod-
+els; etc. Machine learning models 12664 can be or include
+one or more Bayesian models such as, for example, naive
+Bayes models; Gaussian naive Bayes models; multinomial
+naive Bayes models; averaged one-dependence estimators;
+Bayesian networks; Bayesian belief networks; hidden
+Markov models; etc.
+In some implementations,machine learning models
+12664 can be or may include one or more artificial neural
+networks (also referred to simply as neural networks). A
+neural network can include a group of connected nodes,
+which also can be referred to as neurons or perceptrons. A
+neural network can be organized into one or more layers.
+Neural networks that include multiple layers can be referred
+to as *deep" networks. A deep network can include an input
+layer, an output layer, and one or more hidden layers
+positioned between the input layer and the output layer. The
+nodes of the neural network can be connected or non-fully
+connected.
+Machine learning models 12664 can be or include one or
+more feed forward neural networks. In feed forward net-
+works, the connections between nodes do not form a cycle.
+For example, each connection can connect a node from an
+earlier layer to a node from a later layer.
+In some instances, machine learning models 12664 can be
+or include one or more recurrent neural networks. In some
+instances, at least some of the nodes of a recurrent neural
+network can form a cycle.Recurrent neural networks can be
+especially useful for processing input data that is sequential
+in nature. In particular, in some instances, a recurrent neural
+network can pass or retain information from a previous
+portion of the input data sequence to a subsequent portion of

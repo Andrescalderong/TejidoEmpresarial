@@ -1,0 +1,137 @@
+involving the robot operating unit to predict when mainte- 55 job configurations, and the like.
+[col 1]
+US 12,675,781 B2
+505
+may include supervisor robot operating units, human opera-
+tors/observers, maintenance scheduling services, third-party
+ service providers, robot production vendors, and parts pro-
+viders to schedule maintenance. The maintenance manage-
+ment system 12026 may also leverage business rules (e.g-,
+rules established for a team, fleet, by a job requestor,
+determined by a regulatory agency and the like), association
+tables, data sets, databases, and/or maintenance management
+libraries to determine appropriate maintenance workflows,
+ service actions, needed parts and the like. In embodiments, 10
+a maintenance activity may be assigned by the maintenance
+management system to a fleet resource, such as a mainte-
+nance robot, a human technician, a third-party service pro-
+vider and the like.
+In embodiments, robot operating units that are deployed
+may be configured with one or more maintenance protocols
+to perform, among other things self-maintenance, such as
+calibrating end effector operations, adjusting tensioning
+structures to maintain a high degree of mobility, and the like.
+Self-maintenance may include, without limitation, reduction 20
+in capabilities responsive to detection of a compromised
+robot operating unit feature, such as a rotating mechanism
+that no longer rotates continuously through 360 degrees. A
+deployed robot operating unit may determine that a capa-
+bility is compromised and, optionally with support of the 25
+maintenance management system 12026, may swap assign-
+ments with another robot so that the compromised capability
+can be resolved when time permits rather than causing a
+delay in completion of a task. Also, robot operating unit
+intelligence (e.g., on-robot AI and the like) may predict a
+301
+compromise in robot capabilities based on, for example
+time-to-failure data for the robot capability. If the time of
+this predicted compromise lands within a target task perfor-
+mance timeframe, the robot operating unit may call for
+pre-emptive maintenance to be performed while the robot 35
+operating unit is in transit to a job site. The maintenance
+management system 12026 may process this call for main-
+tenance and coordinate maintenance resources to be avail-
+able during transit, and/or at a job site when the robot
+operating unit is expected to arrive. 40
+In embodiments, the maintenance management system
+12026 may leverage the intelligence services of an intelli-
+gence layer 12200 (e.g., the platform 12000 level intelli-
+gence layer 12004) to predict when maintenance may be
+performed for robot operating units and/or components 45 c
+thereof.In some of these embodiments,the maintenance
+management system 12026 may request a digital twin of a
+robot operating unit from the intelligence layer 12200. In
+these embodiments, the digital twin may reflect a current
+operating unit digital twin may be analyzed to determine
+whether maintenance is required for the robot operating unit.
+Additionally or alternatively, the digital twin service of the
+intelligence layer 12200 may run one or more simulations
+nance may be required. In some of these embodiments,
+outputs of the digital twin of the robot operating unit may be
+analyzed (e.g., using a machine-learned prediction model or
+a neural network) to predict if/when maintenance may be
+required.
+In embodiments, the fleet operations system 12002
+includes a job configuration system 12018. In embodiments,
+a job configuration system receives job requests, such as
+from customers that request a job. In embodiments, a job
+request may indicate a set of job request parameters. Non- 65
+limiting examples of job request parameters may include:
+types of projects and tasks (e.g., inspection tasks, packaging
+[col 2]
+506
+tasks, unloading tasks, loading tasks, shipping tasks, assem-
+bling tasks, monitoring tasks, digging tasks, construction
+tasks, delivery tasks, or the like), budget, timeline, environ-
+ment description (e.g., indoors/outdoors, size of the envi-
+ronment, communication capabilities of the environment,
+layouts/blueprint/digital twin of the environment, or the
+like), location (e.g., region, address, coordinates, or the like),
+and any other suitable parameters. In embodiments, the job
+request parameters which may be indicative of what types of
+robot operating units are needed and/or functionalities
+thereof. These and other job request details are described
+elsewhere herein.
+In embodiments, the job configuration system 12018 may
+utilize a job request to define a job configuration as a set of
+projects that are to be completed in performance of a job,
+which may be ordered in a job-level workflow. For each
+project, the job configuration system 12018 may define a
+workflow that defines a set of tasks that are done in comple-
+tion of a project. In determining the job configuration, the
+job configuration system 12018 may determine the projects,
+workflows, and tasks using a combination of techniques and
+resources including: (i) artificial intelligence techniques to
+define the projects, workflows, and/or tasks; (i) libraries that
+can define default configurations of different types of jobs
+and/or projects; (i) robotic process automation; (iv) intel-
+ligence services (e.g., deep learning); and (v) quantum
+optimization.
+In embodiments, quantum optimization may be enabled
+by a quantum optimization system 12008 that may optimize
+task assignment across fleet resources, such as robot oper-
+ating units and the like. A quantum optimization system
+12008 may further optimize routing (logical, physical, and
+electronic) associated with robot fleets, jobs, team, commu-
+nications, logistics and the like. Additionally or alterna-
+tively, in some embodiments a quantum optimization system
+12008 may be employed to optimize combinations of
+robotic resource with other resources across a variety of fleet
+functions including workforce diversity, energy consump-
+tion, computational capacity and utilization, infrastructure
+ment, computing storage capacity, and the like.
+In embodiments, a job configuration system 12018 and
+other fleet resources (e.g., fleet configuration, platform intel-
+ligence, robot operation and the like) may benefit from use
+of deep learning techniques for task, workflow, and job
+execution plan optimization as well as for learning, among
+other things, from failures. In these embodiments, the job
+configuration system 12018 may request deep learning ser-
+vices from the platform 12000-level intelligence layer
+12004, which leverages neural networks and/or other
+machine-learned models to determine job configurations
+based on a set of features, including features extracted from
+a job request. In these embodiments, the artificial intelli-
+gence services may be configured to learn task workflows,
+In embodiments, job configuration, fleet configuration
+(which may include robot configuration), and/or as job
+execution may further enhance fleet functions, performance,
+and outcomes through use of local context-adaptive task
+assignment, execution, resource routing and the like. This
+adaptive capability may be further enabled through peer-to-
+peer based communication (e.g., robot operating units
+within a team) that reveals context of job activities rapidly
+and efficiently.
+In embodiments, artificial intelligence for automation of
+multi-purpose robot task assignment and execution (e.g.
+robotic process automation through learning) may function

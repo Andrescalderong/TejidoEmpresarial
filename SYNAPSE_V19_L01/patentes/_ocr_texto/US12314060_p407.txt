@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+449
+tion. As an example of job request context-based commu-
+nication adaptation, a job may initiate at sea level, and then
+include actions by subterranean teams and high-altitude
+teams. Communication resources suitable for use in these
+different task environments that are configured by the fleet
+configuration system during job configuration activities may
+be adaptively controlled by the communication management
+system 12010 for the respective teams of robots as a job
+progresses through the exemplary environments.
+tion. Alternatively, circumstances of the job request may
+favor isolated operation (e.g., operation within a foreign
+jurisdiction and the like). Communication resources for the
+requested job may be adapted accordingly. As an example,
+communication among a team of fleet resources assigned to 15
+co-locate when performing a job may be configured by the
+fleet configuration system with additional encryption or with
+a radio frequency that defies conventional detection that the
+communication management system may facilitate activat-
+ing when required by the job request (e.g-, as noted above 20
+when the team enters a foreign jurisdiction). Further, com-
+munication outside of the team may be limited by the
+communication system to certain locales, such as only when
+the entire team is located outside of a high-risk zone or other
+designation (e.g, within a building or the like). In this 25
+example, a courier robot may be configured to travel from
+the co-location job site to a safe external communication site
+to exchange information with a remote fleet management
+facility or the like and upon return to the co-location site,
+may use only communication processes and systems autho- 3o
+rized for that location. This non-limiting example describes
+a representative extent of diversity of communication capa-
+bilities and conditions to be handled by the fleet communi-
+cation management system. Isolated operation may further
+or instead include no inter-robot operating unit communi- 35 s
+cation, such as no wireless communication and the like as a
+condition of meeting job request requirements and/or envi-
+ronmental limitations (e.g., working in remote mountains or
+other isolated environments). In this further embodiment of
+fleet resource configuration, the communication manage-
+ment system 12006 may detect and control communication
+resources (e.g., robot operating unit radio interfaces, com-
+munication infrastructure that is proximal to isolated robot
+operating units and the like) to enforce such a fleet configu-
+ration. Yet further consideration for isolated operation may 45
+include adaptable isolation communication protocols, such
+as permitting only use of low energy near-field communi-
+cation conditionally based on deployment context, such as
+an expected location of team robots, such as when multiple
+robot operating units are expected to be nearby. The com- 50
+munication system 12006 may assist the fleet configuration
+system with fleet configuration, such as configuring robot
+operating units, selection of robot units that meet a job
+request communication requirement, configuration and des-
+ignation of deployment of fleet communication resources 55
+(e.g., co-locating an inter-robot operating unit repeater
+device with the team), and other fleet and robot configura-
+tion considerations. In an example of such fleet configura-
+tion assistance, a job request may indicate a preference to
+use specific robot operating units. The fleet configuration 60
+system may query the communication control system
+regarding adaptation capabilities (e.g., of the fleet commu-
+nication management system and/or certain fleet communi-
+cation resources) to support the preferred robot operating
+units. 65
+In an example of communication management adaptabil-
+[col 2]
+450
+communication configurations, the communication manage-
+ment system 12010 may support a first team of robot
+operating units performing a field operation in using a
+different radio frequency for wireless communication than a
+second team of robot operating units that are performing
+field operations in the same radio signal range as the first
+team of robot operating units; thereby mitigating the likeli-
+hood of cross-radio interference. Further the communication
+management system 12010 may provide for reliable com-
+munication through use of redundancy, such as through dual
+radio systems, automatic channel selection (e.g-, local net-
+working, cellular networking, mesh networking, long range
+satellite networking, and the like). Fleet communication
+resources may include robot operating units acting as net-
+work elements, such as when robot operating units are
+configured into one or more mesh networks and the like.
+Robot operating units may facilitate communication in other
+ways, including visually, such as through use of light
+sources (e.g., Morse code or binary transmissions), physical
+gestures, infrared signals, and the like. Auditory communi-
+cations among robots (e.g., non-human language encoded
+audio signaling), ultrasound and other auditory-based tech-
+niques may be rendered as a form of communication among
+robots. Much like co-located robots on different teams may
+use different radio frequency signals, co-located robots may
+use different auditory signaling to assist in communication
+clarity among team members.
+In embodiments, the communication management system
+12010 may be constructed as a plurality of independent
+communication systems that are configured to meet at least
+a corresponding portion of fleet communication needs. In an
+example, the communication management system 12010
+may be constructed with a first communication system for
+communicating among elements within the fleet operations
+system 12002 (or any other fleet system, system, module,
+team, fleet segment and the like), and with a second com-
+munication system for communication among fleet intelli-
+platform that can be separated from the first communication
+system), so that disruption of any individual communication
+system may be isolated from other platform communication
+systems, thereby reducing impact of communication prob-
+lems throughout the platform 12000. Further in this
+example, the fleet operations system 12002 and its constitu-
+ent elements (e.g., job configuration system 12018, and the
+like) may continue to communicate through the first com-
+munication system and indeed perform all pertinent fleet
+operationfunctions( (including communication with
+remotely deployed fleet robot operating units and the like)
+even though access to fleet intelligence layer elements, such
+as a machine learning system may be compromised due to
+problems with the second communication system serving
+the fleet intelligence layer. Further the communication man-
+agement system 12010 may include security features that
+effect isolation and shunning of platform systems, systems,
+system elements, communication systems and other plat-
+form resources that appear to be compromised due to
+malware or the like. Other independent communication
+systems include robot-to-robot communication systems,
+systems, emergency human-to-robotcommunication
+response communication systems, and the like. Yet further
+independent communication systems may be based on
+aspects, such as confidentiality of information (e.g., nego-
+tiations between a fleet management provider and a job
+requestor), fleet operations oversight and the like. In
+embodiments, the communication management system
+12010 may be constructed to provide role-based (or the like)

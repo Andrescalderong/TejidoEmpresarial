@@ -1,0 +1,139 @@
+[col 1]
+US 12,675,781 B2
+453
+and medical devices, components,parts, equipment and the
+like to support healthcare providers and their patients.
+In embodiments, the platform 10110 may take inputs from
+or related to a healthcare consultation, such as inputs indi-
+cating a needed medical device or part (e.g, technical
+specifications, CAD designs, and the like); inputs indicating
+patient-specific data (e.g., clinical criteria, measurements
+such as sizing, weight, height, girth, circumference, or the
+like); and inputs provided by medical and health service
+providers or other third parties, such as device specifica- 10
+tions, requirements, and the like (e.g-, limitations on device
+size, such as thickness, requirements related to load- or
+stress-bearing minimums, or some other criterion).
+In embodiments, the platform 10110 may process the
+inputs from a plurality of sources including, but not limited
+to, medical records (e.g. patient measurements, material
+allergies, use of other related medical devices, and the like),
+device specification data (e.g., manufacturing specifications
+from the party(ies) holding rights to the device, part or other
+object to be manufactured), patient-input data (e.g-, aesthetic 20
+preferences such as color of the device), healthcare-pro-
+vider-input data (e.g., medical office branding), or some
+other input. An artificial intelligence system (such as a
+robotic process automation system trained on a training set
+25
+recommended action, prototype, device, which in embodi-
+ments may involve production of a device and/or a compo-
+nent of a device. The additive manufacturing platform 10110
+may, in some such embodiments, automatically determine
+(such as using an artificial intelligence system, such as 30
+robotic process automation trained on an expert data set)
+whether a medical device is readily available from a manu-
+facturer (including a device that is currently in stock and/or
+on order) and/or whether an additive manufacturing system
+should produce the device, such as to meet an immediate 35
+patient need, to save costs, or the like. Similarly, the additive
+manufacturing platform may, in some embodiments, using
+similar systems, automatically determine that an element
+should be additively manufactured to facilitate repair, such
+as where a complementary component maybe generated to 40
+replace a worn or absent element of a medical device.
+In an example embodiment, an outpatient may visit an
+orthopedic office for a healthcare consultation relating to a
+knee injury. Given the probability that the patient will
+require some form of external knee support from a medical 45
+device, such as a brace, an attending physician in advance of
+the healthcare consultation may access a user interface,
+dashboard or some other user portal to the additive manu-
+facturing platform to determine the availability of knee
+braces and other medical devices to be manufactured by the 50
+additive manufacturing platform (e.g., to confirm that the
+additive manufacturing platform 10110 has available
+designs, CAD renderings and/or other specifications that
+will enable it to produce the needed medical device). If the
+additive manufacturing platform 10110 has such device 55
+specifications, the attending physician (or other personnel
+associated with the upcoming patient healthcare consulta-
+tion) may place would-be wanted device designs in a queue
+hold, reserve or some other means of recording potential
+interest in their manufacture. By having such recording, 60
+upon meeting with the patient, the attending physician (or
+other personnel associated with the upcoming patient health-
+care consultation) may be able to present device options to
+the patient to select from, using the user interface, dashboard
+or some other user portal to the additive manufacturing 65
+platform. If a needed medical device is not currently asso-
+ciated with the additive manufacturing platform, this may
+[col 2]
+454
+cause the platform to automatically send out a request for
+corresponding device specifications, design and other data
+that are needed to manufacture the device, component or
+part. Once such corresponding device specifications, design
+and other data are located, an alert may be provided back to
+the attending physician (or other personnel associated with
+the upcoming patient healthcare consultation) indicating that
+there are proposed products/devices for review that appear
+to conform with the listed device requirements. As part of
+the review of each available specification, design or other
+data that is needed to manufacture the device, contract terms
+relating to costs, warranty and other considerations may be
+presented for review. Contract terms and contractual rela-
+tionships between users of the additive manufacturing plat-
+I 15 form and third party holders of rights related to device
+manufacturing may be coordinated using smart contracts, as
+described herein. Before, during, or after the patient's
+healthcare consultation, a medical device design may be
+selected and input for manufacture to the additive manufac-
+turing platform. As part of the order, data relating to the
+specific patient may be submitted to the additive manufac-
+turing platform, such as data regarding the circumference of
+the patients lower-leg, knee, and upper-leg that are needed to
+make an appropriately sized brace. Such information may be
+manually input to the additive manufacturing platform or
+may be automatically input to the additive manufacturing
+platform by transfer of data from a data source external to
+the additive manufacturing platform 10110, such as an
+electronic medical record, or some other data source storing
+data that is relevant to the device characteristics. Additional,
+preferential data may also be provided, such as a child
+wanting images of koala bears engraved in the exterior of
+their brace, or a businessperson wanting the brace to be a
+particular color to better match her skin tone and/or business
+suit color, to make the brace less apparent. The user inter-
+face, dashboard or some other user portal to the additive
+manufacturing platform may enable interaction with the
+additive manufacturing platform that allows a user, like a
+patient, to see different prototypes and aesthetic flourishes of
+the to-be manufactured device, prior to submitting a job to
+be built. Upon finalizing the design specifications, the addi-
+tive manufacturing platform 10110 may proceed with pro-
+ducing the device and/or a component or part of the device.
+while the patient's healthcare consultation proceeds, or this
+manufacture may be finalized following the consultation,
+and the device automatically sent to the patient and/or
+healthcare provider based on contact data input to the
+additive manufacturing platform 10110 at the time of plac-
+ing the order.
+In embodiments, the additive manufacturing platform
+10110, such as that associated with a value chain network
+may be prepared, configured, and/or deployed to support
+printing of customized and/or personalized hotel textiles for
+a set of hotel guests. In one example, in connection with an
+upcoming hotel guest visit, the additive manufacturing unit
+10102 may be designated for support, such as a mobile
+additive manufacturing unit 10102 and/or a unit located in
+sufficiently close proximity to the hotel to facilitate rapid
+delivery of items produced by the additive manufacturing
+unit 10102. In embodiments, textiles that may be customized
+and/or personalized may include bedding, sheets, towels,
+robes, pillows, blankets, curtains, furniture, and the like.
+In embodiments, the additive manufacturing unit 10102
+may be equipped with appropriate materials, such as a
+combination of fabrics and other printing materials, that are
+suitable to print a range of possible textiles, or other ele-
+ments to support the hotel visit. In embodiments, fabrics

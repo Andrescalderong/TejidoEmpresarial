@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+385
+lens assembly to train an artificial intelligence system to
+recognize an object. The conformable variable focus liquid
+lens assembly may constantly adjust based on environment
+factors and on feedback from the processing system to
+generate training data that is deeper in context and that
+corresponds to the physical light that the image represents.
+By training the vision system to recognize objects using
+variable optical parameters through the liquid lens assembly,
+the processing system may learn about the most optimum
+optical setting to detect an object. The vastly more dynamic 10 1
+input to the vision system may result in creating a richer
+context and providing superior object recognition.
+In embodiments, the certification system 10654 is con-
+figured to generate workflow and process control documen-
+tation to obtain certificates of conformance from one or
+more Manufacturing Certification Authorities or Standards
+Authorities. In embodiments, the one or more Manufactur-
+ing Certification Authorities or Standards Authorities
+include International Organization for Standardization
+(ISO), European Certification (CE marking) bodies, Under- 20 
+writers Laboratories (UL), Society of Automotive Engineers
+(SAE), Federal Aviation Administration (FAA), TUV SUD,
+DNV GL, AS9100, IAQG 9100, American Society of Test-
+ing and Materials (ASTM), NIST (research, measurement
+science and standards), Fraunhofer Institute (research) and 25 
+Sandia National Labs (research).
+In embodiments, the compliance system 10656 config-
+ured to perform compliance checks on 3D printed parts. In
+embodiments, compliance checking occurs by or with sup-
+port from robotic process automation, such as where a
+30
+compliance model or algorithm is trained by qualified
+experts in certification/compliance with a specific require-
+ment on a training set of compliance review data or the like.
+In embodiments, a set of domain-specific or topic-specific
+models may be trained, such as one for each compliance 35
+domain or topic, such as for compliance with environmental
+standards, material standards, structural standards, chemical
+standards, safety standards, electrical standards, fire-related
+standards, and many others.
+In embodiments,robot/cobot system10658mayinclude 40
+an autonomous robotic system or arm unit integrated with a
+set of additive manufacturing units 10102. For example, the
+additive manufacturing unit 10102 may be contained within
+the housing or body of a robotic system, such as a multi-
+purpose/general purpose robotic system, such as one that 45 
+simulates human or other animal species capabilities. Alter-
+natively, or additionally, the additive manufacturing unit
+10102 may be configured to deliver additive layering from
+a nozzle that is disposed on an operating end of a robotic arm
+or other assembly. 50
+In embodiments, the autonomous additive manufacturing
+platform 10110 may create and manage profiles of different
+distributed manufacturing network entities. For example,
+profiles may include, without limitation: a part or compo-
+nent profile with accompanying part data structures may 55 c
+mation, including name, number, class, type, material(s),
+size, shape, function, performance specifications and the
+like; a batch profile with accompanying batch data structures
+for storing batch-related information including batch num- 60
+ber; batch date, bin number, batch type, location information
+(such as origin), batch inspection data, and the like; a
+machine profile with accompanying machine data structures
+for storing machine related information including identifier,
+name, class, function etc.; a manufacturing node profile with 65
+accompanying manufacturing node data structure for storing
+information related to manufacturing node including iden-
+[col 2]
+386
+tifier, location, order history, production capacity, and pre-
+ing data structures for storing packaging related information;
+a user profile with accompanying user data structures for
+storing user related information; and a behavioral profile
+with accompanying data structures for storing behavioral
+information, among many others. Some examples of users of
+the platform 10110 may include a designer looking to
+generate a design for fabrication; an engineer looking to
+print and manufacture a part; a CFO looking to optimize
+price for production; or a customer looking to get a product
+printed. Users may include role-based users, such as
+described in connection with other use cases referenced
+herein and in the documents incorporated herein by refer-
+ence, such as various users described in connection with
+digital twins, such as executive and other role-based digital
+twins, consumers of automatically generated data stories,
+and many others.
+The metal additive manufacturing platform 10110
+described herein may help in automating and optimizing a
+very wide range of manufacturing and value chain functions.
+Some examples of such functions include process and
+material selection, feedback formulation, design optimiza-
+tion, risk prediction and management, sales and marketing,
+coordination with supply chain and logistics workflows
+(including reverse logistics and returns) for manufactured
+products and/or related items or services (such as parts,
+accessories or the like, among others), maintenance work-
+flows, recycling workflows and customer service. FIG. 119
+is a schematic illustrating an example implementation of the
+platform 10110 for automating and managing manufacturing
+functions and sub-processes including process and material
+selection, hybrid part workflow, feedstock formulation, part
+design optimization, risk prediction and management, mar-
+keting and customer service according to some embodi-
+ments of the present disclosure.
+Process and Material Selection
+The selection and use of one or more processes or
+materials for additive manufacturing may be automated and
+optimized. The platform 10110 may take as input the prod-
+uct requirements in terms of part properties, price, perfor-
+mance characteristics etc. and automatically determine the
+processes or material for building the part. The artificial
+intelligence system 10212 may consume model information
+comprising physical, chemical and/or biological model of
+material behavior, including structural, stress, strain, wear,
+load bearing, response to contamination, chemical interac-
+tion with other materials, interaction with biological ele-
+ments (antibacterial, antiviral, toxicity), etc. The artificial
+intelligence system 10212 may then automate and optimize
+process and material selection, including based on expert
+feedback and/or feedback from trials/outcomes.
+Referring now to FIGS. 115, 116, and 119 an example
+embodiment for automating process and material selection is
+described.
+A part design comprising model information and product
+requirements is presented to the design and simulation
+10i16 where it is evaluated for manufacturing compatibility
+with at least one type of the additive manufacturing unit
+10102 in the manufacturing node 10100. The design and
+simulation 10116 may be assisted by the artificial intelli-
+gence 10212, the simulation management 10514, the printer
+twin 10506 (which in embodiments may be a twin of any
+type of additive manufacturing unit) and the process and
+material selection twin 10702 for performing the optimiza-
+tion. An example analysis includes the use of the printer twin
+10506 in the digital twin system 10214 to simulate and

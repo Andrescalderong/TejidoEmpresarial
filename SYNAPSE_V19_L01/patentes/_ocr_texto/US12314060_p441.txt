@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+517
+map (SOM) neural networks (e.g., Kohonen self-organizing
+neural networks), Autoencoder (AE) neural networks,
+Encoder-Decoder neural networks, modular neural net-
+works, or variations, hybrids or combinations of the fore-
+going, or combinations with reinforcement learning (RL)
+systems or other expert systems, such as rule-based systems,
+model-based systems (including ones based on physical
+models, statistical models, flow-based models, biological
+models, biomimetic models, and the like). Examples of
+neural networks and neural network systems 12662 have 10j
+been described in more details elsewhere in the disclosure
+(e.g., FIGS. 93-107).
+FIG. 141 schematically depicts an example architecture of
+the robot control system 12150 that utilizes data from
+multiple sensors in the vision and sensing system 12112 to
+learn about the environment to implement policies and drive
+control for one or more components of the baseline system
+12102 including energy storage and power distribution
+system 12104, the electromechanical and electro-fluidic
+system 12108, or the transport system 12110 to perform a 20
+task.
+In embodiments, the MPR 12100 may acquire sensor data
+from one or more sensors 12602 and extract *state infor-
+mation" about the position of the MPR 12100 with respect
+to the environment 12604 and one or more objects 12606. 25
+For example, the MPR 12100 may use camera 12608 to
+capture images of objects 12606. An additional vision sensor
+may be mounted at a position different from that of the
+camera 12608 to capture image data from multiple view-
+points. The camera and vision sensors may generate images 3o
+related to shape, color, depth, and/or other features of
+object(s) that are in the line of sight of the sensors. The
+image data may be processed and the machine vision system
+12618 may execute one or more machine learning algo-
+rithms including the CNN variants described above for 35
+object detection. Data from additional sensors (e.g., tactile
+sensor, sound sensor and/or gas sensor) may be combined to
+help build a more accurate model of the world in order for
+the MPR 12100 to navigate and behave more successfully in
+its environment. In embodiments, Kalman filters and data 40
+fusion techniques may be used for combining the data from
+multiple sensors.
+In embodiments, the intelligence layer 12140 may co0r-
+dinate with policy libraries in the task management system
+12144 and controller 12160 to generate the control instruc- 45 
+tions for performing one or more tasks including navigation,
+object grasping, sorting cleaning, loading/unloading, pack-
+aging/unpackaging, assembly, palletizing/depalletizing and
+the like.
+Upon the control system 12150 receiving an input (e.g., 50 c
+from a user or from another robot) indicating one or more
+tasks to be performed, the intelligence layer 12140 may
+select one or more policies from the policy libraries in the
+task management system 12144 to implement. For example,
+upon receiving an instruction to grasp an object placed in the 55
+environment of the MPR 12100, the intelligence layer 12140
+may determine that the MPR 12100 needs to use navigation
+policy for navigating to the location of the object followed
+by grasping policy to grasp the object. The intelligence layer
+12140 may use the sensor data from one or more sensors
+60
+12602 to determine“"state information" describing informa-
+tion extracted from a scene in the environment of the MPR
+12100. The state information may include images or image
+streams from one or more vision sensors, information col-
+lected from other sensors like gas sensor,tactile sensor and 65
+sound sensor. The state information may also include infor-
+mation obtained after analysis of sensor information and
+[col 2]
+518
+may for example, include presence of one or more objects in
+the environment, name and type of the objects, the distance
+and position of the objects on a map including a target object
+to be grasped with respect to the MPR 12100, the material
+properties of the target object and the like.
+In embodiments, the intelligence layer 12140 may then
+take one or more actions based on one or more policies in
+response to the state information. For example, the intelli-
+gence layer 12140 may determine that the environment
+includes two objects and the MPR 12100 needs to move 100
+meters to reach the target object while avoiding an obstacle
+object located at a distance of 10 meters. The navigation
+policy may provide navigational actions and guide the MPR
+12100 to reach the target object while avoiding collision
+15 with the obstacle object. The grasping policy may then guide
+the MPR 12100 about action steps to grasp the target object.
+In embodiments, the policy libraries may use machine
+learning including reinforcement learning to define the dif-
+ferent policies for performing the various tasks.
+Based on the output of policy libraries in the task man-
+agement system 12144, the robot control system 12150 may
+then develop and provide control instructions for one or
+more actuators or control devices associated with the MPR
+12100 to implement the policies and drive one or more
+components of the electromechanical system 12108, the
+transport system 12110 or the energy storage and power
+distribution system 12104. For example, the control instruc-
+tions may effectuate movement of one or more motors of the
+transport system 12110 to navigate to a location in the
+environment in accordance with the navigation policy.As
+another example, the control instructions may effectuate
+movement in one or more actuators in arm joints or end
+effectors to grasp the target object in accordance with the
+grasping policy.
+The term actuator encompasses a mechanical or electrical
+device that creates motion, in addition to any driver(s) that
+may be associated with the actuator and that translate
+received control instructions into one or more signals for
+driving the actuator. Accordingly, providing a control
+instruction to an actuatormay comprise providing the con-
+trol instruction to a driver that translates the control instruc-
+mechanical device to create desired motion. The MPR
+12100 may have multiple degrees of freedom and each
+actuator or motor may control actuation within one or more
+of the degrees of freedom responsive to the control instruc-
+tions.
+FIG. 142 illustrates an example vision and sensing system
+12112 according to some embodiments of the present dis-
+closure. The vision and sensing system 12112 include a
+range of sensors 12602 configured to receive information
+from the environment 12604 of the multi-purpose robot
+12100 and enable the MPR 12100 to interact with one or
+more objects 12606 in its environment. For example, vision
+sensors may capture imagedata within a field of view which
+may assist the MPR 12100 with environment recognition
+and navigation. Some examples of sensors may include one
+or more cameras, LIDARs, RADARs, SONARs, thermal
+imaging, hyperspectral imaging, illuminance sensors, force
+sensors, torque sensors, velocity sensors, acceleration sen-
+sors, position sensors, proximity sensors, gyro sensors,
+sound sensors, motion sensors, location sensors, load sen-
+sors, temperature sensors, touch sensors, depth sensors,
+ultrasonic range sensors, infrared sensors, chemical sensors,
+magnetic sensors, inertial sensors, gas sensors, humidity
+sensors, pressure sensors, viscosity sensors, flow sensors,
+object sensors, tactile sensors and the like. In embodiments,

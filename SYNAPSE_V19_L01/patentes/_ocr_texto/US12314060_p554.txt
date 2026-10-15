@@ -1,0 +1,135 @@
+ automation performance. The set of the value chain network 40 suppliers linked to orders or inventory coming into a net-
+[col 1]
+US 12,314,060 B2
+743
+automation system to execute the task to facilitate an
+improvement in the value chain network.
+In some implementations, the task may include automati-
+cally processing 18406 one or more orders for an item in the
+value chain network based upon, at least in part, the infor-
+mation, wherein automatically processing the one or more
+orders for the item in the value chain network may include
+extracting 18408 order data of the one or more orders from
+one or more sources and automatically inputting 18410 the
+order data extracted from the one or more sources into an
+order management system. In some implementations, the
+task may include monitoring 18412 an inventory level for an
+item in the value chain network and automatically generat-
+ing 18414 one or more purchase orders for the item when the
+inventory level for the item in the value chain network falls
+below a threshold. In some implementations, VCN process
+10 may track 18416 a shipment of the item in real-time and
+the inventory level for the item in the value chain network
+may be automatically updated 18418 based upon, at least in
+part, tracking the shipment of the item in real-time. In some
+implementations, the task may include VCN process 10
+extracting 18420 invoice data of the one or more invoices
+from one or more sources and automatically inputting 18422
+the invoice data extracted from the one or more sources into 25
+an accounting system. In some implementations, VCN pro-
+cess 10 may render 18424 a user interface enabling a user to
+visually design automation workflows. In some implemen-
+tations, VCN process 10 may render 18426 a user interface
+enabling a user to manage automation processes. In some
+implementations, VCN process 10 may render 18428 a user
+interface enabling a user to create a plurality of Al-based
+learning models and select a plurality of application pro-
+gramming interfaces to integrate the plurality of Al models
+into one or more automation workflows. In some implemen-
+tations, VCN process 10 may render 18430 a user interface
+erate custom dashboards based upon, at least in part, the
+entities may include at least one of products, suppliers,
+producers, manufacturers, retailers, businesses, owners,
+operators, operating facilities, customers, consumers, work-
+ers, mobile devices, wearable devices, distributors, resellers,
+supply chain infrastructure facilities, supply chain pro- 45
+cesses, logistics processes, reverse logistics processes,
+demand prediction processes, demand management pro-
+cesses, demand aggregation processes, machines, ships,
+barges, warehouses, maritime ports, airports, airways,
+waterways,roadways,railways,bridges,tunnels,online 5o
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks,
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container 55
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities. The set of Al-based
+learning models may include at least one of a transformer 60
+model, a convolutional neural network, a deep learning
+model trained on a set of outcomes of the value chain
+network entity, a supervised model, a semi-supervised
+model, an unsupervised model, or a reinforcement model.
+The training data set for the set of Al-based learning models 65
+may include one of a set of objects or events that are labeled
+to classify the set of objects or events according to a
+[col 2]
+744
+classification taxonomy that may include at least one of the
+operating state, the fault condition, the operating flow, or the
+behavior.
+As also discussed throughout and referring also at least to
+the example implementations of FIGS. 173-185, a VCN
+process, such as VCN process 10, may receive 18500, by a
+value chain network digital twin, information associated
+with a value chain network, wherein the information may
+include a virtual representation of a plurality of associations
+between physical data items of the value chain network, and
+wherein the information may be dynamic, real-time and
+time-phased. In some implementations, VCN process 10
+may provide 18502 the information to a set of Artificial
+Intelligence (AI)-based learning models, wherein at least
+one member of the set of Al-based learning models may be
+trained on a training data set of a set of value chain network
+entities operating data to classify at least one of: an operating
+state, a fault condition, an operating flow, or a behavior of
+the value chain network and at least one member of the set
+of Al-based learning models may be trained on the training
+data set to determine, upon receiving the classification, a
+task to be completed for the value chain network. In some
+implementations, VCN process 10 may provide 18504 at
+least one of an instruction for executing the task in the value
+chain network digital twin or provide 18506 a recommen-
+dation for executing the task in the value chain network
+digital twin may be provided.
+In some implementations, receiving the information asso-
+ciated with the value chain network may include receiving
+18508 sensor data indicative of inbound and outbound
+shipment conditions. In some implementations, VCN pro-
+cess 10 may render 18510 one of a virtual reality (VR)
+environment, an augmented reality (AR) environment, a
+mixed reality (MR) environment, or a diminished reality
+(DR)environment for a userto interactwith the sensor-
+based virtual representation of the plurality of associations
+between the physical data items of the value chain network.
+In some implementations, the information may include
+real-time data about one of inbound prepaid shipments from
+work associated with the value chain network. In some
+implementations, VCN process 10 may generate 18512
+simulations for the value chain network digital twin,
+wherein the simulations for the value chain network digital
+twin may be generated with a graphical neural network
+(GNN).In someimplementations,VCNprocess1omay
+generate 18514 optimizations for the value chain network
+digital twin, wherein the simulations for the value chain
+network digital twin may be generated with a graphical
+neural network (GNN). In some implementations, a robotic
+operating system may enable the value chain network digital
+twin. In some implementations, the value chain network
+digital twin may operate within a digital twin system having
+one or more sets of one or more digital twins, wherein each
+digital twin of the one or more sets may include an embed-
+ded marketplace for digital twin simulations. In some imple-
+mentations, the value chain network digital twin may oper-
+ate within a digital twin system having one or more sets of
+one or more digital twins, wherein each digital twin of the
+one or more sets may include an embedded marketplace for
+one of artificial intelligence-based learning models or arti-
+ficial intelligence-based algorithms. In some implementa-
+tions, the value chain network digital twin may operate
+within a digital twin system having one or more sets of one
+or more digital twins, wherein each digital twin of the one
+or more sets may include an embedded marketplace for data.
+In some implementations, the set of the value chain network

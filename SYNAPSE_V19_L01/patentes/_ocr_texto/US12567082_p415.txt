@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+507
+12140 to adapt the motion plan to real time changes in the
+environment. For example, the motion plan may be adapted
+based on the changes in task performed by the MPR 12100,
+change in end effectors 12124 and the like. In embodiments,
+the MPS 12158 may improve its motion planning efficiency
+by using transfer learning to leverage learning from one task
+to a related task.
+In embodiments, the MPS 12158 may receive sensor data
+from one or more sensors of the vision and sensing system
+12112 to determine any moving obstacles and may leverage 10
+one or more machine learning models 12664 to predict the
+trajectory of the moving obstacle in the environment based
+on the machine learning models 12664. The MPS 12158
+utilizes the predicted trajectory information to compute the
+cost function while considering the probability and cost of 15
+collision with the moving obstacle.
+In embodiments, the MPS 12158 may utilize a 3D path
+planning algorithm for determining the optimal path. For
+example, sampling-based algorithms may determine fea-
+sible paths for the robot's motion using information from a 20
+graph that consists of randomly sampled nodes and con-
+nected edges in the given configuration space. Such ran-
+domized approaches have a strong advantage in terms of
+quickly providing solutions to complex problems, such as in
+a high-dimensional configuration space. Examples of 3D 25
+path planning algorithms that may be used by the MPS
+system include visibility graph, random-exploring algo-
+rithms such as rapidly exploring random tree, Probabilistic
+Road Map, optimal search algorithms (such as Dijkstra's
+algorithm, A* algorithm) and bioinspired planning algo- 30 s
+rithms.
+In embodiments, the navigation system 12154 utilizes a
+path (e.g., an optimal path) determined by MPS 12158,
+along with a pre-trained navigation policy from the task
+management system 12144 to build a navigation strategy for 35
+the MPR 12100. In some embodiments, the navigation
+system 12154 coordinates with the robot control system
+12150 to generate control instructions to effectuate move-
+ment of one or more actuators or motors in accordance with
+the navigation strategy enabling the MPR 12100 navigate its 40
+environment. The navigation actions of the MPR 12100 may
+be evaluated by the reinforcement learning system 12668 in
+an iterative manner to constantly update the navigation
+policy.
+In embodiments, the task management system 12144 45 c
+coordinates between the job execution system 12022 of the
+fleet operations system 12002, library 12314, vision and
+sensing system 12112, and one or more services of the
+robot-level intelligence layer 12140 to execute a task. In
+some example embodiments, the task management system 50
+12144 may refer to policy libraries to identify one or more
+task upon receiving a task request (e.g., from a user, from the
+fleet management platform, and/or from another robot). For
+example, upon receiving a request for moving an object 55
+from one place to the other, the task management system
+12144 may identify grasping policy and navigation policy to
+complete the task. The task management system 12144 may
+also work with the vision and sensing system 12112 to
+analyze visual and sensor information and past operating
+history to evaluate one or more objects that may be used in
+the task and determine one or more operations necessary to
+perform the assigned task on that object. For the example
+task of moving an object, the problem of grasping an object
+may be more complex when there is no past operating 65
+history or policy and the MPR 12100 is encountering the
+object for the first time (e.g., not encountered during train-
+[col 2]
+508
+ing). Moreover, the right technique to grasp may differ based
+on the object characteristics. For example, the points at
+which to grasp the object and the force that may be applied
+while grasping may be very different for different objects
+(e.g., depending on consistency, fragility, shape, size, and/or
+the like). The MPR 12100 may need to work with a very
+wide variety of objects with different shapes or forms like
+glasses, boxes, boxes with side handles, markers, flower-
+pots, manufacturing parts, machine tools, desks, chairs,
+lamps and the like and may require different techniques and
+accessories to grasp and pick up such objects. The task
+management system 12144 may leverage the intelligence
+layer 12140 to identify object characteristics and adapt the
+policy based on such characteristics. For example, the force
+ applied during grasping an object may be adjusted based on
+whether the object is made of delicate materials like glass or
+ceramic as opposed to when the object is made of metal. As
+another example, the MPR 12100 may use side handles to
+grasp a box when such handles are available. Accordingly,
+the task management system 12144 may also work with the
+module management system 12148 to identify and select a
+suitable end effector 12124 or other accessory required to
+complete the task.
+In embodiments, when a suitable end-effector is not
+found, the task management system 12144 may leverage the
+intelligence layer 12140 (e.g., machine learning services,
+RPA services, and/or the like) to determine and/or design an
+end effector 12124 or other accessory for executing the task,
+which may be subsequently ordered or printed. In the latter
+scenario, the task management system 12144 can utilize an
+additive manufacturing system and its associated design
+advantages, to print the suitable end-effector that meets the
+task requirements and specifications as defined by the task
+management system 12144.
+In embodiments, the task management system 12144 may
+include one or more policy libraries that define a set of
+pre-trained policies for performing common robotic tasks.
+The policies are simply the sequence of actions that need to
+be taken by the MPR 12100 for performing a task. Some
+examples for common tasks for whichpolicies may be
+provided include, navigating, grasping, lifting, transporting,
+counting, sorting, stacking, cleaning, twisting, bending,
+compacting, drilling, polishing, loading/unloading, assem-
+bling/disassembling.packaging/unpackaging., palletizing/
+depalletizing, grinding, welding, painting, sealing, planting,
+harvesting, cutting,pruning, weeding, and/or the like. In
+embodiments, the policy libraries may include multiple
+additive or nested learning loops for complex or multi-step
+tasks. For example, transporting the object from source to
+destination may involve grasping and lifting the object, and
+then navigating to the destination and placing the object
+there. In embodiments, the policy libraries may refer to task
+definitions available in library 12314 to ensure consistency
+with the overall job assignment.
+The policies may be defined and updated in any suitable
+manner. In some embodiments, the policies may be defined
+by a human user (e.g. a programmer). In some embodi-
+ments, the task management system 12144 may work with
+the intelligence layer 12140 (e.g-, an RPA service) to learn
+and optimize policies based on the quality of task comple-
+tion (where quality may be measured by metrics such as
+breakage, task completion rate, safety, accuracy, etc.). In
+some embodiments, the policies may be pre-trained using
+training data collected from expert demonstrations. For
+instance, the training data for welding may be obtained from
+an expert welding professional engaged in the act of weld-
+ing. The data may be obtaining from real-world setting like

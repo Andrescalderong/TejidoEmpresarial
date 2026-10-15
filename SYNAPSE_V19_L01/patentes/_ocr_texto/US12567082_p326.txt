@@ -1,0 +1,138 @@
+mined by the optimization module 9220.For example, if the 35 fields of a protocol header.Additionally or alternatively, the
+[col 1]
+US 12,567,082 B2
+329
+circuit 9228 may leverage intelligence modules 9258 that
+store and/or otherwise specify the security and/or gover-
+nance rules. In embodiments, the network security circuit
+9226 and/or network governance circuit 9228 may imple-
+ment any of the functionalities of the intelligence service
+8800 (as described with respect to FIG. 104) using the
+intelligence modules 9258 (which may include one or more
+of the artificial intelligence modules 8804 of FIG. 104).
+In embodiments, the data configuration module 9230 may
+receive data traffic via inputs 9292 and apply any optimi- 10
+zations determined by the data optimization circuit 9222
+and/or by the network optimization circuit 9224 to the
+received data traffic before transmitting the optimized data
+traffic as outputs 9294. The data capture/extraction circuit
+may receive inbound or outbound data packets (e.g., from 15
+other network devices and/or from the host device) and may
+extract the data from the data packets.
+The data encryption circuit 9234 may perform any nec-
+essary encryption/decryption operations on the extracted
+data. The data encryption circuit 9234 may decrypt data 20 
+received from another device so that the data may be
+analyzed and data-specific optimizations may be applied.
+For example, if the optimization module 9220 indicates that
+data should be re-formatted (e.g, up- or down-sampled,
+compressed/decompressed, and/or the like), the data may 25
+first need to be decrypted by the data encryption circuit 9234
+before the optimizations may be applied. Additionally or
+alternatively, the data encryption circuit 9234 may apply
+encryption to the data if the optimization module 9220
+determines that data encryption should be applied (e.g., to 30
+increase the security of a particular type of data or traffic
+flow).
+The data processing circuit 9236 may perform any pro-
+cessing on the data to implement the optimizations deter-
+data optimization circuit 9222 and/or the network optimi-
+zation circuit 9224 determine that data associated with
+certain attribute(s) (e.g-, a particular type of data, particular
+data flow, particular application-specific attribute, particular
+40
+mized by being processed in a certain way (e.g., by com-
+pressing/decompressing, up-sampling or down-sampling.
+reformatting, delaying, buffering, rescheduling, etc.), then
+the data processing circuit may perform the processing when
+it detects data that matches the attribute(s). Thus, the data 45 
+processing circuit 9236 may perform data optimizations on
+data that is received by the network enhancement chip 9200.
+In embodiments, the network configuration module9240
+may transmit and receive signals to/from the communication
+network in order to perform certain optimizations to the 50 
+network and/or network devices as determined by the net-
+work optimization circuit 9224. The network configuration
+module 9240 may perform network optimization in parallel
+to or sequentially before or after the data configuration
+module 9230 optimizes data.
+In embodiments, the signal processing circuit 9242 may
+generate and receive inbound or outbound data signals (e.g..
+to/from other network devices and/or to/from the host device
+comprising the network enhancement chip 9200) to coordi-
+nate with other network enhancement chip(s) 9200 and/or 60
+network devices on the network. For example, a network
+enhancement chip 9200 may transmit a signal to a target
+network device that instructs the target network device to
+perform some action (e.g., as determined by the network
+optimization circuit 9224) to optimize the network.Addi- 65
+tionally or alternatively, the signal processing circuit 9242
+may receive instructions from other network enhancement
+[col 2]
+330
+chip(s) on the network that instruct the network enhance-
+ment chip 9200 to perform configuration functions in order
+to optimize the network.
+In embodiments, the signal processing circuit 9242 may
+modify signals being sent to other network devices based on
+optimizations determined by the optimization module 9220.
+For example, if the signal processing circuit 9242 detects a
+message being sent (e.g., by another network device) that
+will cause a target network device to use a first protocol, but
+the optimization module 9220 determined that using a
+second protocol will optimize the network, then the signal
+processing circuit 9242 may modify the message to instead
+instruct the use of the second protocol. Similarly, a signal
+processing circuit 9242 may drop. (e.g., delete without
+transmission) or delay a message being sent to another
+device if the message contains an instruction that conflicts
+with an optimization determined by the optimization module
+9220. Thus, the signal processing circuit 9242 may cause
+optimizations by delaying or overriding various instructions
+sent and received by various network devices.
+In embodiments, the protocol switching circuit 9244 may
+configure a protocol of data signals being transmitted across
+the network. As a specific example, the protocol switching
+circuit 9244 may switch a certain type of data or data flow
+from a TCP/IP protocol to a UDP/IP protocol in order to
+optimize a particular network parameter. The protocol
+switching circuit 9244 may access protocol information
+from a protocol library 9252 in order to configure one or
+more protocols. In embodiments, the protocol switching
+circuit 9244 may reconfigure other protocol-level attributes
+of signals and/or other data to be transmitted across the
+network. For example, the protocol switching circuit 9244
+may reconfigure a source or destination address, a protocol
+time stamp, a protocol stream identifier, and/or any other
+protocol switching circuit 9244 may generate instructions
+for transmission to another network device that may cause
+the other network device to reconfigure the protocol of data
+signals being transmitted by that network device. The pro-
+tocol switching circuit9244mayreconfiguretheprotocols
+of traffic on the network based on optimizations determined
+by the optimization module 9220. Additionally or alterna-
+tively, the protocol switching circuit 9244 may reconfigure
+the protocols based on a current state of the network (e.g.
+as indicated by the network digital twin 9254) and/or based
+on the processing performed by the signal processing circuit
+9242.
+In embodiments, the network switching circuit 9246 may
+reconfigure the routing, scheduling, network topology, or
+other attributes of one or more network(s) that are in
+communication with the network enhancement chip 9200.
+For example, the network switching circuit 9246 may recon-
+figure a network from a mesh topology to a star topology
+(e.g., by instructing one or more network devices to change
+55 roles), route trafic across one network instead of another
+network (e.g, to balance available bandwidth on the two
+networks), route traffic through one router instead of another
+router (e.g., to balance load on the two routers), schedule
+transmission of first traffic in a first transmission slot and
+second traffic in a second transmission slot, and/or the like.
+In some cases, the network switching circuit 9246 may
+reconfigure the routing and/or scheduling of data received
+by the network enhancement chip 9200 (e.g-, as inputs
+9292). Additionally or alternatively, the protocol switching
+circuit 9244 may generate instructions for transmission to
+another network device that may cause the other network
+device to reconfigure an aspect of the network. The network

@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+601
+facturer of a device, a piece of equipment, or machinery.
+This information may include one or more properties and/or
+behaviors of the device, equipment, or machinery. In some
+embodiments, the user may, via the GUI, identify locations
+of sensors throughout the shipping entity and/or environ-
+ment. For each sensor, the user may provide a type of sensor
+and related data (e.g., make, model, IP address, and the like).
+The digital twin configuration module 13318 may record the
+locations (e.g., the x, y, z coordinates of the sensors) in the
+shipping digital twin. In embodiments, the digital twin 10
+module 13420 may employ one or more systems that
+automate the population of digital twins. For example, the
+digital twin module 13420 may employ a machine vision-
+based classifier that classifies makes and models of devices,
+equipment, or sensors. Additionally, or alternatively, the 15
+digital twin module 13420 may iteratively ping different
+types of known sensors to identify the presence of specific
+types of sensors that are in an environment. Each time a
+sensor responds to a ping, the digital twin module 13420
+may extrapolate the make and model of the sensor.
+In some embodiments, the manufacturer may provide or
+make available digital twins of their products (e.g., sensors,
+devices, machinery, equipment, raw materials, and the like).
+In these embodiments, the digital twin configuration module
+13318 may import the digital twins of one or more products 25
+that are identified in the environment and may embed those
+digital twins in the digital twin of the environment. In
+embodiments, embedding a digital twin within another
+digital twin may include creating a relationship between the
+embedded digital twin with the other digital twin. In these 30
+embodiments, the manufacturer of the digital twin may
+define the behaviors and/or properties of the respective
+products. For example, a digital twin of a 3D printer in a
+smart container may define the manner by which the 3D
+printer operates, the inputs/outputs of the 3D printer, and the 35
+ike. In this way, the digital twin of the 3D printer may reflect
+the operation of the 3D printer given a set of inputs.
+In embodiments, a user may define one or more shipping
+processes. In these embodiments, the user may define the
+steps in the process, the machines/devices that perform each
+step in the process, the inputs to the process, and the outputs
+of the process.
+In embodiments, the digital twin configuration module
+13318 may create a graph database that defines the relation-
+ships between a set of digital twins. In these embodiments, 45
+the digital twin configuration module 13318 may create
+nodes for the shipping entity and/or environment, systems,
+and subsystems of the shipping entity and/or environment,
+devices in the shipping entity and/or environment, sensors in
+the shipping entity and/or environment, workers that work in 50 a
+a shipping environment, shipping processes that are per-
+formed involving the shipping entity and/or environment,
+and the like. In embodiments, the digital twin configuration
+module 13318 may write the graph database representing a
+set of digital twins to the digital twin datastore 13316.
+In embodiments, the digital twin configuration module
+13318 may, for each node, include any data relating to the
+entity in the node representing the entity. For example, in
+defining a node representing a container ship, the digital
+twin configuration module 13318 may include the dimen- 60
+sions, boundaries, layout, pathways, and other relevant
+spatial data in the node. Furthermore, the digital twin
+configuration module 13318 may define a coordinate space
+with respect to the container ship. In the case that the digital
+twin may be rendered, the digital twin configuration module 65
+13318 may include a reference in the node to any shapes,
+meshes, splines, surfaces, and the like that may be used to
+[col 2]
+602
+render the environment. In representing a system, subsys-
+tem, device, or sensor, the digital twin configuration module
+13318 may create a node for the respective entity and may
+include any relevant data. For example, the digital twin
+configuration module 13318 may create a node representing
+a shipping robot. In this example, the digital twin configu-
+ration module 13318 may include the dimensions, behav-
+iors, properties, location, and/or any other suitable data
+relating to the robot in the node representing the robot. The
+digital twin configuration module 13318 may connect nodes
+of related entities with an edge, thereby creating a relation-
+ship between the entities. In doing so, the created relation-
+ship between the entities may define the type of relationship
+characterized by the edge. In representing a process, the
+digital twin configuration module 13318 may create a node
+for the entire process or may create a node for each step in
+the process. In some of these embodiments, the digital twin
+configuration module 13318 may relate the process nodes to
+the nodes that represent the machinery/devices that perform
+the steps in the process. In embodiments, where an edge
+connects the process step nodes to the machinery/device that
+performs the process step, the edge or one of the nodes may
+contain information that indicates the input to the step, the
+output of the step, the amount of time the step takes, the
+nature of processing of inputs to produce outputs, a set of
+states or modes the process can undergo, and the like.
+In embodiments, the digital twin update module 13320
+updates sets of digital twins based on a current status of one
+or more shipping entities and/or environments. In some
+embodiments, the digital twin update module 13320
+receives sensor data from a sensor system of a shipping
+entity and/or environment and updates the status of the
+digital twin of the shipping entity or environment and/or
+digital twins of any affected systems, subsystems, devices,
+workers, processes, or the like. As discussed, the digital twin
+I/O system13308mayreceive the sensor data in one or more
+sensor packets. The digital twin I/O system 13308 may
+provide the sensor data to the digital twin update module
+13320 and may identify the entity or environment from
+which the sensor packets were received and the sensor that
+provided the sensor packet. In response to the sensor data,
+the digital twin update module 13320 may update a state of
+one or more digital twins based on the sensor data. In some
+of these embodiments, the digital twin update module 13320
+may update a record (e.g., a node in a graph database)
+corresponding to the sensor that provided the sensor data to
+reflect the current sensor data. In some scenarios, the digital
+twin update module 13320 may identify certain areas within
+the entity or environment that are monitored by the sensor
+ and may update a record (e.g., a node in a graph database)
+to reflect the current sensor data. For example, the digital
+twin update module 13320 may receive sensor data reflect-
+ing different vibrational characteristics of a smart container
+and/or components. In this example, the digital twin update
+module 13320 may update the records representing the
+vibration sensors that provided the vibration sensor data
+and/or the records representing the smart container and/or
+the smart container components to reflect the vibration
+sensor data. In another example, in some scenarios, workers
+in a shipping environment (e.g-, container port, container
+storage facility, or the like) may be required to wear wear-
+able devices (e.g, smart watches, smart helmets, smart
+shoes, or the like). In these embodiments, the wearable devices may collect sensor data relating to the worker (e.g.,
+location, movement, heartrate, respiration rate, body tem-
+perature, or the like) and/or the environment surrounding the
+worker and may communicate the collected sensor data to

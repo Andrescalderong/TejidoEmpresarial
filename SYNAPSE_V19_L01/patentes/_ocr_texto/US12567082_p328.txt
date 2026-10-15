@@ -1,0 +1,139 @@
+use serial, parallel, and/or other processing techniques to 30 etc.), the electromechanical sensing circuit 9316 may
+[col 1]
+US 12,567,082 B2
+333
+physical output interface 9304 may connect to these com-
+ponents via wired or wireless connections.
+In embodiments, the chip 9300 may include one or more
+of a sensor module 9310, an analysis module 9320, and/or
+an output module 9330. In embodiments, the sensor module
+9310 may comprise circuits 9312-9318 for receiving and
+performing initial processing (e.g., filtering) on sensor data
+received as inputs 9392. Additionally or alternatively, the
+chip 9300 may include an analysis module 9320 comprising
+circuits 9322-9326 for performing analyses, detecting con-
+10
+ditions, predicting future conditions, generating other diag-
+nostic information, and generating recommendations for
+addressing any conditions. Additionally or alternatively, the
+chip 9300 may include an output module 9330 comprising
+circuits 9332-9336 for performing additional combined 15
+analyses, enforcing governance rules on the analyses, pre-
+dictions, recommendations, etc., and outputting a report
+including diagnostic/analysis data. The functionalities of the
+various circuits of the modules 9310, 9320, and/or 9330 are
+described in more detail below.
+The processing core(s) 9306 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9300, either with or
+without the assistance of the various modules 9310, 9320,
+and/or 9330. For example, the processing core(s) 9306 may
+leverage and/or invoke various modules to perform various
+functions described herein. The processing core(s) 9306
+may comprise general-purpose and/or special-purpose pro-
+cessors. In embodiments, the processing core(s) 9306 may
+accomplish the functions described herein.
+Accordingly, the processing core(s) 9306 may perform
+functions in addition to the functions provided by the
+various modules 9310, 9320, and/or 9330. For example, the
+processing core(s)may receive an output of one module 35
+(e.g., sensor data output by the sensor module 9310) and
+provide it as input to another module (e.g-, to the analysis
+module 9320). The processing core(s) 9306 may also pro-
+cess the output of any of the module(s) to convert the output
+intoa different format. 40
+In embodiments, the processing core(s) 9306 may further
+operate to store and/or retrieve data to/from storage 9350.
+For example, the processing core(s) 9306 may store and
+retrieve analytics configurations/data in an analytics library
+9352and/orgovernanceconfigurations/datainagovernance45
+library 9354 (e.g., for use by the analysis module 9320, as
+described in more detail below), may store and retrieve
+system specifications 9356 (e.g., for configuring the sensor
+module 9310, as described in more detail below), and/or
+may store and retrieve intelligence module(s) 9358 for 50
+implementing the various functions described herein. In
+embodiments, the processing core(s) may implement any of
+the functionalities of the intelligence service 8800 (as
+described with respect to FIG. 104) using the intelligence
+modules 9358 (which may include one or more of the 55 
+artificial intelligence modules 8804 of FIG. 104).
+The sensor module 9310 may receive and perform initial
+processing on sensor data from any type of sensor. In some
+embodiments, the biological sensing circuit 9312 may
+receive and/or process (e.g., filter, sanity check, error check, 60
+etc.) sensor data from biological sensors. Additionally or
+alternatively, the chemical sensing circuit 9314 may receive
+and/or process (e.g, filter, sanity check, error check, etc.)
+sensor data from chemical sensors. Additionally or alterna-
+tively, the electromechanical sensing circuit 9316 may 65
+receive and/or process (e.g., filter, sanity check, error check,
+etc.) sensor data from electrical sensors, mechanical sensors,
+[col 2]
+334
+and/or electromechanical sensors. Additionally or alterna-
+tively, the environmental sensing circuit 9318 may receive
+and/or process (e.g., filter, sanity check, error check, etc.)
+sensor data from environmental sensors, including atmo-
+spheric sensors, imaging sensors, and/or the like.
+In embodiments, each of the biological sensing circuit
+9312, the chemical sensing circuit 9314, and/or the electro-
+mechanical sensing circuit 9316 may access system speci-
+fications 9356 corresponding to particular sensors in order to
+configurethe sensing circuitto process corresponding sensor
+data. For example, when the diagnostic chip 9300 is con-
+figured to perform a particular organic analysis (e.g., pre-
+diction/simulation/testing of a particular organ or organ
+system), the biological sensing circuit 9312 may retrieve the
+system specifications 9356 for corresponding sensors (e.g.,
+microfluidic sensors, bioMEMS sensors, etc.) so that the
+biological sensing circuit 9312 may receive and process
+(e.g., format, filter, error check, etc.) the relevant sensor
+data. As another example, when the diagnostic chip 9300 is
+20 configured to perform a particular lab analysis (e.g-, drug
+testing, disease testing etc.), the chemical sensing circuit
+9314 may retrieve the system specifications 9356 for cor-
+responding sensors (e.g, chemical sensors) so that the
+chemical sensing circuit 9314 may receive and process (e.g.,
+format, filter, error check, etc.) the relevant sensor data. As
+another example, when the diagnostic chip 9300 is config-
+ured to perform electromechanical analysis (e.g-, a diagnos-
+tic analysis of a particular machine/circuit based on vibra-
+tion sensors, electric sensors, electromechanical sensors,
+retrieve the system specifications 9356 for corresponding
+sensors (e.g., MEMS sensors, vibration sensors, etc.) so that
+the electromechanical sensing circuit 9316 may receive and
+process (e.g., format, filter, error check, etc.) the relevant
+sensor data. As another example, when the diagnostic chip
+9300 is configured to perform environmental analysis (e.g.,
+a diagnostic analysis based on imaging data and/or environ-
+mental data), the environmental sensing circuit 9318 may
+retrieve the system specifications 9356 for corresponding
+sensors (e.g., imaging sensors, optical sensors, other envi-
+ronmental sensors, etc.) so that the environmental sensing
+circuit 9318 may receive and process (e.g., format, filter,
+error check, etc.) the relevant sensor data.
+The analysis module 9320 may receive processed sensor
+data from the sensor module 9310 and perform various
+analyses using the organic analysis circuit 9322, lab analysis
+circuit 9324, and/or electromechanical analysis circuit 9326.
+Each of the organic analysis circuit 9322, lab analysis circuit
+9324, electromechanical analysis circuit 9326, and/or envi-
+ronmental analysis circuit 9328 may retrieve analytics con-
+figuration(s) from analytics library 9352 and/or intelligence
+module(s) 9358 in order to perform relevant analyses. For
+example, when the diagnostic chip 9300 is configured to
+perform simulation of a particular organ or organ system, the
+organic analysis circuit 9322 may retrieve analytics data
+from analytics library 9352 specifying configuration param-
+eters corresponding to the organ/organ system (e.g., a par-
+ticular biology, functional mechanisms, etc.) and may
+retrieve an intelligence module 9358 trained to predict
+and/or analyze a response of the organ/organ system to
+physiological stimuli, particular drugs, particular diseases,
+and/or other inputs. Similarly, when the diagnostic chip
+9300 is configured to perform disease testing/analysis, the
+lab analysis circuit 9324 may retrieve analytics data from
+analytics library 9352 specifying configuration parameters
+corresponding to the disease (e.g., particular indicators,
+symptoms, etc.) and may retrieve an intelligence module

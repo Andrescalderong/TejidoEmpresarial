@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+779
+porting operation has its own network of activities 21332
+and services 21342' that enable the operational entity to
+properly function for the enterprise. For example, each
+supporting operation 21322t is shown to perform one or
+more activities 21332'a-n on the activity layer 21330' with
+each activity 21332 supported by a set of services 21342'a-n
+associated with the service layer 21340°.
+Referring specifically to the stack 21300' of FIG. 176C,
+the first path p1 flows through a first supporting operation
+21322'a. The first supporting operation 2i322'a includes n
+10
+number of activities 21332'a-n. Each activity 21332' is
+supported by a set of services 21342:. For comparison, the
+second path p2 may flow through another supporting opera-
+a set of supporting operations 21322'a-n and then have a 15
+similar network structure with a corresponding set of activi-
+ties 21332* performed/enabled by an underlying set of
+services 21342°. In this respect, the stack 21300' is able to
+accommodate any number of supporting operations indicat-
+ing that any number of value chains/value chain networks 20
+may be deployed with a single instance of a control tower
+Sos.
+In some implementations, generating the set of at least
+one CSS may include generating 17826 at least one CSS for
+each interface layer in a management stack (e.g-, manage- 25
+ment stack 21300'). For instance, in some configurations, as
+shown in FIG. 176C, the functionality of each layer may be
+orchestrated by one or more SOS units. Meaning that, each
+layer may have one or more Css that is capable of config-
+uring the systems to provide the services demanded at each 30
+layer. In other words, each layer may have at least one local
+CSS to ensure the functionality of the layer can occur in an
+autonomous-oriented manner (e.g., autonomously or semi-
+autonomously). Each layer may be arranged to manage or
+control its proximate lower level. In this arrangement, the 35 
+CSS for a particular layer functions to provision configura-
+tions (e.g., inputs, starter materials, connect data pipelines,
+etc.) that allow a lower level to function. For instance, the
+operational CSS associated with the operational layer 21320t
+configures systems that enable the set of activities 21332'to 40
+operate. Similarly, the CSSs of the activity layer 21330
+configures systems that enable the set of services 21342' to
+function. At the lowest level, shown as the service layer
+21340', the CSSs ass0ciated with this layer 21340' enable the
+execution of the set of services 21342. 45
+In some implementations, each layer in the management
+stack 21300' is capable of communicating with another layer
+using an interface layer 21350°. The interface layer 21350t
+may include communication tools or protocols that enable
+one SOS to communicate with another SOS potentially 50
+anywhere in the stack 21300'. The interface layer 21350°
+may also function to limit which layers (or SOSs) can
+communicate with which other layers (or other SOSs). That
+is, an architect of the stack 21300' may prefer for some
+communication tools to be limited to higher level control or 55 f
+vice versa (e.g., limited to service layer communication). In
+this respect, the interface layer 21350' can apply communi-
+cation access controls at the layer level.
+In some configurations, the interface layer 21350
+includes a range of communication tools that permit one 60
+system to communicate with another system. For example,
+the interface layer 21350' includes a plurality of application
+programming interfaces (APIs) that allow software associ-
+ated with one system or SOS to communicate with software
+of another SOS. An API is a software tool that generally 65
+facilitates communication between two platforms (e.g.
+between two CSSs or between two SOS systems). APIs are
+[col 2]
+780
+typically designed to standardize the way programmers/
+developers interact with a platform (e.g., a software appli-
+cation). In other words, prior to APIs, programmers/devel-
+opers would likely have to customize the manner in which
+they interact or connect with the services of an application.
+With APIs, there are typically technical specifications in the
+form of documentation that is associated with the API that
+specifies how to integrate with the API. When using an
+application, a user may initiate a task/service from the
+application that generates a request. The API associated with
+the application may then make a call that relays the request
+to a destination or API endpoint (e.g., a uniform resource
+locator (URL) of a server). Upon receipt of the request, the
+API endpoint facilitates the execution of the task (e.g., by a
+third-party application or database that provides the task/
+service). From that perspective, APIs can ease the develop-
+ment and user experience by connecting disparate system
+(e.g., disparate software applications). In other words, by
+using an API, the entity configuring a system or application
+to perform a service can integrate the functionality of other
+systems without having to design those systems' function-
+ality in-system. Some examples of APIs that the interface
+layer 21350'may include are Web APIs used to access web
+browsers or web-based devices, Simple Object Access Pro-
+tocol (SOAP) APIs that use extensible markup language
+(XML) and XML schema to perform calls and structure
+payloads, Open APIs (also known as public APIs), Repre-
+sentative State Transfer (REST) APIs that use stateless
+communication protocols, JavaScript Objection Notation
+(JSON)-Remote Programming Calls (RPC) for asynchro-
+nous server calls, and other custom APIs. By making an
+array of APIs accessible to portions of the stack 21300t, the
+interface layer 21350' helps ensure that the language of one
+system is capable of being translated to a language of
+another system. Otherwise, the set of systems deployed in a
+given instance of the management stack 21300' may have
+communication compatibility issues or suffer from the
+inability to cooperatively integrate cross-functionality.
+The interface layer 21350' is also configured to use other
+communication tools such as a user interface (UI) (e.g.,
+graphical user interfaces (GUI) and software development
+kits (SDKs). Here, a GUI may correspond to the interface of
+an API or refer to another interface designed to curate a user
+experience and interaction with one or more systems. For
+instance, a system has a GUI that can receive configuration
+data from CSSs (e.g., to populate data entry fields provided
+by the GUI to receive a set of inputs). The GUI generally
+contains graphical elements with underlying functionality.
+These graphical elements may enable navigation and/or
+trigger execution of functions of the system associated with
+the GUI. It will be appreciated that other types of UIs may
+be included (e.g., audio-based UIs, gesture-based UIs, digi-
+tal twin interface (as discussed throughout), smart wallet
+interface (as discussed throughout), etc.) without departing
+from the scope of the present disclosure.
+An SDK or devkit may refer to the set of building tools
+(e.g., software building tools) for a specific platform (e.g..
+system). Offen, the tools of an SDK may include resources
+such as a compiler that translates from one programming
+language to another, code samples that provide examples of
+coding for the platform, code libraries with sets of precon-
+figured code sequences (e.g., common or frequently used
+coding functions), testing and analytics tools that generate
+metrics/analytics to quantify the performance of program-
+ming in, for example, testing and production environments,
+documentation that provides information or instructions to
+programmers/developers (e.g., instructions about other tools

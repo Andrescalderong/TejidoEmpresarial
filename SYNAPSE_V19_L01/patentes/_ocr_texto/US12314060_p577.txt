@@ -1,0 +1,135 @@
+but it also incorporates a wider set of data and capabilities 35 training data set of a set of value chain network entities
+[col 1]
+US 12,314,060 B2
+789
+a single sub-level computing device 21200' (e.g-, as shown
+in FIG. 175C), there may be any number of sub-level
+system 21100' or a particular sub-level computing device
+21200'. When a set of additional sub-level computing
+devices 21200' are managed by the sub-level computing
+device 21200', these additional sub-level computing devices
+21200' may be referred to as secondary subsystems. When
+there are multiple sub-level computing devices 21200' for a
+control architecture 21000' (e.g., as shown in FIG. 177B), 10
+each sub-level computing device 21200' may follow a
+similar set of operations (e.g., operations referenced by
+21412'-21430') in support of the primary task for the primary
+system 21100°.
+In some implementations, VCN process 10 may include a 15
+VCN autonomous mobile infrastructure network, which
+may provide modular, adaptive, and mobile resources that
+deliver responsive and optimized on-site production as
+directed by the agile demand response resource network.
+This network may also provide local granular data to further 20
+refine demand response modeling and production. Each of
+these networks comprise a unique combination of capabili-
+ties and applications that are purpose-built using a common
+set of constituent building block elements and generalized
+services such as intelligence, distributed ledger, smart con- 25
+tracts, analytics, data sourcing and processing, sensors, etc.
+Resulting sets of capabilities and applications may be col-
+lectively managed by their respective networks, while
+orchestration of the set of networks may be provided at the
+highest level by the VCN SOS. 30
+In some implementations, VCN process 10 may include a
+VCN autonomous fixed infrastructure network. For
+instance, this network may be similar to a mobile network
+and may use some of the same configured system services,
+made available by greater access varied resources such as,
+e.g., ERP and Industry 4.0 integration, processing power,
+fewer energy and space limitations, the ability to optimize
+for location, etc. Each of these networks may include a
+uniquecombinationofcapabilitiesandapplicationsthatare 40
+purpose-built using a common set of constituent building
+block elements and generalized services such as intelli-
+gence, distributed ledger, smart contracts, analytics, data
+sourcing and processing, sensors, etc. Resulting sets of
+capabilities and applications may be collectively managed 45 t
+by their respective networks, while orchestration of the set
+of networks may be provided at the highest level by the
+VCN SOS.
+In some implementations, VCN process 10 may include a
+VCN agile demand response resource network, which may 50
+provide configured system services and assemblies of ser-
+vices that simulate and visualize demand scenarios, produce
+synchronized planning and dynamic fulfillment, etc. One
+example is Peer-to-Peer (P2P) cognitive matching of supply
+and demand. Each of these networks may include a unique 55
+combination of capabilities and applications that are pur-
+pose-built using a common set of constituent building block
+elements and generalized services such as intelligence, dis-
+tributed ledger, smart contracts, analytics, data sourcing and
+processing, sensors, etc. Resulting sets of capabilities and
+applications may be collectively managed by their respec-
+tive networks, while orchestration of the set of networks
+may be provided at the highest level by the VCN SOS.
+ML/AI to Flag and Respond to Potential Disruptions in the
+Value Chain 55
+As also discussed throughout and referring also at least to
+the example implementations of FIGS. 173-185, a VCN
+[col 2]
+790
+process, such as VCN process 10, may receive 17900, by a
+computing device, information associated with a set ofvalue
+chain network entities (such as those discussed above) of a
+value chain network. For instance, as discussed throughout,
+a unified database (e.g., via platform 604) may (e.g-, via
+VCN process 10) receive information associated with a set
+of value chain network entities of a value chain. The
+information may be collected in a variety of ways, including
+(by example only) via the unified data collections systems
+discussed throughout.
+In some implementations, the information may be gener-
+ated by a set of sensors of the set of value chain network
+entities. For instance, example sensors and/or a set of APIs
+configured to publish data relating to the set of value chain
+network entities may include those discussed regarding the
+form 604. In some implementations, the information gener-
+ated by a set of IoT devices configured to collect data
+relating to the set of value chain network entities. For
+instance, unified IoT monitoring systems (such as those
+discussed regarding at least the example implementation of
+FIG. 33) may be used to generate information from a set of
+IoT devices. It will be appreciated after reading the present
+disclosure that various other types of methods may be used
+for information generation without departing from the scope
+of the present disclosure. As such, the example use of the
+techniques and methods of information generation described
+throughout should be taken as example only and not to
+otherwise limit the scope of the present disclosure.
+In some implementations, VCN process 10 may provide
+17902 the information to a set of Artificial Intelligence
+(AI)-based learning models, wherein at least one member of
+the set of AI-based learning models may be trained on a
+operating data to classify at least one of: an operating state,
+a fault condition, an operating flow, or a behavior of at least
+one value chain entity of the set of value chain network
+entities. For instance, in embodiments, an intelligence ser-
+vices (such as those discussed in the example implementa-
+tion of FIG. 104) may include an intelligence service con-
+troller and AI modules. In embodiments, an artificial
+intelligence services receives an intelligence request from an
+intelligence service client and any required data to process
+the request from the intelligence service client. In response
+to the request and the specific data, one or more implicated
+artificial intelligence modules perform the intelligence task
+and output an “intelligence response. Examples of intelli-
+gence modules responses may include a decision (e.g, a
+control instruction, a proposed action, machine-generated
+text, and/or the like), a prediction (e.g., a predicted meaning
+of a text snippet, a predicted outcome associated with a
+proposed action, a predicted fault condition, a predicted
+disruption or risk in the value chain network, a prediction of
+future demand, and/or the like), a classification (e.g, a
+classification of an object in an image, a classification of a
+spoken utterance, a classified fault condition based on sensor
+data, and/or the like), and/or other suitable outputs of an Al
+system. In some implementations, the operating state of a
+machine may be the current condition of the machine. Some
+examples of operating states may include, e.g., Running-
+the machine is in normal operation;, Idlethe machine is not
+in operation, but it is ready to be started; Stoppedthe
+machine is not in operation and is not ready to be started;
+Malfunctioning/Faultedthe machinehas malfunctioned
+and is not operating properly; Under maintenancethe
+machine is being serviced or repaired.

@@ -1,0 +1,137 @@
+[col 1]
+US 12,675,781 B2
+561
+detection, system failure detection, predictive maintenance
+and for avoiding costly downtime and disruption of opera-
+tion of the MPR 12100. In another example, the analytics
+ system 12660 may analyze sensor data of the MPR 12100 to
+generate insights about things like general health of the
+MPR 12100 eficiency of one or more tasks performed by
+the MPR 12100, optimal positions and setting for the MPR
+12100 and so on.
+Neural Networks (or Artificial Neural Networks) are a
+family of statistical learning models inspired by biological
+neural networks and are used to estimate or approximate
+functions that may depend on a large number of inputs and
+are generally unknown. Neural networks represent a system
+other. The connections have numeric weights that can be 15
+tuned based on experience, making neural nets adaptive to
+inputs and capable of learning.
+Neural network system 12662 include one or more neural
+networks including feed forward neural networks, convolu-
+tional neural networks (CNN), recurrent neural networks 20
+(RNN), long short-term memory (LSTM) neural networks,
+gated recurrent unit (GRU) neural networks, self-organizing
+map (SOM) neural networks (e.g-, Kohonen self-organizing
+neural networks), Autoencoder (AE) neural networks,
+Encoder-Decoder neural networks, modular neural net- 25
+works, or variations, hybrids or combinations of the fore-
+going, or combinations with reinforcement learning (RL)
+systems or other expert systems, such as rule-based systems,
+model-based systems (including ones based on physical
+models, statistical models, flow-based models, biological
+models, biomimetic models, and the like). Examples of
+neural networks and neural network systems 12662 have
+been described in more details elsewhere in the disclosure
+(e.g., FIGS. 93-107).
+FIG.141 schematically depicts an example architecture of 35
+the robot control system i2150 that utilizes data from
+multiple sensors in the vision and sensing system 12112 to
+learn about the environment to implement policies and drive
+control for one or more components of the baseline system
+12102 including energy storage and power distribution 40
+system 12104, the electromechanical and electro-fluidic
+system 12108, or the transport system 12110 to perform a
+task.
+In embodiments, the MPR 12100 may acquire sensor data
+from one or more sensors 12602 and extract *state infor- 45
+mation" about the position of the MPR 12100 with respect
+to the environment 12604 and one or more objects 12606.
+For example, the MPR 12100 may use camera 12608 to
+capture images of objects 12606.An additional vision sensor
+may be mounted at a position different from that of the 50 
+camera 12608 to capture image data from multiple view-
+points. The camera and vision sensors may generate images
+related to shape, color, depth, and/or other features of
+object(s) that are in the line of sight of the sensors. The
+image data may be processed and the machine vision system 55
+126i8 may execute one or more machine learning algo-
+rithms including the CNN variants described above for
+object detection. Data from additional sensors (e.g, tactile
+sensor, sound sensor and/or gas sensor) may be combined to
+help build a more accurate model of the world in order for 60
+the MPR 12100 to navigate and behave more successfully in
+its environment. In embodiments, Kalman filters and data
+fusion techniques may be used for combining the data from
+multiple sensors.
+In embodiments, the intelligence layer 12140 may co0r- 65 t
+dinate with policy libraries in the task management system
+12144 and controller 12160 to generate the control instruc-
+[col 2]
+562
+tions for performing one or more tasks including navigation,
+object grasping, sorting cleaning, loading/unloading, pack-
+aging/unpackaging, assembly, palletizing/depalletizing and
+the like.
+Upon the control system 12150 receiving an input (e.g.,
+from a user or from another robot) indicating one or more
+tasks to be performed, the intelligence layer 12140 may
+select one or more policies from the policy libraries in the
+task management system 12144 to implement.For example,
+upon receiving an instruction to grasp an object placed in the
+environment of the MPR 12100, the intelligence layer 12140
+may determine that the MPR 12100 needs to use navigation
+policy for navigating to the location of the object followed
+by grasping policy to grasp the object. The intelligence layer
+12140 may use the sensor data from one or more sensors
+12602 to determine “"state information" describing informa-
+tion extracted from a scene in the environment of the MPR
+12100. The state information may include images or image
+streams from one or more vision sensors, information col-
+lected from other sensors like gas sensor, tactile sensor and
+sound sensor. The state information may also include infor-
+mation obtained after analysis of sensor information and
+may for example, include presence of one or more objects in
+the environment, name and type of the objects, the distance
+and position of the objects on a map including a target object
+to be grasped with respect to the MPR 12100, the material
+properties of the target object and the like.
+In embodiments, the intelligence layer 12140 may then
+I3o take one or more actions based on one or more policies in
+response to the state information. For example, the intelli-
+gence layer 12140 may determine that the environment
+includes two objects and the MPR 12100 needs to move 100
+meters to reach the target object while avoiding an obstacle
+object located at a distance of 10 meters. The navigation
+policy may provide navigational actions and guide the MPR
+12100 to reach the target object while avoiding collision
+with the obstacle object. The grasping policy may then guide
+the MPR 12100 about action steps to grasp the target object.
+In embodiments, the policy libraries may use machine
+learning including reinforcement learning to define the dif-
+ferent policies for performing the various tasks.
+Based on the output of policy libraries in the task man-
+agement system 12144, the robot control system 12150 may
+then develop and provide control instructions for one or
+more actuators or control devices associated with the MPR
+12100 to implement the policies and drive one or more
+components of the electromechanical system 12108, the
+transport system 12110 or the energy storage and power
+distribution system 12104. For example, the control instruc-
+tions may effectuate movement of one or more motors of the
+transport system 12110 to navigate to a location in the
+environment in accordance with the navigation policy. As
+another example, the control instructions may effectuate
+movement in one or more actuators in arm joints or end
+effectors to grasp the target object in accordance with the
+grasping policy.
+The term actuator encompasses a mechanical or electrical
+device that creates motion, in addition to any driver(s) that
+may be associated with the actuator and that translate
+received control instructions into one or more signals for
+driving the actuator. Accordingly, providing a control
+instruction to an actuator may comprise providing the con-
+trol instruction to a driver that translates the control instruc-
+tion into appropriate signals for driving an electrical or
+mechanical device to create desired motion. The MPR
+12100 may have multiple degrees of freedom and each

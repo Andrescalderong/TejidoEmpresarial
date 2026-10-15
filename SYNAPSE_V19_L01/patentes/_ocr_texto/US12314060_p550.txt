@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+735
+include generating 17426 at least one CSS for each interface
+layer in a management stack. In some implementations,
+intelligent decision-making regarding strategy for the pri-
+least in part, a configured intelligence service (CIS). In some
+implementations, the set of the value chain network entities
+may include at least one of products, suppliers, producers,
+manufacturers, retailers, businesses, owners, operators,
+operating facilities, customers, consumers, workers, mobile
+devices, wearable devices, distributors, resellers, supply 1o
+chain infrastructure facilities, supply chain processes, logis-
+tics processes, reverse logistics processes, demand predic-
+tion processes, demand management processes, demand
+aggregation processes, machines, ships, barges, warehouses,
+maritime ports, airports, airways, waterways, roadways, 15
+railways, bridges, tunnels, online retailers, ecommerce sites,
+demand factors, supply factors, delivery systems, floating
+assets, points of origin, points of destination, points of
+storage, points of use, networks, information technology
+systems, software platforms, distribution centers, fulfillment 20
+centers, containers, container handling facilities, customs,
+export control, border control, drones, robots, robotic han-
+dling systems, 3D printers, vehicles, autonomous vehicles,
+hauling facilities, waterways, or port infrastructure facilities.
+As also discussed throughout and referring also at least to 25
+the example implementations of FIGS. 173-185, a VCN
+process, such as VCN process 10, may configure 17800 a set
+of sub-level computing devices for communication with a
+primary computing device, wherein the primary computing
+device may manage the set of sub-level computing devices 30
+to orchestrate performance of a set of value chain network
+entities. In some implementations, VCN process 10 may
+receive 17802 (e.g., via the set of sub-level computing
+devices) a primary command from the primary computing
+device, wherein the command may be one of a task or a 35
+request associated with the value chain network. In some
+implementations, VCN process 10 may assign 17804 at least
+a portion of one or more computing devices capable of
+fulfilling the primary command as a set of one or more
+computing devices to be managed by the sub-level comput- 40
+ing device, wherein the sub-level computing device may be
+a computing device that manages or executes performance
+of a particular entity or relationship of the value chain
+network. In some implementations, VCN process 10 may
+(e.g., via the sub-level computing device) configure 17806 45 
+the set of one or more computing devices to fulfill one or
+more secondary commands based upon, at least in part, the
+primary command. In some implementations, VCN process
+10 may (e.g-, via the sub-level computing device) fulfill
+17808 the primary command based upon, at least in part, the
+：501
+ set of one or more computing devices fulfilling the one or
+more secondary commands.
+Configuring the set of one or more computing devices to
+fulfill the one or more secondary commands may include
+generating 17812 a set of at least one configured system 55
+service (CSS). Generating the set of at least one CSS may
+include utilizing 17814 an output of a plurality of sources as
+an input to generate one or more control parameters. Con-
+figuring the set of one or more computing devices to fulfll
+the one or more secondary commands may include provid-
+ing 17816 intelligence received from the at least one CSS to
+the set of one or more computing devices. Assigning at least
+the portion of one or more computing devices capable of
+fulfiling the primary command as the set of one or more
+computing devices to be managed by the sub-level comput- 65
+ing device may include executing 17818 an enrollment
+process between the set of one or more computing devices
+[col 2]
+736
+and the sub-level computing device. Executing the enroll-
+communication protocols and data formats used by the set of
+one or more computing devices. The sub-level computing
+device may obtain 17822 one or more application program-
+ming interfaces (APIs) to enable communication and data
+format translation between each computing device of the set
+of one or more computing devices and the sub-level com-
+puting device. The primary computing device may be
+bypassed 17824 to receive external data at the sub-level
+computing device when the external data is unused by the
+primary computing device. Generating the set of at least one
+CSS may include generating 17826 at least one CSS for each
+interface layer in a management stack. Intelligent decision-
+making may be performed 17828 regarding strategy for the
+primary command based upon, at least in part, a configured
+intelligence service (CIS). The set of the value chain net-
+work entities may include at least one of products, suppliers,
+producers, manufacturers, retailers, businesses, owners,
+operators, operating facilities, customers, consumers, work-
+ers, mobile devices, wearable devices, distributors, resellers,
+supply chain infrastructure facilities, supply chain pro-
+cesses, logistics processes, reverse logistics processes,
+demand prediction processes, demand management pro-
+cesses, demand aggregation processes, machines, ships,
+barges, warehouses, maritime ports, airports, airways,
+waterways, roadways, railways, bridges, tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks,
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, robotic handling systems, 3D printers,
+vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities. A generated system
+output may be sent 17810 to the primary computing device
+responding to the primary command based upon, at least in
+part, the set of one or more computing devices fulfilling the
+one or more secondary commands.
+As also discussed throughout and referring also at least to
+the example implementations of FIGS. 173-185, a VCN
+process, such as VCN process 10, may receive 17900, by a
+computing device, information associated with a set ofvalue
+chain network entities of a value chain network, the infor-
+mation generated by at least one of a set of sensors of the set
+of value chain network entities, a set of IoT devices con-
+figured to collect data relating to the set of value chain
+network entities, or a set of APIs configured to publish data
+relating to the set of value chain network entities. In some
+implementations, VCN process 10 may provide 17902 the
+information to a set of Artificial Intelligence (AD)-based
+learning models, wherein at least one member of the set of
+Al-based learning models may be trained on a training data
+set of a set of value chain network entities operating data to
+classify at least one of: an operating state, a fault condition,
+an operating flow, or a behavior of at least one value chain
+entity of the set of value chain network entities. In some
+implementations, VCN process 10 may determine 17904 a
+potential risk in the value chain based upon, at least in part,
+an output of the Al-based learning classification. In some
+implementations, VCN process 10 may execute 17906 an
+action to mitigate the potential risk in the value chain
+network.
+Executing the action to mitigate the potential risk in the
+value chain network may include flagging 17908 the poten-
+tial risk in the value chain network. Executing the action to

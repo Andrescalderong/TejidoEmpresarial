@@ -1,0 +1,136 @@
+tate, for example, protocol translation and/or adaptation. 35 to drive up a ramp onto a container ship. In this example, the
+[col 1]
+US 12,567,082 B2
+561
+The remote-control system 13012 may recognize a plu-
+rality of initiators of remote-control signals, including local
+supervisor remote-control initiators, human (local or
+remote) remote-control initiators, automated fleet-based
+remote-control initiators (e.g-, fleet artificial intelligence
+system and the like), and third-party remote-control initia-
+tors (e.g., for law enforcement and the like). Remote control
+signaling may include managing remote control signals to
+fleet-external resources, such as fire and emergency
+response resources, infrastructure resources, third-party
+smart container service providers, and the like.
+The fleet resources that may participate in remote-control
+operations may be diverse in both implementation and
+protocols, such as older generation smart container operat-
+ing units, human fleet resources, quantum computing ele-
+ments and the like. Therefore, the remote-control system
+13012 (in cooperation with the communication management
+system 13010) may be constructed with knowledge of
+multiple remote operational protocol (multi-protocol) capa-
+bilities to ensure any two devices exchanging control signals 20
+can do so reliably. In embodiments, multi-protocol capabili-
+protocol-to-protocol translation, remote-control signal con-
+solidation and interpretation, protocol normalization, and
+the like. In embodiments, the communication management 25
+ system 13010 may utilize these protocol handling capabili-
+ties directly as noted above and by API and the like, or by
+being configured with such protocol handling capabilities
+(e.g., deployed with protocol handling capabilities of the
+remote-control system 13012. In embodiments, the remote- 30
+control system 13012 (or equivalent functions thereof inte-
+grated with the communication management system 13010)
+may rely on portions of the intelligence service 13004, such
+as digital twin and/or artificial intelligence service, to facili-
+Therefore, the remote-control system 13012 may provide
+real-time, on demand protocol translation, optionally
+assisted by the fleet intelligence system. The remote-control
+system 13012 may support fleet-external remote-control via
+a port that is configured for integration with external and/or 40
+third-party remote-control architectures. Remote-control
+may be communicated via dedicated infrastructure and/or
+communication features (e.g., short-distance broadcast
+capabilities).
+Remote-control, such as control of smart container oper- 45
+ating units, may be initiated, at least in part, by a human
+operator. In embodiments, a smart container i3026 may
+encounter unexpected and/or unknown conditions during
+order execution (e.g., as may exemplarily be reported by the
+order execution system 13022) and defer to a human opera-
+50
+tor to remotely control smart container operating unit(s).
+Optionally, one or more intelligence service 13004 compo-
+nents, such as an artificial intelligence system, may be
+referenced for at least candidate remote-control signals. In
+embodiments, an order execution plan may indicate, at a 55
+predetermined operational task, that smart container opera-
+tion should be guided by a human operator. When such a
+task is anticipated to occur in a job workflow (e.g., by a
+shipping execution monitoring instance, such as a supervisor
+smart container and the like), the remote-control system 60
+13012 may be called upon to oversee a remote-control
+connection between a suitable human operator and the smart
+container, smart container operating units, team, team super-
+visor, and the like, executing the workflow that calls for
+human operator control. 65
+In embodiments, the remote-control system 13012 may
+have access to a set of remote-control signal sequences for
+[col 2]
+562
+performing certain tasks remotely. The remote-control sys-
+tem 13012 may, based on context of a workflow being
+performed, suggest to a human operator and/or an automated
+control system one or more remote-control signal sequences.
+In embodiments, the remote-control system may process
+input from a human operator (e.g., commands such as
+"stop", “unload" and the like), optionally with help of other
+fleet resources (e.g., an artificial intelligence system and the
+like) and generate a set of remote-control signals for
+1o remotelycontrollingfleetresource, such asa smartcontainer
+operating unit and the like. Remote control signal sequences
+may be preconfigured for handling a range of real-time
+situations, such as security breaches, equipment failure, and
+the like. In addition to facilitating and/or managing remote-
+control of a smart container operating unit, remote-control
+resources deployed and/or allocated for a job, task, work-
+flow, and the like. A human operator (or an automated
+system monitor-type application) may provide remote con-
+trol signals that are communicated to the viable members of
+the team to adjust task roles and actions accordingly, such as
+by communicating a remote-control signal to one or more of
+the viable members to communicate with a smart container
+operating unit configuration server to receive reconfigura-
+tion instructions and reconfiguration data.
+Although generally described herein as remote-control
+signals, the remote-control system 13012 may facilitate
+remote-control by arranging remote control signals into
+remote control instructions (e.g-, combinations of remote-
+control signals, abstractions thereof and the like) at the fleet
+level, team level, smart container level and the like. As an
+example of remote-control instruction functionality, the
+remote-control system 13012 may receive input, such as
+from a human operator desiring to instruct a smart container
+remote-control system may receive the human operator
+remote-control instruction, adapt that instruction into one or
+more different remote-control signals for the smart container
+13026, generate corresponding remote-control signals, and
+ensure communication of those signals (e.g, via the com-
+munication management system 13010 resources) to the
+smart container 13026 to be remotely controlled by the
+human operator.
+Smart container operating unit responsiveness to aggre-
+gated remote-control signals (e.g-, instructions or set of
+instructions) may be based on a wide range of fleet intelli-
+gence capabilities, knowledge, priorities, goals, and the like.
+In general, use of system-based and/or smart container
+operating unit-based artificial intelligence capabilities sup-
+ports wider independent decision-making capabilities for
+individual smart container operating units with greater con-
+textual gravity.
+In embodiments, the remote-control system 13012 may
+integrate security features to thwart takeover, compromise,
+misuse, or interference with control of remotely controlled
+remote-control system 13012 (e.g., data storage resources,
+computing resources, remote-control system state data, and
+the like) may be configured with security features, such as
+encoding, decoding, packetizing, and the like. Further, the
+remote-control system 13012 may include and/or support
+control override capabilities that enable a human operator
+(for example) to securely gain remote-control of a smart
+container that is otherwise not directly engaged with remote-
+control signaling or operating independently of remote-
+control signals, such as, autonomously, collaboratively with
+other smart container operating units and the like.

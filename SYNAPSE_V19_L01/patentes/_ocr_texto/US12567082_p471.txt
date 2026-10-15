@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+619
+In embodiments, the digital twin module 13420 may
+provide traffic data and/or navigational information to
+mobile elements in a shipping digital twin. The navigational
+information may be provided as instructions or rule sets,
+displayed path data, or selective actuation of devices. For
+example, the digital twin module 13420 may provide a set
+of instructions to a smart container to direct smart container
+to and/or along a desired route from an origin location to one
+or more specified locations along the route. The smart
+container may communicate updates to the system including 1o i
+obstructions, reroutes, unexpected interactions with other
+assets along the route.
+In some embodiments, an ant-based system enables ship-
+ping entities, including smart containers, to lay a trail with
+one or more messages for other shipping containers and/or 15
+shipping entities, including themselves, to follow in later
+journeys. In embodiments, the messages include informa-
+tion related to measurement collection.
+In embodiments, the digital twin module 13420 includes
+design specification information for representing a real- 20
+world element using a digital twin. The digital twin may
+correspond to an existing real-world element or a potential
+real-world element. The design specification information
+may be received from one or more sources. For example, the
+design specification information may include design param- 25
+eters set by user input, determined by the digital twin
+module 13420 (e.g, the via digital twin simulation system
+13310), optimized by users or the digital twin simulation
+system 13310, combinations thereof, and the like. The
+digital twin simulation system 13310 may represent the 30
+design specification information for the component to users,
+for example, via a monitor or a virtual reality headset. The
+design specification information may be displayed schemati-
+cally (e.g., as part of a process diagram or table of infor-
+mation) or as part of an augmented reality or virtual reality 35 1
+display. The design specification information may be dis-
+played, for example, in response to a user interaction with
+the digital twin module 13420 (e.g., via user selection of the
+element or user selection to generally include design speci-
+fication information within displays).Additionally, or alter- 40
+natively, the design specification information may be dis-
+played automatically, for example, upon the element coming
+within view of an augmented reality or virtual reality device.
+In embodiments, the displayed design specification infor-
+mation may further include indicia of information source 45
+(e.g., different displayed colors indicate user input versus
+digital twin module 13420 determination), indicia of mis-
+matches (e.g., between design specification information and
+operational information), combinations thereof, and the like.
+In some embodiments, the digital twin module 13420 may 50
+provide an augmented reality view that displays mismatches
+between design parameters or expected parameters of real-
+world elements to the wearer. The displayed information
+may correspond to real-world elements that are not within
+the view of the wearer (e.g., elements within another room 55
+or obscured by machinery). This allows the worker to
+quickly and accurately troubleshoot mismatches to deter-
+mine one or more sources for the mismatch. The cause of the
+mismatch may then be determined,for example, by the
+digital twin module 13420 and corrective actions ordered. In 60
+example embodiments, a wearer may be able to view
+malfunctioning subcomponents of machines without remov-
+ing occluding elements (e.g-, housings or shields). Addition-
+ally, or alternatively, the wearer may be provided with
+instructions to repair the device, for example, including 65
+display of the removal process (e.g., location of fasteners to
+be removed), assemblies or subassemblies that should be
+[col 2]
+620
+transported to other areas for repair (e.g+, dust-sensitive
+components), assemblies or subassemblies that need lubri-
+cation, and locations of objects for reassembly (e.g., storing
+location that the wearer has placed removed objects and
+directing the wearer or another wearer to the stored locations
+to expedite reassembly and minimize further disassembly or
+missing parts in the reassembled element). This can expedite
+repair work, minimize process impact, allow workers to
+disassemble and reassemble equipment (e.g, by coordinat-
+ing disassembly without direct communication between the
+workers), increase equipment longevity and reliability (e.g.,
+by assuring that all components are properly replaced prior
+to placing back in service), combinations thereof, and the
+like.
+In embodiments, the digital twin module 13420 may
+include, integrate, integrate with, manage, handle, link to,
+take input from, provide output to, control, coordinate with,
+or otherwise interact with a digital twin dynamic model
+system 13312. The digital twin dynamic model system
+13312 can update the properties of a set of digital twins of
+a set of shipping entities and/or environments, including
+properties of physical shipping assets, workers, processes,
+shipping facilities, warehouses, and the like (or any of the
+other types of entities or environments described in this
+disclosure or in the documents incorporated by reference
+herein) in such a manner that the digital twins may represent
+those shipping entities and environments, and properties or
+attributes thereof, in real-time or very near real-time. In
+some embodiments, the digital twin dynamic model system
+13312 may obtain sensor data received from a sensor system
+and may determine one or more properties of a shipping
+environment or a shipping entity based on the sensor data
+and based on one or more dynamic models.
+In embodiments, the digital twin dynamic model system
+13312 may update/assign values of various properties in a
+digital twin and/or one or more embedded digital twins,
+including, but not limited to, vibration values, probability of
+failure values, probability of downtime values, cost of
+downtime values, pricing values, energy values, perfor-
+mance values, financial values, temperature values, humid-
+ity values, heat flow values, cargo load values, fluid flow
+values, radiation values, substance concentration values,
+velocity values, acceleration values, location values, pres-
+sure values, stress values, strain values, light intensity val-
+ues, sound level values, volume values, shape characteris-
+tics,material characteristics, and dimensions. In embodiments, a digital twin may be comprised of (e.g..
+via reference) other embedded digital twins.For example, a
+digital twin of a container terminal may include an embed-
+ded digital twin of a container ship and one or more
+embedded digital twins of one or more respective smart
+containers enclosed within the container ship. A digital twin
+may be embedded, for example, in the memory of a smart
+container that has an onboard IT system (e.g., the memory
+of an Onboard Diagnostic System, control system (e.g.,
+SCADA system) or the like). Other non-limiting examples
+of where a digital twin may be embedded include the
+following: on a wearable device of a worker; in memory on
+a local network asset, such as a switch, router, access point,
+or the like; in a cloud computing resource that is provisioned
+for an environment or entity; and on an asset tag or other
+memory structure that is dedicated to an entity.
+In embodiments, the digital twin dynamic model system
+13312 can update the properties of a digital twin and/or one
+or more embedded digital twins on behalf of a client
+application 13324 (such as the smart container system
+13000). In embodiments, a client application 13324 may be

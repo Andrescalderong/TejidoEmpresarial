@@ -1,0 +1,136 @@
+tasks not found in the base workflow and/or exclude unnec- 55 ration functions, such as structuring tasks into workflows
+[col 1]
+US 12,314,060 B2
+579
+mine the task workflows. In embodiments, a task workflow
+defines an order and manner in which tasks are performed
+for a project/job. In embodiments, the workflow definition
+system may apply job descriptive information to a set of task
+definitions and fleet configuration data to produce one or
+more workflowstoperform one or more activities of the job.
+As an example, a workflow may cover an activity such as
+last-mile 3D printing of an athletic shoe within the container.
+The tasks defined for this activity may be collected into a
+workflow or portion thereof, ordered to ensure proper com- 1o 
+pliance with the job requirements, and published as a set of
+requirements to perform the activity/workflow. A job work-
+flow definition may include information descriptive of quan-
+tities and types of smart containers, 3D printers, robots, tools
+and/or end effectors, and the like that may be provided by the 15
+fleet configuration system 13020 for one or more tasks being
+ordered by the workflow definition system. In embodiments,
+this portion of the workflow definition may be utilized by
+other modules of the job configuration system 13018 (e.g.
+order execution system 13022) to, for example, identify and
+20
+determine required configurations of one or more smart
+containers, and the like to be readied ahead of performing a
+task in the workflow (e.g., ensuring that a smart container is
+(re)configured with a configuration that enables performing
+a task prior to performing the task that is defined in the 25
+workflow). Other information produced in an order execu-
+tion plan may include sequence of tasks (e.g., as produced
+by a workflow system), which may further identify a
+ sequence of smart containers required to perform the tasks.
+A workflow definition system may utilize resources of the 30
+smart container configuration library when defining work-
+flows. Workflow definition parameters, such as how to
+determine minimum time between tasks, inter-task coordi-
+nation, task classification, workflow scope, and the like may
+beavailableinthelibrary13044,and/orininformation35
+retrieved from a freight storage and/or transportation service
+order. These and other parameters may include job-specific
+variables that can be set to default values, but adjusted by,
+for example, the workflow definition system to meet job-
+specificneeds.Anexampleofuse of smartcontainercon-4o
+figuration library information to develop job workflow defi-
+nitions may include a cargo unloading task (e.g., by a set of
+robotic arms attached to the smart container or by robots
+embedded within the container), followed by a self-stacking
+storage task (e.g., by an on-container rail and/or lift system). 45 
+Useful information that a workflow definition system may
+utilize from a smart container configuration library may
+include template, preconfigured or default workflows, such
+as workflows developed for a previous execution of the job.
+A workflow definition system may determine which, if any, 50
+workflow in the library 13044 (base workflow) is suitable
+for use in the current job workflow definition instance;
+determine adjustments to the retrieved workflow; produce an
+instance-specific job workflow that may include additional
+essary tasks found in the base workflow, and the like.
+Other examples of smart container configuration library
+information that may be useful for developing job workflow
+definitions include availability of sensor detection packages.
+These sensor detection packages may indicate a preferred 60
+sequence of sensing tasks and therefore may impact work-
+flows of such tasks. These and related reconfigured sensor
+ing, information collection, preprocessing, routing, consoli-
+dation, processing, and the like. These sensor and detection 65
+such as being included in an order execution plan for use by
+[col 2]
+580
+the order execution, monitoring, and reporting system
+13022. In embodiments, use thereof is indicated as serving
+a range of monitoring activities and the like.
+A job workflow definition system may examine task to
+task dependency (e.g., performing a second task of unload-
+ing cargo is dependent on completing a first task of trans-
+porting the cargo to a destination container terminal) to
+identify potential workflow independence and dependence
+for, among other things, configuring an order execution plan
+that may include parallelized use of fleet resources, such as
+teams and the like.
+Features of an intelligence service, such as digital twin
+capabilities and the like, may also be beneficially applied to
+simulate and validate workflows, such as with a workflow
+simulation system of the job configuration system 13018.
+The workflow simulation system may perform simulations
+of portions of a job configuration, such as those portions
+organized into job workflows by the workflow definition
+system. In an example of workflow simulation, a set of tasks
+defined by the task definition system and organized into a
+portion of a job workflow may be modeled using functional
+equivalents for smart containers, tasks, workflows and the
+like, such as smart container digital twins 13504, container
+ship digital twins, shipping container port digital twins,
+railway digital twins, truck digital twins, environment digital
+twins, task digital twins, workflow digital twins, team digital
+twins, fleet digital twins, and the like. These digital twins
+may be retrieved from the library 13044 and executed by a
+processor to simulate the set of tasks, such as to validate the
+defined tasks. In embodiments, the fleet intelligence system
+may be utilized for providing at least a portion of these
+nitions and task definitions to one or more workflow models
+and/or digital twins operating in an artificial intelligence
+environment machine learning environment.
+The workflow simulation system may also generate feed-
+back from simulating workflows defined by the workflow
+definition system that may be useful in improving a work-
+flow definition, a task definition, a smart container selection
+and the like.
+The workflow simulation system may establish or other-
+wise access criteria for determining if a workflow meets the
+criteria, such as timely and successfully completing a task,
+job, and the like. By applying these criteria for measuring
+outcomes of workflow simulations, the workflow simulation
+system may validate one ormore workflow options, smart
+container options passed along to the workflow definition
+system, fleet configuration options, and the like before
+providing feedback to, for example, the task definition
+system, the job parsing system and the like. Options that do
+not meet the criteria (e.g-, consumes an excess of resources,
+results in wear down of a smart container, fails to meet a
+schedule, results in a high percentage of damaged cargo, and
+the like) may be marked as such for improving job configu-
+and the like.
+Further, a workflow simulation system may leverage the
+system intelligence service. In embodiments, the system
+intelligence service may provide access to and operation of
+instances of fleet digital twin modules that may provide
+critical understanding of fleet-based impacts on workflow
+definition for performing a requested job. In embodiments,
+a logistics digital twin of the fleet intelligence system may
+provide useful workflow simulation information through
+operation of modeling of shipments and costs of smart
+containers, personnel, support equipment and the like for
+smart container fleet services. This modeling of fleet logis-

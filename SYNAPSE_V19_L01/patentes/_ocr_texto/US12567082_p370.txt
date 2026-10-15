@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+417
+processing as the images are based on additional optical
+parameters than just focal length and aperture. The image
+processing system 11210 may incorporate previously lost
+information so as to generate new set of insights about the
+object and its surroundings not captured by the conventional
+computer vision systems 11100.
+Compared to conventional computer vision systems
+11100, that utilize fixed sensory elements, the dynamic
+vision system 11200 provided herein may utilize a dynami-
+cally learned liquid lens assembly. The conformable liquid 10
+lens 11204 in the assembly may be continuously, and/or
+frequently, adjusting based on, for example, environment
+factors and/or on feedback from the processing system
+11209 to generate training data that is deeper in context and
+that corresponds to the physical light that the image repre- 15
+sents. By training the dynamic vision system 11200 to
+recognize objects using variable optical parameters through
+learn an optimum optical setting(s) to detect an object. The
+more dynamic input to the dynamic vision system 11200 20
+may result in creating a richer context and providing supe-
+rior object recognition.
+The dynamic vision system 11200 may integrate sensing,
+control and processing functions and dynamically adjusts
+the liquid lens 11204 as the vision algorithms in the pro- 25
+cessing system 11209 take different inputs to produce a
+real-world vision result.
+The dynamic vision system 11200 mimics biological
+vision by integrating sensing, control and processing func-
+tions (biological vision involves a stream of information 30
+deep learning systems can directly change aspects of vision
+processing, including orientation, fovea centralis attention,
+eyelid actions, blinking and communication with other
+humans). 35
+In embodiments, the dynamic vision system 11200 may
+utilize saccades to characterize objects by context and build
+a rich model of the object in its environment by capturing
+contextual intelligence through associations. This mirrors
+how saccades capture information about an object in its 40o
+environment. Saccade denotes a quick, simultaneous move-
+ment of both eyes between two or more areas of focus.
+While viewing a scene, human eyes make sporadic saccadic
+movements stopping several times while locating key parts
+ofthe scene, moving quickly between each stop and building 45
+up a mental three-dimensional map corresponding to the
+scene. The dynamic vision system 11200 and methods
+described herein may use saccades to characterize objects by
+context and allow control of an optical system to more
+quickly identify and characterize a field of view. Saccades 50
+integrate varying physical/optical properties, along with
+object-oriented learning, to rapidly improve understanding
+and search in the visual sphere.
+In embodiments, the dynamic vision system 11200 may
+also mimic biofeedback loops of human babies to create a 55 j
+system of associative memory and vision and build a causal
+three-dimensional model of the environment. The learning
+system in human babies involves many feedback loops of
+activities wherein babies build a causal model of the world
+around them by performing sequences of controlled experi- 60
+ments. The dynamic vision offered by the liquid lens-based
+vision system may, in part, mirror the learning algorithm of
+babies by starting a training set around the object and letting
+its learning algorithm figure out the right way to look at the
+object. 65
+FIG. 124 depicts a schematic illustrating an example
+architecture of a dynamic vision system 11300 depicting a
+[col 2]
+418
+detailed view of various components according to some
+embodiments of the present disclosure. The dynamic vision
+system 11300 for recognizing an object 11302 may include
+an optical assembly 11304 and a processing system 11306.
+The optical assembly 11304 may include a conformable
+liquid lens 11308, a sensor 11310 and an analog to digital
+(AD) converter 11312. The processing system 11306 may
+include a control system 11314, an image processing system
+11316, an adaptive intelligence system 11318, a digital twin
+system 11320 and a simulation system 11322. The adaptive
+intelligence system may include a machine learning system
+11324 and an artificial intelligence system 11326.
+The conformable liquid lens 11308 of the optical assem-
+bly 11304 may frequently adjust in real-time based, in part,
+on change in one or more optical parameters by the control
+system 11314 creating real-time data streams at the sensor
+11310 which are then provided to the processing system
+11306 to generate a situational awareness or computerized
+understanding of the world that the dynamic vision system
+11300 is operating in. This understanding may include rich
+contextual intelligence about the object and its environment
+and may be represented as an object concept. The object
+concept may be used by the processing system for object
+recognition, predicting object motion, location and orienta-
+tion, creating a 3D model of the object, monitoring the
+object for any defects and other applications. For example,
+the adaptive intelligence system 11318 may process the
+object concept to build a three-dimensional representation of
+the object. The machine learning system 11322 in the
+adaptive intelligence system 11318 may input the object
+concept into one or more machine learning models, the
+object concept being used as training data for the machine
+learning models. Further, the artificial intelligence system
+11326 may be configured to make classifications, predic-
+tions, and other decisions relating to the object including
+determining the position, orientation and motion of the
+object.
+In embodiments, the dynamic vision system 11300 may
+be configured to process sensor information to create a
+three-dimensional representation of the object 11302 in a
+single step without the intermediate step of processing into
+flat images.
+In embodiments, the control system 11314 may provide
+control instructions to one or more actuators which in turn
+drive the adjustments in liquid lens configurations. The
+actuators may be operated by a source of energy, typically
+electric current, hydraulic fuid pressure, or pneumatic pres-
+sure, and convert that energy into motion. Examples of
+actuators may include linear actuators, solenoids, comb
+drives, digital micromirror devices, electric motors, electro-
+active polymers, hydraulic cylinders, piezoelectric actua-
+tors, pneumatic actuators, servomechanisms, servo motors,
+thermal bimorphs, screw jacks, or any other type of hydrau-
+lic, pneumatic, electric, mechanical, thermal, magnetic type
+of actuator, or some other type of actuator.
+In embodiments, the control system 11314 may provide
+control instructions to one or more actuators to change the
+focal length of the liquid lens based on stimulation. This may
+provide the dynamic vision system 11300 with an auto-focus
+capability by focusing, refocusing or defocusing the lens to
+a desired focal length. The stimulation mechanism may
+include electrical, hydraulic, pneumatic, mechanical, ther-
+mal or magnetic.
+Some examples of control systems 11314 include elec-
+trowetting, sound piezoelectrics and electro-active poly-
+mers.

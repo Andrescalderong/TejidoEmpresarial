@@ -1,0 +1,137 @@
+robot) may require environment data (e.g-, maps, coordi- 45 In embodiments, the ML system 12212 may provide
+[col 1]
+US 12,567,082 B2
+435
+Depending on where within the robot fleet framework (e.g.,
+fleet management platform-level, fleet-level, or robot-level)
+the intelligence layer 12200 is implemented, intelligence
+layer clients 12260 may be various components of the fleet
+management platform (e.g- the remote control system
+12012, the logistics system 12016, the job configuration
+system 12018, the fleet configuration system 12020, the job
+execution system 12022, and/or the like), a robot fleet (e.g..
+one or more MPRs and/or SPRs in a team or fleet), or
+individual robots (e.g., the robot control system of the robot, 10
+various modules of an MPR, and/or the like). In embodi-
+ments, an intelligence layer client 12260 provides an intel-
+ligence request to the intelligence layer 12200, whereby the
+request is to perform a specific intelligence task (e.g, a
+decision, a recommendation, a report, an instruction, a 15
+classification, a prediction, a training action, an NLP request,
+or the like). In response, the intelligence layer 12200
+executes the requested intelligence task.
+It is noted that in some scenarios, artificial intelligence
+services of the AI system 12204 may be intelligence layer
+20
+clients 12260. For example, a rules-based intelligence sys-
+tem may request an intelligence task from an ML system or
+a neural network system, such as requesting a classification
+of an object appearing in a video and/or a motion of the
+object. In this example, the rules-based intelligence system 25
+may be an intelligence layer client 12260 that uses the
+classification to determine whether to take a specified action.
+In another example, a machine vision system may request a
+digital twin of a specified environment from a digital twin
+system, such that the ML system may request specific data 30
+from the digital twin as features to train a machine-learned
+model that is trained for a specific environment.
+In embodiments, an intelligence task may require specific
+types of data to respond the request. For example, a machine
+vision task requires one ormore images(andpotentially 35
+other data) to classify objects appearing in an image or set
+of images, to determine features within the set of images
+(such as locations of items, presence of faces, symbols or
+instructions, expressions, parameters of motion, changes in
+status, and many others), and thelike.In another example, 40
+an NLP task requires audio of speech and/or text data (and
+potentially other data) to determine a meaning or other
+element of the speech and/or text. In yet another example, an
+Al-based control task (e.g., a decision on movement of a
+nates ofknown obstacles,images, and/or the like)and/ora
+motion plan to make a decision as to how to control the
+motion of a robot. In a platform-level example, an analytics-
+based reporting task may require data from a number of
+different databases to generate a report. Thus, in embodi- 5o r
+ments, tasks that can be performed by an intelligence layer
+instance may require, or benefit from, specific intelligence
+layer inputs 12270. In some embodiments, an intelligence
+layer 12200 may be configured to receive and/or request
+specific data from the intelligence layer inputs 12270 to 55
+perform a respective intelligence task. Additionally or alter-
+natively, the requesting intelligence layer client 12260 may
+provide the specific data in the request. For instance, the
+intelligence layer 12200 may expose one or more APIs to the
+intelligence layer clients 12260, whereby a requesting client 60
+12260 provides the specific data in the request via the API.
+Examples of intelligence layer inputs may include, but are
+not limited to, sensors that provide sensor data (e.g., robot
+sensors, environment sensors, and/or the like), video streams
+(e.g., robot-captured video streams, video camera streams,
+and/or the like), audio streams (e.g-, robot-captured audio
+streams, audio streams captured from an external micro-
+[col 2]
+436
+phone, and/or the like), databases (e.g., platform 12000
+databases, third-party databases, and/or the like), human
+input, and/or other suitable data.
+In embodiments, an intelligence layer 12200 may include
+an intelligence layer controller 12202 and an artificial intel-
+ligence (AI) service 12204. In embodiments, an artificial
+intelligence layer 12200 receives an intelligence request
+from an intelligence layer client 12260 and any required data
+to process the request from the intelligence layer client
+12260. In response to the request and the specific data, one
+or more implicated services of the artificial intelligence
+service 12204 perform the intelligence task and the artificial
+response". An intelligence response may refer to an output
+of the artificial intelligence service 12204. Examples of
+responses may include a decision made by an artificial
+intelligence service (e.g., a control instruction, a proposed
+posed robot configuration, and/or the like), a prediction
+made by an artificial intelligence service (e.g-, a predicted
+meaning of a text snippet, a predicted outcome associated
+with a proposed action, a predicted fault condition and/or the
+like), a classification made by an artificial intelligence
+service (e.g+, a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con-
+dition based on sensor data), and/or other suitable outputs of
+an artificial intelligence service.
+In embodiments, the artificial intelligence service 12204
+may include an ML system 12212, a rules-based system
+12228, an analytics system 12218, an RPA system 12216, a
+digital twin system 12220, a machine vision system 12222.
+an NLP system 12224, and/or a neural network system
+12214. It is appreciated that the foregoing are non-limiting
+examples of artificial intelligence services, and some of the
+systems may be included orleveraged by other systems of
+the artificial intelligence service. For example, the NLP
+system 12224, the machine vision system 12222, and the
+RPA system 12228 may all leverage different neural net-
+works in performance of their respective functions.
+In embodiments, the intelligence services 12204 includes
+and provides access to a ML system 12222 that may be
+integrated into or be accessed by the fleet management
+platform 12000 or any sufficiently configured robot operat-
+ing unit (e.g., an MPR, SPR, a team, a fleet, and/or the like).
+machine-based learning capabilities,features, functions, and
+algorithms for use by an intelligence system client 12260
+such as training ML models, leveraging ML models, rein-
+forcing ML models, performing various clustering tech-
+niques, feature extraction, and/or the like. In an example, a
+machine learning system 12026 may provide machine learn-
+ing computing, data storage, and feedback infrastructure to
+a workflow simulation system of a job configuration system
+to facilitate optimizing workflow development. The machine
+learning system 12026 may also operate cooperatively with
+other fieet intelligence systems, such as the rules-based
+system, the machine vision system 12222, the RPA system
+12216, and/or the like.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a neural network
+system 12214. In embodiments, the neural network system
+12214 is configured to train, deploy, and/or leverage neural
+networks on behalf of an intelligence layer client 12260. In
+embodiments, the neural network system 12214 may be
+65 configured to train any suitable type of neural network that
+may be used by the fleet management platform 12000, a
+robot, a robot team, and/or a robot fleet. Non-limiting

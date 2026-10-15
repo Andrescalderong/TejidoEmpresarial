@@ -1,0 +1,135 @@
+ments, the NLP system 12224 receives an audio stream (e.g-, 50 may determine the governance standards that apply to the
+[col 1]
+US 12,675,781 B2
+485
+one or more images (which may be frames of a video feed
+or single still shot images) and identifies “blobs" in an image
+(e.g, using edge detection techniques or the like). The
+machine vision system 12222 may then classify the blobs. In
+some embodiments, the machine vision system 12222 lever-
+ages one or more machine-learned image classification
+models and/or neural networks (e.g., convolutional neural
+networks) to classify the blobs in the image. In some
+embodiments, the machine vision system 12222 may per-
+form feature extraction on the images and/or the respective 10
+blobs in the image prior to classification. In some embodi-
+ments, the machine vision system 12222 may leverage
+classification made in a previous image to affirm or update
+classification(s) from the previous image. For example, if an
+object that was detected in a previous frame was classified 15
+with a lower confidence score (e.g., the object was partially
+occluded or out of focus), the machine vision system 12222
+may affirm or update the classification if the machine vision
+system 12222 is able to determine a classification of the
+object with a higher degree of confidence. In embodiments, 20
+the machine vision system 12222 is configured to detect
+occlusions, such as objects that may be occluded by another
+object. In embodiments, the machine vision system 12222
+receives additional input to assist in image classification
+tasks, such as from a radar, a sonar, a digital twin of an 25
+environment (which may show locations of known objects),
+and/or the like. In embodiments, the machine vision system
+12222 may output object classifications to an intelligence
+service client 12260, such as a control system of a robot, a
+robot supervisor, an edge device, and/or the like. In some 30
+embodiments, a machine-learning system 12222 (e.g-, of a
+robot operating unit) may include or interface with a liquid
+lens. In these embodiments, the liquid lens may facilitate
+improved machine vision (e.g., when focusing at multiple
+distances is necessitatedbytheenvironmentand job of a 35
+robot) and/or other machine vision tasks that are enabled by
+a liquid lens.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a natural language
+processing (NLP) system 12224. In embodiments, an NLP 40
+ system 12224 performs natural language tasks on behalf of
+an intelligence layer client 12260, such as a control system.
+Examples of natural language processing techniques may
+include, but are not limited to, speech recognition, speech
+ segmentation, speaker diarization, text-to-speech, lemmati- 45
+zation, morphological segmentation, parts-of-speech tag-
+ging, stemming, syntactic analysis, lexical analysis, and the
+like. In embodiments, the NLP system 12224 may enable
+voice commands that are received from a human. In embodi-
+sion on the audio stream to obtain a transcription of the
+audio stream. The NLP system 12224 may process text (e.g..
+ a transcription of the audio stream) to determine a meaning
+of the text using various NLP techniques (e.g., NLP models, 55
+neural networks, and/or the like). In embodiments, the NLP
+system 12224 may determine an action or command that
+was spoken in the audio stream based on the results of the
+NLP. In embodiments, the NLP system 12224 may output
+the results ofthe NLP to an intelligence service client 12260, 60 like.
+such as a control system of a robot, a robot supervisor, an
+edge device, and/or the like.
+In embodiments, the artificial intelligence services 12204
+may also include and/or provide access to a rules-based
+system 12228 that may be integrated into or be accessed by 65
+the fleet management platform 12000 or any sufficiently
+configured robot operating unit (e.g., an MPR, SPR, a team,
+[col 2]
+486
+a fleet, and/or the like). In some embodiments, a rules-based
+system 12228 may be configured with programmatic logic
+that defines a set of rules and other conditions that trigger
+certain actions that may be performed in connection with a
+robot fleet and/or job. In embodiments, the rule-based sys-
+tem 12228 may be configured with programmatic logic that
+receives input and determine whether one or more rules are
+met based on the input. If a condition is met, the rules-based
+system 12228 determine an action to perform, which may be
+output to a requesting intelligence layer client 12260. The
+data received by the rules-based engine may be received
+from an intelligence data source 12270 and/or may be
+requested from another intelligence service 12204, such as
+the machine vision system 12222, the neural network system
+12214, the ML system 12212, and/or the like. For example,
+the rule-based system 12228 may receive classifications of
+objects in a field of view of the robot from the machine
+vision system 12222 and/or sensor data from a lidar sensor
+of the robot and, in response, may determine whether the
+robot should continue in its path, change its course, or stop.
+The rules-based system 12228 may be configured to make
+other suitable rules-based decisions on behalf of a respective
+client 12260, examples of which are discussed throughout
+the disclosure. In some embodiments, the rules-based engine
+which are described in greater detail below.
+In embodiments, the artificial intelligence services 12204
+interfaces with an intelligence layer controller 12202 is
+configured to determine a type of request issued by an
+intelligence layer client 12260 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+to be applied by the artificial intelligence service 12204
+when responding to the request. In embodiments, the intel-
+ligence layer controller 12202 may include an analysis
+management module 12206, a set of analysis modules
+12208, and a governance library 12210.
+In embodiments, an intelligence layer controller 12202 is
+configured to determine a type of request issued by an
+intelligence layer client 12260 and, in response, may deter-
+minea set of governance standards and/oranalyses thatare
+to be applied by the artificial intelligence service 12204
+when responding to the request. In embodiments, the intel-
+ligence system controller 12202 may include an analysis
+management module 12206, a set of analysis modules
+12208, and a governance library 12210. In embodiments, the
+analysis management module 12206 receives a request for
+an artificial intelligence service and determines the gover-
+nance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 12206
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with
+respect to the requested decision. For example, a request for
+a control decision that results in a robot moving to another
+location may implicate a certain set of governance standards
+that apply, such as safety standards, legal standards, quality
+standards, or the like, and/or may implicate one or more
+analyses regarding the control decision, such as a risk
+analysis, a safety analysis, an engineering analysis, or the
+In some embodiments, the analysis management module
+12206 may determine the governance standards that apply to
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a jurisdiction in which a robot
+fleet, a geolocation in which a robot fleet is deployed, an
+environment in which a robot fleet and/or robot operating

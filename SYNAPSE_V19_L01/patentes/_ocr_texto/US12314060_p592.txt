@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+819
+upstream data (e.g., sales forecasts, warehouse data, etc.).
+This may allow a precise view of when to place optimal
+orders that cover specific product demands.
+In some implementations, the set of AI-based learning
+models may include at least one of a transformer model, a
+convolutional neural network, a deep learning model trained
+on a set of outcomes of the value chain network entity, a
+supervised model, a semi-supervised model, an unsuper-
+vised model, or a reinforcement model, and the training data
+set for the set of Al-based learning models may include one 10
+of a set of objects or events that are labeled to classify the
+set of objects or events according to a classification tax-
+onomy that may include at least one of the above-noted
+operating state, the fault condition, the operating flow, or the
+behavior. Other examples of Al-based learning models (e.g-. 15
+machine learning models) may include neural networks in
+general (e.g., deep neural networks, convolution neural
+networks, and many others), regression based models, deci-
+sion trees, hidden forests, Hidden Markov models, Bayesian
+models, and the like. In some implementations, VCN pro- 2o 
+cess 10 may include combinations where an expert system
+uses one neural network for classifying an item (e.g., iden-
+tifying a machine, a component, or an operational mode) and
+a different (or the same) neural network for predicting a state
+of the item (e.g-, a fault state, an operational state, an 25 
+anticipated state, a maintenance state, or the like).
+In some implementations, at least one member of the set
+of Al-based learning models may be trained on the training
+data set to determine, upon receiving the classification, a
+task to be completed for the value chain network. For 30
+instance, in some embodiments, VCN process 10 may
+provide automated recommendations for a set of one or
+more value chain process tasks involving a wide range of
+types of activities, such as, without limitation, product
+configuration activities, product selection activities for a 35
+customer, supplier selection activities, shipper selection
+activities, route selection activities, factory selection activi-
+ties, product assortment activities, product management
+activities, logistics activities, reverse logistics activities,
+artificial intelligence configuration activities, maintenance 40
+activities, product support activities, product recommenda-
+tion activities, demand prediction, defect and quality issue
+detection, item failure prediction, optimization identification
+and execution, and many others such as those discussed
+throughout. For example, in some implementations, execut- 45
+ing the task may include predicting future demand for an
+item in the value chain network. For instance, as discussed
+throughout, VCN process 10's AI-based learning models
+may be used to analyze historical sales data, market trends,
+and other factors to predict future demand for products (such 50
+as the engine part). This may help companies optimize
+inventory levels, production schedules, and pricing strate-
+gies to meet customer demand and maximize revenue.
+In some implementations, VCN process 10 may provide
+18304 a computer code instruction set to a (e.g., a smart) 55
+machine to execute the task to facilitate an improvement in
+the operation of the value chain network. A smart machine
+may generally be described as a device embedded with
+machine-to-machine (M2M) and/or cognitive computing
+technologies, such as Al, Al-based learning or deep learning,
+60
+etc. all of which it may use to reason, problem-solve, make
+decisions and take action. For instance, the smart machine
+may include one or more of a robot, an automated guided
+vehicle (AGV), a smart container, a 3D printer, or a drone.
+As an example, machines (e.g-, smart machines that may 65
+include at least a portion of VCN process 10) such as robots,
+AGVs, smart containers, 3D printers, and drones may be
+[col 2]
+820
+provided with computer code instructions to move materials
+and products throughout the supply chain. As another
+example, smart shop floor equipment may include fixed
+automations or robots on an assembly line to perform
+repetitive actions to speed up production. As another
+example, smart robots maybeused for other repetitivetasks
+such as welding and painting, while also being more efficient
+and precise. Smart machines may be enabled to read bar-
+codes or RFID tags to update inventory records, pick items
+up from storage and package them for shipping without
+human intervention, or use a self-driving vehicle to transport
+goods within a warehouse or distribution center, extract
+order information from emails or electronic documents and
+enter them into a processing system of VCN process 10,
+check invoices for accuracy and process payments, monitor
+inventory levels and trigger reorder requests when a thresh-
+directly to customers, or perform inventory checks in a large
+warehouse or outdoor storage area, as well as any of the
+other tasks described throughout. Smart machines may also
+use the information to assign delivery drivers to specific
+routes to assist with last-mile delivery, scan goods and
+automatically send manifests to warehouses before delivery,
+and send delay alerts by, e.g., tracking the GPS location of
+vehicles, although other tracking methods may also be used
+(e.g., cell tower triangulation). As another example, VCN
+process 10 may include a Computer-Aided Design (CAD)
+software to help designers create product designs and pro-
+totypes more quickly and accurately. These may help com-
+panies reduce labor costs, improve safety, and increase
+efficiency. It will be appreciated that while examples are
+described as a “"smart" machine, this should not be taken to
+exclude similar types of machines that may also be used
+without departing from the scope of the present disclosure.
+In some implementations, providing the computer code
+instruction set to the smart machine to execute the task may
+include instructing 18308 the smart machine to detect
+defects and quality issues in an item in the value chain
+network. For instance, as discussed throughout, VCN pro-
+cess 10's Al-based learning models may be used to detect
+defects and quality issues in an item. For instance, assume
+for example purposes only that the above-noted information
+includes a video and/or a photo associated with the item (as
+well as other data). In the example, the video/photo of the
+actual item may be analyzed by VCN process 10 to identify
+any imperfections in the item itself. An example imperfec-
+tion may include an anomaly in the shape of the item, such
+as a crack or warped portion of the item. This may help
+companies identify and address quality issues early in the
+production process (or even in use), reducing waste and
+improving customer satisfaction. The information may
+include data from one or more sensors associated with the
+item to predict when the item in the value chain network will
+fail. For instance, a temperature sensor, magnetic sensor,
+pressure monitoring sensor, vibration monitoring sensor,
+heat flow monitoring sensor, or any other type of sensor is
+contemplated, which may also be used by a digital twin (or
+otherwise) to help detect defects and quality issues in an
+item.
+In some implementations, providing the computer code
+instruction set to the smart machine to execute the task may
+include instructing 18310 the smart machine to predict when
+an item in the value chain network will fail. For instance, as
+discussed throughout, VCN process 10's AI-based learning
+models may be used to predict when equipment is likely to
+fail. Information used to make the prediction may come
+from, e.g., smart machines equipped with sensors and other

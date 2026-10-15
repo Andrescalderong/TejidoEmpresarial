@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+371
+classified using an unsupervised machine learning algorithm
+such as cluster analysis or an artificial neural network, to
+classify individual objects as either meeting or failing to
+meet a specified set of decision criteria (e.g, a decision
+boundary) in the feature space in which defects are being
+monitored. For example, a partially printed part may be
+compared with a render of the partial part and in case the
+partial part differs beyond a selected threshold from the
+render, the part may be classified as defective.
+10 In embodiments, in-process the defect classification data
+may be used by the machine learning algorithm to determine
+a set or sequence of process control parameter adjustments
+that will implement a corrective action, e.g., to adjust a layer
+dimension or thickness, so as to correct a defect when first
+detected. In some embodiments, in-process automated
+defect classification may be used by the machine learning
+algorithm to send a warning or error signal to an operator, or
+optionally, to automatically abort the deposition process.
+In embodiments, the machine vision system uses a vari- 20 j
+able focus liquid lens-based camera for image capture and
+defect detection. In embodiments, the machine vision sys-
+tem uses infrared or visible wavelength cameras.
+In embodiments, the data processing system is imple-
+mented as the intelligence layer 140 that uses a neural 25
+network to provide real-time, adaptive control of an additive
+manufacturing process including part defect classification
+and feedback.
+In some embodiments, a neural network model may be
+301 used directly to determine adjustments to process control
+parameters using training or learning of a neural network
+model. Initially, the model is allowed to choose randomly
+from a range of values for each input process control
+parameter or action. If the sequence of process control
+parameter adjustments or actions leads to a flaw or defect, it
+is scored as leading to an undesirable (or negative) outcome.
+Repetition of the process using different sets of randomly
+chosen values for each process control parameter or action
+leads to reinforcement of those sequences that least to
+40
+desirable (or positive) outcomes. Ultimately, the neural
+network model “learns" what adjustments to make to a set
+or sequence of deposition process control parameters or
+actions in order to achieve the target outcome, i.e., a
+defect-free printed part. 45
+In embodiments, methods and systems described herein
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain. For example, the CNN may provide automatic
+classification and clustering of parts and defects in an
+additive manufacturing process.
+In embodiments, one or more models building on the
+basic framework of convolutional neural networks may be
+employed. For example, an object detection model may be
+used that extends the functionality of CNN based image
+classification models by not only classifying parts or defects
+but also determining their locations in an image in terms of
+60
+bounding boxes. Similarly, Region-based CNN (R-CNN)
+models may be used to extract regions of interest (ROI),
+where each ROI is a rectangle that may represent the
+boundary of a part in image.
+In embodiments, Capsule Networks may be employed to 65 t
+use fewer labeled training examples to achieve similar
+classification performance of CNNs.
+[col 2]
+372
+In embodiments, transformer-based, encoder-decoder
+architectures using attention mechanisms may be used in
+conjunction with or in place of convolutional neural net-
+works.
+FIG. 117 is a schematic view illustrating a system for
+learning on data from theplatform 10110 to train the
+artificial learning system to use digital twins for classifica-
+tion, predictions and decision-making according to some
+embodiments of the present disclosure.
+Referring to FIG. 117, the digital twin system 10214 in the
+autonomous additive manufacturing platform 10110 may
+include product twins 10215, part twins 10504, printer twin
+10506, user twin 10508, manufacturing node twin 10510,
+packager twin 10512 and the like, that allow for modeling,
+simulation, prediction, decision-making, and classification.
+The digital twin system 10214 may be populated with
+relevant data, for example the product twins 10215 may be
+populated with data related to corresponding product includ-
+ing dimension data, material data, feature data, thermal data,
+price data, and the like
+In embodiments, a digital twin may be generated from
+other digital twins. For example, the product twin 10215
+may be generated using one or more part twins 10504. In
+another example, the part twins 10504 may be generated
+using the product twins 10215. In embodiments, a digital
+twin may be embedded in another digital twin. For example,
+the part digital twin 10504 may be embedded in the product
+digital twin 10215 which may be embedded in the manu-
+facturing node digital twin 10510.
+In embodiments, a simulation management system 10514
+may set up, provision, configure, and otherwise manage
+interactions and simulations between and among digital
+twins 10214.
+In embodiments, the artificial intelligent system 10212 is
+configured to execute simulations in a simulation manage-
+ment system 10514 using the part twins 10502 and/or other
+digital twins available to the digital twin system 10214. For
+example, the artificial intelligent system 10212 may adjust
+one or more features ofthe printer twin 10506 as a set of part
+twins 10504 are printed by the 3D printer. In embodiments,
+the artificial intelligent system 10212 may, for each set of
+features, execute a simulation based on the set of features
+and may collect the simulation outcome data resulting from
+the simulation. For example, in executing a simulation on
+the set of part twins 10504 being manufactured in the printer
+twin 10506, the artificial intelligent system 10212 can vary
+the properties of the printer twin 10506 and can execute
+simulations that generate outcomes. During the simulation,
+the artificial intelligent system 10212 may vary the ambient
+temperature, pressure, humidity, lighting, and/or any other
+properties of the printer twin 10506. In this example, an
+outcome can be a condition of the part twin 10504 after
+being subjected to a high temperature. The outcomes from
+ simulations can be used to train the machine learning models
+10213. In embodiments, the machine learning system 10210
+may receive training data, outcome data, simulation data,
+and/or any other data from other data sources 10114. In
+embodiments, the machine learning system 10210 may
+train/reinforce the machine learning models 10213 using the
+received data to improve the models.
+In embodiments, the machine-learning system 10210
+trains one or more models that are utilized by the artificial
+intelligence system 10212 to make classifications, predic-
+tions, recommendations, and/or to generate or facilitate
+decisions or instructions relating to the product and the part,
+such as decisions or instructions governing design, configu-

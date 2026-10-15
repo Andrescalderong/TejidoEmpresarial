@@ -1,0 +1,135 @@
+embodiments, the task definition system may define a task 3o and scheduling. The fleet configuration scheduler processes
+detections of the cross-referenced keywords can quickly 55 tasks by a properly configured smart container, may also be
+[col 1]
+US 12,567,082 B2
+587
+Defining tasks may include tasks that are predefined by
+standards, laws (e.g., customs), and the like. Each task
+definition may include information useful for identifying a
+smart container type for performing the task.
+In embodiments, the task definition system may process
+task data derived from a freight storage and/or transportation
+service order (e.g., as provided by the freight storage and/or
+transportation service order parser) in the context of smart
+container types by identifying characteristics of smart con-
+tainer types that align with the task data. In example 10
+embodiments, the task definition system may determine that
+task data indicates a characteristic of a smart container for
+shipping may include traveling in an arctic environment. In
+this example, the task definition system may generate a task
+definition for the shipping task that includes at least a 15
+requirement for smart container selection based on this
+characteristic. In these example embodiments, the task defi-
+nition may further include a required degree of tolerance to
+cold temperatures. The task definition system may further
+determine that characteristics of one or more smart contain- 20
+ers (e.g., based on task information derived from the freight
+storage and/or transportation service order) that may not be
+suitable for incorporation in a single smart container/smart
+container type. This determination may be based on, for
+example, smart container characteristics and type data that is 25
+accessible in the library 13044. In such an example, the task
+definition system may define multiple tasks, each with smart
+container characteristics that are consistent with smart con-
+tainer characteristic information in the library 13044. In
+with multiple potentially incompatible smart container char-
+acteristics, optionally along with an indication of one or
+more portions of the task that require each type of the
+multiple incompatible smart container characteristics that a
+fleet configuration system 13020 may use when configuring 35
+fleet resources, such as smart containers and the like. In
+embodiments, a task definition may include one or more
+suggestions for types of smart containers for performing the
+task, such as based on alignment of task requirements (e.g..
+derived from task information of a freight storage and/or 40 r
+transportation service order), smart container characteristics,
+ and smart container types that may be available in the library
+13044. As will be explained below, a fleet configuration
+ system 13020 may evaluate a task definition, including any
+may be communicated when defining a task may include
+task sequence dependencies that may be suitable for defining
+a workflow that includes the defined task. As an example, a
+container self-cleaning task may be required to be performed
+after an unloading task. Such a dependency may be docu- 50 
+mented and relied upon by a workflow definition system.
+The task definer module may save a defined task into the job
+instance storage where it may be cross referenced to job
+descriptive data (e.g., keywords and the like) so that future
+result in a suitable task definition.
+In embodiments, a fleet configuration system 13020 pro-
+vides specific software, hardware, and smart container con-
+figuration requirements for completion of an order execution
+plan. In this example construction, a fleet configuration 60
+proxy module may be constructed to receive task definitions
+from a job configuration system 13018. The fleet configu-
+ration proxy module may be instantiated in association with
+processing of a freight storage and/or transportation service
+order by the job configuration system 13018 to facilitate 65
+access to and use of fleet configuration system 13020
+resources and systems. This and other instantiations of the
+[col 2]
+588
+fleet configuration proxy module are further described in
+association with the job configuration system 13018 herein.
+The fleet configuration proxy module may process task
+definitions and forward them to fleet resource identification
+systems, such as a fleet smart container operating unit
+identification and a fleet non-smart container operating unit
+identification system. Each of these identification systems
+may process the task definition data provided through the
+fleet configuration proxy, separating operational data from
+fleet resource data. A task definition may describe a set of
+fleet resources required to perform the task, such as types of
+smart container operating units, support resources (e.g.,
+power systems, robots, cranes, communication systems, and
+the like). The smart container operating unit type identifi-
+cation system may provide job-specific smart container
+operating unit demand data to the fleet configuration sched-
+uler. The job-specific smart container operating unit demand
+data may identify types and quantities of smart containers,
+specific smart container operating units (e.g-, by unique
+identifier), smart container operating unit capabilities, and
+the like.
+In some embodiments, a fleet configuration scheduler
+may respond to a freight storage and/or transportation ser-
+vice order by allocating fleet resources to meet the freight
+storage and/or transportation service order needs. These
+needs may be preprocessed, as described herein by a job
+configuration system 13018 and specifically by the task
+definition system to facilitate fleet configuration, allocation,
+inputs that describe fleet inventories, such as smart container
+operating unit inventories and traditional container operat-
+ing unit inventories to identify candidate inventory elements
+for satisfying a freight storage and/or transportation service
+order. These inventories may be adjusted based on existing
+allocations of smart container operating units and traditional
+container operating units.
+As an example, all smart containers of a type identified in
+the smart container operating unit job-specific demand data
+maybe allocated throughouta duration oftime within which
+a requested job is constrained to be performed. The fleet
+configuration scheduler (e.g., with support from other sys-
+tem resources such as intelligence service 13004, resource
+provisioning system 13014 and the like) may allocate, based
+on conditions in the freight storage and/or transportation
+service order and smart container type, equivalence data
+available to the fleet configuration scheduler, a smart con-
+tainer for the activities requested. To accomplish this allo-
+cation, an intelligence service 13004 may be provided with
+information descriptive of the functionality to be provided
+by the smart container indicated in the job-specific demand
+data and information descriptive of the tasks and/or activi-
+ties required to be performed by the smart container. Other
+context, such as differences in specifications for performing
+available to the intelligence service 13004. Through use of
+artificial intelligence, which may include determining an
+impact on an overall freight storage and/or transportation
+service order based on use of the two different smart
+container types, the intelligence service 13004 may provide
+smart container substitution guidance to the fleet configu-
+ration scheduler. This guidance may result in allocation of a
+smart container and necessary configuration data/features
+for use when executing an order execution plan that corre-
+sponds to the freight storage and/or transportation service
+order that prompted this fleet configuration scheduling activ-
+ity.

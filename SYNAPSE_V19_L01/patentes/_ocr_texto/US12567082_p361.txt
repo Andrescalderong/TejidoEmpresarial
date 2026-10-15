@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+399
+nodes in the distributed ledger may then run the PBFT
+algorithm using the pending transaction record and each
+node's internal state to come to a conclusion about the
+pending transaction record's validity. Upon reaching said
+conclusion, each node may submit a vote (e.g., "yes" or
+"no") to the other nodes in the distributed ledger. A consen-
+ sus is reached amongst the nodes by taking into account the
+total number of votes submitted by the nodes. Subsequently,
+once a threshold number of nodes have voted “yes,"the
+pending transaction record is treated as "valid' and is
+thereafter appended to the distributed ledger across all of the
+nodes.
+In embodiments, the nodes are paid a transaction fee for
+their mining activities. In embodiments, the distributed
+ledger is a private and permissioned blockchain controlled
+by a single entity or a consortium of trusted entities, that's
+built using a pre-built API provided on CORDA,
+Hyperledger, and Quorum.
+In embodiments, the distributed ledger is a public, per- 20 
+missionless blockchain that's built on Ethereum or bitcoin
+blockchain. In embodiments, the event data related to the
+movement of goods through the supply chain in the trade
+finance network may be tracked using an IoT subsystem.
+In embodiments, transaction records stored in the distrib- 251
+uted ledger may be hashed, encrypted, or otherwise pro-
+tected from unauthorized access and may only be accessible
+utilizing a private key to decrypt the stored information/data.
+The blockchain may be a single blockchain configured for
+storing all transactions therein, or it may comprise a plurality
+of blockchains, wherein each blockchain is utilized to store
+transaction records indicative of a particular type of trans-
+action. For example, a first blockchain may be configured to
+store shipment data and supply chain transactions, and a
+second blockchain may be configured to store financial
+transactions (e.g., via a virtual currency).
+In embodiments, the distributed ledger system includes a
+decentralized application downloadable by entities in the
+distributed manufacturing network.
+In embodiments, the distributed ledger system includes a
+user interface configured to provide a set of unified views of
+the workflows to the set of entities of a distributed manu-
+facturing network.
+In embodiments, the distributed ledger system includes a 45
+user interface configured to provide tracking and reporting
+on state and movement of a product from order through
+manufacture and assembly to final delivery to the customer.
+In embodiments, the distributed ledger system includes a
+system for digital rights management of entities in the 5o t
+distributed manufacturing network. In embodiments, the
+distributed ledger system stores digital fingerprinting infor-
+mation of documents/files and other information including
+creation,modification.
+In embodiments, the distributed ledger system includes a 55
+cryptocurrency token to incentivize value creation and trans-
+fer value between entities in the distributed manufacturing
+network.
+In embodiments, the distributed ledger system includes a
+system for attesting the experience of a manufacturing node. 60
+In embodiments, the distributed ledger system includes a
+system for capturing the end-to-end traceability of a part.
+In embodiments, the distributed ledger system includes a
+system for tracking all transactions, modifications, quality
+checks and certifications on the distributed ledger.
+In embodiments, the distributed ledger system includes a
+system for validating capabilities of a manufacturing node.
+[col 2]
+400
+In embodiments, the distributed ledger system includes
+smart contracts for automating and managing the workflows
+in the distributed manufacturing network.
+In embodiments, the distributed ledger system includes a
+smart contract for executing a purchase order covering the
+scope of work, quotation, timelines, and payment terms.
+In embodiments, the distributed ledger system includes a
+smart contract for processing of payment by a customer
+upon delivery of product.
+In embodiments, the distributed ledger system includes a
+smart contract for processing insurance claims for a defec-
+tive product.
+In embodiments, the distributed ledger system includes a
+smart contract for processing warranty claims.
+In embodiments, the distributed ledger system includes a
+smart contract for automated execution and payment for
+maintenance.
+FIG. 121 is a schematic illustrating an example imple-
+mentation of a distributed manufacturing network where the
+digital thread data is tokenized and stored in a distributed
+ledger so as to ensure traceability of parts printed at one or
+more manufacturing nodes in the network according to some
+embodiments of the present disclosure. A user of the dis-
+tributed manufacturing network 10130 may provide the
+product requirements in the form of a purchase order or a 3D
+printing instruction set 10902. The 3D printing instruction
+set 10902 contains key specifications and requirements like
+product design, material for printing, quantity to be printed,
+price that the user is willing to pay for the print and the
+timelines for completing the printing. The 3D printing
+instruction set 10902 may also include one or more files
+(e.g., a CAD file and/or an STL file) and any accompanying
+instructions for printing the product defined in the file.
+Upon receipt, the 3D printing instruction set 10902 is
+35 tokenized and stored in the distributed ledger 10624 in the
+autonomous additive manufacturing platform 10110. The
+underlying information in the 3D printing instruction set
+10902 is stored in the form of a unique record represented
+by a block number with an address on the distributed ledger,
+which in turn is represented by a cryptographic token. The
+cryptographic token captures the value of the underlying
+information in the 3D printing instruction set 10902 as
+ownership or access rights to the distributed ledger address
+and tracks the transfer of such ownership between users of
+the distributed manufacturing network 10130. For example,
+in FIG. 121, the 3D printing instruction set 10902 is token-
+ized in the form of a random 256 bit integer
+A091BC3. ,and stored in the distributed ledger 10624
+represented by address BC22. As the new block is added to
+the distributed ledger 10624 at node 10128 all the copies
+stored at various nodes including the manufacturing node
+10100, the manufacturing node 10800 and the manufactur-
+ing node 10802 get updated with the new block. The
+matching system 10632 in the autonomous additive manu-
+facturing platform 10110 may help with matching the pur-
+chase order or the 3D printing instruction set 10902 with one
+or more manufacturing nodes or 3D printers. The matching
+may be based on factors like printer capabilities, locations of
+the customer and the manufacturing nodes, available capac-
+ity at each node, pricing and timelines requirements. In
+embodiments, a smart contract operates on the ledger, such
+as to trigger conditional logic embodied in the smart con-
+tract, such as tracking satisfaction of delivery obligations,
+releasing insurance obligations (such as insurance covering
+products during shipment), and the like. In embodiments,
+the smart contract may allocate financial value, such as to
+tax and customs authorities, to credit and debit card issuers,

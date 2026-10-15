@@ -1,0 +1,135 @@
+for retrieval together, and/or all memories that were related 45 market pricing processes, among many others. LTM sce-
+[col 1]
+US 12,314,060 B2
+705
+inherent variability from historical patterns (e.g-, in rates of
+change, departure from norm, etc.), data indicative of high
+variability in historical performance (such as data having
+similar characteristics to data sets involved in situations
+where the ANN performed poorly in training), or the like.
+In embodiments, the DPANN system 20000 may retain
+encoded datasets within the DPLF system according to
+and/or as part of one or more storage processes. The DPLF
+system may store the encoded datasets in LTM as necessary
+after the encoded datasets have been stored in STM and
+determined to be no longer necessary and/or low priority for
+a current operation of the ANN, training process, retraining
+process, etc. The LTM may be implemented by storing
+scenarios, and the DPANN system 20000 may apply asso-
+ciated data and/or unprocessed data to the discovery of new
+scenarios. For example, data from certain processed data
+streams, such as semantically encoded datasets, may be
+primarily stored in LTM. The LTM may also store image
+(and sensor) datasets in encoded form, among many other
+examples.
+In embodiments, the LTM may have relatively high
+storage capacity, and datasets stored within LTM may, in
+some scenarios, be effectively stored indefinitely. The
+DPANN system 20000 may be configured to remove data-
+sets from the LTM, such as by passing LTM data through a 25
+to trigger utilization (similar to where a biological brain
+"thinks very hard" to find precedent to deal with a challeng-
+ing problem), thereby providing increased salience of more 30
+recent or more frequently used memories while retaining the
+ability to retrieve (with more time/effort) older memories
+when the situation justifies more comprehensive memory
+utilization. As such, the DPANN system 20000 may arrange
+datasets stored in the LTM on a timeline, such as by storing
+the older memories (measured by time of origination and/or
+latest time of utilization) on a separate and/or slower system,
+by penalizing older memories by imposing artificial delays
+in retrieval thereof, and/or by imposing threshold require-
+ments before utilization (such as indicators of high demand 40
+for improved results). Additionally or alternatively, LTM
+may be clustered according to other categorization proto-
+cols, such as by topic. For example, all memories proximal
+in time to a periodically recognized person may be clustered
+to a scenario may be clustered for retrieval together.
+In embodiments, the DPANN system 20000 may modu-
+larize and link LTM datasets, such as in a catalog, a
+hierarchy, a cluster, a knowledge graph (directed/acyclic or
+having conditional logic), or the like, such as to facilitate 5o t
+search for relevant memories. For example, all memory
+modules that have instances involving a person, a topic, an
+item, a process, a linkage of n-tuples of such things (e.g., all
+memory modules that involve a selected pair of entities), etc.
+The DPANN system 20000 may select sub-graphs of the 55
+knowledge graph for the DPLF to implement in one or more
+domain-specific and/or task-specific uses, such as training a
+model to predict robotic or human agent behavior by using
+memories that relate to a particular set of robotic or human
+agents, and/or similar robotic or human agents. The DPLF 60
+system may cache frequently used modules for different
+speed and/or probability of utilization. High value modules
+(e.g., ones with high-quality outcomes, performance char-
+acteristics, or the like) can be used for other functions, such
+as selection/training of STM keep/forget processes. 65
+In embodiments, the DPANN system 20000 may modu-
+larize and link LTM datasets, such as in various ways noted
+[col 2]
+706
+above, to facilitate search for relevant memories. For
+example, memory modules that have instances involving a
+person, a topic, an item, a process, a linkage of n-tuples of
+such things (such as all memory modules that involve a
+selected pair of entities), or all memories associated with a
+scenario, etc., may be linked and searched. The DPANN
+system 20000 may select subsets of the scenario (e.g.,
+sub-graphs of a knowledge graph) for the DPLF for a
+domain-specific and/or task-specific use, such as training a
+ 10 model to predict robotic or human agent behavior by using
+memories that relate to a particular set of robotic or human
+agents and/or similar robotic or human agents. Frequently
+used modules or scenarios can be cached for different
+speed/probability of utilization, or other performance char-
+acteristics. High value modules or scenarios (ones where
+high-quality outcomes results) can be used for other func-
+tions, such as selection/training of STM keep/forget pro-
+cesses, among others.
+In embodiments, the DPANN system 20000 may perform
+20 LTM planning, such as to find a procedural course of action
+for a declaratively described system to reach its goals while
+optimizing overall performance measures. The DPANN
+system 20000 may perform LTM planning when, for
+example, a problem can be described in a declarative way,
+the DPANN system 20000 has domain knowledge that
+should not be ignored, there is a structure to a problem that
+makes the problem difficult for pure learning techniques,
+and/or the ANN needs to be trained and/or retrained to be
+able to explain a particular course of action taken by the
+DPANN system20000.In embodiments, the DPANN sys-
+tem 20000 may be applied to a plan recognition problem,
+ie., the inverse of a planning problem: instead of a goal
+state, one is given a set of possible goals, and the objective
+in plan recognition is to find out which goal was being
+35 achieved and how.
+In embodiments, the DPANN system 20000 may facilitate
+LTM scenario planning by users to develop long-term plans.
+For example, LTM scenario planning for risk management
+use cases may place added emphasis on identifying extreme
+orunusual, yetpossible, risks and opportunities that are not
+usually considered in daily operations, such as ones that are
+outside a bell curve or normal distribution, but that in fact
+or “fat tail" situations, such as involving information or
+nario planning may involve analyzing relationships between
+forces (such as social, technical, economic, environmental,
+and/or political trends) in order to explain the current
+situation, and/or may include providing scenarios for poten-
+tial future states.
+In embodiments, the DPANN system 20000 may facilitate
+LTM scenario planning for predicting and anticipating pos-
+sible alternative futures along with the ability to respond to
+the predicted states. The LTM planning may be induced
+from expert domain knowledge or projected from current
+scenarios, because many scenarios (such as ones involving
+results of combinatorial processes that result in new entities
+or behaviors) have never yet occurred and thus cannot be
+projected by probabilistic means that rely entirely on his-
+torical distributions. The DPANN system 20000 may pre-
+pare the application to LTM to generate many different
+scenarios, exploring a variety of possible futures to the
+DPLM for both expected and surprising futures. This may be
+facilitated or augmented by genetic programming and rea-
+soning techniques as noted above, among others.
+In embodiments, the DPANN system 20000 may imple-
+ment LTM scenario planning to facilitate transforming risk

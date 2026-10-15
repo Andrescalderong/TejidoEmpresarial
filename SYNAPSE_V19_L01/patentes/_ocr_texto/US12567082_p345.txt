@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+367
+system utilizing a digital twin wherein the digital twin
+calculates the optimal movement of the powder removal
+system while de-powdering.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for an automated, hands-free sup-
+port structure removal.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for automated surface finishing.
+In embodiments, the autonomous additive manufacturing
+platform 10110 provides for automated part metrology for
+use with integrated quality and process control systems.
+In embodiments, manufacturing methods described
+herein may use material additives during processing that
+impart various characteristics in finished parts. Examples in
+plastic injection molding include glass fiber for added
+strength, and electrically conductive and shielding fibers for
+tailored electrical properties. For some applications, orien-
+tation of added fibers or other materials may affect the
+performance of finished parts. For example, in a glass fiber 20 
+reinforcement application, long fiber orientation may dictate
+minimum and maximum deformation orientations under
+stress. Fiber orientation during manufacturing may be only
+partially controlled through mold design, injection nozzle
+location and pressure, and other process controls. 25
+3D printed parts may also be manufactured using material
+additives; however, most 3D printing methods can only
+produce materials with limited ability to optimize additive
+characteristics such as fiber orientation to help optimize
+finished part performance. For example, 3D printers may use 30
+nozzles that extrude various plastic materials, but inherent
+flow characteristics of a fixed nozzle, and limitations of the
+3D printing process in general, limit options for finished part
+material engineering. Such use of 3D printing nozzles offer
+theabilityto control orientation of additivematerials as they 35
+are laid down for part production. This development pro-
+vides the opportunity to finely tailor material performance,
+for example, localized orientations for structural enhance-
+ment, or homogeneous random orientation for electrical
+shielding performance. In examples, this capability may be 40
+provided by a 3D printing nozzle that uses actuated flexible
+elements to change the shape of the nozzle during material
+application, resulting in predictable fiber orientations. This
+may be used in conjunction with other printing process
+parameters such as nozzle orientation, flow rate and pres- 45
+sure, and the like to further refine material characteristics.
+Use case examples include, but are not limited to: one or
+more engineering characteristics that may vary across a
+single part to provide targeted performance, for example
+varying stiffness; optimized use of materials based on 50 i
+enhanced process control, for example using less material to
+produce a part with the same functional performance, and
+providing control of multiple additives to impart combined
+capabilities, for example orientation of structural long fibers
+for structural performance, combined with randomized con- 55
+ductive additives for a specified electrical performance.
+In embodiments, of the present disclosure, including ones
+involving artificial intelligence, machine learning, automa-
+tion (including robotic process automation, remote control,
+autonomous operation, automated configuration, and the 60
+like), expert systems, self-organization, adaptive intelligent
+systems for prediction, classification, optimization, and the
+like,may benefit from the use of a neural network, such as
+a neural network trained for pattern recognition, for classi-
+fication of one or more parameters, characteristics, or phe- 65
+nomena, for support of autonomous control, and other
+purposes.
+[col 2]
+368
+Neural networks (or artificial neural networks) are a
+family of statistical learning models inspired by biological
+neural networks and are used to estimate or approximate
+functions that may depend on a large number of inputs and
+are generally unknown. Neural networks represent a system
+other. The connections have numeric weights that can be
+tuned based on experience, making neural nets adaptive to
+inputs and capable of learning.
+References to artificial intelligence, neural networks or
+neural net throughout this disclosure should be understood
+to encompass a wide range of different types of machine
+learning systems, neural networks, such as feed forward
+neural networks, convolutional neural networks (CNN),
+recurrent neural networks (RNN), long short-term memory
+(LSTM) neural networks, gated recurrent unit (GRU) neural
+networks, self-organizing map (SOM) neural networks (e.g.,
+Kohonen self-organizing neural networks), autoencoder
+(AE) neural networks, encoder-decoder neural networks,
+modular neural networks, or variations, hybrids or combi-
+nations of the foregoing, or combinations with reinforce-
+ment learning (RL) systems or other expert systems, such as
+rule-based systems, and model-based systems (including
+ones based on physical models, statistical models, flow-
+based models, biological models, biomimetic models and
+the like).
+The foregoing neural networks may have a variety of
+nodes or neurons, which may perform a variety of functions
+on inputs, such as inputs received from sensors or other data
+sources, including other nodes to predict one or more
+outputs. Functions may involve weights, features, feature
+vectors, and the like. Neurons may include perceptrons,
+neurons that mimic biological functions (such as the human
+senses of touch, vision, taste, hearing, and smell), and the
+like. Neural networks can employ multiple layers of opera-
+tions including one or more hidden layers situated between
+an input layer and an output layer. The output of each layer
+can be used as input to another layer, e.g., the next hidden
+layer or the output layer. The output of a particular neuron
+can be a weighted sum of the inputs to the neuron, adjusted
+with a bias and multiplied by an activation function, e.g., a
+rectified linear unit (ReLU) or a sigmoid function.
+In many embodiments, an expert system or neural net-
+work may be trained, such as by a human operator or
+supervisor, or based on a data set, model, or the like.
+Training a neural network can involve providing inputs to
+the untrained neural network to generate predicted outputs,
+comparing the predicted outputs to expected outputs, and
+updating the algorithm's weights and biases to account for
+the difference between the predicted outputs and the
+expected outputs. Specifically, a cost function can be used to
+calculate a difference between the predicted outputs and the
+expected outputs. By computing the derivative of the cost
+function with respect to the weights and biases of the
+network, the weights and biases can be iteratively adjusted
+over multiple cycles to minimize the cost function. Training
+may be complete when the predicted outputs satisfy a
+convergence condition, e.g., a small magnitude of calculated
+cost as determined by the cost function.
+Training may include presenting the neural network with
+one or more training data sets that represent values (includ-
+ing the many types described throughout this disclosure), as
+well as one or more indicators of an outcome, such as an
+outcome of a process, an outcome of a calculation, an
+outcome of an event, an outcome of an activity, or the like.
+Training may include training in optimization, such as
+training a neural network to optimize one or more systems

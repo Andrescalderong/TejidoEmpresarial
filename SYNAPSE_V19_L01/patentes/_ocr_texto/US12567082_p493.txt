@@ -1,0 +1,136 @@
+In some embodiments, the edge network system 16100 60 a digital approach. Analog approaches may include, but are
+[col 1]
+US 12,567,082 B2
+663
+In some embodiments,the edge network system16100
+has a system for storing and replicating data streams for later
+use by a machine learning and/or artificial intelligence
+system.
+In some embodiments, the edge network system 16100
+has robotics as edge devices.
+In some embodiments, the edge network system 16100
+has a system for enabling local control.
+In some embodiments, the edge network system 16100
+has a system for customizing security of the network and/or 10 s
+devices on the network.
+In some embodiments, the edge network system 16100
+has a system for configuring channels for various types of
+communications.
+In some embodiments, the edge network system 16100 15
+has a system for configuring an environment after discovery
+of devices.
+In some embodiments,the edgenetwork system16100
+has a system for customizing a network by data scheduling
+and resource availability.
+In some embodiments, the edge network system 16100
+has a system for customization of data routing, processing.
+and/or computing based on data type and/or security.
+In some embodiments, the edge network system 16100
+has custom virtualization deployments. 25
+In some embodiments, the edge network system 16100
+has a system for customization of neural network layering to
+form new AI structures.
+In some embodiments, the edge network system 16100
+has a system for customization of antenna layouts and power 30
+supply to meet specified needs.
+In some embodiments, the edge network system 16100
+has a system for enabling wireless charging that includes
+AI-based battery optimization and AI management of heat
+production. 35
+In some embodiments, the edge network system 16100
+has a system for customizing the human interface.
+In some embodiments, the edge network system 16100
+has a system for customization of the optimal routing
+algorithm in service customized 5G networks. 40
+In some embodiments, the edge network system 16100
+has a network device.
+In some embodiments, the edge network system 16100
+has an AI chipset.
+In some embodiments, the edge network system 16100 45
+has channelization beyond the front end.
+In some embodiments, the edge network system 16100
+has channelization beyond the interface.
+In some embodiments, the edge network system 16100
+has a system for creating and managing a digital twin of a 50 c
+network and/or AI edge system.
+In some embodiments, the edge network system 16100
+has an edge-device-as-a-service system.
+In some embodiments, the edge network system 16100
+has a reader-as-a-service system. 55
+In some embodiments, the edge network system 16100
+has a gateway-as-a-service system.
+In some embodiments, the edge network system 16100
+has a repeater-as-a-service system.
+has an asset tag-as-a-service system.
+In some embodiments, the edge network system 16100
+has a robotic data collector-as-a-service system.
+Quantum Computing for VCNs
+FIG. 160 ilustrates an example quantum computing sys- 65 bits, or qubits.
+tem 17000 according to some embodiments of the present
+disclosure. In embodiments, the quantum computing system
+[col 2]
+17000 provides a framework for providing a set of quantum
+computing services to one or more quantum computing
+clients. In some embodiments, the quantum computing
+system 17000 framework may be at least partially replicated
+in respective quantum computing clients (e.g., VCN control
+towers and/or various VCN entities). In these embodiments,
+an individual client may include some or all of the capa-
+bilities of the quantum computing system 17000, whereby
+the quantum computing system 17000 is adapted for the
+specific functions performed by the subsystems of the quan-
+tum computing client. Additionally, or alternatively, in some
+embodiments, the quantum computing system 17000 may be
+implemented as a set of microservices, such that different
+quantum computing clients may leverage the quantum com-
+puting system 17000 via one or more APIs exposed to the
+quantum computing clients. In these embodiments, the
+quantum computing system 17000 may be configured to
+perform various types of quantum computing services that
+may be adapted for different quantum computing clients. In
+either of these configurations, a quantum computing client
+may provide a request to the quantum computing system
+17000, whereby the request is to perform a specific task
+(e.g., an optimization). In response, the quantum computing
+system 17000 executes the requested task and returns a
+response to the quantum computing client.
+Referring to FIG. 160, in some embodiments, the quan-
+tum computing system 17000 may include a quantum
+adapted services library 17002, a quantum general services
+library 17004, a quantum data services library 17006, a
+quantum computing engine library 17008, a quantum com-
+puting configuration service 17010, a quantum computing
+execution system 17012, and quantum computing API inter-
+face 17014.
+In embodiments, the quantum computing engine library
+17008 includes quantum computing engine configurations
+17016 and quantum computing process modules 17018
+based on various supported quantum models. In embodi-
+ments, the quantum computing system 17000 may support
+many different quantum models, including, but not limited
+to, the quantum circuit model, quantum Turing machine,
+spintronic computing system (such as using spin-orbit cou-
+pling to generate spin-polarized electronic states in non-
+magnetic solids, such as ones using diamond materials),
+adiabatic quantum computer, one-way quantum computer,
+ quantum annealing, and various quantum cellular automata.
+Under the quantum circuit model, quantum circuits may be
+based on the quantum bit, or “qubit", which is somewhat
+analogous to the bit in classical computation. Qubits may be
+in a 1 or 0 quantum state or they may be in a superposition
+of the 1 and O states. However, when qubits have measured
+the result of a measurement, qubits will always be in is
+always either a 1 or 0 quantum state. The probabilities
+related to these two outcomes depend on the quantum state
+that the qubits were in immediately before the measurement.
+Computation is performed by manipulating qubits with
+quantum logic gates, which are somewhat analogous to
+classical logic gates.
+In embodiments, the quantum computing system 17000
+may be physically implemented using an analog approach or
+not imited to, quantum simulation, quantum annealing, and
+adiabatic quantum computation. In embodiments, digital
+quantum computers use quantum logic gates for computa-
+tion. Both analog and digital approaches may use quantum
+In embodiments, the quantum computing system 17000
+includes a quantum annealing module 17020 wherein the

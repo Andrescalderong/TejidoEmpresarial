@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+459
+tial service condition, such as a robot operating unit signal-
+ing to a supervisor robot that it is experiencing reduced
+power output, a robot operating unit reporting exposure to
+certain ambient conditions (e.g., excessive heat), a lack of
+heartbeat signal from a robot operating unit to a robot health
+monitor resource, and the like. Further, a maintenance
+management system 12026 may deploy probes within robot
+maintenance management functions on a robot operating
+unit, such as monitoring information in a robot data store 10
+that stores robot operating unit state information, activating
+self-test operating modes, collection of data that provides
+indications of robot maintenance needs and the like. Yet
+further a maintenance management system 12026 may
+include maintenance robots that may be deployed with other 15
+robots in a team of robot operating units for performing a
+requested job. A maintenance robot may be a configuration
+of a multi-purpose robot deployed with a robot team. Such
+a configuration may be temporal within bounds of a team
+deployment. A multi-purpose robot deployed for performing 20
+tasks of a job workflow may be reconfigured dynamically
+(and optionally temporarily) while deployed to a team to
+perform maintenance actions on other robots and fleet
+resources.
+A maintenance management system 12026 may be con- 25
+structed to take advantage of a range of platform services
+and capabilities to schedule and effectuate maintenance,
+including leveraging human/operator input (e.g, a human
+observer may indicate that a robot operating unit appears to
+be operating erratically), robotic process automation of 3o
+maintenance activities, artificial intelligence for predicting
+maintenance instances for scheduling, machine learning to
+help identify new opportunities for scheduling and perform-
+ing maintenance (e.g., analyze performance of robot oper-
+before performing certain tasks under those conditions, such
+as replacing air filters before performing tasks in a dusty
+environment), and the like. In embodiments, a maintenance
+management system 12026 may receive maintenance related
+input. Maintenance related input may include maintenance 40
+requests from robot operating units (for the requesting robot
+operating unit or for another robot operating unit, such as a
+companion robot operating unit). Maintenance related input
+may include request from or for maintenance of edge
+devices (e.g-, fixed infrastructure devices, fleet resources, 45
+job site proximal and/or job-specific edge devices, such as
+edge devices deployed at a job site by a job requestor and the
+like). Other candidate sources of maintenance related input
+may include supervisor robot operating units, human opera-
+tors/observers, maintenance scheduling services, third-party 50
+service providers, robot production vendors, and parts pro-
+viders to schedule maintenance. The maintenance manage-
+ment system 12026 may also leverage business rules (e.g..
+rules established for a team, fleet, by a job requestor,
+determined by a regulatory agency and the like), association 55
+tables, data sets, databases, and/or maintenance management
+libraries to determine appropriate maintenance workflows,
+service actions, needed parts and the like. In embodiments,
+a maintenance activity may be assigned by the maintenance
+management system to a fleet resource, such as a mainte- 60
+nance robot, a human technician, a third-party service pro-
+vider and the like.
+In embodiments, robot operating units that are deployed
+may be configured with one or more maintenance protocols
+to perform, among other things self-maintenance, such as 65
+structures to maintain a high degree of mobility, and the like.
+[col 2]
+460
+Self-maintenance may include, without limitation, reduction
+in capabilities responsive to detection of a compromised
+robot operating unit feature, such as a rotating mechanism
+that no longer rotates continuously through 360 degrees. A
+deployed robot operating unit may determine that a capa-
+bility is compromised and, optionally with support of the
+maintenance management system 12026, may swap assign-
+ments with another robot so that the compromised capability
+can be resolved when time permits rather than causing a
+delay in completion of a task. Also, robot operating unit
+intelligence (e.g., on-robot Al and the like) may predict a
+compromise in robot capabilities based on, for example,
+time-to-failure data for the robot capability. If the time of
+this predicted compromise lands within a target task perfor-
+mance timeframe, the robot operating unit may call for
+pre-emptive maintenance to be performed while the robot
+operating unit is in transit to a job site. The maintenance
+management system 12026 may process this call for main-
+tenance and coordinate maintenance resources to be avail-
+able during transit, and/or at a job site when the robot
+operating unit is expected to arrive.
+In embodiments, the maintenance management system
+12026 may leverage the intelligence services of an intelli-
+gence layer 12200 (e.g., the platform 12000 level intelli-
+gence layer 12004) to predict when maintenance may be
+performed for robot operating units and/or components
+thereof. In some of these embodiments, the maintenance
+management system 12026 may request a digital twin of a
+robot operating unit from the intelligence layer 12200. In
+these embodiments, the digital twin may reflect a current
+condition of the robot operating unit, such that the robot
+operating unit digital twin may be analyzed to determine
+whether maintenance is required for the robot operating unit.
+Additionally or alternatively, the digital twin service of the
+intelligence layer 12200 may run one or more simulations
+involving the robot operating unit to predict when mainte-
+nance may be required. In some of these embodiments,
+outputs of the digital twin of the robot operating unit may be
+analyzed (e.g., using a machine-learned prediction model or
+required.
+in embodiments, the fleet operations system 12002
+includes a job configuration system 12018. In embodiments,
+a job configuration system receives job requests, such as
+from customers that request a job. In embodiments, a job
+request may indicate a set of job request parameters. Non-
+limiting examples of job request parameters may include:
+types of projects and tasks (e.g., inspection tasks, packaging
+tasks, unloading tasks, loading tasks, shipping tasks, assem-
+bling tasks, monitoring tasks, digging tasks, construction
+tasks, delivery tasks, or the like), budget, timeline, environ-
+ment description (e.g., indoors/outdoors, size of the envi-
+ronment, communication capabilities of the environment,
+layouts/blueprint/digital twin of the environment, or the
+like), location (e.g., region, address, coordinates, or the like),
+and any other suitable parameters. In embodiments, the job
+request parameters which may be indicative of what types of
+robot operating units are needed and/or functionalities
+thereof. These and other job request details are described
+elsewhere herein.
+In embodiments, the job configuration system 12018 may
+utilize a job request to define a job configuration as a set of
+projects that are to be completed in performance of a job,
+which may be ordered in a job-level workflow. For each
+project, the job configuration system 12018 may define a
+workflow that defines a set of tasks that are done in comple-
+tion of a project. In determining the job configuration, the

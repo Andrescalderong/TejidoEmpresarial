@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+661
+ing system may be determined by the VCN control tower
+16112 according to one or more of the VCN tasks.
+In embodiments, the edge networking system 16100 may
+include one or more of the following modules: edge device-
+as-a-service module 16302, application-specific protocol
+module 16304,edge roboticsmodule16306, SDWAN mod-
+ule 16308, network customization module 16310, AI chipset
+interfacing module 16312, 5G software definition module
+16314, edge networking AI module 16316, tunable signal
+filtering module 16318, network routing module 16320, AI
+network enhancement module 16322, and edge network
+digital twin module 16324.
+In embodiments, the edge device-as-a-service module
+16302 is configured to facilitate provision of one or more
+15
+functions of the edge environment 16102-108 on which the
+edge networking system 16100 is installed and/or of one or
+more functions of the configured edge networking device
+16100 to other devices and/or platforms with which the edge
+networking system 16100 is in communication, such as via
+20
+the VCN bus 16110. For example, a configured instance of
+the edge networking system 16100 installed on a smart
+container may make functions of the smart container avail-
+able to other connected items (e.g., a fulfillment system) via
+the edge device-as-a-service module 16302. 25t
+In embodiments, the application-specific protocol module
+16304 is configured to determine and/or facilitate provision
+of one or more application-specific networking protocols to
+the edge environment 16102-108 on which the edge net-
+working system 16100 is installed and/or to one or more 30
+other devices and/or platforms with which the edge net-
+working system 16100 is in communication, such as via the
+VCN bus 16110. For example, the application-specific pro-
+tocol module 16304 may facilitate communication to and/or
+ing data via a proprietary encrypted communication proto-
+col.
+In embodiments, the edge robotics module 16306 is
+configured to facilitate networking related to robotics at the
+edge environment 16102-16108.The edge robotics module 40 1
+16306 may, for example, provide one or more of robotics-
+related data routing, robotics-related communication proto-
+col selection and enabling, local control interfacing, remote
+control interfacing, sensor data transmission and reception,
+and other suitable features to robots local to and/or remote 45
+from the edge environment 16102-108 on which the edge
+networking system 16100 is installed.
+In embodiments, the SDWAN module 16308 is config-
+ured to facilitate creation, management, and/or handling of
+communications via a software-defined wide area network 5o 
+(SDWAN). The edge networking system 16100 may, for
+example,definea SDWANvia the SDWANmodule16308.
+and/or some or all of the devices connected to the SDWAN
+may have instances of the edge networking system 16100
+installed thereon to facilitate communications within the 55
+SDWAN defined by one or more SDWAN modules 16308.
+In embodiments, the network customization module
+16310 is configured to facilitate creation, management,
+customization, and/or handling of one or more networks.
+The edge networking system 16100 may customize a net-
+work for a specific VCN task via the network customization
+module 16310. For example, the network customization
+module may facilitate customization of a network related to
+a VCN task involving demand prediction for a particular
+product and/or industry. The network may be customized to 65
+facilitate fast, efficient, secure communication between
+devices connected thereto.
+[col 2]
+662
+In embodiments, the AI chipset interfacing module 16312
+is configured to enable performing of one or more network-
+ing tasks by the edge networking system 16100 via one or
+more AI chipsets. For example, the edge networking system
+16100 may make one or more network routing determina-
+tions via an AI system embedded on an AI chipset. Addi-
+tionally or alternatively, the Al chipset interfacing module
+16312 may be configured to facilitate receiving data from
+and/or transmitting data to an AI chipset in communication
+10 with the edge environment 16102-108 on which the edge
+networking system 16100 is installed, such as via the VCN
+bus 16110.
+In embodiments, the 5G software definition module
+16314 is configured to facilitate management, customiza-
+tion, handling, and/or other tasks related to 5G networks. For
+example, telecom installation 16106 on which the edge
+networking system 16100 is installed may be or include a 5G
+base station, and the software definition module 16314 of the
+edge networking system 16100 of the 5G base station may
+perform one or more networking tasks related to managing
+traffic passing through the 5G base station. Additionally or
+alternatively, in some examples, 5G-enabled mobile devices
+connected to a 5G network may have communication via the
+network facilitated by instances of the 5G software defini-
+tion module 16314 installed thereon.
+In embodiments, the edge networking AI module 16316 is
+configured to perform artificial intelligence and/or machine-
+learning-related functions related to one or more of the
+networking tasks. For example, routing determinations, pro-
+tocol selections, protocol management, encryption pro-
+cesses, filtering determinations, and/or any other suitable
+type of networking task may be performed and/or assisted
+by AI/ML via the edge networking AI module 16316.
+In embodiments, the tunable signal filtering module
+transmitted and/or received by and/or within the edge envi-
+ronment 16102-108. The tunable signal filtering module
+16318 may include one or more tunable digital filters. The
+tunable digital filters may tune signals to, for example,
+reduce network traffic by culling unnecessary communica-
+tions, remove or reduce third-party signals “piggybacking"
+on the edge environment 16102-108, filter IoT sensor data,
+and/or the like.
+In embodiments, the network routing module 16320 is
+respect to signals sent and/or received by the edge environ-
+ment 16102-108. The network routing operations may
+include networking tasks such as, for example, determining
+an optimal data path for sensor data within a premises,
+determining optimal traffic flow for a 5G network, deter-
+mining a routing device by which mobile data should be
+transmitted, and the like.
+In embodiments, the AI network enhancement module
+16322 is configured to optimize network performance via
+one or more Al and/or machine-learning processes. For
+example, the AI network enhancement module 16322 may
+use one or more AI and/or machine learning processes to
+determine optimal protocols for data throughput, and/or to
+make predictions and/or simulations of network conditions
+6o and congestion/throughput thereof.
+In embodiments, the edge network digital twin module
+16324 is configured to create and/or manage one or more
+digital twins related to networking by, at, and/or on one or
+more ofthe edge environments 16102-108. For example, the
+digital twin module 16324 may model a network within a
+production factory and run simulations via the digital twin to
+predict network congestion.

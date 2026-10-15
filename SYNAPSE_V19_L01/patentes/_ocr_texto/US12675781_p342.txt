@@ -1,0 +1,138 @@
+capabilities or determine compatibility ofOEM part material 45 as material origin (e.g-, reclaimed from recycling or other
+hybrid workflows include the build-up of worn part areas or 55 and the like. The platform may automatically generate a
+[col 1]
+US 12,675,781 B2
+433
+titanium, Inconel, and 316 stainless steel as materials that
+meet corrosion requirements; a material analysis, assisted by
+simulations from the printer twin 10506 and the process and
+material selection twin 10702, that identifies powder bed
+fusion or metal material extrusion as 3D printing processes
+that match availability of the additive manufacturing units
+10102; a stress and weight matrix analysis calculated for
+part geometry and loading that eliminates Inconel and 316
+stainless steel due to weight considerations, but qualifies
+titanium for both weight and maximum stress. Following
+10
+completion of the screening analysis, process and selection
+system 10704 is used to complete final additive manufac-
+turing unit 10102 selection from the subset of additive
+manufacturing units 10102 available for manufacturing.
+Hybrid Part Workflows
+The selection and use of one or more hybrid manufactur-
+ing workflows optimized for applying additive material on
+existing parts may be automated to produce a modified part
+assembly. Hybrid part workflows can be used to develop
+new manufacturing processes, repair existing parts, and 20
+modify existing parts to improve value chain outcomes.
+The autonomous additive manufacturing platform 10110
+may take as input existing and OEM part information
+comprising physical, chemical, manufacturers specifica-
+tions, etc., including information based on expert feedback 25
+and/or feedback from trials/outcomes. The AI system 10212
+uses input data to help with automatic validation of a part for
+one or more hybrid workflows in the workflow management
+applications 10208.
+In a part repair example, data from the user interface 30 f
+10112 and the data sources 10114 are provided to the design
+and simulation 10116. Example data includes a combination
+of measurements and expert observations and/or OEM part
+information such as specifications and CAD models. The
+design and simulation system 10116 analyzes part dimen- 35 i
+sional and material repair requirements with reference to
+their compatibility with at least one type of additive manu-
+facturing unit 10102 in the manufacturing node 10100. The
+design and simulation 10116 may be assisted by the artificial
+intelligence 10212, the simulation management 10514, and 40
+the digital twin system 10214, for example, analyses may
+include the use of the printer twin 10506 and the part twin
+10504 in the digital twin system 10214 to simulate modified
+part manufacturing outcomes using available 3D printer
+with available 3D printer materials.
+After a modified part is validated by the design and
+simulation 10116 to be compatible with one or more of the
+additive manufacturing units 10102 in the manufacturing
+node 10100, modified part data is exported to the autono-
+mous additive manufacturing platform 10110 where the
+process and material selection system 10704 selects one or
+more of the additive manufacturing units 10102 for manu-
+facturing using one or more hybrid workflows. Example
+replacement of chipped or cracked areas of parts.
+Referring to FIGS. 118 and 119, when modified part
+manufacturing is complete, part and process data related to
+the outcome of the 3D printing process is collected by the
+data collection and the management system 10202, where 60
+data comprising modified part parameters, measurements,
+and so on can be exported to systems responsible for
+managing warranty, safety, and related compliance, for
+example the ERP system 10644, the certification system
+10654, the compliance system 10656, etc. In embodiments, 65
+data may be used to set parameters for a smart contract, such
+as populating warranty-related, safety-related, liability-re-
+[col 2]
+434
+lated, or other terms of a smart contract. The platform and/or
+smart contract may store the data in a blockchain.
+In embodiments, hybrid manufacturing workflows may be
+used to modify an existing part design to produce a new
+design, for example when incorporating new functional or
+safety features that improve part performance.
+In embodiments, hybrid manufacturing workflows may be
+used to produce new parts comprising multiple materials
+that may require more than one 3D printer or 3D printing
+process to produce targeted part or product characteristics.
+Referring to FIGS. 114 and 115, in embodiments, hybrid
+manufacturing workflows may specify and manage special-
+ized pre-processing 10104 and post-processing 10106, for
+the additive manufacturing unit 10102 manufacturing.
+15 Examples include part cleaning, machining, grinding, sur-
+face finishing, etc. to enable 3D printing, or to produce
+modified parts that meet original equipment part specifica-
+tions.
+Feedstock Formulation
+The selection, purchase, and management of 3D printer
+feedstock may be automated and optimized to improve
+manufacturing efficiency, control supply chain logistics and
+cost, and to provide new part production capabilities.
+Referring now to FIG. 119, a feedstock formulation
+system 10706,helped by the artificial intelligence 10212 and
+a feedback formulation twin 10708, automatically formu-
+lates and adjusts 3D printer feedstock according to produc-
+tion requirements, supply chain conditions, pricing and
+availability information or other data. For example, the
+feedstock formulation system 10706 may select commer-
+cially available feedstock such as Ni Alloy 718 from GE
+Additive, or suggest local manufacture of an equivalent
+material at lower cost from commercially available constitu-
+ent materials. In embodiments, pricing and availability
+information may be managed by processing, such as by an
+API of the platform and/or the feedstock formulation sys-
+tem, a set of the terms and conditions of a set of smart
+contracts, such as smart contracts that provide current and/or
+future (e.g., in a spot market at designed times in the future)
+pricing information,availability information (including by
+volume, by time and by delivery location) for various classes
+of feedstock materials, including by material type, material
+quality (e.g., where there are varying grades of the material
+that can be purchased as feedstock), or other properties (such
+sustainable sources, mined with sustainable practices, pur-
+chased from ethical sources, and the like). In embodiments,
+the platform may aggregate availability information, pricing
+and the like across multiple smart contracts or a blend of
+smart contracts and other sources (e.g., offers that are placed
+in the platform by data entry and/or API)to provide an
+aggregated feedstock availability data structure upon which
+the system may operate, such as where feedstock may come
+in lots or batches from different suppliers, places of origin
+feedstock purchasing plan, which may include a set of
+current purchases, purchases of options or futures, and a
+plan for future purchases. In embodiments, the platform may
+automatically modify the feedstock purchasing plan based
+on changes in conditions, such as needs (e.g., where pro-
+duction varies relative to plan and/or demand varies relative
+to plan), pricing (of end products and/or materials), avail-
+ability, and the like. This may occur using artificial intelli-
+gence, such as by robotic process automation trained on a
+training set of feedstock purchasing management data,
+which may use any of the machine learning or other artificial
+intelligence techniques described herein, including super-

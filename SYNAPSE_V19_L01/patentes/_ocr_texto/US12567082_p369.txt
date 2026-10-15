@@ -1,0 +1,132 @@
+light into analog electrical signal corresponding to light 55 be implemented as the intelligence layer 140o that receives
+[col 1]
+US 12,567,082 B2
+415
+tenants, such as tenants of a building, campus, city, or the
+like, including operational needs (such as for spare parts,
+products, tools, accessories, supplies, replacement parts, and
+the like, among many others) and many others. Among
+many examples, additive manufacturing units 10102 may
+produce elements needed for specialized tenants, such as
+personal protective equipment, ventilators, wearable items,
+tools, or the like, as well as elements needed for IT infra-
+structure (such as connectors, plugs and the like, such as to
+fiber optic cables, Ethernet ports, and the like), and many
+others. In embodiments, the shared resources may be moni-
+tored, such as with various utilization tracking techniques,
+such as event logs of networking nodes, logs of software
+systems, and the like, and may be provisioned by an auto- 15
+mated provisioning system, including allocating payment
+responsibilities, allocating usage rights, setting prioritization
+of resource utilization (such as by tenant, by time, by task,
+and the like). This may include automated management by
+of data of expert resource managers. This may be a super-
+vised, semi-supervised or deep learning process, and may
+include training on outcomes, such as profitability out-
+comes, tenant feedback outcomes, user satisfaction out-
+comes, security outcomes, operational outcomes, and many 25
+others. Resource sharing and payments may be governed
+and controlled by a smart contract, such as with governing
+rules for allocating resources and conditional logic deter-
+mining prioritization and/or payment responsibilities,
+optionally operating on a distributed ledger of events involv- 30 
+ing the resources. In embodiments, the smart contract frame-
+work may itself be a shared resource offered to tenants, such
+as to enable them to offer services, share resources (such as
+with other tenants, including any of the resources noted
+herein as well as others), and the like. 35
+Liquid Lens
+FIGS. 122-127 relate to various embodiments and appli-
+cations of liquid lens devices. Liquid lens devices may be
+used in an assortment of applications, including for autono-
+mous systems that rely on image classification to perform 40
+tasks. Liquid lens devices may be integrated into many
+different areas of a value chain to improve performance of
+sensing capabilities and image classification, amongst other
+things. 45
+FIG. 122 is a diagrammatic view illustrating an example
+implementation of a conventional computer vision system
+11100 for recognizing an object 11102 of interest. The
+computer vision system 11100 includes a lens assembly
+11104 that attempts to focus light from the object 11102 onto 50
+a sensor 11106. The sensor 11106 may be an image sensor
+such as a charge coupled device (CCD) or complementary
+metal oxide semiconductor (CMOS) device containing array
+of photo sensitive elements. The sensor may convert the
+intensity. An analog to digital (AD) converter 11108 then
+converts analog voltage into digital data. This raw digital
+data is then sent to an image processing system 11110 for
+analysis. The image processing system 11110 then processes
+the raw digital data to generate an image 11112. The image
+and post-processing including image scaling, noise reduc-
+tion, color adjustment, brightness adjustment, white balance
+adjustment, sharpness, adjustment, contrast adjustment and
+the like to enhance the image quality. Further the image may 65
+be analyzed using machine learning or other algorithms to
+identify one or more objects in the image.
+[col 2]
+416
+Conventional computer vision systems 11100 have many
+limitations. The attempt to recreate vision by creating
+focused images leads to the loss of a large amount of
+information and leaves the vision system 11100 with limited
+data. The computer vision system 11100 typically generate
+two dimensional images of three-dimensional objects and
+are unable to capture information related to aspects like
+object depth, motion, orientation and the like. The algo-
+rithms in the computer vision system 11100 attempt to infer
+information about a 3D scene/object from 2D frames and
+information thereby limiting the quality of inferences.
+FIG. 123 is a schematic illustrating an example imple-
+mentation of a dynamic vision system 11200 for dynami-
+interest according to an embodiment of the present disclo-
+sure. The dynamic vision system 11200 may replace and/or
+augment the lens 11104 of a conventional vision system
+11100 with a variable focus liquid lens 11204. The variable
+focus liquid lens 11204 may be an electrically controlled cell
+containing optical-grade liquid, that is deformed through
+electric current, changing the shape of the lens. The dynamic
+vision system 11200 leverages this flexibility of liquid lens
+11204 by constantly adjusting lens parameters to dynami-
+cally change various optical characteristics of light that pass
+through the lens including focal length, spherical aberration,
+field curvature, coma, chromatics aberrations, distortion,
+vignetting, ghosting and flaring, and diffraction of light. A
+fully variable liquid lens thus allows for more dynamic input
+for a sensor 11206 enabling it to capture visual information
+and metadata that is otherwise lost in the conventional
+computer vision system 11100.
+An analog to digital (AD) converter 11208 may generate
+digital data from the rich visual information captured at the
+pre-processing, and post-processing capabilities may gener-
+ate images that are based with additional optical parameters
+as part of image. The processing system 11209 may also
+include a control system 11212 configured to adjust one or
+more optical parameters in real time including focal length,
+liquid materials, specularity, color, environment and lens
+shape. An adaptive intelligence system 11214 may then
+dynamically learn on a training set of outcomes, parameters,
+and data collected from the liquid lens 11204 to generate an
+object concept 11216. The object concept 11216 may
+include contextual intelligence about the object and its
+environment which may then be processed by adaptive
+intelligence system 11214 to recognize the object 11202.
+In embodiments, the adaptive intelligence system 11214
+may include artificial intelligence capability, such as involv-
+ing machine learning or other algorithms, neural networks,
+expert systems, models and others, to process the input data
+from the liquid lens and dynamically learn the object con-
+cept to provide superior object recognition and vision.
+In embodiments, adaptive intelligence system 11214 may
+requests from a set of intelligence layer clients and responds
+to such request by providing intelligence services to such
+clients (e.g, a decision, a classification, a prediction or the
+like).
+In embodiments, the dynamic vision system 11200 may
+feed real-time adjustable data streams to the processing
+system 11209 to generate situational awareness or create
+out-of-focus images of the object 11202 so as to capture
+large amounts of information that is otherwise lost when
+inferring depth and distance in a focused image of a con-
+ventional vision system 11100. The dynamic input to the
+liquid lens 11204 may provide richer metadata for image

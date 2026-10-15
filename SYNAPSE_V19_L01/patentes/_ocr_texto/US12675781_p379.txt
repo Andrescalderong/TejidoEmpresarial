@@ -1,0 +1,139 @@
+[col 1]
+US 12,675,781 B2
+507
+cooperatively with elements of the fleet management plat-
+form 12000, such as a fleet operations system 12002 and
+platform intelligence layer 12004, to learn robot assignment
+from, for example, human operator assignment activity.
+Other learning that an artificial intelligence system may
+yield in context of robot fleet configuration and operation
+may be based on outcome measures of success including
+task completion, time to completion, cost of completion,
+quality of completion, ROI for resources, resource utiliza-
+tion, and others.
+These and other job configuration details, including
+operational flows of the job configuration system 12018 are
+depicted and described in related figures herein.
+In embodiments, a fleet operations system 12002 includes
+a fleet and robot configuration system 12020 (also referred 15
+to as fleet configuration system 12020) that may work
+cooperatively with a job configuration system 12018 to
+determine configurations of fleet resources (e.g., robot oper-
+ating units, teams, and the like) to satisfy job requests from
+a plurality of concurrent and/or overlapping job requests. 20
+The fleet configuration system 12020 may determine fleet
+and robot configurations based on job requests, projects,
+robot tasks, a budget, a timeline, availability of robots or
+robot types, the configurability options of multi-purpose
+robots, and/or other suitable considerations. As an example, 25
+fleet configuration may include specifying a quantity of each
+type of robot that can be configured per job, project, task or
+other unit of configuration. In some embodiments, the fleet
+configuration system 12020 may leverage the platform
+12000-level intelligence layer 12004 to determine fleet 30 
+and/or multi-purpose robot configurations. In some of these
+embodiments, the intelligence request may include a pro-
+posed job configuration and other relevant data (e.g., bud-
+getary constraints, location, environment, etc.). In response,
+the intelligence system 12004 may output a proposed fleet 35
+configuration (which may include multi-purpose robot con-
+figurations). Further details of a fleet configuration system
+12020 are described and depicted in figures elsewhere
+herein.
+In embodiments, a fleet operations system 12002 may 40
+include a job execution, monitoring, and reporting system
+12022 (also referred to as a job execution system 12022). A
+job execution system 12022 may receive a job execution
+plan from the job configuration system 12018 that it pro-
+cesses by coordinating activities of platform functions, such 45
+as logistics for robot and fleet resource delivery, data pro-
+cessing system 12030 allocation for facilitating data collec-
+tion, cataloging, library management and data processing
+activities for job execution. In general, the job execution
+system 12022 may start a job with committing and manag- 50
+ing resources, including resources beyond those configured
+by the job configuration system 12018, such as computing.
+storage, bandwidth, and the like as may be defined by and/or
+determined to be useful for executing the job execution plan.
+In embodiments, the job execution system 12022 may 55 
+further facilitate adherence to reporting requirements (e.g..
+job-specific, fleet-specific, compliance-related reporting,
+and the like) associated with job execution. In embodiments,
+reporting may include data collection (e.g., from robot
+operating units, sensor systems, user devices, databases, 60
+and/or the like), data processing, and feedback preparation
+for use of job execution data by job and fleet configuration
+systems and the like. In embodiments, the job execution
+system 12022 may be assisted by other platform capabilities
+that transmit, process, store, and manage data that impacts 65
+job execution, such as the maintenance management system
+12026, the resource provisioning system 12014, and the
+[col 2]
+508
+communication management system 12010 that facilitates
+communications among robot operating units, teams, and
+fleets, and others. These and other fleet and external
+resources may provide information to the job execution
+system 12022 for facilitating operational aspects of a
+requested job, such as which communication resources has
+the fleet communication management system 12010
+reserved and/or allocated for the requested job, service
+and/or maintenance requirements for robot operating unit
+10 and other resources being used to execute a job, changes to
+resource provisioning that occur after operation of a job has
+commenced, and the like.
+In embodiments, the job execution system 12022 may
+further facilitate evaluation and modification of a job execu-
+tion plan while executing the job by, for example identifying
+bottle necks that are developing due to on-the-job conditions
+(e.g., traffic jams, ground conditions not as expected due to
+excessive rain, and the like).
+In embodiments, the job execution system 12022 may
+perform a variety of data pipeline functions during execution
+of a job. In embodiments, data pipeline functions may
+include, among other things, optimizing use of preconfig-
+ured sensor and detection packages that combine sensor
+selection, sensing, information collection, preprocessing,
+routing, consolidation, processing, and the like. In embodi-
+ments, sensor and detection packages may be activated by
+the job execution system 12022 when use thereof is indi-
+cated as serving a range of monitoring/reporting activities.
+Other data pipeline function examples include optimizing
+on-robot storage, selective sensor data filtering for reduced
+impact on communication bandwidth (e.g., reducing the
+demand for wireless network utilization), exception condi-
+tion detection and pipeline adaptation/data filtering, and
+others.
+In embodiments, the job execution system 12022 may
+monitor, and if necessary, address robot power demand
+during job execution. In these embodiments, the job execu-
+tion system 12022 may ensure, for example, battery charge
+capacity (or other energy source levels, such as fuel levels)
+across multiple robot operating units to meet job task and
+workflow requirements, such as a queue of tasks that should
+not be interrupted. In embodiments, robot power demand
+management may include fleet, team, and individual robot
+operating unit routing to complete tasks with reduced delays
+in overall productivity with integrated robot charging activi-
+ties. Further details of the functions and operation of the job
+execution system 12022 are described throughout the dis-
+closure.
+In embodiments, fleet functionality, including during job
+execution may be combined with 3D printing services and
+systems to enable, for example, agile, remote, flexible
+manufacturing on an as-demanded basis through, for
+example, deployment and use of optionally automated
+robotic 3D printing and production capabilities proximal to
+a point of use (e.g, a job site, a logistics site, a warehouse,
+a transportation vehicle, and the like). Another exemplary
+use of fleet robot functionality with 3D printing combines
+this agile flexible production capability with customizable
+product delivery for last-mile customization of products.
+Several exemplary embodiments of 3D printing functional-
+ity combined with the methods and systems of fleet man-
+agement are described elsewhere herein, including, without
+limitation on-robot 3D printing of service items at a service
+site; 3D printing of job specific end-effectors and/or adaptors
+based on context acquired at a job site; robot control of
+transportable (e.g., job site-deployed) 3D printing systems;
+3D scanning and in-situ printing, and the like.

@@ -1,0 +1,135 @@
+In some implementations, a governance service may be 5o is likely that multiple value chains may need to be managed
+[col 1]
+US 12,314,060 B2
+777
+and/or relay the external data 21050' to a sub-level comput-
+ing device 21200' that consumes the external data 21050
+may become burdensome or computationally expensive.
+Referring to the example implementations of FIGS. 176C
+and 176D, the control architecture 21000' may be adapted to
+cater to a specific organization of an enterprise. In other
+words, the SOS structure that includes the CSS may be
+deployed to provide system management at any business
+unit level. To illustrate, FIG. 176C depicts a management
+a control layer 21310', an operational layer 21320', an
+activity layer 21330t, and a service layer 21340t. Although
+the management stack 21300t is depicted as a 4-layer
+management stack 21300', the principles of a primary SOS
+ system and a secondary SOS system may be applied to more
+15 or less layers (e.g., a 3-layer stack, a 5-layer stack, or a
+10-layer stack).As shown in FIG. 176D, one reason for the
+enterprise's value chain workflow. For instance, in FIG.
+176D, an enterprise may have a plurality of enterprise value
+20
+chain networks that correspond to the operational groups/
+teams of the enterprise. FIG. 176C has four different opera-
+tional groupsmarketing and sales, logistics, service, and
+operations. Each operational group may be capable or
+expected to perform one or more activities for the enterprise. 25
+And moreover, each activity may use a set of services to
+perform the respective activity. In this sense, the service
+the set of services 21342'a-n (e.g., data sourcing services,
+data processing services, intelligence services, analytics 30
+services, smart contracts services, distributed ledger ser-
+vices, governance services, security services, risk manage-
+ment services, etc.) that perform an activity 21332°. The
+activity layer 21330' corresponds to the activity 21332
+performed by an operational group ofthe enterprise and the 35
+tional team performing the activity 21332' with the set of
+services 21342.
+In some implementations, a distributed ledger service
+may increase traceability of material supply chain to ensure 40
+corporate standards are met, as well as lower losses from
+counterfeit/gray market trading. A distributed ledger service
+may also improve visibility and compliance over outsourced
+contract manufacturing, as well as reduce paperwork and
+administrative costs, strengthen corporate reputation 45
+through providing transparency of materials used in prod-
+ucts, improve credibility and public trust of data shared,
+reduce potential public relations risk from supply chain
+malpractice, and engage stakeholders.
+used for access of a system in a VCN setting, including a set
+of policies, procedures, and controls that are implemented to
+ensure secure access to the system. The governance service
+may be responsible for managing and controlling access to
+the system by employees, suppliers, and other stakeholders 55
+in the supply chain network. The governance service may
+define the rules and requirements for accessing the system,
+including the authentication and authorization processes.
+This may involve establishing user roles and permissions,
+defining access levels, and implementing controls to ensure 60
+that only authorized individuals can access the system. The
+governance service may also be responsible for monitoring
+and auditing system access to detect and prevent unauthor-
+ized access or misuse of the system. This may involve
+regular review of user access logs and other system activity 65
+to identify potential security breaches or policy violations.
+Additionally, the governance service may be responsible for
+[col 2]
+778
+enforcing compliance with regulatory requirements and
+industry standards for data privacy and security. This may
+involve establishing and maintaining security protocols and
+procedures to protect sensitive data and information from
+unauthorized access or disclosure. In some implementations,
+innovationssuch as haptics,biometrics,andAImay be
+applied to enhance the security and functionality of the
+governance service. For instance, haptics may be used to
+provide a multi-factor authentication process that includes
+physical verification such as fingerprints or facial recogni-
+tion, in addition to traditional login credentials such as
+username and password. Biometrics may also be used to
+enable continuous authentication, which may involve moni-
+toring user behavior and biometric data to detect and prevent
+unauthorized access or suspicious activity. Al may be used
+to analyze access logs and other system activity data to
+identify potential security threats or policy violations in
+real-time. This may include identifying patterns of access
+that are outside of normal behavior or detecting unusual
+activity that could indicate a security breach. A scoring
+system may be used to assess the performance or behavior
+of individuals or organizations within the governance sys-
+tem. This may be used to identify areas for improvement or
+to provide incentives for good behavior. A Know Your
+Business (KYB) system may be used to verify the identity
+and legitimacy of businesses that are operating within the
+governance system. This may help prevent fraud, money
+laundering, or other illegal activities. A KYC system may be
+used to verify the identity of individuals who are participat-
+ing in the governance system. This may help prevent fraud,
+identity theft, or other illegal activities. In some implemen-
+tations, integrated blockchain technology may be used as a
+distributed ledger to record and verify transactions or inter-
+actions within the governance system. For example, a block-
+chain-based voting system may be used to ensure the
+integrity of elections or decision-making processes within
+the governance system. Another way to use blockchain is to
+create smart contracts that automatically execute certain
+actions or decisions within the governance system based on
+predefined rules. This can help reduce the risk of human
+error or fraud. Blockchain may also be used to create
+decentralized autonomous organizations (DAOs), which are
+organizations that operate based on rules encoded in smart
+contracts on a blockchain. DAOs may be used to create more
+democratic and decentralized governance structures, where
+decisions are made through transparent and decentralized
+voting processes.
+As mentioned previously, the organizational structure of
+an enterprise, and especially a large enterprise, means that it
+or controlled to perform the objective, goal, or purpose of
+the enterprise. With this being the case, the control archi-
+tecture 21000t may enable a primary system 21100' or
+control tower SOS to control multiple value chains from a
+central management position. For example, FIG. 176C
+depicts a single control tower SOS on the control layer
+21310' as the overall management hub for the management
+stack 21300'. The primary system 21100' may then manage
+one or more supporting operations 21322' (e.g., sub-level
+computing devices 21200' that are operation specific) on the
+operational layer 21320t. For instance, a first value chain
+may follow the first path p1 while a second value chain may
+follow the second path p2. For either value chain, the
+operational layer 21320 includes a set of supporting opera-
+tions 21322'. in terms of this example, a value chain network
+refers to a value chain that flows through a particular
+operational entity. That is, each operational entity or sup-

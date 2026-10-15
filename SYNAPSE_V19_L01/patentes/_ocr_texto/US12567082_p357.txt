@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+391
+recommendation or guidance. In embodiments, design
+libraries may also include product assemblies, wherein com-
+pleted assemblies and all parts in the assembly meet func-
+tional or class criteria.
+In embodiments, one or more candidate parts are auto-
+matically selected by a design optimization system 10710.
+With help from the machine learning system 10210 and the
+artificial intelligence system 10212, the design optimization
+system 10710 optimizes the part design and submits the
+same to the autonomous additive manufacturing platform 10
+10110 for manufacturing.
+In embodiments, the design optimization system 10710
+may use machine learning models trained by product design
+experts. In embodiments, the design optimization system
+10710 may use machine learning models trained using data 15
+of prior designs and their outcomes.
+In embodiments, the design optimization system 10710
+may use a generative or evolutionary approach to design.
+The system may start with design goals and then explore
+innumerable variations by adding constraints before select- 20
+ing a final design based on evolutionary models. The evo-
+lutionary models are based on the principle of natural
+selection, such as where the most optimal designs are
+selected from among an initial population of potential
+designs through a series of evolutionary stages. Generative 25
+models may include models like DALL-ErM that mix visual
+and text-based artificial intelligence systems, as well as
+further hybrids for generating visual, 3D, text, color, texture,
+strength, flexibility, and many other properties, including
+using specialized artificial intelligence systems for generat- 30
+ing variations of each of a large set of properties and
+generating combinations, such as pairs, triplets, and higher-
+order n-tuples of properties. In embodiments, generative
+models may generate and/or select design instance that
+represent combinations of properties that are shared among 35
+semantically distinct objects or topics, such as a cat and
+basket in order to produce and/or select a set of designs that
+embody the shared set of properties.
+In embodiments, evolutionary models may be based on
+genetic algorithms (GA), evolution strategy (ES) algo- 40
+rithms, evolutionary programming (EP), genetic program-
+ming (GP), and other suitable evolutionary algorithms. In
+embodiments, the evolutionary models may use various
+feedback and filtering functions, such as ones based on
+semantic properties, ones based on design constraints (such 45 
+as acceptable color palette for brand), ones based on physi-
+cal or functional requirements, ones created by consumer
+engagement (such as surveys, engagement tracking and/or
+A/B testing), ones based on outcomes (such as sales, profits,
+or others), ones based on cost (of materials, manufacturing,
+50
+logistics, or others), ones based on safety or liability, ones
+based on regulatory requirements or certification, and many
+others. In embodiments, feedback to design evolution is
+taken from a set of smart contracts, such as a set of smart
+contracts that offer various design variations for purchase, 55
+reservation, or the like. For example, a design may be
+evolved based on favorable smart contract engagement, such
+as where a particular design is reserved via the set of smart
+contracts at a profitable price and in favorable volumes.
+In embodiments, an evolutionary design system coupled 60
+to a set of additive manufacturing units 10102 continuously
+offers a set of products via smart reservation contracts by
+which users may reserve units for manufacturing according
+to the offered designs, such that the capacity of the additive
+manufacturing system is continuously engaged in evolving
+the designs to provide the most favorable outcomes in the
+smart contracts (based on measures of profitability, for
+[col 2]
+392
+example) and selling the products to the users who reserved
+them via the smart contracts. Smart contract parameters,
+including prices, terms of delivery and the like, may be
+automatically adjusted, such as to account for time to
+manufacture, logistics factors, and the like. The system may
+be configured to integrate with an e-commerce system, such
+as to offer products on a marketplace, an auction site, a
+mobile application, or the like, as well as with other envi-
+ronments where purchasing is enabled, such as on-site
+systems (kiosks), in-game transaction environments, AR/VR
+environments, smart displays, and many others.
+Referring to FIG. 116 and FIG. 119, when manufacturing
+is complete, part and process data related to the outcome of
+the 3D printing process is collected by the data collection
+and management system 10202. Outcome data is provided
+to the machine learning system 10210, as feedback along
+with simulation, external, and training data to train or
+improvethelearningmodel10213.
+Risk Prediction and Management
+Referring now to FIG. 119, a risk prediction and man-
+agement system 10712 interfaces with, links to, or integrates
+the artificial intelligence system 10212. In example embodi-
+ments, the risk prediction and management system 10712
+may be configured to predict and manage risk or liability
+with respect to manufacturing, delivery, utilization and/or
+disposal of a part, product or other item by the distributed
+manufacturing network 10130, among other risks or liabili-
+ties.
+In embodiments, the machine-learning system 10210
+trains one or more of the models 10213 that are utilized by
+the artificial intelligence system 10212 to make classifica-
+tions, predictions, and/or other decisions relating to risk
+management, including for parts and products manufactured
+by the distributed manufacturing network 10130 and for the
+systems, workflows, and other activities in which they are
+involved.
+In example embodiments, the model 10213 may be
+trained to predict risk of part failure by detecting the
+condition of a part. The machine learning system 10210 may
+train the model using part data and one or more outcomes
+associated with the part condition, such as on a training set
+of data on outcomes of similar parts, similar materials, and
+the like, including historical data on wear-and-tear during
+usage, historical data on material deterioration under various
+ambient or environmental conditions, data on defects or
+faults discovered during inspection or reported by customers
+or others, and other data sources. Part data may include any
+of the attributes or parameters noted throughout this disclo-
+sure and the documents incorporated by reference herein,
+such as part material, part properties, manufacturing date,
+material supplier, part specifications and the like. In this
+example, outcomes used to train the machine learning sys-
+tem 10210 to predict risk, failure of liability may include
+projected outcomes from models, such as scientific models
+ofvarious types described throughout this disclosure and the
+documents incorporated by reference herein (e.g., physics,
+chemistry, biology, materials science, and others), economic
+models, and many others, which in embodiments may be
+embedded into a digital twin system, such as to model
+whether a part twin 10504, product twin, or other twin is in
+a favorable operating condition during or after simulation of
+a set of events, a passage of time, or the like. In this example,
+one or more properties of the part twin 10504 are varied for
+different simulations and the outcomes of each simulation
+may be recorded. Other examples of training risk prediction
+and management models may include the model 10213 that

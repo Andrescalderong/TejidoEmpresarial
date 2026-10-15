@@ -1,0 +1,140 @@
+[col 1]
+US 12,314,060 B2
+293
+above ground features), classification of materials (including
+fluids, minerals, metals, and the like), and other problems.
+This may include fuzzy classification.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a structure-adaptive neural network, where the
+structure of a neural network is adapted, such as based on a
+rule, a sensed condition, a contextual parameter, or the like.
+For example, if a neural network does not converge on a
+ solution, such as classifying an item or arriving at a predic-
+10
+tion, when acting on a set of inputs after some amount of
+training, the neural network may be modified, such as from
+a feedforward neural network to a recurrent neural network.
+such as by switching data paths between some subset of
+nodes from unidirectional to bi-directional data paths. The 15
+structure adaptation may occur under control of an expert
+system, such as to trigger adaptation upon occurrence of a
+trigger, rule or event, such as recognizing occurrence of a
+threshold (such as an absence of a convergence to a solution
+within a given amount of time) or recognizing a phenom- 20
+enon as requiring different or additional structure (such as
+recognizing that a system is varying dynamically or in a
+non-linear fashion). In one non-limiting example, an expert
+system may switch from a simple neural network structure
+like a feedforward neural network to a more complex neural 25
+network structure like a recurrent neural network, a convo-
+lutional neural network, or the like upon receiving an
+indication that a continuously variable transmission is being
+used to drive a generator, turbine, or the like in a system
+being analyzed. 30
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an autoencoder, autoassociator or Diabolo neural
+network, which may be similar to a multilayer perceptron
+("MLp") neural network, such as where there may be an
+input layer, an output layer and one or more hidden layers
+connecting them. However, the output layer in the auto-
+encoder may have the same number of units as the input
+layer, where the purpose of the MLP neural network is to
+reconstruct its own inputs (rather than just emitting a target 40
+value). Therefore, the auto encoders may operate as an
+unsupervised learning model. An auto encoder may be used
+for example, for unsupervised learning of efficient codings,
+ such as for dimensionality reduction, for learning generative
+models of data, and the like. In embodiments, an auto- 45
+encoding neural network may be used to self-learn an
+efficient network coding for transmission of analog sensor
+data from an industrial machine over one or more networks.
+In embodiments, an auto-encoding neural network may be
+used to self-learn an efficient storage approach for storage of 50 f
+streams of analog sensor data from an industrial environ-
+ment.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a probabilistic neural network ("PNN"), which, in
+embodiments, may comprise a multi-layer (e.g., four-layer)
+feedforward neural network, where layers may include input
+layers, hidden layers, pattern/summation layers and an out-
+put layer. In an embodiment of a PNN algorithm, a parent
+probability distribution function (PDF) of each class may be 60
+approximated, such as by a Parzen window and/or a non-
+parametric function. Then, using the PDF of each class, the
+class probability of a new input is estimated, and Bayes' rule
+may be employed, such as to allocate it to the class with the
+highest posterior probability. A PNN may embody a Bayes- 65
+ian network and may use a statistical algorithm or analytic
+technique, such as Kernel Fisher discriminant analysis tech-
+[col 2]
+294
+nique. The PNN may be used for classification and pattern
+recognition in any ofa wide range of embodiments disclosed
+herein. In one non-limiting example, a probabilistic neural
+network may be used to predict a fault condition of an
+engine based on a collection of data inputs from sensors and
+instruments for the engine.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a time delay neural network (TDNN), which may
+comprise a feedforward architecture for sequential data that
+recognizes features independent of sequence position. In
+embodiments, to account for time shifts in data, delays are
+added to one or more inputs, or between one or more nodes,
+so that multiple data points (from distinct points in time) are
+analyzed together. A time delay neural network may form
+part of a larger pattern recognition system, such as using a
+perceptron network. In embodiments, a TDNN may be
+trained with supervised learning, such as where connection
+weights are trained with back propagation or under feed-
+back. In embodiments, a TDNN may be used to process
+sensor data from distinct streams, such as a stream of
+velocity data, a stream of acceleration data, a stream of
+temperature data, a stream of pressure data, and the like,
+where time delays are used to align the data streams in time,
+ such as to help understand patterns that involve understand-
+ing of the various streams (e.g., where increases in pressure
+and acceleration occur as an industrial machine overheats).
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain. Neurons may respond to stimuli in a restricted
+region of space, referred to as a receptive field. Receptive
+fields may partially overlap, such that they collectively
+cover the entire (e.g-, visual) field. Node responses can be
+calculated mathematically, such as by a convolution opera-
+tion, such as using multilayer perceptrons that use minimal
+preprocessing.Aconvolutional neural network may be used
+for recognition within images and video streams, such as for
+recognizing a type of machine in a large environment using
+a camera system disposed on a mobile data collector, such
+as on a drone or mobile robot. In embodiments, a convolu-
+tional neural network may be used to provide a recommen-
+dation based on data inputs, including sensor inputs and
+other contextual information, such as recommending a route
+for a mobile data collector. In embodiments, a convolutional
+neural network may be used for processing inputs, such as
+for natural language processing of instructions provided by
+one or more parties involved in a workflow in an environ-
+ment. In embodiments, a convolutional neural network may
+be deployed with a large number of neurons (e.g., 100,000,
+500,000 or more), with multiple (e.g, 4, 5, 6 or more) layers,
+and with many (e.g-, millions) parameters. A convolutional
+neural net may use one or more convolutional nets.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a regulatory feedback network, such as for recog-
+nizing emergent phenomena (such as new types of faults not
+previously understood in an industrial environment).
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a self-organizing map ("SOM"), involving unsu-
+pervised learning. A set of neurons may learn to map points
+in an input space to coordinates in an output space. The input
+space can have different dimensions and topology from the

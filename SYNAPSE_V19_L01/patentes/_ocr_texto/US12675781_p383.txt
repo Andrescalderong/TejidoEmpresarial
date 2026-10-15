@@ -1,0 +1,140 @@
+[col 1]
+US 12,675,781 B2
+515
+filters for distinguishing robot automation job content from
+other job content (e.g., cost, payment, financing, etc.),
+preconfigured candidate tasks, workflows, and/or complete
+job configurations that substantially meet the requirements
+of the job request. In embodiments, the library 12314 or
+another job configuration library may facilitate mapping
+indicia of the job content with target terms that indicate
+robot automation. As an example use of an automated task
+from the library 12314, a requested data collection job may
+include a requirement for sampling surface water in a storm 10
+system catch basin. The job parsing system 12302 may
+identify the sampling requirement, and in response the task
+definition system 12304 may identify an automated sam-
+pling task for sampling water in the library 12314 that meets
+the requirements of that portion of the job request descrip- 15
+tion 12300, which may be used in defining the job execution
+plan 12310. If job configuration system 12018 determines
+that a suitable job configuration is available (e.g., from the
+library 12314), such as if the job requested had previously
+been requested, the job configuration system 12018 may use
+a previous job execution plan 12310 corresponding to the
+previously requested job as a proposed job execution plan
+12310 for further validation with current fleet standards and
+the like. For example, the platform 12000 intelligence layer
+12004 may analyze the proposed job configuration (e.g., 25 i
+with one or more intelligence services, including without
+limitation a machine learning service) with respect to a set
+of governance standards to ensure that the proposed job
+configuration comports with said standards. The platform
+12000 intelligence layer 12004 may perform other intelli-
+301
+gence-based tasks with respect to the proposed job configu-
+ration.
+In some scenarios, the job configuration system 12018
+may determine that one or more tasks, workflow, routines,
+and the like do not have a suitable counterpart in the library 35
+12314. In such a scenario, the job parsing system 12302 may
+generate a data set that includes robot-fleet focused require-
+ments (e.g., task definition parameters, robot configuration
+parameters, suggested task order, and the like) for perform-
+ing the task that is passed along to other job configuration 40
+system modules for processing. In embodiments, the job
+parsing system 12302 may rely on the platform 12000
+intelligence layer 12004 for suggestions of such require-
+ments, including combinations oftasks that when optionally
+adapted may satisfy the job requirement. In an example, a 45 
+job requirement may include sampling surface water from a
+frozen storm catch basin. In this example, the library 12314
+may not include a frozen surface water sampling task.
+However, the platform 12000 intelligence layer 12004 may
+recommend an ice melting task followed by a water sam- 5o
+pling task to meet the job requirements.
+In embodiments, the job parsing system 12302 may
+include and/or interface with the analysis modules/gover-
+nance libraries of the intelligence layer 12004 of the plat-
+form 12000 100. The job parsing system 12302 may lever- 55 
+age the governance-based analyses by providing portions of
+the candidate robot automation portions of the job content
+(e.g., terms and the like) for processing. The intelligence
+layer 12004 may, in response to the provided portion of job
+content, provide and/or indicate one or more of safety 60
+ standards and/or one or more of operational standards to be
+applied during preparation of the job execution plan by the
+job configuration system 120118.
+In embodiments, the job parsing system 12302 may
+65
+request instance-specific requirements for use when the job
+configuration system 120118 defines robot tasks, configures
+[col 2]
+516
+fleet resources, define workflows, simulates workflows, gen-
+erates a job execution plan, and/or the like. In embodiments,
+the set of job request instance-specific requirements may be
+determined based on at least one or more of: (i) the candidate
+portions of the job content that indicate robot automation
+(e.g-, terms that indicate a robot task), (ii) one or more inputs
+from the user interface (e.g., clarification of terms), (ii)
+safety and operational standards (e.g., from the governance
+layer), and (iv) a recommended robot task and associated
+contextual information (e.g., provided by a fleet intelligence
+layer).
+In embodiments, the job content parsing system 12302
+may apply content filters and/or structural filters to identify
+structural elements in the job content that may indicate one
+or more of tasks, sub-tasks, task ordering, task dependen-
+cies, task requirements and the like. In embodiments, the
+detected structural elements may facilitate selection and
+configuration of robot operating units by, for example, the
+fleet configuration system 12020. In an example, a structural
+element that distinguishes set of tasks may be used by the
+fleet configuration system to avoid assigning the same robot
+operating unit to tasks within the set of tasks delineated by
+the structural element and tasks outside of the set.
+In embodiments, the job parsing system 12302 may
+incorporate and/or utilize a job request configuration agent/
+expert system that may be constructed to facilitate develop-
+ing job description parsing capabilities.
+In embodiments, the task definition system 12304 may
+organize job data into task definitions 12304D (e.g., discrete
+robot tasks or tasks performed by robot teams). The task
+definition system 12304 may further co0rdinate other sys-
+tems of the job configuration system 12018, such as a
+workflow simulation system 12308 to optimize the task
+definitions.
+In embodiments, the task definition system 12304 may
+refine job data compiled by the job parsing system 12302 to
+facilitate defining discrete operations of one or more robot
+operating units in the fleet of robots in performance of a
+requested job. Defining tasks may be based on information
+regarding robots, robot types, robot features, and robot
+configurations that can perform a defined task. In embodi-
+ments, the task definition system 12304 may further provide
+information in task definitions 12304D that facilitate a fleet
+configuration system 12020 in determining use of general/
+multi-purpose robots, special purpose robots and/or combi-
+nations thereof for each defined task, In embodiments,the
+task definition system 12304 may define tasks that meet a
+first fleet object of a set of fleet objectives. A first fleet object
+may include defining tasks that can be performed by a
+multi-purpose robot by, for example, breaking down job
+content into smaller tasks that require less customization of
+the robot. In embodiments, the task definition system 12304
+may reference the library 12314, the platform 12000 intel-
+ligence layer 12004, or other platform-specific or accessible
+resources when making task suggestions.
+As the task definition system i2304D defines the tasks of
+a job, the task definition may be cataloged and stored for
+future use, such as in the library 12314. In some embodi-
+ments, the task definition system 12304D may adapt a task
+definition from a previously cataloged task definition (e.g.,
+adapting a task definition for a particular type of environ-
+ment or certain conditions thereof from a previously cata-
+logued task definition). In these embodiments, the task
+definition system 12304D may catalogue the derivative task
+definition in the library 12314 with adaptation instructions.
+In some embodiments, a task definition that is catalogued in
+the library 12314 may be associated with an already cata-

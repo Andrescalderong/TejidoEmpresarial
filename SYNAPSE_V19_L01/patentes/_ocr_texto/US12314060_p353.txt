@@ -1,0 +1,140 @@
+[col 1]
+US 12,314,060 B2
+341
+state or other government entity corresponding to the loca-
+tion, etc.). As another example, the input data may include
+a particular data field, and one or more values of the data
+field may indicate that governance applies. Additionally or
+alternatively, the input data analysis circuit may access the
+governance library 9452, digital twins 9454, and/or system
+specifications 9456 in order to determine whether one or
+more governance standards apply. For example, a gover-
+nance library 9452 may indicate one or more conditions in
+which governance standards apply, that certain governance
+10
+standards always apply, and/or provide other rules, triggers,
+or conditions indicating that governance standards apply. In
+embodiments, a digital twin may indicate that the input data
+9492 relates to a device having a particular state within the
+digital twin, and the particular state may be associated with 15
+a particular set of governance standards. Similarly, a system
+specification 9456 may provide information about a system
+corresponding to the data and may indicate if/when gover-
+nance applies to the system. Thus, using one or more
+strategies including analyzing the input data 9492 and/or 20
+data within storage 9450, the chip 9400 may determine that
+governance does or does not apply to input data received as
+inputs 9492.
+In embodiments, the governance selection circuit 9414
+may determine which of the identified governance require- 25
+ments applies. For example, one or more governance rules
+related to safety, security, quality, regulatory, financial, or
+other standards may apply based on various conditions as
+explained above, such as a location or other condition
+corresponding to the input data, a type of data received as 30
+input data, one or more values received as input data, data
+stored in storage 9450, and/or the like. The one or more
+conditions, triggers, values, or other indications that gover-
+nance requirements apply, as detected by the input data
+analysis circuit 9412, may each correspond to one or more 35
+governance requirements, which the governance selection
+circuit 9414 may retrieve and select. In some cases, the
+governance selection circuit 9414 may need to further
+analyze data (e.g., using intelligence modules 9458) to
+determine which governance requirements apply. For 40
+example, the governance selection circuit 9414 may process
+the inputs 9492 using a neural network or other machine
+learned model to generate a prediction, and then based on
+the prediction may determine which governance require-
+ments apply. In embodiments, multiple intelligence 45
+module(s)9458may beused to provide various types of AI
+analysis for governance selection. In embodiments, the
+intelligence modules 9458 may include one or more of the
+artificial intelligence modules 8804 of FIG.104.
+In embodiments, the data analysis circuit 9416 may 50 s
+perform data analysis to determine and/or extract data to
+apply governance. For example, the data analysis circuit
+9416 may parse or otherwise analyze the inputs 9492 to
+extract particular values to which governance applies and/or
+to detect particular values to which governance does not 55
+apply. In embodiments, the data analysis circuit 9416 may
+generate one or more data structures comprising the
+extracted data and format the data structure so that gover-
+nance standards may be generated and/or enforced using the
+data structure. The data analysis circuit 9416 may access any 60
+of the data stored in storage 9450, which may specify how
+to detect data values to which governance applies for the
+governance requirements selected by the governance selec-
+tion circuit 9414.
+The governance framework module 9420 may receive one 65
+or more selected governance requirements from the gover-
+nance analysis module 9410 and may develop and validate
+[col 2]
+342
+a model for applying the governance requirements to sets of
+data. In embodiments, the prioritization circuit 9422 may
+manage multiple and/or overlapping governance require-
+ments by prioritizing the governance requirements, resolv-
+ing conflicts between the governance requirements, and/or
+the like. The prioritization circuit 9422 may assign a priority
+to each of the governance requirements selected by the
+governance selection circuit 9414 (e.g., by retrieving an
+assigned priority associated with each governance require-
+ment from the governance library 9452, by using one or
+more prioritization rules included in the governance library
+9452, etc.). In embodiments, the prioritization circuit 9422
+may detect whether any of the selected governance require-
+ments overlap or conflict. In some cases, the governance
+requirements may overlap without causing a conflict, such
+as when a first governance requirement requires a certain
+minimum standard, and a second governance requirement
+requires a higher standard. In such a case, the prioritization
+circuit 9422 may determine that the higher standard should
+be used in order to meet both sets of governance require-
+ments. In other cases, such as when the governance require-
+ments conflict, the prioritization circuit 9422 may determine
+to use one or the other conflicting standards based on the
+priorities assigned to each governance requirement.
+In embodiments, the modeling circuit 9424 may generate
+a model based on the prioritized governance requirements as
+determined by the prioritization circuit 9422. For example,
+if the highest priority governance requirement is a set of
+safety requirements, then the generated model may initially
+check for safety violations or apply other safety governance
+requirements. Then, if the second highest priority gover-
+nance requirement is a set of regulatory governance require-
+ments, the model may, after enforcing safety governance,
+enforce regulatory governance. In some cases (e.g., due to
+conflicts), the model may omit certain governance require-
+ments from the model (e.g-, a quality requirement that
+conflicts with a safety requirement). In this way, the mod-
+eling circuit 9424 may generate a model specifying a flow
+for enforcing governance on a data set. The modeling circuit
+9424 may cause the generated model to reference various
+digital twins from digital twin library 9454 that specify
+information about one or more environments, networks,
+systems, or the like, to retrieve various data that may be
+necessary for checking and enforcement.
+In embodiments, the validation circuit 9426 may validate
+the generated model, for example by testing it against test
+data provided by the governance library 9452. In some
+cases, the selected governance standards may require certain
+validations (e.g., validation that the model complies with
+safety requirements when processing data), and thus the
+governance library may contain test data and/or target
+output(s) for validating that the model successfully complies
+with the corresponding governance requirement(s). Addi-
+tionally or alternatively, the validation circuit 9426 may test
+the generated model against a digital twin to simulate its
+effect on one or more devices, networks, systems, etc. In
+some cases, the simulated effect on the digital twin may be
+provided as an output 9494 (e.g., for analysis/approval at
+another device) before deploying the generated model to the
+governance output module9430.
+In embodiments, the governance output module 9430 may
+use the generated model to process one or more inputs 9492
+to enforce the governance standards, may optimize the
+model based on varying conditions, and/or may output the
+processed inputs, reports, and/or messages for communicat-
+ing with other devices. The model processing circuit 9432
+may continually process inputs 9492 (e.g., the inputs that

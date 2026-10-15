@@ -1,0 +1,137 @@
+In embodiments, the DPLF is configured to perform a 55 with the DPLF processes. By way ofexample, the ANN may
+[col 1]
+US 12,567,082 B2
+699
+input data sets (including time information with respect to
+elements in such data sets), one or more goals or objectives
+(including ones that may vary dynamically, such as periodi-
+cally and/or based on contextual changes, such as ones
+relating to the usage context of the ANN), and/or others. In
+cases involving memory-based retraining, the memory may
+include original/historical training data and refined training
+data. The DPANN system 20000 includes a dual process
+learning function (DPLF) configured to manage and perform
+an ongoing data retention process. The DPLF (including, 105
+where applicable, memory management process) facilitate
+retraining and refining of behavior of the ANN. The DPLF
+provides a framework by which the ANN creates outputs
+such as predictions, classifications, recommendations, con-
+clusions and/or other outputs based on a historic inputs, new 15
+inputs, and new outputs (including outputs configured for
+specific use cases, including ones determined by parameters
+ofthecontext ofutilization (which may includeperformance
+consistency parameters, bandwidth utilization parameters, 20
+processing capacity utilization parameters, prioritization
+parameters, energy utilization parameters, and many others).
+In embodiments, the DPANN system 20000 stores train-
+ing data, thereby allowing for constant retraining based on
+results of decisions, predictions, and/or other operations of 25
+the ANN, as well as allowing for analysis of training data
+upon the outputs of the ANN. The management of entities
+stored in the memory allows the construction and execution
+of new models, such as ones that may be processed,
+executed or otherwise performed by or under management 30 1
+of the training system. The DPANN system 20000 uses
+instances of the memory to validate actions (e.g., in a
+manner similar to the thinking of a biological neural network
+(including retrospective or self-reflective thinking about
+whether actions that were undertaken undera given situation 35
+where optimal) and perform training of the ANN, including
+training that intentionally feeds the ANN with appropriate
+sets of memories (i.e., ones that produce favorable outcomes
+given the performance requirements for the ANN).
+In embodiments, the DPLF may be or include the con- 40
+tinued process retention of one or more training datasets
+and/or memories stored in the memory over time. The DPLF
+thereby allows the ANN to apply existing neural functions
+and draw upon sets of past events (including ones that are
+intentionally varied and/or curated for distinct purposes), 45 
+such as to frame understanding of and behavior within
+present, recent, and/or new scenarios, including in simula-
+tions, during training processes, and in fully operational
+deployments of the ANN. The DPLF may provide the ANN
+with a framework by which the ANNmay analyze, evaluate,50
+and/or manage data, such as data related to the past, present
+and future. As such, the DPLF plays a crucial role in training
+and retraining the ANN via the training system and the
+retraining system.
+dual-process operation to manage existing training pro-
+cesses and is also configured to manage and/or perform new
+training processes, i.e., retraining processes. In embodi-
+ments, each instance of the ANN is trained via the training
+system and configured to be retrained via the retraining
+ system. The ANN encodes training and/or retraining data-
+sets, stores the datasets, and retrieves the datasets during
+both training via the training system and retraining via the
+retraining system. The DPANN system 20000 may recog-
+nize whether a dataset (the term dataset in this context 65
+optionally including various subsets, supersets, combina-
+tions, permutations, elements, metadata, augmentations, or
+[col 2]
+700
+the like, relative to a base dataset used for training or
+retraining), storage activity, processing operation and/or
+output, has characteristics that natively favor the training
+system versus the retraining system based on its respective
+inputs, processing (e.g., based on its structure, type, models,
+operations, execution environment, resource utilization, or
+the like) and/or outcomes (including outcome types, perfor-
+mance requirements (including contextual or dynamic
+requirements), and the like. For example, the DPANN
+system 20000 may determine that poor performance of the
+training system on a classification task may indicate a novel
+problem for which the training of theANN was not adequate
+(e.g., in type of data set, nature of input models and/or
+feedback, quantity of training data, quality of tagging or
+labeling, quality of supervision, or the like), for which the
+processing operations of the ANN are not well-suited (e.g..
+where they are prone to known vulnerabilities due to the
+type of neural network used, the type of models used, etc.),
+and that may be solved by engaging the retraining system to
+retrain the model to teach the model to learn to solve the new
+classification problem (e.g., by feeding it many more labeled
+instances of correctly classified items). With periodic or
+continuous evaluation of the performance of the ANN, the
+DPANN system may subsequently determine that highly
+stable performance of the ANN (such as where only small
+improvements of the ANN occur over many iterations of
+retraining by the retraining system) indicates readiness for
+the training system to replace the retraining system (or be
+weighted more favorably where both are involved). Over
+longer periods of time, cycles of varying performance may
+emerge, such as where a series of novel problems emerge,
+such that the retraining system of the DPANN is serially
+engaged, as needed, to retrain the ANN and/or to augment
+the ANN by providing a second source of outputs (which
+may be fused or combined with ANN outputs to provide a
+single result (with various weightings across them), or may
+be provided in parallel, such as enabling comparison, selec-
+tion, averaging, or context- or situation-specific application
+of the respective outputs).
+In embodiments, the ANN is configured to learn new
+functions in conjunction with the collection of data accord-
+ing to the dual-process training of the ANN via the training
+system and the retraining system. The DPANN system
+20000 performs analysis of the ANN via the training system
+and performs initial training of the ANN such that the ANN
+gains new internal functions (or internal functions are sub-
+tracted or modified, such as where existing functions are not
+contributing to favorable outcomes). After the initial train-
+ing,the DPANN system 20000 performs retraining of the
+ANN via the retraining system. To perform the retraining,
+the retraining system evaluates the memory and historic
+processing of the ANN to construct targeted DPLF processes
+for retraining. The DPLF processes may be specific to
+identified scenarios. The ANN processes can run in parallel
+function to operate a particular make and model of a
+self-driving car after the initial training by the training
+ system. The DPANN system 20000 may perform retraining
+of the functions of the ANN via the retraining system, such
+as to allow the ANN to operate a different make and model
+of car (such as one with different cameras, accelerometers
+and other sensors, different physical characteristics, different
+performance requirements,and the like), or even a different
+kind of vehicle, such as a bicycle or a spaceship.
+In embodiments, as quality of outputs and/or operations
+of the ANN improves, and as long as the performance
+requirements and the context of utilization for the ANN

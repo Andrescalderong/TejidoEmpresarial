@@ -1,0 +1,138 @@
+associated devices into a shipping digital twin.Forexample, 65 leverage known digital twins to reduce computational
+[col 1]
+US 12,314,060 B2
+613
+radio-frequency identification sensors), capacitive sensors
+(e.g., contact and contactless capacitive sensors), combina-
+tions thereof, and the like.
+The light sensors are or may be configured to sense
+objects or interactions via electromagnetic radiation in, for
+example,the far-infrared,near-infrared,optical, and/or
+ultraviolet spectra. In embodiments, the light sensors may
+include image sensors (e.g., charge-coupled devices and
+CMOS active-pixel sensors), photoelectric sensors (e.g-,
+through-beam sensors, retroreflective sensors, and diffuse 10
+sensors), combinations thereof, and the like. In embodi-
+ments, the light sensors may include liquid lens vision
+systems. Further, the light sensors may be implemented as
+part of a system or subsystem, such as a light detection and
+ranging ("LIDAR") sensor. 15
+The acoustic sensors are or may be configured to sense
+objects or interactions via sound waves that are emitted
+and/or received by the acoustic sensors. In embodiments, the
+acoustic sensors may include infrasonic, sonic, and/or ultra-
+sonic sensors.Further,theacoustic sensors may begrouped 2o
+as part of a system or subsystem, such as a sound navigation
+and ranging ("SONAR) sensor.
+In embodiments, the digital twin module 13420 stores and
+collects data from a set of proximity sensors. The collected
+data may be stored, for example, in the digital twin datastore 25
+13316 for use by components the digital twin module 13420
+and/or visualization by a user. Such use and/or visualization
+may occur contemporaneously with or after collection of the
+data (e.g-, during later analysis and/or optimization of pro-
+cesses). 30
+In embodiments, data collection may occur in response to
+a triggering condition. These triggering conditions may
+include, for example, expiration of a static or a dynamic
+predetermined interval, obtaining a value short of or in
+excessofastaticordynamicvalue,receivinganautomati-35j
+cally generated request or instruction from the digital twin
+module 13420 or components thereof, interaction of an
+element with the respective sensor or sensors (e.g., in
+response to an object coming within a predetermined dis-
+tance from the proximity sensor), interaction of a user with 40
+a digital twin (e.g., selection of a smart container digital
+twin, a sensor array digital twin, or a sensor digital twin),
+combinations thereof, and the like.
+In some embodiments, the digital twin module 13420
+collects and/or stores RFID data in response to interaction of 45
+a worker or robot with a real-world element. For example,
+in response to a robot interaction with a smart container
+cargo, the digital twin will collect and/or store RFID data
+from RFID sensors associated with the corresponding cargo.
+Additionally, or alternatively, robot interaction with a sen- 50
+sor-array digital twin will collect and/or store RFID data
+from RFID sensors within or associated with the corre-
+sponding sensor array. Similarly, robot interaction with a
+sensor digital twin will collect and/or store RFID data from
+the corresponding sensor The RFID data may include 55
+suitable data attainable by RFID sensors such as proximate
+RFID tags, RFID tag position, authorized RFID tags, unau-
+thorized RFID tags, unrecognized RFID tags, RFID type
+(e.g., active or passive), error codes, combinations thereof,
+and the like. 601
+In embodiments, the digital twin module 13420 may
+further embed outputs from one or more devices within a
+corresponding digital twin, In embodiments, the digital twin
+module 13420 embeds output from a set of individual-
+the digital twin I/O system 13308 may receive information
+output from one or more wearable devices or mobile devices
+[col 2]
+614
+(not shown) associated with an individual. The wearable
+devices may include image capture devices (e.g., body
+cameras or augmented-reality headwear), navigation
+devices (e.g., GPS devices, inertial guidance systems),
+motion trackers, acoustic capture devices (e.g-, micro-
+phones), radiation detectors, combinations thereof, and the
+like.
+In embodiments, upon receiving the output information,
+the digital twin I/O system 13308 routes the information to
+the digital twin configuration module 13318 to check and/or
+update the shipping digital twin and/or associated digital
+twins. Further, the digital twin module 13420 may use the
+embedded output to determine characteristics of the ship-
+ping entity or environment.
+In embodiments, the digital twin module 13420 embeds
+output from a LIDAR point cloud system into a shipping
+digital twin. For example, the digital twin I/O system 13308
+may receive information output from one or more LIDAR
+devices. The LIDAR devices are configured to provide a
+plurality of points having associated position data (e.g.,
+coordinates in absolute or relative x, y, and z values). Each
+of the plurality of points may include further LIDAR attri-
+butes, such as intensity, return number, total returns, laser
+color data, return color data, scan angle, scan direction, etc.
+The LIDAR devices may provide a point cloud that includes
+the plurality of points to the digital twin module 13420 via,
+for example, the digital twin I/O system 13308. Additionally,
+or alternatively, the digital twin module 13420 may receive
+a stream of points and assemble the stream into a point cloud
+or may receive a point cloud and assemble the received point
+cloud with existing point cloud data, map data, or three
+dimensional (3D)-model data.
+In embodiments, upon receiving the output information,
+the digital twin I/O system 13308 routes the point cloud
+information to the digital twin configuration module13318
+to check and/or update the shipping digital twin and/or
+associated digital twins. In some embodiments, the digital
+twin module 13420 is further configured to determine
+closed-shape objects within the received LIDAR data. For
+example, the digital twin module 13420 may group a plu-
+rality of points within the point cloud as an object and, if
+necessary, estimate obstructed faces of objects (e.g. a face
+of the object contacting or adjacent a floor or a face of the
+object contacting or adjacent another object such as another
+piece of equipment). The system may use such closed-shape
+objects to narrow search space for digital twins and thereby
+increase efficiency of matching algorithms (e.g., a shape-
+matching algorithm).
+In embodiments, the digital twin module 13420 embeds
+output from a simultaneous location and mapping
+("SLAM) system in an environment digital twin. For
+example, the digital twin I/0 system 13308 may receive
+information output from the SLAM system, such as SLAM
+sensor, and embed the received information within an envi-
+ronment digital twin corresponding to the location deter-
+mined by the SLAM system. In embodiments, upon receiv-
+ing the output information from the SLAM system,the
+digital twin I/O system 13308 routes the information to the
+digital twin configuration module 13318 to check and/or
+update the shipping digital twin and/or associated digital
+twins. Such updating provides digital twins of non-con-
+nected elements automatically and without need of user
+interaction with the digital twin module 13420.
+In embodiments, the digital twin module 13420 can
+requirements for the SLAM sensor by using suboptimal
+map-building algorithms. For example, the suboptimal map-

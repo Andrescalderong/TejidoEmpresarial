@@ -1,0 +1,138 @@
+an organ-on-chip sub-assembly being powered over a robot- 45 and peak throughput while ensuring high priority data
+[col 1]
+US 12,675,781 B2
+565
+The dynamic vision capabilities provided by the vision
+and sensing system 12112 may enable the MPR 12100 in
+identifying and manipulating a target object for use in
+robotic assembly lines where object depth, orientation, posi-
+tion and motion may be inferred for improved object iden-
+tification. The dynamic vision capabilities may also enable
+the MPR 12100 in simultaneous iocalization and mapping.
+which is a technique for estimating the position of the robot
+with respect to its surroundings while mapping the environ-
+ment at the same time. 10
+In embodiments, the vision output from the vision and
+sensing system 12112 may be temporally combined with
+output from other sensors in the MPR 12100 using condi-
+tional probabilities to create a combined view of the target
+object that is richer and includes information about the ：15
+position, orientation and motion of the object in the envi-
+ronment.
+In embodiments, the dynamic vision capability of the
+vision and sensing system 12112 may integrate into or with
+a set of value chain network (VCN) entities for quality 20
+control inspections and sorting objects in a production
+assembly line or logistics chain wherein the conformable
+liquid lens 12612 is configured to quickly adjust focus to
+accommodate for, recognize and sort objects located at
+various working distances or objects of different heights.
+Referring to FIGS. 104-142, according to some example
+implementations, a fleet management platform having wire-
+less power routing and management for robot instrumenta-
+tion and related electronics may also facilitate configuring
+and operating robots with modular, removable organ-on-
+chip sensor robot sub-assemblies. In embodiments, power
+for organ-on-chip sub-assemblies may be delivered and
+managed wirelessly to meet a wide range of robot deploy-
+ments, including mobile environments where primary power
+for the robot is provided by a replaceable battery pack and 35
+power for the organ-on-chip is optionally provided by a
+sub-assembly-specific battery pack, In embodiments, power
+sharing and routing of power among the battery packs may
+be performed and managed wirelessly, such as by a robot-
+local power management facility. The platform may facili- 40
+tate performing fleet configuration based on wireless power
+routing options available for candidate robots. Examples
+include, without limitation a single power pack for wire-
+lessly providing power to on-robot sub-assemblies, such as
+local wireless power routing system. Wireless power routing
+and management may be extended to removable robot
+sensor-like sub-assemblies, such as the organ-on-chip
+example, that may be deployed separate from but within
+wireless power routing range of a robot. This may be useful 50
+for environments where the sensor and robot cannot be
+co-located (e.g., due to size, environmental, or other con-
+straints). According to some example implementations, a
+fleet management platform having a control tower for com-
+bined control of robots, such as MPRs, SPRs and exoskel- 55
+etons, and additive manufacturing systems may also have an
+artificial intelligence system for automated design and 3D
+printing of robotic accessories. In some of these examples,
+the artificial intelligence system may automate design and
+3D printing based on contextual task recognition. This task 6o
+recognition may rely on use of shape recognition sensors
+(e.g., vision sensors) and operating history (for the robot or
+based on another factor, such as the task)to determine, for
+example robot end effector requirements for completing the
+task. In embodiments, a result of this AI-generated task
+recognition may be provided to the control tower to further
+enhance flexible on-demand additive manufacturing based
+[col 2]
+566
+on recognition of a task to be performed. In embodiments,
+the control tower may further combine robot control of 3D
+printing of contextually-determined end effectors with con-
+trol of robotic 3D printing for additive manufacturing.
+thereby increasing further the value of a 3D printing capa-
+bility of a fleet of robots. In embodiments, such a combi-
+nation may facilitate field maintenance of robots, production
+equipment, warranty repairs and the like. Yet further, use of
+artificial intelligence to facilitate task recognition may
+improve autonomous responsiveness for production system
+service/repair where some details of the required task may
+be unknown (e.g., fully automated production operations)
+until a robot is present.
+According to some example implementations, a robot
+ fleet management platform having autonomous local system
+task assignment adaptivity based on sensed local context
+may also be integrated with supply chain infrastructure
+entities for enhanced dynamic supply chain adaptivity and
+efficiency. In some of these example implementations, appli-
+cation of local system task assignment adaptivity with
+supply chain integration may enhance capabilities of, for
+example, in-container deployed robots. This combination of
+fleet management capabilities may also facilitate coordina-
+tion among robots (e.g., based on peer communications and
+the like) along a supply chain, such as those deployed in or
+with a smart container and the like, thereby providing
+flexibility when configuring individual robots ahead of time.
+In an example, a set of robots deployed with a long haul
+truck, ship or the like may assign supply chain tasks among
+themselves based on locally sensed context. A set of tasks to
+be performed during a trans-oceanic journey that is part of
+a supply chain may be adaptively assigned based on local
+temporal context, such as local weather conditions, and the
+like.
+According to some example implementations, a robot
+fleet management platform having smart contract support
+capabilities for among other things, negotiated routing of
+robots, may also have an artificial intelligence-governed
+data pipeline for supporting remote robot management. In
+embodiments, smart contracttermsthataredetectableas a
+function of robot operation may influence how an Al-
+governed data pipeline is managed. As an example, a data
+pipeline may be managed to ensure that, for example, a robot
+achieves certain data pipeline requirements (e.g. average
+signals meet delivery requirements to ensure worker, robot,
+and/or client security, safety and other concerns). However,
+such a robot data pipeline may also be managed (e.g..
+through Al-governance) to ensure that data representative of
+smart contract terms (e.g., timeliness of reply, up-time, and
+the like) may be accurately and timely tracked (optionally
+recorded, saved, and later delivered) for managing the
+relevant smart contract. Within this context, configuring a
+data pipeline for one or more robots associated with execu-
+tion of a smart contract (e.g., to provide warranty services)
+may include configuring value chain network (VCN) infra-
+structure elements for updating states relevant to smart
+contract terms and conditions. An Al-based data pipeline
+governance system may, for example, optimize use of sensor
+ detection packages on robots throughout a VCN so that data
+pipeline requirements can be met. In an example, a set of
+robots working cooperatively throughout a value chain
+network may have sensor packages configured (e.g, opti-
+mized) differently depending on their relative position in the
+value chain network when smart contractterms arefactored
+into robot configuration. As another example, configuration
+and utilization of on-robot data storage may also be influ-

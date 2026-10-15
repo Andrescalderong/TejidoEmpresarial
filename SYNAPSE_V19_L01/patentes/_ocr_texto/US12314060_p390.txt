@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+415
+accessories and the like on an on-demand real time basis.
+Some examples of equipment that may be printed include
+Personal Protective Equipment (PPE), face shields, goggles
+or medical glasses, protective eyewear, boots, surgical
+hoods, earplugs, valves, nozzles, helmets, body shields,
+extrication tools and the like.
+In embodiments, the equipment may be printed near or at
+the point of use on a need basis. For example, eyewear,
+earplugs, helmets, boots may be custom printed based on the
+patient measurement. Similarly, equipment including respi- 10
+rators, ventilators, custom valves and nozzles may be printed
+at a mobile additive manufacturing platform based on imme-
+diate patient needs and delivered at the point of care.
+In embodiments, the additive manufacturing platform
+10110 may automatically determine (such as using the
+artificial intelligence system 10212 trained on an expert data
+set) that one or more parts should be additively manufac-
+tured to facilitate repair, such as where a complementary part
+may be generated to replace a worn or absent element of a
+first responder equipment or device. The additive manufac- 20
+turing platform 10110 may then process the inputs, such as
+by using the artificial intelligence system 10212, to deter-
+mine a recommended action for servicing the repair request.
+In embodiments, a set of additive manufacturing units
+10102 may be provided as shared resources for multiple 25
+tenants of a building, such as a commercial real estate
+building, where the additive manufacturing units 10102 are
+integrated with other building resources, such as networking
+resources (e.g-, RF, cellular, Wifi, fiber optic and other
+resources), computational resources (e.g., data storage 3o 
+resources, edge and cloud computational resources), IoT
+resources (e.g., cameras, sensors, and the like) and others,
+such that the capabilities of the additive manufacturing units
+10102 may be accessed by tenants according to terms and
+conditions ofa lease (which in embodiments may be embod- 35
+ied, at least in part, as a smart contract that operates on data
+from or about the additive manufacturing units 10102). In
+embodiments, the additive manufacturing platform 10110
+may include, link to, or integrate with a set of devices,
+systems, services and other resources in a backbone for 40
+building, campus, or the like, including a set of network
+backbone and/or connectivity resources (such as 5G and
+other cellular network devices and infrastructure, such as
+switches, access points, gateways, routers, wireless mesh
+network systems, satellite systems, Wifi systems, long-range 45
+RF systems (such as LORA), Zigbee, Bluetooth and other
+wireless systems, as well as fixed network systems, such as
+fiber access gateways and other systems, modems and other
+gateway devices for cable, ethernet, digital subscriber line,
+analog telephone line and other wired networking systems, 50
+each using any of a wide range of protocols, such as
+ethernet, TCP/IP, UDP, and many others). Shared connec-
+tivity resources may include resources for Internet connec-
+tivity (such as wireless internet service provider (WISP)
+resources and fixed ISP connectivity), cellular connectivity 55
+(e.g., shared 5G), mesh network connectivity, and many
+others. In embodiments, the additive manufacturing plat-
+form 10110 may include, link to, or integrate with a set of
+shared data storage resources, such as a blockchain dedi-
+cated to the building, campus, or the like, a distributed 60
+ledger, a database or other data repository, a distributed
+memory system using memory of devices and systems that
+provide the building's IT infrastructure, and others. In
+embodiments, the additive manufacturing units 10102 and
+other shared resources may be provisioned, such as by a host 65
+or a trained intelligent agent operating on behalf of the host,
+to enable rapid customization and fulfillment of needs of
+[col 2]
+416
+tenants, such as tenants of a building, campus, city, or the
+like, including operational needs (such as for spare parts,
+products, tools, accessories, supplies, replacement parts, and
+the like, among many others) and many others. Among
+many examples, additive manufacturing units 10102 may
+produce elements needed for specialized tenants, such as
+personal protective equipment, ventilators, wearable items,
+tools, or the like, as well as elements needed for IT infra-
+structure (such as connectors, plugs and the like, such as to
+fiber optic cables, Ethernet ports, and the like), and many
+others. In embodiments, the shared resources may be moni-
+tored, such as with various utilization tracking techniques,
+such as event logs of networking nodes, logs of software
+systems, and the like, and may be provisioned by an auto-
+mated provisioning system, including allocating payment
+responsibilities, allocating usage rights, setting prioritization
+of resource utilization (such as by tenant, by time, by task,
+and the like). This may include automated management by
+an artificial intelligence agent that is trained by a training set
+of data of expert resource managers. This may be a super-
+vised, semi-supervised or deep learning process, and may
+include training on outcomes, such as profitability out-
+comes, tenant feedback outcomes, user satisfaction out-
+comes, security outcomes, operational outcomes, and many
+others. Resource sharing and payments may be governed
+and controlled by a smart contract, such as with governing
+rules for allocating resources and conditional logic deter-
+mining prioritization and/or payment responsibilities,
+optionally operating on a distributed ledger of events involv-
+ing the resources. In embodiments, the smart contract frame-
+work may itself be a shared resource offered to tenants, such
+as to enable them to offer services, share resources (such as
+with other tenants, including any of the resources noted
+herein as well as others), and the like.
+Liquid Lens
+FIGS. 122-127 relate to various embodiments and appli-
+cations of liquid lens devices. Liquid lens devices may be
+used in an assortment of applications, including for autono-
+mous systems that rely on image classification to perform
+tasks. Liquid lens devices may be integrated into many
+different areas of a value chain to improve performance of
+various autonomous systems by providing improved image
+sensing capabilities and image classification, amongst other
+things.
+FIG. 122 is a diagrammatic view illustrating an example
+implementation of a conventional computer vision system
+11100 for recognizing an object 11102 of interest. The
+computer vision system 11100 includes a lens assembly
+11104 that attempts to focus light from the object 11102 onto
+a sensor 11106. The sensor 11106 may be an image sensor
+such as a charge coupled device (CCD) or complementary
+metal oxide semiconductor (CMOS) device containing array
+of photo sensitive elements. The sensor may convert the
+light into analog electrical signal corresponding to light
+intensity. An analog to digital (AD) converter 11108 then
+converts analog voltage into digital data. This raw digital
+data is then sent to an image processing system 11110 for
+analysis. The image processing system 11110 then processes
+the raw digital data to generate an image 11112. The image
+processing system 111i0 may also involve pre-processing
+and post-processing including image scaling, noise reduc-
+tion, color adjustment, brightness adjustment, white balance
+adjustment, sharpness, adjustment, contrast adjustment and
+the like to enhance the image quality. Further the image may
+be analyzed using machine learning or other algorithms to
+identify one or more objects in the image.

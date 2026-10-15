@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+751
+data formatting compatibility issues. As will be discussed
+throughout, VCN process 10 may achieve the efficiency with
+less complexity and coordination effort, thereby simplifying
+and improving the processing time. Instead of sharing data
+linearly (i.e., from party to party), value chain network
+participants may use VCN process 10 to send all relevant
+data to a unified data repository, where the information is
+accessed by relevant partners (e.g., suppliers, manufacturers,
+warehouses/distribution centers, businesses, customers,
+etc.). Control towers allow companies to analyze operational
+data in real-time, allowing for proactive risk management,
+and more granular control over operations overall. More-
+over, as discussed herein, a control tower dashboard may be
+a real-time dashboard(s), with advanced analytics, alert-
+driven event management, Al-based flagging and responses 15
+to potential disruptions in the value chain, intelligent pro-
+curement, predictive sourcing, automation (e.g., smart
+machine and robotic process automation), and digital twin
+information, all in one place. An example control tower
+dashboard (e.g., control tower dashboard 17300) is shown in 20
+the example implementation of FIG. 173.
+Control Tower for Computational Tasks of Value Chain
+Network Entities
+In some implementations, a VCN process, such as VCN
+process 10, may configure 17400 a set of secondary com- 25
+puting devices (e.g., secondary systems 21200) of a set of
+value chain network entities for communication with a
+primary computing device (e.g., primary system 21100) of
+an enterprise operator, wherein the primary computing
+device may manage the set of secondary computing devices.
+30
+For instance, in the example implementation depicted in
+FIG. 175A, the primary system 21100 is deployed as a
+control tower SOS. When a system is arranged as a control
+primary facilitator among a set of secondary systems 21200 35
+(e.g., as shown in FIG. 175B). As a manager (or other similar
+user), the overarching goal of the control tower may be to
+propagate a strategy (e.g., optimize a set of secondary
+systems 21200 for a particular primary task or primary
+service), to provide oversight to a system arrangement (e.g-, 40
+ system monitoring), and/or to control a set of systems (e.g.,
+duce a target result).
+In some implementations, VCN process 10 may receive
+17402 (e.g., via at least one member of the set of secondary 45 f
+computing devices) a set of primary commands from the
+primary computing device, wherein each of the set of
+commands may be at least one of a task or a request. For
+instance, and referring at least to the example implementa-
+tion of FIG. 177A, the primary system 21100 receives a set
+50
+of inputs 21102. Here, some examples of these inputs 21102
+include external data (e.g., similar to external data 21050),
+external controls imposed on the system, and/or operational
+feedback. As a control tower or primary system 21100, upon
+receipt of the inputs 21102 at 21402, the primary system 55
+21100 (e.g., using a CSS1) identifies that the inputs 21102
+correspond to a particular request to perform a primary task.
+As part of the performance of the primary task, the primary
+system 21100 may be configured to perform managerial
+functions. These managerial functions may include: deter- 09
+mining a strategy to perform the requested task; providing
+oversight for execution of the requested task; and/or con-
+trolling actions that execute the requested task.
+As shown in FIG. 175A, the secondary system 21200 is
+also capable of generating a system output 21204 that may 65
+be communicated to the primary system 21100. The primary
+system 21100 may receive or otherwise obtain the system
+[col 2]
+752
+secondary system 21200. In other words, the generation of
+a system output 21204 may occur during initialization of the
+system 21200, during operation/implementation of the sec-
+ondary system 21200, or during some wind-down or final
+phase of the secondary system 2i200 (e.g. in response to the
+secondary system 21200 completing a task/service).
+In some examples, the system output 21204 functions as
+ 1o a feedback loop. For instance, as a feedback loop, the system
+output 21204 may inform the intelligence of the CSS. Here,
+by informing the intelligence of the CSS, the primary system
+21100 via its CSS may further tune or fine tune the param-
+eters that are generated and provided to the secondary
+system 21200 as system inputs 21202. In other words, in
+some circumstances, systems inputs 21202 may be provided
+to the secondary system 21200 on an ongoing basis (e.g., for
+ongoing product production). In these circumstances, the
+system outputs 21204 of the secondary system 21200 may
+impact the next round or iteration of system inputs 21202
+provided to the secondary system 21200. In other words, the
+fying the system inputs 21202 due to the intelligent func-
+tionality of the CsS of the primary system 21100.
+Referring further to FIG. 175A, the secondary system
+21200 is a value chain SOS. In other words, the configura-
+tion promoted by the secondary system 21200 is generally
+optimized for a particular value metric or target metric. The
+focus and/or dependence on this value metric is therefore
+generally carried through or applied to the CSS of the
+secondary system 21200. For instance, the target metric is
+profit and therefore the secondary system 21200 performs its
+functionality with profit as a primary optimization variable
+when configuring its associated systems.
+As shown in FIG. 175A, in some examples, the CSS
+configures the set of systems associated with the secondary
+system 21200. Here, the set of systems that is configurable
+by the CSS2 is illustrated by n number of additional CSSs
+(1-n). In other words, a secondary system 21200 may be
+responsible for performing some group of subtask(s) or
+service(s) to execute a primary task/service. Each subtask/
+service within that group may be associated with one or
+more systems (e.g., SOA systems). Stated differently, the
+one or more systems are capable of enabling and/or per-
+forming a subtask/service when configured. Meaning that,
+systems, such as SAO systems, are capable of performing
+functions that result in the execution of a range of tasks or
+services. These functions may be parameterized (e.g.
+according to a configuration) to tune the system to perform
+a particular task/service within the range or a specialized
+version of a task/service. In this respect, the CSSs of the
+secondary system 21200 therefore may enable or configure
+the set of systems that perform the corresponding
+subtask(s)/service(s).
+As a simple example, the CSSs2 of the secondary system
+21200 includes three systems and a CSS (e.g. CSS3-CSS5)
+that corresponds to each system (though a one-to-one rela-
+tionship is described, other relationships are possible). In
+this example, the CSS2 of the secondary system 2i200
+would have to configure three CSSs to provide the services/
+tasks associated with the secondary system 21200. To illus-
+trate, if the primary task was production of a product, the
+secondary system 21200 may be responsible for a subtask/
+service of the production-e.g., logistics. Here, although the
+secondary system 21200 is responsible for logistics, part of
+that responsibility may be the management or facilitation of
+systems associated with three different logistic channels

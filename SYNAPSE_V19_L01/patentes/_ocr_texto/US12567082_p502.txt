@@ -1,0 +1,137 @@
+In embodiments, the thalamus service and PMCP may 45 interface 18052 or using ETL processes at 18114, the
+[col 1]
+US 12,567,082 B2
+681
+receiving device may also be able to predict the sensor
+values without having to receive the input data from the
+In embodiments, the PMCP device interface may train
+and/or execute augmentation models 18082, which may be
+trained using data captured from data sources 18004 to
+generate augmented data streams. For example, augmenta-
+tion models may be used to generate interpolated or extrapo-
+lated values from data streams that may be missing data
+(e.g., due to network interruptions), may generate predicted
+10
+sensor readings for a sensor (e.g-, a broken sensor) based on
+sensor readings from other nearby sensors, and may other-
+wise augment data received from data sources 18004 with
+additional data. By transmitting augmentation model param-
+eters to a receiving device using PMCP, the receiving device 15
+may also be able to generate the missing data, predicted data,
+or other augmented data without having to receive the input
+data from the data sources 18004.
+In embodiments, the PMCP device interface 18060 may
+usealibrarymodule18066containing oneormoremodules20
+that may be used to assist in modelling and/or other opera-
+tions. For example, a networking module 18084 may contain
+various data about network devices, network topologies,
+network digital twins, and other network data that may be
+leveraged to train various models, to perform ETL opera- 25
+tions as described in more detail below, or to perform other
+such processing. As another example, a security module
+18086 may contain various data about security devices,
+building layouts (e.g., for building security systems), maps,
+topologies, digital twins, vulnerabilities, and other security 301
+data that may be leveraged to train various models, to
+perform ETL operations as described in more detail below,
+or to perform other such processing for security reasons.
+Various other specific modules may be provided to enable or
+support specific use cases. 35
+In embodiments, a storage module 18068 may provide
+various operations for processing data for storage and/or
+storing data. An ETL interface 18088 may be configured to
+perform exchange, transform, and load (ETL) operations for
+storingdata inaPMCPdatabase18090.ThePMCPdatabase 40
+18090 may be used to store various data, including data
+received from data sources 18004 (e.g., such that historical
+data may be used to generate/refine various models), as well
+as the models themselves, model parameters, and/or the like.
+provide complementary techniques for managing large
+amounts of data. For example, PMCP may reduce the
+bandwidth and storage requirements for working with large
+amounts of data because PMCP may only require transmit-
+ting model parameters, instead of transmitting bandwidth- 5o
+intensive data streams. However, when dealing with large
+numbers of data sensors or other data sources, PMCP may
+not be enough to reduce data to manageable levels, as the
+number of PMCP streams, number of models, etc. may still
+be too large to handle. In these cases, the thalamus service 55
+may operate to prioritize, format, suppress, filter, or combine
+PMCP data streams in order to allow for a focus on the most
+important PMCP data streams at any given time. Several
+benefits are realized by combining the techniques in this
+manner. For example, although massive amounts of data 60
+may be collected, PMCP may allow the communication of
+model parameters for predicting some or all of the data, and
+the thalamus service may allow for a focus on the most
+important models and predictions at any given time. More-
+over, the use of PMCP causes the data to be inherently 65
+predictive and thus forward-looking, which, in combination
+with the thalamus service, allows for a focus on the most
+[col 2]
+682
+important data before the occurrence of potential issues that
+may need various actions (e.g., interventions, maintenance,
+purchase orders, supply adjustments, estimate adjustments,
+etc.).
+FIG. 163 shows the interaction of the intake controller
+18008, intake management system 18006, and various other
+components of thethalamus service 18000 with PMCP
+according to some embodiments of the invention. In the
+illustrated embodiments, inputs may be received to the
+intakecontroller18008 from different sources.For example,
+a first source of data may include various sensors, external
+be received from various data generators, data analysis
+systems, and other data outputs outside of the thalamus
+service. Additionally or alternatively, a second source of
+data may include one or more preconfigured PMCP devices
+with location processing, which may provide at 18104 that
+may include PMCP model parameters, vectorized data, or
+other PMCP data.
+The intake controller 18008 may ingest the data and
+determine whether the data is PMCP data or not at a decision
+18106. If the data is not PMCP data, then the intake
+controller 18008 may determine if the data has been reduced
+or not. If the data has not been reduced, then the data may
+be sent to the intake management system for processing
+(e.g., prioritization, formatting, suppressing, area focus,
+filtering, combining, etc. as discussed above). In other
+words, if the data has not already been reduced in some way
+(e.g., either via PMCP or using other data reduction tech-
+niques), the data may be processing and potentially filtered,
+suppressed, or otherwise reduced. Thus, the thalamus ser-
+vice may provide one data reduction techniques that may be
+used in addition to or as an alternative to other data reduction
+techniques, which may include PMCP.
+If the data was not PMCP data but was reduced as
+determined at 18108, or if the data was PMCP data as
+determined at 18106, then the intake controller 18110 may
+determine whether the thalamus service is acting as a PMCP
+consumer for the data. If so, the data may be sent to the
+PMCPdevice interface18052for reception and processing
+(e.g-, modelling, prediction, etc.). If not, then one or more
+ETL processes may be used at 18114 to extract, transform,
+and load the data into the PMCP database.
+Whether the data is processed by the PMCP device
+resulting data may then be provided to downstream system
+of systems data consumers for further processing at 18116.
+PMCP and thalamus service techniques may be used
+(together or separately) in a wide variety of embodiments. In
+embodiments where edge devices are configured with very
+limited capacities, additional edge communication devices
+can be added to convert the data into PMCP format. For
+example, to protect distributed medical equipment from
+hacking attempts, many manufacturers will choose to not
+connect the device to any kind of network. To overcome this
+limitation, the medical equipment may be monitored using
+sensors, such as cameras, sound monitors, voltage detectors
+for power usage, chemical sniffers, and the like. Functional
+unit learning and other data techniques may be used to
+determine the actual usage of the medical equipment
+detached from the network functional unit, generate vector-
+ized data therefrom, and/or transmit various model param-
+eters using PMCP. On the receiving end, a thalamus service
+may receive the vectorized data and/or model parameters,
+may use thalamus techniques to determine whether the
+PMCP data and/or other data received from other medical
+devices should be prioritized, filtered, suppressed, or the

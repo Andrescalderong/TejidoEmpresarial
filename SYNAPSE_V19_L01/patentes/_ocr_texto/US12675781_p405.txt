@@ -1,0 +1,133 @@
+found at http:/papers.nips.cc/paper/7181-attention-is-all- 25 robot and an obstacle in front of it and -10 for allowing
+works can be used to generate new data such as new images 4o perform certain tasks based on the learned patterns and
+example, deep Boltzmann machines; deep belief networks; 55 transformer neural networks and the like for performing
+[col 1]
+US 12,675,781 B2
+559
+the input data sequence through the use of recurrent or
+directed cyclical node connections.
+In some examples, sequential input data can include
+time-series data (e.g., sensor data versus time or imagery
+captured at different times). For example, a recurrent neural
+network can analyze sensor dataversus timeto detect or
+predict a swipe direction, to perform handwriting recogni-
+tion, etc. Sequential input data may include words in a
+sentence (e.g., for natural language processing, speech
+detection or processing, etc.); notes in a musical composi- 10 f
+tion; sequential actions taken by a user (e.g., to detect or
+predict sequential application usage); sequential object
+states; etc.
+Example recurrent neural networks include long short-
+term (LSTM) recurrent neural networks; gated recurrent 15
+units; bi-direction recurrent neural networks; continuous
+time recurrent neural networks; neural history compressors;
+echo state networks; Elman networks; Jordan networks;
+recursive neural networks; Hopfield networks; fully recur-
+rent networks; sequence-to-sequence configurations; etc. 20
+In some examples, machine learning models 12664 can be
+or include one or more non-recurrent sequence-to-sequence
+models based on self-attention, such as Transformer net-
+works. Details of an exemplary transformer network can be
+you-need.pdf.
+In some implementations, machine learning models
+12664 can be or include one or more convolutional neural
+networks. In some instances, a convolutional neural network
+can include one or more convolutional layers that perform 3o
+convolutions over input data using learned filters.
+Filters can also be referred to as kernels. Convolutional
+neural networks can be especially useful for vision problems
+ such as when the input data includes imagery such as still
+images orvideo.However, convolutional neural networks 35 f
+can also be applied for natural language processing.
+In some examples, machine learning models 12664 can be
+or include one or more generative networks such as, for
+example, generative adversarial networks. Generative net-
+or other content.
+Machine learning models 12664 may be or include an
+autoencoder. In some instances, the aim of an autoencoder is
+to learn a representation (e.g., a lower-dimensional encod-
+ing) for a set of data, typically for the purpose of dimen- 45 a
+sionality reduction. For example,in some instances,an
+autoencoder can seek to encode the input data and the
+provide output data that reconstructs the input data from the
+encoding. Recently, the autoencoder concept has become
+more widely used for learning generative models of data. In 50
+some instances, the autoencoder can include additional
+losses beyond reconstructing the input data.
+Machine learning models 12664 may be or include one or
+more other forms of artificial neural networks such as, for
+stacked autoencoders; etc. Any of the neural networks
+described herein can be combined (e.g., stacked) to form
+more complex networks.
+Machine learning models 12664 may include one or more
+clustering models such as, for example, k-means clustering 60
+models; k-medians clustering models; expectation maximi-
+zation models; hierarchical clustering models; etc.
+In some implementations, machine learning models
+12664 can perform one or more dimensionality reduction
+techniques such as, for example, principal component analy- 65
+sis; kernel principal component analysis; graph-based kernel
+[col 2]
+560
+sion; partial least squares regression; Sammon mapping;
+multidimensional scaling; projection pursuit; linear dis-
+criminant analysis, mixture discriminant analysis; quadratic
+discriminant analysis; generalized discriminant analysis;
+flexible discriminant analysis; autoencoding; etc.
+In some implementations, machine learning models can
+perform or be subjected to one or more reinforcement
+learning techniques such as Markov decision processes;
+dynamic programming; Q functions or Q-learning; value
+function approaches; deep Q-networks; differentiable neural
+computers; asynchronous advantage actor-critics; determin-
+istic policy gradient; etc.
+Reinforcement Learning is a machine learning technique
+for learning optimal behavior in an environment by taking
+actions and getting feedback, similar to how humans and
+animals learn by interacting with their environments. The
+(say robot control system 12150) that observes its environ-
+ment, evaluates its current state (e.g., robot velocity, distance
+to an object in front), and selects an action (e.g-, provide
+control instruction to actuator or motor, adjust velocity,
+change direction and the like). Upon carrying out an action,
+the agent is presented with, in addition to its new state, a
+reward (e.g., +10 for allowing sufficient space between the
+success of the action. The goal for a reinforcement learning
+agent is to learn an optimal policy or behavior that maxi-
+mizes the expected cumulative reward.
+Reinforcement learning system 12668 includes one or
+more reinforcement learning algorithms for evaluating vari-
+ous states, actions and rewards in determining optimal
+policy for executing one or more tasks by the MPR 12100.
+RPA system 12652 enables MPR 12100 automate work-
+flows as well as any repetitive tasks and processes. In
+embodiments, the RPA system 12652 may monitor human
+interaction with various systems to learn patterns and pro-
+cesses performed by humans in performance of respective
+tasks. In embodiments, an RPA system 12652 may learn to
+processes, such that the tasks may be performed by the RPA
+system 12652 in lieu or in support of a human decision
+maker.
+NLP system 12656 provides the MPR 12100 with the
+ability to parse one or more conversational voice instruc-
+tionsprovided by ahumanusertoperform oneormoretasks
+as well as communicate with the human user. In embodi-
+ments, the NLP system 12656 may be configured as part of,
+may leverage or may be included in NLP system 4D24
+described in conjunction with FIG. 4. The NLP system
+12656 may leverage one or more neural networks from the
+neural network system 12662 including feed forward neural
+networks, convolutional neural networks (CNN), recurrent
+neural networks (RNN), long short-term memory (LSTM),
+various natural language processing functions. Example
+implementations of an NLP system12656 are described in
+greater detail elsewhere in the disclosure (e.g., with respect
+to FIG. 104 and related description).
+In embodiments, the artificial intelligence services 12660
+may include and/or provide access to an analytics system
+12660. In embodiments, an analytics system 12660 is con-
+figured to perform various analytical processes on data
+output from the MPR 12100 or one or more components or
+subsystems. For example, the analytics system 12660 may
+perform data analytics on thermal and vibration data gen-
+erated by the MPR 12100 over a period of time for anomaly.

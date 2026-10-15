@@ -1,0 +1,136 @@
+interface to facilitate interfacing with the new and/or 1o be configured to create a machine-learned model for avoid-
+smartcontainersystem13000toactasifthe smart container 35 be configured to develop one or more machine-learned
+In some embodiments, the RPA module 13416 may be 55 the RPA module 13416. The RPA module 13416 may store
+[col 1]
+US 12,314,060 B2
+629
+able fields and submitting the information via a client
+program and/or portal, and transmitting digital signals to an
+external system that appear to be from sent from a user
+device.
+In some embodiments, the RPA module 13416 may be
+configured to facilitate communicating with new and/or
+updated external systems. When a new external system is
+developed or an external system is updated, the RPA module
+13416 may develop a new and/or updated programmatic
+updated external system by the smart container system
+13000 in a manner that is consistent with interfacing with an
+outdated external device, i.e., the external device prior to
+release of the new and/or updated external system. For
+example, the RPA module 13416 may be configured to 15
+provide inputs to the outdated external device, provide
+inputs to the new and/or updated external device, compare
+related outputs, and adjust inputs to the new and/or updated
+external device such that the smart container system 13000
+may interfacewith thenew and/orupdated external device 20
+in a manner consistent with how the smart container system
+13000 interfaced with the outdated external device.
+In some embodiments, the RPA module13416may act as
+an API to outdated and/or external systems. The RPA
+module 13416 may be configured such that the smart 25
+container system 13000 is externally represented as having
+an API capable of interfacing with one or more external
+devices or otherwise being capable of programmatically
+handling signals transmitted by external devices, wherein
+theRPAmodule13416has developedaprogrammatic30i
+interface for handling such requests other than an API. For
+example, an outdated external system may be configured to
+communicate via a series of signals understood by an
+outdated API.The RPA module 13416 may configure the
+system 13000 includes the outdated API.
+In some embodiments, the RPA module 13416 may be
+configured to provide a user interface for use by one or more
+users of the smart container system 13000. The intelligence
+service 13004 may, by one or more machine learning 40
+methods, create a user interface that allows a user to
+interface with one or more components and/or functions of
+the smart container system 13000. The RPA module 13416
+may use robotic process automation techniques to operate
+the user interface created by the intelligence service 13004. 45
+The intelligence service 13004 may dynamically create
+and/or adjust the user interface according to variables such
+as changing demand conditions, new and/or modified func-
+tions of the smart container system 13000, new and/or
+modified conditions of systems external to the smart con- 5o
+tainer system 13000, and the like. Examples of new and/or
+modified conditions of systems external to the smart con-
+tainer system 13000 may include changes to third-party
+service offerings, regulatory changes, and the like.
+configured to avoid detection of robotic process automation
+by systems external to the smart container system 13000.
+Some of the external systems may be designed to attempt to
+detect, when the external system is communicating with a
+system using robotic process automation, such as the smart
+container system 13000. Upon detecting that the smart
+container system 13000 is using robotic process automation,
+the external system may restrict, eliminate, or modify com-
+munication capabilities of the smart container system 13000
+with the external system. The RPA module 13416 may 65
+emulate human interfacing with the external system to
+"trick' the external system into believing that the RPA
+[col 2]
+630
+module 13416 is a human user to avoid detection of the
+robotic process automation and avoid restriction or elimi-
+nation of communication by the external system. The RPA
+module 13416 may avoid detection by, for example,
+dynamically changing paths of interaction with the external
+system, interacting with user interface elements with incon-
+sistent timing, making human-like errors such as “mis-
+clicks" or “typos," and the like.
+In some embodiments, the intelligence service 13004 may
+ing detection of robotic process automation. The machine-
+learned model may be created by using data from interaction
+with one or more graphical interfaces by real human beings
+and developing robotic process automation techniques that
+emulate ways in which real humans interface with the one or
+more graphical user interfaces. For example, training data
+may include mouse and/or touch timings and accuracy,
+typing speed and accuracy, elements of the graphical user
+interface used, and the like.
+In some embodiments, the RPA module 13416 may be
+configured to validate data transmitted to and/or received
+from external systems. The RPA module 13416 may validate
+one or more of data transmitted to the smart container
+system 13000 by users of the external system, data trans-
+mitted to the smart container system 13000 by users of the
+smart container system 13000, and/or data transmitted to the
+external system by users of the smart container system
+13000. The RPA module 13416 may validate data by one or
+more of performing optical character recognition, perform-
+ing image recognition and/or processing, identifying data
+stored on webpages, receiving data from a backend database
+of the external system, receiving data from a backend
+database of the smart container system 13000, and the like.
+In some embodiments, the intelligence service 13004 may
+models for data validation. For example, the intelligence
+service 13004 may use data transmitted by users and/or data
+received from one or more databases and/or sources external
+to the smart container system 13000 as training data to
+*learn"to identify valid data. The intelligence service 13004
+may transmit the one or more machine-learned models for
+data validation to the RPA module 13416. The RPA module
+13416 may implement the one or more machine-learned
+models for data validation.
+In some embodiments, the RPA module 13416 may be
+configured to facilitate validation of processes performed by
+the RPAmodule 13416. The RPAmodule 13416 may create
+a plurality of process validation logs as the RPA module
+13416 performs one or more processes related to the smart
+container system 13000 and/or external systems on behalf of
+one or more users. The process validation logs may include
+one or more of timestamps, transaction receipts, user inter-
+face screenshots, or any other suitable data entry, file, and
+the like for providing validation of processes performed by
+the process validation logs in one or more databases and may
+transmit the process validation logs to the smart container
+system 13000 and/or users of the smart container system
+13000. The RPA module 13416 may transmit the process
+validation logs automatically according to a schedule, upon
+demand by a user of the smart container system 13000, upon
+one or more conditions being true, and the like.
+In some embodiments, the RPAmodule 13416 may be
+configured to adjust behavior of the robotic process auto-
+mation in response to feedback acquired via one or both of
+data validation and process validation. A user of the smart
+container system 13000 may view validations of data pro-

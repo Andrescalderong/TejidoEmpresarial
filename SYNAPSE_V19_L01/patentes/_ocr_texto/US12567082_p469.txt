@@ -1,0 +1,138 @@
+module 13420 to reinforce or evaluate the efficacy of the 15 reduce speed or power input) and alter monitoring intervals
+The set of identifying criteria may include information for 65 the digital twin simulation system 13310 to simulate one or
+[col 1]
+US 12,567,082 B2
+615
+are detected, decreasing the time interval as or when the
+number of moveable elements within an environment
+increases (e.g., increasing number of robots and robot inter-
+actions), increasing the time interval during periods of
+reduced activity, decreasing the time interval during periods
+of abnormal activity (e.g., inspections or maintenance),
+decreasing the time interval when unexpected or uncharac-
+teristic movement is detected (e.g., frequent movement by a
+typically sedentary element or coordinated movement, for
+example, of robots approaching an exit or moving coopera- 1o
+tively to carry a large object), combinations thereof, and the
+like. Further, the time interval may also include additional,
+semi-random acquisitions. For example, occasional mid-
+interval locations may be acquired by the digital twin
+particular time interval.
+In embodiments, the digital twin module 13420 may
+analyze data received from the digital twin I/O system
+13308 to refine, remove, or add conditions. For example, the
+digital twin module 13420 may optimize data collection 20
+times for movable elements that are updated more frequently
+than needed (e.g., multiple consecutive received positions
+being identical or within a predetermined margin of eror).
+In embodiments, the digital twin module 13420 may
+receive, identify, and/or store a set of states related to 25
+shipping entities or environments. The set of states may be,
+for example, data structures that include a plurality of
+attributes and a set of identifying criteria to uniquely identify
+each respective state. In embodiments, the set of states may
+correspond to states where it is desirable for the digital twin 301
+module 13420 to set or alter conditions of real-world ele-
+ments and/or the environment (e.g., increase/decrease moni-
+toring intervals, alter operating conditions, etc.).
+In embodiments, the set of states may further include, for
+example, minimum monitored attributes for each state, the 35
+set of identifying criteria for each state, and/or actions
+available to be taken or recommended to be taken in
+response to each state. Such information may be stored by,
+for example, the digital twin datastore 13316 or another
+datastore.Thesetofstatesorportionsthereofmaybe4o
+provided to, determined by, or altered by the digital twin
+module 13420. Further, the set of states may include data
+from disparate sources. For example, details to identify
+and/or respond to occurrence of a first state may be provided
+to the digital twin module 13420 via user input, details to 45t
+identify and/or respond to occurrence of a second state may
+be provided to the digital twin module 13420 via an external
+system, details to identify and/or respond to occurrence of a
+third state may be determined by the digital twin module
+13420 (e.g., via simulations or analysis of process data), and
+50
+details to identify and/or respond to occurrence of a fourth
+state may be stored by the digital twin module 13420 and
+altered as desired (e.g., in response to simulated occurrence
+of the state or analysis of data collected during an occurrence
+of and response to the state). 55
+In embodiments, the plurality of attributes includes at
+least the attributes needed to identify the respective state.
+The plurality of attributes may further include additional
+attributes that are or may be monitored in determining the
+respective state, but are not needed to identify the respective 60
+state. For example, the plurality of attributes for a first state
+may include relevant information such as rotational speed,
+battery level, energy input, linear speed, acceleration, tem-
+perature, strain, torque, volume, weight, etc.
+each of the set of attributes to uniquely identify the respec-
+tive state. The identifying criteria may include, for example,
+[col 2]
+616
+rules, thresholds, limits, ranges, logical values, conditions,
+comparisons, combinations thereof, and the like.
+The change in operating conditions or monitoring may be
+any suitable change. For example, after identifying occur-
+rence of a respective state, the digital twin module 13420
+may increase or decrease monitoring intervals for a smart
+container (e.g., decreasing monitoring intervals in response
+to a measured parameter differing from nominal operation)
+without altering operation of the smart container. Addition-
+ally, or alternatively, the digital twin module 13420 may
+alter operation of the smart container (e.g-, reduce speed or
+power input) without altering monitoring of the smart con-
+tainer. In further embodiments, the digital twin module
+13420 may alter operation of the smart container (e.g.,
+for the device (e.g., decreasing monitoring intervals).
+In embodiments, a set of identified set of states related to
+shipping entities and environments that the digital twin
+module 13420 may identify and/or store for access by
+intelligent systems (e.g., the intelligence service 13004) or
+users of the digital twin module 13420, according to some
+embodiments of the present disclosure. The set of states may
+include operational states (e.g-, suboptimal, normal, optimal,
+critical, or alarm operation of one or more components),
+excess or shortage states (e.g-, supply-side or output-side
+quantities), combinations thereof, and the like.
+In embodiments, the digital twin module 13420 may
+monitor attributes of real-world elements and/or digital
+twins to determine the respective state. The attributes may
+be, for example, operating conditions, set points, critical
+points, status indicators, other sensed information, combi-
+nations thereof, and the like. For example, the attributes may
+include power input, operational speed, critical speed, and
+operational temperature of the monitored elements. While
+the illustrated example illustrates uniform monitored attri-
+butes, the monitored attributes may differ by target device
+(e.g, the digital twin module 13420 would not monitor
+rotational speed for an object with no rotatable components).
+Each of the set of states includes a set of identifying
+criteria meeting particular criteria that are unique among the
+group of monitored set of states. The digital twin module
+13420 may identify the overspeed state, for example, in
+response to the monitored attributes meeting a first set of
+identifying criteria (e.g., operational speed being higher than
+the critical speed).
+In response to determining that one or more set of states
+exists or has occurred, the digital twin module 13420 may
+update triggering conditions for one or more monitoring
+protocols, issue an alert or notification, or trigger actions of
+subcomponents of the digital twin module 13420. For
+example, subcomponents of the digital twin module 13420
+may take actions to mitigate and/or evaluate impacts of the
+detected set of states. When attempting to take actions to
+mitigate impacts of the detected set of states on real-world
+elements, the digital twin module 13420 may determine
+whether instructions exist (e.g., are stored in the digital twin
+datastore 13316) or should be developed (e.g-, developed via
+simulation and intelligence services or via user or worker
+input). Further, the digital twin module 13420 may evaluate
+impacts of the detected set of states, for example, concur-
+rently with the mitigation actions or in response to deter-
+mining that the digital twin module 13420 has no stored
+mitigation instructions for the detected set of states.
+In embodiments, the digital twin module 13420 employs
+more impacts, such as immediate, upstream, downstream,
+and/or continuing effects, of recognized states. The digital

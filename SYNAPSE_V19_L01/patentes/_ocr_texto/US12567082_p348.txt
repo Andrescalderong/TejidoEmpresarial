@@ -1,0 +1,135 @@
+with the reference design. In any such embodiment that 35 taken, what colors were used, what functions were enabled,
+facturing entities may occur by having an artificial intelli- 55 needs to be removed in finishing steps, configuring produc-
+[col 1]
+US 12,567,082 B2
+373
+or other elements to support the service visit. In embodi-
+ments, the platform may take inputs from or related to the
+service visit, such as inputs indicating the item being ser-
+viced (e.g., technical specifications, CAD designs, and the
+like); inputs indicating diagnosed issues (such as a need to
+replace an entire sub-assembly, a need to repair a crack or
+other damage, or the like); and inputs captured by cameras,
+microphones, data collectors, sensors, and other information
+sources associated with the service visit. For example, a
+service technician may capture a set of photos that show a 10
+damaged part. In embodiments, the platform may process
+the inputs, such as using an artificial intelligence system
+(such as a robotic process automation system trained on a
+training set of expert service visit data), to determine a
+recommended action, which in embodiments may involve 15
+replacement of a part and/or repair of a part. The platform
+may, in some such embodiments, automatically determine
+(such as using an artificial intelligence system, such as
+robotic process automation trained on an expert data set)
+whether a replacement part is readily available and/or 20
+whether an additive manufacturing system should produce
+the replacement part, such as to reduce delay, to save costs,
+or the like. Similarly, the platform may, in some embodi-
+ments, using similar systems, automatically determine that
+an element should be additively manufactured to facilitate 25
+repair, such as where a complementary component may be
+generated to replace a worn or absent element. In embodi-
+ments, automatic determination may occur using a machine
+vision system that captures a set of photo images from the
+service visit, compares them to reference designs for appli- 30
+cable parts and produces an instruction set for additively
+manufacturing a complementary element that can be added
+(such as by being adhered with a specified adhesive) to a
+defective element in order to render the part in compliance
+recommend or configure instructions for additive manufac-
+turing, the platform may discover available units, configure
+instructions, and initiate additive manufacturing, and pro-
+vide updates to the service technician, such as updates as to
+when an element will be ready to use. In embodiments, the 40
+platform, such as through a trained AI agent, may automati-
+cally configure and schedule a set of jobs across a set of
+additive manufacturing units with awareness of the status of
+other relevant entities involved in service and other work-
+flows, such as the overall planned duration of a service job 45
+(e.g., to allow de-prioritization of additive manufacturing
+jobs that will produce outputs that won't be used immedi-
+ately), what other work is being done (e.g., to allow for
+appropriate sequencing of additive manufacturing outputs
+that align with overall workflows), the priority ofthe service 5os
+job (e.g., whether it relates to a mission critical item of
+operating equipment, versus a non-critical accessory item),
+the cost of downtime, or other factors. In embodiment,
+optimization of workflows across a set of additive manu-
+lations involving alternative scheduling sequences, design
+configurations, alternative output types, and the like. In
+embodiments, simulations may include sequences involving
+additive manufacturing and other manufacturing entities 60
+(such as subtractive manufacturing entities that cut, drill, or
+the like and/or finishing entities that polish, cure, or the like),
+including handoffs between sets of different manufacturing
+entity types, such as where handoffs are handled by robotic
+handling systems. In embodiments, a set of digital twins 65
+may represent attributes and capabilities of the various
+manufacturing systems, various handling systems (robotic
+[col 2]
+374
+systems, arms, conveyors, and the like, as well as human
+workforce) and/or the surrounding environment (such as a
+vehicle, a manufacturing facility, a campus, or even a larger
+scale entity, such as a city).
+In embodiments, the artificial intelligence system 10212
+may be configured to manage the real time dynamics affect-
+ing inventory levels for smart inventory and materials man-
+agement. This may include, for example, forecasting inven-
+tory levels based on a set of demand factors and/or supply
+factors of various types described herein and configuring
+schedules for additive manufacturing units 10102 to produce
+items for locations where shortages are anticipated.
+In embodiments, the artificial intelligence system 10212
+may be configured to build, maintain, and provide a library
+of parts with preconfigured parameters, that may be search-
+able by materials, properties, part type, part class, industry,
+compliance, etc. This may include, for example, a set of
+search algorithms that discover parts by referencing pub-
+lished materials, including website materials, product speci-
+fications, or the like; a set of algorithms that query APIs or
+other interfaces of parts providers, such as to query data-
+bases for parts information; and/or a set of data collection
+systems that capture images, sensor data, test data, or the
+like of or about parts.
+In embodiments, the artificial intelligence system 10212
+may be configured to analyze usage patterns associated with
+one or more users and learning user preferences with respect
+to outputs, timing, materials, colors, shapes, orientations,
+and/or print strategies. For example, the system 10212 may
+develop a profile, such as by the additive manufacturing unit
+10102, by location, by user, by organization, by role, or the
+like, that indicates what materials were used for manufac-
+turing, what processes were used for manufacturing, what
+and the like. The profile may be used to determine, infer, or
+suggest preferences of users, organizations, or the like. For
+example, an organization's preferred brand colors may be
+recognized, such that conforming materials and coatings are
+recommended and/or preconfigured in development of addi-
+tive manufacturing steps.
+In embodiments, the artificial intelligence system 10212
+may be configured to perform real time calibration for one
+or more 3D printers. This may include training on a training
+data set of calibration interactions of expert users. Calibra-
+tion may be job-specific, such as by training the artificial
+intelligence system 10212 to calibrate the additive manu-
+facturing unit 10102 to operate with a specific material,
+which may include material from a specific bin or lot of the
+same general type of material.
+In embodiments, the artificial intelligence system 10212
+may be configured to minimize the material waste produc-
+tion during the additive manufacturing process. This may
+include configuring production to minimize material that
+tion to produce outputs where unused material is easily
+removed for reuse, and/or configuring production to favor
+reusable/recyclable materials.
+In embodiments, the artificial intelligence system 10212
+may be configured to detect cyber security risks and threats
+to the platform 10110.
+In embodiments, the artificial intelligence system 10212
+may be configured to assess regulatory compliance. For
+example, in embodiments the artificial intelligence system
+10212 may be configured to search a library or other source
+of approved or certified product designs, such as ones that
+are UL or CE certified, FDA approved, OSHA-approved, or

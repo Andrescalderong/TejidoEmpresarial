@@ -1,0 +1,137 @@
+element that distinguishes a set of tasks may be used by the 2o workflow definition system and a fleet configuration system
+[col 1]
+US 12,314,060 B2
+577
+execution plan, and/or the like. In embodiments, the set of
+freight storage and/or transportation service order instance-
+ specific requirements may be determined based on at least
+one or more of: the candidate portions of the job content that
+indicate smart container automation (e.g., terms that indicate
+a smart container task), one or more inputs from the user
+interface (e.g., clarification of terms), safety and operational
+standards (e.g., from the governance layer), and a recom-
+mended smart container task and associated contextual
+information (e.g., provided by a fleet intelligence service). 10
+In embodiments, the job parsing system may apply con-
+tent filters and/or structural filters to identify structural
+elements in the job content that may indicate one or more of
+tasks, sub-tasks, task ordering, task dependencies, task
+requirements, and the like. In embodiments, the detected
+structural elements may facilitate selection and configura-
+tion of smart container operating units by, for example, the
+fleet configuration system 13020. In an example, a structural
+fleet configuration system to avoid assigning the same smart
+container operating unit to tasks within the set of tasks
+delineated by the structural element and tasks outside of the
+set.
+In embodiments, the job parsing system may incorporate 25 
+and/or utilize a freight storage and/or transportation service
+order configuration agent/expert system that may be con-
+structed to facilitate developing job description parsing
+capabilities.
+In embodiments, the task definition system may organize 30 r
+job data into task definitions (e.g., discrete smart container
+tasks or tasks performed by smart container teams). The task
+definition system may further coordinate other systems of
+the job configuration system 13018, such as a workflow
+simulation system to optimize the task definitions.
+In embodiments, the task definition system may refine job
+data compiled by the job parsing system to facilitate defining
+discrete operations of one or more smart container operating
+units in the fleet of smart containers in performance of a
+requested job.Definingtasksmaybebased oninformation 4o
+regarding smart containers, shipping container ports, con-
+tainer ships, railways, trucks, hyperloops, smart container
+types, smart container features, and smart container con-
+figurations that can perform a defined task. In embodiments,
+the task definition system may further provide information 45
+in task definitions that facilitate a fleet configuration system
+13020 in determining use of smart containers for each
+defined task. In embodiments, the task definition system
+may reference the library 13044, the intelligence service
+13004, or other system-specific or accessible resources 50 i
+when making task suggestions.
+As the task definition system defines the tasks of a job, the
+task definition may be cataloged and stored for future use,
+such as in the library 13044. In some embodiments, the task
+definition system may adapt a task definition from a previ- 55
+ously cataloged task definition (e.g, adapting a task defini-
+tion for a particular type of environment or certain condi-
+tions thereof from a previously catalogued task definition).
+In these embodiments, the task definition system may cata-
+loguethe derivative task definition in thelibrary 13044with 60
+adaptation instructions. In some embodiments, a task defi-
+nition that is catalogued in the library 13044 may be
+associatedwith an already cataloged task definition and/or
+may replace an already cataloged task definition, may be
+cataloged as a sub-task of an existing task, and the like. In 65
+general, task definition may include associated tasks, seri-
+alized tasks, nested tasks, and the like.
+[col 2]
+578
+Information about a job may be stored in the library 13044
+for future use; therefore, the task definition system may
+access the library 13044 to retrieve information about the
+job, smart containers, fleets, and the like. In an exemplary
+embodiment of self-stacking smart containers on a container
+ship, the information accessible through the library 13044
+may include, for example, how to access information about
+the physical layout of the container ship. The task definition
+system may also access the library 13044 to update infor-
+mation, such as by adding one or more tasks to a list of tasks
+for the self-stacking task, results from optimizations of task
+definition performed by the order execution system, and the
+like.
+Optimization features of the task definition system are
+15 described below in association with feedback from other
+elements of the job configuration system 13018, such as the
+workflow simulation system and the like.
+Task definitions may be generated and provided to other
+elements of the job configuration system 13018, such as the
+proxy. In embodiments, the fleet that may provide the task
+definitions (which may include route definitions and other
+suitable information) to the fleet configuration system
+13020. In an example, a fleet configuration system proxy
+may narrow down sets of candidate smart containers for
+performing tasks (as indicated in task descriptions) to a
+specific smart container type (and optionally a specific smart
+container in the fleet) based on fleet configuration and fleet
+resource inventory and allocation data relevant to the
+requested job (e.g., based on geography, timing, and the
+like). The fleet configuration system proxy may process task
+definitions,which may include smart container identification
+information (e.g., smart container type and the like), for
+aligning resources of the fleet with the relevant task infor-
+mation. In an example, a fleet configuration system proxy
+may generate data suitable for use by fleet operational
+elements, such as a fleet resource provisioning system
+13014, to perform fleet resource allocation, scheduling, and
+the like that supports at least a portion of the goals of a
+freight storage and/or transportation service order being
+processed through the job configuration system 13018. The
+fleet configuration system proxy may employ fleet configu-
+ration modeling to determine candidate fleet configurations
+that meet job requirements. The modeling may be useful in
+determining an impact on fleet resources that may then be
+taken into consideration during fleet configuration functions,
+resource allocation, and the like. In embodiments, fleet
+configuration modeling may include use of system intelli-
+gence service resources, such as machine learning, artificial
+intelligence, and the like when determining one or more
+preferred fleet configurations that also satisfy one or more
+job description requirements. The fleet configuration system
+13020 is described in further detail elsewhere in this dis-
+closure.
+In embodiments, the job configuration system 13018 may
+include a workflow definition system that receives task
+definitions from the task definition system, fleet configura-
+tion information from the fleet configuration system 13020,
+other freight storage and/or transportation service order
+information that may facilitate task sequencing (e.g., timing
+of deliverables and/or tasks), and generates one or more task
+workflows based thereon. In embodiments, the workflow
+definition system incorporates information from the smart
+container fleet management system to identify workflow
+possibilities using output from the task definition, job pars-
+ing system, and real-time external data such as maintenance
+management systems, ERP systems, and so forth to deter-

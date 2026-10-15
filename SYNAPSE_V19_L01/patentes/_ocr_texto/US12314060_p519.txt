@@ -1,0 +1,136 @@
+specific predefined function, produce newly defined func- 50 services in real time or to improved stored library elements.
+cessed or otherwise optimized for use with quantum com- 60 a thalamus service that provides an equivalent to a biological
+[col 1]
+US 12,314,060 B2
+673
+with awareness of capabilities of different quantum com-
+puter types and/or different quantum algorithm types.
+In embodiments, the quantum computing system 17000
+may leverage one or artificial networks to fulfll the request
+of a quantum computing client. For example, the quantum
+computing system 17000 may leverage a set of artificial
+neural networks to identify patterns in images (e.g., using
+image data from a liquid lens system), perform binary matrix
+factorization, perform topical content targeting, perform
+similarity-based clustering, perform collaborative filtering, 10
+perform opportunity mining, or the like.
+In embodiments, the system of systems may include a
+hybrid computing allocation system for prioritization and
+allocation of quantum computing resources and traditional
+computing resources. In embodiments, the prioritization and
+allocation of quantum computing resources and traditional
+computing resources may be measure-based (e.g., measur-
+ing the extent of the advantage of the quantum resource
+relative to other available resources), cost-based, optimality-
+based, speed-based, impact-based, or the like. In some 20
+embodiments the hybrid computing allocation system is
+configured to perform time-division multiplexing between
+the quantum computing system 17000 and a traditional
+computing system. In embodiments, the hybrid computing
+allocation system may automatically track and report on the 25
+allocation of computational resources, the availability of
+computational resources, the cost of computational
+resources, and the like.
+In embodiments, the quantum computing system 17000
+may be leveraged for queue optimization for utilization of
+30
+quantum computing resources, including context-based
+queue optimizations.
+In embodiments, the quantum computing system 17000
+may support quantum-computation-aware location-based
+data caching. 35
+In embodiments, the quantum computing system 17000
+may be leveraged for optimization of various system
+resources in the system of systems, including the optimiza-
+tion of quantum computing resources, traditional computing
+resources, energy resources, human resources, robotic fleet 40
+resources, smart container fleet resources, I/O bandwidth,
+ storage resources, network bandwidth, attention resources,
+or the like.
+The quantum computing system 17000 may be imple-
+mented in the system of systems architecture similarly to the 45j
+intelligence service 17034,where a complete range of
+capabilities are available to or as part of any configured
+service. Configured quantum computing services may be
+configured with subsets of these capabilities to perform
+tions, or various combinations of both.
+FIG. 161 illustrates quantum computing service request
+handling according to some embodiments of the present
+disclosure. A directed quantum computing request 17102
+may come from one or more quantum-aware devices or 55 1
+stack of devices, where the request is for known application
+configured with specific quantum instance(s), quantum com-
+puting engine(s), or other quantum computing resources,
+ and where data associated with the request may be prepro-
+puting.
+A general quantum computing request 17104 may come
+from any system in the system of systems or configured
+service, where the requestor has determined that quantum
+computing resources may provide additional value or other 65 t
+improved outcomes. Improved outcomes may also be sug-
+gested by the quantum computing service in association with
+[col 2]
+674
+some form of monitoring and analysis. For a general quan-
+tum computing request 17104, input data may not be struc-
+tured or formatted as necessary for quantum computing.
+In embodiments, external data requests 17106 may
+include any available data that may benecessaryfor training
+new quantum instances. The sources of such requests could
+be public data, sensors, ERP systems, and many others.
+analyzed using a standardized approach that identifies one or
+more possible sets of known quantum instances, quantum
+computing engines, or other quantum computing resources
+that may be applied to perform the requested operation(s).
+Potential existing sets may be identified in the quantum set
+library 17108.
+In embodiments, the quantum computing system 17000
+includes a quantum computing configuration service 17010.
+The quantum computing configuration service may work
+alone or with the intelligence service 17034 to select a best
+available configuration using a resource and priority analysis
+that also includes the priority of the requestor. The quantum
+computing configuration service may provide a solution
+(YES) or determine that a new configuration is required
+(NO).
+In one example, the requested set of quantum computing
+services may not exist in the quantum set library 17108. In
+this example, one or more new quantum instances must be
+developed (trained) using available data. For example, a
+quantum computing module for optimizing truck freight
+deliveries in the United States may exist in the quantum set
+library 17108. However, requestor inputs identified the need
+to optimize shipping in Canada. In this case, quantum
+instance training may work with the intelligence service
+17034 to train a new instance for Canada using a range of
+public data such as shipping schedules, speed limits, fuel
+mileage and cost, and so forth. In embodiments, alternate
+configurations may be developed with assistance from the
+intelligence service 17034 to identify alternate ways to
+provide all or some of the requested quantum computing
+services until appropriate resources become available. For
+example, a quantum/traditional hybrid model may be pos-
+sible that provides the requested service, but at a slower rate.
+In embodiments, alternate configurations may be devel-
+oped with assistance from the intelligence service 17034 to
+identify alternate and possibly temporary ways to provide all
+or some of the requested quantum computing services. For
+example, a hybrid quantum/traditional model may be pos-
+sible that provides the requested service, but at a slower rate.
+This may also include a feedback learning loop to adjust
+When a quantum computing configuration has been iden-
+tified and available, it is allocated and programmed for
+execution and delivery of one or more quantum states
+(solutions).
+Biology-Based Systems for VCNs
+Techniques described herein improve the ability of net-
+works and systems to collect, transmit, and process large
+volumes of data, especially data from sensors and other
+value chain data generators. These techniques include using
+thalamus, a neural system for filtering and relaying data. The
+thalamus service described herein can receive large volumes
+of information and quickly prioritize the information, pass-
+ing on the most importing information so that limited
+transmission, processing, collection, and/or analysis
+resources are not overwhelmed by volume of incoming
+information.

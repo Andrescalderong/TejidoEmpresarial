@@ -1,0 +1,137 @@
+tion, commercial invoices, and the like, such as to find 55 container route, such as based on a training data set of
+[col 1]
+US 12,314,060 B2
+553
+one or more freight storage and/or transportation services
+(e.g., services that require the use of a smart container). For
+example, the intelligence service 13004 may receive data
+from various sources described throughout this document
+and the documents incorporated by reference herein and
+may generate a set of feature vectors based on the received
+data. The intelligence service 13004 may input the feature
+vectors into machine-learned models trained (e.g., using a
+combination of simulation data and real-world data) to
+provide decision support related to the pricing of one or 10
+more services, such as based on a training data set of
+outcomes. In embodiments, the intelligence service 13004
+decision support related to service pricing by a set of human
+experts and/or by other systems or models. Data sources 15
+used to produce the set of feature vectors, may include, but
+are not limited to, order data, demand data, supply data, cost
+data, volatility data, pricing pattern data, order size data,
+order volume data, geographic trading data, maritime data,
+trucking fleet data, railway data, traffic data, weather data, 20
+social media sites, external data (such as news involving
+smart containers or shipping or the like), and many others.
+In another example, a set of machine-learned models may
+be used to provide decision support related to loading and/or
+unloading cargo. The intelligence service 13004 may receive 25
+order data (optionally including weight data, volume data
+cargo description data, destination location, or the like)
+and/or video feed from sensors disposed outside the smart
+container and/or within the smart container and may gener-
+ate a set of feature vectors based on the received data. The 30
+intelligence service 13004 may input the set of feature
+vectors into a machine-learned model trained (e.g., using a
+combination of simulation data and real-world data) to
+provide decision support related to cargo loading and/or
+unloading.Forexample,themachine-learnedmodel could 35
+be configured to provide decision support about the order in
+which specific cargo is loaded and/or unloaded, the cluster-
+ing of cargo, the configuration of cargo within the smart
+container, or the like. In embodiments, a model or set of
+models may be trained by an expert in the loading and/or 40
+unloading of cargo.
+In yet another example, a set of machine-learned models
+may be used to determine regulatory compliance of a
+shipment. For example, the intelligence service 13004 may
+receive data from various sources described throughout this 45
+document and the documents incorporated by reference
+herein and may generate a set of feature vectors based on the
+received data. The intelligence service 13004 may input the
+feature vectors into machine-learned models trained to
+determine regulatory compliance. As one non-limiting 50
+example, regulatory compliance may include compliance
+with regulations that require documentation confirming cus-
+toms duties are paid. In embodiments, relating to such an
+example, a machine-learned model may parse documenta-
+verification of the required tariff payments.
+In another example, a set of machine-learned models may
+be used to categorize or classify cargo. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu- 60
+ments incorporated by reference herein and may generate a
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the set of feature
+vectors into a machine-learned model trained (e.g., using a
+combination of simulation data and real-world data) to 65
+categorize cargo, such as based on a training data set of
+outcomes. In embodiments, the intelligence service 13004
+[col 2]
+554
+may include an input set of training data representing
+categorizations or classifications of cargo by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for categorization or classification of
+cargo may include shipping data of the many types described
+herein, shipper profile data, as well as external data sources
+that may assist with classification or categorization of cargo.
+Such artificial intelligence systems used for classification, in
+the present example and other examples described herein,
+may include a recurrent neural network (including a gated
+recurrent neural network), a convolutional neural network, a
+combination of a recurrent neural network and a convolu-
+tional neural network, or other type of neural network or
+combination or hybrid of types of neural network described
+herein or in the documents incorporated by reference herein.
+In another example, a set of machine-learned models may
+be used to optimize smart container design. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu-
+ments incorporated by reference herein and may generate a
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the feature vectors into
+machine-learned models trained (e.g-, using a combination
+of simulation data and real-world data) to optimize the
+design of the smart container, such as based on a training
+data set of outcomes. In embodiments, the intelligence
+service 13004 may include an input set of training data
+representing smart container optimization by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for optimization of marketplace effi-
+ciency may include shipping data of the many types
+described herein that may assist with smart container design
+optimization. Such artificial intelligence systems used for
+optimization, in the present example and other examples
+described herein, may include a recurrent neural network
+(including a gated recurrent neural network), a convolu-
+tional neural network, a combination of a recurrent neural
+network and a convolutional neural network, or other type of
+neural network or combination or hybrid of types of neural
+network described herein or in the documents incorporated
+by reference herein. In embodiments, the smart container
+design may be optimized for cost, carbon emissions, speed,
+efficiency, performance, performance in specific environ-
+ments (e.g., optimized to operate in arctic conditions),
+carrying capacity, safety, and the like.
+In another example, a set of machine-learned models may
+be used to optimize a smart container route. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu-
+ments incorporated by reference herein and may generate a
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the feature vectors into
+machine-learned models trained (e.g., using a combination
+of simulation data and real-world data) to optimize the smart
+outcomes. In embodiments, the intelligence service 13004
+may include an input set of training data representing
+marketplace profitability optimization by a set of human
+experts and/or by other systems or models. Data sources and
+feature vectors used for optimization of the smart container
+route may include shipping data of the many types described
+herein that may assist with the smart container route opti-
+mization, including historical route data, order data, weather
+data, maritime data, traffic data, truck fleet data, railway
+data, news data, or the like.
+The foregoing examples are non-limiting examples and
+the intelligence service 13004 may be used for any other

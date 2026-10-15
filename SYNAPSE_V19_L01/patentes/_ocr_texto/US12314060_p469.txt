@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+573
+In some embodiments, the smart container system 13000
+may support the use of smart contracts in relation to freight
+storage and/or transportation service orders, job perfor-
+mance, resource allocation, and/or the like. In embodiments.
+freight storage and/or transportation service orders may be
+routed through a smart contract handler that captures job
+requirements, requestor goals and objectives, and fleet order
+execution constraints into a dynamic smart contract. In some
+embodiments, smart contracts may be utilized throughout a
+smart container fleet management system to address all
+manner of fleet operations, such as administering negotiated
+routing of a smart container from a first location (e.g. an
+origin location, container port or terminal, a temporary
+storage/service location) to a second location (e.g-, a desti-
+nation location, a container port or terminal, or the like). As 15
+a control for a bidding system for smart container time/task
+utilization. As another example, a smart contract may moni-
+tor certain activities (e.g., task-related activities and the like)
+relating to a freight storage and/or transportation service
+order. The smart contract may rely on and/or benefit from
+access to fleet system data, (e.g. route progress, sensor data,
+and the like) to trigger actions defined by the smart contract,
+such as payments upon completion of a delivery of smart
+container cargo. The smart container system 13000 may 25
+provide access to fleet resources, including fleet data
+through Application Programming Interfaces (APIs), infra-
+structure elements such as sensor networks, edge computing
+systems, and the like for updating states relevant to smart
+contract terms and conditions. 30
+In embodiments, the job configuration system 13018 and
+the fleet configuration system 13020 collectively generate an
+order execution plan, according to some embodiments of the
+present disclosure. In embodiments, an order execution plan
+may define a smart container route and/or set of tasks that 35 s
+are to be performed in completion of a requested job and
+may further define a configuration of a fleet of smart
+container operating units that are to complete the job. In
+embodiments, an order execution plan may include task
+definitions (which may include route definitions), workflow 40
+definitions, fleet configurations (which may include smart
+container configurations of individual smart containers)
+team assignments, and references to (or incorporation of)
+contextual information, such as container port site details
+and the like. In embodiments, the job configuration system 45
+13018 receives an order that defines the job to be done and
+the job configuration system 13018 may determine a set of
+task definitions that respectively define a shipping service
+and/or tasks that are performed by a smart container in
+completion of a job. In embodiments, the job configuration 5o
+system 13018 further defines a set of workflow definitions.
+The workflow definitions define at least one order in which
+tasks are performed in completion of a project and/or job,
+including any loops, iterations, triggering conditions, or the
+like. In embodiments, the job configuration system 13018 55
+may determine the workflows based on the task definitions
+that comprise a job. The job configuration system 13018
+may leverage libraries of preconfigured workflows to com-
+plete certain jobs. Additionally, or alternatively, the job
+configuration system 13018 may leverage the intelligence 60
+service 13004 to obtain an initial workflow definition for a
+embodiments, a human may configure the initial workflow
+definition and/or may provide input that is used to determine
+the initial workflow definition. In embodiments, the job 65
+configuration system 13018 may interface with one or more
+components of the smart container system 13000 to
+[col 2]
+574
+exchange information for developing a smart container fleet
+order execution plan and/or to leverage one or more services
+thereof. For example, the job configuration system 13018
+may interface with the data processing system 13024, a
+smart container configuration library of smart container,
+fleet, project, and task related information, the fleet-level
+intelligence service 13004, the fleet configuration system
+13020, and the like.
+In embodiments, the job configuration system 13018 may
+ 1o include a plurality of systems that perform order execution
+plan preparation functions by processing the information
+order. In embodiments, the systems of the job configuration
+system 13018 may include a job parsing system, a task
+definition system, a workflow definition system, and a
+workflow simulation system. In the illustrated example, the
+job configuration system 13018 systems work in combina-
+tion to generate an order execution plan that is used to define
+a set of smart container operating unit assignments. In
+ 20 embodiments, smart container operating unit assignments
+may be supplemental to or integrated with an order execu-
+tion plan and may identify specific smart container teams
+and/or smart containers assigned to respective tasks. For
+example, smart container operating unit assignment may
+define specific tasks and, for each task, may identify a
+specific smart container assigned to a task via a smart
+container unique identifier and/or a specific smart container
+team with a team identifier assigned to the task. In embodi-
+ments, the smart container operating unit assignments may
+be generated by the job configuration system 13018 and/or
+the fleet configuration system 13020.
+In embodiments, a job parsing system receives and parses
+a freight storage and/or transportation service order to
+determine a set of freight storage and/or transportation
+service order parameters that are ultimately used to deter-
+mine a job definition, project definition(s), task definitions,
+workflow definitions, fleet configurations, and smart con-
+tainer configurations. In embodiments, a job parsing system
+may receive a freight storage and/or transportation service
+order from a user via a user interface, such as human
+interface system 13038 that receives input by an operator to
+configure, adapt, or otherwise facilitate parsing ofthe freight
+storage and/or transportation service order. Additionally, or
+alternatively, the job parsing system may receive the freight
+storage and/or transportation service order from a client
+device associated with a requesting organization.
+In embodiments, the job parsing system may be config-
+ured with an ingestion facility for receiving electronic
+versions of job descriptions and related documents, such as
+GPS data, smart contract data and/or terms, links to the
+same, and the like. The ingestion facility may parse docu-
+ments for keywords, references to activities and the like that
+can be useful for determining job requirements. Further,
+keywords in the ingested job content, such as weight terms,
+volume terms, route environment terms, and the like may be
+usefully applied by the job configuration system 13018
+elements by providing insight as to the type(s) of smart
+containers needed and the configurations thereof. As an
+example, a keyword that suggests content to be moved
+weighs 25 tons, suggests a smart container transport device/
+team that has at least that amount of moving capacity.
+In embodiments, the job parsing system may incorporate
+and/or utilize machine learning functionality (e.g, as may be
+provided by the intelligence service 13004) to improve
+techniques for parsing job content which may include
+description data. In addition to machine-based learning from
+human-generated feedback on job content parsing results,

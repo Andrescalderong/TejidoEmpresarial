@@ -1,0 +1,136 @@
+to a more centralized server, processor and/or data center 60 may implement one or more distributed update management
+[col 1]
+US 12,567,082 B2
+631
+ system 13000 and/or the RPA module 13416 may use the
+processed and documented success criteria to understand
+one or more process steps and/or algorithms used by the
+RPA module 13416 to facilitate interfacing with external
+systems and/or to automate internal marketplace workflows 5
+of the smart container system 13000.
+In some embodiments, the RPA module 13416 may
+implement gamification of robotic process automation capa-
+bilities of the smart container system 13000. The gamifica-
+tion of robotic process automation capabilities may include 10
+awarding points to users for performing tasks desirable to
+operation of the smart container system 13000 and/or desir-
+able for improvement of robotic process automation opera-
+tions of the smart container system 13000. For example,
+points may be awarded for augmentation of a robotic 15
+process automation algorithm. Users who have been
+awarded points may compete with one another, and digital
+and/or physical prizes may be awarded to users who have
+achieved one or more point thresholds and/or have ranked
+above one or more other users on a points leaderboard.
+In embodiments, the smart container system 13000
+includes an edge device configured to perform edge com-
+putation and intelligence. In some embodiments, edge com-
+putation and intelligence may include performing one or
+both of data processing and data storage in an area that is 25
+physically close to where the processed and/or stored data is
+needed. In some embodiments, the smart container system
+13000 may include a plurality of edge devices. By way of
+example, the edge device may be a router, a routing switch,
+an integrated access device, a multiplexer, a local area 30 
+network (LAN) and/or wide area network (WAN) access
+device, an Internet of Things device, a smart container,
+and/or any other suitable device. In some embodiments,
+edge computation and intelligence may include performing
+data processing and/or data filtering. Theprocessed and/or 35 
+filtered data may be transmitted directly to devices that will
+use the processed and/or filtered data. The processed and/or
+filtered data may be transmitted along transmission paths
+with less congestion than general-purpose or high-traffic
+data transmission paths. Transmission of the processed 40
+and/or filtered data may use lower bandwidth than would
+transmission of unprocessed and/or unfiltered data.
+In some embodiments, the edge device may implement
+local edge intelligence to anticipate relevant shipping factors
+using data received by and/or stored by the edge device. The 45
+edge device may be directed to collecting and processing
+data related to one or more of a particular smart container,
+class of smart containers, shippers, class of shippers, ship-
+ping lines, class of shipping lines, container ports, class of
+container ports, and the like. In some embodiments, the edge 50
+device may be situated physically near a remote container
+port or shipping hub area. For example, the edge device may
+be positioned and configured to collect data regarding per-
+formance related to a particular type of smart container in a
+geographical region. 55
+The edge device may perform data processing, analytics,
+filtering, trend finding, prediction making, and the like
+related to the data and may send processing results, analyt-
+ics, filtered data, trends, predictions, etc. or portions thereof
+within the smart container system 13000.
+In some embodiments, the edge device may be configured
+to perform decision making while being physically and/or
+electronically isolated from some or all other components of
+the smart container system 13000. Herein, electronic isola- 65
+tion may mean or include being temporarily unable to
+communicate with one or more other systems, devices,
+[col 2]
+632
+components, etc. The edge device may make decisions
+based upon outputs and/or conclusions drawn from the data
+processing, analytics, filtering, trend finding, prediction
+making, etc. related to data received by the edge device.
+Examples of decisions made by the edge device include
+whether to validate one or more pieces of data, whether to
+validate a user of the smart container system 13000 or a
+portion thereof, whether a freight storage and/or transpor-
+tation service order has been executed, and the like. The
+edge device may transmit data related to decisions made by
+the edge device to other components of the smart container
+system 13000.
+In some embodiments, in cases where the edge device is
+temporarily electronically isolated from other components
+of the smart container system 13000, the edge device may
+make decisions on behalf of other components of the smart
+container system 13000, and may have the decisions
+audited, evaluated, and/or recorded by other components of
+the smart container system 13000 upon being reconnected
+with the other components of the smart container system
+13000. The edge device may be restricted from making
+some decisions in absence of connection to and/or oversight
+by other components of the smart container system 13000.
+Examples of restricted decisions may include decisions
+related to shipping transactions where confidentiality and/or
+security are of concern, where sensitive cargo is to be
+shipped, and the like.
+In some embodiments, the edge device may store a copy
+of a distributed ledger, the distributed ledger containing
+information related to one or more smart containers, smart
+container fleets, and/or shipping transactions managed by
+the smart container system 13000. The distributed ledger
+may be a cryptographic ledger, such as a blockchain. The
+edge device may write blocks to the distributed ledger
+containing smart container information and may have the
+blocks verified by comparison with copies of the distributed
+ledger stored on other components of the smart container
+system 13000.
+In some embodiments, the smart container system 13000
+may include a ledger management system configured to
+manage a network of devices, such as edge devices, that
+store copies of the distributed ledger. The devices that store
+copies of the distributed ledger may be configured to trans-
+mit copies stored thereon to the ledger management system
+for aggregation, comparison, and/or validation. The ledger
+management system may establish a whitelist of trusted
+parties and/or devices, a blacklist of untrusted parties and/or
+devices, or a combination thereof. The ledger management
+system may assign permissions to particular users, devices,
+and the like. Versions of the distributed ledger may be
+compared to prevent duplicate transactions such as the sale
+of multiple copies of a unique good. In embodiments, where
+the smart container system 13000 includes a plurality of
+edge devices that may each store a copy of the distributed
+ledger and may compare copies against one another with
+respect to validation of blocks and addition of new blocks by
+and/or all of the edge devices.
+In some embodiments, the smart container system 13000
+algorithms for updating distributed devices such as the edge
+device. The distributed update management algorithm may
+include one ormoreprocedures for how and when torollout
+updates to the distributed devices. The smart container
+software via the distributed update management algorithms.
+The distributed devices may receive updates directly from

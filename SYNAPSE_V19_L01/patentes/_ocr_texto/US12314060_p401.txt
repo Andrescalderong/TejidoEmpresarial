@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+437
+phone, and/or the like), databases (e.g., platform 12000
+databases, third-party databases, and/or the like), human
+input, and/or other suitable data.
+In embodiments, an intelligence layer 12200 may include
+an intelligence layer controller 12202 and an artificial intel-
+ligence (A) service 12204. In embodiments, an artificial
+intelligence layer 12200 receives an intelligence request
+from an intelligence layer client 12260 and any required data
+to process the request from the intelligence layer client
+12260. In response to the request and the specific data, one 10
+or more implicated services of the artificial intelligence
+service 12204 perform the intelligence task and the artificial
+response", An intelligence response may refer to an output
+of the artificial intelligence service 12204. Examples of 15
+intelligence service (e.g., a control instruction, a proposed
+job execution plan, a proposed fleet configuration, a pro-
+posed robot configuration, and/or the like), a prediction
+made by an artificial intelligence service (e.g-, a predicted
+20
+meaning of a text snippet, a predicted outcome associated
+with a proposed action, a predicted fault condition and/or the
+like), a classification made by an artificial intelligence
+service (e.g-, a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con- 25
+dition based on sensor data), and/or other suitable outputs of
+an artificial intelligence service.
+In embodiments, the artificial intelligence service 12204
+may include an ML system 12212, a rules-based system
+12228, an analytics system 12218, an RPA system 12216, a 30
+digital twin system 12220, a machine vision system 12222,
+an NLP system 12224, and/or a neural network system
+12214. It is appreciated that the foregoing are non-limiting
+examples of artificial intelligence services, and some of the
+systems may be included or leveraged by other systems of 35 
+the artificial intelligence service. For example, the NLP
+system 12224, the machine vision system 12222, and the
+RPA system 12228 may all leverage different neural net-
+works in performance of their respective functions.
+In embodiments, the intelligence services 12204 includes 40
+and provides access to a ML system 12222 that may be
+integrated into or be accessed by the fleet management
+platform 12000 or any sufficiently configured robot operat-
+ing unit (e.g., an MPR, SPR, a team, a fleet, and/or the like).
+In embodiments,the ML system 12212 may provide 45
+machine-based learning capabilities, features, functions, and
+algorithms for use by an intelligence system client 12260
+such as training ML models, leveraging ML models, rein-
+forcing ML models, performing various clustering tech-
+niques, feature extraction, and/or the like. In an example, a 50i
+machine learning system 12026 may provide machine learn-
+ing computing, data storage, and feedback infrastructure to
+a workflow simulation system of a job configuration system
+to facilitate optimizing workflow development. The machine
+learning system 12026 may also operate cooperatively with
+other fleet intelligence systems, such as the rules-based
+system, the machine vision system 12222, the RPA system
+12216, and/or the like.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a neural network 60
+ system 12214. In embodiments, the neural network system
+12214 is configured to train, deploy, and/or leverage neural
+networks on behalf of an intelligencelayer client 12260.In
+embodiments, the neural network system 12214 may be
+configured to train any suitable type of neural network that
+may be used by the fleet management platform 12000, a
+robot, a robot team, and/or a robot fleet. Non-limiting
+[col 2]
+438
+examples of different types of neural networks may include
+any of the neural network types described throughout this
+disclosure and the documents incorporated herein by refer-
+ence, including without limitation convolutional neural net-
+works (CNN), deep convolutional neural networks (DCN),
+feed forward neural networks (including deep feed forward
+neural networks), recurrent neural networks (RNN) (includ-
+ing without limitation gated RNNs), long/short term
+memory (LTSM) neural networks, and the like, as well as
+hybrids or combinations of the above, such as deployed in
+series, in parallel, in acyclic (e.g+, directed graph-based)
+flows, and/or in more complex flows that may include
+intermediate decision nodes, recursive loops, and the like,
+where a given type of neural network takes inputs from a
+data source or other neural network and provides outputs
+that are included within the input sets of another neural
+network until a flow is completed and a final output is
+provided. In embodiments, the neural network system i2214
+may be leveraged by other components of the fleet intelli-
+gence system, such as the machine vision system 12222, the
+NLP system 12224, the rules-based system 12228, the
+digital twin system 12226, and/or other artificial intelligence
+services. Examples applications of the neural network sys-
+tem 12214 are described throughout the disclosure.
+In embodiments, the artificial intelligence services 12204
+may provide access to and/or integrate a robotic process
+automation (RPA) system 12216. The RPA system 12216
+may facilitate, among other things, computer automation of
+producing and validating workflows that involve remote-
+control of robot operating units, teams, fleet resources and
+the like. In embodiments, the RPA system 12216 may
+monitor human interaction with various systems to learn
+patterns and processes performed by humans in performance
+of respective tasks. This may include observation of human
+actions that involve interactions with hardware elements,
+with software interfaces, and with other elements. Observa-
+tions may include field observations as humans perform real
+tasks, as well as observations of simulations or other activi-
+ties in which a human performs an action with the explicit
+intent to provide a training data set or input for the RPA
+system, such as where a human tags or labels a training data
+set with features that assist the RPA system in learning to
+recognize or classify features or objects, among many other
+examples. In embodiments, the RPA system 12216 may
+learn to perform certain tasks based on the learned patterns
+and processes, such that thetasks may be performed by the
+RPA system 12216 in lieu or in support of a human decision
+maker Examples of the RPA systems 12216 may encompass
+those in this disclosure and in the documents incorporated
+by reference herein and may involve automation of any of
+the wide range of value chain network activities or entities
+described therein. In embodiments,the artificial intelligence
+services 12204 may include and/or provide access to an
+analytics system 12218. In embodiments, an analytics sys-
+tem 12218 is configured to perform various analytical pro-
+cesses on data output from fleet functional components, such
+as the fleet configuration system 12020, robot operating
+units, and the like. In example embodiments, analytics
+produced by the analytics system 12218 may facilitate
+quantification of fleet system and system module perfor-
+mance as compared to a set of goals and/or metrics. The
+goals and/or metrics may be preconfigured, determined
+dynamically from historical fleet operations results, and the
+like. An analytics system 12218 may be confirmed to
+perform various analytics-based processes on behalf of the
+platform 12000, robot fleets, teams, and/or individual
+robots. Examples of analytics processes that can be per-

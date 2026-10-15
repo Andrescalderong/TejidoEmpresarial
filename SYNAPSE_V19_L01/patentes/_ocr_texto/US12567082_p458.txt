@@ -1,0 +1,136 @@
+or shipping environment and/or possible behaviors thereof. 45 material of a digital twin, the dimensions of a digital twin,
+[col 1]
+US 12,567,082 B2
+593
+In embodiments, the digital twin management system
+13306 generates digital twins. A digital twin may be com-
+prised of (e.g., via reference) other digital twins. In this way,
+a discrete digital twin may be comprised of a set of other
+discrete digital twins. For example, a digital twin of a smart
+container may include digital twins of sensors on and within
+the smart container, digital twins of components that make
+up the smart container, digital twins of smart container
+cargo, digital twins of other devices that are incorporated in
+or integrated with the smart container (such as robots, 3D
+printers, packaging systems, or sorting systems), and the
+like. Taking this example one step further, a digital twin of
+a container terminal may include a digital twin representing
+the layout of the terminal, including the arrangement of
+physical assets and systems in or around the terminal, digital
+twins of the shipping entities within the terminal, as well as
+digital twins of storage areas in the terminal, and the like. In
+this second example, the digital twin of the container ter-
+minal may reference the embedded digital twins, which may 20
+then reference other digital twins embedded within those
+digital twins.
+In some embodiments, a digital twin may represent
+abstract entities, such as workflows and/or processes, includ-
+ing inputs, outputs, sequences of steps, decision points,25
+processing loops, and the like that make up such workflows
+and processes. For example, a digital twin may be a digital
+representation of a logistics workflow, a cargo loading
+process, a cargo unloading process, a customs process, a 3D
+printing process, a smart container energy charging process, 3o
+or the like. In these embodiments, the digital twin may
+include references to the shipping entities that are included
+in the workflow or process. The digital twin of the shipping
+process may reflect the various stages of the process. In
+some ofthese embodiments, the digital twin module 13420
+may receive real-time data from a smart container, shipping
+entity, and/or shipping environment (e.g., from a sensor
+system of the container port facility) in which the shipping
+process takes place and reflects a current (or substantially
+current) state of the process in real-time.
+In embodiments, the digital representation may include a
+ set of data structures (e.g., classes) that collectively define a
+set of properties of a represented smart container, smart
+container fleet, physical object (e.g., cargo), device, sensor,
+For example, the set of properties of a smart container may
+include a type or class of smart container, the dimensions of
+the smart container, the mass or weight of the smart con-
+tainer, the material(s) of the smart container, the physical
+properties of the smart container materials(s), the surface of 50 s
+the smart container, the status of the smart container, a
+location of the smart container, identifiers of other digital
+twins contained within the smart container, and/or other
+suitable properties.
+Examples of the behaviors of a smart container may 55 c
+include a maximum acceleration of a smart container, a
+maximum speed of a smart container, ranges of motion of a
+smart container, a heating profile of a smart container
+interior, a cooling profile of a smart container interior,
+processes that are performed by the smart container, opera- 60
+tions that are performed by the smart container, and the like.
+The set of properties of a physical object may include a
+type of physical object, the dimensions of the physical
+object, the mass or weight of the physical object, the density
+of the physical object, the material(s) of the physical object, 65
+the physical properties of the materials(s), the surface of the
+physical object, the status of the physical object, a location
+[col 2]
+594
+of the physical object, identifiers of other digital twins
+contained within the physical object, and/or other suitable
+properties.
+Examples of a behavior of a physical object may include
+a state of the physical object (e.g, a solid, liquid, or gas), a
+melting point of the physical object, a density of the physical
+object when in a liquid state, a viscosity of the physical
+object when in a liquid state, a freezing point of the physical
+object, a density of the physical object when in a solid state,
+10 a hardness of the physical object when in a solid state, the
+malleability of the physical object, the buoyancy of the
+physical object, the conductivity of the physical object, a
+burning point of the physical object, the manner by which
+humidity affects the physical object, the manner by which
+water or other liquids affect the physical object, a terminal
+velocity of the physical object, and the like.
+The set of properties of a device may include a type of the
+device, the dimensions of the device, the mass or weight of
+the device, the density of the device, the material(s) of the
+device, the physical properties of the material(s), the surface
+of the device, the output of the device, the status of the
+device, a location of the device, a trajectory of the device,
+vibration characteristics of the device, identifiers of other
+digital twins that the device is connected to and/or contains,
+and the like.
+Examples of the behaviors of a device may include a
+maximum acceleration of a device, a maximum speed of a
+device, ranges of motion of a device, a heating profile of a
+device, a cooling profile of a device, processes that are
+performed by the device, operations that are performed by
+the device, and the like.
+Example properties of a shipping environment may
+include the dimensions of the environment, the boundaries
+of the environment, the temperature of the environment, the
+humidity of the environment, the airflow of the environment,
+the physical objects in the environment, currents of the
+environment (if a body of water), and the like. Examples of
+behaviors of an environment may include scientific laws that
+govern the environment, processes that are performed in the
+environment, rules or regulations that must be adhered to in
+the environment, and the like.
+In embodiments, the properties of a digital twin may be
+adjusted. For example, the temperature of a digital twin, the
+humidity of a digital twin, the shape of a digital twin, the
+or any other suitable parameters may be adjusted. As the
+properties of the digital twin are adjusted, other properties
+may be affected as well. For example, if the temperature
+within a smart containeris increased, the pressure within the
+smart container may increase as well, such as a pressure of
+a gas in accordance with the ideal gas law. In another
+example, if a digital twin of a subzero shipping environment
+is increased to above freezing temperatures, the properties of
+an embedded twin of water in a solid state (i.e, ice) may
+change into a liquid state over time.
+Digital twins may be represented in many different forms.
+In embodiments, a digital twin maybe a visual digital twin
+that is rendered by a computing device, such that a human
+user can view digital representations of a smart container
+fleet, individual smart containers, physical objects (e.g.,
+cargo or the like), devices, sensors, and/or shipping envi-
+ronments. In embodiments, the digital twin may be rendered
+and output to a display device. In some of these embodi-
+ments, the digital twin may be rendered in a graphical user
+interface (e.g., a scalable vector graphics (SVG) enabled
+user interface), such that a user may interact with the digital

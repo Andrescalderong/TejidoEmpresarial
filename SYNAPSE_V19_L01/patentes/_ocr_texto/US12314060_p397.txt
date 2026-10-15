@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+429
+detailed view of various components along with integration
+of the dynamic vision system with one or more third party
+systems according to some embodiments of the present
+disclosure. The dynamic vision system 11900 may include a
+liquid lens optical assembly 11304 configured to capture
+data from various data sources 11902 including vision
+ sensors 11904, feedback sources 11906 providing outcome
+data from the machine learning system, environment control
+11908 generating data in response to a change in environ-
+ment factors including temperature, pressure, humidity,
+vibrations etc., lighting control 11910 generating data in
+response to a change in source lighting including color, color
+temperature, timing (PWM), amplitude etc. and data library
+11912.
+15
+The data storage and management system 11914 may
+maintain a record of state and event data for various com-
+ponents and subsystems of the dynamic vision system 11300
+such that any of the services, applications, programs, or the
+like may access a common data source (which may comprise 20 s
+a single logical data source that is distributed across dispa-
+rate physical and/or virtual storage locations). The data
+storage and management system 11914 may include a
+memory subsystem for storage of instructions and data and
+a file storage subsystem providing persistent storage for 25
+program and data files. Further, the storage and management
+ system 11914 may include capabilities such as data alloca-
+tion, data caching, data pruning and data management and
+access to and control of intelligence and data resources.
+The processing system 11306 may process the data cap- 30
+tured by liquid lens optical assembly 11304 and stored in
+data storage and management system 11914 to optimize and
+adjust the optical parameters in real time through the
+machine learning system 11324 and the artificial intelligence
+system 11326, the digital twin system 11320 and the control 35
+system 11314 as described in detail in FIGS. 123, 124, 125
+and 126, or elsewhere herein.
+In embodiments, a set of applications 11916 may enable
+the dynamic vision system 11300 to present meaning infor-
+mation to a userand enable the userperform specific vision 40
+tasks. Some examples of applications provided on the
+dynamic vision system 11300 include particle filter 11918,
+3D model generation 11920, Location or motion prediction
+11922, Visual SLAM 11924, defect detection 11926 and
+adversarial neural network detection 11928. 45
+In embodiments, the dynamic vision system 11300 may
+integrate with one or more third party systems 11930
+through connectivity facilities including interfaces, network
+connections, ports, application programming interfaces
+(APIs), brokers, services, connectors, wrappers, containers, 50
+wired or wireless communication links, human-accessible
+interfaces, software interfaces, micro-services, Saas inter-
+faces, PaaS interfaces, Iaas interfaces, cloud capabilities, or
+the like. The connectivity facilities may facilitate the transfer
+of data between the dynamic vision system 11300 and the 55
+one or more third party systems 11930.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of value chain network (VCN)
+entities for quality control inspections and sorting objects in
+a production assembly line or logistics chain wherein the
+liquid lens is configured to quickly adjust focus to accom-
+modate for, recognize and sort objects located at various
+working distances or objects of different heights.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of autonomous vehicle systems to 65
+scan the vehicle environment and monitor the distance
+between the vehicle from other objects on the road.
+[col 2]
+430
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an interactive head-mounted device
+configured to display virtual content with an electrically
+adjustable liquid lens for providing a correction for the
+displayed content by adjusting the electrically adjustable
+liquid lens.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an unmanned automotive vehicle
+(UAV) navigation system to help control the position or
+course of the UAV in three dimensions.
+Some non-limiting examples of third party systems 11930
+that may integrate with dynamic vision system 11300 for
+incorporating vision capability include IoT system 11932,
+value chain network (VCN) system 11934, manufacturing
+execution system (MES) 11936, robot/cobot system 11938,
+automotive system 11940, 3D printing system, ophthalmic
+system, surgical system, microscopy system, exoskeleton
+system, prosthetics system, biometrics system, quality man-
+agement system (QMS), compliance system, certification
+system, and the like.
+In embodiments, the integration of the dynamic vision
+system 11300 with the more third-party systems 11930 takes
+into account the specific needs and requirements of the third
+party systems 11930 and may customize certain components
+and applications of the dynamic vision system 11300 based
+on such requirements. For example, when integrating with a
+3D printing system, defect detection may be provided
+whereas integration with a robotic cleaning system may
+benefit from the inclusion of virtual SLAM 11924.
+FIGS. 128-142 relate to various embodiments of a fleet
+management platform that is configured to configure fleets
+of robot operating units to perform a wide array of jobs. In
+some embodiments, a fleet management platform may be
+used a value chain entity that is leveraged by one or more
+organizations. The fleet management platform may be a
+standalone service or may be incorporated as part of a larger
+multi-service offering. In embodiments, the fleet manage-
+ment platform receives a job request (e.g-, from a client
+device) and identifies a set of tasks to be performed in
+completion of the requested job. In response to determining
+the set of tasks, the fleet management platform may deter-
+mine a robot fleet configuration that includes a set of robot
+operating units and may assign robot operating units to the
+set of tasks. As used herein, a robot operating unit may refer
+to an individual robot, a team of robots, or a fleet of robots
+that operate to complete a task or set of tasks. An individual
+robot may refer to a special-purpose robot, multi-purpose
+robot, exoskeleton robot, robotic process automation soft-
+ware, or other software-based bot, as discussed further
+below. As will be discussed, in some embodiments, the fleet
+management platform may define a configuration of one or
+more multi-purpose robots to perform a respective task or
+sub-task and/or to operate in a certain type of environment
+as part of the fleet configuration. As will be discussed, a
+multi-purpose robot may be configured with various mod-
+ules that allow the multi-purpose robot to perform certain
+tasks. For instance, a multi-purpose robot may be provi-
+sioned with specialized chips that enable the robot to per-
+form intelligence tasks, specialized sensors for a job or
+environment, liquid lenses for enabling certain machine-
+vision functionality, specialized appendages that are task
+specific (e.g., clamps, grippers, drills, lifts, and/or the like),
+and/or other modules that configure the multi-purpose robot
+to perform a certain task or set of tasks.
+In some embodiments, the fleet management platform
+may define a set of workflows, wherein a workflow may
+define an order by which certain tasks or sub-tasks are

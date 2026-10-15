@@ -1,0 +1,137 @@
+10110, such as that associated with a value chain network 15 of example and should not be construed as limiting. There
+[col 1]
+US 12,567,082 B2
+395
+providing a design of a product or part to include attributes
+favored by the customer, including functional attributes,
+preferred materials (such as to match materials of products
+already owned by the customer), preferred colors, preferred
+shapes, and many others. In embodiments, customization
+may reference an understanding of products already owned
+by the customer, such as based on purchase history infor-
+mation, such as where a recommended product can be
+configured to work as part of a family of products, such as
+by recommending a product that has compatible color, 10
+shape, size, material type, connectivity (e.g., to work as part
+of a connected set of products), communication protocol,
+logo, or the like.
+In embodiments, the additive manufacturing platform
+may be prepared, configured and/or deployed to support
+printing of personalized entertainment props, backdrops and
+other items at theme parks, cruise ships, theater and film
+productions and/or other entertainment venues. For
+example, in connection with a cruise ship, the additive 20
+manufacturing unit 10102 may be designated to support the
+printing of cabins, themed rooms or furniture to fit based on
+a given theme. The customers may provide their preferences
+in terms of room layout and design, furniture and accesso-
+ries, which can be dynamically printed. Similarly, for theme 25
+parks the additive manufacturing unit 10102 may be desig-
+nated to support the printing of rockwork, rides and other
+attractions and for theater and film productions, movie
+props, costumes, sets, artifacts and other accessories may be
+custom printed. 30
+In embodiments, the platform may take inputs from or
+related to the entertainment venue owner, such as inputs
+indicating the item being printed (e.g-, technical specifica-
+tions, CAD designs, or the like); inputs indicating require-
+ments (suchasaneed to improveanexistingrollercoaster 35
+attraction with custom rockwork, a need to build a dinosaur
+replica, or the like); and inputs captured by cameras, micro-
+phones, data collectors, sensors, and other information
+sources associated with the entertainment venue.
+In embodiments,thatrecommend or configure instruc- 4o t
+tions for additive manufacturing, the platform 10110 may
+discover available materials including fabrics, metals plas-
+tics etc., configure instructions, and initiate additive manu-
+facturing, and provide updates to the owner of the enter-
+tainment venue, such as updates as to when an element will 45
+be ready to use. The platform 10110 may, in some such
+embodiments, automatically determine, such as by using the
+artificial intelligence system 10212, trained on an expert
+data set, and the like, whether a suitable item is readily
+available and/or whether use of an additive manufacturing 50 
+system to produce the item(s) can reduce delay, to save
+costs, or the like.
+In embodiments, the platform 10110, such as through a
+trained AI agent, may automatically configure and schedule
+a set of jobs across a set of additive manufacturing units 55
+10102 with awareness of the status of other relevant entities
+involved in otherworkflows,suchas what otherworkis
+being done (e.g., to allow for appropriate sequencing of
+additive manufacturing outputs that align with overall work-
+flows), the priority of the printing job (e.g., whether it relates 60
+to film scene being shot), the cost of downtime, or other
+factors. In embodiments, optimization of workflows across
+a set of additive manufacturing entities may occur by having
+the artificial intelligence system 10212 undertake a set of
+simulations, such as simulations involving alternative sched- 65
+uling sequences, design configurations, alternative output
+types, and the like. In embodiments, simulations may
+[col 2]
+396
+include sequences involving additive manufacturing and
+other manufacturing entities (such as subtractive manufac-
+turing entities that cut, dye, or the like and/or finishing
+entities that sew, configure, add customer initials, or the
+like), including handoffs between sets of different manufac-
+turing entity types, such as where handoffs are handled by
+robotic handling systems. In embodiments, a set of digital
+twins may represent attributes and capabilities of the various
+manufacturing systems, various handling systems (robotic
+systems, arms, conveyors, and the like, as well as human
+workforce) and/or the surrounding environment.
+It will be apparent that the above decisions related to
+predictions, optimizations using the artificial intelligence
+system 10212 of platform 10110 are only presented by way
+may be many other use cases including decisions related to
+prediction and optimization ofpricing by a CFO twin 10720;
+decisions related to new product launch by a CEO twin
+based on behavioral patterns and market trends; and the like.
+In embodiments, the autonomous additive manufacturing
+platform 10110 enables the distributed manufacturing net-
+work 10130 by managing the production workflows within
+and across one or more manufacturing nodes, thereby facili-
+tating collaboration across the manufacturing nodes through
+the sharing of resources, capabilities and intelligence. In
+embodiments, the manufacturing nodes may collaborate for
+forecasting and prediction of material supply and product
+demand. In embodiments, the manufacturing nodes may
+collaborate for design and product development. In embodi-
+ments, the manufacturing nodes may collaborate for manu-
+facturing and assembling one or more parts of a product. In
+embodiments, the manufacturing nodes may collaborate for
+distribution and delivery of manufactured products.
+The distributed manufacturing network 10130 may thus
+provide "manufacturing as a service" by leveraging unuti-
+lized capacity of one or more 3D printers by exposing the
+capacity to one or more users/designers seeking to fabricate
+3D printed parts.
+In embodiments, a method for facilitating the manufac-
+ture and delivery ofa 3Dprinted product to a customerusing
+one or more manufacturing nodes of the distributed manu-
+facturing network 10130 includes receiving one or more
+product requirements from the customer; determining one or
+more manufacturing nodes, processes and materials based
+ on the product requirements; generating a quote including
+quote by the customer, manufacturing and delivering the 3D
+printed product to the customer.
+In embodiments, the product requirements may be a 3D
+printing instruction set including a file (e.g., a CAD file
+and/or an STL file) and any accompanying instructions for
+printing the product defined in the file.
+In embodiments, the distributed manufacturing network
+may be implemented through a distributed ledger system
+integrated with the digital thread for storing a set of entities,
+activities and transactions related to the distributed manu-
+facturing network.
+In embodiments, a smart contract system may communi-
+cate with the distributed ledger system and may be config-
+ured to implement and manage a smart contract via the
+distributed ledger. The smart contract may be stored in the
+distributed ledger and may include a triggering event. The
+smart contract may be configured to perform a smart con-
+tract action in response to an occurrence of the triggering
+event. The distributed manufacturing network may be con-
+figured to receive from a user an instance of the 3D printing
+instruction set. The 3D printing instruction set may be

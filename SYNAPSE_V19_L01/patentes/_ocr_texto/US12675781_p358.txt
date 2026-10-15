@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+465
+of one or more optical parameters on the performance of the
+dynamic vision system 11300. The artificial intelligence
+system 11326 in the adaptive intelligence system 11318 may
+then utilize the one or more models to make classifications,
+predictions, recommendations, and/or to generate or facili-
+tate decisions or instructions relating to the lens materials,
+geometry, optical properties, performance and design of the
+dynamic vision system 11300. For example, the artificial
+intelligence system 11326 may execute simulations on one
+or more liquid lens digital twins for generating recommen- 10
+dations relating to the fluid used in the liquid lens. The
+simulations may be performed using different fluids includ-
+ing distilled water, methyl alcohol, ethyl alcohol, ether,
+carbon tetrachloride, methyl acetate, glycerine, nitrobenzene
+and the like to generate recommendations on the preferred
+fluid for a given application of the dynamic vision system
+11300.
+The dynamic vision system 11300 may utilize dynami-
+cally learned sensory elements to recognize objects ensuring
+a richer object recognition capacity that may be applied to a 20
+very wide range of use cases. The approach is ideal for
+imaging applications requiring rapid focusing, high through-
+put, and depth of field and working distance accommoda-
+tion. Moreover, the approach is especially beneficial for
+complex vision applications where conventional vision tech- 25 
+nologies have been inadequate. Some examples of such
+applications include: recognizing objects in dynamic envi-
+ronments like when the object or vision system are moving;
+recognizing three dimensional (3D) objects by capturing
+depth data; recognizing tiny objects; recognizing facial
+features; recognizing objects in a power constrained or
+network constrained environment; and so on.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of value chain network (VCN)
+entities (such terms encompassing the many examples and 35
+embodiments disclosed herein and in the documents incor-
+porated by reference herein).
+In embodiments, the dynamic vision system 11300 may
+be integrated into or with a set of robotic systems, such as
+mobile and/or autonomous robotic systems. For example, 40
+the dynamic vision system 11300 may be contained within
+the housing or body of a robotic system, such as a multi-
+purpose/general purpose robotic system, such as one that
+simulates human or other animal species capabilities. The
+vision capabilities may enable the robot in identifying and 45
+manipulating a target object for use in robotic assembly lines
+where object depth, orientation, position and motion may be
+inferred for improved object identification. The vision capa-
+bilities may also enable the robot in simultaneous localiza-
+tion and mapping, which is a technique for estimating the 50
+position of the robot with respect to its surroundings while
+mapping the environment at the same time. As another
+example, the dynamic vision system 11300 may be inte-
+grated with a robotic exoskeleton designed to augment the
+capabilities of a human operator and provide optimized 55
+sensing and control for the human operator.
+In embodiments, the output from the dynamic vision
+system 11300 may be temporally combined with output
+from other sensors in the robot using conditional probabili-
+ties to create a combined view of the object that is richer and 60
+includes information about the position, orientation and
+motion of the object. Some examples of sensors that may be
+used in conjunction with the liquid lens based dynamic
+vision system 11300 include cameras, LIDARs, RADARs,
+SONARs, thermal imaging sensor, hyperspectral imaging 65
+sensor, illuminance sensors, force sensors, torque sensors,
+velocity sensors, acceleration sensors, position sensors,
+[col 2]
+466
+proximity sensors, gyro sensors, sound sensors, motion
+sensors, location sensors, load sensors, temperature sensors,
+touch sensors, depth sensors, ultrasonic range sensors, infra-
+red sensors, chemical sensors, magnetic sensors, inertial
+sensors, gas sensors, humidity sensors, pressure sensors,
+viscosity sensors, flow sensors, object sensors, tactile sen-
+sors, or some other type of sensor.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens controlled by AI as
+necessary, and augmented by sensors may be adapted to
+build a neural prosthetics system.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens technology controlled by
+Al as necessary, may be adapted to build an exoskeleton
+system.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens controlled by Al as
+necessary, and augmented by sensors may be adapted to
+perform facial recognition for human faces obscured by face
+masks.
+FIG. 125 depicts a flow diagram illustrating a method for
+object recognition by the liquid lens based dynamic vision
+system according to some embodiments of the present
+disclosure.
+Referring to FIG. 125, at 11402, real time data streams
+representing object concept are received from the liquid lens
+based optical assembly. The data streams may be received at
+the sensor and include rich contextual and visual informa-
+tion generated by constantly adjusting liquid lens in
+response to changes in optical parameters. The data streams
+may be analyzed at edge devices or sent to data processing
+by local or remote intelligence. The use of cloud-connect-
+able edge devices, such as within computing infrastructure
+that is proximal to the dynamic vision system 11300 and/or
+that is integrated with or into the dynamic vision system
+11300, such as where the dynamic vision system 11300 has
+onboard edge computational and/or connectivity resources,
+such as 5G (or other cellular), Wi-Fi, Bluetooth, fixed
+networking resources, or the like, may offer opportunities to
+provide rapid, real-time or near real-time processing respon-
+siveness. At 11404, the real-time data streams are processed
+by the image processing system to determine an object
+concept that includes contextual intelligence about the
+object and its environment. At 11406, the optical parameters
+are adjusted by the control system leading to a change in
+configuration of the liquid lens. The constantly adjusting
+liquid lens creates real time data streams at the sensor and
+rich metadata for image processing as the images are based
+ on additional optical parameters than just focal length and
+aperture. At 11408, the object concept is sequentially revised
+and used as an input to train a machine learning model,
+which dynamically learns on a training set of outcomes,
+parameters and data collected from the liquid lens based
+optical assembly. At 11410, the object concept including
+contextual intelligence about the object and its environment
+is utilized by artificial intelligence to make classifications,
+predictions, and other decisions relating to the object includ-
+ing determining the position, orientation and motion of the
+object.
+FIG. 126 depicts a schematic illustrating an example
+implementation of a dynamic vision system for modelling.
+simulating and optimizing various optical, mechanical,
+design and lighting parameters of the dynamic vision system
+according to some embodiments of the present disclosure.
+The dynamic vision system may learn on data captured by
+sensors in response to sequentially adjusting the liquid lens

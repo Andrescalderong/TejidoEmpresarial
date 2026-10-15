@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+533
+data from the data stores 13042 and/or libraries 13044 on
+behalf of other components of the smart container system
+13000 and/or the smart container operating units 13040. In
+embodiments, the data processing service 13030 performs
+data processing operations on behalf of other components of
+the smart container system 13000 and/or the smart container
+operating units 13040. For example, the data processing
+service 13030 may perform database operations (e.g., table
+joins, retrieves, etc.), data fusion operations, and the like. In
+embodiments, the data processing system may include dis- 10
+tributed resources, centralized resources, and/or “on-chip"
+resources.
+As shown in FIG. 146, an intelligence service 13004 is
+adapted to provide intelligence services to the smart inter-
+modal container system 13000 and/or other intelligence 15
+service clients. In some embodiments, the intelligence ser-
+vice 13004 framework may be at least partially replicated in
+the smart intermodal container system 13000, smart con-
+tainers, VCN control towers, various VCN entities, and/or
+other intel. In these embodiments, the smart intermodal 20
+container system 13000 may include some or all of the
+capabilities of the intelligence service 13004, whereby the
+intelligence service 13004 is adapted for the specific func-
+tions performed by the subsystems of the intelligence client.
+Additionally, or alternatively, in some embodiments, the 25
+intelligence service 13004 may be implemented as a set of
+microservices, such that different intelligence service clients
+may leverage the intelligence service 13004 via one or more
+APIs exposed to the intelligence clients. In these embodi-
+ments, the intelligence service 13004 may be configured to 30
+adapted for different intelligence service clients. In either of
+these configurations, an intelligence service client 13324
+may provide an intelligence request to the intelligence
+service 13004, whereby the request is to perform a specific 35s
+intelligence task (e.g-, a detection/identification, a decision,
+a recommendation, a report, an instruction, a classification,
+a prediction, an optimization, a control action, a configura-
+tion action, an automation, a training action, an NLP request
+or the like). In response, the intelligence service 13004 40
+executes the requested intelligence task and returns a
+response to the intelligence service client 13324. Addition-
+ally, or alternatively, in some embodiments, the intelligence
+service 13004 may be implemented using one or more
+specialized chips that are configured to provide Al assisted 45 i
+microservices such as image processing, diagnostics, loca-
+tion and orientation, chemical analysis, data processing, and
+so forth. For example, a smart container having an AI chipset
+may be configured to implement the intelligence service
+13004 to provide navigation instructions, container security 50
+(e.g., biometric access), environmental monitoring, generate
+insights related to container and/or cargo weight, generate
+insights related to container capacity, generate insights
+related to the container's structural integrity, generate
+insights related to cargo damage, predict regulatory issues 55 c
+(e.g., customs), detect illegal and/or dangerous cargo, pro-
+vide autonomous control, or the like.
+It is further noted that in some scenarios, artificial intel-
+ligence modules 13404 themselves may also be intelligence
+service clients. For example, a rules-based intelligence mod- 60
+ule 13428 may request an intelligence task from a machine
+learning module 13412 or a neural network module 13414,
+such as requesting a classification of an object appearing in
+a video and/or a motion of the object. In this example, the
+rules-based intelligence module 13428 may be an intelli- 65
+gence service client 13324 that uses the classification to
+determine whether to take a specified action. In another
+[col 2]
+534
+example, a machine vision module 13422 may request a
+digital twin of a specified environment from a digital twin
+module 13420, such that the machine learning module
+13412 may request specific data from the digital twin as
+features to train a machine-learned model that is trained for
+aspecific environment.
+In embodiments, an intelligence task may require specific
+types of data to respond to the request. For example, a
+machine vision task requires one or more images (and
+potentially other data) to classify objects appearing in an
+image or set of images, to determine features within the set
+ofimages (such as locations of items, codes or information
+on other containers (e.g., Bureau International des Contain-
+ers (BIC) code, CSC approval plates, ISO 6346 reporting
+marks, or the like), presence of faces, symbols or instruc-
+tions, expressions, parameters of motion, changes in status,
+and many others), and the like. In another example, an NLP
+task requires audio of speech and/or text data (and poten-
+tially other data) to determine a meaning or other element of
+the speech and/or text. In yet another example, an Al-based
+control task (e.g., a decision on movement of a smart
+container) may require environment data (e.g., maps, coor-
+dinates of known obstacles, images, and/or the like) and/or
+a motion plan to generate a decision related to the control of
+motion ofa smart container. In a platform-level example, an
+analytics-based reporting task may require data from a
+number of different databases to generate a report. Thus, in
+embodiments, tasks that can be performed by the intelli-
+gence service 13004 may require, or benefit from, specific
+intelligence service inputs 13470. In some embodiments, the
+intelligence service 13004 may be configured to receive
+and/or request specific data from the intelligence service
+inputs 13470 to perform a respective intelligence task.
+Additionally, or alternatively, the requesting intelligence
+service client 13324 may provide the specific data in the
+request. For instance, the intelligence service 13004 may
+expose one or more APIs to the intelligence service clients,
+whereby a requesting client 13324 provides the specific data
+in the request via the API. Examples of intelligence service
+inputs may include, but are not limited to, sensors that
+provide sensor data, video streams, audio streams, data-
+bases, data feeds, human input, and/or other suitable data.
+In embodiments, the intelligence service 13004 may
+include an intelligence service controller 13402 and artificial
+intelligence (AI) modules 13404. In embodiments, the arti-
+ficial intelligence service 13004 receives an intelligence
+request from an intelligence service client 13324 and any
+required data to process the request from the intelligence
+service client 13324. In response to the request and the
+specific data, one or more implicated artificial intelligence
+modules 13404 perform the intelligence task and output an
+"intelligence response". Examples of intelligence modules
+13304 responses may include a decision (e.g. a control
+instruction, a proposed action, machine-generated text, and/
+or the like), a prediction (e.g., a predicted meaning of a text
+snippet, a predicted outcome associated with a proposed
+action, a predicted fault condition, and/or the like), a clas-
+sification (e.g., a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con-
+dition based on sensor data, and/or the like), and/or other
+suitable outputs of an artificial intelligence system.
+In embodiments, artificial intelligence modules 13404
+may include a machine learning module 13412, a rules-
+based module 13428, an analytics module 13418, an RPA
+module 13416, a digital twin module 13420, a machine
+vision module 13422, an NLP module 13424, and/or a
+neural network module 13414. It is appreciated that the

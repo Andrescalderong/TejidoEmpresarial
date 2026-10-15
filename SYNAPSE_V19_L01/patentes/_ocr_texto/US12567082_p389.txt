@@ -1,0 +1,139 @@
+party inventories, and the like. In some embodiments, the 65 robot operating. unit-local , fleet-controlled computing
+[col 1]
+US 12,567,082 B2
+455
+for achieving reduced sound pollution (e.g., activate a quiet
+mode of operation) for a period while a team of human
+inspectors tour the job location where the team is operating.
+In another remote-control instruction example, a job-wide,
+team-wide, fleet-wide or other resource-specific remote con-
+trol instruction may be issued to adjust an image presented
+on a display screen of the fleet resource(s) to reflect a
+changed logo due to acquisition of the fleet, temporary
+assignment of the fleet resource(s), change in fleet messag-
+ing and the like. 10
+Robot operating unit responsiveness to aggregated
+remote-control signals (e.g., instructions or set of instruc-
+tions) may be based on a wide range of fleet intelligence
+capabilities, knowledge, priorities, goals, and the like. In
+general, use of platform-based and/or robot operating unit- 15
+based artificial intelligence capabilities supports wider inde-
+pendent decision-making capabilities for individual robot
+operating units with greater contextual gravity.
+In embodiments, the remote-control system 12012 may
+integrate security features to thwart takeover, compromise, 20
+misuse or interference with control of remotely controlled
+robot operating units. Resources used by the remote-control
+system 12012 (e.g-, data storage resources, computing
+resources, remote-control system state data and the like)
+may be configured with security features, such as encoding, 25
+decoding, packetizing, and the like. Further, the remote-
+control system 12012 may include and/or support control
+override capabilities that enable a human operator (for
+example) to securely gain remote-control of a robot that is
+otherwise not directly engaged with remote-control signal- 30 
+ing or in other words operating independently of remote-
+control signals, such as autonomously, collaboratively with
+other robot operating units and the like.
+Resource Provisioning
+Inembodiments,the fleetoperations system12002 35
+includes a resource provisioning system 12014 that manages
+provisioning resources for robot operating units in a fleet,
+such as provisioning resources for robot teams, robot fleets,
+multi-purpose robots, and/or supporting resources (e.g..
+edgedevices,communicationdevices,additivemanufactur-
+ing systems (e.g-, 3D printers), and the like). In embodi-
+ments, resources may include physical resources, digital
+resources, and/or consumable resources. Examples of physi-
+cal resources may include, but are not limited to, such as end
+effectors/manipulators, environmental shielding compo- 45 s
+nents, sensors and/or sensor systems, companion resources
+(e.g., drones, transportation resources and the like), hard-
+ware resources (e.g-, specialized processing modules, data
+storage, networking modules, tethering modules, and the
+like), spare parts, human resources (e.g., technicians, opera-
+50
+tors, and the like), power sources (e.g, generators, portable
+batteries, and the like). Non-limiting examples of digital
+resources may include software, operating parameters, job-
+specific data sets, and the like. Non-limiting example of
+consumable resources may include fuel, sample collection 55
+containers, welding supplies, washdown/cleanup supplies,
+deployable resources (e.g., flares, safety cones, fall-zone
+netting and the like), and many others.
+In embodiments, the resource provisioning system 12014
+may provision physical resources from an inventory of
+physical resources, such as fleet-specific inventories,
+regional public-use inventories, rental/per-use fee-based
+resource inventories, on-demand resource production sys-
+tems (e.g., 3D printing of end effectors and the like), third
+data processing system 12030 maintains an inventory data-
+base in one or more datastores 1203X. In embodiments, the
+[col 2]
+456
+inventory database stores inventory records, where each
+inventory record may indicate a respective resource (e.g., an
+identifier of the resource and/or of the type of resource), the
+general availability of the resource (e.g., is it available, when
+is it available, etc.), pricing data relating to the resource, and
+other relevant data. For instance, for physical resources such
+as robot units (e.g., SPRs, MPRs, and/or exoskeletons),
+hardware components, end effectors, and other physical
+components, an inventory record may indicate an item
+identifier (e.g., a unique identifier that identifies the resource
+and/or a type of the resource), location of the physical
+resources, a physical status of the physical resource (e.g., a
+condition of the physical resource, a maintenance record of
+the physical resource, a predicted condition of the resource,
+etc.), ownership data (e.g., who owns the resource, is the
+resource buyable or leasable, etc.), a make and/or model of
+the physical resource, operational data (e.g, functions,
+intended conditions and environments, weight limits, speed
+limits, and the like), configuration data (e.g, system require-
+ments, interface requirements, connectivity requirements),
+and/or the like. In some embodiments, the inventory may
+include resources that can be 3D printed. In these embodi-
+ments, the inventory records may additionally or alterna-
+tively include printing requirements (e.g-, 3D printers that
+can print the resource, materials needed to print the resource,
+etc.), printing instructions that define instructions for 3D
+printing, and/or other relevant information. In embodiments,
+the inventory records may provide inventories of digital
+resources, such as software products, middleware, device
+drivers, libraries, data feeds, microservices, and the like. In
+these embodiments, the inventory records may indicate data
+relating to the digital resource, such as an identifier of the
+digital resource, a provider of the digital resource, compat-
+ibility information relating to the digital resource, access
+information (e.g., APIs, webhooks, and/or other information
+for accessing or interfacing with the digital resource), pric-
+ing information, functionality of the digital resource, and/or
+the like. As will be discussed, the data processing system
+12030 may be configured to receive requests from the
+resource provisioning system 12014 (or other suitable com-
+ponents, such as the fleet configuration system 12020) to
+determine available inventories, inventory statuses, inven-
+tory pricing, and/or the like. In embodiments, the resource
+provisioning system 12014 may query the data processing
+system 12030 to determine the availability of certain
+resources, the pricing of certain resources,the locations of
+certain resources, the statuses of certain resources, and/or
+the like. Additionally or alternatively, in some embodiments,
+the resource provisioning system 12014 (or another com-
+ponent, such as the fleet configuration system 12020) may
+query the data processing system 12030 with a desired
+functionality of a resource, an intended use of a robot
+operating unit (e.g., individual robot and/or fleet), an
+intended environment of a robot, and/or compatibility
+requirements of a robot operating unit. In response, the data
+processing, system 12030 may return inventory records
+resources that correspond to the request.
+In embodiments, the resource provisioning system 12014
+may work cooperatively with other systems of the fleet
+operations platform, such as fleet configuration systems,
+fleet resource scheduling and utilization systems, and the
+like to ensure fleet resource provisioning rules are followed.
+Physical resources to be provisioned may also include
+computing resources, such as on-robot computing resources,
+resources, cloud/third-party based computing resources,
+computing and other modules and chips (e.g., for deploy-

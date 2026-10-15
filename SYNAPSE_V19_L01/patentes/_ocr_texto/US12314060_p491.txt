@@ -1,0 +1,138 @@
+reduce speed or power input) and alter monitoring intervals 15 nation of potential actions, receive the potential actions,
+[col 1]
+US 12,314,060 B2
+617
+rules, thresholds, limits, ranges, logical values, conditions,
+comparisons, combinations thereof, and the like.
+The change in operating conditions or monitoring may be
+any suitable change. For example, after identifying occur-
+rence of a respective state, the digital twin module 13420
+may increase or decrease monitoring intervals for a smart
+container (e.g., decreasing monitoring intervals in response
+to a measured parameter differing from nominal operation)
+without altering operation of the smart container. Addition-
+ally, or alternatively, the digital twin module 13420 may 10
+alter operation of the smart container (e.g-, reduce speed or
+power input) without altering monitoring of the smart con-
+tainer. In further embodiments, the digital twin module
+13420 may alter operation of the smart container (e.g-,
+for the device (e.g., decreasing monitoring intervals).
+In embodiments, a set of identified set of states related to
+shipping entities and environments that the digital twin
+module 13420 may identify and/or store for access by
+intelligent systems (e.g., the intelligence service 13004) or 201
+users of the digital twin module 13420, according to some
+embodiments of the present disclosure. The set of states may
+include operational states (e.g., suboptimal, normal, optimal,
+critical, or alarm operation of one or more components),
+excess or shortage states (e.g-, supply-side or output-side 25 c
+quantities), combinations thereof, and the like.
+In embodiments, the digital twin module 13420 may
+monitor attributes of real-world elements and/or digital
+twins to determine the respective state. The attributes may
+be, for example, operating conditions, set points, critical
+30
+points, status indicators, other sensed information, combi-
+nations thereof, and the like. For example, the attributes may
+include power input, operational speed, critical speed, and
+operational temperature of the monitored elements. While
+theillustratedexampleillustratesuniformmonitored attri-35
+butes, the monitored attributes may differ by target device
+(e.g., the digital twin module 13420 would not monitor
+rotational speed for an object with no rotatable components).
+Each of the set of states includes a set of identifying
+criteriameetingparticularcriteria that areunique amongthe
+group of monitored set of states. The digital twin module
+13420 may identify the overspeed state, for example, in
+response to the monitored attributes meeting a first set of
+identifying criteria (e.g., operational speed being higher than
+the critical speed). 45
+In response to determining that one or more set of states
+exists or has occurred, the digital twin module 13420 may
+update triggering conditions for one or more monitoring
+protocols, issue an alert or notification, or trigger actions of
+subcomponents of the digital twin module 13420.For 50
+example, subcomponents of the digital twin module 13420
+may take actions to mitigate and/or evaluate impacts of the
+detected set of states. When attempting to take actions to
+mitigate impacts of the detected set of states on real-world
+elements, the digital twin module 13420 may determine 55
+whether instructions exist (e.g-, are stored in the digital twin
+datastore 13316) or should be developed (e.g., developed via
+simulation and intelligence services or via user or worker
+input). Further, the digital twin module 13420 may evaluate
+impacts of the detected set of states, for example, concur- 60
+rently with the mitigation actions or in response to deter-
+mining that the digital twin module 13420 has no stored
+mitigation instructions for the detected set of states.
+In embodiments, the digital twin module 13420 employs
+the digital twin simulation system 13310 to simulate one or 65
+more impacts, such as immediate, upstream, downstream
+and/or continuing effects, of recognized states. The digital
+[col 2]
+618
+twin simulation system 13310 may collect and/or be pro-
+vided with values relevant to the evaluated set of states. In
+simulating the impact of the one or more set of states, the
+digital twin simulation system 13310 may recursively evalu-
+ate performance characteristics of affected digital twins until
+convergence is achieved. The digital twin simulation system
+13310 may work, for example, in tandem with the intelli-
+gence service 13004 to determine response actions to alle-
+viate, mitigate, inhibit, and/or prevent occurrence of the one
+or more set of states. For example, the digital twin simula-
+tion system 13310 may recursively simulate impacts of the
+one or more set of states until achieving a desired fit (e.g..
+convergence is achieved), provide the simulated values to
+the intelligence service 13004 for evaluation and determi-
+and/or evaluate impacts of each of the potential actions for
+a respective desired fit (e.g., cost functions for minimizing
+production disturbance, preserving critical components,
+minimizing maintenance and/or downtime, optimizing sys-
+tem, worker, user, or personal safety, etc.).
+In embodiments, the digital twin simulation system 13310
+and the intelligence service 13004 may repeatedly share and
+update the simulated values and response actions for each
+desired outcome until desired conditions are met (e.g.,
+convergence for each evaluated cost function for each evalu-
+ated action). The digital twin module 13420 may store the
+results in the digital twin datastore 13316 for use in response
+to determining that one or more set of states has occurred.
+Additionally, simulations and evaluations by the digital twin
+simulation system 13310 and/or the intelligence service
+13004 may occur in response to occurrence or detection of
+the event.
+In embodiments, simulations and evaluations are trig-
+the digital twin module 13420. In further embodiments,
+simulations and evaluations are performed concurrently
+with use of stored actions to evaluate the efficacy or effec-
+tiveness of the actions in real time and/or evaluate whether
+further actions should be employed or whether unrecognized
+statesmayhave occurred.In embodiments, theintelligence
+service 13004 may also be provided with notifications of
+instances of undesired actions with or without data on the
+undesired aspects or results of such actions to optimize later
+evaluations.
+In embodiments, the digital twin module 13420 evaluates
+and/or represents the impact of downtime of smart contain-
+ers within a digital twin of a smart container fleet. For
+example, the digital twin module 13420 may employ the
+digital twin simulation system 13310 to simulate the imme-
+diate, upstream, downstream, and/or continuing effects of a
+smart container downtime state. The digital twin simulation
+system 13310 may collect or be provided with performance-
+related values such as optimal, suboptimal, and minimum
+performance requirements for elements (e.g-, real-world
+elements and/or nested digital twins) within the affected
+digital twins, and/or characteristics thereof that are available
+to the affected digital twins, effect on nested digital twins,
+redundant systems within the affected digital twins, combi-
+nations thereof, and the like.
+In embodiments, the digital twin module 13420 is con-
+figured to: simulate one or more operating parameters for the
+real-world elements in response to the shipping entity or
+environment being supplied with given characteristics using
+the real-world-element digital twins; calculate a mitigating
+action to betaken by one or more of the real-world elements
+in response to being supplied with the contemporaneous
+characteristics; and actuate, in response to detecting the

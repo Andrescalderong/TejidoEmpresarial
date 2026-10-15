@@ -1,0 +1,139 @@
+deployable resources (e.g., flares, safety cones, fall-zone 1o resources that correspond to the request.
+[col 1]
+US 12,675,781 B2
+501
+ware resources (e.g., specialized processing modules, data
+storage, networking modules, tethering modules, and the
+like), spare parts, human resources (e.g., technicians, opera-
+tors, and the like), power sources (e.g., generators, portable
+batteries, and the like). Non-limiting examples of digital
+resources may include software, operating parameters, job-
+specific data sets, and the like. Non-limiting example of
+consumable resources may include fuel, sample collection
+containers, welding supplies, washdown/cleanup supplies,
+netting and the like), and many others.
+In embodiments, the resource provisioning system 12014
+may provision physical resources from an inventory of
+physical resources, such as fleet-specific inventories,
+regional public-use inventories, rental/per-use fee-based 15
+resource inventories, on-demand resource production sys-
+tems (e.g., 3D printing of end effectors and the like), third
+party inventories, and the like. In some embodiments, the
+data processing system 12030 maintains an inventory data-
+base in one or more datastores 1203X, In embodiments,the 20
+inventory database stores inventory records, where each
+inventory record may indicate a respective resource (e.g., an
+identifier of the resource and/or of the type of resource), the
+general availability of the resource (e.g., is it available, when
+is it available, etc.), pricing data relating to the resource, and 25
+other relevant data. For instance, for physical resources such
+as robot units (e.g., SPRs, MPRs, and/or exoskeletons),
+hardware components, end effectors, and other physical
+components, an inventory record may indicate an item
+identifier (e.g., a unique identifier that identifies the resource
+30
+and/or a type of the resource), location of the physical
+resources, a physical status of the physical resource (e.g., a
+condition of the physical resource, a maintenance record of
+the physical resource, a predicted condition of the resource,
+etc.),ownership data (e.g-,who ownstheresource,isthe 35
+resource buyable or leasable, etc.), a make and/or model of
+the physical resource, operational data (e.g., functions,
+intended conditions and environments, weight limits, speed
+limits, and the like), configuration data (e.g., system require-
+ments,interfacerequirements,connectivityrequirements),4o
+and/or the like. In some embodiments, the inventory may
+include resources that can be 3D printed. In these embodi-
+ments, the inventory records may additionally or alterna-
+tively include printing requirements (e.g., 3D printers that
+can print the resource, materials needed to print the resource, 45
+etc.), printing instructions that define instructions for 3D
+printing, and/or other relevant information. In embodiments.
+the inventory records may provide inventories of digital
+resources, such as software products, middleware, device
+drivers, libraries, data feeds, microservices, and the like. In 5o f
+these embodiments, the inventory records may indicate data
+relating to the digital resource, such as an identifier of the
+digital resource, a provider of the digital resource, compat-
+ibility information relating to the digital resource, access
+information (e.g-, APIs, webhooks, and/or other information 55
+for accessing or interfacing with the digital resource), pric-
+ing information, functionality of the digital resource, and/or
+the like. As will be discussed, the data processing system
+12030 may be configured to receive requests from the
+resource provisioning system 12014 (or other suitable com- 60
+ponents, such as the fleet configuration system 12020) to
+determine available inventories, inventory statuses, inven-
+tory pricing, and/or the like. In embodiments, the resource
+provisioning system 12014 may query the data processing
+system 12030 to determine the availability of certain 65
+resources, the pricing of certain resources, the locations of
+certain resources, the statuses of certain resources, and/or
+[col 2]
+502
+the like. Additionally or alternatively,in some embodiments,
+the resource provisioning system 12014 (or another com-
+ponent, such as the fleet configuration system 12020) may
+query the data processing system 12030 with a desired
+functionality of a resource, an intended use of a robot
+operating unit (e.g., individual robot and/or fleet), an
+intended environment of a robot, and/or compatibility
+requirements of a robot operating unit. In response, the data
+processing system 12030 may return inventory records
+In embodiments, the resource provisioning system 12014
+may work cooperatively with other systems of the fleet
+operations platform, such as fleet configuration systems,
+fleet resource scheduling and utilization systems, and the
+like to ensure fleet resource provisioning rules are followed.
+Physical resources to be provisioned may also include
+computing resources, such as on-robot computing resources,
+robot operating unit-local fleet-controlled computing
+resources, cloud/third-party based computing resources,
+computing and other modules and chips (e.g, for deploy-
+ment with/within a robot operating unit), and the like. in
+some embodiments, the fleet resource provisioning rules
+maybe defined ingovernance standards libraries, such that
+the resource provisioning system 12014 interfaces with the
+intelligence layer to ensure that provisioned resources com-
+ply with the provisioning rules.
+In embodiments, digital resources to be provisioned by
+the resource provisioning system 12014 may be provisioned
+through fleet configuration capabilities, such as software/
+firmware update pushing (e.g., to update a robot's on-board
+software), resource access credentialing (e.g., to access
+network resources, such as job-specific robot configuration
+data and the like), on-robot data storage configuration/
+allocation/utilization data, and the like. In embodiments,
+consumable resources to be provisioned by the resource
+provisioning system 12014 may be sourced from a wide
+range of sources including specialized supply chains, job
+requestor resources (e.g., an office set up job may include
+use of job requestor-supplied office materials, worker per-
+sonal materials and the like), job, team and/or fleet specific
+stockpiles. An example of job-related stockpiling includes
+stockpiling orange safety cones proximal to a long-term
+construction site that are accessed by local robot operating
+units through the resource provisioning system 12014. Use
+of a provisioning system 12014 may include provisioning
+equipment, material, software, data structures, and the like
+(e.g., customized end effector) that are made and/or sourced
+specifically for a given job request.
+In embodiments, the provisioning system 12014 may
+further operate cooperatively with contract systems, such as
+third-party smart contract systems, and the like. In some
+embodiments, a job description may reference or comprise
+a smart contract that may include and/or result in configu-
+ration of an instance of the provisioning system 12014 that
+is compliant with the job description. As an example, a
+provisioning system 12014 may receive, such as from a job
+configuration system 12018, smart contract terms that call
+out provisioning constraints and/or guidance. The provision-
+ing system 12014 may interpret these contract terms,
+thereby producing a set of fleet and consumable resource
+provisioning constraints.
+While the examples described above for the provisioning
+system 12014 generally focus on job execution-related pro-
+visioning, the provisioning system 12014 may further
+handle provisioning of fleet resources, such as computing
+resources, access to and/or execution of fleet elements, such
+as a fleet configuration system, intelligence layer, and the

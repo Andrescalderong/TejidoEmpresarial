@@ -1,0 +1,137 @@
+ing dimension data, material data, feature data, thermal data, 20 training may be done based on feedback received by the
+[col 1]
+US 12,567,082 B2
+371
+In embodiments, transformer-based, encoder-decoder
+architectures using attention mechanisms may be used in
+conjunction with or in place of convolutional neural net-
+works.
+FIG. 117 is a schematic view illustrating a system for
+learning on data from the platform 10110 to train the
+artificial learning system to use digital twins for classifica-
+tion, predictions and decision-making according to some
+embodiments of the present disclosure.
+Referring to FIG. 117, the digital twin system 10214 in the
+autonomous additive manufacturing platform 10110 may
+include product twins 10215, part twins 10504, printer twin
+10506, user twin 10508, manufacturing node twin 10510,
+packager twin 10512 and the like, that allow for modeling,
+15
+simulation, prediction, decision-making, and classification
+The digital twin system 10214 may be populated with
+relevant data, for example the product twins 10215 may be
+populated with data related to corresponding product includ-
+price data, and the like
+In embodiments, a digital twin may be generated from
+other digital twins. For example, the product twin 10215
+may be generated using one or more part twins 10504. In
+another example, the part twins 10504 may be generated 25
+using the product twins 10215. In embodiments, a digital
+twin may be embedded in another digital twin. For example,
+the part digital twin 10504 may be embedded in the product
+digital twin 10215 which may be embedded in the manu-
+facturing node digital twin 10510. 30
+In embodiments, a simulation management system 10514
+may set up, provision, configure, and otherwise manage
+interactions and simulations between and among digital
+twins 10214.
+In embodiments, the artificial intelligent system 10212 is 351
+configured to execute simulations in a simulation manage-
+ment system 10514 using the part twins 10502 and/or other
+digital twins available to the digital twin system 10214. For
+example, the artificial intelligent system 10212 may adjust
+oneormorefeaturesoftheprintertwin10506asa setofpart 40
+twins 10504 are printed by the 3D printer. In embodiments,
+the artificial intelligent system 10212 may, for each set of
+features, execute a simulation based on the set of features
+and may collect the simulation outcome data resulting from
+the simulation. For example, in executing a simulation on 45 s
+the set of part twins 10504 being manufactured in the printer
+twin 10506, the artificial intelligent system 10212 can vary
+the properties of the printer twin 10506 and can execute
+simulations that generate outcomes. During the simulation,
+the artificial intelligent system 10212 may vary the ambient 50
+temperature, pressure, humidity, lighting, and/or any other
+properties of the printer twin 10506. In this example, an
+outcome can be a condition of the part twin 10504 after
+being subjected to a high temperature. The outcomes from
+simulations can be used to train the machine learning models 55
+10213. In embodiments, the machine learning system 10210
+may receive training data, outcome data, simulation data,
+and/or any other data from other data sources 10114. In
+embodiments, the machine learning system 10210 may
+train/reinforce the machine learning models 10213 using the 60
+received data to improve the models.
+In embodiments, the machine-learning system 10210
+trains one or more models that are utilized by the artificial
+intelligence system 10212 to make classifications, predic-
+tions, recommendations, and/or to generate or facilitate 65
+decisions or instructions relating to the product and the part,
+ such as decisions or instructions governing design, configu-
+[col 2]
+372
+ration, material selection, shape selection, manufacturing
+type, job scheduling and many others.
+In example embodiments, the artificial intelligence sys-
+tem 10212 trains a part failure prediction model. A failure
+prediction model may be a model that receives part related
+data and outputs one or more predictions or answers regard-
+ing the probability of part failure. The training data can be
+gathered from multiple sources including part specifications,
+environmental data, sensor data, machine vision data and
+10 outcome data. Some examples of questions that the predic-
+tion model may answer are: when will the machine fail, what
+type of failure it will be, what is the probability that a failure
+will occur within the next X hours, what is the remaining
+useful life of the part, and the like. The artificial intelligence
+system 10212 may train one or more prediction models to
+answer different questions. For example, a classification
+model may be trained to predict failure within a given time
+window, while a regression model may be trained to predict
+the remaining useful life of the machine. In embodiments,
+system, which is also referred to as “reinforcement learn-
+set of circumstances that led to a prediction (e.g-, attributes
+of part, attributes of a model, and the like) and an outcome
+related to the part and may update the model according to the
+feedback.
+In embodiments, the artificial intelligence system 10212
+may use a clustering algorithm to identify the failure pattern
+hidden in the failure data to train a model for detecting
+uncharacteristic or anomalous behavior. The failure data
+across multiple parts and their historical records may be
+clustered to understand how different patterns correlate to
+certain wear-down behavior. For example, if the failure
+happens early in the print, the failure may be due to uneven
+print surface. If the failure occurs later on in the print, it is
+likely that the part became detached from the printing
+surface and the cause of failure is poor bed adhesion and/or
+warping. All of the information gathered can be used as
+feedback for the model. Over time, various failure modes
+will become associated with corresponding parameters. For
+example, poor bed adhesion is likely caused by incorrect
+temperature settings or printing orientation. Any failure to
+meet dimensional tolerances is likely caused by incorrect
+acceleration, speed, or layer height. The machine-learning
+system 10212 can determine the degree of correlation
+between each input and each failure mode.
+In embodiments, the artificial intelligence system 10212
+may be configured to monitor cutting tools, filters and
+machine lasers to initiate maintenance or replacement as
+needed including platform-wide maintenance management,
+and as part of computerized maintenance management sys-
+tems (MMS).In embodiments,additive manufacturing enti-
+ties of a value chain network may be prepared, configured
+and/or deployed to support replacement of parts. For
+example, in connection with a service visit to a home or
+business, an additive manufacturing unit may be designated
+to support the service visit, such as a mobile additive
+manufacturing unit and/or a unit located in sufficiently close
+proximity to the service visit to facilitate rapid delivery of
+items produced by the additive manufacturing unit. Based
+on the nature of the service visit (e.g., the type of equipment
+to be serviced, the nature of component parts and materials
+in the equipment, identified problems, and the like), the
+additive manufacturing unit may be equipped with appro-
+priate materials, such as a combination of metal printing
+materials and other printing materials, that are suitable to
+print a range of possible replacement parts, specialized tools,

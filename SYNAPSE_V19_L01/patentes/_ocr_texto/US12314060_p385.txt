@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+405
+In embodiments, the autonomous additive manufacturing
+platform 10110 may utilize a distributed ledger to manage a
+set of permission keys that provide access to one or more
+instances of the 3D printing instruction set 10902 and/or
+services associated with the distributed manufacturing net-
+work 10130.
+In embodiments, the distributed ledger provides provable
+access to the 3D printing instruction set 10902, such as by
+one or more cryptographic proofs and/or techniques.
+In embodiments, the distributed ledger may provide prov- 10
+able access to the 3D printing instruction set 10902, by one
+or more zero-knowledge proof techniques.
+In embodiments, the autonomous additive manufacturing
+platform 10110 may manage the distributed ledger to facili-
+tate cooperation and/or collaboration between two or more
+entities with regard to one or more instances of the 3D
+printing instruction set 10902.
+In embodiments, a trusted authority (e.g., the autonomous
+additive manufacturing platform 10i10 or another suitable
+authority) may issue private key and public key pairs to each 20
+registered user of the distributed manufacturing network
+10130. The private key and public key pairs may be used to
+encrypt and decrypt data (e.g., messages, files, documents,
+etc.) and/or to perform operations with respect to the dis-
+tributed ledger. 25
+In embodiments, the autonomous additive manufacturing
+platform 10110 or another suitable authority may provide
+two or more levels of access to users.
+In embodiments, the autonomous additive manufacturing
+platform 10110 may define one or more classes of users, 30 
+where each of the classes of users is granted a respective
+level of access.
+In embodiments, the autonomous additive manufacturing
+platform 10110 may issue one or more access keys to one or
+more classes of users, where the one or more access keys 35
+each correspond to a respective level of access, thereby
+providing users of different levels of access via their respec-
+tive issued access keys.
+In embodiments, possession of certain access keys may be
+used to determine a level of access to the distributed ledger. 40
+For example, a first class of users may be granted full
+viewing access of a block, while a second class of users may
+be granted both viewing access of blocks and an ability to
+verify and/or certify one or more instances of transactions
+contained within a block, and while a third class of users 45
+may be granted viewing access of blocks, an ability to verify
+and/or certify one or more instances of transactions con-
+tained within a block, and an ability to modify the one or
+more instances oftransactions contained within the block. In
+some embodiments, a class of users may be verified as being 50
+a legitimate user of the distributed ledger in one or more
+roles and allowed related permissions with respect to the
+distributed ledger and content stored therein.
+In embodiments, the distributed manufacturing network
+10130 may establish a whitelist of trusted parties and/or 55 to the customer.
+devices, a blacklist of untrusted parties and/or devices, or a
+combination thereof for managing access.
+In embodiments, the additive manufacturing platform
+10110 may be configured to create customized products for
+shoppers (i.e., customers) in or traveling to a retail environ- 60
+ment. The customized products may be printed at the retail
+environment by the additive manufacturing unit 10102,
+thereby attracting customers to the retail environment. The
+customized products may include one or both of ornamental
+designs and functional designs. The ornamental designs may 65
+be configured to have one or more aesthetic elements that are
+customized according to a profile of the customer. The
+[col 2]
+406
+functional designs may be configured to have one or more
+functional features that are customized according to a profile
+of the customer. For example, the additive manufacturing
+platform may use customer profile information such as
+location data and/or search data to determine that a customer
+will be visiting the retail environment. Upon determining
+that the customer will be visiting the retail environment, the
+additive manufacturing platform may use information
+indicative of aesthetic and/or functional desires of the cus-
+tomer to design a customized product for the customer. The
+additive manufacturing unit 10102 may manufacture the
+customized product such that the customized product may
+be purchased by the customer from the retail environment.
+The customized product may be a product customized to fit
+the physiology of the customer. For example, the customized
+product may be a case for a cellular phone designed to fit a
+hand of the customer based on data related to the shape
+and/or size of the hand of the customer.
+In embodiments, the additive manufacturing platform
+10110 may be configured to create product samples tailored
+to shoppers. The additive manufacturing platform 10110
+may use data from the customer profile to determine one or
+customer. The additive manufacturing unit 10102 may print
+the product samples that appeal to the customer prior to
+and/or during visitation to the retail environment by the
+customer. The product samples may include, for example,
+material samples, fabric samples, food samples, or any other
+suitable type of product sample.
+In embodiments, the additive manufacturing platform
+10110 may be configured to use images, text, and/or videos
+related to the customer to build the customer profile. The
+images, text, and/or videos may be sourced from one or
+more of web crawlers, social media feeds,public databases,
+and the like.
+In embodiments, the additive manufacturing platform
+10110 may include the AI system 10212 configured to
+perform AI and/or machine learning tasks related to func-
+tions of the additive manufacturing platform. The AI system
+10212 may be configured to at least partially design the
+customized products for shoppers. The AI system 10212
+may use one or more machine learned models 10213 to
+analyze the customer profile and determine one or more
+customized products or features thereof that would be desir-
+able to the customer. The AI system 10212 may use one or
+more machine learned models 10213 to analyze sources of
+images, text, and/or videos to build the customer profile.The
+machine learned models 10213 may be configured to allow
+the AI system 10212 to determine types of images, text,
+and/or videos that are more or less valuable and/or effective
+to build the customer profile. The AI system 10212 may use
+one or more machine learned models 10213 to determine
+types of custom designs that may be more or less desirable
+In embodiments, the additive manufacturing platform
+10110 may be configured to produce out-of-stock and/or
+low-stock products on-site at the retail environment. The
+platform may receive data related to amounts of stock of
+products of the retail environment. The platform may deter-
+mine that one or more products are out of stock and/or may
+become out of stock. The AI system 10212 may be config-
+ured to determine the out of stock products. Upon deter-
+mining that one or more products are out of stock and/or
+may become out of stock, the platform may, by using the
+additive manufacturing unit 10102, produce more of the
+products.

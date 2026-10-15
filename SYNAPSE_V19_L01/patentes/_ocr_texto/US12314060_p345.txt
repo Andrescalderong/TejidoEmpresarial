@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+325
+functions in order to cause an optimization to the network.
+Additionally or alternatively, the network enhancement chip
+9200 may reconfigure the network by re-routing the flows
+(e.g., switching from one network to another and/or switch-
+ing a routing path on a network), changing a format and/or
+protocol of the flows, or otherwise modifying the flows.
+In embodiments, the network enhancement chip 9200
+may reconfigure data transmitted via the network by pro-
+cessing the data in accordance with one or more optimiza-
+tions. For example, the network enhancement chip 9200 10
+may be configured to compress or decompress data, refor-
+mat data, resample data, batch data and schedule data
+transfer of the batched data, and/or the like.
+In embodiments, the chip(s) 9200 can be modular com-
+ponent(s) that may be integrated with one or more networks
+(e.g., as standalone devices) and/or network device(s) in
+various ways. For example, multiple network devices may
+each include a network enhancement chip 9200, which may
+communicate with each other in order to exchange infor-
+mation, determine optimizations, and/or configure the net- 20 c
+work at various points of the network. To facilitate modu-
+larity, the chip(s) 9200 may be provided partially or
+completely within a housing (not shown) and may receive
+the inputs 9292 and/or provide the outputs 9294 via elec-
+trical connectors, optical connectors, and/or wireless con- 25
+nectors (e.g., antennae, inductive coils, etc.). Additionally or
+alternatively, the chip(s) 9200 may be integrated with other
+circuits, processors, systems, etc., either on one or multiple
+substrates/chips.
+The chip(s) 9200 may be and/or include one or more 30 1
+system-on-chips (SOCs), integrated circuits (ICs), applica-
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9200 and/or
+any other functionality. For example, the chip 9200 may be
+provided as part of a SOC that also provides other functions 35
+described herein. In general, the components of the chip
+9200 may comprise one or more general-purpose processing
+chips that are configured using software instructions or other
+code, and/or may comprise special-purpose processing chips
+(e.g., ASICs) customized to perform the functions described 401
+herein.
+Multiple chip(s) 9200 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9200
+may use serial, parallel, and/or other processing techniques
+to perform analysis, optimization, and/or configuration func- 45
+tions more quickly, to perform such functions more effi-
+ciently by offloading more complex computations from one
+chip 9200 to another chip 9200 with a better power source,
+and/or the like. As another example, one chip 9200 may be
+used to provide network enhancement functionality for one 5o
+part of the network (e.g-, a particular area covered by a
+wireless network), while another chip 9200 may be used to
+provide network enhancement functionality for a second
+part of the network (e.g, a different area covered by the
+same wireless network).
+In embodiments, the physical input interface 9202
+receives one or more inputs 9292 to the network enhance-
+ment chip 9200 as described herein. The inputs 9292 may be
+transmitted to the physical input interface 9202 via one or
+more physical network(s) by other network devices, which 60
+may or may not include corresponding network enhance-
+ment chip(s) 9200. The physical network(s) may include any
+form of wired or wireless networks. The inputs 9292 may
+include one ormore of network traffic,information about the
+network, information about network devices, instructions
+for optimizing or otherwise configuring the network (e.g., as
+received from other network enhancement chip(s) 9200),
+[col 2]
+326
+and/or the like. The inputs 9292 may also include data that
+may be stored in storage 9250, such as protocols for protocol
+library 9252, a network digital twin 9254 (e.g. a digital
+representation of the network), one or more system speci-
+fication(s) 9256, and/or one or more intelligence module(s)
+9258.
+As stated above, the output data 9294 transmitted from the
+physical output interface 9204 may include network traffic,
+information about a host device that includes the network
+enhancement chip (e.g., for use by another network enhance-
+ment chip 9200, and/or instructions to optimize or otherwise
+configure the network (e.g., to be sent to other network
+devices and/or network enhancement chip(s) 9200). In
+embodiments, the outputs of the chip 9200 may be trans-
+mitted by the physical output interface 9204 via any of the
+physical network(s) connected to the host device.
+In embodiments, the chip 9200 may include one or more
+of a network analysis module 9210, an optimization module
+9220, a data configuration module 9230, and a network
+configuration module 9240. In embodiments, the network
+analysis module 9210 may comprise circuits 9212-9216 for
+analyzing the network based on inputs 9292 and/or gener-
+ating/updating a network digital twin. Additionally or alter-
+natively, the chip 9200 may include an optimization module
+9220 comprising circuits 9222-9228 for predicting one or
+more optimizations to the network based on the inputs 9292
+and/or a network digital twin. Additionally or alternatively,
+the chip 9200 may include a data configuration module 9230
+comprising circuits 9232-9236 for configuring/optimizing
+network data received as inputs 9292 and transmitting the
+configured/optimized network data as outputs 9294. Addi-
+tionally or alternatively, the chip 9200 may include a net-
+work configuration module 9240 comprising circuits 9242-
+9246forreceiving traffic flows as inputs 9292, configuring/
+optimizing the traffic flows, transmitting instructions to
+other network devices in order to cause configuration/
+optimization of the traffic flows, and outputting the config-
+ured/optimized traffic flows and/or instructions as outputs
+9294. The functionalities of the various circuits of the
+modules 9210, 9220, 9230, and/or 9240 are described in
+more detail below.
+The processing core(s) 9206 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9200, either with or
+without the assistance of the various modules 9210, 9220,
+9230, and/or 9240. For example, the processing core(s) 9206
+may leverage and/or invoke various modules to perform
+various functions described herein. The processing core(s)
+9206 may comprise general-purpose and/or special-purpose
+processors. In embodiments, the processing core(s) 9206
+may use serial, parallel, and/or other processing techniques
+to accomplish the functions described herein.
+Accordingly, the processing core(s) 9206 may perform
+functions in addition to the functions provided by the
+various modules 9210, 9220, 9230, and/or 9240. For
+example, the processing core(s) may receive an output of
+one module (e.g., an optimization determined by optimiza-
+tion module 9220) and provide it as input to another module
+(e.g., to the data configuration module 9230 and/or network
+configuration module 9240). The processing core(s) 9206
+may also process the output of any of the module(s) to
+convert the output into a different format.
+In embodiments, the processing core(s) 9206 may further
+operate to store and/or retrieve data to/from storage 9250.
+For example, the processing core(s) 9206 may store and
+retrieve protocols in a protocol library 9252 (e.g., for use by
+the various modules, as described in more detail below),

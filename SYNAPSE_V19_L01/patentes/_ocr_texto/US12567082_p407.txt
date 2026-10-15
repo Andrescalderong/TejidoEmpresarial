@@ -1,0 +1,135 @@
+purpose robot 12100 according to some embodiments of the 20 coupled with a hose-less hydraulic power transmission sys-
+operating environments or conditions (e.g- to operate in 65 tems of the MPR 12100 such as sensor packages.
+[col 1]
+US 12,567,082 B2
+491
+capabilities); and (ii) adjust one or more task assignments
+(assign the 3D imaging function to the first robot and adjust
+the workflow).
+In embodiments, a job execution plan 12310 for inspect-
+ing a building ventilation system may include at least the
+three defined tasks (i), (ii), and (ii), fleet resource (e.g,
+robot configuration) and allocation information (e.g., from
+the fleet configuration system 12020) for each task, and a
+workflow defining a sequence of the three tasks.
+In view of the foregoing disclosures, the fleet manage- 1o
+ment platform 12000 may be a stand-alone service or may
+be integrated into a larger system-of-systems. Furthermore,
+the fleet management platform 12000 is configured to facili-
+tate many different types of fleets for different types of tasks.
+In addition to the configurations that are described above, 15
+some additional examples of fleets and robot operating units
+that may be configured by the fleet management platform
+12000 are provided below.
+FIG. 139 illustrates example embodiments of a multi-
+present disclosure and may be applied to the general
+examples of an MPR 12100 of FIG. 129. In general, a
+multi-purpose robot 12100 is designed, built, configured,
+and operated to maximize operational flexibility in indi-
+vidual and group deployment scenarios. In this way, a 25
+multi-purpose robot 12100 may be configured and recon-
+figured to perform certain task-specific functions in addition
+to the baseline functionality of the multi-purpose robot
+12100. In embodiments, the MPR 12100 may be configured
+to operate autonomously, semi-autonomously, or using 30
+directions provided by one or more users. In embodiments,
+the MPR i2100 may include a baseline system 12102, a
+module system 12120, a robot control system 12150 and a
+robot security system 12170. For task-specific capabilities,
+anMPR12100mayincorporateconfigurableandinter-35
+changeable hardware and software modules provided by a
+physical interface module 12122 and a control interface
+module 12130 of module system 12120. These modules may
+mount on and interface with the control system 12150, the
+robot security system12170,and/orthebaselinesystem 40
+12102 required for robot mobility, power distribution, and
+the like.
+In embodiments, the baseline system 12102 of an MPR
+12100 includes various hardware, devices, interfaces, pro-
+cessors, software, and systems that perform the baseline 45 t
+functions of the MPR 12100. In some embodiments, the
+baseline system 12102 may include an energy storage and
+power distribution 12104 that stores energy and delivers
+power to the other components of the robot, enclosures
+12106 that enclose some or all of the components of the 501
+MPR 12100, an electromechanical and electro-fluidic sys-
+tem 12108 that actuates and control the mechanical compo-
+nents of the MPR 12100, a transport system 12110 that
+includes mechanical components that physically move the
+MPR 12100 in an intended environment, a vision and 55
+sensing system 12112 including a baseline set of sensors that
+are used in connection with performance of the baseline
+functions and/or certain task-specific functions, and a struc-
+tural system 12114 including one or more skeletal compo-
+nents configured to provide form and structure to the MPR 6o s
+12100.
+As can be appreciated, the baseline system 12102 of an
+MPR 12100 may be configured in accordance with the
+characteristics required to operate the MPR 12100 in certain
+heat, cold, humidity, land, sea, underwater, air, underground
+and/or the like), regardless of the tasks that the MPR 12100
+[col 2]
+492
+may be customized to perform. Thus, different classes of
+MPRs 12100 configured foroperation in different operating
+environments or conditions will have different configura-
+tions of the respective baseline system 12102 of the MPR
+12100. For instance, an example baseline system 12102 of
+a four-legged terrestrial MPR 12100 designed to operate on
+solid ground in rainy conditions may include, for example,
+an IP-43 rated enclosure 12106 that houses four individual
+mechanical legs with electric motors 12112 in each leg
+12110, powered by electrical energy stored in a battery and
+supplied by a wireless power distribution system 12104. In
+another example, an example baseline system 12102 of an
+aquatic robot MPR 12100 designed to operate underwater
+may include an IP 68-rated enclosure 12106 houses a
+water-jet propulsion system that uses an electric motor
+12112 powered by electrical energy stored in a battery. In yet
+another example, a third baseline system 12102 of an MPR
+12100 designed to operate in mud may include tracked
+wheels 121i0, where power is supplied by a gasoline engine
+tem 12104.
+In embodiments, the energy storage and power distribu-
+tion system12104 of a MPR2B00may include one ormore
+power source(s) configured to supply power to various
+components of the MPR 12100 like a hydraulic system, an
+electrical system, a nuclear system, supercapacitors, fly-
+wheels, solar cell or photovoltaic cells, fuel cells, batteries,
+a power cord, kinetic or piezo electric battery charging
+device, inductive charging or wireless power receiver and
+other types of power systems. In embodiments, the choice of
+the power source may depend on different factors like the
+size and shape of the MPR 12100, the environment the MPR
+12100 is operating in, the tasks that the MPR 12100 needs
+to perform and so on. In embodiments, the choice of a power
+source may be based on these factors and may support wide
+range of use case scenarios for the MPR 12100. For
+example, the MPR 12100 may rely on lithium ion battery
+system while operating as a mobile robot tasked with
+cleaning a house but switch to wall power supply for fixed
+e.g., to move heavy loads in construction or earth moving
+applications. In embodiments, the different components of
+theMPR12100maybepowered by the samepower source,
+be powered by multiple power sources or may each connect
+to a different power source.
+In embodiments, the power source component in the
+energy storage and power distribution system 12104
+includes multiple lithium-ion smart batteries, and may
+include rechargeable batteries or battery packs configured to
+provide charge to other components of the MPR 12100. The
+use of smart batteries allows for a modular battery system,
+potential upgrades when new chemistries become available,
+and monitoring of power system status at the individual
+battery level. Using multiple batteries results in a system that
+is tolerant of the failure of any single battery element, since
+such a loss only reduces the maximum available power and
+energy storage. In embodiments, the MPR 12100 may be
+electricity supply grid from a power grid and a secondary
+source constituted by a battery pack. In embodiments,
+system power is provided by a fixed source external to the
+MPR 12100 using one or more power repeater coils and an
+integrated wireless power distribution system provides,
+monitors, and manages power flow and supply to subsys-
+In embodiments, the power source in the energy storage
+and power distribution components 12104 includes a

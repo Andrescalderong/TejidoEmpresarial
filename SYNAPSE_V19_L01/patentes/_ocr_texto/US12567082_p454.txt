@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+585
+systems for real-time or near real-time feedback described
+herein may apply to any instance of job configuration
+activity being performed so that feedback on task definition
+of a first job may benefit task definition of a second job,
+while maintaining necessary job-isolation requirements
+(e.g., job identifying data may be obfuscated) to support
+concurrently processing freight storage and/or transportation
+service orders from different entities.
+In embodiments, capturing data representative of comple-
+tion of a requested job may include extracting such data 10
+from a job completion data set. This job completion data set
+may be constructed to facilitate identifying information that
+may be useful for learning and optimization. In an example,
+the job completion data set may designate, such as by use of
+metadata tags, logical and/or physical separation, or other 15
+indicia data that represents exceptions or large variants from
+expectation. In an example, at job completion, a percentage
+exceed an expected and/or acceptable number. This exces-
+sive count of damaged packages may be flagged as candi- 20
+date information for learning and optimization feedback to
+be extracted and sent to the intelligence service 13004. In
+embodiments, an order execution plan may be configured
+with indicators of types of data to be collected and used for
+learning and optimization feedback. The intelligence service 25
+13004 may recommend to the job configuration system
+13018 the types of data to be so indicated based on other
+factors known to the fleet intelligence system, such as
+inquiries made by smart container design engineering teams
+and the like.In embodiments,learning and optimization 3or
+feedback may be used by the fleet intelligence service to
+perform, among other things, optimization of artificial intel-
+ligence service (e.g-, recommending smart container teams,
+smart container types, workflows, and the like). Referring to
+descriptions herein, preconfigured tasks, smart container 35 t
+configurations, team configurations, and the like may be
+retrieved from the library 13044. When these preconfigured
+aspects of an order execution plan are executed, data rep-
+resentative of the performance thereof may be flagged for
+use as learning and optimization feedback to continuously 40
+improve these preconfigured aspects. An outcome of use of
+this data includes field condition-adapted preconfigured
+tasks that may perform better in the real world. Another
+outcome of use of this data includes improved digital twins
+and machine learning models. 45
+In embodiments, a job description to be parsed may
+include relevant job descriptive details, goals, objectives,
+requirements, preferences, and the like and as may be
+described elsewhere herein. While not all pertinent job
+information may be included within the request, one or more 50
+links to ancillary job description data may be included.
+Ancillary job data may be stored remote from a freight
+ storage and/or transportation service order data set (e.g..
+may be accessed through an Internet URL of the job
+description). Optionally, ancillary job data may be stored in 55
+data structures that are accessible to the smart container
+system 13000, such as in a fleet library 13044, requestor-
+specific storage, and the like. Ancillary job data may include
+formal standards (e.g., local disturbance regulations, safety
+(OSHA), electrical (NEC), quality, and the like), permitting 60
+requirements (e.g., forms, steps, timing, dependencies on
+other tasks, and the like), legal requirements (e.g., customs
+requirements, relevant laws, and the like) details of the job,
+shipper standards (e.g., an acceptable percentage of dam-
+aged cargo), industry norms (e.g-, work hours, material
+selection, templates, and the like), approved vendors (e.g..
+from whom supplies and other consumables are to be
+[col 2]
+586
+acquired), references to preconfigured tasks, user interface
+templates/menus/screens for each aspect of a job (e.g., how
+a user can request status, observe activity, change a job
+requirement, respond to an inquiry, and the like) and the like.
+The freight storage and/or transportation service order data
+13096 and, if indicated, the ancillary job data are processed
+by a task definition ingestion facility that works coopera-
+tively with a job parsing system to generate job instance-
+specific content. This job instance-specific content may
+include, among other things, initial sequence timing as may
+be defined in the input data (e.g. "do task A before task B")
+and/or derived therefrom (e.g., securing cargo in the con-
+tainer with steel strapping necessarily must occur after the
+cargo is loaded into the container). The job parsing system
+may interact with the data processing system 13024 when
+converting job description data to utilize information
+derived from a smart container fleet management system
+accessible library, such as job and fleet library 13044. The
+ingestion facility may store some job description content
+directly into the job instance storage, such as job identifi-
+cation information, links to internal ancillary data and the
+like.
+In embodiments, one or more human interactive capabili-
+ties for facilitating job parsing and task definition may
+include knowledge-based systems (e.g-, Al-based and the
+like) that may interact with a human (e.g. via text input,
+conversation-bot, haptic-input, and the like) to gather infor-
+mation for preformatting, organizing, and vetting job and
+task data. These interactions may be in lieu of or supple-
+mental to receiving a job description.
+The job parsing system may use job descriptive informa-
+tion produced by or passed through the ingestion facility to
+construct job instance content suitable for task definition.
+The job parsing system may use the information provided by
+the ingestion facility to query content in the library 13044
+(e.g., via the data processing facility 13024 as optionally
+depicted). Content in the library that may be useful or
+informative of task definition may include job syntax (e.g.,
+terms that are relevant to a given job, job type, set of tasks,
+smart container types, smart container capabilities (e.g., by
+type, size, cost, availability, etc.), keyword-to-task cross
+reference, workflow definition rules, order execution plan
+format/content/structure. Further, the library may include
+templates for various task definition-related activities, such
+ as exemplary smart container configurations (e.g., based on
+task keyword and the like), exemplary team configurations
+(e.g., for performing certain types or classes of tasks), task
+definitions, workflows and workflow definitions, exemplary
+order execution plan(s) and the like.
+A keyword-based task lookup module may retrieve infor-
+mation in the job instance storage, such as task-oriented
+keywords and the like and apply those to the library 13044
+to potentially identify preconfigured or templated tasks or
+portions thereof. As an example, a job description may
+include keywords, such as "submerged" and the like that
+may suggest a need for smart containers that are configured
+to travel underwater. When such keywords are combined
+with an action “submerged 3D printing", the keyword-based
+task lookup module may identify smart container types that
+perform 3D printing and can travel underwater. If a descrip-
+tor of a task in the library aligns with one or more job
+description keywords, the task may be considered a candi-
+date task for the job.
+In embodiments, a task definer module may process
+65candidatetasksprovided bythetasklookupmoduleaswell
+as information in the job instance storage to form definitions
+for tasks to be performed by one or more smart containers.

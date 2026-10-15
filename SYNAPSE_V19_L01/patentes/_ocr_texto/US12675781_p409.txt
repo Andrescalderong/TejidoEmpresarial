@@ -1,0 +1,139 @@
+According to some example implementations, a robot 55 fleet management platform having a conformable (e.g.,
+[col 1]
+US 12,675,781 B2
+567
+enced by smart contract terms so that certain data that is
+collected (e.g., through robot sensor packages and the like)
+is stored locally and optionally curated/filtered prior to being
+delivered over a data pipeline to a smart contract control
+facility. In this example, data pipeline resources may be
+prioritized so that only substantive departures from normal
+for certain smart contract terms utilize the pipeline. AI-
+governance of a data pipeline may enable local evaluation of
+smart contract-impacting sensed data and so long as infor-
+mation derived from robot operations regarding meeting a
+10
+smart contract requirement remains within an acceptable
+range, data pipeline resources are not required.
+According to some example implementations, a robot
+fleet management platform having an artificial intelligence
+(AI) based robotic health monitoring system may also have 15
+hydraulic flow and actuation systems that are optimized for
+reducing hydraulic interconnections through application of
+3D printing in an additive manufacturing environment. In
+some of these example implementations, information
+gleaned by the Al-based robotic health monitoring system 20
+may be directly applied to mitigating the likelihood of
+automated design and additive manufacturing to replace,
+such as during a preventive maintenance phase, multiple
+interconnects with few or no interconnections. In embodi- 25
+ments, robotic health monitoring systems, such as computer
+vision systems for identifying visual defects or risks (e.g..
+identifying a hydraulic system with a plurality of intercon-
+nections), vibration-based detection (e.g., identifying a
+hydraulic interconnect sub-assembly that is being subjected
+30
+to fault-inducing levels of vibration), temperature sensing
+systems that can provide thermal data about hydraulic
+system components (e.g., interconnections and the like) to
+influence which portions of a multiple interconnect hydrau-
+lic system arebettercandidateforuseofadditivemanufac- 35
+turing approaches to reducing failure risk of such hydraulic
+systems. In embodiments, the Al-based robotic health moni-
+toring system may further predict areas of failure, such as
+hydraulic interconnects that may be used as additive manu-
+facturing requirementsfordeliveringhydraulic systems that 4o 
+are likely to be more robust. Further, failure prediction
+capabilities may be used as a control for what components
+should be prioritized to be produced with an additive manu-
+facturing system. Yet further, scheduling and routing of
+robotic systems with additive manufacturing capabilities 45
+may be influenced by prediction capabilities of an Al-based
+robot health monitoring system, so that service or mainte-
+nance visit value can be optimized by ensuring that additive
+manufacturing resources are either routed to the service area
+for localized part manufacturing or are utilized to produce 5o
+components (e.g., hydraulic assemblies with fewer intercon-
+nections) so that they are available locally when a service
+can include deployment of improved reliability robotic
+elements.
+fleet management platform having an artificial intelligence-
+based shape recognition capability for automated task
+execution may also have a system for coordinated control of
+robotic systems that incorporate 3D printing for task execu-
+tion, A robotic sensing and analysis system may use AI to 60
+analyze visual images and sensor information along with
+past operating history and task criteria (e.g., definition
+objectives, and the like) to evaluate an object associated with
+a task, such as an object upon which a robotic operation is
+to be performed. The object analysis may facilitate deter-
+mining one or more operations for performing an assigned
+task, optionally including a type of end effector or other
+[col 2]
+568
+physical interface required to perform the task given the
+analysis. In embodiments, the one or more operations
+required may include selection and use of an particular type
+of end effector, such as a gripper, j-hook, pressure sensitive
+clamp, grip and rotate capability and the like. In embodi-
+ments, the 3D printing control capability of the robot or of
+a companion robot configured to facilitate performing the
+task may be utilized to produce a suitable end effector,
+adaptor, or other feature based on the visual and/or sensed
+analysis associated with the object. In an example, an object
+may have a keyhole type interface for handling the object.
+The image analysis may detect this feature of the object and
+commission the 3D printing control system to produce a key
+suitable for use with the object. Another example of com-
+bining robotic object sensing (e.g, shape recognition and the
+like) and control of 3D printing capabilities for executing
+one or more operations of a task associated with an object
+includes sensing a shape of an object being non-rectilinear
+(e.g., round, oval, oblong) with no discernable flat surface.
+The artificial intelligence-based shape recognition may
+facilitate detecting a suitable orientation for lifting the
+object, including a shape and size of contact surface
+required. This contact surface shape and size information
+may be provided to the 3D printing control system to
+produce an adaptor for an armature of the robot. A result of
+the Al-based shape recognition may identify the object as
+similar to a type that was previously encountered by the
+platform. As an example, parameters of the object may be
+used to identify candidate objects in a library of objects for
+which the platform has managed a fleet of robot tasks. The
+library may further indicate that a sling was successfully
+used on one or more previous encounters with this class of
+object. In embodiments, the control of robotic system for 3D
+printing may be directed to produce a suitable sling to be
+used by one or more robots assigned to perform the object-
+specific task to lift and transport the object. In yet another
+exemplary embodiment of a robot management platform
+having both 3D printing control and artificial intelligence-
+based shape recognition capabilities, repair of the object
+may be achieved by use of visual and other sensors of the
+robotic system determining that a handle of the object to be
+repaired is broken, thereby preventing performance of the
+repair as instructed. Based on the determination of this
+unexpected condition, a supplemental set of robot operations
+may be generated for the current repair assignment to
+instruct the robotic control system for 3D printing to fashion
+a replacement handle or perform a repair of the handle (e.g.,
+mend a break in a structural portion of the handle). These
+supplemental operations may be determined based on an
+assessment of an object to be repaired and integrated in the
+current instance of the object repair process even when the
+cause of failure that requires the repair task is other than the
+handle.
+According to some example implementations, a robot
+liquid) lens vision system may also have an AI loop-based
+training and learning system that may be focused on com-
+pleting a set of tasks using quality of task completion as one
+of one or more training factors. In embodiments, a conform-
+able lens vision system may be configured, controlled, and
+adapted through use of artificial intelligence for improving
+image formation. Feedback from the AI loop-based training
+and learning system may be used as one element of feedback
+for adjusting the conformable lens for improved image
+formation. In embodiments, a combined AI system may
+facilitate adapting the conformable lens to improve quality
+of task completion. Factors such as breakage of task objects

@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+627
+that colors may represent varying levels of input along the
+relevant dimensions. For example, among many other pos-
+sibilities, if a container terminal is operating at a critical
+level state (e.g., due to heavy traffic or delays), the heat map
+interface may alert a user by showing the container port in
+orange. In the example of a heat map, clicking, touching, or
+otherwise interacting with the heat map can allow a user to
+drill down and see underlying container ships, dynamic
+model outputs, or other input data that is used as an input to
+the heat map display. In other examples, such as ones where 10
+a digital twin is displayed in a VR or AR environment, if a
+smart container machine component is vibrating outside of
+normal operation, a haptic interface may induce vibration
+when a user touches a representation of the machine com-
+ponent, or if a machine component is operating in an unsafe 15
+manner, a directional sound signal may direct a user's
+attention toward the machine in digital twin, such as by
+playing in a particular speaker of a headset or other sound
+system.
+In embodiments, the digital twin dynamic model system 20 1
+13312 may take a set of ambient environmental data and/or
+other data and automatically update a set of properties of a
+digital twin of a shipping entity or environment based on the
+impact of the environmental data and/or other data in the set
+of dynamic models 13374 that are used to enable the digital 25
+twin. Ambient environmental data may include temperature
+data, pressure data, humidity data, wind data, rainfall data,
+tide data, storm surge data, cloud cover data, current data,
+snowfall data, visibility data, water level data, and the like.
+Additionally, or alternatively, the digital twin dynamic 30
+model system 13312 may use a set of environmental data
+measurements collected by a set of Internet of Things
+connected devices 13338 disposed in an industrial setting as
+inputs for the set of dynamic models 13374 that are used to
+enable the digital twin. For example, digital twin dynamic 35
+model system 13312 may feed the dynamic models 13374
+data collected, handled or exchanged by Internet of Things
+connected devices, such as cameras, monitors, embedded
+sensors, mobile devices, diagnostic devices and systems,
+instrumentation systems, telematics systems, and the like, 40
+such as for monitoring various parameters and features of
+machines, devices, components, parts, operations, functions,
+conditions, states, events, workflows and other elements
+(collectively encompassed by the term“"states") of shipping
+environments. Other examples of Internet of Things con- 45
+nected devices include smart fire alarms, smart security
+systems, smart air quality monitors, smart/learning thermo-
+stats, and smart lighting systems.
+FIG. 149 illustrates an example embodiment of a method
+for updating a set of cost of downtime values in the digital 50
+twin of a smart container. In the present example, the digital
+twin dynamic model system 13312 may receive requests
+from a client application 13324 to populate real-time cost of
+downtime values associated with a smart container in a
+smart container fleet digital twin. At step B200, digital twin 55
+dynamic model system 13312 receives a request from the
+client application 13324 to update one or more cost of
+downtime values of the smart container digital twin 13504
+and any embedded digital twins (e.g., robots, cargo, and the
+like) from the client application 13324. Next, in step B202, 60
+the digital twin dynamic model system 13312 determines the
+one or more digital twins required to fulfill the request and
+retrieves the one or more required digital twins. In this
+example, the digital twin dynamic model system 13312 may
+retrieve the digital twins of the fleet, the smart containers, 65
+and any other embedded digital twins from digital twin
+datastore 13316. At step B204, digital twin dynamic model
+[col 2]
+628
+system 13312 determines one or more dynamic models
+required to fulfill the request and retrieves the one or more
+required dynamic models from dynamic model datastore
+13316. At step B206, the digital twin dynamic model system
+13312 selects dynamic model input data sources (e.g-, one or
+more sensors from sensor systemand/orany other suitable
+data) based on available data sources (e.g., available sensors
+from a set of sensors in sensor system) and the one or more
+required inputs of the dynamic model(s) via digital twin I/O
+system 13308. In the present example, the retrieved dynamic
+model(s) may be configured to take historical downtime data
+and operational data as input and output data representing
+cost of downtime per day for smart containers in the smart
+container fleet. At step B208, digital twin dynamic model
+system 13312 retrieves historical downtime data and opera-
+tional data from digital twin I/O system 13308. At step
+B210, digital twin dynamic model system 13312 runs the
+dynamic model(s) using the retrieved data as input and
+calculates one or more outputs that represent cost of down-
+time per day for smart containers in the smart container fleet.
+Next, at step B212, the digital twin dynamic model system
+13312 updates one or more cost of downtime values of the
+smart container digital twin 13504 and embedded digital
+twins based on the one or more outputs of the dynamic
+model(s).
+In embodiments, the smart container system 13000
+includes a robotic process automation (RPA) module 13416
+configured to automate internal shipping workflows based
+on robotic process automation. The RPA module 13416 may
+develop a programmatic interface to a user interface of an
+external system such as devices, programs, networks, data-
+bases, and the like. The RPA module 13416 is configured to
+allow the smart container system 13000 to interface with an
+interface (API), or in addition to an API. The RPA module
+13416 may develop an action list by watching a user perform
+a task in a graphical user interface (GUI) and recording the
+tasks in the action list. The RPA module 13416 may auto-
+mate a workflow by repeating tasks of the action list in the
+GUI.
+In some embodiments, the RPA module 13416 may
+include and/or communicate with an intelligence service
+13004 configured to perform robotic process automation
+processes. The intelligence service 13004 may employ one
+or more machine learning techniques to develop one or more
+machine-learned models. The machine-learned models may
+be capable of developing, defining, and/or implementing
+RPA-based programmatic interfaces to facilitate interfacing
+of the system 13000 with one or more external devices.
+The RPA module 13416 may be necessary for the smart
+container system 13000 to communicate with an external
+system that does not have an API or that has an outdated
+API.For example, the RPA module 13416 may allow the
+smart container system 13000 to interface with an older
+external device that does not include an API or that has an
+outdated API. The RPA module 13416 may allow the smart
+container system 13000 to interface with an external system
+similarly to how a user would interface with the external
+system, such as via a user interface of the external system.
+In some embodiments, the RPA module 13416 allows the
+smart container system 13000 to emulate an action and/or a
+series of actions performable by a user to interface with an
+external system. Examples of programmatic interfacing by
+the RPA module 13416 to interface with an external system
+include manipulation of markup language, emulating com-
+puter mouse movements and/or “clicking on" one or more
+elements of a user interface, entering information into fill-

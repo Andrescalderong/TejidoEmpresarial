@@ -1,0 +1,138 @@
+In embodiments, the security system 12280 may include 30 tive security module 12284 may be configured to, in
+tasks from an intelligence layer 12200, whereby an adaptive 35 self-destructing, or the like. In embodiments, the non-adap-
+[col 1]
+US 12,567,082 B2
+445
+gence request. Furthermore, in some implementations, an
+intelligence layer 12200 may be configured to output default
+actions when a decision cannot be reached by the intelli-
+gence layer 12200 and/or a higher or lower level intelligence
+layer. In some of these implementations, the default deci-
+sions may be defined in a rule and/or in a standards library.
+Security System
+FIG. 132 illustrates an example of a security system
+12280 according to some embodiments of the disclosure. In
+embodiments, the security system 12280 illustrates a frame- 10
+work that may be implemented at various levels of the
+disclosed systems. In these embodiments, instances of the
+security system 12280 may be implemented at the platform
+12000-level, at the fleet- or team-level, or individual-level.
+For example, at the platform 12000-level, the security 15
+system 12280 may provide security-related functionality on
+behalf of the platform 12000 and/or with respect to any
+communications and/or other interactions with robot oper-
+ating units. In embodiments, the security system 12280
+implemented at the fleet-level or team-level, whereby the 20 c
+security-system may be configured to provide security-
+related functionality on behalf of the robot team or fleet
+and/or with respect to communications and/or other inter-
+actions with robots in the team or fleet. In embodiments, the
+security system 12280 implemented at the robot-level may 25
+be configured to provide security-related functionality on
+behalf of the robot and/or with respect to communications
+and/or other interactions with other robots, robot teams,
+and/or the platform 12000.
+an autonomous adaptive security module 12282, an autono-
+mous non-adaptive security module 12284, and/or a manual
+security module 12286. An autonomous adaptive security
+module 12282 may be configured to request intelligence
+ security module 12282 leverages the artificial intelligence
+services 12204 of an intelligence layer 12200 to assess a
+security risk and determine an action based on an output of
+the intelligence layer 12200. For example, the adaptive
+securitymodule12282of a robotfleetmaymonitor one or 40
+more conditions associated with the robot fleet by receiving
+data from a set of data sources, such as monitoring a work
+area for potentially dangerous conditions based on a set of
+data sources (e.g., video feeds, sensor data from the robots
+and/or environment, input from individual robots, and/or the 45
+like). In response to receiving the data, the adaptive security
+module 12282 may request an assessment (e.g., a classifi-
+cation) of an environment from the intelligence system
+12200 regarding the security of the environment. In
+response, the intelligence system 12200 may provide one or 50
+more classifications that indicate an assessment of the envi-
+ronment. The adaptive security module 12282 may then
+determine whether the assessment necessitates an action to
+be taken, and if so, what particular action to take. In some
+of these embodiments, the adaptive security module 12282 55
+may use a rules-based approach to determine whether the
+assessment necessitates and action and, if so, what action to
+take. Additionally or alternatively, the adaptive security
+module 12282 may leverage a neural network that is trained
+to an action to recommend given a set of features (e.g.,
+60
+classifications, sensor readings from one or more robots,
+locations of robots, objects detected in the environment and
+locations thereof, and/or any other relevant features). In
+these embodiments, the neural network system 12214 may
+receive the features from the adaptive security module
+12282 and/or a set of intelligence layer inputs 12270 and
+may output a proposed action given the set of features. In
+[col 2]
+446
+some of these embodiments, an intelligence controller
+12202 of the intelligence system 12200 may allow or
+override decisions made by the artificial intelligence ser-
+vices 12204. For instance, the analysis modules 12208 may
+perform dynamic risk analyses 12292 and/or static risk
+analyses 12294. Examples of dynamic risk analysis may
+include, but are not limited to, real-time data driven analyses
+(e.g., current weather patterns, current political climates,
+current health crises, and/or the like) and/or job-specific risk
+analyses (e.g., contractual risks, environmental risks, safety
+liabilities, monetary liabilities, and/or the like). Examples of
+static risk analyses may include, but are not limited to,
+operational risks (e.g., product design risks, manufacturing
+risks, quality control risks, and/or the like) and/or regula-
+tory/compliance risks.
+In embodiments, the autonomous adaptive security mod-
+ule 12282 may operate in an isolated manner (e.g., without
+communication with external devices or systems) or in a
+connected manner (e.g., with communication with external
+devices or systems).
+In embodiments, the security system 12280 may include
+an autonomous non-adaptive security module 12284. In
+embodiments, the autonomous non-adaptive security mod-
+ule 12284 is configured to make security related decisions
+on behalf of a client autonomously (e.g-, without human
+intervention). In embodiments, a non-adaptive security
+module 12284 performs logic-based security-related actions
+(e.g., risk mitigation actions) in response to detecting one or
+more specific sets of conditions. For example, a non-adap-
+response to detecting a specific set of conditions, trigger
+actions such actions as turning off the robot, stopping a
+movement of the robot, initiating charging, sounding an
+alarm, sending a notification to another device or system,
+tive security module 12284 responds to risks that are more
+easily diagnosable, such as overheating conditions, moving
+or being taken out of a geofenced area, detected internal
+leaks, low power conditions, low fluid levels, and/or the like.
+In embodiments,the security system12280 may include
+a manual security module 12286. In embodiments, the
+manual security module 12286 is configured to allow a user
+to make decisions regarding security-related actions. In
+some of these embodiments, the manual security module
+12286 is configured to receive a notification of an assessed
+risk (e.g., from the adaptive security module 12282, the
+non-adaptive security module 12284, from an intelligence
+client 12260, or the like). In these embodiments, the human
+user may interface with the manual security module 12286
+via a human interface, which may be provided via a user
+device (e.g., mobile device, tablet, computing device, or the
+like).
+Various security and risk-mitigation strategies are dis-
+cussed throughout the disclosure.
+FIG. 133 ilustrates an example set of components of the
+fleet operations system 12002 of a fleet management plat-
+form. In embodiments, the fleet operations system 12002
+may utilize the features and capabilities of the robot fleet
+management platform 12000 to facilitate substantially opti-
+mized utilization of fleet resources by anticipating fleet
+resource needs and preparing those resources in advance of
+anticipated use. In embodiments, resource need anticipation
+may include coordinating maintenance activities with job
+scheduling to ensure that preventable interruptions due to
+65 lack of maintenance are prevented. Additionally or alterna-
+tively, resource need anticipation may be based on alignment
+of detected fleet resource use with information that supports,

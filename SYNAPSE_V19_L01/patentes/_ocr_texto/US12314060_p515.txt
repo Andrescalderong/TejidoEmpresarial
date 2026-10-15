@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+665
+17000 provides a framework for providing a set of quantum
+computing services to one or more quantum computing
+clients. In some embodiments, the quantum computing
+ system 17000 framework may be at least partially replicated
+in respective quantum computing clients (e.g-, VCN control
+towers and/or various VCN entities). In these embodiments,
+an individual client may include some or all of the capa-
+bilities of the quantum computing system 17000, whereby
+the quantum computing system 17000 is adapted for the
+ specific functions performed by the subsystems of the quan- 10
+tum computing client. Additionally, or alternatively, in some
+embodiments, the quantum computing system 17000 may be
+implemented as a set of microservices, such that different
+quantum computing clients may leverage the quantum com-
+puting system 17000 via one or more APIs exposed to the 15
+quantum computing clients. In these embodiments, the
+quantum computing system 17000 may be configured to
+perform various types of quantum computing services that
+may be adapted for different quantum computing clients. In
+either of these configurations, a quantum computing client 20
+may provide a request to the quantum computing system
+17000, whereby the request is to perform a specific task
+(e.g., an optimization). In response, the quantum computing
+system 17000 executes the requested task and returns a
+response to the quantum computing client. 25
+Referring to FIG. 160, in some embodiments, the quan-
+tum computing system 17000 may include a quantum
+adapted services library 17002, a quantum general services
+library 17004, a quantum data services library 17006, a
+quantum computing engine library 17008, a quantum com-
+puting configuration service 17010, a quantum computing
+execution system 17012, and quantum computing API inter-
+face 17014.
+In embodiments, the quantum computing engine library
+17008 includes quantum computing engine configurations 35
+17016 and quantum computing process modules 17018
+based on various supported quantum models. In embodi-
+ments, the quantum computing system 17000 may support
+many different quantum models, including, but not limited
+to, the quantum circuit model, quantum Turing machine, 401
+spintronic computing system (such as using spin-orbit cou-
+pling to generate spin-polarized electronic states in non-
+magnetic solids, such as ones using diamond materials),
+adiabatic quantum computer, one-way quantum computer,
+quantum annealing, and various quantum cellular automata. 45
+Under the quantum circuit model, quantum circuits may be
+based on the quantum bit, or “qubit", which is somewhat
+analogous to the bit in classical computation. Qubits may be
+in a 1 or O quantum state or they may be in a superposition
+of the 1 and O states. However, when qubits have measured 50
+the result of a measurement, qubits will always be in is
+always either a 1 or 0 quantum state. The probabilities
+related to these two outcomes depend on the quantum state
+that the qubits were in immediately before the measurement.
+Computation is performed by manipulating qubits with 55 F
+quantum logic gates, which are somewhat analogous to
+classical logic gates.
+In embodiments, the quantum computing system 17000
+may be physically implemented using an analog approach or
+ a digital approach. Analog approaches may include, but are 60
+not limited to, quantum simulation, quantum annealing, and
+adiabatic quantum computation. In embodiments, digital
+tion. Both analog and digital approaches may use quantum
+bits, or qubits. 65
+In embodiments, the quantum computing system 17000
+includes a quantum annealing module 17020 wherein the
+[col 2]
+666
+quantum annealing module may be configured to find the
+global minimum or maximum of a given objective function
+over a given set of candidate solutions (e.g., candidate
+states) using quantum fluctuations. As used herein, quantum
+annealing may refer to a meta-procedure for finding a
+procedure that identifies an absolute minimum or maximum,
+such as a size, length, cost, time, distance or other measure,
+from within a possibly very large, but finite, set of possible
+solutions using quantum fluctuation-based computation
+instead of classical computation. The quantum annealing
+module 17020 may be leveraged for problems where the
+search space is discrete (e.g., combinatorial optimization
+problems) with many local minima, such as finding the
+ground state of a spin glass or the traveling salesman
+problem.
+In embodiments, the quantum annealing module 17020
+starts from a quantum-mechanical superposition of all pos-
+sible states (candidate states) with equal weights. The quan-
+tum annealing module 17020 may then evolve, such as
+following the time-dependent Schrodinger equation, a natu-
+ral quantum-mechanical evolution of systems (e.g., physical
+systems, logical systems, or the like). In embodiments, the
+amplitudes of all candidate states change, realizing quantum
+parallelism according to the time-dependent strength of the
+transverse field, which causes quantum tunneling between
+states. If the rate of change of the transverse field is slow
+enough, the quantum annealing module 17020 may stay
+close to the ground state of the instantaneous Hamiltonian.
+If the rate of change of the transverse field is accelerated, the
+quantum annealing module 17020 may leave the ground
+state temporarily but produce a higher likelihood of con-
+cluding in the ground state of the final problem energy state
+or Hamiltonian.
+In embodiments, the quantum computing system 17000
+may include arbitrarily large numbers of qubits and may
+transport ions to spatially distinct locations in an array ofion
+traps, building large, entangled states via photonically con-
+nected networks of remotely entangled ion chains.
+In some implementations, the quantum computing system
+17000includes a trappedion computer module 17022,
+which may be a quantum computer that applies trapped ions
+to solve complex problems. Trapped ion computer module
+17022 may have low quantum decoherence and may be able
+to construct large solution states. Ions, or charged atomic
+particles, may be confined and suspended in free space using
+electromagnetic fields. Qubits are stored in stable electronic
+states of each ion, and quantum information may be trans-
+ferred through the collective quantized motion of the ions in
+a shared trap (interacting through the Coulomb force).
+Lasers may be applied to induce coupling between the qubit
+states (for single-qubit operations) or coupling between the
+internal qubit states and the external motional states (for
+entanglement between qubits).
+In some embodiments, a traditional computer, including a
+processor, memory, and a graphical user interface (GUI),
+may be used for designing, compiling, and providing output
+from the execution and the quantum computing system
+17000 may be used for executing the machine language
+instructions. In some embodiments, the quantum computing
+system 17000 may be simulated by a computer program
+executed by the traditional computer. In such embodiments,
+a superposition of states of the quantum computing system
+17000 can be prepared based on input from the initial
+conditions. Since the initialization operation available in a
+quantum computer can only initialize a qubit to either the
+Io> or I1> state, initialization to a superposition of states is
+physically unrealistic. For simulation purposes, however, it

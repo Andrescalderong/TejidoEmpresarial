@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+541
+random values are selected for each of the weights. The
+weights are adjusted during the training process and this
+adjustment of weights to determine the best set of weights
+that maximize the accuracy of the neural network is referred
+to as training. For every input in a training dataset, the output
+of the artificial neural network may be observed and com-
+pared with the expected output, and the error between the
+expected output and the observed output may be propagated
+back to the previous layer. The weights may be adjusted
+accordingly based on the error. This process is repeated until 1o r
+the output error is below a predetermined threshold.
+In embodiments, backpropagation (e.g., backward propa-
+gation of errors) is utilized with an optimization method
+such as gradient descent to adjust weights and update the
+neural network characteristics. Backpropagation may be a 15
+supervised training scheme that learns from labeled training
+data and errors at the nodes by changing parameters of the
+neural network to reduce the errors. For example, a result of
+forward propagation (e.g., output activation value(s) deter-
+mined using training input data is compared against a 20
+corresponding known reference output data to calculate a
+loss function gradient. The gradient may be then utilized in
+an optimization method to determine new updated weights
+in an attempt to minimize a loss function. For example, to
+measure error, the mean square error is determined using the 25
+equation:
+E-(target-output)?
+To determine the gradient for a weight “w," a partial
+derivative of the error with respect to the weight may be 30 
+determined, where:
+gradient-8E/ow
+The calculation of the partial derivative of the errors with
+respect to the weights may flow backwards through the node 35
+levels of the neural network. Then a portion (e.g., ratio,
+percentage, etc.) of the gradient is subtracted from the
+weight to determine the updated weight. The portion may be
+specified as a learning rate “"a." Thus an example equation of
+determining the updated weight is given by the formula: 40
+wnew=wold-aaE/aw
+The learning rate must be selected such that it is not too
+small (e.g., a rate that is too small may lead to a slow
+convergence to the desired weights) and not too large (e.g-, 45 z
+a rate that is too large may cause the weights to not converge
+to the desired weights).
+After the weight adjustment, the network should perform
+better than before for the same input because the weights
+have now been adjusted to minimize the errors. 50
+As mentioned, neural networks may include convolu-
+tional neural networks (CNN). A CNN is a specialized
+neural network for processing data having a known, grid-
+like topology, such as image data. Accordingly, CNNs are
+commonly used for classification, object recognition and 55
+computer vision applications, but they also may be used for
+guage processing.
+A convolutional neural network learns highly non-linear
+60
+arranged in many different layers with activation functions
+that make the layers dependent. It includes one or more
+convolutional layers, interspersed with one or more sub-
+sampling layers and non-linear layers, which are typically
+followed by one or more fully connected layers. 65
+In embodiments, a CNN includes an input layer with an
+input image to be classified by the CNN, a hidden layer,
+[col 2]
+542
+which in turn includes one or more convolutional layers
+interspersed with one or more activation or non-linear layers
+(e.g., ReLU), pooling or sub-sampling layers, and an output
+layer, which typically includes one or more fully connected
+layers. Input image may be represented by a matrix of pixels
+and may have multiple channels. For example, a colored
+image may have red, green, and blue channels each repre-
+senting red, green, and blue (RGB) components of the input
+image. Each channel may be represented by a 2-D matrix of
+pixels having pixel values in the range of 0 to 255. A
+gray-scale image on the other hand may have only one
+channel. The following section describes processing of a
+single image channel using CNN. It will be understood that
+multiple channels may be processed in a similar manner.
+As shown, input image may be processed by the hidden
+layer, which includes sets of convolutional and activation
+layers each followed by pooling layers.
+The convolutional layers of the convolutional neural
+network serve as feature extractors capable of learning and
+decomposing the input image into hierarchical features. The
+convolution layers may perform convolution operations on
+the input image where a filter (also referred to as a kernel or
+feature detector) may slide over the input image at a certain
+step size (referred to as the stride). For every position (or
+step), element-wise multiplications between thefilter matrix
+and the overlapped matrix in the input image may be
+calculated and summed to get a final value that represents a
+single element of an output matrix constituting a feature
+map. The feature map refers to image data that represents
+various features of the input image data and may have
+smaller dimensions as compared to the input image. The
+activation or non-linear layers use different non-linear trig-
+ger functions to signal distinct identification of likely fea-
+tures on each hidden layer.
+Non-linear layers use a variety of specific functions to
+implement the non-linear triggering, including the rectified
+linear units (ReLUs), hyperbolic tangent, absolute of hyper-
+bolic tangent and sigmoid functions. In one implementation,
+a ReLU activation implements the function y=max(x, O) and
+keeps the input and output sizes of a layer the same. The
+advantage of using ReLU is that the convolutional neural
+network is trained many times faster. ReLU is a non-
+continuous, non-saturating activation function that is linear
+with respect to the input if the input values are larger than
+zero and zero otherwise.
+In one example, the first convolution and activation layer
+may perform convolutions on input image using multiple
+filters followed by non-linearity operation (e.g., ReLU) to
+generate multiple output matrices (or feature maps). The
+number of filters used may be referred to as the depth of the
+convolution layer. Thus, the first convolution and activation
+layer in the example has a depth of three and generates three
+feature maps using three filters. Feature maps may then be
+passed to the first pooling layer that may sub-sample or
+down-sample the feature maps using a pooling function to
+generate output matrix. The pooling function replaces the
+feature map with a summary statistic to reduce the spatial
+dimensions of the extracted feature map thereby reducing
+the number of parameters and computations in the network.
+Thus, the pooling layer reduces the dimensionality of the
+feature maps while retaining the most important informa-
+tion. The pooling function can also be used to introduce
+translation invariance into the neural network, such that
+small translations to the input do not change the pooled
+outputs. Different pooling functions may be used in the
+pooling layer, including max pooling, average pooling, and
+12-norm pooling.

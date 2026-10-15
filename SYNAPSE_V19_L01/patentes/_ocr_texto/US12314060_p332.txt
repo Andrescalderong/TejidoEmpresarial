@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+299
+embodiments, tasks that can be performed by an intelligence
+services 8800 may require, or benefit from, specific intelli-
+gence service inputs 8832. In some embodiments, an intel-
+ligence services 8800 may be configured to receive and/or
+request specific data from the intelligence service inputs
+8832 to perform a respective intelligence task. Additionally
+or alternatively, the requesting intelligence service client
+8836 may provide the specific data in the request. For
+instance, the intelligence services 8800 may expose one or
+more APIs to the intelligence clients 8836, whereby a 10
+requesting client 8836 provides the specific data in the
+request via the API. Examples of intelligence service inputs
+may include, but are not limited to, sensors that provide
+sensor data, video streams, audio streams, databases, data
+feeds, human input, and/or other suitable data.
+In embodiments, intelligence modules 8804 includes and
+provides access to an ML module 8812 that may be inte-
+grated into or be accessed by one or more intelligence clients
+8836.In embodiments, the ML module 8812 may provide
+machine-based learning capabilities, features, functions, and 20
+algorithms for use by an intelligence service client 8836
+such as training ML models, leveraging ML models, rein-
+forcing ML models, performing various clustering tech-
+niques, feature extraction, and/or the like. In an example, a
+machine learning module 8812 may provide machine learn- 25
+ing computing, data storage, and feedback infrastructure to
+a simulation system (e.g., as described above). The machine
+learning module 8812 may also operate cooperatively with
+other modules, such as the rules-based module 8828, the
+machine vision module 8822, the RPAmodule 8816, and/or 30
+the like.
+The machine learning module 8812 may define one or
+more machine learning models for performing analytics,
+simulation, decision making, and predictive analytics related
+to data processing, data analysis, simulation creation, and 35
+simulation analysis of one or more components or subsys-
+tems of an inteligence service client 8836. In embodiments,
+the machine learning models are algorithms and/or statistical
+models that perform specific tasks without using explicit
+instructions, relying instead on patterns and inference. The 40o
+machine learning models build one or more mathematical
+models based on training data to make predictions and/or
+decisions without being explicitly programmed to perform
+the specific tasks. In example implementations, machine
+learning models may perform classification, prediction, 45
+regression, clustering, anomaly detection, recommendation
+generation, and/or other tasks.
+In embodiments, the machine learning models may per-
+form various types of classification based on the input data.
+Classification is a predictive modeling problem where a 50
+class label is predicted for a given example of input data. For
+example, machine learning models can perform binary clas-
+sification, multi-class or multi-label classification. In
+embodiments, the machine-learning model may output
+*"confidence scores" that are indicative of a respective con- 55
+fidence associated with classification of the input into the
+respective class. In embodiments, the confidence scores can
+be compared to one or more thresholds to render a discrete
+categorical prediction, In embodiments, only a certain num-
+ber of classes (e.g-, one) with the relatively largest confi- 60
+dence scores can be selected to render a discrete categorical
+prediction.
+In embodiments, machine learning models may output a
+probabilistic classification. For example, machine learning
+models may predict, given a sample input, a probability 65
+distribution over a set of classes. Thus, rather than outputting
+only the most likely class to which the sample input should
+[col 2]
+300
+belong, machine learning models can output, for each class,
+a probability that the sample input belongs to such class. In
+embodiments, the probability distribution over all possible
+classes can sum to one. In embodiments, a Softmax function,
+or other type of function or layer can be used to turn a set
+of real values respectively associated with the possible
+classes to a set of real values in the range (0, 1) that sum to
+one. In embodiments, the probabilities provided by the
+probability distribution can be compared to one or more
+thresholds to render a discrete categorical prediction. In
+embodiments, only a certain number of classes (e.g., one)
+with the relatively largest predicted probability can be
+selected to render a discrete categorical prediction.
+In embodiments, machine learning models can perform
+15 regression to provide output data in the form of a continuous
+numeric value. As examples, machine learning models can
+perform linear regression, polynomial regression, or nonlin-
+ear regression. As described, in embodiments, a Softmax
+function or other function or layer can be used to squash a
+set of real values respectively associated with a two or more
+possible classes to a set of real values in the range (O, 1) that
+sum to one. For example, machine learning models can
+perform linear regression, polynomial regression, or nonlin-
+ear regression. As examples, machine learning models can
+perform simple regression or multiple regression. As
+described above, in some implementations, a Softmax func-
+tion or other function or layer can be used to squash a set of
+real values respectively associated with a two or more
+possible classes to a set of real values in the range (0, 1) that
+sum to one.
+In embodiments, machine learning models may perform
+various types of clustering. For example, machine learning
+models may identify one or more previously-defined clusters
+to which the input data most likely corresponds. In some
+implementations in which machine learning models per-
+forms clustering, machine learning models can be trained
+using unsupervised learning techniques.
+In embodiments, machine learning models may perform
+anomaly detection or outlier detection. For example,
+machine learning models can identify input data that does
+not conform to an expected pattern or other characteristic
+(e.g., as previously observed from previous input data). As
+examples, the anomaly detection can be used for fraud
+detection or system failure detection.
+In some implementations, machine learning models can
+provide output data in the form of one or more recommen-
+dations. For example, machine learning models can be
+included in a recommendation system or engine. As an
+example, given input data that describes previous outcomes
+for certain entities (e.g., a score, ranking, or rating indicative
+of an amount of success or enjoyment), machine learning
+models can output a suggestion or recommendation of one
+or more additional entities that, based on the previous
+outcomes, are expected to have a desired outcome
+As described above, machine learning models can be or
+include one or more of various different types of machine-
+learned models. Examples of such different types of
+machine-learned models are provided below for illustration.
+One or more of the example models described below can be
+used (e.g., combined) to provide the output data in response
+to the input data. Additional models beyond the example
+models provided below can be used as well.
+In some implementations, machine learning models can
+be or include one or more classifier models such as, for
+example, linear classification models; quadratic classifica-
+tion models; etc. Machine learning models may be or
+include one or more regression models such as, for example,

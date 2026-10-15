@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+791
+In some implementations, the set of Al-based learning
+models may include at least one of a transformer model, a
+convolutional neural network, a deep learning model trained
+on a set of outcomes of the value chain network entity, a
+supervised model, a semi-supervised model, an unsuper-
+vised model, or a reinforcement model, and the training data
+set for the set of Al-based learning models may include one
+of a set of objects or events that are labeled to classify the
+set of objects or events according to a classification tax-
+onomy that may include at least one of the above-noted
+operating state, the fault condition, the operating flow, or the
+behavior. Other examples of Al-based learning models (e.g.,
+machine learning models) may include neural networks in
+general (e.g., deep neural networks, convolution neural
+networks, and many others), regression based models, deci-
+sion trees, hidden forests, Hidden Markov models, Bayesian
+models, and the like. In some implementations, VCN pro-
+cess 10 may include combinations where an expert system
+uses one neural network for classifying an item (e.g., iden- 20
+tifying a machine, a component, or an operational mode) and
+a different (or the same) neural network for predicting a state
+of the item (e.g., a fault state, an operational state, an
+anticipated state, a maintenance state, or the like).
+In some implementations, VCN process 10 may deter- 25 j
+mine 17904 a potential risk in the value chain based upon,
+at least in part, an output of the Al-based learning classifi-
+cation. For instance, an example of a potential risk may be
+a supply chain disruption. A supply chain disruption may
+occur when there is a break in the flow of goods or services
+30
+from the supplier to the customer. This can be caused by a
+variety of factors, such as natural disasters, political insta-
+bility, or pandemics. A value chain risk (e.g., disruption) is
+a broader term that refers to any disruption that affects the
+flow of goods or services within a company or organization. 35 
+This can include disruptions to production, distribution, or
+sales. Therefore, VCN process 10 may utilize an AI system
+that can track and predict potential supply chain risks (or
+other types of disruptions) and generate predictive insights
+based upon the above-noted generated information provided 40
+to the AI-based learning models. In some implementations,
+the determination may be a prediction of a future potential
+risk, or predicted current potential risk.
+In some implementations, VCN process 10 may execute
+17906 an action to mitigate the potential risk in the value 45 1
+chain network. For instance, once a potential risk has been
+predicted (or determined/identified), VCN process 10 may
+execute an action to mitigate that potential risk. In some
+implementations, the action may be automatically executed
+without human interaction, or manually executed (e.g-, 50 b
+approving an action suggested by VCN process 10). In some
+implementations, the action taken may be recorded in a log
+or a feed for viewing.
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include 55
+flagging 17908 the potential risk in the value chain network.
+For instance, in some implementations, VCN process 10
+may use Al-based learning models to automatically draft and
+send communications (e.g., text, email, pop-ups, notification
+feed, chat, etc.) explaining what the predicted risk is, what 60
+information was used to predict the risk, and potential
+recommendations to mitigate the potential risk. This may
+allow a user to verify whether the potential risk is an actual
+risk, and take the appropriate action. In some implementa-
+tions, the potential risk may also be flagged in an applica- 65
+tion's user interface (UI), such as the above-noted control
+tower UI.
+[col 2]
+792
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include
+responding 17910 to the potential risk in the value chain
+network. For example, VCN process 10 may suggest diver-
+sifying suppliers, which means having multiple suppliers for
+the same product or service. This can help to reduce the risk
+of a disruption from one supplier affecting the entire supply
+chain. Another example suggestion from VCN process 10
+may be building inventory buffers, which means having
+more inventory than is normally needed. This can help to
+ensure that there is enough product available to meet
+demand even if there is a disruption. Another example
+suggestion from VCN process 10 may be using alternative
+transportation methods, which means using different modes
+of transportation, such as air freight or rail, if there are
+disruptions to road or sea transportation. Another example
+suggestion from VCN process 10 may be renegotiating
+contracts, which means negotiating with suppliers to change
+the terms of contracts, such as delivery dates or pricing, if
+there are disruptions or other risks. Another example sug-
+gestion from VCN process 10 may be using technology,
+meaning the use of technology to track shipments, manage
+inventory, and communicate with suppliers about the poten-
+tial risk, This can help to improve visibility and coordination
+in the supply chain and make it easier to respond to
+disruptions or other risks. Another example suggestion from
+VCN process 10 may be additional innovation, such as
+flagging/responding in a digital twin (e.g-, a value chain
+network digital twin as discussed throughout), where the
+response may involve, e.g., placing an order in an embedded
+marketplace of the digital twin.
+In some implementations, executing the action to mitigate
+the potential risk in the value chain network may include
+resolving 17912 an out-of-stock situation. For instance,
+assume for example purposes only that VCN process 10 has
+used one or more Al-based learning models to determine
+that there is a potential risk in the value chain network, In the
+example, VCN process 10 may mitigate the potential risk in
+the value chain network by resolving an out-of-stock situ-
+ation. As an example, VCN process may determine that a
+particular product (e.g., an engine part) is out-of-stock or
+will soon be out-of-stock based upon the Al-based learning
+models. In some implementations, VCN process 10 may
+resolve this situation by automatically executing (without
+human interaction) a reordering of the engine part, or
+providing a suggestion on a user interface to reorder the
+engine part, which may be manually executed (e.g., receiv-
+ing a user input to approve the suggested action).
+Resolving an out-of-stock situation may also be achieved
+by VCN process 10 monitoring inventory levels in real-time
+across various locations by integrating data from, e.g., IoT
+devices, edge devices, cameras, RFID tags, or other inven-
+tory tracking technologies. The process may utilize this
+real-time stock level information to predict or ascertain an
+out-of-stock situation and attempt to ameliorate the problem
+by, e.g automatically purchasing new inventory, imple-
+levels and customer demand are used as inputs to determine
+the dynamic price of a product, using drop shipping to fulfill
+orders by automatically identifying suppliers with stock of
+the item and placing an order with that supplier and having
+the item shipped directly to the customer, using an Al-based
+model to perform a root cause analysis to understand the
+reasons behind the occurrence of the out-of-stock situation
+and provide recommendations on how to prevent similar
+situations from happening in the future, automatically noti-
+fying customers about stock levels and the potential for

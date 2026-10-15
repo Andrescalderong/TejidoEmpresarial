@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+547
+NLP module 13424 may process text (e.g-, a transcription of
+the audio stream) to determine a meaning of the text using
+various NLP techniques (e.g., NLP models, neural networks,
+and/or the like). In embodiments, the NLP module 13424
+may determine an action or command that was spoken in the
+audio stream based on the results of the NLP. In embodi-
+ments, the NLP module 13424 may output the results of the
+NLP to an intelligence service client 13324.
+In embodiments, the NLP module 13424 provides an
+intelligence service client 13324 with the ability to parse one 10
+or more conversational voice instructions provided by a
+human user to perform one or more tasks as well as
+communicate with the human user. The NLP module 13424
+may perform speech recognition to recognize the voice
+instructions, natural language understanding to parse and 15
+derive meaning from the instructions, and natural language
+generation to generate a voice response for the user upon
+processing of the user instructions. In some embodiments.
+the NLP module 13424 enables an intelligence service client
+13324 to understand the instructions and, upon successful 20
+completion of the task by the intelligence service client
+13324, provide a response to the user. In embodiments, the
+NLP module 13424 may formulate and ask questions to a
+user if the context of the user request is not completely clear.
+In embodiments, the NLPmodule13424 may utilize inputs 25
+received from one or more sensors including vision sensors,
+location-based data (e.g-, GPS data) to determine context
+information associated with processed speech or text data.
+In embodiments, the NLP module 13424 uses neural
+networks when performing NLP tasks, such as recurrent 30
+neural networks, long short-term memory (LSTMs), gated
+recurrent unit (GRUs), transformer neural networks, convo-
+lutional neural networks and/or the like.
+In an example neural network for implementing NLP
+module 13424, the neural network is a transformer neural 35
+network. In the example, the transformer neural network
+includes three input stages and five output stages to trans-
+form an input sequence into an output sequence. The
+example transformer includes an encoder and a decoder. The
+encoder processes input, and the decoder generates output 40
+probabilities, for example. The encoder includes three
+ stages, and the decoder includes five stages. Encoder stage
+1 represents an input as a sequence of positional encodings
+added to embedded inputs. Encoder stages 2 and 3 include
+N layers (e.g., N=6, etc.) in which each layer includes a 45
+position-wise feedforward neural network (FNN) and an
+attention-based sublayer. Each attention-based sublayer of
+encoder stage 2 includes four linear projections and multi-
+head attention logic to be added and normalized to be
+provided to the position-wise FNN of encoder stage 3. 50 
+Encoder stages 2 and 3 employ a residual connection
+followed by a normalization layer at their output.
+The example decoder processes an output embedding as
+its input with the output embedding shifted right by one
+position to help ensure that a prediction for position i is 55
+dependent on positions previous to/less than i. In stage 2 of
+the decoder, masked multi-head attention is modified to
+prevent positions from attending to subsequent positions.
+Stages 3-4 of the decoder include N layers (e.g., N=6, etc.)
+in which each layer includes a position-wise FNN and two 60
+attention-based sublayers. Each attention-based sublayer of
+decoder stage 3 includes four linear projections and multi-
+head attention logic to be added and normalized to be
+provided to the position-wise FNN of decoder stage 4.
+Decoder stages 2-4 employ a residual connection followed 65
+by a normalization layer at their output. Decoder stage 5
+provides a linear transformation followed by a Softmax
+[col 2]
+548
+function to normalize a resulting vector of K numbers into
+a probability distribution including K probabilities propor-
+tional to exponentials of the K input numbers.
+In embodiments, artificial intelligence modules 13404
+may also include and/or provide access to a rules-based
+module 13428 that may be integrated into orbe accessed by
+an intelligence service client 13324. In some embodiments,
+a rules-based module 13428 may be configured with pro-
+grammatic logic that defines a set of rules and other condi-
+tions that trigger certain actions that may be performed in
+connection with an intelligence client. In embodiments, the
+rules-based module 13428 may be configured with program-
+matic logic that receives input and determines whether one
+or more rules are met based on the input. If a condition is
+met, the rules-based module 13428 determines an action to
+perform, which may be output to a requesting intelligence
+service client 13324. The data received by the rules-based
+engine may be received from an intelligence service inputs
+13470 and/or may be requested from another module in
+artificial intelligence modules 13404, such as the machine
+vision module 13422, the neural network module 13414, the
+machine learning module13412,and/or the like.For
+example, a rules-based module13428 may receive classifi-
+cations ofobjects in a field of view of a smart container from
+a machine vision system and/or sensor data from a lidar
+sensor of the smart container and, in response, may deter-
+mine whether the smart container should continue in its path,
+change its course, or stop. In embodiments, the rules-based
+module 13428 may be configured to make other suitable
+rules-based decisions on behalf of a respective intelligence
+service client 13324, examples of which are discussed
+throughout the disclosure. In some embodiments, the rules-
+based engine may apply governance standards and/or analy-
+sis modules, which are described in greater detail below.
+In embodiments, artificial intelligence modules 13404
+interface with an intelligence service controller 13402,
+which is configured to determine a type of request issued by
+an intelligence service client 13324 and, in response, may
+determine a set of governance standards and/or analyses that
+are to be applied by the artificial intelligence modules 13404
+when responding to the request. In embodiments, the intel-
+ligence service controller 13402 may include an analysis
+management module 13406, a set of analysis modules
+13408, and a governance library 13410.
+In embodiments, an intelligence service controller 13402
+is configured to determine a type of request issued by an
+intelligence service client 13324 and, in response, may
+determine a set of governance standards and/or analyses that
+are to be applied by the artificial intelligence modules 13404
+when responding to the request. In embodiments, the intel-
+ligence service controller 13402 may include an analysis
+management module 13406, a set of analysis modules
+13408, and a governance library 13410. In embodiments, the
+analysis management module 13406 receives an artificial
+intelligence module 13404 request and determines the gov-
+ernance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 13406
+may determine the governance standards that apply to the
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with
+respect to the requested decision, For example, a request for
+a control decision that results in an intelligence service client
+13324 performing an action may implicate a certain set of
+governance standards that apply, such as safety standards,
+legal standards, quality standards, or the like, and/or may

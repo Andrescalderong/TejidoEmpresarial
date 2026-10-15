@@ -1,0 +1,137 @@
+receive, such as from a job configuration system 13018, 35 upcoming so that the smart container is less likely to require
+[col 1]
+US 12,314,060 B2
+565
+operations system, such as fleet configuration systems, fleet
+resource scheduling and utilization systems, and the like to
+ensure fleet resource provisioning rules are followed. Physi-
+cal resources to be provisioned may also include computing
+resources, such as on-smart container computing resources,
+smart container operating unit-local fleet-controlled com-
+puting resources, cloud/third-party based computing
+resources, computing and other modules and chips (e.g., for
+deployment with/within a smart container operating unit),
+and the like. In some embodiments, the fleet resource 10
+provisioning rules may be defined in governance standards
+libraries, such that the resource provisioning system 13014
+interfaces with the intelligence service to ensure that provi-
+sioned resources comply with the provisioning rules.
+In embodiments, digital resources to be provisioned by 15
+the resource provisioning system 13014 may be provisioned
+through fleet configuration capabilities, such as software/
+firmware update pushing (e.g., to update a smart container's
+on-board software), resource access credentialing (e.g., to
+accessnetworkresources, suchasjob-specific smartcon-2o
+tainer configuration data and the like), on-smart container
+data storage configuration/allocation/utilization data, and
+the like. Use of a provisioning system 13014 may include
+provisioning equipment, material, software, data structures,
+and the like that are made and/or sourced specifically for a 25
+In embodiments, the provisioning system 13014 may
+further operate cooperatively with contract systems, such as
+third-party smart contract systems, and the like. In some
+embodiments, a freight storage and/or transportation service
+301
+order may reference or comprise a smart contract that may
+include and/or result in configuration of an instance of the
+provisioning system 13014 that is compliant with the
+request. As an example, a provisioning system 13014 may
+smart contract terms that call out provisioning constraints
+and/or guidance. The provisioning system 13014 may inter-
+pret these contract terms, thereby producing a set of fleet and
+consumable resource provisioning constraints.
+Whiletheexamplesdescribed aboveforaresourcepro-40
+visioning system 13014 generally focus on order execution-
+related provisioning, the resource provisioning system
+13014 may further handle provisioning of fleet resources,
+ such as computing resources, access to and/or execution of
+fleet elements, such as a fleet configuration system, intelli- 45 f
+gence service, and the like. In embodiments, provisioning of
+certain resources may be enacted as part of a negotiation
+workflow for acceptance of a freight storage and/or trans-
+portation service order. As an example, provisioning certain
+intelligence services (e.g., a fleet level intelligence service) 50
+may result in a higher charge to a shipper than other
+intelligence services (e.g-, only a smart container-level intel-
+ligence service being deployed smart container operating
+units). As noted above and elsewhere herein, intelligence
+services can bring value to the fleet and job configuration 55
+functions of the system; therefore, provisioning such sys-
+tems as part of a freight storage and/or transportation service
+order negotiation may justify the additional cost to the
+shipper. In some scenarios, prioritization of the system
+resources, such as a fleet configuration system, may impact 60
+provisioning system 13014 functions.
+In embodiments, the fleet management system 13002
+includes a logistics system 13016 that handles, among other
+things, logistics planning and execution for meeting ship-
+ment requirements, maintaining smart containers, maintain- 65
+ing availability of fleet resources (smart container operating
+units, physical resources, and the like), and pickup and
+[col 2]
+566
+delivery of parts (e.g., replacement parts, end effectors,
+supplies, and the like). In embodiments, the logistics system
+13016 can leverage intelligence services, such as machine
+learning systems and/or artificial intelligence systems to
+recommend logistics plans.
+Logistics plans may refer to a workflow that is generated
+to result in the delivery of a set of items to a particular
+location. In embodiments, the logistics system 13016 may
+generate logistics plans that utilize fleet resources (e.g.,
+smart containers, container ships, robots, trucks, cranes,
+railways, or the like) for execution of a logistics plan. In
+embodiments, the fleet operation system 13002 may lever-
+age the (system-level) intelligence service 13004 to assist in
+logistics planning and decision-making.
+In embodiments, the fleet management system 13002
+includes a maintenance management system 13028 that may
+be configured to schedule and effectuate maintenance for
+fleet resources, such as smart container operating units. A
+maintenance management system 13028 may handle field
+maintenance needs and requests, including scheduled main-
+tenance of fleet recourses in the field to mitigate impact on
+smart container operating unit utilization due to travel from
+a deployed job site to a repair depot. The maintenance
+management system 13028 may also coordinate mainte-
+nance and repair operations at repair depots, and the like. In
+embodiments, a maintenance management system 13028
+may include, provide access to, and/or be integrated with
+mobile maintenance vehicles, spare parts depots, third-party
+maintenance service providers and the like. In embodiments,
+maintenance needs for fleet resources housed in storage
+areas, such as warehouses, remote inventory depots and the
+like may be evaluated by the maintenance management
+system 13028 for pre-scheduled maintenance, such as when
+maintenance during a deployment.
+In embodiments, the maintenance management system
+13028 may monitor the state of the fleet resources, such as
+smart container operating units, via resource state reports
+that may be provided on a scheduled basis or in response to
+an inquiry for smart container operating unit state by the
+maintenance management system 13028 and the like. In
+embodiments, the maintenance management system 13028
+may monitor smart container operating unit communication
+for an indication of a potential service condition, such as a
+smart container operating unit signaling that it is experienc-
+ing reduced power output, a smart container operating unit
+reporting exposure to certain ambient conditions (e.g.
+excessive heat), a smart container operating unit reporting a
+leak involving liquid cargo that requires cleaning, a lack of
+heartbeat signal from a smart container operating unit to a
+smart container health monitor resource, and the like. Fur-
+ther, a maintenance management system 13028 may deploy
+probes within smart container operating and/or supervisory
+software that may perform maintenance management func-
+tions on a smart container operating unit, such as monitoring
+information in a smart container data store that stores smart
+container operating unit state information, activating self-
+test operating modes, collection of data that provides indi-
+cations of smart container maintenance needs, and the like.
+Yet further, a maintenance management system 13028 may
+include maintenance robots that may be deployed with smart
+containers in a team of smart container operating units for
+performing a requested job.
+A maintenance management system 13028 may be con-
+structed to take advantage of a range of system services and
+capabilities to schedule and effectuate maintenance, includ-

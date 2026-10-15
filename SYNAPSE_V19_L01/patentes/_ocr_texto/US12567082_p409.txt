@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+495
+motors, electroactive polymers, hydraulic cylinders, piezo-
+electric actuators, pneumatic actuators, servomechanisms,
+servo motors, thermal bimorphs, screw jacks, or any other
+type of hydraulic, pneumatic, electric, mechanical, thermal,
+and magnetic type of actuator.
+An MPR 12100 may be configured with zero or more legs
+or another moveable or fixed base depending on the par-
+ticular application or intended use of the MPR 12100. An
+implementation of the MPR 12100 with zero legs may
+include wheels, treads, or some other form of locomotion. 10
+An implementation of the robotic system with two legs may
+be referred to as a biped, and an implementation with four
+legs may be referred as a quadruped. Other implementations
+with six or eight legs may also be possible. The structure of
+size, skeletal components and material etc. may vary and
+may depend on the operation that the MPR 12100 may have
+been designed to perform. For example, when developed to
+carry heavy loads, the MPR 12100 may have a wide body
+that enables placement of the load. Similarly, when config- 20
+ured to reach high speeds, the MPR 12100 may have a
+narrow, small body made of light weight material.
+In some embodiments, an MPR 12100 may be structured
+to mimic the human body, such that the MPR 12100 includes
+a torso, a head, two arms, and two legs. The actuators may 25
+work like muscles and joints and may allow the skeletal
+components to rotate relative to one another in a manner
+similar to the bones in a human body rotating about a joint.
+For example, the joints may be configured to move skeletal
+components in a manner similar to the movement of hands, 3o t
+fingers, elbows, waists, knees, wrists, shoulders, and/or the
+like. The build material may include biologically inspired
+artificial skin equipped with sensors to detect contact, accel-
+eration, proximity and temperature.
+In embodiments, the transport system 12110 of a MPR 35
+12100 may include one or more body motors which may be
+used to move the MPR 12100 through one or more trans-
+portation conveyances. The transportation conveyances may
+be configured to facilitate the movement of the MPR 12100
+across a surface.In someembodiments,atransportation
+conveyance may comprise a wheel, a caster, a tread or track,
+a low friction pad or bumper, a low friction plate, a ski, a
+pontoon, or any other suitable device configured to reduce
+the friction between the MPR 12100 and the surface over
+which it is desired to be moved. In further embodiments, a 45
+transportation conveyance may comprise a propeller, min-
+iaturized jet engine, or any other air transportation enabling
+device which may allow the MPR 12100 to fly or function
+similar to a drone air craft. In further embodiments a
+transportation conveyance may comprise a fin, a water jet, a 50
+screw, or any other water transportation enabling device
+whichmayallowtheMPR12100tomoveonorbelowthe
+surface of water. In further embodiments a transportation
+conveyance may comprise a rocket, and ion drive, a gyro-
+scope, or any other space transportation enabling device 55
+which may allow the MPR 12100 to move in space.
+In embodiments, the vision and sensing system 12112
+may include a range of sensors in the MPR 12100 acting as
+input mechanisms to collect information from the environ-
+ment. This sensing information is provided to the robot 60
+control system 12150 which processes such information to
+actuate other subsystems including the energy storage and
+power distribution system 12104, the electromechanical and
+electro-fluidic system 12108, the transport system 12110 and
+the structural system 12114. The vision and sensing system
+12112 thereby enables the MPR 12100 to monitor and
+navigate its environment including interacting with and
+[col 2]
+496
+manipulating one or more objects in its environment.
+Examples of a vision and sensing system 12112 are
+described in detail in conjunction with FIG. 142.
+The robot control system 12150 includes various hard-
+ware, devices, interfaces, processors, software, and systems
+for controlling the operation and behavior of the MPR
+12100. For example, the control system 12150 may cause
+the MPR 12100 to move to a specific location by following
+a path and avoiding obstacles in the path. As another
+example, the control system 12150 may cause the MPR
+12100 to collaborate with others or interact with its envi-
+ronment including grasping or manipulating one or more
+objects in its environment.
+The robot control system 12150 may read from the
+nisms to drive the joints, the arms, the legs, the end-effectors
+and the like. The robot control system 12150 provides
+precise motion control of the MPR 12100, including control
+over the fine and gross movements needed for manipulating
+an object. The control system 12150 is able to independently
+control each robotic joint and other skeletal components of
+the structural system 12114 in isolation from the other joints
+and skeletal components, as well as to interdependently
+control a number of the joints to fully coordinate the actions
+of the multiple joints in performing a relatively complex
+work task.
+The robot control system 12150 may communicate with
+other systems of the MBR, other robots, and/or the fleet
+management platform 100 via wired or wireless connec-
+tions, and may further be configured to communicate with
+one or more users. For example, the control system 12150
+may receive an input (e.g, from a user or from another
+robot) indicating an instruction to navigate to a location. The
+control system 12150 may thus serve as an interface
+between different components of the MPR 12100, such as
+between sensors and actuators, between mechanical and
+electrical components, as well as between the MPR 12100
+and a user.
+In embodiments, the robot control system 12150 includes
+and/or may leverage intelligence layer 12140,performance
+management system 12146, task management system
+12144, data processing system 12142, module management
+system 12148, communications system 12152, navigation
+system 12154, safety and compliance system 12156, motion
+planning system (MPS) 12158, and/or controller 12160. It is
+appreciated that the foregoing description of the robot
+control system 12150 is applicable to other types of robots
+as well, including special purpose robots and/or exoskeleton
+robots.
+In embodiments, the intelligence layer 12140 provides a
+framework for providing intelligence services and help
+enable the MPR 12100 to make decisions, predictions,
+classifications, or the like. In embodiments, the intelligence
+layer 12140 receives requests from the robot control system
+12150, or the baseline system 12102 of the MPR 12100,
+and/or the like to provide a specific intelligence (e.g., a
+decision, a classification, a prediction or the like). For
+example, the intelligence layer may be tasked with making
+a decision on controlling the motion of the MPR 12100
+based on environment data (e.g, maps, coordinates of
+known obstacles, images, and/or the like). In embodiments,
+the framework provided by the intelligence layer 12140 may
+be configured as part of a broader intelligence layer extend-
+ing to fleet 4D00 and/or platform levels, as described
+65elsewhereinthedisclosure.
+In embodiments, the intelligence layer 12140 may include

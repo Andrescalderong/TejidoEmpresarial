@@ -1,0 +1,130 @@
+[col 1]
+US 12,314,060 B2
+305
+computation is performed on the input layer and thus the
+outputs from nodes 8842, 8844, 8846, 8848 and 8850 of
+input layer are xl, x2, x3, x4 and x5 respectively, which are
+fed into hidden layer. The output of node 8852 in the hidden
+layer may depend on the outputs from the input layer (xl,
+x2, x3, x4 and x5) and weights associated with connections
+(w1, w2, w3, w4 and w5). Thus, the output from node 8852
+may be computed as:
+Ys852=f(x1 W1+x2w2+x3 w3+x4w4+5w5+bs852).
+The outputs from the nodes 8854 and 8856 in the hidden
+layer may also be computed in a similar manner and then be
+fed to the node 8858 in the output layer. Node 8858 in the
+output layer may perform similar computations (using
+weights vl, v2 and v3 associated with the connections) as 15
+the nodes 8852, 8854 and 8856 in the hidden layers:
+Y858=(Vs852V1+V8854V2+V8856V3+bg858);
+where Yg858 is the output of the neural network 8840.
+As mentioned, the connections between nodes in the 20
+neural network have associated weights, which determine
+how much relative effect an input value has on the output
+value of the node in question. Before the network is trained,
+random values are selected for each of the weights. The
+weights are adjusted during the training process and this 25
+adjustment of weights to determine the best set of weights
+that maximize the accuracy of the neural network is referred
+to as training. For every input in a training dataset, the output
+of the artificial neural network may be observed and com-
+pared with the expected output, and the error between the
+30
+expected output and the observed output may be propagated
+back to the previous layer. The weights may be adjusted
+accordingly based on the error. This process is repeated until
+the output error is below a predetermined threshold.
+In embodiments, backpropagation (e.g., backward propa- 35 
+gation of errors) is utilized with an optimization method
+such as gradient descent to adjust weights and update the
+neural network characteristics. Backpropagation may be a
+ supervised training scheme that learns from labeled training
+data and errors at the nodes by changing parameters of the 40
+neural network to reduce the errors. For example, a result of
+forward propagation (e.g., output activation value(s) deter-
+mined using training input data is compared against a
+corresponding known reference output data to calculate a
+loss function gradient. The gradient may be then utilized in 45
+an optimization method to determine new updated weights
+in an attempt to minimize a loss function. For example, to
+measure error, the mean square error is determined using the
+equation:
+E-(target-output)?
+derivative of the error with respect to the weight may be
+determined, where:
+gradient-8E/ew
+The calculation of the partial derivative of the errors with
+respect to the weights may flow backwards through the node
+levels of the neural network. Then a portion (e.g., ratio,
+percentage, etc.) of the gradient is subtracted from the 60
+weight to determine the updated weight. The portion may be
+specified as a learning rate “a." Thus an example equation of
+determining the updated weight is given by the formula:
+wnew=wold-aaE/@w
+The learning rate must be selected such that it is not too
+small (e.g., a rate that is too small may lead to a slow
+[col 2]
+306
+convergence to the desired weights) and not too large (e.g.,
+a rate that is too large may cause the weights to not converge
+to the desired weights).
+After the weight adjustment, the network should perform
+better than before for the same input because the weights
+have now been adjusted to minimize the errors.
+As mentioned, neural networks may include convolu-
+tional neural networks (CNN). A CNN is a specialized
+neural network for processing data having a known, grid-
+1o like topology, such as image data. Accordingly, CNNs are
+commonly used for classification, object recognition and
+other types of pattern recognition such as speech and lan-
+guage processing.
+A convolutional neural network learns highly non-linear
+mappings by interconnecting layers of artificial neurons
+arranged in many different layers with activation functions
+that make the layers dependent. It includes one or more
+convolutional layers, interspersed with one or more sub-
+sampling layers and non-linear layers, which are typically
+followed by one or more fully connected layers.
+Referring to FIG. 106, a CNN 8860 includes an input
+layer with an input image 8862 to be classified by the CNN
+8860, a hidden layer which in turn includes one or more
+convolutional layers, interspersed with one or more activa-
+tion or non-linear layers (e.g., ReLU) and pooling or sub-
+one or more fully connected layers. Input image 8862 may
+be represented by a matrix of pixels and may have multiple
+channels. For example, a colored image may have a red, a
+green, and blue channels each representing red, green, and
+blue (RGB) components of the input image. Each channel
+values in the range of 0 to 255. A gray-scale image on the
+other hand may have only one channel. The following
+section describes processing of a single image channel using
+CNN 8860. It will be understood that multiple channels may
+be processed in a similar manner.
+As shown, input image 8862 may be processed by the
+hidden layer, which includes sets of convolutional and
+activation layers 8864 and 8868, each followed by pooling
+layers 8866 and 8870.
+The convolutional layers of the convolutional neural
+network serve as feature extractors capable of learning and
+decomposing the input image into hierarchical features. The
+convolution layers may perform convolution operations on
+the input image where a filter (also referred as a kernel or
+feature detector) may slide over the input image at a certain
+step size (referred to as the stride). For every position (or
+5o step), element-wise multiplications between the filter matrix
+and the overlapped matrix in the input image may be
+calculated and summed to get a final value that represents a
+single element of an output matrix constituting a feature
+map. The feature map refers to image data that represents
+smaller dimensions as compared to the input image. The
+activation or non-linear layers use different non-linear trig-
+ger functions to signal distinct identification of likely fea-
+tures on each hidden layer. Non-linear layers use a variety of
+specific functions to implement the non-linear triggering,
+including the rectified linear units (ReLUs), hyperbolic
+tangent, absolute of hyperbolic tangent and sigmoid func-
+tions. In one implementation, a ReLU activation implements
+the function y-max(x,O) and keeps the input and output sizes
+65 of a layer the same. The advantage of using ReLU is that the
+convolutional neural network is trained many times faster.
+ReLU is a non-continuous, non-saturating activation func-

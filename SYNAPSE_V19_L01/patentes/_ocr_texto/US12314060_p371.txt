@@ -1,0 +1,136 @@
+system 10212 to execute simulations on part twins, product 35 ments, the platform may track interests, attributes, search
+[col 1]
+US 12,314,060 B2
+377
+with-female, support-with-supported, or other types of inter-
+face/interconnect compatibility); environmental compatibil-
+ity (e.g., compatibility of materials with anticipated
+environment of use, such as chemical factors, physical
+factors, radiation factors, biological factors, temperatures,
+pressures and the like); functional compatibility (e.g., ability
+to withstand loads, stresses, torsion, or the like) and others.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for 10i
+predicting deformations or failure in an additively manufac-
+tured item.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for 15
+optimizing the build process to minimize the occurrence of
+deformations.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligencesystem10212toexecutesimulationsonproduct20
+twins for predicting the price of a product. In embodiments,
+prediction of a price may include: (a) prediction based on
+market prices of similar items (and/or forecasts of such
+prices); (b) prediction based on predicted demand; (c) pre-
+diction based on committed demand; (d) prediction based on 25
+smart contract terms and conditions; and/or (e) prediction
+based on cost, including materials, energy costs, shipping.
+and labor, among others (which may include a range of
+profit/markup amounts to arrive at a price from a base cost).
+In embodiments, price prediction may include wholesale 30
+pricing, retail pricing, volume pricing, location-based pric-
+ing, and the like.
+In embodiments, the models trained by machine learning
+twins and printer twins for generating additive manufactur-
+ing quotes.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligence system 10212 to execute simulations on part 40
+twins, product twins and printer twins for generating rec-
+ommendations related to printing to a user of the platform.
+In embodiments, the recommendations may relate to a
+choice of a material for printing. In embodiments, the
+recommendations may relate to a choice of an additive 45
+manufacturing technique.In embodiments,recommenda-
+tions may relate to timing of manufacturing.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+ system 10212 to execute simulations on part twins, product 50
+twins and printer twins for predicting delivery times for
+additive manufacturing jobs. Simulations may include ones
+that vary at a level of priority to determine a predicted
+delivery time under different priority levels (such as to
+indicate tradeoffs between latency and price/cost). 55
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins, printer twins, manufacturing node twins or others for
+predicting cost over-runs in the manufacturing process. 60
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins, printer twins and manufacturing node twins for opti-
+mizing the production sequencing of parts based on quoted 65
+price, delivery, sale margin, order size, or similar character-
+istics. In embodiments, optimization may include optimiza-
+[col 2]
+378
+tion based on public data, such as market data, website data,
+manufacturer-provided data (such as by APIs) and/or terms
+and conditions of a set of smart contracts that relate to such
+characteristics.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligence system 10212 to execute simulations on part
+twins, product twins and printer twins for optimizing the
+cycle time for manufacturing. In embodiments, the optimiz-
+ing of cycle time includes time for post-processing (which
+can vary dramatically per part specifications and additive
+manufacturing technology).
+In embodiments, an instruction set for additive manufac-
+turing may be automatically generated from a text descrip-
+tion, such as using a blend of natural language-based arti-
+ficial intelligence and other artificial intelligence for
+handling and/or generating images and/or spatial represen-
+tations, such as using the DALL-E language model from
+OpenAlrM or other transformer language model (a combi-
+nation of text-based and image-based models) further com-
+bined with a model for transforming an image into a 3D
+model into an additive manufacturing instruction set. The
+hybrid, transformer artificial intelligence system may, for
+example, be trained to generate a set of parameters that
+represent a set of semantic objects (such as a pair of glasses
+and a cat), generate an output design (such as glasses that
+have catlike attributes, such as whiskers or cats-eye lenses),
+and convert the output design into an additive manufacturing
+instruction set. In such embodiments, a user may, for
+example, enter a text string for a desired output and be
+provided with a range of 3D models representing options.
+The user may select the preferred option and initiate an
+additive manufacturing job to product the item. In embodi-
+results, profiles, news topics, or other factors to generate a
+set of input text strings to produce a set of objects that are
+recommended for additive manufacturing for a user. In
+embodiments, recommendations are based on similarity to
+other users, such as based on clustering techniques. In
+embodiments, recommendations are based on collaborative
+filtering.
+In embodiments, the digital twin system 10214 are con-
+figured to communicate with a user via multiple communi-
+cation channels such as speech, text, gestures, and the like.
+For example, the digital twin may receive queries from a
+user about the distributed manufacturing network entities,
+generate responses for the queries and communicate such
+responses to the user. Additionally, digital twins may com-
+municate with one another to learn from and identify similar
+operating patterns and issues in other distributed manufac-
+turing network entities, as well as steps taken to resolve
+those issues. For example, the digital twins of two manu-
+facturing nodes or those of a part, a printer and a manufac-
+turing node may communicate with one another for resolv-
+ing or answering a customer request.
+FIG. 118 is a schematic illustrating an example imple-
+mentation of an autonomous additive manufacturing plat-
+form including various components along with other entities
+of a distributed manufacturing network according to some
+embodiments of the present disclosure.
+The autonomous additive manufacturing platform 10110
+may collect data from one or more entities including users,
+programs and the data sources 10114. A data acquisition
+ system 10602 in user interface 10112 may include a set of
+interfaces like a chat interface 10604, a smart voice interface
+10606 and a file upload interface 10608 to collect data from

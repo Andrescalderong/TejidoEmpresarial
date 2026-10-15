@@ -1,0 +1,139 @@
+embodiments, the connected products 14010, 14020, 14022, 15 the example provided, a collection of digital products 14210
+[col 1]
+US 12,314,060 B2
+639
+14046.The gateway 14040 communicates with each of the
+sensor systems 14042, connected products 14044, and addi-
+tional data sources 14046. The gateway 14040 then com-
+municates with the digital product network service 14002
+through the network 14019. For example, the gateway
+14040 may be a router or home automation system hub.
+Network 14019 may be any network for communicating
+data across large distances. In the example provided, the
+network 14019 is the Internet accessed through an internet
+service provider (ISP).
+FIG. 151 illustrates an example of a connected product
+14110. In the example provided, the connected product
+14110 includes a network interface 14112, at least one
+processor 14114, and at least one memory 14116. In some
+14024, 14026, 14034, and 14044 have configurations that
+are similar to that of the connected product 14110.
+The connected product 14110 includes at least one net-
+work interface 14112, at least one processor 14114, and at
+least one memory 14116. The network interface 14112 20
+includes one or more communication units that communi-
+cate with a network (e.g., the Internet, a private network, and
+the like).
+The processor 14114 may be any kind of computational or
+processing device capable of executing program instruc- 25
+tions, codes, binary instructions and the like, including a
+central processing unit (CPU), a general processing unit
+(GPU), a logic board, a chip (e.g., a graphics chip, a video
+processing chip, a data compression chip, or the like), a
+chipset, a controller, a system-on-chip (e.g., an RF system on
+301
+chip, an AI system on chip, a video processing system on
+chip, or others), an integrated circuit, an application specific
+integrated circuit (ASIC), a field programmable gate array
+(FPGA), an approximate computing processor, a quantum
+computing processor, a parallel computing processor, a 35
+neural network processor, or other type of processor.
+In the example provided, the processor 14114 includes a
+data collection module 14120, a data reporting module
+14122, a data analysis module 14124, and intelligence
+services 14126. For example, the modules may be dedicated 40
+electronic circuits or non-transitory computer code commit-
+ted to a computer for instructing the processor to perform the
+algorithm coded therein and described herein.
+The data collection module 14120 instructs the connected
+product 14110 to receive data from sensors and/or the 45t
+network interface 14112 and commit the received data to the
+memory 14116. The data reporting module 14122 retrieves
+data stored in the memory 14116 or redirects data from the
+sensors or the network interface 14112 and transmits the
+data out from the network interface 14112 to a recipient 501
+entity. The data analysis module 14124 and the intelligence
+services 14126 perform analysis and execute artificial intel-
+ligence and/or machine learning algorithms on the data.
+The memory 14116 may be any type of non-transitory
+storage medium, such as one or more of a CD-ROM, DVD, 55
+memory, hard disk, flash drive, RAM, ROM, cache, net-
+work-attached storage, server-based storage, and the like.
+The memory 14116 stores methods, programs, codes, pro-
+gram instructions or other type of instructions capable of
+being executed by the processor 14114. 60
+The memory 14116 stores data in various data structures.
+In the example provided, the data structures include a usage
+data structure 14130, a sensor data structure 14132, and a
+derived data structure 14134. The usage data structure 14130
+stores data related to the use of the connected product 14110. 65
+For example, the usage data structure may store the time,
+location, settings, and other details regarding when and how
+[col 2]
+640
+the connected product has been used by a user. The sensor
+data structure 14132 stores data collected from sensors
+related to the connected product 14110. For example, the
+sensor data may be stored as quantized digital data corre-
+sponding to analog sensor signals generated from sensors
+within the connected product 14110 or received at the
+network interface 14112. The derived data structure 14134
+stores data derived from the usage data and the sensor data.
+For example, the data analysis module 14124 may compare
+1o usage frequency from the usage data with environmental
+temperature from the sensor data to determine a frequency
+ofuse categorized by environmental temperature range to be
+stored in the derived data structure 14134.
+FIG. 152 illustrates a digital product network 14200. In
+share product data 14212 and enhanced product data 14214
+with an intelligence layer 14220. For example, products
+(including goods and services) may create and transmit data,
+such as product level data, to a communication layer within
+the value chain network technology stack and/or to an edge
+data processing facility. This data may produce enhanced
+product level data and may be combined with third party
+data for further processing, modeling or other adaptive or
+coordinated intelligence activity at the intelligence layer.
+This may include, but is not limited to, producing and/or
+simulating product and value chain use cases, the data for
+which may be utilized by products, product development
+processes, product design, and the like.
+The digital products 14210 may include industrial prod-
+ucts 14216, consumer products 14218, and other types of
+connected products that may communicate with the intelli-
+gence layer 14220. In some embodiments, the digital prod-
+ucts 14210 include at least one connected product 14110 of
+FIG. 151.
+A third-party data system 14221 shares third party data
+14222 with the intelligence layer 14220. For example, the
+third-party data systems 14221 may share third party data
+14222 related to any supporting data used by the intelligence
+layer 14220 that is not already available in product data
+14212.
+The intelligence layer 14220 includes various modules
+that perform analysis on the product data 14212, the
+enhanced product data 14214, and the third party data
+14220. The analysis outputs configured data 14226 to send
+to at least one user system 14228.
+In the example provided, the intelligence layer 14220
+includes a demand aggregation module 14230, a supply
+chain management module 14232, a new product develop-
+ment module 14234, a customer relationship management
+module 14236, a product lifecycle management (PLM)
+module 14238, a digital twin module 14240, a synchronized
+planning module 14242, an intelligent procurement module
+14244, and a dynamic fulfillment module 14246. It should
+be appreciated that other embodiments may include other
+combinations and types of modules without departing from
+the scope of the present disclosure.
+The user systems 14228 may be third party systems that
+purchase the configured data 14226, may purchase analytics
+produced by the user system 14228, or may be systems
+owned by the same enterprise that operates the intelligence
+layer 14220.
+In the example provided, the user systems 14228 include
+a demand aggregation system 14250, a supply chain man-
+agement system 14252, a new product development system
+14254, a customer relationship management system 14256,
+a product lifecycle management (PLM) system 14258, a
+digital twin system 14260, a synchronized planning system

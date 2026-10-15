@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+805
+Performance Metrics for insights into the performance of
+various carriers based on delivery time, damages, and other
+relevant metrics.
+As will be discussed in greater detail, VCN process 10
+may be enabled with predictive sourcing capabilities, and
+may also include, in some implementations, a no login, no
+application, no hassle, seamless, one-click sourcing events
+in a supplier's inbox, embedded with real-time predictive
+data.
+Predictive Sourcing System
+10
+As also discussed throughout and referring also at least to
+the example implementations of FIGS. 173-185, a VCN
+process, such as VCN process 10, may receive 18101, by a
+computing device, information associated with a set ofvalue
+chain network entities (such as those noted throughout) of a 15 
+value chain network. For instance, as discussed throughout,
+a unified database (e.g., via platform 604) may (e.g. via
+VCN process 10) receive information associated with a set
+of value chain network entities of a value chain network. The
+information may be collected in a variety of ways, including 20
+(by example only) via the unified data collections systems
+discussed throughout.
+In some implementations, VCN process 10 may include
+the ability to synchronize planning and predictive sourcing,
+which may be two components of supply chain management
+costs. For instance, VCN process 1o's synchronized plan-
+ning may be generally described as the process of aligning
+some or all of the activities and functions within the supply
+(or demand) chain to work together towards a common goal. 30
+This may include, e.g., demand planning/sensing for highly
+accurate forecasts, production planning, inventory manage-
+ment, and logistics planning By VCN process 10 coordinat-
+ing these activities, companies may ensure that they are
+efficiently using their resources to meet customer demand
+while minimizing costs. As an example, as will be discussed
+below, if a company knows that demand for a particular
+product is going to increase, they can use VCN process 10's
+synchronized planning to ensure that they have enough
+inventory on hand to meet that demand, while also ensuring 40
+that production and logistics are prepared to handle the
+increased volume. VCN process 10's predictive sourcing
+may be generally described as the use of data analytics and
+predictive modeling to forecast future demand and identify
+potential supply chain disruptions. By VCN process 10
+analyzing historical data and current trends, companies can
+use VCN process 10 to identify potential risks and take
+proactive measures to mitigate them. For example, if a
+company knows (e.g., via VCN process 10) that a particular
+supplier has a history of delivery delays, they can use VCN 50
+process 10's predictive sourcing to identify the likelihood of
+future delays and take steps to ensure that they have alter-
+native suppliers lined up or extra inventory on hand to avoid
+any disruption in the supply chain.
+In some implementations, the information may be gener- 55
+ated by a set of sensors of the set of value chain network
+entities. For instance, example sensors and/or a set of APIs
+configured to publish data relating to the set of value chain
+network entities may include those discussed regarding the
+adaptive intelligent systems and monitoring layers of plat- 60
+form 604. In some implementations, the information gener-
+ated by a set of IoT devices configured to collect data
+relating to the set of value chain network entities. For
+instance, unified IoT monitoring systems (such as those
+discussed regarding at least the example implementation of 65
+FIG. 33) may be used to generate information from a set of
+IoT devices. It will be appreciated after reading the present
+[col 2]
+806
+disclosure that various other types of methods may be used
+for information generation without departing from the scope
+of the present disclosure. As such, the example use of the
+techniques and methods ofinformation generation described
+throughout should be taken as example only and not to
+otherwise limit the scope of the present disclosure.
+In some implementations, VCN process 10 may provide
+18103 the information to a first set of Artificial Intelligence
+(AI)-based learning models, wherein at least one member of
+the first set of Al-based learning models may be trained on
+a training data set of value chain network data to generate a
+prediction of future demand for an item in the value chain
+network. For instance, in embodiments, one or more intel-
+ligence services (such as those discussed in the example
+implementation of FIG. 104) may include an intelligence
+service controller and AI modules. In embodiments, an
+artificial intelligence services receives an intelligence
+request from an intelligence service client and any required
+data to process the request from the intelligence service
+client. In response to the request and the specific data, one
+or more implicated artificial intelligence modules perform
+the intelligence task and output an “intelligence response".
+Examples of intelligence modules responses may include a
+decision (e.g., a control instruction, a proposed action,
+machine-generated text, and/or the like), a prediction (e.g.,
+a predicted meaning of a text snippet, a predicted outcome
+associated with a proposed action, a predicted fault condi-
+tion, a predicted disruption or risk in the value chain
+network, a prediction of future demand, and/or the like), a
+classification (e.g., a classification of an object in an image,
+a classification of a spoken utterance, a classified fault
+condition based on sensor data, and/or the like), and/or other
+suitable outputs of an AI system. For instance, assume for
+example purposes only that VCN process 10 has used one or
+more Al-based learning models to determine that there is a
+potential risk in the value chain network. In the example,
+VCN process 10 may mitigate the potential risk in the value
+chain network by using upstream data to predict demand for
+a product (e.g., demand enhancement/planning) As an
+example,VCNprocess10 may include or interactwith a
+demand planning application that may automatically calcu-
+late demand (demand sensing) and stock forecasts based on
+upstream data (e.g., sales forecasts, warehouse data, etc.).
+This may allow a precise view of when to place optimal
+ 45 orders that cover specific product demands.
+In some implementations,VCN process 10 may provide
+18105 the information to a second set of A1-based learning
+models, wherein at least one member of the second set of
+Al-based learning models may be trained on a training data
+set of a set of value chain network entities operating data to
+classify at least one of: an operating state, a fault condition,
+an operating flow, or a behavior of at least one value chain
+entity of the set of value chain network entities. For instance,
+similar to first set of Al-based learning models noted above,
+one or more intelligence services (such as those discussed in
+the example implementation of FIG. 104, which may be
+from the same system or various sources) may include an
+intelligence service controller and AI modules. In embodi-
+ments, an artificial intelligence services receives an intelli-
+gence request from an intelligence service client and any
+required data to process the request from the intelligence
+service client. In response to the request and the specific
+data, one or more implicated artificial intelligence modules
+response". Examples of intelligence modules responses may
+include a decision (e.g., a control instruction, a proposed
+action, machine-generated text, and/or the like), a prediction

@@ -1,0 +1,136 @@
+ment system 13010 that facilitates communications among 10 order execution, resource use, and/or the like. For example,
+include, among other things, optimizing use of preconfig- 3o and management data structures and the like.
+In embodiments, the order execution system 13022 may 65 as derived from a freight storage and/or transportation
+[col 1]
+US 12,567,082 B2
+569
+from smart container operating units, sensor systems, user
+devices, databases, and/or the like), data processing, and
+feedback preparation for use of order execution data by job
+and fleet configuration systems and the like. In embodi-
+ments, the order execution system 13022 may be assisted by
+other system capabilities that transmit, process, store, and
+manage data that impacts order execution, such as the
+maintenance management system 13028, the resource pro-
+visioning system 13014, and the communication manage-
+smart container operating units, teams, and fleets, and oth-
+ers. These and other fleet and external resources may pro-
+vide information to the order execution system 13022 for
+facilitating operational aspects of a requested job, such as
+which communication resources has the communication 15
+management system 13010 reserved and/or allocated for the
+requested job, service and/or maintenance requirements for
+smart container operating unit and other resources being
+used to execute a job, changes to resource provisioning that
+occur after operation of a job has commenced, and the like. 20
+In embodiments, the order execution system 13022 may
+further facilitate evaluation and modification of an order
+executionplanwhileexecutingthejobby,forexample,
+identifying bottlenecks that are developing due to on-the-job
+conditions (e.g., heavy container port traffic, ground condi- 25
+tions not as expected due to excessive rain, and the like).
+In embodiments, the order execution system 13022 may
+perform a variety of data pipeline functions during execution
+of a job. In embodiments, data pipeline functions may
+ured sensor and detection packages that combine sensor
+selection, sensing, information collection, preprocessing,
+routing, consolidation, processing, and the like. In embodi-
+ments, sensor and detection packages may be activated by
+the order execution system 13022 when use thereof is 35 r
+indicated as serving a range of monitoring/reporting activi-
+ties. Other data pipeline function examples include optimiz-
+ing on-smart container storage, selective sensor data filtering
+for reduced impact on communication bandwidth (e.g..
+reducing the demand for wireless network utilization), 40
+exception condition detection and pipeline adaptation/data
+filtering, and others.
+In embodiments, the order execution system 13022 may
+monitor, and if necessary, address smart container power
+demand during order execution, In these embodiments, the 45
+order execution system 13022 may ensure, for example,
+battery charge capacity (or other energy source levels, such
+as fuel levels) across multiple smart container operating
+units to meet job task and workflow requirements, such as a
+queue of tasks that should not be interrupted. In embodi- 50 
+ments, smart container power demand management may
+include fleet, team, and individual smart container operating
+unit routing to complete tasks with reduced delays in overall
+productivity with integrated smart container charging activi-
+ties. Further details of the functions and operation of the 55
+order execution system 13022 are described throughout the
+disclosure.
+In embodiments, smart container functionality, including
+during order execution, may be combined with 3D printing
+services and systems to enable, for example, agile, remote, 60
+flexible manufacturing on an as-demanded basis through, for
+example, deployment and use of optionally automated smart
+container 3D printing and production capabilities for last-
+mile customization of products.
+execute, deploy, and/or interface with a set of smart con-
+tracts that monitor and report on smart container operating
+[col 2]
+570
+units 13040. In embodiments, robust distributed data sys-
+tems, such as distributed ledgers (e.g.. public or private
+blockchains) may be utilized for tracking and enhancing
+smart container fleets and/or smart container activities, as
+well as allocation of smart container resource utilization cost
+to relevant parties. In some of these embodiments, the
+distributed ledger nodes store and execute smart contracts.
+In embodiments, the smart contracts may be configured to
+monitor freight storage and/or transportation service orders,
+in some embodiments, smart container operating units may
+be configured to provide evidence of completion of a task
+(e.g., a delivery of cargo) to a smart contract, such that the
+smart contract may trigger actions (e.g-, payments, recorda-
+tion, or the like) in response to completed tasks. In another
+example, smart container operating units may be configured
+to report location data, sensor data, status data (e.g., charge
+levels, cargo condition and/or status, or the like), and/or
+other suitable data, whereby the smart contract may be
+configured to trigger certain actions based on the received
+data.
+In embodiments, a smart container system 13000 may
+include a data processing system 13024 that may provide,
+among other things, access to scalable computation capa-
+bilities for any smart container freight service operations
+and/or intelligence resources, data management capabilities
+(e.g-, data caching, storage allocation and management and
+the like), access to and control of fleet and/or job-related
+data stores, such as libraries, fleet resource inventory control
+In embodiments, the fleet management system 13002 may
+provide support for satisfying freight storage and/or trans-
+portation service orders. For example, the components ofthe
+fleet management system 13002 may facilitate resource
+provisioning and logistics to ensure that fleet resources (e.g.
+smart container operating units, physical modules, and/or
+support devices) are provided in an efficient manner to
+satisfy the freight storage and/or transportation service
+order, such as timing of order execution and the like. For
+example, in some embodiments, thefleetmanagement sys-
+tem 13002 may employ "just-in-time" strategies to facilitate
+delivery of fleet resources and/or maintenance tasks to
+ensure fleet resources are allocated in an eficient manner
+without significantly impacting job completion times. In
+some of these embodiments, the fleet management system
+13002 may leverage the intelligence services to anticipate
+the fleet resource needs corresponding to various freight
+storage and/or transportation service orders and/or order
+execution plans to anticipate the fleet resource needs and to
+arrange for delivery and/or maintenance of such fleet
+resources.
+In embodiments, the order execution system 13022 may
+anticipate job-related resource needs in a job-specific man-
+ner to predict when specific resources will be required for a
+specific job. For example, the order execution system 13022
+(working in combination with the intelligence service) may
+generate a schedule of in-progress and/or upcoming tasks for
+a specific freight storage and/or transportation service order,
+and in response, may determine when certain fleet resources
+are likely to be needed and/or to come available. Addition-
+ally, or alternatively, the order execution system 13022 may
+predict the job-related resources for a specific job in other
+suitable manners. For example, prediction of resource needs
+may be determined based on a pattern of fleet resource needs
+service order history of the shipper, a resource usage history
+of the shipper from the previous N jobs performed for the

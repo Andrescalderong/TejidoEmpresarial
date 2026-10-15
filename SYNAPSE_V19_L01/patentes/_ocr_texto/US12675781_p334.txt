@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+417
+the properties of the printer twin 10506 and can execute
+simulations that generate outcomes. During the simulation,
+the artificial intelligent system 10212 may vary the ambient
+temperature, pressure, humidity, lighting, and/or any other
+properties of the printer twin 10506. In this example, an
+outcome can be a condition of the part twin 10504 after
+being subjected to a high temperature. The outcomes from
+simulations can be used to train the machine learning models
+10213. In embodiments, the machine learning system 10210
+may receive training data, outcome data, simulation data,
+and/or any other data from other data sources 10114. In
+embodiments, the machine learning system 10210 may
+train/reinforce the machine learning models 10213 using the
+received data to improve the models. 15
+In embodiments, the machine-learning system 10210
+trains one or more models that are utilized by the artificial
+intelligence system 10212 to make classifications, predic-
+tions, recommendations, and/or to generate or facilitate
+decisions or instructions relating to the product and the part, 20 i
+such as decisions or instructions governing design, configu-
+ration, material selection, shape selection, manufacturing
+type, job scheduling and many others.
+In example embodiments, the artificial intelligence sys-
+tem 10212 trains a part failure prediction model. A failure 25
+prediction model may be a model that receives part related
+data and outputs one or more predictions or answers regard-
+ing the probability of part failure. The training data can be
+gathered from multiple sources including part specifications,
+environmental data, sensor data, machine vision data and 30
+outcome data. Some examples of questions that the predic-
+tion model may answer are: when will the machine fail, what
+type of failure it will be, what is the probability that a failure
+will occur within the next X hours, what is the remaining
+useful life of the part, and the like. The artificial intelligence 35
+system 10212 may train one or more prediction models to
+answer different questions. For example, a classification
+model may be trained to predict failure within a given time
+window, while a regression model may be trained to predict
+the remaining useful life of the machine. In embodiments, 401
+training may be done based on feedback received by the
+system, which is also referred to as “reinforcement learn-
+set of circumstances that led to a prediction (e.g., attributes
+of part, attributes of a model, and the like) and an outcome 45
+related to the part and may update the model according to the
+feedback.
+In embodiments, the artificial intelligence system 10212
+may use a clustering algorithm to identify the failure pattern
+hidden in the failure data to train a model for detecting 50
+uncharacteristic or anomalous behavior. The failure data
+across multiple parts and their historical records may be
+clustered to understand how different patterns correlate to
+certain wear-down behavior. For example, if the failure
+happens early in the print, the failure may be due to uneven 55
+print surface. If the failure occurs later on in the print, it is
+likely that the part became detached from the printing
+surface and the cause of failure is poor bed adhesion and/or
+warping. All of the information gathered can be used as
+feedback for the model. Over time, various failure modes 60
+will become associated with corresponding parameters. For
+example, poor bed adhesion is likely caused by incorrect
+temperature settings or printing orientation. Any failure to
+meet dimensional tolerances is likely caused by incorrect
+acceleration, speed, or layer height. The machine learning 65
+system 10212 can determine the degree of correlation
+between each input and each failure mode.
+[col 2]
+418
+In embodiments, the artificial intelligence system 10212
+may be configured to monitor cutting tools, filters and
+machine lasers to initiate maintenance or replacement as
+needed including platform-wide maintenance management,
+and as part of computerized maintenance management sys-
+tems (MMS). In embodiments, additive manufacturing enti-
+ties of a value chain network may be prepared, configured
+and/or deployed to support replacement of parts. For
+example, in connection with a service visit to a home or
+business, an additive manufacturing unit may be designated
+to support the service visit, such as a mobile additive
+manufacturing unit and/or a unit located in sufficiently close
+proximity to the service visit to facilitate rapid delivery of
+items produced by the additive manufacturing unit. Based
+on the nature of the service visit (e.g., the type of equipment
+to be serviced, the nature of component parts and materials
+in the equipment, identified problems, and the like), the
+additive manufacturing unit may be equipped with appro-
+priate materials, such as a combination of metal printing
+materials and other printing materials, that are suitable to
+print a range of possible replacement parts, specialized tools,
+or other elements to support the service visit. In embodi-
+ments, the platform may take inputs from or related to the
+service visit, such as inputs indicating the item being ser-
+viced (e.g., technical specifications, CAD designs, and the
+like); inputs indicating diagnosed issues (such as a need to
+replace an entire sub-assembly, a need to repair a crack or
+other damage, or the like); and inputs captured by cameras,
+microphones, data collectors, sensors, and other information
+sources associated with the service visit. For example, a
+service technician may capture a set of photos that show a
+damaged part. In embodiments, the platform may process
+the inputs, such as using an artificial intelligence system
+training set of expert service visit data), to determine a
+recommended action, which in embodiments may involve
+replacement of a part and/or repair of a part. The platform
+may, in some such embodiments, automatically determine
+(such as using an artificial intelligence system, such as
+robotic process automation trained on an expert data set)
+whether a replacement part is readily available and/or
+whether an additive manufacturing system should produce
+the replacement part, such as to reduce delay, to save costs,
+or the like. Similarly, the platform may, in some embodi-
+ments, using similar systems, automatically determine that
+an element should be additively manufactured to facilitate
+repair, such as where a complementary component may be
+generated to replace a worn or absent element. In embodi-
+ments, automatic determination may occur using a machine
+vision system that captures a set of photo images from the
+service visit, compares them to reference designs for appli-
+cable parts and produces an instruction set for additively
+manufacturing a complementary element that can be added
+(such as by being adhered with a specified adhesive) to a
+defective element in order to render the part in compliance
+with the reference design. In any such embodiment that
+recommend or configure instructions for additive manufac-
+turing, the platform may discover available units, configure
+instructions, and initiate additive manufacturing, and pro-
+vide updates to the service technician, such as updates as to
+when an element will be ready to use. In embodiments, the
+platform, such as through a trained AI agent, may automati-
+cally configure and schedule a set of jobs across a set of
+additive manufacturing units with awareness of the status of
+other relevant entities involved in service and other work-
+flows, such as the overall planned duration of a service job
+(e.g., to allow de-prioritization of additive manufacturing

@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+657
+vations on the farmer's behalf for trucking services three
+weeks from the service or crop height determination.
+The futures system 15006 may be any system in which
+goods and services to be delivered or performed in the future
+are bought and sold. For example, the futures system 15006
+may involve forward contracts, stock exchange futures,
+options, various derivatives, and the like. The goods and
+services to be delivered or performed may include real
+property, commodities, raw materials, finished goods, com-
+putation services, or any other physical material or perform- 10
+able service that may be subject to an obligation to deliver
+or perform in the future. In the example provided, the futures
+ system 15006 includes components futures 15030, materials
+futures 15032, consumables futures 15034, equipment
+futures 15036, and logistics reservations 15038. 15
+The components futures 15034 may relate to machinery
+parts, repair parts of goods, wearable parts of goods, upgrade
+parts for goods, parts to be assembled by a manufacturer into
+a new good, and other component types. In some embodi-
+ments, the components futures 15030 are associated with 20
+circular economy systems. For example, the smart contract
+service 15020 may perform circular economy optimization
+based on futures pricing of goods, such as components.
+The raw materials futures 15032 may relate to material
+used to create other goods. For example, the raw materials 25
+15032 may be copper, steel, iron, lithium, and the like. The
+consumables futures 15034 may relate to items that are
+consumed when creating goods or performing services. For
+example, the consumables may include razor blades, coffee
+pods, single use batteries, pork bellies, and the like. 30
+The equipment futures 15036 may relate to machinery.
+vehicles, and other equipment. The logistics reservations
+futures 15038 may relate to future services for warehousing.
+transportation, and the like. For example, the logistics res-
+ervations futures 15038 may include port docking reserva- 35
+tions, trucking reservations, warehouse space rental, canal
+passage reservations, and the like.
+The distribution system 15008 relates to at least one of
+picking, packing, moving, storing, warehousing, transport-
+ing or delivering of a set of items in a supply chain. In the 40
+example provided, the smart contract service 15020 enters
+contracts for delivery, storage, and other handling of the
+items with the logistics reservations system 15038 in concert
+with delivery dates and locations detailed in smart contracts
+for future delivery, storage, and handling of physical items 45 i
+through the distribution system 15008.
+In some embodiments, a value chain may include an that
+intelligent agent system receives feedback from _users
+regarding respective intelligent agents. For example, in
+some embodiments, a client application that leverages an 50 2
+intelligent agent may provide an interface by which a user
+can provide feedback regarding an action output by an
+intelligent agent. In embodiments, the user provides the
+feedback that identifies and characterizes any errors by the
+intelligent agent. In some of these embodiments, a report 55
+may be generated (e.g., by the client application or the
+platform) that indicates the set of errors encountered by the
+user. The report may be used to reconfigure/retrain the
+intelligent agent. In embodiments, the reconfiguring/retrain-
+ing an intelligent agent may include removing an input that
+is the source of the error, reconfiguring a set of nodes of the
+artificial intelligence system, reconfiguring a set of weights
+of the artificial intelligence system, reconfiguring a set of
+outputs of the artificial intelligence system, reconfiguring a
+processing flow within the artificial intelligence system 65
+(such as placing gates on a recurrent neural network to
+render it a gated RNN that balances learning with the need
+[col 2]
+658
+to diminish certain inputs in order to avoid exploding error
+problems), reengineering the type of the artificial intelli-
+gence system (such as by modifying the neural network type
+among a convolutional neural network, a recurrent neural
+network, a feed forward neural network, a long-term/short-
+term memory (LSTM) neural network, a self-organizing
+neural network, or many other types and combinations),
+and/or augmenting the set of inputs to the artificial intelli-
+gence system.
+In embodiments, a library of neural network resources
+representing combinations of neural network types that
+mimic or simulate neocortex activities may be configured to
+allow selection and implementation of modules that repli-
+cate the combinations used by human experts to undertake
+various activities that are subjects of development of intel-
+ligent agents, such as involving robotic process automation.
+In embodiments,various neural network types from the
+library may be configured in series and/or in parallel con-
+figurations to represent processing flows, which may be
+arranged to mimic or replicate flows of processing in the
+brain, such as based on spatiotemporal imaging of the brain
+when involved in the activity that is the subject of automa-
+tion. In embodiments, an intelligent software agent for agent
+development may be trained, such as using any of the
+training techniques described herein, to select a set of neural
+network resource types, to arrange the neural network
+resource types according to a processing flow, to configure
+input data sources for the set of neural network resources,
+and/or to automatically deploy the set of neural network
+types on available computational resources to initiate train-
+ing of the configured set of neural network resources to
+perform a desired intelligent agent/automation workflows.
+In embodiments, the intelligent software agent used for
+agent development operates on an input data set of spa-
+tiotemporal imaging data of a human brain, such as an expert
+who is performing the workflows that is the subject of
+development of a further and uses the spatiotemporal imag-
+ing data to automatically select and configure the selection
+and arrangement of the set of neural network types to initiate
+learning. Thus, a system for developing an intelligent agent
+may be configured for (optionally automatic) selection of
+neural network types and/or arrangements based on spa-
+tiotemporal neocortical activity patterns of human users
+involved in workflows for which the agent is trained. Once
+developed, the resulting intelligent agent/process automa-
+tion system may be trained as described throughout this
+disclosure.
+In embodiments, a system for developing an intelligent
+agent (including the aforementioned agent for development
+of intelligent agents) may use information from brain imag-
+ing of human users to infer (optionally automatically) what
+data sources should be selected as inputs for an intelligent
+agent. For example, for processes where neocortex region
+O1 is highly active (involving visual processing), visual
+inputs (such as available information from cameras, or
+visual representations of information like price patterns,
+among many others) may be selected as favorable data
+sources. Similarly, for processes involving region C3 (in-
+60 volving storage and retrieval of facts), data sources provid-
+ing reliable factual information (such as blockchain-based
+distributed ledgers) may be selected. Thus, a system for
+developing an intelligent agent may be configured for (op-
+tionally automatic) selection of input data types and sources
+based on spatiotemporal neocortical activity patterns of
+human users involved in workflows for which the agent is
+trained.

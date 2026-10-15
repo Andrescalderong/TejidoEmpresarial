@@ -1,0 +1,135 @@
+[col 1]
+US 12,314,060 B2
+393
+example) and selling the products to the users who reserved
+them via the smart contracts. Smart contract parameters,
+including prices, terms of delivery and the like, may be
+automatically adjusted, such as to account for time to
+manufacture, logistics factors, and the like. The system may
+be configured to integrate with an e-commerce system, such
+as to offer products on a marketplace, an auction site, a
+mobile application, or the like, as well as with other envi-
+ronments where purchasing is enabled, such as on-site
+ systems (kiosks), in-game transaction environments, AR/VR
+environments, smart displays, and many others.
+Referring to FIG. 116 and FIG. 119, when manufacturing
+is complete, part and process data related to the outcome of
+the 3D printing process is collected by the data collection
+and management system 10202. Outcome data is provided
+to the machine learning system 10210, as feedback along
+with simulation, external, and training data to train or
+improve the learning model 10213.
+Risk Prediction and Management
+Referring now to FIG. 119, a risk prediction and man-
+agement system 10712 interfaces with, links to, or integrates
+the artificial intelligence system 10212. In example embodi-
+ments, the risk prediction and management system 10712
+may be configured to predict and manage risk or liability 25
+with respect to manufacturing, delivery, utilization and/or
+disposal of a part, product or other item by the distributed
+manufacturing network 10130, among other risks or liabili-
+ties.
+In embodiments, the machine-learning system 10210 30 
+trains one or more of the models 10213 that are utilized by
+the artificial intelligence system 10212 to make classifica-
+tions, predictions, and/or other decisions relating to risk
+management, including for parts and products manufactured
+by the distributed manufacturing network 10130 and for the 35
+systems, workflows, and other activities in which they are
+involved.
+In example embodiments, the model 10213 may be
+trained to predict risk of part failure by detecting the
+condition of a part. The machine learning system 10210 may 40
+train the model using part data and one or more outcomes
+associated with the part condition, such as on a training set
+of data on outcomes of similar parts, similar materials, and
+the like, including historical data on wear-and-tear during
+usage, historical data on material deterioration under various 45
+ambient or environmental conditions, data on defects or
+faults discovered during inspection or reported by customers
+or others, and other data sources. Part data may include any
+of the attributes or parameters noted throughout this disclo-
+sure and the documents incorporated by reference herein, 5o i
+such as part material, part properties, manufacturing date,
+material supplier, part specifications and the like. In this
+example, outcomes used to train the machine learning sys-
+tem 10210 to predict risk, failure of liability may include
+projected outcomes from models, such as scientific models 55 c
+of various types described throughout this disclosure and the
+documents incorporated by reference herein (e.g., physics,
+chemistry, biology, materials science, and others), economic
+models, and many others, which in embodiments may be
+embedded into a digital twin system, such as to model
+whether a part twin 10504, product twin, or other twin is in
+a favorable operating condition during or after simulation of
+a set of events, a passage of time, or the like. In this example,
+one or more properties of the part twin 10504 are varied for
+different simulations and the outcomes of each simulation 65
+may be recorded. Other examples of training risk prediction
+[col 2]
+394
+is trained to optimize product safety, a model that is trained
+to identify parts with a high likelihood of failure, and the
+like.
+In example embodiments, the model 10213 may be
+trained to predict risk of non-delivery of a product to a
+customer, such as due to supply chain and other disruptions,
+such as ones caused by various external events like equip-
+ment failures, strikes and other labor disruptions, border
+control activities (such as customs inspections, travel bans
+and others), limits on shipping, traffic congestion, power
+outages, storms and other natural disasters, catastrophes,
+economic disruptions (such as large changes in tariffs),
+regulatory changes (such as bans on import or export or
+changes in where products may be legally sold or used),
+pandemics, political unrest and the like. In this example, a
+model may be trained to predict supply chain disruption by
+discovering, extracting, transforming, normalizing, process-
+ing, and/or analyzing data from one or more external sources
+20 like social media feeds, weather patterns, news feeds, web-
+sites (e.g., websites providing content relevant to the above,
+marketplace websites, research websites, and others),
+crowdsourcing systems (which may include posing queries
+or projects to crowds in order to solicit input on specific
+factors, such as economic factors, behavioral factors, trends
+and the like), algorithms (such as ones trained to provide
+specific predictions of events), and many others. The arti-
+ficial intelligence system 10212 may then predict and assess
+the impact of the predicted disruption to decide if a supply
+chain redesign may be required to minimize the disruption.
+Impact assessment and/or prediction may use a set of
+economic, financial or operating models, among many oth-
+ers, such as to assess primary, secondary, and other effects on
+an overall workflow or system. For example, assessment or
+prediction may include the impact of the absence of a
+component on the ability to deliver a system on time; the
+impact of diminished or late supply on sales (e.g., missing
+a seasonal window having major impact on product demand
+for some products, like Halloween costumes or beach
+chairs); the impact of diminished or late supply on pricing
+(such as where anticipated shortages may dictate a need for
+and demand and avoid shortages or outages or products); the
+impact on contract liability (such as liability for failure to
+deliver, including the obligation to pay for the cost of the
+buyer to cover in the marketplace by buying substitute
+items); the impact on brand or reputation; and many others.
+In embodiments, the artificial intelligence system 10212
+may leverage an environment twin 10714, the manufactur-
+ing node twin 10510 and/or other twins to run a set of
+simulations to assess the impact of the disruption on one or
+more manufacturing nodes. The risk prediction and man-
+agement system 10712 may then initiate a supply chain
+redesign or product resupply event to minimize the impact
+of the disruption. Furthermore, the outcomes of such an
+event (e.g., improved lead time) may be reported to the
+machine learning system 10210 to reinforce the model used
+to make the decisions.
+Marketing and Customer Service
+Referring now to FIG. 119, a marketing and customer
+service system 10716 interfaces with, links to, or integrates
+the artificial intelligence system 10212. In example embodi-
+ments, the marketing and customer service system 10716
+may be configured to provide personalized sales, marketing,
+advertising, promotion and/or customer service with respect
+to a product or other item provided by the distributed
+manufacturing network 10130.

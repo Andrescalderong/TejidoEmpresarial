@@ -1,0 +1,134 @@
+of the multiple joints in performing a relatively complex 25 12162, a monitoring and notifications service 12163, a
+[col 1]
+US 12,314,060 B2
+497
+manipulating one or more objects in its environment.
+Examples of a vision and sensing system 12112 are
+described in detail in conjunction with FIG. 142.
+The robot control system 12150 includes various hard-
+ware, devices, interfaces, processors, software, and systems
+for controlling the operation and behavior of the MPR
+12100. For example, the control system 12150 may cause
+the MPR 12100 to move to a specific location by following
+a path and avoiding obstacles in the path. As another
+example, the control system 12150 may cause the MPR 10
+12100 to collaborate with others or interact with its envi-
+ronment including grasping or manipulating one or more
+objects in its environment.
+The robot control system 12150 may read from the
+sensors to update the actuators which act as output mecha- 15
+nisms to drive the joints, the arms, the legs, the end-effectors
+and the like. The robot control system 12150 provides
+precise motion control of the MPR 12100, including control
+over the fine and gross movements needed for manipulating
+an object. The control system 12150 is able to independently 20
+control each robotic joint and other skeletal components of
+the structural system 12114 in isolation from the other joints
+and skeletal components, as well as to interdependently
+control a number of the joints to fully coordinate the actions
+work task.
+The robot control system 12150 may communicate with
+other systems of the MBR, other robots, and/or the fleet
+management platform 100 via wired or wireless connec-
+tions, and may further be configured to communicate with 3o t
+one or more users. For example, the control system 12150
+may receive an input (e.g-, from a user or from another
+robot) indicating an instruction to navigate to a location. The
+between different components of the MPR 12100, such as
+between sensors and actuators, between mechanical and
+electrical components, as well as between the MPR 12100
+and a user.
+In embodiments, the robot control system 12150 includes
+and/ormayleverageintelligencelayer12140,performance 40
+management system 12146, task management system
+12144, data processing system 12142, module management
+system 12148, communications system 12152, navigation
+ system 12154, safety and compliance system 12156, motion
+planning system (MPS) 12158, and/or controller 12160. It is 45 c
+appreciated that the foregoing description of the robot
+control system 12150 is applicable to other types of robots
+robots.
+In embodiments, the intelligence layer 12140 provides a 50
+framework for providing intelligence services and help
+enable the MPR 12100 to make decisions, predictions,
+classifications, or the like. In embodiments, the intelligence
+layer 12140 receives requests from the robot control system
+12150, or the baseline system 12102 of the MPR 12100, 55
+and/or the like to provide a specific intelligence (e.g, a
+decision, a classification, a prediction or the like). For
+example, the intelligence layer may be tasked with making
+a decision on controlling the motion of the MPR 12100
+based on environment data (e.g-, maps, coordinates of 60
+known obstacles, images, and/or the like). In embodiments,
+the framework provided by the intelligence layer 12140 may
+be configured as part of a broader intelligence layer extend-
+ing to fleet 4D00 and/or platform levels, as described
+elsewhere in the disclosure. 65
+In embodiments, the intelligence layer 12140 may include
+an intelligence layer controller 12141 and an artificial intel-
+[col 2]
+498
+ligence (A) service 12143. In embodiments, the intelligence
+layer controller 12141 may be configured to determine the
+type of services to be provided by artificial intelligence
+services 12143 and, in response, may determine a set of
+governance standards and/or analyses to be applied by the
+artificial intelligence services 12143. The intelligence layer
+12140 of the MPR 12100 (or SPRs or exoskeletons) may
+include some or all of the intelligence services 12143 of the
+intelligence system described above. Furthermore, in some
+embodiments, the robot-level intelligence layer 12140 may
+be configured to escalate an intelligence request to a higher
+level (e.g., the fleet level, edge device, or the fleet manage-
+ment platform 12000) when the MPR 12100 cannot perform
+the task autonomously. Example embodiments of a robot-
+level intelligence layer 12140 along with its components and
+subsystems are described in detail in conjunction with FIG.
+140.
+In embodiments, the performance management system
+12146 is configured to manage the performance of one or
+more robotic resources including health, energy, thermal
+flows, network and the like. In embodiments, the perfor-
+mance management system 12146 may include a thermal
+management service 12161, an energy management service
+network management service 12164 and/or a predictive
+maintenance service12165.
+In embodiments, the thermal management service 12161
+may use robot sensors, task historical data, ambient condi-
+tions, material characteristics, form factors, and/or the like
+and a set of acceptable outcomes to drive optimization
+algorithms that manage thermal flows in a multi-purpose
+robot 12100. This could be used to actively manage thermal
+conditions or optimize heat transfer to maintain acceptable
+operating conditions. In embodiments, the thermal manage-
+ment service 12161 may help reclaim waste heat energy. For
+example, waste heat could be moved to actively cool hotter
+components, used with emerging nanoscale or other ther-
+moelectric devices, etc. In embodiments, thermal manage-
+ment service 12161 may leverage robot sensor data, task
+historical data, ambient conditions, material characteristics,
+form factors, etc. plus a set of acceptable outcomes to drive
+optimization algorithms (e.g., quantum optimization algo-
+rithms and/or neural network optimization algorithms) that
+design and manage operation of heat transfer components
+like fins, vanes, biomimicking elements, meshes, fabrics,
+fans, etc. in the MPR 12100.
+In embodiments, the energy management service 12162
+helps a robot intelligently manage available energy
+resources and maintain system capability while working in
+dynamic operating environments. For example, upon dis-
+covering that grid energy may not be available and the robot
+needs to conserve the available battery, an energy manage-
+ment service of the MPR 12100 may activate one or more
+energy storing and recovering devices like flywheels,
+capacitors, supercapacitors, hydro-pneumatic accumulators
+and the like. The devices enable the MPR 12100 to harvest
+the energy during the braking phase of a motorwhich
+energy is usually wastedstore it, and provide it back to the
+system when necessary. In embodiments, energy sharing
+devices may share the braking energy of a motor for driving
+other (non-braking) motors or actuators on a common net-
+work. In embodiments, the energy management service
+12162 may include machine learning-based predictive
+vesting and sharing devices and deactivates non-essential
+functions on need basis.

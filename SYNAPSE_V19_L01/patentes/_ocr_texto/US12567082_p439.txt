@@ -1,0 +1,137 @@
+detected internal leaks, low power conditions, low fluid 35 use of fleet communication resources over communications
+[col 1]
+US 12,567,082 B2
+555
+Examples of dynamic risk analysis may include, but are not
+limited to, real-time data driven analyses (e.g., current
+weather patterns, current regulatory environment, current
+container port events, and/or the like) and/or risk analyses
+specific to a particular freight storage and/or transportation
+service order (e.g-, contractual risks, environmental risks,
+safety liabilities, monetary liabilities, and/or the like).
+Examples of static risk analyses may include, but are not
+limited to, operational risks and/or regulatory/compliance
+risks. 10
+In embodiments, the autonomous adaptive security mod-
+ule may operate in an isolated manner (e.g., without com-
+munication with external devices or systems) or in a con-
+nected manner (e.g., with communication with external
+devices or systems). 15
+In embodiments, the security system 13046 may include
+an autonomous non-adaptive security module. In embodi-
+ments, the autonomous non-adaptive security module is
+configured to make security related decisions on behalf of a
+client autonomously (e.g+, without human intervention). In 20
+embodiments, a non-adaptive security module performs
+logic-based security-related actions (e.g., risk mitigation
+actions) in response to detecting one or more specific sets of
+conditions. For example, a non-adaptive security module
+may be configured to, in response to detecting a specific set 25
+of conditions, trigger actions, such actions as, locking a
+smart container, locking the digital twin of a smart container,
+ shutting off smart container power, stopping a movement of
+the smart container, initiating charging, sounding an alarm
+or siren, triggering a strobe or light, sending a notification to 30
+another device or system, self-destructing, or the like. In
+embodiments, the non-adaptive security module responds to
+risks that are more easily diagnosable, such as overheating
+conditions, moving or being taken out of a geofenced area,
+levels, and/or the like.
+In embodiments, the security system 13046 may include
+a manual security module. In embodiments, the manual
+decisions regarding security-related actions.In some of 40
+these embodiments, the manual security module is config-
+ured to receive a notification of an assessed risk (e.g., from
+the adaptive security module, the non-adaptive security
+module, from an intelligence service client 13324, or the
+like). In these embodiments, the human user may interface 45
+with the manual security module via a human interface,
+which may be provided via a user device (e.g. mobile
+device, tablet, computing device, or the like).
+In embodiments, the fleet management system 13002 may
+utilize the features and capabilities of the smart container 50
+system 13000 to facilitate substantially optimized utilization
+of fleet resources by anticipating fleet resource needs and
+preparing those resources in advance of anticipated use. In
+embodiments, resource need anticipation may include coor-
+dinating maintenance activities with shipment scheduling to 55
+ensure that preventable interruptions due to lack of mainte-
+nance are prevented. Additionally, or alternatively, resource
+need anticipation may be based on alignment of detected
+fleet resource use with information that supports, among
+other things, anticipation of freight storage and/or transpor- 60
+tation service orders. In embodiments, factors such as
+weather pattern forecasting, time of year, location, and/or
+the like may influence the likelihood of certain freight
+storage and/or transportation service orders. For example,
+high freight volumes are likely during peak shipping season, 65
+from August to October, whereas freight volumes are likely
+to be low during the start of the year, from January to March.
+[col 2]
+556
+Example implementations for generating fleet need predic-
+tions and addressing those predictions follow the discussion
+of the components of the fleet management system 13002
+and those of the related smart container system 13000. As
+previously discussed, example components of the smart
+container system 13000 may include a communication man-
+agement system 13010, the remote-control system 13012,
+and a human interface system 13038.
+In embodiments, the communication management system
+13010 is configured to enable communication (e.g-, efficient
+and/or high speed communication) among system elements,
+such as the fleet management system 13002 and its elements
+as described herein, the intelligence service 13004 and its
+elements as described herein, external data sources 13036,
+third party systems (e.g., via an Internet and the like), smart
+container operating units, support systems and equipment,
+transportation resources (e.g., container ships, trucks, rail, or
+the like), human fleet resources, and the like. The commu-
+nication management system 13010 may include or provide
+access to one or more communication network types, such
+as wired, wireless and the like that may support various data
+protocols, such as Internet Protocol (IP) and the like. The
+communication management system may include or have
+access to intelligence services (e.g., via the fleet intelligence
+system resources described herein) that manage and control
+portions of the smart container fleet management system
+infrastructure associated with communication to ensure, for
+example: timely delivery of data collected by deployed
+smart container operating units to critical computation,
+analysis and/or data storage resources; prioritized delivery
+of smart container configuration and operational instruc-
+tions; and the like. In fleet resource management and control
+embodiments, the communication management system
+13010 may prioritize fleet security system communications
+among fleet intelligence system components to support a
+high degree of security and integrity of fleet resources. The
+communication management system 13010 may provide
+and manage access to networking, including network system
+13202 that connects at least the smart container system
+13000 with external systems, deployed smart container
+operating units, and other network-connectable elements
+(e.g., fleet edge devices and the like).
+In embodiments, capabilities of the communication man-
+agement system 13010 may include contextual specification,
+and/or adaptation of smart container system communication
+resources (e.g., networks, radio systems, data communica-
+tion devices, such as routers, and the like) based on, among
+other things, an order execution plan, plan definitions, task
+definitions, smart container operating unit configurations,
+real-time job status, and the like. The communication man-
+agement system 13010 adaptation of fleet communication
+resources may be impacted by a range of real-world condi-
+tions (e.g., weather, atmospheric conditions, container port
+traffic, container port and other facility structures, environ-
+ment (e.g., land-to-submerged, subterranean), and the like).
+In embodiments, the communication management system
+13010 may glean context from a freight storage and/or
+transportation service order that may facilitate anticipating a
+need for types of adaptation during order execution. As an
+example of freight storage and/or transportation service
+order context-based communication adaptation, a job may
+initiate at sea level, and then include actions by subterranean
+teams. Communication resources suitable for use in these
+different task environments that are configured by the fleet
+configuration system during job configuration activities may
+be adaptively controlled by the communication management

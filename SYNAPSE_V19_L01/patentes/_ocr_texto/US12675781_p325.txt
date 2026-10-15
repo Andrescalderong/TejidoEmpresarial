@@ -1,0 +1,137 @@
+cesses, maritime processes, inspection processes, hauling 3o as distributed manufacturing network entities.
+[col 1]
+US 12,675,781 B2
+399
+ment, facilities, individuals or other entities mentioned
+throughout this disclosure or in the documents incorporated
+herein by reference, such as, without limitation: machines
+and their components (e.g., delivery vehicles, forklifts, con-
+veyors, loading machines, cranes, lifts, haulers, trucks, load-
+ing machines, unloading machines, packing machines, pick-
+ing machines, and many others, including robotic systems,
+e.g., physical robots, collaborative robots (e.g., “cobots"),
+drones, autonomous vehicles, software bots and many oth-
+visors, supply chain managers, floor managers, demand
+managers, delivery workers, shipping workers, barge work-
+ers, port workers, dock workers, train workers, ship workers,
+distribution of fulfillment center workers, warehouse work-
+ers, vehicle drivers, business managers, marketing manag- 15
+ers, inventory managers, cargo handling workers, inspec-
+tors, delivery personnel, environmental control managers,
+financial asset managers, security personnel, safety person-
+nel and many others); suppliers (such as suppliers of goods
+and related services of all types, component suppliers,
+ingredient suppliers, materials suppliers, manufacturers, and
+many others); customers (including consumers, licensees,
+businesses, enterprises, value added and other resellers,
+retailers, end users, distributors, and others who may pur-
+chase, license, or otherwise use a category of goods and/or 25
+related services); retailers (including online retailers and
+others such as in the form of eCommerce sites, conventional
+bricks and mortar retailers, pop-up shops and the like); value
+chain processes (such as shipping processes, hauling pro-
+processes, loading/unloading processes, packing/unpacking
+processes, configuration processes, assembly processes,
+installation processes, quality control processes, environ-
+mental control processes (e.g., temperature control, humid-
+itycontrol,pressurecontrol,vibrationcontrol,and others),35 t
+border control processes, port-related processes, software
+processes (including applications, programs, services, and
+others), packing and loading processes, financial processes
+(e.g., insurance processes, reporting processes, transactional
+processes, and many others), testing and diagnostic pro- 4o
+cesses, security processes, safety processes, reporting pro-
+cesses, asset tracking processes, and many others); wearable
+and portable devices (such as mobile phones, tablets, dedi-
+cated portable devices for value chain applications and
+processes, data collectors (including mobile data collectors), 45
+sensor-based devices, watches, glasses, hearables, head-
+worn devices, clothing-integrated devices, arm bands, brace-
+lets,neck-worn devices,AR/VR devices,headphones,and
+many others); a wide range of operating facilities (such as
+loading and unloading docks, storage and warehousing 50
+facilities, vaults, distribution facilities and fulfillment cen-
+ters, air travel facilities (including aircraft, airports, hangars,
+runways, refueling depots, and the like), maritime facilities
+(such as port infrastructure facilities (such as docks, yards,
+cranes, roll-on/roll-off facilities, ramps, containers, con- 55
+tainer handling systems, waterways, locks, and many oth-
+ers), shipyard facilities, floating assets (such as ships,
+barges, boats and others), facilities and other items at points
+of origin and/or points of destination, hauling facilities (such
+as container ships, barges, and other floating assets, as well 60
+as land-based vehicles and other delivery systems used for
+conveying goods, such as trucks, trains, and the like); items
+or elements factoring in demand (i.e., demand factors)
+(including market factors, events, and many others); items or
+elements factoring in supply (i.e, supply factors)(including 65
+market factors, weather, availability of components and
+materials, and many others); logistics factors (such as avail-
+[col 2]
+400
+ability of travel routes, weather, fuel prices, regulatory
+factors, availability of space (such as on a vehicle, in a
+container, in a package, in a warehouse, in a fulfillment
+center, on a shelf, or the like), and many others); pathways
+for conveyance (such as waterways, roadways, air travel
+routes, railways and the like); robotic systems (including
+mobile robots, cobots, robotic systems for assisting human
+workers, robotic delivery systems, and others); drones (in-
+cluding for package delivery, site mapping, monitoring or
+inspection, and the like); autonomous vehicles (such as for
+package delivery); sofiware platforms (such as enterprise
+resource planning platforms, customer relationship manage-
+ment platforms, sales and marketing platforms, asset man-
+agement platforms, Internet of Things platforms, supply
+chain management platforms, platform as a service plat-
+forms, infrastructure as a service platforms, software-based
+data storage platforms, analytic platforms, artificial intelli-
+gence platforms, and others); and many others.
+The manufacturing node 10100 may also connect to other
+20 nodes like a manufacturing node 10128 through connectivity
+facilities so as to constitute a distributed manufacturing
+network 10130. Also, the different systems within the manu-
+facturing node 10100 including the additive manufacturing
+unit 10102, the pre-processing system 10104, the post-
+processing system 10106, the material handling system
+10108, the autonomous additive manufacturing platform
+10110, the user interface 10112, the data s0urces 10114 and
+the design and simulation system 10116 as well as the
+different parts and products being printed may be referred to
+In embodiments, connectivity facilities include various
+connectivity facilities described throughout this disclosure
+and the documents incorporated by reference herein, includ-
+ing network connections (including various configurations,
+types and protocols for fixed and wireless connections),
+Internet of Things devices, edge devices, routers, switches,
+access points, repeaters, mesh networking systems, inter-
+faces, ports, application programming interfaces (APIs),
+brokers, services, connectors, wired or wireless communi-
+cation links,human-accessible interfaces,software inter-
+faces, micro-services, SaaS interfaces, Paas interfaces, Iaas
+interfaces, cloud capabilities, or the like by which data or
+information may be exchanged between systems or sub-
+systems of the autonomous additive manufacturing platform
+10110, as well as with other systems, such as distributed
+manufacturing network entities or external systems, such as
+cloud-based or on-premises enterprise systems (e.g..
+accounting systems, resource management systems, CRM
+systems, supply chain management systems and many oth-
+ers). In embodiments, connectivity facilities use, include, or
+are integrated with artificial intelligence or autonomous
+capabilities as described herein and/or in the documents
+incorporated herein by reference, such as enabling self-
+organization or self-configuration of connectivity, data stor-
+age, computation, data processing, packet routing, data
+filtering, quality-of-service, error correction, packet security,
+session management, and the like. In embodiments, the
+additive manufacturing unit 10102 may incorporate a wire-
+less mesh network node, such as an RF repeater, optionally
+using software-defined bandpass filtering, such that a set of
+such additive manufacturing units 10102 may operate as a
+coordinated mesh on a defined network infrastructure (in-
+cluding physical and/or virtual network resources). In
+embodiments, the additive manufacturing unit 10102 may
+include network coding system for controlling the utilization
+of a data path between the additive manufacturing unit
+10102 and other additive manufacturing units 10102 and/or

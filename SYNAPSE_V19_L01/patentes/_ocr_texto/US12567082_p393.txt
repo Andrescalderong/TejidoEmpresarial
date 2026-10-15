@@ -1,0 +1,133 @@
+[col 1]
+US 12,567,082 B2
+463
+In embodiments, the job execution system 12022 may
+perform a variety of data pipeline functions during execution
+of a job. In embodiments, data pipeline functions may
+include, among other things, optimizing use of preconfig-
+ured sensor and detection packages that combine sensor
+selection, sensing, information collection, preprocessing,
+routing, consolidation, processing, and the like. In embodi-
+the job execution system 12022 when use thereof is indi-
+cated as serving a range of monitoring/reporting activities. 10
+Other data pipeline function examples include optimizing
+on-robot storage, selective sensor data filtering for reduced
+impact on communication bandwidth (e.g., reducing the
+demand for wireless network utilization), exception condi-
+tion detection and pipeline adaptation/data fltering, and 15
+others.
+In embodiments, the job execution system 12022 may
+monitor, and if necessary, address robot power demand
+during job execution. In these embodiments, the job execu-
+tion system 12022 may ensure, for example, battery charge 20
+capacity (or other energy source levels, such as fuel levels)
+across multiple robot operating units to meet job task and
+workflow requirements, such as a queue of tasks that should
+not be interrupted. In embodiments, robot power demand
+management may include fleet, team, and individual robot 25
+operating unit routing to complete tasks with reduced delays
+in overall productivity with integrated robot charging activi-
+ties. Further details of the functions and operation of the job
+execution system 12022 are described throughout the dis-
+closure.
+In embodiments, fleet functionality, including during job
+execution may be combined with 3D printing services and
+systems to enable, for example, agile, remote, flexible
+manufacturing on an as-demanded basis through, for
+example,deployment and use of optionally automated 35
+robotic 3D printing and production capabilities proximal to
+a point of use (e.g., a job site, a logistics site, a warehouse,
+a transportation vehicle, and the like). Another exemplary
+use of fleet robot functionality with 3D printing combines
+this agile flexible production capability with customizable 40 performing job tasks.
+product delivery for last-mile customization of products.
+Several exemplary embodiments of 3D printing functional-
+ity combined with the methods and systems of fleet man-
+ agement are described elsewhere herein, including, without
+limitation on-robot 3D printing of service items at a service 45
+site; 3Dprinting of job specific end-effectors and/or adaptors
+based on context acquired at a job site; robot control of
+transportable (e.g., job site-deployed) 3D printing systems;
+3D scanning and in-situ printing, and the like.
+In embodiments, the job execution system 12022 may 50 e
+execute, deploy, and/or interface with a set of smart con-
+tracts that monitor and report on robot operating units
+12040. In embodiments, robust distributed data systems,
+such as distributed ledgers (e.g-, public or private block-
+chains) can be utilized for tracking and enhancing robot 55
+fleets and/or multi-purpose robot activities, as well as allo-
+cationofroboticresourceutilization costtorelevantparties,
+such as job requestors, fleet users, and the like. In some of
+these embodiments, the distributed ledger nodes store and
+execute smart contracts. In embodiments, the smart con- 6o
+tracts may be configured to monitor job requests, job execu-
+tion, resource use, and/or the like. For example, in some
+embodiments, robot operating units may be configured to
+provide evidence of completion of a task to a smart contract,
+payments, recordation, or the like) in response to completed
+tasks. In another example, robot operating units may be
+[col 2]
+464
+configured to report location data, sensor data, status data
+(e.g., charge levels, component status, or the like), and/or
+other suitable data, whereby the smart contract may be
+configured to trigger certain actions based on the received
+data.
+In embodiments, a fleet operations system 12002 may
+include a data processing system 12030 that may provide,
+among other things, access to scalable computation capa-
+bilities for any fleet operations and/or intelligence resources,
+data management capabilities (e.g. data caching, storage
+allocation and management and the like), access to and
+control of fleet and/or job-related data stores, such as librar-
+ies, fleet resource inventory control and management data
+structures and the like.
+In embodiments, the fleet operations system 12002 may
+include a human interface system 12024 that provides a
+human interface that allows users to access the fleet man-
+agement platform 100 and/or individual robot operating
+units (e.g., for remote control) from a remote device (e.g., a
+user device, a VR device, an AR device, and/or the like). In
+embodiments, the human interface system 12024 facilitates
+fleet operations management, fleet resource management,
+fleet computing system, software and data structure man-
+agement (e.g., system upgrades and the like), human access
+to robot operating units (e.g., for remote control of a robot
+tions of fleet operation, data extraction (e.g., for generation
+of and/or validation of smart contracts associated one or
+more job requests and the like). As an example of use of a
+human interface system 12024, a job requestor may access
+ status updates of a requested job via the human interface
+system i2024. The job requestor may use a remote device to
+observe robot operating units performing tasks for the
+requested job.In this example, the human interface system
+12024 may interact with other fleet components, such as the
+job execution system 12022, to direct image capture
+resources (e.g., camera-based overhead drones) to provide
+images of robot operating units assigned to and currently
+In embodiments, the fleet operations system 12002 may
+provide support for satisfying job requests. For example, the
+components of the fleet operations system 12002 may facili-
+tate resource provisioning and logistics to ensure that fleet
+resources (e.g-, robot operating units, physical modules,
+efficient manner to satisfy the job request needs, such as
+timing of job execution and the like. For example, in some
+embodiments, the fleet operations system 12002 may
+employ just-in-time" strategies to facilitate delivery of fleet
+resources and/or maintenance tasks to ensure fleet resources
+are allocated in an efficient manner without significantly
+impacting completion times. In some of these embodiments,
+the fleet operations system 12002 may leverage the intelli-
+gence services to anticipate the fleet resource needs corre-
+sponding to various job requests and/or job execution plans
+anticipate the fleet resource needs and to arrange for deliver
+and/or maintenance of such fleet resources.
+In some embodiments, job workflows that include mul-
+tiple dependent stages may be pipelined, such that certain
+resources are not required until another workflow stage is
+complete. In such a scenario, the fleet operating system
+12002 may delay the provisioning of the certain resources
+until the prior workflow stage is nearing completion. In this
+way, those resources may be used in connection with another
+job (or another part of the same job) while the prior
+workflow stages are completed. In these embodiments, the

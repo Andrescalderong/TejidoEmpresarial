@@ -1,0 +1,138 @@
+role. In a transmission role, the modelling module 18064 20 use a library module 18066 containing one or more modules
+[col 1]
+US 12,314,060 B2
+681
+18070 that may be used to transmit/receive data, including
+various data from data sources 18004 and/or PMCP data
+(e.g., vectors, model parameters, etc.) to/from other PMCP
+device interfaces (e.g., PMCP device interface 18052) and/
+or to/from other components of a system including the
+PMCP device interface. In embodiments, the transceiver
+module 18062 may include an intelligence system 18072,
+which may use artificial intelligence techniques to assist in
+transmission and/or reception processing. For example, the
+intelligence system 18072 may route various types of 10 
+incoming and outgoing data, prioritize or deprioritize trans-
+mitted and/or received data from data sources 18004 vs
+PMCP data, and/or the like. The intelligence system 18072
+may further include a PMCP controller 18074, which may
+understand PMCP transmissions, parse PMCP data, and 15
+provide the received PMCP data to the modelling module for
+further operations.
+The modelling module 18064 may be responsible for
+various operations in a transmission role and/or in a receiver
+may continually receive data from various data sources
+18004 (e.g., sensors 18022) and continually generate and/or
+refine models that predict future states of the incoming data.
+The various models may be, for example, classification
+models, behavioral analysis models, prediction models, data 25
+augmentation models, and/or any other types of model.
+Model parameters (e.g., neural network weights) from the
+generated/refined models may then be transmitted to receiv-
+ers, which may use the parameters to perform classifications,
+behavior analysis, prediction, augmentation and/or the like 30
+without needing to have access to the data stream. Accord-
+ingly, in a receiver role, the modelling module 18064 may
+use various parameters received from another PMCP device
+interface to parameterize various types of models, then use
+the parameterized models to generate data for further use by
+the receiving device.
+In embodiments, the PMCP device interface may train
+and/or execute classification models 18076, which may be
+trained using data captured from data sources 18004 gener-
+ate various labels or classifications.For example, classifi- 40
+cation models may be used to output various states or
+conditions based on input data, including predicted future
+states or conditions. By transmitting classification model
+parameters to a receiving device using PMCP, the receiving
+device may also be able to predict the future states or 45
+conditions without having to receive the input data from the
+data sources 18004.
+In embodiments, the PMCP device interface may train
+and/or execute behavior analysis models 18078, which may
+be trained using data captured from data sources 18004 to 50
+generate various behavioral analyses and future behavioral
+data. For example, behavior analysis models may be used to
+output current or future actions that are likely to be taken by
+certain entities and/or analyses of whether the actions are
+within normal conditions or unusual. By transmitting behav- 55
+ioral analysis model parameters to a receiving device using
+PMCP, the receiving device may also be able to predict the
+future actions and/or analyses without having to receive the
+input data from the data sources 18004.
+In embodiments, the PMCP device interface may train 6o
+and/or execute prediction models 18080, which may be
+trained using data streams captured from data sources 18004
+to generate current and predicted data values for the data
+streams. For example, prediction models may be used to
+output current or future sensor readings based on data 65
+captured from sensors 18022. By transmitting prediction
+model parameters to a receiving device using PMCP, the
+[col 2]
+682
+receiving device may also be able to predict the sensor
+values without having to receive the input data from the
+sensors 18022 or other data sources 18004.
+In embodiments, the PMCP device interface may train
+and/or execute augmentation models 18082, which may be
+trained using data captured from data sources 18004 to
+generate augmented data streams. For example, augmenta-
+tion models may be used to generate interpolated or extrapo-
+lated values from data streams that may be missing data
+(e.g., due to network interruptions), may generate predicted
+sensor readings for a sensor (e.g-, a broken sensor) based on
+sensor readings from other nearby sensors, and may other-
+wise augment data received from data sources 18004 with
+additional data. By transmitting augmentation model param-
+eters to a receiving device using PMCP, the receiving device
+may also be able to generate the missing data, predicted data,
+or other augmented data without having to receive the input
+data from the data sources 18004.
+In embodiments, the PMCP device interface 18060 may
+that may be used to assist in modelling and/or other opera-
+tions. For example, a networking module 18084 may contain
+various data about network devices, network topologies,
+network digital twins, and other network data that may be
+leveraged to train various models, to perform ETL opera-
+tions as described in more detail below, or to perform other
+such processing. As another example, a security module
+18086 may contain various data about security devices,
+building layouts (e.g., for building security systems), maps,
+topologies, digital twins, vulnerabilities, and other security
+data that may be leveraged to train various models, to
+perform ETL operations as described in more detail below,
+or to perform other such processing for security reasons.
+Various other specific modules may be provided to enable or
+35 support specific use cases.
+In embodiments, a storage module 18068 may provide
+various operations for processing data for storage and/or
+storing data. An ETL interface 18088 may be configured to
+perform exchange, transform, and load (ETL) operations for
+storing data in a PMCPdatabase 18090.The PMCP database
+18090 may be used to store various data, including data
+received from data sources 18004 (e.g., such that historical
+data may be used to generate/refine various models), as well
+as the models themselves, model parameters, and/or the like.
+In embodiments, the thalamus service and PMCP may
+provide complementary techniques for managing large
+amounts of data. For example, PMCP may reduce the
+bandwidth and storage requirements for working with large
+amounts of data because PMCP may only require transmit-
+ting model parameters, instead of transmitting bandwidth-
+intensive data streams. However, when dealing with large
+numbers of data sensors or other data sources, PMCP may
+not be enough to reduce data to manageable levels, as the
+number of PMCP streams, number of models, etc. may still
+be too large to handle. In these cases, the thalamus service
+may operate to prioritize, format, suppress, filter, or combine
+PMCP data streams in order to allow for a focus on the most
+important PMCP data streams at any given time. Several
+benefits are realized by combining the techniques in this
+manner. For example, although massive amounts of data
+may be collected, PMCP may allow the communication of
+model parameters for predicting some or all of the data, and
+the thalamus service may allow for a focus on the most
+important models and predictions at any given time. More-
+over, the use of PMCP causes the data to be inherently
+predictive and thus forward-looking, which, in combination
+with the thalamus service, allows for a focus on the most

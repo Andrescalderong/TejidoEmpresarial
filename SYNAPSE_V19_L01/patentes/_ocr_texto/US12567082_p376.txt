@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+429
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an interactive head-mounted device
+configured to display virtual content with an electrically
+adjustable liquid lens for providing a correction for the
+displayed content by adjusting the electrically adjustable
+liquid lens.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an unmanned automotive vehicle
+(UAV) navigation system to help control the position or
+course of the UAV in three dimensions. 10
+Some non-limiting examples of third party systems 11930
+that may integrate with dynamic vision system 11300 for
+incorporating vision capability include IoT system 11932,
+value chain network (VCN) system 11934, manufacturing
+execution system (MES) 11936, robot/cobot system 11938, 15
+automotive system 11940, 3D printing system, ophthalmic
+system, surgical system, microscopy system, exoskeleton
+agement system (QMS), compliance system, certification
+system, and the like.
+In embodiments, the integration of the dynamic vision
+system 11300 with the more third-party systems 11930 takes
+into account the specific needs and requirements of the third
+party systems 11930 and may customize certain components
+and applications of the dynamic vision system 11300 based 25
+on such requirements. For example, when integrating with a
+3D printing system, defect detection may be provided
+whereas integration with a robotic cleaning system may
+benefit from the inclusion of virtual SLAM 11924.
+FIGS. 128-142 relate to various embodiments of a fleet 30 r
+management platform that is configured to configure fleets
+of robot operating units to perform a wide array of jobs. In
+some embodiments, a fleet management platform may be
+used a value chain entity that is leveraged by one or more
+organizations. The fleet management platform may be a 35
+standalone service or may be incorporated as part of a larger
+multi-service offering. In embodiments, the fleet manage-
+ment platform receives a job request (e.g, from a client
+device) and identifies a set of tasks to be performed in
+completion of the requested job. In response to determining 40
+the set of tasks, the fleet management platform may deter-
+mine a robot fleet configuration that includes a set of robot
+operating units and may assign robot operating units to the
+set of tasks. As used herein, a robot operating unit may refer
+to an individual robot, a team of robots, or a fleet of robots 45
+that operate to complete a task or set of tasks. An individual
+robot may refer to a special-purpose robot, multi-purpose
+robot, exoskeleton robot, robotic process automation soft-
+ware, or other software-based bot, as discussed further
+below. As will be discussed, in some embodiments, the fleet 5o r
+management platform may define a configuration of one or
+more multi-purpose robots to perform a respective task or
+sub-task and/or to operate in a certain type of environment
+as part of the fleet configuration. As will be discussed, a
+multi-purpose robot may be configured with various mod- 55
+ules that allow the multi-purpose robot to perform certain
+tasks. For instance, a multi-purpose robot may be provi-
+sioned with specialized chips that enable the robot to per-
+form intelligence tasks, specialized sensors for a job or
+environment, liquid lenses for enabling certain machine-
+vision functionality, specialized appendages that are task
+specific (e.g., clamps, grippers, drils, lifts, and/or the like).
+and/or other modules that configure the multi-purpose robot
+to perform a certain task or set of tasks.
+In some embodiments, the fleet management platform 65
+may define a set of workflows, wherein a workflow may
+define an order by which certain tasks or sub-tasks are
+[col 2]
+430
+performed and the robot operating unit(s) that is/are
+assigned to the respective task or sub-task. In some embodi-
+ments, the fleet management platform may perform work-
+flow simulations to iteratively redefine fleet configurations
+and/or workflows to substantially optimize the operation of
+the robot fleet. For example, the fleet configurations and/or
+workflows may be iteratively adjusted to reduce costs,
+improve logistical efficiencies, reduce the overall job time,
+or the like. Once the fleet configuration and workflows are
+finalized, the fleet management platform may deploy the
+fleet. In some embodiments, the fleet management platform
+may facilitate the logistics involved with delivering robot
+operating units and/or robot components, and/or supporting
+resources to the job site(s). Furthermore, in some embodi-
+ments, the fleet management platform may leverage additive
+manufacturing capabilities, such as 3D printers or other
+capabilities described herein or in the document incorpo-
+rated by reference herein, in furtherance of resource provi-
+sioning/logistics, such that items that are capable of being
+20 3D-printed in an efficient manner may be printed rather than
+shipped. In embodiments, the fleet management platform
+may monitor the robot fleet while performing a job, includ-
+ing the status of robot operating units, the performance of
+jobs, and the like. In some of these embodiments, the fleet
+management platform may automate maintenance of robots
+and/or resources to ensure an efficient use of an available
+inventory and/or to reduce downtime at job locations.
+In some embodiments, the fleet management platform
+may support fleet digital twins that depict the status of the
+robot operating units and/or the job performance based on
+data received from the robot operating units or other suitable
+data sources, such as edge devices, environmental sensor
+systems, platform resources (e.g., logistics platforms, enter-
+prise resource management platforms, customer relationship
+management platforms, and/or the like), and/or other suit-
+able data sources. The digital twins served by the fleet
+management platform may be adapted for various uses. For
+example, in some embodiments, a digital twin may be
+configured to provide a real-time status of a job being
+performed by a fleet of robots. In this way, a user may be
+able to drill down in different areas of a job site to view the
+progress with a job. In some example embodiments, a digital
+twin may be configured to provide a status of a robot fleet,
+including individual robots within the fleet. In these
+examples, a user may dril down onto individual robots in a
+team or fleet of robots to view the status of the robots. For
+example, the user may view the battery life of a robot, the
+availability of other energy sources, the location of a robot,
+the mobility options for the robot, the productivity of a
+robot, task completion status of a robot, maintenance alerts
+of a robot, and/or the like. In some example embodiments,
+the fleet management platform may serve environmental
+digital twins that depict the environment of a robot fleet with
+real-time information, such as locations of object and other
+robots, sensor readings of the environment, and the like. In
+these embodiments, a user may leverage an environmental
+digital twin to provide remote control commands to a robot,
+a team of robots, or a fleet of robots. For instance, a robot
+or team of robots may encounter an unidentified object in
+performance of a task and may be unable to make a decision
+relating to the task performance. In some embodiments, the
+fleet management platform may obtain relevant data (e.g.
+LIDAR data, video feeds, environment maps, and the like)
+which may be depicted in an environment digital twin. The
+user may view the current scenario in the environmental
+digital twin and may provide instruction to the robot fleet
+how to proceed given the scenario presented in the envi-

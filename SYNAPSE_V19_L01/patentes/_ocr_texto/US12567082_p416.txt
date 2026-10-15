@@ -1,0 +1,137 @@
+In embodiments, the intelligence layer 12140 may include 45 12100. The digital twin may be configured to simulate
+[col 1]
+US 12,567,082 B2
+509
+a manufacturing workshop or from a controlled environ-
+ment. In some embodiments, the policies may be pre-trained
+using training data collected from simulation environments.
+For instance, the training data for grasping may be obtained
+using a digital twin system performing simulations using the 5
+arm and one or more of end effectors.
+In embodiments, the policies may be pre-trained on a
+wide variety of objects and may be adapted based on
+characteristics of the object on which the policy is applied.
+For example, to train the grasping policy, the digital twin 10
+system 12630 may perform simulations on different objects
+including glasses, boxes, boxes with side handles, markers,
+flowerpots, manufacturing parts, machine tools, desks,
+chairs. Also, transfer learning may be used for adapting or
+tuning data collected for one task on another related task.
+For example, transfer learning may reuse a model developed
+for one task as the starting point for a model on a second
+related task.
+In some embodiments, the intelligence layer 12140 may
+employ transfer learning for domain adaptation. For 20
+example, one or more transfer learning algorithms may be
+used for adapting the data collected by the digital twin
+system in the simulation environment to the real-world
+environment.In embodiments,theintelligence layer 12140
+may employ adversarial training for domain adaptation. For 25
+example, a Generative Adversarial Networks (GAN) may be
+used to generate synthetic data for the real-world environ-
+ment, which is then used for training. Also, specialized
+neural networks like Domain-Adversarial Neural Network
+(DANN) by Ganin et al may be used for domain adaptation. 30 
+Robot-Level Intelligence Layer
+In embodiments, the robot-level intelligence layer 12140
+of the MPR 12100 may be configured as part of a broader
+intelligence system (e.g., the intelligence services system
+12200 ofFIG.130) as described above. In embodiments, the 35 
+robot-level intelligence layer 12140 provides intelligence
+services to the MPR 12100, thereby enabling the MPR
+12100 to make decisions, predictions, classifications, or the
+like. In embodiments, the robot-level intelligence layer
+12140may include capabilities to perform someor all of the 40
+intelligence services that are consumed by the MPR 12100
+and/or may be configured to request intelligence services
+from an external source (e.g., another robot, an edge device,
+and/or the fleet management platform).
+the intelligence layer controller 12141 and a set of artificial
+intelligence (A) services 12143. In embodiments, the intel-
+ligence layer controller 12141 may include an analysis
+management module 12600, a set of analysis modules
+12610, and a g0vernance library 12620. In embodiments, the 50 r
+analysis management module 12600 receives a request for
+an artificial intelligence service and determines the gover-
+nance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 12600
+may determine the governance standards that apply to the 55 
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with
+respect to the requested decision. For example, a request for
+a control decision that results in the MPR 12100 navigating
+to a nuclear waste treatment site may implicate a certain set 60
+of governance standards that apply, such as safety standards,
+legal standards, quality standards, regulatory standards,
+financial standards or the like, and/or may implicate one or
+more analyses regarding the control decision, such as a risk
+analysis, a safety analysis, an engineering analysis, or the 65
+like. In embodiments, the governance standards may be
+defined as a set of standards libraries stored in a governance
+[col 2]
+510
+library 12620. In embodiments, the governance library
+12620 may define conditions, thresholds, rules, recommen-
+dations, or other suitable parameters by which a decision
+may be analyzed. In some embodiments, the analysis man-
+agement module 12600 may determine one or more analyses
+that are to be performed with respect to a particular decision
+and may provide corresponding analysis modules 12610 that
+perform those analyses to the artificial intelligence service
+12143. In embodiments, the analysis modules 12610 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by the data processing
+system 12142 that hosts the instance of the intelligence layer
+12140. Continuing the example of the decision for the MPR
+12100 navigating to a nuclear waste treatment site, the level
+of risk and hazard at the site may need to be analyzed to
+make the navigationdecision.Non-limiting examples of
+analysis modules 12610 may include risk analysis
+module(s), security analysis module(s), decision tree analy-
+sis module(s), ethics analysis module(s), failure mode and
+effects (FMEA) analysis module(s), hazard analysis
+module(s), quality analysis module(s), safety analysis mod-
+ule(s), legal analysis module(s), financial analysis module(s)
+and/or other suitable analysis modules.
+Artificial intelligence services 12143 may include a digi-
+tal twin system 12630, a machine vision system 12618, a
+machine-learning (ML) system 12632, a robotic process
+automation (RPA) system 12652, a natural language pro-
+cessing (NLP) system 12656, an analytics system 12660,
+and/or a neural network system 12662. The machine learn-
+ing system 12632 may further include machine learning
+models 12664 and reinforcement learning system 12668.
+The digital twin system 12630 may be constructed to
+generate digital twins for MPR 12100, robotic subsystems
+like the electromechanical and electro-fluidic system 12108,
+the transport system 12110, the vision and sensing system
+12112 etc., robotic components like batteries, sensors,
+valves, actuators, motors, end effectors etc., robotic policies
+like navigating, grasping, lifting, transporting etc. The digi-
+tal twins ofthe MPR 12100 may have a visual user interface,
+e.g., in the form of 3D models, and/or may consist of system
+specifications or ontologies describing the architecture,
+including components and their interfaces of the MPR
+operation of the MPR 12100 so as to continuously capture
+the key operational metrics and may be used to monitor and
+optimize the performance of the MPR 12100 in real time.
+The robot digital twin may also be configured to commu-
+nicate with one or more users, twins or other robots via
+multiple communication channels such as speech, text,
+gestures, and the like. For example, the digital twin may
+receive queries from a user about the MPR 12100, generate
+responses for the queries and communicate such responses.
+Further, the digital twin system 12630 may be configured
+with interfaces, such as APIs and the like for receiving
+information from the operating environment of the MPR
+12100
+In embodiments, the digital twin system 12630 may be
+used to simulate the behavior of the MPR 12100 or one or
+more of its components or subsystems. For example, the
+behavior of the MPR 12100 while grasping a glass bottle and
+moving it from source to destination may be predicted and
+optimized by the intelligence layer 12140. The insights
+gained from analysis and simulation using digital twins may
+be passed onto a reinforcement learning agent for improve-
+ment of these processes.

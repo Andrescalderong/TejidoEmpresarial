@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+411
+system trained on a training set of expert service visit data),
+to determine a recommended action, which in embodiments
+may involve printing of a textile. The additive manufactur-
+ing platform 10110 may, in some such embodiments, auto-
+matically determine (such as using an artificial intelligence
+ system 10212, such as robotic process automation trained on
+an expert data set) whether the additive manufacturing unit
+10102 should produce the textile.
+In any such embodiment that recommend or configure
+instructions for additive manufacturing, the additive manu- 10
+facturing platform 10110 may discover available materials/
+fabrics, configure instructions, and initiate additive manu-
+facturing, and provide updates to a hotel employee, such as
+updates as to when an element will be ready to use.
+In embodiments, the additive manufacturing platform 15 
+10110, such as through a trained AI agent, may automati-
+cally configure and schedule a set of jobs across a set of
+additive manufacturing units 10102 with awareness of the
+ status of other relevant entities involved in other workflows,
+such as what other work is being done (e.g., to allow for 20 t
+appropriate sequencing of additive manufacturing outputs
+that align with overall workflows), the priority of the print-
+ing job (e.g, whether it relates to a loyal hotel guest), or
+other factors. In embodiments, optimization of workflows
+across a set of additive manufacturing entities may occur by 25
+having the artificial intelligence system 10212 undertake a
+set of simulations, such as simulations involving alternative
+scheduling sequences, design configurations, alternative
+output types, and the like. In embodiments, simulations may
+include sequences involving additive manufacturing and 30 
+other manufacturing entities (such as subtractive manufac-
+turing entities that cut, dye, or the like and/or finishing
+entities that sew, configure, add hotel guest initials or the
+like), including handoffs between sets of different manufac-
+turing entity types, such as where handoffs are handled by
+robotic handling systems. In embodiments, a set of digital
+twins may represent attributes and capabilities of the various
+manufacturing systems, various handling systems (robotic
+systems, arms, conveyors, and the like, as well as human
+workforce)and/or the surrounding environment (such as a 4ot
+hotel, a manufacturing facility, or the like).
+In embodiments, the additive manufacturing platform
+10110 such as that associated with a value chain network
+may be prepared, configured and/or deployed to support
+restaurant operations. For example, in connection with a 45 t
+customer reservation at a restaurant, the additive manufac-
+turing unit 10102 may be designated to support the customer
+reservation, such as a table-side additive manufacturing unit
+10102 and/or a portable unit to facilitate direct-to-table
+delivery of items produced by the additive manufacturing 50
+unit 10102.
+Based on the nature of the reservation (e.g., special
+dietary requirements, accessibility requirements, occasion of
+the reservation) and the services and supplies available at the
+restaurant, the additive manufacturing unit 10102 may be 55
+equipped with appropriate materials, such as a combination
+of food grade service/storage materials and other printing
+materials, that are suitable to print a range of possible
+service items, specialized flatware, customized commemo-
+rative/celebration items, or other elements to support the 60
+reservation. In embodiments, the additive manufacturing
+platform 10110 may take inputs from or related to the
+reservation, such as inputs indicating time of day, size of the
+party, special requests, affiliation with principals of the
+restaurant, loyalty participation, and the like; inputs indicat-
+ing service support capabilities at the restaurant and options
+[col 2]
+412
+rial/equipment (such as a status of ovens, cook tops, food
+storage, meal prep material, customizable service items, or
+the like); and inputs captured by cameras, microphones, data
+collectors, sensors, and other information sources associated
+with the reservation, including select input capture device(s)
+associated with one or more participants in the reservation
+(e.g., a personal mobile phone with image capture features).
+For example, a hostess station camera may capture a set of
+photos of the participants, such as images of the reservation
+participant(s) faces that are suitable for generation of a 3D
+data set for additive manufacturing printing use.
+In embodiments, the additive manufacturing platform
+10110 may process the inputs, such as by using the artificial
+intelligence system 10212, to determine a recommended
+action for servicing participants in the reservation, which in
+embodiments may involve use of a service item, such as an
+standard service item adapted to meet a service requirement
+of the reservation, such as a customized serving tray with
+separated compartments for each participant in the reserva-
+tion, an item of flatware and/or serving spoon adapted for
+use by a person without a normal appendage, and the like.
+The additive manufacturing platform 10110 may, in some
+such embodiments, automatically determine, such as by
+using the artificial intelligence system 10212, trained on an
+expert data set, and the like whether a suitable service item
+is readily available and/or whether use of an additive manu-
+facturing system to produce the service item(s) can reduce
+delay, to save costs, or the like. Similarly, the additive
+manufacturing platform 10110 may, in some embodiments,
+using similar systems, automatically determine that an ele-
+ment should be additively manufactured to facilitate use of
+additional kitchen equipment, such as cook tops to ensure
+timely meal service for the reservation, such as where a
+complementary component may be generated to replace a
+worn or absent component, such as a gas setting knob on a
+gas range regulator.
+In embodiments, automatic determination may occur
+using a machine vision system that captures a set of facial
+images of reservation participants and produces an instruc-
+tion set for additively manufacturing a complementary ser-
+vice item, such as a drinking glass that matches the facial
+image. In any such embodiment that recommends or con-
+figures instructions for additive manufacturing, the additive
+manufacturing platform 10110 may discover available addi-
+tive manufacturing units 10102 (e.g., a drinking glass addi-
+tive manufacturing unit on the restaurant premises), config- ure compatible instructions, initiate additive manufacturing.
+and provide updates to the service staff, such as updates as
+to when the custom printed drinking glass will be ready to
+use. In embodiments, the additive manufacturing platform
+10110, such as through a trained AI agent, may automati-
+cally configure and schedule a set of jobs across a set of
+additive manufacturing units 10102 (drinking glass additive
+manufacturing units, kitchen equipment parts additive
+manufacturing units, takeaway/takeout food storage systems
+additive manufacturing units, and the like) with awareness
+of the status of other relevant reservations at the restaurant
+and other kitchens/service workflows, such as the timing of
+food preparation/meal courses (e.g., to allow de-prioritiza-
+tion of additive manufacturing jobs that are to produce
+reservation-related service items that won't be used imme-
+diately upon the start of the reservation), what other additive
+manufacturing work is being done for other reservations
+(e.g-, to allow for appropriate sequencing of additive manu-
+facturing outputs that align with overall kitchen workflows,
+meal service, and the like), the cost (both direct and indirect)
+of delays in additive manufacturing element access (e.g..

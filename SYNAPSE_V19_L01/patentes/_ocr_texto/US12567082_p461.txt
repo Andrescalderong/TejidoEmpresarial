@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+599
+In some embodiments, the digital twin simulation system
+13310 is configured to execute simulations using the digital
+twin. For example, the digital twin simulation system 13310
+twin and/or one or more embedded digital twins. In embodi-
+ments, the digital twin simulation system 13310, for each set
+of parameters, executes a simulation based on the set of
+parameters and may collect the simulation outcome data
+resulting from the simulation. Put another way, the digital
+twin simulation system 13310 may collect data relating to 10 h
+the properties of the digital twin and the digital twins within
+or containing the digital twin used during the simulation as
+well as any outcomes stemming from the simulation. For
+example, in running a simulation on a digital twin of a
+potential new smart container design, the digital twin simu- 15
+lation system 13310 can vary the dimensions, materials,
+capabilities, and/or other relevant parameters and can
+execute simulations that output outcomes resulting from
+different combinations of the parameters. In another
+example, the digital twin simulation system 13310 may
+simulate the vibration of cargo within a smart container. In
+this example, the digital twin of the smart container may
+include a set of operating parameters of the smart container.
+In some embodiments, the operating parameters may be
+varied to evaluate the effect of the operating parameters on 25
+cargo damage. The digital twin simulation system 13310 is
+discussed in further detail throughout the disclosure.
+In embodiments, the digital twin dynamic model system
+13312 is configured to model one or more behaviors with
+respect to a digital twin of an environment. In embodiments, 30
+the digital twin dynamic model system 13312 may receive
+a request to model a certain type of behavior regarding a
+shipping entity, environment, or process and may model that
+behavior using a dynamic model, the digital twin of the
+environment or process, and sensor data collected from one 35
+or more sensors that are monitoring the environment or
+process. For example, an operator of a smart container fleet
+may wish to model the performance of the fleet to determine
+whether the fleet can withstand an increase in freight trans-
+portation service demand. In this example, the digital twin 40
+dynamic model system 13312 may execute a dynamic model
+that is configured to determine whether an increase in
+demand would result in adverse consequences (e.g., failures,
+downtime, or the like). The digital twin dynamic model
+system 13312 is discussed in further detail throughout the 45
+disclosure.
+In embodiments, the intelligence service 13004 performs
+machine learning and artificial intelligence-related tasks on
+behalf of the digital twin system. In embodiments, the
+intelligence service 13004 train machine learned models 50
+using the output of simulations executed by the digital twin
+simulation system 13310. In some of these embodiments,
+the outcomes of the simulations may be used to supplement
+training data collected from real-world environments and/or
+processes. In embodiments, the intelligence service 13004
+leverages machine learned models to make predictions and
+classifications and provide decision support relating to the
+real-world environments and/or processes represented by
+respective digital twins.
+For example, a machine-learned prediction model may be 60 r
+used to predict the cause of irregular vibrational patterns for
+a bearing of an engine of a smart container. In this example,
+the intelligence service 13004 may receive vibration sensor
+data from one or more vibration sensors disposed on or near
+the engine and may receive maintenance data from the smart 65
+container and may generate a feature vector based on the
+vibration sensor data and the maintenance data. The intel-
+[col 2]
+600
+ligence service 13004 may input the feature vector into a
+machine-learned model trained specifically for the engine
+(e.g., using a combination simulation data and real-world
+data of causes of irregular vibration patterns) to predict the
+cause of the irregular vibration patterns. In this example, the
+causes of the irregular vibrational patterns could be a loose
+bearing, a lack of bearing lubrication, a bearing that is out of
+alignment, a worn bearing, the phase of the bearing may be
+aligned with the phase of the engine, loose housing, loose
+bolt, and the like.
+In embodiments, the digital twin control module 13314
+controls one or more aspects of smart containers, smart
+container fleets, and/or other shipping entities and environ-
+ments. In embodiments, the digital twin control module
+13314 may leverage the digital twin simulation system
+13310, the digital twin dynamic model system 13312, and/or
+the intelligence service 13004 to determine one or more
+control instructions. In embodiments, the digital twin con-
+trol module 13314 may implement a rules-based and/or a
+machine-learning approach to determine the control instruc-
+tions. In response to determining a control instruction, the
+digital twin control module 13314 may output the control
+instruction to the smart container, smart container fleet,
+and/or other shipping entities and environments via the
+digital twin I/O system 13308.
+In embodiments, the digital twin management system
+13306 may include, but is not limited to, a digital twin
+configuration module 13318, a digital twin update module
+13320, and a digital twin visualization module 13322.
+In embodiments, the digital twin configuration module
+13318 may configure a set of new digital twins of a set of
+environments using input from users, imported data (e.g.,
+blueprints, specifications, and the like), image scans of the
+environment, 3D data from a LIDAR device and/or SLAM
+sensors, and other suitable data sources. For example, a user
+(e.g-, a user afiliated with an organization/customer
+account) may, via a client application 13324 (such as via the
+smart container system 13000), provide input to create a new
+shipping digital twin. In doing so, the user may upload 2D
+or 3D image scans and/or blueprints of the shipping entity
+and/or environment. The user may also upload 3D data, such
+as taken by a camera, a LIDAR device, an IR scanner, a set
+of SLAM sensors, a radar device, an EMF scanner, or the
+like. In response to the provided data, the digital twin
+configuration module 13318 may create a 3D representation
+of the shipping entity or environment, which may include
+any objects that were captured in the image data/detected in
+the 3D data. In embodiments, the intelligence service 13004
+may analyze input data (e.g-, blueprints, image scans, 3D
+data) to classify rooms, pathways, equipment, and the like to
+assist in the generation of the 3D representation. In some
+embodiments, the digital twin configuration module 13318
+may map the digital twin to a 3D coordinate space (e.g., a
+Cartesian space having x, y, and z axes).
+In some embodiments, the digital twin configuration
+module 13318 may output the 3D representation of the
+shipping entity and/or environment to a graphical user
+interface (GUD). In some of these embodiments, a user may
+identify certain areas and/or objects and may provide input
+relating to the identified areas and/or objects. For example,
+a user may label specific rooms, equipment, machines,
+devices, sensors, and the like. Additionally, or alternatively.
+the user may provide data relating to the identified objects
+and/or areas. For example, in identifying a smart container,
+the user may provide a make/model number of the smart
+container. In some embodiments, the digital twin configu-
+ration module 13318 may obtain information from a manu-

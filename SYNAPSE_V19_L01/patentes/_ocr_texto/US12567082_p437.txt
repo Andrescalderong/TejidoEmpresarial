@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+551
+In embodiments, a “"set" of machine-learned models may
+include a set with multiple members. In embodiments, a
+"set" of machine-learned models may include hybrids of
+different types of models (e.g., hybrids of RNN and CNN).
+In one example, a set of machine-learned models may be
+used for smart container predictive maintenance. In this
+example, the intelligence service 13004 may receive order
+data, historical order data, maintenance data, weather data,
+and/or video feed from sensors inside a smart container for
+the user device 13094 and may generate a set of feature 10
+vectors based on the received data. The intelligence service
+13004 may input the feature vectors into machine-learned
+models trained (e.g., using a combination of simulation data
+and real-world data) to predict when a particular smart
+container will require maintenance, such as based on a 15
+training data set of outcomes. In embodiments, the intelli-
+gence service 13004 may include an input set of training
+data representing predictions or the probability of required
+maintenance by a set of human experts and/or by other
+systems or models. 20
+In yet another example, a set of machine-learned models
+may be used to predict the traffic at a container terminal at
+a given point in time. In this example, the intelligence
+service 13004 may receive historical container terminal
+traffic data, maritime data, news data, and weather data and 25
+may generate feature vectors based on the received data. In
+embodiments, feature vectors may include other data, such
+as data characterizing container terminal layout elements
+upon which traffic may depend. The intelligence service
+13004 may input the feature vectors into machine-learned 30
+models trained (e.g., using a combination simulation data
+and real-world data) to predict the traffic at a container
+terminal.
+In another example, a set of machine-learned models may
+be used to detect illicit and/or illegal items being shipped. In 35
+this example, the intelligence service 13004 may receive
+order data, shipper data, historical cargo data, and/or video
+feed and other sensor data from sensors disposed inside of
+a smart container and may generate feature vectors based on
+the received data. The intelligence service 13004 may input 401
+the feature vectors into machine-learned models trained
+(e.g., using a combination of simulation data and real-world
+data) to detect illicit and/or illegal items. In embodiments,
+detection of illicit and/or illegal items may involve a set of
+distinct models that are respectively trained based on train- 45
+ing data sets and/or feature vector inputs that are specific to
+jurisdictional factors, including laws or regulations (e.g..
+training with awareness of legality), cultural factors (e.g..
+where whether the item is considered illicit varies based on
+cultural norms, and the like. In embodiments, training may 50 
+include providing, such as through human experts, informa-
+tion about alternative terminology, or the like, that shippers
+or other users may employ to describe illegal or illicit items
+(such as when shippers or other users describe the cargo to
+be shipped in an order), such as code words, euphemisms, or 55
+the like. In embodiments, a model may be trained to provide
+a word cloud, cluster of words, or other features, such as to
+facilitate recognition of illegal or illicit items and/or recog-
+nition of words, images, or other elements used to charac-
+terize them. As one non-limiting example, a self-organizing 60
+map (SOM) may be employed to generate a mapping of
+entities, such as mapping entities, classes, objects, work-
+flows, or the like to jurisdictions, to topics, to each other, or
+the like. Additionally, or alternatively, the machine-learned
+models may be configured to identify container contents. 65
+In another example, a set of machine-learned models may
+be used to provide decision support related to the pricing of
+[col 2]
+552
+one or more freight storage and/or transportation services
+(e.g., services that require the use of a smart container). For
+example, the intelligence service 13004 may receive data
+from various sources described throughout this document
+and the documents incorporated by reference herein and
+may generate a set of feature vectors based on the received
+data. The intelligence service 13004 may input the feature
+vectors into machine-learned models trained (e.g., using a
+combination of simulation data and real-world data) to
+provide decision support related to the pricing of one or
+more services, such as based on a training data set of
+outcomes. In embodiments, the intelligence service 13004
+may include an input set of training data representing
+decision support related to service pricing by a set of human
+experts and/or by other systems or models. Data sources
+used to produce the set of feature vectors, may include, but
+are not limited to, order data, demand data, supply data, cost
+data, volatility data, pricing pattern data, order size data,
+order volume data, geographic trading data, maritime data,
+trucking fleet data, railway data, traffic data, weather data,
+social media sites, external data (such as news involving
+smart containers or shipping or the like), and many others.
+In another example, a set of machine-learned models may
+be used to provide decision support related to loading and/or
+unloading cargo. The intelligence service 13004 may receive
+order data (optionally including weight data, volume data,
+cargo description data, destination location, or the like)
+and/or video feed from sensors disposed outside the smart
+container and/or within the smart container and may gener-
+ate a set of feature vectors based on the received data. The
+intelligence service 13004 may input the set of feature
+vectors into a machine-learned model trained (e.g., using a
+combination of simulation data and real-world data) to
+provide decision support related to cargo loading and/or
+unloading. For example, the machine-learned model could
+be configured to provide decision support about the order in
+which specific cargo is loaded and/or unloaded, the cluster-
+ing of cargo, the configuration of cargo within the smart
+container, or the like. In embodiments, a model or set of
+models may be trained by an expert in the loading and/or
+unloading of cargo.
+In yet another example, a set of machine-learned models
+may be used to determine regulatory compliance of a
+shipment. For example, the intelligence service 13004 may
+receive data from various sources described throughout this
+document and the documents incorporated by reference
+herein and may generate a set of feature vectors based on the
+received data. The intelligence service 13004 may input the
+feature vectors into machine-learned models trained to
+determine regulatory compliance. As one non-limiting
+example, regulatory compliance may include compliance
+with regulations that require documentation confirming cus-
+toms duties are paid. In embodiments, relating to such an
+example, a machine-learned model may parse documenta-
+tion, commercial invoices, and the like, such as to find
+verification of the required tariff payments.
+In another example, a set of machine-learned models may
+be used to categorize or classify cargo. For example, the
+intelligence service 13004 may receive data from various
+sources described throughout this document and the docu-
+ments incorporated by reference herein and may generate a
+set of feature vectors based on the received data. The
+intelligence service 13004 may input the set of feature
+vectors into a machine-learned model trained (e.g-, using a
+combination of simulation data and real-world data) to
+categorize cargo, such as based on a training data set of
+outcomes. In embodiments, the intelligence service 13004

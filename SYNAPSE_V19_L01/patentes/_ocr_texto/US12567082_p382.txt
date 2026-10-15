@@ -1,0 +1,135 @@
+In some embodiments, the analysis management module 65 decision tree analysis module(s), ethics analysis module(s),
+[col 1]
+US 12,567,082 B2
+441
+client 12260, examples of which are discussed throughout
+the disclosure. In some embodiments, the rules-based engine
+may apply governance standards and/or analysis modules,
+which are described in greater detail below.
+In embodiments, the artificial intelligence services 12204
+interfaces with an intelligence layer controller 12202 is
+configured to determine a type of request issued by an
+intelligence layer client 12260 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+10
+when responding to the request. In embodiments, the intel-
+ligence layer controller 12202 may include an analysis
+management module 12206, a set of analysis modules
+12208, and a governance library 12210.
+In embodiments, an intelligence layer controller 12202 is 15
+configured to determine a type of request issued by an
+intelligence layer client 12260 and, in response, may deter-
+mine a set of governance standards and/or analyses that are
+to be applied by the artificial intelligence service 12204
+when responding to the request. In embodiments, the intel- 20
+ligence system controller 12202 may include an analysis
+management module 12206, a set of analysis modules
+12208, and a governance library 12210. In embodiments, the
+analysis management module 12206 receives a request for
+an artificial intelligence service and determines the gover- 25
+nance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 12206
+may determine the governance standards that apply to the
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with 30 1
+respect to the requested decision. For example, a request for
+a control decision that results in a robot moving to another
+location may implicate a certain set of governance standards
+that apply, such as safety standards, legal standards, quality
+standards, or the like, and/or may implicate one or more 35
+analyses regarding the control decision, such as a risk
+analysis, a safety analysis, an engineering analysis, or the
+like.
+In some embodiments, the analysis management module
+12206may determine thegovernance standards that apply to 40
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a jurisdiction in which a robot
+fleet, a geolocation in which a robot fleet is deployed, an
+unit is operating,current orpredicted environment condi-
+tions of the environment and/or the like. In embodiments,
+the governance standards may be defined as a set of stan-
+dards libraries stored in a governance library 12210. In
+embodiments, standards libraries may define conditions, 50
+thresholds, rules, recommendations, or other suitable param-
+eters by which a decision may be analyzed. Examples of
+standards libraries may include, legal standards library, a
+regulatory standards library, a quality standards library, an
+engineering standards library, a safety standards library, a 55
+financial standards library, and/or other suitable types of
+standards libraries. In embodiments, the governance library
+12210 may include an index that indexes certain standards
+defined in the respective standards library based on different
+conditions. Examples of conditions may be a jurisdictions or 60
+geographic areas to which certain standards apply, environ-
+mental conditions to which certain standards apply, robot
+types to which certain standards apply, materials or products
+to which certain standards apply, and/or the like.
+12206 may determine the appropriate set of standards that
+must be applied with respect to a particular decision and may
+[col 2]
+442
+provide the appropriate set of standards to the artificial
+intelligence service 12204, such that the artificial intelli-
+gence service 12204 leverages the implicated governance
+standards when determining a decision. In these embodi-
+ments, the artificial intelligence service 12204 may be
+configured to apply the standards in the decision-making
+process, such that a decision output by the artificial intelli-
+gence service 12204 is consistent with the implicated gov-
+ernance standards. For example, in operating a robot fleet in
+a particular jurisdiction or geographic area, certain legal or
+regulatory standards may be implicated, such as restrictions
+on types of robots (e.g., no drones), preservation of certain
+species or ecosystem (e.g., protected wetlands), or the like.
+In this example, a decision regarding a fleet configuration
+may exclude certain types of robots from the fleet configu-
+ration (e.g., no drones) and may ensure that none of the
+robots in the fleet pose a threat to the ecosystem in which the
+robot fleet is to operate. In another example, a control system
+of a robot may request a control decision from the intelli-
+gence layer of the robot. In this example, the presence of
+humans or other living beings in proximity to a robot
+operating unit may implicate a set of standards (e.g-, safety
+standards, legal standards, or the like). In this example, the
+intelligence layer 12200 may receive inputs such as a vide0
+feed, LIDAR data, and the ike. The AI service 12204 may
+initially classify an object in the analysis management
+module 12206 may receive input from the video feed that
+indicates a human is in the field of view of the robot. In
+response, the analysis management module 12206 may
+determine that certain safety standards applies and may
+provide the implicated governance standards from the safety
+standards library to the AI service 12204, which may then
+attempt to determine a control decision given a set of
+intelligence system inputs (e.g., current location, destina-
+tion, video inputs, LIDAR data, and/or the like) and the
+implicated safety standards. If the AI service 12204 cannot
+make a decision given the safety standards, the AI service
+12204 may issue a default decision (which may be defined
+in the safety standards library), such as stopping and/or
+relinquishing control to a human operator. It is appreciated
+that the standards libraries in the governance library may be
+defined by the platform 12000 provider, customers, and/or
+third parties. The standards may be government standards,
+industry standards, customer standards, or other suitable
+sources. In embodiments, each set of standards may include
+a set of conditions that implicate the respective set of
+standards, such that the conditions may be used to determine
+which standards to apply given a situation.
+In some embodiments, the analysis management module
+12206 may determine one or more analyses that are to be
+performed with respect to a particular decision and may
+provide corresponding analysis modules 12208 that perform
+those analyses to the artificial intelligence service 12204,
+such that the artificial intelligence service 12204 leverages
+the corresponding analysis modules 12208 to analyze a
+decision before outputting the decision to the requesting
+client. In embodiments, the analysis modules 12208 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by a processing system
+that hosts the instance of the intelligence layer 12200.
+Non-limiting examples of analysis modules 12208 may
+include risk analysis module(s), security analysis module(s),
+failure mode and effects (FMEA) analysis module(s), hazard

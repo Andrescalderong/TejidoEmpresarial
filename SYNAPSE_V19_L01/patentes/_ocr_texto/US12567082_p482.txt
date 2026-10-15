@@ -1,0 +1,134 @@
+tower is a server or a product that is not one of the digital 30 ments, the intelligence layer 14320 includes an edge com-
+may be distributed amongst the digital products 14310 and 35 ment between or out of the set of digital products.
+[col 1]
+US 12,567,082 B2
+641
+may further improve: brand/product agility with real time
+ketplace leading to greater brand agility; digital product
+quality with end-to-end transparency, real-time root cause
+analytics, and proactive resolution driven by customer con-
+nectivity; simulation by giving customer tools to virtual
+model process/use VR and AR in detail without spending
+resources to physically test design in a real-world environ-
+ment; fractional ownership usage and tracking and physical
+good real-world compliance to meet parameters of agree- 10
+ments; common platform and product architecture for a set
+of stable components that support variety and ability to
+evolve in a system by constraining the linkages among the
+other components; and design for consumption insights and
+methods to improve how customers use/consume products. 15
+FIG. 153 illustrates an example digital product network
+14300 and FIG. 154 illustrates a method 14400 of using the
+product level data according to some embodiments of the
+present disclosure. The digital product network 14300 is
+similar to the digital product network 14000, where like 20
+numbers refer to like components.
+Digital products 14310 are similar to digital products
+14210. In the example provided, the digital products include
+product memory, and a product network interface. In some 25
+embodiments, one of the digital products 14310 is a product
+network control tower that has a control tower processor, a
+control tower memory, and a control tower network inter-
+face. In some embodiments, the product network control
+products 14310. The product processor and the control tower
+processor collectively include non-transitory instructions
+that program the digital product network system as
+described herein. For example, the intelligence layer 14320
+remote servers.
+In some embodiments, the digital products 14310 include
+a display 14311. In some embodiments, the display 14311 is
+associated with the product network control tower. The
+display14311presents imagestoauserofthedisplay14311. 40
+For example, the display 1431l may be a screen on a mobile
+phone, a television, a projector, or the like.
+In the example provided, the set of digital products and
+the product network control tower have a set of microser-
+vices and a microservices architecture. The digital products 45
+14210 or the digital products 14310 generate product level
+data at the product processor in task 14410 of method 14400.
+The digital products 14210 or digital products 14310 trans-
+mit the product level data from the product network inter-
+face in task 14412. 50
+The product network control tower receives the product
+level data at the control tower network interface in task
+14414. In the example provided, the product processor and
+the control tower processor are further programmed to
+communicate based on a shared communication system 55
+configured for facilitating communication of the product
+level data from the set of digital products amongst them-
+selves and with the product control tower. In some embodi-
+ments, the shared communication system includes an elec-
+tromagnetic licensed to an enterprise who operates or owns 60
+the digital product network 14300. In some embodiments,
+the communication system includes a shared security pro-
+tocol for communicating over shared electromagnetic bands,
+local area networks, Internet, 5G, and the like.
+The digital productnetwork14300 encodes theproduct65
+level data as a product level data structure configured to
+convey parameters indicated by the product level data across
+[col 2]
+642
+the set of digital products in task 14416. The digital product
+network 14300 writes the product level data structure to at
+least one of the product memory and the control memory in
+task 14418. The digital product network 14300 processes the
+product level data structure in task 14420. The digital
+product network 14300 transmits the processed data to the
+user system in task 14422.
+In some embodiments, the intelligence layer 14320
+includes a graphical user interface (GUI) module 14340 and
+a proximity module 14342. The GUI module may generate
+at least one user interface display for presentation on the
+display 14311. The GUI module 14340 may generate the
+parameters of at least one digitally enabled product of the set
+of digital products in the at least one user interface display
+and may generate a proximity display of proximal digital
+products of the set of digital products in the at least one user
+interface display. In some embodiments, generating the
+proximity display includes generating the proximity display
+of proximal products that are geographically proximate,
+where the digital product network is further programmed to
+filter the proximal products by at least one of product type,
+product capability, or product brand. In some embodiments,
+generating the proximity display includes generating the
+proximity display of proximal products that are proximate to
+one of the set of digital products by product type proximity,
+product capability proximity, or product brand proximity.
+In some embodiments, the intelligence layer 14320
+includes a data integration module 14344. In some embodi-
+putation and edge intelligence module or edge module
+14346 for edge distributed decision making among the set of
+digital products. In some embodiments, the edge module
+14346 is configured for edge network bandwidth manage-
+In some embodiments, the intelligence layer 14320
+includes a distributed ledger system module 14348. In some
+embodiments, the distributed ledger system may be distrib-
+uted exclusively within the digital products 14310. In some
+embodiments, the distributed ledger is a block chain ledger.
+In some embodiments, the intelligence layer 14320
+includes a quality management system having a product
+complaint module 14350 for capturing product complaints at
+the set of digital products. In some embodiments, the digital
+products 14310 detect complaints about other digital prod-
+ucts 14310. For example, a digital product may use machine
+vision or sound processing to identify dissatisfaction of a
+user while the user is using a different digital product.
+In some embodiments, the intelligence layer 14320
+includes a product condition module 14352. Product condi-
+tion module 14352 may identify a condition of the set of
+digital products. Product condition module 14352 may fur-
+ther encode the condition as one of the parameters of the
+product level data structure. Product condition module
+14352 may further yet track and/or monitor the condition
+across the set of digital products. For example, a bicycle
+manufacturer may monitor the condition of sold smart
+bicycles to determine potential demand for repair parts or
+new bicycles. In another example, a rentable scooter com-
+pany may monitor the condition of the active scooters in the
+scooter fleet to budget for repairs and replacement scooters.
+In some embodiments, the intelligence layer 14320
+includes a smart contract module 14354 for enabling the
+creation of smart contracts based on the product level data
+structure. In some embodiments, the intelligence layer
+14320 configures the smart contracts based on a co-location-
+sensitive configuration of terms such that smart contract

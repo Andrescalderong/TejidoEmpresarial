@@ -1,0 +1,138 @@
+assign cost values to edges of the graph based on the 65 iterative manner to constantly update the navigation policy.
+[col 1]
+US 12,675,781 B2
+551
+receive other additional or alternative modules without
+departing from the scope of the disclosure.
+FIG. 140 is an example architecture of the robot control
+system 12150 depicting detailed view of various compo-
+nents thereof, according to some embodiments of the present
+disclosure. In embodiments, the intelligence layer 12140
+receives requests from a set of intelligence layer clients and
+responds to such request by providing intelligence services
+to such clients (e.g-, a decision, a classification, a prediction
+or the like). At the robot level, such clients may include 1o i
+various components and subsystems of robot control system
+12150 including the performance management system
+12146, the task management system 12144, the module
+management system 12148, the navigation system 12154,
+the motion planning system 12158, and the like; various 15
+components of baseline system 12102 including the energy
+storage and power distribution 12104, the electromechanical
+and electro-fluidic system 12108 the transport system 12110,
+the vision and sensing system 12112 and the structural
+system 12114 or other suitable systems of MPR 12100 20 c
+including the module system 12120 or the robot security
+system 8.
+As an example, the intelligence layer 12140 may take as
+input sensor data including environment data, video camera
+streams, maps, audio streams, images, coordinates of known 25
+obstacles, and/or the like from vision and sensing system
+12112. The intelligence layer 12140 may then c00rdinate
+with motion planning system 12158 to make one or more
+decisions about the motion of MPR 12100 or portions
+thereof, coordinate with the navigation system 12154 to 30
+make decisions about navigating in the environment and
+coordinate with task management system 12144 to make
+decisions about performing one or more tasks. The control-
+ler 12160 in the robot control system 12150 may then
+generate the control instructions to drive the actuators 35 
+enabling the MPR 12100 to move, navigate in the environ-
+ment and perform various tasks.
+In embodiments, the motion planning system (MPS)
+12158 may be configured to control the motion of MPR
+12100 or portions thereof (e.g., end effectors, end of arm 40 
+tools). In embodiments, a motion planning system (MPS)
+12158 may specify a series of transition that the MPR 12100
+can follow getting from a “start state" and navigating to a
+"goal state without colliding with any obstacles in the
+environment. In embodiments, the start state and the goal 45
+state may be determined based on the task or sub-task to be
+performed. The start state and goal state may be expressed
+as positions of the robot, poses of the robot, geolocations of
+the robot, and/or the like.
+In some embodiments, the MPS 12158 may take as input 50 1
+one or more images and other sensor data from a vision and
+sensing system as well as information indicative ofthe"start
+state" and the “"goal state* (e.g., from the navigation system
+12154 or other suitable component). In embodiments, the
+MPS 12158 may then build a motion plan for the robot. In 55
+some embodiments, the motion plan is a motion planning
+graph that represents the geometric structure of the envi-
+ronment with the states of the MPR 12100 as nodes and
+transitions between the states as edges of the graph). In
+embodiments, a graph search may be performed to find a 60
+path between the nodes representing the “start state" and the
+"goal state". The MPS 12158 may also perform collision
+assessment determining the probability of collision between
+the MPR 12100 and one or more obstacles in the path and
+probability of collision for the corresponding transition. The
+MPS 12158 may perform a least cost analysis on the motion
+[col 2]
+552
+planning graph to determine a set of transitions or path from
+the “start state" to the “goal state". In embodiments, the
+MPS 12158 may co0rdinate with intelligence layer 12140
+and navigation system 12154 to implement a navigation
+policy with the identified set of transitions or path. The MPS
+12158 may also coordinate with controller 12160 to generate
+control instructions to actuate one or more actuators or
+motors in the MPR 12100 so as to execute the motion plan.
+In embodiments, the MPS 12158 may be configured to
+identify an optimal collision free path in a 3D workspace
+while taking into account various kinematic, geometric,
+physical and temporal constraints as well as account for
+additional constraints including complex tasks (e.g.
+manipulation of objects) and uncertainty (the movement of
+the one or more obstacles). Collision detection determines if
+the volume in 3D space swept by the MPR 12100 moving
+from one state to another collides with any obstacles. The
+surface of the swept volume and the obstacles may be
+represented as polygons and collision detection involves
+computing whether these polygons intersect.
+In embodiments, the MPS 12158 may utilize one or more
+machine learning models 12664 in the intelligence layer
+12140 to adapt the motion plan to real time changes in the
+environment. For example, the motion plan may be adapted
+based on the changes in task performed by the MPR 12i00,
+change in end effectors 12124 and the like. In embodiments,
+the MPS 12158 may improve its motion planning efficiency
+by using transfer learning to leverage learning from one task
+to a related task.
+In embodiments, the MPS 12158 may receive sensor data
+from one or more sensors of the vision and sensing system
+12112 to determine any moving obstacles and may leverage
+one or more machine learning models 12664 to predict the
+trajectory of the moving obstacle in the environment based
+on the machine learning models 12664. The MPS 12158
+utilizes the predicted trajectory information to compute the
+cost function while considering the probability and cost of
+collision with the moving obstacle.
+In embodiments, the MPS 12158 may utilize a 3D path
+planning algorithm for determining the optimal path. For
+example, sampling-based algorithms may determine fea-
+sible paths for the robot's motion using information from a
+graph that consists of randomly sampled nodes and con-
+nected edges in the given configuration space. Such ran-
+domized approaches have a strong advantage in terms of
+quickly providing solutions to complex problems, such as in
+a high-dimensional configuration space. Examples of 3D
+path planning algorithms that may be used by the MPS
+system include visibility graph, random-exploring algo-
+rithms such as rapidly exploring random tree, Probabilistic
+Road Map, optimal search algorithms (such as Dijkstra's
+algorithm, A* algorithm) and bioinspired planning algo-
+rithms.
+In embodiments, the navigation system 12154 utilizes a
+path (e.g., an optimal path) determined by MPS 12158,
+along with a pre-trained navigation policy from task man-
+agement system 12144 to build a navigation strategy for the
+MPR 12100.In some embodiments, the navigation system
+12154 coordinates with the robot control system 12150 to
+generate control instructions to effectuate movement of one
+or more actuators or motors in accordance with the naviga-
+tion strategy enabling the MPR 12100 navigate its environ-
+ment. The navigation actions of the MPR 12100 may be
+evaluated by the reinforcement learning system 12668 in an
+In embodiments, the task management system 12144
+coordinates between the job execution system 12022 of the

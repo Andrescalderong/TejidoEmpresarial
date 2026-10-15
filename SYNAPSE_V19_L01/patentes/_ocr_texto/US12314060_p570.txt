@@ -1,0 +1,138 @@
+In some implementations, VCN process 10 may (e.g-, via 35 primary system 21100' as the control tower receiving exter-
+[col 1]
+US 12,314,060 B2
+775
+(TMS), local media, national media, social media, etc. and
+other sources. The data is analyzed to identify potential
+issues or bottlenecks in the supply chain and to determine
+the best course of action to resolve these issues. The CSS for
+an SOS functions to configure the set of systems correspond-
+ing to the SOS to perform a set of tasks or services based on
+intelligence determined by the CSS. The intelligence per-
+formed for the CSSs is generally determined by a configured
+intelligence system CIS that is a part of (e.g., as shown in
+FIG. 177B) or associated with the CSSs. More particularly, 10
+the configured intelligence service CIS used by the CSS has
+the intelligence capabilities of or that are similar to the
+intelligence services system 8800 except that the configured
+intelligence system CIS is an intelligence services system
+that is configured, for example, by the Css to provide 15
+intelligence for a particular set of system services. In this
+respect, the CSSs may act akin to the intelligence service
+client 8836 in its relationship with the configured intelli-
+gence system CIS. For instance, if the primary task of
+primary system 21100' is to control the production of a 20
+product, the intelligence of the CSS identifies system
+resources that (e.g., a set of systems) are available (e.g..
+within the enterprise ecosystem)to control production ofthe
+product and configures these control-based resources to
+generate control parameters that downstream production 25
+resources demand to produce the product. To extend this
+example to FIG. 175C, the primary system 21100' generates
+an output that is provided to the sub-level computing device
+22000' as a system input 21202. If the CSS1 generates
+control parameters, these control parameters may be fed as 30
+output of the primary system 21100' to the sub-level com-
+puting device 21200' as system inputs 21202'. The sub-level
+computing device 21200' may then utilize the system inputs
+21202t to configure its own CSS (e.g., the CSS2).
+the set of sub-level computing device) fulfill 17808 the
+primary command based upon, at least in part, the set of one
+or more computing devices fulfilling the one or more
+secondary commands. For instance, FIG. 175D is similar to
+FIG.175C except that FIG.175D shows multiple sub-level 40
+computing devices 21200'a-n being managed by the primary
+system 2i100'. That is, multiple SOS instances may be
+coordinated via a single control tower SOS instance. The
+number of sub-level computing devices 21200' associated
+with a control tower SOS or primary system 21100' may 45 1
+depend on several variables. Some of these variables may
+include, e.g., the selected set of systems to fulfill a service/
+task request, the type of systems selected, the configurable
+parameters of the selected systems, the communication
+capabilities of the selected systems, the manner in which the 50 i
+systems may be combined or cooperate, and the structure or
+characteristics of the enterprise deploying the control archi-
+tecture 21000t.
+In some configurations, the set of systems selected to
+fulfill a service/task request (e.g., a request for a primary 55
+task) includes one or more third-party systems that the
+enterprise can access or utilize. For instance, for autono-
+mous generation of a product, the primary system 21100t
+may inquire about demand for the product using a customer
+relations management (CRM) system managed by a third 60
+party. Here, the primary system 21100' or a sub-level com-
+puting device 21200' may provide the CRM system with
+data that characterizes the product to be generated in order
+to query the CRM system to determine an estimated demand
+forecast from customers who have an interest in the type of 65
+product that has been characterized. In some implementa-
+tions, the CRM system returns an output (e.g., a forecasted
+[col 2]
+776
+demand) based on the input data that is then configured to
+inform or be communication to one or more other systems.
+Therefore, when third-party systems are integrated in the
+configured systems workflow of the control architecture
+21000', the SOS can determine acceptable inputs to these
+third-party systems and expected/anticipated outputs so that
+outputs can be pipeline data to the appropriate CSS.
+In some implementations, VCN process 10 may send
+17810 a generated system output to the primary computing
+device responding to the primary command based upon, at
+least in part, the set of one or more computing devices
+fulfilling the one or more secondary commands. For
+instance, and to expand on the previous example using FIG.
+175D for example purposes only, when the set of systems
+that fulfill the request are parsed or classified into n groups,
+the primary system 21100' assigns the first group to the first
+sub-level computing device 21200'a, the second group to the
+second sub-level computing device 21200'b, and the nth
+group to the nth sub-level computing device 21200'n. Here,
+outputs from the primary system 21io00' may be provided to
+any or all of the sub-level computing devices 21200'a-n to
+form the system inputs 21200'a-n for the sub-level comput-
+ing devices 21200'. Much like the single sub-level comput-
+ing device example ofFIG. 175C, each sub-level computing
+device 21200' is capable of generating system outputs
+21204'a-n that are communicated to or obtained by the
+primary system 21100t. In some implementations, each of
+these sub-level computing devices 21200', as SOS instances,
+may include CSSs and/or GSSs. Therefore, each sub-level
+computing device 21200' generates a set of CSSs for the set
+of systems that are assigned to it.
+In some implementations, an SOS has the capabilities to
+interface with entities or resources that are external to the
+SOS. For instance, FIGS. 175C and 175D illustrate the
+nal data inputs/outputs (I/O) 21050'. Some examples of
+external data I/Os 21050' include asset indicators (e.g-, asset
+statuses, asset locations, asset time of life, etc.), market data
+(e.g-, for markets impacted/associated with an enterprise
+asset), weather data, sensor data (e.g-, from robotic fleet
+management, IoT, digital twin, environmental container
+conditions such as temperature, humidity or light intensity,
+etc.), enterprise resource planning (ERP) data, network data
+(e.g., connectivity data), event data (e.g., holidays, event
+logs, cycle time, running time, etc.), local media, social
+media, etc. In some examples, the external data I/ 21050
+is provided by another control tower SOS. Additionally
+and/or alternatively, the external data I/0 21050' may be
+generated by a third-party system that is or is not included
+in the control architecture 21000' such as a software as a
+service (SaaS) provider to the enterprise.
+In some implementations, the primary computing device
+(e.g., via VCN process 10) may be bypassed 17824 to
+receive external data at the sub-level computing device
+when the external data is unused by the primary computing
+device. For example, the control architecture 21000' is not
+limited to only the primary system 21100t receiving the
+external data 21050'. in some configurations, it may be more
+efficient from a data management or data flow approach to
+feed external data 21050' directly to a sub-level computing
+device 21200t or to a component of a sub-level computing
+device 21200' (e.g., a CSS). For instance, a system of the
+sub-level computing device 21200' rather than a system of
+the primary system 21100' is the system that consumes the
+external data 21050'. In some instances, if the external data
+21050' is not utilized by the primary system 21100' (e.g., the
+CSS), then having the primary system 21100t ingest, store,

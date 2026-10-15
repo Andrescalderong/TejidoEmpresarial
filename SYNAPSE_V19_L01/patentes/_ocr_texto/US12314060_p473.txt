@@ -1,0 +1,138 @@
+include one or more data structures that are suitable for use 25 job may include allocating smart container support
+[col 1]
+US 12,314,060 B2
+581
+tics may reveal that a first local fleet that will soon become
+available (perhaps after the preferred start date of a
+requested job) may complete the job at a lower cost than
+using a second currently available fleet. In embodiments, a
+fleet digital twin may facilitate identifying smart container
+operational assets that are available during the scheduled job
+by modeling fleet operations, such as smart container main-
+tenance requirements for smart containers during the pre-
+ferred order execution time. In embodiments, a task digital
+twin capability of the fleet intelligence system may facilitate 10
+modeling of smart container cargo configurations, such as
+when a smart container cargo is reconfigured during a job.
+A task digital twin capability of the fleet intelligence system
+may further benefit workflow definition clarity through
+workflow simulation by applying a virtual set of preconfig- 15
+ured smart container digital twins 13504 to perform a
+candidate workflow, or portion thereof, that is optionally
+being defined. In embodiments, a team digital twin capabil-
+ity of a fleet intelligence system may benefit a workflow
+simulation system of the job configuration system 13018 by 20
+using, for example, preconfigured smart container teams to
+operate and validate candidate workflows prepared by the
+workflow definition system.
+In embodiments, a result of workflow simulation may
+in an order execution plan.
+In addition to task definitions, smart container definitions,
+workflow definitions, fleet configuration parameters, and the
+like, an order execution plan may identify contracts for the
+job, such as smart contracts that may be constructed/con- 30
+figured by or in association with the job configuration
+system 13018, delivery times for job resources (e.g., fleets of
+ smart containers), a schedule of deliverables, and the like.
+In embodiments, the fleet configuration system 13020
+configures resources of a fleet for a job based on the task 35
+definitions, workflow definitions, or the like. The fleet
+configuration system 13020 may determine the fleet con-
+figuration based on other considerations, such as cost,
+mode(s) of transportation (e.g:: container ship, railway,
+truck, container hyperloop, and/or self-driving container), 40 i
+environmental conditions, time constraints, available inven-
+tory of smart containers and/or parts, and/or the like. The
+fleet configuration system 13020 may operate cooperatively
+with a job configuration system 13018, such as when tasks
+are to be organized into workflows. Job workflows may be 45
+impacted by availability of each type of smart container, so
+a job configuration system 13018 may leverage the fleet
+configuration system 13020 when determining candidate job
+workflows.
+In embodiments, fleet configuration for a requested job 5o s
+may include configuring fleet resources into a smart con-
+tainer team that is assigned to a specific task and/or project
+(noting that a smart container or a team of smart containers
+may be assigned multiple tasks and/or projects). Each smart
+container team may include one or more smart container 55
+operating units, which may comprise any one or more of
+smart containers, robots, humans, modes of transportation,
+machinery (e.g., 3D printers), tools, and the like. Further, a
+configured smart container team may be job-specific and
+60
+container operating unit. As an example, a robot configured
+to perform cargo loading and/or unloading operations may
+be assigned to a first smart container team for only the
+duration of time during which cargo loading and/or unload-
+ing operations are being performed by the first smart con-
+tainer team. The same robot may also be assigned to a
+second smart container team for only the duration of time
+[col 2]
+582
+during which second smart container team cargo unloading
+and/or loading is being performed. Time-sharing of fleet
+resources, such as a robots, container ships, trucks, railways,
+reach stackers, forklifts, cranes, or the like can be commu-
+nicated to a shipment configuration system from the fleet
+configuration system 13020, for example, so that workflows
+being defined by the shipment configuration system can
+consider availability of the cargo loading/unloading robot
+for each of the smart container teams. In embodiments, any
+given smart container or group of smart containers may be
+assigned to multiple teams spread across multiple jobs by
+the fleet configuration system 13020 using a smart con-
+tainer-specific time-sharing approach or other resource uti-
+lization optimization technique. In an example, a fleet con-
+figuration system 13020 may use a multi-dimensional smart
+container utilization planning system that allocates each
+smart container in a fleet to one job during a unit of time,
+such as a day, hour, or fraction thereof, allowing each
+instance of a shipment configuration system to request use of
+the smart container for a specific period of time. The fleet
+configuration system 13020 may respond to the request with
+smart container fleet configuration descriptions that inform
+job workflow definitions and the like.
+In some embodiments, fleet configuration for a requested
+resources, such as edge devices, charging capabilities and/or
+charging stations, local data storage capabilities, container
+storage facilities, spare parts, human technicians, and the
+like.
+In embodiments, the fleet configuration system 13020
+may leverage libraries to determine the fleet configurations.
+In these embodiments, the fleet configuration system 13020
+may determine team configurations for defined tasks or
+projects using a library 13044 that defines different configu-
+rations to perform certain tasks, whereby a lookup table or
+other association is used to determine the team configura-
+tions for given a set of tasks. In embodiments, the library
+13044 may include attributes of different smart container
+types. As an example, an attribute of a smart container may
+indicate size or volume of the smart container. In embodi-
+ments, the fleet configuration system 13020 may filter the
+types of smart containers that may perform a task based on
+the attributes and one or more freight storage and/or trans-
+portation service order parameters identified by the job
+parsing system (and optionally configured into a task defi-
+nition). When a task or job operation requires (e.g, based on
+data generated by the job parsing system, an existing order
+execution plan, a freight storage and/or transportation ser-
+vice order, and the like) access through a tunnel that is
+smaller than the size smart container available, the fleet
+configuration system 13020 would not include the smart
+container; instead it would attempt to identify a different
+smart container and/or smart container type/configuration
+that could meet the tunnel size requirements. In embodi-
+ments, a fleet configuration system 13020 may reference
+combinations of smart container sizes and/or types and the
+like to fit requirements of a defined task. Further, the fleet
+configuration system 13020 may suggest two smart contain-
+ers to perform a task when one may not meet other require-
+ments of the task. In embodiments, the fleet configuration
+system 13020 may deliver to the job configuration system
+13018 fleet definitions that include a plurality of smart
+containers, smart container types, smart container configu-
+rations, and the like. A general goal of a fleet configuration
+system 13020 may include generating fleet configuration(s)
+that require the fewest smart containers and/or smart con-
+tainer types for proper execution of a portion of the order.

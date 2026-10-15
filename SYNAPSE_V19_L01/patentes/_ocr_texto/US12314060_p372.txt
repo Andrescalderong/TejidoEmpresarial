@@ -1,0 +1,135 @@
+The data sources 10114 may also include programs, the 10 information related to one or more additive manufacturing
+[col 1]
+US 12,314,060 B2
+379
+one or more users of the platform. Additionally, one or more
+ sensors 10610 including camera and machine vision system,
+acoustic/sound sensors (e.g., with microphones, including
+energy sensor, mass sensor, location sensor, temperature
+sensor, humidity sensor, pressure sensor, viscosity sensor,
+flow sensor, chemical/gas sensor, strain gauge, thermal
+imaging, hyperspectral imaging, sound sensor, air quality
+sensor and the like may provide data to the platform 10110.
+feedback sources 10612 providing outcome data from the
+machine learning system 10210 and a data library 10614.
+In embodiments, a data visualization 10615 in the user
+interface 10112 may provide a set of dashboards, interfaces
+and integrations for a user of the platform 10110 to visualize 15
+information related to the distributed manufacturing net-
+work 10130 or one or more entities in the network 10130.
+For example, a dashboard may provide visualizations
+including information related to digital threads for distrib-
+uted manufacturing network entities like a 3D printed part or 20
+a product. Another dashboard may provide visualizations
+including information about real time visibility of status of
+a manufacturing order. An alternate dashboard may provide
+visualizations including information related to batch trace-
+ability to identify parts from the same batch. A dashboard 25
+may provide visualization of demand factors, including
+predicted demand, inventory levels and the like. A search
+interface may be provided to resolve queries from one or
+more users based on part, machine, production date or
+location.Inembodiments,avirtualreality (VR)systemmay 3o
+be integrated with the data visualization 10615 and model-
+ling system 10620, thereby enabling a user to build 3D
+models in VR. In embodiments, the virtual reality system
+may be integrated with a scanning system 10617, such as
+allowing a user to build models that consist of scanned data 35
+(such as point clouds) and/or combinations of model-based
+VR and scans (and/or other augmentations or overlays, such
+as in augmented reality and/or mixed reality models). This
+may also include a wider set of user interactions for devel-
+oping part designs without in-depth expertise including
+using augmented reality (AR) and mixed reality (MR).
+In embodiments, the user interface 10112 may include a
+single click pre-processing process triggering pre-set con-
+figurations for part orientation, support determination, tool-
+path generation and/or nesting. 45
+In embodiments, the user interface 10112 may include a
+single click post-processing process triggering pre-set con-
+figurations for de-powdering, support removal and surface
+finishing.
+A user of the platform may also use the design and 50
+simulation system 10116 to build CAD and STL files
+capturing the design of the part or product to be printed. A
+set of design tools 10616 and design libraries 10618 may
+allow a user to build models in modelling system 10620 and
+run simulations in simulation environment 10622.In 55
+embodiments, the design of the part or product may be
+captured in various file formats including but not limited to,
+IGES files, SolidWorks files, Catia files, ProE files, 3D
+Studio files, STEP files and Rhino files. In embodiments, the
+design may be captured in the form of digital images, such 601
+as in PNG files, JPEG files, GIF files and/or PDF files, as
+well as scanned data formats, such as point clouds produced
+by laser scanning, and outputs from ultrasound, MRI, x-Ray,
+electron beam, radar, IR and other scanning systems.
+The data storage system 10204 may store data in a 65
+distributed ledger 10624, a digital thread 10626 or the like,
+such as for maintaining a record of event data 10628 and a
+[col 2]
+380
+state data 10630 for an entity or asset of the distributed
+manufacturing network 10130 over time, including a part or
+products or any other asset or entity described herein.
+In embodiments, the digital thread 10626 constitutes
+information related to the complete lifecycle of an item
+produced by additive manufacturing, such as a part, from
+design, modeling, production, validation, use and mainte-
+nance through disposal.
+In embodiments, the digital thread 10626 constitutes
+machines, or tools including post-processing tools such as
+CNC equipment, robotics support, product/part marking.
+metrology equipment and the like across multiple manufac-
+turing facilities/locations.
+In embodiments, the digital thread 10626 constitutes
+information related to the complete lifecycle of a product
+from design, modeling, production, validation, use and
+gated, linked, or integrated information from multiple con-
+stituents into a full product digital thread.
+The data processing system 10206 processes the data
+collected by data collection and the management system
+10202 to optimize and adjust the process parameters in real
+time through the artificial intelligence system 10212 (includ-
+ing the machine learning system 10210), the digital twin
+system 10214 and the control system 10216 as described in
+detail in FIGS. 115, 116 and 118 or elsewhere herein or in
+the documents incorporated herein by reference.
+The manufacturing workflow management applications
+10208 may manage the various workflows, events and
+applications related to production or printing and value
+chain management. In embodiments, a matching system
+10632 may help with matching a set of customer orders with
+a set of additive manufacturing units 10102 or manufactur-
+ing nodes. Orders may include firm orders, contingent orders
+(e.g-, based on price contingency, timing contingency or
+other factors), aggregated orders, custom orders, volume
+orders, time-based orders, and others. In embodiments,
+orders may be expressed in smart contracts, such as oper-
+ating on a set of blockchains. The matching may be based on
+factors like additive manufacturing capabilities, locations of
+the customer and the manufacturing nodes, available capac-
+ity at each node, material availability, pricing (including
+materials, energy, labor and opportunity costs of other
+available uses for capacity) and timeline requirements. In
+embodiments, different parts of a product may be matched
+with different manufacturing nodes and the product may be
+assembled at one of the nodes, or elsewhere in a value chain
+network (such as while in transit, such as by a robotic
+assembly system located in a vehicle or shipping container),
+before being finally delivered to the customer.
+In embodiments, the additive manufacturing platform
+may be configured to maintain an inventory of parts avail-
+redundancies are mandated by custom and/or regulation. In
+embodiments, example systems include double, triple or
+more redundancies over primary operation systems. In these
+examples, certain systems may benefit from ready-to-be
+made products filling in for the third, fourth, etc. redundancy
+when previously a full inventory to adequately supply the
+entire third, fourth, etc. redundancy was required. It will be
+appreciated in light of the disclosure that not all systems will
+be applicable in that some critical systems may only permit
+such parts as further layers of redundancies to the already
+mandated supplies. While in flight, the desire to minimize
+weight and energy consumption may limit the desire for the
+creation of certain parts, the ability to generate parts on

@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+523
+able robots or parts), and the like. In this way, the fleet
+configuration for a job, task, team or the like may be
+determined by the available inventory of robots, modules,
+ support equipment, and/or spare parts. Further, a fleet main-
+tenance management system as described herein may track
+aspects of robot status that may be added to and/or be
+supplemental to the inventory data store, such as which
+robots are being reserved from use for critical maintenance,
+which robots can be deployed, but with diminished capa-
+bility due to service and/or maintenance or other concerns, 10
+status of spare parts or other service activities (e.g, due date,
+current location, anticipated installation, and the like).
+Therefore the fleet configuration system 12020 may refer-
+ence and/or be informed by the fleet maintenance manage-
+ment system about fleet resource maintenance knowledge
+that may be job-impacting. Additionally, or alternatively, the
+fleet configuration system 12020 may request a fleet con-
+figuration from the platform 12000 intelligence layer 12004,
+where an artificial intelligence service 12028 may receive a
+set of parameters, including task definitions, workflow defi- 20
+nitions, budget, environment definition, job timeline, or the
+like as input, evaluate a plurality of candidate fleet configu-
+rations and determine a target fleet configuration that can
+perform the job. In embodiments, a human can define or
+redefine any portion of a fleet configuration via a human 25
+interface of the fleet configuration system.
+In embodiments, the job and fleet configurations may be
+fed to a digital twin system, whereby the digital twin system
+may perform a simulation of the job given the job and fleet
+configurations. The job configuration system 12018 and/or 30
+the fleet configuration system 12020 may iteratively redefine
+the job configuration and the fleet configuration to optimize
+(or substantially optimize) one or more parameters, such as
+a job timeline, overall cost, robot downtime, maintenance-
+related downtime, shipping costs, or the like. Once the job 35 s
+configuration system i2018 and the fleet configuration sys-
+tem 12020 have determined the task and workflow defini-
+tions, as well as the fleet configurations, including multi-
+purpose robot configurations and team assignments, the fleet
+management platform may output the job execution plan 40 t
+12310 corresponding to the job request.
+In embodiments, the fleet configuration system 12020
+may leverage digital twins when configuring fleet resources.
+Use of digital twins with fleet configuration may include
+identifying and/or defining one or more digital twins of one 45
+or more robots based on information in the task definition
+12304D. Fleet configuration may include identifying con-
+figuration and/or operation of a multi-purpose robot so that
+a multi-purpose robot can perform the task or a portion
+thereof. Such multi-purpose (and optionally special purpose)
+50
+robot task configuration instructions may be generated
+through the use of a digital twin for one or more of a set of
+candidate robots for performing a task. In an illustrative
+example, a multi-purpose robot may be associated with a
+plurality of configuration/operational data structures for 55
+configuring the multi-purpose robot to perform routines,
+actions, tasks and the like. The fleet configuration system
+12020 may identify or otherwise be provided with one or
+more candidate multi-purpose robot configuration data
+structures (e.g, from the library 12314) for use to perform 60
+a task. A portion of such a candidate configuration data
+structure may include a rotational rate for an end effector to
+secure a panel rotating retention bolt. The requested job
+requirements may explicitly or implicitly indicate that a
+rotational rate for securing a panel is different than the value 65
+in the candidate configuration data structure. In embodi-
+ments, the fleet configuration system may make any adjust-
+[col 2]
+524
+ments to the candidate configuration data structure (e.g.,
+reducing rotation rate), apply it to an instantiation of a digital
+twin of the candidate multi-purpose robot, observe and/or
+evaluate the execution (e.g., simulation) of the digital twin
+with the adjusted configuration data structure, and store it in
+the library 12314 and the like. The newly stored configu-
+ration data structure may be cataloged based on the job
+request and/or other parameters of the requested job, task,
+and the like to make for efficient access in the future.
+A robot configuration library 12314 may include job
+information, robot information, fleet information, task defi-
+nition rules/metadata that may be useful to determine how to
+define robot tasks, workflow configuration rules and/or
+techniques, prior job request results from application of the
+job configuration system (e.g-, prior job execution plans),
+and the like. This library 12314 may be accessed and/or
+updated by functions of the job operations platform. Illus-
+trative examples of the library 12314 are described herein
+variously in conjunction with job operations platform func-
+tions and features, such as job configuration and the like. As
+an example, the robot configuration library 12314 may
+include specific reference to configurations of multipurpose
+robots that may be utilized during fleet configuration, job
+execution and the like. In this example, the robot configu-
+ration library 12314 may have references to robot configu-
+ration data sets (e.g., data that when uploaded to a multi-
+purpose robot may enable the robot to perform a function,
+ such as standing, welding, and the like). Further the library
+may provide a cross-reference of multipurpose robot con-
+figurations with other robot-related information, such as
+base model, version, required features, and the like that may
+be required for successfully deployment of a robot config-
+ured with a given configuration. Yet further, the library may
+suggest alternatives to certain combinations of robot and
+configuration, such as indicating that a newer version of a
+robot model may include built-in capabilities provided by a
+specific configuration. Therefore, the fleet configuration
+system may have greater flexibility in deciding which robots
+to deploy for different jobs. References are made herein to
+the library 12314, using contextual modifiers, such as robot
+configuration library and the like. These contextual modifi-
+library 12314 for illustrative purposes only.
+In embodiments, optimization features of the task defini-
+tion system are described below in association with feed-
+back from other elements of the job configuration system
+12018, such as the workflow simulation system 12308 and
+the like.
+FIG. 136 presents a flow diagram showing an embodi-
+ment of the fleet operations system and a data flow thereof.
+In the example embodiments, the fleet operations system
+and the fleet intelligence system perform a feedback for job
+execution-time iteration of configuration activities, such as
+for adapting an executing instance of a job execution plan.
+The embodiments of FIG. 136 depict an embodiment of the
+methods and systems of a robot fleet platform 12002
+depicted and described herein, in which feedback within a
+job configuration system 12018 facilitates iterating configu-
+ration activities when producing components of a job execu-
+tion plan 12310, such as task definitions 12304D and work-
+flowdefinitions12306D.Asdescribedforthese
+embodiments,the fleet intelligence system 12004 may be
+used for at least these iterations. However, it is envisioned
+that the resources of the fleet intelligence system 12004 may
+also or in addition be used for enhancing execution of a job
+execution plan 12310.

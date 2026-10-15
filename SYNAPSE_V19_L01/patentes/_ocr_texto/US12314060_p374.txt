@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+383
+privileges of users of the platform such that users with
+different roles are provided different access privileges. For
+example, an “administrator" or “"host" privilege may allow
+a user of the platform to make changes to platform configu-
+ration, add and remove programs, access any files and
+manage other users on the platform; an "engineer" privilege
+may allow a user of the platform to operate the platform; and
+a “service privilege may allow a user of the platform to
+ access a subset of administrator privileges to perform main-
+tenance and repair activities.
+Some other example applications provided by the plat-
+form 10110 for production management include part mark-
+ing, slicing tool selection, alerts and notifications for feed-
+stock supply, printing queue management, printer floor
+management, job scheduling (including across multiple 15
+units), finish work management, packaging management,
+preparation for logistics, and the like. Some example appli-
+cations provided by the platform 10110 for production
+reporting include order failure reporting, management infor-
+mation system alerts, remote quality assurance, certification, 20
+indexing and the like. Some example applications provided
+by the platform 10110 for production analysis include order
+matching, production failure analysis, warranty manage-
+ment and so on. Some example applications provided by the
+platform 10110 for value chain management include pay- 25
+ment processors, digital format conversion, production
+restrictions, export restriction filtering, and so on.
+In embodiments, the platform 10110 is integrated with
+one or more third party systems of various types described
+herein and in the documents incorporated by reference 30
+herein, such as an Enterprise Resource Planning (ERP)
+system 10644, a Manufacturing Execution system (MES)
+10646, a Product Lifecycle Management (PLM) system
+10648, a maintenance management system (MMS) 10650, a
+Quality Management system (QMS) 10652, a certification 35 1
+system 10654, a compliance system 10656, a Robot/Cobot
+system 10658, an SCCG system 10660 and the like. In
+embodiments, the platform is integrated into or a value chain
+network control tower system, such as for managing a set of
+value chain network entities. 40
+In embodiments, an API system facilitates the transfer of
+data between the platform 10110 and one or more third party
+systems. The API system may consist of a set of APIs for
+transfer of instruction sets, for passing alerts, notifications
+and the like, for transmitting event streams (such as work- 45
+flow-related events), for passing sensor data (such as process
+sensing from manufacturing, environmental sensing and
+others), for handling user data, for processing payments, for
+integrating with smart contracts, blockchains, and other
+systems, for passing data with AI systems, for passing data 50
+others.
+In embodiments, the Enterprise resource planning (ERP)
+ system 10644 helps streamline and integrate business pro-
+cesses across finance, sales, marketing, service, engineering, 55
+product management, accounting, procurement, distribu-
+tion, resources, project management, risk management and
+compliance, among other functions, both within a manufac-
+turing node and across multiple manufacturing nodes in the
+distributed manufacturing network 10130. ERP System 60
+10644 may tie together various production and value chain
+processes in the distributed manufacturing network 10130
+and enable the flow of data between them.
+In embodiments, the Manufacturing execution system
+(MES) 10646 connects and monitors machines, processes, 65
+equipment, tooling and materials to streamline manufactur-
+ing operations both within a manufacturing node and across
+[col 2]
+384
+multiple manufacturing nodes in the distributed manufac-
+turing network 10130. The MES 10646 may integrate pro-
+cesses spanning production, distribution, supply chain,
+maintenance, quality and labor operations. Also, the MES
+10646 may c00rdinate with other systems and entities in the
+distributed manufacturing network 10130 to help with mak-
+ing decisions related to advanced planning, production
+capacity analysis, inventory turns and lead times.
+In embodiments, an additive manufacturing platform,
+10 such as that associated with a value chain or other network,
+may be designed, prepared, configured and/or deployed to
+support the design, development, manufacture and distribu-
+tion of parts and maintenance materials (e.g, oil, gas, other
+chemicals) for vehicles used to distribute products that may
+include trucks, trains, airplanes, boats, drones, etc.; parts and
+maintenance materials for machines (e.g., robots) used in
+packaging products; parts and maintenance materials for
+tools and machines (e.g., robots) used in moving packaged
+products from warehouse to vehicles; arts repair on existing
+parts (and, while in service); missing parts from a product
+that is otherwise ready to go, or some other part or compo-
+nent for the design, development, manufacture and distri-
+bution of parts and maintenance materials.
+In embodiments, an additive manufacturing platform, as
+described herein, may be designed, prepared, configured
+and/or deployed to support the monitoring of packaging
+materials (e.g., boxes, crates, wrap material, and the like)
+facturing platform may address a “recall" situation by add-
+ing or revising a product in-warehouse, and may monitor for
+problems with vehicles, machines, tools, and other equip-
+ment being used and then replacing needed parts or mate-
+rials "as needed," creating tools on-demand as needed by
+workers or robots in warehouse/distribution network and the
+like.
+In embodiments, an additive manufacturing platform, as
+described herein, may be designed, prepared, configured
+and/or deployed to support processing manufacturing inputs,
+such as using an artificial intelligence system (e.g., a robotic
+process automation system trained on a training set of expert
+service visit data), to determine a recommended action,
+which in embodiments may involve replacement of a part
+and/or repair of a part, or some other activity. In embodi-
+ments, the additive manufacturing platform may automati-
+cally determine that an element should be additively manu-
+factured to facilitate repair, such as where a complementary
+component may be generated to replace a worn or absent
+element. In example embodiments, some techniques and/or
+technologies that may be utilized with the warehouse/dis-
+tribution center may include, but are not limited to: provid-
+ing and/or including multiple source materials to generate in
+real time (i.e., on the fly) different tools, parts, and/or
+packaging; using AI to optimize product design, manufac-
+turing process configuration (including packaging material
+generation process), job scheduling, prioritization and/or
+logistics (efficiency of warehouse processes for replacing
+parts, materials without disrupting other general processes
+involved in warehouse/distribution center); enriching Al
+with input/source/training set data relevant to design factors,
+economic factors, quality factors, etc. involved in particular
+example embodiments (e.g., using sensors and monitoring
+of data to adjust manufacturing processes of parts materials
+needed for machines and/or packaging materials); coupling
+inputs, process data and outputs with digital twins for
+running simulations of individual processes or a combina-
+tion of processes to anticipate material needs for being able
+to produce or manufacture tools, parts, packaging, and/or fix

@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+771
+external data (e.g., similar to external data 21050'), external
+controls imposed on the system, and/or operational feed-
+back. As a control tower or primary system 21100', upon
+receipt of the inputs 21102' at 21402, the primary system
+21100' (e.g, using a CSS1) identifies that the inputs 21102'
+As part of the performance of the primary task, the primary
+system 21100' may be configured to perform managerial
+functions. These managerial functions may include: deter-
+mining a strategy to perform the requested task; providing 10
+oversight for execution of the requested task; and/or con-
+trolling actions that execute the requested task.
+As shown in FIG. 175C, the sub-level computing device
+21200' is also capable of generating a system output 21204
+that may be communicated to the primary system 21100'. 15
+The primary system 21100' may receive or otherwise obtain
+the system output 21204' at various times during an instance
+of the sub-level computing device 21200'. In other words.
+the generation of a system output 21204' may occur during
+computing device 21200, initialization of the sub-level 20
+during simulation of the sub-level computing device 21200t,
+during operation/implementation of the sub-level computing
+device 21200', or during some wind-down or final phase of
+the sub-level computing device 21200' (e.g., in response to
+the sub-level computing device 21200' completing a task/ 25
+service).
+In some examples, the system output 21204 functions as
+a feedback loop. For instance, as a feedback loop, the system
+output 21204' may inform the intelligence of the CSS. Here,
+by informing the intelligence of the CsS, the primary system 30 
+21100t via its CSS may further tune or fine tune the param-
+eters that are generated and provided to the sub-level com-
+puting device 21200' as system inputs 21202. In other
+words, in some circumstances, systems inputs 21202 may
+be provided to the sub-level computing device 21200' on an
+ongoing basis (e.g-, for ongoing product production). In
+these circumstances, the system outputs 21204' of the sub-
+level computing device 21200' may impact the next round or
+iteration of system inputs 21202' provided to the sub-level
+computing device 21200'.In otherwords,the system outputs
+21204' are capable of updating and/or modifying the system
+inputs 21202' due to the intelligent functionality of the CSS
+of the primary system 21100'.
+Referring further to FIG. 175C, the sub-level computing
+device 21200' is a value chain SOS. In other words, the 45
+configuration promoted by the sub-level computing device
+21200t is generally optimized for a particular value metric or
+target metric. The focus and/or dependence on this value
+metric is therefore generally carried through or applied to
+the CSS of the sub-level computing device 21200'. For 50
+instance, the target metric is profit and therefore the sub-
+level computing device 21200'performs its functionality
+with profit as a primary optimization variable when config-
+uring its associated systems.
+As shown in FIG. 175C, in some examples, the CSS 551
+configures the set of systems associated with the sub-level
+computing device 21200t. Here, the set of systems that is
+configurable by the CSS2 is illustrated by n number of
+additional CSSs(1-n). In other words, a sub-level computing
+device 21200' may be responsible for performing some
+60
+group of subtask(s) or service(s) to execute a primary
+task/service. Each subtask/service within that group may be
+associated with one or more systems (e.g., SOA systems).
+Stated differently, the one or more systems are capable of
+enabling and/or performing a subtask/service when config- 65
+ured. Meaning that, systems, such as SAO systems, are
+capable of performing functions that result in the execution
+[col 2]
+772
+of a range of tasks or services. These functions may be
+parameterized (e.g., according to a configuration) to tune the
+system to perform a particular task/service within the range
+or a specialized version of a task/service. In this respect, the
+CSSs of the sub-level computing device 21200' therefore
+may enable or configure the set of systems that perform the
+corresponding subtask(s)/service(s).
+As a simple example, the CSSs2 of the sub-level com-
+puting device 21200' includes three systems and a CSS (e.g.,
+CSS3-Css5) that corresponds to each system (though a
+one-to-one relationship is described, other relationships are
+possible). In this example, the CSS2 of the sub-level com-
+puting device 21200t would have to configure three CSSs to
+provide the services/tasks associated with the sub-level
+computing device 21200'. To illustrate, if the primary task
+was production of a product, the sub-level computing device
+21200' may be responsible for a subtask/service of the
+production-e.g., logistics. Here, although the sub-level
+computing device 21200' is responsible for logistics, part of
+that responsibility may be the management or facilitation of
+systems associated with three different logistic channels-
+e.g.. trucking logistics, flight logistics, and water vessel
+logistics. Accordingly, each of those three logistic channels
+may be configured to have its own Css such that the
+sub-level computing device 21200' provides configuration
+data for the operations of the three CSSs associated with
+each of those logistic channels. In this respect, the sub-level
+computing device 21200' is able to generate configuration
+data that ensures that each CSS associated with each of the
+logistic channels collectively is optimized for the primary
+task. For instance, instead of each of the CSSs of the logistic
+channels only seeking their own self-optimization, the opti-
+mization is driven from a higher level. Meaning, that, for
+example, the water vessel logistics on its own may not seem
+to be optimized specifically for water vessel logistics of the
+product, but in the scheme of the entire logistics for the
+product, it is optimized in conjunction with the, e.g., flight
+logistics and the trucking logistics, so that the target metric
+is maximized (or minimized) across all of the logistic
+systems.
+In some implementations, the primary system 21100' is
+the system that dictates or determines the set of services/
+tasks performed by each sub-level computing device 21200t.
+For example, the intelligence associated with the primary
+system 21100' determines the number of sub-level comput-
+ing devices 21200' that may be required for a particular
+primary task and/or the available systems that would enable
+the primary task. For instance, the primary system deter-
+mines a combination of available systems that would enable
+the primary task. In this situation, the intelligence of the
+ured systems working together in some combination can
+perform some aspect of the primary task.
+In some implementations, as noted above, VCN process
+10 may assign 17804 at least a portion of one or more
+computing devices capable of fulfilling the primary com-
+mand as a set of one or more computing devices to be
+managed by the set of sub-level computing device, wherein
+the sub-level computing device is a computing device that
+manages or executes performance of a particular entity or
+relationship of the value chain network. For instance, a mini
+sub-level control tower that focuses on a specific area or
+aspect of the supply chain. It is typically responsible for
+monitoring and managing the performance of a particular
+segment (e.g., entity or relationship between multiple enti-
+ties) of the supply chain, such as a specific warehouse or

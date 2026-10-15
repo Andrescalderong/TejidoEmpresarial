@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+503
+the control interface module 12130 incorporates one ormore
+modular, removable and replaceable AI-on-a-chip package
+configured for specific environments including environ-
+ments with low or intermittent power, extreme environmen-
+tal conditions, high temperature and low heat dispersion, and
+the like. In embodiments, the modular AI-on-a-chip pack-
+ages may be configured to autonomously optimize local
+resources based on a task specific requirement including
+optimization for compute; storage; network; energy; heat-
+ing/cooling capacity; battery capacity; human resources 10
+capacity; space; additive manufacturing capacity and the
+like.
+In embodiments, the modular Al-on-a-chip packages may
+be trained with models to execute and govern robotic
+process automation, such as recognizing situations (bottle-
+necks in warehouse, congestion/lines in store, thin/sparse
+customer mix in part of an environment), classifying and
+objects/faces/products/emotions, recognizing setting
+demand-side parameters (price, promotion, advertising loca-
+tion); managing supply-side interactions including govern- 20
+ing onboard chatbot interactions, managing recommenda-
+tion engine for recommending a basket of complementary
+products and the like. In embodiments, the modular Al-on-
+a-chip packages may be trained with models to analyze
+physiological, neurological, emotional, cognitive state of a 25
+user and tailor the response of the MPR 12100 based on such
+state. For example, the package may analyze facial expres-
+sions, speech, tone, body movements of a user to determine
+the state, analyze the state information to derive information
+on customer interest, response, preference etc. and then feed 301
+such information to edge devices for content delivery, prod-
+uct recommendations, advertising, and the like. In embodi-
+ments, the modular AI-on-a-chip packages may be trained
+with models to analyze security threat vectors and other
+vulnerabilities to the MPR 12100 or the robotic fleet. For 35
+example, the package may use biometric analysis, behav-
+ioral modeling, facial and voice recognition, for enabling
+authentication; learning models for recognizing and prevent-
+ing attacks by malware, spyware, ransomware, viruses,
+worms, trojans and the like; classification, clustering or 40
+regression models for threat intelligence, anomaly detection,
+network and end-point security etc. In embodiments, the
+modular AI-on-a-chip packages may be trained with models
+to analyze weather conditions, light, temperature, water
+usage or soil conditions collected from farms in agricultural 45
+planning by determining seed and crop choices and opti-
+mizing utilization of farming resources including land, water
+and nutrition. The MPR 12100 may for example, use the
+information to follow a planting and nutrition routine, per-
+form phenotyping for selective breeding provide optimized 50 
+wavelengths of light for crops using AI-controlled LED
+lights. In embodiments, the modular AI-on-a-chip packages
+may be trained with models to detect diseases, pests, weed,
+nutritional deficiencies in soil or crops on agricultural farms.
+For example, the MPR2B00 may utilize propeller or min- 55
+iaturized jet engine of transport system to fly over the farm,
+capture images of the farm using cameras of the vision and
+sensing system and then use the modular AI-on-a-chip
+package to identify problem areas and potential improve-
+ments. For example, the images may show the presence of
+unwanted plants or weeds. The MPR 12100 may then make
+decisions about treatment with herbicides or may select one
+or more end-effectors for eliminating the weeds. In embodi-
+ments, the modular Al-on-a-chip packages may be trained
+with models to monitor and harvest crops, plants, fruits and 65
+vegetables of various shapes and sizes. For example, the
+package may utilize machine vision and other sensors for
+[col 2]
+504
+identifying the crops ready to be harvested. The package
+may also include trained policies for navigating the farm,
+estimating the position and orientation of crops relative to
+the MPR 12100, grasping fruits and vegetables of different
+shapes and sizes, select suitable end effectors for selective
+harvesting, and finally storing or packaging the harvested
+fruits and vegetables. In embodiments, the modular AI-on-
+a-chip packages may be trained with models to manage a
+controlled closed loop environment for an aquaponics sys-
+tem based on needs of plants and fish. For example, an
+example module AI-on-a-chip package may receive sensed
+oxygen levels in an aquatic environment and may determine
+whether the water is sufficiently oxygenated, under-oxygen-
+ated, or over-oxygenated. In embodiments, the modular
+optimizing 3D printing parameters.
+In embodiments, the control interface module 12130 may
+receive multiple modular, removable and replaceable com-
+binations of modules to perform certain tasks. For example,
+in some embodiments, the control interface module 12130
+may receive a lab-on-a-chip capability to detect gases and
+AI-on-a-chip capability for machine vision. The MPR 12100
+may for example, use such a package for gas leak detection
+and isolation in over-ground and underground gas pipelines.
+In this example, the MPR 12100 may travel along the
+pipeline and analyze gas concentrations in close proximity
+to potential leak points. Upon determining a gas leak, the
+MPR 12100 may use cameras and IR sensors to click
+images, machine vision capability to locate the leak and
+policy libraries to identify one or more policies to fix the
+leak.
+In embodiments, the physical module interfaces 12122
+receive (or otherwise connect to) auxiliary physical modules
+that alter the physical actions that may be taken by MPR
+12100 and/or the physical operation of the MPR 12100.
+Some examples of physical module interfaces 12122 include
+end effectors 12124, motive adapters 12126, 3D printer
+adapters 12128 and the like. End effectors 12124 includes
+devices or tools that may be connected to the end of the arm
+of MPR 12100 for manipulating objects or accomplishing
+one or more tasks. For example, different end effectors may
+be used for gripping and grasping, lifting and placing,
+palletizing, brushing, drilling, inspecting, and/or testing
+objects. The MPR 12100 may be configured with one or
+more of the end effectors, such that the one or more end
+effectors may be selected based on multiple factors includ-
+ing the task(s) to be performed; the size, shape, surface and
+weight of the object to be manipulated; environment of the
+object including the material clearance available around the
+object; available power supply; the precision or accuracy
+required in the task; and the like. It is appreciated that the
+end effectors that are used by the MPR 12100 may be
+selected by the fleet management platform 12000 during
+configuration and/or by the MPR 12100 while deployed.
+In some example embodiments, end effectors may include
+grippers for gripping and grasping objects for wide range of
+boxes to handling tiny, delicate electronic components. In
+some example embodiments, fingers or jaws may be
+60 attached to grippers to grip or hold the object as well as pick
+up and place objects, for example on an assembly iine,
+conveyor system or other automated system. For example,
+parallel grippers may have two fingers disposed parallel to
+each other that may close on an object to hold and grip the
+same, angled grippers may have fingers at a variety of
+variety of different angle openings like three fingers offset by
+120°, suction grippers may have one or more suction cups

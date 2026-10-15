@@ -1,0 +1,134 @@
+the shared storage architecture may be combined into a 45 until summary data/other data for generating probability
+share information regarding their data. In the shared service 55 using the uploaded summary data) and/or indicate that the
+[col 1]
+US 12,314,060 B2
+723
+use the probability distribution model 20260 to provide an
+approximate answer to the query.
+In embodiments, an aggregator 20140 includes a dynamic
+ledger module 20360 for reading data from the dynamic
+ledger 20150 and/or writing data to the dynamic ledger
+20150. In some embodiments, the dynamic ledger module
+20360 may be responsible for writing data that is received
+from edge devices to the dynamic ledger 20150. In some
+embodiments, the dynamic ledger contains instructions for
+the edge devices to move or aggregate data. In some
+embodiments (e.g., embodiments where the dynamic ledger
+is a blockchain), the dynamic ledger module 20360 may
+implement consensus mechanisms and otherwise cause the
+aggregator to act as a blockchain node (e.g., by mining new 15
+blocks, etc.).
+Different embodiments of the distributed database system
+may use different database architectures depending, for
+example, on target workload. A first example system archi-
+tecture is a shared distributed ledger architecture. In a shared 20
+distributed ledger architecture, compute nodes (e.g., edge
+devices 20120 and/or aggregators 20140) may access a
+common memory address space via a high-speed network.
+In this architecture, the dynamic ledger may be shared
+between nodes and may be used by query modules (e.g., the 25
+query planning module 20356 and/or the query execution
+module 20308) to decide on how and where to allocate query
+resources. This implementation may hold a shared dynamic
+ledger.
+A second example system architecture is a shared storage 30 1
+architecture. In a shared storage architecture, compute nodes
+(e.g., edge devices 20120 and/or aggregators 20140) may be
+independent of durable storage. Compute nodes may have
+local memory and a buffer pool for ephemeral data, which
+may cause a penalty for not having data locality. In these 35 
+embodiments, updates may require messaging between
+compute nodes (e.g., as determined by aggregators 20140)
+to notify each node/device of a changed state. Rather than
+distribute storage, the shared storage model may construct a
+centralized storage model and hold all data from all nodes in 40
+this shared storage. The edge devices may then provide the
+CPU and processing to execute queries against this shared
+storage. In many implementations, there may be an amount
+of shared storage (e.g., both the shared distributed ledger and
+single system for different data).
+A third example system architecture is a shared nothing
+architecture. In a shared nothing architecture, each node
+(e.g., edge devices 20120 and/or aggregators 20140) may
+have its own local CPUs, memory, and local storage. This 5o
+architecture may offer the best performance and efficiency in
+some cases due to data locality, thus moving the least
+amount of data across the network. In this architecture, the
+implementation is highly distributed, and nodes may not
+mode, queries may be placed in a bulletin board pattern
+query request area (e.g., as pending data requests 20268) and
+one or more edge agents (e.g., edge devices 20120 and/or
+aggregators 20140) can either resolve or partially resolve a
+query for a truly shared nothing implementation. 60
+FIG. 169A illustrates an example method 20400 for
+receiving and responding to queries according to embodi-
+ments described herein. The steps shown in FIG. 169A may
+be executed by any of an edge device 20120, an aggregator
+20140, and/or an edge/device aggregator 20130. For pur- 65
+poses of illustration, the steps will be described as being
+executed by an edge/device aggregator 20130.
+[col 2]
+724
+At 20402, an edge device/aggregator 20130 may receive
+a query from a query device 20110. The query may request
+data stored in the distributed database. In some embodi-
+ments (and/or depending on the query), the edge device/
+data stored in edge storage that is connected to the edge
+device/aggregator 20130. For example, if the query requests
+a most recent sensor reading from all devices within a
+region, and the edge device/aggregator 20130 is connected
+to edge storage with a most recent sensor reading for some
+of the devices within the region, the edge device/aggregator
+ing most recent sensor readings that are stored in connected
+edge storage. In some embodiments (and/or depending on
+the query and/or retrieved data), the partial query executed
+at 20404 may yield enough data to respond to the query
+received at 20402 (e.g., when query requests an average and
+the partial query yields a statistically significant amount of
+data for responding to the query), as described in more detail
+below with respect to FIG.169B.However, in the example
+of FIG. 169A, the method may proceed to step 20406.
+At 20406, the edge device/aggregator 20130 may cause
+storage of the query received at 20402 on the dynamic ledger
+20150. The query may be stored on the dynamic ledger
+20150 as a pending data request 20268 s0 that other edge
+devices can retrieve and respond to the query (e.g., when
+sufficient network resources are available). For example,
+edge devices 20120, aggregators 20140, and/or edge device/
+aggregators 20130 may continually monitor queries posted
+to the dynamic ledger 20150 using a dynamic ledger module
+20306 and/or a dynamic ledger module 20360, as described
+above. When a query is detected as a pending data request
+20268 on the dynamic ledger 20150 by one or more edge
+devices and/or aggregators, the edge devices and/or aggre-
+gators may generate summary data 20252, 20254 and/or
+other data for generating probability distribution models
+20260 (e.g., from data stored on connected edge storage
+and/or edge storage associated with a connected edge
+device) and cause the summary data and/or probability
+distribution models to be uploaded to the dynamic ledger
+20150. The process of monitoring the dynamic ledger 20150
+and responding to pending data requests 20268 is described
+in more detail below with respect to FIG.169C.
+At 20408, the edge device/aggregator 20130 may wait
+distribution models 20260 is uploaded to the dynamic ledger
+20150. For example, the edge device/aggregator 20130 may
+wait until a certain number or percentage of the edge devices
+and/or aggregators with matching data stored in edge storage
+have responded. In embodiments, the edge device/aggrega-
+tor 20130 may stop waiting after a predetermined amount of
+time (e.g., a timeout value) if sufficient data has not yet been
+received, and then either proceed with the method (e.g., if a
+reasonably accurate respond to the query can be provided
+query cannot be satisfied (e.g., if sufficient data has not been
+received to approximate an answer).
+At 20410, the edge device/aggregator 20130 may gener-
+ate a probability distribution model 20260 from the sum-
+mary data 20252, 20254 stored on the dynamic ledger
+20150. In some embodiments, the device that generates the
+probability distribution model 20260 at 20410 and the
+devicethat receivesthe query at 20402 are the same device.
+Additionally or alternatively, the devices may be different
+(e.g-, an edge device 20120 may receive the query at 20402
+and an aggregator 20140 may generate the probability
+distribution model 20260 at 20410). The probability distri-

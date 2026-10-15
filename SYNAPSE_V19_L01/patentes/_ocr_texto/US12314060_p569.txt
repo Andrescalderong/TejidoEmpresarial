@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+773
+distribution center, transportation route, or supplier. For
+example, primary system 21100t as a control tower SOS
+receives a primary task or service request, as discussed
+above. In response to the receipt of the primary task or
+ service request, the primary system 21100' determines a set
+of systems that can fulfill the request from a pool of
+available system resources (e.g., a pool of autonomous-
+oriented systems). In some implementations, the determined
+set of systems are parsed or classified into groups where
+each group is assigned to a sub-level computing device 10
+21200'. As will be discussed below, each sub-level comput-
+ing device 21200' may generate a set of CSSs for the set of
+systems that are assigned to it. “Mini control towers" may be
+beneficial to proliferate through the connection of previously
+siloed operational segments. Disparate solutions of the value 15
+chain technology may continue to converge towards the goal
+of turning these “mini control towers"into enterprise-wide
+control towers that enable greater automation and visibility
+throughout a company's supply-chain. Additionally, unlike
+currently known control towers that are limited to the 20
+supply-chain, the control towers (and mini control towers)
+of the present disclosure are also integrated with the demand
+side of enterprises. As will be clear after reading the present
+disclosure, the mini control tower may be considered as the
+preliminary step before a fully functional control tower (e.g-, 25:
+with a company-wide dashboard as discussed throughout).
+Generally speaking, the mini control tower may be consid-
+ered the slot in application partners within the control tower
+(i.e., the interaction between data aggregation at the control
+tower). 30
+In some implementations, VCN process 10 (e.g., via the
+set of sub-level computing device) may configure 17806 the
+set of one or more computing devices to fulfill one or more
+secondary commands based upon, at least in part, the
+primary command. For instance, with the CSSs (discussed 35 
+further below) scaled to the assigned set of systems, the
+sub-level computing device 21200' configures each system
+of the set using the CSSs so that the set associated with the
+ sub-level computing device 21200' can collectively perform/
+enabletheprimarytask with execution of its one or more 401
+tasks/services.
+In some implementations, as noted above, configuring the
+set of one or more computing devices to fulfill the one or
+more secondary commands may include generating 17812 a
+set of at least one configured system service (CsS). For 45 i
+instance, FIG. 175C depicts a single primary system 21100t
+as the control tower SOS and a sub-level computing device
+21200' as a value chain SOS. Each SOS (e.g., the primary
+system 21100' or the sub-level computing device 21200)
+generally includes at least one configured system service 50
+(CSS) and a general system service (GSS). For example, the
+primary system 21100" is shown with a first CSS (CSS1) and
+a first GSS (GSS1) while the sub-level computing device
+21200' is shown with a second CSS (CSS2) and a second
+GSS (GSS2). In this respect, each CSS and GSS may be 55
+tailored or dependent upon the SOS with which it is asso-
+ciated. For example, in some implementations, when the
+primary system 21100' as the control tower SOS is setup for
+oversight, the CSS1 and the GSS1 are configured to provide
+service(s) for oversight.
+It will be appreciated after reading the present disclosure
+that any individual parts of the present disclosure that use a
+processor may include some or all of vCN process 1o (and
+vice versa). For example, VCN process 10 may include
+some or all of a CSS, a GsS, a primary system, a sub-level 65
+computing device, a service, an application, etc. That is, any
+individual parts of the present disclosure that use a processor
+[col 2]
+774
+may be configured to effectuate some or all of the function-
+ality of VCN process 10 (and vice versa). Accordingly, in
+some implementations, VCN process 10 may be a purely
+server-side process, a purely client-side process, or a hybrid
+server-side/client-side process that is  cooperatively
+executed. Furthermore, it will be appreciated after reading
+the present disclosure that VCN process 10 may apply
+equally to the demand side as the supply side. That is, VCN
+process 10 is described with examples of obtaining infor-
+mation and insights for things affecting the supply of an
+item; however, VCN process 10 may also be used with
+examples of obtaining information and insights for things
+affecting the demand of an item. For example, factors that
+may affect the demand of an item may include, e.g.: Cus-
+tomer attributes, such as geographic location, historical
+purchasing habits and preferences, financial capacity, inter-
+actions with similar or proximal products, lifetime value;
+Market trends, such as popularity of particular products or
+categories of products, activism or social movements (e.g.,
+palm oil is linked to the destruction of biodiversity, defor-
+estation, etc. and demand for products with this ingredient
+may be suppressed as a result of increasing social awareness
+of negative impacts), seasonal demand; Competition, such
+as availability/price/appearance/brand value of competing or
+substitute products, Economic, such as correlation of item
+purchases with economic factors such as consumer spend-
+ing, interest rates, exchange rates, etc.; Governmental/Regu-
+latory, such as trade restrictions, tariffs, regulations related to
+import/export control or materials/ingredients; Marketing,
+such as advertising campaign metrics (e.g. website traffic,
+total page views, bounce rate, engagement rate, cost per
+click, cost per lead, cost per acquisition, conversion rate,
+longevity). As such, the description of VCN process 10
+being used for the supply side should be taken as example
+only and not to otherwise limit the scope of the present
+disclosure.
+The GSS functions to provide general system integration
+and operations such as data storage, data processing, net-
+working, and other shared functionality (e.g., the GSS may
+have similar functionality to aspects of data processing
+systems 1612, 10206, 12030, 12i30, 12142, 13024 and/or
+data storage systems 624). In FIGS. 175C and 175D, the
+GSS is shown with a dashed-lined perimeter to represent
+that the GSS may be included locally within a deployed
+instance of an SOs (e.g., a primary system or a sub-level
+computing device) or operate remotely yet in communica-
+tion with an SOS. When deployed locally, the GSS may be
+configured in dedication to its associated SOS. In that
+respect, aspects of the GsS may be optimized, programmed,
+or configured to the instance of the SOS. When functioning
+remotely, the GSS may operate as a global GSS that one or
+more systems (e.g., a primary system 21100' and/or a
+sub-level computing device(s) 21200') can access/utilize.
+Here, this type of global configuration may be advantageous,
+depending on the deployment of the control architecture
+21000', because data storage and data processing function-
+ality is shared among systems. Meaning that, data format
+compatibility or other data compliance related aspects are
+potentially addressed on the front-end (e.g, designed for
+compatibility).
+In some implementations, generating the set of at least
+one CSS may include utilizing 17814 an output of a plurality
+of sources as an input to generate one or more control
+parameters. For instance, the mini control tower(s) may
+collect data from various sources, including sensors, enter-
+prise resource planning (ERP) systems, warehouse manage-

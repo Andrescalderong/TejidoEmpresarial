@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+613
+(not shown) associated with an individual. The wearable
+devices may include image capture devices (e.g., body
+cameras or augmented-reality headwear), navigation
+devices (e.g-, GPS devices, inertial guidance systems),
+motion trackers, acoustic capture devices (e.g-, micro-
+phones), radiation detectors, combinations thereof, and the
+like.
+In embodiments, upon receiving the output information,
+the digital twin I/O system 13308 routes the information to
+the digital twin configuration module 13318 to check and/or 10
+update the shipping digital twin and/or associated digital
+twins. Further, the digital twin module 13420 may use the
+embedded output to determine characteristics of the ship-
+ping entity or environment.
+In embodiments, the digital twin module 13420 embeds 15 
+output from a LIDAR point cloud system into a shipping
+digital twin. For example, the digital twin I/O system 13308
+may receive information output from one or more LIDAR
+devices. The LIDAR devices are configured to provide a
+plurality of points having associated position data (e.g-, 20
+coordinates in absolute or relative x, y, and z values). Each
+of the plurality of points may include further LIDAR attri-
+butes, such as intensity, return number, total returns, laser
+color data, return color data, scan angle, scan direction, etc.
+The LIDAR devices may provide a point cloud that includes 25
+the plurality of points to the digital twin module 13420 via,
+for example, the digital twin I/O system 13308. Additionally,
+or alternatively, the digital twin module 13420 may receive
+a stream of points and assemble the stream into a point cloud
+or may receive a point cloud and assemble the received point 30
+cloud with existing point cloud data, map data, or three
+dimensional (3D)-model data.
+In embodiments, upon receiving the output information,
+the digital twin I/O system 13308 routes the point cloud
+information to the digital twin configuration module 13318 35
+to check and/or update the shipping digital twin and/or
+associated digital twins. In some embodiments, the digital
+twin module 13420 is further configured to determine
+closed-shape objects within the received LIDAR data. For
+example, the digital twin module 13420 may group a plu- 40
+rality of points within the point cloud as an object and, if
+necessary, estimate obstructed faces of objects (e.g., a face
+of the object contacting or adjacent a floor or a face of the
+object contacting or adjacent another object such as another
+piece of equipment). The system may use such closed-shape 45 
+objects to narrow search space for digital twins and thereby
+increase efficiency of matching algorithms (e.g., a shape-
+matching algorithm).
+In embodiments, the digital twin module 13420 embeds
+output from a simultaneous location and mapping
+50
+("SLAM) system in an environment digital twin. For
+example, the digital twin I/0 system 13308 may receive
+information output from the SLAM system, such as SLAM
+sensor, and embed the received information within an envi-
+ronment digital twin corresponding to the location deter- 55
+mined by the SLAM system. In embodiments, upon receiv-
+ing the output information from the SLAM system, the
+digital twin I/O system 13308 routes the information to the
+digital twin configuration module 13318 to check and/or
+update the shipping digital twin and/or associated digital 60
+twins. Such updating provides digital twins of non-con-
+nected elements automatically and without need of user
+interaction with the digital twin module 13420.
+In embodiments, the digital twin module 13420 can
+leverage known digital twins to reduce computational
+requirements for the SLAM sensor by using suboptimal
+map-building algorithms. For example, the suboptimal map-
+[col 2]
+614
+building algorithms may allow for a higher uncertainty
+tolerance using simple bounded-region representations and
+identifying possible digital twins. Additionally, or alterna-
+tively, the digital twin module 13420 may use a bounded-
+region representation to limit the number of digital twins,
+analyze the group of potential twins for distinguishing
+features, then perform higher precision analysis for the
+distinguishing features to identify and/or eliminate catego-
+ries of, groups of, or individual digital twins and, in the event
+that no matching digital twin is found, perform a precision
+scan of only the remaining areas to be scanned.
+In embodiments, the digital twin module 13420 may
+further reduce compute required to build a location map by
+leveraging data captured from other sensors within the
+environment (e.g-, captured images or video, radio images,
+etc.) to perform an initial map-building process (e.g., a
+simple bounded-region map or other suitable photogramme-
+try method), associate digital twins of known environmental
+objects with features of the simple bounded-region map to
+refine the simple bounded-region map, and perform more
+precise scans of the remaining simple bounded regions to
+further refine the map. In some embodiments, the digital
+twin module 13420 may detect objects within received
+mapping information and, for each detected object, deter-
+mine whether the detected object corresponds to an existing
+digital twin of a real-world-element. In response to deter-
+mining that the detected object does not correspond to an
+existing real-world-element digital twin, the digital twin
+module 13420 may use, for example, the digital twin con-
+figuration module 13318 to generate a new digital twin
+corresponding to the detected object (e.g., a detected-object
+digital twin) and add the detected-object digital twin to the
+real-world-element digital twins within the digital twin
+datastore. Additionally, or alternatively, in response to deter-
+mining that the detected object corresponds to an existing
+real-world-element digital twin, the digital twin module
+13420 may update the real-world-element digital twin to
+include new information detected by the simultaneous loca-
+tion and mapping sensor, if any.
+In embodiments, the digital twin module 13420 represents
+locations of autonomously or remotely moveable elements
+and attributes thereof within a shipping digital twin. Such
+movable elements may include, for example, cargo,
+vehicles, autonomous vehicles, robots, etc. The locations of
+the moveable elements may be updated in response to a
+triggering condition. Such triggering conditions may
+include, for example, expiration of a static or a dynamic
+predetermined interval, receiving an automatically gener-
+ated request or instruction from the digital twin module
+13420 or components thereof, interaction of an element with
+a respective sensor or sensors (e.g., in response to a worker
+or machine breaking a beam or coming within a predeter-
+mined distance from a proximity sensor), interaction of a
+user with a digital twin (e.g., selection of a shipping digital
+combinations thereof, and the like.
+In embodiments, the time intervals may be based on
+probability of the respective movable element having moved
+within a time period. For example, the time interval for
+updating a robot location may be relatively shorter for robots
+expected to move frequently (e.g., a robot tasked with lifting
+and carrying cargo within and through a container terminal)
+and relatively longer for robots expected to move infre-
+quently (e.g-, a robot tasked with monitoring a process).
+Additionally or alternatively,the time interval may be
+dynamically adjusted based on applicable conditions, such
+as increasing the time interval when no movable elements

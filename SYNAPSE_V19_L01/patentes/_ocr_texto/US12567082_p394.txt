@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+465
+job execution system 12022 may monitor the status of
+certain tasks across multiple jobs to determine when the
+certain resources will be needed. In these embodiments, the
+job execution system 12022 may leverage the platform
+12000 intelligence layer 12004 to predict when tasks will
+complete. In response, the resource provisioning system
+12014 and the logistics system 12015 may work in combi-
+nation to provision and deliver the resources to a job site
+before the previous tasks complete.
+anticipate job-related resource needs in a job-specific man-
+ner to predict when specific resources will be required for a
+specific job. For example, the job execution system 12022
+(working in combination with the intelligence layer) may
+generate a schedule ofin-progress and/or upcoming tasks for 15 t
+a specific job request, and in response, may determine when
+certain fleet resources are likely to be needed and/or to come
+available. Additionally or alternatively, the job execution
+ system 12022 may predict the job-related resources for a
+specific job in other suitable manners. For example, predic- 20
+tion of resource needs may be determined based on a pattern
+of fleet resource needs as derived from a job request history
+of the job requestor (e.g., a site cleanup job request has
+typically followed a completion of a requested job at a job
+site); a resource usage history of the job requestor from the 25
+previous N jobs performed for the job requestor; timing of
+job requests (e.g., requests from the requestor are typically
+received on a Thursday for jobs to start on Monday the
+following week), and/or the like. Similarity of a job
+requestor to other job requestors (e.g., affiliated entities, 30
+direct competitors, similar SIC codes, and the like) may also
+form a basis for fleet resource prediction/anticipation. Busi-
+ness relationships among entities (e.g., a supplier and a
+shipper, a seller and a buyer, consumer and recycler, and the
+like)canform abasis forpredictingfleet resourceneeds and 35
+timing of the shipper/buyer based on actions, including job
+requests, of the supplier/seller/consumer.
+In embodiments, many other factors may impact fleet
+resource need predictions, such as weather forecasting and
+seasonal affects (e.g-, snow removal and related job requests 40
+in northern climates during the winter season, beach erosion
+prevention/remediation job requests of warm weather water-
+front areas around hurricane season, lawn maintenance job
+requests during the Spring season, leaf cleanup job requests
+in areas with deciduous trees in the Autumn season, and the 45t
+like). Fleet resource need prediction may also be activated
+by events outside of the core job request process, such as
+natural disasters, vehicle accidents/emergencies, timing of
+societal activities (e.g-, stranded vehicle support and acci-
+dent remediation on heavily traveled roadways during rush 5o
+hour, and the like), scheduled public and/or private events
+(e.g., cleanup of city streets around a sports venue after
+completion of a scheduled match) and the like. In another
+example, other sources of information that may impact
+anticipation of fleet resource needs may include business 55
+goals and objectives, such as reducing or increasing spend-
+ing near the end of a financial reporting period (e.g., a fiscal
+quarter, year, etc.). An indication that a target job requestor
+intends to cut back on expenses during the last few weeks or
+months of a fiscal reporting period may suggest that fleet 60
+resources that are typically allocated to job requests by the
+target job requestor will be available for other actions, such
+as maintenance, upgrading, pro-bono work, educational
+opportunities, fleet promotional activity, allocation to other
+job requestors and the like. In embodiments, fleet goals or 65
+objectives may also impact fleet resource anticipation and
+therefore corresponding preparation activities and the like.
+[col 2]
+466
+One such example is a required upgrade of a class of robot.
+In anticipation of needing to reserve the robots in this class,
+the fleet configuration functions may allocate alternate robot
+types that can be reconfigured to satisfy the requirements of
+the reserved robot class for the duration of the upgrade
+activity.
+In embodiments, anticipation of fleet resource needs may
+be determined through use of fleet management platform
+12000, such as the platform 12000 intelligence layer 12004
+embodiments the platform 12000 intelligence layer 12004
+demands, such as weather forecasts, public activity calen-
+dars, job request data (e.g., timing, job parameters, relations
+to other job requests and the like), social media postings,
+government activity/legislation, seasons, and the like. In this
+example the platform 12000 intelligence layer 12004 acting
+in co0operation with the fleet operations system 12002 may
+predict fleet resource demand based on an analysis of the
+disparate data sources (e.g., using a neural network or the
+like). In these embodiments, the platform 12000 intelligence
+layer 12004 may process the data from the disparate data
+sources and determine a likelihood of fleet resource needs
+across a range of factors.
+use of the job request process described herein for fleet
+preparation and/or maintenance activities, such as by auto-
+matically configuring one or more job requests for fleet
+preparation-directed activities (e.g. preparation and/or
+maintenance of robot operating units or supporting devices).
+In thisway, thefleetmanagementplatform100may operate
+to facilitate job request performance while ensuring fleet-
+specific needs (e.g., maintenance) are met. A balance of fleet
+self-focused activities (e.g., maintenance) with job anticipa-
+tion needs and further with job requests from clients of the
+platform 12000 may be achieved through use of relative
+weighting of job requests.
+ In embodiments, a fleet management platform 12000 may
+interface with external data sources 12036 for performing
+various platform functions including job configuration, fleet
+configuration, job negotiation (e.g., via a smart contract
+facility), job execution and the like. Examples of external
+data sources for use by the platform 12000 include value
+chain entities (e.g., third parties paying for fleet services and
+the like), enterprise resource planning systems (ERPs) that
+may provide job context for performing team configuration
+and/or execution of a requested job, smart contracts, and the
+like. Other external data sources may include third-party
+sensor systems (e.g-, GPS data, value chain logistics data for
+when material needed for a job is to be delivered, and the
+like) as well as third-party data streams (e.g., weather, traffic,
+electricity pricing, and the like).
+In some embodiments, the fleet management platform
+12000 may support the use of smart contracts in relation to
+ job requests, job performance, resource, allocation, and/or
+the like. In embodiments, job requests may be routed
+through a smart contract handler that captures job require-
+ments, requestor goals and objectives, and fleet job execu-
+tion constraints into a dynamic smart contract. In some
+embodiments, smart contracts may be utilized throughout a
+fleet management platform to address all manner of fleet
+operations, such as administering negotiated routing of a
+multi-purpose robot from a first location (e.g-, a current job
+site, a warehouse, a temporary storage/service location) to a
+second location (e.g-, a target job site). As a further example,
+a smart contract may be put in place as a control for a
+bidding system for robot time/task utilization. As another

@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+623
+presented to a human user and/or compared against real-
+world data to ensure convergence of the dynamic models
+with the real world. Furthermore, as dynamic models are
+based partly on assumptions, the properties of a digital twin
+may be improved and/or corrected when a real-world behav-
+ior differs from that of the digital twin. In embodiments,
+additional data collection and/or instrumentation can be
+recommended based on the recognition that an input is
+missing from a desired dynamic model, that a model in
+operation isn't working as expected (perhaps due to missing 10
+and/or faulty sensor information), that a different result is
+needed (such as due to situational factors that make some-
+thing of high interest), and the like.
+Dynamic models may be obtained from a number of
+different sources. In some embodiments, a user can upload 15
+a model created by the user or a third party. Additionally, or
+alternatively, the models may be created on the digital twin
+ system using a graphical user interface. The dynamic models
+may include bespoke models that are configured for a
+particular environment and/or set of shipping entities and/or 20
+agnostic models that are applicable to similar types of digital
+twins. The dynamic models may be machine-learned mod-
+els. In embodiments, the dynamic models may be machine-
+learned models provided by the intelligence service 13004.
+In embodiments, digital twin dynamic model system 25
+13312 leverages one or more dynamic models 13374 to
+update a set of properties of a digital twin and/or one or more
+embedded digital twins on behalf of client application 13324
+based on the impact of collected sensor data from sensor
+system, data collected from Internet of Things connected 30
+devices 13338, and/or other suitable data in the set of
+dynamic modeis 13374 that are used to enable the shipping
+digital twins. In embodiments, the digital twin dynamic
+model system 13312 may be instructed to run specific
+dynamic models using one or more digital twins that rep- 35
+resent physical shipping entities, devices, workers, pro-
+cesses, and/or shipping environments that are managed,
+13324.
+In embodiments, the digital twin dynamic model system 40
+13312 may obtain data from other types of external data
+sources that are not necessarily shipping data sources, but
+may provide data that can be used as input data for the
+dynamic models. For example, traffic data, trucking fleet
+data, aviation data, road data, freight data, maritime data, 45
+weather data, news events, social media data, and the like
+may be collected, crawled, subscribed to, and the like to
+ supplement sensor data, Industrial Internet of Things device
+data, and/or other data that is used by the dynamic models.
+In embodiments, the digital twin dynamic model system 50
+13312 may obtain data from a machine vision module
+13422.Machine vision module13422may use video and/or
+still images to provide measurements (e.g., locations, sta-
+tuses, and the like) that may be used as inputs by the
+dynamic models.
+In embodiments, the digital twin dynamic model system
+13312 may feed this data into one or more of the dynamic
+models discussed above to obtain one or more outputs.
+These outputs may include calculated vibration characteris-
+tics, probability of failure values, probability of downtime 602
+values, cost of downtime values, time to failure values,
+temperature values, pressure values, humidity values, pre-
+cipitation values, visibility values, air quality values, strain
+values, stress values, displacement values, velocity values,
+acceleration values, location values, performance values, 65
+financial values, pricing values, electrodynamic values, ther-
+modynamic values, fluid flow rate values, and the like. The
+[col 2]
+624
+client application 13324 may then initiate a digital twin
+visualization event using the results obtained by the digital
+twin dynamic model system 13312. In embodiments, the
+visualization may be a heat map visualization.
+As illustrated by FIG. 148, the digital twin dynamic
+model system 13312 may receive requests to update one or
+more properties of digital twins of shipping entities and/or
+environments such that the digital twins represent the ship-
+ping entities and/or environments in real-time. At step A100,
+the digital twin dynamic model system 13312 receives a
+request to update one or more properties of one or more the
+digital twins of shipping entities and/or environments. For
+example, the digital twin dynamic model system 13312 may
+receive the request from a client application 13324 or from
+another process executed by the digital twin module 13420
+(e.g., a predictive maintenance process). The request may
+indicate the one or more properties and the digital twin or
+digital twins implicated by the request. In step A102, the
+digital twin dynamic model system 13312 determines the
+one or more digital twins required to fulfill the request and
+retrieves the one or more required digital twins, including
+any embedded digital twins, from digital twin datastore
+13316.At step A104, digital twin dynamic model system
+13312 determines one or more dynamic models required to
+fulfll the request and retrieves the one or more required
+dynamic models from digital twin dynamic model datastore
+13376.At step A106, the digital twin dynamic model system
+13312 selects one or more sensors from sensor system, data
+collected from Internet of Things connected devices 13338,
+and/or other data sources from digital twin I/O system 13308
+based on available data sources and the one or more required
+inputs of the dynamic model(s). In embodiments, the data
+sources may be defined in the inputs required by the one or
+more dynamic models or may be selected using a lookup
+table. At step A108, the digital twin dynamic model system
+13312 retrieves the selected data from digital twin I/O
+system 13308. At step A110, digital twin dynamic model
+system 13312 runs the dynamic model(s) using the retrieved
+input data (e.g. velocity sensor data, image data, and the
+like) as inputs and determines one or more output values
+based on the dynamic model(s) and the input data. At step
+A112, the digital twin dynamic model system 13312 updates
+the values of one or more properties of the one or more
+digital twins based on the one or more outputs of the
+dynamic model(s).
+In example embodiments, client application 13324 may
+be configured to provide a digital representation and/or
+visualization of the digital twin of a shipping entity. In
+embodiments, the client application 13324 may include one
+or more software modules that are executed by one or more
+server devices. These software modules may be configured
+to quantify properties of the digital twin, model properties of
+a digital twin, and/or to visualize digital twin behaviors. In
+embodiments, these software modules may enable a user to
+55 select a particular digital twin behavior visualization for
+viewing. In embodiments, these software modules may
+enable a user to select to view a digital twin behavior
+visualization playback. In some embodiments, the client
+application 13324 may provide a selected behavior visual-
+ization to digital twin dynamic model system 13312.
+In embodiments, the digital twin dynamic model system
+13312 may receive requests from client application13324 to
+update properties of a digital twin in order to enable a digital
+representation of a shipping entity and/or environment
+wherein the real-time digital representation is a visualization
+of the digital twin. In embodiments, a digital twin may be
+rendered by a computing device, such that a human user can

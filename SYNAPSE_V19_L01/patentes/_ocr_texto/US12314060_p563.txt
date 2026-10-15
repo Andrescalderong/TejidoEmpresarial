@@ -1,0 +1,134 @@
+An SDK or devkit may refer to the set of building tools 20 the activities 21332 of demand management, supply chain
+[col 1]
+US 12,314,060 B2
+761
+transaction, an account, a set of accounts, etc., smart wallet
+interface that may manage receipts, interfaces that may
+provide recommendations/predictions etc.) without depart-
+ing from the scope of the present disclosure. In some
+implementations, a digital twin interface may facilitate the
+creation and management of a virtual replica of the physical
+elements, processes, and entities involved in a value chain
+network. Users may utilize the interface to visualize, simu-
+late, or analyze operations, workflows, scenarios, or strate- 10
+gies pertaining to the value chain network in a virtual
+environment. In some implementations, a smart wallet inter-
+face may allow for the management of transactions, creden-
+tials, and digital assets within a network. It may include
+mechanisms for creating, amending, or substantiating smart 15
+contracts. The smart wallet interface may allow value chain
+network entities to exchange digital assets in a secure
+manner by ensuring the authenticity of transactions and their
+participants.
+(e.g., software building tools) for a specific platform (e.g..
+system). Often, the tools of an SDK may include resources
+such as a compiler that translates from one programming
+languageto another,code samples thatprovide examples of
+coding for the platform, code libraries with sets of precon- 25
+figured code sequences (e.g., common or frequently used
+coding functions), testing and analytics tools that generate
+metrics/analytics to quantify the performance of program-
+ming in, for example, testing and production environments,
+documentation that provides information or instructions to 30
+programmers/developers (e.g., instructions about other tools
+of the SDK), debuggers that are capable of identifying
+coding errors, and one or more APIs to relay calls to other
+services and systems. By deploying these tools, a new
+application may be built (e.g-, beginning with an integrated 35 t
+development environment (IDE)) or an existing application
+may be modified. In some examples, for mobile application
+development, the SDK may be Apple's IOS SDK or
+Google's Android SDK. On the other hand, for large-scale
+applications,such as enterprise Software-as-a-Service 40
+(SaaS), proprietary web applications, or desktop software
+applications, the SDK may be open source NET SDK.
+With a management stack 21300, each layer of the stack
+21300 may include one or more SOS units. As shown in
+FIG. 176A, the management stack 21300 maintains a similar 45
+hierarchical arrangement to that of the simple primary and
+secondary system 21100, 21200 of FIG. 175A. That is, the
+control layer 21310 that functions to control the value chain
+includes a control tower SOS as the primary system 21100.
+Referring to FIG. 176B, an example management stack 50
+21300 is shown for a particular enterprise value chain. In
+this example, the control layer 21310 is a primary system
+21100 or enterprise control tower SOS. The operational
+layer 21320 includes four potential value chain networks
+marketing and sales, (2) logistics, (3) service, and (4)
+operations. As shown by the darkened outline, the particular
+value chain depicted in FIG. 176B includes operations as the
+operational layer 21320. Here, with the operational layer
+21320 corresponding to the operations group of the enter- 60
+one of several activities 21332 that operations may perform.
+For instance, FIG. 176B illustrates a menu or set of activities
+21332 that are associated with the operations group of the
+enterprise. Of the set of activities 21332 depicted, the 65
+operations group is responsible for performing the activities
+21332 of production processes, infrastructure management,
+[col 2]
+762
+and quality control. In this respect, the primary system
+21100 of the control layer 21310 may have a value chain
+dedicated to the management and/or control of each of these
+activities 21332 in relation to operations as the supporting
+operation 21322 for the enterprise. That is, the first path pl
+of FIG. 176B illustrates a first value chain that corresponds
+to operations performing the activity 21332 of production
+processes. The second path p2 illustrates a second value
+chain that corresponds to operations performing the activity
+21332 of infrastructure management. The third path p3
+illustrates a third value chain that corresponds to operations
+performing the activity 21332 of quality control.
+In some configurations, such as FIG. 176B, each enter-
+prise group at the operational layer 21320 may have a
+corresponding set of activities 21332 that it can perform. For
+instance, FIG. 176B depicts that the marketing and sales
+group at the operational layer 21320 may perform the
+activities 21332 of contracts and information services. The
+logistics group at the operational layer 21320 may perform
+management, and procurement. The service group at the
+operational layer21320may perform the activities 21332of
+finance, research and development, and human resource
+management. In these configurations, each activity flow path
+p can correspond to a value chain network. In that sense, the
+enterprise control tower may be simultaneously or sequen-
+tially managing upwards of a dozen value chain networks.
+FIG. 176B also depicts that the services layer 21340 of the
+value chain differs based on the activity 21332 to be
+executed by one or more services 21342. For example, the
+value chain portrayed as the first path pl may include a
+different set of services for the activity 21332 of production
+processes than the second path p2 for the activity 21332 of
+infrastructure management. Likewise, the third path p3 for
+the activity 21332 may have a completely different set of
+services than both activities 21332 of production processes
+and infrastructure management. It will be appreciated that
+more or less paths may be used.
+Referring to FIG. 176B specifically, the service layer
+21340 shows a set of services 21342 that are executed in
+some combination to perform the production processes
+activity 21332. The set of services may be a unique mix or
+combination of service building blocks. A building block
+generally refers to a system that may be configured indi-
+vidually or in combination with another one or more systems
+to perform task(s)/service(s) that enable a particular activity
+21332 (e.g., autonomously allow the activity 21332 to
+occur). In this sense, it can be said each building block or
+service 21342 can have a particular configuration to support
+CSSs for an SOS. In FIG. 176B, the activity 21332 of
+production processes may be executed by a set of services
+21342 that includes service building blocks A, J, N, and P.
+Although not depicted, a similar example would be that the
+activity 21332 of infrastructure management may include
+service building blocks A, G, and O. As supported by these
+examples, a building block, such as A, may be configured in
+combination with two different sets of services in order to
+perform different activities 21332 (e.g., production pro-
+cesses services v. infrastructure management services). With
+this being the case, permutations of building blocks can
+perform a vast array of activities 21332.
+There may be a variety of service building blocks that
+may be configured to perform activates/actions for the
+purpose of the primary task. The building blocks that may be
+limited to a particular ecosystem, but rather may transcend
+the ecosystems that they are described in relation to herein

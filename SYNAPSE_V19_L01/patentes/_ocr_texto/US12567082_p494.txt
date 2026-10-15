@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+665
+quantum annealing module may be configured to find the
+global minimum or maximum of a given objective function
+over a given set of candidate solutions (e.g., candidate
+ states) using quantum fluctuations. As used herein, quantum
+annealing may refer to a meta-procedure for finding a
+procedure that identifies an absolute minimum or maximum,
+such as a size, length, cost, time, distance or other measure,
+from within a possibly very large, but finite, set of possible
+solutions using quantum fluctuation-based computation
+instead of classical computation. The quantum annealing ：10
+module 17020 may be leveraged for problems where the
+search space is discrete (e.g., combinatorial optimization
+problems) with many local minima, such as finding the
+ground state of a spin glass or the traveling salesman
+problem. 15
+In embodiments, the quantum annealing module 17020
+starts from a quantum-mechanical superposition of all pos-
+sible states (candidate states) with equal weights. The quan-
+tum annealing module 17020 may then evolve, such as
+following the time-dependent Schrodinger equation, a natu- 20
+ral quantum-mechanical evolution of systems (e.g., physical
+systems, logical systems, or the like). In embodiments, the
+amplitudes of all candidate states change, realizing quantum
+parallelism according to the time-dependent strength of the
+transverse field, which causes quantum tunneling between 25
+states. If the rate of change of the transverse field is slow
+enough, the quantum annealing module 17020 may stay
+close to the ground state of the instantaneous Hamiltonian.
+Ifthe rate of change of the transverse field is accelerated, the
+quantum annealing module 17020 may leave the ground 30 
+state temporarily but produce a higher likelihood of con-
+cluding in the ground state of the final problem energy state
+or Hamiltonian.
+In embodiments, the quantum computing system 17000
+may include arbitrarily large numbers of qubits and may 35
+transport ions to spatially distinct locations in an array of ion
+traps, building large, entangled states via photonically con-
+nected networks of remotely entangled ion chains.
+In some implementations, the quantum computing system
+17000 includes a trapped ion computer module 17022, 40
+which may be a quantum computer that applies trapped ions
+to solve complex problems. Trapped ion computer module
+17022 may have low quantum decoherence and may be able
+to construct large solution states. Ions, or charged atomic
+particles, may be confined and suspended in free space using ：45
+electromagnetic fields. Qubits are stored in stable electronic
+states of each ion, and quantum information may be trans-
+ferred through the collective quantized motion of the ions in
+a shared trap (interacting through the Coulomb force).
+Lasers may be applied to induce coupling between the qubit 50
+states (for single-qubit operations) or coupling between the
+internal qubit states and the external motional states (for
+entanglement between qubits).
+In some embodiments, a traditional computer, including a
+processor, memory, and a graphical user interface (GUI),
+may be used for designing, compiling, and providing output
+from the execution and the quantum computing system
+17000 may be used for executing the machine language
+instructions. In some embodiments, the quantum computing
+system 17000 may be simulated by a computer program 60
+executed by the traditional computer. In such embodiments,
+a superposition of states of the quantum computing system
+17000 can be prepared based on input from the initial
+conditions. Since the initialization operation available in a
+quantum computer can only initialize a qubit to either the 65
+10> or I1> state, initialization to a superposition of states is
+physically unrealistic. For simulation purposes, however, it
+[col 2]
+666
+may be useful to bypass the initialization process and
+initialize the quantum computing service 17000 directly.
+In some embodiments, the quantum computing system
+17000 provides various quantum data services, including
+quantum input filtering, quantum output filtering, quantum
+application filtering, and a quantum database engine.
+In embodiments, the quantum computing system 17000
+may include a quantum input filtering service 17024. In
+embodiments, quantum input filtering service 17024 may be
+configured to select whether to run a model on the quantum
+computing system 17000 or to run the model on a classic
+computing system. In some embodiments, quantum input
+filtering service 17024 may filter data for later modeling on
+a classic computer. In embodiments, the quantum computing
+system 17000 may provide input to traditional compute
+platforms while filtering out unnecessary information from
+flowing into distributed systems. In some embodiments, the
+ences for intelligent agents.
+In embodiments, a system in the system of systems may
+include model or system for automatically determining,
+based on a set of inputs, whether to deploy quantum com-
+putational or quantum algorithmic resources to a value chain
+network activity, whether to deploy traditional computa-
+tional resources and algorithms, or whether to apply a hybrid
+or combination of them. In embodiments, inputs to a model
+or automation system may include demand information,
+supply information, energy cost information, capital costs
+for computational resources, development costs (such as for
+algorithms), energy costs, operational costs (including labor
+and other costs), performance information on available
+resources (quantum and traditional), and any of the many
+other data sets that may be used to simulate (such as using
+any of a wide variety of simulation techniques described
+herein and/or in the documents incorporated herein by
+reference) and/or predict the difference in outcome between
+a quantum-optimized result and a non-quantum-optimized
+result. A machine learned model (including in a DPANN
+system) may be trained, such as by deep learning on
+outcomes or by a data set from human expert decisions, to
+determine what set of resources to deploy given the input
+data for a given request. The model may itself be deployed
+on quantum computational resources and/or may use quan-
+tum algorithms, such as quantum annealing, to determine
+whether, where and when to use quantum systems, conven-
+tional systems,and/or hybrids or combinations.
+In some embodiments, the quantum computing system
+17000 may include a quantum output filtering service
+17026. In embodiments, the quantum output filtering service
+17026 may be configured to select a solution from solutions
+of multiple neural networks. For example, multiple neural
+networks may be configured to generate solutions to a
+specific problem and the quantum output filtering service
+17026 may select the best solution from the set of solutions.
+In some embodiments, the quantum computing system
+17000 connects and directs a neural network development or
+selection process. In this embodiment, the quantum com-
+puting system 17000 may directly program the weights of a
+neural network such that the neural network gives the
+desired outputs. This quantum-programmed neural network
+may then operate without the oversight of the quantum
+computing system 17000 but will still be operating within
+the expected parameters of the desired computational
+engine.
+In embodiments, the quantum computing system 17000
+includes a quantum database engine 17028. In embodiments,
+the quantum database engine 17028 is configured with

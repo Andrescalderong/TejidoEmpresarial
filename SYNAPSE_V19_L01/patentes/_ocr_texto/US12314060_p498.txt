@@ -1,0 +1,140 @@
+[col 1]
+US 12,314,060 B2
+631
+vided by the RPA module 13416 and, in response to the
+validations of data, instruct the RPA module 13416 to adjust
+behavior of the RPA module 13416.A user of the smart
+container system 13000 may view one or more of the
+process validation logs and, in response to the one or more
+process validation logs, instruct the RPA module 13416 to
+adjust behavior of the RPA module 13416.Adjustment of
+behavior of the RPA module 13416 may include using
+different robotic process automation techniques to perform
+features of the RPA module 13416, such as, for example, 10
+changing RPA-based user interface elements presented to
+users of the smart container system 13000, adjusting how the
+RPA module 13416 interfaces with one or more external
+systems, and any other suitable adjustment by the RPA
+module 13416.
+15 In some embodiments, the intelligence service 13004 may
+use data validation information and/or feedback, process
+validation logs, or a combination thereof as training data.
+The intelligence service 13004 may train one or more
+machine-learned models to influence, adjust, and/or other- 20
+wise control behavior of the RPA module 13416 based upon
+the data validation information and/or feedback, process
+validation logs, or a combination thereof.
+In some embodiments, the RPA module 13416 may be
+configured to perform image processing to recognize images 25
+in graphical user interfaces with which the RPA module
+13416 interfaces. Graphical user interfaces of external sys-
+tems with which the RPA module 13416 interfaces may be
+changed and/or updated, thereby potentially disrupting
+robotic process automation-based interfacing with the GUI. 30
+The RPA module 13416 may automatically detect changes to
+the GUI via image recognition and/or image processing. The
+RPA module 13416 may automatically update robotic pro-
+cess automation-based interfacing with the updated GUI to
+facilitate continued interfacing with the updated GUI and 35
+avoid errors or interruptions in communication with the
+external system.
+In some embodiments, the intelligence service 13004 may
+use image process optimization to use one or more machine-
+learned models to automatically correct robotic process 40
+automation-based interfacing with the external system of the
+RPA module 13416. For example, the intelligence service
+13004 may use a plurality ofGUIs having images as training
+data to create a machine-learned model capable of automati-
+cally detecting changes in GUIs of external systems and 45
+determining how to adjust robotic process automation of the
+RPA module 13416 such that the RPA module 13416 may
+automatically continue interfacing with the GUI in light of
+a change to the GUI.
+In some embodiments, the RPA module 13416 may be 50
+configured to develop a human training system for instruct-
+ing humans to interface with one or more user interfaces of
+the smart container system 13000 and/or one or more
+external systems. The human training system may teach one
+or more human users a plurality of actions and/or techniques 55
+employed by the RPA module 13416 to interface with the
+one or more user interfaces such that the human users may
+perform tasks similarly to the RPA module 13416. The
+human training system may include one or more documents,
+videos, tutorials, and the like for facilitating human learning
+60
+of actions and/or techniques for interfacing with the user
+interfaces.
+In some embodiments, the RPAmodule 13416 maybe
+configured to process and document success criteria of
+robotic process automation implemented by the RPA module 651
+13416. The processed and documented success criteria is
+descriptive such that a human user of the smart container
+[col 2]
+632
+system 13000 and/or the RPA module 13416 may use the
+processed and documented success criteria to understand
+one or more process steps and/or algorithms used by the
+RPA module 13416 to facilitate interfacing with external
+systems and/or to automate internal marketplace workflows
+of the smart container system 13000.
+In some embodiments, the RPA module 13416 may
+implement gamification of robotic process automation capa-
+bilities of the smart container system 13000. The gamifica-
+tion of robotic process automation capabilities may include
+awarding points to users for performing tasks desirable to
+operation of the smart container system 13000 and/or desir-
+able for improvement of robotic process automation opera-
+tions of the smart container system 13000. For example,
+points may be awarded for augmentation of a robotic
+process automation algorithm. Users who have been
+awarded points may compete with one another, and digital
+and/or physical prizes may be awarded to users who have
+achieved one or more point thresholds and/or have ranked
+above one or more other users on a points leaderboard.
+In embodiments, the smart container system 13000
+includes an edge device configured to perform edge com-
+putation and intelligence. In some embodiments, edge com-
+putation and intelligence may include performing one or
+both of data processing and data storage in an area that is
+physically close to where the processed and/or stored data is
+needed. In some embodiments, the smart container system
+13000 may include a plurality of edge devices. By way of
+example, the edge device may be a router, a routing switch,
+an integrated access device, a multiplexer, a local area
+network (LAN) and/or wide area network (WAN) access
+device, an Internet of Things device, a smart container,
+and/or any other suitable device. In some embodiments,
+edge computation and intelligence may include performing
+data processing and/or data filtering. The processed and/or
+filtered data may be transmitted directly to devices that will
+use the processed and/or filtered data. The processed and/or
+filtered data may be transmitted along transmission paths
+with less congestion than general-purpose or high-traffic
+data transmission paths. Transmission of the processed
+and/or filtered data may use lower bandwidth than would
+transmission of unprocessed and/or unfiltered data.
+In some embodiments, the edge device may implement
+local edge intelligence to anticipate relevant shipping factors
+using data received by and/or stored by the edge device. The
+edge device may be directed to collecting and processing
+data related to one or more of a particular smart container,
+class of smart containers, shippers, class of shippers, ship-
+ping lines, class of shipping lines, container ports, class of
+container ports, and the like. In some embodiments, the edge
+device may be situated physically near a remote container
+port or shipping hub area. For example, the edge device may
+be positioned and configured to collect data regarding per-
+formance related to a particular type of smart container in a
+geographical region. The edge device may perform data
+processing, analytics, filtering, trend finding, prediction
+making, and the like related to the data and may send
+processing results, analytics, filtered data, trends, predic-
+tions, etc. or portions thereof to a more centralized server,
+processor and/or data center within the smart container
+system 13000.
+In some embodiments, the edge device may be configured
+to perform decision making while being physically and/or
+electronically isolated from some or all other components of
+the smart container system 13000. Herein, electronic isola-
+tion may mean or include being temporarily unable to
+communicate with one or more other systems, devices,

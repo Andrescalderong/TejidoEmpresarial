@@ -1,0 +1,134 @@
+In some embodiments, the smart futures contract system 25 level, accelerometers, gyroscope, infrared sensors, optical
+[col 1]
+US 12,314,060 B2
+653
+option-type futures contract may be based on a model or
+predictive artificial intelligence system (such as one gener-
+ated by an algorithm that may be trained on historical data
+probability that a product (or some subset thereof) will need
+to be replaced based on known exposure data, as well as
+upon a prediction of the impact of the need for replacement
+(including the impact of delays and/or reduced supply on
+pricing and other factors). In embodiments, the smart futures
+contract may be configured with an appropriate duration of 10
+option to allow for determination of the actual extent of need
+for replacement, an appropriate option price, and the like,
+such that the risk of a catastrophic loss is mitigated, while
+the likelihood of a profitable outcome is maintained to the
+extent possible under the circumstances. In embodiments, an 15
+option-type futures contract to acquire replacement goods
+may be paired with an automatically configured set of
+futures contracts that mitigate the risk by setting terms and
+conditions for alternatives to replacement, such as a set of
+alternatives goods or services, that offer incentives to accept
+delayed goods, or the like. Such contracts may be configured
+using similar inputs, models and algorithms to the ones used
+for other smart futures contracts described herein.
+15000 renegotiates a set of future prices based on a current
+market state. Renegotiation may be performed by a set of
+robotic process automation agents or other artificial intelli-
+gence system, such as trained on historical data, on feedback
+from outcomes, and/or upon human interactions involved in 3ot
+contract negotiations. As one of many examples, upon
+recognition of a likely widespread supply chain disruption
+offer to renegotiate future pricing ofinputs (such as to ensure
+continuity of supply),futurepricing of outputs (suchasto 35
+reflect likely increases in market prices), and other factors,
+which may be offered in a set of futures smart contracts that
+embody offered terms and conditions of renegotiation.
+In some embodiments, the smart futures contract system
+15000 relates to or undertakes predictive procurement to 40
+forecast future price trends, price fluctuations, future risks to
+manage, and other elements potentially required, optionally
+with the aid of an analysis, model, or the like based on
+previous procurement data. This may include models that
+account for weather, climate, geopolitical situations, epi- 45 s
+demics/pandemics, counterparty behaviors, government
+behavior (including import and export regulations and their
+enforcement), traffic, congestion at ports, inventory levels of
+key components, availability and pricing of materials, and
+many other factors. 50
+In the example provided, the smart futures contract sys-
+tem 15000 includes at least one contracting entity 15001, at
+least one data source 15002, at least one intelligence service
+15004, at least one futures system 15006, and at least one
+distribution system 15008. The contracting entity 15001 is 55
+the entity of the value chain network that owns, rents, leases,
+purchases, or otherwise controls the intelligence service
+15004. For example, the contracting entity 15001 may be a
+manufacturer of goods who is interested in managing the
+risk of raw material scarcity in future product cycles. In 60
+another example, the contracting entity 15001 may be an
+apparel manufacturer who is interested in early identification
+and price negotiation for fabrics, dies, designs, or the like
+that may become popular for the next fashion season. In yet
+another example, the contracting entity 15001 may be an 65
+industrial entity who monitors the status of components
+within various machines and places orders for future deliv-
+[col 2]
+654
+ery of components that are predicted to fail in the near
+future. In the industrial entity example, the contracting entity
+15001 may configure the intelligence service 15004 to
+compare future prices for purchasing new machines with
+futures prices for selling non-failing components of the
+machine to enter contracts for“parting out"a machine rather
+than repairing when futures prices indicate that parting out
+and purchasing a new machine is less costly than continued
+repair.
+The data source 15002 generates data for use by the
+intelligence service 15004. The data may be locally mea-
+sured (such as by sensors or IoT devices), retrieved from
+third parties, determined or enhanced by other intelligence
+services, or gathered in any other way without departing
+from the scope of the present disclosure. For example, the
+data source 15002 may generate product level data, cus-
+tomer level data, or data at other value chain levels. In the
+example provided, the data source 15002 includes directly
+connected customers 15010, intelligent products 15012, and
+environment sensors 15014. The intelligent products 15012
+and environmental sensors 15014 may provide sensor data
+associated with any measurable parameter, such as at least
+one of vibration, humidity, temperature, pressure, proximity,
+sensors, MEMS, liquid lenses, shock, security, machine,
+product, pneumatic, conductive, state dependent frequency
+monitor, ultrasonic, capacitance, or microwave. The data
+source 15002 may generate data associated with any suitable
+topic or industry, such as at least one of Internet of Things
+(loT), social networks, social media, automated agent
+behavior, business entity behavior, human behavior, data
+source outcomes, data source parameters, wearables, per-
+sonal, financial, economic, credit score, environment,
+weather, labor, employment, census, crime, health, living,
+journalism/media, entertainment, location/motion, loyalty,
+reputation, real estate, reviews, marketing, food and drug,
+education, retail, transportation, biometric, travel, event, or
+customer activity.
+The intelligence service 15004 may be a configured
+version of the intelligence service 1IT00. For example, the
+intelligence service 15004 may be adapted to execute the
+specific functions of the smart futures contract system 15000
+described below. In the example provided, the intelligence
+service 15004 includes at least one data storage 15019, a
+smart contract service 15020, a demand aggregation service
+15022, a digital wallet 15024, a risk determination service
+15026, and a robotic process automation (RPA) service
+15028.
+The data storage 15019 may be any type of non-transitory
+storage medium, such as one or more of a CD-ROM, DVD,
+memory, hard disk, flash drive, RAM, ROM, cache, net-
+work-attached storage, server-based storage, and the like.
+The data storage 15019 stores methods, programs, codes,
+program instructions, or other type of instructions capable of
+being executed by processors of the intelligence service
+15004.
+The data storage 15019 stores the data in various data
+structures. In the example provided, the data storage 15019
+includes a risk data structure 15021 and a robotic process
+automation (RPA) data structure 15022. The risk data struc-
+ture 15021 stores risk tolerance information, risk identifi-
+cation, risk assessment, and other risk information associ-
+ated with the contracting entity 15001. For example, the risk
+data structure 15021 may store a price fluctuation tolerance
+and a maximum price the contracting entity 15001 may be
+interested in paying for products in the future.

@@ -1,0 +1,131 @@
+management module 13406, a set of analysis modules 45 customer standards, or other suitable sources. In embodi-
+[col 1]
+US 12,314,060 B2
+549
+function to normalize a resulting vector of K numbers into
+a probability distribution including K probabilities propor-
+tional to exponentials of the K input numbers.
+In embodiments, artificial intelligence modules 13404
+may also include and/or provide access to a rules-based
+module 13428 that may be integrated into or be accessed by
+an intelligence service client 13324. In some embodiments,
+a rules-based module 13428 may be configured with pro-
+grammatic logic that defines a set of rules and other condi-
+tions that trigger certain actions that may be performed in
+connection with an intelligence client. In embodiments, the
+rules-based module 13428 may be configured with program-
+matic logic that receives input and determines whether one
+or more rules are met based on the input. If a condition is
+met, the rules-based module 13428 determines an action to
+perform, which may be output to a requesting intelligence
+service client 13324. The data received by the rules-based
+engine may be received from an intelligence service inputs
+13470 and/or may be requested from another module in
+20
+artificial intelligence modules 13404, such as the machine
+vision module 13422, the neural network module 13414, the
+machinelearning module 13412,and/orthe like.For
+example, a rules-based module 13428 may receive classif-
+cations ofobjects ina field ofview ofa smartcontainerfrom 25
+a machine vision system and/or sensor data from a lidar
+sensor of the smart container and, in response, may deter-
+mine whether the smart container should continue in its path,
+change its course, or stop. In embodiments, the rules-based
+30 module 13428 may be configured to make other suitable
+rules-based decisions on behalf of a respective intelligence
+service client 13324, examples of which are discussed
+throughout the disclosure. In some embodiments, the rules-
+sis modules, which are described in greater detail below.
+In embodiments, artificial intelligence modules 13404
+interface with an intelligence service controller 13402,
+which is configured to determine a type of request issued by
+an intelligence service client 13324 and, in response, may 40
+determine a set of governance standards and/or analyses that
+are to be applied by the artificial intelligence modules 13404
+when responding to the request. In embodiments, the intel-
+ligence service controller 13402 may include an analysis
+13408, and a governance library 13410.
+In embodiments, an intelligence service controller 13402
+intelligence service client 13324 and, in response, may
+determine a set of governance standards and/or analyses that 5o
+are to be applied by the artificial intelligence modules 13404
+when responding to the request. In embodiments, the intel-
+ligence service controller 13402 may include an analysis
+management module 13406, a set of analysis modules
+13408, and a governance library 13410. In embodiments, the 55
+intelligence module 13404 request and determines the gov-
+ernance standards and/or analyses implicated by the request.
+In embodiments, the analysis management module 13406
+may determine the governance standards that apply to the 60
+request based on the type of decision that was requested
+and/or whether certain analyses are to be performed with
+respect to the requested decision, For example, a request for
+a control decision that results in an intelligence service client
+13324performinganactionmayimplicateacertainsetof 65
+governance standards that apply, such as safety standards,
+legal standards, quality standards, or the like, and/or may
+[col 2]
+550
+implicate one or more analyses regarding the control deci-
+sion, such as a risk analysis, a safety analysis, an engineering
+analysis, or the like.
+In some embodiments, the analysis management module
+13406 may determine the governance standards that apply to
+a decision request based on one or more conditions. Non-
+limiting examples of such conditions may include the type
+of decision that is requested, a geolocation in which a
+decision is being made, an environment that the decision
+will affect, current or predicted environment conditions of
+the environment and/or the like. In embodiments, the gov-
+ernance standards may be defined as a set of standards
+libraries stored in a governance library 13410. In embodi-
+ments, standards libraries may define conditions, thresholds,
+rules, recommendations, or other suitable parameters by
+which a decision may be analyzed. Examples of standards
+libraries may include a legal standards library, a regulatory
+standards library, a safety standards library, a financial
+standards library, and/or other suitable types of standards
+libraries. In embodiments, the governance library 13410
+may include an index that indexes certain standards defined
+in the respective standards library based on different condi-
+tions. Examples of conditions may be a jurisdiction or
+geographic areas to which certain standards apply, environ-
+mental conditions to which certain standards apply, device
+types to which certain standards apply, materials or products
+to which certain standards apply, and/or the like.
+In some embodiments, the analysis management module
+13406 may determine the appropriate set of standards that
+must be applied with respect to a particular decision and may
+provide the appropriate set of standards to the artificial
+intelligence modules 13404, such that the artificial intelli-
+ gence modules 13404 leverages the implicated governance
+standards when determining a decision. In these embodi-
+ments, the artificial intelligence modules 13404 may be
+configured to apply the standards in the decision-making
+process, such that a decision output by the artificial intelli-
+gence modules 13404 is consistent with the implicated
+governance standards. It is appreciated that the standards
+libraries in the governance library may be defined by the
+platform provider, customers, and/or third parties. The stan-
+dards may be government standards, industry standards,
+ments, each set of standards may include a set of conditions
+that implicate the respective set of standards, such that the
+conditions may be used to determine which standards to
+apply given a situation.
+In some embodiments, the analysis management module
+13406 may determine one or more analyses that are to be
+performed with respect to a particular decision and may
+provide corresponding analysis modules 13408 that perform
+those analyses to the artificial intelligence modules 13404,
+such that the artificial intelligence modules 13404 leverage
+the corresponding analysis modules 13408 to analyze a
+decision before outputting the decision to the requesting
+client. In embodiments, the analysis modules 13408 may
+include modules that are configured to perform specific
+analyses with respect to certain types of decisions, whereby
+the respective modules are executed by a processing system
+that hosts the instance of the intelligence service 13004.
+Non-limiting examples of analysis modules 13408 may
+include risk analysis module(s), security analysis module(s),
+decision tree analysis module(s), ethics analysis module(s),
+failure mode and effects (FMEA) analysis module(s), hazard

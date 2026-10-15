@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+597
+displacement,velocity,acceleration,momentum,kinetic
+energy, vibrational characteristics, thermal properties, elec-
+tromagnetic properties, and the like.
+In some embodiments, a set of two or more digital twins
+may be represented by a graph database that includes nodes
+and edges that connect the nodes. In some implementations,
+an edge may represent a spatial relationship (e.g., “"abuts",
+"rests upon", “contains", and the like). In these embodi-
+ments, each node in the graph database represents a digital
+twin of an entity (e.g-, a shipping entity) and may include the 10
+data structure defining the digital twin. In these embodi-
+ments, each edge in the graph database may represent a
+relationship between two entities represented by connected
+nodes. In some implementations, an edge may represent a
+spatial relationship (e.g., "abuts", “rests upon", "interlocks 15
+with", “bears", “contains", and the like). In embodiments,
+various types of data may be stored in a node or an edge. In
+embodiments, a node may store property data, state data,
+and/or metadata relating to a facility, system, subsystem,
+and/or component. Types of property data and state data will 2o facilities of an enterprise.
+differ based on the entity represented by a node. For
+example, a node representing a shipping robot may include
+property data that indicates a material of the robot, the
+dimensions of the robot (or components thereof), a mass of
+the robot, and the like. In this example, the state data of the 25
+robot may include a current pose of the robot, a location of
+the robot (e.g., within a smart container or on a container
+ship), or the like. In embodiments, an edge may store
+relationship data and metadata data relating to a relationship
+between two nodes. Examples of relationship data may 30
+include the nature of the relationship, whether the relation-
+ship is permanent (e.g-, a fixed component would have a
+permanent relationship with the structure to which it is
+attached or resting on), and the like. In embodiments, an
+edge may include metadata concerning the relationship 35
+between two entities. For example, a sensor may take
+measurements relating to a state of a smart container,
+whereby one relationship between the sensor and the smart
+surement type that is measured by the sensor. In this 40 I
+example, the metadata stored in an edge may include a list
+of N measurements taken and a timestamp of each respec-
+tive measurement. In this way, temporal data relating to the
+nature of the relationship between two entities may be
+maintained, thereby allowing for an analytics engine, 45 
+machine-learning engine, and/or visualization engine to
+leverage such temporal relationship data, such as by aligning
+disparate data sets with a series of points in time, such as to
+facilitate cause-and-effect analysis used for prediction sys-
+tems. 50
+In some embodiments, a graph database may be imple-
+mented in a hierarchical manner, such that the graph data-
+base relates a set of facilities, systems, and components. For
+example, a digital twin of a shipping environment may
+include a node representing the shipping environment. The 55
+graph database may further include nodes representing vari-
+ous systems within the shipping environment, such as nodes
+representing a smart container fleet, a smart container charg-
+ing area, a storage area, and the like, all of which may
+connect to the node representing the shipping environment. 60
+In this example, each of the systems may further connect to
+various subsystems and/or components of the system. For
+example, the smart container system may connect to a
+subsystem node representing a cooling system of the smart
+container, a second subsystem node representing a heating 65
+system of the smart container, a third subsystem node
+representing the fan system of the smart container, and one
+[col 2]
+598
+or more nodes representing a thermostat of the smart con-
+tainer (or multiple thermostats). Carrying this example fur-
+ther, the subsystem nodes and/or component nodes may
+connect to lower-level nodes, which may include subsystem
+nodes and/or component nodes. For example, the subsystem
+node representing the cooling subsystem may be connected
+to a component node representing an air conditioner unit.
+Similarly, a component node representing a thermostat
+device may connect to one or more component nodes
+representing various sensors (e.g-, temperature sensors,
+humidity sensors, and the like).
+In embodiments, where a graph database is implemented,
+a graph database may relate to a single environment or may
+represent a larger enterprise. In the latter scenario, a com-
+pany may have various shipping distribution facilities. In
+these embodiments, an enterprise node representing the
+enterprise may connect to environment nodes of each
+respective facility. In this way, the digital twin module
+13420 may maintain digital twins for multiple shipping
+In embodiments, the digital twin module 13420 may use
+a graph database to generate a digital twin that may be
+rendered and displayed and/or may be represented in a data
+representation. In embodiments, the digital twin module
+13420 may receive a request to render a digital twin,
+whereby the request includes one or more parameters that
+are indicative of a view that will be depicted. For example,
+the one or more parameters may indicate a shipping envi-
+ronment to be depicted and the type of rendering (e.g.,
+would see it, an “"infrared view" that depicts objects as a
+function of their respective temperature, an “airflow view"
+that depicts the airflow in a digital twin, or the like). In
+response, the digital twin module 13420 may traverse a
+graph database and may determine a configuration of the
+environment to be depicted based on the nodes in the graph
+database that are related (either directly or through a lower-
+level node) to the environment node of the environment and
+the edges that define the relationships between the related
+nodes.Upon determining a configuration, the digital twin
+module 13420 may identify the surfaces that are to be
+depicted and may render those surfaces. The digital twin
+module 13420 may then render the requested digital twin by
+connecting the surfaces in accordance with the configura-
+tion. The rendered digital twin may then be output to a
+viewing device (e.g., VR headset, AR headset, monitor, or
+the like). In some scenarios, the digital twin module 13420
+may receive real-time sensor data from a sensor system of an
+environment and may update the visual digital twin based on
+the sensor data. For example, the digital twin module 13420
+may receive sensor data (e.g., vibration data from a vibration
+sensor) relating to smart container cargo. Based on the
+sensor data, the digital twin module 13420 may update the
+visual digital twin to indicate the approximate vibrational
+characteristics of the cargo within a digital twin of the smart
+container.
+In scenarios where the digital twin module 13420 is
+providing data representations of digital twins (e.g., for
+dynamic modeling, simulations, machine learning), the digi-
+tal twin module 13420 may traverse a graph database and
+may determine a configuration of the environment to be
+depicted based on the nodes in the graph database that are
+related (either directly or through a lower level node) to the
+environment node of the environment and the edges that
+define the relationships between the related nodes. In some
+scenarios, the digital twin module 13420 may receive real-
+time sensor data from a sensor system of a shipping entity

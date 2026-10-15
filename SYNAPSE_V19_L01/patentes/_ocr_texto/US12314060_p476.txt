@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+587
+acquired), references to preconfigured tasks, user interface
+templates/menus/screens for each aspect of a job (e.g., how
+a user can request status, observe activity, change a job
+requirement, respond to an inquiry, and the like) and the like.
+The freight storage and/or transportation service order data
+13096 and, if indicated, the ancillary job data are processed
+by a task definition ingestion facility that works coopera-
+specific content. This job instance-specific content may
+include, among other things, initial sequence timing as may
+10
+be defined in the input data (e.g., "do task A before task B")
+and/or derived therefrom (e.g., securing cargo in the con-
+tainer with steel strapping necessarily must occur after the
+cargo is loaded into the container). The job parsing system
+may interact with the data processing system 13024 when 15
+converting job description data to utilize information
+derived from a smart container fleet management system
+accessible library, such as job and fleet library 13044. The
+ingestion facility may store some job description content
+directly into the job instance storage, such as job identifi- 20
+cation information, links to internal ancillary data and the
+like.
+In embodiments, one or more human interactive capabili-
+ties for facilitating job parsing and task definition may
+include knowledge-based systems (e.g-, Al-based and the 25
+like) that may interact with a human (e.g. via text input,
+conversation-bot, haptic-input, and the like) to gather infor-
+mation for preformatting, organizing, and vetting job and
+task data. These interactions may be in lieu of or supple-
+mental to receiving a job description. 30
+The job parsing system may use job descriptive informa-
+tion produced by or passed through the ingestion facility to
+construct job instance content suitable for task definition.
+The job parsing system may use the information provided by
+the ingestion facility to query content in the library 13044 35
+(e.g., via the data processing facility 13024 as optionally
+depicted). Content in the library that may be useful or
+informative of task definition may include job syntax (e.g..
+terms that are relevant to a given job, job type, set of tasks,
+smart container types, smart container capabilities (e.g-, by 40
+type, size, cost, availability, etc.), keyword-to-task cross
+reference, workflow definition rules, order execution plan
+format/content/structure. Further, the library may include
+templates for various task definition-related activities, such
+as exemplary smart container configurations (e.g., based on 45 
+task keyword and the like), exemplary team configurations
+(e.g., for performing certain types or classes of tasks), task
+definitions, workflows and workflow definitions, exemplary
+order execution plan(s)and the like.
+Akeyword-based task lookup module may retrieve infor- 50 a
+mation in the job instance storage, such as task-oriented
+keywords and the like and apply those to the library 13044
+to potentially identify preconfigured or templated tasks or
+portions thereof. As an example, a job description may
+include keywords, such as “submerged" and the like that 55
+may suggest a need for smart containers that are configured
+to travel underwater. When such keywords are combined
+with an action “"submerged 3D printing", the keyword-based
+task lookup module may identify smart container types that
+perform 3D printing and can travel underwater. If a descrip- 60
+tor of a task in the library aligns with one or more job
+description keywords, the task may be considered a candi-
+date task for the job.
+In embodiments, a task definer module may process
+candidate tasks provided by the task lookup module as well 65
+as information in the job instance storage to form definitions
+for tasks to be performed by one or more smart containers.
+[col 2]
+588
+Defining tasks may include tasks that are predefined by
+standards, laws (e.g., customs), and the like. Each task
+definition may include information useful for identifying a
+smart container typeforperformingthetask.
+In embodiments, the task definition system may process
+task data derived from a freight storage and/or transportation
+service order (e.g., as provided by the freight storage and/or
+transportation service order parser) in the context of smart
+container types by identifying characteristics of smart con-
+tainer types that align with the task data. In example
+embodiments, the task definition system may determine that
+task data indicates a characteristic of a smart container for
+shipping may include traveling in an arctic environment. In
+this example, the task definition system may generate a task
+definition for the shipping task that includes at least a
+requirement for smart container selection based on this
+characteristic. In these example embodiments, the task defi-
+nition may further include a required degree of tolerance to
+cold temperatures. The task definition system may further
+determine that characteristics of one or more smart contain-
+ers (e.g., based on task information derived from the freight
+storage and/or transportation service order) that may not be
+suitable for incorporation in a single smart container/smart
+container type. This determination may be based on, for
+example, smart container characteristics and type data that is
+accessible in the library 13044. In such an example, the task
+definition system may define multiple tasks, each with smart
+container characteristics that are consistent with smart con-
+tainer characteristic information in the library 13044. In
+embodiments, the task definition system may define a task
+with multiple potentially incompatible smart container char-
+acteristics, optionally along with an indication of one or
+more portions of the task that require each type of the
+multiple incompatible smart container characteristics that a
+fleet resources, such as smart containers and the like. In
+embodiments, a task definition may include one or more
+suggestions for types of smart containers for performing the
+task, such as based on alignment of task requirements (e.g..
+derived from task information of a freight storage and/or
+transportation service order), smart container characteristics,
+and smart container types that may be available in the library
+13044. As will be explained below, a fleet configuration
+ system 13020 may evaluate a task definition, including any
+ suggested smart container types. Other exemplary data that
+may be communicated when defining a task may include
+task sequence dependencies that may be suitable for defining
+a workflow that includes the defined task. As an example, a
+container self-cleaning task may be required to be performed
+after an unloading task. Such a dependency may be docu-
+mented and relied upon by a workflow definition system.
+The task definer module may save a defined task into the job
+instance storage where it may be cross referenced to job
+descriptive data (e.g., keywords and the like) so that future
+detections of the cross-referenced keywords can quickly
+result in a suitable task definition.
+In embodiments, a fleet configuration system 13020 pro-
+vides specific software, hardware, and smart container con-
+figuration requirements for completion of an order execution
+plan. In this example construction, a fleet configuration
+proxy module may be constructed to receive task definitions
+from a job configuration system 13018. The fleet configu-
+ration proxy module may be instantiated in association with
+processing of a freight storage and/or transportation service
+order by the job configuration system 13018 to facilitate
+access to and use of fleet configuration system 13020
+resources and systems. This and other instantiations of the

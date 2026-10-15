@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+673
+some form of monitoring and analysis. For a general quan-
+tum computing request 17104, input data may not be struc-
+tured or formatted as necessary for quantum computing.
+In embodiments, external data requests 17106 may
+include any available data that may be necessary for training
+new quantum instances. The sources of such requests could
+be public data, sensors, ERP systems, and many others.
+Incoming operating requests and associated data may be
+analyzed using a standardized approach that identifies one or
+10 more possible sets of known quantum instances, quantum
+computing engines, or other quantum computing resources
+that may be applied to perform the requested operation(s).
+Potential existing sets may be identified in the quantum set
+library 17108. 15
+In embodiments, the quantum computing system 17000
+includes a quantum computing configuration service 17010.
+The quantum computing configuration service may work
+alone or with the intelligence service 17034 to select a best
+available configuration using a resource and priority analysis
+that also includes the priority of the requestor. The quantum
+computing configuration service may provide a solution
+(YES) or determine that a new configuration is required
+(NO).
+In one example, the requested set of quantum computing 25
+services may not exist in the quantum set library 17108. In
+this example, one or more new quantum instances must be
+developed (trained) using available data. For example, a
+quantum computing module for optimizing truck freight
+deliveries in the United States may exist in the quantum set 30
+library 17108. However, requestor inputs identified the need
+to optimize shipping in Canada. In this case, quantum
+instance training may work with the intelligence service
+17034 to train a new instance for Canada using a range of
+public data such as shipping schedules, speed limits, fuel 35 s
+mileage and cost, and so forth. In embodiments, alternate
+configurations may be developed with assistance from the
+intelligence service 17034 to identify alternate ways to
+provide all or some of the requested quantum computing
+services until appropriate resources become available. For 40
+example, a quantum/traditional hybrid model may be pos-
+sible that provides the requested service, but at a slower rate.
+In embodiments, alternate configurations may be devel-
+oped with assistance from the intelligence service 17034 to
+identify alternate and possibly temporary ways to provide all 45
+or some of the requested quantum computing services.For
+example, a hybrid quantum/traditional model may be pos-
+sible that provides the requested service, but at a slower rate.
+This may also include a feedback learning loop to adjust
+services in real time or to improved stored library elements. 5o
+When a quantum computing configuration has been iden-
+tified and available, it is allocated and programmed for
+execution and delivery of one or more quantum states
+(solutions).
+Biology-Based Systems for VCNs
+Techniques described herein improve the ability of net-
+works and systems to collect, transmit, and process large
+volumes of data, especially data from sensors and other
+value chain data generators. These techniques include using
+a thalamus service that provides an equivalent to a biological
+thalamus, a neural system for filtering and relaying data. The
+thalamus service described herein can receive large volumes
+of information and quickly prioritize the information, pass-
+ing on the most importing information so that limited
+transmission, processing, collection, and/or analysis 65
+information.
+[col 2]
+674
+Additionally, a predictive model communication protocol
+(PMCP) is described herein. PMCP may be used to reduce
+a volume of transmitted data, especially when the data is
+predictable or usually predictable. PMCP may operate by
+transmitting predictive model parameters instead of some or
+all of the data values that would normally be transmitted by
+a sensor device or other data source. For example, a device
+implementing PMCP may continually receive inputs (e.g.
+sensor data) and train a predictive model using the stream of
+sensor data. Rather than transmitting the sensor data, which
+may use significant network and/or processing resources, the
+PMCP device may transmit the model parameters, which
+may be used by a receiving device to operate a predictive
+model to predict current and future sensor data. Thus, the
+receiving device may have a predictive model of sensor data
+without receiving the sensor data. In embodiments, if the
+sensor data at the PMCP device begins operating outside of
+expectations, the model parameters may be re-transmitted to
+the receiving device, which may update its predictive model
+20 and thereby obtain more accurate predictive data.
+In some embodiments, to optimize decision-making,
+quantum computers and/or predictive models may be used
+with the techniques described herein. Furthermore, quantum
+coordination can be applied to allow for disparate units to
+securely coordinate actions (e.g, without the need for tra-
+ditional communication mechanisms). Accordingly, tech-
+niques described herein may use a combination of decen-
+biology-baseddecision-makingcapabilities tralized
+distributed throughout devices within the value chain net-
+work and quantum capabilities. Furthermore, these tech-
+niques are also an efficient mechanism for enabling opera-
+tional efficiency of a coordinated value chain network.
+FIG. 162 shows a value chain network thalamus service
+18000 and a set of input sensors streaming data from various
+sources across the value chain network and the system of
+systems (SOS) control system 18002 with its centrally-
+managed data sources 18004. The thalamus service 18000
+filters the inputs from the various data sources 18004 into the
+control system 18002 such that the control system is never
+overwhelmed by the total volume of information.In
+embodiments, the thalamus service 18000 provides an infor-
+mation suppression mechanism for information flows within
+the value chain. This mechanism monitors all data streams
+and suppresses and/or filters irrelevant data streams by
+ensuring that the maximum data flows from all input sensors
+are always constrained.
+In embodiments, the thalamus service 18000 may be a
+gateway for all communication that responds to the priori-
+tization of the system of systems control system 18002. The
+system of systems control system 18002 may decide to
+change the prioritization of the data streamed from the
+thalamus service 18000, for example, during a known fire in
+an isolated area, and the event may direct the thalamus
+service 18000 to continue to provide flame sensor informa-
+55 tion despite the fact that majority of this data is not unusual.
+The thalamus service 18000 may be an integral part of the
+overall system of systems communication framework.
+In embodiments, the thalamus service 18000 includes an
+intake management system 18006. The intake management
+system 18006 may be configured to receive and process
+multiple large datasets by converting them into data streams
+that are sized and organized for subsequent use by a central
+control system 18002 operating within a system of systems.
+For example, a robot may include vision and sensing sys-
+tems that are used by the central control system 18002
+(which may be on-board the robot and/or in a separate
+device in communication with the robot) to identify and

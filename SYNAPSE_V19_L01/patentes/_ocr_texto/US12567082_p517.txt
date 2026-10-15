@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+711
+ing the distributed network. As discussed herein, data stored
+in edge storage may be too voluminous to be centrally
+stored, and thus the aggregators may maintain a dynamic
+ledger that may instruct edge notes to move, summarize,
+and/or store summary data that may be used to respond to
+certain queries, probabilistic models built by edge nodes that
+may be used to respond to certain queries, and other data that
+may be used to formulate query responses without requiring
+prohibitively large amounts of network traffic to and from
+various edge devices. In some embodiments, the dynamic 1o
+ledger 20150 may be a blockchain, and in these embodi-
+ments, the aggregators may be blockchain nodes that may be
+used to “"mine new blocks, distribute new blocks to other
+nodes (e.g., edge nodes), implement consensus algorithms,
+and/or the like. Additionally or alternatively, the dynamic 15
+ledger 20150 may be a ledger that is not a blockchain, and
+the aggregators may use various techniques and/or architec-
+tures as described herein to create dynamic ledger instruc-
+tions for the edge nodes to share the data stored on the
+dynamic ledger 20150.
+In embodiments, an aggregator 20140 may receive a
+query from a query device, determine a query plan for
+obtaining any necessary data and responding to the query,
+cause execution of the query plan on the edge node, and
+provide a query response to the query device 20110. In other 25
+words, a query device 20110 may transmit a query to an
+aggregator, which may be configured to handle the query
+using the techniques described herein. In embodiments,
+users may interact with an aggregator 20140 or an edge node
+as if it were the database, running queries and updating data 30
+as normal via query commands (e.g., EDQL commands). In
+response, the aggregator 20140 may create instructions on
+the dynamic ledger for the edge nodes to execute queries,
+aggregate intermediate results, and send final results back to
+the query device. Communication between aggregators and 35
+edge nodes for query execution may be implemented as
+EDQL statements.
+In embodiments, aggregators 20140 may operate as load
+balancers and/or network proxies through which query
+devices may interact with a cluster of the distributed data- 40
+ base. For example, aggregators 20140 may create dynamic
+ledger instructions to cause data to be shifted between edge
+devices (e.g., replicated from edge storage associated with a
+first edge device to edge storage associated with a second
+edge device) in order to optimize the performance of the 45 t
+network (e.g-, by moving data closer to devices that are
+receiving queries for that data).
+In embodiments, data may be sharded across the edge
+devices into partitions. The number of partitions may be
+configurable on a cluster level with a set variable and/or may 5o
+be available as an optional parameter (e.g., to a DDL
+statement). Additionally or alternatively, the number of
+partitions may be based on usage patterns rather than hard
+coded column-based partition names. In the context of query
+execution, a partition may be the granular unit of query 55
+parallelism. In some embodiments, every parallel query is
+run with a level of parallelism equal to the number of
+partitions. In others, an additional degree of parallelism is
+provided which is intra-partition parallelism.
+In embodiments, the various devices may communicate 60
+using one or more networks 20160, which may include the
+Internet and/or other communication networks.In some
+embodiments,the various devices that implement and/or
+interact with the distributed database may be separated by
+large distances, and thus may communicate via various local 65
+networks as well as wide area networks. For example, a
+distributed database for storing sensor data may include
+[col 2]
+712
+edge devices 20120 in various cities, states, countries, or
+other locations, all of which may communicate via various
+networks 20160 to implement the functions and features
+described herein.
+FIG. 166B illustrates an example architecture 20170 for
+connecting various devices in a mesh network configuration.
+Although the architecture 20170 shows a few devices, in
+practice the number of edge devices, aggregators, and/or
+edge device/aggregators may be much larger in number.
+Additionally or alternatively, instead of using a mesh net-
+work architecture, the devices may use a fully connected
+architecture or some other type of network architecture. As
+shown in FIG. 166B, a query device 20110 may connect to
+one or more edge devices (e.g, edge device 20120B, edge
+device/aggregator 20130B), which provide APIs and/or
+20110. For example, the query device 20110 may connect to
+edge device 20120B, which may store a first set of edge data
+at edge storage connected to edge device 20120B, and/or to
+20 edge device/aggregator 20130B, which may store a second
+set of edge data at edge storage connected to edge device/
+aggregator 20130B. In embodiments, although the edge
+devices may store different edge data in edge storage, using
+techniques described herein, they may provide the same or
+ similar responses to some queries (e.g., queries that are not
+ specific to an edge device). For example, whether the query
+device 20110 sends a particular query (e.g., a query for an
+average sensor reading for a particular region) to a first edge
+device in the region or a second edge device in the region,
+the query response may be the same (or statistically similar).
+In this example, the edge devices may provide the same or
+similar responses because they may access and/or use the
+same summary data and/or probabilistic models stored on
+the dynamic ledger 20150 to respond to the query.
+In embodiments, the query device 20110 may additionally
+or alternatively connect directly to (and/or send queries
+directly to) various edge devices/aggregators 20130 and/or
+aggregators 20140. In embodiments, the edge devices
+20120, edge devices/aggregators 20130, and/or aggregators
+and/or may connect via other devices to the dynamic ledger
+20150. In embodiments, the network may maintain multiple
+dynamic ledgers 20150 that may be used to store different
+types of data (e.g., a first dynamic ledger for storing a first
+type of data and a second dynamic ledger for storing a
+second type of data)and/or data that may be used for
+different purposes.
+FIG. 167A illustrates details of example data stored in
+edge storage 20122,which may be connected to various
+edge devices, which in turn may include and/or be connected
+to various sensors 20202 and/or other data sources 20204. In
+embodiments, to leverage storage across independent stor-
+age devices, the database may be replicated and/or edge
+sharded (typically in part) across multiple edge devices by
+storing various data in different partitions, where each
+partition may correspond to a different edge storage 20122.
+This sharding and/or replication enables the database to
+execute query fragments on each partition and then combine
+the results to produce a single answer. Applications and/or
+users may have no knowledge of where data is physically
+located or how tables are partitioned and/or replicated. A
+partitioning scheme (as described in more detailed below)
+may maximize single edge node transactions to avoid the
+need to coordinate the behavior of concurrent transactions
+running on other nodes.
+As shown in FIG. 167A, each edge device 20120 may
+store detailed data from connected sensors 20202 and/or

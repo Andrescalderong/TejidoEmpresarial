@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+337
+analysis (e.g., using a second Al-assisted technique and/or a
+second set of sensor inputs) indicated the absence of the
+particular condition (e.g., the disease is absent), the com-
+bined analysis circuit 9332 may combine the results of the
+first and second diagnostic analysis, apply weightings, lever-
+age intelligence modules 9358, and/or otherwise process the
+outputs of the first and second diagnostic analysis to gen-
+erate an indication of whether the particular condition is
+present, a likelihood of the particular condition being pres-
+ent, and/or the like. In embodiments, the combined analysis 1o 
+circuit 9332 may process a first diagnostic analysis indicat-
+ing a first condition and a second diagnostic analysis indi-
+cating a second condition to determine that a third condition
+is present. In embodiments, the combined analysis circuit
+9332 may combine a first action plan (e.g-, a treatment/ 15
+maintenance/preventative action plan) indicated by a first
+diagnostic analysis and a second action plan indicated by a
+second diagnostic analysis to yield a combined action plan
+that may include actions indicated by the first action plan,
+actions indicated by the second action plan, and/or third 2o
+plan. In embodiments, the combined analysis circuit 9332
+may process a first diagnostic analysis indicating a first
+probability of a condition and a second diagnostic analysis
+indicating a second probability of the condition to yield a 25
+combined analysis indicating a third probability of the
+condition, where the third probability may be lower, higher,
+in between, or equal to one or both of the first and second
+probabilities.
+The governance circuit 9334 may enforce rules, override 30
+actions in action plans, control analyses performed by the
+analysis circuits 9322-9328, or otherwise modify the analy-
+ses and/or outputs of analyses to conform with governance
+rules. For example, the governance circuit may require that
+certain actions of an action plan are not dangerous to 35
+humans, are not illegal, etc. The governance circuit 9334
+may retrieve governance rules from governance library
+9354, which may store rules that are tailored for a particular
+application. For example, when the chip 9300 is monitoring
+environmental conditionsin alocation wherehumans work,4o
+the governance circuit 9334 may retrieve a governance
+library specifying acceptable environmental conditions for
+humans. The governance circuit 9334 may then use this
+information to require certain actions when certain condi-
+tions are detected (e.g-, sounding an alarm when a dangerous 45 t
+substance is detected), override certain actions in an action
+plan (e.g., actions that may change the environment to be
+dangerous or otherwise unsuitable for humans), control
+which types of analysis are used and/or how the analyses are
+performed by the various analysis circuits, and/or the like. 5o
+By contrast, when the chip 9300 is configured to monitor
+environmental conditions in a location where there are no
+humans, it may use a different set of governance rules. In
+some cases, governance rules may require reporting of
+certain conditions to certain parties (e.g-, reporting of dis- 55
+ease data to a patient, doctor, etc.), prohibit reporting of
+conditions to certain parties (e.g., to comply with HIPAA
+laws), and/or the like. To control the operations of the
+analysis circuits, the governance circuit 9334 may be con-
+figured to monitor and/or be leveraged by the analysis 60
+circuits 9322-9328 such that the governance circuit 9334
+may instruct the analysis circuits to perform or not perform
+certain analyses, modify how the analyses are performed,
+and/or the like.
+The reporting circuit 9336 may generate reports including 65
+the results of the analyses and/or combined analyses, as
+modified by any governance rules, and output the reports
+[col 2]
+338
+(e.g., as outputs 9394). The reporting circuit 9336 may
+format the data as required to interoperate with any module/
+device/system that receives the outputs 9394. In embodi-
+ments, the reporting circuit 9336 may generate human-
+readable reports including the results of the analyses and
+transmit the human-readable analyses to one or more client
+devices (e.g., as indicated by system specifications 9356 or
+other configuration parameters).
+FIG. 112 illustrates a governance chip 9400, one or more
+of which may be used to perform one or more governance
+functions as described herein. The chip 9400 may be used by
+any value chain entity that conforms with various gover-
+nance standards, including safety, security, quality, regula-
+tory, financial, or other standards. In embodiments, a chip
+9400 may use artificial intelligence (AI) and other tech-
+niques to perform governance functions on input data from
+governance chip 9400 and/or other devices in communica-
+tion with the host device. In embodiments, the governance
+chip 9400 may be configured to receive and analyze data to
+determine situations in which governance may apply, may
+be configured to build one or more models for enforcing
+governance, and then may enforce rules, limitations,
+requirements, quality, or other aspects of governance using
+the models by triggering actions in response to governance
+violations, reconfiguring data to avoid governance viola-
+tions, issuing instructions to one or more devices in com-
+munication with the governance chip 9400, and/or otherwise
+performing governance actions using the governance chip
+9400.
+In embodiments, the chip 9400 may be configured to
+receive input data comprising a set of data to which gover-
+nance standards may be applied. The input data may include
+a data set that must comply with one or more safety, security.
+quality, regulatory, financial, or other standards for a par-
+ticular domain. In embodiments, multiple governance stan-
+dards may apply to a single data set. For example, both
+The governance standards may only apply to the set of data
+based on certain conditions, such as a location or other
+condition of a particular device in communication with the
+chip 9400, a current state of a module, device, system, or
+network, or other such conditions.
+Accordingly, the chip 9400 may initially analyze a par-
+ticular data set (e.g-, a data set received as inputs 9492) to
+determine whether one or more governance standards apply,
+as described in more detail below. Based on determining that
+one or more governance standards apply, the chip 9400 may
+then prioritize the applicable standards and generate and/or
+validate a model that enforces the governance standards. The
+model may include one or more flows for checking that data
+complies with the governance standards, performing actions
+to cause compliance with the governance standards, taking
+remedial actions when governance violations occur, and the
+like. When multiple governance standards apply, the chip
+9400 may generate a model that reconciles any potential
+overlaps or conflicts between the multiple standards. The
+chip 9400 may validate a model using test data or other
+strategies, as described in more detail below.
+After the model is generated and/or validated, the chip
+9400 may use the model to enforce governance standards.
+The chip 9400 may use the model to enforce governance
+standards on one or more received data sets, including data
+sets that are not received until after the model has been
+generated and validated. In embodiments, the chip 9400 may
+continually optimize the model over time to ensure gover-
+nance compliance as conditions change, and may generate

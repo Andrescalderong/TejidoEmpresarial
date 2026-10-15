@@ -1,0 +1,136 @@
+The fleet communication management system 12010 may 45 remote-control initiators (e.g-, fleet artificial intelligence
+[col 1]
+US 12,567,082 B2
+451
+communication resources for meeting a security aspect of a
+requested job. This configuration may be applied to fleet
+resources and maintained by the communication manage-
+ment system for the duration of resource participation in the
+requested job.
+A further cooperative operation of fleet security system
+12006 with the fleet communication management system
+12010 may include managing access by fleet resources to
+external resources (e.g., websites, and the like) as well as
+access by external resources to fleet resources. The fleet 1o
+like to fleet resources based on allocation/configuration of
+those resources. As an example, a firewall-type security
+function of the fleet security system 12006 may be deployed
+at, among other things, access points managed by the fleet 15 J
+communication management system to connect distinct job-
+specific communication systems. The fleet communication
+system 12010 may also support management of one or more
+fleet resources, such as mobile robot operating units, that are
+configured by the fleet configuration system to have access 2o
+to multiple isolated communication systems (e.g. a hub type
+deployment that facilitates access among isolated commu-
+nication systems). The fleet security system 12006 may
+enforce inter communication system access rights by
+deploying and operating a centrally managed threat detec- 25
+In embodiments, the fleet communication management
+system 12010 may take advantages of intelligence capabili-
+ties of fleet resources, such as resources with artificial
+intelligence capabilities (optionally provided by AI-specific 30
+chips and chip sets and the like), to establish dynamic
+communication management functions that enrich and work
+with fleet security capabilities to further reduce the likeli-
+hood of a successful intrusion into a fleet communication
+system. As an example, AI-based functionality deployed 35 i
+throughout at least portions of a fleet resources (e.g, indi-
+vidual robot operating units and the like) may be relied upon
+to detect local environments with increased risk of intrusion
+or other threat (e.g., based on contextual and historical
+informationrepresentativeof such environments andthe 4o
+like) so that the communication management system,
+optionally in cooperation with the fleet security system
+12006 may adapt fleet communication resources for reduc-
+ing such risk.
+make use of and/or facilitate control of use by others of the
+fleet network system 380. As an example of management of
+the fleet network system 380, the fleet communication
+management system 12010 may treat the fleet network
+system 380 as a resource to be managed for use by fleet 50 r
+resources for communicating, such as by determining and/or
+controlling which resources utilize the network, how
+resources using the network at the same time may be
+coordinated, network loading limits for such resources, and
+the like. 55
+In embodiments, the fleet operations system 12002
+includes a remote-control system12012thatis configured to
+assist the job execution system 12022 and provide a frame-
+work for remotely controlling robot operating units and
+other external resources to complete tasks and/or jobs. In 60
+embodiments, the remote-control system 12012 may man-
+age definition and use of control signals for remote operation
+of robot operating units (e.g, multi-purpose, special pur-
+pose, exoskeleton, humans, and the like), fleet support units,
+external resources and the like. Robot remote-control as
+enabled by the remote-control system 12012 may include
+definition and management of local robot operating unit to
+[col 2]
+452
+robot operating unit control signaling, such as when a team
+supervisor robot is directing one or more robot team mem-
+bers to perform tasks. Other examples of remote-control
+signal management may include human-to-exoskeleton sig-
+naling, robot-to-robot fleet support signaling, intra-team
+robot operating unit signaling, and the like.
+In embodiments, the fleet operations system 12002
+includes a remote-control system 12012 that is constructed
+to assist the job execution system 12022 and provide a
+framework for remotely controlling robot operating units
+and other external resources to complete tasks and/or jobs.
+The remote-control system may manage definition and use
+of control signals for remote operation of robot operating
+units (e.g-, multi-purpose, special purpose, exoskeleton,
+humans, and the like), fleet support units, external resources
+and the like. Robot remote-control as enabled by the remote-
+control system 12012 may include definition and manage-
+ment of local robot operating unit to robot operating unit
+control signaling, such as when a team supervisor robot is
+directing one or more robot team members to perform tasks.
+Other examples of remote-control signal management may
+include human-to-exoskeleton signaling, robot-to-robot fleet
+support signaling, intra-team robot operating unit signaling,
+and the like. In embodiments, the remote-control system
+uses resources of the fleet management platform i2000
+and/or a fleet configuration, including, for example, the fleet
+communication management system 12010, the fleet secu-
+rity system 12006, and/or fleet network system 380 to access
+information, in some cases make decisions, and execute
+commands. The framework for remotely controlling robot
+operating units may comprise a series of actions based
+standard rules, adapted rules modified by situational aware-
+ness, emergency rules, exceptions, human decisions, ethical
+rules, the fleet intelligence system, etc. However, special-
+ized, fall-over, or other communications necessary to handle
+a range of remote-control requirements may be part of the
+communication management system 12010 that may facili-
+tate delivery of remote control communication/signaling
+while what the communications should be versus may be
+determined from use of the remote-control system 12012.
+The remote-control system 12012 may recognize a plu-
+rality of initiators of remote-control signals, including local
+supervisor remote-control initiators, human (local or
+remote) remote-control initiators, automated fleet-based
+system and the like), third-party remote-control initiators
+(e.g., for law enforcement and the like). Remote control
+signaling may include managing remote control signals to
+fleet-external resources, such as fire and emergency
+response resources, infrastructure resources, third-party
+robot service providers, and the like.
+The fleet resources that may participate in remote-control
+operations may be diverse in both implementation and
+protocols, such as older generation robot operating units,
+human fleet resources, quantum computing elements and the
+like. Therefore, the remote-control system 12012 (in coop-
+eration with the communication system 12006)may be
+constructed with knowledge of multiple remote operational
+protocol (multi-protocol) capabilities to ensure any two
+devices exchanging control signals can do so reliably. In
+embodiments, multi-protocol capabilities may include han-
+dling and/or providing as a service protocol-to-protocol
+translation, remote-control signal consolidation and inter-
+pretation, protocol normalization, and the like. In embodi-
+ments, the communication management system 12010 may
+utilize these protocol handling capabilities directly as noted
+above and by API and the like, or by being configured with

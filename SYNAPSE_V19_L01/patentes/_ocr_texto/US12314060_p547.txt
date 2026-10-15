@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+729
+late averages and/or other statistical measurements of data
+received in response to the predicted future query. At 20480,
+the edge device/aggregator 20130 may cause storage of the
+generated summary data on the dynamic ledger 20150.
+Additionally or alternatively, the edge device/aggregator
+20130 may develop and/or train one or more probability
+distribution models based on the summary data and may
+cause storage of the one or more probability distribution
+models on the dynamic ledger 20150.
+Although the method 20450 of FIG. 169C and the method 10
+20470 of FIG. 169D are illustrated as separate example
+methods, in embodiments, the methods 20450 and 20470
+may be implemented by the same module and/or devices.
+For example, aggregators 20140 may continually monitor
+pending data request as well as generate predicted future
+queries in order to continually generate models, prepare
+summary data, etc. for responding to current or predicted
+future queries. Accordingly, the methods 20450 and 20470
+should be understood as different example flows that may be
+implemented by the same device in order to continuously 20
+optimize the distributed database.
+In embodiments, in addition to or as an alternative to the
+methods 20450 and/or 20470, aggregators 20140 (for
+example)may continuously cause detailed data tobemoved
+from one edge device 20120 to be stored as redundant data 25
+at another edge device 20120 (e.g., as shown at FIG. 167A).
+For example, the aggregators 20140 may detect (e.g., from
+query logs that one edge device 20120 continuously receives
+requests for data that is stored at another edge device 20120,
+and accordingly may cause the requested data to be stored 3o
+redundantly at the edge device 20120 receiving the queries.
+Thus, in addition to optimizing the distributed database by
+preparing summary data and/or models to provide approxi-
+mate responses, the aggregators 20140 may further optimize
+the distributed database by moving data from edge device 35
+20120 to edge device 20120 in order to allow edge devices
+20120 to better handle queries.
+FIGS. 170A-B illustrate example data flows 20500,
+20550 for generating data structures to be stored in the
+distributed database using a query language (e.g., EDQL) as 40
+described herein. In the ilustrated examples, queries 20502
+are formatted in an SQL format with custom DDL exten-
+sions (e.g., EDQL format). However, it should be under-
+stood that, in some embodiments, the queries may be
+formatted in other query languages. The example data flows 45
+20500, 20550 illustrate specific DDL concepts that may be
+used to provide a database schema in the context of the edge
+distributed system as described herein.
+In embodiments, some or all of the edge distributed tables
+of the distributed database may be associated with one or 50
+more shard algorithm (also referred to herein as a “shard
+lookup algorithm). The shard algorithm may function like
+a normal table index and may contain any number of
+columns. The shard algorithm may be used to determine
+which partition (or partitions) a given row belongs to (e.g-. 55
+which edge storage 20122 should store the given row of a
+distributed table).
+When a query contains an INSERT, a CREATE, or a
+ similar statement (e.g., according to an SQL standard), the
+edge data management module 20354 of the aggregator 60
+20140 may compute an output value based on the values in
+the column or columns using a shard algorithm, may per-
+index (e.g., an identifier of a particular edge device 20120
+and/or edge storage 20122), and may direct the query to the 65
+appropriate partition(s) on the edge device(s) (e.g, to a
+given edge storage 20122). In embodiments, any two rows
+[col 2]
+730
+with the same shard algorithm value may be guaranteed to
+be on the same partitions due to the operation of the shard
+algorithm.
+In embodiments, query optimizers (e.g., a query planning
+module 20356 of the aggregator 20140 and/or a query
+execution module 20308 of an edge device 20120)may
+leverage shard algorithms to determine how a query should
+be executed. For example, queries that fully match one or
+more shard algorithm parameters may be routed directly to
+a single partition on a single edge device (e.g., as shown in
+FIG. 170A). Other queries (e.g-, group-by queries) where the
+set of keys do not overlap between partitions can be
+executed in parallel on the distributed edges. In some
+embodiments (e.g., depending on the query), the results may
+be streamed back without any additional processing on the
+edge data management module 20354.
+FIG.170A illustrates an example in which a query 20502
+for creating a new data table is provided to an aggregator
+20140, which causes an edge device 20120A to store the
+data table in edge storage 20122A. The example query
+20502 of FIG. 170A uses a specified shard algorithm (la-
+belled "local_neural" in the example query) and a desig-
+nated primary key (labelled *event_id" in the example
+query) as an argument to the shard algorithm. In the illus-
+trated example, the specified shard algorithm argument
+causes the distributed table to be stored on a single edge
+partition (e.g-, because the indicated shard algorithm is a
+neural network that, in the example case, outputs to a single
+edge storage partition 20122A).Additionally or alterna-
+tively, another example query that creates a table with a
+primary key and no explicit shard algorithm may operate in
+a similar manner (e.g., the primary key may be used as the
+shard algorithm parameter by default). In embodiments,
+using the primary key as a shard algorithm parameter may
+help avoid data skew because it may cause an even distri-
+bution of data.
+FIG. 170B illustrates a second example in which a query
+20552 for creating a new data table is provided to an
+aggregator 20140, which causes an edge device 20120A to
+store the data table in edge storage 20122A. The example
+query 20502A of FIG. 170A uses a non-unique shard algo-
+rithm (labelled “local_genetic" in the example query) and
+with an edge device identifier (labelled “edge_device_id" in
+the example query) as an argument to the shard algorithm.
+In the illustrated example, any two events by the same edge
+device 20120 may be on the same partition. In embodiments,
+this property may be advantageously used for efficient query
+execution (e.g-, of an example query including a COUNT
+(DISTINCT edge_device_id) portion) because any two
+equal (non-distinct) edge_device_id values may be guaran-
+teed to be on the same partition (e.g., in the same edge
+storage). In these embodiments, data for edge devices can be
+stored in duplicate locations and the dynamic ledger may be
+applied to distribute processing while ensuring non-dupli-
+cated results.
+FIGS. 171A-B illustrate example data flows 20600,
+20650 for querying data stored in the distributed database
+using a query language (e.g., EDQL) as described herein. In
+the illustrated examples, queries 20502 are formatted in an
+SQL format with custom DML extensions (e.g., EDQL
+format). However, it should be understood that, in some
+embodiments, the queries may be formatted in other query
+languages. The example data flows 20600, 20650 illustrate
+specific DML concepts that may be used to query a distrib-
+uted database in the context of the edge distributed system
+as described herein.

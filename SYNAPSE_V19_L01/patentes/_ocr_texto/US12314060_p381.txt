@@ -1,0 +1,133 @@
+the sharing of resources, capabilities and intelligence. In 25 facturing network enabled by an autonomous additive manu-
+printing instruction set including a file (e.g-, a CAD file 50 ing device having a processor and a computer-readable
+[col 1]
+US 12,314,060 B2
+397
+include sequences involving additive manufacturing and
+other manufacturing entities (such as subtractive manufac-
+turing entities that cut, dye, or the like and/or finishing
+entities that sew, configure, add customer initials, or the
+like), including handoffs between sets of different manufac-
+turing entity types, such as where handoffs are handled by
+robotic handling systems. In embodiments, a set of digital
+twins may represent attributes and capabilities of the various
+manufacturing systems, various handling systems (robotic
+ systems, arms, conveyors, and the like, as well as human 10
+workforce)and/orthe surrounding environment.
+It will be apparent that the above decisions related to
+predictions, optimizations using the artificial intelligence
+system 10212 of platform 10110 are only presented by way
+of example and should not be construed as limiting. There 15
+may be many other use cases including decisions related to
+prediction and optimization of pricing by a CFO twin 10720;
+decisions related to new product launch by a CEO twin
+based on behavioral patterns and market trends; and the like.
+In embodiments, the autonomous additive manufacturing 20
+platform 10110 enables the distributed manufacturing net-
+and across one or more manufacturing nodes, thereby facili-
+tating collaboration across the manufacturing nodes through
+embodiments, the manufacturing nodes may collaborate for
+forecasting and prediction of material supply and product
+demand. In embodiments, the manufacturing nodes may
+collaborate for design and product development. In embodi-
+ments, the manufacturing nodes may coliaborate for manu- 30
+facturing and assembling one or more parts of a product. In
+embodiments, the manufacturing nodes may collaborate for
+distribution and delivery of manufactured products.
+The distributed manufacturing network 10130 may thus
+provide “"manufacturing as a service" by leveraging unuti- 35
+lized capacity of one or more 3D printers by exposing the
+capacity to one or more users/designers seeking to fabricate
+3D printed parts.
+In embodiments, a method for facilitating the manufac-
+tureanddeliveryofa3Dprintedproducttoacustomerusing 40
+one or more manufacturing nodes of the distributed manu-
+facturing network 10130 includes receiving one or more
+product requirements from the customer; determining one or
+more manufacturing nodes, processes and materials based
+on the product requirements; generating a quote including 45
+pricing and delivery timelines; and upon acceptance of the
+quote by the customer, manufacturing and delivering the 3D
+printed product to the customer.
+In embodiments, the product requirements may be a 3D
+and/or an STL file) and any accompanying instructions for
+printing the product defined in the file.
+In embodiments, the distributed manufacturing network
+may be implemented through a distributed ledger system
+integrated with the digital thread for storing a set of entities, 55j
+activities and transactions related to the distributed manu-
+facturing network.
+In embodiments, a smart contract system may communi-
+cate with the distributed ledger system and may be config-
+ured to implement and manage a smart contract via the 60
+distributed ledger. The smart contract may be stored in the
+distributed ledger and may include a triggering event. The
+smart contract may be configured to perform a smart con-
+tract action in response to an occurrence of the triggering
+event. The distributed manufacturing network may be con-
+figured to receive from a user an instance of the 3D printing
+instruction set. The 3D printing instruction set may be
+[col 2]
+398
+tokenized such that the instance of the 3D printing instruc-
+tion set can be manipulated as a token on the distributed
+ledger. The tokenized 3D printing instruction set may be
+stored via the distributed ledger. Commitments of various
+parties (distributed manufacturing network entities) to the
+smart contract may be processed. The use of smart contracts
+in the distributed manufacturing network helps in automat-
+ing the distributed manufacturing workflow.
+In embodiments, the distributed manufacturing network
+facilitates the creation of a distributed manufacturing mar-
+ketplace or exchange for buying and selling of additive
+manufacturing parts, products and instruction sets with the
+manufacturing nodes constituting the sellers and customers
+constituting the buyers.
+In embodiments, the distributed manufacturing network
+facilitates the creation of a data marketplace for selling of
+operational additive manufacturing data by manufacturing
+nodes to data aggregators. In embodiments, the data mar-
+ketplace is built on a distributed ledger and manufacturing
+nodes are compensated using digital token via smart con-
+tracts. In embodiments, the data is anonymized to hide the
+identity of manufacturing nodes that own the data.
+FIG. 120 is a diagrammatic view of a distributed manu-
+facturing platform and built on a distributed ledger system
+according to some embodiments of the present disclosure.
+The distributed manufacturing network 10130 is imple-
+mented with a distributed ledger system where the distrib-
+uted ledger may be distributed at least in part over nodes of
+the distributed manufacturing network 10139 and may
+include blocks linked via cryptography. The distributed
+ledger system stores data related to a set of entities, activities
+and transactions in the distributed manufacturing network
+10130.
+The different manufacturing nodes 10100, manufacturing
+node 10128, manufacturing node 10800 and manufacturing
+node 10802 each represent a node in the distributed manu-
+facturing network 10130. Also, the different systems within
+a manufacturing node including the additive manufacturing
+unit 10102, the pre-processing system 10104, the post-
+processing system 10106, the material handling system
+10108, the autonomous additive manufacturing platform
+10110, the user interface 10112, the data sources 10114 and
+the design and simulation system 10116 referred to as
+distributed manufacturing network entities constitute dis-
+tributed computing nodes of the distributed ledger system.
+The distributed computing node is essentially a comput-
+medium having machine-readable instructions stored
+thereon and contains full copy of the transaction history of
+the distributed ledger. The nodes of the distributed ledger
+including additive manufacturing systems, enterprise sys-
+tems, inventory management systems, packaging systems,
+shipping and/or delivery tracking systems, SKU databases,
+smart factories and so on. Whenever additional transactions
+are proposed to be added to the distributed ledger, one or
+more of the nodes typically validate the proposed additional
+transaction records, such as via a consensus algorithm.
+Typically, once the proposed transaction has been validated
+e.g., through any consensus algorithm, the proposed trans-
+action is added to each copy of the distributed ledger across
+all the nodes.
+In embodiments, the transaction data is validated by the
+nodes through a proof-of-work (POW) consensus algorithm

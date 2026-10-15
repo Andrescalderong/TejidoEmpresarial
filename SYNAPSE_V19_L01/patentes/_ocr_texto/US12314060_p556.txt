@@ -1,0 +1,135 @@
+background than a sales department for a second product 2o tics processes, reverse logistics processes, demand predic-
+[col 1]
+US 12,314,060 B2
+747
+department, a procurement team, a manufacturing depart-
+ment, a logistics department, a general operations team, etc.
+The nature of an enterprise's autonomous-oriented sys-
+tems likely depends to some degree on the structure of the
+enterprise. To illustrate, some organizations may be struc-
+tured such that a business unit is shared by multiple divi-
+sions. As an example, an organization shares various admin-
+istrative functions. That is, although an organization may
+have several divisions, all of the divisions use the same legal
+department or human resources department. In other situa- 10
+tions, it may make sense that a particular role or activity is
+included in each business unit. For instance, a manufactur-
+sion manufactures different products. Here, each division
+may have its own accounting department or sales depart- 15
+ment because overseeing those departments may be contex-
+tually dependent on the product manufactured. In other
+words, a sales department for a first product (e.g. a sofware
+product) may demand different job skills or educational
+(e.g., a semiconductor).
+With many permutations as to the structure of an enter-
+prise, certain aspects of the enterprise may be or become
+disjointed from others aspect of the enterprise. For example,
+a quality department in one division may have little to no 25
+idea what a quality department in another division is doing.
+Unfortunately, this can mean that autonomous-oriented sys-
+tems-or non-autonomous system(s) relied on by autono-
+mous-oriented systems-that are deployed by the first qual-
+ity department can be unknown to the second quality 3o
+department even though the systems may be of value to the
+ second quality department. As an enterprise becomes larger,
+this type of problem can amplify such that managing or
+tracking resources such as autonomous-oriented systems can
+becomeseeminglyuntenable.Ifthistypeofsituationarises,35
+it is nearly inevitable that compatibility and cooperation
+among autonomous-oriented systems can be difficult and/or
+non-existent. This disappointing reality can result in under-
+utilization of resources and/or a lack of cooperative synergy.
+Moreover, without addressing some of these issues, the 40
+increasing prevalence of autonomous-oriented systems can
+translate to an ever-increasing collective mismanagement of
+available autonomous-oriented resources. For example, an
+autonomously even though it has the capability or may 45
+deploy future resources that hinder its current autonomous
+capabilities.
+One approach to address some of the issues with resource
+management at the enterprise level is to design a control
+architecture based on an enterprise's value chain.A value 5o
+chain can refer to a set of connections between organiza-
+tions, business units, or individuals associated with these
+entities. In a value chain, the connections are based on
+interactions that promote a measure of value. For example,
+an enterprise value chain is a set of connections that promote 55
+value for the overarching purpose, goal, or objective of the
+enterprise. For a commercial enterprise, the value chain may
+generally be constructed according to a set of relationships
+that produce and/or increase owner/shareholder value as the
+measure of value.
+In some configurations, value chains may be further
+classified into value chain networks. Similar to a value chain
+that includes a set of connections, the set of connections for
+a value chain network includes a group of entities with one
+or more similar attributes (e.g-, similar asset management
+responsibilities/controls). This group may be considered a
+“network"' of a value chain because, for example, the inter-
+[col 2]
+748
+actions of the group demand shared information, data,
+and/or resources. In some implementations, such as an
+enterprise value chain, a value chain network may refer to a
+grouping that occurs at a particular level within the enter-
+prise. For instance, each “network" of the value chain
+network may be formed at the business unit level of the
+enterprise. Each network may be responsible for the execu-
+tion of some range of tasks or activities in furtherance of the
+goal or purpose of the enterprise. For example, a particular
+business unit can be referred to as a unit structure because
+the members of business units share similar role obligations
+(e.g., share, collaborate, and/or manage similar resources,
+information, and/or data). In some implementations, a set or
+group of the value chain network entities may include, but
+is not limited to one or more of products, suppliers, produc-
+ers, manufacturers, retailers, businesses, owners, operators,
+operating facilities, customers, consumers, workers, mobile
+devices, wearable devices, distributors, resellers, supply
+chain infrastructure facilities, supply chain processes, logis-
+tion processes, demand management processes, demand
+aggregation processes, machines, ships, barges, warehouses,
+maritime ports, airports, airways, waterways, roadways,
+railways, bridges, tunnels, online retailers, ecommerce sites,
+demand factors, supply factors, delivery systems, floating
+assets, points of origin, points of destination, points of
+storage, points of use, networks, information technology
+systems, software platforms, distribution centers, fulfllment
+centers, containers, container handling facilities, customs,
+export control, border control, drones, robots, robotic han-
+dling systems, 3D printers, vehicles, autonomous vehicles,
+hauling facilities, waterways, or port infrastructure facilities.
+In various implementations, an enterprise may have mul-
+tiple value chain networks. This could mean that one value
+chain network may refer to an operations business unit of the
+enterprise (i.e, an operations value chain network). Another
+value chain network may be a marketing and sales business
+unit of the enterprise (i.e., a marketing and sales value chain
+network). Yet another value chain network may be for a
+logistics business unit of the enterprise (i.e, a logistics value
+chain network). In this sense, a value chain network for a
+commercial business may be an economic ecosystem where
+each member of the network relies on other members of the
+network to promote value. The members of these networks
+may be internal members of the enterprise (e.g., teams or
+individual employees) or external members (e.g., custom-
+ers).
+As systems, such as autonomous-oriented systems, con-
+tinue to improve, custom or selectively enhanced value
+chains according to the architecture disclosed herein may
+further expand (e.g-, contribute to) the value capacity of
+these value chains. For example, the control architecture
+seeks to coordinate connectivity, high-level strategy, and/or
+chains to increase a target value metric. Moreover, the
+architecture may promote incremental value benefits for
+downstream elements (e.g., SAO systems) by providing a
+structure that enables cooperative configurations of task/
+subtask processing. In other words, SAO systems that pro-
+6o vide services can have their configurations tuned on a higher
+management plane (e.g., a control plane) rather than at the
+particular individual SAO system level (e.g., a data plane).
+In this respect, SAO systems can be configured to cooperate
+together with configurations that optimize their collective
+ autonomy.
+Referring to the example implementation of FIG. 175A,
+in some implementations, a control architecture 21000 gen-

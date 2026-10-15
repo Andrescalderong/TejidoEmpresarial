@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+463
+a plurality of concurrent and/or overlapping job requests.
+The fleet configuration system 12020 may determine fleet
+and robot configurations based on job requests, projects,
+robot tasks, a budget, a timeline, availability of robots or
+robot types, the configurability options of multi-purpose
+robots, and/or other suitable considerations. As an example,
+fleet configuration may include specifying a quantity of each
+type of robot that can be configured per job, project, task or
+other unit of configuration. In some embodiments, the fleet
+configuration system 12020 may leverage the platform
+12000-level intelligence layer 12004 to determine fleet
+and/or multi-purpose robot configurations. In some of these
+embodiments, the intelligence request may include a pro-
+posed job configuration and other relevant data (e.g., bud- 15
+getary constraints, location, environment, etc.). In response,
+the intelligence layer 12004 may output a proposed fleet
+configuration (which may include multi-purpose robot con-
+figurations). Further details of a fleet configuration system
+12020 are described and depicted in figures elsewhere 20 t
+herein.
+In embodiments, a fleet operations system 12002 may
+include a job execution, monitoring, and reporting system
+12022 (also referred to as a job execution system 12022). A
+job execution system 12022 may receive a job execution
+plan from the job configuration system 12018 that it pro-
+cesses by coordinating activities of platform functions, such
+as logistics for robot and fleet resource delivery, data pro-
+cessing system 12030 allocation for facilitating data collec-
+tion, cataloging, library management and data processing 30 
+activities for job execution. In general, the job execution
+system 12022 may start a job with committing and manag-
+ing resources, including resources beyond those configured
+by the job configuration system 12018, such as computing.
+storage, bandwidth, and the like as may be defined by and/or 35 
+determined to be useful for executing the job execution plan.
+In embodiments, the job execution system 12022 may
+further facilitate adherence to reporting requirements (e.g.
+job-specific, fleet-specific; compliance-related _ reporting.
+and the like) associated with job execution.In embodiments, 40
+reporting may include data collection (e.g., from robot
+operating units, sensor systems, user devices, databases,
+and/or the like), data processing, and feedback preparation
+for use of job execution data by job and fleet configuration
+systems and the like. In embodiments, the job execution 45
+system 12022maybe assisted by other platform capabilities
+that transmit, process, store, and manage data that impacts
+job execution, such as the maintenance management system
+12026, the resource provisioning system 12014, and the
+communication management system 12010 that facilitates 50
+communications among robot operating units, teams, and
+fleets, and others. These and other fleet and external
+resources may provide information to the job execution
+system 12022 for facilitating operational aspects of a
+requested job, such as which communication resources has 55
+the fleet communication management system 12010
+reserved and/or allocated for the requested job, service
+and/or maintenance requirements for robot operating unit
+and other resources being used to execute a job, changes to
+resource provisioning that occur after operation of a job has 60
+commenced, and the like.
+In embodiments, the job execution system 12022 may
+further facilitate evaluation and modification of a job execu-
+tion plan while executing the job by, for example identifying
+bottle necks that are developing due to on-the-job conditions
+(e.g., traffic jams, ground conditions not as expected due to
+excessive rain, and the like).
+[col 2]
+464
+In embodiments, the job execution system 12022 may
+perform a variety of data pipeline functions during execution
+of a job. In embodiments, data pipeline functions may
+include, among other things, optimizing use of preconfig-
+ured sensor and detection packages that combine sensor
+selection, sensing, information collection, preprocessing,
+routing, consolidation, processing, and the like. In embodi-
+ments, sensor and detection packages may be activated by
+the job execution system 12022 when use thereof is indi-
+cated as serving a range of monitoring/reporting activities.
+Other data pipeline function examples include optimizing
+on-robot storage, selective sensor data filtering for reduced
+impact on communication bandwidth (e.g., reducing the
+demand for wireless network utilization), exception condi-
+tion detection and pipeline adaptation/data filtering, and
+others.
+In embodiments, the job execution system 12022 may
+monitor, and if necessary, address robot power demand
+during job execution. In these embodiments, the job execu-
+tion system 12022 may ensure, for example, battery charge
+capacity (or other energy source levels, such as fuel levels)
+across multiple robot operating units to meet job task and
+workflow requirements, such as a queue of tasks that should
+not be interrupted.In embodiments,robot power demand
+management may include fleet, team, and individual robot
+operating unit routing to complete tasks with reduced delays
+in overall productivity with integrated robot charging activi-
+ties. Further details of the functions and operation of the job
+execution system 12022 are described throughout the dis-
+closure.
+In embodiments, fleet functionality, including during job
+execution may be combined with 3D printing services and
+systems to enable, for example, agile, remote, flexible
+manufacturing on an as-demanded basis through, for
+example, deployment and use of optionally automated
+robotic 3D printing and production capabilities proximal to
+a point of use (e.g-, a job site, a logistics site, a warehouse,
+a transportation vehicle, and the like). Another exemplary
+use of fleet robot functionality with 3D printing combines
+this agile flexible production capability with customizable
+product delivery for last-mile customization of products.
+Several exemplary embodiments of 3D printing functional-
+ity combined with the methods and systems of fleet man-
+agement are described elsewhere herein, including, without
+limitation on-robot 3D printing of service items at a service
+site; 3D printing of job specific end-effectors and/or adaptors
+based on context acquired at a job site; robot control of
+transportable (e.g., job site-deployed) 3D printing systems;
+3D scanning and in-situ printing, and the like.
+In embodiments, the job execution system 12022 may
+execute, deploy, and/or interface with a set of smart con-
+tracts that monitor and report on robot operating units
+12040. In embodiments, robust distributed data systems,
+such as distributed ledgers (e.g-, public or private block-
+chains) can be utilized for tracking and enhancing robot
+fleets and/or multi-purpose robot activities, as well as allo-
+cation of robotic resource utilization cost to relevant parties,
+such as job requestors, fleet users, and the like. In some of
+these embodiments, the distributed ledger nodes store and
+execute smart contracts. In embodiments, the smart con-
+tracts may be configured to monitor job requests, job execu-
+tion, resource use, and/or the like. For example, in some
+embodiments, robot operating units may be configured to
+provide evidence of completion of a task to a smart contract,
+such that the smart contract may trigger actions (e.g.,
+payments, recordation, or the like) in response to completed
+tasks. In another example, robot operating units may be

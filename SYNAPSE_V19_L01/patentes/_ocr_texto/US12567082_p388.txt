@@ -1,0 +1,135 @@
+[col 1]
+US 12,567,082 B2
+453
+such protocol handling capabilities (e.g-, deployed with
+protocol handling capabilities of the remote-control system
+12012. In embodiments, the remote-control system 12012
+(or equivalent functions thereof integrated with the commu-
+nication management system 12010) may rely on portions of 
+the fleet intelligence layer, such as digital twin and/or
+artificial intelligence service, to facilitate, for example pro-
+tocol translation and/or adaptation. Therefore, the remote-
+control system 12012 may provide real-time, on demand
+protocol translation, optionally assisted by the fleet intelli-
+gence system. The remote-control system 12012 may sup-
+port fleet-external remote-control via a port that is config-
+ured for integration with external and/or third-party remote-
+control Remote-control architectures. may be
+communicated via dedicated infrastructure and/or commu-
+nication features (e.g., short-distance broadcast capabilities).
+A remote-control system 12012 may include an ethics
+capability that may provide guidance and/or regulation of
+remote control based on ethics factors, such as ensuring that 20 
+a robot does no harm to humans, animals, the environment,
+and the like. Ethics factors may be influenced by govern-
+ment and/or industry regulations, human behavior models
+that facilitate determining fairness, and the like. Ethics may
+be enforced through statistical measures, such as based on
+voting by member of a team of robot operating units. As an
+example of statistics-based ethics enforcement, an action to
+override a job execution plan, an attempt at a remote
+takeover of a robot operating unit, or any other exception
+may be evaluated by a portion of team members wherein 3o reconfiguration data.
+each member of the portion may contribute a perspective on
+the remote operation. Each perspective may be a vote
+for/against permitting/taking the remote-control action. A
+robot operating unit vote may be split among possible
+outcomes (e.g., 90% for, 10% against) and the like to enact 35
+a form of weighting of the perspective on possible outcomes.
+The remote-control system 12012 may be constructed to be
+influenced by ethics-based decision making, such as robot
+operating unit voting as described herein. Ethics-based con-
+trol, and the like, may be combined with other remote-
+control system 12012 control capabilities so that factors
+beyond ethics, such as cost, and the like may be factored into
+remote-control. In embodiments, ethics capabilities may be
+leveraged via the intelligence layer 12200. In these embodi-
+ments, remote control instructions may be analyzed using
+one or more analysis modules 12208 and/or and with respect
+to one or more set of governance standards.
+Remote-control, such as control of robot operating units
+may be initiated, at least in part, by a human operator. In
+embodiments, a fleet operations system 12002 may encoun- 50
+ter unexpected and/or unknown conditions during job execu-
+tion (e.g., as may exemplarily be reported by the job
+execution system 12022) and defer to a human operator to
+remotely control robot operating unit(s). Optionally one or
+more fleet intelligence system 12022 components, such as 55
+an artificial intelligence system may be referenced for at
+least candidate remote-control signals. In embodiments, a
+job execution plan may indicate, at a predetermined opera-
+tional task, that robot operation should be guided by a
+human operator. When such a task is anticipated to occur in 60
+a job workflow (e.g., by a job execution monitoring instance,
+such as a supervisor robot and the like), the remote-control
+system 12012 may be called upon to oversee a remote-
+control connection between a suitable human operator and
+the robot, robot operating units, team, team supervisor and 65
+the like executing the workflow that calls for human opera-
+tor control.
+[col 2]
+454
+In embodiments, the remote-control system 12012 may
+have access to a set of remote-control signal sequences for
+performing certain tasks remotely. The system 12012 may,
+based on context of a workflow being performed, suggest to
+a human operator and/or an automated control system one or
+more remote-control signal sequences. In embodiments, the
+remote-control system may process input from a human
+operator (e.g., commands such as “stop", “evacuate" and the
+like), optionally with help of other fleet resources (e.g., an
+of remote-control signals for remotely controlling fleet
+resource, such as a robot operating unit and the like. Remote
+control signal sequences may be preconfigured for handling
+a range of real-time situations, such as security breaches,
+equipment failure, and the like. In addition to facilitating
+and/or managing remote-control of a robot operating unit,
+ration of fleet resources deployed and/or allocated for a task,
+workflow, job and the like. In an example of use of remote-
+control signals for reconfiguration, a set of robot operating
+units performing a task may be remotely controlled to take
+on a new role due to failure of one of the robots in the set.
+A human operator (or an automated system monitor-type
+application) may provide remote control signals that are
+communicated to the viable members of the team to adjust
+task roles and actions accordingly, such as by communicat-
+ing a remote control signal to one or more of the viable
+members to communicate with a robot operating unit con-
+figuration server to receive reconfiguration instructions and
+Although generally described herein as remote-control
+signals, the remote-control system 12012 may facilitate
+remote-control by arranging remote control signals into
+remote control instructions (e.g., combinations of remote-
+control signals, abstractions thereof and the like) at the fleet
+level, team level, robot level and the like. As an example of
+remote-control instruction functionality, the remote-control
+system 12012 may receive input, such as from a human
+operator desiring to instruct all robots with illumination
+capability to activate lights toward a target location to assist
+with optical inspection or some other visual function that
+would benefit from greater illumination. In this example, the
+remote-control system may receive the human operator
+remote-control instruction, adapt that instruction into one or
+more different remote control signals for the robot operating
+units 12040 that are within an illumination proximity of the
+target location and generate corresponding remote-control
+signals for each of the types of proximal robot operating
+units and ensure communication of those signals (e.g., via
+the communication management system 12010 resources) to
+the robot operating units to be remotely controlled by the
+human operator. Yet further, robot operating units that
+receive the remote-control instruction may further partici-
+pate in the implementation of the instructions by, for
+example, communicating among the set receiving the sig-
+nals (and/or a subset thereof) to determine which, if any,
+robot operating units are executing the instruction. A first
+robot thusly contacted may be performing a time-sensitive
+function that would be disturbed if it redirected its resources
+to providing the commanded illumination. By coordinating
+with other robot operating units, the first robot may continue
+with the time-sensitive function based on response(s) from
+other robot operating units regarding executing the remote-
+control command. In another remote-control instruction
+example, a team of robot operating units may be remotely
+controlled by instructing them, via the remote-control sig-
+nals of the remote-control system 12012, to adjust operation

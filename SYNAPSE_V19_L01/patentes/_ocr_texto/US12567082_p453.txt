@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+583
+order execution plan corresponding to the freight storage
+and/or transportation service order.
+In embodiments, the fleet configuration system 13020
+may leverage digital twins when configuring fleet resources.
+Use of digital twins with fleet configuration may include
+identifying and/or defining one or more digital twins of one
+or more smart containers based on information in the task
+definition. Fleet configuration may include identifying con-
+figuration and/or operation of a smart container so that a
+smart container can perform the route and/or task or a 1o
+portion thereof. Such smart container task configuration
+instructions may be generated through the use of a digital
+twin for one or more of a set of candidate smart containers
+for performing a task. In an illustrative example, a smart
+container may be associated with a plurality of configura- 15
+tion/operational data structures for configuring the smart
+container to perform routines, actions, routes, tasks and the
+like.The fleet configuration system 13020 may identify or
+otherwise be provided with one or more candidate smart
+container configuration data structures (e.g., from the library 20
+13044) for use to perform a task. A portion of such a
+candidate configuration data structure may include a rate of
+requested job requirements may explicitly or implicitly
+indicate that a movement rate is different than the value in 25
+the candidate configuration data structure. In embodiments,
+the fleet configuration system may make any adjustments to
+the candidate configuration data structure (e.g-, reducing
+of the candidate smart container, observe and/or evaluate the 30
+execution (e.g., simulation) of the digital twin with the
+adjusted configuration data structure, and store it in the
+library 13044 and the like. The newly stored configuration
+data structure may be cataloged based on the freight storage
+and/or transportation service order and/or other parameters
+of the requested job, task, and the like to make for efficient
+access in the future.
+A smart container configuration library may include job
+information, smart container information, fleet information,
+task definition rules/metadata that may be useful to deter-
+mine how to define smart container tasks, workflow con-
+figuration rules and/or techniques, prior freight storage and/
+or transportation service order results from application of the
+shipment configuration system (e.g., prior order execution
+plans), and the like. The library 13044 may be accessed 45
+and/or updated by functions of the job operations system.
+Ilustrative examples of the library 13044 are described
+herein variously in conjunction with job operations system
+functions and features, such as job configuration and the
+like. As an example, the smart container configuration 50
+library may include specific reference to configurations of
+smart containers that may be utilized during fleet configu-
+ration, order execution and the like. In this example, the
+smart container configuration library may have references to
+smart container configuration data sets (e.g., data that when 55s
+uploaded to a smart container may enable the smart con-
+tainer to perform a function, such as 3D printing, in-
+container packaging, and the like). Further, the library may
+provide a cross-reference of smart container configurations
+with other smart container-related information, such as base 60
+model, version, required features, and the like that may be
+required for successful deployment of a smart container
+configured with a given configuration. Yet further, the
+library may suggest alternatives to certain combinations of
+smart containers and configurations, such as indicating that 65
+a newer version of a smart container model may include
+built-in capabilities provided by a specific configuration.
+[col 2]
+584
+Therefore, the fleet configuration system may have greater
+flexibility in deciding which smart containers to deploy for
+different jobs. References are made herein to the library
+13044, using contextual modifiers, such as smart container
+configuration library and the like. These contextual modifi-
+ers may suggest one or more portions and/or instance of the
+library 13044 for illustrative purposes only.
+In embodiments, optimization features of the task defini-
+tion system are described below in association with feed-
+back from other elements of the job configuration system
+13018, such as the workflow simulation system and the like.
+In some embodiments, the fleet operations system and the
+fleet intelligence system perform a feedback for order execu-
+tion-time iteration of configuration activities, such as for
+adapting and executing instances of an order execution plan.
+In these embodiments, feedback within a job configuration
+system 13018 facilitates iterating configuration activities
+when producing components of an order execution plan,
+such as task definitions and workflow definitions. As
+described for these embodiments, the intelligence service
+13004 may be used for at least these iterations. However, it
+is envisioned that the resources of the intelligence service
+13004 may also or, in addition, be used for enhancing
+execution of an order execution plan.
+In embodiments, the order execution system 13022 of the
+fleet management system 13002 may receive order execu-
+tion plans from the job configuration system 13018 respon-
+sive to, for example, a freight storage and/or transportation
+service order. The order execution system 13022 may facili-
+tate performance of an order execution plan by stepping
+through the plan, activating, and monitoring smart container
+units and other fleet resources, and providing feedback,
+optionally real-time feedback based on, for example, smart
+container unit monitoring data. This feedback may be pro-
+cessed by, for example, artificial intelligence capabilities of
+the intelligence service 13004 for determining adjustments
+to an order execution plan, such as task definitions and the
+like. When the feedback and adjustments are done in real-
+time or near real-time (e.g., before an upcoming order
+execution activity, such as a step in a workflow), functions
+of the job configuration system 13018 may be iterated to
+amend an existing order execution plan, such as an instance
+of a plan that is currently being executed by the order
+execution system 13022.
+An artificial intelligence system of the intelligence service
+13004 may perform simulations and use the results of the
+simulation as one or more as input to the job configuration
+system 13018 for updating corresponding task definitions. In
+embodiments, the fleet intelligence system may send an alert
+to the fleet management system 13002 regarding the need
+for adapting this task definition that may be used by the
+system to update, for example, preconfigured task defini-
+tions stored in the smart container task library 13044 and the
+like. Such an alert may be used by the fleet operations
+system to co0ordinate with the order execution system 13022
+so that pending tasks are not executed before being refreshed
+in the order execution plan. In embodiments, the job con-
+figuration system 13018 may release only portions of the
+order execution plan to the order execution system 13022 so
+that unreleased portions can be adapted, thereby mitigating
+impacts on the order execution system, such as requiring
+work to be halted, delayed, or otherwise impaired while
+updates to the execution plan are made.
+While the examples for job configuration and the like
+presented herein generally consider a single job being con-
+figured by the job configuration system 13018, there may be
+many jobs being configured concurrently. The methods and

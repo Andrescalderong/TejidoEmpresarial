@@ -1,0 +1,136 @@
+to result in the delivery of a set of items to a particular 35 robots in a team of robot operating units for performing a
+[col 1]
+US 12,675,781 B2
+503
+like. In embodiments, provisioning of certain resources may
+be enacted as part of a negotiation workflow for acceptance
+of a job request. As an example, provisioning certain intel-
+ligence services (e.g., a fleet level intelligence layer) may
+result in a higher charge to a job requestor than other
+intelligence services (e.g., only a robot-level intelligence
+layer being deployed robot operating units). As noted above
+and elsewhere herein, intelligence services can bring value
+to the fleet and job configuration functions of the platform
+12000; therefore provisioning such systems as part of a job
+10
+request negotiation may justify the additional cost to the job
+requestor.
+In some scenarios, prioritization of the platform 12000
+resources, such as a fleet configuration system, may impact
+provisioning system 12014 functions. If a job request only 15
+supports (e.g., based on price paid for the job) use of such
+a fleet resource during off-peak hours, the platform 12000
+resource may not be provisioned to the job during peak
+hours, even if the platform 12000 resource is available.
+In embodiments, the fleet operations system 12002 20 
+includes a logistics system 12015 that handles, among other
+things, logistics planning and execution for meeting job
+requirements, maintaining robots, maintaining availability
+of fleet resources (robot operating units, physical resources,
+and the like), pickup and delivery of parts (e.g., replacement  25
+parts, end effectors, supplies, and the like). In some embodi-
+ments, the logistics system 12015 may be configured to
+identify availability and locality of 3D printing resources to
+satisfy demand that otherwise might not be feasible through
+conventional logistics (e.g.,truck-based)transport means. In 3o
+embodiments, the logistics system 12015 can leverage intel-
+ligence services, such as machine learning systems and/or
+Logistics plans may refer to a workflow that is generated
+location. In embodiments, the logistics system 12015 may
+generate logistics plans that utilize fleet resources, such as
+transport type robots for execution of a logistics plan. Other
+than fleet resources may be utilized, such as common
+carriers, for-hire over-the-road truckers, private delivery 40
+couriers, and the like. A determination of which resource to
+use for execution of a logistics plan may be based on costs
+and availability of resources. For example, the logistics
+ system 12015 may determine that there are available fleet
+resources in a vicinity of a job that would not require a 45
+third-party trucking service to deliver the available resources
+from a remote location and, in response, the logistics system
+12015 may select the available resources over the third-party
+trucking solution. In embodiments, the fleet operation sys-
+tem 12002 may leverage the (platform-level) intelligence 50
+layer 12004 to assist in logistics planning and decision-
+making.
+In embodiments, the fleet operations system 12002
+includes a maintenance management system 12026 that may
+be configured to schedule and effectuate maintenance for 55
+fleet resources, such as robot operating units. A maintenance
+management system 12026 may handle field maintenance
+needs and requests, including scheduled maintenance of
+fleet recourses in the field to mitigate impact on robot
+operating unit utilization due to travel from a deployed job 60
+site to a repair depot. The maintenance management system
+12026 may also coordinate maintenance and repair opera-
+tions at repair depots, and the like. Further the maintenance
+management system 12026 may work cooperatively with
+other platform systems, such as a logistics system 12015 to 65
+cause maintenance to be performed during transport of a
+fleet resource, such as a robot operating unit, between job
+[col 2]
+504
+sites. In embodiments, a maintenance management system
+12026 may include, provide access to, and/or be integrated
+with mobile maintenance vehicles, spare parts depots, third-
+party maintenance service providers and the like. In embodi-
+ments, maintenance needs for fleet resources housed in
+storage areas, such as warehouses, remote inventory depots
+and the like may be evaluated by the maintenance manage-
+ment system 12026 for pre-scheduled maintenance, such as
+when a preventive maintenance activity for a robot is
+upcoming so that the robot is less likely to require mainte-
+nance during a deployment.
+In embodiments, the maintenance management system
+12026 may monitor the state of the fleet resources, such as
+robot operating units via resource state reports that may be
+provided on a scheduled basis or in response to an inquiry
+ment system 12026 and the like. In embodiments, the
+maintenance management system 12026 may monitor robot
+operating unit communication for an indication of a poten-
+tial service condition, such as a robot operating unit signal-
+ing to a supervisor robot that it is experiencing reduced
+power output, a robot operating unit reporting exposure to
+certain ambient conditions (e.g., excessive heat), a lack of
+heartbeat signal from a robot operating unit to a robot health
+monitor resource, and the like. Further, a maintenance
+operating and/or supervisory software that may perform
+maintenance management functions on a robot operating
+unit, such as monitoring information in a robot data store
+that stores robot operating unit state information, activating
+self-test operating modes, collection of data that provides
+indications of robot maintenance needs and the like. Yet
+further a maintenance management system 12026 may
+include maintenance robots that may be deployed with other
+requested job.Amaintenance robot may be a configuration
+of a multi-purpose robot deployed with a robot team. Such
+a configuration may be temporal within bounds of a team
+deployment. A multi-purpose robot deployed for performing
+tasks of a job workflow may be reconfigured dynamically
+(and optionally temporarily) while deployed to a team to
+perform maintenance actions on other robots and fleet
+resources.
+A maintenance management system 12026 may be con-
+structed to take advantage of a range of platform services
+and capabilities to schedule and effectuate maintenance,
+including leveraging human/operator input (e.g., a human
+observer may indicate that a robot operating unit appears to
+be operating erratically), robotic process automation of
+maintenance activities, artificial intelligence for predicting
+maintenance instances for scheduling, machine learning to
+help identify new opportunities for scheduling and perform-
+ing maintenance (e.g., analyze performance of robot oper-
+ating units that have been maintained for certain conditions
+before performing certain tasks under those conditions, such
+as replacing air filters before performing tasks in a dusty
+environment), and the like. In embodiments, a maintenance
+management system 12026 may receive maintenance related
+input. Maintenance related input may include maintenance
+requests from robot operating units (for the requesting robot
+operating unit or for another robot operating unit, such as a
+companion robot operating unit). Maintenance related input
+may include request from or for maintenance of edge
+devices (e.g., fixed infrastructure devices, fleet resources,
+job site proximal and/or job-specific edge devices, such as
+edge devices deployed at a job site by a job requestor and the
+like). Other candidate sources of maintenance related input

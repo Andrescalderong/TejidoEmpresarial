@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+433
+(or otherwise connect to) auxiliary physical modules that
+alter the physical actions that may be taken by MPR 12100
+and/or the physical operation of the MPR 12100. Examples
+of physical modules may include, but are not limited to, end
+effectors, motive adaptors, 3D printers, power supplies,
+and/or the like.As will be discussed, an MPR 12100 may be
+reconfigured to perform one or more tasks in completion of
+a job. In these embodiments, the fleet management platform
+12000 may define a job execution plan and a supporting
+robot fleet, and may provision one or more modules to an
+MPR 12100 in the supporting robot fleet, such that the MPR
+12100 is reconfigured to perform one or more specified tasks
+in the job execution plan.
+Referring back to FIG. 128, individual robot task assem-
+15
+blies 12050 may refer to a collection of one or more
+individual robots that are assigned to perform a specific task
+or a set of related tasks. The robots in a robot task assembly
+may include any combination of MPRs 12042, SPRs 12044,
+exoskeleton robots 12046, and the like. In some embodi- 20 
+ments, an individual robot task assembly 12050 may include
+a local manager that controls or otherwise provides instruc-
+tions to robots in the task assembly 12050. In these embodi-
+ments, the local manager may be a designated supervisor
+robot or a human operator. In embodiments, a supervisor 25
+robot may refer to a robot that is designated to organize,
+instruct, monitor, reassign, and/or reconfigure (or request
+reconfiguration of) the robots in a task assembly 12050. In
+embodiments, the robot supervisor may act as an edge
+device on behalf of the task assembly 12050, such that the 30
+robot supervisor may be allocated specific processing and/or
+communication capabilities that allow the robot supervisor
+to communicate with the fleet management platform 12000
+or other suitable devices or systems and/or to perform data
+processing operations on behalf ofthe task assembly 12050. 35
+In embodiments, a robot fleet is a collection of individual
+robots and/or task assemblies that collectively perform a set
+of projects in completion of a job. In embodiments, a robot
+fleet may include individual SPRs, MPRs, exoskeletons, and
+the like. Furthermore, fleets may be arranged as a fleet of 40 
+task groups, regional fleets, and/or a fleet of fleets. In
+embodiments, a robot fleet may be supported by robot fleet
+support. In embodiments, examples of robot fleet support
+may include on premises, edge and IoT devices, local data
+storages (and corresponding data interfaces), maintenance 45 
+support, charging stations and devices, replacement parts,
+batteries, accessories, shipping containers, docking stations,
+spare parts, and/or technicians.
+FIG. 130 illustrates the data processing system 12030 and
+the intelligence layer 12004 of the fleet management plat- 50 
+form 12000. In embodiments, the data processing system
+12030 includes a data handling service 12032 and a data
+processing service 12034. The data handling service 12032
+is configured to store, retrieve, and otherwise manage the
+data of the fleet management platform 12000. In embodi- 55
+ments, the data handling service 12032 accesses a set of data
+stores 12036 and/or libraries 12038, whereby the data han-
+dling service 12032 writes and reads data from the data
+stores 12036 and/or libraries 12038 on behalf of other
+components of the fleet management platform 12000 and/or
+the robot operating units 12040. In embodiments, the data
+processing service 12034 performs data processing opera-
+tions on behalf of other components of the fleet management
+platform 12000 and/or the robot operating units 12040. For
+example, the data processing service 12034 may perform 65 
+database operations (e.g., table joins, retrieves, etc.), data
+fusion operations, and the like. In embodiments, the data
+[col 2]
+434
+processing system may include distributed resources, cen-
+tralized resources, and/or “on-chip" resources.
+In embodiments, the platform-level intelligence layer
+12004 performs intelligence services on behalf of the other
+components of the fleet management platform 12000 and/or
+the robot operating units 12040. As will be discussed, in
+some the platform-level intelligence layer 12004 may be
+configured as part of a broader intelligence system (FIG.
+131), whereby decision making and other intelligence-based
+functions are performed at the lowest level possible. In
+embodiments, the platform-level intelligence layer 12004
+includes an intelligence layer controller 12007 and a set of
+artificial intelligence services 12005. In embodiments, the
+artificial intelligence services 12007 may include a digital
+twin system that manages and/or serves a set of digital twins
+(e.g., robot digital twins, robot team digital twins, robot fleet
+digital twins, logistics digital twins, environment digital
+twins, and the like. In embodiments, the artificial intelli-
+gence service 12007 may include, link to, or integrate with
+a machine-learning (ML) system, a rules-based intelligence
+system, an expert system, an analytics system, a robotic
+process automation (RPA) system, a machine vision system,
+a natural language processing (NLP) system, a neural net-
+work system and/or other intelligence or data handling
+system as noted throughout this disclosure or the documents
+incorporated herein by reference. In embodiments, the intel-
+ligence controller 12007 includes an analysis management
+module, governance libraries, and analysis modules.
+Intelligence Layer
+FIG. 131 illustrates an example intelligence layer 12200
+according to some embodiments of the present disclosure. In
+embodiments, the intelligence layer 12200 is adapted from
+the intelligence services 8800 of FIG. 104 to provide a
+framework for providing intelligence services at respective
+levels of a robotics-as-a-service ecosystem (e.g., platform
+level intelligence layer 12004, a robot-level intelligence
+layer 12140, or a fleet level intelligence layer (not shown).
+In these embodiments, the intelligence layer 12200 frame-
+work may be at least partially replicated in individual robots
+and/or at the fleet-level, such that an individual robot may
+leverage its intelligence layer 12200 to attempt to generate
+decisions, recommendations, reports, instructions, predic-
+tions, classifications, or the like, while fleet level decisions,
+recommendations, reports, instructions, predictions, classi-
+fications, or the like may be made by one or more robots in
+the fleet, and platform level decisions, recommendations,
+reports, instructions, predictions, classification, or the like
+may be made by a platform-level intelligence layer 12004.
+In these embodiments, requests for intelligence may be
+pushed to a higher level. For example, if a robot is unsure if
+there is an occluded object in its path, the robot may escalate
+the request to the fleet level where one or more additional
+robots may work in connection with the robot to determine
+whether this is an occlusion in the requesting robot's path.
+In another example, an unforeseen change in the environ-
+ment (e.g., change in weather or other conditions) may cause
+a robot fleet-level intelligence layer to alter a job execution
+plan. In this example, the fleet level intelligence layer may
+not have enough information or processing resources to
+ 6o safely alter the job execution plan. In response, the fleet-
+level intelligence layer may escalate the decision to the
+platform 12000-level intelligence layer 12004, such that the
+platform 12000-level intelligence layer 12004 may deter-
+mine a recommended alteration to the job execution plan
+given the change in the environment.
+In embodiments, the intelligence layer 12200 receives
+requests from a set of intelligence layer clients 12260.

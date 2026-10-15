@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+535
+example, a machine vision module 13422 may request a
+digital twin of a specified environment from a digital twin
+module 13420, such that the machine learning module
+13412 may request specific data from the digital twin as
+features to train a machine-learned model that is trained for
+a specific environment.
+In embodiments, an intelligence task may require specific
+types of data to respond to the request. For example, a
+machine vision task requires one or more images (and
+image or set of images, to determine features within the set
+of images (such as locations of items, codes or information
+on other containers (e.g., Bureau International des Contain-
+ers (BIC) code, CSC approval plates, ISO 6346 reporting
+marks, or the like), presence of faces, symbols or instruc-
+tions, expressions, parameters of motion, changes in status,
+and many others), and the like. In another example, an NLP
+task requires audio of speech and/or text data (and poten-
+tially other data) to determine a meaning or other element of
+the speech and/or text. In yet another example, an Al-based 20
+control task (e.g., a decision on movement of a smart
+container) may require environment data (e.g., maps, coor-
+dinates of known obstacles, images, and/or the like)and/or
+a motion plan to generate a decision related to the control of
+motion of a smart container. In a platform-level example, an 25
+analytics-based reporting task may require data from a
+number of different databases to generate a report. Thus, in
+embodiments, tasks that can be performed by the intelli-
+gence service 13004 may require, or benefit from, specific
+intelligence service inputs 13470. In some embodiments, the 30
+intelligence service 13004 may be configured to receive
+and/or request specific data from the intelligence service
+inputs 13470 to perform a respective intelligence task.
+Additionally, or alternatively, the requesting intelligence
+service client 13324 may provide the specific data in the 35
+request. For instance, the intelligence service 13004 may
+expose one or more APIs to the intelligence service clients,
+whereby a requesting client 13324 provides the specific data
+in the request via the API. Examples of intelligence service
+inputs may include, but are not limited to, sensors that 40
+provide sensor data, video streams, audio streams, data-
+bases, data feeds, human input, and/or other suitable data.
+In embodiments, the intelligence service 13004 may
+include an intelligence service controller 13402 and artificial
+intelligence (AI) modules 13404. In embodiments, the arti- 45
+ficial intelligence service 13004 receives an intelligence
+request from an intelligence service client 13324 and any
+required data to process the request from the intelligence
+service client 13324. In response to the request and the
+specific data, one or more implicated artificial intelligence 50
+modules 13404 perform the intelligence task and output an
+"intelligence response". Examples of intelligence modules
+13304 responses may include a decision (e.g., a control
+instruction, a proposed action, machine-generated text, and/
+or the like), a prediction (e.g., a predicted meaning of a text 55
+snippet, a predicted outcome associated with a proposed
+action, a predicted fault condition, and/or the like), a clas-
+sification (e.g., a classification of an object in an image, a
+classification of a spoken utterance, a classified fault con-
+dition based on sensor data, and/or the like), and/or other 6o 
+suitable outputs of an artificial intelligence system.
+In embodiments, artificial intelligence modules 13404
+may include a machine learning module 13412, a rules-
+based module 13428, an analytics module 13418, an RPA
+module 13416, a digital twin module 13420, a machine 65
+vision module 13422, an NLP module 13424, and/or a
+neural network module 13414. It is appreciated that the
+[col 2]
+536
+foregoing are non-limiting examples of artificial intelligence
+modules, and that some of the modules may be included or
+leveraged by other artificial intelligence modules. For
+example, the NLP module 13424 and the machine vision
+module 13422 may leverage different neural networks that
+are part of the neural network module 13414 in performance
+of their respective functions.
+In embodiments, intelligence modules 13304 includes and
+provides access to a machine learning module 13412 that
+may be integrated into or be accessed by one or more
+intelligence service clients. In embodiments, the machine
+learning module 13412 may provide machine-based learn-
+ing capabilities, features, functions, and algorithms for use
+by an intelligence service client 13324 such as training
+machine learning models, leveraging machine learning mod-
+els, reinforcing machine learning models, performing vari-
+ous clustering techniques, feature extraction, and/or the like.
+In an example, a machine learning module 13412 may
+provide machine learning computing, data storage, and
+feedback infrastructure to a simulation system. The machine
+learning module 13412 may also operate cooperatively with
+other modules, such as the rules-based module 13428, the
+machine vision module 13422, the RPA module 13416,
+and/or the like.
+The machine learning module 13412 may define one or
+more machine learning models for performing analytics,
+simulation, decision making, optimization, and predictive
+analytics related to data processing, data analysis, simulation
+creation, simulation prioritization, and simulation analysis
+of one or more components or subsystems of an intelligence
+service client 13324. In embodiments, the machine learning
+models are algorithms and/or statistical models that perform
+specific tasks without using explicit instructions, relying
+instead on patterns and inference. The machine learning
+models build one or more mathematical models based on
+training data to make predictions and/or decisions without
+being explicitly programmed to perform the specific tasks.
+In example implementations, machine learning models may
+perform classification, prediction, regression, clustering.
+anomaly detection, recommendation generation, decision-
+making, optimization, and/or other tasks.
+In embodiments, the machine learning models may per-
+form various types of classification based on the input data.
+Classification is a predictive modeling problem where a
+class label is predicted for a given example of input data. For
+example, machine learning models can perform binary clas-
+sification, multi-class classification, or multi-label classifi-
+cation. In embodiments, the machine-learning model may
+output *confidence scores" that are indicative of a respective
+confidence associated with classification of the input into the
+respective class. In embodiments, the confidence scores can
+be compared to one or more thresholds to render a discrete
+categorical prediction. In embodiments, only a certain num-
+ber of classes (e.g, one) with the relatively largest confi-
+dence scores can be selected to render a discrete categorical
+prediction.
+In embodiments, machine learning models may output a
+probabilistic classification. For example, machine learning
+models may predict, given a sample input, a probability
+distribution over a set of classes. Thus, rather than outputting
+only the most likely class to which the sample input should
+belong, machine learning models can output, for each class,
+a probability that the sample input belongs to such class. In
+embodiments, the probability distribution over all possible
+classes can sum to one. In embodiments, a Softmax function,
+or other type of function or layer can be used to turn a set
+of real values respectively associated with the possible

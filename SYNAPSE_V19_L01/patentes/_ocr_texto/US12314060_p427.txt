@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+489
+include this port opening tasks may be made dependent so
+that each workflow is started only when the required
+resource is available. Performance of other tasks in these
+workflows may be concurrent even if the initial task of
+opening the port must be done sequentially due to the fleet
+resource utilization dependency.
+In embodiments, a defined workflow step may be an
+adapted variant of a candidate workflow step 12514, such as
+a workflow step that is retrieved from the library 12314. The
+workflow step definition activity 12510 may request input 10
+from other fleet resource platform services, such as the data
+processing system 12030 and/or artificial intelligence ser-
+vices 12028 to adapt a candidate workflow step for use when
+defining one or more workflow steps for a given job.
+utilized by a workflow step linking activity 12512 that may
+receive step linking recommendation(s) 12516 from the fleet
+intelligence layer 12004 and the like. Workflow step linking
+activity 12512 may generate a data structure that indicates a
+sequence of performing defined workflow steps (e.g-, a 20
+workflow definition 12306D. The workflow definition
+12306D may include data that captures job-specific work-
+flow information, such as workflow step ordering, workflow
+step performance sequence, workflow step independence,
+step-by-step links to workflow steps, workflow success 25
+criteria, cross-workflow dependencies, and/or the like.
+In embodiments, workflow definition(s) 12306D may be
+stored in a job instance storage 12408 where they can be
+referenced as needed during job configuration and/or job
+execution. They may be stored in the fleet library 12314 30
+where they can be referenced by other jobs, by third parties,
+such as job requestor and the like. They may be stored
+elsewhere (e.g., a cloud storage facility) based on architec-
+tural considerations, such as being distributed to edge com-
+puting infrastructure resources proximal to job deployment 35
+sites and the like.
+In embodiments, workflows may be simulated as indi-
+cated in the description of the job configuration system
+12018. Outcomes of simulation may be directed to, for
+example,the ingestion module 12502where ingestion 40
+operations, such as alignment of fleet configuration data
+with task description data may be improved. Outcomes may
+also be passed to as feedback 12406 to other components of
+the platform 12000 to improve task definition, job configu-
+ration, fleet configuration, and/or the like. 45
+In a specific example, an exemplary robot fleet job may
+comprise inspecting a building ventilation system. The job
+request parsing system 12302 may parse a job request and
+any related documents to identify ventilation system inspec-
+tion routines, tasks, actions, steps, requirements, and the 50 
+like. The job request parsing system 12302 may provide the
+parsed information to the task definition system 12304. In
+embodiments, an inspection procedure associated with the
+job request may indicate one such inspection procedure step
+for entering the ventilation system (e.g-, through a wall or 55 t
+ceiling register and the like). The task definition system
+12304 may identify a plurality of tasks associated with the
+procedural step of entering the ventilation system. These
+tasks may include: gathering information about the physical
+configuration of the ventilation system that may identify the 60
+location and type of registers available in the building.
+analyzing the ventilation physical information to select
+candidate registers, determining requirements for accessing
+the register (e.g., is it located behind a locked door, wili
+entering the system through the register require lifting a 65
+robot, and the like), tools for removing a cover/grate of the
+register, and the like. Further information that may be related
+[col 2]
+490
+to one or more of the tasks for this procedural step may
+include, without limitation, size limitations of a robot enter-
+ing the ventilation system (which may not be specified in the
+procedure, but may require determination as a task based on
+the ventilation system entry port, based on the information
+about the physical configuration of the ventilation system,
+and the like), weight limits of such one or more robots and
+the like. In embodiments, tasks defined by the task definition
+system 12304 may include data analysis tasks that may be
+performed by fleet resources, including resources other than
+individual robot operating units, such as digital twins and the
+like that may operate on platform processing systems,
+human fleet resources, and the like. Other routines/tasks for
+entering a ventilation system that may require definition may
+include orienting a robot for entry. A consequence of such a
+determination may result in adding requirements for a robot
+to perform the task(s). In embodiments, vertical entry may
+require ventilation duct grippers being oriented at the front
+of the robot. A task definition 12304D may include specifics,
+such as duct gripper orientation and the like that other
+systems of the platform 12000, such as the fleet configura-
+tion system 12020 may use when configuring aspects of a
+fleet. In general, a discrete robot task definition 12304D may
+include (explicitly or implicitly) a plurality of (basic/rudi-
+mentary/generic) robot movements and/or routines option-
+ally ordered and aggregated together to meet a low-level
+objective (e.g., task) of a robot fleet job. Therefore, a task
+definition system 12304 producing task definitions 12304D
+for a specific robot fleet job (e.g., inspecting a ventilation
+system as exemplified herein) may generate task definitions
+that embody more than generic robot element movement,
+ments to satisfy some criteria for performing the target job,
+such as removing an access panel for a ventilation system.
+Robot operations, such as locating and turning a fastener,
+gripping an access panel, dispositioning the removed panel,
+reserving the fasteners, and the like may be generic robot
+routines or movements that can be aggregated and adapted
+into a job-specific task. These generic robot routines or
+movements may be available to the task definition system
+12304 to facilitate defining relevant aspects of tasks based
+on job request and related criteria. In the example of
+inspecting a ventilation system, locating a fastener on an
+access panel may be adapted during operation of this task
+based on details of the target access panel that may be
+identified in the task definition 12304D or may be left up to
+an intelligence system, such as a robot-based intelligence
+system and the like for on-the-task adaptation. A basic robot
+action, such as turning the fastener to remove it may be
+adapted based on information provided in the task definition
+that may define the proper end effector, torque, and length of
+movement. In embodiments, these adaptations may be left
+up to a robot control function that determines contempora-
+neously with performance of the task which end effector, and
+the like to use. Information in the task definition 12304D
+may facilitate robot adjustments for gripping the access
+panel. This information may include an orientation of the
+panel, a weight of the panel, features of the panel, size of the
+panel, and the like to avoid damaging the panel, while
+ensuring to grip it securely. A task/action of dispositioning
+the removed panel may be configured with a degree of
+location-specific flexibility to defer to a robot operating
+control system that may utilize other criteria (e.g-, safety
+standards and practices, workplace policies, governance and
+the like) to ensure that objects in the task location (e.g.,
+furniture, windows, walls, and the like) are not damaged by
+the panel and pathways through the task location are not

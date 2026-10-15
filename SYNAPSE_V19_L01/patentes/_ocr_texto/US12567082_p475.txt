@@ -1,0 +1,136 @@
+time per day for smart containers in the smart container fleet. 2o may interface with the new and/or updated external device
+[col 1]
+US 12,567,082 B2
+627
+system 13312 determines one or more dynamic models
+required to fulfill the request and retrieves the one or more
+required dynamic models from dynamic model datastore
+13316.At step B206, the digital twin dynamic model system
+13312 selects dynamic model input data sources (e.g-, one or
+more sensors from sensor system and/or any other suitable
+data) based on available data sources (e.g., available sensors
+from a set of sensors in sensor system) and the one or more
+required inputs of the dynamic model(s) via digital twin I/O
+ system 13308. In the present example, the retrieved dynamic 10 i
+model(s) may be configured to take historical downtime data
+and operational data as input and output data representing
+container fleet. At step B208, digital twin dynamic model
+system 13312 retrieves historical downtime data and opera- 15
+tional data from digital twin I/O system 13308. At step
+B210, digital twin dynamic model system 13312 runs the
+dynamic model(s) using the retrieved data as input and
+calculates one or more outputs that represent cost of down-
+Next, at step B212, the digital twin dynamic model system
+13312 updates one or more cost of downtime values of the
+smart container digital twin 13504 and embedded digital
+twins based on the one or more outputs of the dynamic
+model(s). 25
+In embodiments, the smart container system 13000
+includes a robotic process automation (RPA) module 13416
+configured to automate internal shipping workflows based
+on robotic process automation. The RPAmodule 13416 may
+develop a programmatic interface to a user interface of an 30 
+external system such as devices, programs, networks, data-
+bases, and the like. The RPA module 13416 is configured to
+allow the smart container system 13000 to interface with an
+interface (API), or in addition to an API.The RPAmodule 35
+13416 may develop an action list by watching a user perform
+a task in a graphical user interface (GUI) and recording the
+tasks in the action list. The RPA module 13416 may auto-
+mate a workflow by repeating tasks of the action list in the
+GUI.
+In some embodiments, the RPA module 13416 may
+include and/or communicate with an intelligence service
+13004 configured to perform robotic process automation
+processes. The intelligence service 13004 may employ one
+or more machine learning techniques to develop one or more 45
+machine-learned models. The machine-learned models may
+be capable of developing, defining, and/or implementing
+RPA-based programmatic interfaces to facilitate interfacing
+of the system 13000 with one or more external devices.
+The RPA module 13416 may be necessary for the smart 50 1
+container system 13000 to communicate with an external
+system that does not have an API or that has an outdated
+API.For example, the RPA module 13416 may allow the
+smart container system 13000 to interface with an older
+external device that does not include an API or that has an 55
+outdated API. The RPA module 13416 may allow the smart
+container system 13000 to interface with an external system
+similarly to how a user would interface with the external
+system, such as via a user interface of the external system.
+In some embodiments, the RPA module 13416 allows the 60
+smart container system 13000 to emulate an action and/or a
+series of actions performable by a user to interface with an
+external system. Examples of programmatic interfacing by
+the RPA module 13416 to interface with an external system
+include manipulation of markup language, emulating com- 65
+puter mouse movements and/or “clicking on" one or more
+elements of a user interface, entering information into fill-
+[col 2]
+628
+able fields and submitting the information via a client
+program and/or portal, and transmitting digital signals to an
+external system that appear to be from sent from a user
+device.
+In some embodiments, the RPA module 13416 may be
+configured to facilitate communicating with new and/or
+updated external systems. When a new external system is
+developed or an external system is updated, the RPA module
+13416 may develop a new and/or updated programmatic
+interface to facilitate interfacing with the new and/or
+updated external system by the smart container system
+13000 in a manner that is consistent with interfacing with an
+outdated external device, i.e., the external device prior to
+release of the new and/or updated external system. For
+example, the RPA module 13416 may be configured to
+provide inputs to the outdated external device, provide
+inputs to the new and/or updated external device, compare
+related outputs, and adjust inputs to the new and/or updated
+external device such that the smart container system 13000
+in a manner consistent with how the smart container system
+13000 interfaced with the outdated external device.
+In some embodiments, the RPAmodule 13416may act as
+an API to outdated and/or external systems. The RPA
+module 13416 may be configured such that the smart
+container system 13000 is externally represented as having
+an API capable of interfacing with one or more external
+devices or otherwise being capable of programmatically
+handling signals transmitted by external devices, wherein
+the RPA module 13416 has developed a programmatic
+interface for handling such requests other than an API. For
+example, an outdated external system may be configured to
+communicate via a series of signals understood by an
+outdated API. The RPA module 13416 may configure the
+smartcontainersystem13000toactasifthesmartcontainer
+system 13000 includes the outdated API.
+In some embodiments, the RPA module 13416 may be
+configured to provide a user interface for use by one or more
+users of the smart container system 13000. The intelligence
+service 13004 may, by one or more machine learning
+methods, create a user interface that allows a user to
+interface with one or more components and/or functions of
+the smart container system 13000. The RPA module 13416
+may use robotic process automation techniques to operate
+the user interface created by the intelligence service 13004.
+The intelligence service 13004 may dynamically create
+and/or adjust the user interface according to variables such
+as changing demand conditions, new and/or modified func-
+tions of the smart container system 13000, new and/or
+modified conditions of systems external to the smart con-
+tainer system 13000, and the like. Examples of new and/or
+modified conditions of systems external to the smart con-
+tainer system 13000 may include changes to third-party
+service offerings, regulatory changes, and the like.
+In some embodiments, the RPA module 13416 may be
+configured to avoid detection of robotic process automation
+by systems external to the smart container system 13000.
+Some of the external systems may be designed to attempt to
+detect, when the external system is communicating with a
+system using robotic process automation, such as the smart
+container system 13000. Upon detecting that the smart
+container system 13000 is using robotic process automation,
+the external system may restrict, eliminate, or modify com-
+munication capabilities of the smart container system 13000
+with theexternal system.The RPA module 13416 may
+emulate human interfacing with the external system to
+"trick" the external system into believing that the RPA

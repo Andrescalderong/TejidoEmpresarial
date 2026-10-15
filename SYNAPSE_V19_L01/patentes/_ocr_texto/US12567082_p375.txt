@@ -1,0 +1,135 @@
+use fewer labeled training examples to achieve similar 6o a production assembly line or logistics chain wherein the
+[col 1]
+US 12,567,082 B2
+427
+clustering models; k-medians clustering models; expectation
+maximization models; hierarchical clustering models; and
+the like.
+In some implementations, the machine learning models
+11520 may perform one or more dimensionality reduction
+techniques such as, for example, principal component analy-
+sis; kernel principal component analysis graph-based kernel
+sion; partial least squares regression; Sammon mapping;
+multidimensional scaling; projection pursuit; linear dis- 10
+criminant analysis; mixture discriminant analysis; quadratic
+discriminant analysis; generalized discriminant analysis;
+flexible discriminant analysis; autoencoding; and the like.
+In some implementations, the machine learning models
+11520 may perform or be subjected to one or more rein- 15
+forcement learning techniques such as Markov decision
+processes; dynamic programming; Q functions or Q-learn-
+ing; value function approaches; deep Q-networks; differen-
+tiable neural computers; asynchronous advantage actor-
+critics; deterministic policy gradient; and the like. 20
+In embodiments, the data processing system is imple-
+mented using a neural network to provide real-time, adap-
+tive control of the dynamic vision system 11300 including
+object classification and determination of object position,
+orientation and motion. 25
+In some embodiments, a neural network model may be
+used directly to determine adjustments to optical parameters
+using training or learning of a neural network model. Ini-
+tially, the model may be allowed to choose randomly from
+a range of values for each input optical control parameter or 30
+action. If the sequence of optical control parameter adjust-
+ments or actions leads to an incorrect prediction/classifica-
+tion, it may be scored as leading to an undesirable (or
+negative) outcome. Repetition of the process using different
+sets of randomly chosen values for each optical control 35
+parameter or action leads to reinforcement of those
+sequences that least to desirable (or positive) outcomes.
+Ultimately, the neural network model “"learns" what adjust-
+ments to make to a set or sequence of optical control
+parameters oractionsinordertoachievethetargetoutcome 40 r
+i.e., a correct prediction or classification.
+In embodiments, methods and systems described herein
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are 45 
+connected in a pattern similar to the visual cortex of the
+human brain.
+The initial layers of the CNN (e.g., convolution layers),
+may extract low level features such as edges and/or gradi-
+ents from the input object concept 720. Subsequent layers 50
+may extract or detect progressively more complex features
+and patterns such as presence of curvatures and textures in
+image data and so on. The output of each layer may serve as
+an input of a succeeding layer in the CNN to learn hierar-
+chical feature representations from data in the input object 55
+concept 720. This allows convolutional neural networks to
+efficiently learn increasingly complex and abstract visual
+concepts.
+In embodiments, capsule networks may be employed to
+classification performance of CNNs.
+In embodiments, transformer-based, encoder-decoder
+architectures using attention mechanisms may be used in
+conjunction with or in place of convolutional neural net-
+works. 55
+FIG.127 depicts a schematic view illustrating an example
+implementation of a dynamic vision system depicting a
+[col 2]
+428
+detailed view of various components along with integration
+of the dynamic vision system with one or more third party
+systems according to some embodiments of the present
+disclosure.The dynamic vision system 11900 may include a
+liquid lens optical assembly 11304 configured to capture
+data from various data sources 11902 including vision
+sensors 11904, feedback sources 11906 providing outcome
+data from the machine learning system, environment control
+11908 generating data in response to a change in environ-
+ment factors including temperature, pressure, humidity,
+vibrations etc., lighting control 11910 generating data in
+response to a change in source lighting including color, color
+temperature, timing (PWM), amplitude etc. and data library
+11912.
+The data storage and management system 11914 may
+maintain a record of state and event data for various com-
+ponents and subsystems ofthedynamic vision system 11300
+such that any of the services, applications, programs, or the
+like may access a common data source (which may comprise
+a single logical data source that is distributed across dispa-
+rate physical and/or virtual storage locations). The data
+storage and management system 11914 may include a
+memory subsystem for storage of instructions and data and
+a file storage subsystem providing persistent storage for
+program and data files. Further, the storage and management
+system 11914 may include capabilities such as data alloca-
+tion, data caching, data pruning and data management and
+access to and control of intelligence and data resources.
+The processing system 11306 may process the data cap-
+data storage and management system 11914 to optimize and
+adjust the optical parameters in real time through the
+machine learning system 11324 and the artificial intelligence
+system 11326, the digital twin system 11320 and the control
+system 11314 as described in detail in FIGS. 123, 124, 125
+and 126, or elsewhere herein.
+In embodiments, a set of applications 11916 may enable
+the dynamic vision system 11300 to present meaning infor-
+mation to a user and enable the user perform specific vision
+tasks. Some examples of applications provided on the
+dynamic vision system 11300 include particle filter 11918,
+3D model generation 11920, Location or motion prediction
+11922, Visual SLAM 11924, defect detection 11926 and
+adversarial neural network detection 11928.
+In embodiments, the dynamic vision system 11300 may
+integrate with one or more third party systems 11930
+through connectivity facilities including interfaces, network
+connections, ports, application programming interfaces
+(APIs), brokers, services, connectors, wrappers, containers,
+wired or wireless communication links, human-accessible
+interfaces, software interfaces, micro-services, Saas inter-
+faces, PaaS interfaces, Iaas interfaces, cloud capabilities, or
+the like. The connectivity facilities may facilitate the transfer
+of data between the dynamic vision system 11300 and the
+one or more third party systems 11930.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of value chain network (VCN)
+entities for quality control inspections and sorting objects in
+liquid lens is configured to quickly adjust focus to accom-
+modate for, recognize and sort objects located at various
+working distances or objects of different heights.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of autonomous vehicle systems to
+scan the vehicle environment and monitor the distance
+between the vehicle from other objects on the road.

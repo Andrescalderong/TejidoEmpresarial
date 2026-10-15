@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+445
+modules 12208 may be configured to apply different stan-
+dards to the same analysis based on one or more conditions
+surrounding the decision.
+In an example, before outputting a proposed control
+decision that instructs a robot to move forward is provided
+to a robot controller of the robot, an intelligence service
+12204 of the robot may analyze a proposed decision with
+respect to a set of standards and/or rules corresponding to the
+control decision. In this example, the artificial intelligence
+service 12204 may execute a safety analysis module and/or 10
+a risk analysis module and may determine an alternative
+decision if the action would violate a legal standard or a
+safety standard. In another example, before a fleet configu-
+ration proposal is output to the requesting client, an intelli-
+gence service 12204 of the fleet management platform 100 15
+may analyze the proposed fleet configuration to ensure that
+the proposed fleet configuration does not violate any juris-
+dictional legal or regulatory standards (e.g., certain types of
+robots may be prohibited from operating in certain areas or
+environments, certain communication protocols may be 20
+prohibited in certain areas or environments) and/or does not
+potentially threaten the quality of job performance (e.g., the
+selected configuration may include robots that do not per-
+form well in certain conditions)and/or the condition of the
+robots (e.g., operating certain types of robots in unsuitable 25
+conditions, such as freezing temperatures, high humidity
+areas, salt or fresh water, and/or the like). In response to
+analyzing the proposed decision, the artificial intelligence
+service 12204 may selectively output the proposed condition
+based on the results of the executed analyses. If a decision 30
+is allowed, the artificial intelligence service 12204 may
+output the decision to the requesting intelligence layer client
+12260. If the proposed configuration is flagged by one or
+more of the analyses, the artificial intelligence service 12204
+may determine an alternative decision and execute the 35
+analyses with respect to the alternate proposed decision until
+a conforming decision is obtained.
+It is noted here that in some embodiments, one or more
+analysis modules 12208 may themselves be defined in a
+standard, and one or more relevant standards used together
+may comprise a particular analysis. For example, the appli-
+cable safety standard may call for a risk analysis that can use
+or more allowable methods. In this example, an ISO stan-
+dard for overall process and documentation, and an ASTM
+standard for a narrowly defined procedure may be employed 45
+to complete the risk analysis required by the safety gover-
+nance standard.
+As mentioned, the foregoing framework of an intelligence
+system 12200 may be applied at various levels of the
+disclosed environment. For example, in some embodiments, 5o
+a platform level intelligence system (e.g., intelligence layer
+12200) may be configured with the entire capabilities of the
+intelligence system 12200, and certain configurations of the
+intelligence system 12200 may be provisioned for respective
+robot operating units depending on the jobs assigned to the 55
+robot operating units. Furthermore, in some embodiments, a
+robot operating unit may be configured to escalate an
+intelligence system task to a higher level (e.g., the fleet level,
+edge device, or the platform 12000) when the robot oper-
+ating unit cannot perform the task autonomously. It is noted 60
+that in some embodiments, an intelligence layer controller
+12200 may direct intelligence tasks to a lower level com-
+ponent. For example, the intelligence layer controller 12202
+of a robot fleet or the fleet management platform 12000 may
+direct an intelligence request to an intelligence layer 12200 65
+of a particular robot provided the robot has access to the
+intelligence data sources 12270 necessitated by the intelli-
+[col 2]
+446
+gence request. Furthermore, in some implementations, an
+intelligence layer 12200 may be configured to output default
+actions when a decision cannot be reached by the intelli-
+gence layer 12200 and/or a higher or lower level intelligence
+layer. In some of these implementations, the default deci-
+sions may be defined in a rule and/or in a standards library.
+Security System
+FIG. 132 illustrates an example of a security system
+12280 according to some embodiments of the disclosure. In
+embodiments, the security system 12280 illustrates a frame-
+work that may be implemented at various levels of the
+disclosed systems. In these embodiments, instances of the
+security system 12280 may be implemented at the platform
+12000-level, at the fleet- or team-level, or individual-level.
+For example, at the platform 12000-level, the security
+system 12280 may provide security-related functionality on
+behalf of the platform 12000 and/or with respect to any
+communications and/or other interactions with robot oper-
+ating units. In embodiments, the security system 12280
+implemented at the fleet-level or team-level, whereby the
+security-system may be configured to provide security-
+related functionality on behalf of the robot team or fleet
+and/or with respect to communications and/or other inter-
+actions with robots in the team or fleet. In embodiments, the
+security system 12280 implemented at the robot-level may
+be configured to provide security-related functionality on
+behalf of the robot and/or with respect to communications
+and/or other interactions with other robots, robot teams,
+and/ortheplatform12000.
+In embodiments, the security system 12280 may include
+an autonomous adaptive security module 12282, an autono-
+mous non-adaptive security module 12284, and/or a manual
+security module 12286. An autonomous adaptive security
+module 12282 may be configured to request intelligence
+tasks from an intelligence layer 12200, whereby an adaptive
+security module 12282 leverages the artificial intelligence
+services 12204 of an intelligence layer 12200 to assess a
+security risk and determine an action based on an output of
+the intelligence layer 12200. For example, the adaptive
+security module 12282 of a robot fleet may monitor one or
+more conditions associated with the robot fleet by receiving
+data from a set of data sources, such as monitoring a work
+area for potentially dangerous conditions based on a set of
+data sources (e.g., video feeds, sensor data from the robots
+and/or environment, input from individual robots, and/or the
+like). In response to receiving the data, the adaptive security
+module 12282 may request an assessment (e.g., a classifi-
+cation) of an environment from the intelligence system
+12200 regarding the security of the environment. In
+response, the intelligence system 12200 may provide one or
+more classifications that indicate an assessment of the envi-
+ronment. The adaptive security module 12282 may then
+determine whether the assessment necessitates an action to
+be taken, and if so, what particular action to take. In some
+of these embodiments, the adaptive security module 12282
+may use a rules-based approach to determine whether the
+assessment necessitates and action and, if so, what action to
+take. Additionally or alternatively, the adaptive security
+module 12282 may leverage a neural network that is trained
+to an action to recommend given a set of features (e.g.,
+classifications, sensor readings from one or more robots,
+locations of robots, objects detected in the environment and
+locations thereof, and/or any other relevant features).In
+these embodiments, the neural network system 12214 may
+receive the features from the adaptive security module
+may output a proposed action given the set of features. In

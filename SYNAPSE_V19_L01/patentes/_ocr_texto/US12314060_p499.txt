@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+633
+components, etc. The edge device may make decisions
+based upon outputs and/or conclusions drawn from the data
+processing, analytics, filtering, trend finding, prediction
+making, etc. related to data received by the edge device.
+Examples of decisions made by the edge device include
+whether to validate one or more pieces of data, whether to
+validate a user of the smart container system 13000 or a
+portion thereof, whether a freight storage and/or transpor-
+tation service order has been executed, and the like. The
+10 edge device may transmit data related to decisions made by
+the edge device to other components of the smart container
+system13000.
+In some embodiments, in cases where the edge device is
+temporarily electronically isolated from other components
+of the smart container system 13000, the edge device may
+make decisions on behalf of other components of the smart
+container system 13000, and may have the decisions
+audited, evaluated, and/or recorded by other components of
+the smart container system 13000 upon being reconnected
+with the other components of the smart container system
+13000. The edge device may be restricted from making
+some decisions in absence of connection to and/or oversight
+by other components of the smart container system 13000.
+Examples of restricted decisions may include decisions 25
+related to shipping transactions where confidentiality and/or
+security are of concern, where sensitive cargo is to be
+shipped, and the like.
+In some embodiments, the edge device may store a copy
+of a distributed ledger, the distributed ledger containing 30 r
+information related to one or more smart containers, smart
+container fleets, and/or shipping transactions managed by
+the smart container system 13000. The distributed ledger
+may be a cryptographic ledger, such as a blockchain. The
+edge device may write blocks to the distributed ledger 35 t
+containing smart container information and may have the
+blocks verified by comparison with copies of the distributed
+ledger stored on other components of the smart container
+system 13000.
+In some embodiments, the smart container system 13000 40
+may include a ledger management system configured to
+manage a network of devices, such as edge devices, that
+store copies of the distributed ledger. The devices that store
+copies of the distributed ledger may be configured to trans-
+mit copies stored thereon to the ledger management system 45 
+for aggregation, comparison, and/or validation. The ledger
+management system may establish a whitelist of trusted
+parties and/or devices, a blacklist of untrusted parties and/or
+devices, or a combination thereof. The ledger management
+system may assign permissions to particular users, devices, 50 f
+and the like. Versions of the distributed ledger may be
+compared to prevent duplicate transactions such as the sale
+of multiple copies of a unique good. In embodiments, where
+the smart container system 13000 includes a plurality of
+edge devices that may each store a copy of the distributed 55
+respect to validation of blocks and addition of new blocks by
+and/or all of the edge devices.
+In some embodiments, the smart container system 13000
+may implement one or more distributed update management 60
+algorithms for updating distributed devices such as the edge
+device. The distributed update management algorithm may
+include one or more procedures forhow and when to roll out
+updates to the distributed devices. The smart container
+system 13000 may manage versions of edge computation 65
+software via the distributed update management algorithms.
+The distributed devices may receive updates directly from
+[col 2]
+634
+the smart container system 13000, may transmit updates to
+one another, or a combination thereof.
+In some embodiments, wherein the smart container sys-
+tem 13000 includes a plurality of edge devices, the edge
+devices may communicate with one another to record and/or
+validate shipping data. The edge devices may also commu-
+nicate data with one another related to one or more smart
+containers, smart container fleets, container ships, container
+terminals, shipping yards, charging stations, regions, users,
+ shippers, shipping lines, third parties, and the like. An edge
+device of the plurality of edge devices may communicate
+such information when able in cases where an edge device
+is electronically isolated from other edge devices and/or
+other components of the smart container system 13000.
+In some embodiments, a first edge device that is electri-
+cally isolated and is assigned to facilitate a smart container
+repair may be supported by a second edge device. The
+second edge device may be assigned to facilitate the same
+repair in case the first edge device fails to facilitate the repair
+and/or is out of communication with other components of
+the smart container system 13000 for an extended period of
+time such that facilitation of repair by the first edge device
+is unverifiable. Upon reentering communication range, the
+first edge device may update the second edge device and/or
+other components of the smart container system 13000 with
+maintenance operations that took place while the first edge
+devicewas electronically isolated.
+In some embodiments, the smart container system 13000
+may implement a hardware failure algorithm configured to
+make decisions when one or more components of the smart
+container system 13000, such as the edge device, ceases
+operation and/or is otherwise unable to completely operate
+properly. The hardware failure algorithm may include, for
+example, assigning an edge device to overtake operations
+that had been previously assigned to a now malfunctioning
+or nonfunctioning edge device.
+In some embodiments, the smart container system 13000
+may implement a data routing algorithm configured to
+optimize flow of data transmitted to and/or from the edge
+device, other components of the fleet system, external sys-
+tems, or a combination thereof. The edge device may include
+one or more signal amplifiers, signal repeaters, digital filters,
+analog filters, digital-to-analog converters, analog-to-digital
+converters and/or antennae configured to optimize the flow
+of data. In some embodiments, the network enhancement
+system may include a wireless repeater system such as is
+disclosed by U.S. Pat. No. 7,623,826 to Pergal, the entirety
+of which is hereby incorporated by reference. The edge
+device may optimize the flow of data by, for example,
+filtering data, repeating data transmission, amplifying data
+transmission, adjusting one or more sampling rates and/or
+transmission rates, and implementing one or more data
+communication protocols. In embodiments, the edge device
+may transmit a first portion of data over a first path of the
+plurality of data paths and a second portion of data over a
+second path of the plurality of data paths. The edge device
+may determine that one or more data paths, such as the first
+data path, the second data path, and/or other data paths, are
+advantageous for transmission of one or more portions of
+data. The edge device may make determinations of advan-
+tageous data paths based upon one or more networking
+variables, such as one or more types of data being transmit-
+ted, one or more protocols being suitable for transmission,
+present and/or anticipated network congestion, timing of
+data transmission, present and/or anticipated volumes of
+data being or to be transmitted, and the like. Protocols
+suitable for transmission may include transmission control

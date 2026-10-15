@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+815
+detect defects and quality issues in an item. For instance,
+assume for example purposes only that the above-noted
+information includes a video and/or a photo associated with
+the item (as well as other data). In the example, the video/
+photo of the actual item may be analyzed by VCN process
+10 to identify any imperfections in the item itself. An
+example imperfection may include an anomaly in the shape
+of the item, such as a crack or warped portion of the item,
+dimensional inconsistencies of items or their packaging,
+such as those resulting from crushing, impact, or other 10
+physical damage, surface blemishes such as a chip, scuff,
+abrasion, or other surface anomaly, defects or quality issues
+such as an item's exposure to potentially damaging tem-
+peratures, extreme pressures, impacts, visible or UV light,
+toxic materials (e.g-, chemicals, pathogenic organisms, or
+15 other dangerous contaminants), or intentional product adul-
+terations/sabotage, discoloration, mislabels or misprints,
+water damage as evidenced by leaks or seepage, mold,
+corrosion or rust, foreign object detection. The presence of
+these defects may be detected by sensors that are directly 20
+contacting the item or are monitoring the item's environ-
+ment(s). This may help companies identify and address
+quality issues early in the production process (or even in
+use), reducing waste and improving customer satisfaction.
+The information may include data from one or more sensors 25
+associated with the item. For instance, a temperature sensor,
+magnetic sensor, pressure monitoring sensor, vibration
+monitoring sensor, heat flow monitoring sensor, or any other
+type of sensor is contemplated, which may also be used by
+a digital twin (or otherwise) to help detect defects and 30 :
+quality issues in an item.
+In some implementations, executing the task may include
+predicting 18212 when an item in the value chain network
+will fail. For instance, as discussed throughout, VCN pro-
+cess 10's A1-based learning models may be used to predict 35
+when equipment is likely to fail. This may help companies
+schedule maintenance proactively, reducing downtime and
+maintenance costs. As an example, the above-noted platform
+604 may (e.g., via VCN process 10) include the ability of
+performing condition monitoring, anomaly detection, failure 40
+forecasting and predictive maintenance of an item/equip-
+ment. Some examples of questions that the predictive model
+may answer may include, e.g., when will the item fail, what
+type of failure it will be, what is the probability that a failure
+will occur within the next X hours or other given time 45
+window, what is the remaining useful life of the item, is the
+item behaving in an uncharacteristic manner, which item
+requires maintenance most urgently and the like. In some
+implementations, the information associated with the pre-
+dictions may be received by a digital twin. 50
+In some implementations, executing the task may include
+identifying 18214 a value chain process capable of optimi-
+zation based upon, at least in part, analyzing the information
+associated with the value chain network, and optimizing
+18216 the value chain process. For instance, as discussed 55
+throughout, VCN process 10's AI-based learning models
+may be used to optimize supply chain processes/tasks, such
+as transportation routing and management, inventory man-
+agement, supplier selection, scheduling production, tracking
+production costs, packing and shipping goods, tracking 60
+delivery status, identifying suppliers, negotiating contracts,
+configuring a smart contract, ordering goods and services,
+and receiving and inspecting goods and services. Informa-
+tion may be analyzed from various sources, such as inven-
+tory levels, transportation schedules, and supplier perfor- 65
+mance, to optimize supply chain operations. For instance,
+regarding inventory levels, assume for example purposes
+[col 2]
+816
+only that a large e-commerce company sells a wide range of
+products to customers worldwide. Further assume the com-
+pany faces challenges in managing its inventory efficiently
+due to fluctuating customer demands, seasonal trends, sup-
+plier lead times, and other factors. After gathering historical
+data on sales, customer orders, supplier deliveries, market
+trends, and other relevant variables, the data can be pro-
+cessed and fed into an Al-based predictive analytics system
+of VCN process 10 that also considers historical and current
+inventory levels. VCN process 10 may then facilitate deci-
+sion making processes concerning reorder points, safety
+stock levels, and order quantities by forecasting supply and
+demand side factors that determine optimal inventory levels.
+Regarding transportation schedules, assume for example
+purposes only that an organic produce distributor relies
+heavily on timely shipments to ensure freshness of their
+product. The distributor (e.g., via VCN process 10) may
+analyze historical transportation schedules and bottlenecks
+to choose the most reliable carriers and optimized routes to
+reduce transittimes so that fresher products make their way
+onto store shelves quicker and with fewer wasted perish-
+ables. Regarding supplier performance, assume for example
+purposes only that a luxury fashion retailer with a reputation
+for quality and timely deliveries regularly assesses their
+supplier performance metrics, such as delivery punctuality
+and defect rates. When a primary fabric supplier begins
+showing (e.g., via VCN process 10) inconsistent delivery
+times and increased defects, VCN process 10 may proac-
+tively recommend sources for the fashion retailer for an
+alternate supplier, ensuring continuity in production and
+upholding their high-quality reputation. Other types of opti-
+mizations may include configuring and/or deploying robotic
+fleets, container fleets, additive manufacturing/3D printer
+fleets, loading/unloading containers, etc. This may help
+companies reduce costs, improve efficiency, and increase
+flexibility in their supply chain operations.
+In some implementations, executing the task may include
+analyzing 18218 user data of a user from at least one source,
+and identifying 18220 one or more attributes of the user
+based upon, at least in part, the user data. For instance, as
+discussed throughout, VCN process 10's AI-based learning
+models may be used to analyze customer data, such as
+purchase history, social media activity, and demographic
+information, to gain insights into attributes such as customer
+behavior and preferences. This may help companies
+improve their product offerings, marketing strategies, and
+customer service.
+In some implementations, the value chain process may
+include transportation routing. For instance, assume for
+example purposes only that VCN process 10 has used one or
+more Al-based learning models to determine that there is a
+potential to reduce transportation costs in the value chain
+network based upon received data. In the example, VCN
+process 10 may receive the external data to both determine
+that there is the potential to reduce transportation costs, and
+determine how to do so. As an example, VCN process 10
+may include or interact with a transportation application that
+may automatically calculate the fastest or most optimal route
+and transportation method (e.g., air, boat, truck, etc.) based
+on external data (e.g., gas prices, traffic data, transportation
+time, sales forecasts, warehouse data, etc.) for past behavior
+over time, historical data, and/or current data. This may
+allow a precise view of when to ship orders, what mode of
+transportation to do so, and the optimal route. In some
+implementations, the external data may be received and
+analyzed in real-time or near real-time, enabling rapid
+time-to-value by collaborating globally with carriers to

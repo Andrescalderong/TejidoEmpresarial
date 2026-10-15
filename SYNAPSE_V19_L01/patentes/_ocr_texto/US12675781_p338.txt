@@ -1,0 +1,137 @@
+In an example, the additive manufacturing platform can 35 real time or near real-time basis through the order tracking
+where the matching may be based on factors like task 65 rial usage, workflow ineficiencies, output type, output
+[col 1]
+US 12,675,781 B2
+425
+embodiments, different parts of a product may be matched
+with different manufacturing nodes and the product may be
+assembled at one of the nodes, or elsewhere in a value chain
+network (such as while in transit, such as by a robotic
+assembly system located in a vehicle or shipping container), 5 1
+before being finally delivered to the customer.
+In embodiments, the additive manufacturing platform
+may be configured to maintain an inventory of parts avail-
+ able to large airplane or sea-going systems in which multiple
+redundancies are mandated by custom and/or regulation. In 10
+embodiments, example systems include double, triple or
+examples, certain systems may benefit from ready-to-be
+made products filling in for the third, fourth, etc. redundancy
+when previously a full inventory to adequately supply the 15
+entire third, fourth, etc. redundancy was required. It will be
+appreciated in light of the disclosure that not all systems will
+be applicable in that some critical systems may only permit
+such parts as further layers of redundancies to the already
+mandated supplies. While in flight, the desire to minimize 20
+weight and energy consumption may limit the desire for the
+creation of certain parts, the ability to generate parts on
+longer endurance flights to attend to the needs of the cabin
+may be one motivation to provide some inflight functional-
+ity. For example, locking components that may fail mid- 25
+flight, such as latches, hinges, seat-belts, and the like, can be
+replaced or temporarily locked closed to improve in-cabin
+safety. Components that may have come loose may also be
+shimmed or temporarily lodged in place by a custom printed
+part to wedge or hold parts in place through the flight. 3o u
+Examples include holding avionic components in a dash-
+board, overhead, or other cockpit controls, holding hospi-
+tality items in the galley, holding seats on seat rails, and the
+like.
+be used to create additional inventory to outfit the airplane
+for items constructible inflight that are required on the
+minimum equipment list to fly and have those parts replaced
+before the airplane lands and returns to the gate for service
+thus at least contributing to a repair that otherwise would not 40
+require an early landing but may prevent the next dispatch
+of the airplane to its next desired use.
+In sea-going embodiments, the additive manufacturing
+platform may be used to create additional inventory to outfit
+the sea going vessel with items constructible during the 45
+voyage that are required on the mandated minimum equip-
+ment list to embark (or the like) and have those parts
+replaced before the vessel moors and reloads thus at least
+contributing to a repair that otherwise would not require a
+detour and coming ashore early but may prevent the next 50 c
+timely dispatch of the vessel to its next desired use.
+In embodiments, the additive manufacturing platform
+may be configured to coordinate with land-based additive
+manufacturing assets to coordinate construction of parts and
+coordinated portions of greater assemblies so downtime in 55
+port or in the hanger can be minimized. In this example,
+entities providing just in time maintenance inventories can
+extend their reach and depth by augmenting their one or
+more offerings or coordinating their one or more offerings
+within port or in hanger systems that can be coordinating
+60
+with one or more in-situ systems active during voyage
+and/or flight.
+In embodiments, the matching system 10632 helps with
+matching an additive manufacturing task with an engineer
+complexity, engineer experience and expertise. In embodi-
+ments, the matching system 10632 helps with matching an
+[col 2]
+426
+additive manufacturing task with the location and/or avail-
+ability of a finishing worker where the matching may be
+based on factors like task complexity, worker experience and
+expertise. In embodiments, the matching system 10632
+helps with matching an additive manufacturing task with a
+set of additive manufacturing units 10102.
+In embodiments, a scoring system 10634 helps with
+scoring and rating various entities in the distributed manu-
+facturing network 10130, such as based on their perfor-
+mance, quality, timeliness, condition, status, or the like. In
+embodiments, the scoring system 10634 helps with rating a
+manufacturing node based on a customer satisfaction score,
+such as for meeting customer requirements. In embodi-
+ments, the scoring system 10634 helps with rating an
+engineer or other worker based on the condition/perfor-
+mance in completing an additive manufacturing task, includ-
+ing time required, quality of output, energy used, and other
+factors. In embodiments, the scoring system 10634 helps
+with rating the additive manufacturing unit 10102 based on
+the condition or performance in completing an additive
+manufacturing task, including process metrics, output met-
+rics, product quality measures, economic measures (such as
+ROI, yield, profit and the like), customer satisfaction mea-
+sures, environmental quality measures, and the like.
+In embodiments, an order tracking system 10636 helps
+with tracking a product order through its movement in the
+distributed manufacturing network 10130 till it is finally
+delivered to the customer. The order tracking system 10636
+may receive state data from various entities of the distrib-
+uted manufacturing network 10130 on real-time or a near
+real-time basis. For example, a 3D printer may provide
+updates on production stage data or a shipping system may
+provide updates on product location. This information may
+then be tracked, such as by a user or customer identity, on
+system 10636. A workflow manager 10638 manages the
+complete 3D printing production workflow for the distrib-
+uted manufacturing network 10130 including various
+events, activities and transactions related to one or more
+entitiesofthenetwork10130.
+In embodiments, an alerts and notifications system 10640
+provides alerts, notifications or reports about one or more
+events to a user or customer of the network 10130. For
+example, the alerts and notifications system 10640 may
+receive data related to certain production parameters or
+errors based on monitoring of the production workflow,
+based on which the alerts and notifications may be gener-
+ated. Such alerts, notifications, or reports may then be
+transmitted to a computing device (e.g., a computer, tablet
+computer, smart phone, telephone, mobile phone, PDA, TV,
+gaming console and the like) of a user or customer via email,
+text message, instant message, phone call, and/or other
+communication (e.g., using the Internet or other data or
+messaging network).
+In embodiments, the error notifications may provide
+options for a use of the platform 10110 related to continuing
+or stopping production or making adjustments to the design
+or production settings.
+In another example, a user or customer of the distributed
+manufacturing network may be provided with custom
+reports including live status and analytics based on real-time
+and historical data of the distributed manufacturing network
+10130. In embodiments, the custom report may include data
+and analytics related to demand, production capacity, mate-
+parameters, materials used, cost, ROI and the like across one
+or more manufacturing nodes in the network.

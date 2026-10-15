@@ -1,0 +1,136 @@
+that may include parallelized use of fleet resources, such as 1o twin capability of the fleet intelligence system may facilitate
+[col 1]
+US 12,567,082 B2
+579
+the order execution, monitoring, and reporting system
+13022. In embodiments, use thereof is indicated as serving
+a range of monitoring activities and the like.
+A job workflow definition system may examine task to
+task dependency (e.g. performing a second task of unload-
+ing cargo is dependent on completing a first task of trans-
+porting the cargo to a destination container terminal) to
+identify potential workflow independence and dependence
+for, among other things, configuring an order execution plan
+teams and the like.
+Features of an intelligence service, such as digital twin
+capabilities and the like, may also be beneficially applied to
+simulate and validate workflows, such as with a workflow
+simulation system of the job configuration system 13018. 15
+The workflow simulation system may perform simulations
+of portions of a job configuration, such as those portions
+organized into job workflows by the workflow definition
+system. In an example of workflow simulation, a set of tasks
+defined by the task definition system and organized into a 20
+portion of a job workflow may be modeled using functional
+equivalents for smart containers, tasks, workflows and the
+like, such as smart container digital twins 13504, container
+ship digital twins, shipping container port digital twins,
+railway digital twins, truck digital twins, environment digital 25
+twins, task digital twins, workflow digital twins, team digital
+twins, fleet digital twins, and the like. These digital twins
+may be retrieved from the library 13044 and executed by a
+processor to simulate the set of tasks, such as to validate the
+defined tasks.In embodiments,thefleetintelligence system 30
+may be utilized for providing at least a portion of these
+workflow simulations, such as by applying workflow defi-
+nitions and task definitions to one or more workflow models
+environment machine learning environment. 35
+The workflow simulation system may also generate feed-
+back from simulating workflows defined by the workflow
+definition system that may be useful in improving a work-
+flow definition, a task definition, a smart container selection
+and the like. 40
+The workflow simulation system may establish or other-
+wise access criteria for determining if a workflow meets the
+criteria, such as timely and successfully completing a task,
+job, and the like. By applying these criteria for measuring
+outcomes ofworkflow simulations,theworkflowsimulation45
+system may validate one or more workflow options, smart
+container options passed along to the workflow definition
+system, fleet configuration options, and the like before
+providing feedback to, for example, the task definition
+system, the job parsing system and the like. Options that do 50
+not meet the criteria (e.g., consumes an excess of resources,
+results in wear down of a smart container, fails to meet a
+schedule, results in a high percentage of damaged cargo, and
+the like) may be marked as such for improving job configu-
+ration functions, such as structuring tasks into workflows 55 c
+and the like.
+Further, a workflow simulation system may leverage the
+system intelligence service. In embodiments, the system
+intelligence service may provide access to and operation of
+instances of fleet digital twin modules that may provide 60
+critical understanding of fleet-based impacts on workflow
+definition for performing a requested job. In embodiments,
+a logistics digital twin of the fleet intelligence system may
+provide useful workflow simulation information through
+operation of modeling of shipments and costs of smart 65 i
+containers, personnel, support equipment and the like for
+smart container fleet services. This modeling of fleet logis-
+[col 2]
+580
+tics may reveal that a first local fleet that will soon become
+available (perhaps after the preferred start date of a
+requested job) may complete the job at a lower cost than
+using a second currently available fleet. In embodiments, a
+fleet digital twin may facilitate identifying smart container
+operational assets that are available during the scheduled job
+by modeling fleet operations, such as smart container main-
+tenance requirements for smart containers during the pre-
+ferred order execution time. In embodiments, a task digital
+modeling of smart container cargo configurations, such as
+when a smart container cargo is reconfigured during a job.
+A task digital twin capability of the fleet intelligence system
+may further benefit workflow definition clarity through
+workflow simulation by applying a virtual set of preconfig-
+ured smart container digital twins 13504 to perform a
+candidate workflow, or portion thereof, that is optionally
+being defined. In embodiments, a team digital twin capabil-
+ity of a fleet intelligence system may benefit a workflow
+simulation system of the job configuration system 13018 by
+using, for example, preconfigured smart container teams to
+operate and validate candidate workflows prepared by the
+workflow definition system.
+In embodiments, a result of workflow simulation may
+include one or more data structures that are suitable for use
+in an order execution plan.
+In addition to task definitions, smart container definitions,
+workflow definitions, fleet configuration parameters, and the
+like, an order execution plan may identify contracts for the
+job, such as smart contracts that may be constructed/con-
+figured by or in association with the job configuration
+system 13018, delivery times for job resources (e.g., fleets of
+smart containers), a schedule of deliverables, and the like.
+In embodiments, the fleet configuration system 13020
+configures resources of a fleet for a job based on the task
+definitions, workflow definitions, or the like. The fleet
+configuration system 13020 may determine the fleet con-
+figuration based on other considerations, such as cost,
+mode(s) of transportation (e.g., container ship, railway,
+truck, container hyperloop, and/or self-driving container),
+environmental conditions, time constraints, available inven-
+tory of smart containers and/or parts, and/or the like. The
+fleet configuration system 13020 may operate cooperatively
+with a job configuration system 13018, such as when tasks
+are to be organized into workflows. Job workflows may be
+impacted by availability of each type of smart container, so
+a job configuration system 13018 may leverage the fleet
+configuration system 13020 when determining candidate job
+workflows.
+In embodiments, fleet configuration for a requested job
+may include configuring fleet resources into a smart con-
+tainer team that is assigned to a specific task and/or project
+(noting that a smart container or a team of smart containers
+may be assigned multiple tasks and/or projects). Each smart
+container team may include one or more smart container
+smart containers, robots, humans, modes of transportation,
+machinery (e.g., 3D printers), tools, and the like. Further, a
+configured smart container team may be job-specific and
+team membership may be transient for any given smart
+container operating unit. As an example, a robot configured
+to perform cargo loading and/or unloading operations may
+be assigned to a first smart container team for only the
+duration of time during which cargo loading and/or unload-
+ing operations are being performed by the first smart con-
+tainer team. The same robot may also be assigned to a
+second smart container team for only the duration of time

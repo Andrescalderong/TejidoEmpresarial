@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+619
+contemporaneous characteristics, the mitigating action. The
+calculation may be performed in response to detecting
+contemporaneous characteristics or operating parameters
+falling outside of respective design parameters or may be
+determined via a simulation prior to detection of such
+characteristics.
+Additionally, or alternatively, the digital twin module
+13420 may provide alerts to one or more users or system
+elements in response to detecting states.
+In embodiments, the digital twin I/O system 13308
+10
+includes a pathing module. The pathing module may ingest
+navigational data from the elements, provide and/or request
+navigational data to components of the digital twin module
+13420 (e.g., the digital twin simulation system 13310, the
+digital twin dynamic model system 13312, and/or the intel- 15
+ligence service 13004), and/or output navigational data to
+elements (e.g., to the wearable devices). The navigational
+data may be collected or estimated using, for example,
+historical data, guidance data provided to the elements,
+combinations thereof, and the like. 20
+For example, the navigational data may be collected or
+estimated using historical data stored by the digital twin
+module 13420. The historical data may include or be pro-
+cessed to provide information such as acquisition time,
+associated elements, polling intervals, task performed, laden 25
+or unladen conditions, whether prior guidance data was
+provided and/or followed, conditions of a shipping entity or
+environment, other elements within the shipping entity or
+environment, combinations thereof, and the like. The esti-
+mated data may be determined using one or more suitable 30
+pathing algorithms. For example, the estimated data may be
+calculated using suitable order-picking algorithms, suitable
+path-search algorithms, combinations thereof, and the like.
+The order-picking algorithm may be, for example, a largest
+gap algorithm, an s-shape algorithm, an aisle-by-aisle algo- 35
+rithm, a combined algorithm, combinations thereof, and the
+like. The path-search algorithms may be, for example,
+Dijkstra's algorithm, the A* algorithm, hierarchical path-
+finding algorithms, incremental path-finding algorithms, any
+angle path-finding algorithms, flow field algorithms, com- 40
+binations thereof, and the like.
+In embodiments, the digital twin module 13420 ingests
+navigational data for a set of smart containers for represen-
+tation in a digital twin. Additionally, or alternatively, the
+digital twin module 13420 ingests navigational data for a set 45 
+of mobile equipment assets of a shipping environment into
+a digital twin.
+In embodiments, the digital twin module 13420 ingests a
+ system for modeling traffic of mobile elements (e.g., smart
+containers, container ships, robots, trucks, trains, cargo, or 50
+the like) in a shipping digital twin. For example, the digital
+twin module 13420 may model traffic patterns for a set of
+smart containers, mobile equipment assets, cargo combina-
+tions thereof, and the like. The traffic patterns may be
+estimated based on modeling traffic patterns from and his- 55
+torical data and contemporaneous ingested data. Further, the
+traffic patterns may be continuously or intermittently
+updated depending on conditions.
+The digital twin module 13420 may alter traffic patterns
+(e.g., by providing updated navigational data to one or more 60
+of the mobile elements) to achieve one or more predeter-
+mined criteria. The predetermined criteria may include, for
+example, increasing process eficiency, decreasing interac-
+tions between smart containers and mobile equipment
+assets, minimizing smart container path length, routing 65
+smart containers around paths or potential paths of persons,
+combinations thereof, and the like.
+[col 2]
+620
+In embodiments, the digital twin module 13420 may
+provide traffic data and/or navigational information to
+mobile elements in a shipping digital twin. The navigational
+information may be provided as instructions or rule sets,
+displayed path data, or selective actuation of devices. For
+example, the digital twin module 13420 may provide a set
+of instructions to a smart container to direct smart container
+to and/or along a desired route from an origin location to one
+or more specified locations along the route. The smart
+container may communicate updates to the system including
+obstructions, reroutes, unexpected interactions with other
+assets along the route.
+In some embodiments, an ant-based system enables ship-
+ping entities, including smart containers, to lay a trail with
+one or more messages for other shipping containers and/or
+shipping entities, including themselves, to follow in later
+journeys. In embodiments, the messages include informa-
+tion related to measurement collection.
+In embodiments, the digital twin module 13420 includes
+design specification information for representing a real-
+world element using a digital twin. The digital twin may
+correspond to an existing real-world element or a potential
+real-world element. The design specification information
+may be received from one or more sources.For example,the
+design specification information may include design param-
+eters set by user input, determined by the digital twin
+module 13420 (e.g., the via digital twin simulation system
+13310), optimized by users or the digital twin simulation
+system 13310, combinations thereof, and the like. The
+digital twin simulation system 13310 may represent the
+design specification information for the component to users,
+for example, via a monitor or a virtual reality headset. The
+design specification information may be displayed schemati-
+cally (e.g., as part of a process diagram or table of infor-
+mation) or as part of an augmented reality or virtual reality
+display. The design specification information may be dis-
+played, for example, in response to a user interaction with
+the digital twin module 13420 (e.g., via user selection of the
+element or user selection to generally include design speci-
+fication information within displays). Additionally, or alter-
+natively, the design specification information may be dis-
+played automatically, for example, upon the element coming
+within view of an augmented reality or virtual reality device.
+In embodiments, the displayed design specification infor-
+mation may further include indicia of information source
+(e.g., different displayed colors indicate user input versus
+digital twin module 13420 determination), indicia of mis-
+matches (e.g., between design specification information and
+operational information), combinations thereof, and the like.
+In some embodiments, the digital twin module 13420 may
+provide an augmented reality view that displays mismatches
+world elements to the wearer. The displayed information
+may correspond to real-world elements that are not within
+the view of the wearer (e.g-, elements within another room
+or obscured by machinery). This allows the worker to
+mine one or more sources for the mismatch. The cause of the
+mismatch may then be determined, for example, by the
+digital twin module 13420 and corrective actions ordered. In
+example embodiments, a wearer may be able to view
+malfunctioning subcomponents of machines without remov-
+ing occluding elements (e.g., housings or shields). Addition-
+ally, or alternatively, the wearer may be provided with
+instructions to repair the device, for example, including
+display of the removal process (e.g., location of fasteners to
+be removed), assemblies or subassemblies that should be

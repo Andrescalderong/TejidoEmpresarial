@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+383
+multiple manufacturing nodes in the distributed manufac-
+turing network 10130. The MES 10646 may integrate pro-
+cesses spanning production, distribution, supply chain,
+maintenance, quality and labor operations. Also, the MES
+10646 may c00rdinate with other systems and entities in the
+distributed manufacturing network 10130 to help with mak-
+ing decisions related to advanced planning, production
+capacity analysis, inventory turns and lead times.
+In embodiments, an additive manufacturing platform,
+such as that associated with a value chain or other network, 101
+may be designed, prepared, configured and/or deployed to
+support the design, development, manufacture and distribu-
+tion of parts and maintenance materials (e.g., oil, gas, other
+chemicals) for vehicles used to distribute products that may
+include trucks, trains, airplanes, boats, drones, etc.; parts and 15
+maintenance materials for machines (e.g., robots) used in
+packaging products; parts and maintenance materials for
+tools and machines (e.g., robots) used in moving packaged
+products from warehouse to vehicles; arts repair on existing
+parts (and, while in service); missing parts from a product 20
+that is otherwise ready to go, or some other part or compo-
+nent for the design, development, manufacture and distri-
+bution of parts and maintenance materials.
+In embodiments, an additive manufacturing platform, as
+described herein, may be designed, prepared, configured
+and/or deployed to support the monitoring of packaging
+materials (e.g., boxes, crates, wrap material, and the like)
+and need to generate more "as needed." The additive manu-
+facturing platform may address a “recall" situation by add-
+ing or revising a product in-warehouse,and maymonitor for 3o
+problems with vehicles, machines, tools, and other equip-
+ment being used and then replacing needed parts or mate-
+rials “as needed,' creating tools on-demand as needed by
+workers or robots in warehouse/distribution network and the
+like. 35
+In embodiments, an additive manufacturing platform, as
+described herein, may be designed, prepared, configured
+and/or deployed to support processing manufacturing inputs,
+such as using an artificial intelligence system (e.g., a robotic
+process automation system trained on a training set of expert 40
+service visit data), to determine a recommended action,
+which in embodiments may involve replacement of a part
+and/or repair of a part, or some other activity. In embodi-
+ments, the additive manufacturing platform may automati-
+cally determine that an element should be additively manu- 45
+factured to facilitate repair, such as where a complementary
+component may be generated to replace a worn or absent
+element. In example embodiments, some techniques and/or
+technologies that may be utilized with the warehouse/dis-
+tribution center may include, but are not limited to: provid- 5o maintenance workers.
+ing and/or including multiple source materials to generate in
+real time (i.e, on the fly) different tools, parts, and/or
+packaging; using AI to optimize product design, manufac-
+turing process configuration (including packaging material
+generation process), job scheduling, prioritization and/or
+logistics (efficiency of warehouse processes for replacing
+parts, materials without disrupting other general processes
+involved in warehouse/distribution center); enriching Al
+with input/source/training set data relevant to design factors,
+economic factors, quality factors, etc. involved in particular 60
+example embodiments (e.g., using sensors and monitoring
+of data to adjust manufacturing processes of parts materials
+needed for machines and/or packaging materials); coupling
+inputs, process data and outputs with digital twins for
+running simulations of individual processes or a combina-
+tion of processes to anticipate material needs for being able
+to produce or manufacture tools, parts, packaging, and/or fix
+[col 2]
+384
+machines with materials in real time (as needed); network-
+ing additive manufacturing nodes in meshes and/or fleets for
+coordinated operation within a warehouse/distribution net-
+work in an efficiency manner with respect to producing
+tools, parts, packaging, and/or other materials used to fix
+machines in real time; using robots that are able to attach to
+machines and then print directly onto a product, print tool,
+print parts for machines used in warehouse/distribution
+network, print packaging, and/or print materials used to fix
+machines in real time; using hybrids/pairs of different types
+of 3D print additive manufacturing including any and all of
+the items listed within warehouse/distribution center net-
+work processes for fixing products, producing tools, pro-
+ducing parts, producing packaging, and/or producing other
+materials to fix machines in real time (as needed).
+In embodiments, the Product Lifecycle management
+(PLM) system 10648 helps manage the part or product
+across the entire lifecycle, from conception and design
+through manufacturing and distribution to customer use and
+service. The PLM system 10648 may contain accurate,
+real-time product information across the lifecycle and value
+chain. This helps with developing and managing the product
+in a manner that is responsive to feedback from one or more
+distributed manufacturing network entities, such as custom-
+ers using the product, distributors, logistics providers, regu-
+lators, safety professionals, service professionals, sales-
+people, product managers, designers, resellers, and many
+others. This may also enable an accelerated proof of concept
+and rapid customization of the product in the product
+development stage. Also, this may help with predicting
+product demand and prices, improving customer engage-
+ment, performing product testing while in customer use and
+providing pre-emptive warranty management.
+In embodiments, the maintenance management system
+(MMS) 10650 monitors a set of 3D printers, cutting tools,
+filters, machine lasers and other machines, manages spare
+parts, maintains records and uses artificial intelligence and
+machine learning models to efficiently self-diagnose main-
+tenance requirements and generate work orders. In embodi-
+ments, the MMS 10650 monitors a set of other machines,
+equipment, products, fixtures, or other assets, maintains
+records, and manages maintenance operations for that set of
+items, including coordinating additive manufacturing work-
+flows (such as to produce spare parts, tools, workpieces,
+accessories, replacement elements, and the like) with other
+maintenance workflows. In embodiments, this occurs with
+automation, such as robotic process automation, such as
+where an RPA agent is trained upon a set of expert interac-
+tions to undertake, or to support, operations performed by
+In embodiments, the Quality Management system (QMS)
+10652 determines whether a printed part has been produced
+correctly by comparing real time sensor data with expected
+feedback data wherein the expected feedback data is gen-
+erated from at least one of historical data, test data, and
+machine learning. In embodiments, the QMS 10652 also
+generates warranty certification including the duration of
+part warranty and scope of coverage upon determining
+completion of testing and quality assurance.
+In embodiments, the QMS 10652 includes automated part
+metrology and utilizes a vision system with variable focus
+optical system and artificial intelligence-based pattern rec-
+ognition for automated part metrology. In embodiments, the
+vision system may include a conformable variable focus
+liquid lens assembly and a processing system that dynami-
+cally learns on a training data of outcomes, parameters and
+data collected from the conformable variable focus liquid

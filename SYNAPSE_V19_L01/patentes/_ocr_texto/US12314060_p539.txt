@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+713
+edge devices 20120 in various cities, states, countries, or
+other locations, all of which may communicate via various
+networks 20160 to implement the functions and features
+described herein.
+FIG. 166B illustrates an example architecture 20170 for
+connecting various devices in a mesh network configuration.
+Although the architecture 20170 shows a few devices,in
+practice the number of edge devices, aggregators, and/or
+edge device/aggregators may be much larger in number.
+Additionally or alternatively, instead of using a mesh net- 10 a
+work architecture, the devices may use a fully connected
+architecture or some other type of network architecture. As
+shown in FIG. 166B, a query device 20110 may connect to
+one or more edge devices (e.g, edge device 20120B, edge
+device/aggregator 20130B), which provide APIs and/or 15
+other interfaces for receiving queries from query devices
+20110. For example, the query device 20110 may connect to
+edge device 20120B, which may store a first set of edge data
+at edge storage connected to edge device 20120B, and/or to
+edge device/aggregator 20130B, which may store a second 20
+ set of edge data at edge storage connected to edge device/
+aggregator 20130B. In embodiments, although the edge
+devices may store different edge data in edge storage, using
+techniques described herein, they may provide the same or
+similar responses to some queries (e.g, queries that are not
+ specific to an edge device). For example, whether the query
+device 20110 sends a particular query (e.g., a query for an
+average sensor reading for a particular region) to a first edge
+device in the region or a second edge device in the region,
+the query response may be the same (or statistically similar). 30
+In this example, the edge devices may provide the same or
+similar responses because they may access and/or use the
+same summary data and/or probabilistic models stored on
+the dynamic ledger 20150 to respond to the query.
+In embodiments,the query device 20110may additionally35
+or alternatively connect directly to (and/or send queries
+directly to) various edge devices/aggregators 20130 and/or
+aggregators 20140. In embodiments, the edge devices
+20120, edge devices/aggregators 20130, and/or aggregators
+20140 may connect directly to the dynamic ledger 20150 40
+and/or may connect via other devices to the dynamic ledger
+20150.In embodiments, the network may maintain multiple
+dynamic ledgers 20150 that may be used to store different
+types of data (e.g., a first dynamic ledger for storing a first
+type of data and a second dynamic iedger for storing a 45
+second type of data) and/or data that may be used for
+different purposes.
+FIG. 167A illustrates details of example data stored in
+edge storage 20122, which may be connected to various
+edge devices, which in turn may include and/or be connected 50
+to various sensors 20202 and/or other data sources 20204. In
+embodiments, to leverage storage across independent stor-
+age devices, the database may be replicated and/or edge
+sharded (typically in part) across multiple edge devices by
+storing various data in different partitions, where each 55
+partition may correspond to a different edge storage 20122.
+This sharding and/or replication enables the database to
+execute query fragments on each partition and then combine
+the results to produce a single answer. Applications and/or
+users may have no knowledge of where data is physically 60
+located or how tables are partitioned and/or replicated. A
+partitioning scheme (as described in more detailed below)
+may maximize single edge node transactions to avoid the
+need to coordinate the behavior of concurrent transactions
+running on other nodes. 65
+As shown in FIG. 167A, each edge device 20120 may
+store detailed data from connected sensors 20202 and/or
+[col 2]
+714
+As shown, an example edge device 20120A may include
+and/or be connected to sensors 20202A and/or data sources
+20204A. Correspondingly, another example edge device
+20120B may include and/or be connected to sensors 20202B
+and/or data sources 20204B. The edge device 20120A may
+continually receive data from the sensors 20202A and/or
+other data sources 20204A, and the edge device 20120B
+may continually receive data from the sensors 20202B
+and/or other data sources 20204B. The sensors may be any
+types of sensors, including environmental sensors (e.g.,
+temperature sensors, weather sensors), visual sensors (e.g..
+image and/or video cameras), audio sensors (e.g., micro-
+phones and/or acoustic sensors), location/orientation sensors
+(e.g., accelerometers, gyroscopes, speedometers, GPS chips,
+etc.), vibration sensors, chemical sensors, biological sensors,
+or any other form of sensor. Moreover, the data sources may
+be stored in a distributed database, such as devices that
+generate various reports or analyses, devices that monitor
+the status of networks or network devices, security devices,
+devices that monitor production lines, devices that monitor
+traffic, and/or any other types of data sources. The edge
+storage 20122A, 20122B may store detailed data (e.g.,
+sensors A detailed data 20212A and/or data sources A
+detailed data 20214A in edge storage 20122A, and sens0rs
+B detailed data 20212B and/or data sources B detailed data
+20214B in edge storage 20122B) collected over long periods
+of time by the sensors 20202 and/or data sources 20204,
+such as continuous streams of sensor readings collected over
+a long period of time, periodic reports/analyses/figures/etc.
+generated by the data sources over long periods of time,
+and/or the like. In embodiments, the edge storage may
+include megabytes, gigabytes, terabytes, or even more of
+detailed data collected by the edge device 20120 and stored
+in edge storage 20122. In embodiments, the data may be to0
+voluminous to share across the distributed database, and
+therefore the edge devices must be configured to enable
+responses to high volumes of queries without continuously
+transmitting large amounts of detailed data across a network
+connecting the various components of the distributed data-
+base. In embodiments, this result may be achieved through
+the use of dynamic ledger instructions. The aggregator nodes
+can monitor the dynamic ledger and create further instruc-
+tions to optimize the location of the data or summaries of the
+data.
+In some embodiments, detailed data may be stored redun-
+dantly in edge storage. For example, in the illustrated
+embodiment edge storage 20122B further includes redun-
+dant data 20222B, 20224B, which may be collected from the
+sensors 20202A, 20204A corresponding to the other edge
+device 20120A. Thus, in this embodiment, data from sensors
+20202A, 20204A may be stored in both edge storage
+20122A and edge storage 20122B. In embodiments, the
+redundant data 20222B, 20224B may be identical to the
+detailed data 20212A, 20214A stored in another edge stor-
+age. Additionally or alternatively, the redundant data may
+include less data (e.g., a shorter history of data, fewer
+time-based samples of data, etc.) and/or higher grain data
+(e.g., summaries of certain data values but not others). The
+aggregators 20140 may cause the edge devices 20120A and
+20120B to be in communication continuously,periodically,
+or otherwise to transfer and store redundant data.
+In embodiments, reference tables 20216 may be stored in
+the edge storage 20122 (e.g., reference tables 20216A in
+edge storage 20122A and reference tables 20216B in edge
+storage 20122B). Reference tables 20216 may include vari-

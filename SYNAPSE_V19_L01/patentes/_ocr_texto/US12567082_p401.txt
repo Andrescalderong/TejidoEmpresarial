@@ -1,0 +1,136 @@
+execution-time iteration of configuration activities, such as 35 such as requiring work to be halted, delayed, or otherwise
+[col 1]
+US 12,567,082 B2
+479
+variously in conjunction with job operations platform func-
+tions and features, such as job configuration and the like. As
+an example, the robot configuration library 12314 may
+include specific reference to configurations of multipurpose
+robots that may be utilized during fleet configuration, job
+execution and the like. In this example, the robot configu-
+ration library 12314 may have references to robot configu-
+ration data sets (e.g., data that when uploaded to a multi-
+purpose robot may enable the robot to perform a function,
+such as standing, welding, and the like). Further the library 10
+may provide a cross-reference of multipurpose robot con-
+figurations with other robot-related information, such as
+base model, version, required features, and the like that may
+be required for successfully deployment of a robot config-
+ured with a given configuration. Yet further, the library may
+15 suggest alternatives to certain combinations of robot and
+configuration, such as indicating that a newer version of a
+specific configuration. Therefore, the fleet configuration
+system may have greater flexibility in deciding which robots 20
+to deploy for different jobs. References are made herein to
+the library 12314, using contextual modifiers, such as robot
+configuration library and the like. These contextual modifi-
+ers may suggest one or more portions and/or instance of the
+library 12314 for illustrative purposes only. 25
+In embodiments, optimization features of the task defini-
+tion system are described below in association with feed-
+back from other elements of the job configuration system
+12018, such as the workflow simulation system 12308 and
+the like. 30
+FIG. 136 presents a flow diagram showing an embodi-
+ment of the fleet operations system and a data flow thereof.
+In the example embodiments, the fleet operations system
+and the fleet intelligence system perform a feedback for job
+for adapting an executing instance of a job execution plan.
+The embodiments of FIG. 136 depict an embodiment of the
+methods and systems of a robot fleet platform 12002
+depicted and described herein, in which feedback within a
+job configuration system 12018facilitates iterating configu- 40
+ration activities when producing components ofa job execu-
+tion plan 12310, such as task definitions 12304D and work-
+flowdefinitions 12306D.Asdescribed for these
+embodiments, the fleet intelligence layer 12004 may be used
+for at least these iterations. However, it is envisioned that the 45
+resourcesofthefleetintelligencelayer12004mayalsoorin
+ addition be used for enhancing execution of a job execution
+plan 12310.
+In the example of FIG. 136, the job execution system
+12022 of the fleet operations system 12002 may receive job
+execution plans 12310 from the job configuration system
+12018 responsive to, for example a job request. The job
+execution system 12022 may facilitate performance of a job
+execution plan 12310 by stepping through the plan, activat-
+ing and monitoring robot units and other fleet resources, and
+providing feedback 12322, optionally real-time feedback
+based on, for example, robot unit monitoring data. This
+feedback 12322 may be processed by, for example, artificial
+intelligence capabilities of the fleet intelligence layer 12004
+for determining adjustments to a job execution plan, such as
+60
+task definitions and the like. When this feedback and adjust-
+ments are done in real-time or near real-time (e.g., before an
+flow 12306D), functions of the job configuration system
+12018 may be iterated to amend an existing job execution 65
+plan, such as an instance of a plan that is currently being
+executed by the job execution system 12022. In a building
+[col 2]
+480
+ventilation inspection example of job execution plan itera-
+tion, a task of entering a ventilation system may involve
+removing a ventilation portal cover at a plurality of locations
+in the building. Based on job execution-time feedback from
+a robot (or team of robots) removing the initial ventilation
+portal cover from a ceiling port, the definition of this task
+may be adapted to require a different retention technique for
+holding the cover in place without damaging it while remov-
+ing the fasteners. In embodiments, the feedback may include
+images and/or video of the removal task. In embodiments,
+the feedback may include a measurement of the weight of
+the cover as determined by the robot(s) performing the
+removal task.
+This real-time (or near-real time) visual feedback may be
+analyzed by the fleet intelligence system to determine, for
+example, that a portion of the baffles on the cover were
+deformed during removal. An artificial intelligence system
+of the fleet intelligence layer 12004 may perform simula-
+one or more as input to the job configuration system 12018
+for updating corresponding task definitions. In embodi-
+ments, the fleet intelligence system may send an alert to the
+fleet operations system 12002 regarding the need for adapt-
+ing this task definition that may be used by the system to
+update, for example, preconfigured task definitions stored in
+the robot task library 12314 and the like. Such an alert may
+be used by the fleet operations system to coordinate with the
+job execution system 12022 so that pending ceiling-based
+ventilation cover removal tasks are not executed before
+being refreshed in the job execution plan 12310. In embodi-
+ments, the job configuration system 12018 may release only
+portions of the job execution plan 12310 to the job execution
+system 12022 so that unreleased portions can be adapted;
+thereby mitigating impacts on the job execution system,
+impaired while updates to the execution plan are made.
+While the examples for job configuration and the like
+presented herein generally consider a single job being con-
+figured by the job configuration system 12018, there may be
+manyjobsbeing configured concurrently.Themethods and
+systems for real-time or near real-time feedback described
+herein may apply to any instance of job configuration
+activity being performed so that feedback on task definition
+of a first job may benefit task definition of a second job,
+while maintaining necessary job-isolation requirements
+(e.g., job identifying data may be obfuscated) to support
+concurrently processing job requests from different entities.
+Also, depicted in FIG. 136 is a means for further enhanc-
+ing configuration activities (e.g., job and fleet configuration
+ 50 as described herein) for handling future job requests by
+optionally capturing data representative of completion of a
+requested job as a form of feedback for use by the fleet
+intelligence layer 12004 for, among other things, learning
+and optimization. In embodiments, capturing data represen-
+tative of completion of a requested job may include extract-
+ing such data from a job completion data set 12326. This job
+completion data set 12326 may be constructed to facilitate
+identifying information that may be useful for learning and
+optimization 12324. In an example, the job completion data
+set my designate, such as by use of metadata tags, logical
+and/or physical separation, or other indicia data that repre-
+sents exceptions or large variants from expectation. In an
+example, at job completion, a count of repetitions of a robot
+function (e.g, articulated arm movements to remove debris
+from a building ventilation system) may exceed an expected
+number. This excessive count of repetitions may be flagged
+as candidate information for learning and optimization feed-

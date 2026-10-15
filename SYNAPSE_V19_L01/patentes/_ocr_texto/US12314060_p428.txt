@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+491
+blocked or made dangerous for humans. Such a task may
+therefore be interpreted by the fleet configuration system
+12020 so that a robot that includes features for evaluating a
+deployment location, such as a vision system and the like
+may be matched with the defined task. In embodiments, such
+flexibility may be selected from the robot configuration
+library 12314.
+Continuing further with the exemplary robot fleet job of
+inspecting a building ventilation system, the workflow defi-
+nition system 12306 may gather information output by the 10
+task definition system 12304 and the fleet configuration
+system 12020 (e.g., optionally via the fleet configuration
+proxy 12305) when establishing a workflow for at least the
+procedural step of entering the ventilation system. At a level
+of abstraction, this procedural step may include two primary 15
+ventilation system. Information from the task definition
+system 12304 may indicate that task (i) is a prerequisite for
+performing task (ii). The workflow system 12306 may
+therefore define a workflow for this portion of the requested 20
+job with task (i) occurring before task (i). An additional task
+(i) may include 3D image capture of the environment
+where entry is being made to the ventilation system. Infor-
+mation from the fleet configuration system 12020 about one
+or more robots configured for these tasks may indicate that 25
+two robots are configured, a first robot for task (i) and a
+second for task (ii). The workflow system may utilize this
+information to determine that an order of tasks (i), (i), and
+(ii) can be optimized by defining a workflow that has the
+second robot perform task (i)while waiting for the first 30
+robot to complete task (i). If the fleet configuration infor-
+mation for these tasks indicated that a single robot is
+provisioned for these 3 tasks, then the workflow system may
+define an order of tasks as (iii) followed by (i) and then
+followed by (ii).These alternate workflow configurations 35
+responsive to information provided to the workflow system
+indicate a degree of flexibility of the workflow system when
+defining workflows, such as to ensure efficient use of fleet
+resources and the like.
+Simulation of a workflow of these three tasks via the 40
+workflow simulations system 12308 may also provide
+insight into any of the task definitions, fleet resource allo-
+cation, workflow definitions. As a non-limiting example,
+simulation of a workflow that defines an order of tasks as (i),
+(ii) and finally (ii) may yield that step (ii) cannot be 45
+performed for a single robot allocation as indicated because
+the single robot operating unit performing these three tasks
+would be disposed inside the ventilation system at step (i).
+Aresult of the simulation may be provided back to at least
+the workflow system to rework the workflow. In embodi- 50
+ments, data resulting from the simulation (e.g-, failure of
+a job configuration system process, such as task definition
+fleet configuration and the like. In another example of
+workflow simulation, with two robots configured to perform 55
+these tasks as described above, if the workflow calls for 3D
+imaging of the task area (task (ii) by the second robot
+contemporaneously with the first robot removing the access
+panel (task (i)), the simulation may attempt to perform a
+simulation of the 3D imaging function with, for example, a 60
+digital twin of the second robot. The simulation may fail if
+the second robot is not configured by the fleet configuration
+system with the 3D imaging capability. Feedback from such
+a simulation may result in a range of changes in job
+configuration. Two example changes may include: (i) adjust 65
+robot configuration (retain the workflow and change the
+configuration of the second robot to include 3D imaging
+[col 2]
+492
+capabilities); and (ii) adjust one or more task assignments
+(assign the 3D imaging function to the first robot and adjust
+the workflow).
+In embodiments, a job execution plan 12310 for inspect-
+ing a building ventilation system may include at least the
+three defined tasks (i), (ii), and (ii), fleet resource (e.g-,
+robot configuration) and allocation information (e.g., from
+the fleet configuration system 12020) for each task, and a
+workflow defining a sequence of the three tasks.
+In view of the foregoing disclosures, the fleet manage-
+ment platform 12000 may be a stand-alone service or may
+be integrated into a larger system-of-systems. Furthermore,
+the fleet management platform 12000 is configured to facili-
+tate many different types of fleets for different types of tasks.
+In addition to the configurations that are described above,
+some additional examples of fleets and robot operating units
+that may be configured by the fleet management platform
+12000 are provided below.
+FIG. 139 illustrates example embodiments of a multi-
+purpose robot 12100 according to some embodiments of the
+present disclosure and may be applied to the general
+examples of an MPR 12100 of FIG. 129. In general, a
+multi-purpose robot 12100 is designed, built, configured,
+and operated to maximize operational flexibility in indi-
+vidual and group deployment scenarios. In this way, a
+multi-purpose robot 12100 may be configured and recon-
+figured to perform certain task-specific functions in addition
+to the baseline functionality of the multi-purpose robot
+12100. In embodiments, the MPR 12100 may be configured
+to operate autonomously, semi-autonomously, or using
+directions provided by one or more users. In embodiments,
+the MPR 12100 may include a baseline system 12102, a
+module system 12120, a robot control system 12150 and a
+robot security system 12170. For task-specific capabilities,
+an MPR 12100 may incorporate configurable and inter-
+changeable hardware and software modules provided by a
+physical interface module 12122 and a control interface
+module 12130 of module system 12120. These modules may
+mount on and interface with the control system 12150, the
+robot security system 12170, and/or the baseline system
+12102 required for robot mobility, power distribution, and
+the like.
+In embodiments, the baseline system 12102 of an MPR
+12100 includes various hardware, devices, interfaces, pro-
+cessors, software, and systems that perform the baseline
+functions of the MPR 12100.In some embodiments, the
+baseline system 12102 may include an energy storage and
+power distribution 12104 that stores energy and delivers
+power to the other components of the robot, enclosures
+12106 that enclose some or all of the components of the
+MPR 12100, an electromechanical and electro-fluidic sys-
+tem 12108 that actuates and control the mechanical compo-
+nents of the MPR 12100, a transport system 12110 that
+includes mechanical components that physically move the
+MPR 12100 in an intended environment, a vision and
+sensing system 12112 including a baseline set of sensors that
+are used in connection with performance of the baseline
+functions and/or certain task-specific functions, and a struc-
+tural system 12114 including one or more skeletal compo-
+nents configured to provide form and structure to the MPR
+12100.
+As can be appreciated, the baseline system 12102 of an
+MPR 12100 may be configured in accordance with the
+characteristics required to operate the MPR 12100 in certain
+operating environments or conditions (e.g-, to operate in
+heat, cold, humidity, land, sea, underwater, air, underground
+and/or the like), regardless of the tasks that the MPR 12100

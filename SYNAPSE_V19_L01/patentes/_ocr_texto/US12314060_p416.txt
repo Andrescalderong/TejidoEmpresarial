@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+467
+One such example is a required upgrade of a class of robot.
+In anticipation of needing to reserve the robots in this class,
+the fleet configuration functions may allocate alternate robot
+types that can be reconfigured to satisfy the requirements of
+the reserved robot class for the duration of the upgrade
+activity.
+In embodiments, anticipation of fleet resource needs may
+be determined through use of fleet management platform
+12000, such as the platform 12000 intelligence layer 12004
+and the fleet operations system 12002. For example, in some 10
+embodiments the platform 12000 intelligence layer 12004
+may analyze sources data that may impact fleet resource
+demands, such as weather forecasts, public activity calen-
+dars, job request data (e.g., timing, job parameters, relations
+to other job requests and the like), social media postings, 15
+government activity/legislation, seasons, and the like. In this
+example the platform 12000 intelligence layer 12004 acting
+in co0peration with the fleet operations system 12002 may
+predict fleet resource demand based on an analysis of the
+disparate data sources (e.g., using a neural network or the 20
+like). In these embodiments, the platform 12000 intelligence
+layer 12004 may process the data from the disparate data
+sources and determine a likelihood of fleet resource needs
+across a range of factors.
+Other aspects of fleet resource anticipation may include 25 a
+preparation and/or maintenance activities, such as by auto-
+matically configuring one or more job requests for fleet
+preparation-directed activities (eg. preparation and/or
+maintenance of robot operating units or supporting devices). 30
+In this way, the fleet management platform 100 may operate
+to facilitate job request performance while ensuring fleet-
+specific needs (e.g., maintenance) are met. A balance of fleet
+self-focused activities (e.g., maintenance) with job anticipa-
+tion needs and further with job requests from clients of the 35
+platform 12000 may be achieved through use of relative
+weighting of job requests.
+In embodiments, a fleet management platform 12000 may
+interface with external data sources 12036 for performing
+various platform functions including job configuration, fleet
+configuration, job negotiation (e.g., via a smart contract
+facility), job execution and the like. Examples of external
+data sources for use by the platform 12000 include value
+chain entities (e.g., third parties paying for fleet services and
+the like), enterprise resource planning systems (ERPs) that 45 i
+may provide job context for performing team configuration
+and/or execution of a requested job, smart contracts, and the
+like. Other external data sources may include third-party
+sensor systems (e.g., GPS data, value chain logistics data for
+when material needed for a job is to be delivered, and the 5o 
+like) as well as third-party data streams (e.g., weather, trafic,
+electricity pricing, and the like).
+In some embodiments, the fleet management platform
+12000 may support the use of smart contracts in relation to
+job requests, job performance, resource, allocation, and/or 55
+the like. In embodiments, job requests may be routed
+through a smart contract handler that captures job require-
+ments, requestor goals and objectives, and fleet job execu-
+tion constraints into a dynamic smart contract. In some
+embodiments, smart contracts may be utilized throughout a
+fleet management platform to address all manner of fleet
+operations, such as administering negotiated routing of a
+multi-purpose robot from a first location (e.g-, a current job
+site, a warehouse, a temporary storage/service location) to a
+second location (e.g., a target job site). As a further example, 65
+a smart contract may be put in place as a control for a
+bidding system for robot time/task utilization. As another
+[col 2]
+468
+example, a smart contract may monitor certain activities
+(e.g., task related activities and the like) relating to a job
+request. The smart contract may rely on and/or benefit from
+access to fleet platform data, (e.g. task progress, sensor data,
+and the like) to trigger actions defined by the smart contract,
+such as payments upon completion of a task or job. The fleet
+management platform 12000 may provide access to fleet
+resources, including fleet data through Application Program-
+ming Interfaces, infrastructure elements such as sensor net-
+works, edge computing systems, and the like for updating
+states relevant to smart contract terms and conditions.
+Referring to the embodiments depicted in FIG. 134, the
+job configuration system 12018 and the fleet configuration
+system 12020 collectively generate a job execution plan
+12310, according to some embodiments of the present
+disclosure. In embodiments, a job execution plan 12310 may
+define a set of tasks that are to be performed in completion
+of a requested job and may further define a configuration of
+a fleet of robot operating units that are to complete the job.
+In embodiments, a job execution plan 12310 may include
+task definitions 12304D, workflow definitions 12306D, fleet
+configurations 12020D (which may include robot configu-
+rations of individual robots), team assignments, and refer-
+ences to (or incorporation of) contextual information, such
+as job site details and the like. In embodiments, the job
+configuration system 12018 receives a request 12300 that
+defines the job to be done and the job configuration system
+12018 may determine a set of task definitions 12304D that
+respectively define a task that is performed by a robot in
+completion of a job.In embodiments, the job configuration
+system 12018 further defines a set of workflow definitions
+12306D. The workflow definitions 12306D define at least
+one order in which tasks are performed in completion of a
+project and/or job, including any loops, iterations, triggering
+conditions, or the like. In embodiments, the job configura-
+tion system 12018 may determine the workflows 12306D
+based on the task definitions 12304D that comprise a job
+and/or project. The job configuration system 12018 may
+leverage libraries of preconfigured workflows to complete
+certain jobs. Additionally, or alternatively, the job configu-
+ration system 12018 may leverage the platform 12000
+intelligence layer 12004 to obtain an initial workflow defi-
+nition 12306D for a job and/or project that is part of a larger
+job. In some embodiments, a human may configure the
+initial workflow definition and/or may provide input that is
+used to determine the initial workflow definition. In embodi-
+ments, the job configuration system 12018 may interface
+with one or more components of the fleet management
+platform 100 to exchange information for developing a robot
+fleet job execution plan 12310 and/or to leverage one or
+more services thereof. For example, the job configuration
+system 12018 may interface with the data processing system
+12030, a robot configuration library 12314 of robot, fleet,
+project, and task related information, the fleet-level intelli-
+gence layer 12004, the fleet configuration system 12020, and
+the like.
+In the example of FIG.135, the job configuration system
+12018 may include a plurality of systems that perform job
+plan preparation functions, by processing the information
+received in the job request 12300. In embodiments, the
+systems of the job configuration system 12018 may include
+a job parsing system 12302, a task definition system 12304,
+a workflow definition system 12306, and a workflow simu-
+lation system 12308. In the illustrated example, the job
+configuration system12018 systems work in combination to
+generate a job execution plan 12310 that is used to define a
+set of robot operating unit assignments 12312. In embodi-

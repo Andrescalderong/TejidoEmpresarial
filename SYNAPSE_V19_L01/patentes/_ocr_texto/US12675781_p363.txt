@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+475
+that operate to complete a task or set of tasks. An individual
+robot may refer to a special-purpose robot, multi-purpose
+robot, exoskeleton robot, robotic process automation soft-
+ware, or other software-based bot, as discussed further
+below. As will be discussed, in some embodiments, the fleet
+management platform may define a configuration of one or
+more multi-purpose robots to perform a respective task or
+sub-task and/or to operate in a certain type of environment
+as part of the fleet configuration. As will be discussed, a
+multi-purpose robot may be configured with various mod- 1o r
+ules that allow the multi-purpose robot to perform certain
+tasks. For instance, a multi-purpose robot may be provi-
+sioned with specialized chips that enable the robot to per-
+form intelligence tasks, specialized sensors for a job or
+environment, liquid lenses for enabling certain machine- 15
+vision functionality, specialized appendages that are task
+specific (e.g., clamps, grippers, drills, lifts, and/or the like).
+and/or other modules that configure the multi-purpose robot
+to perform a certain task or set of tasks.
+In some embodiments,the fleet managementplatform 20
+may define a set of workflows, wherein a workflow may
+define an order by which certain tasks or sub-tasks are
+performed and the robot operating unit(s) that is/are
+assigned to the respective task or sub-task. In some embodi-
+ments, the fleet management platform may perform work- 25
+flow simulations to iteratively redefine fleet configurations
+and/or workflows to substantially optimize the operation of
+the robot fleet. For example, the fleet configurations and/or
+workflows may be iteratively adjusted to reduce costs,
+improve logistical efficiencies, reduce the overall job time, 30
+or the like. Once the fleet configuration and workflows are
+finalized, the fleet management platform may deploy the
+fleet. In some embodiments, the fleet management platform
+may facilitate the logistics involved with delivering robot
+operating units and/or robot components, and/or supporting 35
+resources to the job site(s). Furthermore, in some embodi-
+ments, the fleet management platform may leverage additive
+manufacturing capabilities, such as 3D printers or other
+capabilities described herein or in the document incorpo-
+rated by reference herein, in furtherance of resource provi- 40
+ sioning/logistics, such that items that are capable of being
+3D-printed in an efficient manner may be printed rather than
+shipped. In embodiments, the fleet management platform
+may monitor the robot fleet while performing a job, includ-
+ing the status of robot operating units, the performance of 45
+jobs, and the like. In some of these embodiments, the fleet
+management platform may automate maintenance of robots
+inventory and/or to reduce downtime at job locations.
+In some embodiments, the fleet management platform 50
+may support fleet digital twins that depict the status of the
+robot operating units and/or the job performance based on
+data received from the robot operating units or other suitable
+data sources, such as edge devices, environmental sensor
+systems, platform resources (e.g., logistics platforms, enter- 55
+prise resource management platforms, customer relationship
+management platforms, and/or the like), and/or other suit-
+able data sources. The digital twins served by the fleet
+management platform may be adapted for various uses. For
+example, in some embodiments, a digital twin may be 60
+configured to provide a real-time status of a job being
+able to drill down in different areas of a job site to view the
+progress with a job. In some example embodiments, a digital
+twin may be configured to provide a status of a robot fleet, 65
+including individual robots within the fleet. In these
+examples, a user may drill down onto individual robots in a
+[col 2]
+476
+team or fleet of robots to view the status of the robots. For
+example, the user may view the battery life of a robot, the
+availability of other energy sources, the location of a robot,
+the mobility options for the robot, the productivity of a
+robot, task completion status of a robot, maintenance alerts
+of a robot, and/or the like. In some example embodiments,
+the fleet management platform may serve environmental
+digital twins that depict the environment of a robot fleet with
+real-time information, such as locations of object and other
+robots, sensor readings of the environment, and the like. In
+these embodiments, a user may leverage an environmental
+digital twin to provide remote control commands to a robot,
+a team of robots, or a fleet of robots. For instance, a robot
+or team of robots may encounter an unidentified object in
+performance of a task and may be unable to make a decision
+relating to the task performance. In some embodiments, the
+fleet management platform may obtain relevant data (e.g.,
+LIDAR data, video feeds, environment maps, and the like)
+which may be depicted in an environment digital twin. The
+user may view the current scenario in the environmental
+digital twin and may provide instruction to the robot fleet
+how to proceed given the scenario presented in the envi-
+ronmental digital twin. The foregoing are non-limiting
+examples of digital twins that may be used in connection
+with a fleet management platform and other examples are
+discussed below.
+FIG. 128 illustrates an example environment of a fleet
+management platform 12000 (also referred to as “platform
+12000") according to some embodiments of the present
+disclosure. In some embodiments, a fleet management plat-
+form 12000 may be used a value chain entity that is
+leveraged by one or more organizations. The fleet manage-
+ment platform 12000 may be a standalone service or may be
+incorporated as part of a larger multi-service offering. In
+embodiments, a robot fleet management platform 12000
+includes a fleet operations system i2002 a data processing
+system 12030, and an intelligence layer 12004 (e.g-, a
+platform level intelligence layer 12004). In embodiments,
+the fleet operations system 12002 configures and manages
+robot operating units and/or jobs that are performed by robot
+operating units 12040. As will be discussed, a robot oper-
+ating unit 12040 may refer to individual robots, individual
+robot task assemblies 12050, robot fleets 12060, and/or
+robot fleet support units 12080.
+In embodiments, the fleet operations system 12002
+includes, but is not limited to, a communication manage-
+ment system 12010, a remote-control system 12012, a
+12016, a job configuration system 12018, a fleet configura-
+tion system 12020, a job execution system 12022, a human
+interface system 12024, and a maintenance management
+system 12026. In embodiments, the communication man-
+agement system 12010 is configured to facilitate fleet man-
+agement platform communications, including with elements
+external to the fleet management platform 12000. In
+embodiments, the remote-control system 12012 is config-
+ured to manage and enable control of robot operating units
+and fleet resources remotely. In embodiments, the resource
+provisioning system 12014 is configured to handle alloca-
+tion and access to fleet resources (e.g., robot operating
+units). In embodiments, the logistics system 12016 co0rdi-
+nates use and transportation of fleet resources and supplies
+to job sites and/or robot operating units. In embodiments, the
+maintenance management system 12026 facilitates coordi-
+nated, timely maintenance of fleet resources. In embodi-
+ments, the job configuration system 12018 generates a job
+execution plan based on a job request. In embodiments, a

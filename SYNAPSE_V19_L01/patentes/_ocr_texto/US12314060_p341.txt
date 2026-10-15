@@ -1,0 +1,138 @@
+using behavior cloning. In embodiments, the reinforcement 35 nents) of the mobile system.
+FIG. 109 illustrates a physical orientation determination 65 determine physical orientation data more efficiently by off-
+[col 1]
+US 12,314,060 B2
+317
+actuators,motors,wheels, wingsflaps, or other components
+that controls the agent's speed, acceleration, orientation, or
+position; changing the agent's internal settings, such as
+putting certain components into a sleep mode to conserve
+battery life; changing the direction if the agent is in danger
+of colliding with an obstacle object; acquiring or transmit-
+ting data; attempting to grasp a target object and the like.
+At 8912, 8914 and 8916, expected rewards may be
+determined for each of the potential actions based on a
+reward function. For each of the determined potential 10
+actions, an expected reward may be determined based on a
+reward function. The reward may be predicated on a desired
+outcome, such as avoiding an obstacle, conserving power, or
+acquiring data. If the action yields the desired outcome (e.g.,
+avoiding the obstacle), the reward is high; otherwise, the
+15 reward may be low.
+The agent may also look to the future to analyze whether
+there may be opportunities for realizing higher rewards in
+the future. At 8918, 8920, and 8922, the agent may deter-
+mine future states resulting from potential actions respec- 20
+tively at 8906, 8908, and 8910.
+For each of the future states predicted at 8918, 8920, and
+8922, one or more future actions may be determined and
+evaluated. At steps 8924, 8926, and 8928, for example,
+values or other indicators of expected rewards associated
+with one or more of the future actions may be developed.
+The expected rewards associated with the one or more future
+actions may be evaluated by comparing values of reward
+functions associated with each future action
+At 8930, an action may be selected based on a comparison 30
+of expected current and future rewards.
+In embodiments, the reinforcement learning agent may be
+pre-trained through simulations in a digital twin system. In
+embodiments, the reinforcement agent may be pre-trained
+agent may be trained using a deep reinforcement learning
+algorithm selected from Deep Q-Network (DQN), double
+deep Q-Network (DDQN), Deep Deterministic Policy Gra-
+dient (DDPG), soft actor critic (SAC), advantage actor critic
+(A2C), asynchronous advantage actor critic (A3C), proxi- 40 
+mal policy optimization (PPO), trust region policy optimi-
+zation (TRPO).
+In embodiments, the reinforcement learning agent may
+look to balance exploitation (of current knowledge) with
+exploration (of uncharted territory) while traversing the 45
+action space. For example, the agent may follow an -greedy
+policy by randomly selecting exploration occasionally with
+probability  while taking the optimal action most of the
+time with probability 1-, where e is a parameter satisfying
+0<<1.
+50
+Specialized Chips
+FIGS. 109-113 illustrate a plurality of specialized chips
+that provide various system functionalities for use in a
+variety of contexts, and that may be leveraged in systems
+described herein and/or to provide functionalities described 55
+herein. As explained in more detail below, the chip func-
+tionalities are configurable for specific contexts and to
+address specific tasks. Therefore, using the functionalities of
+one or more of the chips, systems of systems such as those
+described herein may be more easily created, configured, 60
+deployed, and reconfigured. Any of the chips may be used in
+the various systems described herein and by various value
+chain entities in ways that will be evident from the disclo-
+sures of the capabilities of each chip.
+chip 9100, one or more of which may be used to determine
+data about one or more physical orientations as described
+[col 2]
+318
+herein. The chip 9100 may be used by any value chain entity
+that leverages mobile systems. In embodiments, the chip(s)
+9100 may use artificial intelligence (AI) and other tech-
+niques to determine the physical orientation of a mobile
+system. As described herein, the chip(s) 9100 may receive
+one or more inputs 9192 from a mobile system and perform
+one or more AI-assisted functions to determine the physical
+orientation of the mobile system. The chip(s) 9100 may then
+transmit outputs 9194 indicating the determined physical
+orientation. The chip(s) 9100 may be part of a mobile system
+(e.g., a robot), and/or may be part of a different device (e.g.,
+a base station in communication with the robot) that receives
+inputs 9192 from the mobile system. A mobile system may
+include any system that is mobile and/or that has one or
+more mobile components as described herein.
+The physical orientation(s) determined by the chip(s)
+9100 may be relative to any real reference point/frame (e.g.,
+the solar system, GPS coordinates, coordinates within
+another system, etc.) or simulated reference point/frame
+(e.g., coordinates with an environment digital twin or other
+virtual space). In embodiments, the physical orientation may
+include a location, a rotation/heading (e.g., a direction the
+mobile system is facing towards and/or angle at which the
+mobile system is rotated), a tilt (e.g., an amount the mobile
+system is leaning in one or more directions), velocity, and/or
+acceleration, each of which may be relative to any real or
+simulated point/frame. Accordingly, the output(s) 9194 may
+comprise one or more data structures indicating the various
+orientation information.
+In embodiments, the chip(s) 9100 may determine and/or
+output the orientation of the entire mobile system. Addition-
+ally or alternatively, the chip(s) 9100 may determine and/or
+output the orientation of one or more components (e.g.
+limbs, wheels, instruments, appendages, or other compo-
+In embodiments, the chip(s) 9100 can be modular com-
+ponent(s) that may be integrated with the mobile system in
+various ways. As stated above, the chip(s) may be integrated
+with a mobile system and/or integrated with a system in
+communication with themobile system. To facilitatethis
+modularity, the chip(s) 9100 may be provided partially or
+completely within a housing (not shown) and may receive
+the inputs 9192 and/or provide the outputs 9194 via elec-
+trical connectors, optical connectors, and/or wireless con-
+nectors (e.g., antennae, inductive coils, etc.). Additionally or
+alternatively, the chip(s) 9100 may be integrated with other
+circuits, processors, systems, etc., either on one or multiple
+substrates/chips.
+The chip(s) 9100 may be and/or include one or more
+system-on-chips (SOCs), integrated circuits (ICs), applica-
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9100 and/or
+any other functionality. For example, the chip 9100 may be
+provided as part of a SOC that also provides other functions
+described herein. In general, the components of the chip
+9100 may comprise one or more general-purpose processing
+chips that are configured using software instructions or other
+code, and/or may comprise special-purpose processing chips
+(e.g-, ASICs) customized to perform the functions described
+herein.
+Multiple chip(s) 9100 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9100
+may use serial, parallel, and/or other processing techniques
+to determine physical orientation data more quickly, to
+loading more complex computations from one chip 9100 to
+another chip 9100 with a better power source, and/or the

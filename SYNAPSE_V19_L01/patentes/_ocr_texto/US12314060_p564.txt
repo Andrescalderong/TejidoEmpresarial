@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+763
+to provide a configured function or set of functions for the
+control architecture 21000. For instance, each of the appli-
+cations 614, applications 630, the value chain entities 652,
+demand management applications 824, 1502, supply chain
+applications 812, 1500, intelligent product applications
+1510, asset management applications 1530, and enterprise
+resource management applications 1520 from the VCNP 604
+may be a building block. Other examples of buildings blocks
+may include adaptive intelligent systems 614, artificial intel-
+ligence systems 1160, 10212 (including hybrid artificial 10
+intelligence systems 3060), and/or other systematic services,
+such as artificial intelligence and computational systems
+634, robotic process automation (RPA) systems 1442, pro-
+tocol adaptors 1110, packet acceleration systems 1410, edge
+compute management systems 1400, edge intelligence sys- 15
+tems 1420, edge networking systems 16100, adaptive net-
+working systems 1430, state and event managers 1450,
+opportunity miners 1460, artificial intelligence systems
+1160, digital twin systems 1700, digital twin simulation
+systems 2020, machine vision systems 1600, entity interac-
+tion systems 1920, real time monitoring systems 1520,
+visual monitoring systems 1930, point ofinteraction systems
+1530, physical process observations systems 1510, robotic-
+oriented systems (e.g-, robotic motion tracking systems),
+machine state monitoring systems 1940, IoT systems 1172, 25
+user feedback systems i534, location monitoring systems
+1532, behavioral monitoring systems 1538, entity discovery
+systems 1900, classification systems 1610, data processing
+systems 1612, signal processing systems 1614, prediction
+systems 1620, configuration systems 1630, control systems 30
+1640, analytic systems 1650, testing/diagnostic systems
+1660, security systems 1670, and quantum computing sys-
+tems 17000. For additive manufacturing, some examples of
+building blocks include systems/services for the additive
+manufacturing platform 10110, such as additive manufac- 35
+turing units 10102, pre-processing systems 10104, post-
+processing systems 10106, material handling systems
+10108, finishing systems 10121, packaging systems 10122,
+shipping systems 10124, processing systems 10127, data
+acquisition systems 10602, design and simulation systems 40
+10i16, Product Lifecycle management (PLM) systems
+10648, maintenance management systems (MMS) 10650,
+Quality Management systems (QMS) 10652, certification
+systems 10654, compliance systems 10656, feedstock for-
+mulation systems 10706, risk prediction and management 45
+systems 10712, marketing and customer service systems
+10716, and AI systems 10212. With respect to liquid lens,
+some examples of building block include systems/services
+associated with dynamic visions systems 11200. For robotic
+fleet management, examples of building blocks include 50 i
+systems/services relating to the fleet management platform
+12000, such as fleet operations systems 12002, robot oper-
+ating units 12040, robot control systems 12150, robot secu-
+rity systems 12170, robotic process automation (RPA) sys-
+tems 12216, vision and sensing systems 12112, and motion 55 i
+planning systems 12158. For smart containers, examples of
+building blocks include systems/services relating to the
+smart intermodal shipping container system 1300, such as
+smart containers 13026, smart container operating units
+13040, logistics systems 13016, maintenance management
+60
+systems 13028, smart container task assemblies 13050,
+security systems 13046, communication management sys-
+tems 13010, remote-control systems 13012, human interface
+systems 13038, fleet management systems 13002, fleet con-
+figuration systems 13020, quantum computing services 65
+13008, and smart container digital twins (e.g, smart con-
+tainer fleet manager digital twin 13328). For digital product
+[col 2]
+764
+networks, examples of building blocks include systems/
+services relating to the digital product network 14000, such
+as digital product network services 14002, connected prod-
+ucts 14010, digital products 14210, demand aggregation
+systems 14250, supply chain management systems 14252,
+new product development systems 14254, customer rela-
+tionship management systems 14256, PLM systems 14258,
+digital twin systems 14260, synchronized planning systems
+14262, intelligent procurement systems 14264, dynamic
+fulfillment systems 14266, and digital product network
+systems 14508. For smart contracts, examples of building
+blocks include systems/services relating to the smart futures
+contract system 15000, such as futures systems 15006, smart
+contract services 15020, demand aggregation services
+15022, digital wallets 15024, risk determination services
+15026, and RPA services 15028. For biology-based systems,
+examples of building blocks include systems/services relat-
+ing to the thalamus service 18001, such as control systems
+18002, intake data management systems 18028, and intake
+controllers 18008. For energy systems, examples of building
+blocks include systems/services relating to the energy sys-
+tem 19000. For dual process artificial neural networks,
+examples of building blocks include systems/services relat-
+ing to the dual process artificial neural network (DPANN)
+system 20000. Although these systems are specifically enu-
+merated as potential building blocks, this list is non-exhaus-
+tive and may include other applications, systems, and/or
+services described herein or others not specifically
+described, but of a similar nature to systems/services of this
+disclosure. As explained previously, one or more of these
+building blocks may be particularly configured as well as
+mixed and matched in various combinations to form a set of
+building blocks capable of performing a target task, activity,
+or action.
+In some implementations, there may be multiple sets of
+service building blocks that are capable of performing a
+given activity 21332, especially in a configuration that may
+be dictated by CSSs. When this is the case, an SOS, such as
+a primary system 21100, can (as noted above) identify the
+candidate sets of service building blocks that are capable of
+performing an activity 21332 and determine an optimal set
+from the candidate sets. In some examples, the optimal set
+of service building blocks is determined by an optimization
+algorithm that weighs one or more different importance
+factors. Some examples of importance factors include con-
+sumption ofcomputingresources,dutycycle,responsetime,
+estimated time to complete the activity 21332, amount of
+relation to third-party resource consumption, training or
+initiation time, quality metrics, inventory metrics/thresh-
+olds, human resource expenditure, overhead, cost, raw mate-
+rial consumption, operational capacity, and resource utiliza-
+tion.
+Although FIG. 176B illustrates twenty-four service build-
+ing blocks, there may be a greater or a fewer number of
+service building blocks depending on the services available
+to an enterprise. In some examples, the number of service
+building blocks is contingent upon the number of services
+that systems of the enterprise are capable of performing.
+Meaning that, an enterprise with five systems capable of
+performing seven service(s)/task(s) may have seven service
+building blocks such that the enterprise can deploy a con-
+figured instance of some set/subset of the seven service
+blocks. With this type of structure, a management stack
+21300 can focus on optimizing a configuration for a com-
+bination of services rather than trying to optimize or con-
+figure each service individually.

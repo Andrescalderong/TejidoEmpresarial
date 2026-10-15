@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+439
+tion of supply and demand, including coordination of auto-
+mation within supply chain activities and demand manage-
+ment activities.
+In embodiments, the digital twin system 12220 may
+provide access to and manage a library of robot operating
+unit digital twin systems. Systems, such as the other artificial
+intelligence services 12240 may access the library to per-
+form functions, such as a simulation of actions of a robot
+operating unit in a given environment performing a specified
+job in response to certain stimuli. In embodiments, the 1o
+digital twin system 12220 may include and provide access to
+as well as facilitate execution of robot twins (e.g., digital
+twin of individual robot operating units), task twins (e.g..
+digital representation oftasks as defined by, for example the
+task definition system and/or pre-configured library of robot
+task building blocks, which may be optimized for certain job
+conditions/requirements), team twins (e.g., digital embodi-
+ment of designated teams of robot operating units that may
+include digital twins of individual robot operating units and
+the tasks that they are performing and/or pre-configured 20
+task-range-specific team twins), project twins (e.g., digital
+embodiment of a defined job execution plan, optionally
+including digital twins for robot operating units, teams,
+tasks, fleet resources and/or a set of preconfigured project-
+specific project twins that can address a range of specific
+tasks), fleet twins (e.g., an aggregation of robot operating
+unit digital twins along with fleet operational and organiza-
+tional models that take into consideration cross-job fleet
+functions, such as maintenance, robot operating unit retire-
+ment and replacement, backup robot operating units and the 30
+like), operator twins (e.g., a digital embodiment of a human
+operator, such as may be determined through use of robotic
+process automation and the like), logistics twins (e.g., digital
+modeling for shipment and cost of robots, personnel, and
+addressing a particular job request), environment twins (e.g.,
+modeling mobility constraints and required capabilities,
+edge and networking constraints and capabilities, and power
+constraints and capabilities), and the like.
+In embodiments, the artificial intelligence services 12204 40
+may include and/or provide access to a machine vision
+system 12222. In embodiments, a machine vision system
+12222 is configured to process images (e.g., captured by a
+camera) to detect and classify objects in the image. In
+embodiments, the machine vision system 12222 receives 45
+one or more images (which may be frames of a video feed
+or single still shot images) and identifies “blobs" in an image
+(e.g, using edge detection techniques or the like). The
+machine vision system 12222 may then classify the blobs. In
+some embodiments, the machine vision system 12222 lever- 501
+ages one or more machine-learned image classification
+models and/or neural networks (e.g-, convolutional neural
+networks) to classify the blobs in the image. In some
+embodiments, the machine vision system 12222 may per-
+form feature extraction on the images and/or the respective 55
+blobs in the image prior to classification. In some embodi-
+ments, the machine vision system 12222 may leverage
+classification made in a previous image to affirm or update
+classification(s) from the previous image. For example, if an
+object that was detected in a previous frame was classified 60
+with a lower confidence score (e.g., the object was partially
+occluded or out of focus), the machine vision system 12222
+may affirm or update the classification if the machine vision
+system 12222 is able to determine a classification of the
+object with a higher degree of confidence. In embodiments, 65
+the machine vision system 12222 is configured to detect
+occlusions, such as objects that may be occluded by another
+[col 2]
+440
+object. In embodiments, the machine vision system 12222
+receives additional input to assist in image classification
+tasks, such as from a radar, a sonar, a digital twin of an
+environment (which may show locations of known objects),
+and/or the like. In embodiments, the machine vision system
+12222 may output object classifications to an intelligence
+service client 12260, such as a control system of a robot, a
+robot supervisor, an edge device, and/or the like. In some
+embodiments, a machine-learning system 12222 (e.g-, of a
+robot operating unit) may include or interface with a liquid
+lens. In these embodiments, the liquid lens may facilitate
+improved machine vision (e.g., when focusing at multiple
+distances is necessitated by the environment and job of a
+robot) and/or other machine vision tasks that are enabled by
+15a liquid lens.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a natural language
+processing (NLP) system 12224. In embodiments, an NLP
+system 12224 performs natural language tasks on behalf of
+an intelligence layer client 12260, such as a control system.
+Examples of natural language processing techniques may
+include, but are not limited to, speech recognition, speech
+segmentation, speaker diarization, text-to-speech, lemmati-
+zation, morphological segmentation, parts-of-speech tag-
+ging, stemming, syntactic analysis, lexical analysis, and the
+like. In embodiments, the NLP system 12224 may enable
+voice commands that are received from a human. In embodi-
+ments, the NLP system 12224 receives an audio stream (e.g.,
+sion on the audio stream to obtain a transcription of the
+audio stream. The NLP system 12224 may process text (e.g.,
+a transcription of the audio stream) to determine a meaning
+of the text using various NLP techniques (e.g., NLP models,
+neural networks, and/or the like). In embodiments, the NLP
+system 12224 may determine an action or command that
+was spoken in the audio stream based on the results of the
+NLP. In embodiments, the NLP system 12224 may output
+the results of the NLP to an intelligence service client 12260,
+such as a control system of a robot, a robot supervisor, an
+edge device, and/or the like.
+in embodiments, the artificial intelligence services 12204
+may also include and/or provide access to a rules-based
+system 12228 that may be integrated into or be accessed by
+the fleet management platform 12000 or any sufficiently
+configured robot operating unit (e.g, an MPR, SPR, a team,
+a fleet, and/or the like). In some embodiments, a rules-based
+system 12228 may be configured with programmatic logic
+that defines a set of rules and other conditions that trigger
+certain actions that may be performed in connection with a
+robot fleet and/or job. In embodiments, the rule-based sys-
+tem 12228 may be configured with programmatic logic that
+receives input and determine whether one or more rules are
+met based on the input. If a condition is met, the rules-based
+system 12228 determine an action to perform, which may be
+output to a requesting intelligence layer client 12260. The
+data received by the rules-based engine may be received
+from an intelligence data source 12270 and/or may be
+requested from another intelligence service 12204, such as
+the machine vision system 12222, the neural network system
+12214, the ML system 12212, and/or the like. For example,
+the rule-based system 12228 may receive classifications of
+objects in a field of view of the robot from the machine
+vision system 12222 and/or sensor data from a lidar sensor
+of the robot and, in response, may determine whether the
+robot should continue in its path, change its course, or stop.
+The rules-based system 12228 may be configured to make
+other suitable rules-based decisions on behalf of a respective

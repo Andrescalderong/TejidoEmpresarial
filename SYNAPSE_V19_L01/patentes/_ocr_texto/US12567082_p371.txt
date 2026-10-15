@@ -1,0 +1,138 @@
+In embodiments, the control system 11314 may control 10 applications include: recognizing objects in dynamic envi-
+[col 1]
+US 12,567,082 B2
+419
+In embodiments, the conformable liquid lens assembly in
+the dynamic vision system 11300 may have an electrowet-
+ting control system such that an application of electrical
+voltage to the fluid in the liquid lens changes the shape of the
+liquid, effectively changing the focus of the liquid lens
+assembly.
+In embodiments, the placement of actuators in a variable
+focused liquid lens based optical assembly may be opti-
+mized using machine learning.
+the liquid lens 11304 configuration based on feedback from
+the processing system 11306 in response to a change in
+environment factors. Some examples of the environmental
+factors include temperature, vibrations, ambient sensor data,
+workflows, entity IDs, user behavioral data, entity profiling,
+ similarity to known data and the like.
+In embodiments, the control system 11314 may control
+the liquid lens 11304 configuration based on feedback from
+the processing system 11306 in response to a change in
+source lighting including control color, color temperature, 20
+timing (PWM), amplitude (e.g., increase PWM but diminish
+amplitude, direction, polarization, and the like.
+In embodiments, the control system 11314 may control
+the liquid lens configuration based on human occupancy and
+awareness of when lighting needs to be coordinated with 25
+human needs versus adjusted solely to serve the liquid lens
+system.
+In embodiments, the optical assembly 11304, may include
+multiple sets of liquid lenses with the processing system
+11306 coordinating the control of multiple liquid lenses
+30
+ setup.
+In embodiments, the optical assembly 11304, may include
+multiple sets of liquid lenses with each lens having a
+separate objective function, and a separate processing sys-
+tem with AI setups or algorithms. 35
+In embodiments, the optical assembly 11304, may include
+one or more liquid lens combined with a conventional
+convex or concave optical lens with the processing system
+11306 coordinating the control of the combination.
+In embodiments, the processing system 11306, such as 40
+using the adaptive intelligence system 11318, the digital
+twin system 11320 and the simulation system 11322 may
+execute simulations to model, simulate and characterize the
+mechanical, optical, or lighting aspects of the dynamic
+vision system 11300. The simulations executed by the 45
+processing system 11306 may help identify suitable imaging
+components for the dynamic vision system 11300 including
+sensors, lenses and lights. The simulations may include real
+time analytics to calculate wide range of metrics, build
+charts, graphs and models and visualize the effect of change 50
+of one or more optical parameters on the performance of the
+dynamic vision system 11300. The artificial intelligence
+system 11326 in the adaptive intelligence system 11318 may
+then utilize the one or more models to make classifications,
+predictions, recommendations, and/or to generate or facili- 55
+tate decisions or instructions relating to the lens materials,
+geometry, optical properties, performance and design of the
+dynamic vision system 11300. For example, the artificial
+intelligence system 11326 may execute simulations on one
+or more liquid lens digital twins for generating recommen- 60
+dations relating to the fluid used in the liquid lens. The
+simulations may be performed using different fluids includ-
+ing distilled water, methyl alcohol, ethyl alcohol, ether,
+carbon tetrachloride, methyl acetate, glycerine, nitrobenzene
+and the like to generate recommendations on the preferred 65S
+fluid for a given application of the dynamic vision system
+11300.
+[col 2]
+420
+The dynamic vision system 11300 may utilize dynami-
+cally learned sensory elements to recognize objects ensuring
+a richer object recognition capacity that may be applied to a
+imaging applications requiring rapid focusing, high through-
+put, and depth of field and working distance accommoda-
+tion. Moreover, the approach is especially beneficial for
+complex vision applications where conventional vision tech-
+nologies have been inadequate. Some examples of such
+ronments like when the object or vision system are moving;
+recognizing three dimensional (3D) objects by capturing
+depth data; recognizing tiny objects; recognizing facial
+features; recognizing objects in a power constrained or
+15 network constrained environment; and so on.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of value chain network (VCN)
+entities (such terms encompassing the many examples and
+embodiments disclosed herein and in the documents incor-
+porated by reference herein).
+In embodiments, the dynamic vision system 11300 may
+be integrated into or with a set of robotic systems, such as
+mobile and/or autonomous robotic systems. For example,
+the dynamic vision system 11300 may be contained within
+the housing or body of a robotic system, such as a multi-
+purpose/general purpose robotic system, such as one that
+simulates human or other animal species capabilities. The
+vision capabilities may enable the robot in identifying and
+manipulating a target object for use in robotic assembly lines
+where object depth, orientation, position and motion may be
+inferred for improved object identification. The vision capa-
+bilities may also enable the robot in simultaneous localiza-
+tion and mapping, which is a technique for estimating the
+position of the robot with respect to its surroundings while
+mapping the environment at the same time. As another
+example, the dynamic vision system 11300 may be inte-
+grated with a robotic exoskeleton designed to augment the
+capabilities of a human operator and provide optimized
+sensing and control for the human operator.
+In embodiments, the output from the dynamic vision
+system 11300 may be temporally combined with output
+from other sensors in the robot using conditional probabili-
+ties to create a combined view of the object that is richer and
+includes information about the position, orientation and
+motion of the object. Some examples of sensors that may be
+used in conjunction with the liquid lens based dynamic
+vision system 11300 include cameras, LIDARs, RADARs,
+SONARs, thermal imaging sensor, hyperspectral imaging
+sensor, illuminance sensors, force sensors, torque sensors,
+velocity sensors, acceleration sensors, position sensors,
+proximity sensors, gyro sensors, sound sensors, motion
+sensors, location sensors, load sensors, temperature sensors,
+touch sensors, depth sensors, ultrasonic range sensors, infra-
+red sensors, chemical sensors, magnetic sensors, inertial
+sensors, gas sensors, humidity sensors, pressure sensors,
+viscosity sensors, flow sensors, object sensors, tactile sen-
+sors, or some other type of sensor.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens controlled by Al as
+necessary, and augmented by sensors may be adapted to
+build a neural prosthetics system.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens technology controlled by
+Al as necessary, may be adapted to build an exoskeleton
+system.
+In embodiments, the dynamic vision system 11300 incor-
+porating a conformable liquid lens controlled by AI as

@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+701
+the like, relative to a base dataset used for training or
+retraining), storage activity, processing operation and/or
+output, has characteristics that natively favor the training
+system versus the retraining system based on its respective
+inputs, processing (e.g-, based on its structure, type, models,
+operations, execution environment, resource utilization, or
+the like) and/or outcomes (including outcome types, perfor-
+mance requirements (including contextual or dynamic
+requirements), and the like. For example, the DPANN
+ system 20000 may determine that poor performance of the 10
+training system on a classification task may indicate a novel
+problem for which the training of the ANN was not adequate
+(e.g, in type of data set, nature of input models and/or
+feedback, quantity of training data, quality of tagging or
+labeling, quality of supervision, or the like), for which the 15
+processing operations of the ANN are not well-suited (e.g..
+where they are prone to known vulnerabilities due to the
+type of neural network used, the type of models used, etc.),
+and that may be solved by engaging the retraining system to
+retrain the model to teach the model to learn to solve the new 20
+classification problem (e.g., by feeding it many more labeled
+instances of correctly classified items). With periodic or
+continuous evaluation of the performance of the ANN, the
+DPANN system may subsequently determine that highly
+stable performance of the ANN (such as where only small 25
+improvements of the ANN occur over many iterations of
+retraining by the retraining system) indicates readiness for
+the training system to replace the retraining system (or be
+weighted more favorably where both are involved). Over
+longer periods of time, cycles of varying performance may 30
+emerge, such as where a series of novel problems emerge.
+such that the retraining system of the DPANN is serially
+engaged, as needed, to retrain the ANN and/or to augment
+the ANN by providing a second source of outputs (which
+may be fused or combined with ANN outputs to provide a 35
+single result (with various weightings across them), or may
+be provided in parallel, such as enabling comparison, selec-
+tion, averaging, or context- or situation-specific application
+of the respective outputs).
+In embodiments, the ANN is configured to learn new
+functions in conjunction with the collection of data accord-
+ing to the dual-process training of the ANN via the training
+system and the retraining system. The DPANN system
+20000 performs analysis of the ANN via the training system
+and performs initial training of the ANN such that the ANN 45
+gains new internal functions (or internal functions are sub-
+tracted or modified, such as where existing functions are not
+contributing to favorable outcomes). After the initial train-
+ing, the DPANN system 20000 performs retraining of the
+ANN via the retraining system. To perform the retraining,
+50
+the retraining system evaluates the memory and historic
+processing of the ANN to construct targeted DPLF processes
+for retraining. The DPLF processes may be specific to
+identified scenarios. The ANN processes can run in parallel
+with theDPLF processes.Byway ofexample, theANNmay 55
+function to operate a particular make and model of a
+self-driving car after the initial training by the training
+ system. The DPANN system 20000 may perform retraining
+of the functions of the ANN via the retraining system, such
+as to allow the ANN to operate a different make and model 60
+of car (such as one with different cameras, accelerometers
+and other sensors, different physical characteristics, different
+performance requirements, and the like), or even a different
+kind of vehicle, such as a bicycle or a spaceship.
+In embodiments, as quality of outputs and/or operations 65
+of the ANN improves, and as long as the performance
+requirements and the context of utilization for the ANN
+[col 2]
+702
+remain fairly stable, performing the dual-process training
+process can become a decreasingly demanding process. As
+such, the DPANN system 20000 may determine that fewer
+neurons of the ANN are required to perform operations
+and/or processes of the ANN, that performance monitoring
+can be less intensive (such as with longer intervals between
+performance checks), and/or that the retraining is no longer
+necessary (at least for a period of time, such as until a
+long-term maintenance period arrives and/or until there are
+significant shifts in context of utilization). As the ANN
+continues to improve upon existing functions and/or add
+new functions via the dual-process training process, the
+demanding" (e.g., retraining intensive) tasks simultaneously.
+For example, utilizing dual process-learned knowledge of a
+function or process being trained, the ANN can solve an
+unrelated complex problem or make a retraining decision
+simultaneously. The retraining may include supervision,
+such as where an agent (e.g., human supervisor or intelligent
+agent) directs the ANN to a retraining objective (e.g.,
+"master this new function') and provides a set of training
+tasks and feedback functions (such as supervisory grading)
+for the retraining. In-embodiments, the ANN can be used to
+organize the supervision, training and retraining of other
+dual process-trained ANNs, to seed such training or retrain-
+ing, or the like.
+In embodiments, one or more behaviors and operational
+processes (such as decision-making) of the ANN may be
+products of training and retraining processes facilitated by
+the training system and the retraining system, respectively.
+The training system may be configured to perform automatic
+training of ANN, such as by continuously adding additional
+instances of training data as it is collected by or from various
+data sources. The retraining system may be configured to
+perform effortful, analytical, intentional retraining of the
+ANN, such as based on memory (e.g., stored training data or
+refined training data) and/or optionally based on reasoning
+or other factors. For example, in a deployment management
+context, the training system may be associated with a
+standard response by the ANN, while the retraining system
+may implement DPLF retraining and/or network adaptation
+of the ANN. In some cases, retraining of the ANN beyond
+the factory, or “out-of-the-box," training level may involve
+more than retraining by the retraining system. Successful
+adjustment of the ANN by one or more network adaptations
+may be dependent on the operation of one or more network
+adjustments of the training system.
+In embodiments, the training system may facilitate fast
+operating by and training of the ANN by applying existing
+neural functions of the ANN based on training of the ANN
+with previous datasets. Standard operational activities of the
+ANN that may draw heavily on the training system may
+include one or more of the methods, processes, workflows,
+systems, or the like described throughout this disclosure and
+the documents incorporated herein, such as, without limita-
+tion: defined functions within networking (such as discov-
+ering available networks and connections, establishing con-
+nections in networks, provisioning network bandwidth
+among devices and systems, routing data within networks,
+steering traffic to available network paths, load balancing
+across networking resources, and many others); recognition
+and classification (such as of images, text, symbols, objects,
+video content, music and other audio content, speech con-
+tent, and many others); spoken words; prediction of states
+and events (such as prediction of failure modes of machines
+or systems,prediction of events within workflows,predic-
+tions of behavior in shopping and other activities, and many

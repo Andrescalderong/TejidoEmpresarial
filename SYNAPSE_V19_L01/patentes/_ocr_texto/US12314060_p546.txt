@@ -1,0 +1,136 @@
+FIG. 169C illustrates an example method 20450 for 15 predicting future queries and uploading data for responding
+[col 1]
+US 12,314,060 B2
+727
+aggregator 20130 may use the new model to generate a
+to the query device. In embodiments, the query results may
+be returned as failed as the EDQL module is not enabled to
+handle this data.
+Although the method 20400 ofFIG.169Aand the method
+20430 of FIG.169B are illustrated as separate example
+methods, in embodiments, the methods 20400 and 20430
+may be implemented by the same module and/or devices
+depending on the query received, the data (if any) obtained
+from edge storage, and/or the like. Accordingly, the methods
+20400 and 20430 should be understood as different example
+flows that may be implemented by the same device in
+different conditions as appropriate.
+monitoring and responding to a pending data request 20268
+stored on the dynamic ledger 20150 according to embodi-
+ments described herein. The steps shown in FIG. 169C may
+be executed by any of an edge device 20120, an aggregator
+20140, and/or an edge/device aggregator 20130. For pur- 20
+poses of illustration, the steps will be described as being
+executed by an edge/device aggregator 20130.
+At 20452, the edge device/aggregator 20130 may con-
+tinually collect detailed data 20212, 20214 from sensors
+20202 and/or other data sources 20204, which may be part 25
+of and/or connected to the edge device/aggregator 20130 as
+discussed herein. For example, the edge device/aggregator
+20130 may continuously record the detailed data, process it
+(e.g., format it, calculate data based on the data), store it in
+edge storage, and otherwise maintain the detailed data in 30 t
+edge storage. In embodiments, the edge device/aggregator
+20130 may analyze the detailed data 20212, 20214 to
+generate additional detailed data 20212, 20214 and store the
+additional detailed data 20212, 20214 in edge storage. For
+example, the edge device/aggregator 20130 may collect and 35
+store detailed electrical current data and may use the detailed
+electrical current data to calculate and store power consump-
+tion data. As another example, the edge device/aggregator
+20130 may collect and store detailed video data of a pro-
+duction line and may use the detailed video data to calculate 40
+and store data indicating a count of items output by the
+production line. Thus, the detailed data stored at 20452 may
+include data received from sensors 20202 and/or other data
+sources 20204 as well as data derived therefrom.
+At 20454, the edge device/aggregator 20130 may deter- 45 s
+mine (e.g., as indicated by a dynamic ledger module 20306,
+20360) that a query (or other pending data request 20268)
+has been posted to the dynamic ledger 20150. For example,
+the edge device/aggregator 20130 may continuously moni-
+tor the pending data request 20268 stored on the dynamic 501
+ledger 20150 in order to determine if there exists a pending
+data request 20268 that can be at least partially responded to
+by the edge device/aggregator 20130. Additionally or alter-
+natively, the edge device/aggregator 20130 may periodically
+check the pending data request 20268 (e.g., at regular 55 t
+intervals, during downtime when a network and/or process-
+ing load is below a threshold, etc.). Additionally or alterna-
+tively, aggregators 20140 may monitor the pending data
+requests 20268 and instruct certain edge devices 20120 to
+perform further actions (e.g., to execute steps 20456-20460) 60
+based on the pending data requests 20268.
+At 20456, the edge device/aggregator 20130 may execute
+a partial query against local edge storage based on the query
+and/or other pending data request 20268 stored on the
+dynamic ledger 20150. For example, the edge device/aggre-
+gator 20130 may take the query as-is from the pending data
+requests and run it against the detailed data stored in
+[col 2]
+728
+connected edge storage. Then, at 20458, the edge device/
+aggregator 20130 may generate summary data (e.g., higher
+grain data) for storage on the dynamic ledger 20i50 based
+on the pending data request. For example, the edge device/
+tistical measurements of data received in response the partial
+query. At 20460, the edge device/aggregator 20130 may
+cause storage of the generated summary data on the dynamic
+ledger 20150. Additionally or alternatively, the edge device/
+aggregator 20130 may develop and/or train one or more
+probability distribution models based on the summary data
+and may cause storage of the one or more probability
+distribution models on the dynamic ledger 20150.
+FIG. 169D illustrates an example method 20470 for
+to the future queries to the dynamic ledger 20150 according
+to embodiments described herein. The steps shown in FIG.
+169D may be executed by any of an edge device 20120, an
+aggregator 20140, and/or an edge/device aggregator 20130.
+For purposes of illustration, the steps will be described as
+being executed by an edge/device aggregator 20130.
+In embodiments, the method 20470 may be executed by
+various devices during downtime (e.g-, reduced network
+and/or processing load) for the distributed database. Addi-
+tionally or alternatively, devices (e.g., aggregators 20140)
+may continuously execute the method 20470 to continually
+anticipate future queries and prepare the distributed database
+to handle the future queries.
+At 20472, the edge device/aggregator 20130 may con-
+tinually collect detailed data 20212, 20214 from sensors
+20202 and/or other data sources 20204, which may be part
+of and/or connected to the edge device/aggregator 20130 as
+discussed herein. For example, the edge device/aggregator
+20130 may continuously record the detailed data, process it
+(e.g., format it, calculate data based on the data), store it in
+edge storage, and otherwise maintain the detailed data in
+edge storage. In embodiments, the edge device/aggregator
+20130 may analyze the detailed data 20212, 20214 to
+generate additional detailed data 20212, 20214 and store the
+additional detailed data 20212, 20214 in edge storage.
+At 20474, the edge device/aggregator 20130 may execute
+a query prediction model 20262 stored on the dynamic
+ledger 20150 in order to predict one or more future queries
+that may be received. In embodiments, the device executing
+step 20474 may predict future queries that may be received
+by that same device (e.g., using a query prediction model
+20262 trained on queries received by that same device
+and/or by similar devices).Additionally or alternatively, the
+device executing step 20474 may predict future queries that
+may be received by a different device. For example, an
+aggregator 20140 executing step 20474 may predict queries
+that may be received by one or more edge devices 20120 in
+communication with the aggregator 20140.
+At 20476, the edge device/aggregator 20130 may execute
+the predicted future query against local edge storage. In
+embodiments, the edge device/aggregator 20130 may
+repeatedly execute the predicted future query against local
+edge storage. For example, if a predicted future query is for
+an average of recent sensor data, the edge device/aggregator
+20130 may continue to execute the predicted future query
+against local edge storage (e.g., in order to maintain an
+up-to-date model based on the latest data) until the query
+prediction model no longer predicts the future query.
+At 20478, the edge device/aggregator 20130 may gener-
+ate summary data (e.g., higher grain data) for storage on the
+dynamic ledger 20150 based on the predicted future query.
+For example, the edge device/aggregator 20130 may calcu-

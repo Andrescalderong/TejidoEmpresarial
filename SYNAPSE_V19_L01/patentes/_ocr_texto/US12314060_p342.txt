@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+319
+like. As another example, one chip 9100 may be used to
+provide physical orientation data for one component of the
+mobile system (e.g., a left arm/leg/wheel), while another
+chip 9100 may be used to provide physical orientation data
+for a second component of the mobile system (e.g-, a right
+arm/leg/wheel).
+In embodiments, the physical input interface 9102
+receives one or more inputs 9192 to the physical orientation
+determination chip 9100 as described herein. The inputs
+9192 may be transmitted to the physical input interface 9102
+101
+by other chips, circuits, modules, and/or other components
+of the mobile system. For example, the input data may come
+from sensors, sensor-processing chips/modules/circuits,
+antennae, storage devices, network interfaces, or any other
+source of data for the chip(s) 9100 as described herein. The 15
+physical input interface 9i02 may connect with the source(s)
+of the inputs 9192 via wired or wireless connections. The
+inputs 9192 may include one or more of location signals/
+data, accelerometer, gyroscope, or other relative motion
+data, image, video, or other vision data, as well as LIDAR
+data, radar data, sonar data, and/or the like. The inputs 9192
+may also include data that may be stored in storage 9150,
+such as images for image library 9152, data for an environ-
+ment digital twin 9154 (e.g-, a digital representation of the
+environment surrounding the mobile system), one or more 25
+system specification(s) 9156, and/or one or more intelli-
+gence module(s) 9158.
+As stated above, the output data 9194 transmitted from the
+physical output interface 9104 may include one or more of
+data indicating the location, rotation/heading, tilt, velocity,
+30
+and/or acceleration as determined by the chip 9100. In
+embodiments, the outputs of the chip 9100 may be trans-
+mitted by the physical output interface 9104 to other chips,
+circuits, modules, and/or other components as described
+herein. The physical output interface 9104 may connect to 35 similar ways.
+these components via wired or wireless connections.
+In embodiments, the chip 9100 may include one or more
+of a location module 9110, a relative motion module 9120,
+a machine vision module 9130, and an orientation module
+9140. In embodiments, the location module 9110 may
+40
+comprise circuits 9112-9116 for determining and outputting
+a location (e.g., GPS coordinates) based on the inputs 9192.
+Additionally or alternatively, the chip 9100 may include a
+relative motion module 9120 comprising circuits 9122-9126
+for determining and outputting a relative motion (e.g., a 45 i
+change in position/rotation/heading,velocity information,
+and/or acceleration information) based on the inputs 9192.
+Additionally or alternatively, the chip 9100 may include a
+machine vision module 9130 comprising circuits 9132-9136
+for analyzing image data provided as inputs 9192 to detect 50
+and/or classify objects. Additionally or alternatively, the
+chip 9100 may include an orientation module 9140 com-
+prising circuits 9142-9148 for generating an environment
+digital twin (e.g-, a digital representation of an environ-
+ment), retrieving a stored environment digital twin, and/or 55
+updating an environment digital twin, determining a location
+of the mobile system (e.g., a location within an environment
+or environment digital twin), determining a pose of the
+mobile system (e.g-, an arrangement of one or more wheels,
+limbs, instruments, appendages, or other mobile system 60
+components), and determining orientation information for
+transmitting as outputs 9194. The functionalities of the
+various circuits of the modules 9110, 9120, 9130, and/or
+9140 are described in more detail below.
+The processing core(s) 9106 may comprise one or more 65
+the functions attributed to the chip 9100, either with or
+[col 2]
+320
+without the assistance of the various modules 9110, 9120,
+9130, and/or 9140. For example, the processing core(s) 9106
+may leverage and/or invoke various modules to perform
+various functions described herein. The processing core(s)
+9106 may comprise general-purpose and/or special-purpose
+processors. In embodiments, the processing core(s) 9106
+may use serial, parallel, and/or other processing techniques
+to accomplish the functions described herein.
+Accordingly, the processing core(s) 9106 may perform
+functions in addition to the functions provided by the
+various modules 9110, 9120, 9130, and/or 9140. For
+example, the processing core(s) may receive an output of
+one module (e.g., a location output by location module 9110)
+and provide it as input to another module (e.g., to the
+orientation module 9140). The processing core(s) 9106 may
+also process the output of any of the module(s) to convert the
+output intoa different format.
+The processing core(s) 9106 may also compare the data
+output by different modules for error checking and/or to
+20 enhanceaccuracy.Forexample,ifthelocationmodule9110
+indicates that a location of a system has changed, but the
+relative motion module 9120 indicates that the system's
+location has not changed (e.g., a location signal may be
+incorrect due to a reflected signal or due to the imprecision
+of GPS at granular levels), the processing core(s) 9106 may
+discard and/or modify the output of the location module
+9110.
+In embodiments, the processing core(s) 9106 may gener-
+ate data based on the outputs of different modules. For
+example, the processing core(s) 9106 may determine a
+velocity vector data structure based on both a current
+location output by the location module 9110 and on the
+relative motion output by the relative motion module 9120.
+Other outputs of various modules may be combined in
+In embodiments, the processing core(s) 9106 may further
+operate to store and/or retrieve data to/from storage 9150.
+For example, the processing core(s) 9106 may store and
+retrieve images in an image library 9152 (e.g., for use by the
+machine vision module 9130, as described in more detail
+below), may store and retrieve an environment digital twin
+9154 (e.g., as generated/updated by the orientation module
+9140, as described in more detail below), may store and
+retrieve system specification(s) 9156 (e.g., for determining
+information about components of the mobile system), and/or
+may store and retrieve intelligence module(s) 9158 for
+implementing the various functions described herein. In
+embodiments, the processing core(s) may implement any of
+the functionalities of the intelligence service 8800 (as
+described with respect to FIG. 104) using the intelligence
+modules 9158 (which may include one or more of the
+artificial intelligence modules 8804 of FIG. 104).
+The location module 9110 may receive location signals
+(e.g, GPS signals, cellular signals, WI-FI signals) and
+determine a location (e.g., GPS coordinates or coordinates
+within some other real or simulated coordinate system/
+frame). In some embodiments, the location signal capture
+circuit 9112 may receive location signal data from the inputs
+9192 and perform initial processing on the location signal
+data to capture data from the location signal (e.g, demodu-
+lation, storage in a buffer, initial sanity checking, etc.). In
+some cases (e.g., if the location is being determined within
+coordinates of an environment digital twin), the location
+digital twin 9154 from storage and/or from an environment
+digital twin circuit 9142. The location determination circuit
+9114 may then calculate a location based on the captured

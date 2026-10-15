@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+379
+state data 10630 for an entity or asset of the distributed
+manufacturing network 10130 over time, including a part or
+products or any other asset or entity described herein.
+In embodiments, the digital thread 10626 constitutes
+information related to the complete lifecycle of an item
+produced by additive manufacturing, such as a part, from
+design, modeling, production, validation, use and mainte-
+nance through disposal.
+In embodiments, the digital thread 10626 constitutes
+information related to one or more additive manufacturing
+10
+machines, or tools including post-processing tools such as
+CNC equipment, robotics support, product/part marking.
+metrology equipment and the like across multiple manufac-
+turing facilities/locations.
+In embodiments, the digital thread 10626 constitutes 15 j
+information related to the complete lifecycle of a product
+from design, modeling, production, validation, use and
+maintenance through disposal, optionally including aggre-
+gated, linked, or integrated information from multiple con-
+stituents into a full product digital thread.
+The data processing system 10206 processes the data
+collected by data collection and the management system
+10202 to optimize and adjust the process parameters in real
+time through the artificial intelligence system 10212 (includ-
+ing the machine learning system 10210), the digital twin 25
+system 10214 and the control system 10216 as described in
+detail in FIGS. 115, 116 and 118 or elsewhere herein or in
+the documents incorporated herein by reference.
+The manufacturing workflow management applications
+10208 may manage the various workflows, events and
+30
+applications related to production or printing and value
+chain management. In embodiments, a matching system
+10632 may help with matching a set of customer orders with
+a set of additive manufacturing units 10102 or manufactur-
+ing nodes. Orders may include firm orders, contingent orders 35
+(e.g., based on price contingency, timing contingency or
+other factors), aggregated orders, custom orders, volume
+orders, time-based orders, and others. In embodiments,
+orders may be expressed in smart contracts, such as oper-
+ating on a set of blockchains. The matching may be based on 40 
+factors like additive manufacturing capabilities, locations of
+the customer and the manufacturing nodes, available capac-
+ity at each node, material availability, pricing (including
+materials, energy, labor and opportunity costs of other
+available uses for capacity) and timeline requirements. In 45
+embodiments, different parts of a product may be matched
+with different manufacturing nodes and the product may be
+assembled at one of the nodes, or elsewhere in a value chain
+network (such as while in transit, such as by a robotic
+assembly system located in a vehicle or shipping container), 50 h
+before being finally delivered to the customer.
+In embodiments, the additive manufacturing platform
+may be configured to maintain an inventory of parts avail-
+ able to large airplane or sea-going systems in which multiple
+redundancies are mandated by custom and/or regulation. In 55
+embodiments, example systems include double, triple or
+examples, certain systems may benefit from ready-to-be
+made products filling in for the third, fourth, etc. redundancy
+when previously a full inventory to adequately supply the 60
+entire third, fourth, etc. redundancy was required. It will be
+appreciated in light of the disclosure that not all systems will
+be applicable in that some critical systems may only permit
+such parts as further layers of redundancies to the already
+mandated supplies. While in flight, the desire to minimize 65
+weight and energy consumption may limit the desire for the
+creation of certain parts, the ability to generate parts on
+[col 2]
+380
+longer endurance flights to attend to the needs of the cabin
+may be one motivation to provide some inflight functional-
+ity. For example, locking components that may fail mid-
+flight, such as latches, hinges, seat-belts, and the like, can be
+replaced or temporarily locked closed to improve in-cabin
+safety. Components that may have come loose may also be
+shimmed or temporarily lodged in place by a custom printed
+part to wedge or hold parts in place through the flight.
+Examples include holding avionic components in a dash-
+tality items in the galley, holding seats on seat rails, and the
+like.
+In an example, the additive manufacturing platform can
+be used to create additional inventory to outfit the airplane
+for items constructible inflight that are required on the
+minimum equipment list to fly and have those parts replaced
+before the airplane lands and returns to the gate for service
+thus at least contributing to a repair that otherwise would not
+require an early landing but may prevent the next dispatch
+20 of the airplane to its next desired use.
+In sea-going embodiments, the additive manufacturing
+platform may be used to create additional inventory to outfit
+the sea going vessel with items constructible during the
+voyage that are required on the mandated minimum equip-
+ment list to embark (or the like) and have those parts
+replaced before the vessel moors and reloads thus at least
+contributing to a repair that otherwise would not require a
+detour and coming ashore early but may prevent the next
+timely dispatch of the vessel to its next desired use.
+In embodiments, the additive manufacturing platform
+may be configured to coordinate with land-based additive
+manufacturing assets to coordinate construction of parts and
+coordinated portions of greater assemblies so downtime in
+port or in the hanger can be minimized. In this example,
+entities providing just in time maintenance inventories can
+extend their reach and depth by augmenting their one or
+more offerings or coordinating their one or more offerings
+with one or more in-situ systems active during voyage
+and/or flight.
+In embodiments, the matching system 10632 helps with
+matching an additive manufacturing task with an engineer
+where the matching may be based on factors like task
+complexity, engineer experience and expertise. In embodi-
+ments, the matching system 10632 helps with matching an
+additive manufacturing task with the location and/or avail-
+ability of a finishing worker where the matching may be
+based on factors like task complexity, worker experience and
+expertise. In embodiments, the matching system 10632
+helps with matching an additive manufacturing task with a
+set of additive manufacturing units 10102.
+In embodiments, a scoring system 10634 helps with
+scoring and rating various entities in the distributed manu-
+facturing network 10130, such as based on their perfor-
+mance, quality, timeliness, condition, status, or the like. In
+embodiments, the scoring system 10634 helps with rating a
+manufacturing node based on a customer satisfaction score,
+such as for meeting customer requirements. In embodi-
+ments, the scoring system 10634 helps with rating an
+engineer or other worker based on the condition/perfor-
+mance in completing an additive manufacturing task, includ-
+ing time required, quality of output, energy used, and other
+factors. In embodiments, the scoring system 10634 helps
+with rating the additive manufacturing unit 10102 based on
+the condition or performance in completing an additive
+manufacturing task, including process metrics, output met-
+rics, product quality measures, economic measures (such as

@@ -1,0 +1,138 @@
+Radio Frequency Identification allows for massive vol- 55 may provide modular adaptive resource package technology
+[col 1]
+US 12,314,060 B2
+685
+with the logistical modules are highlighted without the need
+for scrutiny of fine-grained data. In embodiments, PMCP
+device interfaces may constantly generate and/or refine a
+predictive model that predicts a future state. In the context
+of maintenance, refinements to the parameters in the pre-
+dictive model are in and of themselves predictors of change
+in operational parameters, potentially indicating the need for
+maintenance. Moreover, the communication of operational
+parameters for large numbers of devices may be processed
+by a thalamus service such that data for devices functioning 10
+normally may be filtered or suppressed until conditions
+change.
+In embodiments, functional areas are not always designed
+to be connected to the value chain network, but by allowing
+for an external device to virtually monitor devices, func- 15
+tional areas that do not allow for connectivity can become
+part of the information flow in the value chain goods. This
+concept extends to allowing functional areas that have
+limited connectivity to be monitored effectively by embel-
+lishingtheirdata streamswithvectorizedmonitored infor- 20
+mation. Placing an automated device in the proximity of the
+functional unit that has limited or no connectivity allows
+capture of information from the devices without the require-
+ment of connectivity. There is also potential to add training
+data capture functional units for theseunconnected orlim- 25
+itedly connected functional areas. These training data cap-
+ture functional units are typically quite expensive and can
+provide high quality monitoring data, which is used as an
+input into the proximity edge device monitoring device to
+provide data for supervised learning algorithms.
+30
+Oftentimes, value chain network locations are laden with
+electrical interference, causing fundamental challenges with
+communications. The traditional approach of streaming all
+the fine-grained data is dependent on the completeness of the
+data stream. For example, if an edge device was to go offline
+for 10 minutes, the streaming data and its information would
+be lost. With vectorized communication, the offline unit may
+continue to refine the predictive model until the moment
+when it reconnects, which allows the updated model to be
+transmitted via the PMCP system. 40
+In embodiments, value chain network systems and
+devices may be based on the PMCP protocol. For example,
+value chain network cameras and vision systems (e.g. liquid
+lens systems), user devices, sensors, robots, smart contain-
+ers, and the like may use PMCP and/or vector-based com- 45
+munication. By using vector-based cameras, for example,
+only information relating to the movement of items is
+transmitted. This reduces the data volume and by its nature
+filters information about static items, showing only the
+changes in the images and focusing the data communication 5o
+on elements of change. The overall shift in communication
+to communication of change is similar to how the human
+process of sight functions, where stationary items are not
+even communicated to the higher levels of the brain.
+umes of mobile tags (e.g., cargo RFID tags for cargo being
+transported by a smart container) in a value chain network
+to be tracked in real-time. In embodiments, the movement of
+the tags may be communicated as vector information via the
+PMCP protocol, as this form of communication is naturally 60
+ suited to handing information regarding the location of tag
+within the value chain goods. Adding the ability to show
+future state of the location using predictive models that can
+use paths of prior movement allows the value chain goods to
+change the fundamental communication mechanism to one 65
+where units consuming data streams are consuming infor-
+mation about the likely future state of the value chain goods.
+[col 2]
+686
+In embodiments, each tagged item may be represented as a
+probability-based location matrix showing the likely prob-
+ability of the tagged item being at a position in space. The
+communication of movement shows the transformation of
+the location probability matrix to a new set of probabilities.
+This probabilistic locational overview provides for constant
+modeling of areas of likely intersection of moving units and
+allows for refinement of the probabilistic view of the loca-
+tion of items within the value chain network. Moving to a
+vector-based probability matrix allows units to constantly
+handle the inherent uncertainty in the measurement of the
+status of value chain network items, entities, and the like. In
+embodiments, status includes, but is not limited to, location,
+temperature,movement andpower consumption.
+In embodiments, continuous connectivity is not required
+for continuous monitoring of sensor inputs in a PMCP-based
+communication system. For example, a mobile robotic
+device with a plurality of sensors can continue to build
+models and predictions of data streams while disconnected
+from the network, and upon reconnection, the updated
+models are communicated. Furthermore, other systems or
+devices that use input from the monitored system or device
+can apply the best known, typically last communicated,
+vector predictions to continue to maintain a probabilistic
+understanding of the states of the value chain goods.
+Energy Systems and Processes
+The disclosure relates to energy systems and processes. In
+example embodiments, there is an energy system and pro-
+cess (e.g., also referred to as energy system which may be or
+may include an energy system, process, module, service,
+platform, and/or the like). In example embodiments, as
+shown in FIG. 164, there is an energy system 19000 that
+may interact with any system, subsystem, component, pro-
+cess, platform (e.g., the value chain network management
+platform), and the like as described in the disclosure. In
+some examples, the energy system 19000 may be a separate
+system that is external to systems, subsystems, components,
+processes, platforms, etc. in the disclosure. In other
+examples, the energy system 19000 may be integrated with
+any one of the systems, subsystems, components, processes,
+platforms, etc. in the disclosure. For example, as shown in
+FIG. 164, the energy system 19000 communicates with the
+value chain network entity 652 and the data handling layers
+608 (e.g., including the value chain management platform
+604,adaptive intelligent systems 614,monitoring systems
+808, data storage systems 624, interfaces 702, connectivity
+facilities 642, and “process and application outputs and
+outcomes" 1040). The energy system 19000 (e.g., including
+at least one energy process) may utilize an energy model.
+The energy system 19000 may be part of a group of value
+chain building blocks that may be combined with various
+other processes and/or systems within the enterprise control
+tower. In example embodiments, the energy system 19000
+(e.g., having energy, energy computing, and/or energy net-
+working processes). For example, the energy system 19000
+may relate to energy storage on a modular level across a
+network of energy storage systems and devices (e.g., use of
+modular energy storage). The energy system 19000 may
+address various needs for power management across com-
+munities, businesses/companies, organizations, colleges/
+universities, etc. This may be accomplished, for example, by
+modularization of power storage. In example embodiments,
+where there may be limited power resources and a need to
+focus on renewable energy, optimization and modularization
+of power storage may address these issues.

@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+525
+12100 for processing. The image data may be provided to
+the machine vision system 12618 of the intelligence layer
+12140.
+At 12654, the machine vision system 12618 may then
+analyze the image data to identify obstacles in the environ-
+ment. In embodiments, the machine vision system 12618
+may leverage one or more neural network models (e.g., a
+CNN or RCNN) to detect various objects and obstacles in
+the images. In embodiments, the motion planning system
+12158 builds a motion planning graph representing the 10
+geometric structure of the environment as well as the
+different possible paths that may lead to the crops to be
+harvested (target objects).
+At 12656, the motion planning system creates a motion
+plan for the MPR 12100 to identify an optimal path therefor. 15
+In embodiments, the motion planning system 12158 works
+with the intelligence layer 12140 to determine an optimal
+path after taking in account a cost function based on colli-
+sion assessment. The optimal path may be communicated to
+the robot control system 12150. At 12658, the robot control 20
+system 12150 drives the actuators in the transport system
+12110 enabling the MPR 12100 to navigate to the location
+of the units to be harvested. The navigation actions for MPR
+12100 (e.g-, move forward, move backward, turn right,
+rotate and the like) are based on a trained navigation policy 25
+(machine learning algorithm). At 12660, a reinforcement
+collect the outcome data for the navigation policy so as to
+update and improve the policy.
+Once the MPR 12100 is in the proximity of the crops to 30
+be harvested, the controller may drive the movable arm to
+click additional images using the camera 12608 mounted at
+the end of the arm. The movable arm must be flexible in a
+dynamic environment and accurate enough not to damage
+the crops while moving. 35
+At 12662, the MPR 12100 may capture additional image
+data. For example, a camera 12608 and/or other sensors
+mounted on the arm of the MPR 12100 may capture images
+or other sensor data an area proximate to the arm of the MPR
+12100.At12664, the machinevision system 12618 analyzes 40
+the images (using neural network models including CNN or
+RCNN) to identify the one or more crops to be harvested. At
+12666, the images may be analyzed by the motion planning
+ system 12158 to determine the optimal path as well as build
+a motion plan for the robot arm so as to rotate or move the 45
+arm without damaging the crops. At 12668, the optimal path
+may be communicated to the control system 12150 and the
+controller 12160 may drive actuators in the arm and end
+effectors 12124 to harvest the units of crops. At 12670, the
+outcome data for the harvesting policy is collected by the 5o r
+reinforcement learning system 12622 in the intelligence
+layer 12140 as feedback to improve the harvesting policy.
+Smart Containers
+In some embodiments, a value chain network may include
+a smart intermodal shipping container system 13000 that 55
+enables various capabilities noted above, including smart
+container fleet management services within a value chain
+network. The system 1300 (such term, as noted above,
+encompassing, except where context indicates otherwise,
+systems, methods, articles of manufacture, devices, 60
+machines, equipment, algorithms, parts, components, ser-
+vices, modules, workflows, processes, structures, products,
+and other elements) is arranged to embody or enable a range
+of highly functional, smart shipping containers, as well as to
+configure fleets of smart container operating units to con- 65
+nect, engage and coordinate with other elements and entities
+of a value chain network, such as to perform freight storage
+[col 2]
+526
+and/or transportation services in an improved manner, to
+coordinate operations with factories, ships, loading docks,
+ports, warehouses, and transportation infrastructure (such as
+trucking, railways and the like), to undertake (autono-
+mously, under remote control, or by a combination) in-
+container operations (such as packaging, finishing, manu-
+facturing, movement or arrangement of items and/or
+handling of storage conditions) and/or to undertake autono-
+mous or remotely controlled mobility (or a combination
+thereof); among other capabilities. In embodiments, smart
+cargo may refer to any commodities, merchandise goods,
+materials, liquids, solids, powders, gases, foods, and many
+others.
+In embodiments, the intermodal smart containers 13026
+may include containers of many different types, classes,
+sizes, weights, materials, shapes, capabilities, or the like. In
+embodiments, the smart containers may include standard
+rectangular containers, such as ones having dimensions of
+8-ft wide by 20-ft or 40-ft long, or non-standard containers.
+In embodiments, the smart containers may include 40-ft
+high-cube containers, 45-ft high-cube containers, 48-ft high-
+cube containers, 53-ft high-cube containers, or the like, as
+well as any other size container that, in certain preferred
+embodiment, has been designed by supply chain and trans-
+portation operators for compatibility with infrastructure ele-
+ments of docks, factories, ports, trucks, trains, or the like. In
+embodiments, the smart containers may be tank containers
+(e.g, for liquids, gases, solids, powders, or the like), gen-
+eral-purpose dry vans (e.g., for boxes, cartons, cases, sacks,
+bales, pallets, drums, or the like), rolling floor containers,
+garmentainers (e.g-, for shipping garments on hangers),
+ventilated containers (passively or actively ventilated), tem-
+perature-controlled containers (e.g., insulated, refrigerated,
+and/or heated), bulk containers, open-top containers, open-
+side containers, log cradles, platform-based containers (e.g.,
+flat rack and bolster containers), rotating and/or mixing
+containers (e.g., cement mixers), aviation containers (unit
+load devices), automotive containers (e.g., for moving pas-
+senger vehicles), bioprotective containers (for shipping toxic
+or bioactive materials, such as involving positive or negative
+pressure systems to regulate airflow), and many others. In
+some embodiments, smart containers may be smart pack-
+ages (e.g., a small 16-in by 12-in by 12-in box and many
+other smaller and larger sizes). In some embodiments, smart
+containers may be embodied as, include, integrate with, or
+use robots that are configured to manipulate, transport, store
+or deliver a payload. In embodiments, smart containers may
+include mechanisms to enable expanding or retracting exter-
+nal or internal walls, housing elements, or other internal
+elements, such as to increase or decrease the volume of the
+container or to vary the dimensions of one or more partitions
+ofthe space within the container. The smart containers may
+have self-assembling and/or self-disassembling mecha-
+nisms. In embodiments, the smart containers may be in the
+shape of a rectangular solid, a cube, sphere, a cylinder, or
+other shape, including in embodiments shapes that include
+linear, non-linear, and irregular forms, such as organic-like
+or biomimetic forms (such as to enable thermal management
+by providing a conductive or convective interface to a
+heating or cooling environment or active heating or cooling
+element).
+The smart container 13026 may consist of or include
+various sets of materials, such as corrugated weathering
+steel, steel alloys, stainless steel, aluminum, cast iron, con-
+crete, ceramic material(s), other alloys, glass, other metals,
+plastics, plywood, bamboo, cardboard, wood, and/or many

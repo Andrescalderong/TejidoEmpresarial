@@ -1,0 +1,138 @@
+position, orientation and motion of the object in the envi- 6o task assignment adaptivity based on sensed local context
+[col 1]
+US 12,567,082 B2
+519
+feature recognition and so on. The image data is then sent to
+an image processing engine 12616 for further processing for
+example, identifying objects 12606 in the images as well as
+determining their location or orientation. The image pro-
+cessing engine 12616 may interface with a machine vision
+system 12618 within the intelligence layer 12140 of robot
+control system 12150. The machine vision system 12618
+may execute one or more machine learning algorithms to
+perform one or more machine vision tasks including object
+classification, object detection, scene classification, pose 10
+detection, semantic segmentation, instance segmentation
+and image captioning and so on. The machine vision system
+may include pre-trained machine learning models to execute
+the different machine vision tasks. In embodiments, machine
+vision system 12618 may employ one or more neural 15
+network-based models for processing of image data.
+In embodiments, the vision and sensing system 12112
+includes a dynamic vision system having artificial intelli-
+gence for learning on a training set of outcomes, parameters,
+and data collected from the conformable variable focus 20
+liquid lens 12612 to recognize an object. In embodiments,
+the dynamic vision system is controlled by and/or optimized
+with input from the artificial intelligence in the intelligence
+layer 12140, such as wherein artificial intelligence learns on
+a set of machine vision outcomes to adjust the dynamic 25
+vision system to capture visual information in a manner that
+improves outcomes, such as recognition outcomes, predic-
+tion outcomes, and the like.
+In embodiments, the vision and sensing system 12112
+includes a dynamic vision system that comprises an optical
+30
+assembly with conformable variable focus liquid lens
+12616; the robot control system 12150 configured to adjust
+one or more optical parameters and data collected from the
+optical assembly in real time; and the data processing system
+12142 that dynamically learns on a training set of outcomes, 35
+parameters and data collected from the optical assembly to
+train a set of machine learning models 12664 to control the
+optical assembly to optimize the collection of data for
+processing by the set of machine learning models. In
+embodiments, a first model is used to optimize collection of 40
+signals by the optical assembly and a second model is used
+to operate on the signals to achieve a desired machine vision
+outcome. In embodiments, the outcome is a recognition
+outcome, a classification outcome, or a prediction outcome.
+The dynamic vision capabilities provided by the vision 45
+and sensing system 12112 may enable the MPR 12100 in
+identifying and manipulating a target object for use in
+robotic assembly lines where object depth, orientation, posi-
+tion and motion may be inferred for improved object iden-
+tification. The dynamic vision capabilities may also enable 50 
+the MPR 12100 in simultaneous localization and mapping,
+which is a technique for estimating the position of the robot
+with respect to its surroundings while mapping the environ-
+ment at the same time.
+In embodiments, the vision output from the vision and 55
+sensing system 12112 may be temporally combined with
+output from other sensors in the MPR 12100 using condi-
+tional probabilities to create a combined view of the target
+object that is richer and includes information about the
+ronment.
+In embodiments, the dynamic vision capability of the
+vision and sensing system 12112 may integrate into or with
+a set of value chain network (VCN) entities for quality
+control inspections and sorting objects in a production 65
+assembly line or logistics chain wherein the conformable
+liquid lens 12612 is configured to quickly adjust focus to
+[col 2]
+520
+accommodate for, recognize and sort objects located at
+various working distances or objects of different heights.
+Referring to FIGS. 104-142, according to some example
+implementations, a fleet management platform having wire-
+less power routing and management for robot instrumenta-
+tion and related electronics may also facilitate configuring
+and operating robots with modular, removable organ-on-
+chip sensor robot sub-assemblies. In embodiments, power
+for organ-on-chip sub-assemblies may be delivered and
+managed wirelessly to meet a wide range of robot deploy-
+ments, including mobile environments where primary power
+for the robot is provided by a replaceable battery pack and
+power for the organ-on-chip is optionally provided by a
+sub-assembly-specific battery pack. In embodiments, power
+ sharing and routing of power among the battery packs may
+be performed and managed wirelessly, such as by a robot-
+local power management facility. The platform may facili-
+tate performing fleet configuration based on wireless power
+routing options available for candidate robots. Examples
+include, without limitation a single power pack for wire-
+lessly providing power to on-robot sub-assemblies, such as
+an organ-on-chip sub-assembly being powered over a robot-
+local wireless power routing system. Wireless power routing
+and management may be extended to removable robot
+sensor-like sub-assemblies, such as the organ-on-chip
+example, that may be deployed separate from but within
+wireless power routing range of a robot. This may be useful
+for environments where the sensor and robot cannot be
+co-located (e.g., due to size, environmental, or other con-
+straints). According to some example implementations, a
+fleet management platform having a control tower for com-
+bined control of robots, such as MPRs, SPRs and exoskel-
+etons, and additive manufacturing systems may also have an
+artificial intelligence system for automated design and 3D
+printing of robotic accessories. In some of these examples,
+the artificial intelligence system may automate design and
+3D printing based on contextual task recognition. This task
+(e.g-, vision sensors) and operating history (for the robot or
+based on another factor, such as the task) to determine, for
+example robot end effector requirements for completing the
+task. In embodiments, a result of this AI-generated task
+recognition may be provided to the control tower to further
+enhance flexible on-demand additive manufacturing based
+on recognition of a task to be performed. In embodiments,
+the control tower may further combine robot control of 3D
+printing of contextually-determined end effectors with con-
+trol of robotic 3D printing for additive_manufacturing,
+thereby increasing further the value of a 3D printing capa-
+bility of a fleet of robots. In embodiments, such a combi-
+nation may facilitate field maintenance of robots, production
+equipment, warranty repairs and the like. Yet further, use of
+artificial intelligence to facilitate task recognition may
+improve autonomous responsiveness for production system
+ service/repair where some details of the required task may
+be unknown (e.g, fully automated production operations)
+until a robot is present.
+According to some example implementations, a robot
+fleet management platform having autonomous local system
+may also be integrated with supply chain infrastructure
+entities for enhanced dynamic supply chain adaptivity and
+efficiency. In some of these example implementations, appli-
+cation of local system task assignment adaptivity with
+supply chain integration may enhance capabilities of, for
+example, in-container deployed robots. This combination of
+fleet management capabilities may also facilitate coordina-

@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+455
+In embodiments, the remote-control system 12012 may
+have access to a set of remote-control signal sequences for
+performing certain tasks remotely. The system i2012 may,
+based on context of a workflow being performed, suggest to
+a human operator and/or an automated control system one or
+more remote-control signal sequences. In embodiments, the
+remote-control system may process input from a human
+operator (e.g., commands such as “stop", evacuate" and the
+like), optionally with help of other fleet resources (e.g-, an
+artificial intelligence system and the like) and generate a set 1o ing and the like.
+of remote-control signals for remotely controlling fleet
+resource, such as a robot operating unit and the like. Remote
+control signal sequences may be preconfigured for handling
+a range of real-time situations, such as security breaches,
+equipment failure, and the like. In addition to facilitating
+15 and/or managing remote-control of a robot operating unit,
+remote-control signal sequences may be used for reconfigu-
+ration of fleet resources deployed and/or allocated for a task,
+workflow, job and the like. In an example of use of remote-
+control signals for reconfiguration, a set of robot operating
+units performing a task may be remotely controlled to take
+on a new role due to failure of one of the robots in the set.
+A human operator (or an automated system monitor-type
+application) may provide remote control signals that are
+communicated to the viable members of the team to adjust 25
+task roles and actions accordingly, such as by communicat-
+ing a remote control signal to one or more of the viable
+members to communicate with a robot operating unit con-
+figuration server to receive reconfiguration instructions and
+reconfiguration data. 30
+Although generally described herein as remote-control
+signals, the remote-control system 12012 may facilitate
+remote-control by arranging remote control signals into
+remote control instructions (e.g., combinations of remote-
+control signals, abstractions thereof and the like) at the fleet 35
+level, team level, robot level and the like. As an example of
+remote-control instruction functionality, the remote-control
+system 12012 may receive input, such as from a human
+operator desiring to instruct all robots with illumination
+capability to activate lights toward a target location to assist 40
+with optical inspection or some other visual function that
+would benefit from greater illumination. In this example, the
+remote-control system may receive the human operator
+remote-control instruction, adapt that instruction into one or
+more different remote control signals for the robot operating ：45
+units 12040 that are within an illumination proximity of the
+target location and generate corresponding remote-control
+signals for each of the types of proximal robot operating
+units and ensure communication of those signals (e.g-, via
+the communication management system 12010 resources) to 50j
+the robot operating units to be remotely controlled by the
+human operator. Yet further, robot operating units that
+receive the remote-control instruction may further partici-
+pate in the implementation of the instructions by, for
+example, communicating among the set receiving the sig- 55
+nals (and/or a subset thereof) to determine which, if any,
+robot operating units are executing the instruction. A first
+robot thusly contacted may be performing a time-sensitive
+function that would be disturbed if it redirected its resources
+to providing the commanded illumination. By coordinating
+with other robot operating units, the first robot may continue
+with the time-sensitive function based on response(s) from
+other robot operating units regarding executing the remote-
+control command In another remote-control instruction
+example, a team of robot operating units may be remotely 65
+controlled by instructing them, via the remote-control sig-
+nals of the remote-control system 12012, to adjust operation
+[col 2]
+456
+for achieving reduced sound pollution (e.g., activate a quiet
+mode of operation) for a period while a team of human
+inspectors tour the job location where the team is operating.
+In another remote-control instruction example, a job-wide,
+team-wide, fleet-wide or other resource-specific remote con-
+trol instruction may be issued to adjust an image presented
+on a display screen of the fleet resource(s) to reflect a
+changed logo due to acquisition of the fleet, temporary
+assignment of the fleet resource(s), change in fleet messag-
+Robot operating unit responsiveness to aggregated
+remote-control signals (e.g., instructions or set of instruc-
+tions) may be based on a wide range of fleet intelligence
+capabilities, knowledge, priorities, goals, and the like. In
+general, use of platform-based and/or robot operating unit-
+based artificial intelligence capabilities supports wider inde-
+pendent decision-making capabilities for individual robot
+operating units with greater contextual gravity.
+In embodiments, the remote-control system 12012 may
+20 integrate security features to thwart takeover, compromise,
+misuse or interference with control of remotely controlled
+robot operating units. Resources used by the remote-control
+system 12012 (e.g. data storage resources, computing
+resources, remote-control system state data and the like)
+may be configured with security features, such as encoding,
+decoding, packetizing, and the like. Further, the remote-
+control system 12012 may include and/or support control
+override capabilities that enable a human operator (for
+example) to securely gain remote-control of a robot that is
+otherwise not directly engaged with remote-control signal-
+ing or in other words operating independently of remote-
+control signals, such as autonomously, collaboratively with
+other robot operating units and the like.
+Resource Provisioning
+In embodiments, the fleet operations system 12002
+includes a resource provisioning system 12014 that manages
+provisioning resources for robot operating units in a fleet,
+such as provisioning resources for robot teams, robot fleets,
+multi-purpose robots, and/or _supporting, resources, (e.g.,
+edgedevices, communication devices, additivemanufactur-
+ing systems (e.g., 3D printers), and the like). In embodi-
+ments, resources may include physical resources, digital
+resources, and/or consumable resources. Examples of physi-
+cal resources may include, but are not limited to, such as end
+effectors/manipulators, environmental shielding compo-
+nents, sensors and/or sensor systems, companion resources
+(e.g., drones, transportation resources and the like), hard-
+ware resources (e.g., specialized processing modules, data
+storage, networking modules, tethering modules, and the
+like), spare parts, human resources (e.g., technicians, opera-
+tors, and the like), power sources (e.g-, generators, portable
+batteries, and the like). Non-limiting examples of digital
+resources may include software, operating parameters, job-
+specific data sets, and the like. Non-limiting example of
+consumable resources may include fuel, sample collection
+containers, welding supplies, washdown/cleanup supplies,
+deployable resources (e.g., flares, safety cones, fall-zone
+netting and the like), and many others.
+In embodiments, the resource provisioning system 12014
+6o may provision physical resources from an inventory of
+physical resources, such as fleet-specific inventories,
+regional public-use inventories, rental/per-use fee-based
+resource inventories, on-demand resource production sys-
+tems (e.g., 3D printing of end effectors and the like), third
+party inventories, and the like. In some embodiments, the
+data processing system 12030 maintains an inventory data-
+base in one or more datastores 1203X. In embodiments, the

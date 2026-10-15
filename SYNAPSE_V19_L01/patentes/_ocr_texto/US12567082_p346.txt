@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+369
+based on one or more optimization approaches, such as
+Bayesian approaches, parametric Bayes classifier
+approaches, k-nearest-neighbor classifier approaches, itera-
+tion approaches, algorithmic approaches, and the like. Feed-
+back may be provided in a process of variation and selection,
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+In embodiments, a plurality of neural networks may be
+deployed in a cloud platform that receives data streams and 10
+other inputs collected (such as by mobile data collectors) in
+one or more environments and transmitted to the cloud
+platform over one or more networks, including using net-
+work coding to provide efficient transmission. In the cloud
+platform, optionally using massively parallel computational
+capability, a plurality of different neural networks of various
+types (including modular forms, structure-adaptive forms,
+hybrids, and the like) may be used to undertake prediction,
+classification, control functions, and provide other outputs as
+described in connection with expert systems disclosed 20
+throughout this disclosure. The different neural networks
+may be structured to compete with each other (optionally
+including use evolutionary algorithms, genetic algorithms,
+or the like), such that an appropriate type of neural network,
+with appropriate input sets, weights, node types and func- 25
+tions, and the like, may be selected, such as by an expert
+system, for a specific task involved in a given context,
+workflow, environment process system, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 30
+may use a feed forward neural network, which moves
+information in one direction, such as from a data input, like
+a source of data about an individual, through a series of
+neurons or nodes, to an output. Data may move from the
+input nodes to the output nodes, optionally passing through 35
+one or more hidden nodes, without loops. In embodiments,
+feed forward neural networks may be constructed with
+various types of units, such as binary McCulloch-Pitts
+neurons, the simplest of which is a perceptron.
+In embodiments, artificial intelligence and machine learn- 40
+ing systems in the data processing system of the autonomous
+additive manufacturing platform 10110 may enable auto-
+matic classification and clustering of 3D printed parts and
+products. In embodiments, artificial intelligence and
+machine learning systems in the data processing system of 45 c
+the autonomous additive manufacturing platform 10110 may
+enable automatic classification and clustering of malicious
+defects in the additive manufacturing process.
+The automated part and defect classification methods and
+systems of the present disclosure may be implemented using 50
+image sensors and/or machine vision systems. The machine
+vision systems may monitor the additive manufacturing
+images of the part or other item being printed. Automated
+image processing of the captured images may then be used 55
+to monitor any of a variety of part properties, e.g., dimen-
+sions (overall dimensions, or dimensions of specific fea-
+tures), feature angles, feature areas, surface finish (e.g.
+degree of light reflectivity, number of pits and/or scratches
+per unit area), and the like. The machine vision systems also 60
+track the process to detect any defects or errors in the printed
+part in real time while successive layers of materials are
+being deposited by the 3D printer.
+Defects may be identified, e.g., by removing noise from
+the inspection data and subtracting a reference data set (e.g., 65
+a reference image of a defect-free part in the case that
+machine vision tools are being utilized for inspection), and
+[col 2]
+370
+classified using an unsupervised machine learning algorithm
+such as cluster analysis or an artificial neural network, to
+classify individual objects as either meeting or failing to
+meet a specified set of decision criteria (e.g, a decision
+boundary) in the feature space in which defects are being
+monitored. For example, a partially printed part may be
+compared with a render of the partial part and in case the
+partial part differs beyond a selected threshold from the
+render, the part may be classified as defective.
+In embodiments, in-process the defect classification data
+may be used by the machine learning algorithm to determine
+a set or sequence of process control parameter adjustments
+that will implement a corrective action, e.g., to adjust a layer
+dimension or thickness, so as to correct a defect when first
+detected. In some embodiments, in-process automated
+defect classification may be used by the machine learning
+algorithm to send a warning or error signal to an operator, or
+optionally, to automatically abort the deposition process.
+In embodiments, the machine vision system uses a vari-
+able focus liquid lens-based camera for image capture and
+defect detection. In embodiments, the machine vision sys-
+tem uses infrared or visible wavelength cameras.
+In embodiments, the data processing system is imple-
+mented as the intelligence layer 140 that uses a neural
+network to provide real-time, adaptive control of an additive
+manufacturing process including part defect classification
+and feedback.
+In some embodiments, a neural network model may be
+used directly to determine adjustments to process control
+parameters using training or learning of a neural network
+model. Initially, the model is allowed to choose randomly
+from a range of values for each input process control
+parameter or action. If the sequence of process control
+parameter adjustments or actions leads to a flaw or defect, it
+is scored as leading to an undesirable (or negative) outcome.
+Repetition of the process using different sets of randomly
+chosen values for each process control parameter or action
+leads to reinforcement of those sequences that least to
+desirable (or positive) outcomes. Ultimately, the neural
+network model “"learns* what adjustments to make to a set
+or sequence of deposition process control parameters or
+actions in order to achieve the target outcome, i.e., a
+defect-free printed part.
+In embodiments, methods and systems described herein
+may use a convolutional neural network (referred to in some
+cases as a CNN, a ConvNet, a shift invariant neural network,
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain. For example, the CNN may provide automatic
+classification and clustering of parts and defects in an
+additive manufacturing process.
+In embodiments, one or more models building on the
+basic framework of convolutional neural networks may be
+employed. For example, an object detection model may be
+used that extends the functionality of CNN based image
+classification models by not only classifying parts or defects
+but also determining their locations in an image in terms of
+bounding boxes. Similarly, Region-based CNN (R-CNN)
+models may be used to extract regions of interest (ROD),
+where each ROI is a rectangle that may represent the
+boundary of a part in image.
+In embodiments, Capsule Networks may be employed to
+use fewer labeled training examples to achieve similar
+classification performance of CNNs.

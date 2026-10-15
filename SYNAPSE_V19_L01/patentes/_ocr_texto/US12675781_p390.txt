@@ -1,0 +1,135 @@
+[col 1]
+US 12,675,781 B2
+529
+ration system 12020 may evaluate a task definition 12304D,
+that may be communicated when defining a task may
+include task sequence dependencies that may be suitable for
+defining a workflow that includes the defined task. As an
+example, a sample preparation task may be required to be
+performed after a sample taking task. Such a dependency
+may be documented in the sample preparation task and
+relied upon by a workflow definition system 12306. The task
+definer module 12412 may save a defined task into the job 10
+instance storage where it may be cross referenced to job
+descriptive data (e.g., keywords and the like) so that future
+detections of the cross-referenced keywords can be quickly
+result in a suitable task definition.
+FIG. 138 illustrates example embodiments of a fleet 15
+configuration system 12020 according to some embodi-
+ments of the present disclosure. In embodiments, a fleet
+configuration system 12020 provides specific software,
+hardware, and multipurpose robot configuration require-
+ments for completion of a job execution plan. An exemplary 20
+construction of a fleet configuration system 12020 to provide
+these requirements is depicted in the block diagram of FIG.
+138. In this example construction, a fleet configuration
+proxy module 12466 may be constructed to receive task
+definitions 12304D from a job configuration system 12018. 25
+The fleet configuration proxy module 12466 may be instan-
+tiated in association with processing of a job request by the
+job configuration system 12018 to facilitate access to and
+use of fleet configuration system 12020 resources and sys-
+tems. This and other instantiations of the fleet configuration 30
+proxy module are further described in association with the
+job configuration system 12018 herein. The fleet configu-
+ration proxy module 12466 may process task definitions and
+as a fleet robot operating unit identification system 12454 35
+and a fleet non-robot operating unit identification system
+12452. Each of these identification systems may process the
+task definition data provided through the fleet configuration
+proxy, separating operational data from fleet resource data.
+A task definition may describe a set of fleet resources 40
+required to perform the task, such as types of robot operating
+units (e.g., one or more special purpose robots), support
+resources (e.g., power systems, lighting, communication
+systems, and the like). The robot operating unit type iden-
+tification system 12454 may provide job-specific robot oper- 45
+ating unit demand data 12476 to the fleet configuration
+scheduler 12468. The job-specific robot operating unit
+demand data 12476 may identify types and quantities of
+robots, specific robot operating units (e.g., by unique iden-
+tifier), robot operating unit capabilities, and the like. 50
+In some embodiments, a fleet configuration scheduler
+12468 may respond to a job request by allocating fleet
+resources to meet the job request needs. These needs may be
+preprocessed, as described herein by a job configuration
+ system 12018 and specifically by the task definition system 55
+12304 to facilitate fleet configuration, allocation, and sched-
+uling. The fleet configuration scheduler 12468 processes
+inputs that describe fleet inventories, such as robot operating
+unit inventories 12460, and non-robot operating unit inven-
+tories 12458 to identify candidate inventory elements for 60
+satisfying a job request. These inventories may be adjusted
+based on existing allocations of robot operating units and
+non-robot operating units. As an example, all special pur-
+pose robots of a type identified in the robot operating unit
+job-specific demand data 12476 may be allocated through- 65
+out a duration of time within which a requested job is
+constrained to be performed. The fleet configuration sched-
+[col 2]
+530
+uler12468 (e.g.,with support from other platform resources
+such as fleet intelligence system 12004, fleet provisioning
+system 12014 and the like) may allocate, based on condi-
+available to the fleet configuration scheduler 12468, a multi-
+purpose robot for the activities requested to be performed by
+the special purpose robot. To accomplish this allocation, a
+fleet intelligence system 12004 may be provided with infor-
+mation descriptive of the functionality to be provided by the
+special purpose robot indicated in the job-specific demand
+data 12476 and information descriptive of the tasks and/or
+activities required to be performed by the special purpose
+robot. Other context, such as differences in specifications for
+performing tasks by a properly configured multi-purpose
+robot and by the special purpose robot may also be available
+to the fleet intelligence system 12004. Through use of
+artificial intelligence, which may include determining an
+impact on an overall job request based on use of the two
+different robot types, the fleet intelligence 12004 may pro-
+vide robot substitution guidance to the fleet configuration
+scheduler 12468. This guidance may result in allocation of
+a multi-purpose robot and necessary configuration data/
+features (e.g., end effectors and the like) for use when
+executing a job execution plan that corresponds to the job
+request that prompted this fleet configuration scheduling
+activity. In an example of fleet configuration scheduling, a
+3D printing capable robot or fleet-servicing resource (e.g., a
+3D printing factory or third-party provider) may be allocated
+to the job to print robot parts that enable the multi-purpose
+robot to perform the functions of the special purpose robot
+(e.g., a robot arm/end effector 3D printed as a flexible/soft
+structure that can conform to an irregular shape for perform-
+ing a task).
+In embodiments, a task definition 12304D may include
+recommendations for one or more types of robots (e.g.,
+based on alignment of, for example, task requirements, robot
+characteristics, and robot types), and a preferred type may be
+designated in the task definition 12304D. As an example, a
+robot or a special purpose robot (e.g-, robot characteristics
+that align with the task information may be found in the
+library 12314 for a configuration-specific multi-purpose
+robot and for a special purpose robot). While the multi-
+purpose robot may be suitable, a special purpose robot may
+be preferred due to other factors in the job request, such as
+an accumulated error threshold that may be exceeded by use
+of a multi-purpose robot, pricing, availability, and/or the
+like. When a multi-purpose robot type is indicated in the task
+definition 12304D, a reference to configuration data (and/or
+the data itself) may also be communicated in the task
+definition 12304D.
+As described above, task information may be converted
+into a task definition that may require different or at least
+multiple robots. As an example, a sampling task requiring
+robots with different characteristics that is defined may be
+identified as SAMPLE-T1. A first robot may be assigned by
+the fleet configuration system 12020 for a first portion of the
+task (e.g., SAMPLE-T1-A for a sample site preparation
+activity, such as removing objects obstructing the sample
+operation), and a second robot/robot type may be assigned
+for a second portion of the task (e.g., SAMPLE-T1-B for a
+sample-taking activity) and the like. When at least two robot
+units are identified in the task, a task team designator may
+be communicated. By linking a team designator to a task
+identifier, the fleet configuration system 12020 may consider
+the specific needs of the team members to perform the task
+when preparing fleet resource allocation for job execution.

@@ -1,0 +1,136 @@
+keting and customer service according to some embodi- 35 at user the interface 10112 and is then provided as input to
+comprising physical, chemical and/or biological model of 45 the design and simulation 10116 performs multiple screen-
+[col 1]
+US 12,314,060 B2
+387
+tifier, location, order history, production capacity, and pre-
+vious product designs; a packager profile with accompany-
+ing data structures for storing packaging related information;
+a user profile with accompanying user data structures for
+storing user related information; and a behavioral profile
+with accompanying data structures for storing behavioral
+information, among many others. Some examples of users of
+the platform 10110 may include a designer looking to
+generate a design for fabrication; an engineer looking to
+print and manufacture a part; a CFO looking to optimize 10 a
+price for production; or a customer looking to get a product
+printed. Users may include role-based users, such as
+described in connection with other use cases referenced
+herein and in the documents incorporated herein by refer-
+ence, such as various users described in connection with
+digital twins, such as executive and other role-based digital
+twins, consumers of automatically generated data stories,
+and many others.
+The metal additive manufacturing platform 10110
+described herein may help in automating and optimizing a 20
+very wide range of manufacturing and value chain functions.
+Some examples of such functions include process and
+material selection, feedback formulation, design optimiza-
+tion, risk prediction and management, sales and marketing,
+coordination with supply chain and logistics workflows 25
+(including reverse logistics and returns) for manufactured
+products and/or related items or services (such as parts,
+accessories or the like, among others), maintenance work-
+flows, recycling workflows and customer service. FIG. 119
+is a schematic illustrating an example implementation of the 30
+platform 10110 for automating and managing manufacturing
+functions and sub-processes including process and material
+selection, hybrid part workflow, feedstock formulation, part
+design optimization, risk prediction and management, mar-
+ments of the present disclosure.
+Process and Material Selection
+The selection and use of one or more processes or
+materials for additive manufacturing may be automated and
+optimized. The platform 10110 may take as input the prod- 40
+uct requirements in terms of part properties, price, perfor-
+mance characteristics etc. and automatically determine the
+processes or material for building the part. The artificial
+intelligence system 10212 may consume model information
+material behavior, including structural, stress, strain, wear,
+load bearing, response to contamination, chemical interac-
+tion with other materials, interaction with biological ele-
+ments (antibacterial, antiviral, toxicity), etc. The artificial
+intelligence system 10212 may then automate and optimize 50
+process and material selection, including based on expert
+feedback and/or feedback from trials/outcomes.
+Referring now to FIGS. 115, 116, and 119 an example
+embodiment for automating process and material selection is
+described. 55
+A part design comprising model information and product
+requirements is presented to the design and simulation
+10i16 where it is evaluated for manufacturing compatibility
+with at least one type of the additive manufacturing unit
+10102 in the manufacturing node 10100. The design and 60
+simulation 10116 may be assisted by the artificial intelli-
+gence 10212, the simulation management 10514, the printer
+twin 10506 (which in embodiments may be a twin of any
+type of additive manufacturing unit) and the process and
+material selection twin 10702 for performing the optimiza-
+tion. An example analysis includes the use of the printer twin
+10506 in the digital twin system 10214 to simulate and
+[col 2]
+388
+compare part design dimensions and accuracy with available
+3D printer working envelopes and specifications.
+After a part design is validated to be compatible with one
+or more of the additive manufacturing units 10102 in the
+manufacturing node 10100, part data for manufacturing may
+be optimized for export at the design and simulation 10116.
+For example, an optimized STL file may be produced from
+a finely meshed 3D CAD surface model to meet part
+accuracy requirements, and then exported to the autonomous
+additive manufacturing platform 10110.
+The autonomous additive manufacturing platform 10110
+Using optimized part data from the design and simulation
+10116, external information including pricing and market
+ 15 related information from sources such as the value chain
+entities 10126, and help from the artificial intelligence
+system 10212, the process and material selection system
+10702 performs analysis to select one or more of the additive
+manufacturing units 10102 for part manufacturing. In one
+example, the process and material selection system 10702
+may analyze availability and cost of printer feedstock mate-
+rials to select the additive manufacturing unit 10102 that
+manufactures the part according to specifications while
+optimizing for the lowest cost of manufacture.
+Referring to FIGS. 116, 118 and 120, when manufacturing
+is complete, part and process data related to the outcome of
+the 3D printing process is collected by the data collection
+and management system 10202. Outcome data is provided
+to the machine learning system 10210 along with simula-
+tion, external, and training data to train or improve the initial
+machine learning model 10213.
+The following is an example of autonomous design vali-
+dation and selection of a 3D printing process and material.
+Referencing FIGS. 114 and 115, part design data is entered
+the design and simulation 10116 for part validation. The part
+design data provided at the user interface 10112 may include
+the following part specifications and order requirements: A
+form or shape described by a 3D CAD solid model; Use-case
+loading as applied to the provided 3D CAD model; Part
+design stress factor of safety: >2; Maximum part weight;
+Corrosion requirement: Compatibility with seawater and salt
+spray; Order part quantity 10; and Delivery time.
+With help from the artificial intelligence system 10212,
+ing analyses as follows: a material analysis that identifies
+titanium, Inconel, and 316 stainless steel as materials that
+meet corrosion requirements; a material analysis, assisted by
+simulations from the printer twin 10506 and the process and
+material selection twin 10702, that identifies powder bed
+fusion or metal material extrusion as 3D printing processes
+that match availability of the additive manufacturing units
+10102; a stress and weight matrix analysis calculated for
+part geometry and loading that eliminates Inconel and 316
+stainless steel due to weight considerations, but qualifies
+titanium for both weight and maximum stress. Following
+completion of the screening analysis, process and selection
+system 10704 is used to complete final additive manufac-
+turing unit 10102 selection from the subset of additive
+manufacturing units 10102 available for manufacturing.
+Hybrid Part Workflows
+The selection and use of one or more hybrid manufactur-
+ing workflows optimized for applying additive material on
+existing parts may be automated to produce a modified part
+assembly. Hybrid part workflows can be used to develop
+new manufacturing processes, repair existing parts, and
+modify existing parts to improve value chain outcomes.

@@ -1,0 +1,136 @@
+response to a change in source lighting including color, color 35 incorporating vision capability include IoT system 11932,
+[col 1]
+US 12,675,781 B2
+473
+or a space invariant neural network), wherein the units are
+connected in a pattern similar to the visual cortex of the
+human brain.
+The initial layers of the CNN (e.g., convolution layers),
+may extract low level features such as edges and/or gradi-
+ents from the input object concept 720. Subsequent layers
+may extract or detect progressively more complex features
+and patterns such as presence of curvatures and textures in
+image data and so on. The output of each layer may serve as
+an input of a succeeding layer in the CNN to learn hierar- 1o 
+chical feature representations from data in the input object
+concept 720. This allows convolutional neural networks to
+efficiently learn increasingly complex and abstract visual
+concepts.
+use fewer labeled training examples to achieve similar
+classification performance of CNNs.
+In embodiments, transformer-based, encoder-decoder
+architectures using attention mechanisms may be used in
+conjunction with or in place of convolutional neural net- 2o i
+works.
+FIG.127 depicts a schematic view illustrating an example
+implementation of a dynamic vision system depicting a
+detailed view of various components along with integration
+of the dynamic vision system with one or more third party 25
+systems according to some embodiments of the present
+disclosure. The dynamic vision system 11900 may include a
+liquid lens optical assembly 11304 configured to capture
+data from various data sources 11902 including vision
+sensors 11904,feedback sources11906providing outcome 30 i
+data from the machine learning system, environment control
+11908 generating data in response to a change in environ-
+ment factors including temperature, pressure, humidity.
+vibrations etc., lighting control 11910 generating data in
+temperature, timing (PWM), amplitude etc. and data library
+11912.
+The data storage and management system 11914 may
+maintain a record of state and event data for various com-
+ponents and subsystems of the dynamic vision system 11300 40
+such that any of the services, applications, programs, or the
+like may access a common data source (which may comprise
+a single logical data source that is distributed across dispa-
+rate physical and/or virtual storage locations). The data
+storage and management system 11914 may include a 45
+memory subsystem for storage of instructions and data and
+a file storage subsystem providing persistent storage for
+program and data files. Further, the storage and management
+system 11914 may include capabilities such as data alloca-
+tion, data caching, data pruning and data management and 5o
+access to and control of intelligence and data resources.
+The processing system 11306 may process the data cap-
+tured by liquid lens optical assembly 11304 and stored in
+data storage and management system 11914 to optimize and
+adjust the optical parameters in real time through the 55
+machine learning system 11324 and the artificial intelligence
+system 11326, the digital twin system 11320 and the control
+system 11314 as described in detail in FIGS. 123, 124, 125
+and 126,or elsewhere herein.
+In embodiments, a set of applications 11916 may enable 601
+the dynamic vision system 11300 to present meaning infor-
+mation to a user and enable the user perform specific vision
+tasks. Some examples of applications provided on the
+dynamic vision system 11300 include particle filter 11918,
+3D model generation 11920, Location or motion prediction 65
+11922, Visual SLAM 11924, defect detection 11926 and
+adversarial neural network detection 11928.
+[col 2]
+474
+In embodiments, the dynamic vision system 11300 may
+integrate with one or more third party systems 11930
+through connectivity facilities including interfaces, network
+connections, ports, application programming interfaces
+(APIs), brokers, services, connectors, wrappers, containers,
+wired orwireless communicationlinks,human-accessible
+interfaces, software interfaces, micro-services, Saas inter-
+faces, PaaS interfaces, Iaas interfaces, cloud capabilities, or
+the like. The connectivity facilities may facilitate the transfer
+of data between the dynamic vision system 11300 and the
+one or more third party systems 11930.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of value chain network (VCN)
+entities for quality control inspections and sorting objects in
+liquid lens is configured to quickly adjust focus to accom-
+modate for, recognize and sort objects located at various
+working distances or objects of different heights.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with a set of autonomous vehicle systems to
+scan the vehicle environment and monitor the distance
+between the vehicle from other objects on the road.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an interactive head-mounted device
+configured to display virtual content with an electrically
+adjustable liquid lens for providing a correction for the
+displayed content by adjusting the electrically adjustable
+liquid lens.
+In embodiments, the dynamic vision system 11300 may
+integrate into or with an unmanned automotive vehicle
+(UAV) navigation system to help control the position or
+course of the UAV in three dimensions.
+Some non-limiting examples of third party systems 11930
+that may integrate with dynamic vision system 11300 for
+value chain network (VCN) system 11934, manufacturing
+execution system (MES) 11936, robot/cobot system 11938,
+automotive system 11940, 3D printing system, ophthalmic
+system, surgical system, microscopy system, exoskeleton
+system, prosthetics system, biometrics system, quality man-
+agement system (QMS), compliance system, certification
+system, and the like.
+In embodiments, the integration of the dynamic vision
+system 11300 with the more third-party systems 11930 takes
+into account the specific needs and requirements of the third
+party systems 11930 and may customize certain components
+and applications of the dynamic vision system 11300 based
+on such requirements. For example, when integrating with a
+3D printing system, defect detection may be provided
+whereas integration with a robotic cleaning system may
+benefit from the inclusion of virtual SLAM 11924.
+FIGS. 128-142 relate to various embodiments of a fleet
+management platform that is configured to configure fleets
+of robot operating units to perform a wide array of jobs. In
+some embodiments, a fleet management platform may be
+used a value chain entity that is leveraged by one or more
+organizations. The fleet management platform may be a
+standalone service or may be incorporated as part of a larger
+multi-service offering. In embodiments, the fleet manage-
+ment platform receives a job request (e.g., from a client
+device) and identifies a set of tasks to be performed in
+completion of the requested job. In response to determining
+the set of tasks, the fleet management platform may deter-
+mine a robot fleet configuration that includes a set of robot
+operating units and may assign robot operating units to the
+set of tasks. As used herein, a robot operating unit may refer
+to an individual robot, a team of robots, or a fleet of robots

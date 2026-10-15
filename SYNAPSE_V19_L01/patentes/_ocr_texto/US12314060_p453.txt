@@ -1,0 +1,128 @@
+Another example activation function is the tan h function, 25 measure error, the mean square error is determined using the
+A third example activation function is the rectified linear 30 derivative of the error with respect to the weight may be
+ sinc, gaussian, softmax, maxout, and/or a combination of 45 convergence to the desired weights) and not too large (e.g.,
+[col 1]
+US 12,314,060 B2
+541
+in the next level, Further, an activation function is applied to
+each resultant value, and the resulting values are placed in
+the matrix for the next layer. Thus, the output from a node
+i in the neural network may be represented as:
+yi=(2xiwi+bi)
+where f is the activation function, Zxiwi is the weighted sum
+of input matrix and bi is the bias matrix.
+The activation function determines the activity level or
+excitation level generated in the node as a result of an input 10
+signal of a particular size. The purpose of the activation
+function is to introduce non-linearity into the output of a
+neural network node because most real-world functions are
+non-linear and it is desirable that the neurons can learn these
+non-linear representations. Several activation functions may
+15 be used in an artificial neural network. One example acti-
+vation function is the sigmoid function o(x), which is a
+continuous S-shaped monotonically increasing function that
+asymptotically approaches fixed values as the input
+approaches plus or minus infinity. The sigmoid function o(x) 201
+takes a real-valued input and transforms it into a value
+between 0 and 1:
+o(x)=1/1+exp(x).
+which takes a real-valued input and transforms it into a value
+within the range of 1-1, 11:
+tan h(x)=20(2x)-1
+unit (ReLU) function. The ReLU function takes a real-
+valued input and thresholds it above zero (i.e., replacing
+negative values with zero):
+(x)=max(0,x).
+It will be apparent that the above activation functions are
+provided as examples and in various embodiments, neural
+network may utilize a variety of activation functions includ-
+ing (but not limited to) identity, binary step, logistic, soft
+step, tan h, arctan, softsign, rectified linear unit (ReLU), 40 
+leaky rectified linear unit, parameteric rectified linear unit,
+randomized leaky rectified linear unit, exponential linear
+unit, s-shaped rectified linear activation unit, adaptive piece-
+wise linear, softplus, bent identity, softexponential, sinusoid,
+activation functions.
+In embodiments, the input layer may take external inputs
+xl, x2, x3, x4 and x5, which may be numerical values
+depending upon the input dataset. It will be understood that
+a node may include tens, hundreds, thousands, or more 5o h
+inputs. As discussed above, no computation is performed on
+the input layer and thus the outputs are x1, x2, x3, x4 and x5
+respectively, which are fed into a hidden layer. The output of
+nodes in the hidden layer may depend on the outputs from
+the input layer (xl, x2, x3, x4 and x5) and weights associated 55
+with connections (w1, w2, w3, w4 and w5) between the
+input layer and the hidden layer.
+The outputs from the nodes and in the hidden layer may
+also be computed in a similar manner and then be fed to the
+node in the output layer. Node in the output layer may 60
+perform similar computations (using weights v1, v2 and v3
+associated with the connections) as the nodes, and in the
+hidden layers.
+As mentioned, the connections between nodes in the
+neural network have associated weights, which determine 65
+how much relative effect an input value has on the output
+value of the node in question. Before the network is trained,
+[col 2]
+542
+random values are selected for each of the weights. The
+weights are adjusted during the training process and this
+adjustment of weights to determine the best set of weights
+that maximize the accuracy of the neural network is referred
+to as training. For every input in a training dataset, the output
+of the artificial neural network may be observed and com-
+pared with the expected output, and the error between the
+expected output and the observed output may be propagated
+back to the previous layer. The weights may be adjusted
+accordingly based on the error. This process is repeated until
+the output error is below a predetermined threshold.
+In embodiments, backpropagation (e.g., backward propa-
+gation of errors) is utilized with an optimization method
+such as gradient descent to adjust weights and update the
+neural network characteristics. Backpropagation may be a
+supervised training scheme that learns from labeled training
+data and errors at the nodes by changing parameters of the
+neural network to reduce the errors. For example, a result of
+forward propagation (e.g-, output activation value(s)) deter-
+mined using training input data is compared against a
+corresponding known reference output data to calculate a
+loss function gradient. The gradient may be then utilized in
+an optimization method to determine new updated weights
+in an attempt to minimize a loss function. For example, to
+equation:
+E=(target-output)?
+To determine the gradient for a weight “w," a partial
+determined, where:
+gradient-8E/8w
+The calculation of the partial derivative of the errors with
+35respect to the weights may flow backwards through the node
+levels of the neural network. Then a portion (e.g, ratio,
+percentage, etc.) of the gradient is subtracted from the
+weight to determine the updated weight. The portion may be
+specified as a learning rate “a." Thus an example equation of
+determining the updated weight is given by the formula:
+wnew=w old-aaE/@w
+The learning rate must be selected such that it is not too
+small (e.g., a rate that is too small may lead to a slow
+a rate that is too large may cause the weights to not converge
+to the desired weights).
+After the weight adjustment, the network should perform
+better than before for the same input because the weights
+have now been adjusted to minimize the errors.
+As mentioned, neural networks may include convolu-
+tional neural networks (CNN). A CNN is a specialized
+neural network for processing data having a known, grid-
+like topology, such as image data. Accordingly, CNNs are
+commonly used for classification, object recognition and
+other types of pattern recognition such as speech and lan-
+guage processing.
+A convolutional neural network learns highly non-linear
+mappings by interconnecting layers of artificial neurons
+arranged in many different layers with activation functions
+that make the layers dependent. It includes one or more
+convolutional layers, interspersed with one or more sub-
+sampling layers and non-linear layers, which are typically
+followed by one or more fully connected layers.
+In embodiments, a CNN includes an input layer with an
+input image to be classified by the CNN, a hidden layer,

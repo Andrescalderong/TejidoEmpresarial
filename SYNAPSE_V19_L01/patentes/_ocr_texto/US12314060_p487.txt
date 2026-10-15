@@ -1,0 +1,137 @@
+In another example, a user may request a filtered view of 15 indirect connections (e.g, via intermediate modules within
+[col 1]
+US 12,314,060 B2
+609
+agent may automatically perform actions and/or recommend
+actions to the user. Furthermore, in embodiments, the intel-
+ligent agent may record outcomes related to the performed/
+recommended actions, thereby creating a feedback loop with
+the intelligent agent system.
+In embodiments, a smart container fleet manager digital
+twin 13328 may provide an interface for a fleet manager to
+perform one or more fleet manager-related workflows. For
+example, the smart container fleet manager digital twin
+13328 may provide an interface for a manager to perform, 10
+workflows, smart container maintenance workflows, logis-
+tics workflows, smart contract workflows, shipping and/or
+delivery workflows, regulatory workflows, and the like.
+a digital twin of a process, whereby the digital twin of the
+process only shows shipping entities that are involved in the
+process. In this example, the digital twin visualization
+module 13322 may retrieve a digital twin of the process, as
+well as any related digital twins (e.g., a digital twin of the 20
+environment and digital twins of any shipping entities that
+impact the process). The digital twin visualization module
+13322 may then render each of the digital twins (e.g., the
+environment and the relevant shipping entities) and then
+may perform the process on the rendered digital twins. It is 25
+noted that, as a process may be performed over a period of
+time and may include moving items and/or parts, the digital
+twin visualization module 13322 may generate a series of
+sequential frames that demonstrate the process. In this
+scenario, the movements of the shipping entities implicated 30
+by the process may be determined according to the behav-
+iors defined in the respective digital twins of the machines
+and/or devices.
+As discussed, the digital twin visualization module 13322
+may output the requested digital twin to a client application 35
+13324. In some embodiments, the client application 13324
+is a virtual reality application, whereby the requested digital
+twin is displayed on a virtual reality headset. In some
+embodiments, the client application 13324 is an augmented
+reality application, whereby the requested digital twin is 4o
+depicted in an AR-enabled device. In these embodiments,
+the requested digital twin may be filtered such that visual
+elements and/or text are overlaid on the display of the
+AR-enabled device.
+It is noted that, while a graph database is discussed, the 45 e
+digital twin module 13420 may employ other suitable data
+structures to store information relating to a set of digital
+twins. In these embodiments, the data structures, and any
+related storage system, may be implemented such that the
+data structures provide for some degree of feedback loops 5o t
+and/or recursion when representing iteration of flows.
+In embodiments, a digital twin I/O system 13308 inter-
+faces with the shipping entity and/or environment, the
+digital twin module 13420, and/or components thereof to
+provide bi-directional transfer of data between coupled 55 :
+components according to some embodiments of the present
+disclosure.
+In embodiments, the transferred data includes signals
+(e.g., request signals, command signals, response signals,
+etc.) between connected components, which may include 60
+software components, hardware components, physical
+devices, virtualized devices, simulated devices, combina-
+tions thereof, and the like. The signals may define material
+properties (e.g., physical quantities of temperature, pressure,
+humidity, density, viscosity, etc.), measured values (e.g-. 65
+contemporaneous or stored values acquired by the device or
+system), device properties (e.g., device ID or properties of
+[col 2]
+610
+the device's design specifications, materials, measurement
+capabilities, dimensions, absolute position, relative position,
+combinations thereof, and the like), set points (e.g., targets
+for material properties, device properties, system properties,
+combinations thereof, and the like), and/or critical points
+(e.g., threshold values such as minimum or maximum values
+for material properties, device properties, system properties,
+etc.). The signals may be received from systems or devices
+that acquire (e.g., directly measure or generate) or otherwise
+obtain (e.g., receive, calculate, look-up, filter, etc.) the data,
+and may be communicated to or from the digital twin I/O
+system 13308 at predetermined times or in response to a
+request (e.g., polling) from the digital twin I/O system
+13308. The communications may occur through direct or
+a circuit and/or intermediate devices between the connected
+components). The values may correspond to real-world
+elements or virtual elements (e.g., an input or output for a
+digital twin and/or a simulated element that provides data).
+In embodiments, the real-world elements may be ele-
+ments within a shipping entity or environment. The real-
+world elements may include, for example, non-networked
+elements, the devices (smart or non-smart), sensors, and
+humans. The real-world elements may be process or non-
+process equipment within the shipping entities or environ-
+ments. For example, process equipment may include motors,
+cranes, reach stackers, forklifts, pumps, fans, and the like,
+and non-process equipment may include personal protective
+equipment, safety equipment, emergency stations or devices
+(e.g., safety showers, eye wash stations, fire extinguishers,
+sprinkler systems, etc.), container terminal or other facility
+features (e.g., walls, floor layout, etc.), obstacles (e.g.,
+persons or other items within an entity or environment), and
+the like.
+In embodiments, the virtual elements may be digital
+representations of or that correspond to contemporaneously
+existing real-world elements. Additionally, or alternatively,
+the virtual elements may be digital representations of or that
+correspond to real-world elements that may be available for
+lateraddition and implementation into theentity or envi-
+ronment. The virtual elements may include, for example,
+simulated elements and/or digital twins. In embodiments,
+the simulated elements may be digital representations of
+real-world elements that are not present within the shipping
+entity or environment. The simulated elements may mimic
+desired physical properties which may be later integrated
+within the entity or environment as real-world elements
+(e.g., a "black box" that mimics the dimensions of a real-
+world elements). The simulated elements may include digi-
+tal twins of existing objects (e.g., a single simulated element
+may include one or more digital twins for existing sensors).
+Information related to the simulated elements may be
+obtained, for example, by evaluating behavior of corre-
+sponding real-world elements using mathematical models or
+algorithms, from libraries that define information and behav-
+ior of the simulated elements (e.g., physics libraries, chem-
+istry libraries, or the like).
+In embodiments, the digital twin may be a digital repre-
+sentation of one or more real-world elements. The digital
+twins are configured to mimic, copy, and/or model behaviors
+and responses of the real-world elements in response to
+inputs, outputs, and/or conditions of the surrounding envi-
+ronment. Data related to physical properties and responses
+of the real-world elements may be obtained, for example, via
+user input, sensor input, and/or physical modeling (e.g.,
+thermodynamic models, electrodynamic models, mechano-
+dynamic models, etc.). Information for the digital twin may

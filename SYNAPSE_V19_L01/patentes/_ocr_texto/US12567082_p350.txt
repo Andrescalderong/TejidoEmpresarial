@@ -1,0 +1,137 @@
+turing node may communicate with one another for resolv- 55 run simulations in simulation environment 10622. In
+[col 1]
+US 12,567,082 B2
+377
+tion based on public data, such as market data, website data,
+manufacturer-provided data (such as by APIs) and/or terms
+and conditions of a set of smart contracts that relate to such
+characteristics.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligence system 10212 to execute simulations on part
+twins, product twins and printer twins for optimizing the
+cycle time for manufacturing. In embodiments, the optimiz-
+ing of cycle time includes time for post-processing (which 1o
+can vary dramatically per part specifications and additive
+manufacturing technology).
+In embodiments, an instruction set for additive manufac-
+turing may be automatically generated from a text descrip-
+tion, such as using a blend of natural language-based arti- 15 
+ficial intelligence and other artificial intelligence for
+handling and/or generating images and/or spatial represen-
+tations, such as using the DALL-E language model from
+OpenAITM or other transformer language model (a combi-
+nation of text-based and image-based models) further com- 20
+bined with a model for transforming an image into a 3D
+model and/or a model for transforming an image or 3D
+model into an additive manufacturing instruction set. The
+hybrid, transformer artificial intelligence system may, for
+example, be trained to generate a set of parameters that 25
+represent a set of semantic objects (such as a pair of glasses
+and a cat), generate an output design (such as glasses that
+have catlike attributes, such as whiskers or cats-eye lenses),
+and convert the output design into an additive manufacturing
+instruction set. In such embodiments, a user may, for 30
+example, enter a text string for a desired output and be
+provided with a range of 3D models representing options.
+The user may select the preferred option and initiate an
+additive manufacturing job to product the item. In embodi-
+ments, the platform may track interests, attributes, search 35 
+results, profiles, news topics, or other factors to generate a
+set of input text strings to produce a set of objects that are
+recommended for additive manufacturing for a user. In
+embodiments, recommendations are based on similarity to
+other users, such as based on clustering techniques. In 40
+embodiments, recommendations are based on collaborative
+filtering.
+In embodiments, the digital twin system 10214 are con-
+figured to communicate with a user via multiple communi-
+cation channels such as speech, text, gestures, and the like. 45 1
+For example, the digital twin may receive queries from a
+user about the distributed manufacturing network entities,
+generate responses for the queries and communicate such
+responses to the user. Additionally, digital twins may com-
+municate with one another to learn from and identify similar 50
+operating patterns and issues in other distributed manufac-
+turing network entities, as well as steps taken to resolve
+those issues. For example, the digital twins of two manu-
+facturing nodes or those of a part, a printer and a manufac-
+ing or answering a customer request.
+FIG. 118 is a schematic illustrating an example imple-
+mentation of an autonomous additive manufacturing plat-
+form including various components along with other entities
+of a distributed manufacturing network according to some 60
+embodiments of the present disclosure.
+The autonomous additive manufacturing platform 10110
+may collect data from one or more entities including users,
+programs and the data sources 10114. A data acquisition
+system 10602 in user interface 10112 may include a set of 65
+interfaces like a chat interface 10604, a smart voice interface
+10606 and a file upload interface 10608 to collect data from
+[col 2]
+378
+one or more users of the platform. Additionally, one or more
+sensors 10610 including camera and machine vision system,
+acoustic/sound sensors (e.g., with microphones, including
+energy sensor, mass sensor, location sensor, temperature
+sensor, humidity sensor, pressure sensor, viscosity sensor,
+flow sensor, chemical/gas sensor, strain gauge, thermal
+imaging, hyperspectral imaging, sound sensor, air quality
+sensor and the like may provide data to the platform 10110.
+The data sources 10114 may also include programs, the
+feedback sources 10612 providing outcome data from the
+machine learning system 10210 and a data library 10614.
+In embodiments, a data visualization 10615 in the user
+interface 10112 may provide a set of dashboards, interfaces
+and integrations for a user of the platform 10110 to visualize
+information related to the distributed manufacturing net-
+work 10130 or one or more entities in the network 10130.
+For example, a dashboard may provide visualizations
+including information related to digital threads for distrib-
+uted manufacturing network entities like a 3D printed part or
+a product. Another dashboard may provide visualizations
+including information about real time visibility of status of
+a manufacturing order. An alternate dashboard may provide
+visualizations including information related to batch trace-
+ability to identify parts from the same batch. A dashboard
+may provide visualization of demand factors, including
+predicted demand, inventory levels and the like. A search
+interface may be provided to resolve queries from one or
+more users based on part, machine, production date or
+location.In embodiments, a virtual reality (VR) system may
+be integrated with the data visualization 10615 and model-
+ling system 10620, thereby enabling a user to build 3D
+models in VR. In embodiments, the virtual reality system
+may be integrated with a scanning system 10617, such as
+allowing a user to build models that consist of scanned data
+(such as point clouds) and/or combinations of model-based
+VR and scans (and/or other augmentations or overlays, such
+as in augmented reality and/or mixed reality models). This
+may also include a wider set of user interactions for devel-
+oping part designs without in-depth expertise including
+using augmented reality (AR) and mixed reality (MR).
+In embodiments, the user interface 10112 may include a
+single click pre-processing process triggering pre-set con-
+figurations for part orientation, support determination, tool-
+ path generation and/or nesting.
+In embodiments, the user interface 10112 may include a
+single click post-processing process triggering pre-set con-
+figurations for de-powdering, support removal and surface
+finishing.
+A user of the platform may also use the design and
+simulation system 10116 to build CAD and STL files
+capturing the design of the part or product to be printed. A
+set of design to0ols 10616 and design libraries 10618 may
+allow a user to build models in modelling system 10620 and
+embodiments, the design of the part or product may be
+captured in various file formats including but not limited to,
+IGES files, SolidWorks files, Catia files, ProE files, 3D
+Studio files, STEP files and Rhino files. In embodiments, the
+design may be captured in the form of digital images, such
+as in PNG files, JPEG files, GIF files and/or PDF files, as
+well as scanned data formats, such as point clouds produced
+by laser scanning, and outputs from ultrasound, MRI, x-Ray,
+electron beam, radar, IR and other scanning systems.
+The data storage system 10204 may store data in a
+distributed ledger 10624, a digital thread 10626 or the like,
+such as for maintaining a record of event data 10628 and a

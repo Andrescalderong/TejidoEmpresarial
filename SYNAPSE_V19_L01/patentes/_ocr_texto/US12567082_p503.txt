@@ -1,0 +1,137 @@
+the impact of different choices on delivery time, without 3o provide data for supervised learning algorithms.
+[col 1]
+US 12,567,082 B2
+683
+like, may predict future states of the medical equipment
+based on the PMCP data, and may use any or all of the data
+to take various actions, perform various analyses, and the
+like.
+In some embodiments, communication within the value
+chain using vectorized data allows for a value chain to have
+a constant view of what the likely future state is. These
+techniques allow for future states to be communicated to the
+value chain, thus allowing value chain entities to respond
+ahead of future state requirements without needing access to 10 1
+fine-grained data.
+In some embodiments, the PMCP protocol can be used to
+transmit and receive relevant information (e.g., important or
+high priority information, as determined by a thalamus
+service) about production levels and future trends in pro- 15
+duction to various external entities. In some of these
+example embodiments, a PMCP data feed may be used for
+data obfuscation (e.g., communicating sensitive data as
+vectorized data and/or model parameters). For example,
+PMCP allows real contextual information about production 20
+levels to be shared with consumers, regulators, and other
+entities external to the value chain network without the
+direct sharing of sensitive data values. For example, when a
+customer chooses to purchase a new car, one or more value
+chain entities may be integrated into the selection process 25
+and may determine (e.g., based on predictive models) that
+there is an upcoming shortage of red paint. In this case, the
+value chain entities could communicate PMCP data that
+would be processed and used to show the customer device
+providing sensitive data to the customer device or other
+external entity.
+PMCP and vectorized data processes further enable
+simple data-informed interactive systems that a user can
+apply without having to build enormously complex big data 35
+engines. As an example, an upstream manufacturer may
+have an enormously complex task of coordinating many
+downstream consumption points. Through the use of PMCP
+and/or thalamus services, the manufacturer may be able to
+providereal informationto consumerswithouttheneedto 4o t
+store detailed data and build complex models, which may
+require setting up large-scale systems for processing large
+amounts of data and the like.
+In embodiments, edge device units may communicate via
+the PMCP system to show direction of movement and likely 45
+future positions. For example, a moving robot can commu-
+nicate its likely track of future movement. In embodiments
+involving large numbers of moving robots, a thalamus
+service may determine which robots need to be prioritized
+and monitored closely (e.g., because they are moving out- 50 
+side of prescribed boundaries, behaving in unpredictable
+ways, etc.).
+In embodiments, the PMCP system and/or thalamus sys-
+tem enables visual representations of vector-based data (e.g.,
+via a user interface), including highlighting of areas of 55
+concern without the need to process enormous volumes of
+data. The visual representation allows for the display of
+many monitored vector inputs. The user interface can then
+display information relating to the key items of interest,
+ specifically vectors showing areas of unusual or troublesome 60
+movement. This mechanism allows sophisticated models
+that are built at the edge device edge nodes to feed into end
+user communications in a visually informative way.
+As can be appreciated, functional units produce a constant
+stream of "boring" data (e.g., data that does not change, 65
+from producing data, to monitoring for problems, issues
+[col 2]
+684
+with the logistical modules are highlighted without the need
+for scrutiny of fine-grained data. In embodiments, PMCP
+device interfaces may constantly generate and/or refine a
+predictive model that predicts a future state. In the context
+of maintenance, refinements to the parameters in the pre-
+dictive model are in and of themselves predictors of change
+in operational parameters, potentially indicating the need for
+maintenance. Moreover, the communication of operational
+parameters for large numbers of devices may be processed
+by a thalamus service such that data for devices functioning
+normally may be filtered or suppressed until conditions
+change.
+In embodiments, functional areas are not always designed
+to be connected to the value chain network, but by allowing
+for an external device to virtually monitor devices, func-
+tional areas that do not allow for connectivity can become
+part of the information flow in the value chain goods. This
+concept extends to allowing functional areas that have
+limited connectivity to be monitored effectively by embel-
+lishing their data streams with vectorized monitored infor-
+mation. Placing an automated device in the proximity ofthe
+functional unit that has limited or no connectivity allows
+capture of information from the devices without the require-
+ment of connectivity. There is also potential to add training
+data capture functional units for these unconnected or lim-
+itedly connected functional areas. These training data cap-
+ture functional units are typically quite expensive and can
+provide high quality monitoring data, which is used as an
+input into the proximity edge device monitoring device to
+Oftentimes, value chain network iocations are laden with
+electrical interference, causing fundamental challenges with
+communications. The traditional approach of streaming all
+the fine-grained data is dependent on the completeness of the
+data stream. For example, if an edge device was to go offline
+for 10 minutes, the streaming data and its information would
+be lost. With vectorized communication, the offline unit may
+continue to refine the predictive model until the moment
+when it reconnects, which allows the updated model to be
+transmitted via the PMCP system.
+In embodiments, value chain network systems and
+devices may be based on the PMCP protocol. For example,
+value chain network cameras and vision systems (e.g., liquid
+lens systems), user devices, sensors, robots, smart contain-
+ers, and the like may use PMCP and/or vector-based com-
+munication. By using vector-based cameras, for example,
+only information relating to the movement of items is
+transmitted. This reduces the data volume and by its nature
+filters information about static items, showing only the
+changes in the images and focusing the data communication
+on elements of change. The overall shift in communication
+to communication of change is similar to how the human
+process of sight functions, where stationary items are not
+even communicated to the higher levels of the brain.
+Radio Frequency Identification allows for massive vol-
+umes of mobile tags (e.g., cargo RFID tags for cargo being
+transported by a smart container) in a value chain network
+to be tracked in real-time. In embodiments, the movement of
+the tags may be communicated as vector information via the
+PMCP protocol, as this form of communication is naturally
+suited to handing information regarding the location of tag
+within the value chain goods. Adding the ability to show
+future state of the location using predictive models that can
+use paths of prior movement allows the value chain goods to
+change the fundamental communication mechanism to one
+where units consuming data streams are consuming infor-
+mation about the likely future state of the value chain goods.

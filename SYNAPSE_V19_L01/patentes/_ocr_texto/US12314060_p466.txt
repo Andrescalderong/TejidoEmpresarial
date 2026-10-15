@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+567
+ing leveraging human/operator input (e.g., a human observer
+be operating erratically), smart container process automation
+of maintenance activities, artificial intelligence for predict-
+ing maintenance instances for scheduling, machine learning
+to help identify new opportunities for scheduling and per-
+forming maintenance (e.g. analyze performance of smart
+certain conditions before operating under those conditions,
+such as upgrading the cooling system of a smart container 10
+before operating in a high temperature environment), and the
+like. In embodiments, a maintenance management system
+13028 may receive maintenance-related input. In embodi-
+ments, candidate sources of maintenance related input may
+include human operators/observers, maintenance scheduling 15
+services, third-party service providers, smart container pro-
+duction vendors, and parts providers to schedule mainte-
+nance. The maintenance management system 13028 may
+also leverage business rules (e.g-, rules established for a
+team, fleet, by a shipper, determined by a regulatory agency, 20
+and the like), association tables, data sets, databases, and/or
+maintenance management libraries to determine appropriate
+maintenance workflows, service actions, needed parts, and
+the like. In embodiments, a maintenance activity may be
+assigned by the maintenance management system to a fleet 25
+resource, such as a maintenance smart container, a human
+technician, a third-party service provider, and the like.
+In embodiments, smart container operating units that are
+deployed may be configured with one or more maintenance
+protocols to perform, among other things, self-maintenance, 30 
+such as self-cleaning, calibrating end effector operations,
+and the like. Self-maintenance may include, without limi-
+tation, reduction in capabilities responsive to detection of a
+compromised smart container operating unit feature, such as
+a faulty 3D printing system or faulty systems for securing 35
+cargo (e.g-, steel strapping, polyester strapping, dunnage
+bags, or the like). A deployed smart container operating unit
+may determine that a capability is compromised and, option-
+ally with support of the maintenance management system
+13028, may switch assignments with another smart con-
+tainer so that the compromised capability can be resolved
+when time permits rather than causing a delay in completion
+of a shipment. Also, smart container operating unit intelli-
+gence (e.g., on-smart container AI and the like) may predict
+a compromise in smart container capabilities based on, for 45
+example, time-to-failure data for the smart container capa- bility.
+In embodiments, the maintenance management system
+13028 may leverage the intelligence service 13004 (e.g., the
+system level intelligence service 13004) to predict when 50 f
+maintenance may be performed for smart container operat-
+ing units and/or components thereof. In some of these
+embodiments, the maintenance management system 13028
+may request a digital twin of a smart container operating unit
+from the intelligence service 13004. In these embodiments, 55
+the digital twin may reflect a current condition of the smart
+container operating unit, such that the smart container oper-
+ating unit digital twin may be analyzed to determine whether
+maintenance is required for the smart container operating
+unit. Additionally, or alternatively, the digital twin service of 60
+the intelligence service 13004 may run one or more simu-
+lations involving the smart container operating unit to pre-
+dict when maintenance may be required. In some of these
+embodiments, outputs of the digital twin of the smart
+container operating unit may be analyzed (e.g., using a 65
+machine-learned prediction model or a neural network) to
+predict if/when maintenance may be required.
+[col 2]
+568
+In embodiments, the fleet management system 13002
+includes a job configuration system 13018. In embodiments,
+a shipment configuration system receives freight storage
+and/or transportation service orders, such as from customers
+that book a smart container shipping service. In embodi-
+ments, a freight storage and/or transportation service order
+may indicate a set of freight storage and/or transportation
+service order parameters. Non-limiting examples of freight
+storage and/or transportation service order parameters may
+ include: timing requirements, origin and destination of ship-
+ment (e.g., region, address, coordinates, or the like), number
+of smart containers required, type of containers required
+(e.g., tank containers, bulk containers, 2o-ft standard con-
+tainers, 40-ft high-cube containers, or the like), container
+utilization requirements (e.g, full container (FCL) vs.
+shared container (LCL), cargo descriptions (e.g., number of
+packages, total volume, or total weight), whether the cargo
+includes personal effects, other required tasks (e.g., inspec-
+tion tasks, packaging tasks, unpackaging tasks, unloading
+tasks, loading tasks, 3D printing tasks, growing tasks,
+assembling tasks, monitoring tasks, or the like), pricing
+information, and any other suitable parameters. In embodi-
+ments, the freight storage and/or transportation service order
+parameters which may be indicative of what types of smart
+container operating units are needed and/or functionalities
+thereof. These and other freight storage and/or transporta-
+tion service order details are described elsewhere herein.
+In embodiments, quantum optimization may be enabled
+by a quantum computing service 13008 that may optimize
+assignments across fleet resources, such as smart container
+operating units and the like. A quantum computing service
+13008 may further optimize routing (logical, physical, and
+electronic) associated with smart container fleets, shipments,
+team, communications, logistics and the like. Additionally.
+or alternatively, in some embodiments a quantum computing
+service 13008 may be employed to optimize combinations
+of smart container resources with other resources across a
+variety of fleet functions, including energy consumption,
+computational capacity and utilization, infrastructure
+resource planning, engagement and utilization, risk manage-
+ment, computing storage capacity, and the like. The quantum
+computing service 13008 may also be used for optimizing
+smart container design, optimizing smart container services
+pricing, optimizing smart container charging (e.g., optimiz-
+ing the route of a smart container having solar panels such
+that it receives sufficient levels of sunlight), or the like.
+In embodiments, a job configuration system 13018 and
+other fleet resources (e.g., fleet configuration, system intel-
+ligence, smart container operation and the like) may benefit
+from use of deep learning techniques for task, workflow, and
+order execution plan optimization as well as for learning,
+among other things, from failures. In these embodiments,
+the job configuration system 13018 may request deep learn-
+ing services from the system-level intelligence service
+13004, which leverages neural networks and/or other
+machine-learned models to determine job configurations
+based on a set of features, including features extracted from
+a freight storage and/or transportation service order. In these
+embodiments, the artificial intelligence services may be
+configured to learn task workflows, job configurations, and
+the like.
+In embodiments, job configuration, fleet configuration
+(which may include smart container configuration), and/or
+as order execution may further enhance fleet functions,
+performance, and outcomes through use of local context-
+adaptive task assignment, execution, resource routing and
+the like. This adaptive capability may be further enabled

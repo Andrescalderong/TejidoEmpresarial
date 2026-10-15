@@ -1,0 +1,136 @@
+In some embodiments, the digital twin dynamic model 35 enable the digital twin. For example, digital twin dynamic
+as a mobile device, tablet, dashboard, computer, AR/VR 5o for updating a set of cost of downtime values in the digital
+[col 1]
+US 12,567,082 B2
+625
+view the digital representations of real-world shipping enti-
+ties, devices, workers, processes and/or environments. For
+example, the digital twin may be rendered an outcome to a
+display device. In embodiments, dynamic model outputs
+and/or related data may be overlaid on the rendering of the
+digital twin, In embodiments, dynamic model outputs and/or
+related information may appear with the rendering of the
+digital twin in a display interface. In embodiments, the
+related information may include real-time video footage
+associated with the real-world entity represented by the 10
+digital twin. In embodiments, the related information may be
+graphical information. In embodiments, graphical informa-
+tion may depict motion, wherein a user is enabled to select
+a view of the graphical information in the x, y, and z
+dimensions. In embodiments, the related information may be 15
+cost data, including cost of downtime per day data, cost of
+repair data, cost of new part data, cost of new machine data,
+and the like. In embodiments, related information may be
+probability of downtime data, probability of failure data, and
+the like. In embodiments, related information may be time to 20
+failure data.
+In embodiments, the related information may be recom-
+mendations and/or insights. For example, recommendations
+or insights received from the intelligence service related to
+a smart container may appear with the rendering of the 25
+digital twin of a smart container in a display interface.
+In embodiments, clicking, touching, or otherwise inter-
+acting with the digital twin rendered in the display interface
+can allow a user to "drill down" and see underlying sub-
+systems or processes and/or embedded digital twins. In 30
+embodiments, clicking, touching, or otherwise interacting
+with information related to the digital twin rendered in the
+display interface can allow a user to "drill down" and see
+underlying information
+system 13312 may receive requests from client application
+enable a digital representation of shipping entities and/or
+environments wherein the digital representation is a heat
+map visualization of the digital twin. In embodiments, a 40
+platform is provided having heat maps displaying collected
+data from the sensor system, Internet of Things connected
+devices 13338, and data outputs from dynamic models
+13374 for providing input to a display interface. In embodi-
+ments, the heat map interface is provided as an output for 45
+digital twin data, such as for handling and providing infor-
+mation for visualization of various sensor data, dynamic
+model output data, and other data (such as map data, analog
+sensor data, and other data), such as to another system, such
+device, or the like. A digital twin representation may be
+provided in a form factor (e.g., user device, VR-enabled
+device, AR-enabled device, or the like) suitable for deliv-
+ering visual input to a user, such as the presentation of a map
+that includes indicators of levels of analog sensor data, 55
+digital sensor data, and output values from the dynamic
+models. In embodiments, signals from various sensors or
+input sources (or selective combinations, permutations
+mixes, and the like) as well as data determined by the digital
+twin dynamic model system 13312 may provide input data 60
+to a heat map. Coordinates may include real world location
+coordinates (such as geo-location or location on a map), as
+well as other coordinates, such as time-based coordinates,
+frequency-based coordinates, or other coordinates that allow
+for representation of analog sensor signals, digital signals, 65
+dynamic model outputs, input source information, and vari-
+ous combinations, and/or in a map-based visualization, such
+[col 2]
+626
+that colors may represent varying levels of input along the
+relevant dimensions. For example, among many other pos-
+sibilities, if a container terminal is operating at a critical
+level state (e.g, due to heavy traffic or delays), the heat map
+interface may alert a user by showing the container port in
+orange. In the example of a heat map, clicking, touching, or
+otherwise interacting with the heat map can allow a user to
+drill down and see underlying container ships, dynamic
+model outputs, or other input data that is used as an input to
+the heat map display. In other examples, such as ones where
+a digital twin is displayed in a VR or AR environment, if a
+smart container machine component is vibrating outside of
+normal operation, a haptic interface may induce vibration
+when a user touches a representation of the machine com-
+ponent, or if a machine component is operating in an unsafe
+manner, a directional sound signal may direct a user's
+attention toward the machine in digital twin, such as by
+playing in a particular speaker of a headset or other sound
+system.
+In embodiments, the digital twin dynamic model system
+13312 may take a set of ambient environmental data and/or
+other data and automatically update a set of properties of a
+digital twin of a shipping entity or environment based on the
+impact of the environmental data and/or other data in the set
+of dynamic models 13374 that are used to enable the digital
+twin. Ambient environmental data may include temperature
+data, pressure data, humidity data, wind data, rainfall data,
+tide data, storm surge data, cloud cover data, current data,
+snowfall data, visibility data, water level data, and the like.
+Additionally, or alternatively, the digital twin dynamic
+model system 13312 may use a set of environmental data
+measurements collected by a set of Internet of Things
+connected devices 13338 disposed in an industrial setting as
+inputs for the set of dynamic models 13374 that are used to
+model system 13312 may feed the dynamic models 13374
+data collected, handled or exchanged by Internet of Things
+connected devices, such as cameras, monitors, embedded
+sensors, mobile devices, diagnostic devices and systems,
+instrumentation systems, telematics systems, and the like,
+such as for monitoring various parameters and features of
+machines, devices, components, parts, operations, functions,
+conditions, states, events, workflows and other elements
+(collectively encompassed by the term “"states") of shipping
+environments. Other examples of Internet of Things con-
+nected devices include smart fire alarms, smart security
+systems, smart air quality monitors, smart/learning thermo-
+stats, and smart lighting systems.
+FIG. 149 illustrates an example embodiment of a method
+twin of a smart container. In the present example, the digital
+twin dynamic model system 13312 may receive requests
+from a client application 13324 to populate real-time cost of
+downtime values associated with a smart container in a
+smart container fleet digital twin. At step B200, digital twin
+dynamic model system 13312 receives a request from the
+client application 13324 to update one or more cost of
+downtime values of the smart container digital twin 13504
+and any embedded digital twins (e.g., robots, cargo, and the
+like) from the client application 13324. Next, in step B202,
+the digital twin dynamic model system 13312 determines the
+one or more digital twins required to fulfill the request and
+retrieves the one or more required digital twins. In this
+example, the digital twin dynamic model system13312may
+retrieve the digital twins of the fleet, the smart containers,
+and any other embedded digital twins from digital twin
+datastore 13316. At step B204, digital twin dynamic model

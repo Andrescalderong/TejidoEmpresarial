@@ -1,0 +1,136 @@
+otherwise displayed in an application's user interface (UI), 40 predictive data, which allows suppliers to participate in
+[col 1]
+US 12,314,060 B2
+811
+chain network based upon received data (e.g., warehouse
+management, inventory management, order management,
+and analytics). Generally, dynamic fulfillment considers the
+value of inventory according to the location where it is
+maintained. For example, if a store is in an overstock
+position anticipating mark-downs to move the excess, these
+items can be given priority for on-line orders. The net result
+is higher profit and customer satisfaction. Thus, in some
+implementations, VCN process 10 may provide a single
+platform that unifies warehouse management, inventory 101
+management, order management, analytics, and more for
+full network visibility.
+In some implementations, VCN process 10 may provide
+18123 an alert describing the action to mitigate the potential
+risk in the value chain network associated with the item that 15
+was executed. For instance, in some implementations, VCN
+process 10 may use AI-based learning models to automati-
+cally draft and send communications (e.g, text, email,
+pop-ups, notification feed, chat, etc.) explaining what the
+determined procurement action(s) may be/are, what infor- 20
+mation was used to determine the procurement action, and
+the intended result of executing the procurement action (e.g.,
+faster delivery, lower costs, better quality, etc.). This may
+allow a userto verifywhether the procurement action should
+be confirmed, and take any additional appropriate action. In 25
+some implementations, the potential risk may also be
+flagged in an application's user interface (UI), such as the
+above-noted control tower UI.
+In some implementations, the information may include
+past behavior overtime,historical data,and currentdata.For 3oj
+instance, VCN process 10 may include supplier manage-
+ment functionality, which may include an intelligent pro-
+curement system that enable effective supplier management
+by providing real-time information on supplier performance,
+including delivery times, quality metrics, and pricing. This 35
+information, as noted above, may be used to make informed
+decisions about supplier selection, performance manage-
+ment, or other procurement actions. In some implementa-
+tions, the real-time information may also be flagged or
+such as the above-noted control tower UI.
+For instance, assume for example purposes only that VCN
+process 10 has used one or more AI-based learning models
+to determine that there is a potential to reduce transportation
+costs in the value chain network based upon received data. 45
+In the example, VCN process 10 may receive the external
+data to both determine that there is the potential to reduce
+transportation costs, and determine how to do so. As an
+example, VCN process 10 may include or interact with a
+transportation application that may automatically calculate 50
+the fastest or most optimal route and transportation method
+(e.g., air, boat, truck, etc.) based on external data (e.g. gas
+prices, traffic data, transportation time, sales forecasts, ware-
+house data, etc.) for past behavior over time, historical data,
+and/or current data. This may allow a precise view of such 55
+procurement actions including, e.g., when to order, when to
+pay invoices, etc. In some implementations, the external
+data may be received and analyzed in real-time or near
+real-time, enabling rapid time-to-value by collaborating
+globally with carriers to reduce transportation costs. In some
+implementations, VCN process 10 may resolve this situation
+by automatically executing (without human interaction) a
+request to change contract terms (e.g., price, delivery terms,
+and quality standards, etc.), or providing a suggestion on a
+user interface to change contract terms, which may be 65
+manually executed (e.g., receiving a user input to approve
+the suggested action).
+[col 2]
+812
+In some implementations, VCN process 10 may render
+18125 a visualization associated with at least one ofinbound
+or outbound shipments associated with the item, which, in
+some implementations, may be based upon VCN process
+10's AI-based learning models, may be related to the VCN,
+and may be related to the VCN using VCN process 10's
+Al-based learning models. For instance, example features/
+widgets/windows, etc. of the example control tower UI
+discussed throughout may include, e.g, Summary Widgets
+for quick stats on the total number of shipments, those
+in-transit, delayed, received, dispatched, etc., a Notification
+Panel for real-time alerts for pending shipments, potential
+delays, or any anomalies, Interactive Shipment Map for
+visualizing the real-time location and status of each ship-
+ment (e.g-, which may enable hovering/clicking/touching,
+etc. on shipment icons for detailed information), Dynamic
+ment ID, sender/receiver name, etc., Advanced Filters for
+shipments by status (e.g-, in-transit, delivered), date range,
+carrier, destination, etc., Shipment Details for comprehen-
+sive information about a specific shipment, including items,
+quantity, origin, destination, carrier details, and expected vs.
+actual 'delivery times, attachments like bill of lading,
+invoice, or any other relevant documents, Carrier Perfor-
+mance Metrics for insights into the performance of various
+carriers based on delivery time, damages, and other relevant
+metrics.
+In some implementations, VCN process 10 may be
+enabled with predictive sourcing capabilities, and may also
+include, in some implementations, a no login, no applica-
+tion, no hassle, seamless, one-click sourcing events in a
+supplier's inbox, embedded with real-time predictive data.
+For instance, predictive sourcing capabilities may be used
+by VCN process 10 to identify potential suppliers, predict
+their prices, and assess their risk. This can help companies
+to save time and money when sourcing goods and services.
+In some implementations, VCN process 10 may include a no
+login, no application, no hassle, seamless, one-click sourc-
+ing events in a supplier's inbox, embedded with real-time
+sourcing events with minimal effort. Suppliers may click on
+be able to see real-time predictive data about the event, such
+as the estimated demand for the goods or services being
+sourced. For instance, assume for example purposes only
+that a retail company is looking to source new products for
+its upcoming holiday season. In the example, the company
+uses predictive sourcing capabilities of VCN process 1o to
+identify a list of potential suppliers for each product cat-
+egory. The company may then send out (e.g., via VCN
+process 10) one-click sourcing event invitations to the
+suppliers on the list. In the invitation, the company may
+specify the estimated demand for each product category. The
+suppliers click on the link in the invitation to participate in
+the event. The suppliers can see real-time predictive data
+about the event, such as the estimated demand for each
+product category and the current prices of competing sup-
+pliers. The suppliers submit their bids to the company, and
+the company then selects the supplier with the most com-
+petitive bid for each product category.
+ML/AI for Automation of a Set of Value Chain Network
+Entities
+As will be discussed in greater detail below, as discussed
+throughout and referring also at least to the example imple-
+mentations of FIGS. 173-185, a VCN process, such as VCN
+process 10, may receive 18200, by a computing device,
+information associated with a value chain network. For

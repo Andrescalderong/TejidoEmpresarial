@@ -1,0 +1,136 @@
+least squares regression; Sammon mapping; multidimen- 35 can pass orretain information from a previous portion of the
+[col 1]
+US 12,314,060 B2
+301
+simple linear regression models; multiple linear regression
+models; logistic regression models; stepwise regression
+models; multivariate adaptive regression splines; locally
+estimated scatterplot smoothing models; etc.
+In some examples, machine learning models can be or
+include one or more decision tree-based models such as, for
+example, classification and/or regression trees; chi-squared
+automatic interaction detection decision trees; decision
+stumps; conditional decision trees; etc.
+Machine learning models may be or include one or more 10 
+kernel machines. In some implementations, machine learn-
+ing models can be or include one or more support vector
+machines. Machine learning models may be or include one
+or more instance-based learning models such as, for
+example, learning vector quantization models; self-organiz- 15
+ing map models; locally weighted learning models; etc. In
+some implementations, machine learning models can be or
+include one or more nearest neighbor models such as, for
+example, k-nearest neighbor classifications models; k-near-
+est neighbors regression models; etc.Machine learning 20
+models can be or include one or more Bayesian models such
+as, for example, naive Bayes models; Gaussian naive Bayes
+models; multinomial naive Bayes models; averaged one-
+dependence estimators; Bayesian networks; Bayesian belief
+networks; hidden Markov models; etc. 25
+Machine learning models may include one or more clus-
+tering models such as, for example, k-means clustering
+models; k-medians clustering models; expectation maximi-
+zation models; hierarchical clustering models; etc.
+In some implementations, machine learning models can 30 
+perform one or more dimensionality reduction techniques
+such as, for example, principal component analysis; kernel
+principal component analysis; graph-based kernel principal
+sional scaling; projection pursuit; linear discriminant analy-
+sis; mixture discriminant analysis; quadratic discriminant
+analysis; generalized discriminant analysis; flexible dis-
+criminant analysis; autoencoding; etc.
+In some implementations, machine learning models can 40 t
+perform or be subjected to one or more reinforcement
+iearning techniques such as Markov decision processes;
+dynamic programming; Q functions or Q-learning; value
+function approaches; deep Q-networks; differentiable neural
+computers; asynchronous advantage actor-critics; determin- 45 s
+istic policy gradient; etc.
+In embodiments, artificial intelligence modules 8804 may
+include and/or provide access to a neural network module
+8814. In embodiments, the neural network module 8814 is
+configured to train, deploy, and/or leverage artificial neural 50
+networks (or "neural networks") on behalf of an intelligence
+service client 8836. It is noted that in the description, the
+term machine learning model may include neural networks,
+and as such, the neural network module 8814 may be part of
+the machine learning module 8812. In embodiments, the 55
+neural network module 8814 may be configured to train
+neural networks that may be used by the intelligence clients
+8836. Non-limiting examples of different types of neural
+networks may include any of the neural network types
+described throughout this disclosure and the documents 60
+incorporated herein by reference, including without limita-
+tion convolutional neural networks (CNN), deep convolu-
+tionalneuralnetworks (DCN),feed forward neural networks
+(including deep feed forward neural networks), recurrent
+neural networks (RNN) (including without limitation gated
+RNNs), long/short term memory (LTSM) neural networks,
+and the like, as well as hybrids or combinations of the above,
+[col 2]
+302
+such as deployed in series, in parallel, in acyclic (e.g.,
+directed graph-based) flows, and/or in more complex flows
+that may include intermediate decision nodes, recursive
+loops, and the like, where a given type of neural network
+takes inputs from a data source or other neural network and
+provides outputs that are included within the input sets of
+another neural network until a flow is completed and a final
+output is provided. In embodiments, the neural network
+gence modules 8804, such as the machine vision module
+8822, the NLP module 8824, the rules-based module 8828,
+the digital twin module 8826, and so on. Example applica-
+tions of the neural network module 8814 are described
+throughout the disclosure.
+A neural network includes a group of connected nodes,
+which also can be referred to as neurons or perceptrons. A
+neural network can be organized into one or more layers.
+Neural networks that include multiple layers can be referred
+to as "deep" networks. A deep network can include an input
+layer, an output layer, and one or more hidden layers
+positioned between the input layer and the output layer. The
+nodes of the neural network can be connected or non-fully
+connected.
+In embodiments, the neural networks can be or include
+one or more feed forward neural networks. In feed forward
+networks, the connections between nodes do not form a
+cycle. For example, each connection can connect a node
+from an earlier layer to a node from a later layer.
+In embodiments, the neural networks can be or include
+one or more recurrent neural networks. In some instances, at
+least some of the nodes of a recurrent neural network can
+form a cycle. Recurrent neural networks can be especially
+useful for processing input data that is sequential in nature.
+In particular, in some instances, a recurrent neural network
+input data sequence to a subsequent portion of the input data
+sequence through the use of recurrent or directed cyclical
+node connections.
+In some examples, sequential input data can include
+time-series data (e.g, sensor data versus time or imagery
+captured at different times). For example, a recurrent neural
+network can analyze sensor data versus time to detect or
+predict a swipe direction, to perform handwriting recogni-
+tion, etc. Sequential input data may include words in a
+sentence (e.g., for natural language processing, speech
+detection or processing, etc.); notes in a musical composi-
+tion; sequential actions taken by a user (e.g, to detect or
+predict sequential application usage); sequential object
+states; etc. In some example embodiments, recurrent neural
+networks include long short-term (LSTM) recurrent neural
+networks; gated recurrent units; bi-direction recurrent neural
+networks; continuous time recurrent neural networks; neural
+history compressors; echo state networks; Elman networks;
+Jordan networks; recursive neural networks; Hopfield net-
+works; fully recurrent networks; sequence-to-sequence con-
+figurations; etc.
+In some examples, neural networks can be or include one
+or more non-recurrent sequence-to-sequence models based
+on self-attention, such as Transformer networks. Details of
+an exemplary transformer network can be found at http://
+papers.nips.cc/paper/7181-attention-is-all-you-need.pdf.
+In embodiments, the neural networks can be or include
+one or more convolutional neural networks. In some
+instances, a convolutional neural network can include one or
+more convolutional layers that perform convolutions over
+input data using learned filters. Filters can also be referred
+to as kernels. Convolutional neural networks can be espe-

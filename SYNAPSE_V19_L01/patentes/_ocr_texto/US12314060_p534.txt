@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+703
+others); control (such as controlling autonomous or semi-
+autonomous systems, automated agents (such as automated
+call-center operations, chat bots, and the like) and others);
+and/or optimization and recommendation (such as for prod-
+ucts, content, decisions, and many others). ANNs may also
+be suitable for training datasets for scenarios that only
+require output. The standard operational activities may not
+require the ANN to actively analyze what is being asked of
+the ANN beyond operating on well-defined data inputs, to
+calculate well-defined outputs for well-defined use cases.
+The operations of the training system and/or the retraining
+ system may be based on one or more historic data training
+datasets and may use the parameters of the historic data
+training datasets to calculate results based on new input
+values and may be performed with small or no alterations to
+the ANN or its input types. In embodiments, an instance of
+the training system can be trained to classify whether the
+ANN is capable of performing well in a given situation, such
+as by recognizing whether an image or sound being classi- 20
+fied by the ANN is of a type that has historically been
+classified with a high accuracy (e.g., above a threshold).
+In embodiments, network adaptation of the ANN by one
+or both of the training system and the retraining system may
+include a number of defined network functions, knowledge, 25
+and intuition-like behavior of the ANN when subjected to
+new input values. In such embodiments, the retraining
+to adjust the functional response of the ANN, thereby
+performing retraining of the ANN. The DPANN system
+20000 may determine that retraining the ANN via network
+adjustment is necessary when, for example, without limita-
+tion, functional neural networks are assigned activities and
+assignments that require the ANN to provide a solution to a
+novel problem, engage in network adaptation or other
+higher-order cognitive activity, apply a concept outside of
+the domain in which the DPANN was originally designed,
+ support a different context of deployment (such as where the
+use case, performance requirements, available resources, or
+40
+other factors have changed), or the like. The ANN can be
+trained to recognize where the retraining system is needed,
+such as by training the ANN to recognize poor performance
+of the training system, high variability of input data sets
+relative to the historical data sets used to train the training 45
+system, novel functional or performance requirements,
+dynamic changes in the use case or context, or other factors.
+The ANN may apply reasoning to assess performance and
+provide feedback to the retraining system. The ANN may be
+trained and/or retrained to perform intuitive functions, 50
+optionally including by a combinatorial or re-combinatorial
+process (e.g., including genetic programming wherein inputs
+(e.g., data sources), processes/functions (e.g., neural net-
+work types and structures), feedback, and outputs, or ele-
+ments thereof, are arranged in various permutations and 55
+combinations and the ANN is tested in association with each
+(whether in simulations or live deployments), such as in a
+series of rounds, or evolutionary steps, to promote favorable
+variants until a preferred ANN, or preferred set of ANNs is
+identified for a given scenario, use case, or set of require-
+ments). This may include generating a set of input “ideas"
+(e.g. combinations of different conclusions about cause-
+and-effect in a diagnostic process) for processing by the
+retraining system and subsequent training and/or by an
+explicit reasoning process, such as a Bayesian reasoning 65
+process, a casuistic or conditional reasoning process, a
+deductive reasoning process, an inductive reasoning pro-
+[col 2]
+704
+cess, or others (including combinations of the above) as
+described in this disclosure or the documents incorporated
+herein by reference.
+Referring to FIG. 165, in embodiments, the DPLF may
+perform an encoding process of the DPLF to process data-
+sets into a stored form for future use, such as retraining of
+the ANN by the retraining system. The encoding process
+enables datasets to be taken in, understood, and altered by
+the DPLF to better support storage in and usage from the
+memory. The DPLF may apply current functional knowl-
+edge and/or reasoning to consolidate new input values. The
+memory can include short-term memory (STM), long-term
+memory (LTM), or a combination thereof. The datasets may
+be stored in one or both of the STM and the LTM. The STM
+may be implemented by the application of specialized
+behaviors inside the ANN (such as recurrent neural network,
+which may be gated or un-gated, or long-term short-term
+neural networks). The LTM may be implemented by storing
+scenarios, associated data, and/or unprocessed data that can
+be applied to the discovery of new scenarios. The encoding
+process may include processing and/or storing, for example,
+visual encoding data (e.g., processed through a Convolution
+Neural Network), acoustic sensor encoding data (e.g., how
+something sounds, speech encoding data (e.g-, processed
+through a deep neural network (DNN), optionaly including
+for phoneme recognition), semantic encoding data of words,
+such to determine semantic meaning, e.g., by using a Hidden
+Markov Model (HMM); and/or movement and/or tactile
+encoding data (such as operation on vibration/accelerometer
+sensor data, touch sensor data, positional or geolocation
+data, and the like). While datasets may enter the DPLF
+system through one of these modes, the form in which the
+datasets are stored may differ from an original form of the
+datasets and may pass-through neural processing engines to
+be encoded into compressed and/or context-relevant format.
+For example, an unsupervised instance of the ANN can be
+used to learn the historic data into a compressed format.
+In embodiments, the encoded datasets are retained within
+the DPLF system. Encoded datasets are first stored in
+short-term DPLF, i.e., STM. For example, sensor datasets
+may be primarily stored in STM, and may be kept in STM
+through constant repetition. The datasets stored in the STM
+are active and function as a kind of immediate response to
+new input values. The DPANN system 20000 may remove
+datasets from STM in response to changes in data streams
+dueto, for example,running out of space in STM as new
+data is imported, processed and/or stored. For example, it is
+viable for short-term DPLF to only last between 15 and 30
+seconds. STM may only store small amounts of data typi-
+cally embedded inside the ANN.
+In embodiments, the DPANN system 20000 may measure
+attention based on utilization of the training system, of the
+DPANN system 20000 as a whole, and/or the like, such as
+by consuming various indicators of attention to and/or
+utilization of outputs from the ANN and transmitting such
+indicators to the ANN in response (similar to a "moment of
+recognition" in the brain where attention passes over some-
+thing and the cognitive system says "aha!"). In embodi-
+ments, attention can be measured by the sheer amount of the
+activity of one or both of the systems on the data stream. In
+embodiments, a system using output from the ANN can
+explicitly indicate attention, such as by an operator directing
+the ANN to pay attention to a particular activity (e.g, to
+respond to a diagnosed problem, among many other possi-
+bilities). The DPANN system 20000 may manage data
+inputs to facilitate measures of attention, such as by prompt-
+ing and/or calculating greater attention to data that has high

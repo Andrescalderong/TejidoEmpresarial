@@ -1,0 +1,138 @@
+[col 1]
+US 12,675,781 B2
+527
+approved vendors (e.g., from whom supplies and other
+consumables are to be acquired), references to preconfigured
+tasks, user interface templates/menus/screen for each aspect
+of a job (e.g., how a user can request status, observe activity,
+change a job requirement, respond to an inquiry, and the
+like) and the like. The job request data 12300 and, if
+indicated, the ancillary data 12404 are processed by a task
+definition ingestion facility 12402 that works cooperatively
+with a job data conversion module 12403 to generate job
+instance-specific content 12408. This job instance-specific 10
+content may include, among other things, initial sequence
+timing as may be defined in the input data (e.g. “"do task A
+before task B) and/or derived therefrom (e.g., installing an
+object necessarily must occur after the object is received).
+The job data conversion module 12403 may interact with the 15
+data processing system 12030 when converting job descrip-
+tion data to utilize information derived from a fleet man-
+agement platform accessible library, such as job and fleet
+library 12314.The ingestion facility 12402 may store some
+job description content directly into the job instance storage 2o
+12408, such as job identification information, links to inter-
+nal ancillary data and the like.
+In embodiments, one or more human interactive capabili-
+ties for facilitating job parsing and task definition may
+include knowledge-based systems (e.g-, Al-based and the 25
+like) that may interact with a human (e.g., via text input,
+conversation-bot, haptic-input, and the like) to gather infor-
+mation for preformatting, organizing, and vetting job and
+task data. These interactions may be in lieu of or supple-
+mental to receiving a job description. As an example, a job 3o for performing the task.
+description may include a reference to performing tasks after
+normal work hours, which may include working after sun-
+down. The interactive job description vetting capabilities
+and others mentioned here, may determine that clarification
+could benefit job description parsing and task definition, 35
+such as will the job require human-suitable illumination and
+if so under what conditions. Because robot sensing may not
+require such illumination (e.g., robot visual functions may
+be met through use of infrared or other non-human visible
+light emissions), human-visible lighting may only be 40 
+required to be deployed at certain times during job execution
+(e.g., at start of a function, when a delivery is being made,
+when a human inspector is on-site, and the like). By pro-
+viding a capability for human interaction as part of job
+parsing, such questions can be asked and answered interac- 45 r
+tively.
+The job data conversion module 12403 may use job
+descriptive information produced by or passed through the
+ingestion facility 12402 to construct job instance content
+suitable for task definition. The job data conversion module 5o
+12403 may use the information provided by the ingestion
+facility 12402 to query content in the library 12314 (e.g., via
+the data processing facility 12030 as optionally depicted).
+Content in the library that may be useful or informative of
+task definition may include job syntax (e.g., terms that are 55
+relevant to a given job, job type, set of tasks and the like,
+such as “"front end loader", “cybersecurity","hi-lift jack"
+and others), robot types, robot capabilities (e.g., by type,
+cost, availability, etc.), keyword-to-task cross reference,
+workflow definition rules, job execution plan format/con- 60
+tent/structure. Further the library may include templates for
+various task definition-related activities, such as exemplary
+multi-purpose robot configurations (e.g-, based on task key-
+word and the like), exemplary team configurations (e.g., for
+performing certain types or classes of tasks), task defini- 65
+tions, workflows and workflow definitions, exemplary job
+execution plan(s) and the like.
+[col 2]
+528
+A keyword-based task lookup module 124010 may
+retrieve information in the job instance storage 12408, such
+as task-oriented keywords and the like and apply those to the
+library 12314 to potentially identify preconfigured or tem-
+plated tasks or portions thereof. As an example, a job
+description may include keywords, such as "submerged"
+and the like that may suggest a need for robots that can
+perform tasks when submerged. When such keywords are
+combined with an action “submerged excavation", the key-
+word-based task lookup facility 12410 may identify robot
+types that perform excavation and can be submerged. If a
+descriptor ofa task in the library aligns with one or more job
+description keywords, the task may be considered a candi-
+date task for the job.
+In embodiments, a task definer module 12412 may pro-
+cess candidate tasks provided by the task lookup module
+12410 as well as information in the job instance storage
+12408 to form definitions 12304D for tasks to be performed
+by one or more robots. Defining tasks may include tasks that
+are predefined by standards, laws, and the like. As an
+example, a candidate task may include opening a manhole
+cover on a public way. Predefined tasks for meeting standard
+and/or laws and the like associated with such a candidate
+task may include notifying local law enforcement, local
+public utilities, placing safety signs at specified distances
+from the open hole, marking the open hole, maintaining
+watch at the hole while it is opened and actively preventing
+unauthorized human entry, and the like. Each task definition
+may include information useful for identifying a robot type
+In embodiments, the task definition system 12304 may
+process task data derived from a job request (e.g., as
+provided by the job request parser 12302) in the context of
+robot types by identifying characteristics of robot types that
+align with the task data. In example embodiments, the task
+definition system 12304 may determine that task data indi-
+cates a characteristic of a robot for performing the task may
+include nuclear radiation tolerance (e.g., a task of inspecting
+a nuclear reactor core). In this example, the task definition
+system 12304 may generate a task definition 12304D for the
+nuclear reactor core inspection task that includes at least a
+requirement for robot selection based on this characteristic.
+In these example embodiments, the task definition 12304D
+may further include a required degree of tolerance to nuclear
+radiation (number of rads, duration of exposure, and the
+like). The task definition system 12304 may further deter-
+mine that characteristics of one or more robots (e.g., based
+on task information derived from the job request) that may
+not be suitable for incorporation in a single robot/robot type.
+This determination may be based on, for example, robot
+characteristics and type data that is accessible in the library
+12314. In such an example, the task definition system 12304
+may define multiple tasks, each with robot characteristics
+that are consistent with robot characteristic information in
+the library 12314. In embodiments, the task definition sys-
+tem 12304 may define a task with multiple, potentially
+incompatible robot characteristics, optionally along with an
+indication of one or more portions of the task that require
+each type of the multiple incompatible robot characteristics
+that a fleet configuration system 12020 may use when
+configuring fleet resources, such as robots and the like. In
+embodiments, a task definition12304Dmay include one or
+more suggestions for types of robots for performing the task,
+such as based on alignment of task requirements (e.g.,
+derived from task information of a job request),robot
+characteristics, and robot types that may be available in the
+library 12314. As will be explained below, a fleet configu-

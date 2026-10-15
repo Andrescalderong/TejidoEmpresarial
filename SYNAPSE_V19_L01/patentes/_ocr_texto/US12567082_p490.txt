@@ -1,0 +1,137 @@
+and/or to automatically deploy the set of neural network 3o vate clouds, public clouds, hybridclouds, multiclouds, infra-
+[col 1]
+US 12,567,082 B2
+657
+to diminish certain inputs in order to avoid exploding error
+problems), reengineering the type of the artificial intelli-
+gence system (such as by modifying the neural network type
+among a convolutional neural network, a recurrent neural
+network, a feed forward neural network, a long-term/short-
+term memory (LSTM) neural network, a self-organizing
+neural network, or many other types and combinations),
+and/or augmenting the set of inputs to the artificial intelli-
+gence system.
+10s In embodiments, a library of neural network resources
+representing combinations of neural network types that
+mimic or simulate neocortex activities may be configured to
+allow selection and implementation of modules that repli-
+cate the combinations used by human experts to undertake
+various activities that are subjects of development of intel-
+ligent agents, such as involving robotic process automation.
+In embodiments, various neural network types from the
+library may be configured in series and/or in parallel con-
+figurations to represent processing flows, which may be 20
+arranged to mimic or replicate flows of processing in the
+brain, such as based on spatiotemporal imaging of the brain
+when involved in the activity that is the subject of automa-
+tion. In embodiments, an intelligent software agent for agent
+development may be trained, such as using any of the 25
+training techniques described herein, to select a set of neural
+network resource types, to arrange the neural network
+resource types according to a processing flow, to configure
+input data sources for the set of neural network resources,
+types on available computational resources to initiate train-
+ing of the configured set of neural network resources to
+perform a desired intelligent agent/automation workflows.
+In embodiments, the intelligent software agent used for
+agent development operates on an input data set of spa- 35 
+tiotemporal imaging data of a human brain, such as an expert
+who is performing the workflows that is the subject of
+development of a further and uses the spatiotemporal imag-
+ing data to automatically select and configure the selection
+and arrangement of the set of neural network types to initiate 40
+learning. Thus, a system for developing an intelligent agent
+may be configured for (optionally automatic) selection of
+neural network types and/or arrangements based on spa-
+tiotemporal neocortical activity patterns of human users
+involved in workflows for which the agent is trained. Once 45
+developed, the resulting intelligent agent/process automa-
+tion system may be trained as described throughout this
+disclosure.
+In embodiments, a system for developing an intelligent
+agent (including the aforementioned agent for development 50 
+of intelligent agents) may use information from brain imag-
+ing of human users to infer (optionally automatically)what
+data sources should be selected as inputs for an intelligent
+agent. For example, for processes where neocortex region
+Ol is highly active (involving visual processing), visual 55
+inputs (such as available information from cameras, or
+visual representations of information like price patterns,
+among many others) may be selected as favorable data
+sources. Similarly, for processes involving region C3 (in-
+volving storage and retrieval of facts), data sources provid- 60
+ing reliable factual information (such as blockchain-based
+distributed ledgers) may be selected. Thus, a system for
+developing an intelligent agent may be configured for (op-
+tionally automatic) selection of input data types and sources
+based on spatiotemporal neocortical activity patterns of 65
+human users involved in workflows for which the agent is
+trained.
+[col 2]
+658
+FIG. 157 illustrates an example environment of an edge
+networking (EDNW) system 16100 according to some
+embodiments of the present disclosure. In embodiments, the
+edge networking system 16100 provides a framework for
+providing edge networking services to one or more edge
+environments 16102-108. In some embodiments, the edge
+networking service 16100 may be at least partially replicated
+in respective edge environments 16102-108. Examples of
+edge environments 16102-108 in which the edge networking
+ system 16100 may be at least partially replicated include
+devices 16102, premises 16104, telecom installations 16106,
+and computing clouds 16108. In these embodiments, an
+individual instance of the edge networking system 16100
+may include some or all of the capabilities and/or modules
+of the edge networking system 16100 discussed herein,
+whereby the edge networking system 16100 is adapted for
+the specific functions performed by the respective edge
+environment 16102-108 on which the edge networking
+system 16100 is replicated. Examples of edge devices 16102
+include client devices, smart devices, and connected
+devices, wearable devices, and any other suitable device.
+Examples of the premises 16104 include home/residential
+buildings, factory buildings, office buildings, campuses,
+government buildings, medical buildings, and any other
+suitable building, campus, or premises. Examples of edge
+telecom installations 16106 include base stations, satellites,
+regional data centers, relay stations, signal arrays, and any
+other suitable telecom installation. Examples of computing
+clouds 16108 include in-cloud computation networks, pri-
+structure-as-a-service clouds, platforms-as-a-service clouds,
+software-as-a-service clouds, and any other suitable type of
+computing clouds.
+Additionally or alternatively, in some embodiments, the
+edge networking system 16100 may be implemented as a set
+of microservices, such that different edge environments
+16102-108 may leverage the edge networking system via
+one or more APIs exposed to the edge environments 16102-
+108. In these embodiments, the edge networking system
+16100 may be configured to perform various types of edge
+networking services that may be adapted for different edge
+environments 16102-108. In either of these configurations,
+an edge environment 16102-108 may provide a networking
+request to the edge networking system 16100, whereby the
+request is to perform a specific networking task (e.g., a
+connection initiation, a series of connection initiations, an
+encryption of data, a transmission of encrypted data over a
+connection, usage of a protocol for connection and/or data
+transmission, a routing determination or calculation, usage
+of an application-specific protocol for data transmission, an
+AI chipset interfacing instance, 5G software definition,
+Al-assisted or enabled networking, tunable signal filtering.
+Al-assisted or enabled network enhancement, or digital twin
+network formulation, simulation, prediction, testing, and/or
+the like). In response, the edge networking system 16100
+executes the requested networking task for the respective
+edgeenvironment16102-108.
+Additionally or alternatively, in some embodiments, the
+edge networking system 16100 may be implemented using
+one or more specialized chips that are configured to micro-
+services and/or networking tasks. In embodiments, the edge
+networking system 16100 may communicate via the VCN
+bus 16110. One or more of the edge environments 16102-
+108 may be connected to the VCN bus, thereby allowing
+instances of the edge networking system 16100 to commu-
+nicate with one another via the bus. The VCN control tower
+16112 may also be connected to the bus. As such, one or

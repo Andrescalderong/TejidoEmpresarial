@@ -1,0 +1,134 @@
+may use a Bi-directional, recurrent neural network (BRNN), 35 that involve an expert system or self-organization capability
+In embodiments, methods and systems described herein 45 that involve an expert system or self-organization capability
+[col 1]
+US 12,314,060 B2
+285
+500,000 or more), with multiple (e.g., 4, 5, 6 or more) layers,
+and with many (e.g., millions) of parameters. A convolu-
+tional neural net may use one or more convolutional nets.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a regulatory feedback network, such as for recog-
+nizing emergent phenomena (such as new types of condi-
+tions not previously understood in an individual or popula-
+tion of individuals).
+In embodiments, methods and systems described herein 10 f
+that involve an expert system or self-organization capability
+may use a self-organizing map (SOM), involving unsuper-
+vised learning. A set of neurons may learn to map points in
+an input space to coordinates in an output space. The input
+ space can have different dimensions and topology from the 15
+output space, and the SOM may preserve these while
+mapping phenomena into groups.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a learning vector quantization neural net (LVQ). .20
+Prototypical representatives of the classes may parameter-
+ize, together with an appropriate distance measure, in a
+distance-based classification scheme.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability 25
+may use an echo state network (ESN), which may comprise
+a recurrent neural network with a sparsely connected, ran-
+dom hidden layer. The weights of output neurons may be
+changed (e.g., the weights may be trained based on feed-
+back). In embodiments, an ESN may be used to handle time 3o t
+series patterns, such as, in an example, recognizing a pattern
+of progression of a process.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+such as using a finite sequence of values (e.g., voltage values
+from a sensor) to predict or label each element of the
+ sequence based on both the past and the future context of the
+element. This may be done by adding the outputs of two
+RNNs, such as one processing the sequence from left to 40
+right, the other one from right to left. The combined outputs
+are the predictions of target signals, such as ones provided
+by a teacher or supervisor. A bi-directional RNN may be
+combined with a long short-term memory RNN.
+that involve an expert system or self-organization capability
+may use a hierarchical RNN that connects elements in
+various ways to decompose hierarchical behavior, such as
+into useful subprograms. In embodiments, a hierarchical
+templates for data collection in a social network, a value
+chain environment, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a stochastic neural network, which may introduce 55
+random variations into the network. Such random variations
+can be viewed as a form of statistical sampling, such as
+Monte Carlo sampling or other statistical sampling tech-
+niques.
+In embodiments, methods and systems described herein 60 
+that involve an expert system or self-organization capability
+may use a genetic scale recurrent neural network. In such
+embodiments, an RNN (often a LSTM) may be used where
+a series may be decomposed into a number of scales where
+every scale informs the primary length between two con- 65
+ secutive points. A first order scale consists of a normal RNN,
+a second order consists of all points separated by two indices
+[col 2]
+286
+and so on. The Nth order RNN connects the first and last
+node. The outputs from all the various scales may be treated
+as a committee of members, and the associated scores may
+be used genetically for the next iteration.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a committee of machines (CoM), comprising a
+collection of different neural networks that together “"vote"
+on a given example. Because neural networks may suffer
+from local minima, starting with the same architecture and
+training, but using randomly different initial weights often
+gives different results. A CoM tends to stabilize the result.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an associative neural network (ASNN), such as
+involving an extension of a committee of machines that
+combines multiple feed forward neural networks and a
+k-nearest neighbor technique. It may use the correlation
+between ensemble responses as a measure of distance amid
+the analyzed cases for the kNN. This corrects the bias of the
+neural network ensemble. An associative neural network
+may have a memory that can coincide with a training set. If
+new data become available, the network instantly improves
+its predictive ability and provides data approximation (self-
+learns) without retraining. Another important feature of
+results by analysis of correlations between data cases in the
+space of models.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use an instantaneously trained neural network (ITNN),
+where the weights of the hidden and the output layers are
+mapped directly from training vector data.
+In embodiments, methods and systems described herein
+may use a spiking neural network, which may explicitly
+consider the timing of inputs. The network input and output
+may be represented as a series of spikes (such as a delta
+function or more complex shapes). SNNs can process infor-
+mation in the time domain (e.g-, signals that vary over time,
+such as signals involving dynamic behavior of an individual,
+a disease condition, a health condition, or the like). They
+may be implemented as recurrent networks.
+In embodiments, methods and systems described herein
+may use a dynamic neural network that addresses nonlinear
+multivariate behavior and includes learning of time-depen-
+dent behavior, such as transient phenomena and delay
+effects. Transients may include behavior of progressing
+1 50 states.
+In embodiments, cascade correlation may be used as an
+architecture and supervised learning algorithm, supplement-
+ing adjustment of the weights in a network of fixed topology.
+Cascade-correlation may begin with a minimal network,
+then automatically trains and add new hidden units one by
+one, creating a multi-layer structure. Once a new hidden unit
+has been added to the network, its input-side weights may be
+frozen. This unit then becomes a permanent feature-detector
+in the network, available for producing outputs or for
+creating other, more complex feature detectors. The cascade-
+correlation architecture may learn quickly, determine its
+own size and topology, and retain the structures it has built
+propagation.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a neuro-fuzzy network, such as involving a fuzzy

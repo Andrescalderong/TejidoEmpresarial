@@ -1,0 +1,137 @@
+twins for calculating necessary changes to the 3D printed 55 indicate tradeoffs between latency and price/cost).
+[col 1]
+US 12,567,082 B2
+375
+the like and compare a design configuration to the same to
+confirm that an output of additive manufacturing will result
+in a compliant/approved form of product. In embodiments,
+the artificial intelligence system 10212 may work with a
+digital twin system, a simulation system, or the like to
+simulate performance of a resulting output and may compare
+the simulated performance to regulatory or other require-
+ments, such as ones applying to the ability to withstand
+forces, chemical effects, biological effects, radiation, or the
+like.Forexample,whereaproduct component, such as a 1o
+housing, is intended to provide shielding from radiation, the
+artificial intelligence system 10212 may operate on or within
+a digital twin that includes a radiation propagation physics
+model to automatically assess whether product materials,
+thicknesses, and shapes will provide shielding sufficient to 15
+meet regulatory and/or design requirements.
+In embodiments, the artificial intelligence system 10212
+may be configured to optimize power consumption for the
+platform 10110. This may include training the artificial
+intelligence system 10212 on a training set of operational 20
+data that includes (a) measuring power consumed by various
+available activities; (b) training the artificial intelligence
+ system 10212 to undertake scheduling of additive manufac-
+turing jobs according to a predictive model of energy
+pricing; and/or (c) having the artificial intelligence system 25
+undertake a large body of simulations to select a preferred
+sequence of operations that produces a favorable power
+consumption pattern.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence 30
+system 10212 to execute simulations on part twins for
+predicting part shrinkage or expansion. This may include
+having the artificial intelligence system 10212 use a set of
+physical models that include thermal coefficients of expan-
+sion for elements, alloys, compounds, mixtures and/or com- 35 s
+binations, including, in embodiments, graded layers of mate-
+rial where there is not a clear boundary between materials.
+In embodiments, the artificial intelligence system 10212
+may be trained based on observed shrinking and/or expan-
+sion during manufacturing and/or use. 40
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+predicting part warpage. This may include having the arti-
+ficial intelligence system 10212 use a set of physical models 45
+that include thermal coefficients of expansion for elements,
+alloys, compounds, mixtures and/or combinations, includ-
+ing, in embodiments, graded layers of material where there
+is not a clear boundary between materials. In embodiments,
+the artificial intelligence system10212maybe trained based 50
+on observed warpage during manufacturing and/or use.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligence system 10212 to execute simulations on part
+process to compensate for part shrinkage, expansion and/or
+warpage.
+In embodiments, the models trained by machine learning
+ system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for 60
+testing the compatibility of additively manufactured parts. In
+embodiments, the compatibility may be tested with one or
+more other parts in an assembly. In embodiments, the
+compatibility may be tested with an operating environment.
+In embodiments, the compatibility may be tested with a 3D 65
+printer. Compatibility may include shape compatibility (e.g.,
+key-in-lock; housing-around-interior; peg-in-hole; male-
+[col 2]
+376
+with-female, support-with-supported, orother types of inter-
+face/interconnect compatibility); environmental compatibil-
+ity (e.g., compatibility of materials with anticipated
+environment of use, such as chemical factors, physical
+factors, radiation factors, biological factors, temperatures,
+pressures and the like); functional compatibility (e.g., ability
+to withstand loads, stresses, torsion, or the like) and others.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+predicting deformations or failure in an additively manufac-
+tured item.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins for
+optimizing the build process to minimize the occurrence of
+deformations.
+In embodiments, the models trained by the machine
+learning system 10210 may be utilized by the artificial
+intelligence system 10212 to execute simulations on product
+twins for predicting the price of a product. In embodiments,
+prediction of a price may include: (a) prediction based on
+market prices of similar items (and/or forecasts of such
+prices); (b) prediction based on predicted demand; (c) pre-
+diction based on committed demand; (d) prediction based on
+smart contract terms and conditions; and/or (e) prediction
+based on cost, including materials, energy costs, shipping.
+and labor, among others (which may include a range of
+profit/markup amounts to arrive at a price from a base cost).
+In embodiments, price prediction may include wholesale
+pricing, retail pricing, volume pricing, location-based pric-
+ing, and the like.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins and printer twins for generating additive manufactur-
+ing quotes.
+In embodiments, the models trained by the machine
+intelligence system 10212 to execute simulations on part
+twins, product twins and printer twins for generating rec-
+ommendations related to printing to a user of the platform.
+In embodiments, the recommendations may relate to a
+choice of a material for printing. In embodiments, the
+recommendations may relate to a choice of an additive
+manufacturingtechnique.Inembodiments,recommenda-
+tions may relate to timing of manufacturing.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins and printer twins for predicting delivery times for
+additive manufacturing jobs. Simulations may include ones
+that vary at a level of priority to determine a predicted
+delivery time under different priority levels (such as to
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins, printer twins, manufacturing node twins or others for
+predicting cost over-runs in the manufacturing process.
+In embodiments, the models trained by machine learning
+system 10210 may be utilized by the artificial intelligence
+system 10212 to execute simulations on part twins, product
+twins, printer twins and manufacturing node twins for opti-
+mizing the production sequencing of parts based on quoted
+price, delivery, sale margin, order size, or similar character-
+istics. In embodiments, optimization may include optimiza-

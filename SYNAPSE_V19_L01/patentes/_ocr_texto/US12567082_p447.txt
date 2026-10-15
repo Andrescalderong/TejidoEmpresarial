@@ -1,0 +1,138 @@
+needing to reserve the smart containers in this class, the fleet 3o contract terms and conditions.
+[col 1]
+US 12,567,082 B2
+571
+shipper; timing of freight storage and/or transportation ser-
+vice orders (e.g., orders are typically received on a Thursday
+for jobs to start on Monday the following week), and/or the
+like. Business relationships among entities can form a basis
+for predicting fleet resource needs and timing of the shipper/
+buyer based on actions, including freight storage and/or
+transportation service orders, of the supplier/seller/con-
+sumer.
+In embodiments, many other factors may impact fleet
+resource need predictions, such as weather forecasting and 10
+seasonal affects. Fleet resource need prediction may also be
+activated by events outside of the core freight storage and/or
+transportation service order process, such as natural disas-
+ters, accidents/emergencies, pandemics, and the like. In
+another example, other sources of information that may
+15 impact anticipation of fleet resource needs may include
+business goals and objectives, such as reducing or increasing
+spending near the end of a financial reporting period (e.g., a
+fiscal quarter, year, etc.). An indication that a target shipper
+intends to cut back on expenses during the last few weeks or 20
+months of a fiscal reporting period may suggest that fleet
+resources that are typically allocated to freight storage
+and/or transportation service orders by the target shipper
+will be available for other actions, such as maintenance,
+upgrading, allocation to other shippers and the like. In 25
+embodiments, fleet goals or objectives may also impact fleet
+resource anticipation and therefore corresponding prepara-
+tion activities and the like. One such example is a required
+upgrade of a class of smart container. In anticipation of
+configuration functions may allocate alternate smart con-
+tainer types that can be reconfigured to satisfy the require-
+ments of the reserved smart container class for the duration
+of the upgrade activity.
+In embodiments, anticipation of fleet resource needs may 35
+be determined through use of smart container system 13000,
+such as the intelligence service 13004 and the fleet man-
+agement system 13002. For example, in some embodiments
+the intelligence service 13004 may analyze sources of data
+that may impactfleet resource demands, such as weather 40
+forecasts, public activity calendars, freight storage and/or
+transportation service order data (e.g., timing, job param-
+eters, relations to other freight storage and/or transportation
+ service orders, and the like), social media activity, govern-
+ment activity and/or legislation, and the like. In this 45 
+example, the intelligence service 13004, acting in co0opera-
+tion with the fleet management system 13002, may predict
+fleet resource demand based on an analysis of the disparate
+data sources (e.g., using a neural network or the like). In
+these embodiments, the intelligence service 13004 may 50
+process the data from the disparate data sources and deter-
+mine a likelihood of fleet resource needs across a range of
+factors.
+In embodiments, a smart container system 13000 may
+interface with external data sources 13036 for performing 55
+various system functions including job configuration, fleet
+configuration, job negotiation (e.g-, via a smart contract
+facility), order execution and the like. Examples of external
+data sources for use by the system include value chain
+entities (e.g., third parties paying for shipping services and 60
+the like), enterprise resource planning systems (ERPs) that
+may provide job context for performing team configuration
+and/orexecutionofarequested job,smartcontracts,andthe
+like. Other external data sources may include third-party
+sensor systems (e.g., GPS data, value chain logistics data, 65
+and the like) as well as third-party data streams (e.g..
+weather, traffic, electricity pricing, and the like).
+[col 2]
+572
+In some embodiments, the smart container system 13000
+may support the use of smart contracts in relation to freight
+storage and/or transportation service orders, job perfor-
+mance, resource allocation, and/or the like. In embodiments,
+freight storage and/or transportation service orders may be
+routed through a smart contract handler that captures job
+requirements, requestor goals and objectives, and fleet order
+execution constraints into a dynamic smart contract. In some
+embodiments, smart contracts may be utilized throughout a
+smart container fleet management system to address all
+manner of fleet operations, such as administering negotiated
+routing of a smart container from a first location (e.g. an
+origin location, container port or terminal, a temporary
+storage/service location) to a second location (e.g-, a desti-
+nation location, a container port or terminal, or the like). As
+a further example, a smart contract may be put in place as
+a control for a bidding system for smart container time/task
+utilization. As another example, a smart contract may moni-
+tor certain activities (e.g., task-related activities and the like)
+relating to a freight storage and/or transportation service
+order. The smart contract may rely on and/or benefit from
+access to fleet system data, (e.g., route progress, sensor data,
+and the like) to trigger actions defined by the smart contract,
+such as payments upon completion of a delivery of smart
+container cargo. The smart container system 13000 may
+provide access to fleet resources, including fleet data
+through Application Programming Interfaces (APIs), infra-
+structure elements such as sensor networks, edge computing
+systems, and the like for updating states relevant to smart
+In embodiments, the job configuration system 13018 and
+the fleet configuration system 13020 collectively generate an
+order execution plan, according to some embodiments of the
+present disclosure. In embodiments, an order execution plan
+may define a smart container route and/or set of tasks that
+are to be performed in completion of a requested job and
+may further define a configuration of a fleet of smart
+container operating units that are to complete the job. In
+embodiments, an order execution plan may include task
+definitions (which may include route definitions), workflow
+definitions, fleet configurations (which may include smart
+container configurations of individual smart containers)
+team assignments, and references to (or incorporation of)
+contextual information, such as container port site details
+and the like. In embodiments, the job configuration system
+13018 receives an order that defines the job to be done and
+the job configuration system 13018 may determine a set of
+task definitions that respectively define a shipping service
+and/or tasks that are performed by a smart container in
+completion of a job. In embodiments, the job configuration
+system 13018 further defines a set of workflow definitions.
+The workflow definitions define at least one order in which
+tasks are performed in completion of a project and/or job,
+including any loops, iterations, triggering conditions, or the
+like. In embodiments, the job configuration system 13018
+may determine the workflows based on the task definitions
+that comprise a job. The job configuration system 13018
+may leverage libraries of preconfigured workflows to com-
+plete certain jobs. Additionally, or alternatively, the job
+configuration system 13018 may leverage the intelligence
+service 13004 to obtain an initial workflow definition for a
+job and/or project that is part of a larger job. In some
+embodiments,ahumanmay configuretheinitialworkflow
+definition and/or may provide input that is used to determine
+the initial workflow definition. In embodiments, the job
+configuration system 13018 may interface with one or more
+components of the smart container system 13000 to

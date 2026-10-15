@@ -1,0 +1,138 @@
+FIG. 114. In embodiments, the platform 10110 may include 35 and schedule units to undertake the design. For example,
+[col 1]
+US 12,314,060 B2
+361
+types of data that includes or relates to events that occur
+within the platform 10110 or with respect to one or more
+applications, including process events, financial events,
+transaction events, output events, input events, state-change
+events, operating events, workflow events, repair events,
+maintenance events, service events, damage events, replace-
+ment events, refueling events, recharging events, shipping
+events, supply chain events, and many others); claims data
+(such as data relating to product liability, general liability,
+injury and other liability claims and claims data relating to 10
+contracts, such as supply contract performance claims, prod-
+uct delivery requirements, warranty claims, indemnification
+claims, delivery requirements, timing requirements, mile-
+stones, key performance indicators and others); accounting
+data (such as data relating to completion of contract require- 15
+ments, satisfaction of bonds, payment of duties and tariffs,
+and others); and risk management data (such as relating to
+parts or products supplied, amounts, pricing, delivery,
+sources, routes, customs information and many others),
+among many other data types associated with the platform 20 c
+10110.
+In embodiments, the data storage system 10204 may store
+data in a distributed ledger, digital thread or the like, such as
+for maintaining a serial or other record of an entity or asset
+over time, including a part or products or any other asset or 25
+entity described herein.
+The data processing system 10206 includes an artificial
+intelligence system 10212, such as a machine learning
+system 10210. The machine learning system 10210 may
+define a machine learning model 213 for performing ana- 30
+lytics, simulation, decision making, and predictive analytics
+related to data processing, data analysis, simulation creation,
+and/or simulation analysis of one or more of assets or
+entities of the distributed manufacturing network 10130 of
+a set of artificial intelligence systems 10212 (including any
+of the types described herein or in the documents incorpo-
+rated herein by reference) that are configured (a) to operate
+on a set of inputs and/or a set of optimization factors to
+automatically select a suitable type of additive manufactur-
+ing for a design/job; (b) to automatically discover a set of
+available additive manufacturing units 10102 (optionally
+including single-type units and/or hybrid type units), (c) to
+automatically select a set of units 10102 to perform an
+additive manufacturing job; (d) to automatically schedule a 45)
+set of additive manufacturing units 10102 to perform a set of
+additive manufacturing jobs; (e) to automatically configure
+a selected set of additive manufacturing units 10102 to
+undertake a set of additive manufacturing jobs using a set of
+designs provided by the set of artificial intelligence system; 50 
+and/or (f) to automatically configure logistics and delivery
+of a set of outputs from a set of additive manufacturing units.
+In embodiments, the set of inputs may include locations and
+types of available additive manufacturing units 10102, cur-
+rent job schedules for additive manufacturing units, cost 55 
+factors (such as material costs, energy costs, costs of IT
+resources, costs of labor, pricing for additive manufacturing
+services, and others), design inputs (such as functional
+requirements regarding strength, flexibility, resilience, tem-
+perature tolerance, strain tolerance, resistance to wear, water 60
+resistance, stress tolerance, weight bearing, tensile strength,
+load bearing, and many others), as well as compatibility
+factors (including shape compatibility, biocompatibility,
+chemical compatibility, environmental compatibility, and
+others). Optimization factors may include aesthetic factors, 651
+compatibility factors (as noted above), economic factors
+(such as marginal cost, total cost, profitability, price, brand
+[col 2]
+362
+impact, and others), timing factors (such as for coordination
+with workflows and activities, including various ongoing
+manufacturing, service, maintenance, marketing, delivery
+and/orlogistics processes),prioritization factors, and many
+others. In embodiments, the artificial intelligence system of
+the platform 10110 is trained based on a training set of data
+that includes expert interactions with a set of additive
+manufacturing projects that involve various types of additive
+manufacturing options. In embodiments, the AI system is
+trained based on outcome factors, such as product quality
+and/or product defect outcomes, economic outcomes, on-
+time completion outcomes, and the like, such as involving
+deep learning, supervised learning and/or semi-supervised
+learning. In embodiments, the AI system is distributed
+between the additive manufacturing units 10102 and a host
+system, such as a cloud-based system. In embodiments, the
+AI system is integrated into the additive manufacturing unit
+10102. In embodiments, the AI system is distributed across
+a set of additive manufacturing units 10102, such as a mesh
+or network of additive manufacturing unit 10102 nodes,
+such that the above capabilities are coordinated across the
+units, such as by self-configuration of the units 10102 in
+coordination with other units, such as a fleet of additive
+manufacturing units 10102 owned by an enterprise and/or
+co-operated and/or shared by a set of users (such as in an
+"additive manufacturing as a service system). As one
+example among many possible examples, the AI system of
+the platform 10110 may take a set of design requirements,
+such as functional requirements, generate a set of designs
+that satisfy the functional requirements, determine the opti-
+mal combination of additive manufacturing types to produce
+each set of designs, find and compare available additive
+manufacturing units for each combination (such as using
+economic factors and other factors), and select, configure
+among many possibilities across a wide range of product
+categories, the AI system may take functional requirements
+for a customized wearable device for a latex-allergic indi-
+vidual user that meets a design requirement of using bio-
+compatible,waterproof materials,while being capable of
+withstanding impacts and bending, in a color that matches
+the customers exact preference from a large palette of colors.
+The AI system may automatically generate an instruction set
+for producing the wearable device using a combination/
+hybrid of light polymerization (operating on a non-latex
+polymer) for components of the wearable that will touch the
+user and a DMLS process for interior metal/alloy compo-
+nents. The AI system may then find available units, such as
+different units or an integrated/hybrid unit, schedule the
+units to undertake jobs (e.g., to fit a targeted delivery time),
+configure the units, send the jobs and schedule delivery.
+Thus, the AI system may automatically manage the design,
+generation and delivery, through use of a set of additive
+manufacturing units, a highly customized product based on
+customer specific design requirements, including health
+requirements, physical configuration requirements, eco-
+nomic factors, and preferences, among many others.
+In embodiments, the AI system is implemented as the
+intelligence layer 140 that receives requests from a set of
+intelligence layer clients and responds to such request by
+providing intelligence services to such clients (e.g., a deci-
+sion, a classification, a prediction or the like).
+In embodiments, the machine learning model 10213 is an
+algorithm and/or statistical model that performs specific
+tasks without using explicit instructions, relying instead on
+patterns and inference. The machine learning model 10213
+may build one or more mathematical models based on

@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+401
+to control the utilization of the data path between the
+additive manufacturing unit 10102 and various edge, cloud,
+on-premises, telecommunications network and other infor-
+mation technology systems.
+The additive manufacturing unit 10102 may be any suit-
+able type of printer that executes any suitable type of 3D
+printing process, or any other type of unit that executes
+another additive manufacturing process. Various different
+types of additive manufacturing units 10102 and 3D printing
+processes are discussed below for purposes of example. The 10
+disclosure, however, is not limited to the 3D printing pro-
+cesses described below.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute Fused Deposition Modeling
+(FDM)TM process (also known as, for example, Fused Fila- 15
+ment FabricationTM). The process of FDM may involve a
+software process which may process an input file, such as an
+STL (stereolithography) file. An object may be produced by
+extruding small beads of, for example, thermoplastic mate-
+rial to form layers as the material hardens immediately after 20 additively layer by layer.
+extrusion from a nozzle. Extrusion is the 3D printing tech-
+nique where the material, such as a polymer, metal (includ-
+ing alloys), or the like, is pushed in fluid form through a tube
+and into a moving nozzle which extrudes the material to a
+target location where thematerial subsequently hardens in 25
+place. By accurately moving the extruder either continu-
+ously or starting and stopping at extremely fast speeds the
+design is built layer by layer. The source material is typically
+supplied and stored in solid form, such as in a filament or
+wire that is wound in a coil and then unwound to supply
+30
+material to a heating element to render the material into a
+thermoplastic state and an extrusion nozzle which can
+control the flow of the material between an “"off" state and
+a maximal flow state. A worm-drive, or any other suitable
+drive system, may be provided to push the filament into the 35
+nozzle at a controlled rate. The nozzle is heated to melt the
+material. The thermoplastic materials are heated past their
+state transition temperature (from solid to fluid) and are then
+deposited by an extrusion head. The nozzle can be moved in
+both horizontal and vertical directions, such asby a numeri- 40
+caly controlled mechanism.In embodiments,the nozzle
+may follow a tool-path that is controlled by a computer-
+aided manufacturing (CAM) software package, and the
+object is fabricated layer-by-layer, such as from the bottom
+up. 45
+In embodiments, the additive manufacturing unit 10102
+may include multiple source materials and multiple extru-
+sion nozzles (and supporting components for the same, such
+as for movement and positioning), such as to allow (a) rapid
+switching between source materials, such as facilitated by a 50
+valve set, such as a high-pressure valve set, and/or (b)
+simultaneous extrusion by multiple nozzles, such as to
+enable simultaneous layering at different points of work on
+an item. In embodiments, the additive manufacturing unit
+10102 enables voxelated soft matter printing and/or metal 55
+printing via multi-material, multi-nozzle printing, with high-
+speed switching between materials, e.g., at speeds of 50
+times per second or faster.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute an electron beam freeform 60
+fabrication (EBFFF) processes. The EBFFF process may
+utilize electron beam welding technology to create metallic
+parts. In embodiments, with the EBFFF method, metallic
+preforms can be manufactured from computer-generated 3D
+drawings or models. The deposition path and process param- 65
+eters may be generated from post-processing of a virtual 3D
+model and executed by a real-time computer control. The
+[col 2]
+402
+deposition takes place in a vacuum environment. A wire may
+be directed toward the molten pool and melted by a focused
+electronic beam. Different parts of the object to be fabricated
+and wire source across a surface of underlying material
+referred to as a substrate. The deposit solidifies immediately
+after the electron beam has passed.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute direct metal laser sintering
+process (DMLS). DMLS process may involve a laser as a
+power source to sinter powdered material such as a metal at
+points in space defined by a 3D model thus binding the
+material together to create a solid structure. The DMLS
+process may involve the use of a 3D CAD model whereby
+a file, such as an .stl file, is created and sent to the software
+of the additive manufacturing unit 10102. The DMLS-based
+3D printer may use a high-powered fiber optic laser. The
+metal powder is fused into a solid part by melting it locally
+using the focused laser beam. Object parts are built up
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute a selective laser melting
+(SLM) process. The SLM process uses 3D CAD data as a
+digital information source and energy in the form of a
+high-power laser beam to create 3D metal parts by fusing
+fine metallic powders together. The process involves slicing
+of the 3D CAD file data into layers to create a 2D image of
+each layer. Thin layers of atomized fine metal powder are
+evenly distributed using a coating mechanism onto a sub-
+strate plate that is fastened to an indexing table that moves
+in the vertical (Z) axis. This takes place inside a chamber
+containing a tightly controlled atmosphere of inert gas such
+as argon. Once each layer has been distributed, each 2D slice
+energytothepowdersurface,by directingthefocused laser
+beam using two high frequency scanning mirrors in the X-
+and Y-axes. The laser energy permits full melting of the
+particles to form solid metal. The process is repeated layer
+after layer until the part is complete. In embodiments, the
+SLM process may be a multi-scanner and/or multi-laser
+SLM process, such as enabling simultaneous action across
+multiple scans and/or multiple target points of laser melting
+work.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute a selective heat sintering
+process. The process may involve a thermal printhead to
+apply heat to layers of powdered source material to render
+it to a thermoplastic state. When a layer is finished, the
+powder bed of source material moves down, and an auto-
+mated roller adds a new layer of material, which is sintered
+to form the next cross-section of the object. Power bed
+printing may refer to a technique where one or more
+powders, typically a metal powder, are connected via vari-
+produce the end product. Typically, it is done by either
+having an area filled with powder and only connecting the
+design areas of the powder while layer by layer removing the
+rest, or by adding powder layer-by-layer while simultane-
+ously connecting it. Similar to light polymerization, powder
+bed printing is significantly faster than other types of 3D
+printing. In embodiments, the additive manufacturing unit
+10102may employmultiplepowderbed/roller subsystems,
+thereby enabling simultaneous work on different target
+points of work and/or multi-material powder bed applica-
+tions that allow switching between materials.
+In embodiments, the additive manufacturing unit 10102,
+of various types described herein, may combine materials to
