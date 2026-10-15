@@ -1,0 +1,202 @@
+# FB-L01-031 | D031 — A Semantic IoT Early Warning System for Natural Environment Crisis Management
+
+> Corpus de origen: **SCOPUS** · Archivo: `SCOPUS_Tejido empresarial/A_Semantic_IoT_Early_Warning_System_for_Natural_Environment_Crisis_Management.pdf` · 12 páginas · Relevancia para el eje del corpus: **Periférico** (Presenta un sistema de alerta temprana basado en IoT con semántica ligera y pesada para gestión de crisis de origen geológico (caso de tsunami, proyecto TRIDEC), probado en un ejercicio internacional simulado; aporta arquitectura de datos y requisitos de resiliencia ante restricciones de comunicación, pero no trata sismos en edificios, recuperación posdesastre ni empresas.)
+
+## PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0)
+
+### Capa 1 — Núcleo bibliográfico
+
+- **FB_ID / DOC_ID:** FB-L01-031 / D031
+- **Tipo de recurso:** Artículo científico (journal peer-reviewed, acceso abierto)
+- **Referencia APA 7:** Poslad, S., Middleton, S. E., Chaves, F., Tao, R., Necmioglu, O., & Bugel, U. (2015). A Semantic IoT Early Warning System for Natural Environment Crisis Management. *IEEE Transactions on Emerging Topics in Computing*, *3*(2), 246-257. https://doi.org/10.1109/TETC.2015.2432742
+- **Autores:** Poslad, Stefan (6602121665); Middleton, Stuart E. (35576027400); Chaves, Fernando (36122646100); Tao, Ran (55924630700); Necmioglu, Ocal (36761347900); Bugel, Ulrich (44460990100)
+- **Afiliaciones:** School of Electronic Engineering and Computer Science, Queen Mary University of London, London, E1 4NS, United Kingdom; Department of Electronics and Computer Science, University of Southampton IT Innovation Centre, Southampton, SO16 7NS, United Kingdom; Information and Knowledge Management Systems, Fraunhofer Institute of Optronics, System Technologies and Image Exploitation, Karlsruhe, 76131, Germany; Boʇaziçi University, Istanbul, 34342, Turkey
+- **Fecha de publicación:** 2015
+- **Fuente/contenedor:** IEEE Transactions on Emerging Topics in Computing · vol. 3(2)
+- **Identificador persistente:** DOI 10.1109/TETC.2015.2432742 · ISSN 21686750
+- **URL de acceso:** https://www.scopus.com/inward/record.uri?eid=2-s2.0-84933042298&doi=10.1109%2fTETC.2015.2432742&partnerID=40&md5=803a9590a115bd8370393c6d1b2f2809
+- **Fecha de consulta:** 2026-10-15
+- **Citas Scopus (a la fecha del export):** 109
+
+### Capa 2 — Extracción metodológica
+
+**Objetivo de la investigación.** Investigar y desarrollar un sistema de alerta temprana (EWS) semántico basado en IoT para apoyar la gestión de desastres naturales geológicos de inicio rápido, y validarlo en despliegues reales. El sistema responde a dos retos prácticos: el intercambio y procesamiento escalable y sensible al tiempo de datos de fuentes heterogéneas, y la resiliencia ante restricciones cambiantes de las tecnologías de información y comunicación en zonas de crisis. El artículo propone un modelo de representación multisemántico, con semántica ligera para metadatos de adquisición de datos de sensores y semántica pesada, mediante ontologías OWL de nivel superior, para bases de conocimiento, apoyo a decisiones y orquestación de flujos de trabajo.
+
+**Pregunta de investigación.** El artículo no formula preguntas de investigación. Los objetivos declarados son diseñar un EWS semántico para amenazas geológicas de inicio rápido, validarlo en despliegues y extraer tendencias para el uso de computación semántica en sistemas similares. La pregunta implícita es cómo combinar semántica ligera y pesada sin comprometer los requisitos de tiempo crítico, escalabilidad y resiliencia de un EWS.
+
+**Marco teórico.** El marco combina tres elementos: la definición de un EWS con cuatro funciones (análisis de riesgo, monitoreo y alerta, difusión y comunicación, y capacidad de respuesta), los requisitos de ingeniería de tiempo crítico, escalabilidad y soporte semántico, y una arquitectura por capas que separa la adquisición ascendente de datos de sensores (mensajería con intermediarios de mensajes, modelo de observaciones y mediciones del Open Geospatial Consortium y ontología de redes de sensores) de las funciones descendentes de base de conocimiento, fusión de datos en niveles 0 a 3, servicios de procesamiento y flujos de trabajo (BPMN2) con reglas. Se apoya en el beneficio-costo de 4 a 1 estimado para los sistemas de alerta de tsunami. El paradigma es de ingeniería de sistemas distribuidos y de ontologías aplicadas, sin teoría social de la respuesta a la alerta.
+
+**Metodología.** El sistema se desarrolló en el proyecto europeo TRIDEC y se evaluó con dos tipos de pruebas. Las pruebas no funcionales midieron escalabilidad y resiliencia: (1) rendimiento de una mensajería con intermediarios extendidos, en implementaciones de un solo clúster (un intermediario principal con respaldo y tres de borde) y de clústeres federados, ejecutados en máquinas virtuales con servidores de 2,3 GHz, 4 GB de memoria y 100 Mbps; (2) simulación de un algoritmo de balanceo de carga entre intermediarios con umbrales de profundidad de cola; y (3) tiempos de consulta y de importación de datos semánticos, comparando bases RDF (OWLIM-lite, 4store y otras) y una base NoSQL para escenarios de tsunami precalculados. Las pruebas funcionales se hicieron en el ejercicio internacional NEAMWave12 (27 y 28 de noviembre de 2012), donde el Observatorio Kandilli (KOERI) usó el sistema en una simulación de tsunami por sismo en el Mediterráneo oriental, con datos sintéticos, escenarios precalculados con ecuaciones de aguas someras y diseminación de cuatro mensajes. El artículo describe el sistema con detalle de diseño pero reporta pocas métricas numéricas.
+
+**Resultados principales.** En las pruebas de mensajería, el intermediario extendido evitó la sobrecarga por publicadores falsos o por suscriptores lentos, y el algoritmo de balanceo migró temas de un intermediario saturado a otro: en una simulación, la cola de un intermediario creció tras una ráfaga a los 30 s, se superó el umbral 4 s después y el balanceo se completó en torno a los 62 s. En almacenamiento semántico, una base descartada no admitía múltiples clientes de importación, la velocidad de consulta dependió del volumen de datos y la importación de un escenario de tsunami de 1,3 GB tomó unos 45 s, constante con el número de escenarios almacenados en MongoDB. En el ejercicio NEAMWave12 el sistema permitió que KOERI evaluara el tsunami simulado, generara mensajes personalizados por destinatario (vocabulario, idioma, región, criticidad y canal) y los diseminara por correo, FTP, mensajes de texto, redes sociales y una conexión directa con el sistema de IPMA en Portugal, e incorporó informes de testigos oculares artificiales. El texto no reporta tiempos de extremo a extremo entre la detección y la recepción del mensaje, tasas de falsos positivos ni métricas de calidad de la alerta, ni evaluación de los mensajes por parte de los usuarios receptores.
+
+**Discusión y contribución.** Los autores concluyen con cinco tendencias: usar semántica pesada solo en partes específicas de una arquitectura distribuida, porque exige cómputo y memoria que los sensores de bajos recursos no tienen; soportar múltiples niveles de semántica y su mapeo; combinar múltiples ontologías de dominio; ofrecer abstracciones e interfaces para expertos de dominio sin experiencia en modelado semántico; y moderar el uso de semántica según las restricciones operativas de tiempo, escala, recursos y resiliencia. Sostienen que el diseño es aplicable a otros dominios con restricciones similares (finanzas, salud, ciudades inteligentes). Reconocen la complejidad de construir un modelo semántico compartido, que suele hacerse de forma iterativa, y las limitaciones de las interfaces generadas automáticamente a partir de la ontología.
+
+**Limitaciones declaradas.** Declaradas parcialmente: complejidad del modelo semántico compartido y de los formularios generados por la ontología; énfasis en tsunami y exclusión de sensores móviles, remotos y de humanos como sensores. No declaradas: validación con datos sintéticos y escenarios precalculados; pocas métricas cuantitativas de alerta; sin evaluación con usuarios finales ni de la efectividad de los mensajes; sin costos de implementación y operación.
+
+**Trabajo futuro.** Aplicación de las tendencias identificadas a otros sistemas con restricciones de tiempo crítico, escala, recursos limitados y resiliencia, entre ellos servicios financieros, monitoreo de señales fisiológicas y gestión de servicios en ciudades inteligentes.
+
+**Palabras clave.** Declaradas: Crisis Management; Early Warning System; Internet of Things; Resilience; Time-critical | Inferidas: sistema de alerta temprana, internet de las cosas, web semántica, ontologías, gestión de crisis, tsunami, intermediarios de mensajes, fusión de datos, resiliencia, TRIDEC
+
+### Capa 3 — Abstracción propositiva
+
+**Tesis central (abstraída).** Un sistema de alerta temprana basado en IoT que combine semántica ligera para la adquisición de datos y semántica pesada para el conocimiento y la decisión puede ser escalable, resiliente y adecuado para amenazas geológicas de inicio rápido, y su viabilidad se demostró en pruebas de mensajería y en un ejercicio internacional de tsunami.
+
+**Antítesis identificada.** La validación es principalmente de ingeniería: mide comportamiento de intermediarios de mensajes y de bases de datos en entornos de laboratorio y un ejercicio con datos sintéticos, y no demuestra mejoras en la calidad ni en el tiempo de la alerta, en la reducción del daño o en la toma de decisiones de los usuarios. El artículo no cuantifica el beneficio de la semántica frente a una arquitectura sin ella, que es la hipótesis central; no informa tiempos de extremo a extremo ni falsos positivos; la cifra de beneficio-costo de 4 a 1 se toma de la literatura para un sistema distinto. La complejidad de las ontologías (formularios 'grandes e incómodos' que debieron simplificarse) revela costos de adopción que no se estiman. El sistema se centra en tsunami y la amenaza sísmica se trata solo como causa del tsunami. Los datos y el código del sistema no se ofrecen para reproducción.
+
+**Síntesis propuesta.** La contribución sostenible es un patrón de diseño para sistemas de alerta con datos heterogéneos: semántica mínima en el borde, semántica rica en el centro, mensajería con protección contra sobrecarga y balanceo, y orquestación por reglas. Debe leerse como arquitectura demostrada en ejercicio, no como prueba de eficacia de la alerta. Para el corpus, la síntesis consiste en aprovechar este patrón para la capa de datos de un sistema de gestión posterior a un sismo (inspecciones, sensores, reportes ciudadanos, necesidades de empresas), y en exigir indicadores de resiliencia de comunicaciones (disponibilidad, tiempo de entrega bajo congestión, degradación gradual) medidos en condiciones de falla de red.
+
+**Áreas grises detectadas.**
+
+1. Ausencia de comparación con una arquitectura no semántica: no se mide el beneficio de la semántica (tiempo de integración de un sensor nuevo, errores de interpretación, tiempo de respuesta) frente a un diseño con estructuras de datos fijas, por lo que la ventaja se afirma y no se prueba.
+2. Naturaleza de la validación funcional: el ejercicio NEAMWave12 utilizó datos y eventos simulados con escenarios precalculados, sin sensores reales que desencadenaran la alerta y sin evaluación del uso por usuarios finales ni de la calidad de los mensajes.
+3. Resiliencia ante fallas de comunicación: se invoca como requisito (cortes de red y energía en zonas de crisis), pero las pruebas muestran balanceo de carga entre intermediarios sin fallas físicas de enlaces; no se reporta degradación bajo pérdida de conectividad.
+4. Costos y adopción: la semántica requiere esfuerzo de construcción de ontologías, mapeos y formularios (se menciona un trabajo extenso de mapeo y la simplificación de formularios), pero no se estiman horas, personal ni costos de mantenimiento.
+
+**Puntos oscuros aclarados.** Llama la atención que un artículo que sitúa la resiliencia ante restricciones de comunicación como uno de sus dos retos principales presente pruebas de balanceo entre intermediarios y de tiempos de consulta, y no pruebas con enlaces caídos, energía interrumpida o sensores con ancho de banda reducido. Una explicación plausible es que las pruebas de falla en una infraestructura de alerta real son difíciles de realizar y que los autores optaron por métricas controlables en laboratorio, mientras la validación funcional se apoyó en un ejercicio institucional ya programado. Esto sugiere que la resiliencia descrita es una propiedad de diseño (separación de capas, mensajería con protección) y no un resultado medido, y que la contribución semántica depende de supuestos sobre el costo de mantener ontologías que no se verifican. Además, el límite que los autores fijan (sensores fijos, amenazas geológicas de inicio rápido, excluidos humanos como sensores) deja fuera los datos de ciudadanos y de empresas, fuentes que en un sismo urbano son críticas para evaluar daño y recuperación.
+
+**Ideas propositivas novedosas.**
+
+1. Pruebas de degradación gradual de comunicaciones en sistemas de alerta y gestión posterior a un sismo: someter el patrón de mensajería y balanceo a pérdida de enlaces, límites de ancho de banda y apagones, midiendo disponibilidad, latencia y pérdida de mensajes por prioridad, y comparar con una arquitectura sin balanceo ni semántica ligera. Fundamento: el artículo reconoce la resiliencia como reto pero solo prueba balanceo en laboratorio. Verificabilidad: banco de pruebas con emulación de red y protocolo común de métricas. Utilidad: define requisitos mínimos de comunicaciones para sistemas de gestión de emergencias y de recuperación empresarial, y permite fijar metas verificables de disponibilidad y de latencia en los contratos de proveedores.
+2. Costo de semántica frente a beneficio de interoperabilidad: medir en un proyecto similar las horas de modelado, mapeo y mantenimiento de ontologías, el tiempo para integrar una nueva fuente de datos (sensor, informe ciudadano, registro empresarial) con y sin semántica, y el número de errores de interpretación evitados. Fundamento: la ventaja de la semántica se afirma sin medición. Verificabilidad: registro de esfuerzo y de tiempos de integración en dos arquitecturas. Utilidad: permite decidir si conviene invertir en semántica pesada para gemelos o sistemas de recuperación, en qué partes de la arquitectura y con qué presupuesto de personal para mantener los modelos.
+
+**Relaciones poco exploradas.**
+
+1. Restricciones de ancho de banda y de energía en zonas de crisis (limitan) la carga semántica que puede transmitirse desde los sensores: los autores recomiendan semántica ligera en el borde y pesada solo en el centro, aunque no cuantifican el umbral.
+2. Complejidad de los modelos semánticos (aumenta) el esfuerzo de adopción y obliga a simplificar formularios y mapeos, un costo que el artículo menciona sin estimar.
+
+**Robustez argumentativa:** 3.4/10 (ponderación 30/30/25/15) — consistencia lógica 3/10; calidad de la evidencia 4/10; validez de inferencias causales 3/10; generalizabilidad 4/10.
+
+**Valor estratégico:** 4/10 — Aporta un patrón de arquitectura de alerta con datos heterogéneos y semántica en dos niveles, con pruebas de mensajería y un ejercicio internacional, útil como referencia de diseño de la capa de datos de un sistema de gestión de crisis. Su valor para el corpus es de arquitectura; se reduce porque la validación es con datos simulados y sin comparación, el foco es tsunami y no se estiman costos ni efectos sobre la decisión o la recuperación.
+
+**Conexiones inter-documentales.**
+
+- (Se completan en el Análisis Relacional de la Parte final del lote.)
+
+### Capa 4 — Control de calidad
+
+- **Falacias detectadas:** Petición de principio (Se afirma que la semántica mejora interoperabilidad y orquestación sin compararla con un diseño no semántico (Sec. I, pp. 2-3; Sec. V, p. 11)); Generalización apresurada (Se concluye que el diseño es aplicable a finanzas, salud y ciudades inteligentes a partir de un ejercicio de tsunami (Sec. V, p. 11)); Apelación a la cifra externa (La razón beneficio-costo de 4 a 1 de otros sistemas respalda el valor de la propuesta (Sec. I, p. 1))
+- **Bradford-Hill:** No aplica: es un estudio de diseño con pruebas de ingeniería; el efecto de la semántica sobre desempeño o decisiones no se estima con diseño causal ni comparación.
+- **TRL asignado:** 6 — 'KOERI exploited the TRIDEC system in addition to the existing operational infrastructure' (pp. 10-11)
+- **Versión de ficha:** v1.0 | 2026-10-15 | SYNAPSE V19.0
+- **Notas de proceso:** Texto completo extraído (11 páginas más referencias). Las figuras 1 a 8 no son legibles en la extracción; las cifras de los experimentos se toman del texto. El artículo es de 2015 y se interpreta con ese contexto tecnológico.
+
+---
+
+## PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
+
+### B.1 Análisis dialéctico
+
+| TESIS | ANTÍTESIS | SÍNTESIS | ROBUSTEZ |
+|---|---|---|---|
+| Un sistema de alerta temprana basado en IoT que combine semántica ligera para la adquisición de datos y semántica pesada para el conocimiento y la decisión puede ser escalable, resiliente y adecuado para amenazas geológicas de inicio rápido, y su viabilidad se demostró en pruebas de mensajería y en un ejercicio internacional de tsunami.  | La validación es principalmente de ingeniería: mide comportamiento de intermediarios de mensajes y de bases de datos en entornos de laboratorio y un ejercicio con datos sintéticos, y no demuestra mejoras en la calidad ni en el tiempo de la alerta, en la reducción del daño o en la toma de decisiones de los usuarios. El artículo no cuantifica el beneficio de la semántica frente a una arquitectura sin ella, que es la hipótesis central; no informa tiempos de extremo a extremo ni falsos positivos; la cifra de beneficio-costo de 4 a 1 se toma de la literatura para un sistema distinto. La complejidad de las ontologías (formularios 'grandes e incómodos' que debieron simplificarse) revela costos de adopción que no se estiman. El sistema se centra en tsunami y la amenaza sísmica se trata solo como causa del tsunami. Los datos y el código del sistema no se ofrecen para reproducción.  | La contribución sostenible es un patrón de diseño para sistemas de alerta con datos heterogéneos: semántica mínima en el borde, semántica rica en el centro, mensajería con protección contra sobrecarga y balanceo, y orquestación por reglas. Debe leerse como arquitectura demostrada en ejercicio, no como prueba de eficacia de la alerta. Para el corpus, la síntesis consiste en aprovechar este patrón para la capa de datos de un sistema de gestión posterior a un sismo (inspecciones, sensores, reportes ciudadanos, necesidades de empresas), y en exigir indicadores de resiliencia de comunicaciones (disponibilidad, tiempo de entrega bajo congestión, degradación gradual) medidos en condiciones de falla de red.  | 3.4/10 |
+
+### B.2 Interrogación socrática
+
+- **P1 Definición:** 'Semántica ligera' es metadatos simples asociados a los datos de sensores; 'semántica pesada' es ontologías formales con razonamiento para conocimiento y decisión.
+- **P2 Supuestos:** Supone que la semántica mejora la interoperabilidad sin comprometer el tiempo crítico, que los ejercicios simulados representan el desempeño real y que los sensores fijos bastan para la alerta.
+- **P3 Evidencia:** La evidencia son pruebas de intermediarios de mensajes y bases de datos, y un ejercicio de tsunami con datos sintéticos.
+- **P4 Consecuencias:** Si es cierto, los sistemas de alerta pueden integrar fuentes heterogéneas con semántica selectiva; si es falso, se pagaría el costo de ontologías sin una mejora medible en alerta o en decisiones.
+- **P5 Contraejemplos:** No se examinan fallas del sistema en el ejercicio ni comparaciones con sistemas operativos sin semántica.
+- **P6 Alternativas:** Alternativas: que la mejora provenga de la mensajería y no de la semántica; que las ontologías sean demasiado costosas de mantener; que los datos de humanos como sensores aporten más que los sensores fijos.
+
+### B.3 KPIs extraídos
+
+| KPI | VALOR | UNIDAD | CONTEXTO | UBICACIÓN | FUENTE | CONFIANZA | LIMITACIÓN |
+|---|---|---|---|---|---|---|---|
+| Costo de instalación de un EWS de tsunami en el océano Índico | 30 a 200 | millones USD | Según el número de boyas y la precisión; estimación de 2011 | Sec. I, p. 1 | Texto | Baja | Cifra de la literatura |
+| Razón beneficio-costo de la mitigación | 4 a 1 | razón | Por cada dólar se ahorran cuatro | Sec. I, p. 1 | Texto | Baja | Cifra de la literatura |
+| Tiempo de alerta esperado del subsistema sísmico | 2 a 3 | minutos | Tras la detección del evento | Sec. I, p. 2 | Texto | Media | Requisito citado |
+| Tamaño de un escenario de tsunami | 1,3 | GB | Cubo de datos por escenario | Sec. IV.A, p. 10 | Texto | Alta | Importación de unos 45 s |
+| Tiempo de importación de un escenario | 45 | s | Constante al aumentar el número de escenarios (MongoDB) | Sec. IV.A, p. 10 | Texto | Alta | Sin variabilidad reportada |
+| Mensajes diseminados en el ejercicio | 4 | mensajes | Minutos 10, 25, 62 y 180 del escenario | Sec. IV.B, p. 10 | Texto | Alta | Datos simulados |
+| Servidor de pruebas de mensajería | 2,3 GHz; 4 GB; 100 Mbps | especificaciones | Máquinas virtuales en uno o varios servidores | Sec. IV.A, p. 8 | Texto | Alta | Entorno de laboratorio |
+| Tiempo de balanceo tras ráfaga de mensajes | unos 30 s | s | Ráfaga a los 30 s, umbral superado a los 34 s y equilibrio a los 62 s | Sec. IV.A, p. 9 | Texto | Media | Simulación de un experimento |
+
+### B.4 Evaluación multinivel de madurez
+
+| Dimensión | Score | Aplica | Evidencia | Justificación |
+|---|---|---|---|---|
+| TRL | 6 | Sí | 'KOERI exploited the TRIDEC system in addition to the existing operational infrastructure' (pp. 10-11) | Prototipo avanzado integrado con infraestructura de alerta operativa en un ejercicio a escala completa con datos simulados. |
+| MRL | N/A | No | No aplica | Sin manufactura. |
+| BRL | 2 | Sí | 'the benefit to cost ratio was 4:1, i.e., every dollar spent on mitigation saved society four US dollars' (p. 1) | Razón beneficio-costo de la literatura para sistemas de tsunami; sin modelo de negocio ni costos del sistema propuesto. |
+| IRL | 5 | Sí | 'direct centre-to-centre communication with the TRIDEC system deployed at IPMA ... was exercised' (p. 11) | Integración con otros centros y canales de difusión probada en un ejercicio; sin pruebas de falla de enlaces. |
+| DRL | 4 | Sí | 'Typically, specific parts of natural environments are instrumented with fixed sensors to monitor them' (p. 1) | Necesidad de alerta y de integración de datos respaldada por instituciones participantes en el ejercicio; sin estudio de demanda. |
+| SRL | 2.78 | Sí | Componentes: Mensajería con intermediarios extendidos (TRL 5), Base de conocimiento semántica y flujos de trabajo (TRL 5) | SRL=Σ(TRLi×IRLij)/2 términos ordenados = 25.0; ÷9 → 2.78; nivel acotado a [1,9] = 2.78 |
+
+**Análisis de brechas**
+
+| Brecha | Valor | Interpretación |
+|---|---|---|
+| Gap TRL-BRL | 4 | TRL >> BRL: tecnología sin mercado (riesgo comercial) |
+| Gap TRL-MRL | N/A | N/A |
+| Gap TRL-IRL | 1 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Gap BRL-DRL | -2 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Brecha crítica | 4 | Valle de la Muerte Comercial (TRL-BRL) |
+
+**Valle de la muerte:** V3 Tecnología sin negocio · Severidad: Media · TRL 6 con BRL 2 e IRL 5: prototipo probado en ejercicio internacional con datos simulados, sin modelo de negocio ni evidencia de efecto sobre la decisión. · Estrategia de salida: Pruebas con eventos reales o con sensores reales, evaluación de usuarios y análisis de costos de ontologías y operación.
+
+### B.5 Robustez argumentativa y causalidad
+
+| Falacia | Evidencia | Impacto |
+|---|---|---|
+| Petición de principio | Se afirma que la semántica mejora interoperabilidad y orquestación sin compararla con un diseño no semántico (Sec. I, pp. 2-3; Sec. V, p. 11) | Ventaja asumida |
+| Generalización apresurada | Se concluye que el diseño es aplicable a finanzas, salud y ciudades inteligentes a partir de un ejercicio de tsunami (Sec. V, p. 11) | Sin evidencia de transferibilidad |
+| Apelación a la cifra externa | La razón beneficio-costo de 4 a 1 de otros sistemas respalda el valor de la propuesta (Sec. I, p. 1) | Cifra no vinculada con el sistema evaluado |
+
+**Recomendación:** Aceptar con reservas
+
+| Relación propuesta | Evidencia correlacional | Criterios cumplidos | Criterios no cumplidos | Confusores | Score | Veredicto |
+|---|---|---|---|---|---|---|
+| Semántica en dos niveles → mejor integración de fuentes heterogéneas | Descripción de diseño y ejercicio; sin medición comparativa | Plausibilidad, coherencia de diseño | Fuerza, experimento, comparación | Esfuerzo de modelado, calidad de datos | 2 | Hipótesis no probada |
+| Balanceo de mensajes → mayor resiliencia de la alerta ante sobrecarga | Simulación de un caso | Plausibilidad, medición parcial | Pruebas con fallas físicas, repetición | Capacidad del servidor, patrón de tráfico | 3 | Experimental limitado |
+
+### B.6 Gaps identificados
+
+| Tipo | Descripción | Magnitud | Viabilidad | Prioridad |
+|---|---|---|---|---|
+| Metodológico | Comparación cuantitativa de la arquitectura semántica con una no semántica en tiempo, errores y esfuerzo | Crítico | Media | 9 |
+| Tecnológico | Pruebas de resiliencia con fallas reales de energía y comunicaciones, y sensores con ancho de banda reducido | Crítico | Media | 8 |
+| Conocimiento | Integración de fuentes ciudadanas y empresariales en sistemas de gestión de crisis de origen sísmico | Significativo | Media | 7 |
+| Mercado | Costos de construcción y mantenimiento de ontologías y de operación del sistema | Significativo | Media | 7 |
+
+### B.7 Figuras y tablas clave
+
+| N.º | Título | Tipo | Descripción | Datos extraídos | Relevancia |
+|---|---|---|---|---|---|
+| Fig. 1-4 | Arquitectura del sistema semántico, flujos de datos y modelo de ontologías | Diagrama | Capas de adquisición, base de conocimiento y servicios | No aplica | Media |
+| Fig. 5 | Despliegue de intermediarios: un solo clúster frente a clústeres federados | Diagrama | Configuración de las pruebas de mensajería | 4 intermediarios; 2 clústeres | Media |
+| Fig. 6 | Simulación de utilización de ancho de banda de salida con balanceo | Gráfico | Migración de temas entre intermediarios | 30 s; 34 s; 62 s | Media |
+| Fig. 7 | Velocidad de consulta según el volumen de la base de datos | Gráfico | Rendimiento de OWLIM-lite | No tabulados | Media |
+| Fig. 8 | Tiempo de importación de simulaciones en MongoDB | Gráfico | Constante con el número de escenarios | 45 s | Media |
+| Fig. 9 | Interfaz de mando y control durante el ejercicio NEAMWave12 | Captura | Simulación de tsunami en el Mediterráneo oriental | No aplica | Baja |
+
+### B.8 Competidores / actores / alternativas tecnológicas
+
+| Nombre | País | Tipo | Tecnología núcleo | Ventaja | Desventaja | Tendencia |
+|---|---|---|---|---|---|---|
+| Sistemas operativos de alerta de tsunami con estructuras de datos fijas (citados) | No especificado en documento | Institucional | Alerta con flujos de trabajo predefinidos | Madurez operativa | Rigidez para integrar nuevas fuentes | Estable |
+| Modelo O&M del OGC y ontología SSN (citados) | No especificado en documento | Estándares | Semántica ligera y pesada para sensores | Estandarización | Complejidad de uso | Estable |
+| Plataformas de mapeo colaborativo como Ushahidi y aplicaciones de testigos (citadas) | No especificado en documento | Comunidad/ONG | Informes ciudadanos geolocalizados | Datos de humanos como sensores | Calidad no verificada | Creciendo |
+
+### B.9 Variables econométricas y vacíos
+
+- **Y:** No aplica: no se estima una variable resultado
+- **X:** No aplica
+- **Z (controles):** Configuración de intermediarios, volumen de datos y tipo de base de datos
+- **Datos:** Pruebas en laboratorio y ejercicio NEAMWave12 con datos sintéticos
+- **Método:** Pruebas de rendimiento, simulación y ejercicio funcional
+- **Efecto reportado:** No cuantificado en términos de alerta o daño
+- **Endogeneidad tratada:** No - no se discute
+- **Instrumento:** No aplica
+- **Robustez reportada:** Sin repeticiones ni intervalos; entorno de laboratorio
+
+| Vacío | Tipo | Descripción |
+|---|---|---|
+| V-031-01 | TERR | Mediterráneo oriental y proyecto europeo; sin zonas sísmicas continentales ni América Latina |
+| V-031-02 | POBL | Sin usuarios finales, población ni empresas |
+| V-031-03 | TEMP | Ejercicio de tres horas de escenario; sin operación prolongada |
+| V-031-04 | MET | Datos sintéticos y sin comparación con una arquitectura no semántica |
+| V-031-05 | VAR | Faltan variables de calidad de alerta, costo y tiempo de respuesta |
+| V-031-06 | TEOR | Sin teoría de respuesta a alertas ni de gobernanza de datos |
+| V-031-07 | CAUS | Sin evidencia causal del efecto de la semántica sobre decisiones |
