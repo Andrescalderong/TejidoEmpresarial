@@ -123,7 +123,7 @@ La Figura 1 presenta la distribución por año de publicación de los 101 docume
 
 *Distribución de los documentos del lote por año de publicación*
 
-![Distribución de los documentos del lote por año de publicación](../figuras/fig_produccion_anual.png)
+![Distribución de los documentos del lote por año de publicación](../figuras/fig_produccion_anual.svg)
 
 *Nota.* n = 101. Elaboración propia a partir del inventario del lote (csv/inventario.csv).
 
@@ -153,7 +153,7 @@ La Figura 2 presenta los niveles TRL, MRL, BRL, IRL, DRL y SRL de cada documento
 
 *Matriz de madurez multinivel por documento*
 
-![Matriz de madurez multinivel por documento](../figuras/fig_matriz_madurez.png)
+![Matriz de madurez multinivel por documento](../figuras/fig_matriz_madurez.svg)
 
 *Nota.* n = 84 documentos con TRL o BRL asignado. N = núcleo, A = adyacente, P = periférico; las celdas grises indican que la dimensión no aplica o no es evaluable. El SRL se calculó con la fórmula del analista. Elaboración propia (csv/madurez_multinivel.csv).
 
@@ -163,7 +163,7 @@ La Figura 3 presenta las medianas de madurez por grupo de relevancia.
 
 *Perfil de madurez: mediana por grupo de relevancia*
 
-![Perfil de madurez: mediana por grupo de relevancia](../figuras/fig_radar_madurez.png)
+![Perfil de madurez: mediana por grupo de relevancia](../figuras/fig_radar_madurez.svg)
 
 *Nota.* Núcleo n = 15, adyacente n = 48, periférico n = 21; escala de 1 a 9. Elaboración propia (csv/ml/madurez_medianas_por_grupo.csv).
 
@@ -173,7 +173,7 @@ La Figura 4 presenta la relación entre TRL y BRL y la distribución de los docu
 
 *Valle de la muerte comercial y documentos por valle y severidad*
 
-![Valle de la muerte comercial y documentos por valle y severidad](../figuras/fig_diagrama_valles.png)
+![Valle de la muerte comercial y documentos por valle y severidad](../figuras/fig_diagrama_valles.svg)
 
 *Nota.* Panel izquierdo: TRL modal frente a BRL; el tamaño del círculo indica el número de documentos y el área sombreada, una brecha TRL − BRL ≥ 2. Panel derecho: n = 101. Elaboración propia (csv/valles_muerte.csv).
 
@@ -183,7 +183,7 @@ La Figura 5 presenta las brechas de madurez TRL − BRL, TRL − IRL y BRL − D
 
 *Brechas de madurez por documento*
 
-![Brechas de madurez por documento](../figuras/fig_mapa_calor_brechas.png)
+![Brechas de madurez por documento](../figuras/fig_mapa_calor_brechas.svg)
 
 *Nota.* Los tonos rojos indican tecnología por delante del negocio o de la integración. Elaboración propia (csv/brechas_madurez.csv).
 
@@ -196,7 +196,7 @@ La Figura 6 presenta la proyección de los documentos por contenido con PCA y t-
 
 *Mapa de los documentos según su contenido*
 
-![Mapa de los documentos según su contenido](../figuras/fig_ml_pca_tsne.png)
+![Mapa de los documentos según su contenido](../figuras/fig_ml_pca_tsne.svg)
 
 *Nota.* TF-IDF de unigramas y bigramas; k-means con k = 2. Los círculos rojos señalan el bloque SciELO (D087-D098). Elaboración propia (csv/ml/).
 
@@ -206,7 +206,7 @@ La Figura 7 presenta el agrupamiento jerárquico de los documentos.
 
 *Dendrograma jerárquico de Ward de los 101 documentos*
 
-![Dendrograma jerárquico de Ward de los 101 documentos](../figuras/fig_ml_dendrograma.png)
+![Dendrograma jerárquico de Ward de los 101 documentos](../figuras/fig_ml_dendrograma.svg)
 
 *Nota.* Método de Ward sobre la reducción SVD del TF-IDF. Elaboración propia (csv/ml/).
 
@@ -216,7 +216,7 @@ La Figura 8 presenta la red de co-ocurrencia de palabras clave con frecuencia ma
 
 *Red de co-palabras clave*
 
-![Red de co-palabras clave](../figuras/fig_red_copalabras.png)
+![Red de co-palabras clave](../figuras/fig_red_copalabras.svg)
 
 *Nota.* El color indica la comunidad detectada por modularidad (modularidad baja). Elaboración propia a partir de las palabras clave de los registros.
 
@@ -226,7 +226,7 @@ La Figura 9 presenta el mapa estratégico de las comunidades de palabras clave.
 
 *Mapa estratégico de centralidad y densidad de las comunidades de palabras clave*
 
-![Mapa estratégico de centralidad y densidad de las comunidades de palabras clave](../figuras/fig_mapa_centralidad_densidad.png)
+![Mapa estratégico de centralidad y densidad de las comunidades de palabras clave](../figuras/fig_mapa_centralidad_densidad.svg)
 
 *Nota.* Centralidad: enlaces externos ponderados; densidad: enlaces internos por palabra. Elaboración propia.
 
@@ -236,7 +236,7 @@ La Figura 10 presenta la concentración de las citas de Scopus en pocos document
 
 *Concentración de citas de los documentos (diagrama de Pareto)*
 
-![Concentración de citas de los documentos (diagrama de Pareto)](../figuras/fig_pareto_citas.png)
+![Concentración de citas de los documentos (diagrama de Pareto)](../figuras/fig_pareto_citas.svg)
 
 *Nota.* Documentos con dato de citas de Scopus. Veinticuatro documentos concentran 80 % de las citas. Elaboración propia.
 
@@ -335,7 +335,7 @@ La Figura 11 presenta la red de relaciones tipificadas entre documentos.
 
 *Red de relaciones tipificadas entre documentos*
 
-![Red de relaciones tipificadas entre documentos](../figuras/fig_red_relaciones.png)
+![Red de relaciones tipificadas entre documentos](../figuras/fig_red_relaciones.svg)
 
 *Nota.* El color del nodo indica la relevancia (rojo, núcleo; azul, adyacente; verde, periférico); el color de la arista indica el tipo de relación. Se excluye la síntesis D100. Elaboración propia (csv/analisis_relacional.csv).
 
@@ -349,21 +349,21 @@ Se define un índice del analista, transparente y reproducible: **S = 10 × (C +
 
 ## Módulo de patentes
 
-Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.
+Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.
 
-Ninguna patente se clasifica como núcleo. P002 se clasifica como adyacente por tratar la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores. Las demás se clasifican como periféricas (10 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) pero no el dominio de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes.
+Ninguna patente se clasifica como núcleo. P002 y P003 se clasifican como adyacentes: P002 trata la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores (reivindicaciones 1, 5 y 6), y P003 reivindica la detección por sensores de daño o exposición ambiental adversa y pruebas de estrés del gemelo con parámetros por encima de los niveles normales (reivindicaciones 9 y 12). Las demás se clasifican como periféricas (9 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) y, en la descripción, secciones de pruebas de estrés e incidentes por eventos naturales, pero sus reivindicaciones no tratan de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes y cambió respecto de la primera pasada (muestra), en que solo P002 era adyacente.
 
-Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque las páginas leídas no contienen pruebas experimentales, integración probada ni conjuntos de datos reales. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
+Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque el texto completo no contiene pruebas experimentales, integración probada ni conjuntos de datos reales: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) solo devolvió usos metodológicos y descripciones de realizaciones. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
 
-La Figura 12 presenta la frecuencia de términos del eje del corpus en las páginas leídas de cada patente.
+La Figura 12 presenta la frecuencia de términos del eje del corpus en el texto completo de cada patente.
 
 **Figura 12**
 
 *Frecuencia de términos del eje del corpus en las patentes*
 
-![Frecuencia de términos del eje del corpus en las patentes](../figuras/fig_patentes_terminos.png)
+![Frecuencia de términos del eje del corpus en las patentes](../figuras/fig_patentes_terminos.svg)
 
-*Nota.* Apariciones por 1.000 palabras en las páginas leídas por reconocimiento óptico (62 a 75 páginas por patente, salvo P011, leída completa). Elaboración propia (patentes/csv/patentes_terminos.csv).
+*Nota.* Apariciones por 1.000 palabras en el texto completo reconocido por OCR (4.048 páginas; frecuencias como límites inferiores). Los diez documentos de Strong Force comparten una descripción de plataforma. Elaboración propia (patentes/csv/patentes_terminos.csv).
 
 La Figura 13 presenta las relaciones tipificadas entre las patentes y los documentos del corpus.
 
@@ -371,7 +371,7 @@ La Figura 13 presenta las relaciones tipificadas entre las patentes y los docume
 
 *Relaciones entre las patentes y los documentos del corpus*
 
-![Relaciones entre las patentes y los documentos del corpus](../figuras/fig_patentes_relaciones.png)
+![Relaciones entre las patentes y los documentos del corpus](../figuras/fig_patentes_relaciones.svg)
 
 *Nota.* El color de la línea indica el tipo de relación; los arcos de la izquierda unen patentes de una misma familia o con funciones afines. Elaboración propia (patentes/csv/patentes_relaciones.csv).
 
@@ -481,7 +481,7 @@ Las proposiciones surgen de la comparación entre documentos y no figuran en nin
 
 # Limitaciones y vacíos (¿qué se me escapa?)
 
-1. **Patentes.** Los 103 PDF de las carpetas de las bases bibliográficas son artículos de revista; las 11 patentes se aportaron después en la carpeta `Patentes /` y se analizaron en un módulo separado (`patentes/`) mediante lectura parcial por reconocimiento óptico. Siguen pendientes la lectura completa, la verificación del estado legal y una búsqueda sistemática de patentes por clasificación; sin ellas, la transferencia tecnológica se analiza sobre todo desde la literatura.
+1. **Patentes.** Los 103 PDF de las carpetas de las bases bibliográficas son artículos de revista; las 11 patentes se aportaron después en la carpeta `Patentes /` y se analizaron en un módulo separado (`patentes/`) mediante reconocimiento óptico de sus 4.048 páginas. Siguen pendientes la verificación del estado legal, la lectura frase por frase de los pasajes críticos y una búsqueda sistemática de patentes por clasificación; sin ellas, la transferencia tecnológica se analiza sobre todo desde la literatura.
 2. **Registros sin PDF.** Los registros de Scopus sin texto completo (`scopus_sin_pdf.json`) y las siete referencias de Scopus AI (Elsevier, 2026) ausentes del lote pueden contener estudios relevantes, en especial sobre pymes y sismos.
 3. **Literatura en español y regional.** Solo 12 documentos están en español y ninguno trata empresas posterremoto en América Latina; no hay datos de seguros, créditos de reconstrucción ni política pública regional.
 4. **Datos empresariales.** No hay series de tiempo de cierre, ingresos o empleo por empresa tras sismos (salvo la comparación con tiempos de cierre observados en Cremen et al., 2020).
@@ -516,7 +516,7 @@ Los resultados principales son siete.
 3. Diseñar un estudio que conecte los parámetros de gemelos digitales e IoT (tiempo de detección, evaluación de daño) con los componentes de demora de los modelos de recuperación empresarial.
 4. Ponderar la evidencia por grupos independientes de autoría.
 5. Exigir en estudios tecnológicos intervalos de confianza, validación externa y repetición.
-6. Ampliar el módulo de patentes con lectura completa, verificación del estado legal y búsqueda sistemática.
+6. Ampliar el módulo de patentes con verificación del estado legal, lectura frase por frase de los pasajes críticos y búsqueda sistemática.
 
 El análisis relacional permite priorizar investigaciones que conectan modelos de recuperación con datos de gemelos digitales (P-E1) y pruebas de capacidad de absorción (P-E5), y establece que la cantidad de revisiones no equivale a evidencia (P-E2). Para quien decide la inversión, el principal riesgo es confundir potencial con efecto medido.
 
@@ -530,7 +530,7 @@ Las áreas futuras se derivan de los vacíos, y cada una se asocia con una propo
 3. **Síntesis con protocolo.** Búsqueda propia con cadena registrada, doble revisión y evaluación de calidad, que incluya literatura sin etiqueta de Industria 4.0 y fuentes regionales en español (proposiciones P-E2 y P-E3).
 4. **Ponderación de la evidencia por grupo de autoría y réplica independiente** de los estudios de alerta sísmica de bajo costo y de monitoreo estructural con IoT.
 5. **Guías de reporte para estudios tecnológicos:** intervalos de confianza, validación externa, repetición y datos disponibles (proposición P-E4).
-6. **Módulo de patentes.** Completar la lectura de las 11 patentes aportadas, verificar su estado legal y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).
+6. **Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).
 7. **Cobertura regional.** Estudios y datos de regiones sísmicas de América Latina, incluidos seguros, créditos de reconstrucción y política pública.
 
 
@@ -23206,11 +23206,11 @@ Corpus de origen: **SINTESIS_BUSCADOR** · Archivo: Wos_Tejido.pdf · 2 páginas
 
 ## Alcance y método
 
-La carpeta Patentes / del repositorio contiene 11 documentos de patente en formato PDF, descargados de Lens.org (4 patentes concedidas con código B2 y 7 publicaciones de solicitud con código A1). Los archivos son imágenes escaneadas sin capa de texto. Se aplicó reconocimiento óptico de caracteres (RapidOCR, sobre imágenes de 150 ppp, lectura por columnas) a una parte de cada documento: la portada, las primeras 33 páginas (hojas de dibujos), las últimas 14 páginas (reivindicaciones) y una de cada 20 páginas intermedias. En total se leyeron 662 de 4,048 páginas (16.4 %), equivalentes a 353,633 palabras. El texto reconocido se conserva en patentes/_ocr_texto/.
+La carpeta Patentes / del repositorio contiene 11 documentos de patente en formato PDF, descargados de Lens.org (4 patentes concedidas con código B2 y 7 publicaciones de solicitud con código A1). Los archivos son imágenes escaneadas sin capa de texto. Se aplicó reconocimiento óptico de caracteres (RapidOCR, sobre imágenes de 150 ppp, lectura por columnas) a todas las páginas: 4,048 de 4,048 páginas, equivalentes a 3,343,240 palabras. El texto reconocido se conserva en patentes/_ocr_texto/. En una primera pasada se había leído solo una muestra (portada, dibujos iniciales, reivindicaciones y una página de cada 20); las cifras y pasajes de este informe corresponden a la lectura completa y sustituyen a los de la muestra.
 
 Las patentes forman un módulo separado del lote de 101 documentos (DOCS=101 no cambia). Se identifican con claves P001 a P011, se les asignó una ficha de cuatro capas adaptada a documentos de patente y se evaluaron con las mismas dimensiones de madurez, vacíos y relaciones que los demás documentos. Las adaptaciones son tres: la referencia APA 7 usa el formato de patente; el estado legal no se asume (solo el código de tipo indica concesión); y los niveles TRL, IRL y DRL se limitan a lo que el texto sustenta, sin inferir madurez comercial de la titularidad.
 
-Limitaciones de método. La lectura parcial implica que la ausencia de un término en las páginas leídas no equivale a ausencia en el documento; las frecuencias que se presentan son de las páginas leídas. La lectura óptica puede omitir líneas, por lo que se citan fragmentos literales solo cuando son legibles. El estado legal posterior de las solicitudes y la vigencia de las concedidas no pueden verificarse con los archivos.
+Limitaciones de método. El análisis no equivale a una lectura frase por frase de unas 4.000 páginas: se basa en la lectura de la portada y de las reivindicaciones y en la localización de secciones mediante búsqueda de términos (gemelo digital, sismo, desastre, interrupción, resiliencia, prueba de estrés, evidencia empírica), con lectura de los pasajes hallados. La lectura óptica puede omitir líneas o alterar caracteres, por lo que las frecuencias son límites inferiores y las citas literales se limitan a fragmentos legibles. El estado legal posterior de las solicitudes y la vigencia de las concedidas no pueden verificarse con los archivos.
 
 
 ## Inventario
@@ -23223,7 +23223,7 @@ Limitaciones de método. La lectura parcial implica que la ausencia de un térmi
 |---|---|---|---|---|---|---|---|
 | P001 | US 12,277,524 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 30 (1) | 344 | Periférico |
 | P002 | US 12,314,060 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 30 de noviembre de 2023 | 28 (1, 18) | 607 | Adyacente |
-| P003 | US 12,567,082 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 7 de marzo de 2023 | 19 (1, 13) | 532 | Periférico |
+| P003 | US 12,567,082 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 7 de marzo de 2023 | 19 (1, 13) | 532 | Adyacente |
 | P004 | US 12,675,781 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 28 de febrero de 2022 | 21 (1, 16, 19) | 432 | Periférico |
 | P005 | US 2022/0035342 A1 | A1 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 31 (1) | 353 | Periférico |
 | P006 | US 2022/0036274 A1 | A1 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 15 (1) | 353 | Periférico |
@@ -23264,42 +23264,62 @@ La tabla indica si las reivindicaciones independientes y dependientes transcrita
 El gemelo digital aparece en las reivindicaciones de 11 de 11 patentes y los sensores o el IoT en 8. El aprendizaje automático o la inteligencia artificial figuran en 8, y la automatización robótica de procesos en 6. Las tres tecnologías que el corpus de 101 documentos asocia con la recuperación (gemelo digital, IoT y análisis de datos) están presentes, pero aplicadas a cadenas de valor, manufactura y mantenimiento de activos, no a recuperación tras un sismo.
 
 
-## Términos del eje del corpus en las páginas leídas
+## Términos del eje del corpus en el texto completo
 
 **Tabla 10**
 
 *Tabla: Resumen*
 
-| ID | Páginas leídas | Gemelo digital | Sismo o terremoto | Desastre | Amenaza natural | Interrupción | Resiliencia | Recuperación | Pandemia |
+| ID | Páginas | Gemelo digital | Sismo o terremoto | Desastre | Amenaza natural | Interrupción | Resiliencia | Recuperación | Pandemia |
 |---|---|---|---|---|---|---|---|---|---|
-| P001 | 62 | 459 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P002 | 75 | 410 | 0 | 2 | 0 | 16 | 2 | 0 | 4 |
-| P003 | 71 | 176 | 0 | 1 | 0 | 2 | 4 | 0 | 4 |
-| P004 | 66 | 162 | 0 | 1 | 1 | 2 | 2 | 0 | 4 |
-| P005 | 62 | 406 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P006 | 62 | 403 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P007 | 62 | 398 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P008 | 62 | 398 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P009 | 63 | 404 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P010 | 62 | 431 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P011 | 15 | 86 | 1 | 0 | 3 | 0 | 0 | 0 | 0 |
+| P001 | 344 | 2970 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P002 | 607 | 3160 | 2 | 14 | 8 | 85 | 8 | 1 | 12 |
+| P003 | 532 | 2896 | 2 | 13 | 8 | 32 | 8 | 1 | 12 |
+| P004 | 432 | 2600 | 2 | 8 | 8 | 15 | 8 | 1 | 7 |
+| P005 | 353 | 2983 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P006 | 353 | 2979 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P007 | 353 | 2984 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P008 | 353 | 2990 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P009 | 354 | 2978 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P010 | 352 | 2994 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P011 | 15 | 87 | 1 | 0 | 3 | 0 | 0 | 0 | 0 |
 
-El gemelo digital es el término más frecuente (3733 apariciones en 662 páginas leídas). Las menciones de sismo suman 1, las de desastre 4, las de interrupción 20, las de resiliencia 8 y las de recuperación 0. Estas frecuencias provienen de un muestreo y deben leerse como límites inferiores. Los pasajes identificados que sustentan la relación con el eje del corpus incluyen: la referencia a 'a natural disaster or epidemic' como evento externo que puede interrumpir operaciones y la lista de tareas de mitigación (proveedores múltiples, inventario de amortiguación, transporte alterno) en Cella et al., 2025a (P002); la inclusión de 'earthquakes' entre los factores ambientales posibles en Berti y DeLuca, 2022 (P011); la exposición a condiciones ambientales adversas o daño detectada por sensores en Cella y Locke, 2026 (P003), cuya descripción menciona además 'natural disasters' entre los eventos que activan la predicción de necesidades de recursos de flota. Con el muestreo realizado no se encontraron otras menciones de sismo.
+El gemelo digital es el término más frecuente (29621 apariciones en 4,048 páginas). Las menciones de sismo suman 21, las de desastre 63, las de interrupción 153, las de resiliencia 59 y las de recuperación 3. Las frecuencias son límites inferiores por la lectura óptica. Los diez documentos de Strong Force comparten una descripción de plataforma, de modo que sus frecuencias no son observaciones independientes. La tabla siguiente cuenta las secciones de la descripción que interesan al eje del corpus: las pruebas de estrés de resiliencia de la red con gemelos digitales (VCIT), la gestión de incidentes (VCIM), las pruebas de estrés en general, las menciones de eventos o desastres naturales como factores de oferta o incidentes, y las de riesgo o interrupción de la cadena de suministro.
+
+**Tabla 11**
+
+*Tabla: Resumen*
+
+| ID | VCIT | VCIM | Pruebas de estrés | Eventos o desastres naturales | Riesgo o interrupción de la cadena de suministro |
+|---|---|---|---|---|---|
+| P001 | 1 | 1 | 17 | 4 | 0 |
+| P002 | 1 | 1 | 17 | 11 | 10 |
+| P003 | 1 | 1 | 18 | 8 | 7 |
+| P004 | 1 | 1 | 17 | 6 | 1 |
+| P005 | 1 | 1 | 17 | 4 | 0 |
+| P006 | 1 | 1 | 17 | 4 | 0 |
+| P007 | 1 | 1 | 17 | 4 | 0 |
+| P008 | 1 | 1 | 17 | 4 | 0 |
+| P009 | 1 | 1 | 17 | 4 | 0 |
+| P010 | 1 | 1 | 17 | 4 | 0 |
+| P011 | 0 | 0 | 0 | 0 | 0 |
+
+En las diez patentes de Strong Force la descripción incluye la sección de pruebas de estrés de infraestructura (VCIT) y la de gestión de incidentes (VCIM). En la primera, gemelos digitales de las entidades de la red ejecutan pruebas con parámetros que 'exceed normal operating levels' para evaluar la resiliencia, con 'natural calamities' entre los factores de oferta. En la segunda, los incidentes incluyen 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y se prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network'. Otros pasajes son la simulación de fallas de objetos estibados 'in response to seismic events' y el gemelo digital del director ejecutivo que alerta sobre 'an external event likely to disrupt operations (such as a natural disaster or epidemic)'. En Cella et al., 2025a (P002) la descripción añade un proceso de determinación y mitigación de riesgos de interrupción: clasifica el estado de la red con modelos de IA, determina un riesgo potencial ('a supply chain disruption … caused by … natural disasters, political instability, or pandemics') y ejecuta acciones de mitigación (marcar el riesgo, diversificar proveedores, inventarios de seguridad, transportes alternos, renegociación de contratos). En Cella y Locke, 2026 (P003) las contingencias adversas del contrato de futuros incluyen 'disruptions due to weather or climate, epidemics, pandemics'. En Berti y DeLuca, 2022 (P011), 'earthquakes' figura entre los factores ambientales posibles. Estos pasajes son descripciones genéricas de eventos y funciones; ninguno incluye un modelo de daño físico ni de tiempo de recuperación de empresas.
 
 
 ## Relevancia para el eje del corpus
 
-Ninguna patente se clasifica como núcleo. P002 se clasifica como adyacente por tratar la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores. Las demás se clasifican como periféricas (10 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) pero no el dominio de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes.
+Ninguna patente se clasifica como núcleo. P002 y P003 se clasifican como adyacentes: P002 trata la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores (reivindicaciones 1, 5 y 6), y P003 reivindica la detección por sensores de daño o exposición ambiental adversa y pruebas de estrés del gemelo con parámetros por encima de los niveles normales (reivindicaciones 9 y 12). Las demás se clasifican como periféricas (9 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) y, en la descripción, secciones de pruebas de estrés e incidentes por eventos naturales, pero sus reivindicaciones no tratan de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes y cambió respecto de la primera pasada (muestra), en que solo P002 era adyacente.
 
 
 ## Madurez
 
-Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque las páginas leídas no contienen pruebas experimentales, integración probada ni conjuntos de datos reales. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
+Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque el texto completo no contiene pruebas experimentales, integración probada ni conjuntos de datos reales: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) solo devolvió usos metodológicos y descripciones de realizaciones. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
 
 
 ## Análisis dialéctico del módulo
 
-La tesis es que los gemelos digitales alimentados por sensores y gestionados con aprendizaje automático y automatización de procesos permiten automatizar decisiones de cadena de valor que reducen interrupciones, lo que sustentaría la continuidad operativa tras un evento. La antítesis es que una patente delimita lo reivindicable y no lo comprobado: las 11 patentes no informan de datos de desempeño, las listas de realizaciones son amplias y el disparador de la reivindicación 1 de Cella et al., 2025a es un umbral de demanda y las reivindicaciones 5 y 6 añaden la determinación de una interrupción mediante simulación, sin que las páginas leídas describan un modelo de daño físico. La síntesis es que el módulo aporta un inventario técnico de funciones (recolección de datos, simulación, recomendación, ejecución automática, contratación automatizada) que puede traducirse en requisitos de un sistema de continuidad empresarial, y que la hipótesis de que dichas funciones reduzcan el tiempo de reanudación tras un sismo permanece sin evidencia en este material.
+La tesis es que los gemelos digitales alimentados por sensores y gestionados con aprendizaje automático y automatización de procesos permiten automatizar decisiones de cadena de valor que reducen interrupciones, lo que sustentaría la continuidad operativa tras un evento. La antítesis es que una patente delimita lo reivindicable y no lo comprobado: las 11 patentes no informan de datos de desempeño, las listas de realizaciones son amplias y el disparador de la reivindicación 1 de Cella et al., 2025a es un umbral de demanda y las reivindicaciones 5 y 6 añaden la determinación de una interrupción mediante simulación, sin que el texto describa un modelo de daño físico. La síntesis es que el módulo aporta un inventario técnico de funciones (recolección de datos, simulación, recomendación, ejecución automática, contratación automatizada) que puede traducirse en requisitos de un sistema de continuidad empresarial, y que la hipótesis de que dichas funciones reduzcan el tiempo de reanudación tras un sismo permanece sin evidencia en este material.
 
 Preguntas socráticas del módulo. ¿Qué parte de las reivindicaciones describe funciones ya implementadas y cuál describe una cobertura de protección? Los documentos no permiten responder. ¿Qué cambia en el diseño si el disparador es el daño y no la demanda? Cambia el modelo de simulación del gemelo, que debería representar la pérdida de capacidad productiva y logística, y los modelos de recuperación del corpus (por ejemplo, Cremen et al., 2020) proporcionan esa estructura. ¿Qué hipótesis rival explicaría la misma utilidad con menor complejidad? Reglas de inventario de seguridad y contratos paramétricos de seguro pueden cubrir parte de la función sin gemelo digital, alternativa que ningún documento del módulo evalúa.
 
@@ -23317,14 +23337,14 @@ Se registraron 33 relaciones tipificadas entre patentes y documentos del lote o 
 
 ## Discusión de controversias
 
-Primera controversia: valor probatorio. Una patente concedida acredita novedad y actividad inventiva ante una oficina, no eficacia. Tratar las patentes como evidencia de madurez tecnológica sobrestima el nivel de preparación. Por ello el módulo las clasifica como estado de la técnica. Segunda controversia: amplitud de las reivindicaciones. Las listas dependientes enumeran decenas de funciones (en Cella et al., 2025b, 29 dependientes), lo que puede interpretarse como cobertura defensiva; el texto leído no permite distinguir funciones implementadas de funciones solo reivindicadas. Tercera controversia: familias repetidas. Seis documentos comparten descripción, de modo que sus frecuencias de términos no son observaciones independientes; contarlas como seis fuentes duplicaría el peso de un mismo texto. Cuarta controversia: libertad de operación. La existencia de reivindicaciones amplias sobre plataformas de cadena de valor con gemelos digitales puede condicionar desarrollos posteriores; este informe no constituye un análisis jurídico y no determina infracción ni libertad de operación.
+Primera controversia: valor probatorio. Una patente concedida acredita novedad y actividad inventiva ante una oficina, no eficacia. Tratar las patentes como evidencia de madurez tecnológica sobrestima el nivel de preparación. Por ello el módulo las clasifica como estado de la técnica. Segunda controversia: amplitud de las reivindicaciones. Las listas dependientes enumeran decenas de funciones (en Cella et al., 2025b, 29 dependientes), lo que puede interpretarse como cobertura defensiva; el texto no permite distinguir funciones implementadas de funciones solo reivindicadas. Tercera controversia: familias repetidas. Los diez documentos de Strong Force comparten una descripción de plataforma (incluidas las secciones VCIT y VCIM), de modo que sus frecuencias de términos no son observaciones independientes; contarlos como diez fuentes multiplicaría el peso de un mismo texto. Cuarta controversia: pasajes genéricos. Las menciones de terremotos e incidentes naturales aparecen en listas de ejemplos, no en reivindicaciones ni en modelos, de modo que no sustentan por sí solas aplicabilidad a recuperación sísmica. Quinta controversia: libertad de operación. La existencia de reivindicaciones amplias sobre plataformas de cadena de valor con gemelos digitales puede condicionar desarrollos posteriores; este informe no constituye un análisis jurídico y no determina infracción ni libertad de operación.
 
 
 ## Premortem y escenarios
 
-Premortem. Causas probables de que la incorporación de las patentes lleve a conclusiones erróneas: (1) tratar la titularidad comercial como evidencia de uso; (2) extrapolar a sismos a partir de menciones aisladas; (3) contar como independientes documentos de una misma familia; (4) leer solo una parte del documento y concluir ausencia; (5) asumir estado legal vigente. Contingencias: mantener las patentes como módulo separado, registrar la cobertura de lectura, ponderar por familia y verificar el estado legal en una base oficial antes de cualquier uso jurídico o comercial.
+Premortem. Causas probables de que la incorporación de las patentes lleve a conclusiones erróneas: (1) tratar la titularidad comercial como evidencia de uso; (2) extrapolar a sismos a partir de menciones aisladas; (3) contar como independientes documentos de una misma familia; (4) concluir ausencia de un tema a partir de una búsqueda de términos sujeta a errores de OCR; (5) asumir estado legal vigente. Contingencias: mantener las patentes como módulo separado, registrar el método de lectura, ponderar por familia y verificar el estado legal en una base oficial antes de cualquier uso jurídico o comercial.
 
-**Tabla 11**
+**Tabla 12**
 
 *Tabla: Resumen*
 
@@ -23335,7 +23355,7 @@ Premortem. Causas probables de que la incorporación de las patentes lleve a con
 | A. Se acumula evidencia empírica sobre gemelos digitales en recuperación | Reducir costo de inicialización | Plantillas por similitud sísmica como en P011; bibliotecas abiertas de gemelos; reutilización entre activos similares |
 | B. La evidencia sigue siendo escasa | Mantener vigilancia tecnológica | Registro anual de patentes y solicitudes; alertas por clasificación G06Q y G16Y; revisión de estado legal |
 | B. La evidencia sigue siendo escasa | Acotar la hipótesis | Reducir el alcance a una función (inventario de seguridad); probar un solo disparador; comparar con reglas simples |
-| B. La evidencia sigue siendo escasa | Priorizar documentos de mayor valor | Concentrar la lectura completa en P002, P003 y P009; ampliar OCR completo; consultar listados oficiales de reivindicaciones |
+| B. La evidencia sigue siendo escasa | Priorizar documentos de mayor valor | Concentrar la lectura frase por frase en P002, P003 y P009; revisión por un segundo lector; consultar listados oficiales de reivindicaciones |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Evaluar libertad de operación | Análisis jurídico por abogado de patentes; revisión de estado legal; diseño alternativo sin las funciones reivindicadas |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Usar alternativas abiertas | Gemelos con estándares abiertos; contratos paramétricos de seguro; reglas de inventario sin plataforma propietaria |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Cooperar con titulares | Licencias de investigación; acuerdos de transferencia; pilotos conjuntos con universidades |
@@ -23343,7 +23363,7 @@ Premortem. Causas probables de que la incorporación de las patentes lleve a con
 
 ## ¿Qué se me escapa?
 
-Se escapan seis aspectos. (1) La mayor parte del texto de cada patente no se leyó (cobertura 16.4 %); una lectura completa por OCR de unas 4,048 páginas aumentaría la cobertura y permitiría un conteo exacto de términos. (2) El estado legal de las solicitudes y la vigencia de las concedidas. (3) Las publicaciones previas faltantes de la familia, como US 2022/0035341 A1. (4) Patentes de otros titulares y de otras jurisdicciones sobre gemelos digitales aplicados a edificios y a recuperación sísmica; la carpeta contiene una muestra que no es una búsqueda sistemática. (5) El análisis de citas hacia delante y hacia atrás entre patentes y literatura científica del corpus. (6) La verificación por un abogado de patentes de la interpretación de las reivindicaciones. Rutas de solución: OCR completo por lotes, consulta de registros oficiales (USPTO) para el estado legal, búsqueda sistemática por clasificación (G06Q 10, G05B 19, G16Y) y revisión jurídica.
+Se escapan cinco aspectos. (1) Una lectura frase por frase de las unas 4.000 páginas y la verificación manual de la calidad del OCR; el análisis se apoya en búsqueda de términos y en la lectura de los pasajes localizados. (2) El estado legal de las solicitudes y la vigencia de las concedidas. (3) Las publicaciones previas faltantes de la familia, como US 2022/0035341 A1. (4) Patentes de otros titulares y de otras jurisdicciones sobre gemelos digitales aplicados a edificios y a recuperación sísmica; la carpeta contiene una muestra que no es una búsqueda sistemática. (5) El análisis de citas hacia delante y hacia atrás entre patentes y literatura científica del corpus, y la verificación por un abogado de patentes de la interpretación de las reivindicaciones. Rutas de solución: revisión por un segundo lector de los pasajes críticos, consulta de registros oficiales (USPTO) para el estado legal, búsqueda sistemática por clasificación (G06Q 10, G05B 19, G16Y) y revisión jurídica.
 
 
 ## Valor estratégico
@@ -23353,7 +23373,7 @@ El módulo fija qué parte del conocimiento sobre gemelos digitales e IoT en cad
 
 ## FP-L01-001 | P001 — Control tower and enterprise management platform with robotic process automation systems
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12277524_B2_075-527-950-194-577.pdf · 344 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Comparte con el corpus el uso de gemelos digitales, sensores y aprendizaje automático, pero el dominio es la gestión de cadenas de valor y la automatización robótica de procesos (RPA) de pedidos, precios e inventarios; no contiene eventos sísmicos ni recuperación productiva tras daño físico en las páginas leídas.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12277524_B2_075-527-950-194-577.pdf · 344 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Comparte con el corpus el uso de gemelos digitales, sensores y aprendizaje automático y su descripción incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), pero las reivindicaciones tratan de la automatización robótica de procesos de pedidos, precios e inventarios; el análisis de recuperación tras daño físico no está reivindicado ni desarrollado.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -23390,11 +23410,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Las reivindicaciones 2 a 30 enumeran procesos automatizados por la RPA: selección de cantidad de pedido (2), de transportista (3) y de proveedor (4); determinación de precio (6); configuración de ofertas de servicio (7), paquetes (8), kits (9) y ruta de navegación web (10); nivel de inventario (11); tipo y calendario de logística (12); entradas de aprendizaje automático (13); documentación de producto (14); requisitos locales (15); compatibilidad (16); solicitudes de propuesta (17); equipos de almacén (18); clasificación de defectos en imágenes (19); inspección de calidad con sensores (20), diagnósticos a bordo (21), sistemas IoT (22) y sensores ambientales de la cadena de suministro (23); selección de entradas, salidas y elementos visuales de un gemelo digital (24-25); diagnóstico de demora, congestión o escasez (26), sobrecostos (28) y defectos (29); y predicción de mantenimiento de infraestructura (30).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: no se reportan experimentos, mediciones de desempeño ni usuarios; las realizaciones se formulan como 'in embodiments' sin datos.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (páginas 172-173 del PDF). Además, simula fallas de objetos apilados en un contenedor 'in response to seismic events, road conditions, weather conditions' (p. 224) y define un gemelo digital del director ejecutivo que alerta sobre 'an external event likely to disrupt operations (such as a natural disaster or epidemic)' (p. 230). Ninguno de estos pasajes está reivindicado.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sensores ambientales de la cadena de suministro (reivindicación 23); sistemas IoT (22); diagnósticos a bordo (21).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y las reivindicaciones). La descripción completa excede 300 páginas.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (344 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -23408,7 +23430,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 **Zonas grises.**
 
 1. No se distingue entre procesos descritos y procesos implementados: ninguna reivindicación declara un despliegue.
-2. No hay tratamiento de eventos de interrupción por amenazas naturales en las páginas leídas, de modo que la aplicabilidad a continuidad tras sismos es una extrapolación.
+2. El resumen y la descripción incluyen incidentes por eventos naturales (VCIM) y pruebas de estrés de resiliencia (VCIT), pero sin modelo de daño físico ni de tiempo de recuperación, y sin reivindicarlos; la aplicabilidad a continuidad tras sismos es una extrapolación.
 3. La relación entre el resumen de la familia (diseño de sistemas logísticos) y la reivindicación 1 (RPA unificada) no se explica en las páginas leídas.
 
 **Ideas propositivas.**
@@ -23425,10 +23447,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 344 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 344 de 344 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 459; sensor 87; aprendizaje automático 79; cadena de bloques o contrato inteligente 31; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2970; sensor 582; aprendizaje automático 481; cadena de bloques o contrato inteligente 187; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -23446,7 +23468,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1 (sistema de tecnologías de la información): plataforma en la nube con arquitectura de microservicios; aplicaciones que dirigen a una empresa a gestionar las entidades de la red 'from a point of origin to a point of customer use'; y 'a unified…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: no se reportan experimentos, mediciones de desempeño ni usuarios; las realizaciones se formulan como 'in embodiments' sin datos.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se distingue entre procesos descritos y procesos implementados: ninguna reivindicación declara un despliegue.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? El documento es útil como inventario técnico de funciones de automatización y de entradas de datos (sensores ambientales, IoT, gemelos digitales) que una plataforma de continuidad operativa podría necesitar, pero no como evidencia de que dichas funciones reduzcan el tiempo de recuperación de empresas tras un sismo.
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? Una patente delimita lo reivindicable, no lo comprobado.
@@ -23461,15 +23483,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 30 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 35427 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 296172 | palabras | Texto completo | Media |
+| Páginas reconocidas | 344 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -23484,7 +23506,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Patente concedida (B2): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Comparte con el corpus el uso de gemelos digitales, sensores y aprendizaje automático, pero el dominio es la gestión de cadenas de valor y la automatización robótica de procesos (RPA) de pedidos, precios e inventarios; no contiene eventos sísmicos ni recuperación productiva tras daño físico en las páginas leídas. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Comparte con el corpus el uso de gemelos digitales, sensores y aprendizaje automático y su descripción incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), pero las reivindicaciones tratan de la automatización robótica de procesos de pedidos, precios e inventarios; el análisis de recuperación tras daño físico no está reivindicado ni desarrollado. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se distingue entre procesos descritos y procesos implementados: ninguna reivindicación declara un despliegue. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -23525,7 +23547,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-002 | P002 — Value chain network planning using machine learning and digital twin simulation
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12314060_B2_132-419-138-970-501.pdf · 607 páginas (178 hojas de dibujos) · Relevancia para el eje del corpus: **Adyacente** (Es la única patente del lote que formula la interrupción de la cadena de valor como objeto de predicción y mitigación mediante un gemelo digital alimentado por sensores, dispositivos IoT e interfaces de programación; el texto leído menciona 'a natural disaster or epidemic' como evento externo. Falta la dimensión sísmica específica y la evidencia empírica.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12314060_B2_132-419-138-970-501.pdf · 607 páginas (178 hojas de dibujos) · Relevancia para el eje del corpus: **Adyacente** (Es la patente del lote que formula la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores, dispositivos IoT e interfaces de programación (reivindicaciones 1, 5 y 6; descripción de riesgos por desastres naturales y pandemias y de tareas de mitigación). Falta la dimensión sísmica específica, el modelo de daño y la evidencia empírica.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -23562,18 +23584,20 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Representación en realidad virtual, aumentada o mixta (2, 15, 16, 19); datos de envíos prepagados y de sensores (3-4); simulaciones del gemelo para determinar una interrupción o riesgo (5, 22) y respuesta automática (6); sistema operativo robótico (7, 23); organización del gemelo en conjuntos de gemelos (8-10, 24-26); tipos de entidad (11); tipos de modelo, incluidos transformadores y redes convolucionales (12, 27); conjuntos de entrenamiento (13, 28); tarea adicional (14); y máquina inteligente que incluye robot físico o vehículo guiado automatizado (17).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: no se informan métricas de predicción, reducción de interrupciones ni casos reales. Los antecedentes citan literatura de 2020 sobre interrupciones por la COVID-19 sin resultados propios.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (páginas 261-262), la misma alerta del gemelo del director ejecutivo (p. 300) y la simulación de fallas 'in response to seismic events' (p. 294). Además describe un proceso que clasifica con modelos de IA el estado de la red, determina un riesgo potencial ('a supply chain disruption … caused by … natural disasters, political instability, or pandemics') y ejecuta acciones de mitigación: marcar el riesgo en la interfaz de la torre de control y responder, por ejemplo diversificando proveedores, formando inventarios de seguridad, usando transportes alternativos y renegociando contratos (páginas 578-586). Las reivindicaciones 5 y 6 recogen la determinación de una interrupción por simulación y la respuesta automática.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sensores del ente de la cadena de valor; dispositivos IoT; interfaces de programación; datos de envíos y de inventario en tiempo real (reivindicación 1).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas, una de cada 20 páginas de la descripción y reivindicaciones); el documento tiene 607 páginas y 178 hojas de dibujos. El texto de la parte final de la reivindicación 1 se interrumpe en la lectura óptica.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (607 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
 
 **Tesis.** Un gemelo digital de la red de cadena de valor, entrenado y alimentado con datos de sensores e IoT, puede predecir desajustes entre demanda y oferta y activar tareas automáticas (transportar productos adicionales, reponer inventario) que evitan interrupciones.
 
-**Antítesis.** La predicción de demanda por encima de un umbral no es equivalente a la detección de una interrupción por un evento físico: la reivindicación 1 se activa por exceso de demanda, mientras que los escenarios de desastre natural aparecen solo en la descripción como evento externo. Las reivindicaciones 5 y 6 prevén determinar una interrupción o un riesgo mediante simulaciones del gemelo, pero en las páginas leídas no se especifica cómo se simula la pérdida de capacidad productiva o logística por daño, que es el núcleo de la recuperación empresarial tras un sismo.
+**Antítesis.** La predicción de demanda por encima de un umbral no es equivalente a la detección de una interrupción por un evento físico: la reivindicación 1 se activa por exceso de demanda, mientras que los escenarios de desastre natural aparecen solo en la descripción como evento externo. Las reivindicaciones 5 y 6 prevén determinar una interrupción o un riesgo mediante simulaciones del gemelo, pero el texto no especifica cómo se simula la pérdida de capacidad productiva o logística por daño, que es el núcleo de la recuperación empresarial tras un sismo.
 
 **Síntesis.** La patente aporta un esquema de control en lazo cerrado (datos → gemelo → modelo → tarea → máquina → nuevos datos) y una lista de tareas de mitigación que pueden contrastarse con las capacidades de resiliencia descritas en D081 y D037. Su validez para eventos sísmicos exige una condición de activación por daño, no por demanda, y evidencia de desempeño que el documento no ofrece.
 
@@ -23581,7 +23605,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 1. No se informa cómo se valida el modelo entrenado con simulaciones del propio gemelo (riesgo de circularidad entre simulación y predicción).
 2. El umbral de demanda que activa la tarea no se fija ni se justifica en las reivindicaciones leídas.
-3. Los eventos de desastre natural aparecen como ejemplo en la descripción, sin modelo de daño ni de tiempo de recuperación.
+3. Los desastres naturales y las pandemias figuran como causas de interrupción, pero sin modelo de daño ni de tiempo de recuperación; las reivindicaciones 5 y 6 usan simulaciones para determinar una interrupción sin especificar su origen.
 
 **Ideas propositivas.**
 
@@ -23597,10 +23621,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 75 de 607 páginas (12 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 607 de 607 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 410; sensor 95; aprendizaje automático 83; cadena de bloques o contrato inteligente 19; sismo 0; desastre 2; interrupción 16; resiliencia 2.
+- **Frecuencias en el texto completo:** gemelo digital 3160; sensor 1226; aprendizaje automático 731; cadena de bloques o contrato inteligente 276; sismo 2; desastre 14; interrupción 85; resiliencia 8.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -23611,14 +23635,14 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Momento | Contenido |
 |---|---|
 | Tesis | Un gemelo digital de la red de cadena de valor, entrenado y alimentado con datos de sensores e IoT, puede predecir desajustes entre demanda y oferta y activar tareas automáticas (transportar productos adicionales, reponer inventario) que evitan interrupciones. |
-| Antítesis | La predicción de demanda por encima de un umbral no es equivalente a la detección de una interrupción por un evento físico: la reivindicación 1 se activa por exceso de demanda, mientras que los escenarios de desastre natural aparecen solo en la descripción como evento externo. Las reivindicaciones 5 y 6 prevén determinar una interrupción o un riesgo mediante simulaciones del gemelo, pero en las páginas leídas no se especifica cómo se simula la pérdida de capacidad productiva o logística por daño, que es el núcleo de la recuperación empresarial tras un sismo. |
+| Antítesis | La predicción de demanda por encima de un umbral no es equivalente a la detección de una interrupción por un evento físico: la reivindicación 1 se activa por exceso de demanda, mientras que los escenarios de desastre natural aparecen solo en la descripción como evento externo. Las reivindicaciones 5 y 6 prevén determinar una interrupción o un riesgo mediante simulaciones del gemelo, pero el texto no especifica cómo se simula la pérdida de capacidad productiva o logística por daño, que es el núcleo de la recuperación empresarial tras un sismo. |
 | Síntesis | La patente aporta un esquema de control en lazo cerrado (datos → gemelo → modelo → tarea → máquina → nuevos datos) y una lista de tareas de mitigación que pueden contrastarse con las capacidades de resiliencia descritas en D081 y D037. Su validez para eventos sísmicos exige una condición de activación por daño, no por demanda, y evidencia de desempeño que el documento no ofrece. |
 
 
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1 (método implementado por computador): recibe información de productos en movimiento, incluidos envíos entrantes o salientes e inventario en un proveedor, fabricante, minorista o centro de distribución, generada por sensores, dispositivos IoT o…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: no se informan métricas de predicción, reducción de interrupciones ni casos reales. Los antecedentes citan literatura de 2020 sobre interrupciones por la COVID-19 sin resultados propios.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se informa cómo se valida el modelo entrenado con simulaciones del propio gemelo (riesgo de circularidad entre simulación y predicción).
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? La patente aporta un esquema de control en lazo cerrado (datos → gemelo → modelo → tarea → máquina → nuevos datos) y una lista de tareas de mitigación que pueden contrastarse con las capacidades de resiliencia descritas en D081 y D037.
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La predicción de demanda por encima de un umbral no es equivalente a la detección de una interrupción por un evento físico: la reivindicación 1 se activa por exceso de demanda, mientras que los escenarios de desastre natural aparecen solo en la descripción como evento externo.
@@ -23633,15 +23657,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 178 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 28 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 2 | reivindicaciones | Reivindicaciones 1, 18 | Alta |
-| Palabras leídas por OCR | 44118 | palabras | Páginas leídas | Media |
-| Páginas leídas | 75 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 500955 | palabras | Texto completo | Media |
+| Páginas reconocidas | 607 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -23656,7 +23680,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Patente concedida (B2): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Es la única patente del lote que formula la interrupción de la cadena de valor como objeto de predicción y mitigación mediante un gemelo digital alimentado por sensores, dispositivos IoT e interfaces de programación; el texto leído menciona 'a natural disaster or epidemic' como evento externo. Falta la dimensión sísmica específica y la evidencia empírica. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Es la patente del lote que formula la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores, dispositivos IoT e interfaces de programación (reivindicaciones 1, 5 y 6; descripción de riesgos por desastres naturales y pandemias y de tareas de mitigación). Falta la dimensión sísmica específica, el modelo de daño y la evidencia empírica. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se informa cómo se valida el modelo entrenado con simulaciones del propio gemelo (riesgo de circularidad entre simulación y predicción). | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -23697,7 +23721,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-003 | P003 — Autonomous smart contract execution platform
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12567082_B2_093-944-825-068-416.pdf · 532 páginas (158 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Usa gemelos digitales y sensores para detectar daño o exposición a condiciones ambientales adversas y activar la reposición, lo que la acerca a la continuidad operativa; sin embargo, el objeto es la contratación de futuros y contratos inteligentes entre comprador y vendedor, sin eventos sísmicos ni recuperación de empresas afectadas.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12567082_B2_093-944-825-068-416.pdf · 532 páginas (158 hojas de dibujos) · Relevancia para el eje del corpus: **Adyacente** (Las reivindicaciones 9 y 12 incluyen daño o exposición ambiental adversa detectada por sensores durante el transporte y pruebas de estrés del gemelo digital con parámetros por encima de los niveles normales; la descripción incluye incidentes por eventos naturales y contingencias adversas (clima, epidemias, pandemias). El objeto es la contratación de futuros y no la recuperación de empresas tras un sismo.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -23734,11 +23758,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Estructura de datos de riesgo aceptado por la compradora (2); planificación de la demanda con RPA (3, 6); agente robótico de reducción de riesgo (4); optimización de economía circular sobre precios de futuros (5); operación sin intervención humana (8); exposición o daño durante el transporte (9); duración del contrato según el tiempo para evaluar la necesidad de reposición (10); ofertas de reembolso o incentivos por productos retrasados o dañados (11); pruebas de estrés del gemelo con parámetros de la cadena de suministro por encima de los niveles normales de operación (12).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: no hay resultados de contratos ejecutados ni de modelos entrenados.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción incluye las secciones VCIT (pruebas de estrés con parámetros por encima de los niveles normales para evaluar la resiliencia de la red, p. 240) y VCIM (incidentes que incluyen 'natural events and/or disasters (including … earthquakes, floods, hurricanes, tsunamis', p. 241), y estima probabilidades de contingencias adversas como 'disruptions due to weather or climate, epidemics, pandemics, or counterparty risks' para el contrato de futuros inteligente (pp. 176-177). La reivindicación 12 (pruebas de estrés del gemelo con parámetros por encima de los niveles normales) y la 9 (exposición o daño durante el transporte) sí están reivindicadas.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sensores incorporados en el producto o el embalaje (exposición ambiental adversa, daño); fuentes de datos de mercado (costo base y costo de futuros).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR; la reivindicación 7 se lee incompleta (la cabecera se perdió en la lectura). El documento tiene 532 páginas y 158 hojas de dibujos.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (532 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -23769,10 +23795,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 71 de 532 páginas (13 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 532 de 532 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 176; sensor 133; aprendizaje automático 51; cadena de bloques o contrato inteligente 46; sismo 0; desastre 1; interrupción 2; resiliencia 4.
+- **Frecuencias en el texto completo:** gemelo digital 2896; sensor 1162; aprendizaje automático 703; cadena de bloques o contrato inteligente 350; sismo 2; desastre 13; interrupción 32; resiliencia 8.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -23790,7 +23816,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: plataforma con procesador que (a) recibe de una fuente de datos un indicio sobre un conjunto de productos entre una entidad vendedora y una compradora; (b) predice automáticamente un costo base futuro; (c) recupera el costo de futuros de una…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: no hay resultados de contratos ejecutados ni de modelos entrenados.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? La patente no analiza el riesgo de contraparte tras un evento destructivo (insolvencia, cierre), que es central para la recuperación empresarial.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? La contribución al corpus es una idea operativa para la etapa de absorción: usar pruebas de estrés en un gemelo digital con parámetros por encima de los niveles normales para entrenar la respuesta de reposición.
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? El mecanismo de reposición depende de que el producto lleve un sistema autónomo con sensores, supuesto que excluye bienes ya fabricados y distribuidos sin ese sistema y limita la aplicabilidad a la recuperación de empresas con inventario y activos preexistentes.
@@ -23805,15 +23831,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 158 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 19 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 2 | reivindicaciones | Reivindicaciones 1, 13 | Alta |
-| Palabras leídas por OCR | 39560 | palabras | Páginas leídas | Media |
-| Páginas leídas | 71 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 433823 | palabras | Texto completo | Media |
+| Páginas reconocidas | 532 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -23828,7 +23854,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Patente concedida (B2): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Usa gemelos digitales y sensores para detectar daño o exposición a condiciones ambientales adversas y activar la reposición, lo que la acerca a la continuidad operativa; sin embargo, el objeto es la contratación de futuros y contratos inteligentes entre comprador y vendedor, sin eventos sísmicos ni recuperación de empresas afectadas. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Las reivindicaciones 9 y 12 incluyen daño o exposición ambiental adversa detectada por sensores durante el transporte y pruebas de estrés del gemelo digital con parámetros por encima de los niveles normales; la descripción incluye incidentes por eventos naturales y contingencias adversas (clima, epidemias, pandemias). El objeto es la contratación de futuros y no la recuperación de empresas tras un sismo. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | La patente no analiza el riesgo de contraparte tras un evento destructivo (insolvencia, cierre), que es central para la recuperación empresarial. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -23848,7 +23874,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Nombre | Tipo | Observación |
 |---|---|---|
 | Contratos de futuros convencionales sin contratos inteligentes (categoría genérica) | Alternativa financiera | No especificada en el documento |
-| Seguros paramétricos (categoría genérica, no mencionada en las páginas leídas) | Alternativa de transferencia de riesgo | No documentada: se propone como contraste del analista |
+| Seguros paramétricos (categoría genérica, no mencionada en el texto) | Alternativa de transferencia de riesgo | No documentada: se propone como contraste del analista |
 
 
 #### B.8 Variables econométricas y vacíos
@@ -23869,7 +23895,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-004 | P004 — Distributed ledger for additive manufacturing in value chain networks
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12675781_B2_184-049-713-759-966.pdf · 432 páginas (121 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Comparte el uso de gemelos digitales y de aprendizaje automático, pero se aplica a redes de manufactura aditiva distribuida con libro mayor distribuido y contratos inteligentes; en las páginas leídas no hay tratamiento de desastres, sismos ni recuperación productiva.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_12675781_B2_184-049-713-759-966.pdf · 432 páginas (121 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Aplica gemelos digitales y aprendizaje automático a redes de manufactura aditiva distribuida con libro mayor y contratos inteligentes; la descripción de plataforma incluye pruebas de estrés de resiliencia e incidentes por eventos naturales, pero ninguna reivindicación ni desarrollo trata de recuperación productiva tras desastres.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -23906,18 +23932,20 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Recomendaciones sobre material de impresión, nodo de manufactura y fuente de suministro (3-4); simulaciones sobre diversos gemelos de la red (2, 5-11, 17-18); tipos de entidad de la red (12); aplicación descentralizada descargable (13); interfaz de usuario de vistas unificadas (14); trazabilidad de extremo a extremo (15); y acceso a datos de verificación de manufactura (21).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: no se informan pruebas de impresión, cotizaciones ni datos de uso.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción incluye las secciones VCIT (pruebas de estrés para 'run any what-if scenarios' y evaluar la resiliencia de la infraestructura de la red, p. 198; escenario adverso 'a natural calamity, a congested route, a change in law') y VCIM (incidentes con 'earthquakes, floods, hurricanes, tsunamis', p. 199) y la simulación de fallas ante 'seismic events' (p. 251), comunes a la plataforma del titular. Las reivindicaciones tratan solo de manufactura aditiva distribuida, libro mayor y contratos inteligentes.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Datos de impresoras 3D, piezas impresas, procesos y nodos de manufactura; no se detallan sensores específicos en las páginas leídas.
 
-**Limitaciones de la lectura.** Lectura parcial por OCR; el documento tiene 432 páginas y 121 hojas de dibujos.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (432 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
 
 **Tesis.** Un libro mayor distribuido enlazado a un hilo digital y a simulaciones en gemelos digitales permite cotizar, contratar y trazar la fabricación aditiva entre nodos distribuidos con una vista unificada para todas las partes.
 
-**Antítesis.** La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni, en las páginas leídas, en la descripción. La trazabilidad por cadena de bloques depende de infraestructura de cómputo y comunicaciones que se interrumpen tras un sismo, aspecto que no se examina.
+**Antítesis.** La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni en el texto leído; la descripción de plataforma trata los eventos naturales como incidentes genéricos. La trazabilidad por cadena de bloques depende de infraestructura de cómputo y comunicaciones que se interrumpen tras un sismo, aspecto que no se examina.
 
 **Síntesis.** Para el corpus, el documento es un ejemplo de arquitectura que integra gemelos, aprendizaje automático y registro distribuido en un dominio manufacturero. La posibilidad de reubicar producción entre nodos tras la interrupción de una planta es una hipótesis de investigación, sin respaldo en el texto leído.
 
@@ -23941,10 +23969,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 66 de 432 páginas (15 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 432 de 432 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 162; sensor 25; aprendizaje automático 52; cadena de bloques o contrato inteligente 126; sismo 0; desastre 1; interrupción 2; resiliencia 2.
+- **Frecuencias en el texto completo:** gemelo digital 2600; sensor 766; aprendizaje automático 581; cadena de bloques o contrato inteligente 314; sismo 2; desastre 8; interrupción 15; resiliencia 8.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -23955,17 +23983,17 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Momento | Contenido |
 |---|---|
 | Tesis | Un libro mayor distribuido enlazado a un hilo digital y a simulaciones en gemelos digitales permite cotizar, contratar y trazar la fabricación aditiva entre nodos distribuidos con una vista unificada para todas las partes. |
-| Antítesis | La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni, en las páginas leídas, en la descripción. La trazabilidad por cadena de bloques depende de infraestructura de cómputo y comunicaciones que se interrumpen tras un sismo, aspecto que no se examina. |
+| Antítesis | La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni en el texto leído; la descripción de plataforma trata los eventos naturales como incidentes genéricos. La trazabilidad por cadena de bloques depende de infraestructura de cómputo y comunicaciones que se interrumpen tras un sismo, aspecto que no se examina. |
 | Síntesis | Para el corpus, el documento es un ejemplo de arquitectura que integra gemelos, aprendizaje automático y registro distribuido en un dominio manufacturero. La posibilidad de reubicar producción entre nodos tras la interrupción de una planta es una hipótesis de investigación, sin respaldo en el texto leído. |
 
 
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con (a) sistema de contratos inteligentes; (b) plataforma de manufactura aditiva con inteligencia artificial que aprende de un conjunto de entrenamiento de resultados, parámetros y datos de entidades de la red (piezas impresas, produc…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: no se informan pruebas de impresión, cotizaciones ni datos de uso.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se examina la disponibilidad de nodos, energía y comunicaciones en condiciones de desastre.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Para el corpus, el documento es un ejemplo de arquitectura que integra gemelos, aprendizaje automático y registro distribuido en un dominio manufacturero.
-- **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni, en las páginas leídas, en la descripción.
+- **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La manufactura aditiva distribuida podría apoyar la producción alternativa tras un desastre, pero ese uso no se formula en las reivindicaciones ni en el texto leído; la descripción de plataforma trata los eventos naturales como incidentes genéricos.
 - **P6 Hipótesis rival.** ¿Qué alternativa explicaría igual el resultado o resolvería el mismo problema? Mercados de manufactura bajo demanda sin cadena de bloques (categoría genérica): alternativa comercial.
 
 
@@ -23977,15 +24005,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 121 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 21 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 3 | reivindicaciones | Reivindicaciones 1, 16, 19 | Alta |
-| Palabras leídas por OCR | 33351 | palabras | Páginas leídas | Media |
-| Páginas leídas | 66 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 355655 | palabras | Texto completo | Media |
+| Páginas reconocidas | 432 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24000,7 +24028,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Patente concedida (B2): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Comparte el uso de gemelos digitales y de aprendizaje automático, pero se aplica a redes de manufactura aditiva distribuida con libro mayor distribuido y contratos inteligentes; en las páginas leídas no hay tratamiento de desastres, sismos ni recuperación productiva. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Aplica gemelos digitales y aprendizaje automático a redes de manufactura aditiva distribuida con libro mayor y contratos inteligentes; la descripción de plataforma incluye pruebas de estrés de resiliencia e incidentes por eventos naturales, pero ninguna reivindicación ni desarrollo trata de recuperación productiva tras desastres. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se examina la disponibilidad de nodos, energía y comunicaciones en condiciones de desastre. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24040,7 +24068,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-005 | P005 — Control tower and enterprise management platform with robotic process automation systems managing product outcomes and activities
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0035342_A1_160-612-539-353-969.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Reutiliza gemelos digitales, sensores y aprendizaje automático dentro de una plataforma de cadena de valor con RPA; no trata amenazas naturales ni recuperación productiva en el texto leído.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0035342_A1_160-612-539-353-969.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Reutiliza gemelos digitales, sensores y aprendizaje automático dentro de una plataforma de cadena de valor con RPA; no trata amenazas naturales ni recuperación productiva en el texto leído; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24077,11 +24105,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** La reivindicación 31 y las reivindicaciones 2-30 enumeran acciones automatizadas: cantidad de pedido, transportista, proveedor, variación de producto para mercadeo, surtido en estantería, precio, ofertas de servicio y paquetes, kits y descripciones de producto, ruta de navegación web, nivel de inventario, tipo y calendario de logística, entradas de aprendizaje automático, documentación y divulgaciones, requisitos locales y compatibilidad, solicitudes de propuesta, equipos de almacén o centro de cumplimiento, clasificación de defectos en imágenes, inspección con sensores y diagnósticos a bordo, sensores ambientales de la cadena de suministro, entradas, salidas y elementos visuales del gemelo digital, diagnóstico de demora, congestión o escasez, sobrecostos y defectos, y predicción de mantenimiento de infraestructura.
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sensores de calidad, diagnósticos a bordo, IoT y sensores ambientales de la cadena de suministro (reivindicaciones 20-23).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (353 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24112,10 +24142,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 353 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 353 de 353 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 406; sensor 17; aprendizaje automático 24; cadena de bloques o contrato inteligente 10; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2983; sensor 578; aprendizaje automático 472; cadena de bloques o contrato inteligente 186; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24133,7 +24163,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema de tecnologías de la información con (a) plataforma en la nube con arquitectura de microservicios, interfaces, instalaciones de conectividad, de inteligencia adaptativa o de monitorización, coordinadas para la monitorización y gestión…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? La publicación y la concesión P001 comparten familia; la relación exacta con la solicitud 17/460,995 solo se conoce por la publicación previa US 2022/0035341 A1, que no está en la carpeta.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? El documento es un antecedente técnico (estado de la técnica) de funciones de automatización, útil para el corpus como catálogo de entradas y salidas del gemelo digital, no como evidencia de desempeño.
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La publicación comparte descripción con P006-P010 y con la concesión P001 (misma familia de la solicitud PCT/US2020/059227).
@@ -24148,15 +24178,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 31 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 31995 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 291477 | palabras | Texto completo | Media |
+| Páginas reconocidas | 353 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24171,7 +24201,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Reutiliza gemelos digitales, sensores y aprendizaje automático dentro de una plataforma de cadena de valor con RPA; no trata amenazas naturales ni recuperación productiva en el texto leído. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Reutiliza gemelos digitales, sensores y aprendizaje automático dentro de una plataforma de cadena de valor con RPA; no trata amenazas naturales ni recuperación productiva en el texto leído; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | La publicación y la concesión P001 comparten familia; la relación exacta con la solicitud 17/460,995 solo se conoce por la publicación previa US 2022/0035341 A1, que no está en la carpeta. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24211,7 +24241,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-006 | P006 — Managing demand factors and infrastructure facilities of control tower and enterprise management platform
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036274_A1_109-046-043-097-006.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Plataforma de cadena de valor que gestiona factores de demanda, de oferta e instalaciones de infraestructura (puertos, buques, almacenes); comparte tecnologías con el corpus, no su dominio.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036274_A1_109-046-043-097-006.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Plataforma de cadena de valor que gestiona factores de demanda, de oferta e instalaciones de infraestructura (puertos, buques, almacenes); comparte tecnologías con el corpus, no su dominio; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24248,11 +24278,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Factores de oferta: disponibilidad y ubicación de componentes y materiales, precios, impuestos, aranceles, regulación, congestión, capacidad de buques y contenedores, disponibilidad de puertos y almacenes, disponibilidad y competencia de trabajadores y rutas (2). Factores de demanda: disponibilidad y precio de producto, plazos de entrega, necesidad de reposición (3). Infraestructura: buques, puertos, grúas y otros (4). Aplicaciones de cadena de suministro, activos, riesgo e inventario (5); interfaces de demanda y suministro (6); recolección de datos autoconfigurable (7), gemelo digital de entidades (8), contrato inteligente (9); almacenamiento distribuido, cadena de bloques, libro mayor y base de grafos (10-13); monitorización IoT y sensores en instalaciones (14-15).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sistemas IoT y sensores en instalaciones de infraestructura (reivindicaciones 14-15).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (353 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24283,10 +24315,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 353 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 353 de 353 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 403; sensor 13; aprendizaje automático 24; cadena de bloques o contrato inteligente 15; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2979; sensor 572; aprendizaje automático 473; cadena de bloques o contrato inteligente 192; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24304,7 +24336,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con plataforma en la nube coordinada 'for monitoring and management of the value chain network entities', en que la plataforma 'manages a set of demand factors, a set of supply factors, or a set of supply chain infrastructure faciliti…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? Los factores de oferta no se asocian a eventos de amenaza natural en las reivindicaciones.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Aporta una lista estructurada de variables de oferta y de demanda (disponibilidad de puertos, capacidad de almacenes, disponibilidad de trabajadores, seguridad de rutas) útil para parametrizar escenarios de interrupción, sin evidencia de desempeño..
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La lista de factores de oferta incluye 'port availability', 'warehouse capacity', 'worker availability' y 'route safety', que son variables relevantes para la recuperación tras un evento, pero se presentan como parámetros de gestión ordinaria y no como efectos de un desastre..
@@ -24319,15 +24351,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 15 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 31750 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 291105 | palabras | Texto completo | Media |
+| Páginas reconocidas | 353 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24342,7 +24374,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Plataforma de cadena de valor que gestiona factores de demanda, de oferta e instalaciones de infraestructura (puertos, buques, almacenes); comparte tecnologías con el corpus, no su dominio. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Plataforma de cadena de valor que gestiona factores de demanda, de oferta e instalaciones de infraestructura (puertos, buques, almacenes); comparte tecnologías con el corpus, no su dominio; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | Los factores de oferta no se asocian a eventos de amenaza natural en las reivindicaciones. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24382,7 +24414,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-007 | P007 — Internet of things resources and network and data facilities for control tower and enterprise management platform with adaptive intelligence
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036275_A1_151-020-705-101-252.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Incluye una capa de recolección de datos con recursos de internet de las cosas; comparte la tecnología de sensado con el corpus, pero en una plataforma de cadena de valor.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036275_A1_151-020-705-101-252.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Incluye una capa de recolección de datos con recursos de internet de las cosas; comparte la tecnología de sensado con el corpus, pero en una plataforma de cadena de valor; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24419,11 +24451,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Factores de oferta, demanda e infraestructura (2-4); aplicaciones de cadena de suministro, activos, riesgo e inventario (5); conectividad 5G (6), IoT (7), redes cognitivas (8) y entre pares (9) desplegadas en instalaciones de infraestructura; inteligencia en el borde (10), recolección autoconfigurable (11), gemelo digital de entidades (12) y contrato inteligente (13); almacenamiento distribuido, cadena de bloques o libro mayor (14) y base de grafos (15); monitorización IoT o sensores (16); y aplicaciones de al menos dos tipos (17).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Recursos IoT, sistemas 5G, redes cognitivas, entre pares, sensores en instalaciones (reivindicaciones 6-9, 16).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (353 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24454,10 +24488,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 353 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 353 de 353 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 398; sensor 13; aprendizaje automático 23; cadena de bloques o contrato inteligente 15; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2984; sensor 575; aprendizaje automático 474; cadena de bloques o contrato inteligente 192; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24475,7 +24509,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con plataforma en la nube que gestiona 'a set of demand factors, a set of supply factors and a set of supply chain infrastructure facilities'; aplicaciones; y 'a set of microservices layers' con 'a data collection layer that collects…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se examina la continuidad de conectividad tras la falla de infraestructura.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? La solicitud aporta la lista de medios de conexión (5G, redes cognitivas, entre pares, borde) para una plataforma de cadena de valor; su valor para el corpus es de referencia técnica de arquitectura IoT y no de evidencia de resiliencia..
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? Esta solicitud destaca conectividad 5G, redes cognitivas y redes entre pares como medios de conexión, lo que se aproxima a la discusión de resiliencia de comunicaciones del corpus, pero ninguna reivindicación trata de la continuidad de la conectividad tras una falla de infraestructura..
@@ -24490,15 +24524,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 17 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 31822 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 291450 | palabras | Texto completo | Media |
+| Páginas reconocidas | 353 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24513,7 +24547,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Incluye una capa de recolección de datos con recursos de internet de las cosas; comparte la tecnología de sensado con el corpus, pero en una plataforma de cadena de valor. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Incluye una capa de recolección de datos con recursos de internet de las cosas; comparte la tecnología de sensado con el corpus, pero en una plataforma de cadena de valor; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se examina la continuidad de conectividad tras la falla de infraestructura. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24553,7 +24587,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-008 | P008 — Network and data facilities of control tower and enterprise management platform with adaptive intelligence
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036302_A1_054-614-052-796-262.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Define interfaces de demanda y de cadena de suministro y facilidades de red y de datos con inteligencia adaptativa; clase G16Y (internet de las cosas) en la clasificación, sin dominio sísmico.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0036302_A1_054-614-052-796-262.pdf · 353 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Define interfaces de demanda y de cadena de suministro y facilidades de red y de datos con inteligencia adaptativa; clase G16Y (internet de las cosas) en la clasificación, sin dominio sísmico; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24590,11 +24624,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Conectividad 5G, IoT, cognitiva y entre pares en instalaciones de infraestructura (2-5); inteligencia en el borde (6) y RPA (7); recolección autoconfigurable (8); gemelo digital (9); contrato inteligente (10); almacenamiento distribuido, cadena de bloques, libro mayor, base de grafos (11-14); monitorización por sensores en instalaciones (16); aplicaciones (17-18); entidades de la red (19) y tipos de aplicaciones (20).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** IoT, sensores en instalaciones, 5G (reivindicaciones 2-3, 16).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (353 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24625,10 +24661,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 353 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 353 de 353 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 398; sensor 12; aprendizaje automático 25; cadena de bloques o contrato inteligente 16; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2990; sensor 573; aprendizaje automático 470; cadena de bloques o contrato inteligente 190; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24646,7 +24682,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con plataforma en la nube cuyo conjunto de interfaces 'includes at least one of a demand management interface and a supply chain management interface'; aplicaciones de gestión; y 'a unified set of robotic process automation systems ……
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? La contribución técnica distintiva de la reivindicación 1 frente a P006 y P007 es limitada.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Es un documento de arquitectura sin resultados; su utilidad es de referencia de clasificación (G16Y) y de relación con las demás publicaciones de la familia..
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La reivindicación 1 se define por la presencia de ciertas interfaces junto con RPA unificada y no por un método técnico específico, de modo que su alcance es amplio y su contribución técnica distintiva frente a P006 y P007 no se desprende de las páginas leídas..
@@ -24661,15 +24697,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 20 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 31556 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 290987 | palabras | Texto completo | Media |
+| Páginas reconocidas | 353 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24684,7 +24720,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Define interfaces de demanda y de cadena de suministro y facilidades de red y de datos con inteligencia adaptativa; clase G16Y (internet de las cosas) en la clasificación, sin dominio sísmico. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Define interfaces de demanda y de cadena de suministro y facilidades de red y de datos con inteligencia adaptativa; clase G16Y (internet de las cosas) en la clasificación, sin dominio sísmico; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | La contribución técnica distintiva de la reivindicación 1 frente a P006 y P007 es limitada. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24724,7 +24760,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-009 | P009 — Artificial intelligence system for control tower and enterprise management platform managing sensors and cameras
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0044204_A1_180-114-595-488-765.pdf · 354 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Reivindica un sistema de aprendizaje automático que recomienda la colocación de sensores y cámaras cuyos datos alimentan un gemelo digital; es la solicitud de la familia más próxima al sensado del corpus, pero en cadenas de valor.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0044204_A1_180-114-595-488-765.pdf · 354 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Reivindica un sistema de aprendizaje automático que recomienda la colocación de sensores y cámaras cuyos datos alimentan un gemelo digital; es la solicitud de la familia más próxima al sensado del corpus, pero en cadenas de valor; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24761,11 +24797,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Interfaces de demanda y suministro (2); aplicaciones (3, 19, 26); conectividad 5G, IoT, cognitiva y entre pares (4-7); inteligencia en el borde (8), RPA (9), recolección autoconfigurable (10), gemelo digital (11), contrato inteligente (12); almacenamiento distribuido, cadena de bloques, libro mayor y grafos (13-16); monitorización IoT y sensores (17-18); activos (20); entidades (21); factores de demanda, oferta e infraestructura (22-25).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** Sensores y cámaras adicionales recomendados por el sistema de aprendizaje; IoT y sensores en instalaciones (reivindicaciones 17-18).
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (354 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24796,10 +24834,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 63 de 354 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 354 de 354 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 404; sensor 16; aprendizaje automático 24; cadena de bloques o contrato inteligente 18; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2978; sensor 576; aprendizaje automático 470; cadena de bloques o contrato inteligente 193; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24817,7 +24855,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con plataforma en la nube y aplicaciones de gestión desde el origen al cliente, más el sistema de aprendizaje automático o inteligencia artificial que recomienda sensores o cámaras adicionales cuyos datos alimentan el gemelo digital.…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se define qué magnitud optimiza la recomendación de colocación (cobertura, costo, redundancia).
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Para el corpus, el interés es la formulación del problema de colocación de sensores guiada por datos y retroalimentada al gemelo; no hay evidencia sobre el desempeño del método ni criterio de optimalidad..
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La colocación de sensores adicionales por recomendación del sistema de aprendizaje es una idea transferible a la monitorización estructural, pero el documento no describe criterios de optimalidad (cobertura, costo, redundancia)..
@@ -24832,15 +24870,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 26 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 32261 | palabras | Páginas leídas | Media |
-| Páginas leídas | 63 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 291673 | palabras | Texto completo | Media |
+| Páginas reconocidas | 354 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -24855,7 +24893,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Reivindica un sistema de aprendizaje automático que recomienda la colocación de sensores y cámaras cuyos datos alimentan un gemelo digital; es la solicitud de la familia más próxima al sensado del corpus, pero en cadenas de valor. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Reivindica un sistema de aprendizaje automático que recomienda la colocación de sensores y cámaras cuyos datos alimentan un gemelo digital; es la solicitud de la familia más próxima al sensado del corpus, pero en cadenas de valor; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se define qué magnitud optimiza la recomendación de colocación (cobertura, costo, redundancia). | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -24895,7 +24933,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 ## FP-L01-010 | P010 — Artificial intelligence system for control tower and enterprise management platform managing logistics system
 
-Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0058569_A1_078-577-946-534-051.pdf · 352 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Es la única solicitud de la familia cuya reivindicación 1 reproduce el resumen (recomendación de diseño logístico con gemelos digitales y simulación en lazo cerrado); el dominio es el diseño de sistemas logísticos.)
+Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo: Patentes /US_2022_0058569_A1_078-577-946-534-051.pdf · 352 páginas (82 hojas de dibujos) · Relevancia para el eje del corpus: **Periférico** (Es la única solicitud de la familia cuya reivindicación 1 reproduce el resumen (recomendación de diseño logístico con gemelos digitales y simulación en lazo cerrado); el dominio es el diseño de sistemas logísticos; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados.)
 
 
 ### PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0, módulo de patentes)
@@ -24932,11 +24970,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Salida gráfica de la simulación (2); resultado de simulación que refuerza el modelo (3); solicitud desde un sistema de diseño logístico con factores de producto, volumen y rutas (4-5); datos de resultados de la recomendación (6); minimización de un criterio (7) y cumplimiento de restricciones (8).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción, común a la familia, incluye la sección 'Value Chain Infrastructure Testing (VCIT)', en que gemelos digitales de entidades de la red de cadena de valor realizan pruebas de estrés con parámetros que 'exceed normal operating levels' para evaluar la resiliencia de la red, con 'natural calamities' entre los factores de oferta, y la sección 'Value Chain Incident Management (VCIM)', que enumera como incidentes 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network' (VCIM, p. 174 del PDF), la simulación de fallas 'in response to seismic events' (p. 228) y el gemelo digital del director ejecutivo con alerta de 'a natural disaster or epidemic' (p. 234). Ninguno de estos pasajes está reivindicado en esta publicación.
+
+**Evidencia empírica.** No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 
 **Sensores y fuentes de datos.** No se detallan sensores específicos en la reivindicación 1.
 
-**Limitaciones de la lectura.** Lectura parcial por OCR (portada, 33 primeras páginas de dibujos, una de cada 20 páginas de descripción y reivindicaciones). El estado legal posterior de la solicitud no puede verificarse con el archivo.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (352 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -24967,10 +25007,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 62 de 352 páginas (18 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 352 de 352 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 431; sensor 12; aprendizaje automático 33; cadena de bloques o contrato inteligente 14; sismo 0; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 2994; sensor 572; aprendizaje automático 479; cadena de bloques o contrato inteligente 189; sismo 2; desastre 4; interrupción 3; resiliencia 5.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -24988,7 +25028,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 1: sistema con (a) sistema de aprendizaje automático que entrena un modelo que emite una recomendación de diseño logístico; (b) sistema de inteligencia artificial que recibe una solicitud y determina la recomendación; y (c) sistema de gemelos di…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: la descripción (párrafos numerados hasta cerca de [2093]) formula realizaciones 'in embodiments' sin datos experimentales ni casos de usuario.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? No se halló evidencia empírica propia: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) en el texto completo solo devolvió usos metodológicos o descripciones de realizaciones ('in embodiments'), sin mediciones de desempeño, usuarios ni casos reales.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se declaran los criterios de minimización (reivindicación 7) ni las restricciones de cumplimiento (reivindicación 8) de manera operativa.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Aporta una estructura de lazo cerrado simulación-recomendación aplicable a la planificación de contingencia; sin evidencia y sin criterio de desempeño, es una hipótesis de diseño..
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? Es el único caso de la familia con lazo cerrado explícito entre simulación del gemelo y recomendación del modelo, mecanismo que podría usarse para planificar respuestas a interrupciones; no obstante, el criterio de desempeño y el origen de los datos de entrenamiento no se detallan..
@@ -25003,15 +25043,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 82 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 8 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 1 | reivindicaciones | Reivindicaciones 1 | Alta |
-| Palabras leídas por OCR | 32367 | palabras | Páginas leídas | Media |
-| Páginas leídas | 62 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 290649 | palabras | Texto completo | Media |
+| Páginas reconocidas | 352 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |
@@ -25026,7 +25066,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Riesgo de lectura | Evidencia | Impacto |
 |---|---|---|
 | Inferir eficacia de la concesión o de la publicación | Solicitud de patente publicada (A1): la concesión acredita requisitos legales, no desempeño | Sobrestima la madurez tecnológica |
-| Generalizar al dominio sísmico | Es la única solicitud de la familia cuya reivindicación 1 reproduce el resumen (recomendación de diseño logístico con gemelos digitales y simulación en lazo cerrado); el dominio es el diseño de sistemas logísticos. | Extrapolación sin respaldo textual |
+| Generalizar al dominio sísmico | Es la única solicitud de la familia cuya reivindicación 1 reproduce el resumen (recomendación de diseño logístico con gemelos digitales y simulación en lazo cerrado); el dominio es el diseño de sistemas logísticos; la descripción común incluye pruebas de estrés de resiliencia e incidentes por eventos naturales (incluidos terremotos), no reivindicados. | Extrapolación sin respaldo textual |
 | Tomar listas de realizaciones como implementaciones | No se declaran los criterios de minimización (reivindicación 7) ni las restricciones de cumplimiento (reivindicación 8) de manera operativa. | Confunde alcance de protección con funcionamiento |
 
 **Recomendación:** Usar como evidencia del estado de la técnica, no como evidencia de eficacia.
@@ -25103,11 +25143,13 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 **Reivindicaciones dependientes.** Comunicar la identidad del conjunto base al solicitante (2, 8); crear el gemelo nuevo con valores por defecto del conjunto base (3); solicitud por una interfaz de mercado de gemelos digitales (5); seguimiento de ubicación y nueva sugerencia al cambiar de entorno (6); recursos digitales del gemelo: lista de materiales, manuales, códigos de falla, archivos de diseño, modelos de realidad aumentada, planes de mantenimiento, modelo operativo, estrategia de existencias, modelo de pronóstico, modelos de información de construcción (15); aprendizaje automático sobre datos operativos para ajustar la política (16); gemelos con modelo geométrico tridimensional (17); tipos de activo: vehículos, puentes, edificios, postes, hidrantes, muros contra inundaciones, teléfonos de emergencia, bombas, componentes eléctricos, climatización, instalaciones e infraestructura (18); plan de mantenimiento (19) y estrategia de existencias (20).
 
-**Evidencia empírica.** Ninguna en las páginas leídas: las realizaciones son ejemplos ilustrativos (repintado de puentes; neumáticos de camiones) sin datos de campo.
+**Pasajes de la descripción relevantes para el eje del corpus.** La descripción menciona 'earthquakes' junto con mareas, flora y fauna y terreno como factores ambientales posibles que podrían influir en una política de mantenimiento o de inventario de repuestos (párrafo [0052], p. 12 del PDF); no hay otras menciones de sismo ni de recuperación.
+
+**Evidencia empírica.** Ninguna: los ejemplos (repintado de puentes; neumáticos de camiones) son ilustrativos y no hay datos de campo.
 
 **Sensores y fuentes de datos.** Datos meteorológicos de servicios comerciales por interfaz de programación; sensores en el activo o en su proximidad; GPS para reubicación (descripción).
 
-**Limitaciones de la lectura.** Lectura completa de las 15 páginas por OCR; dos de los pasajes de la descripción se leen con ruido. No hay datos empíricos que evaluar.
+**Limitaciones de la lectura.** Texto completo reconocido por OCR (15 páginas). El análisis se basa en la lectura de la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos; no equivale a una lectura frase por frase de toda la descripción. El OCR puede omitir líneas o alterar caracteres, por lo que las citas se limitan a fragmentos legibles.
 
 
 #### Capa 3 — Abstracción propositiva
@@ -25138,10 +25180,10 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 
 #### Capa 4 — Control de calidad
 
-- **Cobertura de lectura:** 15 de 15 páginas (100 %) leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.
-- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.
+- **Cobertura de lectura:** 15 de 15 páginas (100 %) reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.
+- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).
 - **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.
-- **Frecuencias en las páginas leídas:** gemelo digital 86; sensor 4; aprendizaje automático 8; cadena de bloques o contrato inteligente 0; sismo 1; desastre 0; interrupción 0; resiliencia 0.
+- **Frecuencias en el texto completo:** gemelo digital 87; sensor 4; aprendizaje automático 8; cadena de bloques o contrato inteligente 0; sismo 1; desastre 0; interrupción 0; resiliencia 0.
 
 
 ### PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
@@ -25159,7 +25201,7 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 #### B.2 Interrogación socrática
 
 - **P1 Aclaración.** ¿Qué se reivindica exactamente? Reivindicación 14 (método): recibe conjuntos de datos de activos de un tipo común con identidad, ubicación y 'a first environment-related policy'; recibe una solicitud de un nuevo activo; determina las condiciones ambientales relevantes para seleccionar la pol…
-- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna en las páginas leídas: las realizaciones son ejemplos ilustrativos (repintado de puentes; neumáticos de camiones) sin datos de campo.
+- **P2 Evidencia.** ¿Qué evidencia respalda la eficacia? Ninguna: los ejemplos (repintado de puentes; neumáticos de camiones) son ilustrativos y no hay datos de campo.
 - **P3 Supuestos.** ¿Qué supone el documento sin probarlo? No se define la métrica de similitud ambiental ni el umbral para declarar 'similar'.
 - **P4 Implicaciones.** Si el sistema funcionara como se describe, ¿qué cambiaría para la recuperación productiva de una empresa afectada por un sismo? Para el corpus, el documento ilustra una forma de transferencia de conocimiento entre gemelos por similitud de entorno, aplicable en principio a activos de infraestructura expuestos a amenazas.
 - **P5 Contraejemplo.** ¿Qué caso contradice o limita la tesis? La política se elige por analogía con activos ya operados bajo condiciones similares; esto asume que las condiciones ambientales seleccionadas explican la política óptima y que existen suficientes activos comparables, supuesto que no se prueba.
@@ -25174,15 +25216,15 @@ Corpus de origen: **PATENTES (carpeta Patentes /, PDF de Lens.org)** · Archivo:
 | Hojas de dibujos | 5 | hojas | Cabecera 'Sheet n of N' | Alta |
 | Reivindicaciones | 20 | reivindicaciones | Última página | Alta |
 | Reivindicaciones independientes | 3 | reivindicaciones | Reivindicaciones 1, 7, 14 | Alta |
-| Palabras leídas por OCR | 9426 | palabras | Páginas leídas | Media |
-| Páginas leídas | 15 | páginas | Muestreo | Alta |
+| Palabras reconocidas por OCR | 9294 | palabras | Texto completo | Media |
+| Páginas reconocidas | 15 | páginas | Texto completo | Alta |
 
 
 #### B.4 Evaluación multinivel de madurez
 
 | Dimensión | Score | Aplica | Evidencia | Justificación |
 |---|---|---|---|---|
-| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
+| TRL | 2 | Sí | Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo. | Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior. |
 | MRL | N/A | No | No aplica | El documento no evalúa capacidad de manufactura ni producción. |
 | BRL | N/A | No | No determinable | El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio. |
 | IRL | 2 | Sí | Las reivindicaciones definen interfaces entre capas y componentes (plataforma, aplicaciones, gemelo, sensores). | Interfaces identificadas y descritas funcionalmente, sin prueba de integración. |

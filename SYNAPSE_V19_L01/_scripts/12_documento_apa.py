@@ -162,7 +162,7 @@ FUT_LIST=[
 "**Síntesis con protocolo.** Búsqueda propia con cadena registrada, doble revisión y evaluación de calidad, que incluya literatura sin etiqueta de Industria 4.0 y fuentes regionales en español (proposiciones P-E2 y P-E3).",
 "**Ponderación de la evidencia por grupo de autoría y réplica independiente** de los estudios de alerta sísmica de bajo costo y de monitoreo estructural con IoT.",
 "**Guías de reporte para estudios tecnológicos:** intervalos de confianza, validación externa, repetición y datos disponibles (proposición P-E4).",
-"**Módulo de patentes.** Completar la lectura de las 11 patentes aportadas, verificar su estado legal y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).",
+"**Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).",
 "**Cobertura regional.** Estudios y datos de regiones sísmicas de América Latina, incluidos seguros, créditos de reconstrucción y política pública.",
 ]
 # ---------- composición ----------
@@ -204,9 +204,9 @@ H(3,"Puntaje de integración relacional"); emit(sec(REL,"5."))
 PIF=f"{L}/patentes/informe_patentes.md"; PI=open(PIF).read().split("\n") if os.path.exists(PIF) else []
 if PI:
     H(2,"Módulo de patentes")
-    P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.")
+    P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.")
     emit(sub(PI,"3.3")); emit(sub(PI,"3.4"))
-    FIG("fig_patentes_terminos.png","Frecuencia de términos del eje del corpus en las patentes","la frecuencia de términos del eje del corpus en las páginas leídas de cada patente","*Nota.* Apariciones por 1.000 palabras en las páginas leídas por reconocimiento óptico (62 a 75 páginas por patente, salvo P011, leída completa). Elaboración propia (`patentes/csv/patentes_terminos.csv`).")
+    FIG("fig_patentes_terminos.png","Frecuencia de términos del eje del corpus en las patentes","la frecuencia de términos del eje del corpus en el texto completo de cada patente","*Nota.* Apariciones por 1.000 palabras en el texto completo reconocido por OCR (4.048 páginas; frecuencias como límites inferiores). Los diez documentos de Strong Force comparten una descripción de plataforma. Elaboración propia (`patentes/csv/patentes_terminos.csv`).")
     FIG("fig_patentes_relaciones.png","Relaciones entre las patentes y los documentos del corpus","las relaciones tipificadas entre las patentes y los documentos del corpus","*Nota.* El color de la línea indica el tipo de relación; los arcos de la izquierda unen patentes de una misma familia o con funciones afines. Elaboración propia (`patentes/csv/patentes_relaciones.csv`).")
 H(1,"Discusión de controversias")
 for p in ESCENA_CONTROV: P(p)

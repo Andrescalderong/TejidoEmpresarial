@@ -28,7 +28,7 @@ def tabla(h, rows):
 ORDEN_REF = sorted(P, key=lambda p: (p["autores_apa"].split(",")[0], p["autores_apa"], CITE[p["id"]][1], p["titulo"]))
 
 def madurez(p):
-    ev = ("Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en las páginas leídas.")
+    ev = ("Descripción de arquitectura y de realizaciones ('in embodiments') sin datos de prueba, desempeño ni usuarios en el texto completo.")
     return dict(trl=(2, ev, "Concepto tecnológico formulado y descrito (TRL 2 de la escala NASA); el texto no informa de pruebas analíticas ni experimentales que sustenten un nivel superior."),
                 mrl=(None, "No aplica", "El documento no evalúa capacidad de manufactura ni producción."),
                 brl=(None, "No determinable", "El documento no contiene datos de mercado, ingresos, clientes ni modelo de negocio verificables; la titularidad comercial no equivale a madurez de negocio."),
@@ -81,15 +81,16 @@ def ficha(p, n):
     t += "### Capa 2 — Extracción técnica\n\n"
     t += f"**Objetivo de la invención.** {p['objetivo']}\n\n**Problema técnico.** {p['problema']}\n\n**Solución técnica.** {p['solucion']}\n\n"
     t += f"**Reivindicaciones independientes.** {p['reiv_resumen']}\n\n**Reivindicaciones dependientes.** {p['dependientes']}\n\n"
+    if p.get("espec_eje"): t += f"**Pasajes de la descripción relevantes para el eje del corpus.** {p['espec_eje']}\n\n"
     t += f"**Evidencia empírica.** {p['evidencia']}\n\n**Sensores y fuentes de datos.** {p['sens']}\n\n**Limitaciones de la lectura.** {p['limites']}\n\n"
     t += "### Capa 3 — Abstracción propositiva\n\n"
     t += f"**Tesis.** {p['tesis']}\n\n**Antítesis.** {p['antitesis']}\n\n**Síntesis.** {p['sintesis']}\n\n**Zonas grises.**\n\n" + "\n".join(f"{i+1}. {g}" for i, g in enumerate(p["grises"])) + "\n\n"
     t += "**Ideas propositivas.**\n\n" + "\n".join(f"{i+1}. {g}" for i, g in enumerate(p["ideas"])) + "\n\n**Relaciones con otros documentos.**\n\n" + "\n".join(f"- **{r[0]}** {r[1]}: {r[2]}" for r in p["relaciones"]) + "\n\n"
     t += "### Capa 4 — Control de calidad\n\n"
-    t += f"- **Cobertura de lectura:** {cov} leídas por reconocimiento óptico de caracteres (portada, 33 primeras páginas, una de cada 20 páginas intermedias, últimas 14 páginas con las reivindicaciones). El resto no se leyó.\n"
-    t += "- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (muestreo); baja para lo no leído.\n"
+    t += f"- **Cobertura de lectura:** {cov} reconocidas por OCR (texto completo). El análisis usa la portada, las reivindicaciones y las secciones localizadas por búsqueda de términos.\n"
+    t += "- **Confianza:** alta para datos de portada y reivindicaciones; media para la descripción (búsqueda de términos y lectura de las secciones localizadas, no lectura frase por frase).\n"
     t += "- **Advertencias:** los PDF son imágenes sin capa de texto; la lectura óptica puede omitir líneas. Las citas literales se limitan a fragmentos legibles.\n"
-    t += f"- **Frecuencias en las páginas leídas:** gemelo digital {k['digital twin']}; sensor {k['sensor']}; aprendizaje automático {k['machine learning']}; cadena de bloques o contrato inteligente {k['blockchain/smart contract']}; sismo {k['earthquake/seismic']}; desastre {k['disaster']}; interrupción {k['disruption']}; resiliencia {k['resilience']}.\n\n"
+    t += f"- **Frecuencias en el texto completo:** gemelo digital {k['digital twin']}; sensor {k['sensor']}; aprendizaje automático {k['machine learning']}; cadena de bloques o contrato inteligente {k['blockchain/smart contract']}; sismo {k['earthquake/seismic']}; desastre {k['disaster']}; interrupción {k['disruption']}; resiliencia {k['resilience']}.\n\n"
     t += "## PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO\n\n### B.1 Análisis dialéctico\n\n"
     t += tabla(["Momento", "Contenido"], [["Tesis", p["tesis"]], ["Antítesis", p["antitesis"]], ["Síntesis", p["sintesis"]]]) + "\n"
     t += "### B.2 Interrogación socrática\n\n" + "\n".join(f"- **{a}.** {b}" for a, b in socratica(p)) + "\n\n"
@@ -97,7 +98,7 @@ def ficha(p, n):
     t += tabla(["Indicador", "Valor", "Unidad", "Ubicación", "Confianza"],
         [["Páginas del PDF", p["paginas"], "páginas", "Archivo", "Alta"], ["Hojas de dibujos", p["hojas"], "hojas", "Cabecera 'Sheet n of N'", "Alta"],
          ["Reivindicaciones", p["reiv"], "reivindicaciones", "Última página", "Alta"], ["Reivindicaciones independientes", len(p["indep"]), "reivindicaciones", "Reivindicaciones " + ", ".join(map(str, p["indep"])), "Alta"],
-         ["Palabras leídas por OCR", k["palabras"], "palabras", "Páginas leídas", "Media"], ["Páginas leídas", k["paginas"], "páginas", "Muestreo", "Alta"]]) + "\n"
+         ["Palabras reconocidas por OCR", k["palabras"], "palabras", "Texto completo", "Media"], ["Páginas reconocidas", k["paginas"], "páginas", "Texto completo", "Alta"]]) + "\n"
     t += "### B.4 Evaluación multinivel de madurez\n\n"
     t += tabla(["Dimensión", "Score", "Aplica", "Evidencia", "Justificación"],
         [[d.upper(), m[d][0] if m[d][0] is not None else "N/A", "Sí" if m[d][0] is not None else "No", m[d][1], m[d][2]] for d in ("trl", "mrl", "brl", "irl", "drl", "srl")]) + "\n"

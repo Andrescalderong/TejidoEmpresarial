@@ -26,6 +26,6 @@ D. CSV por lote (19), informe del lote (>5 000 palabras), FICHA_RESUMEN_LOTE (16
 
 ## Módulo de patentes (ejecutado)
 - La carpeta `Patentes /` (11 PDF escaneados de Lens.org; 10 de Strong Force VCN, 1 de IBM) llegó por `main` y se analizó en un módulo separado (`patentes/`; DOCS=101 no cambia).
-- Flujo: `14_patentes_ocr.py` (OCR parcial: portada, páginas 2-33, últimas 14, una de cada 20; texto en `patentes/_ocr_texto/`) → `14b_patentes_terminos.py` → `patentes_data.py` (análisis redactado por el analista a partir del texto leído) → `15_patentes.py` (fichas P001-P011, CSV) → `15b_informe_patentes.py` → `15c_figuras_patentes.py`.
-- Límites: cobertura de lectura parcial (≈ 14 % de las páginas); estado legal sin verificar; no se infiere madurez comercial de la titularidad; relevancia máxima: adyacente (P002).
+- Flujo: `14_patentes_ocr.py` (OCR completo de las 4.048 páginas; texto en `patentes/_ocr_texto/`) → `14b_patentes_terminos.py` → `patentes_data.py` (análisis redactado por el analista a partir del texto leído) → `15_patentes.py` (fichas P001-P011, CSV) → `15b_informe_patentes.py` → `15c_figuras_patentes.py`.
+- Límites: el análisis usa búsqueda de términos y lectura de pasajes localizados, no lectura frase por frase; frecuencias como límites inferiores por errores de OCR; estado legal sin verificar; no se infiere madurez comercial de la titularidad; adyacentes: P002 y P003.
 - Documento final: `12_documento_apa.py` → `13_docx_apa.js` (DOCX con figuras) → `16_documento_md.py` (Markdown con enlaces a `figuras/`).

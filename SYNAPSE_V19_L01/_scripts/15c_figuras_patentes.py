@@ -22,7 +22,7 @@ ax.set_xticks(range(len(cols))); ax.set_xticklabels([n for _, n in cols], rotati
 ax.set_yticks(range(len(t))); ax.set_yticklabels([f"{d} ({c})" for d, c in zip(t.doc_id, inv.numero)], fontsize=8)
 for i in range(M.shape[0]):
     for j in range(M.shape[1]): ax.text(j, i, f"{M[i,j]:.2f}" if M[i, j] else "0", ha="center", va="center", fontsize=7, color="white" if M[i, j] > M.max() * 0.55 else "black")
-ax.set_title("Frecuencia de términos por 1.000 palabras en las páginas leídas de cada patente", fontsize=10)
+ax.set_title("Frecuencia de términos por 1.000 palabras en el texto completo de cada patente", fontsize=10)
 fig.colorbar(im, ax=ax, fraction=0.03, label="apariciones por 1.000 palabras"); fig.tight_layout(); fig.savefig(f"{F}/fig_patentes_terminos.png",dpi=150); fig.savefig(f"{F}/fig_patentes_terminos.svg"); plt.close(fig)
 
 # relaciones patentes -> documentos del corpus y entre patentes

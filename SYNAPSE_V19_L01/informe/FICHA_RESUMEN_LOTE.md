@@ -72,11 +72,11 @@ Riesgos principales: usar proxies técnicos como beneficio empresarial; usar D10
 2. Diseñar un estudio empírico de transferencia tecnológica con empresas afectadas por sismos, con capacidad de absorción como moderador (P-E5).
 3. Usar D100 y D101 solo como mapas de búsqueda y registrar una búsqueda propia con doble revisión.
 4. Ponderar la evidencia por grupo de autoría y exigir intervalos de confianza y validación externa.
-5. Ampliar el módulo de patentes: 11 patentes analizadas con lectura parcial (`patentes/`); faltan lectura completa, estado legal y búsqueda sistemática.
+5. Ampliar el módulo de patentes: 11 patentes analizadas con OCR de sus 4.048 páginas (`patentes/`); faltan estado legal, lectura frase por frase de los pasajes críticos y búsqueda sistemática.
 
 **Valor estratégico.** Fija qué evidencia puede sustentar decisiones de inversión y cuál es una hipótesis, y señala el vacío central del corpus.
 
-**¿Qué se me escapa?** Lectura completa y estado legal de las 11 patentes, búsqueda sistemática de patentes, registros de Scopus sin PDF y siete referencias de D100 fuera del lote, literatura regional en español, datos empresariales de cierre e ingresos, y una verificación entre revisores de los juicios de madurez.
+**¿Qué se me escapa?** Estado legal y lectura frase por frase de las 11 patentes, búsqueda sistemática de patentes, registros de Scopus sin PDF y siete referencias de D100 fuera del lote, literatura regional en español, datos empresariales de cierre e ingresos, y una verificación entre revisores de los juicios de madurez.
 
 **Documentos núcleo de mayor valor estratégico:** D011 (8/10); D053 (8/10); D081 (8/10); D004 (7/10); D005 (7/10); D013 (7/10); D048 (7/10); D064 (7/10).
 

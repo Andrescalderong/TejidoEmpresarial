@@ -8,7 +8,7 @@ terms = {"digital twin": r"digital\s*twin", "earthquake/seismic": r"earthquake|s
          "IoT": r"internet of things|\bIoT\b|\bloT\b", "sensor": r"sensor", "machine learning": r"machine[- ]learn|machine-learned", "blockchain/smart contract": r"blockchain|smart contract", "pandemic": r"pandemic|covid"}
 res = {}
 for f in glob.glob(f"{OUT}/_ocr_texto/*.txt"):
-    tag = re.sub(r"_p\d+\.txt$", "", os.path.basename(f)); t = open(f).read()
+    tag = re.sub(r"_p\d+\.txt$", "", os.path.basename(f)); t = re.sub(r"(\w)-\s+(\w)", r"\1\2", open(f).read())  # une palabras partidas por guion de fin de línea
     d = res.setdefault(tag, {"paginas": 0, "palabras": 0, **{k: 0 for k in terms}})
     d["paginas"] += 1; d["palabras"] += len(t.split())
     for k, r in terms.items(): d[k] += len(re.findall(r, t, flags=re.I))

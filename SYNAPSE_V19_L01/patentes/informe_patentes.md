@@ -4,11 +4,11 @@
 
 ## 1. Alcance y método
 
-La carpeta `Patentes /` del repositorio contiene 11 documentos de patente en formato PDF, descargados de Lens.org (4 patentes concedidas con código B2 y 7 publicaciones de solicitud con código A1). Los archivos son imágenes escaneadas sin capa de texto. Se aplicó reconocimiento óptico de caracteres (RapidOCR, sobre imágenes de 150 ppp, lectura por columnas) a una parte de cada documento: la portada, las primeras 33 páginas (hojas de dibujos), las últimas 14 páginas (reivindicaciones) y una de cada 20 páginas intermedias. En total se leyeron 662 de 4,048 páginas (16.4 %), equivalentes a 353,633 palabras. El texto reconocido se conserva en `patentes/_ocr_texto/`.
+La carpeta `Patentes /` del repositorio contiene 11 documentos de patente en formato PDF, descargados de Lens.org (4 patentes concedidas con código B2 y 7 publicaciones de solicitud con código A1). Los archivos son imágenes escaneadas sin capa de texto. Se aplicó reconocimiento óptico de caracteres (RapidOCR, sobre imágenes de 150 ppp, lectura por columnas) a todas las páginas: 4,048 de 4,048 páginas, equivalentes a 3,343,240 palabras. El texto reconocido se conserva en `patentes/_ocr_texto/`. En una primera pasada se había leído solo una muestra (portada, dibujos iniciales, reivindicaciones y una página de cada 20); las cifras y pasajes de este informe corresponden a la lectura completa y sustituyen a los de la muestra.
 
 Las patentes forman un módulo separado del lote de 101 documentos (DOCS=101 no cambia). Se identifican con claves P001 a P011, se les asignó una ficha de cuatro capas adaptada a documentos de patente y se evaluaron con las mismas dimensiones de madurez, vacíos y relaciones que los demás documentos. Las adaptaciones son tres: la referencia APA 7 usa el formato de patente; el estado legal no se asume (solo el código de tipo indica concesión); y los niveles TRL, IRL y DRL se limitan a lo que el texto sustenta, sin inferir madurez comercial de la titularidad.
 
-Limitaciones de método. La lectura parcial implica que la ausencia de un término en las páginas leídas no equivale a ausencia en el documento; las frecuencias que se presentan son de las páginas leídas. La lectura óptica puede omitir líneas, por lo que se citan fragmentos literales solo cuando son legibles. El estado legal posterior de las solicitudes y la vigencia de las concedidas no pueden verificarse con los archivos.
+Limitaciones de método. El análisis no equivale a una lectura frase por frase de unas 4.000 páginas: se basa en la lectura de la portada y de las reivindicaciones y en la localización de secciones mediante búsqueda de términos (gemelo digital, sismo, desastre, interrupción, resiliencia, prueba de estrés, evidencia empírica), con lectura de los pasajes hallados. La lectura óptica puede omitir líneas o alterar caracteres, por lo que las frecuencias son límites inferiores y las citas literales se limitan a fragmentos legibles. El estado legal posterior de las solicitudes y la vigencia de las concedidas no pueden verificarse con los archivos.
 
 ## 2. Inventario
 
@@ -16,7 +16,7 @@ Limitaciones de método. La lectura parcial implica que la ausencia de un térmi
 |---|---|---|---|---|---|---|---|
 | P001 | US 12,277,524 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 30 (1) | 344 | Periférico |
 | P002 | US 12,314,060 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 30 de noviembre de 2023 | 28 (1, 18) | 607 | Adyacente |
-| P003 | US 12,567,082 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 7 de marzo de 2023 | 19 (1, 13) | 532 | Periférico |
+| P003 | US 12,567,082 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 7 de marzo de 2023 | 19 (1, 13) | 532 | Adyacente |
 | P004 | US 12,675,781 B2 | B2 | Strong Force VCN Portfolio 2019, LLC | 28 de febrero de 2022 | 21 (1, 16, 19) | 432 | Periférico |
 | P005 | US 2022/0035342 A1 | A1 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 31 (1) | 353 | Periférico |
 | P006 | US 2022/0036274 A1 | A1 | Strong Force VCN Portfolio 2019, LLC | 30 de agosto de 2021 | 15 (1) | 353 | Periférico |
@@ -50,35 +50,51 @@ La tabla indica si las reivindicaciones independientes y dependientes transcrita
 
 El gemelo digital aparece en las reivindicaciones de 11 de 11 patentes y los sensores o el IoT en 8. El aprendizaje automático o la inteligencia artificial figuran en 8, y la automatización robótica de procesos en 6. Las tres tecnologías que el corpus de 101 documentos asocia con la recuperación (gemelo digital, IoT y análisis de datos) están presentes, pero aplicadas a cadenas de valor, manufactura y mantenimiento de activos, no a recuperación tras un sismo.
 
-### 3.2 Términos del eje del corpus en las páginas leídas
+### 3.2 Términos del eje del corpus en el texto completo
 
-| ID | Páginas leídas | Gemelo digital | Sismo o terremoto | Desastre | Amenaza natural | Interrupción | Resiliencia | Recuperación | Pandemia |
+| ID | Páginas | Gemelo digital | Sismo o terremoto | Desastre | Amenaza natural | Interrupción | Resiliencia | Recuperación | Pandemia |
 |---|---|---|---|---|---|---|---|---|---|
-| P001 | 62 | 459 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P002 | 75 | 410 | 0 | 2 | 0 | 16 | 2 | 0 | 4 |
-| P003 | 71 | 176 | 0 | 1 | 0 | 2 | 4 | 0 | 4 |
-| P004 | 66 | 162 | 0 | 1 | 1 | 2 | 2 | 0 | 4 |
-| P005 | 62 | 406 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P006 | 62 | 403 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P007 | 62 | 398 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P008 | 62 | 398 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P009 | 63 | 404 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P010 | 62 | 431 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| P011 | 15 | 86 | 1 | 0 | 3 | 0 | 0 | 0 | 0 |
+| P001 | 344 | 2970 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P002 | 607 | 3160 | 2 | 14 | 8 | 85 | 8 | 1 | 12 |
+| P003 | 532 | 2896 | 2 | 13 | 8 | 32 | 8 | 1 | 12 |
+| P004 | 432 | 2600 | 2 | 8 | 8 | 15 | 8 | 1 | 7 |
+| P005 | 353 | 2983 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P006 | 353 | 2979 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P007 | 353 | 2984 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P008 | 353 | 2990 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P009 | 354 | 2978 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P010 | 352 | 2994 | 2 | 4 | 5 | 3 | 5 | 0 | 0 |
+| P011 | 15 | 87 | 1 | 0 | 3 | 0 | 0 | 0 | 0 |
 
-El gemelo digital es el término más frecuente (3733 apariciones en 662 páginas leídas). Las menciones de sismo suman 1, las de desastre 4, las de interrupción 20, las de resiliencia 8 y las de recuperación 0. Estas frecuencias provienen de un muestreo y deben leerse como límites inferiores. Los pasajes identificados que sustentan la relación con el eje del corpus incluyen: la referencia a 'a natural disaster or epidemic' como evento externo que puede interrumpir operaciones y la lista de tareas de mitigación (proveedores múltiples, inventario de amortiguación, transporte alterno) en Cella et al., 2025a (P002); la inclusión de 'earthquakes' entre los factores ambientales posibles en Berti y DeLuca, 2022 (P011); la exposición a condiciones ambientales adversas o daño detectada por sensores en Cella y Locke, 2026 (P003), cuya descripción menciona además 'natural disasters' entre los eventos que activan la predicción de necesidades de recursos de flota. Con el muestreo realizado no se encontraron otras menciones de sismo.
+El gemelo digital es el término más frecuente (29621 apariciones en 4,048 páginas). Las menciones de sismo suman 21, las de desastre 63, las de interrupción 153, las de resiliencia 59 y las de recuperación 3. Las frecuencias son límites inferiores por la lectura óptica. Los diez documentos de Strong Force comparten una descripción de plataforma, de modo que sus frecuencias no son observaciones independientes. La tabla siguiente cuenta las secciones de la descripción que interesan al eje del corpus: las pruebas de estrés de resiliencia de la red con gemelos digitales (VCIT), la gestión de incidentes (VCIM), las pruebas de estrés en general, las menciones de eventos o desastres naturales como factores de oferta o incidentes, y las de riesgo o interrupción de la cadena de suministro.
+
+| ID | VCIT | VCIM | Pruebas de estrés | Eventos o desastres naturales | Riesgo o interrupción de la cadena de suministro |
+|---|---|---|---|---|---|
+| P001 | 1 | 1 | 17 | 4 | 0 |
+| P002 | 1 | 1 | 17 | 11 | 10 |
+| P003 | 1 | 1 | 18 | 8 | 7 |
+| P004 | 1 | 1 | 17 | 6 | 1 |
+| P005 | 1 | 1 | 17 | 4 | 0 |
+| P006 | 1 | 1 | 17 | 4 | 0 |
+| P007 | 1 | 1 | 17 | 4 | 0 |
+| P008 | 1 | 1 | 17 | 4 | 0 |
+| P009 | 1 | 1 | 17 | 4 | 0 |
+| P010 | 1 | 1 | 17 | 4 | 0 |
+| P011 | 0 | 0 | 0 | 0 | 0 |
+
+En las diez patentes de Strong Force la descripción incluye la sección de pruebas de estrés de infraestructura (VCIT) y la de gestión de incidentes (VCIM). En la primera, gemelos digitales de las entidades de la red ejecutan pruebas con parámetros que 'exceed normal operating levels' para evaluar la resiliencia, con 'natural calamities' entre los factores de oferta. En la segunda, los incidentes incluyen 'natural events and/or disasters (including storms, heat waves, winds, earthquakes, floods, hurricanes, tsunamis, etc.)' y se prevé la visualización en tiempo real para 'quantifying risks, improving visibility and reacting to the disruptions in the value chain network'. Otros pasajes son la simulación de fallas de objetos estibados 'in response to seismic events' y el gemelo digital del director ejecutivo que alerta sobre 'an external event likely to disrupt operations (such as a natural disaster or epidemic)'. En Cella et al., 2025a (P002) la descripción añade un proceso de determinación y mitigación de riesgos de interrupción: clasifica el estado de la red con modelos de IA, determina un riesgo potencial ('a supply chain disruption … caused by … natural disasters, political instability, or pandemics') y ejecuta acciones de mitigación (marcar el riesgo, diversificar proveedores, inventarios de seguridad, transportes alternos, renegociación de contratos). En Cella y Locke, 2026 (P003) las contingencias adversas del contrato de futuros incluyen 'disruptions due to weather or climate, epidemics, pandemics'. En Berti y DeLuca, 2022 (P011), 'earthquakes' figura entre los factores ambientales posibles. Estos pasajes son descripciones genéricas de eventos y funciones; ninguno incluye un modelo de daño físico ni de tiempo de recuperación de empresas.
 
 ### 3.3 Relevancia para el eje del corpus
 
-Ninguna patente se clasifica como núcleo. P002 se clasifica como adyacente por tratar la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores. Las demás se clasifican como periféricas (10 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) pero no el dominio de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes.
+Ninguna patente se clasifica como núcleo. P002 y P003 se clasifican como adyacentes: P002 trata la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores (reivindicaciones 1, 5 y 6), y P003 reivindica la detección por sensores de daño o exposición ambiental adversa y pruebas de estrés del gemelo con parámetros por encima de los niveles normales (reivindicaciones 9 y 12). Las demás se clasifican como periféricas (9 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) y, en la descripción, secciones de pruebas de estrés e incidentes por eventos naturales, pero sus reivindicaciones no tratan de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes y cambió respecto de la primera pasada (muestra), en que solo P002 era adyacente.
 
 ### 3.4 Madurez
 
-Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque las páginas leídas no contienen pruebas experimentales, integración probada ni conjuntos de datos reales. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
+Todas las patentes se evaluaron con TRL 2 (concepto formulado y descrito), IRL 2 y DRL 2, porque el texto completo no contiene pruebas experimentales, integración probada ni conjuntos de datos reales: una búsqueda de términos de resultados (prototipo, piloto, experimento, resultados, caso de estudio, desplegado) solo devolvió usos metodológicos y descripciones de realizaciones. El BRL, el MRL y el SRL no se determinan: los documentos no contienen datos de mercado, de manufactura ni componentes evaluados por separado. La titularidad por una empresa comercial no se interpretó como madurez de negocio. El valle de la muerte aplicable es V1 (investigación sin aplicación), limitado a lo que el texto permite afirmar.
 
 ## 4. Análisis dialéctico del módulo
 
-La tesis es que los gemelos digitales alimentados por sensores y gestionados con aprendizaje automático y automatización de procesos permiten automatizar decisiones de cadena de valor que reducen interrupciones, lo que sustentaría la continuidad operativa tras un evento. La antítesis es que una patente delimita lo reivindicable y no lo comprobado: las 11 patentes no informan de datos de desempeño, las listas de realizaciones son amplias y el disparador de la reivindicación 1 de Cella et al., 2025a es un umbral de demanda y las reivindicaciones 5 y 6 añaden la determinación de una interrupción mediante simulación, sin que las páginas leídas describan un modelo de daño físico. La síntesis es que el módulo aporta un inventario técnico de funciones (recolección de datos, simulación, recomendación, ejecución automática, contratación automatizada) que puede traducirse en requisitos de un sistema de continuidad empresarial, y que la hipótesis de que dichas funciones reduzcan el tiempo de reanudación tras un sismo permanece sin evidencia en este material.
+La tesis es que los gemelos digitales alimentados por sensores y gestionados con aprendizaje automático y automatización de procesos permiten automatizar decisiones de cadena de valor que reducen interrupciones, lo que sustentaría la continuidad operativa tras un evento. La antítesis es que una patente delimita lo reivindicable y no lo comprobado: las 11 patentes no informan de datos de desempeño, las listas de realizaciones son amplias y el disparador de la reivindicación 1 de Cella et al., 2025a es un umbral de demanda y las reivindicaciones 5 y 6 añaden la determinación de una interrupción mediante simulación, sin que el texto describa un modelo de daño físico. La síntesis es que el módulo aporta un inventario técnico de funciones (recolección de datos, simulación, recomendación, ejecución automática, contratación automatizada) que puede traducirse en requisitos de un sistema de continuidad empresarial, y que la hipótesis de que dichas funciones reduzcan el tiempo de reanudación tras un sismo permanece sin evidencia en este material.
 
 Preguntas socráticas del módulo. ¿Qué parte de las reivindicaciones describe funciones ya implementadas y cuál describe una cobertura de protección? Los documentos no permiten responder. ¿Qué cambia en el diseño si el disparador es el daño y no la demanda? Cambia el modelo de simulación del gemelo, que debería representar la pérdida de capacidad productiva y logística, y los modelos de recuperación del corpus (por ejemplo, D011) proporcionan esa estructura. ¿Qué hipótesis rival explicaría la misma utilidad con menor complejidad? Reglas de inventario de seguridad y contratos paramétricos de seguro pueden cubrir parte de la función sin gemelo digital, alternativa que ningún documento del módulo evalúa.
 
@@ -94,11 +110,11 @@ Se registraron 33 relaciones tipificadas entre patentes y documentos del lote o 
 
 ## 6. Discusión de controversias
 
-Primera controversia: valor probatorio. Una patente concedida acredita novedad y actividad inventiva ante una oficina, no eficacia. Tratar las patentes como evidencia de madurez tecnológica sobrestima el nivel de preparación. Por ello el módulo las clasifica como estado de la técnica. Segunda controversia: amplitud de las reivindicaciones. Las listas dependientes enumeran decenas de funciones (en Cella et al., 2025b, 29 dependientes), lo que puede interpretarse como cobertura defensiva; el texto leído no permite distinguir funciones implementadas de funciones solo reivindicadas. Tercera controversia: familias repetidas. Seis documentos comparten descripción, de modo que sus frecuencias de términos no son observaciones independientes; contarlas como seis fuentes duplicaría el peso de un mismo texto. Cuarta controversia: libertad de operación. La existencia de reivindicaciones amplias sobre plataformas de cadena de valor con gemelos digitales puede condicionar desarrollos posteriores; este informe no constituye un análisis jurídico y no determina infracción ni libertad de operación.
+Primera controversia: valor probatorio. Una patente concedida acredita novedad y actividad inventiva ante una oficina, no eficacia. Tratar las patentes como evidencia de madurez tecnológica sobrestima el nivel de preparación. Por ello el módulo las clasifica como estado de la técnica. Segunda controversia: amplitud de las reivindicaciones. Las listas dependientes enumeran decenas de funciones (en Cella et al., 2025b, 29 dependientes), lo que puede interpretarse como cobertura defensiva; el texto no permite distinguir funciones implementadas de funciones solo reivindicadas. Tercera controversia: familias repetidas. Los diez documentos de Strong Force comparten una descripción de plataforma (incluidas las secciones VCIT y VCIM), de modo que sus frecuencias de términos no son observaciones independientes; contarlos como diez fuentes multiplicaría el peso de un mismo texto. Cuarta controversia: pasajes genéricos. Las menciones de terremotos e incidentes naturales aparecen en listas de ejemplos, no en reivindicaciones ni en modelos, de modo que no sustentan por sí solas aplicabilidad a recuperación sísmica. Quinta controversia: libertad de operación. La existencia de reivindicaciones amplias sobre plataformas de cadena de valor con gemelos digitales puede condicionar desarrollos posteriores; este informe no constituye un análisis jurídico y no determina infracción ni libertad de operación.
 
 ## 7. Premortem y escenarios
 
-Premortem. Causas probables de que la incorporación de las patentes lleve a conclusiones erróneas: (1) tratar la titularidad comercial como evidencia de uso; (2) extrapolar a sismos a partir de menciones aisladas; (3) contar como independientes documentos de una misma familia; (4) leer solo una parte del documento y concluir ausencia; (5) asumir estado legal vigente. Contingencias: mantener las patentes como módulo separado, registrar la cobertura de lectura, ponderar por familia y verificar el estado legal en una base oficial antes de cualquier uso jurídico o comercial.
+Premortem. Causas probables de que la incorporación de las patentes lleve a conclusiones erróneas: (1) tratar la titularidad comercial como evidencia de uso; (2) extrapolar a sismos a partir de menciones aisladas; (3) contar como independientes documentos de una misma familia; (4) concluir ausencia de un tema a partir de una búsqueda de términos sujeta a errores de OCR; (5) asumir estado legal vigente. Contingencias: mantener las patentes como módulo separado, registrar el método de lectura, ponderar por familia y verificar el estado legal en una base oficial antes de cualquier uso jurídico o comercial.
 
 | Futuro | Objetivo | Tres opciones viables |
 |---|---|---|
@@ -107,14 +123,14 @@ Premortem. Causas probables de que la incorporación de las patentes lleve a con
 | A. Se acumula evidencia empírica sobre gemelos digitales en recuperación | Reducir costo de inicialización | Plantillas por similitud sísmica como en P011; bibliotecas abiertas de gemelos; reutilización entre activos similares |
 | B. La evidencia sigue siendo escasa | Mantener vigilancia tecnológica | Registro anual de patentes y solicitudes; alertas por clasificación G06Q y G16Y; revisión de estado legal |
 | B. La evidencia sigue siendo escasa | Acotar la hipótesis | Reducir el alcance a una función (inventario de seguridad); probar un solo disparador; comparar con reglas simples |
-| B. La evidencia sigue siendo escasa | Priorizar documentos de mayor valor | Concentrar la lectura completa en P002, P003 y P009; ampliar OCR completo; consultar listados oficiales de reivindicaciones |
+| B. La evidencia sigue siendo escasa | Priorizar documentos de mayor valor | Concentrar la lectura frase por frase en P002, P003 y P009; revisión por un segundo lector; consultar listados oficiales de reivindicaciones |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Evaluar libertad de operación | Análisis jurídico por abogado de patentes; revisión de estado legal; diseño alternativo sin las funciones reivindicadas |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Usar alternativas abiertas | Gemelos con estándares abiertos; contratos paramétricos de seguro; reglas de inventario sin plataforma propietaria |
 | C. Las reivindicaciones amplias condicionan el desarrollo | Cooperar con titulares | Licencias de investigación; acuerdos de transferencia; pilotos conjuntos con universidades |
 
 ## 8. ¿Qué se me escapa?
 
-Se escapan seis aspectos. (1) La mayor parte del texto de cada patente no se leyó (cobertura 16.4 %); una lectura completa por OCR de unas 4,048 páginas aumentaría la cobertura y permitiría un conteo exacto de términos. (2) El estado legal de las solicitudes y la vigencia de las concedidas. (3) Las publicaciones previas faltantes de la familia, como US 2022/0035341 A1. (4) Patentes de otros titulares y de otras jurisdicciones sobre gemelos digitales aplicados a edificios y a recuperación sísmica; la carpeta contiene una muestra que no es una búsqueda sistemática. (5) El análisis de citas hacia delante y hacia atrás entre patentes y literatura científica del corpus. (6) La verificación por un abogado de patentes de la interpretación de las reivindicaciones. Rutas de solución: OCR completo por lotes, consulta de registros oficiales (USPTO) para el estado legal, búsqueda sistemática por clasificación (G06Q 10, G05B 19, G16Y) y revisión jurídica.
+Se escapan cinco aspectos. (1) Una lectura frase por frase de las unas 4.000 páginas y la verificación manual de la calidad del OCR; el análisis se apoya en búsqueda de términos y en la lectura de los pasajes localizados. (2) El estado legal de las solicitudes y la vigencia de las concedidas. (3) Las publicaciones previas faltantes de la familia, como US 2022/0035341 A1. (4) Patentes de otros titulares y de otras jurisdicciones sobre gemelos digitales aplicados a edificios y a recuperación sísmica; la carpeta contiene una muestra que no es una búsqueda sistemática. (5) El análisis de citas hacia delante y hacia atrás entre patentes y literatura científica del corpus, y la verificación por un abogado de patentes de la interpretación de las reivindicaciones. Rutas de solución: revisión por un segundo lector de los pasajes críticos, consulta de registros oficiales (USPTO) para el estado legal, búsqueda sistemática por clasificación (G06Q 10, G05B 19, G16Y) y revisión jurídica.
 
 ## 9. Valor estratégico
 

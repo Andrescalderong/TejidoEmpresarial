@@ -189,7 +189,7 @@ Las variables econométricas (`csv/variables_econometricas.csv`) muestran que lo
 
 ## 11. ¿Qué se me escapa?
 
-1. **Patentes.** Los 103 PDF de las carpetas de las bases bibliográficas son artículos de revista; las 11 patentes se aportaron después en la carpeta `Patentes /` y se analizaron en un módulo separado (`patentes/`) mediante lectura parcial por reconocimiento óptico. Siguen pendientes la lectura completa, la verificación del estado legal y una búsqueda sistemática de patentes por clasificación; sin ellas, la transferencia tecnológica se analiza sobre todo desde la literatura.
+1. **Patentes.** Los 103 PDF de las carpetas de las bases bibliográficas son artículos de revista; las 11 patentes se aportaron después en la carpeta `Patentes /` y se analizaron en un módulo separado (`patentes/`) mediante reconocimiento óptico de sus 4.048 páginas. Siguen pendientes la verificación del estado legal, la lectura frase por frase de los pasajes críticos y una búsqueda sistemática de patentes por clasificación; sin ellas, la transferencia tecnológica se analiza sobre todo desde la literatura.
 2. **Registros sin PDF.** Los registros de Scopus sin texto completo (`scopus_sin_pdf.json`) y las siete referencias de D100 ausentes del lote pueden contener estudios relevantes, en especial sobre pymes y sismos.
 3. **Literatura en español y regional.** Solo 12 documentos están en español y ninguno trata empresas posterremoto en América Latina; no hay datos de seguros, créditos de reconstrucción ni política pública regional.
 4. **Datos empresariales.** No hay series de tiempo de cierre, ingresos o empleo por empresa tras sismos (salvo la comparación con tiempos de cierre observados en D011).
@@ -206,7 +206,7 @@ Las variables econométricas (`csv/variables_econometricas.csv`) muestran que lo
 3. Diseñar un estudio que conecte los parámetros de gemelos digitales e IoT (tiempo de detección, evaluación de daño) con los componentes de demora de los modelos de recuperación empresarial.
 4. Ponderar la evidencia por grupos independientes de autoría.
 5. Exigir en estudios tecnológicos intervalos de confianza, validación externa y repetición.
-6. Ampliar el módulo de patentes con lectura completa, verificación del estado legal y búsqueda sistemática.
+6. Ampliar el módulo de patentes con verificación del estado legal, lectura frase por frase de los pasajes críticos y búsqueda sistemática.
 
 ## 13. Archivos entregados
 
