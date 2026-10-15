@@ -11,6 +11,7 @@ function runs(text,base={}){ // **negrita**, *cursiva*
     last=m.index+t.length; }
   if(last<text.length) out.push(new TextRun({text:text.slice(last),font:FONT,size:base.size||SZ,...base}));
   return out; }
+const CS=20;
 const body=(t,o={})=>new Paragraph({children:runs(t),spacing:{line:DOUBLE,before:0,after:0},indent:{firstLine:720},...o});
 const kids=[];
 // ---- Portada
@@ -32,13 +33,13 @@ kids.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{line:DOUBLE},ch
 const bT={style:BorderStyle.SINGLE,size:8,color:'000000'}, bN={style:BorderStyle.NONE,size:0,color:'FFFFFF'};
 let tabN=0;
 function table(b){
-  tabN++; const rows=b.rows, nc=rows[0].length;
+  if(!b.c) tabN++; const nc=Math.max(...b.rows.map(r=>r.length)); const rows=b.rows.map(r=>r.concat(Array(nc-r.length).fill('')));
   let w=b.w; if(!w){ const mx=Array(nc).fill(1); rows.forEach(r=>r.forEach((c,i)=>{mx[i]=Math.max(mx[i],Math.min(String(c).length,60));})); const s=mx.reduce((a,c)=>a+c,0); w=mx.map(v=>Math.max(8,Math.round(100*v/s))); const t=w.reduce((a,c)=>a+c,0); w=w.map(v=>Math.round(100*v/t)); }
   const tot=w.reduce((a,c)=>a+c,0); const cw=w.map(v=>Math.floor(W_TXT*v/tot)); cw[cw.length-1]+=W_TXT-cw.reduce((a,c)=>a+c,0);
-  const sz=b.small?18:20;
+  const sz=b.c?16:(b.small?18:20);
   const out=[];
-  out.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE>>1+240,before:120,after:0},children:[new TextRun({text:'Tabla '+tabN,bold:true,font:FONT,size:SZ})]}));
-  out.push(new Paragraph({keepNext:true,spacing:{line:240,after:120},children:[new TextRun({text:(b.cap?b.cap[0]:'')+(b.cap&&b.cap[1]?': '+b.cap[1]:''),italics:true,font:FONT,size:SZ})]}));
+  if(!b.c) out.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE>>1+240,before:120,after:0},children:[new TextRun({text:'Tabla '+tabN,bold:true,font:FONT,size:SZ})]}));
+  if(!b.c) out.push(new Paragraph({keepNext:true,spacing:{line:240,after:120},children:[new TextRun({text:(b.cap?b.cap[0]:'')+(b.cap&&b.cap[1]?': '+b.cap[1]:''),italics:true,font:FONT,size:SZ})]}));
   const tr=rows.map((r,ri)=>new TableRow({tableHeader:ri===0,cantSplit:true,children:r.map((c,ci)=>new TableCell({width:{size:cw[ci],type:WidthType.DXA},margins:{top:40,bottom:40,left:80,right:80},
     borders:{top:ri===0?bT:bN,bottom:(ri===0||ri===rows.length-1)?bT:bN,left:bN,right:bN},
     children:[new Paragraph({spacing:{line:240},children:runs(c,{size:sz,bold:ri===0})})]}))}));
@@ -51,9 +52,13 @@ for(const b of D.blocks){
   if(b.t==='h1') kids.push(new Paragraph({alignment:AlignmentType.CENTER,keepNext:true,spacing:{line:DOUBLE},children:runs(b.x,{bold:true})}));
   else if(b.t==='h2') kids.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE},children:runs(b.x,{bold:true})}));
   else if(b.t==='h3') kids.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE},children:runs(b.x,{bold:true,italics:true})}));
+  else if(b.t==='fh1') kids.push(new Paragraph({pageBreakBefore:true,keepNext:true,spacing:{line:260,after:120},children:runs(b.x,{bold:true,size:24})}));
+  else if(b.t==='fh2') kids.push(new Paragraph({keepNext:true,spacing:{line:260,before:160,after:80},children:runs(b.x,{bold:true,size:22})}));
+  else if(b.t==='fh3'||b.t==='fh4') kids.push(new Paragraph({keepNext:true,spacing:{line:260,before:120,after:60},children:runs(b.x,{bold:true,italics:true,size:CS})}));
+  else if(b.t==='p'&&b.c) kids.push(new Paragraph({spacing:{line:240,after:80},children:runs(b.x,{size:CS})}));
   else if(b.t==='p') kids.push(body(b.x));
-  else if(b.t==='ul') b.items.forEach(x=>kids.push(new Paragraph({numbering:{reference:'bul',level:0},spacing:{line:DOUBLE},children:runs(x)})));
-  else if(b.t==='ol'){ olCount++; b.items.forEach(x=>kids.push(new Paragraph({numbering:{reference:'ol'+olCount,level:0},spacing:{line:DOUBLE},children:runs(x)}))); numRefs.push('ol'+olCount); }
+  else if(b.t==='ul') b.items.forEach(x=>kids.push(new Paragraph({numbering:{reference:'bul',level:0},spacing:{line:b.c?240:DOUBLE,after:b.c?60:0},children:runs(x,b.c?{size:CS}:{})})));
+  else if(b.t==='ol'){ olCount++; b.items.forEach(x=>kids.push(new Paragraph({numbering:{reference:'ol'+olCount,level:0},spacing:{line:b.c?240:DOUBLE,after:b.c?60:0},children:runs(x,b.c?{size:CS}:{})}))); numRefs.push('ol'+olCount); }
   else if(b.t==='ref') kids.push(new Paragraph({spacing:{line:DOUBLE},indent:{left:720,hanging:720},children:runs(b.x)}));
   else if(b.t==='pb') kids.push(new Paragraph({children:[new PageBreak()]}));
   else if(b.t==='table') table(b).forEach(x=>kids.push(x));

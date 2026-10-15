@@ -71,11 +71,11 @@ Riesgos principales: usar proxies técnicos como beneficio empresarial; usar D10
 2. Diseñar un estudio empírico de transferencia tecnológica con empresas afectadas por sismos, con capacidad de absorción como moderador (P-E5).
 3. Usar D100 y D101 solo como mapas de búsqueda y registrar una búsqueda propia con doble revisión.
 4. Ponderar la evidencia por grupo de autoría y exigir intervalos de confianza y validación externa.
-5. Completar el módulo de patentes (pendiente: el repositorio no contiene patentes).
+5. Ampliar el módulo de patentes: 11 patentes analizadas con lectura parcial (`patentes/`); faltan lectura completa, estado legal y búsqueda sistemática.
 
 **Valor estratégico.** Fija qué evidencia puede sustentar decisiones de inversión y cuál es una hipótesis, y señala el vacío central del corpus.
 
-**¿Qué se me escapa?** Patentes, registros de Scopus sin PDF y siete referencias de D100 fuera del lote, literatura regional en español, datos empresariales de cierre e ingresos, y una verificación entre revisores de los juicios de madurez.
+**¿Qué se me escapa?** Lectura completa y estado legal de las 11 patentes, búsqueda sistemática de patentes, registros de Scopus sin PDF y siete referencias de D100 fuera del lote, literatura regional en español, datos empresariales de cierre e ingresos, y una verificación entre revisores de los juicios de madurez.
 
 **Documentos núcleo de mayor valor estratégico:** """ + "; ".join(f"{i} ({A[i]['c3']['valor'][0]}/10)" for i in top[:8]) + """.
 
@@ -93,7 +93,7 @@ Estructura: `fichas/` (101), `csv/` (19 + `csv/ml/`), `figuras/`, `informe/`, `_
 
 Reproducción: `01_match_metadata.py`, `02_master_inventory.py`, `03_clean_texts.py`, YAML + `validate_doc.py`, `04_render_fichas.py`, `05_ml_nlp.py`, `06_conexiones.py`, `07_csvs.py`, `08_triangulacion_patrones.py`, `09_figuras.py`, `10_informes.py`, `11_ficha_resumen.py`. Los scripts 05 y 06 leen texto limpio y listas de referencias desde la carpeta de trabajo de la sesión; los resultados de citación verificada están guardados en `_fuente_analitica/aristas_citacion_verificadas.json` y `d100_referencia_a_documento.json`.
 
-Pendiente: módulo de patentes.
+Módulo de patentes: `patentes/` (11 patentes de la carpeta `Patentes /`; informe, fichas P001-P011 y CSV); scripts `14_patentes_ocr.py`, `14b_patentes_terminos.py`, `15_patentes.py`, `15b_informe_patentes.py`.
 """
 open(f"{L}/README.md","w").write(readme)
 print("ficha resumen palabras:",len(md.split()))

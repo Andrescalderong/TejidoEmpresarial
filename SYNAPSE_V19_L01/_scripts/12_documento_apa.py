@@ -157,7 +157,7 @@ FUT_LIST=[
 "**Síntesis con protocolo.** Búsqueda propia con cadena registrada, doble revisión y evaluación de calidad, que incluya literatura sin etiqueta de Industria 4.0 y fuentes regionales en español (proposiciones P-E2 y P-E3).",
 "**Ponderación de la evidencia por grupo de autoría y réplica independiente** de los estudios de alerta sísmica de bajo costo y de monitoreo estructural con IoT.",
 "**Guías de reporte para estudios tecnológicos:** intervalos de confianza, validación externa, repetición y datos disponibles (proposición P-E4).",
-"**Módulo de patentes.** Analizar patentes de gemelos digitales, IoT y alerta sísmica con el mismo esquema, a partir de archivos aportados o de búsqueda autorizada en Google Patents o Espacenet.",
+"**Módulo de patentes.** Completar la lectura de las 11 patentes aportadas, verificar su estado legal y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).",
 "**Cobertura regional.** Estudios y datos de regiones sísmicas de América Latina, incluidos seguros, créditos de reconstrucción y política pública.",
 ]
 # ---------- composición ----------
@@ -185,6 +185,11 @@ H(2,"Triangulación de afirmaciones"); emit(sec(INF,"6."))
 H(2,"Variables econométricas, vacíos y brechas"); emit(sec(INF,"8."))
 H(2,"Análisis relacional"); emit(sec(REL,"2.")); emit(sub(REL,"3.1")); emit(sub(REL,"3.3")); emit(sub(REL,"3.4")); emit(sub(REL,"3.5")); emit(sub(REL,"3.6"))
 H(3,"Puntaje de integración relacional"); emit(sec(REL,"5."))
+PIF=f"{L}/patentes/informe_patentes.md"; PI=open(PIF).read().split("\n") if os.path.exists(PIF) else []
+if PI:
+    H(2,"Módulo de patentes")
+    P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.")
+    emit(sub(PI,"3.3")); emit(sub(PI,"3.4"))
 H(1,"Discusión de controversias")
 for p in ESCENA_CONTROV: P(p)
 H(2,"Contradicciones y tensiones entre documentos"); emit(sub(REL,"3.2"))
@@ -210,6 +215,8 @@ refs=[ref_apa(i) for i in ids]
 meto=[l for l in sec(INF,"14.") if l.strip() and not l.startswith("Revisión final")]
 refs+= [l.strip() for l in meto]
 def keyf(r): return re.sub(r"[^a-záéíóúñ0-9]","",r.lower())
+_pb=f"{L}/patentes/csv/patentes_bibliografia.csv"
+if os.path.exists(_pb): refs+= [r for r in pd.read_csv(_pb).referencia_apa7]
 refs=sorted(set(refs),key=keyf)
 blocks.append(dict(t="pb")); blocks.append(dict(t="h1",x="Referencias"))
 for r in refs: blocks.append(dict(t="ref",x=r))
@@ -243,13 +250,51 @@ for r in sub_.itertuples():
     if r.tipo!="EXTIENDE" and r.origen>r.destino: continue
     rowsE.append([r.origen,r.tipo,r.destino," ".join(str(r.justificacion).split())])
 blocks.append(dict(t="table",rows=rowsE,w=[8,12,8,72],small=True,cap=("Relaciones sustantivas entre documentos","Confirmación, contradicción y extensión; excluye las síntesis de buscadores")))
-# captions para tablas del cuerpo
-caps=[("Naturaleza de los componentes del análisis","Qué se calculó y qué se juzgó"),("Triangulación y escenarios","Futuros posibles, objetivos y opciones viables")]
-k=0
-for b in blocks:
-    if b["t"]=="table" and "cap" not in b:
-        b["cap"]=caps[k] if k<len(caps) else ("Tabla","Resumen"); k+=1
-meta=dict(titulo="Tecnología, transferencia y resiliencia empresarial tras sismos: análisis sistemático del lote L01 con SYNAPSE V19.0",resumen=RESUMEN,kw=KW)
-json.dump(dict(meta=meta,blocks=blocks),open(f"{OUT}/bloques.json","w"),ensure_ascii=False)
-words=sum(len(re.sub(r"\*","",(b.get("x") or "")).split())+sum(len(x.split()) for x in b.get("items",[])) for b in blocks)
+# ---------- fichas (apéndice F) y patentes (apéndice G) en formato compacto ----------
+def ficha_blocks(path):
+    ls=open(path).read().split("\n"); i=0; para=[]
+    def fl():
+        nonlocal para
+        if para: blocks.append(dict(t="p",x=" ".join(para),c=1)); para=[]
+    first=True
+    while i<len(ls):
+        ln=ls[i].rstrip()
+        if not ln.strip(): fl(); i+=1; continue
+        m=re.match(r"^(#{1,4}) (.*)",ln)
+        if m:
+            fl(); n=len(m.group(1)); blocks.append(dict(t="fh%d"%min(n,4),x=m.group(2),pb=(n==1))); i+=1; continue
+        if ln.startswith("> "): fl(); blocks.append(dict(t="p",x=ln[2:].replace("`",""),c=1)); i+=1; continue
+        if ln.startswith("|"):
+            fl(); rows=[]
+            while i<len(ls) and ls[i].startswith("|"):
+                if not re.match(r"^\|[-| :]+\|$",ls[i]): rows.append([c.strip() for c in ls[i].strip().strip("|").split("|")])
+                i+=1
+            blocks.append(dict(t="table",rows=rows,small=True,c=1,cap=("",""))); continue
+        if re.match(r"^\d+\. ",ln):
+            fl(); items=[]
+            while i<len(ls) and re.match(r"^\d+\. ",ls[i]): items.append(re.sub(r"^\d+\. ","",ls[i]).replace("`","")); i+=1
+            blocks.append(dict(t="ol",items=items,c=1)); continue
+        if ln.startswith("- "):
+            fl(); items=[]
+            while i<len(ls) and ls[i].startswith("- "): items.append(ls[i][2:].replace("`","")); i+=1
+            blocks.append(dict(t="ul",items=items,c=1)); continue
+        if ln.strip()=="---": fl(); i+=1; continue
+        para.append(ln.replace("`","")); i+=1
+    fl()
+import glob as _g
+apx("F","Fichas bibliográficas analíticas de los 101 documentos")
+P("Se reproducen las 101 fichas de cuatro capas con el análisis SYNAPSE de cada documento, en el orden de las claves D001 a D101. Las fichas conservan su formato de trabajo (interlineado sencillo y tablas de indicadores) y su referencia APA 7 en la Capa 1.")
+for f in sorted(_g.glob(f"{L}/fichas/D*.md")): ficha_blocks(f)
+PAT=sorted(_g.glob(f"{L}/patentes/fichas/P*.md"))
+if PAT:
+    apx("G","Módulo de patentes: informe y fichas")
+    if PI:
+        lines=[]; skip=False
+        for ln in PI[1:]:
+            if ln.startswith("## 10."): skip=True
+            elif ln.startswith("## "): skip=False
+            if skip: continue
+            lines.append("### "+ln[3:] if ln.startswith("## ") else ln)
+        emit(lines,shift=0)
+    for f in PAT: ficha_blocks(f)
 print("bloques:",len(blocks),"palabras aprox. (cuerpo+refs):",words,"tablas:",sum(1 for b in blocks if b["t"]=="table"),"refs:",len(refs))
