@@ -1,0 +1,116 @@
+doc_id: D024
+relevancia: "Periférico"
+relevancia_just: "Revisión sistemática y bibliométrica (PRISMA) de 33 artículos sobre IoT en cadenas de suministro de alimentos, con trazabilidad, cadena de frío, agricultura de precisión, blockchain e IA; aporta barreras de adopción en contextos de bajos recursos y menciones de resiliencia, pero no trata sismos, recuperación productiva ni gemelos estructurales."
+cluster_tema: "IoT en cadenas de suministro de alimentos"
+metodo_tipo: "Revisión sistemática PRISMA con análisis bibliométrico de palabras clave y análisis de contenido"
+tipo_recurso: "Artículo de revisión (journal peer-reviewed, acceso abierto)"
+kw_inferidas: [cadena de suministro de alimentos inteligente, internet de las cosas, trazabilidad, cadena de frío, agricultura de precisión, blockchain, seguridad alimentaria, revisión sistemática, barreras de adopción, sostenibilidad]
+c2:
+  objetivo: >
+    Examinar mediante una revisión sistemática y un análisis bibliométrico cómo el internet de las cosas (IoT) mejora la seguridad alimentaria, optimiza la eficiencia y promueve la sostenibilidad en las cadenas de suministro de alimentos, e identificar tendencias de investigación, avances tecnológicos, desafíos y oportunidades. El estudio clasifica las aplicaciones de IoT en producción, procesamiento, distribución y venta minorista, explora su integración con blockchain e inteligencia artificial y evalúa beneficios y barreras para orientar la adopción, con énfasis en soluciones económicas y accesibles.
+  pregunta: >
+    El artículo no formula preguntas de investigación numeradas. La pregunta implícita es cómo se usa el IoT en las cadenas de suministro de alimentos, con qué tecnologías complementarias, qué beneficios aporta y qué barreras (costos, privacidad, interoperabilidad, infraestructura) limitan su adopción, en especial en regiones en desarrollo.
+  marco: >
+    El marco es una revisión sistemática guiada por la declaración PRISMA 2020 con un análisis de contenido deductivo e inductivo, apoyado en una clasificación temática construida a partir de los artículos. Parte de la presión sobre la cadena de suministro de alimentos por el aumento de la población (9,7 mil millones hacia 2050 y un incremento de 70 % de la producción necesario según las fuentes de la FAO citadas), el desperdicio y la inocuidad, y concibe el IoT como tecnología habilitadora de monitoreo en tiempo real, trazabilidad y analítica predictiva, complementada con blockchain, IA y gemelos digitales. La orientación es descriptiva y de gestión tecnológica, sin teoría de adopción ni de resiliencia explícita.
+  metodologia: >
+    La búsqueda se hizo en Scopus, Google Scholar y ResearchGate con la cadena (IoT O 'Internet of Things' O 'machine-to-machine') Y alimentos Y (cadena de suministro O términos de optimización, analítica predictiva, simulación, gemelos digitales, modelado, herramientas de decisión, sistemas de apoyo a decisiones o tableros interactivos). El texto afirma que no hubo límites de tiempo, pero luego se aplicó un filtro de 2018 a 2024 y de idioma inglés. La búsqueda inicial arrojó 1497 registros, 1278 tras los filtros, 94 tras cribar títulos y resúmenes y 33 artículos incluidos tras la lectura completa (se excluyeron trabajos puramente técnicos sin contexto de cadena de suministro, revisiones y análisis económicos sin foco en operaciones). Se aplicó un análisis bibliométrico de palabras clave (mapa de árbol y red de co-palabras) y una clasificación de contenido con tablas de extracción. No se informan la concordancia entre revisores ni la evaluación de calidad de los estudios.
+  resultados: >
+    La distribución temporal de los 33 artículos muestra un pico de 11 en 2023, con 8 en 2022 y 7 en 2024, y un artículo en cada uno de 2014, 2017 y 2018; no hay artículos de 2015, 2016, 2019 y 2021. Las palabras clave más prominentes son 'sistemas de apoyo a decisiones' e 'internet de las cosas', junto con toma de decisiones, agricultura, IA y aprendizaje automático. La síntesis de contenido identifica grupos temáticos: integración de IoT en la gestión de la cadena de suministro, tecnologías avanzadas para la eficiencia, trazabilidad y seguridad (blockchain), calidad e inocuidad de los alimentos, optimización logística y papel de la Industria 4.0 en la agricultura inteligente. Entre los beneficios descritos figuran trazabilidad, gestión de la cadena de frío, control de calidad, analítica predictiva, estantes inteligentes y refrigeradores con sensores; se citan cifras externas (aumento de 20 % del rendimiento y reducción de hasta 30 % de agua y fertilizantes por agricultura de precisión según la FAO, reducción de 15 % del desperdicio global por monitoreo de cadena de frío según el Foro Económico Mundial, y 40 % menos costos de transmisión de datos con un sistema de partición dinámica) sin fuentes primarias claras. Las barreras principales son costos, privacidad y seguridad, interoperabilidad, infraestructura de conectividad y energía, y confianza del consumidor.
+  discusion: >
+    Los autores concluyen que el IoT mejora la eficiencia, la trazabilidad, la asignación de recursos y la sostenibilidad, y que reduce el desperdicio y fortalece la confianza del consumidor, pero que su adopción exige soluciones de bajo costo para países en desarrollo. Plantean como líneas de investigación el desarrollo de soluciones accesibles para pequeños productores (por ejemplo, dispositivos de monitoreo de cadena de frío), marcos integrados de IoT con blockchain e IA, gobernanza y cifrado de datos, estándares globales de interoperabilidad, estudios empíricos que cuantifiquen el impacto sobre seguridad alimentaria y soluciones adaptadas por región. Para la gestión y la política recomiendan infraestructura de internet y energía, capacitación, alianzas público-privadas y colaboración entre actores de la cadena.
+  limitaciones: "No se presenta una sección de limitaciones. Implícitas: base de datos y fuentes no estándar (Google Scholar y ResearchGate), n pequeño (33 artículos), contradicción entre el filtro 2018-2024 y la presencia de artículos de 2014 y 2017, ausencia de evaluación de calidad y de concordancia, y cifras de beneficios tomadas de fuentes externas sin verificación."
+  futuro: "Soluciones de IoT de bajo costo y fáciles de usar para pequeños productores, marcos integrados con blockchain, IA y aprendizaje automático, gobernanza de datos y encriptación, estándares globales de interoperabilidad, estudios empíricos que cuantifiquen el impacto sobre seguridad alimentaria y soluciones regionales."
+c3:
+  tesis: >
+    El IoT, combinado con blockchain, IA y analítica, mejora la trazabilidad, el control de calidad, la gestión de la cadena de frío y la eficiencia de las cadenas de suministro de alimentos y reduce el desperdicio, y su adopción amplia depende de resolver costos, interoperabilidad, privacidad e infraestructura, sobre todo en regiones en desarrollo.
+  antitesis: >
+    La base empírica es una muestra de 33 artículos seleccionados con una cadena de búsqueda amplia y bases no estándar, sin evaluación de calidad y con inconsistencias de fechas (un filtro de 2018 a 2024 convive con artículos de 2014 y 2017 y con la afirmación de ausencia de límites temporales). Los beneficios cuantitativos más citados (20 % de rendimiento, 30 % de insumos, 15 % de desperdicio, 40 % de costos de transmisión) se atribuyen a organismos externos o a un sistema particular sin referencias primarias ni contexto, y las frases sobre resiliencia ('más resilientes') se afirman sin medición. Los hallazgos de co-palabras describen frecuencia de términos y no efectos. El título promete revisión de cadenas 'inteligentes', pero la síntesis combina tecnologías de naturaleza muy distinta (sensores, blockchain, IA) y el balance entre beneficios y costos no se cuantifica, de modo que la recomendación de adopción carece de análisis económico.
+  sintesis: >
+    La revisión ofrece un mapa de usos y de barreras del IoT en cadenas de alimentos y la señal de que el mayor vacío es la solución económica y utilizable en contextos de bajos recursos, que coincide con las condiciones de pequeñas empresas tras un desastre. Debe leerse como inventario cualitativo con cifras no verificadas. Para el corpus, la síntesis consiste en adoptar la lista de usos de bajo costo (monitoreo de cadena de frío, trazabilidad básica) como candidatos para la continuidad de empresas de alimentos tras un sismo, y evaluar con datos de pérdidas por cadena de frío interrumpida y costos de dispositivos si el retorno justifica su instalación previa, en lugar de asumir los beneficios citados.
+  areas_grises:
+    - "Consistencia del proceso de selección: el texto indica búsqueda sin límite de tiempo y un filtro 2018-2024, pero la distribución temporal incluye artículos de 2014 y 2017; se usan Scopus, Google Scholar y ResearchGate sin explicar cómo se reproducen búsquedas en estas dos últimas ni cómo se evitaron duplicados."
+    - "Cifras externas de beneficio: los porcentajes de mejora de rendimiento, ahorro de insumos y reducción de desperdicio se atribuyen a la FAO y al Foro Económico Mundial sin referencia a un informe específico, y otros porcentajes (15 % de tiempo de entrega y 20 % de desperdicio) no se sustentan con estudios identificables."
+    - "Alcance de 'resiliencia': el término aparece como atributo de las cadenas con IoT y blockchain, pero ningún indicador de resiliencia (tiempo de recuperación, continuidad ante interrupciones) se define o se mide en la revisión."
+    - "Representatividad: 33 artículos tras cribar 1278 y la ausencia de años enteros (2015, 2016, 2019, 2021) sugieren que la muestra refleja la cadena de búsqueda más que la producción real, y no se discute el sesgo regional ni la calidad de los estudios."
+  puntos_oscuros: >
+    Llama la atención que el texto vincule el aumento de 2020 con la atención a la resiliencia durante la pandemia mientras no aparecen artículos en 2019 y 2021, y que se afirme que los sistemas de IoT hacen las cadenas 'más resilientes' sin analizar un solo caso de interrupción. Una explicación plausible es que la muestra es tan pequeña que cualquier año aislado puede variar por azar, y que la narrativa de resiliencia es una interpretación de los autores sobre aplicaciones cuyo objetivo declarado es la eficiencia y la trazabilidad. Además, el énfasis en costos como principal barrera y la propuesta de dispositivos baratos de cadena de frío sugieren que el valor práctico más cercano está en soluciones sencillas y no en plataformas integradas con blockchain e IA, que son las que más aparecen en la literatura. Por tanto, el mapa de la literatura puede estar sesgado hacia lo que se publica y no hacia lo que se adopta.
+  ideas:
+    - "Caso de negocio del monitoreo de cadena de frío como seguro de continuidad: estimar, para empresas de alimentos de una zona sísmica, la pérdida esperada de producto perecedero por interrupción de energía y transporte tras un sismo, y comparar con el costo de dispositivos de monitoreo y respaldo de bajo costo (sensores de temperatura con alerta, respaldo de energía), obteniendo un retorno esperado por escenario. Fundamento: la revisión señala el monitoreo barato de cadena de frío como oportunidad y los costos como barrera, sin cuantificar el caso de negocio. Verificabilidad: datos de pérdidas de empresas reales y cotizaciones de dispositivos. Utilidad: ofrece un criterio económico para que las pymes de alimentos decidan inversiones en continuidad."
+    - "Auditoría de trazabilidad de las cifras de beneficio de IoT en alimentos: reunir los porcentajes de mejora citados en la literatura de IoT para cadenas de alimentos, rastrear su fuente primaria y clasificar la calidad de la evidencia (estudio controlado, caso, estimación de informe, afirmación sin fuente). Fundamento: el artículo reporta cifras de la FAO y del Foro Económico Mundial sin referencia específica. Verificabilidad: búsqueda de los informes originales y registro de discrepancias. Utilidad: permite incorporar al caso de negocio solo cifras con respaldo y reduce el riesgo de decisiones basadas en afirmaciones sin sustento."
+  relaciones:
+    - "Costos de implementación y falta de conectividad y energía (limitan) la adopción de IoT por pequeños productores y empresas: los autores los identifican como barreras principales en regiones en desarrollo, aunque no cuantifican su efecto."
+    - "Estándares de interoperabilidad (condicionan) la escalabilidad de las soluciones de IoT en cadenas con muchos actores: la ausencia de marcos estándar impide la comunicación fluida entre dispositivos y limita la escala."
+  robustez: [4, 3, 3, 3]
+  valor: [4, "Ofrece un inventario de aplicaciones y de barreras del IoT en cadenas de alimentos, con énfasis útil en soluciones de bajo costo para pequeños productores y en la necesidad de estudios empíricos de impacto. Su valor para el corpus es contextual (cadena de frío y trazabilidad como posibles herramientas de continuidad); se reduce por la muestra de 33 artículos, las inconsistencias de selección, las cifras sin fuente y la ausencia de eventos de interrupción."]
+  conexiones: []
+socratica:
+  p1: "'Cadena de suministro de alimentos inteligente' es una cadena con sensores, trazabilidad y analítica en tiempo real; 'resiliente' se usa sin definición operacional."
+  p2: "Supone que 33 artículos representan el campo, que los beneficios citados de organismos externos son correctos y que la tecnología más avanzada es la más útil."
+  p3: "La evidencia es una síntesis de contenido de 33 artículos y un mapa de co-palabras; no hay medición de impacto."
+  p4: "Si es cierto, las empresas de alimentos deben priorizar monitoreo de cadena de frío y trazabilidad accesibles; si es falso, podrían invertir en tecnologías integradas con beneficios no verificados."
+  p5: "No se examinan fracasos de implementación ni casos en que sistemas simples lograron el mismo resultado que sistemas con blockchain e IA."
+  p6: "Alternativas: que la adopción dependa de la capacidad financiera de las empresas; que el costo de conectividad sea el factor limitante; que el beneficio provenga de la gestión y no de la tecnología."
+kpis:
+  - ["Registros iniciales", "1497", "registros", "Scopus, Google Scholar y ResearchGate", "Sec. 2.1, p. 3", "Texto", "Alta", "Fuentes no estándar"]
+  - ["Registros tras filtros de año e idioma", "1278", "registros", "2018-2024 e inglés", "Sec. 2.1, p. 3", "Texto", "Alta", "Contradice artículos de 2014 y 2017"]
+  - ["Artículos para evaluación de texto completo", "94", "artículos", "Tras cribado de títulos y resúmenes", "Sec. 2.1, p. 3", "Texto", "Alta", "Sin concordancia"]
+  - ["Artículos incluidos", "33", "artículos", "Corpus final", "Sec. 2.1, p. 3", "Texto", "Alta", "Muestra pequeña"]
+  - ["Artículos publicados en 2023", "11", "artículos", "Pico; 8 en 2022 y 7 en 2024", "Sec. 2.2, p. 3", "Texto", "Alta", "Sin artículos en 2019 ni 2021"]
+  - ["Población proyectada a 2050", "9,7", "miles de millones", "Con aumento de 70 % de producción necesario", "Sec. 1, p. 1", "Texto", "Media", "Cita de la FAO"]
+  - ["Mejora de rendimiento por agricultura de precisión", "20", "%", "Con reducción de agua y fertilizantes de hasta 30 %", "Sec. 3.1, p. 11", "Texto", "Baja", "Atribuida a la FAO sin referencia"]
+  - ["Reducción del desperdicio global por monitoreo de cadena de frío", "15", "%", "Atribuida al Foro Económico Mundial", "Sec. 3.2, p. 12", "Texto", "Baja", "Sin referencia primaria"]
+  - ["Reducción de costos de transmisión por sistema de partición dinámica", "40", "%", "SDPS con precisión mantenida", "Sec. 3.1, p. 11", "Texto", "Baja", "Dato de un estudio citado"]
+madurez:
+  trl: [6, "'IoT-enabled packaging and cold chain systems ensure food freshness by tracking temperature and humidity' (p. 1)", "TRL modal del campo revisado, inferido: aplicaciones de monitoreo de cadena de frío y trazabilidad en uso junto con propuestas conceptuales de blockchain e IA."]
+  mrl: [false, null, "No aplica", "Sin manufactura."]
+  brl: [3, "'One of the most significant barriers is the high cost of implementation, which restricts access for small-scale farmers and enterprises' (p. 15)", "BRL modal inferido: beneficios declarados y costos como barrera; sin modelos de negocio ni retornos medidos."]
+  irl: [true, 3, "'The lack of standardized interoperability frameworks impedes seamless communication between devices, limiting scalability' (p. 15)", "Integración entre dispositivos, blockchain y sistemas de decisión limitada por falta de estándares."]
+  drl: [true, 4, "'This will necessitate a 70 % increase in food production to meet the demand for safe and nutritious food' (p. 1)", "Necesidad argumentada con presión de demanda alimentaria y pérdidas; sin estudio de demanda de usuarios del IoT.", "Sin estudio de mercado"]
+  srl:
+    componentes: [["Monitoreo IoT de cadena de frío y trazabilidad", 6], ["Integración IoT-blockchain-IA", 4]]
+    interfaces: [[0, 1, 3]]
+valle: [3, "TRL modal 6 con BRL 3 e IRL 3: aplicaciones de monitoreo operativas, con costos altos, interoperabilidad y gobernanza de datos pendientes para escalar en regiones de bajos recursos.", "Media", "Soluciones de bajo costo con estándares abiertos y evaluación de retorno en pequeñas empresas."]
+falacias:
+  - ["Apelación a la autoridad sin referencia", "Se citan porcentajes de mejora atribuidos a la FAO y al Foro Económico Mundial sin identificar el estudio (Sec. 3.1-3.2, pp. 11-12)", "Cifras no verificables"]
+  - ["Generalización apresurada", "Se afirma que el IoT hace las cadenas 'más resilientes' a partir de aplicaciones de eficiencia y trazabilidad (Sec. 3, pp. 8-13)", "Sin medición de resiliencia"]
+  - ["Post hoc", "Se asocia el aumento de publicaciones de 2020 con la atención a la resiliencia durante la pandemia con 4 artículos en un año (Sec. 2.2, p. 3)", "Interpretación sin soporte estadístico"]
+recomendacion: "Aceptar con reservas"
+bradford: "No aplica: es una síntesis cualitativa; las relaciones entre IoT y eficiencia, desperdicio o resiliencia se afirman por plausibilidad y por cifras de terceros, sin fuerza medida, temporalidad verificable ni experimento."
+causal:
+  - ["Monitoreo de cadena de frío con IoT → menor desperdicio de alimentos", "Cifras citadas de terceros (15 %, 20 %); sin estudio identificado", "Plausibilidad, coherencia con mecanismo", "Consistencia, experimento, control de confusores", "Tamaño de empresa, infraestructura, tipo de producto", 3, "Hipótesis no probada"]
+  - ["Adopción de IoT con blockchain → mayor resiliencia de la cadena", "Afirmación de síntesis; sin medición", "Plausibilidad", "Todos los demás criterios", "Capacidad de la empresa, conectividad", 1, "Hipótesis no probada"]
+gaps:
+  - ["Mercado", "Soluciones y modelos de negocio de IoT de bajo costo para pequeños productores y empresas", "Crítico", "Media", 9]
+  - ["Conocimiento", "Estudios empíricos que cuantifiquen el impacto del IoT sobre desperdicio, seguridad alimentaria y continuidad ante interrupciones", "Crítico", "Media", 9]
+  - ["Tecnológico", "Estándares de interoperabilidad y gobernanza de datos entre actores de la cadena", "Significativo", "Media", 8]
+  - ["Metodológico", "Revisión con bases estándar, evaluación de calidad y trazabilidad de cifras externas", "Significativo", "Alta", 7]
+figuras:
+  - ["Fig. 1", "Diagrama PRISMA del proceso de selección", "Diagrama", "Flujo de 1497 a 33 artículos", "1497; 1278; 94; 33", "Alta"]
+  - ["Tabla 2", "Cadena de búsqueda", "Tabla", "Términos de IoT, alimentos y cadena de suministro", "No aplica", "Media"]
+  - ["Fig. 2", "Mapa de árbol de palabras clave más frecuentes", "Gráfico", "Sistemas de apoyo a decisiones e IoT predominantes", "No tabulados", "Media"]
+  - ["Fig. 3", "Red de co-palabras", "Mapa de red", "Relaciones entre tecnologías y dominios agrícolas", "No tabulados", "Media"]
+  - ["Fig. 4", "Distribución temporal de los artículos revisados", "Gráfico", "Pico en 2023", "11; 8; 7", "Alta"]
+  - ["Tabla 4", "Marco de clasificación y análisis de contenido", "Tabla", "Categorías de análisis de los artículos", "No aplica", "Baja"]
+competidores:
+  - ["Rejeb et al. y otras revisiones de IoT en logística y alimentos (no citadas aquí)", "No especificado en documento", "Academia", "Revisiones previas de IoT y cadena de suministro", "Mayor alcance", "No comparadas en el artículo", "Estable"]
+  - ["Sarkar et al. (dispositivo de monitoreo de bajo costo para cadena de frío, citado)", "No especificado en documento", "Academia", "Monitoreo de temperatura y humedad con registro en la nube", "Bajo costo", "Evidencia limitada de escala", "Creciendo"]
+  - ["Sistemas IoT con blockchain para trazabilidad de alimentos (varios, citados)", "No especificado en documento", "Academia", "Registros inmutables de producción y distribución", "Transparencia", "Costo y escalabilidad", "Creciendo"]
+econ:
+  Y: "No aplica: no se estima una variable resultado"
+  X: "No aplica"
+  Z: "Año de publicación, tema, etapa de la cadena"
+  datos: "33 artículos (2014-2024 según el texto; filtro declarado de 2018-2024)"
+  metodo: "Revisión sistemática PRISMA; co-palabras; análisis de contenido"
+  efecto: "No cuantificado"
+  endogeneidad: "No - no se discute"
+  instrumento: "No aplica"
+  robustez: "Sin evaluación de calidad ni concordancia"
+vacios:
+  - ["TERR", "Contraste entre países desarrollados y en desarrollo mencionado, sin análisis de zonas sísmicas"]
+  - ["POBL", "Pequeños agricultores y empresas mencionados como grupo sin acceso; sin análisis de informales"]
+  - ["TEMP", "Años faltantes en la muestra; sin análisis de impacto a largo plazo"]
+  - ["MET", "Fuentes no estándar, muestra pequeña, sin evaluación de calidad"]
+  - ["VAR", "Faltan variables de costo, retorno, desperdicio medido y continuidad ante interrupciones"]
+  - ["TEOR", "Sin teoría de adopción tecnológica ni de resiliencia"]
+  - ["CAUS", "Sin evidencia causal de beneficios del IoT"]
+notas: "Texto completo extraído (16 páginas más referencias). Las figuras 2 y 3 no son legibles en la extracción; el análisis de palabras clave se basa en el texto descriptivo. La inconsistencia entre el filtro de 2018 a 2024 y los años 2014 y 2017 se reporta tal como figura en el texto."
