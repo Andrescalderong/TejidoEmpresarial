@@ -1,0 +1,109 @@
+doc_id: D062
+relevancia: "Adyacente"
+relevancia_just: "Propone RescueNav, un marco de planificación de trayectoria de vehículos aéreos autónomos (AAV) que actúan como estaciones base móviles de IoT con enlaces LoRa para restablecer comunicaciones tras desastres, con aprendizaje por refuerzo (Q-learning con repetición priorizada) y pruebas de campo con un dron. Aporta una solución de conectividad posdesastre para sensores y gemelos cuando falla la red terrestre, pero no trata empresas ni recuperación productiva."
+cluster_tema: "Restablecimiento de comunicaciones posdesastre con AAV, LoRa y aprendizaje por refuerzo"
+metodo_tipo: "Desarrollo de algoritmo de aprendizaje por refuerzo con simulaciones en cuadrícula y pruebas de campo con una plataforma dron-LoRa"
+tipo_recurso: "Artículo científico (journal peer-reviewed, IEEE Internet of Things Journal)"
+kw_inferidas: [vehículo aéreo autónomo, LoRa, aprendizaje por refuerzo, comunicaciones posdesastre, redes basadas en intención, planificación de trayectoria, cobertura, energía, IoT, terremoto]
+c2:
+  objetivo: >
+    Introducir RescueNav, un marco de planificación de trayectoria de vehículos aéreos autónomos (AAV) basado en intención que integra restricciones específicas de la señal LoRa con la toma de decisiones por aprendizaje por refuerzo, para que el AAV actúe como estación base móvil de IoT y restablezca la conectividad en zonas afectadas por desastres donde la infraestructura convencional ha colapsado. El estudio busca mantener la conectividad con línea de vista, maximizar la cobertura y conservar la energía del AAV, formalizando la intención del operador dentro de la optimización de la trayectoria y no tratando la comunicación como un factor secundario.
+  pregunta: >
+    El artículo no formula preguntas de investigación explícitas. Las preguntas implícitas son si integrar las restricciones de propagación LoRa y del terreno en el aprendizaje de la trayectoria mejora la intensidad de señal, el caudal y la recompensa acumulada frente a Q-learning estándar, si el algoritmo es suficientemente ligero para el hardware a bordo y si funciona en pruebas de campo con una plataforma real.
+  marco: >
+    El marco combina las redes basadas en intención (intent-based networking), que traducen requisitos de misión de alto nivel como mantener la conectividad o minimizar el retardo en configuraciones operativas, la comunicación de baja potencia y largo alcance (LoRa), con variabilidad de señal por terreno, interferencia y energía limitada, y el aprendizaje por refuerzo con una tabla Q y repetición de experiencia priorizada (PER). El módulo de proveedor de espacio de acciones dinámico (DASP) ajusta las acciones disponibles según la densidad local de obstáculos y la variación de señal, y un módulo de línea de vista adaptativo (ALoS) incorpora la comunicación en la trayectoria. El contexto es la pérdida de infraestructura de comunicaciones tras terremotos, inundaciones, tsunamis, incendios y huracanes.
+  metodologia: >
+    El estado del AAV incluye posición (x, y, z), energía restante y intensidad de señal, con ocho acciones discretas (servir a usuarios, cuatro movimientos horizontales, ascender, descender y regresar a la base). El aprendizaje usa una tabla Q con política epsilon-greedy (epsilon inicial de 1,0, decaimiento de 0,99 y mínimo de 0,05), un búfer circular de repetición de 10 000 transiciones, lotes de 32, tasa de aprendizaje de 0,1 y factor de descuento de 0,95, con entrenamiento hasta 500 episodios o 95 % de celdas alcanzables exploradas. La recompensa es una función moldeada con términos de señal, cobertura (beta de 10) y penalización por colisión o inactividad (lambda de 5). Las simulaciones usaron una cuadrícula de 100 por 100 con 15 % de obstáculos y decaimiento de señal por distancia inversa. Las pruebas de campo usaron una plataforma Holybro S500 V2 con Pixhawk 6C, Raspberry Pi 4B, módulos LoRa y un sensor LiDAR para la profundidad. Se compara con Q-learning estándar.
+  resultados: >
+    Los experimentos con la plataforma real muestran que RescueNav mejora la intensidad de señal mediana en un factor de 4, aumenta el caudal en 42 % y logra una recompensa acumulada 55 % mayor que el Q-learning estándar. El texto indica que el módulo DASP evalúa la densidad local de obstáculos con el LiDAR en un radio de 5 m para ajustar dirección y altitud, y que el algoritmo aprende políticas conscientes de energía y conectividad dentro de los límites de cómputo a bordo. Las celdas con señal inferior a 30 dBm se consideran propensas a interferencia. Se presentan simulaciones de cobertura en la cuadrícula y comparaciones de recompensa, intensidad y caudal. El artículo no informa el número de repeticiones de campo, la duración de los vuelos ni la distribución de los resultados, y los experimentos se realizan con un solo AAV. En el módulo de exploración, el AAV recorre una cuadrícula bidimensional con acciones de movimiento a celdas libres y recibe recompensa por cada celda nueva visitada (beta de 10) y penalización por colisión o inactividad (lambda de 5), con mapas de profundidad y de intensidad de señal que guían el movimiento. Los autores reportan que la política converge cuando la tabla Q se estabiliza, sin aproximación de funciones.
+  discusion: >
+    Los autores sostienen que RescueNav avanza más allá de los estudios previos de AAV con LoRa porque unifica confiabilidad de comunicación, conciencia de energía y optimización basada en intención en un solo marco de aprendizaje por refuerzo, validado en campo. Reconocen como trabajo futuro el aprendizaje cooperativo de varios AAV con modelos federados, la seguridad de la comunicación con cadena de bloques ligera, la asignación adaptativa de recursos en el borde con latencias de 10 ms o menos, evaluaciones con 10 000 y 100 000 nodos y comparaciones con NB-IoT y LTE-M. Subrayan que los resultados destacan el potencial del aprendizaje por refuerzo basado en intención para la comunicación resiliente en escenarios posdesastre.
+  limitaciones: "Declaradas: la evaluación se limita a un AAV y se plantea como trabajo futuro la cooperación entre varios, la seguridad, el cómputo en el borde con baja latencia, las densidades de 10 000 y 100 000 nodos y la comparación con otras tecnologías. No declaradas: la línea base es Q-learning estándar, sin comparación con trayectorias planificadas clásicas o con relevos fijos; las pruebas de campo son de un solo dron y sin repeticiones descritas; el entorno de simulación es una cuadrícula de 100 por 100 con modelo simple de decaimiento de señal; sin pruebas en un terreno real de desastre ni con interferencias reales; el término 'mejora de 4 veces' de la señal mediana depende de la línea base y de la geometría; sin análisis de costo, de regulación del espectro ni del tiempo de despliegue."
+  futuro: "Explícito: aprendizaje cooperativo de varios AAV con modelos federados, seguridad ligera con cadena de bloques, asignación de recursos en el borde con latencia de 10 ms o menos, evaluaciones con 10 000 y 100 000 nodos y comparación con NB-IoT y LTE-M. Implícito: pruebas en terrenos reales de desastre y con regulación de espacio aéreo."
+c3:
+  tesis: >
+    Un marco de planificación de trayectoria de AAV que incorpora de forma directa las restricciones de propagación LoRa, el terreno y la energía en un aprendizaje por refuerzo ligero (Q-learning con repetición priorizada y espacio de acciones dinámico) restablece la conectividad IoT posdesastre con mejor desempeño que el Q-learning estándar (señal mediana cuatro veces mayor, 42 % más de caudal y 55 % más de recompensa acumulada), con validación de campo en una plataforma de bajo costo.
+  antitesis: >
+    La evidencia es limitada a un solo AAV, a una línea base débil (Q-learning estándar) y a una cuadrícula simulada con modelo simple de señal. Las pruebas de campo no informan repeticiones, duración ni variabilidad, y el factor de 4 en la señal mediana depende de la geometría y de la línea base. No se compara con trayectorias clásicas ni con relevos fijos o múltiples AAV, y los entornos de desastre reales (escombros, interferencia, vientos) no se reproducen. La afirmación de resiliencia para comunicaciones críticas se apoya en el desempeño en un escenario pequeño, y los costos, el tiempo de despliegue y las normas de espacio aéreo no se examinan.
+  sintesis: >
+    La contribución sostenible es una prueba de concepto de que un aprendizaje por refuerzo tabular, con restricciones de señal en la recompensa y un espacio de acciones adaptado al entorno, es ejecutable en hardware ligero y mejora las métricas de conectividad frente a una versión estándar. Para el corpus, la contribución importa, en consecuencia, como pieza de conectividad: un gemelo o un sistema de alerta que depende de la red necesita una vía de respaldo cuando la infraestructura cae. La evidencia no demuestra desempeño operativo en un terremoto ni valor para empresas, y sus resultados deben leerse como indicio de factibilidad técnica con hardware de bajo costo.
+  areas_grises:
+    - "Línea base y repeticiones: la mejora se mide frente a Q-learning estándar, sin comparar con trayectorias planificadas clásicas, relevos fijos o varios AAV; las pruebas de campo no informan número de vuelos, duración ni variabilidad, de modo que los factores de 4 en señal, 42 % en caudal y 55 % en recompensa no tienen intervalos de confianza."
+    - "Realismo del entorno: la simulación usa una cuadrícula de 100 por 100 con 15 % de obstáculos y decaimiento por distancia inversa, y las pruebas de campo usan un solo dron; no se evalúa el rendimiento con escombros, vegetación densa, vientos o interferencia real."
+    - "Escalabilidad: los autores plantean como trabajo futuro la evaluación con 10 000 y 100 000 nodos y con varios AAV; la afirmación de que la solución es escalable no se prueba con el único AAV de los experimentos."
+    - "Aplicabilidad operativa: no se informan costos, tiempo de despliegue ni requisitos regulatorios de vuelo; la utilidad para decisiones de continuidad de empresas o de servicios depende de estas condiciones."
+  puntos_oscuros: >
+    Llama la atención que el resumen destaque una mejora de cuatro veces en la señal mediana y un 55 % más de recompensa acumulada sin indicar la variabilidad ni el número de pruebas de campo. También es notable que la línea base sea el Q-learning estándar, un método simple, de modo que la mejora mide en parte el efecto de añadir información de señal a la recompensa. Los experimentos con un solo dron no permiten evaluar la coordinación entre AAV, que los autores consideran trabajo futuro. La cuadrícula de 100 por 100 con 15 % de obstáculos es un entorno muy simplificado respecto de un terreno de desastre. Además, la intención del operador se formaliza como un conjunto de objetivos en la recompensa, sin que se estudie cómo el operador cambia esa intención durante la misión. Por último, el artículo no discute el consumo de energía del propio cómputo de aprendizaje a bordo.
+  ideas:
+    - "Respaldo de conectividad para gemelos de infraestructura: probar RescueNav como enlace de contingencia entre sensores de un edificio o puente instrumentado y un servidor de gemelo cuando la red terrestre se interrumpe tras un sismo simulado, midiendo la cantidad de datos recuperados, el retardo y el consumo de energía. El resultado indicaría cuántos minutos de datos de monitoreo se preservan con un AAV, con repeticiones y desviación, y qué tipo de sensores (vibración, inclinación) son compatibles con el ancho de banda de LoRa, información clave para dimensionar un gemelo de continuidad que no dependa de la red pública y para decidir cuántos AAV o relevos hacen falta por zona."
+    - "Comparación con relevos fijos y con trayectorias clásicas: repetir los experimentos con una línea base de relevos LoRa fijos instalados antes del evento y con una trayectoria planificada por rejilla, y reportar intensidad de señal, caudal, costo y tiempo hasta el restablecimiento. Con intervalos de confianza, al menos diez vuelos por condición y registro del consumo de batería, se podría determinar si el costo de un AAV con aprendizaje se justifica frente a relevos preinstalados para zonas industriales de una región sísmica, con una estimación de costo total por cobertura de hectárea."
+  relaciones:
+    - "Comunicaciones posdesastre con UAV (se relaciona con) D022 y D042: D022 revisa la recuperación de comunicaciones con UAV mediante PRISMA y D042 integra sensado IoT y UAV; D062 aporta un algoritmo concreto de trayectoria con LoRa y pruebas de campo."
+    - "Conectividad del gemelo (complementa) D036 y D057: D036 revisa tecnologías de comunicación para gemelos digitales (UAV, RIS, mmWave) y D057 optimiza el enrutamiento multisalto; D062 aborda el restablecimiento cuando la infraestructura falla."
+  robustez: [3, 2, 2, 3]
+  valor: [5, "Ofrece un algoritmo ligero de trayectoria de AAV con restricciones LoRa y pruebas de campo con una plataforma de bajo costo, que mejora la señal y el caudal frente a Q-learning estándar. Su valor para el corpus es adyacente por la conectividad posdesastre de sensores y gemelos; se reduce por la línea base simple, las pruebas de un solo dron sin repeticiones descritas, el entorno simplificado y la ausencia de costos y de evaluación en terremotos."]
+  conexiones: []
+socratica:
+  p1: "'Intención' es el objetivo de misión del operador (mantener conectividad, maximizar cobertura, conservar energía); 'DASP' ajusta las acciones según los obstáculos; 'recompensa moldeada' incluye la calidad de la señal."
+  p2: "Supone que un modelo de señal por distancia inversa y una cuadrícula representan el terreno, que el Q-learning estándar es una línea base adecuada y que un solo dron indica el comportamiento general."
+  p3: "La evidencia es una simulación en cuadrícula y pruebas de campo con una plataforma Holybro, con mejoras de 4 veces en señal, 42 % en caudal y 55 % en recompensa."
+  p4: "Si es cierto, un AAV barato puede restablecer conectividad LoRa tras un desastre; si es falso, la mejora puede ser menor en terrenos reales o frente a alternativas simples."
+  p5: "No se examinan repeticiones, relevos fijos, varios AAV, terreno real de desastre, costos ni regulación."
+  p6: "Alternativas: que relevos preinstalados sean más baratos y fiables; que la mejora dependa de la línea base; que el cómputo a bordo limite la autonomía."
+kpis:
+  - ["Mejora de la intensidad de señal mediana", "4", "veces", "Frente a Q-learning estándar", "Resumen, p. 1", "Texto", "Media", "Sin intervalos de confianza"]
+  - ["Mejora del caudal", "42", "%", "Pruebas con plataforma real", "Resumen, p. 1", "Texto", "Media", "Número de repeticiones no informado"]
+  - ["Mejora de la recompensa acumulada", "55", "%", "Frente a Q-learning estándar", "Resumen, p. 1", "Texto", "Media", "Métrica del algoritmo"]
+  - ["Cuadrícula de simulación y obstáculos", "100 × 100 / 15", "celdas / %", "Entorno simulado", "Sec. IV, p. 5", "Texto", "Alta", "Decaimiento por distancia inversa"]
+  - ["Tamaño del búfer de repetición / lote", "10 000 / 32", "transiciones / muestras", "Parámetros de entrenamiento", "Sec. IV, p. 5", "Texto", "Alta", "Epsilon mínimo de 0,05"]
+  - ["Episodios de entrenamiento máximos", "500", "episodios", "O hasta explorar 95 % de celdas alcanzables", "Sec. IV, p. 5", "Texto", "Alta", "Q-table"]
+  - ["Radio de evaluación de obstáculos con LiDAR", "5", "m", "Densidad local de obstáculos", "Sec. IV, p. 6", "Texto", "Alta", "Para el módulo DASP"]
+madurez:
+  trl: [5, "'Experiments with a Holybro S500 V2 platform equipped with a Pixhawk, Raspberry Pi, and LoRa modules demonstrate that RescueNav improves median signal strength by 4×' (p. 1)", "Validación de componentes en entorno relevante con una plataforma real de bajo costo; sin operación en desastre."]
+  mrl: [false, null, "No aplica", "Sin manufactura."]
+  brl: [2, "'AAVs have emerged as an effective alternative due to their agility, rapid deployment, and low operational costs' (p. 1)", "Se afirma bajo costo operativo, sin cifras ni modelo de negocio."]
+  irl: [true, 4, "'A dynamic action space provider (DASP) further adapts decision-making by adjusting available actions based on obstacle density and local signal variation' (p. 2)", "Integración de plataforma de vuelo, cómputo a bordo, LiDAR y módulos LoRa probada en campo; sin integración con sistemas de usuarios finales."]
+  drl: [true, 3, "'Reliable communication plays a crucial role in effective disaster response, yet damaged infrastructure often leads to complete isolation of affected regions' (p. 1)", "Necesidad argumentada con literatura; sin demanda de usuarios medida.", "Sin estudio de mercado"]
+  srl:
+    componentes: [["Algoritmo de trayectoria con aprendizaje por refuerzo", 5], ["Enlace LoRa y plataforma AAV", 5]]
+    interfaces: [[0, 1, 4]]
+valle: [1, "TRL 5 con BRL 2: prototipo probado en campo con un dron, sin costos, sin repeticiones descritas y sin evaluación en terremotos.", "Media", "Pruebas con varios AAV y repeticiones, comparación con relevos fijos y evaluación en un ejercicio de simulacro."]
+falacias:
+  - ["Línea base débil", "La mejora se mide frente a Q-learning estándar, sin trayectorias clásicas ni relevos fijos (Resumen, p. 1; Sec. V, p. 6-7)", "Magnifica la ventaja del método"]
+  - ["Generalización apresurada", "Se concluye potencial para comunicación resiliente en escenarios posdesastre con un solo dron y una cuadrícula simulada (Sec. VI, p. 7)", "Escenario pequeño"]
+  - ["Afirmación sin intervalos", "Se reportan factores de 4, 42 % y 55 % sin variabilidad ni número de repeticiones (Resumen, p. 1)", "Precisión aparente"]
+recomendacion: "Aceptar con reservas"
+bradford: "No aplica: es un estudio de ingeniería; la relación entre la trayectoria aprendida y la mejora de señal es mecánica, pero no se estima efecto en operaciones de desastre."
+causal:
+  - ["Incorporar la señal en la recompensa → trayectorias con mejor conectividad", "Comparación con Q-learning estándar", "Mecanismo directo", "Repeticiones, línea base clásica", "Terreno, interferencia, viento", 3, "Efecto plausible, magnitud sin intervalos"]
+gaps:
+  - ["Metodológico", "Repeticiones de campo, intervalos de confianza y línea base clásica", "Crítico", "Media", 8]
+  - ["Tecnológico", "Coordinación de varios AAV, seguridad y escala de miles de nodos", "Significativo", "Media", 7]
+  - ["Conocimiento", "Valor de la conectividad de respaldo para gemelos, sensores y empresas", "Significativo", "Media", 8]
+  - ["Mercado", "Costos, regulación del espacio aéreo y tiempo de despliegue", "Significativo", "Media", 7]
+figuras:
+  - ["Fig. de arquitectura", "Marco RescueNav con DASP, ALoS y planificador de trayectoria", "Diagrama", "Módulos del marco", "No aplica", "Media"]
+  - ["Resultados de simulación", "Cobertura, recompensa y señal en la cuadrícula", "Gráficos", "Comparación con Q-learning estándar", "55 % de recompensa", "Media"]
+  - ["Resultados de campo", "Intensidad de señal y caudal con la plataforma real", "Gráficos", "Mejoras de señal y caudal", "4 veces; 42 %", "Alta"]
+competidores:
+  - ["Trabajos previos de AAV con LoRa (meta aprendizaje por refuerzo y comportamiento de antenas)", "No especificado en documento", "Academia", "Trayectoria y comunicación tratadas por separado", "Cobertura de aspectos individuales", "Comportamiento reactivo ante cambios del entorno", "Creciendo"]
+  - ["Algoritmos de ruta con conciencia de energía (Pan y colegas) y optimización de altitud con calidad de enlace (Zhang y colegas)", "No especificado en documento", "Academia", "Trayectoria con restricciones energéticas y de enlace", "Formulaciones de optimización", "No usan aprendizaje en línea con LoRa", "Estable"]
+econ:
+  Y: "Intensidad de señal mediana, caudal y recompensa acumulada"
+  X: "Algoritmo (RescueNav o Q-learning estándar)"
+  Z: "Densidad de obstáculos, energía, tamaño de la cuadrícula"
+  datos: "Simulaciones en cuadrícula de 100 por 100 y pruebas de campo con una plataforma dron-LoRa"
+  metodo: "Q-learning tabular con repetición priorizada y espacio de acciones dinámico"
+  efecto: "Señal mediana 4 veces mayor, caudal 42 % mayor y recompensa 55 % mayor frente a Q-learning estándar"
+  endogeneidad: "No - no se discute"
+  instrumento: "No aplica"
+  robustez: "Sin repeticiones descritas ni intervalos de confianza"
+vacios:
+  - ["TERR", "Sin territorio de desastre específico; autores en India, Irlanda y Sudáfrica"]
+  - ["POBL", "Usuarios IoT en zonas afectadas; sin empresas"]
+  - ["TEMP", "Misiones de minutos; sin operación sostenida"]
+  - ["MET", "Un dron, línea base simple, sin repeticiones descritas"]
+  - ["VAR", "Faltan costos, tiempo de despliegue, regulación y desempeño con varios AAV"]
+  - ["TEOR", "Redes basadas en intención y aprendizaje por refuerzo; sin teoría de continuidad"]
+  - ["CAUS", "Sin efecto en operaciones reales"]
+notas: "Texto completo extraído (8 páginas). Algunas figuras de resultados no son legibles; las mejoras se tomaron del resumen. Las páginas siguen los marcadores del PDF. El texto menciona terremotos entre los desastres de contexto sin pruebas específicas."

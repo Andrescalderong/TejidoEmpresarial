@@ -1,0 +1,112 @@
+doc_id: D063
+relevancia: "Adyacente"
+relevancia_just: "Diseña y valida mediante reproducción fuera de línea (82 sismos históricos y 61 estaciones) un método de alerta temprana y respuesta de emergencia para ferrocarriles de alta velocidad basado en el principio PLUM, con zonas de alerta trapezoidales superpuestas y una arquitectura jerárquica de estaciones propias y de la red nacional. Aporta el vínculo entre alerta sísmica y decisión operativa automática de una infraestructura crítica, pero no incluye gemelos, recuperación ni empresas."
+cluster_tema: "Alerta temprana sísmica y respuesta de emergencia en ferrocarriles de alta velocidad"
+metodo_tipo: "Desarrollo de método con validación por simulación fuera de línea con datos históricos de sismos y estaciones"
+tipo_recurso: "Artículo científico (journal peer-reviewed)"
+kw_inferidas: [alerta temprana sísmica, ferrocarril de alta velocidad, PLUM, zonas de alerta trapezoidales, aceleración pico del suelo, respuesta de emergencia, reproducción fuera de línea, red sísmica, infraestructura crítica]
+c2:
+  objetivo: >
+    Diseñar y validar un método de respuesta de emergencia para sistemas de alerta temprana sísmica (EEW) de ferrocarriles de alta velocidad basado en el principio de propagación del movimiento local no amortiguado (PLUM), con el fin de mejorar la oportunidad y la exactitud de las alertas ante amenazas sísmicas. El estudio busca emitir información de emergencia antes de la llegada de las ondas destructivas, reducir los retardos entre regiones y las alertas perdidas, y ofrecer una estrategia práctica adaptada a los requisitos operativos del ferrocarril.
+  pregunta: >
+    El artículo no formula preguntas de investigación explícitas. Las preguntas implícitas son si el método PLUM con zonas de alerta trapezoidales superpuestas emite información a tiempo y con exactitud para distintas magnitudes y distancias al epicentro, si reduce las alertas perdidas frente a zonas rectangulares y cómo se compara la oportunidad con algoritmos de rango de disposición basados en atenuación.
+  marco: >
+    El marco es la alerta temprana regional basada en el movimiento del suelo, en la que el método PLUM predice la aceleración pico (PGA) de un punto como el máximo de las aceleraciones observadas en estaciones dentro de un radio, sin estimar los parámetros de la fuente. Se adopta la aceleración como indicador de severidad por ser lo que miden directamente las estaciones a lo largo de la línea, y se supone que los efectos de sitio son despreciables porque la cimentación de las líneas de alta velocidad corresponde a suelos rígidos o roca (Vs30 de 500 a 800 m/s, con error normalizado inferior a 5 %). La arquitectura es jerárquica, con estaciones propias del ferrocarril como columna vertebral y la red sísmica nacional como complemento, y la respuesta se organiza por niveles de emergencia por región de alerta.
+  metodologia: >
+    El diseño usa regiones de alerta a lo largo de la vía, inicialmente rectangulares de 30 km por 60 km, que se transforman en trapecios isósceles superpuestos mediante la extensión de las líneas centrales de los lados largos, para que una estación cercana al límite de una región pueda activar también la contigua y se reduzcan los retardos entre regiones. El sistema actualiza cada 0,01 s la PGA de las estaciones de la línea y de la red general y decide de forma independiente la alerta de cada región, con niveles de mensaje (por ejemplo nivel 2 y nivel 3). La validación es una reproducción fuera de línea, aislada del sistema operativo, con 82 eventos históricos de magnitud 5,0 a 7,0 y registros de 61 estaciones, con las ubicaciones absolutas eliminadas y solo las relaciones espaciales relativas, sobre una línea de alta velocidad equipada y próxima a una región sísmicamente activa. Se analizan evolución temporal, exactitud y oportunidad.
+  resultados: >
+    En un ensayo con un sismo de magnitud 5,5 a 43 km de la línea, la primera región emitió un mensaje de nivel 2 a los 7 s del sismo y lo elevó a nivel 3 a los 9 s, y la segunda región emitió nivel 2 a los 12 s, con actualizaciones secuenciales a medida que se propagaban las ondas. En la prueba de exactitud con tres eventos de magnitud 6,2, 6,3 y 6,4, con regiones divididas en tres subregiones de 10 km, el método avisó de forma confiable a casi todos los tramos de la vía sin alertas perdidas. En cuatro eventos de distinta magnitud, la oportunidad de PLUM fue superior en regiones cercanas al epicentro en sismos mayores, y la ventaja disminuyó para regiones lejanas frente a algoritmos de rango basados en atenuación. En 82 eventos, en regiones a menos de 100 km del epicentro, el método fue más oportuno en magnitudes mayores y dio más tiempo de aviso a regiones muy cercanas antes de las ondas más destructivas. Los autores concluyen que el diseño trapezoidal mejora la consistencia regional y reduce de forma significativa las alertas perdidas, aunque el texto leído no cuantifica esa reducción con una tasa comparada entre diseños.
+  discusion: >
+    Los autores sostienen que el método basado en PLUM es práctico y robusto como estrategia de respuesta de emergencia para ferrocarriles de alta velocidad, que la superposición trapezoidal aumenta la consistencia regional y que la oportunidad es mayor en sismos grandes, para los que la ruptura extensa permite avisar a regiones muy cercanas antes de las ondas más destructivas. Afirman que es la primera aplicación sistemática de PLUM a la alerta de ferrocarriles de alta velocidad en China y que la simplificación a PGA, con umbrales predefinidos y suelos rígidos, hace despreciable el efecto de sitio. Plantean perspectivas de integración con la operación ferroviaria.
+  limitaciones: "Declaradas: se usó simulación fuera de línea por restricciones prácticas, con datos de una línea ya equipada. No declaradas: la validación es retrospectiva y no incluye falsas alarmas ni su costo (parada innecesaria de trenes); se omiten las ubicaciones absolutas, de modo que no se verifica el efecto de condiciones locales reales; la suposición de efecto de sitio despreciable se apoya en Vs30 de 500 a 800 m/s sin medición propia; la ventaja decrece con la distancia respecto de algoritmos de atenuación; no se evalúa el tiempo de actuación de los trenes ni la reducción de riesgo; muestra de 82 eventos de una región y magnitudes de 5,0 a 7,0."
+  futuro: "Explícito: sección de conclusiones y perspectivas sobre integración con la operación ferroviaria y refinamiento del método. Implícito: pruebas en línea, evaluación de falsas alarmas y acciones de control de trenes."
+c3:
+  tesis: >
+    El principio PLUM, aplicado con zonas de alerta trapezoidales superpuestas y una arquitectura jerárquica de estaciones propias y de la red nacional, permite emitir información de emergencia a tiempo para ferrocarriles de alta velocidad, con alta confiabilidad en eventos de distintas magnitudes y distancias y menos alertas perdidas que con zonas rectangulares, y su oportunidad es mayor en sismos grandes para regiones próximas al epicentro.
+  antitesis: >
+    El estudio valida un procedimiento retrospectivo, sin falsas alarmas, sin acción sobre los trenes y sin efecto medido sobre el riesgo. La confiabilidad se afirma con tres eventos de exactitud y 82 de oportunidad en una sola región, y se reconoce que la ventaja disminuye con la distancia frente a algoritmos de atenuación. La supuesta irrelevancia del efecto de sitio descansa en un rango de Vs30 asumido para toda la línea. La eliminación de ubicaciones absolutas protege los datos pero impide verificar condiciones locales. No hay comparación cuantitativa de errores con otras alternativas, ni se informa cuántos segundos útiles ganaría un tren frente al tiempo de frenado.
+  sintesis: >
+    La contribución sostenible es un diseño de zonas de alerta y de reglas de emisión para infraestructura lineal que usa solo aceleraciones observadas, y una evaluación retrospectiva que indica tiempos de emisión de 7 a 12 s en un ejemplo y un buen desempeño en eventos medianos y grandes. Para el corpus, aporta un modelo de cadena sensor, regla, acción para infraestructura crítica y una lección de diseño (superposición de zonas para reducir retardos), pero no mide pérdidas evitadas ni extiende a empresas, de modo que su aporte es de diseño y no de valor económico demostrado, y se debe completar con falsas alarmas y tiempos de acción.
+  areas_grises:
+    - "Falsas alarmas: el artículo evalúa oportunidad y alertas perdidas, pero no informa falsas alarmas ni su costo operativo, un criterio central en un ferrocarril de alta velocidad donde una parada innecesaria tiene consecuencias económicas."
+    - "Efecto de sitio: se supone despreciable por Vs30 de 500 a 800 m/s y error normalizado inferior a 5 %, pero no se presentan mediciones del tramo ni sensibilidad; la conclusión depende de una calibración de zonas y umbrales que no se muestra."
+    - "Validez de la validación: la reproducción fuera de línea con 82 eventos históricos de una región y ubicaciones absolutas eliminadas impide verificar el efecto de la geometría real de la línea; solo tres eventos se usan para exactitud y cuatro para el análisis de eventos individuales."
+    - "Utilidad para la acción: no se cuantifica el tiempo disponible para frenar trenes ni la reducción de riesgo resultante, de modo que la mejora de oportunidad no se traduce en un beneficio medido."
+  puntos_oscuros: >
+    Llama la atención que el resumen califique el método de alta confiabilidad y estabilidad con una validación retrospectiva que no informa falsas alarmas, la métrica que determina si un operador ferroviario adoptaría la alerta. También es notable que la irrelevancia del efecto de sitio se afirme por un rango de Vs30 asumido y no por mediciones. El texto reconoce que la ventaja de oportunidad desaparece para regiones lejanas, donde los algoritmos de atenuación son mejores, pero la conclusión es favorable en general. Además, la eliminación de las coordenadas reales para evitar confusión con eventos reales limita la reproducibilidad. Por último, el artículo no relaciona el tiempo de emisión de 7 a 12 s con el tiempo de frenado de un tren de alta velocidad, el único criterio que da sentido a la alerta, y tampoco discute quién decide la acción sobre los trenes ni con qué protocolo ante un mensaje de nivel 2 o de nivel 3.
+  ideas:
+    - "Valor económico de la alerta para infraestructura lineal y cadenas de suministro: combinar los tiempos de emisión (7 a 12 s) y la distancia al epicentro con el tiempo de frenado de un tren y con el costo de interrupción de servicio (horas de retraso, mercancías afectadas), para calcular el beneficio esperado de la alerta frente al costo de falsas alarmas. El resultado serviría como modelo de decisión que se podría transferir a otras infraestructuras críticas, como plantas o centros logísticos, donde también se acciona un paro automático, y se calibraría con datos reales del operador durante al menos seis meses de operación."
+    - "Zonas de alerta superpuestas para parques industriales: adaptar el diseño de zonas trapezoidales superpuestas a un parque industrial con varias plantas y estaciones de bajo costo, y comparar tiempos de emisión y alertas perdidas con zonas rectangulares simples. Con una red de sensores como las de D045 y D049, se evaluaría si la superposición reduce los retardos por región y cuántos segundos extra obtiene cada planta, con una prueba de reproducción fuera de línea con eventos reales y falsas alarmas reportadas, y con el costo de cada paro innecesario como variable de decisión para la gerencia."
+  relaciones:
+    - "Alerta sísmica con PLUM (se relaciona con) D049 y D045: D049 implementa PLUM en el nodo con sensores de bajo costo y mide latencias, y D045 revisa los sistemas de alerta de bajo costo; D063 aplica PLUM a una infraestructura lineal con zonas de alerta y niveles de emergencia."
+    - "Infraestructura crítica con alerta y monitoreo (se relaciona con) D023 y D031: D023 describe un gemelo con monitoreo LoRaWAN de un puente ferroviario y D031 una arquitectura semántica de alerta; D063 aporta reglas de emisión para ferrocarril."
+  robustez: [3, 3, 2, 3]
+  valor: [5, "Aporta un diseño de zonas de alerta y de reglas de emisión para infraestructura lineal crítica con validación retrospectiva con 82 eventos, útil como modelo de cadena sensor-regla-acción. Su valor para el corpus es adyacente: no mide falsas alarmas, tiempo de frenado ni pérdidas evitadas, no incluye gemelos y se limita a una región."]
+  conexiones: []
+socratica:
+  p1: "'PLUM' predice la aceleración de un punto con las aceleraciones observadas en estaciones cercanas; 'zona de alerta trapezoidal' es una región superpuesta con la contigua; 'nivel 2' y 'nivel 3' son niveles de mensaje de emergencia."
+  p2: "Supone que el efecto de sitio es despreciable en toda la línea, que la reproducción fuera de línea representa la operación y que la oportunidad se traduce en seguridad."
+  p3: "La evidencia es una simulación con 82 eventos de magnitud 5,0 a 7,0 y 61 estaciones, con tres eventos para exactitud y sin falsas alarmas reportadas."
+  p4: "Si es cierto, los trenes pueden recibir órdenes de emergencia antes de las ondas destructivas; si es falso, pueden producirse paradas innecesarias o alertas tardías."
+  p5: "No se examinan falsas alarmas, el tiempo de frenado, la operación en línea ni otras líneas y regiones."
+  p6: "Alternativas: que un algoritmo basado en ondas P sea mejor lejos del epicentro; que el efecto de sitio sí importe en tramos específicos; que el costo de falsas alarmas anule el beneficio."
+kpis:
+  - ["Eventos históricos usados en la validación", "82", "eventos", "Magnitudes de 5,0 a 7,0", "Resumen, p. 1; Sec. 4.3.2, p. 12", "Texto", "Alta", "Una región sísmica"]
+  - ["Estaciones sísmicas utilizadas", "61", "estaciones", "Línea y red general", "Resumen, p. 1", "Texto", "Alta", "Reproducción fuera de línea"]
+  - ["Tiempo del primer mensaje de nivel 2 (ensayo M5,5 a 43 km)", "7", "s", "Elevado a nivel 3 a los 9 s", "Sec. 4.1, p. 11", "Texto", "Alta", "Un ensayo"]
+  - ["Tiempo del mensaje de nivel 2 en la segunda región", "12", "s", "Tras el sismo", "Sec. 4.1, p. 11", "Texto", "Alta", "Actualizaciones secuenciales"]
+  - ["Eventos de exactitud (M6,2; 6,3; 6,4)", "3", "eventos", "Tramos de 10 km, sin alertas perdidas", "Sec. 4.2, p. 11", "Texto", "Alta", "Muestra pequeña"]
+  - ["Dimensión de las regiones de alerta rectangulares base", "30 × 60", "km", "Transformadas en trapecios superpuestos", "Sec. 3.1, p. 10", "Texto", "Alta", "Diseño propuesto"]
+  - ["Frecuencia de actualización del sistema", "0,01", "s", "Lectura de PGA de las estaciones", "Sec. 2.3, p. 9", "Texto", "Alta", "100 Hz"]
+  - ["Rango de Vs30 supuesto en la línea", "500 a 800", "m/s", "Efecto de sitio despreciable; error normalizado menor de 5 %", "Sec. 2.3.2, p. 9", "Texto", "Media", "Supuesto sin medición propia"]
+madurez:
+  trl: [4, "'Offline replay experiments were conducted using 82 historical earthquake events and records from 61 seismic stations' (p. 1)", "Validación en laboratorio computacional con datos históricos, sin operación en línea."]
+  mrl: [false, null, "No aplica", "Sin manufactura."]
+  brl: [2, "'provides a practical and robust emergency response strategy' (p. 1)", "Estrategia afirmada como práctica, sin costos ni análisis económico."]
+  irl: [true, 3, "'self-built stations along the railway serve as the backbone and the national seismic network provides supplementary data' (p. 1)", "Integra estaciones propias y la red nacional en una arquitectura jerárquica; sin pruebas con el sistema operativo."]
+  drl: [true, 3, "'This work represents the first systematic application of the PLUM method to high-speed railway EEW in China' (p. 1)", "Vacío de literatura afirmado; demanda del operador no medida.", "Sin estudio de mercado"]
+  srl:
+    componentes: [["Algoritmo PLUM y reglas de emisión", 4], ["Arquitectura de estaciones propias y red nacional", 5]]
+    interfaces: [[0, 1, 3]]
+valle: [1, "TRL 4 con BRL 2 e IRL 3: validación retrospectiva sin falsas alarmas ni pruebas en línea, sin costos y sin vínculo con el control de trenes.", "Media", "Pruebas en línea, falsas alarmas, tiempo de frenado y análisis de costo-beneficio."]
+falacias:
+  - ["Afirmación de confiabilidad con validación limitada", "Se afirma alta confiabilidad y estabilidad con tres eventos de exactitud y sin falsas alarmas (Resumen, p. 1; Sec. 4.2, p. 11)", "Muestra pequeña y métrica incompleta"]
+  - ["Supuesto no verificado", "Se considera despreciable el efecto de sitio por un rango de Vs30 asumido (Sec. 2.3.2, p. 9)", "Sin medición propia"]
+  - ["Conclusión más amplia que la evidencia", "Se concluye robustez práctica sin medir el tiempo de actuación ni el riesgo evitado (Sec. 5, p. 13-14)", "El beneficio operativo no se cuantifica"]
+recomendacion: "Aceptar con reservas"
+bradford: "No aplica: es una validación retrospectiva de un método; no estima efectos causales de la alerta sobre accidentes o pérdidas."
+causal:
+  - ["Zonas trapezoidales superpuestas → menos retardos y alertas perdidas", "Simulación fuera de línea", "Mecanismo geométrico directo", "Pruebas en línea y falsas alarmas", "Densidad de estaciones, geometría de la línea", 3, "Efecto plausible dentro de la simulación"]
+  - ["Alerta oportuna → acción de emergencia → menor daño", "Argumento operativo", "Plausibilidad", "Medición de tiempos de frenado y daños", "Tiempo de reacción del sistema ferroviario", 1, "No evaluado"]
+gaps:
+  - ["Metodológico", "Falsas alarmas, costo operativo y validación en línea", "Crítico", "Media", 8]
+  - ["Conocimiento", "Relación entre tiempo de emisión, tiempo de frenado y reducción de riesgo", "Crítico", "Media", 8]
+  - ["Tecnológico", "Sensibilidad al efecto de sitio y a la densidad de estaciones", "Significativo", "Media", 7]
+  - ["Mercado", "Análisis costo-beneficio para operadores de infraestructura crítica", "Significativo", "Media", 7]
+figuras:
+  - ["Fig. 7", "Ilustración del algoritmo de predicción PLUM", "Diagrama", "Predicción de PGA en un punto", "No aplica", "Media"]
+  - ["Fig. 8", "Regiones de alerta rectangulares y trapezoidales", "Diagrama", "Superposición de zonas", "30 km × 60 km", "Alta"]
+  - ["Fig. 10", "Evolución temporal de la información de emergencia en un ensayo", "Gráfico", "Niveles 2 y 3 por región", "7 s; 9 s; 12 s", "Alta"]
+  - ["Fig. 11", "Comparación de PGA predicha y observada en tres eventos", "Gráfico", "Tramos de 10 km", "M6,2; 6,3; 6,4", "Alta"]
+  - ["Fig. 13", "Oportunidad en 82 eventos para regiones a menos de 100 km", "Gráfico", "Magnitud 5,0 a 7,0", "82 eventos", "Alta"]
+competidores:
+  - ["Algoritmos de rango de disposición basados en atenuación", "No especificado en documento", "Gobierno", "Estimación de intensidad con modelos de atenuación", "Mayor oportunidad lejos del epicentro", "Dependen de la estimación de la fuente", "Estable"]
+econ:
+  Y: "Tiempo de emisión de alerta y alertas perdidas"
+  X: "Diseño de la región de alerta (rectangular o trapezoidal) y magnitud del evento"
+  Z: "Distancia al epicentro, densidad de estaciones, Vs30"
+  datos: "82 eventos históricos y 61 estaciones; reproducción fuera de línea"
+  metodo: "Simulación retrospectiva del método PLUM"
+  efecto: "Emisión de nivel 2 a los 7 s en un ensayo; sin alertas perdidas en tres eventos de exactitud"
+  endogeneidad: "No - no se discute"
+  instrumento: "No aplica"
+  robustez: "Variación de magnitudes y distancias; sin falsas alarmas ni validación en línea"
+vacios:
+  - ["TERR", "Línea de alta velocidad en China sin ubicación absoluta; sin América Latina"]
+  - ["POBL", "Operadores ferroviarios; sin empresas ni pasajeros"]
+  - ["TEMP", "Alertas de segundos; sin recuperación"]
+  - ["MET", "Retrospectiva, sin falsas alarmas ni pruebas en línea"]
+  - ["VAR", "Faltan falsas alarmas, tiempo de frenado, costos y pérdidas evitadas"]
+  - ["TEOR", "Alerta basada en movimiento del suelo; sin teoría de respuesta organizacional"]
+  - ["CAUS", "Efecto de la alerta sin evidencia"]
+notas: "Texto completo extraído (14 páginas). Las figuras con resultados no son legibles; las cifras se tomaron del texto de las secciones 4.1 a 4.3. Las páginas siguen los marcadores del PDF (la numeración de la revista inicia en 666)."
