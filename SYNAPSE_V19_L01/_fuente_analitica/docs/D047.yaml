@@ -1,0 +1,104 @@
+doc_id: D047
+relevancia: "Periférico"
+relevancia_just: "Revisión narrativa, presentada como sistemática, sobre el uso de sistemas de información geográfica (SIG) en la gestión del transporte después de terremotos, con un ejemplo cartográfico de Kütahya (Turquía). Toca logística, restauración de servicios y cadenas de suministro tras un sismo, pero no declara método de revisión, no cuantifica resultados y no trata empresas."
+cluster_tema: "SIG para la gestión del transporte posterremoto (revisión narrativa)"
+metodo_tipo: "Revisión narrativa con ejemplo cartográfico ilustrativo; método de búsqueda y selección no declarado"
+tipo_recurso: "Artículo de revisión (journal peer-reviewed)"
+kw_inferidas: [sistemas de información geográfica, transporte, posterremoto, resiliencia de infraestructura, logística de emergencia, teledetección, LiDAR, UAV, Kütahya, interoperabilidad de datos]
+c2:
+  objetivo: >
+    Explorar la integración de los sistemas de información geográfica (SIG) en la gestión de los problemas de transporte después de eventos sísmicos: examinar los efectos de los terremotos sobre la infraestructura de transporte, evaluar los beneficios y las limitaciones de las aplicaciones de SIG e identificar buenas prácticas y estrategias para mejorar la resiliencia del sistema de transporte. El estudio también resalta tendencias emergentes, como la integración de LiDAR con teledetección por UAV y el aprendizaje automático, con el fin de apoyar a responsables de política, profesionales e investigadores en la toma de decisiones informadas.
+  pregunta: >
+    El artículo no formula preguntas de investigación explícitas. La pregunta implícita es de qué manera los SIG mejoran la evaluación, el seguimiento y la restauración de la infraestructura de transporte tras un terremoto, y qué retos de datos, interoperabilidad y coordinación limitan su uso.
+  marco: >
+    El marco es descriptivo. Parte de la importancia del transporte para la evacuación, el rescate y la entrega de ayuda y para la recuperación comunitaria, y define los SIG como herramientas de captura, almacenamiento, consulta, análisis y visualización de datos espaciales. Organiza el contenido en cuatro bloques: desafíos del transporte posterremoto, funciones de los SIG, aplicaciones posteriores al sismo (evaluación de daños, priorización de reparaciones, logística) y retos de integración. Se citan conceptos como la gestión de cordones de acceso (con los casos de Wellington y Christchurch), la actividad de deslizamientos cosísmicos y posísmicos, la logística médica para el traslado de heridos y los sistemas multiagente para simular operaciones de búsqueda y rescate urbano. No se articula una teoría de resiliencia de redes de transporte ni un modelo causal.
+  metodologia: >
+    El artículo se titula revisión sistemática, pero no describe bases de datos consultadas, cadenas de búsqueda, criterios de inclusión y exclusión, período cubierto, número de documentos identificados y seleccionados, ni método de síntesis. Cita unas setenta referencias en el cuerpo del texto. Incluye un ejemplo cartográfico basado en un estudio previo de la provincia de Kütahya (Turquía), con zonas de amortiguamiento (buffer) alrededor de eventos de magnitud 4 o mayor y un mapa de fallas activas superpuesto a la red vial. No se informa de ninguna medición cuantitativa ni de validación del ejemplo. Los autores citados en el cuerpo del texto cubren estudios de daño en puentes, túneles y terraplenes, gestión de cordones, mapeo de susceptibilidad a deslizamientos con redes neuronales artificiales, teledetección con satélite, UAV y LiDAR, y plataformas SIG colaborativas, pero el texto no indica cómo se eligieron, qué años abarcan ni cuántos pertenecen a cada categoría, y no hay tabla de estudios incluidos.
+  resultados: >
+    La sección de resultados, de apenas un párrafo, establece de manera general que la aplicación de SIG ha mejorado la evaluación, el seguimiento y la restauración de la infraestructura de transporte tras los sismos y que proporciona análisis espacial en tiempo real, apoyo a la decisión y coordinación entre actores. El ejemplo de Kütahya indica que las zonas con eventos de magnitud 4 o mayor se concentran al sur y suroeste de la provincia, que las vías principales se superponen con las zonas de amortiguamiento y que algunas fallas activas coinciden con trazados viales, lo cual sugiere áreas de alto riesgo y la necesidad de rutas alternativas; los autores también indican que la frecuencia reciente de sismos y réplicas en Simav se asocia con esas fallas y que los planificadores deberían considerar escenarios de vías alternas. No se reportan cifras de desempeño, tiempos de recuperación, costos ni comparaciones de escenarios con y sin SIG. El texto agrega que la integración de datos de sensores en tiempo real, imágenes satelitales y redes sociales permite una visión sinóptica de las áreas afectadas, y que la teledetección cuantifica niveles de daño en la infraestructura, sin presentar una evaluación de la exactitud de esos productos ni de su disponibilidad en las primeras horas posteriores al evento, que es cuando se toman las decisiones de acceso.
+  discusion: >
+    El autor concluye que la integración de SIG es de suma importancia para la resiliencia y la eficacia de la gestión del transporte posterremoto porque permite priorizar la rehabilitación de infraestructura, crear estrategias proactivas de mitigación y asignar recursos de manera óptima. Recomienda protocolos estandarizados de datos, mejor acceso a la información, colaboración interdisciplinaria, programas de capacitación, herramientas avanzadas y marcos de gobernanza sólidos. Señala como desafíos la exactitud y actualidad de los datos (suelo, lluvia, elevación y pendiente son difíciles de obtener después del desastre), las limitaciones de recursos, los errores de interpretación, la interoperabilidad y los retrasos de comunicación en entornos dinámicos y con pocos recursos. Plantea que el éxito del transporte basado en SIG depende del acceso en tiempo real a datos espaciales confiables.
+  limitaciones: "Declaradas: se mencionan desafíos de calidad de datos, recursos limitados e interoperabilidad como obstáculos de los SIG, no como limitaciones del estudio. No declaradas: ausencia total de método de revisión pese al título; sin criterios de selección ni cuantificación; el ejemplo de Kütahya es una ilustración sin validación y se atribuye a un estudio previo; sin evaluación de beneficios con indicadores; sin análisis de costos, de capacidades institucionales ni de casos de fracaso; dominio limitado al transporte, sin empresas ni cadena de valor."
+  futuro: "El texto no formula una sección de trabajo futuro explícita; en la sección de direcciones futuras destaca la integración de LiDAR con UAV, el aprendizaje automático para clasificación de imágenes y modelado de susceptibilidad, las plataformas SIG colaborativas y el enfoque multidisciplinario."
+c3:
+  tesis: >
+    Los SIG, integrados con datos de sensores, teledetección, redes sociales y modelos de riesgo, mejoran la evaluación de daños, la priorización de reparaciones, la logística y la coordinación en la gestión del transporte después de un terremoto, y su potencial crece con LiDAR, UAV y aprendizaje automático; su aprovechamiento exige datos estandarizados y accesibles, colaboración interdisciplinaria y gobernanza.
+  antitesis: >
+    El artículo no aporta evidencia que respalde la tesis. Se presenta como revisión sistemática pero no declara ningún método de búsqueda ni de selección, los resultados son afirmaciones generales respaldadas por referencias, y el único ejemplo (Kütahya) es una ilustración cartográfica de zonas de amortiguamiento y fallas, sin indicadores de decisión ni validación. No hay cuantificación de mejoras en tiempo de restauración, costos o víctimas, ni comparación con alternativas no basadas en SIG. La afirmación de que la integración 'ha demostrado ser de suma importancia' no se apoya en datos presentados, y los retos que el propio texto enumera (calidad de datos, interoperabilidad, recursos) contradicen la lectura optimista de resultados.
+  sintesis: >
+    La contribución sostenible es un inventario de funciones de los SIG en el transporte posterremoto y una lista de retos de datos e interoperabilidad, útil como mapa conceptual del eslabón logístico. El rótulo de revisión sistemática no se sostiene, y la utilidad real de los SIG queda como hipótesis plausible. Para el corpus, y con las cautelas anteriores, el valor reside en recordar que la recuperación de empresas depende del acceso a vías, insumos y proveedores, y que los datos geoespaciales de la red de transporte son un insumo natural de un gemelo de continuidad, aunque el documento no establezca ese vínculo.
+  areas_grises:
+    - "Método de la revisión: el título la califica de sistemática, pero el texto no informa bases de datos, ecuaciones de búsqueda, criterios de inclusión, período ni número de documentos revisados; no es posible reproducir la selección ni evaluar el sesgo."
+    - "Evidencia del ejemplo: el caso de Kütahya procede de un estudio previo y se resume con dos mapas (zonas de amortiguamiento de eventos de magnitud 4 o mayor y fallas activas); no se informa de daños observados, tiempos de acceso ni mejoras en decisiones de transporte."
+    - "Resultados no cuantificados: se afirma que los SIG mejoraron la evaluación, el seguimiento y la restauración, pero no hay cifras de reducción de tiempos, costos o víctimas, ni comparaciones con y sin SIG."
+    - "Alcance: el transporte se trata como infraestructura pública y de emergencia; las empresas, la logística comercial y las cadenas de suministro solo se mencionan de forma general al hablar de restauración de servicios."
+  puntos_oscuros: >
+    Llama la atención que un artículo cuyo título anuncia una revisión sistemática de estrategias de integración y aplicaciones no describa ningún procedimiento de búsqueda ni de selección, de modo que el término sistemática no se sostiene. También es notable que las conclusiones afirmen que la integración de SIG 'ha demostrado ser de suma importancia', cuando la única ilustración presentada es un mapa de zonas de amortiguamiento. El texto recomienda tecnologías avanzadas y programas de capacitación sin mencionar costos ni capacidades institucionales, lo cual limita la aplicabilidad en contextos con pocos recursos. Además, la mayor parte de las citas se agrupa en párrafos de síntesis sin identificar qué estudios aportan datos empíricos, y no se señalan resultados negativos o limitaciones de los SIG en eventos reales, lo que impide valorar la relación entre la promesa de la tecnología y su desempeño en un evento concreto, y obliga a tratar las recomendaciones como supuestos de trabajo.
+  ideas:
+    - "Capa de accesibilidad para continuidad empresarial: construir, con datos abiertos de la red vial y de fallas, un modelo de accesibilidad posterremoto para una zona industrial, que estime el tiempo de acceso de insumos y personal bajo escenarios de cierre de vías, y que alimente un gemelo de continuidad de una cadena local. El resultado sería un indicador de tiempo de reabastecimiento por escenario, útil para decidir inventarios de seguridad en pymes, y se podría contrastar con tiempos reales de reapertura de vías tras sismos recientes. El indicador se compararía entre dos polígonos industriales, con y sin ruta alternativa, para estimar el valor de la redundancia vial para la continuidad, medido en días de abastecimiento perdidos por escenario."
+    - "Revisión sistemática verdadera del vínculo SIG-recuperación económica: ejecutar una revisión con protocolo registrado que busque estudios donde los SIG se usaron para decidir reparación de transporte y midan indicadores de recuperación (días de cierre, costos, actividad económica), con evaluación de calidad. Con ello se sabría si la literatura aporta evidencia cuantitativa o solo descripciones, y se podría priorizar qué casos replicar en regiones sísmicas de América Latina, con un criterio explícito de calidad de la evidencia y un registro público de los estudios excluidos con sus razones."
+  relaciones:
+    - "Logística y transporte posterremoto (se relaciona con) D026: ambos tienen foco en Turquía; D026 cataloga 89 soluciones digitales tras el terremoto de 2023, y D047 se enfoca en los SIG y en el transporte con un ejemplo de Kütahya."
+    - "Teledetección y UAV (complementa) D042 y D022: D042 y D022 revisan UAV y comunicaciones en terremotos, y D047 propone LiDAR y UAV como futura integración con SIG para la evaluación de infraestructura."
+  robustez: [1, 1, 1, 2]
+  valor: [2, "Ofrece un panorama introductorio de funciones y retos de los SIG en el transporte posterremoto y una conexión útil con LiDAR, UAV y aprendizaje automático. Su valor para el corpus es periférico y bajo: el rótulo de revisión sistemática no se sostiene, el ejemplo es ilustrativo, no hay cuantificación y no se trata la recuperación empresarial. Se conserva como hipótesis y como referencia temática de logística posterremoto."]
+  conexiones: []
+socratica:
+  p1: "'SIG' es un sistema de captura, análisis y visualización de datos espaciales; 'gestión del transporte posterremoto' es evaluar daños, priorizar reparaciones y mantener rutas; 'resiliencia' no se define con un indicador."
+  p2: "Supone que la disponibilidad de datos y de capacidad institucional permite usar SIG en la emergencia, y que mapas de riesgo mejoran decisiones."
+  p3: "La evidencia es un conjunto de referencias sintetizadas sin método y un ejemplo de mapas de Kütahya."
+  p4: "Si es cierto, los gestores pueden priorizar vías y recursos con SIG; si es falso, pueden depender de datos desactualizados o de plataformas no interoperables."
+  p5: "No se examinan resultados cuantitativos, fracasos, costos, ni usos del SIG por empresas."
+  p6: "Alternativas: que la coordinación institucional sea más importante que la herramienta; que mapas básicos basten; que el factor limitante sea la actualización de datos."
+kpis:
+  - ["Referencias citadas en el texto", "~70", "referencias", "Numeradas hasta [68] en el texto principal", "Cuerpo del texto, p. 1-5", "Texto", "Media", "Sin método de selección"]
+  - ["Magnitud mínima de los eventos usados en el ejemplo", "4", "magnitud", "Zonas de amortiguamiento de Kütahya", "Fig. 1, p. 2", "Texto", "Alta", "Ejemplo de estudio previo"]
+  - ["Documentos del estudio previo citados para el caso de Kütahya", "1", "estudio", "Referencia [68]", "Fig. 1-2, p. 2 y 4", "Texto", "Alta", "Sin datos propios"]
+  - ["Resultados cuantitativos de desempeño", "0", "métricas", "El artículo no reporta tiempos, costos ni víctimas", "Secc. Resultados, p. 4", "Texto", "Alta", "Ausencia verificada"]
+madurez:
+  trl: [6, "'GIS ... now enables real-time monitoring by integrating data from sensors, remote sensing, and social media' (p. 1)", "Nivel modal descrito para los SIG como tecnología de uso común; no del artículo."]
+  mrl: [false, null, "No aplica", "Sin manufactura."]
+  brl: [2, "'Resource limitations further hinder timely recovery and data-driven decisions' (p. 3)", "Se mencionan limitaciones de recursos, sin análisis de costos ni modelo de negocio."]
+  irl: [true, 3, "'Technical barriers such as software integration and system compatibility require multidisciplinary efforts to develop interoperable GIS platforms' (p. 3)", "Integración reconocida como barrera; sin pruebas de interoperabilidad."]
+  drl: [true, 2, "'Reliable transportation is essential for evacuation, rescue, and timely delivery of aid to high-risk areas' (p. 1)", "Necesidad argumentada; sin demanda medida.", "Sin estudio de mercado"]
+  srl:
+    componentes: [["SIG con datos de sensores y teledetección", 6], ["LiDAR, UAV y aprendizaje automático", 4]]
+    interfaces: [[0, 1, 3]]
+valle: [1, "TRL 6 con BRL 2 e IRL 3: herramienta ampliamente disponible, pero sin evidencia cuantitativa de efecto, sin costos y con interoperabilidad como barrera.", "Media", "Estudios con indicadores de recuperación del transporte y análisis de costo-beneficio de los SIG."]
+falacias:
+  - ["Afirmación sin evidencia", "Se concluye que la integración de SIG 'ha demostrado ser de suma importancia' sin datos de desempeño (Sec. Conclusiones, p. 5)", "Beneficio asumido"]
+  - ["Equivocación del rótulo (revisión sistemática sin método)", "El título declara revisión sistemática pero el texto no describe búsqueda ni selección (Título, p. 1)", "El método anunciado no se aplica ni se documenta"]
+  - ["Generalización apresurada", "Se generaliza el aporte de los SIG a partir de un ejemplo cartográfico de una provincia (Fig. 1-2, p. 2 y 4)", "Un solo caso ilustrativo"]
+recomendacion: "Rechazar como evidencia (usar solo como hipótesis)"
+bradford: "No aplica: es una síntesis narrativa sin diseño causal; no estima efectos del uso de SIG sobre tiempos de restauración o resultados de respuesta."
+causal:
+  - ["Uso de SIG → priorización de reparaciones y logística más eficaz", "Argumento narrativo con referencias", "Plausibilidad", "Medición de desempeño, comparación", "Capacidad institucional, calidad de datos, coordinación", 1, "Hipótesis no probada"]
+gaps:
+  - ["Metodológico", "Revisión con protocolo, bases, criterios y evaluación de calidad", "Crítico", "Alta", 9]
+  - ["Conocimiento", "Evidencia cuantitativa de efecto de los SIG en tiempos de restauración del transporte y en la actividad económica", "Crítico", "Media", 8]
+  - ["Tecnológico", "Interoperabilidad y actualización de datos tras el desastre", "Significativo", "Media", 7]
+  - ["Mercado", "Costos y capacidades para pymes y gobiernos locales", "Moderado", "Baja", 5]
+figuras:
+  - ["Fig. 1", "Zonas de amortiguamiento y mapa vial de eventos sísmicos en Kütahya", "Mapa", "Buffer de eventos de magnitud 4 o mayor", "Magnitud mínima 4", "Media"]
+  - ["Fig. 2", "Líneas de falla activas de Kütahya sobre la red vial", "Mapa", "Fallas y vías principales", "No aplica", "Media"]
+competidores:
+  - ["Trabajos sobre gestión de cordones en Wellington y Christchurch", "Nueva Zelanda", "Academia", "Control de acceso posterremoto", "Casos reales", "Sin SIG como centro", "Estable"]
+econ:
+  Y: "No aplica"
+  X: "No aplica"
+  Z: "No aplica"
+  datos: "Revisión narrativa y un ejemplo cartográfico de Kütahya"
+  metodo: "Síntesis narrativa"
+  efecto: "No estimado"
+  endogeneidad: "No - no se discute"
+  instrumento: "No aplica"
+  robustez: "Sin análisis"
+vacios:
+  - ["TERR", "Ejemplo de Kütahya (Turquía); referencias de Nueva Zelanda y otras regiones; sin América Latina"]
+  - ["POBL", "Gestores de transporte y emergencias; sin empresas"]
+  - ["TEMP", "Sin período de revisión ni horizonte de recuperación"]
+  - ["MET", "Sin método de revisión declarado"]
+  - ["VAR", "Faltan tiempos de restauración, costos y variables económicas"]
+  - ["TEOR", "Sin teoría de resiliencia de redes de transporte"]
+  - ["CAUS", "Sin evidencia causal"]
+notas: "Texto completo extraído (8 páginas). El inventario cuenta 4557 palabras en el PDF original; el texto limpio usado para el análisis excluye las referencias. Las figuras son mapas no legibles. Las cifras de referencias (~70) son una estimación a partir de la numeración máxima citada en el texto."
