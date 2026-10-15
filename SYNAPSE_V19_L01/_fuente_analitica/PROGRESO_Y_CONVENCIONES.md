@@ -23,3 +23,7 @@ Registros Scopus sin PDF: ver `scopus_sin_pdf.json`.
 A. `01–03` ya ejecutados. B. Pipeline ML/NLP real (TF-IDF, k-means, jerárquico, DBSCAN, LDA, PCA/t-SNE, redes de co-palabras/co-autoría) sobre texto limpio + metadatos → `csv/` y `figuras/`.
 C. `conexiones.json` (relaciones inter-documentales por DOC_ID) → re-render de fichas.
 D. CSV por lote (19), informe del lote (>5 000 palabras), FICHA_RESUMEN_LOTE (16 secciones), análisis relacional (>2 000 palabras), bibliografía APA, tabla de control, visualizaciones, checklist.
+
+## Pendiente: patentes (solicitado por el usuario durante la ejecución)
+- Verificado: el repo no contiene patentes (103 PDF, 2 RIS, 3 CSV; todo TY - JOUR). Solo hay 2 referencias bibliográficas a estudios sobre patentes dentro de scopus.csv.
+- Plan: (1) completar D044-D101; (2) al cierre, módulo de patentes: si el usuario aporta archivos o autoriza búsqueda externa (Google Patents/Espacenet), se analizarán con el mismo esquema; si no, se documenta como vacío del corpus y se incluyen en el informe las dos referencias de paisaje de patentes como pistas.

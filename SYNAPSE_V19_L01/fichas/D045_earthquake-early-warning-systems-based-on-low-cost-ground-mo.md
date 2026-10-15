@@ -1,0 +1,198 @@
+# FB-L01-045 | D045 — Earthquake early warning systems based on low-cost ground motion sensors: A systematic literature review
+
+> Corpus de origen: **SCOPUS** · Archivo: `SCOPUS_Tejido empresarial/fsens-03-1020202.pdf` · 16 páginas · Relevancia para el eje del corpus: **Adyacente** (Revisión sistemática de 59 artículos sobre sistemas de alerta temprana sísmica con sensores de movimiento del suelo de bajo costo (MEMS), con una clasificación por tipo de aviso y por algoritmo y con desafíos para países de recursos limitados. Aporta la capa de sensado e IoT de bajo costo que alimentaría un gemelo o un sistema de continuidad, y menciona acciones automáticas como apagar maquinaria, pero no trata empresas ni recuperación.)
+
+## PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0)
+
+### Capa 1 — Núcleo bibliográfico
+
+- **FB_ID / DOC_ID:** FB-L01-045 / D045
+- **Tipo de recurso:** Artículo de revisión (journal peer-reviewed, acceso abierto)
+- **Referencia APA 7:** Chandrakumar, C., Prasanna, R., Stephens, M., & Tan, M. L. (2022). Earthquake early warning systems based on low-cost ground motion sensors: A systematic literature review. *Frontiers in Sensors*, *3*, Article 1020202. https://doi.org/10.3389/fsens.2022.1020202
+- **Autores:** Chandrakumar, Chanthujan (57193057522); Prasanna, Raj (36519631800); Stephens, Max (39362352300); Tan, Marion Lara (57193679072)
+- **Afiliaciones:** Joint Centre for Disaster Research, Massey University, Wellington, New Zealand; Department of Civil and Environmental Engineering, The University of Auckland, Auckland, New Zealand
+- **Fecha de publicación:** 2022
+- **Fuente/contenedor:** Frontiers in Sensors · vol. 3
+- **Identificador persistente:** DOI 10.3389/fsens.2022.1020202 · ISSN 26735067
+- **URL de acceso:** https://www.scopus.com/inward/record.uri?eid=2-s2.0-85177439618&doi=10.3389%2ffsens.2022.1020202&partnerID=40&md5=c9c0b1a2c15468c519d83c7fbe5d701f
+- **Fecha de consulta:** 2026-10-15
+- **Citas Scopus (a la fecha del export):** 28
+
+### Capa 2 — Extracción metodológica
+
+**Objetivo de la investigación.** Revisar de manera sistemática los métodos y enfoques para construir sistemas de alerta temprana sísmica (EEWS) de bajo costo con sensores de movimiento del suelo basados en sistemas microelectromecánicos (MEMS) en distintos territorios, proponer una clasificación de estos sistemas según el tipo de aviso y el algoritmo utilizado, resumir las implementaciones existentes, discutir los desafíos de su implementación y mantenimiento y proponer áreas de investigación futura. La motivación es que el costo de sensores de gama alta impide que muchos países sísmicos dispongan de un sistema de alerta.
+
+**Pregunta de investigación.** El artículo formula tres preguntas: cómo clasificar los EEWS de bajo costo con sensores MEMS; cuáles son los EEWS de bajo costo ya implementados en el mundo; y cuáles son las limitaciones, desafíos y áreas de investigación futura en este dominio. La primera es conceptual, la segunda descriptiva y la tercera prospectiva, sin comparación cuantitativa de desempeño entre sistemas.
+
+**Marco teórico.** El marco distingue los sensores por clases de adquisición de datos de movimiento fuerte (A a D, según resolución y rango dinámico) y los sistemas por costo, entre EEWS convencionales de gama alta, con costo de millones de dólares, y EEWS de bajo costo, con costo de miles de dólares. La clasificación propuesta separa los sistemas en 'en sitio' (un solo sensor) y regionales (red de sensores), y los regionales según el algoritmo: basados en la fuente (puntual o de falla finita) y basados en el movimiento del suelo (como el algoritmo PLUM). Se añade la distinción entre etapa experimental y etapa de generación de alertas públicas.
+
+**Metodología.** La búsqueda se hizo en Scopus y Web of Science el 30 de marzo de 2022, con combinaciones de 'earthquake early warning' y alternativas de 'low-cost' (MEMS, teléfono inteligente, ciencia ciudadana, económico), para artículos posteriores a septiembre de 2009, revisados por pares, en inglés y con texto completo; se excluyó literatura gris. La búsqueda produjo 354 registros y 218 únicos. La revisión manual de resúmenes excluyó trabajos con sensores distintos de MEMS (fibra óptica, satélite), detección de otros desastres o monitoreo estructural, encuestas de percepción, teléfonos usados solo para notificar y artículos sin información suficiente. Quedaron 59 artículos. Los datos se extrajeron en una hoja de cálculo y se analizaron por comparación constante de nombrado y clasificación, sin evaluación de calidad ni de sesgo de los estudios. El protocolo adopta los pasos de Algiriyage y colaboradores (2022) para establecer preguntas, buscar, excluir, extraer y analizar, y no registra un protocolo previo ni describe si más de una persona realizó el cribado, de modo que la selección de los 59 artículos no puede verificarse de forma independiente.
+
+**Resultados principales.** La revisión propone la clasificación por tipo de aviso (en sitio o regional) y por algoritmo (basado en la fuente o en el movimiento del suelo), y resume en tablas los sistemas encontrados y el número de enfoques por categoría. El primer sistema de bajo costo con sensores propios fue SOSEWIN en Alemania (Fleming y colaboradores, 2009), seguido por despliegues en Taiwán, California, Islandia, China y Nueva Zelanda. Los sistemas basados en la fuente puntual saturan para magnitudes mayores que 6 aproximadamente, y hay poca información sobre algoritmos de falla finita en bajo costo. Los algoritmos basados en el movimiento del suelo ganan popularidad por su robustez y rapidez. Se reportan, además, las siguientes limitaciones: procesamiento centralizado, baja densidad de sensores, falsas alarmas por menor calidad de los sensores, dificultad de detección en teléfonos en movimiento y ausencia de soporte multisensor, y desafíos de seguridad de redes para sistemas con participación comunitaria. El artículo resume las implementaciones por país y por etapa (experimental o de generación de alertas públicas), pero no informa tiempos de aviso medidos, tasas de falsas alarmas ni costos totales por sistema, y la distribución de los 59 artículos por categoría se presenta en tablas de lectura parcial.
+
+**Discusión y contribución.** Los autores concluyen que los EEWS de bajo costo con sensores MEMS pueden constituir una solución viable para generar alertas confiables y precisas, en especial para países en desarrollo, y como apoyo a los sistemas de gama alta al aumentar la densidad de sensores. Sostienen que el procesamiento centralizado genera cuellos de botella y plantean tres líneas de investigación: procesamiento descentralizado en el nodo, capacidad multisensor y adopción de algoritmos basados en el movimiento del suelo. Señalan que la participación comunitaria abre vías para sistemas abiertos y colaborativos, con riesgos de seguridad de red, y que el cambio hacia el procesamiento en el nodo reduciría la dependencia de la conectividad central y la latencia, un punto crítico después de un evento.
+
+**Limitaciones declaradas.** Declaradas: el estudio no analiza cómo se entregan las alertas porque la mayoría de los artículos no describe el método de distribución; se limita a sensores MEMS y a literatura revisada por pares en inglés. No declaradas: sin evaluación de calidad ni de sesgo; solo dos bases de datos; sin comparación cuantitativa de tiempos de aviso, falsos positivos ni costos entre sistemas; la categoría de bajo costo es amplia (miles de dólares) y no se define un umbral; sin evidencia de efecto de los sistemas sobre daños, víctimas o continuidad de actividades; sin análisis de sostenibilidad financiera ni de operación y mantenimiento en la práctica.
+
+**Trabajo futuro.** Explícito: exploración del procesamiento descentralizado o en el nodo, introducción de soporte multisensor y adopción de algoritmos basados en el movimiento del suelo para generar alertas. Implícito: seguridad de redes en sistemas comunitarios, densificación de sensores y evaluación operativa.
+
+**Palabras clave.** Declaradas: earthquake detection; earthquake early warning (EEW); earthquake resilience; low-cost seismometers; MEMS; systematic literature review (SLR); warning systems | Inferidas: alerta temprana sísmica, sensores MEMS, bajo costo, acelerómetros, redes de sensores, ciencia ciudadana, procesamiento en el nodo, algoritmos basados en movimiento del suelo, resiliencia sísmica, países en desarrollo
+
+### Capa 3 — Abstracción propositiva
+
+**Tesis central (abstraída).** Los sensores MEMS de bajo costo permiten construir sistemas de alerta temprana sísmica confiables y asequibles, útiles en países que no pueden costear redes convencionales y como complemento denso de los sistemas de gama alta; la clasificación por tipo de aviso y algoritmo ordena los enfoques existentes, y el procesamiento en el nodo, la capacidad multisensor y los algoritmos basados en el movimiento del suelo son las áreas prioritarias para mejorar su desempeño.
+
+**Antítesis identificada.** La revisión no demuestra la fiabilidad que afirma. No compara tiempos de aviso, tasas de falsas alarmas ni tasas de detección entre sistemas, y reconoce que los sensores de menor calidad generan más falsas alertas. Solo usa dos bases de datos, excluye literatura gris (donde se documentan operaciones reales) y no evalúa la calidad de los estudios. Muchos sistemas están en etapa experimental o inicial, y los que generan alertas públicas son pocos. La conclusión de viabilidad para países en desarrollo se infiere del bajo costo de los sensores y no de resultados operativos ni de evaluaciones de sostenibilidad. Tampoco se examinan los usos finales de la alerta, de modo que el beneficio sobre daños evitados no se estima.
+
+**Síntesis propuesta.** La contribución sostenible es un mapa organizado de los enfoques técnicos de EEWS de bajo costo, con una taxonomía útil y una lista de limitaciones técnicas (centralización, densidad, falsas alarmas, multisensor, seguridad). La afirmación de viabilidad debe entenderse como plausibilidad técnica en despliegues piloto, no como demostración operativa, y las cifras de costo son órdenes de magnitud y no presupuestos verificados. Para el corpus, importa entonces como capa de sensado e IoT de bajo costo susceptible de conectarse con acciones automáticas de continuidad (apagar maquinaria, cortar gas), cuya evaluación económica para empresas pequeñas queda abierta y debe abordarse con datos de pérdidas evitadas.
+
+**Áreas grises detectadas.**
+
+1. Comparabilidad de los sistemas: las tablas resumen sistemas por tipo de aviso y algoritmo, pero no reportan tiempos de aviso, tasas de detección ni de falsas alarmas con definiciones homogéneas, de modo que no se puede ordenar los sistemas por desempeño y la conclusión de confiabilidad queda sin respaldo cuantitativo.
+2. Definición de bajo costo: el texto contrasta costos de millones de dólares con miles de dólares y usa clases de sensores A a D, pero no establece un umbral ni incluye costos de operación, mantenimiento, comunicaciones y personal, lo que afecta la afirmación de asequibilidad para países en desarrollo.
+3. Alcance de la evidencia: la revisión excluye literatura gris, informes gubernamentales y estudios en otros idiomas, y se limita a artículos con información técnica; los sistemas operativos con menos publicación académica pueden quedar subrepresentados.
+4. Uso de la alerta: el estudio no analiza cómo se distribuye la alerta ni qué acciones siguen, aunque menciona la posibilidad de detener trenes, apagar maquinaria y cerrar válvulas de gas; no hay evidencia de pérdidas evitadas ni de adopción por empresas.
+
+**Puntos oscuros aclarados.** Llama la atención que la revisión concluya la viabilidad de sistemas confiables sin comparar tasas de falsas alarmas, aunque reconoce que los sensores de menor calidad son más propensos a ellas. También es notable que el análisis excluya cómo se entregan las alertas, que es el eslabón que decide el valor del sistema, con el argumento de que los artículos no lo describen. La clasificación se presenta como contribución principal, pero la Tabla 1 muestra pocos enfoques en algunas categorías (por ejemplo, de falla finita), lo que sugiere que la taxonomía es más amplia que la evidencia disponible. Además, el texto señala que los EEWS no ofrecen aviso en la zona cercana al epicentro (zona ciega) y propone sistemas en sitio para cubrirla, sin presentar resultados de desempeño. Finalmente, no se menciona ninguna evaluación económica del beneficio de la alerta para actividades productivas, pese a que se cita la posibilidad de apagar maquinaria para reducir pérdidas.
+
+**Ideas propositivas novedosas.**
+
+1. Valor económico del aviso para pymes: combinar los sensores MEMS de bajo costo con un actuador mínimo (corte automático de gas y energía, parada de línea) en una nave industrial, y estimar con simulación de escenarios sísmicos los segundos de aviso por distancia, las acciones posibles y las pérdidas evitadas. El resultado sería una curva costo-beneficio de la alerta para una pyme en zona sísmica, comparable con la inversión en sensores de miles de dólares que reporta la revisión, e incluiría el costo de falsas alarmas (paros innecesarios) como parámetro de sensibilidad. El piloto duraría al menos doce meses para observar eventos menores reales.
+2. Red mixta de sensores como insumo de un gemelo de continuidad: usar la red densa de bajo costo, con procesamiento en el nodo, para alimentar un gemelo que registre intensidad de sacudida por sitio y active listas de inspección priorizadas de instalaciones, y evaluar si reduce el tiempo hasta la decisión de reocupación. Se podría contrastar con una red de gama alta como referencia, midiendo diferencias de intensidad estimada y falsas alarmas, para decidir el compromiso entre densidad y calidad, y se estimaría el costo anual de mantenimiento por nodo para empresas que adopten la red.
+
+**Relaciones poco exploradas.**
+
+1. Alerta temprana de bajo costo (profundiza) D044 y D031: D044 enumera usos de IoT sin método, D031 propone una arquitectura semántica con un caso de tsunami, y D045 aporta una taxonomía y un inventario sistemático de EEWS con sensores MEMS.
+2. Sensores de bajo costo en edificios y puentes (complementa) D039 y D034: D039 corrige errores de sincronización en redes inalámbricas de monitoreo estructural y D034 simula daño urbano; D045 aporta la perspectiva de sensado de bajo costo para alerta.
+
+**Robustez argumentativa:** 2.7/10 (ponderación 30/30/25/15) — consistencia lógica 3/10; calidad de la evidencia 2/10; validez de inferencias causales 3/10; generalizabilidad 3/10.
+
+**Valor estratégico:** 5/10 — Ofrece una taxonomía y un inventario sistemático de EEWS de bajo costo con sensores MEMS, y una lista de limitaciones técnicas y áreas de investigación, útil como referencia para la capa de sensado e IoT de un sistema de continuidad. Su valor es adyacente porque no trata empresas ni recuperación, y se reduce por la falta de comparación cuantitativa de desempeño, la exclusión de literatura gris y de la entrega de alertas, y la ausencia de evaluación económica.
+
+**Conexiones inter-documentales.**
+
+- (Se completan en el Análisis Relacional de la Parte final del lote.)
+
+### Capa 4 — Control de calidad
+
+- **Falacias detectadas:** Conclusión no derivada de la evidencia (Se concluye que los sistemas de bajo costo pueden generar alertas confiables y precisas sin comparar falsas alarmas ni tiempos de aviso (Resumen, p. 1; Sec. 4, p. 10-12)); Generalización apresurada (Se infiere factibilidad para países en desarrollo a partir de despliegues en territorios con redes convencionales (Taiwán, California, China) (Sec. 1, p. 2)); Sesgo de selección (Se excluyen la literatura gris y los estudios en otros idiomas, y se analizan solo artículos con detalle técnico (Sec. 2.2-2.3, p. 3-4))
+- **Bradford-Hill:** No aplica: es una revisión descriptiva; no estima efectos causales del aviso sobre daños, víctimas o pérdidas.
+- **TRL asignado:** 6 — 'These affordable EEWS deployments have shown the practicality and capacity of MEMS-based sensor networks to deliver EEW' (p. 2)
+- **Versión de ficha:** v1.0 | 2026-10-15 | SYNAPSE V19.0
+- **Notas de proceso:** Texto completo extraído (13 páginas). Las tablas 1 y 2 no son legibles de forma completa; en la Tabla 1 aparecen los valores 18, 1 y 9 para las categorías sin que el orden de asignación sea fiable, por lo que no se interpretan. Se verificó el cribado 354 a 218 a 59 en el texto.
+
+---
+
+## PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
+
+### B.1 Análisis dialéctico
+
+| TESIS | ANTÍTESIS | SÍNTESIS | ROBUSTEZ |
+|---|---|---|---|
+| Los sensores MEMS de bajo costo permiten construir sistemas de alerta temprana sísmica confiables y asequibles, útiles en países que no pueden costear redes convencionales y como complemento denso de los sistemas de gama alta; la clasificación por tipo de aviso y algoritmo ordena los enfoques existentes, y el procesamiento en el nodo, la capacidad multisensor y los algoritmos basados en el movimiento del suelo son las áreas prioritarias para mejorar su desempeño.  | La revisión no demuestra la fiabilidad que afirma. No compara tiempos de aviso, tasas de falsas alarmas ni tasas de detección entre sistemas, y reconoce que los sensores de menor calidad generan más falsas alertas. Solo usa dos bases de datos, excluye literatura gris (donde se documentan operaciones reales) y no evalúa la calidad de los estudios. Muchos sistemas están en etapa experimental o inicial, y los que generan alertas públicas son pocos. La conclusión de viabilidad para países en desarrollo se infiere del bajo costo de los sensores y no de resultados operativos ni de evaluaciones de sostenibilidad. Tampoco se examinan los usos finales de la alerta, de modo que el beneficio sobre daños evitados no se estima.  | La contribución sostenible es un mapa organizado de los enfoques técnicos de EEWS de bajo costo, con una taxonomía útil y una lista de limitaciones técnicas (centralización, densidad, falsas alarmas, multisensor, seguridad). La afirmación de viabilidad debe entenderse como plausibilidad técnica en despliegues piloto, no como demostración operativa, y las cifras de costo son órdenes de magnitud y no presupuestos verificados. Para el corpus, importa entonces como capa de sensado e IoT de bajo costo susceptible de conectarse con acciones automáticas de continuidad (apagar maquinaria, cortar gas), cuya evaluación económica para empresas pequeñas queda abierta y debe abordarse con datos de pérdidas evitadas.  | 2.7/10 |
+
+### B.2 Interrogación socrática
+
+- **P1 Definición:** 'Bajo costo' es un sistema con sensores de clase C o D, de miles de dólares; 'en sitio' es un sistema de un sensor; 'regional' es una red; 'basado en movimiento del suelo' predice la intensidad sin estimar los parámetros de la fuente.
+- **P2 Supuestos:** Supone que los 59 artículos representan la literatura, que los sensores MEMS pueden detectar con fiabilidad suficiente y que un aviso de segundos es útil para quienes lo reciben.
+- **P3 Evidencia:** La evidencia es una síntesis cualitativa de 59 artículos, dos tablas de clasificación y una lista de sistemas implementados, sin métricas comparadas.
+- **P4 Consecuencias:** Si es cierto, países y comunidades con pocos recursos pueden desplegar alertas asequibles; si es falso, pueden desplegar sistemas con muchas falsas alarmas y bajo uso.
+- **P5 Contraejemplos:** No se examinan costos de operación, falsas alarmas comparadas, entrega de alertas, beneficio económico ni experiencias de abandono de sistemas.
+- **P6 Alternativas:** Alternativas: que los teléfonos inteligentes o las redes convencionales densificadas resuelvan el aviso; que el cuello de botella sea la entrega y la respuesta del usuario; que los sistemas de bajo costo no logren la calidad exigida.
+
+### B.3 KPIs extraídos
+
+| KPI | VALOR | UNIDAD | CONTEXTO | UBICACIÓN | FUENTE | CONFIANZA | LIMITACIÓN |
+|---|---|---|---|---|---|---|---|
+| Registros identificados en la búsqueda | 354 | artículos | Scopus y Web of Science, 30 de marzo de 2022 | Sec. 2.2, p. 3 | Texto | Alta | 218 únicos tras deduplicación |
+| Artículos únicos tras eliminar duplicados | 218 | artículos | Antes de la revisión de resúmenes | Sec. 2.2, p. 3 | Texto | Alta | Criterios de exclusión manuales |
+| Artículos incluidos en la revisión | 59 | artículos | Posteriores a septiembre de 2009 | Sec. 2.3, p. 4 | Texto | Alta | Solo MEMS en inglés |
+| Costo de un EEWS con sensores clase A | millones | dólares | Referencia de Brooks et al. (2021) | Sec. 1, p. 2 | Texto | Media | Cifra cualitativa |
+| Costo de un EEWS con sensores clase C y D | miles | dólares | Referencia de Brooks et al. (2021) | Sec. 1, p. 2 | Texto | Media | Cifra cualitativa |
+| Magnitud de saturación de algoritmos de fuente puntual | 6 | Mw (aproximado) | Algoritmos basados en la fuente | Sec. 3.1.2.1, p. 5 | Texto | Alta | Dificultad con eventos grandes |
+| Ventana de datos de onda P usada por algoritmos de fuente | 0,5 a 4 | segundos | De dos a seis sensores cercanos | Sec. 3.1.2.1, p. 5 | Texto | Alta | Valor de literatura |
+| Países con despliegues de bajo costo citados | 5 | territorios | Taiwán, California, Islandia, China y Nueva Zelanda | Sec. 1, p. 2 | Texto | Alta | Además de Alemania (SOSEWIN) |
+
+### B.4 Evaluación multinivel de madurez
+
+| Dimensión | Score | Aplica | Evidencia | Justificación |
+|---|---|---|---|---|
+| TRL | 6 | Sí | 'These affordable EEWS deployments have shown the practicality and capacity of MEMS-based sensor networks to deliver EEW' (p. 2) | Nivel modal del campo: despliegues piloto y algunos operativos; no del artículo. |
+| MRL | N/A | No | No aplica | Sin manufactura. |
+| BRL | 3 | Sí | 'the cost of high-end ground motion sensors makes most earthquake-prone countries unable to afford an EEWS' (p. 1) | Se argumenta la ventaja de costo, sin modelo de negocio, de financiamiento ni de operación. |
+| IRL | 4 | Sí | 'Low-cost EEWS work as a secondary system supporting their main high-end EEWS' (p. 2) | Se documenta la operación de redes de bajo costo como sistemas complementarios de redes convencionales en Taiwán, Estados Unidos y China. |
+| DRL | 4 | Sí | 'Disasters have historically had severe effects on people and infrastructure' (p. 2) | Demanda argumentada en países sin sistemas; sin estudio de mercado de usuarios. |
+| SRL | 2.44 | Sí | Componentes: Sensores MEMS y red de bajo costo (TRL 6), Algoritmos de movimiento del suelo (TRL 5) | SRL=Σ(TRLi×IRLij)/2 términos ordenados = 22.0; ÷9 → 2.44; nivel acotado a [1,9] = 2.44 |
+
+**Análisis de brechas**
+
+| Brecha | Valor | Interpretación |
+|---|---|---|
+| Gap TRL-BRL | 3 | TRL >> BRL: tecnología sin mercado (riesgo comercial) |
+| Gap TRL-MRL | N/A | N/A |
+| Gap TRL-IRL | 2 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Gap BRL-DRL | -1 | Desarrollo relativamente balanceado (|brecha|<3) |
+| Brecha crítica | 3 | Valle de la Muerte Comercial (TRL-BRL) |
+
+**Valle de la muerte:** V1 Investigación sin aplicación · Severidad: Media · TRL 6 con BRL 3: tecnologías en despliegues piloto y complementarios, con evidencia económica limitada a costo de sensores y sin análisis de operación y mantenimiento. · Estrategia de salida: Evaluación de desempeño comparada, costos totales de operación y estudios de beneficio para usuarios productivos.
+
+### B.5 Robustez argumentativa y causalidad
+
+| Falacia | Evidencia | Impacto |
+|---|---|---|
+| Conclusión no derivada de la evidencia | Se concluye que los sistemas de bajo costo pueden generar alertas confiables y precisas sin comparar falsas alarmas ni tiempos de aviso (Resumen, p. 1; Sec. 4, p. 10-12) | Viabilidad inferida del costo del sensor |
+| Generalización apresurada | Se infiere factibilidad para países en desarrollo a partir de despliegues en territorios con redes convencionales (Taiwán, California, China) (Sec. 1, p. 2) | Contextos con capacidades institucionales distintas |
+| Sesgo de selección | Se excluyen la literatura gris y los estudios en otros idiomas, y se analizan solo artículos con detalle técnico (Sec. 2.2-2.3, p. 3-4) | Posible subrepresentación de sistemas operativos |
+
+**Recomendación:** Aceptar con reservas
+
+| Relación propuesta | Evidencia correlacional | Criterios cumplidos | Criterios no cumplidos | Confusores | Score | Veredicto |
+|---|---|---|---|---|---|---|
+| Aviso de segundos → acciones automáticas → menos daños y pérdidas | Argumento de la introducción con citas | Plausibilidad | Medición de pérdidas evitadas | Distancia al epicentro, tipo de instalación, tiempo de reacción | 1 | Hipótesis no probada en la revisión |
+
+### B.6 Gaps identificados
+
+| Tipo | Descripción | Magnitud | Viabilidad | Prioridad |
+|---|---|---|---|---|
+| Metodológico | Comparación cuantitativa de desempeño (tiempo de aviso, falsas alarmas, detección) entre sistemas | Crítico | Media | 8 |
+| Conocimiento | Evaluación del valor económico del aviso para empresas y de la entrega de alertas | Crítico | Media | 9 |
+| Tecnológico | Procesamiento en el nodo, multisensor y seguridad de redes comunitarias | Significativo | Media | 7 |
+| Mercado | Costos de operación y sostenibilidad en países en desarrollo | Significativo | Media | 7 |
+
+### B.7 Figuras y tablas clave
+
+| N.º | Título | Tipo | Descripción | Datos extraídos | Relevancia |
+|---|---|---|---|---|---|
+| Tabla 1 | Número de enfoques por categoría de la clasificación | Tabla | En sitio, basado en fuente y basado en movimiento del suelo | Valores 18, 1 y 9 | Media |
+| Tabla 2 | Resumen de artículos según tipo de aviso y algoritmo | Tabla | Sistemas implementados | 59 artículos | Alta |
+| Fig. 2 | Clasificación de algoritmos de fuente puntual y de falla finita | Diagrama | Algoritmos basados en la fuente | No aplica | Media |
+| Fig. 4 | Diagrama de discusión de limitaciones, desafíos e investigación futura | Diagrama | Tres líneas de investigación | 3 líneas | Media |
+
+### B.8 Competidores / actores / alternativas tecnológicas
+
+| Nombre | País | Tipo | Tecnología núcleo | Ventaja | Desventaja | Tendencia |
+|---|---|---|---|---|---|---|
+| Revisiones generales de EEW (Cremen y Galasso; Tan et al.; Velazquez et al.) | No especificado en documento | Academia | Aspectos sismológicos, de ingeniería, sociales y organizacionales | Cobertura amplia | No se centran en sistemas de bajo costo | Estable |
+| Sistemas MEMS de Taiwán (Wu et al.) y California (Clayton et al.) | Taiwán; Estados Unidos | Academia | Redes de bajo costo complementarias | Operación como segundo sistema | Sin cifras comparadas en la revisión | Creciendo |
+
+### B.9 Variables econométricas y vacíos
+
+- **Y:** No aplica: no hay variable de resultado estimada
+- **X:** No aplica
+- **Z (controles):** No aplica
+- **Datos:** 59 artículos seleccionados de 354 registros de Scopus y Web of Science (2009 a marzo de 2022)
+- **Método:** Revisión sistemática con clasificación cualitativa
+- **Efecto reportado:** No estimado
+- **Endogeneidad tratada:** No - no se discute
+- **Instrumento:** No aplica
+- **Robustez reportada:** Sin evaluación de calidad ni sensibilidad
+
+| Vacío | Tipo | Descripción |
+|---|---|---|
+| V-045-01 | TERR | Despliegues en Alemania, Taiwán, California, Islandia, China y Nueva Zelanda; sin América Latina |
+| V-045-02 | POBL | Sin usuarios finales, empresas ni comunidades específicas |
+| V-045-03 | TEMP | Publicaciones de septiembre de 2009 a marzo de 2022; sin evaluación de largo plazo |
+| V-045-04 | MET | Dos bases, inglés, sin evaluación de calidad y sin métricas comparadas |
+| V-045-05 | VAR | Faltan costos de operación, falsas alarmas, tiempos de aviso y pérdidas evitadas |
+| V-045-06 | TEOR | Sin teoría de respuesta organizacional a la alerta ni de resiliencia |
+| V-045-07 | CAUS | Sin evidencia causal de efecto de la alerta en daños |
