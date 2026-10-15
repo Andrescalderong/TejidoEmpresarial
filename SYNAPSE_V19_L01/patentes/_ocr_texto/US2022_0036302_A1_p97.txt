@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036302A1
+14
+of in, on, and near a set of value chain entities of the value
+chain entities and configured to collect sensor data related to
+the set of value chain entities, the sensor data being sub-
+stantially real-time sensor data; and an adaptive intelligence
+system connected to the plurality of sensors and configured
+to receive the sensor data from the plurality of sensors, the
+adaptive intelligence system including: an artificial intelli-
+gence system configured to input the sensor data into a
+machine learning model such that the sensor data is used as
+training data for the machine learning model, and the
+machine learning model is configured to transform the
+sensor data into simulation data; and a digital twin system
+configured to create a digital replica of the set of value chain
+entities based on the simulation data, wherein the digital
+replica of the value chain entities is configured to be used to
+provide a substantially real-time representation of the value
+chain entities and provide a simulation of a possible future
+state of the value chain entities via the simulation data.
+[0075] In embodiments, the machine learning model is
+configured to learn which types of sensor data are relevant
+to dynamics of each value chain entity of the value chain
+entities and simulation thereof. In embodiments, the
+machine learning model is configured to make suggestions
+to a user of the information technology system via an
+interface regarding potential changes to the plurality of
+sensors that would improve simulation of the value chain
+entities via the digital twin system. In embodiments, the
+machine learning model is configured to prioritize collection
+and transmission of sensor data that are relevant to dynamics
+of the value chain entities and simulation thereof.
+[0076] In embodiments, a value chain network manage-
+ment platform, includes a machine learning system that
+trains one or more machine-learned models to output one or
+more e-commerce recommendations to a value chain net-
+work customer via an interface using training data that
+includes product features and outcomes; and an artificial
+intelligence system that receives a request for e-commerce
+from an e-commerce system, wherein the artificial intelli-
+gence is configured to determine and generate an e-com-
+merce recommendation based on the one or more machine-
+learned models and the request, and the artificial intelligence
+is configured to leverage one or more product digital twins
+and one or more customer digital twins to execute a simu-
+lation based on the one or more customer digital twins, the
+one or more product digital twins, and the e-commerce
+recommendation.
+[0077] In embodiments, the machine learning system inte-
+grates with a model interpretability system, and wherein the
+model interpretability system is configured to implement
+Testing with Concept Activation Vectors (TCAV) function-
+ality, whereby the model interpretability facilitates learning
+of human-interpretable concepts by the machine-learned
+model. In embodiments, the one or more machine-learned
+models are at least one of trained and retrained using
+simulation data from one or more simulations involving one
+or more customer profile digital twins.
+[0078] In embodiments, a value chain network manage-
+ment platform includes a machine learning system that trains
+one or more machine-learned models to output one or more
+risk management decisions using training data that includes
+component features and outcomes; and an artificial intelli-
+gence system that receives a request for risk management
+from a risk management system, wherein the artificial intel-
+ligence system is configured to determine and generate a risk
+[col 2]
+Feb.3,2022
+management decision based on the one or more machine-
+learned models and the request, and the artificial intelligence
+system is configured to leverage one or more component
+digital twins and one or more environment digital twins to
+execute a simulation based on the one or more component
+digital twins, the one or more environment digital twins, and
+the risk management decision.
+[0079] In embodiments, the risk management decision
+relates to a condition of a component. In embodiments, the
+one or more machine-learned models are at least one of
+trained and retrained using simulation data from one or more
+simulations involving one or more components.
+[0080] In embodiments, an information technology sys-
+tem includes a value chain network management platform
+having an asset management application associated with
+maritime assets, wherein the platform comprises a data
+handling layer including data sources containing informa-
+tion used to populate a training set based on a set of maritime
+activities of one or more of the maritime assets and at least
+one of design outcomes, parameters, and data associated
+with the one or more of the maritime assets; an artificial
+intelligence system that is configured to learn on the training
+set collected from the data sources, wherein the artificial
+intelligence system is configured to simulate one or more
+attributes of the one or more of the maritime assets, and the
+artificial intelligence system is configured to generate one or
+more sets of recommendations for a change in the one or
+more attributes based on the training set collected from the
+data sources, a digital twin system that is configured to
+provide for visualization of a digital twin of the one or more
+of the maritime assets including detail generated by the
+artificial intelligence system of the one or more attributes in
+combination with the one or more generated sets of recom-
+mendations.
+[0081]  In embodiments, the maritime assets include one or
+more container ships, and wherein the digital twin system
+further provides for visualization of the digital twin of the
+one or more container ships including the one or more
+attributes in combination with one or more of the sets of
+recommendations associated with the container ships. In
+embodiments, the maritime assets include one or more
+barges, and wherein the digital twin system further provides
+for visualization of the digital twin of one or more of the
+barges including the one or more attributes in combination
+with one or more of the sets of recommendations associated
+with the barges.In embodiments,themaritime assets
+include one or more components of a port infrastructure
+installed on or adjacent to land, and wherein the digital twin
+system further provides for visualization of the digital twin
+of one or more of the components of port infrastructure
+including the one or more attributes in combination with one
+or more of the sets of recommendations associated with the
+components of port infrastructure.In embodiments,the
+maritime assets also include a container ship moored to a
+component of the port infrastructure. In embodiments, the
+maritime assets include one or more moored navigation
+units deployed on water. In embodiments, the maritime
+assets include one or more ships each connected to a barge.
+In embodiments, the maritime assets are associated with a
+real-world maritime port, and wherein the digital twin
+system further provides for visualization of the digital twin
+of one or more of the components of the real-world maritime
+port including the one or more attributes in combination
+with one or more of the sets of recommendations associated

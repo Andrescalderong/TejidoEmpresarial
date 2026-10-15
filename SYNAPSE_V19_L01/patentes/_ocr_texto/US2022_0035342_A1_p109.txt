@@ -1,0 +1,129 @@
+[col 1]
+US2022/0035342A1
+26
+ing, by the processing system, the one or more sensor data
+streams to the role-based digital twin.
+[0241] In embodiments, generating a role-based digital
+twin may include determining the perspective view corre-
+sponding to the workforce role of the user based on the
+workforce role of the user and a set of data types that are
+relevant to theworkforce role of the user.
+[0242] In embodiments, determining the perspective view
+corresponding to the workforce role of the user may include
+determining an appropriate granularity level for each of the
+data types.
+[0243]  In embodiments, an appropriate granularity level
+for at least one of the data types may be defined in a default
+configuration corresponding to the workforce role.
+[0244] In embodiments, an appropriate granularity level
+for at least one of the data types may be determined based
+on previous interactions of the user with the role-based
+digital twin.
+[0245]In embodiments, a sensor system may include an
+edge device that receives sensor data from a set of sensors
+within the sensor system and generates the sensor data
+stream that is provided to the digital twin system via a
+network.
+[0246]In embodiments, an edge device may receive sen-
+sor data from the set of sensors and selectively compresses
+the sensor data based on values indicated in the sensor data
+to obtain the sensor data stream.
+[0247] In embodiments, connecting the one or more sen-
+sor streams may include: receiving the sensor data stream
+from the edge device; and routing the sensor data stream to
+the user device that is presenting the role-based digital twin
+to the user.
+[0248] In embodiments, connecting the one or more sen-
+sor streams may include: receiving the sensor data stream
+from the edge device; analyzing the sensor data stream to
+identify one or more fault conditions corresponding to an
+object being monitored by the sensor system; and routing an
+indicator of the fault condition to the user device that is
+presenting the role-based digital twin to the user.
+[0249] In embodiments, connecting the one or more sen-
+sor streams may include: receiving the sensor data stream
+from the edge device; analyzing the sensor data stream to
+identify a recommendation corresponding to the workforce
+role of the user; and routing an indicator of the recommen-
+dation to the user device that is presenting the role-based
+digital twin to the user.
+[0250] In embodiments, connecting the one or more sen-
+sor streams may include: receiving the sensor data stream
+from the edge device; analyzing the sensor data stream to
+identify a recommendation corresponding to the workforce
+role of the user; and routing an indicator of the recommen-
+dation to the user device that is presenting the role-based
+digital twin to the user.
+[0251] In embodiments, a workforce may be a factory
+operations workforce, a plant operations workforce, a
+resource extraction operations workforce, a network opera-
+tions workforce responsible for operating a network for an
+ment workforce, a demand planning workforce, a logistics
+planning workforce, a vendor management workforce, or
+some other type of workforce.
+[0252] In embodiments, at least one workforce role may
+be selected from among a CEO role, a COO role, a CFO
+role, a counsel role, a board member role, a CTO role, an
+[col 2]
+Feb. 3, 2022
+information technology manager role, a chief information
+officer role, a chief data officer role, an investor role, an
+engineering manager role, a project manager role, an opera-
+tions manager role, and a business development role.
+[0253]   In embodiments, at least one workforce role may
+be selected from among a factory manager role, a factory
+operations role, a factory worker role, a power plant man-
+ager role, a power plant operations role, a power plant
+worker role, an equipment service role, and an equipment
+maintenance operator role.
+[0254]In embodiments, at least one workforce role may
+be selected from among a market maker role, an exchange
+manager role, a broker-dealer role, a trading role, a recon-
+ciliation role, a contract counterparty role, an exchange rate
+setting role, a market orchestration role, a market configu-
+ration role, and a contract configuration role.
+[0255]   In embodiments, at least one workforce role may
+be selected from among a chief marketing officer role, a
+product development role, a supply chain manager role, a
+customer role, a supplier role, a vendor role, a demand
+management role, a marketing manager role, a sales man-
+ager role, a service manager role, a demand forecasting role,
+a retail manager role, a warehouse manager role, a sales-
+person role, and a distribution center manager role.
+[0256] In embodiments ofthe present disclosure, a method
+is provided for providing a digital twin of a workforce,
+comprising: maintaining an information technology archi-
+tecture that supports a digital twin of a set of physical and
+digital entities, the architecture including: a set of sensors
+that provide sensor data about the set of physical entities; a
+set of data streams generated by at least a subset of the set
+of physical and digital entities; a set of computational
+entities for processing data and a set of network entities for
+transporting data that is derived from the set of sensors and
+the set of data streams; a set of data processing systems for
+extracting, transforming and loading the data that is trans-
+ported by the network entities into a set of resources that are
+sources for the digital twin; representing an enterprise
+organizational structure in a digital twin of an enterprise;
+parsing the structure to infer relationships among a set of
+roles within the organizational structure, the relationships
+and the roles defining a workforce of the enterprise; deter-
+mining a set of parameters with which the digital twin is
+configured based on the inferred set of relationships; and
+configuring the presentation layer of a digital twin based on
+the set of parameters.
+[0257]Amore complete understanding of the disclosure
+will be appreciated from the description and accompanying
+drawings and the claims, which follow. All documents
+referenced herein are hereby incorporated by reference.
+BRIEF DESCRIPTION OF THE DRAWINGS
+[0258]  The accompanying drawings, which are included
+to provide a better understanding of the disclosure, illustrate
+embodiments of the disclosure and together with the
+description serve to explain the many aspects of the disclo-
+sure. In the drawings:
+[0259] FIG. 1 is a block diagram showing prior art rela-
+tionships of various entities and facilities in a supply chain.
+[0260] FIG. 2 is a block diagram showing components and
+interrelationships of systems and processes of a value chain
+network in accordance with the present disclosure.

@@ -1,0 +1,136 @@
+[col 1]
+US 12,277,524 B2
+of the digital products networks at 400. In example embodi-
+ments, products (including goods and services) may create
+and transmit data, such as product level data, to a commu-
+nication layer within the value chain network technology
+stack and/or to an edge data processing facility. This data
+may produce enhanced product level data and may be
+combined with third party data for further processing, mod-
+eling or other adaptive or coordinated intelligence activity,
+as described herein. This may include, but is not limited to,
+producing and/or simulating product and value chain use 10
+cases, the data for which may be utilized by products,
+product development processes, product design, and the
+jike.
+StackViewExamples
+Referring to FIG. 5, a block diagram is presented at 500
+showing components and interrelationships of systems and
+processes of a value chain network technology stack, which
+intelligence layer, and serverless functionalities such as
+platforms (e.g-, development and hosting platforms), data 20
+facilities (e.g, relating to data with IoT and Big Data), and
+data aggregation facilities. In example embodiments, the
+presentation layer may include, but is not limited to, a user
+interface, and modules for investigation and discovery and
+tracking users' experience and engagements. In example 25
+embodiments, the intelligence layer may include, but is not
+limited to, a statistical and computation methods, semantic
+models, an analytics library, a development environment for
+analytics, algorithms, logic and rules, and machine learning.
+In example embodiments, the platforms or the value chain 30
+network technology stack may include a development envi-
+ronment, APIs for connectivity, cloud and/or hosting appli-
+cations, and device discovery. In example embodiments, the
+data aggregation facilities or layer may include, but is not
+limited to,modules for data normalization for common 35 s
+transmission and heterogeneous data collection from dispa-
+rate devices. In example embodiments, the data facilities or
+layer may include, but is not limited to, IoT and big data
+access, control, and collection and alternatives. In example
+embodiments,the value chain networktechnology stack 40
+may be further associated with additional data sources
+and/or technology enablers.
+Value Chain Orchestration from a Command Platform
+FIG. 6 illustrates a connected value chain network 668 in
+which a value chain network management platform 604
+(referred to herein in some cases as a "value chain control
+platform) orchestrates a variety of factors involved in
+planning, monitoring, controlling, and optimizing various
+entities and activities involved in the value chain network 50
+668, such as supply and production factors, demand factors,
+logistics and distribution factors, and the like. By virtue of
+a unified platform 604 for monitoring and managing supply
+factors and demand factors as well as status information
+(e.g., quality and status, plan, order and confirm, and/or 55
+track and trace) can be shared about and between various
+entities (e.g., including customers/consumers, suppliers, dis-
+tribution such as distributors, suppliers, and production such
+as producers or production facilities) as demand factors are
+understood and accounted for, as orders are generated and
+fulfilled, and as products are created and moved through a
+ supply chain. The value chain network 668 may include not
+only an intelligent product 650, but all of the equipment,
+infrastructure, personnel and other entities involved in plan-
+ning and satisfying demand for it. 65
+Value Chain Network and Value Chain Network Manage-
+ment Platform
+[col 2]
+58
+Referring to FIG. 7, the value chain network 668 managed
+by a value chain management platform 604 may include a
+set of value chain network entities 652, such as, without
+limitation: a product 650, which may be an intelligent
+product 650; a set of production facilities 674 involved in
+producing finished goods, components, systems, sub-sys-
+tems, materials used in goods, or the like; various entities,
+activities and other supply factors 648 involved in supply
+environments 670, such as suppliers 642, points of origin
+610, and the like; various entities, activities and other
+demand factors 644 involved in demand environments 672,
+such as customers 662 (including consumers, businesses,
+and intermediate customers such as value added resellers
+and distributors), retailers 664 (including online retailers,
+ 15 mobile retailers, conventional bricks and mortar retailers,
+pop-up shops and the like) and the like located and/or
+operating at various destinations 612; various distribution
+environments 678 and distribution facilities 658, such as
+warehousing facilities 654, fulfillment facilities 628, and
+delivery systems 632, and the like, as well as maritime
+facilities 622, such as port infrastructure facilities 660,
+floating assets 620, and shipyards 638, among others. In
+embodiments, the value chain network management plat-
+form 604 monitors, controls, and otherwise enables man-
+agement (and in some cases autonomous or semi-autono-
+mous behavior) of a wide range of value chain network 668
+processes, workflows, activities, events and applications 630
+(collectively referred to in some cases simply as “"applica-
+tions 630").
+Referring still to FIG. 7, a high-level schematic of the
+value chain network management platform 604 is illustrated.
+The value chain network management platform 604 may
+include a set of systems, applications, processes, modules,
+services, layers, devices, components, machines, products,
+sub-systems, interfaces, connections, and other elements
+working in coordination to enable intelligent management of
+a set of value chain entities 652 that may occur, operate,
+transact or the like within, or own, operate, support or
+enable, one or more value chain network processes, work-
+flows, activities, events and/or applications 630 or that may
+otherwise be part of, integrated with, linked to, or operated
+on by the VCNP 604 in connection with a product 650
+(which may be any category of product, such as a finished
+good, software product, hardware product, component prod-
+uct, material, item of equipment, item of consumer packaged
+goods, consumer product, food product, beverage product,
+home product, business supply product, consumable prod-
+uct, pharmaceutical product, medical device product, tech-
+nology product, entertainment product, or any other type of
+product and/or set of related services, and which may, in
+embodiments, encompass an intelligent product 650 that is
+enabled with a set of capabilities such as, without limitation
+data processing, networking, sensing, autonomous opera-
+tion, intelligent agent, natural language processing, speech
+recognition, voice recognition, touch interfaces, remote con-
+trol, self-organization, self-healing, process automation,
+computation, artificial intelligence, analog or digital sensors,
+cameras, sound processing systems, data storage, data inte-
+gration, and/or various Internet of Things capabilities,
+among others.
+In embodiments, the management platform 604 may
+include a set of data handling layers 624 each of which is
+configured to provide a set of capabilities that facilitate
+development and deployment of intelligence, such as for
+facilitating automation, machine learning, applications of
+artificial intelligence, intelligent transactions, state manage-
+ment, event management, process management, and many

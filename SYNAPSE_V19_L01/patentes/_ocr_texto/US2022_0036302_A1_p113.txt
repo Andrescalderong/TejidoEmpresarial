@@ -1,0 +1,127 @@
+[col 1]
+US 2022/0036302A1
+30
+sion modalities received from, for example, digital product
+networks 252, directly from customers (e.g., direct con-
+nected customer 250), or some other third party 220. Com-
+munications related to market orchestration activities and
+communications 210, analytics 232, or some other type of
+input may also be utilized by the value chain control tower
+for demand enhancement 262, synchronized planning 234,
+intelligent procurement 238, dynamic fulfillment 240 or
+some other smart operation informed by coordinated and
+adaptive intelligence, as described herein.
+[0339] Referring to FIG. 3, another block diagram is
+presented showing components and interrelationships of
+systems and processes of a value chain network and related
+uses cases, data handling, and associated entities. In
+example embodiments, the value chain control tower 360
+may coordinate market orchestration activities 310 includ-
+ing. but not limited to, demand curve management 352,
+synchronization of an ecosystem 348, intelligent procure-
+ment 344, dynamic fulfillment 350, value chain analytics
+340, and/or smart supply chain operations 342. In example
+embodiments, the value chain control tower 360 may be
+connected to, in communication with, or otherwise opera-
+tively coupled with adaptive data pipelines 302 and pro-
+cessing facilities that may be further connected to, in com-
+munication with, or otherwise operationally coupled with
+external data sources 320 and a data handling stack 330
+(e.g., value chain network technology) that may include
+intelligent, user-adaptive interfaces, adaptive intelligence
+and control 332, and/or adaptive data monitoring and stor-
+age 334, as described herein. The value chain control tower
+302 may also be further connected to, in communication
+with, or otherwise operatively coupled with additional value
+chain entities including, but not limited to, digital product
+networks 360, customers (e.g., directed connected custom-
+ers 362), and/or other connected operations 364 and entities
+of a value chain network.
+Digital Product Networks ('DPN")
+[0340] Referring to FIG. 4, a block diagram is presented
+showing components and interrelationships of systems and
+processes of the digital products networks at 400. In
+example embodiments, products (including goods and ser-
+vices) may create and transmit data, such as product level
+data, to a communication layer within the value chain
+network technology stack and/or to an edge data processing
+facility. This data may produce enhanced product level data
+and may be combined with third party data for further
+processing, modeling or other adaptive or coordinated intel-
+ligence activity, as described herein. This may include, but
+is not limited to, producing and/or simulating product and
+value chain use cases, the data for which may be utilized by
+products, product development processes, product design,
+and the like.
+Stack View Examples
+[0341] Referring to FIG. 5, a block diagram is presented at
+500 showing components and interrelationships of systems
+and processes of a value chain network technology stack,
+which may include, but is not limited to a presentation layer,
+an intelligence layer, and serverless functionalities such as
+platforms (e.g., development and hosting platforms), data
+facilities (e.g, relating to data with IoT and Big Data), and
+data aggregation facilities. In example embodiments, the
+[col 2]
+Feb.3,2022
+presentation layer may include, but is not limited to, a user
+interface, and modules for investigation and discovery and
+tracking users experience and engagements. In example
+embodiments, the intelligence layer may include, but is not
+limited to, a statistical and computation methods, semantic
+models, an analytics library, a development environment for
+analytics, algorithms, logic and rules, and machine learning.
+In example embodiments, the platforms or the value chain
+network technology stack may include a development envi-
+ronment, APIs for connectivity, cloud and/or hosting appli-
+cations, and device discovery. In example embodiments, the
+data aggregation facilities or layer may include, but is not
+limited to, modules for data normalization for common
+transmission and heterogeneous data collection from dispa-
+rate devices. In example embodiments, the data facilities or
+layer may include, but is not limited to, IoT and big data
+access, control, and collection and alternatives. In example
+embodiments, the value chain network technology stack
+may be further associated with additional data sources
+and/or technology enablers.
+Value Chain Orchestration from a Command Platform
+[0342] FIG. 6 illustrates a connected value chain network
+668 in which a value chain network management platform
+604 (referred to herein in some cases as a *value chain
+*"the platform") orchestrates a variety of factors involved in
+planning, monitoring, controlling, and optimizing various
+entities and activities involved in the value chain network
+668, such as supply and production factors, demand factors,
+logistics and distribution factors, and the like. By virtue of
+a unified platform 604 for monitoring and managing supply
+factors and demand factors as well as status information
+(e.g-, quality and status, plan, order and confirm, and/or
+track and trace) can be shared about and between various
+entities (e.g., including customers/consumers, suppliers, dis-
+tribution such as distributors, suppliers, and production such
+as producers or production facilities) as demand factors are
+understood and accounted for, as orders are generated and
+fulflled, and as products are created and moved through a
+supply chain. The value chain network 668 may include not
+infrastructure, personnel and other entities involved in plan-
+ning and satisfying demand for it.
+Value Chain Network and Value Chain Network
+Management Platform
+[0343]Referring to FIG.7, the value chain network 668
+managed by a value chain management platform 604 may
+include a set of value chain network entities 652, such as,
+without limitation: a product 650, which may be an intelli-
+gent product 650; a set of production facilities 674 involved
+in producing finished goods, components, systems, sub-
+systems, materials used in goods, or the like; various enti-
+ties, activities and other supply factors 648 involved in
+supply environments 670, such as suppliers 642, points of
+origin 610, and the like; various entities, activities and other
+demand factors 644 involved in demand environments 672,
+such as customers 662 (including consumers, businesses,
+and intermediate customers such as value added resellers
+and distributors), retailers 664 (including online retailers,
+mobile retailers, conventional bricks and mortar retailers,
+pop-up shops and the like) and the like located and/or
+operating at various destinations 612; various distribution
+environments 678 and distribution facilities 658, such as

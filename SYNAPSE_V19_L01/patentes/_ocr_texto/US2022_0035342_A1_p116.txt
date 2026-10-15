@@ -1,0 +1,131 @@
+[col 1]
+US2022/0035342A1
+33
+factors 648)(including market factors, weather, availability
+of components and materials, and many others); logistics
+factors 750 (such as availability of travel routes, weather,
+fuel prices, regulatory factors, availability of space (such as
+on a vehicle, in a container, in a package, in a warehouse, in
+a fulfillment center, on a shelf, or the like), and many
+others); retailers 664 (including online retailers 730 and
+others such as in the form of eCommerce sites 730); path-
+ways for conveyance (such as waterways 732, roadways
+734, air travel routes, railways 738 and the like); robotic
+systems 744 (including mobile robots, cobots, robotic sys-
+tems for assisting human workers, robotic delivery systems,
+and others); drones 748 (including for package delivery, site
+mapping, monitoring or inspection, and the like); autono-
+mous vehicles 742 (such as for package delivery); software
+platforms 752 (such as enterprise resource planning plat-
+forms, customer relationship management platforms, sales
+and marketing platforms, asset management platforms,
+Internet of Things platforms, supply chain management
+platforms, platform as a service platforms, infrastructure as
+a service platforms, software-based data storage platforms,
+analytic platforms, artificial intelligence platforms, and oth-
+ers); and many others. In some example embodiments, the
+product 650 may be encompassed as an intelligent product
+650 or the VCNP 604 may include the intelligent product
+650. The intelligent product 650 may be enabled with a set
+of capabilities such as, without limitation data processing,
+networking, sensing, autonomous operation, intelligent
+agent, natural language processing, speech recognition,
+voice recognition, touch interfaces, remote control, self-
+organization, self-healing, process automation, computation,
+artificial intelligence, analog or digital sensors, cameras,
+sound processing systems, data storage, data integration,
+and/or various Internet of Things capabilities, among others.
+The intelligent product 650 may include a form of informa-
+tion technology. The intelligent product 650 may have a
+processor, computer random access memory, and a commu-
+nication module. The intelligent product 650 may be a
+passive intelligent product that is similar to a RFID type of
+data structure where the intelligent product may be pinged or
+read. The product 650 may be considered a value chain
+network entity (e.g., under control of platform) and may be
+rendered intelligent by surrounding infrastructure and add-
+ing an RFID such that data may be read from the intelligent
+product 650. The intelligent product 650 may fit in a value
+was built around the intelligent product 650 through a
+sensor, an IoT device, a tag, or another component.
+[0349]  In embodiments, the monitoring systems layer 614
+may monitor any or all of the value chain entities 652 in a
+value chain network 668, may exchange data with the value
+chain entities 652, may provide control instructions to or
+take instructions from any of the value chain entities 652, or
+the like, such as through the various capabilities of the data
+handling layers 624 described throughout this disclosure.
+Network Characteristics of the Value Chain Network
+Entities
+[0350]Referring to FIG. 9, orchestration of a set of deeply
+interconnected value chain network entities 652 in a value
+chain network 668by the value chain network management
+platform 604 is illustrated. Each of the value chain network
+entities 652 may have a connection to the VCNP 604, to a
+set ofother value chain network entities 652 (which may be
+[col 2]
+Feb.3,2022
+a local network connection, a peer-to-peer connection, a
+mobile network connection, a connection via a cloud, or
+other connection), and/or through the VCNP 604 to other
+value chain network entities 652. The value chain network
+management platform 604 may manage the connections,
+configure or provision resources to enable connectivity
+and/or manage applications 630 that take advantage of the
+connections, such as by using information from one set of
+entities 652 to inform applications 630 involving another set
+of entities 652, by coordinating activities of a set of entities
+652, by providing input to an artificial intelligence system of
+the VCNP 604 or of or about a set of entities 652, by
+interacting with edge computation systems deployed on or in
+entities 652 and their environments, and the like.
+[0351] The entities 652 may be external such that the
+VCNP 604 may interact with these entities 652.When the
+VCNP 604 functions as the control tower to establish
+monitoring (e.g., establish monitoring such as common
+monitoring across several entities 652). In one unified plat-
+form, there may be an interface where a user may view
+various items such as user's destinations, ports, air and rail
+assets, as well as orders, etc. Then, the next step may be to
+establish a common data schema that enables services that
+work on or in any one of these applications. This may
+involve taking any of the data that is flowing through or
+about any of these entities 652 and pull the data into a
+framework where other applications across supply and
+demand may interact with the entities 652. This may be a
+shared data pipeline coming from an IoT system and other
+external data sources, feeding into the monitoring layer,
+being stored in a common data schema in the storage layer,
+and then various intelligence may be trained to identify
+implications across these entities 652. In an example
+embodiment, a supplier may be bankrupt, or a determination
+is made that the supplier is bankrupt, and then the VCNP 604
+may automatically trigger a substitute smart contract to be
+sent to a secondary supplier with altered terms. There may
+be management of different aspects of the supply chain. For
+example, changing pricing instantly and automatically on
+the demand side in response to one more supplier's being
+identified as bankrupt (e.g., from bankruptcy announce-
+ment). Other similar examples may be used based on what
+occurs in that automation layer which may be enabled by the
+VCNP 604. Then, at the interface layer of this VCNP 604,
+a digital twin may be used by user to view all these entities
+652 that are not typically shown together and monitor what
+is going on with each of these entities 652 including iden-
+tification of problem states. For example, after viewing three
+quarters of bad financial reports on a supplier, a report may
+be flagged to watch it closely for potential future bankruptcy,
+etc.
+[0352]  For example, an IoT system deployed in a fulfll-
+ment center 628 may coordinate with an intelligent product
+650 that takes customer feedback about the product 650, and
+an application 630 for the fulfllment center 628 may, upon
+receiving customer feedback via a connection path to the
+intelligent product 650 about a problem with the product
+650, initiate a workflow to perform corrective actions on
+similar products 650 before the products 650 are sent out
+from the fulfillment center 628. Similarly, a port infrastruc-
+ture facility 660, such as a yard for holding shipping
+containers, may inform a fleet of floating assets 620 via
+connections to the floating assets 620 (such as ships, barges,
+or the like) that the port is near capacity, thereby kicking off

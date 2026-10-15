@@ -1,0 +1,124 @@
+[col 1]
+US2022/0044204A1
+18
+the set of roles based on the organizational definition;
+determining, by the processing system, a set of settings for
+a role from the set of roles based on the determined set of
+relationships; linking an identity of a respective individual to
+the role; determining, by the processing system, a configu-
+ration of a presentation layer of a role-based digital twin
+corresponding to the role based on the settings of the role
+that is linked to the identity, wherein the configuration of the
+presentation layer defines a set of states that is depicted in
+the role-based digital twin associated with the role; deter-
+mining, by the processing system, a set of data sources that
+provide data corresponding to the set of states, wherein each
+data source provides one or more respective types of data;
+and configuring one or more data structures that is received
+from the one or more data sources, wherein the one or more
+data structures are configured to provide data used to popu-
+late one or more of the set of states in the role-based digital
+twin.
+[0099]  In embodiments, an organizational definition may
+further identify a set of physical assets of the enterprise.
+[0100]  In embodiments, determining a set of relationships
+may include parsing the organizational definition to identify
+a reporting structure and one or more business units of the
+enterprise.
+[0101] In embodiments, a set of relationships may be
+inferred from a reporting structure and a business unit.
+[0102] In embodiments, a set of identities may be linked
+to a set of roles, wherein each identity corresponds to a
+respective role from the set of roles.
+[0103] In embodiments, a role-based digital twin may
+integrate with an enterprise resource planning system that
+operates on the organizational digital twin that represents a
+set of roles in the enterprise, such that changes in an
+enterprise resource planning system are automatically
+reflected in the organizational digital twin.
+[0104]  In embodiments, an organizational structure may
+include hierarchical components, which may be embodied in
+a graph data structure.
+[0105]  In embodiments, a set of settings for the set of roles
+may include role-based permission settings.
+[0106] In embodiments, a role-based permission setting
+may be based on hierarchical components defined in the
+organizational definition.
+[0107]   In embodiments, a set of settings for a set of roles
+may include role-based preference settings.
+[0108]  In embodiments, a role-based preference setting
+may be configured based on a set of role-specific templates.
+[0109] In embodiments, a set of templates may include at
+least one of a CEO template, a COO template, a CFO
+template, a counsel template, a board member template, a
+CTO template, a chief marketing officer template, an infor-
+mation technology manager template, a chief information
+officer template, a chief data officer template, an investor
+template, a customer template, a vendor template, a supplier
+template, an engineering manager template, a project man-
+ager template, an operations manager template, a sales
+manager template, a salesperson template, a service manager
+template, a maintenance operator template, and a business
+developmenttemplate.
+[0110] In embodiments, a set of settings for the set of roles
+may include role-based taxonomy settings.
+[0111]  In embodiments, a taxonomy setting may identify a
+taxonomy that is used to characterize data that is presented
+[col 2]
+Feb.10,2022
+in a role-based digital twin, such that the data is presented
+in a taxonomy that is linked to the role corresponding to the
+role-based digital twin.
+[0112]  In embodiments, a set of taxonomies includes at
+least one of a CEO taxonomy, a COO taxonomy, a CFO
+taxonomy, a counsel taxonomy, a board member taxonomy,
+mation officer taxonomy, a chief data officer taxonomy, an
+investor taxonomy, a customer taxonomy, a vendor tax-
+tor taxonomy, and a business development taxonomy.
+[0113] In embodiments, at least one role of the set of roles
+may be selected from among a CEO role, a COO role, a CFO
+role, a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+officer role, a chief data officer role, a human resources
+manager role, an investor role, an engineering manager role,
+an accountant role, an auditor role, a resource planning role,
+a public relations manager role, a project manager role, an
+operations manager role, a research and development role,
+an engineer role, including but not limited to mechanical
+engineer, electrical engineer, semiconductor engineer,
+chemical engineer, computer science engineer, data science
+and a business development role.
+[0114]  In embodiments, at least one role may be selected
+from among a factory manager role, a factory operations
+role, a factory worker role, a power plant manager role, a
+power plant operations role, a power plant worker role, an
+equipment service role, and an equipment maintenance
+operator role.
+[0115]  In embodiments, at least one role may be selected
+from among a market maker role, a market analyst role, an
+exchange manager role, a broker-dealer role, a trading role,
+a reconciliation role, a contract counterparty role, an
+exchange rate setting role, a market orchestration role, a
+market configuration role, and a contract configuration role.
+[0116]  In embodiments, at least one role may be selected
+from among a chief marketing officer role, a product devel-
+opment role, a supply chain manager role, a product design
+role, a marketing analyst role, a product manager role, a
+competitive analyst role, a customer service representative
+role, a procurement operator, an inbound logistics operator,
+an outbound logistics operator, a customer role, a supplier
+role, a vendor role, a demand management role, a marketing
+manager role, a sales manager role, a service manager role,
+a demand forecasting role, a retail manager role, a ware-
+house manager role, a salesperson role, and a distribution
+center manager role.
+[0117] In embodiments of the present disclosure, a method
+is provided for training an expert agent, comprising; receiv-
+ing digital twin data from a set of data sources, the digital
+twin data including: sensor data that is received from a set
+of sensors that monitor a set of monitored physical entities
+associated with the enterprise, the sensor data transported by
+a set of network entities; enterprise data streams generated
+by a set of enterprise assets, wherein the enterprise assets
+include at least one of physical entities associated with the
+structuring the digital twin data into a set of digital twin data

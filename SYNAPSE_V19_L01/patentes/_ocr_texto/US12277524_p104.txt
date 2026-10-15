@@ -1,0 +1,130 @@
+[col 1]
+US 12,277,524 B2
+33
+an unprecedented degree at appropriate levels of granularity
+and using familiar taxonomies and decision-making frame-
+works.
+Further provided herein are methods and systems for
+enterprise control towers by which executive leaders can,
+through various interfaces, including executive digital twins,
+dashboards, and similar systems, obtain timely information
+(often in real-time or near real-time) that is curated to invoke
+relevant awareness, support effective decisions and enable
+operational control. The present disclosure further relates to
+ an executive control tower and enterprise management plat-
+form that is configured to provide and use a converged
+technology stack that includes intelligent sensing and data
+collection, curation and handling of data through various
+stages of a distributed storage, networking and connectivity
+pipeline (from a set of local operational environments
+through informationtechnology networks tovariousdistrib-
+uted on-premises and cloud computing environments), and
+deployment of various application-specific and general arti- 20 
+ficial intelligence capabilities in order to enable executive
+control towers, including role-specific executive digital
+twins, that are used by executives in management of the
+value chain network operations of an enterprise.
+provided for configuring role-based digital twins, compris-
+ing: receiving, by a processing system having one or more
+processors, an organizational definition of an enterprise,
+wherein the organizational definition defines a set of roles
+within the enterprise; generating, by the processing system,
+an organizational digital twin of the enterprise based on the
+organizational definition, wherein the organizational digital
+twin is a digital representation of an organizational structure
+of the enterprise; determining, by the processing system, a 351
+set of relationships between different roles within the set of
+roles based on the organizational definition; determining, by
+the processing system, a set of settings for a role from the set
+of roles based on the determined set of relationships; linking
+an identity of a respective individual to the role; determin-
+40
+ing, by the processing system, a configuration of a presen-
+tation layer of a role-based digital twin corresponding to the
+role based on the settings of the role that is linked to the
+identity, wherein the configuration of the presentation layer
+defines a set of states that is depicted in the role-based digital 45
+twin associated with the role; determining, by the processing
+ system, a set of data sources that provide data corresponding
+to the set of states, wherein each data source provides one or
+more respective types of data; and configuring one or more
+data structures that is received from the one or more data 5o r
+sources, wherein the one or more data structures are con-
+figured to provide data used to populate one or more of the
+set of states in the role-based digital twin.
+In embodiments, an organizational definition may further
+identify a set of physical assets of the enterprise.
+In embodiments, determining a set of relationships may
+include parsing the organizational definition to identify a
+reporting structure and one or more business units of the
+enterprise.
+In embodiments, a set of relationships may be inferred 60
+from a reporting structure and a business unit.
+In embodiments, a set of identities may be linked to a set
+of roles, wherein each identity corresponds to a respective
+role from the set of roles.
+In embodiments, a role-based digital twin may integrate 65 
+with an enterprise resource planning system that operates on
+the organizational digital twin that represents a set of roles
+[col 2]
+in the enterprise, such that changes in an enterprise resource
+planning system are automatically reflected in the organi-
+zational digital twin.
+In embodiments, an organizational structure may include
+hierarchical components, which may be embodied in a graph
+data structure.
+In embodiments, a set of settings for the set of roles may
+include role-based permission settings.
+In embodiments, a role-based permission setting may be
+based on hierarchical components defined in the organiza-
+tional definition.
+In embodiments, a set of settings for a set of roles may
+include role-based preference settings.
+In embodiments, a role-based preference setting may be
+configured based on a set of role-specific templates.
+In embodiments, a set of templates may include at least
+one of a CEO template, a COO template, a CFO template,
+a counsel template, a board member template, a CTO
+template, a chief marketing officer template, an information
+technology manager template, a chief information officer
+template, a chief data officer template, an investor template,
+a customer template, a vendor template, a supplier template,
+an engineering manager template, a project manager tem-
+template, a salesperson template, a service manager tem-
+plate, a maintenance operator template, and a business
+developmenttemplate.
+In embodiments, a set of settings for the set of roles may
+include role-based taxonomy settings.
+In embodiments, a taxonomy setting may identify a
+taxonomy that is used to characterize data that is presented
+in a role-based digital twin, such that the data is presented
+in a taxonomy that is linked to the role corresponding to the
+role-based digital twin.
+In embodiments, a set of taxonomies includes at least one
+of a CEO taxonomy, a COO taxonomy, a CFO taxonomy, a
+counsel taxonomy, a board member taxonomy, a CTO
+tion technology manager taxonomy, a chief information
+officer taxonomy, a chief data officer taxonomy, an investor
+taxonomy, a customer taxonomy, a vendor taxonomy, a
+onomy, a sales manager taxonomy, a salesperson taxonomy,
+a service manager taxonomy, a maintenance operator tax-
+onomy, and a business development taxonomy.
+In embodiments, at least one role of the set of roles may
+be selected from among a CEO role, a COO role, a CFO
+role, a counsel role, a board member role, a CTO role, an
+information technology manager role, a chief information
+officer role, a chief data officer role, a human resources
+manager role, an investor role, an engineering manager role,
+an accountant role, an auditor role, a resource planning role,
+55 a public relations manager role, a project manager role, an
+operations manager role, a research and development role,
+an engineer role, including but not limited to mechanical
+engineer, electrical engineer, semiconductor engineer,
+chemical engineer, computer science engineer, data science
+ engineer, network engineer, or some other type of engineer,
+and a business development role.
+In embodiments, at least one role may be selected from
+among a factory manager role, a factory operations role, a
+factory worker role, a power plant manager role, a power
+ment service role, and an equipment maintenance operator
+role.
