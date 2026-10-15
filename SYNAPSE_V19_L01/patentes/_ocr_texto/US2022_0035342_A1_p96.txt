@@ -1,0 +1,133 @@
+[col 1]
+US2022/0035342A1
+13
+the artificial intelligence system receives the container fleet
+management request from the digital twin system and deter-
+mines the container fleet management decision based on
+simulation features defined in the container fleet manage-
+ment request, wherein the simulation features are indicative
+of the state of the container fleet simulation. In embodi-
+ments, the request for container fleet management includes
+one or more properties of a simulated shipping event. In
+embodiments, the artificial intelligence system determines
+the container fleet management decision based on the one or
+more properties of the simulated shipping event and the
+machine-learned model. In embodiments, the one or more
+properties include a type of good being shipped. In embodi-
+ments, the one or more properties include a source and a
+destination of a container. In embodiments, the digital twin
+system provides outcome data to the machine-learning sys-
+tem, wherein the outcome data defines a simulation outcome
+resulting from the container fleet management decision.
+[0070]In embodiments, a value chain system that pro-
+vides recommendations for designing a logistics system
+includes a machine learning system that trains a machine-
+learned model that outputs a logistics design recommenda-
+tion given a respective set of input features relating to a
+specific respective logistics system, wherein the machine
+learning system trains the machine-learned model based on
+training data sets that define features of logistics systems and
+outcomes of the logistics systems; an artificial intelligence
+system that receives a request for logistics system design
+and determines a logistics system design recommendation
+based on the machine-learned model and the request; and a
+digital twin system that generates an environment digital
+twin of a logistics environment that incorporates the logis-
+tics system design recommendation and one or more physi-
+cal asset digital twins of physical assets, wherein the digital
+twin system: executes a logistics simulation based on the
+logistics environment digital twin and the one or more
+physical asset digital twins, issues a logistics system design
+request from the artificial intelligence system based on a
+state of the logistics simulation; and adjusts the state of the
+logistics simulation based on the logistics system design
+recommendation output by the artificial intelligence system
+in response to the logistics system design request.
+[0071]  In embodiments, the digital twin system outputs a
+graphical representation of the environment digital twin to a
+display, whereby a user views the simulation via the display.
+In embodiments, the digital twin system outputs a simula-
+tion outcome of the simulation to the machine learning
+system, and the machine learning system reinforces the
+machine-learned model used to determine the logistics sys-
+tem design recommendation based on the simulation out-
+come. In embodiments, the artificial intelligence system
+receives the request from a logistics design system that
+designs logistics systems, wherein the request includes one
+or more logistics factors corresponding to a proposed logis-
+tics solution of an organization. In embodiments, the logis-
+tics factors include one or more of: a type of product
+corresponding to the proposed logistics solution, one or
+more features of the type of product, a location of a
+manufacturing site, a location of a distribution facility, a
+location of a warehouse, a location of a customer base,
+proposed expansion areas of the organization, and supply
+chain features. In embodiments, the logistics design system
+provides outcome data relating to the logistics system design
+recommendation to the machine learning system, and the
+[col 2]
+Feb.3,2022
+machine learning system reinforces the machine-learned
+model that are used to determine the logistics system design
+recommendation based on the outcome data. In embodi-
+ments, the artificial intelligence system determines the logis-
+tics system design recommendation to minimize delay
+times. In embodiments, the artificial intelligence system
+determines the logistics system design recommendation to
+comply with regulatory requirements.
+[0072] In embodiments, a value chain system that designs
+packaging includes a machine learning system that trains a
+machine-learned model that outputs a packaging design
+recommendation given a respective set of input features
+relating to a specific respective packaging design, wherein
+the machine learning system trains the machine-learned
+model based on training data sets that define features of
+packaging designs and outcomes of the packaging designs;
+an artificial intelligence system that receives a request for
+packaging design and determines a packaging design rec-
+ommendation based on the machine-learned model and the
+request; and a digital twin system that generates a package
+digital twin of a package that incorporates the packaging
+design recommendation, wherein the digital twin system:
+executes a packaging simulation based on the package
+digital twin; issues a packaging design request from the
+artificial intelligence system based on a state of the logistics
+simulation; and adjusts the state of the logistics simulation
+based on the packaging design recommendation output by
+the artificial intelligence system in response to the packaging
+design request.
+[0073]  In embodiments, the digital twin system outputs a
+graphical representation of the package digital twin to a
+display, whereby a user views the simulation via the display.
+In embodiments, the digital twin system outputs a graphical
+representation of the package digital twin in a graphical user
+interface, whereby a user edits the packaging design via the
+graphical user interface. In embodiments, the digital twin
+system outputs a simulation outcome of the simulation to the
+machine learning system, and the machine learning system
+reinforces the machine-learned model used to determine the
+packaging design recommendation based on the simulation
+outcome. In embodiments, the artificial intelligence system
+receives the request from a packaging design system that
+designs packaging for physical objects, wherein the request
+includes one or more packaging factors corresponding to a
+proposed packaging design for the physical objects. In
+embodiments, the packaging factors include one or more of:
+a type of the physical objects, dimensions of the physical
+objects, masses of the physical objects, and shipping meth-
+ods of the physical objects. In embodiments, the packaging
+design system provides outcome data relating to the pack-
+aging design recommendation to the machine learning sys-
+tem, and the machine learning system reinforces the
+machine-learned model that are used to determine the pack-
+aging design recommendation based on the outcome data. In
+embodiments, the artificial intelligence system determines
+the packaging design recommendation to minimize damage.
+In embodiments, the artificial intelligence system deter-
+mines the packaging design recommendation to minimize
+costs. In embodiments, the artificial intelligence system
+determines the packaging design recommendation to miti-
+gate environmental impact.
+[0074] In embodiments, an information technology sys-
+tem for leveraging digital twins in a value chain having a
+plurality of value chain entities, the information technology

@@ -60,7 +60,7 @@ for(const b of D.blocks){
     const w0=buf.readUInt32BE(16), h0=buf.readUInt32BE(20); const maxW=6.5*96, maxH=7.4*96; const sc=Math.min(maxW/w0,maxH/h0); const w=Math.round(w0*sc), h=Math.round(h0*sc);
     kids.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE,before:120},children:[new TextRun({text:'Figura '+b.num,bold:true,font:FONT,size:SZ})]}));
     kids.push(new Paragraph({keepNext:true,spacing:{line:240,after:120},children:[new TextRun({text:b.x,italics:true,font:FONT,size:SZ})]}));
-    kids.push(new Paragraph({keepNext:true,alignment:AlignmentType.CENTER,spacing:{line:240,lineRule:'auto',after:80},children:[new ImageRun({type:'png',data:buf,transformation:{width:w,height:h},altText:{title:b.x,description:b.x,name:b.f}})]}));
+    kids.push(new Paragraph({keepNext:true,alignment:AlignmentType.CENTER,spacing:{line:240,lineRule:'auto',after:80},children:[(fs.existsSync(fp.replace('.png','.svg'))?new ImageRun({type:'svg',data:fs.readFileSync(fp.replace('.png','.svg')),fallback:{type:'png',data:buf},transformation:{width:w,height:h},altText:{title:b.x,description:b.x,name:b.f}}):new ImageRun({type:'png',data:buf,transformation:{width:w,height:h},altText:{title:b.x,description:b.x,name:b.f}}))]}));
     kids.push(new Paragraph({spacing:{line:240,after:240},children:runs(b.n,{size:20})}));
   }
   else if(b.t==='p'&&b.c) kids.push(new Paragraph({spacing:{line:240,after:80},children:runs(b.x,{size:CS})}));

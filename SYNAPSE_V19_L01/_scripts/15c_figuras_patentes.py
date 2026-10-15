@@ -3,21 +3,27 @@ import sys, os, json
 sys.path.insert(0, os.path.dirname(__file__))
 from synlib import L
 import pandas as pd, numpy as np
-import matplotlib; matplotlib.use("Agg")
+import matplotlib; matplotlib.use("Agg"); matplotlib.rcParams["svg.fonttype"]="none"
 import matplotlib.pyplot as plt
+
+def heat(ax,Z,cmap,vmin=None,vmax=None):
+    """mapa de calor vectorial (celdas editables en SVG)"""
+    Z=np.ma.masked_invalid(Z); im=ax.pcolormesh(np.arange(Z.shape[1]+1)-0.5,np.arange(Z.shape[0]+1)-0.5,Z,cmap=cmap,vmin=vmin,vmax=vmax,edgecolors="face",linewidth=0.3)
+    ax.set_xlim(-0.5,Z.shape[1]-0.5); ax.set_ylim(Z.shape[0]-0.5,-0.5); return im
+
 C = f"{L}/patentes/csv"; F = f"{L}/figuras"
 t = pd.read_csv(f"{C}/patentes_terminos.csv"); inv = pd.read_csv(f"{C}/patentes_inventario.csv"); rel = pd.read_csv(f"{C}/patentes_relaciones.csv")
 cols = [("digital twin", "Gemelo digital"), ("sensor", "Sensor"), ("machine learning", "Aprendizaje automático"), ("blockchain/smart contract", "Cadena de bloques / contrato inteligente"),
         ("disruption", "Interrupción"), ("resilience", "Resiliencia"), ("disaster", "Desastre"), ("natural hazard (flood,hurricane,storm)", "Amenaza natural"), ("earthquake/seismic", "Sismo")]
 M = np.array([[r[c] / r["palabras"] * 1000 for c, _ in cols] for _, r in t.iterrows()])
 fig, ax = plt.subplots(figsize=(10, 5.2))
-im = ax.imshow(M, cmap="YlGnBu", aspect="auto", vmin=0)
+im = heat(ax, M, "YlGnBu", 0)
 ax.set_xticks(range(len(cols))); ax.set_xticklabels([n for _, n in cols], rotation=30, ha="right", fontsize=8)
 ax.set_yticks(range(len(t))); ax.set_yticklabels([f"{d} ({c})" for d, c in zip(t.doc_id, inv.numero)], fontsize=8)
 for i in range(M.shape[0]):
     for j in range(M.shape[1]): ax.text(j, i, f"{M[i,j]:.2f}" if M[i, j] else "0", ha="center", va="center", fontsize=7, color="white" if M[i, j] > M.max() * 0.55 else "black")
 ax.set_title("Frecuencia de términos por 1.000 palabras en las páginas leídas de cada patente", fontsize=10)
-fig.colorbar(im, ax=ax, fraction=0.03, label="apariciones por 1.000 palabras"); fig.tight_layout(); fig.savefig(f"{F}/fig_patentes_terminos.png", dpi=150); plt.close(fig)
+fig.colorbar(im, ax=ax, fraction=0.03, label="apariciones por 1.000 palabras"); fig.tight_layout(); fig.savefig(f"{F}/fig_patentes_terminos.png",dpi=150); fig.savefig(f"{F}/fig_patentes_terminos.svg"); plt.close(fig)
 
 # relaciones patentes -> documentos del corpus y entre patentes
 col = {"CONFIRMA": "#2ca02c", "COMPLEMENTA": "#888888", "CONTRADICE": "#d62728", "EXTIENDE": "#1f77b4", "DEPENDE_DE": "#9467bd"}
@@ -38,5 +44,5 @@ import matplotlib.lines as ml
 ax.legend(handles=[ml.Line2D([], [], color=c, label=k) for k, c in col.items() if k in set(rel.tipo_relacion)] + [ml.Line2D([], [], marker="o", ls="", color=colr[k], label=f"Patente {k.lower()}") for k in colr],
           loc="lower center", ncol=3, fontsize=8, frameon=False, bbox_to_anchor=(0.5, -0.02))
 ax.set_title("Relaciones tipificadas entre las patentes (izquierda) y los documentos del corpus (derecha)", fontsize=10)
-fig.tight_layout(); fig.savefig(f"{F}/fig_patentes_relaciones.png", dpi=150); plt.close(fig)
+fig.tight_layout(); fig.savefig(f"{F}/fig_patentes_relaciones.png",dpi=150); fig.savefig(f"{F}/fig_patentes_relaciones.svg"); plt.close(fig)
 print("figuras de patentes generadas")

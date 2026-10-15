@@ -1,0 +1,133 @@
+[col 1]
+US 2022/0035342A1
+12
+producers, manufacturers, retailers, businesses, owners,
+operators, operating facilities, customers, consumers, work-
+ers, mobile devices, wearable devices, distributors, resellers,
+supply chain infrastructure facilities, supply chain pro-
+cesses, logistics processes, reverse logistics processes,
+demand prediction processes, demand management pro-
+cesses, demand aggregation processes, machines, ships,
+barges, warehouses, maritime ports, airports, airways,
+waterways, roadways, railways, bridges, tunnels, online
+retailers, ecommerce sites, demand factors, supply factors,
+delivery systems, floating assets, points of origin, points of
+destination, points of storage, points of use, networks.
+information technology systems, software platforms, distri-
+bution centers, fulfillment centers, containers, container
+handling facilities, customs, export control, border control,
+drones, robots, autonomous vehicles, hauling facilities,
+drones/robots/AVs, waterways, and port infrastructure
+facilities.
+[0063]In embodiments, the platform manages a set of
+demand factors, a set of supply factors, and a set of supply
+chain infrastructure facilities.
+[0064] In embodiments, the supply factors are factors
+selected from the group consisting of Component availabil-
+ity, material availability, component location, material loca-
+tion, component pricing, material pricing, taxation, tariff,
+impost, duty, import regulation, export regulation, border
+control, trade regulation, customs, navigation, traffic, con-
+gestion, vehicle capacity, ship capacity, container capacity.
+package capacity, vehicle availability, ship availability, con-
+tainer availability, package availability, vehicle location,
+ship location, container location, port iocation, port avail-
+ability, port capacity, storage availability, storage capacity,
+warehouse availability, warehouse capacity, fulfllment cen-
+ter location, fulfillment center availability, fulfillment center
+capacity, asset owner identity, system compatibility, worker
+availability, worker competency, worker location, goods
+pricing, fuel pricing, energy pricing, route availability, route
+distance, route cost, and route safety factors.
+[0065]In embodiments, the demand factors are factors
+selected from the group consisting of product availability,
+product pricing, delivery timing, need for refill, need for
+replacement, manufacturer recall, need for upgrade, need for
+maintenance, need for update, need for repair, need for
+consumable, taste, preference, inferred need, inferred want,
+group demand, individual demand, family demand, business
+demand, need for workflow, need for process, need for
+procedure, need for treatment, need for improvement, need
+for diagnosis, compatibility to system, compatibility to
+product, compatibility to style, compatibility to brand,
+demographic, psychographic, geolocation, indoor location,
+destination, route, home location, visit location, workplace
+location, business location, personality, mood, emotion,
+customer behavior, business type, business activity, personal
+activity, wealth, income, purchasing history, shopping his-
+tory, search history, engagement history, clickstream history,
+website history, online navigation history, group behavior,
+family behavior, family membership, customer identity
+group identity, business identity, customer profile, business
+profile, group profile, family profile, declared interest, and
+inferred interest factors.
+[0066] In embodiments, the supply chain infrastructure
+facilities are facilities selected from the group consisting of
+ship, container ship, boat, barge, maritime port, crane,
+container, container handling, shipyard, maritime dock,
+[col 2]
+Feb.3,2022
+warehouse, distribution, fulfillment, fueling, refueling.
+nuclear refueling, waste removal, food supply, beverage
+supply, drone, robot, autonomous vehicle, aircraft, automo-
+tive, truck, train, lift, forklift, hauling facilities, conveyor,
+loading dock, waterway, bridge, tunnel, airport, depot,
+vehicle station, train station, weigh station, inspection, road-
+way, railway, highway, customs house, and border control
+facilities.
+[0067] In embodiments, the set of applications involves a
+set selected from the group consisting of supply chain, asset
+management, risk management, inventory management,
+demand management, demand prediction, demand aggrega-
+tion, pricing, positioning, placement, promotion, block-
+chain, smart contract, infrastructure management, facility
+management, analytics, finance, trading, tax, regulatory,
+identity management, commerce, ecommerce, payments,
+security, safety, vendor management, process management,
+compatibility testing, compatibility management, infrastruc-
+ture testing, incident management, predictive maintenance,
+logistics, monitoring, remote control, automation, self-con-
+figuration, self-healing, self-organization, logistics, reverse
+logistics, waste reduction, augmented reality, virtual reality,
+mixed reality, demand customer profiling, entity profiling.
+enterprise profiling, worker profiling, workforce profiling.
+component supply policy management, product design,
+product configuration, product updating, product mainte-
+nance, product support, product testing, warehousing, dis-
+tribution, fulfillment, kit configuration, kit deployment, kit
+support, kit updating, kit maintenance, kit modification, kit
+management, shipping fleet management, vehicle fleet man-
+agement, workforce management, maritime fleet manage-
+ment, navigation, routing, shipping management, opportu-
+nity matching, search, advertisement, entity discovery,
+entity search, distribution, delivery, and enterprise resource
+planning applications.
+[0068]In embodiments, a value chain system that pro-
+vides container fleet management decisions includes a
+machine learning system that trains a machine-learned
+model that outputs a container fleet management decision
+given a respective set of input features relating to a specific
+shipping event, wherein the machine learning system trains
+the machine-learned model based on training data sets that
+define features of previous shipping events and outcomes of
+the shipping events; an artificial intelligence system that
+receives a request for container fleet management and deter-
+mines a container fleet management decision based on the
+machine-learned model and the request; and a digital twin
+system that generates an environment digital twin of an
+environment of a container fleet and one or more container
+digital twins of respective containers in the container fleet,
+wherein the digital twin system executes a container fleet
+simulation based on the environment digital twin and the
+one or more container digital twins, issues a container fleet
+management request from the artificial intelligence system
+based on a state of the container fleet simulation; and adjusts
+the state of the container fleet simulation based on the
+container fleet management decision output by the artificial
+intelligence system in response to the container fleet man-
+agement request.
+[0069]  In embodiments, the digital twin system outputs a
+simulation outcome to the machine-learning system, and the
+machine learning system reinforces the machine-learned
+model used to determine the container fleet management
+decision based on the simulation outcome.In embodiments,

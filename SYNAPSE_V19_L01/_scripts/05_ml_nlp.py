@@ -13,7 +13,7 @@ from sklearn.manifold import TSNE
 from sklearn.metrics import silhouette_score, adjusted_rand_score
 from sklearn.preprocessing import normalize
 import networkx as nx
-import matplotlib; matplotlib.use("Agg")
+import matplotlib; matplotlib.use("Agg"); matplotlib.rcParams["svg.fonttype"]="none"
 import matplotlib.pyplot as plt
 CLEAN="/tmp/claude-0/-home-user/9a736d69-a05b-5f2d-be75-7dffdbaa2f82/scratchpad/clean"
 OUT=f"{L}/csv/ml"; FIG=f"{L}/figuras"; os.makedirs(OUT,exist_ok=True); os.makedirs(FIG,exist_ok=True)
@@ -154,10 +154,10 @@ for a,(XY,ttl) in zip(ax,[(FULL["P"],"PCA (sobre SVD de TF-IDF)"),(FULL["ts"],"t
     a.set_title(ttl); a.set_xticks([]); a.set_yticks([])
 ax[0].legend(fontsize=7,ncol=2,loc="best")
 fig.suptitle("Mapa de documentos por contenido (círculos rojos: bloque SciELO D087-D098)")
-plt.tight_layout(); plt.savefig(f"{FIG}/fig_ml_pca_tsne.png",dpi=150); plt.close()
+plt.tight_layout(); plt.savefig(f"{FIG}/fig_ml_pca_tsne.png",dpi=150); plt.savefig(f"{FIG}/fig_ml_pca_tsne.svg"); plt.close()
 # dendrograma
 from scipy.cluster.hierarchy import linkage, dendrogram
-Lk=linkage(FULL["Z"],method="ward"); fig,ax=plt.subplots(figsize=(15,5)); dendrogram(Lk,labels=ids,leaf_font_size=6,ax=ax,color_threshold=0.0); ax.set_title("Dendrograma jerárquico (Ward) de los 101 documentos"); plt.tight_layout(); plt.savefig(f"{FIG}/fig_ml_dendrograma.png",dpi=150); plt.close()
+Lk=linkage(FULL["Z"],method="ward"); fig,ax=plt.subplots(figsize=(15,5)); dendrogram(Lk,labels=ids,leaf_font_size=6,ax=ax,color_threshold=0.0); ax.set_title("Dendrograma jerárquico (Ward) de los 101 documentos"); plt.tight_layout(); plt.savefig(f"{FIG}/fig_ml_dendrograma.png",dpi=150); plt.savefig(f"{FIG}/fig_ml_dendrograma.svg"); plt.close()
 # red de co-palabras
 if Gs.number_of_nodes():
     pos=nx.spring_layout(Gs,seed=SEED,weight="weight",k=0.9); fig,ax=plt.subplots(figsize=(13,10))
@@ -167,19 +167,19 @@ if Gs.number_of_nodes():
     nx.draw_networkx_edges(Gs,pos,alpha=.15,width=[0.2+0.3*Gs[u][v]["weight"] for u,v in Gs.edges()],ax=ax)
     nx.draw_networkx_nodes(Gs,pos,node_size=[40+40*occ[n] for n in Gs],node_color=[cmap[n] for n in Gs],alpha=.85,ax=ax)
     nx.draw_networkx_labels(Gs,pos,labels={n:n for n in Gs if occ[n]>=5},font_size=7,ax=ax); ax.set_title("Red de co-palabras clave (frecuencia ≥ 3)"); ax.axis("off")
-    plt.tight_layout(); plt.savefig(f"{FIG}/fig_red_copalabras.png",dpi=150); plt.close()
+    plt.tight_layout(); plt.savefig(f"{FIG}/fig_red_copalabras.png",dpi=150); plt.savefig(f"{FIG}/fig_red_copalabras.svg"); plt.close()
 # diagrama estratégico (centralidad-densidad)
 if cw:
     d=pd.DataFrame(cw); fig,ax=plt.subplots(figsize=(8,6.5)); ax.scatter(d.centralidad,d.densidad,s=d.n_palabras*25,alpha=.6,color=[colors[i%10] for i in d.comunidad],edgecolor="k")
     for _,r in d.iterrows(): ax.annotate(f"C{int(r.comunidad)}: "+r.palabras.split(", ")[0],(r.centralidad,r.densidad),fontsize=8,xytext=(4,4),textcoords="offset points")
     ax.axvline(d.centralidad.median(),ls="--",c="gray"); ax.axhline(d.densidad.median(),ls="--",c="gray")
     ax.set_xlabel("Centralidad (enlaces externos ponderados)"); ax.set_ylabel("Densidad (enlaces internos por palabra)"); ax.set_title("Mapa estratégico centralidad-densidad (comunidades de palabras clave)")
-    plt.tight_layout(); plt.savefig(f"{FIG}/fig_mapa_centralidad_densidad.png",dpi=150); plt.close()
+    plt.tight_layout(); plt.savefig(f"{FIG}/fig_mapa_centralidad_densidad.png",dpi=150); plt.savefig(f"{FIG}/fig_mapa_centralidad_densidad.svg"); plt.close()
 # Pareto de citas
 fig,ax=plt.subplots(figsize=(12,5)); ax.bar(range(len(cit)),cit["citas"],color="#4c78a8"); ax2=ax.twinx(); ax2.plot(range(len(cit)),cit["acum"]*100,color="#e45756"); ax2.axhline(80,ls="--",c="gray")
-ax.set_xlabel("Documentos ordenados por citas (Scopus)"); ax.set_ylabel("Citas"); ax2.set_ylabel("% acumulado"); ax.set_title("Pareto de citas: {} documentos concentran 80 % de las citas".format(bib["pareto_citas_80pct_docs"])); plt.tight_layout(); plt.savefig(f"{FIG}/fig_pareto_citas.png",dpi=150); plt.close()
+ax.set_xlabel("Documentos ordenados por citas (Scopus)"); ax.set_ylabel("Citas"); ax2.set_ylabel("% acumulado"); ax.set_title("Pareto de citas: {} documentos concentran 80 % de las citas".format(bib["pareto_citas_80pct_docs"])); plt.tight_layout(); plt.savefig(f"{FIG}/fig_pareto_citas.png",dpi=150); plt.savefig(f"{FIG}/fig_pareto_citas.svg"); plt.close()
 # producción anual
-yy=meta[(meta.anio>0)].groupby("anio").size(); fig,ax=plt.subplots(figsize=(9,4)); ax.bar(yy.index.astype(str),yy.values,color="#59a14f"); ax.set_title("Documentos por año de publicación (n=101)"); plt.tight_layout(); plt.savefig(f"{FIG}/fig_produccion_anual.png",dpi=150); plt.close()
+yy=meta[(meta.anio>0)].groupby("anio").size(); fig,ax=plt.subplots(figsize=(9,4)); ax.bar(yy.index.astype(str),yy.values,color="#59a14f"); ax.set_title("Documentos por año de publicación (n=101)"); plt.tight_layout(); plt.savefig(f"{FIG}/fig_produccion_anual.png",dpi=150); plt.savefig(f"{FIG}/fig_produccion_anual.svg"); plt.close()
 summary=dict(completo=FULL["res"],sin_SciELO=SENS["res"],sin_SciELO_ni_sintesis=SENS2["res"],sensibilidad=sens,bibliometria=bib,
              kmeans_terminos=FULL["top"],lda_terminos=FULL["ltop"],kmeans_terminos_sin_SciELO=SENS["top"],lda_terminos_sin_SciELO=SENS["ltop"])
 json.dump(summary,open(f"{OUT}/ml_resumen.json","w"),ensure_ascii=False,indent=1,default=str)
