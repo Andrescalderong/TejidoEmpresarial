@@ -1,0 +1,200 @@
+# FB-L01-095 | D095 — Validación por hidrodensitometría de ecuaciones de pliegues cutáneos utilizadas para estimar la composición corporal en mujeres
+
+> Corpus de origen: **SCIELO** · Archivo: `SciElo_tejido Empresarial/v28n3a10.pdf` · 10 páginas · Relevancia para el eje del corpus: **Ajeno** (Estudio de validación de ecuaciones antropométricas de pliegues cutáneos frente a hidrodensitometría en 52 mujeres de Medellín; es nutrición y composición corporal, sin relación con gemelos digitales, IoT, transferencia tecnológica ni recuperación empresarial.)
+
+## PARTE A — FICHA BIBLIOGRÁFICA ANALÍTICA (SYNAPSE V19.0)
+
+### Capa 1 — Núcleo bibliográfico
+
+- **FB_ID / DOC_ID:** FB-L01-095 / D095
+- **Tipo de recurso:** Artículo científico (investigación original, journal peer-reviewed)
+- **Referencia APA 7:** Aristizábal, J. C., Restrepo, M. T., & Amalia, L. (2008). Validación por hidrodensitometría de ecuaciones de pliegues cutáneos utilizadas para estimar la composición corporal en mujeres. *Biomédica*, *28*(3), 404-413. http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-41572008000300010&lang=es 
+- **Autores:** Aristizábal, Juan Carlos, Restrepo, María Teresa, Amalia, López
+- **Afiliaciones:** No especificado en el registro
+- **Fecha de publicación:** 2008
+- **Fuente/contenedor:** Biomédica; 28(3); 404-413
+- **Identificador persistente:** No disponible
+- **URL de acceso:** http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-41572008000300010&lang=es 
+- **Fecha de consulta:** 2026-10-15
+- **Citas Scopus (a la fecha del export):** No aplica
+
+### Capa 2 — Extracción metodológica
+
+**Objetivo de la investigación.** Validar mediante hidrodensitometría (método de referencia basado en pesaje hidrostático con medición simultánea del volumen pulmonar residual) las ecuaciones de pliegues cutáneos de Durning/Womersley, Jackson/Pollock y Ramírez/Torun para estimar el porcentaje de grasa corporal en mujeres de 18 a 40 años de Medellín (Colombia), y establecer si sus resultados son comparables e intercambiables con los del método de referencia, dado que en la población colombiana esas ecuaciones no se habían contrastado con un método de referencia en una muestra de mujeres voluntarias de la Universidad de Antioquia.
+
+**Pregunta de investigación.** [INFERIDA] ¿Concuerdan las estimaciones del porcentaje de grasa obtenidas con tres ecuaciones de pliegues cutáneos con las obtenidas por hidrodensitometría en mujeres adultas jóvenes colombianas, y son intercambiables con ese método?
+
+**Marco teórico.** El marco es la antropometría y la composición corporal. La hidrodensitometría se toma como método de referencia con un modelo de dos componentes (masa grasa de 0,900 g/ml y masa libre de grasa de 1,100 g/ml) y la ecuación de Siri para convertir densidad en porcentaje de grasa. Las ecuaciones de pliegues relacionan la suma de pliegues con la densidad corporal y son específicas de población por edad, sexo y grupo étnico, por lo que deben validarse antes de aplicarse. Se contrastan ecuaciones derivadas de mujeres estadounidenses (Jackson/Pollock, n = 249), escocesas (Durning/Womersley, n = 272) y guatemaltecas (Ramírez/Torun, n = 83). La metodología de validación sigue a Bellido y emplea el método de Bland y Altman.
+
+**Metodología.** Estudio descriptivo de corte transversal con muestra por conveniencia de 58 mujeres voluntarias, estudiantes y empleadas de la Universidad de Antioquia, de 18 a 40 años, sin cirugías de reducción de grasa ni implantes de silicona; 52 completaron todas las pruebas. Con ayuno de al menos cuatro horas, se midieron peso, estatura, perímetro de cadera y pliegues cutáneos (calibrador Harpenden) por duplicado. El pesaje hidrostático se hizo al final de una espiración máxima en un tanque a 36 grados, con báscula Chatillon y volumen pulmonar residual por barrido de nitrógeno (espirómetro VMAX 22), repetido hasta lograr variación de la densidad de 0,002 g/ml o menos, con descuento de 0,1 L de gas intestinal. El porcentaje de grasa se calculó con la ecuación de Siri y con las tres ecuaciones de pliegues. El análisis incluyó t de Student pareada, correlación de Pearson, coeficiente de correlación intraclase (CCI), límites de concordancia de Bland y Altman y pruebas de normalidad (Kolmogorov-Smirnov) y de homogeneidad de varianzas (Levene), con SPSS 13.0. Se consideró clínicamente relevante un CCI superior a 0,6. El estudio fue de riesgo mínimo con consentimiento informado.
+
+**Resultados principales.** El porcentaje de grasa fue 29,6 ± 5,8 por hidrodensitometría, 34,2 ± 4,5 por Durning/Womersley, 25,7 ± 5,6 por Jackson/Pollock y 32,0 ± 5,3 por Ramírez/Torun; las diferencias medias respecto del método de referencia fueron de -4,67, 3,81 y -2,49 puntos, todas significativas. La correlación de Pearson con la hidrodensitometría fue 0,626, 0,717 y 0,676; el error estándar del estimado, 4,16 %, 3,72 % y 3,94 %; el CCI, 0,426, 0,578 y 0,612. Los límites de concordancia con la hidrodensitometría fueron -13,25 a 3,90 (Durning/Womersley), -4,44 a 12,06 (Jackson/Pollock) y -11,00 a 6,03 (Ramírez/Torun), con amplitud de 16,5 a 17,1 puntos. Entre las ecuaciones, las correlaciones fueron superiores a 0,87 y los CCI de 0,36 a 0,80. El porcentaje de grasa no se correlacionó con la edad (p = 0,339) ni con la estatura (p = 0,084) y sí con el peso, el IMC y los pliegues; el 25 % de las mujeres con IMC adecuado tenía exceso de grasa y el 7,7 % de las de sobrepeso eran obesas por porcentaje de grasa. El texto atribuye la sobreestimación de Durning/Womersley al pliegue ileocrestal (33,7 mm frente a 19,1 mm de las mujeres originales), y la subestimación de Jackson/Pollock a menor grasa en el muslo y mayor supraespinal.
+
+**Discusión y contribución.** Los autores concluyen que las tres ecuaciones tienen pobre validez, con diferencias significativas, baja concordancia y límites amplios, de modo que sus resultados no son comparables ni intercambiables con la hidrodensitometría, aunque la de Ramírez/Torun fue la mejor, quizá porque la población guatemalteca de origen mestizo se parece más a la colombiana. Atribuyen las diferencias a patrones de distribución de grasa y a la especificidad poblacional de las ecuaciones. Recomiendan usar las ecuaciones más para seguimiento que para decisiones clínicas y plantean desarrollar ecuaciones específicas para la población colombiana. Reconocen implícitamente la validez limitada del IMC. Dejan sin discutir la muestra pequeña y de conveniencia, las limitaciones de la hidrodensitometría como referencia (modelo de dos componentes), la repetibilidad del medidor de pliegues y la clasificación inconsistente de las ecuaciones como buenas según Lohman y pobres según Bland y Altman.
+
+**Limitaciones declaradas.** No declaradas formalmente. El texto indica que el estudio es el punto de partida y que se necesitan estudios en otros grupos de edad y sexo; no discute el tamaño de la muestra de 52 mujeres ni su selección por conveniencia.
+
+**Trabajo futuro.** Validar ecuaciones de pliegues en diferentes grupos de edad y sexo, evaluar otros métodos de campo (impedancia bioeléctrica y luz infrarroja) y desarrollar ecuaciones y metodologías específicas para la población colombiana por etnia y nivel de actividad física (p. 8).
+
+**Palabras clave.** Declaradas: No declaradas / no disponibles en el registro | Inferidas: composición corporal, pliegues cutáneos, hidrodensitometría, porcentaje de grasa, validación, Bland-Altman, mujeres, Jackson y Pollock, Durning y Womersley, Ramírez y Torun
+
+### Capa 3 — Abstracción propositiva
+
+**Tesis central (abstraída).** Las ecuaciones de pliegues cutáneos de Durning/Womersley, Jackson/Pollock y Ramírez/Torun no estiman con validez suficiente el porcentaje de grasa de mujeres colombianas de 18 a 40 años frente a la hidrodensitometría, por lo que no son intercambiables con ese método ni adecuadas para decisiones clínicas individuales.
+
+**Antítesis identificada.** La validación se basa en 52 mujeres universitarias de Medellín seleccionadas por conveniencia, con edad media de 28 años, de modo que la conclusión sobre 'nuestra población' no se generaliza a otras edades, etnias o regiones. La hidrodensitometría de dos componentes, usada como patrón, asume densidades constantes de la masa grasa y libre de grasa, supuesto que varía con la etnia y la hidratación; por tanto, parte de la discrepancia puede deberse al método de referencia. La interpretación es inconsistente: se clasifican las ecuaciones de Jackson/Pollock y Ramírez/Torun como buenas según el error estándar (3,72 % y 3,94 %) y a la vez como de pobre validez, y se declara pobre validez con CCI de 0,43 a 0,61 sin intervalos de confianza. Los valores de p se reportan como 0,000, y el IMC aparece con desviaciones de 4,0 y 2,8. La ecuación de Siri se escribe con una forma incorrecta (4,95/(Dc-4,50)).
+
+**Síntesis propuesta.** El estudio muestra con un método de referencia que las ecuaciones evaluadas producen sesgos de -4,7 a +3,8 puntos y límites de concordancia de unos 17 puntos en mujeres colombianas jóvenes, lo que obliga a la cautela en su uso clínico. La síntesis propone interpretar el hallazgo como evidencia de sesgo sistemático por ecuación y de imprecisión individual, ampliar la muestra y la diversidad etaria y étnica, usar un modelo de cuatro componentes como referencia y desarrollar una ecuación local con validación cruzada. Para el corpus, el documento es ajeno al dominio de tecnología y recuperación productiva, y aporta un ejemplo de validación contra un patrón de referencia con análisis de concordancia.
+
+**Áreas grises detectadas.**
+
+1. Tamaño y selección de la muestra: 52 mujeres voluntarias de una universidad, por conveniencia, con edad media de 28 años y IMC medio inferior al nacional (22,3 frente a 24,6 en la encuesta nacional), de modo que los resultados no son extrapolables a mujeres con otras edades, ocupaciones, etnias o niveles de adiposidad.
+2. Calidad del método de referencia: la hidrodensitometría de dos componentes asume densidades constantes de los componentes y no se contrasta con otros métodos; no se reporta variación intraindividual de la densidad ni el efecto de la hidratación o la fase del ciclo menstrual sobre la masa libre de grasa.
+3. Interpretación contradictoria: las ecuaciones de Jackson/Pollock y Ramírez/Torun se califican como buenas por el error estándar de estimación según Lohman, y como de pobre validez por el CCI y el intervalo de Bland y Altman; los autores no explican qué criterio prevalece ni fijan límites de aceptación clínicos a priori.
+4. Errores de reporte: p igual a 0,000 en lugar de p menor de 0,001, desviación del IMC de 4,0 en el cuadro y 2,8 en el texto, ecuación de Siri mal escrita, y correlaciones descritas como 'r menor de 0,72' mientras el resumen dice entre 0,62 y 0,72; estos errores merman la confianza en la transcripción de resultados.
+
+**Puntos oscuros aclarados.** El texto sostiene que la ecuación de Durning/Womersley sobreestima por la acumulación de grasa en la cresta ilíaca, que contribuye con 40 % de la suma de pliegues, y a la vez que ese pliegue es el peor correlacionado con la grasa (r = 0,508). Esa explicación es plausible, pero no se prueba: no se reajusta la ecuación sin ese pliegue ni se compara el error. También se interpreta que la mejor concordancia de Ramírez/Torun se debe a que las guatemaltecas son semejantes a las colombianas en grasa y pliegues, pero las comparaciones de medias (p de 0,1396 a 0,9217) no demuestran equivalencia; la ausencia de diferencia significativa con 52 mujeres puede reflejar poca potencia. Además, el sesgo y los límites de concordancia no se evalúan contra el nivel de grasa (patrón proporcional): una ecuación puede sobreestimar a las mujeres delgadas y subestimar a las obesas, y el artículo solo ofrece gráficos globales. Por último, la afirmación de que el 25 % de las mujeres con IMC adecuado tienen exceso de grasa depende de un punto de corte de 31 % que se aplica a una grasa estimada con error de 5 puntos.
+
+**Ideas propositivas novedosas.**
+
+1. Validación con modelo de cuatro componentes y muestra diversa: repetir la comparación en al menos 200 mujeres y hombres de varias edades, etnias y regiones, usando como referencia un modelo de cuatro componentes (densidad, agua corporal y mineral óseo) o absorciometría de rayos X de doble energía, y evaluar sesgo proporcional con regresión de la diferencia sobre el promedio. Fundamento: el estudio emplea 52 mujeres y una referencia de dos componentes. Verificabilidad: cálculo de muestra para límites de concordancia y análisis de Bland y Altman con intervalos de confianza de los límites. Utilidad: define si hay ecuaciones locales utilizables en clínicas, gimnasios y encuestas, y evita decisiones nutricionales basadas en estimaciones con error de 17 puntos.
+2. Desarrollo de una ecuación local con validación cruzada: ajustar un modelo de regresión del porcentaje de grasa de referencia sobre pliegues y perímetros seleccionados en una muestra de desarrollo, y validarlo con partición en una muestra independiente y validación cruzada por exclusión de uno, reportando error estándar, sesgo y límites. Fundamento: los autores proponen ecuaciones específicas para la población colombiana pero no las desarrollan, y la ecuación de Ramírez/Torun muestra un error cercano a 4 %. Verificabilidad: división previa de la muestra y registro del protocolo. Utilidad: ofrece al sistema de salud una herramienta de bajo costo con error conocido para la tamización de adiposidad, más sensible que el IMC.
+
+**Relaciones poco exploradas.**
+
+1. Ecuación de Durning/Womersley (sobreestima) el porcentaje de grasa en 4,67 puntos respecto de la hidrodensitometría, asociado al pliegue ileocrestal: 33,7 mm frente a 19,1 mm de la población original.
+2. Ecuación de Jackson/Pollock (subestima) el porcentaje de grasa en 3,81 puntos, asociado a menor grasa del muslo y mayor grasa supraespinal en la muestra.
+
+**Robustez argumentativa:** 4.2/10 (ponderación 30/30/25/15) — consistencia lógica 5/10; calidad de la evidencia 4/10; validez de inferencias causales 4/10; generalizabilidad 3/10.
+
+**Valor estratégico:** 2/10 — Aporta una comparación cuantitativa de tres ecuaciones de pliegues contra hidrodensitometría en mujeres colombianas, con sesgos y límites de concordancia, y recomienda cautela clínica. Está fuera del dominio del corpus de tecnología y recuperación empresarial; su valor es de control negativo temático y como ejemplo de validación de instrumentos frente a un patrón de referencia.
+
+**Conexiones inter-documentales.**
+
+- (Se completan en el Análisis Relacional de la Parte final del lote.)
+
+### Capa 4 — Control de calidad
+
+- **Falacias detectadas:** Falsa dicotomía en el criterio de validez (Califica las ecuaciones como buenas por el error estándar y como de pobre validez por el CCI sin criterio previo (Discusión, pp. 7-8)); Ausencia de diferencia tomada como equivalencia (Interpreta p de 0,13 a 0,92 al comparar medias de grasa y pliegues como semejanza de poblaciones (p. 8)); Generalización apresurada (Concluye sobre 'nuestra población' con 52 mujeres universitarias por conveniencia (p. 1))
+- **Bradford-Hill:** No aplica: el estudio compara métodos de medición y no estima relaciones causales.
+- **TRL asignado:** N/A — 'Validar por hidrodensitometría las ecuaciones de Durning/Womersley, Jackson/ Pollock y Ramírez/Torun en mujeres de 18 a 40 años' (p. 1)
+- **Versión de ficha:** v1.0 | 2026-10-15 | SYNAPSE V19.0
+- **Notas de proceso:** Artículo de Biomédica 28:404-13 (2008) del bloque SciELO D087-D098; clasificado como Ajeno. Inconsistencias: IMC 22,3 ± 4,0 (cuadro) frente a ± 2,8 (texto); valores de p reportados como 0,000; ecuación de Siri escrita como 4,95/(Dc-4,50); clasificación de las ecuaciones como buenas (Lohman) y de pobre validez. Cuadros 3 y 4 con columnas desalineadas en la extracción; se citan los valores legibles.
+
+---
+
+## PARTE B — ANÁLISIS SYNAPSE DEL DOCUMENTO
+
+### B.1 Análisis dialéctico
+
+| TESIS | ANTÍTESIS | SÍNTESIS | ROBUSTEZ |
+|---|---|---|---|
+| Las ecuaciones de pliegues cutáneos de Durning/Womersley, Jackson/Pollock y Ramírez/Torun no estiman con validez suficiente el porcentaje de grasa de mujeres colombianas de 18 a 40 años frente a la hidrodensitometría, por lo que no son intercambiables con ese método ni adecuadas para decisiones clínicas individuales.  | La validación se basa en 52 mujeres universitarias de Medellín seleccionadas por conveniencia, con edad media de 28 años, de modo que la conclusión sobre 'nuestra población' no se generaliza a otras edades, etnias o regiones. La hidrodensitometría de dos componentes, usada como patrón, asume densidades constantes de la masa grasa y libre de grasa, supuesto que varía con la etnia y la hidratación; por tanto, parte de la discrepancia puede deberse al método de referencia. La interpretación es inconsistente: se clasifican las ecuaciones de Jackson/Pollock y Ramírez/Torun como buenas según el error estándar (3,72 % y 3,94 %) y a la vez como de pobre validez, y se declara pobre validez con CCI de 0,43 a 0,61 sin intervalos de confianza. Los valores de p se reportan como 0,000, y el IMC aparece con desviaciones de 4,0 y 2,8. La ecuación de Siri se escribe con una forma incorrecta (4,95/(Dc-4,50)).  | El estudio muestra con un método de referencia que las ecuaciones evaluadas producen sesgos de -4,7 a +3,8 puntos y límites de concordancia de unos 17 puntos en mujeres colombianas jóvenes, lo que obliga a la cautela en su uso clínico. La síntesis propone interpretar el hallazgo como evidencia de sesgo sistemático por ecuación y de imprecisión individual, ampliar la muestra y la diversidad etaria y étnica, usar un modelo de cuatro componentes como referencia y desarrollar una ecuación local con validación cruzada. Para el corpus, el documento es ajeno al dominio de tecnología y recuperación productiva, y aporta un ejemplo de validación contra un patrón de referencia con análisis de concordancia.  | 4.2/10 |
+
+### B.2 Interrogación socrática
+
+- **P1 Definición:** Define validez como concordancia con la hidrodensitometría, medida con diferencias de medias, correlación, CCI y límites de Bland y Altman.
+- **P2 Supuestos:** Supone que la hidrodensitometría de dos componentes es un patrón de referencia adecuado para esta población y que 52 mujeres representan a las colombianas de 18 a 40 años.
+- **P3 Evidencia:** La evidencia es de 52 mujeres con diferencias de -4,67 a 3,81 puntos, CCI de 0,43 a 0,61 y límites de unos 17 puntos de amplitud.
+- **P4 Consecuencias:** Si es cierto, las ecuaciones no deben usarse para decisiones clínicas individuales; si es falso, se descartan herramientas útiles de bajo costo para tamización.
+- **P5 Contraejemplos:** No se examinan mujeres de otras edades o etnias, hombres ni la repetibilidad entre medidores de pliegues.
+- **P6 Alternativas:** Hipótesis rivales: el sesgo se debe a la referencia de dos componentes; la muestra de conveniencia universitaria no representa la población general.
+
+### B.3 KPIs extraídos
+
+| KPI | VALOR | UNIDAD | CONTEXTO | UBICACIÓN | FUENTE | CONFIANZA | LIMITACIÓN |
+|---|---|---|---|---|---|---|---|
+| Mujeres que completaron las pruebas | 52 | mujeres | De 58 voluntarias | Resumen, p. 1; p. 3 | Texto | Alta | Muestra por conveniencia |
+| Porcentaje de grasa por hidrodensitometría | 29,6 ± 5,8 | % | Método de referencia | Cuadro 2, p. 5 | Tabla | Alta | Modelo de dos componentes |
+| Porcentaje de grasa por Durning/Womersley | 34,2 ± 4,5 | % | Sobrestima 4,67 puntos | Cuadros 2 y 3, p. 5 | Tabla | Alta | Diferencia significativa |
+| Porcentaje de grasa por Jackson/Pollock | 25,7 ± 5,6 | % | Subestima 3,81 puntos | Cuadros 2 y 3, p. 5 | Tabla | Alta | Diferencia significativa |
+| Porcentaje de grasa por Ramírez/Torun | 32,0 ± 5,3 | % | Sobrestima 2,49 puntos | Cuadros 2 y 3, p. 5 | Tabla | Alta | La de menor sesgo |
+| Correlación de Pearson con la referencia | 0,626 a 0,717 | adimensional | Tres ecuaciones | Cuadro 4, p. 5 | Tabla | Alta | Resumen indica 0,62 a 0,72 |
+| CCI con la referencia | 0,426 a 0,612 | adimensional | Tres ecuaciones | Cuadro 4, p. 5 | Tabla | Alta | Sin intervalos de confianza |
+| Error estándar del estimado | 3,72 a 4,16 | % | Jackson/Pollock 3,72 %, Ramírez/Torun 3,94 %, Durning/Womersley 4,16 % | p. 5, 8 | Texto | Media | Clasificados como buenos según Lohman |
+| Amplitud de límites de concordancia | 16,5 a 17,1 | puntos de % | Entre referencia y ecuaciones | Resumen, p. 1; p. 5 | Texto | Alta | Clínicamente amplios |
+| Mujeres con IMC adecuado y exceso de grasa | 25 | % | Grasa por encima de 31 % | p. 5 | Texto | Media | Punto de corte con error de estimación |
+| IMC medio | 22,3 | kg/m2 | Desviación de 4,0 en cuadro y 2,8 en texto | Cuadro 1, p. 4; p. 5 | Tabla | Baja | Inconsistencia entre cuadro y texto |
+| Impacto en empresas, transferencia o recuperación productiva | No especificado en documento | N/A | Fuera del dominio temático | N/A | N/A | Baja | Documento de nutrición |
+
+### B.4 Evaluación multinivel de madurez
+
+| Dimensión | Score | Aplica | Evidencia | Justificación |
+|---|---|---|---|---|
+| TRL | N/A | No | 'Validar por hidrodensitometría las ecuaciones de Durning/Womersley, Jackson/ Pollock y Ramírez/Torun en mujeres de 18 a 40 años' (p. 1) | No aplica: estudio de validación de ecuaciones existentes; no desarrolla una tecnología propia. |
+| MRL | N/A | No | No aplica | Sin manufactura. |
+| BRL | N/A | No | 'se han desarrollado métodos de campo más prácticos, rápidos y de bajo costo, como las ecuaciones de los pliegues cutáneos' (p. 2) | No aplica como modelo de negocio; menciona bajo costo de métodos de campo. |
+| IRL | N/A | No | No aplica | No hay integración tecnológica. |
+| DRL | N/A | No | No aplica |  |
+| SRL | N/A | No | Requiere IRL entre componentes | No calculable sin IRL |
+
+**Análisis de brechas**
+
+| Brecha | Valor | Interpretación |
+|---|---|---|
+| Gap TRL-BRL | None | N/A |
+| Gap TRL-MRL | N/A | N/A |
+| Gap TRL-IRL | N/A | N/A |
+| Gap BRL-DRL | N/A | N/A |
+| Brecha crítica | N/A | N/A |
+
+**Valle de la muerte:** Ninguno · Severidad: Baja · Estudio de validación sin tecnología propia evaluada. · Estrategia de salida: No aplica.
+
+### B.5 Robustez argumentativa y causalidad
+
+| Falacia | Evidencia | Impacto |
+|---|---|---|
+| Falsa dicotomía en el criterio de validez | Califica las ecuaciones como buenas por el error estándar y como de pobre validez por el CCI sin criterio previo (Discusión, pp. 7-8) | La conclusión depende del estadístico elegido |
+| Ausencia de diferencia tomada como equivalencia | Interpreta p de 0,13 a 0,92 al comparar medias de grasa y pliegues como semejanza de poblaciones (p. 8) | Con 52 mujeres, la falta de diferencia significativa no demuestra equivalencia |
+| Generalización apresurada | Concluye sobre 'nuestra población' con 52 mujeres universitarias por conveniencia (p. 1) | No representa a otros grupos |
+
+**Recomendación:** Aceptar con reservas
+
+| Relación propuesta | Evidencia correlacional | Criterios cumplidos | Criterios no cumplidos | Confusores | Score | Veredicto |
+|---|---|---|---|---|---|---|
+| Pliegue ileocrestal elevado → sobrestimación de la grasa por Durning/Womersley | Comparación de pliegues (33,7 mm frente a 19,1 mm) y correlación r = 0,508 (p. 7) | Plausibilidad, coherencia | Experimento, especificidad | Distribución étnica de la grasa, método de referencia | 2 | Correlacional |
+
+### B.6 Gaps identificados
+
+| Tipo | Descripción | Magnitud | Viabilidad | Prioridad |
+|---|---|---|---|---|
+| Metodológico | Muestra pequeña y por conveniencia; sin evaluación de sesgo proporcional | Significativo | Alta | 6 |
+| Conocimiento | Falta una referencia de cuatro componentes o DEXA y mujeres de otras edades y etnias | Significativo | Media | 6 |
+| Metodológico | Criterios de aceptación clínica no definidos a priori | Moderado | Alta | 4 |
+
+### B.7 Figuras y tablas clave
+
+| N.º | Título | Tipo | Descripción | Datos extraídos | Relevancia |
+|---|---|---|---|---|---|
+| Cuadro 1 | Características físicas de la población y correlación con el porcentaje de grasa | Tabla | Variables antropométricas de 52 mujeres | Edad 28,0 ± 6,6; IMC 22,3 ± 4,0 | Alta |
+| Cuadro 4 | Correlación, CCI y límites de concordancia | Tabla | Referencia frente a tres ecuaciones y entre ecuaciones | r de 0,626 a 0,717; CCI de 0,426 a 0,612 | Alta |
+| Figura 1 | Concordancia de Bland y Altman entre hidrodensitometría y ecuaciones | Gráfico | Diferencias frente a promedio | Límites de 17 puntos de amplitud | Media |
+
+### B.8 Competidores / actores / alternativas tecnológicas
+
+| Nombre | País | Tipo | Tecnología núcleo | Ventaja | Desventaja | Tendencia |
+|---|---|---|---|---|---|---|
+| Impedancia bioeléctrica y luz infrarroja | No especificado en documento | Método de campo | Alternativas de estimación de composición corporal | Rapidez | No evaluadas en el estudio | Estable |
+| Ecuaciones de Jackson/Pollock, Durning/Womersley y Ramírez/Torun | Estados Unidos, Escocia, Guatemala | Ecuaciones antropométricas | Estimación de grasa por pliegues | Uso extendido | Pobre concordancia en la muestra evaluada | Estable |
+
+### B.9 Variables econométricas y vacíos
+
+- **Y:** Porcentaje de grasa corporal por hidrodensitometría
+- **X:** Porcentaje de grasa estimado por tres ecuaciones de pliegues cutáneos
+- **Z (controles):** No especificado en documento (edad, etnia y distribución de grasa no se controlan)
+- **Datos:** 52 mujeres de 18 a 40 años de la Universidad de Antioquia
+- **Método:** t pareada, Pearson, CCI y Bland-Altman
+- **Efecto reportado:** Sesgos de -4,67, 3,81 y -2,49 puntos; límites de unos 17 puntos
+- **Endogeneidad tratada:** No - no se discute
+- **Instrumento:** No aplica
+- **Robustez reportada:** Sin análisis de sensibilidad ni validación cruzada
+
+| Vacío | Tipo | Descripción |
+|---|---|---|
+| V-095-01 | TERR | Medellín; sin otras regiones de Colombia |
+| V-095-02 | POBL | Mujeres universitarias de 18 a 40 años; sin hombres, adultos mayores ni etnias diferenciadas |
+| V-095-03 | TEMP | Medición en un solo momento; sin variabilidad intraindividual |
+| V-095-04 | MET | Referencia de dos componentes; sin sesgo proporcional |
+| V-095-05 | VAR | Faltan agua corporal, mineral óseo, ciclo menstrual y actividad física |
+| V-095-06 | TEOR | Modelo de dos componentes con supuestos de densidad constante |
+| V-095-07 | CAUS | No se estima efecto causal |
