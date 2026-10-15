@@ -1,0 +1,117 @@
+doc_id: D032
+relevancia: "Adyacente"
+relevancia_just: "Análisis cienciométrico de 2930 publicaciones de Scopus (2018-2026) sobre gemelos digitales con IA para monitoreo de salud estructural con IoT, con cuatro dominios temáticos, redes de palabras clave, de países y de co-citación; mapea la literatura de gemelos con IoT y SHM más próxima al corpus, aunque restringida al área de ciencias de la computación y sin tratar sismos ni recuperación."
+cluster_tema: "Gemelos digitales con IA e IoT para SHM (cienciometría)"
+metodo_tipo: "Análisis cienciométrico con modelado de tópicos (BERTopic), redes de co-ocurrencia de palabras clave, colaboración entre países y co-citación documental"
+tipo_recurso: "Artículo de revisión (journal peer-reviewed)"
+kw_inferidas: [gemelos digitales, inteligencia artificial, internet de las cosas, monitoreo de salud estructural, mantenimiento predictivo, cienciometría, BERTopic, redes de co-citación, IA explicable, redes neuronales informadas por física]
+c2:
+  objetivo: >
+    Caracterizar el panorama de investigación, la evolución temática y las tecnologías emergentes de gemelos digitales (GD) integrados con inteligencia artificial (IA) para el monitoreo de salud estructural (SHM) basado en IoT, mediante un análisis cienciométrico de publicaciones de Scopus de 2018 a 2026. El estudio busca identificar dominios de investigación, estructuras intelectuales, patrones de colaboración entre países, documentos influyentes y temas emergentes, y delinear desafíos y direcciones futuras hacia marcos de GD escalables, interoperables, seguros e inteligentes para SHM de nueva generación.
+  pregunta: >
+    El texto formula preguntas de investigación sobre el crecimiento y la madurez de cada dominio, la distribución geográfica y la colaboración, el impacto por citas, las estructuras temáticas de palabras clave y de documentos co-citados, y las tendencias emergentes y desafíos de investigación en cada uno de los cuatro dominios identificados.
+  marco: >
+    El marco es la cienciometría (indicadores de producción y citas, redes de co-ocurrencia de palabras clave, de colaboración entre países y de co-citación de documentos) combinada con modelado de tópicos neuronal (BERTopic), que se usa para definir los dominios y luego para construir búsquedas específicas por dominio. Define el gemelo digital como copia virtual dinámica de un activo físico que intercambia datos con él de forma continua y que integra sensores, comunicación y cómputo con simulación y analítica. Propone una taxonomía de cuatro dominios: arquitecturas de GD e integración inteligente (DTAII), sistemas de monitoreo y sensado estructural inteligente (SMSS), inteligencia estructural con IA y analítica de daño (ASIDA) y gestión predictiva de activos (PIAM). El paradigma es descriptivo y bibliométrico.
+  metodologia: >
+    Se recuperaron registros de Scopus con una cadena de palabras clave sobre GD, IA, SHM, IoT, aprendizaje automático y profundo, detección de daño y mantenimiento predictivo, restringida a artículos de revista en inglés publicados entre 2018 y 2026 y pertenecientes al área de ciencias de la computación; tras la depuración quedaron 2930 publicaciones. Se aplicó BERTopic sobre título, resumen y palabras clave para extraer temas, de los cuales emergieron los cuatro dominios, y se hicieron búsquedas por categoría que produjeron 641 (DTAII), 1010 (SMSS), 883 (ASIDA) y 393 (PIAM) registros, cuya suma es 2927 y no 2930. Se analizaron tendencias de publicación, geografía, citas (publicaciones, citas, citas por publicación, índices i-10 y h), redes de co-ocurrencia de palabras clave, redes de colaboración entre países y redes de co-citación con agrupamiento y etiquetado automático, con 'silhouette' por clúster. No se describe la cadena de búsqueda completa, los criterios de inclusión y exclusión ni la validación de los dominios por expertos.
+  resultados: >
+    La producción fue baja entre 2018 y 2020 y creció con fuerza después de 2021, con máximo en 2025 y descenso aparente en 2026 por indexación parcial. SMSS fue el dominio más activo (1010 publicaciones, 34,47 %), seguido de ASIDA (883; 30,17 %), DTAII (641; 21,89 %) y PIAM (393; 13,41 %). China aportó 37,49 % de las publicaciones, seguida de Estados Unidos (14,7 %), Reino Unido (9 %), Italia (8 %), India (6 %), Corea del Sur (5,8 %), Alemania (5,4 %), Canadá (5 %) y España (4,8 %). SMSS fue el dominio de mayor impacto (28.689 citas, 28,40 citas por publicación, h-index de 85), seguido de ASIDA (21.389 citas, 24,22 citas por publicación, h-index de 72); DTAII tuvo la menor tasa de citas por publicación (16,50) y h-index de 52; PIAM, 9.701 citas con 24,68 citas por publicación. Las redes de palabras clave destacaron IoT (frecuencia de 266 en SMSS) y toma de decisiones asociadas al GD, y en ASIDA IA, aprendizaje profundo y sistemas de aprendizaje. Los clústeres de co-citación incluyeron etiquetas ajenas al SHM (sistema fotovoltaico, fabricación aditiva, instalaciones industriales). Los temas emergentes fueron IA explicable, redes neuronales informadas por física, IA en el borde, GD con blockchain, GD federados y mantenimiento predictivo autónomo.
+  discusion: >
+    Los autores sostienen que el SHM avanza hacia arquitecturas de GD con sensado inteligente, analítica de daño con IA y gestión predictiva de activos, que SMSS es el dominio más maduro y ASIDA el de crecimiento más rápido, y que la investigación se desplaza de arquitecturas básicas hacia la IA explicable, las redes informadas por física, la IA en el borde, los GD federados y los modelos fundacionales. Identifican como desafíos comunes la interoperabilidad de datos, la escalabilidad, el procesamiento en tiempo real y la decisión segura, y proponen como soluciones la estandarización de marcos de GD, la analítica con IA, la computación en borde y nube, la seguridad con blockchain y la gestión inteligente de activos. Reconocen limitaciones de base de datos única y periodo, y sugieren ampliar a Web of Science, IEEE Xplore y otras.
+  limitaciones: "Declaradas: una sola base de datos (Scopus) y el periodo 2018-2026. No declaradas: restricción al área de ciencias de la computación, que excluye gran parte de la literatura estructural y civil; indexación parcial de 2026; cadena de búsqueda y criterios no reproducibles en el texto; dominios definidos por un modelo de tópicos sin validación; presencia de clústeres de co-citación ajenos al SHM."
+  futuro: "Incluir más bases de datos (Web of Science, IEEE Xplore, ACM Digital Library) y desarrollar GD escalables, interoperables, seguros e inteligentes para SHM, con IA explicable, redes informadas por física, IA en el borde, GD federados y mantenimiento predictivo autónomo."
+c3:
+  tesis: >
+    La investigación sobre gemelos digitales con IA para SHM basado en IoT creció con rapidez desde 2021 y se organiza en cuatro dominios (arquitecturas, sensado, analítica de daño y gestión predictiva), con China, Estados Unidos y Reino Unido a la cabeza; la transición hacia IA explicable, redes informadas por física, IA en el borde y GD federados define la agenda para SHM de nueva generación.
+  antitesis: >
+    El conjunto de datos queda condicionado por la restricción al área de ciencias de la computación de Scopus, que excluye revistas de ingeniería estructural y civil, y por una cadena de términos amplia que recupera trabajos de GD ajenos a las estructuras (los clústeres de co-citación se etiquetan como sistema fotovoltaico, fabricación aditiva e instalaciones industriales); por eso los indicadores de 'madurez' y de impacto describen un campo mezclado y no el SHM de estructuras. Los dominios son productos de un modelo de tópicos sin validación manual declarada, y sus totales (2927) no coinciden con la muestra (2930). Los indicadores de citas por dominio se interpretan como madurez, aunque dependen de la edad de los documentos y de la cobertura. No se informa el número de estudios que implementan realmente un GD con sincronización bidireccional, ni se analiza la brecha de validación en campo, los costos o los resultados en sismos.
+  sintesis: >
+    El artículo ofrece un mapa de gran escala y reciente de la literatura de GD con IA para SHM con IoT, útil para localizar términos, líneas emergentes y países activos, y confirma que los desafíos persistentes son interoperabilidad, escalabilidad y seguridad. Debe leerse como panorama temático de un subconjunto de la literatura y no como medición de madurez tecnológica. Para el corpus, la síntesis consiste en usar los dominios como taxonomía para clasificar los documentos del lote, estimar con un criterio de gemelización cuántos documentos del corpus son modelos, sombras o gemelos con IoT, y contrastar el hallazgo de crecimiento con la escasez de evidencia sobre recuperación y continuidad empresarial posterior a un sismo.
+  areas_grises:
+    - "Sesgo de cobertura por área temática: la selección se limita a la categoría de ciencias de la computación de Scopus, lo que deja fuera revistas de ingeniería estructural, civil y de gestión de infraestructura donde se publican muchos gemelos de SHM; el texto no cuantifica el efecto de esta restricción ni justifica su elección."
+    - "Validez de los dominios y de los totales: los cuatro dominios surgen de un modelo de tópicos sin validación declarada por expertos; sus tamaños suman 2927 frente a 2930 registros y no se aclara el tratamiento de documentos que pertenecen a varios dominios."
+    - "Relevancia del conjunto para SHM: los clústeres de co-citación incluyen etiquetas como sistema fotovoltaico, fabricación aditiva e instalaciones industriales, lo que indica que parte de las publicaciones recuperadas trata de gemelos digitales en otros campos; no se informa la proporción de estudios realmente centrados en estructuras civiles."
+    - "Interpretación de madurez: se infiere madurez de los indicadores de citas y h-index por dominio, que dependen de la antigüedad de los documentos; no se evalúan implementaciones en campo, costos ni resultados, y la caída en 2026 se atribuye a indexación parcial sin ajuste."
+  puntos_oscuros: >
+    Llama la atención que un análisis centrado en SHM con IoT y gemelos digitales no mencione sismos ni gestión de desastres entre los temas identificados, mientras el texto introductorio invoca el aumento de desastres naturales como motivación. Una explicación plausible es que la restricción a ciencias de la computación y la composición de la cadena de búsqueda (IA, IoT, aprendizaje profundo, mantenimiento predictivo) favorecen artículos de algoritmos y arquitecturas, mientras que los estudios de respuesta sísmica de edificios con sensores se publican en revistas de ingeniería estructural, fuera del conjunto. Esto sugiere que el mapa describe la oferta algorítmica y de arquitectura del campo y subestima la evidencia aplicada, y que un 'dominio de madurez' basado en citas puede reflejar el volumen de artículos de IA más que la implementación en estructuras. Además, el hecho de que la mayoría de los desafíos finales (interoperabilidad, escalabilidad, seguridad) coincidan con los de revisiones previas sugiere que el crecimiento de la producción no ha resuelto los obstáculos de adopción.
+  ideas:
+    - "Reproducción con cobertura ampliada y criterio de gemelización: repetir la búsqueda en Scopus y Web of Science sin restricción de área temática y con términos de sismo, edificios, puentes y recuperación, aplicar a una muestra aleatoria de 300 registros la lista de verificación (sensores en línea, sincronización modelo-realidad, uso en decisiones, validación de campo) con dos codificadores, y estimar la proporción de gemelos efectivos, de sombras y de modelos. Fundamento: la cienciometría describe volumen y no nivel de implementación. Verificabilidad: protocolo publicado y concordancia entre codificadores. Utilidad: da una medida de madurez reproducible y permite comparar la brecha sísmica del campo."
+    - "Mapa de brecha sísmica y de recuperación en la literatura de GD con IoT: cruzar los 2930 registros con términos de terremoto, sismo, resiliencia, recuperación, interrupción de negocio y continuidad, y calcular la proporción por dominio y por año, junto con los países que lideran esa intersección. Fundamento: ningún dominio incluye explícitamente sismos o recuperación en sus temas principales. Verificabilidad: consulta replicable en Scopus y conteos con intervalos. Utilidad: cuantifica la laguna que justifica una agenda de gemelos de recuperación, orienta alianzas con los países activos en la intersección y ofrece una línea base para medir el avance en los próximos años."
+  relaciones:
+    - "Crecimiento de la producción tras 2021 (se asocia con) la disponibilidad de técnicas de IA y de sensores de bajo costo: los autores lo atribuyen al avance de IA, IoT y sensado inteligente, aunque no analizan otros factores como el financiamiento ni la moda editorial."
+    - "Restricción al área de ciencias de la computación (condiciona) la composición temática del campo recuperado: sobrerrepresenta algoritmos y arquitecturas y subrepresenta estudios aplicados de ingeniería estructural, lo que sesga los indicadores de madurez."
+  robustez: [4, 3, 3, 4]
+  valor: [6, "Aporta un mapa cuantitativo, reciente y de gran escala de la literatura de gemelos digitales con IA e IoT para SHM, con taxonomía de cuatro dominios, indicadores por dominio, países líderes y temas emergentes, útil para localizar literatura y contextualizar el corpus. Su valor se reduce por la restricción al área de computación, la heterogeneidad de los clústeres, la falta de criterio de gemelización y la ausencia de sismos y de recuperación en el análisis."]
+  conexiones: []
+socratica:
+  p1: "'Gemelo digital con IA para SHM' es un modelo virtual alimentado por sensores IoT con analítica de IA; los 'dominios' son agrupaciones de tópicos obtenidas con BERTopic."
+  p2: "Supone que Scopus en el área de computación representa el campo, que los tópicos automáticos corresponden a dominios de investigación y que citas y h-index miden madurez."
+  p3: "La evidencia son 2930 registros, indicadores bibliométricos y redes; no hay medición de implementación ni de resultados."
+  p4: "Si es cierto, la inversión y la investigación deben orientarse a IA explicable, sistemas en el borde y GD federados; si es falso, se orientaría a una subárea de arquitecturas y algoritmos mientras la implementación estructural queda rezagada."
+  p5: "No se examinan estudios de SHM con gemelos fuera del área de computación ni proyectos que fracasaron o no pasaron a operación."
+  p6: "Alternativas: que el volumen de IA genérica explique el crecimiento; que la distribución por países refleje políticas de financiamiento; que los clústeres ajenos a SHM indiquen una mezcla de campos."
+kpis:
+  - ["Publicaciones analizadas", "2930", "publicaciones", "Scopus; artículos de revista en inglés; 2018-2026; ciencias de la computación", "Sec. III, p. 5", "Texto", "Alta", "Restricción de área temática"]
+  - ["Publicaciones en SMSS", "1010", "publicaciones", "34,47 % de la muestra; 28.689 citas; h-index de 85", "Sec. IV, p. 8-9", "Texto", "Alta", "Dominio más activo"]
+  - ["Publicaciones en ASIDA", "883", "publicaciones", "30,17 %; 21.389 citas; 24,22 citas por publicación; h-index de 72", "Sec. IV, p. 8-9", "Texto", "Alta", "Mayor crecimiento tras 2022"]
+  - ["Publicaciones en DTAII", "641", "publicaciones", "21,89 %; 16,50 citas por publicación; h-index de 52", "Sec. IV, p. 8-9", "Texto", "Alta", "Menor impacto por publicación"]
+  - ["Publicaciones en PIAM", "393", "publicaciones", "13,41 %; 9.701 citas; 24,68 citas por publicación", "Sec. IV, p. 8-9", "Texto", "Alta", "Menor volumen"]
+  - ["Suma de los dominios", "2927", "publicaciones", "Frente a 2930 de la muestra", "Sec. III, p. 5 (cálculo del analista)", "Derivado", "Media", "Diferencia de tres registros"]
+  - ["Participación de China", "37,49", "%", "Primero en los cuatro dominios (13,72 % a 18,94 % por dominio)", "Sec. IV, p. 9", "Texto", "Alta", "Estados Unidos 14,7 %"]
+  - ["Frecuencia de la palabra clave IoT en SMSS", "266", "ocurrencias", "Fuerza de enlace de 1675", "Sec. IV, p. 10", "Texto", "Alta", "Mayor nodo del dominio"]
+  - ["Puentes con deficiencias estructurales en Estados Unidos", "más de 9", "%", "Cita de fuente web citada en la introducción", "Sec. I, p. 1", "Texto", "Baja", "Fuente no verificada"]
+madurez:
+  trl: [5, "'SMSS emerging as the most mature domain and ASIDA showing rapid expansion' (p. 1)", "TRL modal del campo revisado, inferido: sensado inteligente maduro y analítica con IA en expansión; no hay medición de implementación."]
+  mrl: [false, null, "No aplica", "Sin manufactura."]
+  brl: [2, "'key research challenges and future directions toward scalable, interoperable, secure, and intelligent IoT-enabled DT frameworks' (p. 1)", "No se analiza mercado ni costos; el artículo señala desafíos de escalabilidad e interoperabilidad."]
+  irl: [true, 3, "'common challenges include data interoperability, scalability, real-time processing, and secure decision-making' (p. 12)", "La integración entre sensores, modelos y analítica es el desafío común en los cuatro dominios."]
+  drl: [true, 3, "'the research landscape, thematic evolution, and emerging IoT-driven technologies in AI-enabled DTs for SHM remain insufficiently characterized' (p. 1)", "Necesidad de caracterización de la literatura; la demanda de usuarios no se mide.", "Sin estudio de mercado"]
+  srl:
+    componentes: [["Sensado y monitoreo estructural inteligente", 6], ["Analítica de daño con IA", 5]]
+    interfaces: [[0, 1, 3]]
+valle: [3, "TRL modal 5 con BRL 2 e IRL 3: literatura en crecimiento con desafíos persistentes de interoperabilidad, escalabilidad y seguridad y sin evidencia de modelos de negocio.", "Media", "Estándares abiertos, validación en campo y estudios de costo-beneficio de gemelos con IA."]
+falacias:
+  - ["Falsa inferencia de madurez a partir de citas", "Se concluye que SMSS es el dominio más maduro por citas y h-index, que dependen de la antigüedad y el volumen (Sec. IV.B, p. 9)", "Confunde impacto bibliométrico con madurez tecnológica"]
+  - ["Generalización por muestra sesgada", "Se generaliza a 'el campo' una muestra restringida al área de ciencias de la computación de Scopus (Sec. III, p. 5; Sec. V, p. 21)", "Sesgo de cobertura"]
+  - ["Apelación a la novedad", "Se presentan IA explicable, redes informadas por física y GD federados como direcciones emergentes sin evidencia de adopción (Sec. VI, p. 22)", "Sobrestima el estado de la técnica"]
+recomendacion: "Aceptar con reservas"
+bradford: "No aplica: es un estudio descriptivo de la literatura; las relaciones entre crecimiento de publicaciones, tecnologías y madurez no se estiman con diseño causal."
+causal:
+  - ["Avance de IA, IoT y sensado → crecimiento de publicaciones después de 2021", "Coincidencia temporal; sin análisis de otras causas", "Temporalidad, plausibilidad", "Control de tendencia general y de la expansión de Scopus", "Financiamiento, moda editorial", 3, "Correlacional"]
+  - ["Mayor citación → madurez del dominio", "Indicadores de citas y h-index por dominio", "Coherencia con práctica bibliométrica", "Medición independiente de implementación", "Edad de los documentos, tamaño del dominio", 2, "Inferencia débil"]
+gaps:
+  - ["Metodológico", "Cobertura sin restricción de área temática, criterio de gemelización y validación de los dominios", "Crítico", "Alta", 9]
+  - ["Conocimiento", "Gemelos con IoT para sismos, resiliencia y recuperación posdesastre en la literatura de SHM", "Crítico", "Media", 9]
+  - ["Tecnológico", "Interoperabilidad, escalabilidad y seguridad de gemelos con IA en operación real", "Significativo", "Media", 8]
+  - ["Mercado", "Costos, retorno y modelos de adopción de gemelos digitales con IA para SHM", "Significativo", "Media", 7]
+figuras:
+  - ["Fig. 3", "Temas de investigación identificados con BERTopic", "Gráfico", "Cuatro dominios", "4 dominios", "Alta"]
+  - ["Fig. 4", "Tendencia de publicaciones por dominio (2018-2026)", "Gráfico", "Crecimiento tras 2021", "1010; 883; 641; 393", "Alta"]
+  - ["Fig. 5", "Distribución geográfica de las publicaciones", "Mapa", "China, Estados Unidos y Reino Unido a la cabeza", "37,49 %; 14,7 %; 9 %", "Alta"]
+  - ["Tabla VIII", "Métricas de citas por dominio", "Tabla", "TP, TC, CPP, i-10 y h-index", "28.689; 21.389; 9.701", "Alta"]
+  - ["Tablas X a XVII", "Frecuencia y fuerza de enlace de palabras clave y clústeres temáticos", "Tabla", "Redes por dominio", "IoT 266 en SMSS", "Media"]
+  - ["Fig. 16", "Red de co-citación de documentos en ASIDA", "Mapa de red", "Clústeres con etiquetas de campos distintos", "6 clústeres", "Media"]
+  - ["Tabla XXVI", "Desafíos y soluciones potenciales por dominio", "Tabla", "Interoperabilidad, escalabilidad, tiempo real y seguridad", "4 dominios", "Alta"]
+competidores:
+  - ["Sun et al. (revisión integral de gemelos digitales para SHM de infraestructura civil)", "No especificado en documento", "Academia", "Revisión de enfoques de gemelos para SHM", "Visión de infraestructura civil", "Sin cienciometría", "Estable"]
+  - ["Bhatia y Kumar (cienciometría de gemelos digitales en infraestructura urbana y edificios)", "India", "Academia", "Perspectiva cienciométrica global del gemelo en infraestructura urbana", "Cienciometría previa de los mismos autores", "Alcance distinto", "Estable"]
+  - ["Gharehbaghi et al. (revisión crítica de SHM)", "No especificado en documento", "Academia", "Definiciones, métodos y perspectivas de SHM", "Base conceptual", "Sin gemelos digitales", "Estable"]
+econ:
+  Y: "No aplica: no se estima una variable resultado"
+  X: "No aplica"
+  Z: "Año, dominio, país, fuente y tema"
+  datos: "2930 publicaciones de Scopus (2018-2026), área de ciencias de la computación"
+  metodo: "Cienciometría descriptiva; BERTopic; redes de palabras clave, países y co-citación"
+  efecto: "No cuantificado"
+  endogeneidad: "No - no se discute"
+  instrumento: "No aplica"
+  robustez: "Sin validación de dominios ni análisis de sensibilidad a la cadena de búsqueda ni a la base de datos"
+vacios:
+  - ["TERR", "China domina (37,49 %); sin análisis de América Latina ni de zonas sísmicas"]
+  - ["POBL", "Sin análisis de usuarios, operadores ni empresas"]
+  - ["TEMP", "Año 2026 con indexación parcial; sin análisis de largo plazo"]
+  - ["MET", "Restricción al área de computación y dominios por modelo de tópicos sin validación"]
+  - ["VAR", "Faltan variables de implementación, costo y resultados"]
+  - ["TEOR", "Sin teoría de adopción tecnológica ni de resiliencia"]
+  - ["CAUS", "Sin evidencia causal sobre factores del crecimiento ni sobre beneficios"]
+notas: "Texto completo extraído (22 páginas más referencias). Las figuras y varias tablas de redes no son legibles en la extracción; las cifras de producción, países y citas se tomaron del texto. La suma de los dominios (2927) es cálculo del analista. El archivo es la versión aceptada del autor, con encabezados de IEEE Xplore."
