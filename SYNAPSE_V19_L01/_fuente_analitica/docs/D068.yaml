@@ -1,0 +1,314 @@
+doc_id: D068
+relevancia: Adyacente
+relevancia_just: Presenta un marco de monitoreo de salud estructural con gemelo digital de bajo costo que une dos sensores de desplazamiento económicos (potenciómetro e infrarrojo), un microcontrolador Arduino Nano 33 IoT con nube, un modelo de elementos finitos calibrado y un programa propio (ReConTwin) que estima carga, grietas y emite alertas. Aporta una referencia concreta de costos y de precisión de un gemelo digital con IoT accesible, pertinente para pequeñas organizaciones, pero no trata sismos, recuperación productiva ni empresas, y se valida con una viga de laboratorio.
+cluster_tema: Gemelo digital e IoT de bajo costo para monitoreo de salud estructural y diagnóstico de daño
+metodo_tipo: Diseño de prototipo y validación experimental de laboratorio con ensayos de flexión en cinco vigas de concreto armado, calibración numérica de un modelo de elementos finitos y comparación con sensores de control
+tipo_recurso: Artículo científico (journal peer-reviewed, acceso abierto)
+kw_inferidas:
+- gemelo digital
+- monitoreo de salud estructural
+- IoT
+- bajo costo
+- Arduino
+- potenciómetro
+- sensor infrarrojo
+- elementos finitos
+- concreto armado
+- diagnóstico de daño
+c2:
+  objetivo: 'Investigar la factibilidad de un marco de monitoreo de salud estructural (SHM) práctico y de bajo costo, potenciado por gemelos digitales (DT), para infraestructura civil, dado que muchos sistemas de DT para SHM son costosos, complejos y exigentes en recursos, lo que limita su uso en implementaciones pequeñas. El estudio explora dos sensores de desplazamiento de bajo costo, un potenciómetro de contacto y un sensor infrarrojo sin contacto, conectados a un microcontrolador con acceso remoto en la nube, y un programa de código abierto llamado ReConTwin que realiza actualización casi en tiempo real, análisis y diagnóstico de daño de una viga de concreto armado en el laboratorio.
+
+    '
+  pregunta: 'El artículo no formula preguntas de investigación explícitas. Las preguntas implícitas son si sensores de desplazamiento de decenas de dólares alcanzan una precisión suficiente frente a un LVDT de control, si un modelo de elementos finitos calibrado con una prueba de carga puede estimar la carga aplicada y las grietas de una viga distinta, y si un programa automatizado puede emitir advertencias de daño por deflexión y ancho de fisura.
+
+    '
+  marco: 'El marco articula el monitoreo de salud estructural, la cuarta revolución industrial y el concepto de gemelo digital como réplica virtual de un activo que se sincroniza de forma automática con sensores y apoya el mantenimiento predictivo. Los autores revisan casos de IoT en monitoreo de puentes ferroviarios, de IoT de banda estrecha con acelerómetros, de DT con aprendizaje automático y de DT para puentes de concreto presforzado, para el tablero de un puente atirantado y para estructuras patrimoniales, y señalan como obstáculos el alto costo del hardware y el software, la complejidad técnica, la falta de interpretabilidad y el exceso de mediciones. La arquitectura se divide en un sistema físico, con sensores y comunicación, y un sistema de programa con un modelo de elementos finitos que se actualiza y se diagnostica con ReConTwin.
+
+    '
+  metodologia: 'Se construyeron cinco vigas de concreto armado de 2060 mm de longitud, 150 mm de ancho y 230 mm de altura, con dos barras de 12 mm inferiores y dos de 10 mm superiores y estribos de 8 mm cada 100 mm, ensayadas en flexión de tres puntos sobre una luz de 1800 mm con un actuador MTS de 500 kN y carga controlada a 4 kN por minuto. En la etapa 1, cuatro vigas se cargaron en pasos de 4 kN, con tres minutos de mantenimiento, hasta la falla, y sirvieron para obtener la curva fuerza-desplazamiento con un LVDT y la deformación con fibra óptica distribuida, de modo que se calibró el modelo. En la etapa 2, una viga se cargó en una fase cíclica elástica (de 0 a 20 kN) y en una fase incremental hasta 56 kN, mientras el potenciómetro (84 dólares), el sensor infrarrojo (15 dólares) y el Arduino Nano 33 IoT (25 dólares) registraban el desplazamiento, con 250 muestras promediadas por medición y frecuencia efectiva de 0,39 Hz. El modelo se elaboró en FEMAP con elementos hexaédricos de 20 nodos
+    y el modelo constitutivo de Kotsovos y Pavlovic modificado, se calibró mediante 72 análisis no lineales con variaciones del módulo del concreto de 26 a 34 GPa y del esfuerzo de fluencia del acero de 493 a 500 MPa, y ReConTwin automatizó el proceso en Python con una interfaz de cuatro ventanas, donde la ventana 4 compara la deflexión con luz/250 y el ancho de fisura con 0,3 mm.
+
+    '
+  resultados: 'Los resultados indican que, en la calibración con una altura de referencia, el potenciómetro tuvo resolución de 48,4 micrómetros por dígito del convertidor, exactitud estimada de más o menos 80 micrómetros e histéresis de 0,11 %, y el sensor infrarrojo mostró una relación cuadrática con resolución de 94,1 a 285,9 micrómetros por dígito y exactitud de más o menos 363 micrómetros. En el ensayo cíclico, el error absoluto medio frente al LVDT fue de 25,2 micrómetros para el potenciómetro y de 184,8 micrómetros para el infrarrojo, y en el incremental fue de 41,2 y 176,0 micrómetros; las diferencias medias no fueron estadísticamente significativas (p de 0,621, 0,291, 0,130 y 0,359). El modelo calibrado con 72 iteraciones, de una hora de duración total, logró un error relativo medio de 4,7 % con módulo del concreto de 29 GPa y fluencia de 494 MPa. La carga estimada por el gemelo a partir de la deflexión tuvo un error absoluto medio de 2,11 kN, con una subestimación máxima de 5,18
+    kN a 20 kN y sobreestimación a cargas mayores a 36 kN; el espaciamiento de fisuras predicho fue de 50 mm frente a 79 mm observado, y la deformación máxima del soffit tuvo un error absoluto medio de 281 microdeformaciones y un error relativo medio de 34,3 %. Los datos llegaron a la nube de Arduino mediante Wi-Fi y se descargaron para importarlos al programa, de modo que el análisis es de casi tiempo real y no continuo.
+
+    '
+  discusion: 'Los autores sostienen que el marco demuestra la factibilidad de un DT-SHM práctico, accesible y de bajo costo, que el potenciómetro es adecuado para mediciones precisas y el sensor infrarrojo para medición sin contacto con márgenes de error mayores, y que el modelo calibrado representa con precisión la respuesta mecánica de la viga. Afirman que la calibración iterativa automatizada es robusta y eficiente, que el programa predice daño superficial e interno y que el diseño es aplicable a estructuras reales más complejas. Reconocen que el enfoque se adecúa a geometrías, materiales y cargas simples. Como trabajo futuro proponen implementarlo en edificios y puentes de concreto a escala real, integrar análisis cíclico y dinámico del software de elementos finitos y aplicarlo a estructuras reforzadas.
+
+    '
+  limitaciones: 'Declaradas: el enfoque de calibración es adecuado para sistemas simples, de geometría, materiales y cargas sencillas, y el principio se demostró en un ambiente controlado; el modelo se calibró con pruebas de carga previas. No declaradas: una sola viga en la etapa 2 y carga estática de corto plazo, sin dinámica, sin temperatura ni humedad; el término de bajo costo no se respalda con el costo total del sistema (control, fibra óptica, interrogador, software de elementos finitos y programa); la frecuencia efectiva de 0,39 Hz impide capturar eventos dinámicos como un sismo; el análisis de los datos de la nube es manual por descarga; la ausencia de diferencias significativas no prueba equivalencia; el error de deformación de 34,3 % contradice la afirmación de alta precisión; el ancho de fisura se calcula multiplicando la deformación por una longitud de elemento de 150 mm sin validación con anchos medidos; la etapa 1 reporta falla a 52 kN, mientras que la descripción de método
+    indica 56 kN; el sistema se alimenta por USB desde una computadora portátil, lo que no corresponde a un despliegue remoto; los datos solo se ofrecen a solicitud.'
+  futuro: 'Explícito: implementar la tecnología en edificios y puentes de concreto armado a escala real, integrar el análisis cíclico y dinámico del programa de elementos finitos para el diagnóstico con datos de carga cíclica, y extender el marco a estructuras reforzadas y rehabilitadas. Implícito: operación continua con alimentación autónoma, sensores para dinámica y pruebas de durabilidad.'
+c3:
+  tesis: 'Un gemelo digital de una viga de concreto armado, construido con un potenciómetro de 84 dólares o un sensor infrarrojo de 15 dólares, un microcontrolador de 25 dólares con nube gratuita y un programa de código abierto que calibra automáticamente un modelo de elementos finitos en una hora, estima la carga aplicada con un error medio de 2,11 kN y predice el patrón de grietas y las alertas de deflexión, lo que demuestra la factibilidad de un monitoreo estructural con gemelo digital accesible para infraestructura civil.
+
+    '
+  antitesis: 'La demostración se limita a una viga en carga estática de corto plazo en un laboratorio, con un único espécimen en la etapa de validación, de modo que no se prueba el desempeño ante ruido ambiental, temperatura, cargas dinámicas o estructuras reales. La afirmación de bajo costo omite el costo del software de elementos finitos, el interrogador de fibra óptica y el tiempo del especialista. El error de 34,3 % en deformación y la discrepancia de 50 frente a 79 mm en el espaciamiento de fisuras restan respaldo a la tesis de predicción precisa del daño, y el ancho de fisura estimado con un producto entre deformación y longitud de elemento no se contrasta con mediciones. Con una frecuencia de 0,39 Hz el sistema no es apto para eventos sísmicos. La falta de significancia estadística no demuestra equivalencia entre los sensores y el LVDT.
+
+    '
+  sintesis: 'La contribución sostenible es una prueba de concepto reproducible de una cadena completa de gemelo digital con hardware económico y calibración automatizada, con costos unitarios declarados y errores de desplazamiento medidos frente a un sensor de control, que permite estimar la carga y emitir alertas simples en una viga. Para el corpus, importa como referencia de la accesibilidad del gemelo digital con IoT para organizaciones de recursos limitados, aunque su alcance es de laboratorio, estático y de elemento único. La conclusión de aplicabilidad a estructuras reales requiere ensayos con estructuras completas, comunicación autónoma y una evaluación de costo total, y debe unirse con enfoques de sismo para ser útil a la recuperación empresarial.
+
+    '
+  areas_grises:
+  - 'Costo total: el artículo declara los precios de los sensores y del microcontrolador (84, 15 y 25 dólares) pero no suma el costo de la fibra óptica distribuida de control, el interrogador, el software de elementos finitos (FEMAP y ReConAn FEA), la computadora ni el tiempo de calibración, de modo que la afirmación de bajo costo se sostiene solo para el hardware de adquisición.'
+  - 'Frecuencia y tiempo real: las 250 muestras promediadas producen una medición cada 2,6 segundos (0,39 Hz) y los datos se descargan de la nube para importarlos al programa, de modo que el sistema puede describir procesos de carga lentos pero no vibraciones ni un sismo, aunque el texto lo presenta como casi en tiempo real.'
+  - 'Equivalencia estadística: las pruebas t pareadas con p de 0,621, 0,291, 0,130 y 0,359 se interpretan como ausencia de diferencia con el LVDT, aunque la ausencia de significancia con pocas mediciones no prueba equivalencia, y el intervalo del sensor infrarrojo (de menos 91,58 a 224,56 micrómetros) es amplio.'
+  - 'Calidad del diagnóstico de daño: la ventana de diagnóstico compara la deflexión con luz/250 y el ancho de fisura con 0,3 mm, pero el ancho se obtiene de la deformación del modelo por una longitud de elemento de 150 mm y la deformación tiene un error relativo medio de 34,3 %, de modo que la confiabilidad del umbral de alerta no se verifica con anchos de fisura medidos.'
+  puntos_oscuros: 'Llama la atención que el artículo afirme que el sistema permite una identificación precisa de la degradación temprana, aunque no se ensayó ninguna viga dañada de forma incipiente ni se midieron anchos de fisura. También es notable que la sección de método declare que se variaron tres propiedades del material, pero el módulo del acero se mantuvo en 200 GPa y solo se combinaron 9 valores de módulo del concreto con 8 de fluencia, que suman 72 análisis. La etapa 1 se describe con carga hasta 56 kN y luego con falla a 52 kN, y la tabla de carga estimada muestra un escalón de 34 kN donde correspondería 36 kN, lo que indica errores de edición. La subestimación de 5,18 kN a 20 kN equivale a un error de 26 % de la carga, y el texto la califica como conservadora y de alta precisión. Además, el sistema se alimenta por una computadora portátil y se usa Wi-Fi de un teléfono o enrutador, condiciones que no existirían tras un sismo. Por último, la accesibilidad se sostiene con software
+    propio de los autores, cuyo código no se publica.
+
+    '
+  ideas:
+  - 'Gemelo ligero para una nave industrial o un edificio de una pyme: instalar durante seis meses cuatro sensores de desplazamiento de bajo costo con microcontroladores de alimentación autónoma en una estructura de concreto o acero de una pequeña empresa, calibrar un modelo reducido con una prueba de carga y registrar temperatura, vibraciones y falsas alarmas. El resultado permitiría estimar el costo total de propiedad por metro cuadrado, la tasa de falsas alarmas y el esfuerzo del especialista, y definir un paquete mínimo de monitoreo asequible que indique si una empresa puede reanudar operaciones tras un evento. Se documentarían también las horas de calibración y mantenimiento.'
+  - 'Prueba de la cadena completa con un evento dinámico: sustituir el potenciómetro por acelerómetros MEMS de bajo costo y aumentar la frecuencia de muestreo a 100 Hz, aplicando impactos y sacudidas en una mesa vibratoria pequeña sobre pórticos de laboratorio con y sin daño inducido, y medir con 10 repeticiones la latencia de punta a punta, la pérdida de paquetes del Wi-Fi y el error de identificación de frecuencias. Con ello se determinaría si el marco del artículo puede ampliarse a la detección de daño posterremoto y a qué costo, lo que lo conectaría con la recuperación de operaciones.'
+  relaciones:
+  - 'Gemelos de infraestructura de bajo costo (complementa) D014 y D064: D014 construye un gemelo de la Basílica María Auxiliadora y D064 una arquitectura 5G con sensores MEMS; D068 aporta costos unitarios y una calibración automatizada para elementos de concreto.'
+  - 'IoT y sostenibilidad de producción o activos (se relaciona con) D083 y D084: D083 trata IoT y sostenibilidad en sistemas de producción y D084 un SHM sincronizado de puentes colgantes; D068 ofrece un contraste de escala y de accesibilidad con sensores de decenas de dólares.'
+  robustez:
+  - 3
+  - 2
+  - 2
+  - 3
+  valor:
+  - 5
+  - Aporta una cadena completa y replicable de gemelo digital con IoT de bajo costo, con precios unitarios (84, 15 y 25 dólares), errores de desplazamiento frente a un LVDT (25,2 a 184,8 micrómetros), error de carga de 2,11 kN y calibración automatizada de 72 iteraciones en una hora. Su valor para el corpus es moderado, porque es una viga de laboratorio, estática, con un solo espécimen de validación, de baja frecuencia, con deformación de 34,3 % de error relativo y sin costos totales ni sismo, pero sirve como referencia de accesibilidad tecnológica.
+  conexiones: []
+socratica:
+  p1: '''Gemelo digital'' es un modelo de elementos finitos calibrado que se actualiza con datos de sensores; ''ReConTwin'' es el programa que automatiza la calibración, la estimación de carga y el diagnóstico; ''diagnóstico de daño'' es la comparación de la deflexión con luz/250 y del ancho de fisura estimado con 0,3 mm; ''bajo costo'' se refiere al precio de los sensores y del microcontrolador.'
+  p2: Supone que una viga calibrada representa una estructura real, que la ausencia de diferencia significativa equivale a exactitud, que el ancho de fisura derivado de la deformación del modelo es confiable y que una frecuencia de 0,39 Hz es suficiente.
+  p3: La evidencia son ensayos de flexión de cinco vigas, comparaciones con LVDT y fibra óptica, 72 análisis de calibración y tablas de error de carga, de desplazamiento y de deformación, en un laboratorio.
+  p4: Si es cierto, organizaciones con pocos recursos podrían monitorear estructuras con gemelos digitales; si es falso, el sistema puede dar falsas seguridades en condiciones reales de ruido, temperatura, comunicación y dinámica.
+  p5: No se examinan estructuras completas, eventos dinámicos, costos totales, falsas alarmas, alimentación autónoma ni la validación del ancho de fisura.
+  p6: 'Alternativas: que un modelo estadístico simple baste para detectar cambios de rigidez; que los acelerómetros MEMS sean mejores que los sensores de desplazamiento para campo; que el costo dominante sea el especialista y no el hardware.'
+kpis:
+- - Costo del potenciómetro de contacto
+  - '84'
+  - USD
+  - Sensor Variohm EuroSensor de 50 mm
+  - Sec. 3.1, p. 6
+  - Texto
+  - Alta
+  - Solo el sensor
+- - Costo del sensor infrarrojo
+  - '15'
+  - USD
+  - Sensor Sharp de 30 a 300 mm
+  - Sec. 3.1, p. 6
+  - Texto
+  - Alta
+  - Solo el sensor
+- - Costo del microcontrolador Arduino Nano 33 IoT
+  - '25'
+  - USD
+  - Con Wi-Fi y Bluetooth de baja energía
+  - Sec. 3.2, p. 6
+  - Texto
+  - Alta
+  - Sin costo de nube
+- - Error absoluto medio del potenciómetro frente al LVDT
+  - 25,2 y 41,2
+  - μm
+  - Ensayo cíclico e incremental
+  - Sec. 5.2, p. 17-19
+  - Texto
+  - Alta
+  - Una viga
+- - Error absoluto medio del sensor infrarrojo frente al LVDT
+  - 184,8 y 176,0
+  - μm
+  - Ensayo cíclico e incremental
+  - Sec. 5.2, p. 18-19
+  - Texto
+  - Alta
+  - Una viga
+- - Error relativo medio de calibración del gemelo
+  - 4,7
+  - '%'
+  - 72 iteraciones; 29 GPa y 494 MPa
+  - Sec. 5.1, p. 16
+  - Texto
+  - Alta
+  - Fuerza-desplazamiento
+- - Error absoluto medio de la carga estimada por el gemelo
+  - 2,11
+  - kN
+  - Máximo de 5,18 kN a 20 kN
+  - Tabla 3, p. 22
+  - Tabla
+  - Media
+  - Carga de 4 a 52 kN
+- - Error relativo medio de la deformación máxima del soffit
+  - 34,3
+  - '%'
+  - Error absoluto medio de 281 microdeformaciones
+  - Sec. 5.4, p. 22
+  - Texto
+  - Media
+  - Base del ancho de fisura
+madurez:
+  trl:
+  - 4
+  - '''The principle of such system has been demonstrated in a controlled environment'' (p. 24)'
+  - Validación de componentes y del sistema integrado en laboratorio con una viga; sin entorno relevante ni estructuras a escala real.
+  mrl:
+  - false
+  - null
+  - No aplica
+  - Sin manufactura.
+  brl:
+  - 2
+  - '''The proposed framework offers a roadmap towards a simpler, affordable, and accessible alternative for infrastructure asset monitoring'' (p. 24)'
+  - Se plantea el atractivo de costo; no hay modelo de negocio, costo total ni clientes identificados.
+  irl:
+  - true
+  - 4
+  - '''The seamless integration of the Arduino with the DTSHM framework streamlined the data transmission process, automating the flow of information from the physical structure to the digital model'' (p. 20)'
+  - Integración de sensores, microcontrolador, nube, modelo de elementos finitos y programa probada en laboratorio; el flujo incluye descarga manual de datos.
+  drl:
+  - true
+  - 2
+  - '''Future work foresees the implementation of the proposed technology in real-scale structures such as important buildings and RC bridges'' (p. 25)'
+  - Se identifica una necesidad técnica de monitoreo accesible; sin estudio de demanda ni usuarios.
+  - Sin estudio de mercado
+  srl:
+    componentes:
+    - - Sensores de desplazamiento y microcontrolador IoT
+      - 4
+    - - Modelo de elementos finitos calibrado y programa ReConTwin
+      - 4
+    interfaces:
+    - - 0
+      - 1
+      - 3
+valle:
+- 1
+- 'TRL 4 con BRL 2 e IRL 4: prueba de concepto de laboratorio sin estructura real, sin costo total y con descarga manual de datos.'
+- Media
+- Piloto en una estructura real con alimentación autónoma, costo total de propiedad, falsas alarmas y validación de ancho de fisura.
+falacias:
+- - Ausencia de significancia interpretada como equivalencia
+  - Los valores p de 0,621, 0,291, 0,130 y 0,359 se usan para afirmar que los sensores no difieren del LVDT (Sec. 5.2, p. 18-20)
+  - Con pocas mediciones no se prueba equivalencia
+- - Afirmación de alta precisión con un error elevado
+  - Se califica de alta exactitud la deformación con error relativo medio de 34,3 % (Sec. 5.4, p. 22)
+  - Contradice las cifras presentadas
+- - Generalización desde un elemento simple
+  - Se concluye la aplicabilidad a estructuras reales con una viga de laboratorio en carga estática (Sec. 6, p. 24-25)
+  - Los autores reconocen que la calibración es adecuada para sistemas simples
+recomendacion: Aceptar con reservas
+bradford: 'No aplica: es un estudio de ingeniería experimental; no se estima causalidad con datos observacionales.'
+causal:
+- - Calibración del modelo con una prueba de carga → estimación de la carga a partir de la deflexión
+  - Tabla 3 con error medio de 2,11 kN
+  - Mecanismo mecánico directo
+  - Estructuras reales con cargas variables
+  - Temperatura, fluencia, adherencia
+  - 3
+  - Efecto plausible en laboratorio
+- - Deformación estimada por el modelo → ancho de fisura y alerta
+  - Deformación con error relativo medio de 34,3 %
+  - Relación calculada con una longitud de elemento
+  - Anchos de fisura medidos
+  - Tamaño de malla, espaciamiento de fisuras
+  - 2
+  - Relación no validada
+gaps:
+- - Metodológico
+  - Validación en estructuras reales con ruido, temperatura y carga variable, y con anchos de fisura medidos
+  - Crítico
+  - Media
+  - 9
+- - Tecnológico
+  - Muestreo dinámico, alimentación autónoma y comunicación robusta tras un evento extremo
+  - Crítico
+  - Media
+  - 8
+- - Mercado
+  - Costo total de propiedad y esfuerzo de especialista para pequeñas organizaciones
+  - Crítico
+  - Media
+  - 8
+- - Conocimiento
+  - Conexión del diagnóstico con la decisión de reocupación o de continuidad de operaciones
+  - Significativo
+  - Media
+  - 7
+figuras:
+- - Fig. 1
+  - Arquitectura del marco de SHM con gemelo digital
+  - Diagrama
+  - Sistema físico y sistema de programa
+  - No aplica
+  - Media
+- - Fig. 7
+  - Descripción general del sistema de hardware
+  - Diagrama
+  - Sensores, Arduino y nube
+  - 84 USD; 15 USD; 25 USD
+  - Media
+- - Fig. 21
+  - Curvas fuerza-desplazamiento de las 72 iteraciones y del gemelo calibrado
+  - Gráfico
+  - Error relativo de 4,7 % de la iteración elegida
+  - 4,7 %
+  - Alta
+- - Tabla 3
+  - Carga experimental y carga estimada por el gemelo
+  - Tabla
+  - Error medio de 2,11 kN
+  - 2,11 kN
+  - Alta
+- - Fig. 27
+  - Grietas predichas y observadas en el soffit
+  - Imagen
+  - Espaciamiento predicho de 50 mm frente a 79 mm observado
+  - 50 mm; 79 mm
+  - Media
+competidores:
+- - Sistemas de DT para SHM de alto costo con software avanzado
+  - No especificado en documento
+  - Empresa
+  - Monitoreo continuo de infraestructura
+  - Funcionalidades avanzadas
+  - Costo y complejidad según los autores
+  - Estable
+- - IoT de banda estrecha con acelerómetros MEMS de Di Nuzzo et al.
+  - No especificado en documento
+  - Academia
+  - Monitoreo continuo de largo alcance y bajo consumo
+  - Conectividad de bajo consumo
+  - Detalle de costos no reportado
+  - Creciente
+- - Monitoreo de puente ferroviario con IoT y DT de Armijo y Zamora-Sánchez
+  - No especificado en documento
+  - Academia
+  - Nube y aprendizaje automático para mantenimiento
+  - Caso en campo
+  - Costo no reportado
+  - Creciente
+econ:
+  Y: Error de desplazamiento (μm), error de carga estimada (kN), error de calibración (%), error de deformación (%)
+  X: Tipo de sensor (potenciómetro o infrarrojo) y uso del gemelo calibrado
+  Z: Nivel de carga, distancia de detección del infrarrojo, reflectividad de la superficie, propiedades del material
+  datos: Ensayos de flexión de cinco vigas de concreto armado en laboratorio, con LVDT y fibra óptica como control
+  metodo: Prueba experimental con calibración por búsqueda exhaustiva de 72 combinaciones y pruebas t pareadas
+  efecto: Error medio de desplazamiento de 25,2 a 41,2 μm (potenciómetro) y de 176,0 a 184,8 μm (infrarrojo); error de carga de 2,11 kN
+  endogeneidad: No - no se discute
+  instrumento: No aplica
+  robustez: Sin réplicas de la etapa 2, sin ruido ambiental y con valores p interpretados como equivalencia
+vacios:
+- - TERR
+  - Laboratorio de la Universidad de Pretoria (Sudáfrica); sin estructura en campo
+- - POBL
+  - Cinco vigas de concreto armado; sin edificios, puentes ni empresas
+- - TEMP
+  - Ensayos de minutos de carga estática; sin monitoreo de largo plazo
+- - MET
+  - Una sola viga de validación, sin dinámica y con descarga manual de datos
+- - VAR
+  - Faltan costo total, temperatura, ruido, falsas alarmas y anchos de fisura medidos
+- - TEOR
+  - Gemelo digital y SHM; sin teoría de continuidad ni de recuperación económica
+- - CAUS
+  - Efecto de las alertas sobre decisiones de mantenimiento sin evidencia
+notas: Texto completo extraído (26 páginas del PDF, 2059 a 2084 de la revista; las páginas citadas siguen los marcadores del PDF). Las tablas 1 y 2 se leyeron con orden de columnas parcialmente alterado; se usaron las cifras del texto. En la Tabla 3 el escalón de carga '34' parece corresponder a 36 kN según el texto; se cita tal como aparece. El cálculo de 9 por 8 combinaciones (72) lo verificó el analista.
