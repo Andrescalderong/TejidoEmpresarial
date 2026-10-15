@@ -1,0 +1,137 @@
+actuator or motor may control actuation within one or more 45 and the like having an electrical power/control connection
+[col 1]
+US 12,567,082 B2
+517
+may for example, include presence of one or more objects in
+the environment, name and type of the objects, the distance
+and position of the objects on a map including a target object
+to be grasped with respect to the MPR 12100, the material
+properties of the target object and the like.
+In embodiments, the intelligence layer 12140 may then
+take one or more actions based on one or more policies in
+response to the state information. For example, the intelli-
+gence layer 12140 may determine that the environment
+includes two objects and the MPR 12100 needs to move 100 10
+meters to reach the target object while avoiding an obstacle
+object located at a distance of 10 meters. The navigation
+policy may provide navigational actions and guide the MPR
+12100 to reach the target object while avoiding collision
+with the obstacle object. The grasping policy may then guide 15
+the MPR 12100 about action steps to grasp the target object.
+In embodiments, the policy libraries may use machine
+learning including reinforcement learning to define the dif-
+ferent policies for performing the various tasks.
+Based on the output of policy libraries in the task man- 20
+agement system 12144, the robot control system 12150 may
+then develop and provide control instructions for one or
+more actuators or control devices associated with the MPR
+12100 to implement the policies and drive one or more
+components of the electromechanical system 12108, the 25
+transport system 12110 or the energy storage and power
+distribution system 12104. For example, the control instruc-
+tions may effectuate movement of one or more motors of the
+transport system 12110 to navigate to a location in the
+environment in accordance with the navigation policy. As 30
+another example, the control instructions may effectuate
+movement in one or more actuators in arm joints or end
+effectors to grasp the target object in accordance with the
+grasping policy.
+The term actuator encompasses a mechanical or electrical 35
+device that creates motion, in addition to any driver(s) that
+may be associated with the actuator and that translate
+received control instructions into one or more signals for
+driving the actuator. Accordingly, providing a control
+instructionto an actuatormay compriseprovidingthe con- 4o t
+trol instruction to a driver that translates the control instruc-
+tion into appropriate signals for driving an electrical or
+mechanical device to create desired motion. The MPR
+12100 may have multiple degrees of freedom and each
+of the degrees of freedom responsive to the control instruc-
+tions.
+FIG. 142 illustrates an example vision and sensing system
+12112 according to some embodiments of the present dis-
+closure. The vision and sensing system 12112 include a 50 1
+range of sensors 12602 configured to receive information
+from the environment 12604 of the multi-purpose robot
+12100 and enable the MPR 12100 to interact with one or
+more objects 12606 in its environment. For example, vision
+may assist the MPR 12100 with environment recognition
+and navigation. Some examples of sensors may include one
+or more cameras, LIDARs, RADARs, SONARs, thermal
+imaging, hyperspectral imaging, illuminance sensors, force
+sensors, torque sensors, velocity sensors, acceleration sen- 6o 
+sors, position sensors, proximity sensors, gyro sensors,
+sound sensors, motion sensors, location sensors, load sen-
+sors, temperature sensors, touch sensors, depth sensors,
+ultrasonic range sensors, infrared sensors, chemical sensors,
+magnetic sensors, inertial sensors, gas sensors, humidity 65
+sensors, pressure sensors, viscosity sensors, flow sensors,
+object sensors, tactile sensors and the like. In embodiments,
+[col 2]
+518
+sensors may be mounted on directly on non-actuable com-
+ponents of the robot like the head or on actuable components
+like the arms or the end-effectors. In embodiments, sensors
+may be physically separated from the MPR 12100 or located
+within the environment 12604 in which the MPR 12100 is
+operating.
+In embodiments, the vision and sensing system 12112
+may monitor the environment 12604 in real time, and detect
+obstacles, elements of the terrain, weather conditions, tem-
+perature, or other aspects of the environment. The various
+sensors 12602 are configured to work in a wide range of
+environmental conditions and may capture data related of
+one or more objects 12606 in the environment 12604, such
+as size, shape, profile, structure, speed, distance, or orien-
+tation of the objects 12606. Some examples of sensors
+12602 that may work to capture different data in various
+environments include monographic cameras (e.g., for cap-
+turing image data), stereoscopic cameras (e.g. for 3D
+vision), RADAR (e.g-, for long-range object detection,
+distance determination, or speed determination), LIDAR
+(e.g-, for short-range object detection, distance determina-
+tion, or speed determination), SONAR (e.g., for underwater
+object detection, distance determination, or speed determi-
+nation), ultrasonic sensors (e.g-, for bright light and very
+dark environments and to sense glass or other transparent
+surfaces), GPS (e.g., for position information), IMU (e.g..
+for orientation information),and thelike.
+In embodiments, the vision and sensing system 12112
+may then coordinate with the robot control system 12150 to
+process the captured sensing data and make a sequence of
+decisions or devise a policy about actions to be performed by
+the MPR 12100. The decisions may for example, relate to
+activation or deactivation of one or more components of the
+electromechanical and electro-fluidic system 12108, move-
+ment of the MPR 12100 by the transport system 12110,
+distribution of power to certain components of the MPR
+12100 by energy storage and power distribution system
+12104 and the like.
+Referring now to FIG. 142, a camera 12608 is configured
+to capture images of objects 12606 located within a field of
+view of the camera 12608. The camera 12608 may be a
+standard digital camera (i.e., cameras including CCD or
+CMOS sensors), stereoscopic camera, infrared image sen-
+sor, time of flight (TOF) camera, structured light camera,
+and an optical element like a lens 12612. The lens 12612
+may be a conformable variable focus liquid lens configured
+to adjust various optical parameters including lens shape,
+focal length, liquid materials, specularity, color, environ-
+ment, lens arrangement via for example, control signals
+received via the electrical power/control connections. In
+embodiments, the control connections may include electri-
+cal, hydraulic, pneumatic, mechanical, thermal or magnetic
+controls. The conformable liquid lens 12612 may include an
+auto-focus capability helping it to quickly adjust its focal
+length and enabling recognizing objects in dynamic envi-
+ronments like when the object 12606 or the MPR 12100 are
+moving; recognizing three dimensional (3D) objects by
+capturing depth data; recognizing tiny objects; recognizing
+objects in a power constrained or network constrained
+environment; and so on.
+The raw image data captured by the camera 12608 that
+maybeinvariousformsincludingRGB images,thermal
+images, point clouds is then transmitted to pre-processor
+12614 to perform data pre-processing including data trans-
+formations, filtering, de-noising, aggregation, artifact reduc-
+tion, compression, analog to digital conversion, preliminary

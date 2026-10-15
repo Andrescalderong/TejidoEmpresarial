@@ -1,0 +1,138 @@
+party data, edge devices 8042 that report data relating to 35 acquisition activity in an industry segment), or some other
+[col 1]
+US 12,314,060 B2
+235
+In embodiments, a CEO digital twin 8302 may be con-
+figured to store, aggregate, merge, analyze, prepare, report
+and distribute material relating to financial reporting, rat-
+ings, rankings, financial trend data, income data, or other
+data related to an executive's responsibilities. A CEO digital
+twin 8302 may link to, interact with, and be associated with
+external data sources, and able to upload, download, aggre-
+gate external data sources, including with the EMP's inter-
+nal data, and analyze such data, as described herein. Data
+analysis, machine learning, AI processing, and other analy- 10
+sis may be coordinated between the CEO digital twin 8302
+and an analytics team based at least in part on using the
+artificial intelligence services system 8010. This co0operation
+and interaction may include assisting with seeding execu-
+tive-related data elements and domains in the enterprise data 15
+store 8012 for use in modeling, machine learning, and AI
+processing to identify an optimal business strategy, or some
+other executive-relating metric or aspect, as well as identi-
+fication of the optimal data measurement parameters on
+which to base judgement of an executive initiative's success. 20
+Examples of data sources 8020 that may be connected to,
+associated with, and/or accessed from the CEO digital twin
+8302 may include, but are not limited to, the sensor system
+8022 having sensors that sensor data from facilities (e.g-,
+manufacturing facilities, shipping and logistics facilities, 25
+transportation facilities, agricultural facilities, resource
+extraction facilities, computing facilities, and many others)
+and/or other physical entities of the enterprise, the sales
+database 8024 that is updated with sales figures in real time,
+the CRM system 8026, the content marketing platform 8028, 301
+financial databases 8030, surveys 8032, org charts 8034,
+workflow management systems 8036, third-party data
+sources 8038, customer databases 8040 that store customer
+data, and/or third-party data sources 8038 that store third-
+physical assets (e.g., smart machinery/manufacturing equip-
+ment, sensor kits, autonomous vehicles of the enterprise,
+wearable devices, and the like), enterprise resource man-
+agement systems 8044, HR systems 8046, content manage-
+mentsystems8016,andthelike).Inembodiments,the 4o
+digital twin system 8004 abstracts the different views (or
+states) within the digital twin to the appropriate granularity.
+For instance, the digital twin system 8004 may have access
+to all the sensor data collected on behalf of the enterprise as
+well as access to real-time sensor data streams. Typically, 45
+such data is far too granular for an executive such as a CEO,
+and sensor data readings are often of little importance to the
+CEO unless associated with a mission critical state or
+operation. In this example, however, if the sensor readings
+from a particular physical asset (e.g., a critical piece of 50 s
+manufacturing equipment) are indicative of a potentially
+critical situation (e.g., failure state, dangerous condition, or
+the like), then the analytics that indicate the potentially
+critical situation may become very important to the CEO.
+Thus, the digital twin system 8004 may, when building the 55
+appropriate perspective for the CEO, include a state indica-
+tor of the physical asset in the CEO digital twin. In this way,
+the CEO can drill down into the state indicator of the
+physical asset to view the potentially critical situation at a
+greater granularity (e.g-, the machinery and an analysis of  60
+the sensor data used to identify the situation).
+In embodiments, a CEO digital twin 8302 may be con-
+figured to monitor an organization's performance based at
+least in part on real time operations data and the use of the
+monitoring agent of the client application 8052, as described 65
+herein, that is ass0ciated with the CEO digital twin 8302.
+The monitoring agent may report on such activities to the
+[col 2]
+236
+EMP 8000 for presentation in a user interface that is
+associated with the CEO digital twin 8302. In response, the
+EMP 8000 may train an executive agent (which may include
+one or more machine-learned models) to handle and process
+such notifications when they next arrive, and escalate and/or
+alert the CEO when such notifications are of an urgent
+nature, such as an announcement of an acquisition by a
+competitor, a report indicating an under-performing business
+unit, a high-profile press article, a radical change in the stock
+market (for the CEO's company, a cohort member, or the
+market as a whole), a downgrade in rating by an industry
+analyst, an external event likely to disrupt operations (such
+as a natural disaster or epidemic) or some other important
+event.In embodiments, the CEO digital twin 8302 may
+generate performance alerts based on real time operations
+data, performance trends, and the like. This may allow a
+CEO to optimize initiatives in real-time without having to
+manually request such real-time data; the CEO digital twin
+8302 may automatically present such information and
+related/necessary alerts as configured by the organization,
+CEO, or some other interested party.
+In embodiments, a CEO digital twin 8302 may be con-
+figured to report on the performance of the executive depart-
+ment, personnel of the executive department, executive
+activities, executive content, executive platforms, executive
+partners, or some other aspect of management within a
+CEO's responsibilities. Reporting may be to the CEO, the
+executive department, to other executives of an organization
+(e.g., the COO), or to outside third parties (e.g., partners,
+press releases, and the like). As described herein, reporting
+may include stakeholder summaries, minutes of meetings.
+presentations, sales data, customer data, financial perfor-
+mance metrics, personnel metrics, data regarding resource
+usage, industry summaries (e.g., summaries of merger and
+type of reporting data. Reporting and the content of report-
+ing may be shared by the CEO digital twin 8302 with other
+executive digital twins. The reporting functionality of the
+CEO digital twin 8302 may also be used for populating new
+or preset reporting formats, and the like. Templets of com-
+monreporting formats may be stored and associated with the
+CEO digital twin 8302 to automate the presentation of data
+and analytics according to pre-defined formats, styles and
+system requirements. In embodiments, an executive agent
+trained by the user may be trained to surface the most
+important reports to the user. For example, if the user (e.g.,
+the CEO) consistently views and follows up on sales data
+reports but routinely skips over reports relating to the
+manufacturing KPIs, the executive agent may automatically
+surface sales data reports to the user and may automatically
+delegate manufacturing KPIs to another executive digital
+twin (e.g., the COO digital twin).
+In embodiments, a CEO digital twin 8302 may be con-
+figured to monitor, store, aggregate, merge, analyze, prepare,
+report and distribute material relating to competitors of a
+CEO's organization, or named entities of interest. In
+embodiments, such data may be collected by the EMP 8000
+via data aggregation, spidering, web-scraping, or other tech-
+niques to search and collect competitor information from
+sources including, but not limited to, information on invest-
+ment and/or acquisitions, press releases, SEC or other finan-
+cial reports, or some other publicly available data. For
+example, a user wishing to monitor a certain competitor may
+request that the CEO digital twin 8302 provide materials
+relating tothe certain competitor.Inresponse, the EMP8000
+may identify a set of data sources that are either publicly
+available or to which the enterprise of the CEO has access

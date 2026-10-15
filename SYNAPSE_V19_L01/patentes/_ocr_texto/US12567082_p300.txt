@@ -1,0 +1,137 @@
+In many embodiments, an expert system or neural net- 35 may use a radial basis function (RBF) neural network, such
+[col 1]
+US 12,567,082 B2
+277
+ing neural networks, neocognition neural networks, dynamic
+neural networks, cascading neural networks, neuro-fuzzy
+neural networks, compositional pattern-producing neural
+networks, memory neural networks, hierarchical temporal
+memory neural networks, deep feed forward neural net-
+works, gated recurrent unit (GCU) neural networks, auto
+encoder neural networks, variational auto encoder neural
+networks, de-noising auto encoder neural networks, sparse
+auto-encoder neural networks, Markov chain neural net-
+works,restricted Boltzmann machine neural networks, deep 1o
+belief neural networks, deep convolutional neural networks,
+de-convolutional neural networks, deep convolutional
+inverse graphics neural networks, generative adversarial
+neural networks, liquid state machine neural networks,
+extreme learning machine neural networks, echo state neural 15
+networks, deep residual neural networks, support vector
+machine neural networks, neural Turing machine neural
+networks, and/or holographic associative memory neural
+networks, or hybrids or combinations of the foregoing, or
+combinations with other expert systems, such as rule-based 20
+systems, model-based systems (including ones based on
+physical models, statistical models, flow-based models, bio-
+logical models, biomimetic models, and the like).
+The foregoing neural networks may have a variety of
+nodes or neurons, which may perform a variety of functions
+on inputs, such as inputs received from sensors or other data
+sources, including other nodes. Functions may involve
+weights, features, feature vectors, and the like. Neurons may
+include perceptron, neurons that mimic biological functions
+(such as of the human senses of touch, vision, taste, hearing, 30
+and smell), and the like. Continuous neurons, such as with
+sigmoidal activation, may be used in the context of various
+forms of neural net, such as where back propagation is
+involved.
+work may be trained, such as by a human operator or
+supervisor, or based on a data set, model, or the like.
+Training may include presenting the neural network with
+one or more training data sets that represent values (includ-
+ing the many types described throughout this disclosure), as 40
+well as one or more indicators of an outcome, such as an
+outcome of a process, an outcome of a calculation, an
+outcome of an event, an outcome of an activity, or the like.
+Training may include training in optimization, such as
+training a neural network to optimize one or more systems 45
+based on one or more optimization approaches, such as
+Bayesian approaches, parametric Bayes classifier
+ approaches, k-nearest-neighbor classifier approaches, itera-
+tive approaches, interpolation approaches, Pareto optimiza-
+tion approaches, algorithmic approaches, and the like. Feed- 5o
+back may be provided in a process of variation and selection,
+such as with a genetic algorithm that evolves one or more
+solutions based on feedback through a series of rounds.
+In embodiments, a plurality of neural networks may be
+deployed in a cloud platform that receives data streams and 55
+other inputs collected (such as by mobile data collectors) in
+one or more environments and transmitted to the cloud
+platform over one or more networks, including using net-
+work coding to provide efficient transmission. In the cloud
+platform, optionally using massively parallel computational 60
+capability, a plurality of different neural networks of various
+types (including modular forms, structure-adaptive forms,
+hybrids, and the like) may be used to undertake prediction,
+classification, control functions, and provide other outputs as
+described in connection with expert systems disclosed 65
+throughout this disclosure. The different neural networks
+may be structured to compete with each other (optionally
+[col 2]
+278
+including use evolutionary algorithms, genetic algorithms,
+or the like), such that an appropriate type of neural network,
+with appropriate input sets, weights, node types and func-
+tions, and the like, may be selected, such as by an expert
+system, for a specific task involved in a given context,
+workflow, environment process, system, or the like.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+may use a feed forward neural network, which moves
+information in one direction, such as from a data input, like
+a source of data about an individual, through a series of
+neurons or nodes, to an output. Data may move from the
+input nodes to the output nodes, optionally passing through
+one or more hidden nodes, without loops. In embodiments,
+feed forward neural networks may be constructed with
+various types of units, such as binary McCulloch-Pitts
+neurons, the simplest of which is a perceptron.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+mayuse a radial basis function (RBF) neural network, which
+may be preferred in some situations involving interpolation
+in a multi-dimensional space (such as where interpolation is
+helpful in optimizing a multi-dimensional function, such as
+for optimizing a data marketplace as described here, opti-
+mizing the efficiency or output of a power generation
+system, a factory system, or the like, or other situation
+involving multiple dimensions. In embodiments, each neu-
+ron in the RBF neural network stores an example from a
+functioning of this neural network offers RBF the advantage
+of not typically suffering from problems with local minima
+or maxima.
+In embodiments, methods and systems described herein
+that involve an expert system or self-organization capability
+as one that employs a distance criterion with respect to a
+center (e.g, a Gaussian function). A radial basis function
+may be applied as a replacement for a hidden layer, such as
+a sigmoidal hidden layer transfer, in a multi-layer percep-
+tron.An RBF network may have two layers, such as where
+an input is mapped onto each RBF in a hidden layer. In
+embodiments, an output layer may comprise a linear com-
+bination of hidden layer values representing, for example, a
+mean predicted output. The output layer value may provide
+an output that may be the same as or similar to that of a
+regression model in statistics.In classification problems, the
+output layer may be a sigmoid function of a inear combi-
+nation of hidden layer values, representing a posterior prob-
+ability. Performance in both cases may be often improved by
+ shrinkage techniques, such as ridge regression in classical
+statistics. This corresponds to a prior belief in small param-
+eter values (and therefore smooth output functions) in a
+Bayesian framework.RBF networks may avoid local
+minima, because the only parameters that are adjusted in the
+learning process are the linear mapping from hidden layer to
+output layer. Linearity ensures that the error surface may be
+quadratic and therefore has a single minimum. In regression
+problems, this can be found in one matrix operation. In
+classification problems, the fixed non-linearity introduced
+by the sigmoid output function may be handled using an
+iteratively. Re-weighted least squares function or the like.
+In embodiments, RBF networks may use kernel methods
+such as support vector machines (SVM) and Gaussian
+processes (where the RBF may be the kernel function). A
+non-linear kernel function may be used to project the input
+data into a space where the learning problem can be solved
+using a linear model.

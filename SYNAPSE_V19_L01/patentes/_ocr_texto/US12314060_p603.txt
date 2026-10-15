@@ -1,0 +1,138 @@
+operating system from Microsoft Corporation, the MACOS 45 interface circuits. In some examples, the interface circuit(s)
+[col 1]
+US 12,314,060 B2
+841
+the claims, the term platform refers to one or more modules
+that offer a set of functions. In this application, including the
+claims, the term system may be used interchangeably with
+module or with the term special-purpose system.
+The special-purpose system may be directed or controlled
+by an operator. The special-purpose system may be hosted
+by one or more of assets owned by the operator, assets leased
+by the operator, and third-party assets. The assets may be
+referred to as a private, community, or hybrid cloud com-
+puting network or cloud computing environment. For 1o 
+example, the special-purpose system may be partially or
+fully hosted by a third party offering software as a service
+(SaaS), platform as a service (PaaS), and/or infrastructure as
+a service (laaS). The special-purpose system may be imple-
+mented using agile development and operations (DevOps)
+principles. In embodiments, some or all of the special-
+purpose system may be implemented in a multiple-environ-
+ment architecture. For example, the multiple environments
+may include one or more production environments, one or
+more integration environments, one ormore development 2o
+environments, etc.
+A special-purpose system may be partially or fully imple-
+mented using or by a mobile device. Examples of mobile
+devices include navigation devices, cell phones, smart
+phones, mobile phones, mobile personal digital assistants, 25 
+palmtops, netbooks, pagers, electronic book readers, tablets,
+music players, etc. A special-purpose system may be par-
+tially or fully implemented using or by a network device.
+Examples of network devices include switches, routers,
+firewalls,gateways,hubs,base stations,access points,30
+repeaters, head-ends, user equipment, cell sites, antennas,
+towers, etc.
+A special-purpose system may be partially or fully imple-
+mented using a computer having a variety of form factors
+and other characteristics. For example, the computer may be 35 I
+characterized as a personal computer, as a server, etc. The
+computer may be portable, as in the case of a laptop,
+netbook, etc. The computer may or may not have any output
+device, such as a monitor, line printer, liquid crystal display
+(LCD), light emitting diodes (LEDs), etc. The computermay
+or may not have any input device, such as a keyboard,
+mouse, touchpad, trackpad, computer vision system, bar-
+code scanner, button array, etc. The computer may run a
+general-purpose operating system, such as the WINDOWS
+operating system from Apple, Inc., or a variant of the
+LINUX operating system. Examples of servers include a file
+server, print server, domain server, internet server, intranet
+server, cloud server, infrastructure-as-a-service server, plat-
+form-as-a-service server, web server, secondary server, host 5o
+ server, distributed server, failover server, and backup server.
+The term hardware encompasses components such as
+processing hardware, storage hardware, networking hard-
+ware, and other general-purpose and special-purpose com-
+ponents. Note that these are not mutually-exclusive catego- 55
+ries. For example, processing hardware may integrate
+storage hardware and vice versa.
+Examples of a component are integrated circuits (ICs),
+application specific integrated circuit (ASICs), digital circuit
+elements, analog circuit elements, combinational logic cir- 60
+cuits, gate arrays such as field programmable gate arrays
+(FPGAs), digital signal processors (DSPs), complex pro-
+grammable logic devices (CPLDs), etc.
+Multiple components of the hardware may be integrated,
+such as on a single die, in a single package, or on a single 65
+printed circuit board or logic board. For example, multiple
+components of the hardware may be implemented as a
+[col 2]
+842
+system-on-chip. A component, or a set of integrated com-
+ponents, may be referred to as a chip, chipset, chiplet, or
+chip stack. Examples of a system-on-chip include a radio
+frequency (RF) system-on-chip, an artificial intelligence
+(AI) system-on-chip, a video processing system-on-chip, an
+organ-on-chip, a quantum algorithm system-on-chip, etc.
+The hardware may integrate and/or receive signals from
+sensors. The sensors may allow observation and measure-
+ment of conditions including temperature, pressure, wear,
+light, humidity, deformation, expansion, contraction, deflec-
+tion, bending, stress, strain, load-bearing, shrinkage, power,
+energy, mass, location, temperature, humidity, pressure,
+viscosity, liquid flow, chemical/gas presence, sound, and air
+quality. A sensor may include image and/or video capture in
+15 visible and/or non-visible (such as thermal) wavelengths,
+such as a charge-coupled device (CCD) or complementary
+metal-oxide semiconductor (CMOS) sensor.
+Examples of processing hardware include a central pro-
+cessing unit (CPU), a graphics processing unit (GPU), an
+approximate computing processor, a quantum computing
+processor, a parallel computing processor, a neural network
+processor, a signal processor, a digital processor, a data
+processor, an embedded processor, a microprocessor, and a
+co-processor. The co-processor may provide additional pro-
+cessing functions and/or optimizations, such as for speed or
+power consumption. Examples of a co-processor include a
+math co-processor, a graphics co-processor, a communica-
+tion co-processor, a video co-processor, and an artificial
+intelligence (Al) co-processor.
+The processor may enable execution of multiple threads.
+These multiple threads may correspond to different pro-
+grams. In various embodiments, a single program may be
+implemented as multiple threads by the programmer or may
+be decomposed into multiple threads by the processing
+hardware. The threads may be executed simultaneously to
+enhance the performance of the processor and to facilitate
+simultaneous operations of the application. A processor may
+be implemented as a packaged semiconductor die. The die
+includes one or more processing cores and may include
+additional functional blocks,such as cache. In various
+embodiments, the processor may be implemented by mul-
+tiple dies, which may be combined in a single package or
+packaged separately.
+The networking hardware may include one or more
+may implement wired or wireless interfaces that connect,
+directly or indirectly, to one or more networks. Examples of
+networks include a cellular network, a local area network
+(LAN), a wireless personal area network (WPAN), a met-
+ropolitan area network (MAN), and/or a wide area network
+(WAN). The networks may include one or more of point-
+to-point and mesh technologies. Data transmitted or
+received by the networking components may traverse the
+same or different networks. Networks may be connected to
+each other over a WAN or point-to-point leased lines using
+technologies such as Multiprotocol Label Switching
+(MPLS) and virtual private networks (VPNs).
+Examples of cellular networks include GSM, GPRS, 3G,
+4G, 5G, LTE, and EVDO. The cellular network may be
+implemented using frequency division multiple access
+(FDMA) network or code division multiple access (CDMA)
+network. Examples of a LAN are Institute of Electrical and
+Electronics Engineers (IEEE) Standard 802.11-2020 (also
+known as the WIFI wireless networking standard) and IEEE
+Standard 802.3-2018 (also known as the ETHERNET wired
+networking standard).Examples of a WPAN include IEEE
+Standard 802.15.4, including the ZIGBEE standard from the

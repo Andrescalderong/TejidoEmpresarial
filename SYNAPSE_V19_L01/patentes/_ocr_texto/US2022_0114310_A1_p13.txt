@@ -1,0 +1,126 @@
+[col 1]
+US2022/0114310A1
+existing digital representation of a second physical asset,
+with the first physical asset and the second physical asset
+being characterized by a common physical asset type; and v)
+initiating the digital representation of the first physical asset
+using the existing digital representation of the second physi-
+cal asset. The matching operation (iv) includes matching
+predicted weather data for the geographic location with
+weather data of the existing digital representation of the
+second physical asset.
+[0055] Some embodiments of the present invention may
+include one, or more, of the following operations, features.
+characteristics and/or advantages: (i) choosing the best digi-
+tal twin template to build upon, rather than adjusting the
+digital twin after operation; (ii) related to the initial creation
+of the twin; (ii) choosing the corresponding digital twin
+template or recommendation within the marketplace; (iv)
+operates within a marketplace setting such as the Digital
+Twin Exchange; (v) creates a solution during the initial
+proposal of a digital twin based on environmental factors;
+within a marketplace setting, in which a number of varia-
+tions within a digital twin are available and an end user can
+choose which one to purchase based on the ultimate oper-
+ating location of the equipment; (vi) once the digital twin
+template is chosen, the digital twin can evolve over time as
+that environment changes; (vii) providing a digital twin
+template to use as the starting point within a marketplace;
+and/or (ix) doing a comparison and pulling from weather
+data such as through APIs of a commercial weather data
+service provider, to determine similar operating environ-
+ments for those areas that haven't previously collected data
+to help recommend an initial set of digital twin template(s).
+[0056]Amethod according to an embodiment of the
+present invention performs the following operations (not
+necessarily in the following order): (i) physical asset is
+associated with a Digital Twin; (ii) monitoring conditions
+physical asset experiences; (i) generating an operating
+model to respond to the environmental impact with actions
+and maintenance performed; (iv) perform responsive actions
+on the physical asset based upon the recommendations/
+mandates of the operating model; (v) the Digital Twin
+associated with the physical asset is modified to reflect the
+responsive actions performed in the previous step; (vi)
+repeat the monitoring of location and environment stresses;
+(vi)many digital twins for similar assets areentered into the
+system; and (vi) using cognitive computing and machine
+learning, over time patterns are uncovered on which adjust-
+ments are made to the digital twin for various regions.
+[0057] In some embodiments, each digital twin includes
+the following types of digital resources: bill of materials,
+parts list, user manual(s), engineering manual(s), fault
+codes, computer aided design files, augmented reality/vir-
+tual-reality models, maintenance manuals, maintenance
+plans, operating model, remote procedures for a technician,
+stocking strategy, forecast model, building information
+models (BIM) and service manual.
+[0058]  In some embodiments the physical assets are loca-
+tionally tracked (for example, by a global positioning system
+(GPS), and, if it is determined that the first geographic asset
+has moved to a different operating environment, then a new
+base PAPDS (for example, base digital twin template) is
+suggested to replace the existing PAPDS for the re-located
+[col 2]
+Apr. 14, 2022
+physical asset. More specifically, this new base PAPDS is
+chosen to be suggested based upon between the following:
+(i) the new operating environment of the relocated physical
+asset, and (ii) the operating environments of the plurality of
+existing PAPDSs. Even more specifically, the new suggested
+base PAPDS is suggested based on environmental similarity
+(in relevant respects) between the new operating environ-
+ment of the relocated physical asset and the operating
+environments of environmentally similar existing PAPDSs.
+IV. Definitions
+[0059] Present invention: should not be taken as an abso-
+lute indication that the subject matter described by the term
+“"present invention" is covered by either the claims as they
+are filed, or by the claims that may eventually issue after
+patent prosecution; while the term “present invention" is
+used to help the reader to get a general feel for which
+disclosures herein are believed to potentially be new, this
+understanding, as indicated by use of the term “present
+invention," is tentative and provisional and subject to
+change over the course of patent prosecution as relevant
+information is developed and as the claims are potentially
+amended.
+[0060] Embodiment: see definition of"present invention"
+abovesimilar cautions apply to the term embodiment."
+[0061]and/or: inclusive or; for example, A, B“and/orC
+means that at least one of A or B or C is true and applicable.
+[0062]  Including/include/includes:unlessotherwise
+explicitly noted, means “including but not necessarily lim-
+ited to."
+[0063] Module/Sub-Module: any set of hardware, firm-
+ware and/or software that operatively works to do some kind
+of function, without regard to whether the module is: (i) in
+a single local proximity; (i) distributed over a wide area;
+(i) in a single proximity within a larger piece of software
+code; (iv) located within a single piece of software code; (v)
+located in a single storage device, memory or medium; (vi)
+mechanically connected; (vi) electrically connected; and/or
+(vii)connected in data communication.
+[0064] Computer: any device with significant data pro-
+cessing and/or machine readable instruction reading capa-
+bilities including, but not limited to: desktop computers,
+mainframe computers,laptop computers,field-program-
+mable gate array (FPGA) based devices, smart phones,
+personal digital assistants (PDAs), body-mounted or
+inserted computers, embedded device style computers,
+application-specific integrated circuit (ASIC)based devices.
+[0065]  Physical asset profile data set (PAPDS): any set of
+machine readable data that characterizes a physical asset,
+indicative of identity of the physical asset and its type (for
+example, id code 123 for a given fleet vehicle and an
+indication that this fleet vehicle is a four door passenger
+sedan manufactured in 2020), and (i) a set of digital
+resources used for operating and/or managing the physical
+asset in the“real world" (for example, *.pdf file correspond-
+ing to an owner's manual corresponding to fleet vehicle
+123); at least some "digital twins" (see definition, above, in
+the Background section) are PAPDS, but not all PAPDS
+What is claimed is:
+1. A computer implemented method (CIM) comprising:
+receiving a plurality of existing physical asset profile data
+sets (PAPDSs), with each existing PAPDS including

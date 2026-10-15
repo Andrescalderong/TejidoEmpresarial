@@ -1,0 +1,131 @@
+[col 1]
+US2022/0058569A1
+17
+ship management application, a search engine optimization
+application, a sales management application, an advertising
+network application, a behavioral tracking application, a
+marketing analytics application, a location-based product or
+service-targeting application, a collaborative filtering appli-
+cation, a recommendation engine for a product or service.
+[0090] In embodiments, the supply chain applications
+include at least two of a goods timing management appli-
+cation, a goods quantity management application, a logistics
+management application, a shipping application, a delivery
+application, an order for goods management application, and
+an order for components management application.
+[0091] In embodiments, an artificial intelligence system
+facilitates coordinated intelligence for the sets of applica-
+tions by processing data that is available in any of a plurality
+of data sources including processes, bill of materials,
+weather, traffic, design specification, customer complaint
+logs, customer reviews, Enterprise Resource Planning
+(ERP) System, Customer Relationship Management (CRM)
+System, Customer Experience Management (CEM) System,
+Service Lifecycle Management (SLM) System, Product
+Lifecycle Management (PLM) System.
+[0092] In embodiments, the set of adaptive intelligence
+systems are configured in a topology that facilitates shared
+adaptation capabilities among at least two adaptive intelli-
+gence systems in the set of adaptive intelligence systems. In
+embodiments, the set of adaptive intelligence systems
+employ artificial intelligence to provision available network
+resources for both the set of demand management applica-
+tions and for the set of supply chain applications. In embodi-
+ments, the set of demand management applications com-
+prises a demand planning application. In embodiments, the
+ligence to improve at least one of the list of outputs
+consisting of a process output, an application output, a
+process outcome and an application outcome.
+[0093] One path to distilling information is digital twin
+technology, which can present large amounts of data in a
+digestible format that represents salient characteristics of an
+item, often updated in real time or near real time as the twin
+is updated to reflect the current state based on a pipeline of
+data about a represented item. While this is helpful, current
+digital twin technology has its limitations due to the fact that
+different roles within an organization may require different
+information to draw their insights. For example, a CEO of an
+industrial facility makes decisions based on a "10,000 foot
+view" of the company. The CEO may review profit and loss
+(P&L) data, industry trends, and employee trends (e.g.,
+employee satisfaction or employee retention rates) to make
+overall decisions on behalf of the organization but does not
+necessarily need to see the granular data points to make
+decisions. In contrast, a different user, such as a CFO, may
+require more granular information, such as sales figures by
+region, marketing costs, maintenance costs, depreciation
+information, human capital costs, and costs of third-party
+vendors to draw her conclusions, but may not be as con-
+cerned with employee or industry trends. Similarly, a CTO
+may have no need for P&L data but may require an in-depth
+visualization of the processes within different manufacturing
+facilities to gain a better understanding of opportunities to
+improve process outcomes or to diagnose issues within
+processes, equipment or systems. Thus, a need exists for
+digital twins and other interfaces that are configured for
+particular roles.
+[col 2]
+Feb.24,2022
+[0094] As a further challenge, a given role may have
+varying needs based on context. For example, while the
+CEO might focus on higher-level data for many activities,
+such as strategic decision making or board communications,
+the same CEO may find more granular, micro-scale data
+useful for other activities, such as when an issue is escalated
+from a subdivision of the organization for input. Thus, a
+need exists for context-adaptive digital twins for each role,
+including ones that provide relevant displays and informa-
+tion of the right type at the right time for various situations
+and activities undertaken by the role.
+[0095]  More generally, ubiquitous connectivity and the
+proliferation of larger and larger data sets offers enterprise
+leaders opportunities for an unprecedented degree of aware-
+ness and control over enterprise assets and activities. A need
+and opportunity exist for an enterprise control tower by
+which executive leaders can, through various interfaces,
+including executive digital twins, dashboards, and similar
+systems, obtain timely information that is curated to invoke
+relevant awareness, support effective decisions and enable
+operational control.
+[0096] According to some embodiments of the present
+disclosure, an enterprise management platform is disclosed.
+In some embodiments, the enterprise management platform
+integrates a set of executive digital twins that take data from
+an intelligent data and networking pipeline to provide role-
+specific features, including Al-enabled expert agent features
+and enhanced collaboration features, and salient views ofthe
+entities and workflows of an enterprise, thereby enabling
+executives to monitor and control entities and workflows to
+an unprecedented degree at appropriate levels of granularity
+and using familiar taxonomies and decision-making frame-
+works.
+[0097]   Further provided herein are methods and systems
+for enterprise control towers by which executive leaders can,
+through various interfaces, including executive digital twins,
+dashboards, and similar systems, obtain timely information
+(often in real-time or near real-time) that is curated to invoke
+relevant awareness, support effective decisions and enable
+operational control. The present disclosure further relates to
+an executive control tower and enterprise management plat-
+form that is configured to provide and use a converged
+technology stack that includes intelligent sensing and data
+collection, curation and handling of data through various
+stages of a distributed storage, networking and connectivity
+pipeline (from a set of local operational environments
+through information technology networks to various distrib-
+uted on-premises and cloud computing environments), and
+deployment of various application-specific and general arti-
+ficial intelligence capabilities in order to enable executive
+control towers, including role-specific executive digital
+twins, that are used by executives in management of the
+value chain network operations of an enterprise.
+[0098]Inembodiments ofthe presentdisclosure, a method
+is provided for configuring role-based digital twins, com-
+more processors, an organizational definition of an enter-
+prise, wherein the organizational definition defines a set of
+roles within the enterprise; generating, by the processing
+system, an organizational digital twin of the enterprise based
+on the organizational definition, wherein the organizational
+digital twin is a digital representation of an organizational
+structure of the enterprise; determining, by the processing
+system, a set of relationships between different roles within

@@ -1,0 +1,138 @@
+In embodiments, an information technology system for 5o ligence system is configured to determine and generate a risk
+[col 1]
+US 12,277,524 B2
+25
+relating to a specific respective packaging design, wherein
+the machine learning system trains the machine-learned
+model based on training data sets that define features of
+packaging designs and outcomes of the packaging designs;
+an artificial intelligence system that receives a request for
+packaging design and determines a packaging design rec-
+ommendation based on the machine-learned model and the
+request; and a digital twin system that generates a package
+digital twin of a package that incorporates the packaging
+design recommendation, wherein the digital twin system: 10
+executes a packaging simulation based on the package
+digital twin; issues a packaging design request from the
+artificial intelligence system based on a state of the logistics
+simulation; and adjusts the state of the logistics simulation
+based on the packaging design recommendation output by
+the artificial intelligence system in response to the packaging
+design request.
+In embodiments, the digital twin system outputs a graphi-
+cal representation of the package digital twin to a display,
+whereby a user views the simulation via the display. In 20
+embodiments, the digital twin system outputs a graphical
+representation of the package digital twin in a graphical user
+interface, whereby a user edits the packaging design via the
+graphical user interface. In embodiments, the digital twin
+system outputs a simulation outcome of the simulation to the 25
+machine learning system, and the machine learning system
+reinforces the machine-learned model used to determine the
+packaging design recommendation based on the simulation
+outcome. In embodiments, the artificial intelligence system
+receives the request from a packaging design system that 3o
+designs packaging for physical objects, wherein the request
+includes one or more packaging factors corresponding to a
+proposed packaging design for the physical objects. In
+embodiments, the packaging factors include one or more of:
+a type of the physical objects, dimensions of the physical 35 i
+objects, masses of the physical objects, and shipping meth-
+ods of the physical objects. In embodiments, the packaging
+design system provides outcome data relating to the pack-
+aging design recommendation to the machine learning sys-
+tem, and the machine learning system reinforces the 40 
+machine-learned model that are used to determine the pack-
+aging design recommendation based on the outcome data. In
+embodiments, the artificial intelligence system determines
+the packaging design recommendation to minimize damage.
+In embodiments, the artificial intelligence system deter- 45
+mines thepackaging designrecommendation to minimize
+costs. In embodiments, the artificial intelligence system
+determines the packaging design recommendation to miti-
+ gate environmental impact.
+leveraging digital twins in a value chain having a plurality
+of value chain entities, the information technology system
+includes a plurality of sensors positioned at least one of in,
+on, and near a set of value chain entities of the value chain
+entities and configured to collect sensor data related to the 55
+set of value chain entities, the sensor data being substantially
+real-time sensor data; and an adaptive intelligence system
+connected to the plurality of sensors and configured to
+receive the sensor data from the plurality of sensors, the
+adaptive intelligence system including: an artificial intelli- 60
+gence system configured to input the sensor data into a
+machine learning model such that the sensor data is used as
+training data for the machine learning model, and the
+machine learning model is configured to transform the
+sensor data into simulation data; and a digital twin system 65
+configured to create a digital replica of the set of value chain
+entities based on the simulation data, wherein the digital
+[col 2]
+26
+replica of the value chain entities is configured to be used to
+provide a substantially real-time representation of the value
+chain entities and provide a simulation of a possible future
+state of the value chain entities via the simulation data.
+In embodiments, the machine learning model is config.
+ured to learn which types of sensor data are relevant to
+dynamics of each value chain entity of the value chain
+entities and simulation thereof. In embodiments, the
+machine learning model is configured to make suggestions
+to a user of the information technology system via an
+interface regarding potential changes to the plurality of
+sensors that would improve simulation of the value chain
+entities via the digital twin system. In embodiments, the
+machine learning model is configured to prioritize collection
+and transmission of sensor data that are relevant to dynamics
+of the value chain entities and simulation thereof.
+In embodiments, a value chain network management
+platform, includes a machine learning system that trains one
+or more machine-learned models to output one or more
+e-commerce recommendations to a value chain network
+customer via an interface using training data that includes
+product features and outcomes; and an artificial intelligence
+system that receives a request for e-commerce from an
+e-commerce system, wherein the artificial intelligence is
+configured to determine and generate an e-commerce rec-
+ommendation based on the one or more machine-learned
+models and the request, and the artificial intelligence is
+configured to leverage one or more product digital twins and
+one or more customer digital twins to execute a simulation
+based on the one or more customer digital twins, the one or
+more product digital twins, and the e-commerce recommen-
+dation.
+In embodiments, the machine learning system integrates
+with a model interpretability system, and wherein the model
+interpretability system is configured to implement Testing
+with Concept Activation Vectors (TCAV) functionality,
+whereby the model interpretability facilitates learning of
+human-interpretable concepts by the machine-learned
+model. In embodiments, the one or more machine-learned
+models are at least one of trained and retrained using
+simulation data from one or more simulations involving one
+or more customer profile digital twins.
+In embodiments, a value chain network management
+platform includes a machine learning system that trains one
+or more machine-learned models to output one or more risk
+management decisions using training data that includes
+component features and outcomes; and an artificial intelli-
+gence system that receives a request for risk management
+from a risk management system, wherein the artificial intel-
+management decision based on the one or more machine-
+learned models and the request, and the artificial intelligence
+system is configured to leverage one or more component
+digital twins and one or more environment digital twins to
+execute a simulation based on the one or more component
+digital twins, the one or more environment digital twins, and
+the risk management decision.
+In embodiments, the risk management decision relates to
+a condition of a component. In embodiments, the one or
+more machine-learned models are at least one of trained and
+retrained using simulation data from one or more simula-
+tions involving one or more components.
+In embodiments, an information technology system
+includes a value chain network management platform hav-
+ing an asset management application associated with mari-
+time assets, wherein the platform comprises a data handling
+layer including data sources containing information used to

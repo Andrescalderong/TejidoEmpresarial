@@ -1,0 +1,85 @@
+(12) Patent Application Publication (10) Pub. No.: US 2022/0036302 A1
+[col 1]
+(19) United States
+CELLA et al.
+(54) NETWORKANDDATAFACILITIESOF
+CONTROLTOWERANDENTERPRISE
+MANAGEMENTPLATFORMWITH
+ADAPTIVE INTELLIGENCE
+(71) Applicant: STRONG FORCE VCN
+PORTFOLIO2019,LLC,Fort
+Lauderdale, FL (US)
+Inventors: Charles Howard CELLA, Pembroke, (72)
+MA (US); Richard SPITZ, Fort
+Lauderdale, FL (US); Teymour S.
+EL-TAHRY, Birmingham, MI (US)
+(73) Assignee: STRONG FORCE VCN
+PORTFOLIO 2019,LLC,Fort
+Lauderdale, FL (US)
+Appl.No.: 17/461,037
+(21)
+(22) Filed: Aug. 30, 2021
+Related U.S. Application Data
+Continuation of application No. PCT/US2020/ (63)
+059227,filedonNov.5,2020.
+(60) Provisional application No.63/087,292, filed on Oct.
+4, 2020, provisional application No. 63/069,533, filed
+on Aug.24,2020, provisional application No.63/054,
+606, filed on Jul.21, 2020, provisional application
+No.63/016,976, filed on Apr.28, 2020,provisional
+102
+Point of Origin
+130 132
+-122
+Suppliers
+Warehousing
+Product
+Production
+HaulingFacilities
+180 Supply Environments
+138
+160
+[col 2]
+US20220036302A1
+Feb.3, 2022 (43) Pub. Date:
+application No. 62/969,153, filed on Feb. 3, 2020,
+provisional application No. 62/931,193, filed on Nov.
+5, 2019.
+Publication Classification
+Int. CI. (51)
+G06Q 10/08 (2006.01)
+G06F16/23 (2006.01)
+(52) U.S. C.
+CPC...
+G06Q10/0838(2013.01);G06Q10/0835
+(2013.01);G16Y40/10(2020.01);G06Q
+2220/10 (2013.01);G06F16/2315 (2019.01)
+ABSTRACT (57)
+A value chain system that provides recommendations for
+designing a logistics system generally includes a machine
+learning system that trains machine-learned models that
+output iogistics design recommendations based on training
+data sets that each respectively defines one ormore features
+ofa respective logistic system and an outcome relating to the
+respective logistics system, an artificial intelligence system
+that receives a request for a logistics system design recom-
+mendation and determines the logistics system design rec-
+ommendation based on one or more of the machine-learned
+models and the request; and a digital twin system that
+generates an environment digital twin of a logistics envi-
+ronment that incorporates the logistics system design rec-
+ommendation, and one or more physical asset digital twins
+of physical assets. The digital twin system executes a
+simulation based on the logistics environment digital twin,
+the one or more physical asset digital twins.
+104
+Destination
+114 112
+142~
+Customers
+Fufllment Delivery Systems
+Retailers
+Distribution Facilities
+154- Demand
+134 Environments
+170

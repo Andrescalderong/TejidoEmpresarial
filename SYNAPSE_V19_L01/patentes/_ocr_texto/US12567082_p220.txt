@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+117
+Each of the layers may perform one or more types of
+transformations, and one or more signals may pass through
+one or more of the layers one or more times. In some
+embodiments, the machine learning model 3000 may
+employ deep learning and being at least partially modeled
+and/or configured as a deep neural network, a deep belief
+network, a recurrent neural network, and/or a convolutional
+neural network, such as by being configured to include one
+or more hidden layers.
+In some embodiments, the machine learning model 3000
+may be and/or include a decision tree, e.g., a tree-based
+predictive model configured to identify one or more obser-
+vations and determine one or more conclusions based on an
+input. The observations may be modeled as one or more
+*branches" of the decision tree, and the conclusions may be 15
+modeled as one or more "leaves of the decision tree. In
+some embodiments, the decision tree may be a classification
+tree. the classification tree may include one or more leaves
+representing one or more class labels, and one or more
+branches representing one or more conjunctions of features 20
+configured to lead to the class labels. In some embodiments,
+the decision tree may be a regression tree. The regression
+tree may be configured such that one or more target variables
+may take continuous values.
+In some embodiments, the machine learning model 3000 25
+may be and/or include a support vector machine, e.g., a set
+of related supervised learning methods configured for use in
+one or both of classification and regression-based modeling
+of data. The support vector machine may be configured to
+predict whether a new example falls into one or more
+30
+categories, the one or more categories being configured
+during training of the support vector machine.
+In some embodiments, the machine learning model 3000
+may be configured to perform regression analysis to deter-
+mine and/or estimate a relationship between one or more 35
+inputs and one or more features of the one or more inputs.
+Regression analysis may include linear regression, wherein
+the machine learning model 3000 may calculate a single line
+to best fit input data according to one or more mathematical
+criteria. 40
+In embodiments, inputs to the machine learning model
+3000 (such as a regression model, Bayesian network, super-
+vised model, or other type of model) may be tested, such as
+by using a set of testing data that is independent from the
+data set used for the creation and/or training of the machine 45
+learning model, such as to test the impact of various inputs
+to the accuracy of the model 3000. For example, inputs to
+the regression model may be removed, including single
+inputs, pairs of inputs, triplets, and the like, to determine
+whether the absence of inputs creates a material degradation 50
+of the success of the model 3000. This may assist with
+recognition of inputs that are in fact correlated (e.g., are
+linear combinations of the same underlying data), that are
+overlapping, or the like. Comparison of model success may
+help select among alternative input data sets that provide 55
+similar information, such as to identify the inputs (among
+model, that provide the most impact on model effectiveness
+for the lowest cost, or the like. Thus, input variation and
+testing of the impact of input variation on model effective- 60
+ness may be used to prune or enhance model performance
+for any of the machine learning systems described through-
+out this disclosure.
+In some embodiments, the machine learning model 3000
+may be and/or include a Bayesian network. The Bayesian 65
+network may be a probabilistic graphical model configured
+to represent a set of random variables and conditional
+[col 2]
+118
+independence of the set of random variables. The Bayesian
+network may be configured to represent the random vari-
+ables and conditional independence via a directed acyclic
+graph. The Bayesian network may include one or both of a
+dynamic Bayesian network and an influence diagram.
+In some embodiments, the machine learning model 3000
+may be defined via supervised learning, i.e., one or more
+algorithms configured to build a mathematical model of a set
+of training data containing one or more inputs and desired
+ 10 outputs. The training data may consist of a set of training
+examples, each of the training examples having one or more
+inputs and desired outputs, i.e., a supervisory signal. Each of
+the training examples may be represented in the machine
+learning model 3000 by an array and/or a vector, i.e., a
+feature vector. The training data may be represented in the
+machine learning model 3000 by a matrix. The machine
+learning model 3000 may learn one or more functions via
+iterative optimization of an objective function, thereby
+learning to predict an output associated with new inputs.
+Once optimized, the objective function may provide the
+machine learning model 3000 with the ability to accurately
+determine an output for inputs other than inputs included in
+the training data. In some embodiments, the machine learn-
+ing model 3000 may be defined via one or more supervised
+learning algorithms such as active learning, statistical clas-
+sification, regression analysis, and similarity learning.
+Active learning may include interactively querying, by the
+machine learning model AILD102T, a user and/or an infor-
+mation source to label new data points with desired outputs.
+Statistical classification may include identifying, by the
+machine learning model 3000, to which a set of subcatego-
+ries, i.e., subpopulations, a new observation belongs based
+on a training set of data containing observations having
+known categories. Regression analysis may include estimat-
+ing, by the machine learning model 3000 relationships
+between a dependent variable, i.e., an outcome variable, and
+one or more independent variables, i.e., predictors, covari-
+ates, and/or features. Similarity learning may include learn-
+ing, by the machine learning model 3000, from examples
+using a similarity function, the similarity function being
+designed to measure how similar or related two objects are.
+In some embodiments, the machine learning model 3000
+may be defined via unsupervised learning, i.e., one or more
+algorithms configured to build a mathematical model of a set
+of data containing only inputs by finding structure in the data
+such as grouping or clustering of data points. In some
+embodiments, the machine learning model 3000 may learn
+from test data, i.e., training data, that has not been labeled,
+classified, or categorized. The unsupervised learning algo-
+rithm may include identifying, by the machine learning
+model 3000, commonalities in the training data and learning
+by reacting based on the presence or absence of the identi-
+fied commonalities in new pieces of data. In some embodi-
+ments, the machine learning model 3000 may generate one
+or more probability density functions. In some embodi-
+ments, the machine learning model 3000 may learn by
+performing cluster analysis, such as by assigning a set of
+observations into subsets, i.e., clusters, according to one or
+more predesignated criteria, such as according to a similarity
+metric of which internal compactness, separation, estimated
+density, and/or graph connectivity are factors.
+In some embodiments, the machine learning model 3000
+may be defined via semi-supervised learning, i.e., one or
+more algorithms using training data wherein some training
+examples may be missing training labels. The semi-super-
+vised learning may be weakly supervised learning, wherein
+the training labels may be noisy, limited, and/or imprecise.

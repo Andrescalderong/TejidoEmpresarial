@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+197
+tion resources, or other resources are provisioned to support
+or interact with operational entities, such as in virtual
+machine, container or other logical relationships). In
+embodiments, the converged view presented in the role-
+based digital twin may thus depict location-based and/or
+logical interconnections between operations and information
+technologies. In embodiments, alerts, such as indicating
+failure modes, congestion, delays, interruptions in service,
+poor latency, diminished quality of service, bandwidth con-
+straints, poor performance on key performance indicators,
+downtime, or other issues may be provided as augmenta-
+tions or overlays of the converged information technology
+and operations digital twin, so that the COO, CTO, CIO or
+other user may see interconnections between information 15
+technology entities and operational entities that may be
+contributing to problems. Other types of issues that may be
+to existing conditions and/or forecasts or predictions of such
+conditions, such as by analytic systems or forecasting arti- 20:
+ficial intelligence systems, such as expert agents trained to
+make such forecasts. In an example, if high latency in a
+control system for a warehouse is slowing down the process
+of picking and packing goods due to a related edge compu-
+tational node experiencing congestion on an input data path, 25
+the user of the role-based digital twin may be alerted to the
+congestion, and a recommendation may be presented to
+augment, update, upgrade, or replace either the system
+providing connectivity to the edge node or the edge node 30
+itself. Thus, a converged digital twin of operations technol-
+ogy entities and information technology entities may pro-
+vide for insight into how an executive may adjust operations
+and/or information technology to improve results and/or
+avoid anticipated problems before they become catastrophic 35
+failures.
+In embodiments, a user (e.g., an on-boarding user) may
+connect one or more data sources 8020 to the EMP 8000.
+Examples of data sources 8020 that may be connected to the
+EMPmay include, but are not limited to, a sensor system 40
+8022 (e.g., a set of IoT sensors), a sales database 8024 that
+is updated with sales figures in real time, a customer
+relationship management (CRM) system 8026, a content
+marketing platform 8028, news websites 8048, a financial
+database 8030 that tracks costs ofthe business, surveys 8032 45
+(e.g., customer satisfaction and/or employee satisfaction
+surveys), an org chart 8034, a workflow management system
+8036, customer databases 1S40 that store customer data,
+external data feeds (such as news feeds, public relations
+feeds, weather feeds, trade data, pricing data, market data, 50 
+and the like), data obtained by spidering, webscraping, or
+otherwise parsing website and social media sites, data
+obtained by crowdsourcing, and/or data from many and
+various third-party data sources 8038 that store third-party
+data. The data sources 8020 may include additional or
+alternative data sources without departing from the scope of
+the disclosure. Once the user has defined the configuration
+of each respective executive digital twin, where the con-
+figuration includes the selected states to be depicted (which
+may include entities, relationships, and characteristics), the 60
+features that are to be enabled, and/or the desired granularity
+of each state, the user may then define the data sources 8020
+that are fed into the respective executive digital twin,
+including any of the data sources in the data pipeline
+described above. In some embodiments, data from one or 65
+more of the data sources may be fused and/or analyzed
+before being fed into a respective digital twin.
+[col 2]
+198
+In some embodiments, the on-boarding user may select
+supported for the enterprise, including environment digital
+twins, information technology digital twins, operations digi-
+tal twins, organizational digital twins, supply chain digital
+twins, product digital twins, facility digital twins, customer
+digital twins, cohort digital twins and/or process digital
+twins, among others. In some of these embodiments, the user
+may define the data sources used to generate these digital
+twins and to update the enterprise digital twins. In embodi-
+ments, the user may define any physical locations that will
+be represented as an environment digital twin (which may be
+a digital twin of a facility or other suitable environments).
+For example, the user may define manufacturing facilities
+(e.g., factories), shipping facilities, warehouses, office build-
+ings, and the like. Each facility may be given a location
+(which may include a logical and/or virtual location and/or
+a geo-location) and an identifier, such as a name and type
+description. In embodiments, the enterprise configuration
+ system 8002 may assign an identifier to each facility and
+may associate the location of the facility with the identifier.
+In embodiments, the user may define the types of objects
+that are included in the environment and/or may be found
+within an environment. For example, the user may define the
+types of enterprise resources (e.g., factory, warehouse, or
+conveyors, vehicles, robots, high-lows, and the like, IT
+systems, workers, and many others) that are in the environ-
+ment, the types of products, materials and components that
+are made in, stored in, moved around, assembled, used as
+inputs within, produced in, sold from, and/or received in the
+environment, the types of sensors/sensor kits and/or data
+collection, storage and/or processing devices that are used in
+the environment, the workers and workflows involved, and
+the like. Examples of how environment and process digital
+twins are generated and updated may be found in the U.S.
+Provisional Application No. 62/931,193, filed Nov. 5, 2019,
+entitled Methods and Systems of Value Chain Network
+Management Platform and U.S. Provisional Application No.
+62/969,153, filed Feb.3, 2020, entitled Methods and Sys-
+tems of Value Chain Network Management Platform, the
+contents of which are herein incorporated by reference.
+In embodiments, the enterprise configuration system 8002
+(in combination with the digital twin system 8004) is
+configured to generate organizational digital twins that rep-
+resent an organizational structure of an enterprise. In some
+embodiments, the organizational digital twin may depict
+individuals/roles occupying the management and expert
+levels of an enterprise. Alternatively,the organizational
+digital twin may include a workforce digital twin that
+represents the entire workforce of an enterprise, including all
+the employees and/or contractors of the enterprise, or a
+defined part thereof. For example, in an enterprise setting.
+workforces may include a logistics workforce, a warehouse
+workforce, a distribution workforce, a reverse logistics
+workforce, a delivery workforce, a factory operations work-
+force, a plant operations workforce, a resource extraction
+operations workforce, a network operations workforce (e.g..
+for operating internal networks of an industrial enterprise),
+a sales workforce, a marketing workforce, an advertising
+workforce, a retail workforce, an R&D workforce, a tech-
+nology workforce, an engineering workforce, and/or the
+like. In another example, with respect to a value chain
+network, workforces may include a supply chain manage-
+ment workforce, a logistics planning workforce, a vendor
+management workforce, and the like. In another example, in
+the context of a marketplace setting, workforces may include

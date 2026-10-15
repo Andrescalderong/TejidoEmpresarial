@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+719
+the ability for localized edge systems to have seamless
+access to their required data, even in periods of sporadic
+network connectivity. In embodiments, the query execution
+module 20308 may reject a query when sufficient data for
+answering the query is not obtainable by the edge device
+20120.Additionally or alternatively, in some embodiments
+the query execution module 20308 may determine that at
+storage 20122, that at least part of the query may be satisfied
+using models on a dynamic ledger 20150, and/or the like, 10
+may generate a query plan for responding to the query,
+and/or may execute the query plan. For example, if a query
+comprises an expression with two types of data, the query
+execution module 20308 may generate a query plan for
+15
+types of data or approximations thereof. Continuing the
+example, if the query comprises an expression like SUM
+(valuel)/AVERAGE(value2), the query execution module
+20308 might determine that the SUM(valuel) query com-
+ponent may be obtained from edge storage 20122, and the 20
+AVERAGE(value2) query component may be obtained
+using a probability distribution model 20260. The query
+execution module 20308 may thus generate a query plan for
+obtaining the necessary data and approximations and esti-
+mating the value of the expression. In embodiments, the 25
+query results may include a confidence factor relating to the
+accuracy of the result dataset.
+In embodiments, an edge device 20120 includes an edge
+storage module 20310 for interfacing with edge storage
+20122 in order to cause inserts, updates, deletes, joins, 30 
+selects, and/or other query language operations/statements.
+In embodiments, the edge storage module 20310 may handle
+the automatic sharding of data across nodes (e.g., edge
+devices 20120) in a particular edge cluster. Edge sharding
+may optimize query performance for both edge aggregate 35
+queries and filtered queries with logic predicates. The dis-
+tributed database system thus allows scaling by adding more
+edge devices, increasing capacity and performance linearly.
+Edge storage architecture allows for scaling out the edge
+services horizontally based on demand. Various different 40
+architectures may be used to achieve optimized execution
+and user experience in different implementations with dif-
+ferent target workloads, as described in more detail below.
+The edge storage module 20310 may implement, for
+example, one or more SQL functions with additional func- 45
+tionality provided by DML and/or DDL extensions in order
+to cause the edge device 20120A to implement EDQL. In
+embodiments, the edge storage module 20310 may use one
+or more reference tables to allow the edge device 20120 to
+operate even when certain data tables are not stored in the 50
+edge storage 20122, as discussed elsewhere herein.
+FIG. 168B illustrates modular components of an example
+aggregator 20140A. In embodiments, each aggregator may
+have the illustrated modules and/or other modules, which
+may be implemented as microservices running on the aggre- 55
+gator 20140A. Additionally or alternatively, different aggre-
+gators 20140 can have different modules. For example,
+various aggregators 20140 may coordinate to cause different
+modules to be distributed to different aggregators 20140 in
+order to dynamically handle different loads at different parts 60
+of a network. Accordingly, the illustrated modules are
+example modules that may not be replicated and/or used on
+every aggregator 20140. Additionally or alternatively, even
+if the modules are replicated across every aggregator, they
+may be switched on or off dynamically (e.g-, such that
+different aggregators may perform different roles) and the
+like.
+[col 2]
+720
+In embodiments, an aggregator 20140 includes an API
+module 20352 for receiving queries (e.g., from query
+devices 20110) and routing the received queries to other
+modules for processing, transmitting instructions to edge
+devices 20120, receiving data (e.g-, data for storage on the
+dynamic ledger 20150) from edge devices 20120 and rout-
+ing the data to other modules for processing, and/or other-
+wise interfacing between the other modules of the aggrega-
+tor 20140 and/or other devices. As shown in the figure, the
+API module 20352may bein communicationwith query
+devices 20110 (e.g., for receiving queries and transmitting
+query responses) and edge devices 20120.
+In embodiments, an aggregator 20140 includes an edge
+data management module 20354 for finding the location of
+edge data (e.g-, which edge device 20120 have data and/or
+which do not), for determining which edge devices should
+store data (e.g., using shard algorithms, edge data location
+data 20256, or other data to determine where to store data),
+for determining where redundant data should be stored (e.g.,
+based on query prediction models 20262), and for transmit-
+ting data and/or instructions that cause data to be stored at
+the appropriate edge devices in order to optimize the system,
+enable edge devices to efficiently respond to queries, and/or
+the like. In embodiments, the edge data management module
+20354 may use shard algorithms that indicate a particular
+edge device that does (or should) store data.
+In embodiments, the edge storage module 20310 may
+handle the automatic sharding of data across nodes (e.g.,
+edge devices 20120) in a particular edge cluster. Edge
+sharding may optimize query performance for both edge
+aggregate queries and filtered queries with logic predicates.
+The distributed database system thus allows scaling by
+adding more edge devices, increasing capacity and perfor-
+mance linearly. Edge storage architecture allows for scaling
+out the edge services horizontally based on demand. Various
+different architectures may be used to achieve optimized
+execution and user experience in different implementations
+with different target workloads, as described in more detail
+below.
+In embodiments, the edge data management module
+20354 may use various types of shard algorithms. For
+example, the edge data management module 20354 may use
+a distributed logical shard algorithm (e.g. an algorithm that
+is distributed within an edge cluster and is based on a set of
+logical rules, such as column values), where a particular
+aggregator 20140 may have a certain set of edge data
+location data 20256 that provides the logical rules for edges
+"nearby" (e.g., in a same local network or other logical
+portion of the network) the aggregator in the network.
+Additionally or alternatively, the edge data management
+module 20354 may use a local neural network (e.g., where
+the shard algorithm is local to a specific cluster or is based
+on a neural network). Additionally or alternatively, the edge
+data management module 20354 may use a local genetic
+network (e.g+, a shard algorithm that is local to a specific
+cluster and is based on a genetic algorithm network).
+In embodiments, the edge data management module
+20354 may use query prediction models 20262 and/or query
+logs stored in edge storage and/or the dynamic ledger to
+detect whether queries are being efficiently handled (e.g.,
+whether edge devices have sufficient data to respond to
+queries, whether responses use sufficient data to provide an
+approximation of sufficient accuracy, etc.). In embodiments,
+the edge data management module 20354 may thus continu-
+65 ously (e.g., constantly, periodically) review the past and
+predicted performance of the edge devices and cause modi-
+fications to the distribution of edge data throughout the

@@ -1,0 +1,136 @@
+[col 1]
+US 12,314,060 B2
+755
+21200) can access/utilize. Here, this type of global configu-
+ration may be advantageous, depending on the deployment
+of the control architecture 21000, because data storage and
+data processing functionality is shared among systems.
+Meaning that, data format compatibility or other data com-
+pliance related aspects are potentially addressed on the
+front-end (e.g., designed for compatibility).
+In some implementations, generating the set of at least
+one CSS may include utilizing 17414 an output of the
+primary computing device as an input to generate one or 10
+more control parameters. The CSS for an SOS functions to
+configure the set of systems corresponding to the SOS to
+perform a set of tasks or services based on intelligence
+determined by the CSS. The intelligence performed for the
+CSSs is generally determined by a configured intelligence 15
+system CIS that is a part of (e.g., as shown in FIG. 177A) or
+associated with the CSSs. More particularly, the configured
+intelligence service CIS used by the CSS has the intelligence
+capabilities of or that are similar to the intelligence services
+system 8800 except that the configured intelligence system 20
+CIS is an intelligence services system that is configured, for
+example, by the CSS to provide intelligence for a particular
+set of system services. In this respect, the CsSs may act akin
+to the intelligence service client 8836 in its relationship with
+the configured intelligence system CIS. For instance, if the
+production of a product, the intelligence of the CSS identi-
+fies system resources that (e.g-, a set of systems) are avail-
+able (e.g-, within the enterprise ecosystem) to control pro-
+duction of the product and configures these control-based 30
+resources to generate control parameters that downstream
+production resources demand to produce the product. To
+extend this example to FIG. 175A, the primary system
+21100 generates an output that is provided to the secondary
+system 22000 as a system input 21202. If the CSS1 gener-
+ates control parameters, these control parameters may be fed
+as output of the primary system 21100 to the secondary
+system 21200 as system inputs 21202. The secondary sys-
+tem 21200 may then utilize the system inputs 21202 to
+configure its own CSS (e.g, the CSS2). 40
+In some implementations, VCN process 10 may (e.g-, via
+the set of secondary computing devices) fulfill 17408 the
+primary command based upon, at least in part, the set of one
+or more computing devices fulfilling the one or more
+secondary commands. For instance, FIG. 175B is similar to 45
+FIG. 175A except that FIG. 175B illustrates multiple sec-
+system 21100. That is, multiple SOS instances may be
+coordinated via a single control tower SOS instance. The
+number of secondary systems 21200 associated with a 50
+ several variables. Some of these variables may include, e.g..
+the selected set of systems to fulfill a service/task request,
+the type of systems selected, the configurable parameters of
+the selected systems, the communication capabilities of the 55
+selected systems, the manner in which the systems may be
+combined or cooperate, and the structure or characteristics
+of the enterprise deploying the control architecture 21000.
+In some configurations, the set of systems selected to
+fulfill a service/task request (e.g, a request for a primary
+60
+task) includes one or more third-party systems that the
+enterprise can access or utilize. For instance, for autono-
+mous generation of a product, the primary system 21100
+may inquire about demand for the product using a customer
+relations management (CRM) system managed by a third 65
+party. Here, the primary system 21100 or a secondary system
+21200 may provide the CRM system with data that charac-
+[col 2]
+756
+terizes the product to be generated in order to query the
+CRM system to determine an estimated demand forecast
+from customers who have an interest in the type of product
+that has been characterized. In some implementations, the
+CRM system returns an output (e.g, a forecasted demand)
+based on the input data that is then configured to inform or
+be communication to one or more other systems. Therefore,
+when third-party systems are integrated in the configured
+systems workflow of the control architecture 21000, the
+SOS can determine acceptable inputs to these third-party
+systems and expected/anticipated outputs so that outputs can
+be pipeline data to the appropriate CSS.
+In some implementations, VCN process 10 may send
+17410 a generated system output to the primary computing
+device responding to the primary command based upon, at
+least in part, the set of one or more computing devices
+fulfilling the one or more secondary commands. For
+instance, and to expand on the previous example using FIG.
+175B for example purposes only, when the set of systems
+that fulfill the request are parsed or classified into n groups,
+the primary system 21100 assigns the first group to the first
+secondary system 21200a, the second group to the second
+secondary system 21200b, and the nth group to the nth
+secondary system 21200n. Here, outputs from the primary
+system 21100 may be provided to any or all of the secondary
+systems 21200a-n to form the system inputs 21200a-n for
+the secondary systems 21200. Much like the single second-
+ary system example of FIG. 175A, each secondary system
+21200 is capable of generating system outputs 21204a-n that
+are communicated to or obtained by the primary system
+21100. Although not shown, each of these secondary sys-
+tems 21200, as SOS instances, may include CSSs and/or
+GSSs. Therefore, each secondary system 21200 generates a
+set of CsSs for the set of systems that are assigned to it.
+In some implementations, an SOS has the capabilities to
+interface with entities or resources that are external to the
+SOS. For instance, FIGS. 175A and 175B illustrate the
+primary system 21100 as the control tower receiving exter-
+nal data inputs/outputs (I/O) 21050. Some examples of
+external data I/Os 21050 include asset indicators (e.g., asset
+statuses, asset locations, asset time of life, etc.), market data
+(e.g., for markets impacted/associated with an enterprise
+asset), weather data, sensor data (e.g., from robotic fleet
+management, IoT, digital twin, environmental container
+conditions such as temperature, humidity or light intensity,
+etc.), enterprise resource planning (ERP) data,network data
+(e.g., connectivity data), event data (e.g., holidays, event
+logs, cycle time, running time, etc.), local media, social
+media, geospatial data, economic data (e.g., inflation rates,
+unemployment rates, exchange rates, stock prices, investor
+sentiment data), web analytics (e.g., website trafic, search
+engine trends, website interaction behaviors), supplier per-
+formance data (e.g., supplier reputation and performance
+data and trends, supplier lead times, supplier quality), logis-
+tics and shipping data (e.g, freight rates, carrier perfor-
+mance, shipping route data), national/global news media
+(e.g. worker strikes, labor shortages, natural disasters, geo-
+political instability). In some examples, the external data I/O
+21050 is provided by another control tower SOS.Addition-
+ally and/or alternatively, the external data I/0 21050 may be
+in the control architecture 21000 such as a software as a
+service (SaaS) provider to the enterprise.
+In some implementations, the primary computing device
+(e.g., via VCN process 10) may be bypassed 17424 to
+receive external data at the secondary computing device
+when the external data is unused by the primary computing

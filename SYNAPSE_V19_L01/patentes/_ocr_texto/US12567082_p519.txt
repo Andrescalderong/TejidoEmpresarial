@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+715
+FIG.167B illustrates details of example data stored in the
+dynamic ledger 20150, which may be implemented and/or
+devices/aggregators 20130. The aggregators 20140 and/or
+edge devices/aggregators 20130 may be connected to vari-
+ous edge devices 20120, each with their own edge storage
+20122 and associated sensors 20202 and/or other data
+ sources 20204. In embodiments, the edge devices/aggrega-
+tors 20130 may further include and/or communicate with
+ sensors, data sources, and edge storage (e.g., edge device/
+aggregator 20130A may communicate with sensors 20202C,
+data sources 20204C, and edge storage 20122C), thus acting
+as an edge device 20120 as described above for FIG. 167A.
+In embodiments, the dynamic ledger 20150 may include
+various data for responding to queries and optimizing the 15
+functionality of the distributed database. In embodiments,
+the dynamic ledger may be configured to allow the distrib-
+uted database to leverage the massive storage, processing
+power and memory of the edge devices to process queries
+without having to transmit large quantities of data. The 20
+dynamic ledger may allow for probabilistic views of the data
+to be stored in a centralized manner, allowing centralized
+queries without the need for large data streams. These
+probabilistic views of data may include a probability distri-
+bution of the data and/or data outliers, both of which may be 25
+stored on a dynamic ledger. By combining communication
+and management to handle these two kinds of data, the edge
+devices and/or aggregators can provide accurate query
+results without having to transmit fine grained data centrally
+(although fine-grained queries may be executed at the edge 30 l
+node).
+In embodiments, the dynamic ledger 20150 may contain
+"higher grain" data than the data stored in edge storage, and
+thus may contain sensor summary data 20252 and/or data
+data 20252 may include averages of sensor values by region,
+by time, or by some other variable, maximums and/or
+minimums by region, time, or some other variable, distri-
+bution data, and/or other such data that may be used to
+approximate or provide at least partial responses to queries 40
+without requiring network requests to be sent to a large
+number of edge devices. An example of using summary data
+to respond to query is provided in more detail below.
+In embodiments, the dynamic ledger 20150 may include
+edge data location data 20256, which may indicate where 45
+various data may be found in edge storage across the
+distributed network. Edge data location data 20256 may
+indicate, for example, that data for a particular sensor/data
+source or set of sensors/data sources is stored at a particular
+edge device, that particular types of data are stored at 50 
+particular sets of edge devices, that data associated with
+particular locations is stored at particular edge devices or
+sets of edge devices, and/or the like. Additionally or alter-
+natively, the edge data location data 20256 may include data
+used by various shard algorithms, which may be used to 55
+identify a particular edge device that stores or should store
+(e.g., for an insert operation) a data value or set of data
+values.
+In embodiments, the dynamic ledger 20150 may include
+edge device role data 20258, which may indicate various 60
+roles that edge devices may take in the distributed database.
+In some embodiments, each of the edge devices may take a
+uniform role. However, using uniform roles may create a
+situation in which each device must communicate with
+many other devices in the distributed database to obtain 65
+sufficient metadata for cluster operation. Additionally or
+alternatively, in some embodiments various devices may
+[col 2]
+716
+take on various roles, such as in distributed databases with
+localized needs-based devices, where devices may perform
+in one role out of two or more. For example, devices in a first
+role may be responsible for collecting, managing, and/or
+maintaining one type of data, whereas devices in a second
+role may be similarly responsible for a second type of data.
+This role-based approach may bring the advantage that
+metadata management may be isolated to only nodes in a
+particular role. Thus, for example, a distributed database
+may use many different kinds of edge devices based on the
+nature and type of operations being performed by the edge
+devices.
+In embodiments, the dynamic ledger 20150 may include
+probability distribution models 20260, which may be used to
+provide approximate answers to queries or partial queries.
+For example, a probability distribution models may indicate
+means/medians/modes (e.g., overall, for a particular region,
+for a particular time frame, etc.), standard distributions,
+frequency distributions matrices, maximums, minimums,
+outlier values, etc.for various sensors, sensor types, regions,
+etc. The probability distribution models 20260 may enable
+for example, an average sensor reading for a region without
+requiring network communications with most or all of the
+edge devices in the region. In embodiments, the probability
+distribution models 20260 may be implemented as, for
+example, trained neural networks or other machine learning
+models that may be trained to predict values (e.g., average
+sensor readings for a particular time of day) based on
+historical data stored in the distributed database. The prob-
+ability distribution models 20260 may be determined/
+trained/etc. by the edge devices 20120, edge device/aggre-
+gators 20130, and/or aggregators 20140.
+In embodiments, the dynamic ledger 20150 may include
+query prediction models 20262, which may be used to
+predict future queries for an upcoming time period, deter-
+mine the most common future query, etc. The query predic-
+tion models 20262 may be implemented as, for example,
+trained neural networks or other machine learning models
+that may be trained to predict future queries based on
+historical query data (which may be stored as query logs
+20218 in edge storage 20122 or query logs 20266 stored in
+the dynamic ledger 20150). The query prediction models
+20262 may be trained by the edge devices 20120, edge
+device/aggregators 20130, and/or aggregators 20140. The
+query prediction models may be used to prepare summary
+data and/or update distribution models in advance so that the
+dynamic ledger 20150 stores the most relevant data for
+optimizing the operation of the distributed database, as
+described in more detail below with respect to FIG. 169D.
+In embodiments, the dynamic ledger 20150 may include
+reference tables 20264, which may be identical or distinct
+from the reference tables 20216 stored in the edge storage
+20122. Additionally or alternatively, the dynamic ledger
+20150 may include query logs 20266, which may include
+data taken from various query logs stored in edge storage
+(e.g., a first set of queries from query logs 20218A, a second
+set of queries from query logs 20218B, etc.).
+In embodiments, the dynamic ledger 20150 may include
+pending data requests 20268, which may include pending
+queries or other data requests that may be monitored by edge
+devices in order to respond with requested data. In embodi-
+ments,althoughthesummarydata 20252,20254and/or
+probability distribution models 20260 may enable responses
+(e.g., approximate responses)to some queries, for other
+queries data may need to be retrieved from edge devices.
+Additionally or alternatively, summary data 20252, 20254

@@ -1,0 +1,137 @@
+described herein. In general, the components of the chip 55 ment), retrieving a stored environment digital twin, and/or
+[col 1]
+US 12,567,082 B2
+317
+herein. The chip 9100 may be used by any value chain entity
+that leverages mobile systems. In embodiments, the chip(s)
+9100 may use artificial intelligence (AI) and other tech-
+niques to determine the physical orientation of a mobile
+system. As described herein, the chip(s) 9100 may receive
+one or more inputs 9192 from a mobile system and perform
+one or more AI-assisted functions to determine the physical
+orientation of the mobile system. The chip(s) 9100 may then
+transmit outputs 9194 indicating the determined physical
+orientation. The chip(s) 9100 may be part of a mobile system 10
+(e.g., a robot), and/or may be part of a different device (e.g..
+a base station in communication with the robot) that receives
+inputs 9192 from the mobile system. A mobile system may
+include any system that is mobile and/or that has one or
+more mobile components as described herein.
+The physical orientation(s) determined by the chip(s)
+9100 may be relative to any real reference point/frame (e.g..
+the solar system, GPS coordinates, coordinates within
+another system, etc.) or simulated reference point/frame
+(e.g.,coordinateswithan environmentdigital twin orother 2o
+virtual space). In embodiments, the physical orientation may
+include a location, a rotation/heading (e.g., a direction the
+mobile system is facing towards and/or angle at which the
+mobile system is rotated), a tilt (e.g., an amount the mobile
+system is leaning in one or more directions), velocity, and/or 25
+acceleration, each of which may be relative to any real or
+simulated point/frame. Accordingly, the output(s) 9194 may
+comprise one or more data structures indicating the various
+orientation information.
+In embodiments, the chip(s) 9100 may determine and/or 30
+output the orientation of the entire mobile system. Addition-
+ally or alternatively, the chip(s) 9100 may determine and/or
+output the orientation of one or more components (e.g.,
+limbs, wheels, instruments, appendages, or other compo-
+nents) of the mobile system. 35
+In embodiments, the chip(s) 9100 can be modular com-
+ponent(s) that may be integrated with the mobile system in
+various ways. As stated above, the chip(s) may be integrated
+with a mobile system and/or integrated with a system in
+communication with the mobile system.To facilitatethis 40
+modularity, the chip(s) 9100 may be provided partially or
+completely within a housing (not shown) and may receive
+the inputs 9192 and/or provide the outputs 9194 via elec-
+trical connectors, optical connectors, and/or wireless con-
+nectors (e.g., antennae, inductive coils, etc.). Additionally or 45
+alternatively, the chip(s) 9100 may be integrated with other
+circuits, processors, systems, etc., either on one or multiple
+substrates/chips.
+The chip(s) 9100 may be and/or include one or more
+system-on-chips (SOCs), integrated circuits (ICs), applica- 50
+tion-specific integrated circuits (ASICs), and/or the like, for
+providing the functionality attributed to chip 9100 and/or
+any other functionality. For example, the chip 9100 may be
+provided as part of a SOC that also provides other functions
+chips that are configured using software instructions or other
+code, and/or may comprise special-purpose processing chips
+(e.g., ASICs) customized to perform the functions described
+herein. 60
+Multiple chip(s) 9100 may be used to perform the func-
+tions described herein. For example, multiple chip(s) 9100
+may use serial, parallel, and/or other processing techniques
+to determine physical orientation data more quickly, to
+determine physical orientation data more efficiently by off- 65
+loading more complex computations from one chip 9100 to
+another chip 9100 with a better power source, and/or the
+[col 2]
+318
+like. As another example, one chip 9100 may be used to
+provide physical orientation data for one component of the
+mobile system (e.g., a left arm/leg/wheel), while another
+chip 9100 may be used to provide physical orientation data
+for a second component of the mobile system (e.g+, a right
+arm/leg/wheel).
+In embodiments, the physical input interface 9102
+receives one or more inputs 9192 to the physical orientation
+determination chip 9100 as described herein. The inputs
+9192 may be transmitted to the physical input interface 9102
+by other chips, circuits, modules, and/or other components
+of the mobile system. For example, the input data may come
+from sensors, sensor-processing chips/modules/circuits,
+antennae, storage devices, network interfaces, or any other
+source of data for the chip(s) 9100 as described herein. The
+physical input interface 9i02 may connect with the source(s)
+of the inputs 9192 via wired or wireless connections. The
+inputs 9192 may include one or more of location signals/
+data, accelerometer, gyroscope, or other relative motion
+data, image, video, or other vision data, as well as LIDAR
+data, radar data, sonar data, and/or the like. The inputs 9192
+may also include data that may be stored in storage 9150,
+such as images for image library 9152, data for an environ-
+ment digital twin 9154 (e.g-, a digital representation of the
+environment surrounding the mobile system), one or more
+system specification(s) 9156, and/or one or more intelli-
+gence module(s) 9158.
+As stated above, the output data 9194 transmitted from the
+physical output interface 9104 may include one or more of
+data indicating the location, rotation/heading, tilt, velocity,
+and/or acceleration as determined by the chip 9100. In
+embodiments, the outputs of the chip 9100 may be trans-
+mitted by the physical output interface 9104 to other chips,
+circuits, modules, and/or other components as described
+herein.The physical output interface 9104 may connect to
+these components via wired or wireless connections.
+In embodiments, the chip 9100 may include one or more
+of a location module 9110, a relative motion module 9120,
+a machine vision module 9130, and an orientation module
+9140.In embodiments,the location module 9110 may
+comprise circuits 9112-9116 for determining and outputting
+a location (e.g., GPS coordinates) based on the inputs 9192.
+Additionally or alternatively, the chip 9100 may include a
+relative motion module 9120 comprising circuits 9122-9126
+for determining and outputting a relative motion (e.g-, a
+change in position/rotation/heading,velocity information,
+and/or acceleration information) based on the inputs 9192.
+Additionally or alternatively, the chip 9100 may include a
+machine vision module 9130 comprising circuits 9132-9136
+for analyzing image data provided as inputs 9192 to detect
+and/or classify objects. Additionally or alternatively, the
+chip 9100 may include an orientation module 9140 com-
+prising circuits 9142-9148 for generating an environment
+digital twin (e.g-, a digital representation of an environ-
+updating an environment digital twin, determining a location
+of the mobile system (e.g., a location within an environment
+or environment digital twin), determining a pose of the
+mobile system (e.g-, an arrangement of one or more wheels,
+limbs, instruments, appendages, or other mobile system
+components), and determining orientation information for
+transmitting as outputs 9194. The functionalities of the
+various circuits of the modules 9110, 9120, 9130, and/or
+9140 are described in more detail below.
+The processing core(s) 9106 may comprise one or more
+processing core(s) that may be configured to perform any of
+the functions attributed to the chip 9100, either with or

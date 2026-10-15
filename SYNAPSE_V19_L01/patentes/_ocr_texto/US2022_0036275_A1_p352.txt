@@ -1,0 +1,133 @@
+[col 1]
+US2022/0036275A1
+269
+aspect, the means for performing the steps associated with
+the processes described above may include any of the
+hardware and/or software described above. All such permu-
+tations and combinations are intended to fall within the
+scope of the present disclosure.
+[2088]While the disclosure has been disclosed in connec-
+tion with the preferred embodiments shown and described in
+detail, various modifications and improvements thereon will
+become readily apparent to those skilled in the art. Accord-
+ingly, the spirit and scope of the present disclosure is not to
+be limited by the foregoing examples, but is to be under-
+stood in the broadest sense allowable by law.
+[2089]The use of the terms "a"and "an" and "the" and
+similar referents in the context of describing the disclosure
+(especially in the context of the following claims) is to be
+construed to cover both the singular and the plural, unless
+otherwise indicated herein or clearly contradicted by con-
+text. The terms “"comprising," "with,""including," and
+"containing" are to be construed as open-ended terms (i.e.,
+meaning “including, but not limited to,") unless otherwise
+noted. Recitations of ranges of values herein are merely
+intended to serve as a shorthand method of referring indi-
+vidually to each separate value falling within the range,
+unless otherwise indicated herein, and each separate value is
+incorporated into the specification as if it were individually
+recited herein. All methods described herein can be per-
+formed in any suitable order unless otherwise indicated
+herein or otherwise clearly contradicted by context. The use
+of any and all examples, or exemplary language (e.g., “"such
+as) provided herein, is intended merely to better illuminate
+the disclosure and does not pose a limitation on the scope of
+the disclosure unless otherwise claimed. The term “"set"may
+include a set with a single member. No language in the
+specification should be construed as indicating any non-
+claimed element as essential to the practice of the disclosure.
+[2090]While the foregoing written description enables
+one skilled to make and use what is considered presently to
+be the best mode thereof, those skilled in the art will
+understand and appreciate the existence of variations, com-
+binations, and equivalents of the specific embodiment,
+method, and examples herein. The disclosure should there-
+fore not be limited by the above described embodiment,
+method, and examples, but by all embodiments and methods
+within the scope and spirit of the disclosure.
+[2091]  All documents referenced herein are hereby incor-
+porated by reference as if fully set forth herein.
+What is claimed is:
+1. An information technology system, comprising:
+a cloud-based management platform with a micro-ser-
+vices architecture, the platform having a set of inter-
+faces that are configured to access and configure fea-
+tures of the platform, a set of network connectivity
+facilities that are configured to direct a set of value
+chain network entities to connect to the features of the
+platform, a set of adaptive intelligence facilities that are
+configured to automate a set of capabilities of the
+platform related to at least one of the value chain
+network entities and the features of the platform, a set
+of data storage facilities that are configured to store
+data collected and handled by the platform, and a set of
+monitoring facilities that are configured to monitor the
+value chain network entities, wherein the interfaces, the
+network connectivity facilities, the adaptive intelli-
+gence facilities, the data storage facilities, and the
+[col 2]
+Feb.3,2022
+monitoring facilities are coordinated for monitoring
+and management of the value chain network entities,
+and wherein the platform manages a set of demand
+factors, a set of supply factors and a set of supply chain
+infrastructure facilities;
+a set of applications that are configured to direct an
+enterprise to manage the value chain network entities of
+the platform from a point of origin to a point of
+customer use; and
+a set of microservices layers including an application
+layer supporting at least one supply chain application
+and at least one demand management application,
+wherein the microservices layers include a data collec-
+tion layer that collects information from a set of Inter-
+net of Things resources that collect information with
+respect to supply chain entities and demand manage-
+ment entities related to the value chain network entities
+of the platform.
+2. The system of claim 1, wherein the supply factors are
+factors that include at least one of Component availability,
+material availability, component location, material location,
+component pricing, material pricing, taxation, tariff, impost,
+duty, import regulation, export regulation, border control,
+trade regulation, customs, navigation, traffic, congestion,
+vehicle capacity, ship capacity, container capacity, package
+capacity, vehicle availability, ship availability, container
+availability, package availability, vehicle location, ship loca-
+tion, container location, port location, port availability, port
+capacity, storage availability, storage capacity, warehouse
+availability, warehouse capacity, fulfillment center location,
+fulfllment center availability, fulfillment center capacity,
+asset owner identity, system compatibility, worker availabil-
+ity, worker competency, worker location, goods pricing, fuel
+pricing, energy pricing, route availability, route distance,
+route cost, or route safety factors.
+3. The system of claim 1, wherein the demand factors are
+factors that include at least one of product availability,
+product pricing, delivery timing, need for refill, need for
+replacement, manufacturer recall, need for upgrade, need for
+maintenance, need for update, need for repair, need for
+consumable, taste, preference, inferred need, inferred want,
+group demand, individual demand, family demand, business
+demand, need for workflow, need for process, need for
+procedure, need for treatment, need for improvement, need
+for diagnosis, compatibility to system, compatibility to
+product, compatibility to style, compatibility to brand,
+demographic, psychographic, geolocation, indoor location,
+destination, route, home location, visit location, workplace
+location, business location, personality, mood, emotion,
+customer behavior, business type, business activity, personal
+activity, wealth, income, purchasing history, shopping his-
+tory, search history, engagement history, clickstream history,.
+website history, online navigation history, group behavior,
+family behavior, family membership, customer identity,
+group identity, business identity, customer profile, business
+profile, group profile, family profile, declared interest, or
+inferred interest factors.
+4. The system of claim 1, wherein the set of supply chain
+infrastructure facilities are facilities that include at least one
+of ship, container ship, boat, barge, maritime port, crane,
+container, container handling, shipyard, maritime dock,
+warehouse, distribution, fulfllment, fueling. refueling,
+nuclear refueling, waste removal, food supply, beverage
+supply, drone, robot, autonomous vehicle, aircraft, automo-

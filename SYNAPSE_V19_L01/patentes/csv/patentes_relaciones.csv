@@ -1,0 +1,34 @@
+﻿doc_id,tipo_relacion,documento_relacionado,justificacion
+P001,COMPLEMENTA,D081,D081 organiza capacidades del gemelo digital por etapa de resiliencia de la cadena de suministro; esta patente aporta un catálogo de funciones de automatización que la matriz de D081 no desagrega.
+P001,CONFIRMA,D004,D004 identifica ausencia de evidencia empírica revisada por pares sobre desempeño de gemelos digitales; esta patente es otra clase documental que tampoco aporta datos de desempeño.
+P001,COMPLEMENTA,D011,D011 modela el tiempo de recuperación empresarial por máximo de bloqueos; las funciones de la RPA actuarían sobre bloqueos de suministro e inventario que D011 no automatiza.
+P002,COMPLEMENTA,D081,"D081 concluye que el rebote y el crecimiento son las etapas de resiliencia con menor evidencia; esta patente formula tareas de mitigación en la etapa de anticipación y absorción, sin medir recuperación."
+P002,COMPLEMENTA,D037,"D037 reporta asociaciones positivas entre tecnologías digitales y resiliencia en la literatura empírica; la patente describe un mecanismo técnico (sensado, gemelo, tarea) compatible con esas asociaciones, sin datos propios."
+P002,COMPLEMENTA,D011,"D011 especifica el tiempo de recuperación empresarial como el máximo de bloqueos; la patente no incluye un modelo de bloqueos por daño físico, que D011 sí formaliza."
+P003,COMPLEMENTA,D081,Las pruebas de estrés en el gemelo (reivindicación 12) corresponden a la etapa de preparación que D081 clasifica; D081 advierte la falta de evidencia de resultados medidos en recuperación.
+P003,COMPLEMENTA,D029,D029 vincula la adopción del gemelo digital con la resiliencia mediante capacidad de absorción; la patente aporta un mecanismo contractual automatizado que D029 no examina.
+P003,COMPLEMENTA,P002,Ambas patentes usan un gemelo digital de la red de cadena de valor y generan tareas automáticas por transferencia de productos; P003 añade el contrato inteligente y la reposición.
+P004,COMPLEMENTA,D030,"D030 asocia gemelo digital, flexibilidad del sistema mecánico y resiliencia en percepciones; la patente describe flexibilidad de producción entre nodos, sin medirla."
+P004,COMPLEMENTA,D046,D046 trata el IoT y los sistemas distribuidos en modelos de negocio; la patente aporta un caso de modelo de negocio de cotización y contratación automatizadas.
+P004,COMPLEMENTA,P003,Ambas patentes usan contratos inteligentes y gemelos de producto; P004 aplica el esquema a manufactura aditiva y P003 a contratos de futuros.
+P005,COMPLEMENTA,P001,Misma familia y misma descripción; P001 es la patente concedida de una solicitud presentada el mismo día.
+P005,COMPLEMENTA,D081,D081 organiza capacidades del gemelo digital por etapa de resiliencia; P005 aporta funciones de automatización que D081 no desagrega.
+P005,CONFIRMA,D004,"Como D004, no aporta evidencia empírica sobre desempeño."
+P006,COMPLEMENTA,D011,"Las variables de disponibilidad (puertos, almacenes, trabajadores) amplían los bloqueos que D011 modela para la recuperación empresarial."
+P006,COMPLEMENTA,D077,D077 reconoce que demanda y logística cambian en desastres; esta solicitud enumera los factores de demanda y oferta que podrían monitorearse.
+P006,COMPLEMENTA,P001,Misma familia; P001 enfatiza la RPA y P006 los factores e infraestructura.
+P007,COMPLEMENTA,D075,"D075 propone una arquitectura multisalto descentralizada de alerta sísmica; esta solicitud enumera redes cognitivas y entre pares, sin evaluación de resiliencia ante daños."
+P007,COMPLEMENTA,D017,D017 inventaría barreras de adopción del IoT en cadenas de suministro; la solicitud describe una arquitectura de IoT en la misma clase de aplicación.
+P007,COMPLEMENTA,P008,Misma familia; P007 y P008 comparten la combinación de capas de red y de datos con inteligencia adaptativa.
+P008,COMPLEMENTA,P007,Misma familia; P008 se centra en las facilidades de red y de datos.
+P008,COMPLEMENTA,D017,D017 sistematiza barreras de IoT en cadenas de suministro; P008 reivindica interfaces y facilidades de red para el mismo ámbito.
+P008,CONFIRMA,D004,"No aporta evidencia empírica de desempeño, en línea con D004."
+P009,COMPLEMENTA,D068,D068 propone un marco económico de monitorización estructural con IoT y diagnóstico de daño; la solicitud aborda la decisión de colocar sensores sin criterio de costo explícito.
+P009,COMPLEMENTA,D020,D020 trata el IoT para monitorización estructural y resiliencia sísmica; la solicitud describe la colocación automática de sensores en otra clase de activos.
+P009,COMPLEMENTA,P002,"Ambas alimentan un gemelo digital de la red de cadena de valor con sensores, P009 añadiendo la recomendación de ubicación."
+P010,COMPLEMENTA,P002,Ambas usan un gemelo digital de la red logística entrenado y alimentado por simulación; P002 añade tareas para máquinas inteligentes.
+P010,COMPLEMENTA,D013,D013 propone un marco de gestión de riesgo posdesastre con gemelos; P010 aporta un lazo de simulación y recomendación para diseño logístico.
+P010,CONFIRMA,D004,"No incorpora datos de desempeño, en línea con la brecha empírica de D004."
+P011,COMPLEMENTA,D028,"D028 identifica barreras de datos, costos y seguridad para gemelos de infraestructura civil; la solicitud ofrece un procedimiento para reducir el costo de inicializar un gemelo."
+P011,COMPLEMENTA,D023,D023 demuestra operación sostenida de un sistema de sensado para un gemelo de puente en fase de monitor; la solicitud propone cómo inicializar un gemelo de puente a partir de otros.
+P011,COMPLEMENTA,D034,"D034 produce mapas de intensidad y daño para gemelos de emergencia urbana; la solicitud aporta la idea de parametrizar políticas por condiciones ambientales, aplicable a factores sísmicos."

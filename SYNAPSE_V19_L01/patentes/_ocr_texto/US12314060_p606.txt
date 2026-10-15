@@ -1,0 +1,136 @@
+wherein the value chain network digital twin operates 35 wherein the MR environment is configured to be viewable to
+[col 1]
+US 12,314,060 B2
+847
+wherein the simulations are executed with a graph neural
+network (GNN).
+6. The computer-implemented method of claim 5, further
+comprising:
+in response to determining the disruption, automatically
+generating, via the at least one trained machine learning
+model of the set of machine learning models, an
+additional task to be completed to rectify or avoid the
+disruption; and
+executing, via a robotic operating system, the additional 10
+task by:
+monitoring an inventory level for an item in the value
+chain network,and
+automatically generating one or more purchase orders
+for the item in response to the inventory level being 15
+less than a threshold.
+7. The computer-implemented method of claim 1,
+wherein a robotic operating system enables the value chain
+network digital twin.
+8. The computer-implemented method of claim 1, 20
+wherein the value chain network digital twin operates
+within a digital twin system having one or more sets of
+one ormore digital twins,and
+wherein each digital twin of the one or more sets includes
+an embedded marketplace for digital twin simulations. 25 ther comprising:
+9. The computer-implemented method of claim 1,
+wherein the value chain network digital twin operates
+within a digital twin system having one or more sets of
+one ormore digital twins, and
+wherein each digital twin of the one or more sets includes 30
+an embedded marketplace for at least one of artificial
+intelligence-based learning models or artificial intelli-
+gence-based algorithms.
+10. The computer-implemented method of claim 1.
+within a digital twin system having one or more sets of
+one or more digital twins, and
+wherein each digital twin of the one or more sets includes
+an embedded marketplace for data.
+11. The computer-implemented method of claim 1, 40 t
+wherein the value chain network entity includes at least one
+of: products, producers, businesses, owners, operators, oper-
+ating facilities, customers, consumers, workers, mobile
+devices, wearable devices, distributors, resellers, supply
+chain infrastructure facilities, supply chain processes, logis- 45
+tics processes, reverse logistics processes, demand predic-
+tion processes, demand management processes, demand
+aggregation processes, machines, ships, barges, warehouses,
+maritime ports, airports, airways, waterways, roadways,
+railways, bridges, tunnels, online retailers, ecommerce sites, 50
+demand factors, supply factors, delivery systems, floating
+assets, points of origin, points of destination, points of
+storage, points of use, networks, information technology
+systems, software platforms, fulfillment centers, containers,
+container handling facilities, customs, export control, border 55
+control, drones, robots, robotic handling systems, 3D print-
+ers, vehicles, autonomous vehicles, hauling facilities, water-
+ways, or port infrastructure facilities.
+12. The computer-implemented method of claim 1,
+wherein the set of machine learning models includes at least 60
+one of: a transformer model, a convolutional neural network,
+a deep learning model trained on a set of outcomes of the
+value chain networkentity,a supervised model,a semi-
+supervised model, an unsupervised model, or a reinforce-
+ment model. 65
+13. The computer-implemented method of claim 1,
+wherein the set of machine learning models is trained using
+[col 2]
+848
+a training dataset including at least one of a set of objects or
+events that are labeled to classify a set of objects or events
+according to a classification taxonomy that includes at least
+one of: an operating state, a fault condition, an operating
+flow, or a behavior of the value chain network.
+14. The computer-implemented method of claim 1, fur-
+ther comprising:
+model of the set of machine learning models, an
+additional task,
+wherein the additional task includes at least one of:
+diversifying suppliers in the value chain network digital
+twin,
+building inventory buffers in the value chain network
+digital twin,
+identifying suppliers in the value chain network digital
+twin that use alternative transportation methods,
+renegotiating contracts in the value chain network
+digital twin,
+using technology in the value chain network digital
+twin, or
+using predictive sourcing in the value chain network
+digital twin.
+15. The computer-implemented method of claim 1, fur-
+rendering, by the computing device, a mixed reality (MR)
+environment for a user to interact with the value chain
+network digital twin,
+wherein rendering the MR environment includes gener-
+ating MR visualizations, and
+wherein the MR visualizations are used to overlay inven-
+tory levels onto a shelf of the value chain network
+entity.
+16. The computer-implemented method of claim 15,
+the user via augmented reality glasses.
+17. The computer-implemented method of claim 1,
+wherein the smart machine includes at least one of: a
+physical robot, an automated guided vehicle, a smart con-
+tainer, or a drone.
+18. A computing system comprising one or more proces-
+sors and one or more memories configured to perform
+operations including:
+receiving, by a computing device, information associated
+with a set of products moving through a value chain
+network,
+wherein the information includes real-time data asso-
+ciated with (i) at least one of inbound shipments or
+outbound shipments of the set of products from or to
+a value chain network entity of the value chain
+network, and (i) an inventory level of the set of
+products at the value chain network entity,
+wherein the value chain network entity includes at least
+one of: a supplier, a manufacturer, a retailer, or
+distribution center, and
+wherein the information is generated by at least one of:
+a set of sensors of the value chain network entity, a
+set of Internet of Things (loT) devices configured to
+collect data relating to the value chain network
+entity, or a set of application programming interfaces
+(APIs) configured to publish data relating to the
+value chain network entity;
+providing, by the computing device, the information to a
+set of machine learning models and a value chain
+network digital twin;
+training, by the computing device, at least one machine
+learning model of the set of machine learning models

@@ -6,7 +6,7 @@ Fecha de cierre: 2026-10-15. Repositorio de trabajo: `TejidoEmpresarial`, rama `
 
 ## 1. Resumen ejecutivo
 
-El lote L01 reúne 101 documentos únicos (103 archivos PDF; dos duplicados por huella MD5 entre las carpetas de Scopus y Web of Science), con 1,898 páginas y 1,136,120 palabras extraídas. Cada documento recibió lectura completa, un análisis estructurado con dialéctica, interrogación socrática, indicadores, madurez multinivel, brechas, falacias, causalidad, competidores, variables econométricas y vacíos, y una ficha bibliográfica analítica de cuatro capas (entre 3,763 y 5,529 palabras por ficha; media 4,679). Se construyeron 19 archivos CSV, 11 figuras, una red de 362 relaciones tipificadas y un análisis con aprendizaje automático y procesamiento de lenguaje natural sobre el texto completo.
+El lote L01 reúne 101 documentos únicos (103 archivos PDF; dos duplicados por huella MD5 entre las carpetas de Scopus y Web of Science), con 1,898 páginas y 1,136,120 palabras extraídas. Cada documento recibió lectura completa, un análisis estructurado con dialéctica, interrogación socrática, indicadores, madurez multinivel, brechas, falacias, causalidad, competidores, variables econométricas y vacíos, y una ficha bibliográfica analítica de cuatro capas (entre 3,763 y 5,529 palabras por ficha; media 4,679). Se construyeron 19 archivos CSV, 13 figuras, una red de 362 relaciones tipificadas y un análisis con aprendizaje automático y procesamiento de lenguaje natural sobre el texto completo.
 
 Los resultados principales son siete.
 
@@ -189,7 +189,7 @@ Las variables econométricas (`csv/variables_econometricas.csv`) muestran que lo
 
 ## 11. ¿Qué se me escapa?
 
-1. **Patentes.** El repositorio no contiene patentes (103 PDF, 2 archivos RIS, 3 CSV; todo tipo artículo de revista); solo hay dos referencias bibliográficas a estudios de paisajes de patentes. El módulo de patentes está pendiente: requiere archivos aportados o autorización para buscar en bases externas (Google Patents, Espacenet). Sin ellas, la transferencia tecnológica se analiza solo desde la literatura.
+1. **Patentes.** Los 103 PDF de las carpetas de las bases bibliográficas son artículos de revista; las 11 patentes se aportaron después en la carpeta `Patentes /` y se analizaron en un módulo separado (`patentes/`) mediante lectura parcial por reconocimiento óptico. Siguen pendientes la lectura completa, la verificación del estado legal y una búsqueda sistemática de patentes por clasificación; sin ellas, la transferencia tecnológica se analiza sobre todo desde la literatura.
 2. **Registros sin PDF.** Los registros de Scopus sin texto completo (`scopus_sin_pdf.json`) y las siete referencias de D100 ausentes del lote pueden contener estudios relevantes, en especial sobre pymes y sismos.
 3. **Literatura en español y regional.** Solo 12 documentos están en español y ninguno trata empresas posterremoto en América Latina; no hay datos de seguros, créditos de reconstrucción ni política pública regional.
 4. **Datos empresariales.** No hay series de tiempo de cierre, ingresos o empleo por empresa tras sismos (salvo la comparación con tiempos de cierre observados en D011).
@@ -206,7 +206,7 @@ Las variables econométricas (`csv/variables_econometricas.csv`) muestran que lo
 3. Diseñar un estudio que conecte los parámetros de gemelos digitales e IoT (tiempo de detección, evaluación de daño) con los componentes de demora de los modelos de recuperación empresarial.
 4. Ponderar la evidencia por grupos independientes de autoría.
 5. Exigir en estudios tecnológicos intervalos de confianza, validación externa y repetición.
-6. Completar el módulo de patentes.
+6. Ampliar el módulo de patentes con lectura completa, verificación del estado legal y búsqueda sistemática.
 
 ## 13. Archivos entregados
 

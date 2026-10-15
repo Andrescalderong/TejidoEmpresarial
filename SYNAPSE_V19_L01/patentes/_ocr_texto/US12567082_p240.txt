@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+157
+In embodiments,the platform may providea system for
+testing compatibility or configuration of a set of vendor
+components for a port infrastructure facility using a set of
+digital twins representing the port infrastructure facility and
+the vendor components.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of vendor
+components for a shipyard facility using a set of digital twins
+representing the shipyard facility and the vendor compo-
+nents. 10
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a container ship and
+a set of port infrastructure facilities using a set of digital
+twins representing the container ship and the port infrastruc-
+ture facility. 15
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a barge and a set of
+waterways for a navigation route using a set of digital twins
+representing the barge and the set of waterways.
+In embodiments, the platform may provide a system for 20 
+testing compatibility or configuration of a container ship and
+a set of cargo for an identified shipment using a set of digital
+twins representing the container ship and the cargo.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a barge and a set of 251
+cargo for an identified shipment using a set of digital twins
+representing the barge and the cargo.
+In embodiments, the platform may provide a system for
+testing compatibility or configuration of a set of cargo
+handling infrastructure facilities and a set of cargo for an 30 
+identified shipment using a set of digital twins representing
+the cargo handling infrastructure facilities and the cargo.
+Value Chain Infrastructure Testing(VCIT)
+The platform 604 may deploy digital twins 1700 of value
+chain network entities 652 to perform stress tests on a set of 35
+value chain network entities. The digital twins may help
+simulate behavior of value chain network systems and
+sub-systems in a wide variety of environments. The stress
+tests may help run any what-if' scenarios to understand the
+impact of change in relevant parameters beyond normal
+operating values and evaluate the resilience of the infra-
+structure of value chain network.
+The platform 604 may include a system for learning on a
+training set of outcomes, parameters, and data collected
+from data sources relating to a set of value chain network 45
+activities to train artificial intelligence systems 1160 (includ-
+ing any of the various expert systems, artificial intelligence
+systems, neural networks, supervised learning systems,
+machine learning systems, deep learning systems, and other
+systems described throughout this disclosure and in the 5o i
+documents incorporated) for performing such stress tests on
+the value chain network.
+In embodiments, the platform may include a system for
+learning on a training set of machine outcomes, parameters,
+and data collected from data sources relating to a set ofvalue 55
+chain network activities to train an artificial intelligence/
+machine learning system to perform stress tests on the
+machine using a digital twin that represents a set of value
+chain entities.
+As described, the value chain network comprises a plu- 60 
+rality of interrelated sub-systems and sub-processes that
+manage and control all aspects associated with the produc-
+tion and delivery of a finished product to an end-userfrom
+the acquisition and distribution of raw materials between a
+supplier and a manufacturer, through the delivery, distribu- 65
+tion, and storage of materials for a retailer or wholesaler,
+and, finally, to the sale of the product to an end-user. The
+[col 2]
+158
+complex interconnected nature of the value chain network
+means that an adverse event within one subsystem or one or
+more value chain entities reflect through the entire value
+chain network.
+FIG. 54 is an example method for performing a stress test
+on the value chain network. The stress test may comprise a
+simulation exercise to test the resilience of the value chain
+network (including its subsystems) and determine its ability
+to deal with an adverse scenario, say a natural calamity, a
+congested route, a change in law, or a deep economic
+recession. Such adverse or stress scenarios may affect one or
+more entities or subsystems within the value chain network
+depending on the nature of the scenario. Hence, any stress
+tests would require simulating scenarios and analyzing the
+impact of different scenarios across different subsystems and
+on the overall value chain network.
+At 5102, all historical and current data related to the value
+chain network are received. The data may include informa-
+tion related to various operating parameters of the value
+chain network over a particular historical time period, say
+last 12 months. The data may also provide information on
+normal conditions. Some examples of operating parameters
+include: product demand, procurement lead time, produc-
+tivity, inventory level at one or more warehouses, inventory
+turnover rates, warehousing costs, average time to transport
+product from warehouse to shipping terminals, overall cost
+of product delivery, service levels, etc. At 5104, one or more
+simulation models of value chain network are created based
+on the data. The simulation models help in visualizing the
+value chain network as a whole and in predicting how
+changes in operating parameters affect the operation and
+performance of the value chain network. In embodiments,
+the simulation model may be a sum of multiple models of
+different subsystems of the value chain network.
+At 5106, one or more stress scenarios may be simulated
+by changing one or more parameters beyond the normal
+operating values. The simulating of stress scenarios over-
+come the limitation of any analysis based only on historical
+data and helps analyze the network performance across a
+range of hypothetical yet plausible stress conditions. The
+simulation involves varying (shocking) one or more param-
+eters while keeping the other parameters as fixed to analyze
+the impact of such variations on value chain network. In
+embodiments, a single parameter may be varied while
+keeping remaining parameters as fixed. In other embodi-
+ments, multiple parameters may be varied simultaneously.
+At 5108, the outcomes of stress scenario simulations are
+determined, and the performance of value chain network and
+its different subsystems is estimated across various sce-
+narios. At 5110, the data, parameters and outcomes are fed
+into a machine learning process in the artificial intelligence
+system 1160 for further analysis.
+An advantage of generating data through simulations and
+then training machine learning algorithms on this data is the
+control this approach provides on the features in the data as
+well as volume and frequency of data.
+In embodiments, the platform may include a system for
+learning on a training set of outcomes, parameters, and data
+collected from data sources relating to a set of value chain
+network activities to train an artificial intelligence/machine
+learning system to perform stress tests on a physical object
+using a digital twin that represents a set of value chain
+entities.
+In embodiments, the platform may include a system for
+learning on a training set of outcomes, parameters, and data
+collected from data sources relating to a set of value chain

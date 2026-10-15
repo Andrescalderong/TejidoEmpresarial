@@ -1,0 +1,138 @@
+executing simulations on digital twins of the set of 60o lations on the digital twins to predict business outcomes by
+[col 1]
+US 12,675,781 B2
+611
+7. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, the printer
+twin, or a manufacturing node twin of the digital twins for
+optimizing production sequencing of at least one of: parts or
+products based, at least partially, on at least one of one of:
+quoted price, delivery, sale margin, or order size.
+8. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, the printer 10
+twin, or a manufacturing node twin of the digital twins for
+optimizing manufacturing cycle time.
+9. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, the printer 15 t
+twin, a customer twin, or a manufacturing node twin of the
+digital twins to predict and manage product demand from
+one ormore customers.
+10. The information technology system of claim 1,
+wherein the artificial intelligence system executes the simu- 20
+lations on the at least one of: the part twin, the product twin,
+the printer twin, a supplier twin, a customer twin, or a
+manufacturing nodetwin of thedigital twins to predictand
+manage supply from the set of distributed manufacturing
+network entities. 25
+11. The information technology system of claim 1,
+wherein the artificial intelligence system executes the simu-
+lations on the at least one of: the part twin, the product twin,
+the printer twin, a supplier twin, a customer twin, or a
+manufacturing node twin of the digital twins to optimize 30
+production capacity for the set of distributed manufacturing
+network entities.
+12. The information technology system of claim 1,
+wherein the set of distributed manufacturing network enti-
+ties includes at least one of: an Enterprise Resource Planning 35
+(ERP) system, a Manufacturing Execution system (MES), a
+Product Lifecycle Management (PLM) system, a mainte-
+nance management system (MMS), a Quality Management
+system (QMS), a certification system, a compliance system,
+a Robot/Cobot system, or an SCCG system. 40
+13. The information technology system of claim 1,
+wherein the distributed ledger system includes a decentral-
+ized application that is downloadable by the set of distrib-
+uted manufacturing network entities and that relates to the
+workflow information and the transaction information. 45
+14. The information technology system of claim 1,
+wherein the distributed ledger system includes a user inter-
+face configured to provide the set of unified views to the set
+of distributed manufacturing network entities.
+15. The information technology system of claim 1, 50
+wherein the distributed ledger system includes a system
+configured to capture end-to-end traceability of a part pro-
+duced by the set of distributed manufacturing network
+entities.
+16. A computer-implemented method for a distributed 55
+manufacturing network, the method comprising:
+learning on a training set of outcomes, parameters, and
+data collected from a set of distributed manufacturing
+network entities;
+distributed manufacturing network entities to make at
+least one of: classifications, predictions, or optimiza-
+tion-related decisions for the set of distributed manu-
+facturing network entities based, at least partially, on
+the learned training set, wherein the executing simula- 65
+tions includes executing the simulations on at least one
+of: a part twin, a product twin, or a printer twin of the
+[col 2]
+612
+digital twins for generating a quote for three-dimen-
+sional (3D) printing of an item relating to the set of
+distributed manufacturing network entities;
+using a blockchain to provide a set of unified views of
+workflow information and transaction information to
+the set of distributed manufacturing network entities
+based, at least partially, on the executed simulations on
+the digital twins;
+generating a smart contract based, at least partially, on the
+quote; and
+using the blockchain to provide at least one of the set of
+unified views of transaction information including the
+generated smart contract with respect to the item.
+17. The computer-implemented method of claim 16, fur-
+ther including executing simulations on at least one manu-
+facturing node twin of the digital twins for predicting cost
+over-runs in a manufacturing process performed by the set
+of distributed manufacturing network entities.
+18. The computer-implemented method of claim 16, fur-
+ther including executing simulations on at least one manu-
+facturing node twin of the digital twins for optimizing
+production sequencing of at least one of: parts or products
+based, at least partially, on at least one of one of: quoted
+price, delivery, sale margin, or order size.
+19. An information technology system for a distributed
+manufacturing network, the information technology system
+comprising:
+a smart contract system;
+an additive manufacturing management platform includ-
+ing an artificial intelligence system configured to:
+learn on a training set of outcomes, parameters, and
+data collected from a set of distributed manufactur-
+ing network entities; and
+execute simulations on digital twins of the set of
+distributed manufacturing network entities to make
+at least one of: classifications, predictions, or opti-
+mization-related decisions for the set of distributed
+manufacturing network entities based, at least par-
+tially, on the learned training set; and
+ a distributed ledger system integrated with a digital thread
+and configured to, using a blockchain, provide a set of
+unified views of workflow information and transaction
+information to the set of distributed manufacturing
+network entities based, at least partially, on the
+executed simulations on the digital twins,
+wherein the artificial intelligence system further executes
+the simulations digital twins of the set of distributed
+manufacturing network entities for generating a quote
+for three-dimensional (3D) printing of an item relating
+to the set of distributed manufacturing network entities,
+wherein the smart contract system is configured to gen-
+erate a smart contract based, at least partially, on the
+quote, and
+wherein the distributed ledger system is configured to
+provide at least one of the set of unified views of
+transaction information including the generated smart
+contract with respect to the item.
+20. The information technology system of claim 19,
+wherein the artificial intelligence system executes the simu-
+analyzing relationships between manufacturing parameters
+and market indicators in the training set, wherein the busi-
+ness outcomes include at least one of: cost variations,
+product demand trends, or production efficiency metrics.
+21. The information technology system of claim 19,
+wherein the distributed ledger system provides network
+entities with access to manufacturing verification data

@@ -1,0 +1,138 @@
+[col 1]
+US 12,567,082 B2
+437
+examples of different types of neural networks may include
+any of the neural network types described throughout this
+disclosure and the documents incorporated herein by refer-
+ence, including without limitation convolutional neural net-
+works (CNN), deep convolutional neural networks (DCN),
+feed forward neural networks (including deep feed forward
+neural networks), recurrent neural networks (RNN) (includ-
+ing without limitation gated RNNs), long/short term
+memory (LTSM) neural networks, and the like, as well as
+hybrids or combinations of the above, such as deployed in 10
+series, in parallel, in acyclic (e.g-, directed graph-based)
+flows, and/or in more complex flows that may include
+intermediate decision nodes, recursive loops, and the like,
+where a given type of neural network takes inputs from a
+data source or other neural network and provides outputs 15
+that are included within the input sets of another neural
+network until a flow is completed and a final output is
+provided. In embodiments, the neural network system 12214
+may be leveraged by other components of the fleet intelli-
+gence system, such as the machine vision system 12222, the 20
+NLP system 12224, the rules-based system 12228, the
+digital twin system 12226, and/or other artificial intelligence
+services. Examples applications of the neural network sys-
+tem 12214 are described throughout the disclosure.
+In embodiments, the artificial intelligence services 12204 25
+may provide access to and/or integrate a robotic process
+automation (RPA) system 12216. The RPA system 12216
+may facilitate, among other things, computer automation of
+producing and validating workflows that involve remote-
+control of robot operating units, teams, fleet resources and 30
+the like. In embodiments, the RPA system 12216 may
+monitor human interaction with various systems to learn
+patterns and processes performed by humans in performance
+of respective tasks. This may include observation of human
+actions that involve interactions with hardware elements, 35
+with software interfaces, and with other elements. Observa-
+tions may include field observations as humans perform real
+tasks, as well as observations of simulations or other activi-
+ties in which a human performs an action with the explicit
+intent to provide a training data set or input for the RPA 40
+system, such as where a human tags or labels a training data
+set with features that assist the RPA system in learning to
+recognize or classify features or objects, among many other
+examples. In embodiments, the RPA system 12216 may
+learn to perform certain tasks based on the learned patterns 45 1
+and processes, such that the tasks may be performed by the
+RPA system 12216 in lieu or in support of a human decision
+maker. Examples of the RPA systems 12216 may encompass
+those in this disclosure and in the documents incorporated
+by reference herein and may involve automation of any of 5o 
+the wide range of value chain network activities or entities
+described therein. In embodiments, the artificial intelligence
+services 12204 may include and/or provide access to an
+analytics system 12218. In embodiments, an analytics sys-
+tem 12218 is configured to perform various analytical pro- 55
+cesses on data output from fleet functional components, such
+as the fleet configuration system 12020, robot operating
+units, and the like. In example embodiments, analytics
+produced by the analytics system 12218 may facilitate
+quantification of fleet system and system module perfor- 60
+mance as compared to a set of goals and/or metrics. The
+goals and/or metrics may be preconfigured, determined
+dynamically from historical fleet operations results, and the
+like. An analytics system 12218 may be confirmed to
+perform various analytics-based processes on behalf of the
+platform 12000, robot fleets, teams, and/or individual
+robots. Examples of analytics processes that can be per-
+[col 2]
+438
+formed by an analytics system 12218 are discussed below
+and in the document incorporated herein by reference. In
+some example implementations, analytics processes may
+include tracking goals and/or specific metrics that involve
+coordination of supply chain activities that may involve
+robotic capabilities (such as picking items and preparing it
+for delivery by an autonomous vehicle, among many others)
+and demand intelligence, such as involving forecasting
+demand for a set of relevant items by location and time
+(among many others).
+In embodiments, a value chain network analytic system
+may process a set of supply chain robotic fleet data and a set
+of demand intelligence robotic process automation data to
+produce a recommended action that coordinates supply and
+demand for a set of goods or other items. In embodiments,
+a value chain network automation system is provided that
+includes a supply chain robotic fleet data set including
+attributes of a set of states and capabilities of a set of robotic
+systems in a supply chain for a set of goods; a demand
+intelligence robotic process automation data set including
+attributes of a set of states of a set of robotic process
+automation systems that undertake automation of a set of
+demand forecasting tasks for the set of goods; and a coor-
+dination system that provides a set of robotic task instruc-
+tions for the supply chain robotic fleet based on processing
+the supply chain robotic fleet data set and the demand
+intelligence robotic process automation data set to coordi-
+nate supply and demand for the set of goods.
+In embodiments, the artificial intelligence services 12204
+may include and/or provide access to a the digital twin
+system 12220. The digital twin system 12220 may encom-
+pass any of a wide range of features and capabilities
+described herein and in the documents incorporated herein
+by reference. In embodiments, the digital twin system 12220
+may be configured to provide, among other things, execution
+environments for and different types of digital twins, such as
+twins of physical environments, twins of robot operating
+units, logistics twins, and the like. In example embodiments,
+the digital twin system 12220 may further be constructed to
+generate digital twins for fleet resources, job aspects and the
+like, such as robot operating units assigned to a team; robot
+operating units in a fleet and the like. For example, the
+digital twin system 12220 may generate digital twins of
+robot resources (e.g., exchangeable end effectors, power
+supplies, communication capabilities,motive adaptors, and
+the like). Further the digital twin system 12220 may be
+configured with interfaces, such as APIs and the like for
+receiving information from external data sources, such as
+data received from a physical robot operating unit and/or an
+environment thereof. For instance, the digital twin system
+12220 may receive real-time data from sensor systems of a
+robot operating unit and/or sensor systems of the physical
+environment in which the robot operating unit operates. In
+embodiments, the digital twin system 12220 may receive
+digital twin data from other suitable data sources, such as
+third-party services (e.g., weather services, traffic data ser-
+vices, logistics systems and databases, and the like. In
+embodiments, the digital twin system 12220 may include
+digital twin data representing features, states, or the like of
+value chain network entities, such as supply chain infra-
+structure entities, transportation or logistic entities, contain-
+ers, goods, or the like, as well as demand entities, such as
+customers, merchants, stores, points-of-sale, points-of-use,
+65 and the like.The digital twin system 12220 may be inte-
+grated with or into, link to, or otherwise interact with an
+interface (e.g., a control tower or dashboard), for coordina-

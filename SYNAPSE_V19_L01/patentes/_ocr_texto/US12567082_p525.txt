@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+727
+connected edge storage. Then, at 20458, the edge device/
+aggregator 20130 may generate summary data (e.g., higher
+grain data) for storage on the dynamic ledger 20150 based
+on the pending data request. For example, the edge device/
+tistical measurements of data received in response the partial
+query. At 20460, the edge device/aggregator 20130 may
+cause storage of the generated summary data on the dynamic
+ledger 20150. Additionally or alternatively, the edge device/
+aggregator 20130 may develop and/or train one or more 10
+probability distribution models based on the summary data
+and may cause storage of the one or more probability
+distribution models on the dynamic ledger 20150.
+FIG. 169D illustrates an example method 20470 for
+predicting future queries and uploading data for responding
+15 to the future queries to the dynamic ledger 20150 according
+to embodiments described herein. The steps shown in FIG.
+169D may be executed by any of an edge device 20120, an
+aggregator 20140, and/or an edge/device aggregator 20130.
+For purposes of illustration, the steps will be described as 20
+being executed by an edge/device aggregator 20130.
+In embodiments, the method 20470 may be executed by
+various devices during downtime (e.g., reduced network
+and/or processing load) for the distributed database. Addi-
+tionally or alternatively, devices (e.g-, aggregators 20140) 25
+may continuously execute the method 20470 to continually
+anticipate future queries and prepare the distributed database
+to handle the future queries.
+At 20472, the edge device/aggregator 20130 may con-
+tinually collect detailed data 20212, 20214 from sensors 30
+20202 and/or other data sources 20204, which may be part
+of and/or connected to the edge device/aggregator 20130 as
+discussed herein. For example, the edge device/aggregator
+20130 may continuously record the detailed data, process it
+(e.g., format it, calculate data based on the data), store it in 35
+edge storage, and otherwise maintain the detailed data in
+edge storage. In embodiments, the edge device/aggregator
+20130 may analyze the detailed data 20212, 20214 to
+generate additional detailed data 20212, 20214 and store the
+additional detailed data 20212, 20214 in edge storage. 40
+At 20474, the edge device/aggregator 20130 may execute
+a query prediction model 20262 stored on the dynamic
+ledger 20150 in order to predict one or more future queries
+that may be received. In embodiments, the device executing
+step 20474 may predict future queries that may be received 45
+by that same device (e.g., using a query prediction model
+20262 trained on queries received by that same device
+and/or by similar devices). Additionally or alternatively, the
+device executing step 20474 may predict future queries that
+may be received by a different device. For example, an 5o 
+aggregator 20140 executing step 20474 may predict queries
+that may be received by one or more edge devices 20120 in
+communication with the aggregator 20140.
+At 20476, the edge device/aggregator 20130 may execute
+the predicted future query against local edge storage. In 55 
+embodiments, the edge device/aggregator 20130 may
+repeatedly execute the predicted future query against local
+edge storage. For example, if a predicted future query is for
+ an average of recent sensor data, the edge device/aggregator
+20130 may continue to execute the predicted future query
+against local edge storage (e.g., in order to maintain an
+up-to-date model based on the latest data) until the query
+prediction model no longer predicts the future query.
+At 20478, the edge device/aggregator 20130 may gener-
+ate summary data (e.g., higher grain data) for storage on the
+dynamic ledger 20150 based on the predicted future query.
+For example, the edge device/aggregator 20130 may calcu-
+[col 2]
+728
+late averages and/or other statistical measurements of data
+received in response to the predicted future query. At 20480,
+the edge device/aggregator 20130 may cause storage of the
+generated summary data on the dynamic ledger 20150.
+Additionally or alternatively, the edge device/aggregator
+20130 may develop and/or train one or more probability
+distribution models based on the summary data and may
+cause storage of the one or more probability distribution
+models on the dynamic ledger 20150.
+Although the method 20450 ofFIG. 169C and the method
+20470 of FIG. 169D are illustrated as separate example
+methods, in embodiments, the methods 20450 and 20470
+may be implemented by the same module and/or devices.
+For example, aggregators 20140 may continually monitor
+pending data request as well as generate predicted future
+queries in order to continually generate models, prepare
+summary data, etc. for responding to current or predicted
+future queries. Accordingly, the methods 20450 and 20470
+should be understood as different example flows that may be
+implemented by the same device in order to continuously
+optimize the distributed database.
+In embodiments, in addition to or as an alternative to the
+methods 20450 and/or 20470, aggregators 20140 (for
+example) may continuously cause detailed data to be moved
+from one edge device 20120 to be stored as redundant data
+at another edge device 20120 (e.g., as shown at FIG. 167A).
+For example, the aggregators 20140 may detect (e.g-, from
+query logs that one edge device 20120 continuously receives
+requests for data that is stored at another edge device 20120,
+and accordingly may cause the requested data to be stored
+redundantly at the edge device 20120 receiving the queries.
+Thus, in addition to optimizing the distributed database by
+preparing summary data and/or models to provide approxi-
+mate responses, the aggregators 20140 may further optimize
+the distributed database by moving data from edge device
+20120 to edge device 20120 in order to allow edge devices
+20120 to better handle queries.
+FIGS. 170A-B illustrate example data flows 20500,
+20550 for generating data structures to be stored in the
+distributed database using a query language (e.g., EDQL) as
+described herein. In the illustrated examples, queries 20502
+are formatted in an SQL format with custom DDL exten-
+sions (e.g., EDQL format). However, it should be under-
+stood that, in some embodiments, the queries may be
+formatted in other query languages. The example data flows
+20500, 20550 illustrate specific DDL concepts that may be
+used to provide a database schema in the context of the edge
+distributed system as described herein.
+In embodiments, some or all of the edge distributed tables
+of the distributed database may be associated with one or
+more shard algorithm (also referred to herein as a “shard
+lookup algorithm"). The shard algorithm may function like
+a normal table index and may contain any number of
+columns. The shard algorithm may be used to determine
+which partition (or partitions) a given row belongs to (e.g.,
+which edge storage 20122 should store the given row of a
+distributed table).
+When a query contains an INSERT, a CREATE, or a
+similar statement (e.g., according to an SQL standard), the
+edge data management module 20354 of the aggregator
+20140 may compute an output value based on the values in
+the column or columns using a shard algorithm, may per-
+index (e.g., an identifier of a particular edge device 20120
+65 and/or edge storage 20122), and may direct the query to the
+appropriate partition(s) on the edge device(s) (e.g., to a
+given edge storage 20122). In embodiments, any two rows

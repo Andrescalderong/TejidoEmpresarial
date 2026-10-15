@@ -1,0 +1,136 @@
+tions initiated by or relevant to the present disclosure may 55 of different features to outputs.
+[col 1]
+US 12,567,082 B2
+737
+ZigBee Alliance. Further examples of a WPAN include the
+BLUETOOTH wireless networking standard, including
+Core Specification versions 3.0, 4.0, 4.1, 4.2, 5.0, and 5.1
+from the Bluetooth Special Interest Group (SIG). A WAN
+may also be referred to as a distributed communications
+system (DCS). One example of a WAN is the internet.
+Storage hardware is or includes a computer-readable
+medium. The term computer-readable medium, as used in
+this disclosure, encompasses both nonvolatile storage and
+volatile storage, such as dynamic random access memory 1o 
+(DRAM). The term computer-readable medium only
+excludes transitory electrical or electromagnetic signals
+propagating through a medium (such as on a carrier wave).
+A computer-readable medium in this disclosure is therefore
+non-transitory, and may also be considered to be tangible. 15
+Examples of storage implemented by the storage hard-
+ware include a database (such as a relational database or a
+NoSQL database), a data store, a data lake, a column store,
+a data warehouse. Example of storage hardware include
+nonvolatile memory devices, volatile memory devices, mag-
+netic storage media, a storage area network (SAN), network-
+attached storage (NAS), optical storage media, printed
+media (such as bar codes and magnetic ink), and paper
+media (such as punch cards and paper tape). The storage
+hardware may include cache memory, which may be collo- 25
+cated with or integrated with processing hardware. Storage
+hardware may have read-only, write-once, or read/write
+properties. Storage hardware may be random access or
+sequential access. Storage hardware may be location-ad-
+dressable, file-addressable, and/or content-addressable. 30
+Example of nonvolatile memory devices include flash
+memory (including NAND and NOR technologies), solid
+state drives (SsDs), an erasable programmable read-only
+memory device such as an electrically erasable program-
+mableread-onlymemory(EEPROM)device,and amask35
+read-only memory device (ROM). Example of volatile
+memory devices include processor registers and random
+access memory (RAM), such as static RAM (SRAM),
+dynamic RAM (DRAM), synchronous DRAM (SDRAM),
+synchronous graphics RAM (SGRAM), and video RAM 40
+(VRAM). Example of magnetic storage media include ana-
+log magnetic tape, digital magnetic tape, and rotating hard
+disk drive (HDDs). Examples of optical storage media
+include a CD (such as a CD-R, CD-RW, or CD-ROM), a
+DVD, a Blu-ray disc, and an Ultra HD Blu-ray disc.
+Examples of storage implemented by the storage hard-
+ware include a distributed ledger, such as a permissioned or
+permissionless blockchain. Entities recording transactions,
+such as in a blockchain, may reach consensus using an
+algorithm such as proof-of-stake, proof-of-work, and proof- 50 r
+of-storage. Elements of the present disclosure may be rep-
+resented by or encoded as non-fungible tokens (NFTs).
+Ownership rights related to the non-fungible tokens may be
+recorded in or referenced by a distributed ledger. Transac-
+use one or both of fiat currency and cryptocurrencies,
+examples of which include bitcoin and ether. Some or all
+features of hardware may be defined using a language for
+hardware description, such as IEEE Standard 1364-2005
+(commonly called Verilog") and IEEE Standard 1076-2008 60
+(commonly called "VHDL"). The hardware description lan-
+guage may be used to manufacture and/or program hard-
+ware.
+A special-purpose system may be distributed across mul-
+tiple different software and hardware entities. Communica- 65
+tion within a special-purpose system and between special-
+[col 2]
+738
+hardware. The distribution may vary across embodiments
+and may vary over time. For example, the distribution may
+vary based on demand, with additional hardware and/or
+software entities invoked to handle higher demand. In vari-
+ous embodiments, a load balancer may direct requests to one
+of multiple instantiations of the special purpose system. The
+hardware and/or software entities may be physically distinct
+and/or may share some hardware and/or software, such as in
+a virtualized environment. Multiple hardware entities may
+be referred to as a server rack, server farm, data center, etc.
+Software includes instructions that are machine-readable
+and/or executable. Instructions may be logically grouped
+into programs, codes, methods, steps, actions, routines,
+functions, libraries, objects, classes, etc. Software may be
+stored by storage hardware or encoded in other hardware.
+Software encompasses (i) descriptive text to be parsed, such
+as HTML (hypertext markup language), XML (extensible
+markup language), and JSON (JavaScript Object Notation),
+(ii) assembly code, (ii) object code generated from source
+code by a compiler, (iv) source code for execution by an
+interpreter, (v) bytecode, (vi) source code for compilation
+and execution by a just-in-time compiler, etc. As examples
+only, source code may be written using syntax from lan-
+guages including C, C++, JavaScript, Java, Python, R, etc.
+Software also includes data. However, data and instruc-
+tions are not mutually-exclusive categories. In various
+embodiments, the instructions may be used as data in one or
+more operations. As another example, instructions may be
+derived from data. The functional blocks and flowchart
+elements in this disclosure serve as software specifications,
+which can be translated into software by the routine work of
+a skilled technician or programmer. Software may include
+and/or rely on firmware, processor microcode, an operating
+system (OS), a basic input/output system (BIOS), applica-
+tion programming interfaces (APIs), libraries such as
+dynamic-link libraries (DLLs), device drivers, hypervisors,
+user applications, background services, background appli-
+cations, etc. Software includes native applications and web
+applications. For example, a web application may be served
+to a device through a browser using hypertext markup
+language 5th revision (HTML5).
+Sofware may include artificial intelligence systems,
+which may include machine learning or other computational
+intelligence. For example, artificial intelligence may include
+one or more models used for one or more problem domains.
+When presented with many data features, identification of a
+subset of features that are relevant to a problem domain may
+improve prediction accuracy, reduce storage space, and
+increase processing speed. This identification may be
+referred to as feature engineering. Feature engineering may
+be performed by users or may only be guided by users. In
+various implementations, a machine learning system may
+computationally identify relevant features, such as by per-
+forming singular value decomposition on the contributions
+Examples of the models include recurrent neural networks
+(RNNs) such as long short-term memory (LSTM), deep
+learning models such as transformers, decision trees, sup-
+port-vector machines, genetic algorithms, Bayesian net-
+works, and regression analysis. Examples of systems based
+on a transformer model include bidirectional encoder rep-
+resentations from transformers (BERT) and generative pre-
+trained transformer (GPT). Training a machine-learning
+model may include supervised learning (for example, based
+on labelled input data), unsupervised learning, and rein-
+forcement learning. In various embodiments, a machine-

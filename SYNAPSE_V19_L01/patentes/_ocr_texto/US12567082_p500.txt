@@ -1,0 +1,135 @@
+In embodiments, the filtering 18038 may involve ignor- 25 PMCP device interface 18052, which may be used to trans-
+bining various types of data in order to provide better 35 In these embodiments, a vector may be considered an
+intelligence system 18042 may operate in accordance with 55 statistics); and recurrent neural network based forecasting.
+[col 1]
+US 12,567,082 B2
+677
+width is sufficient and data is important), formatting data to
+emphasize or de-emphasize certain aspects, or otherwise
+adjust formatting. In embodiments, the formatting 18032
+may depend on the prioritizing 18030 such that more
+important data may be formatted in order to allow for more
+or better analysis, while less important data may be format-
+ted in order to reduce its usage of various resources.
+In embodiments, the suppressing 18034 may involve
+reducing the amount of data, the number of destinations to
+which the data is transmitted, or otherwise reducing the 1o 
+usage of limited resources (e.g., bandwidth, processing,
+analysis, etc.) of the data. In embodiments, suppressed data
+may be stored (e.g., in a database) and dealt with (e.g..
+transmitted, processed) at a later time. In embodiments, the
+suppressing 18034 may be based on various factors as 15
+described above.
+In embodiments, an area focus 18036 may involve
+increasing the attention paid to certain high priority data. For
+example, during a security incident, security sensor data
+may be sent to additional destinations, processed using 20
+additional analyses, allowed additional bandwidth and pro-
+cessing power, and/or the like. In embodiments, an area
+focus 18036 may cause the suppression or filtering of other
+data that is not associated with the area focus 18036.
+ing, deleting, or otherwise removing data that is not impor-
+tant (e.g., does not match an area focus 18036, is low
+priority, etc.). In embodiments, data may be initially sup-
+pressed (e.g., reduced or stored for later), but conditions may
+further change, causing the data to be filtered (e.g., deleted, 30
+ignored). Thus, intake data management system 18028 may
+allow for a progressive downgrade of data by first suppress-
+ing and later filtering the data depending on conditions.
+In embodiments, the combining 18040 may include com-
+ analyses, generate new data, reduce the volume of data (e.g.,
+by combining multiple data values into a single data value),
+improve the quality of data (e.g-, by averaging different
+sensor readings to obtain a more accurate average reading),
+and/orthelike.In someembodiments, lowerprioritydata 40
+may be combined with other data in order to reduce require-
+ments. Additionally or alternatively, higher priority data may
+be combined with other data in order to improve data
+quality.
+In embodiments, the intake data management systemmay45
+interface with an intake controller 18008 and/or an intelli-
+gence system 18042. The intelligence system 18042, for
+example, may use various artificial intelligence techniques
+to perform the intake data management (e.g-, prioritize the
+data, format the data, suppress the data, select an area focus 5o 
+and/or assign data to an area focus, filter the data, combine
+the data, etc.), predict the outcomes of intake data manage-
+ment, predict future data values, and/or the like. Addition-
+ally or alternatively, the intake controller 18008 and/or an
+the intake data management, the artificial intelligence tech-
+niques (e.g., the parameters may be model parameters for AI
+models), and/or otherwise configure the operations of the
+intake management system 18006. 60
+In embodiments, the control system 18002 may, in some
+cases, use a quantum computing service 18046, which may
+provide quantum computing resources to more quickly
+process large volumes of data, use quantum models, and/or
+the like. 65
+The control system 18002 may further comprise one or
+more data interfaces 18048 for receiving data from various
+[col 2]
+678
+data sources 18004 and transmitting the data (e.g., after
+intake data management) to various destinations. In embodi-
+ments, the control system 18002 may include other system
+subsystems 18050, such as analysis subsystems, various
+processing chips, or any other subsystems that may use the
+managed data to make decisions, generate analyses, or
+otherwise perform data operations. In embodiments, an
+intelligence service 18010 may operate to route the managed
+data to various other system subsystems 18050, or otherwise
+perform initial and/or final processing on the data.
+In embodiments, the SOS control system 18002 can
+override the thalamus filtering and decide to focus on a
+different area for any specific reason. For example, during a
+security incident, the SOS control system may route around
+thalamus filtering (which might normally deprioritize data
+from security sensors) in order to ensure that data from
+security sensors are delivered in full without any de-priori-
+tization, suppression, filtering, etc. As another example,
+during regular inspections of equipment, sensor data that
+measures operation of the equipment (e.g, vibration sensor
+data) may be un-suppressed, even if the data appears to be
+within normal parameters and therefore might usually be
+suppressed or filtered.
+In embodiments, the control system 18002 may include a
+mit and/or receive data using PMCP. Details of a PMCP
+device interface are further shown within a second PMCP
+device interface 18060. In embodiments, the PMCP device
+interface18052maybe in communication with the PMCP
+device interface 18060.The PMCP device interface 18052
+may have the same components as shown within the PMCP
+device interface 18060.
+In embodiments, the PMCP device interface may be used
+to convert data to a vectorized format prior to transmission.
+example of a simple predictive model (e.g, a vector may
+indicate an amount of change and a direction of change for
+a data value, thus predicting a future state of a data value if
+the change continues). For example, the conversion of a long
+sequence of oftentimes similar data values into a vector
+indicating an amount and direction of change, which may
+imply a future state of the data values, makes the commu-
+nication of the data values both smaller in size and forward
+looking in nature.
+In embodiments, PMCP may use various types of predic-
+tive models to predict current and future data values, includ-
+ing weighted moving average; Kalman filtering; exponential
+smoothing; autoregressive moving average (ARMA) (fore-
+casts depend on past values of the variable being forecast,
+and on past prediction errors); autoregressive integrated
+moving average (ARIMA) (ARMA on the period-to-period
+change in the forecasted variable); extrapolation; linear
+prediction; trend estimation (predicting the variable as a
+linear or polynomial function of time); growth curve (e.g.,
+Using the PMCP protocol, instead of traditional streams
+where individual data items are transmitted, vectors repre-
+senting how the data is changing or what are the forecast
+trends in the data are communicated. The PMCP system may
+transmit actual model parameters to receiving units such that
+edge devices can apply the vector-based predictive models
+to determine future states. For example, each automated
+device in a value chain network may be configured to train
+a regression model or a neural network, constantly fitting the
+data streams to current input data. In some embodiments,
+automated devices leveraging the PMCP system are able to
+react in advance of events actually happening, rather than,

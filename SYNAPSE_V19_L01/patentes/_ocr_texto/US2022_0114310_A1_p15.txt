@@ -1,0 +1,72 @@
+[col 1]
+US 2022/0114310 A1
+determining a set of relevant environmental condition(s)
+that are relevant to selection of first-environment
+related policy for the plurality of first physical assets of
+the first asset type;
+for each given physical asset data set of the plurality of
+physical asset data sets, determining relevant environ-
+mental condition value(s), corresponding to the set of
+relevant environmental condition(s), under which the
+physical asset corresponding to the given physical asset
+data set operates;
+for the new physical asset, determining relevant environ-
+mental condition value(s), corresponding to the set of
+relevant environmental condition(s), under which the
+new physical asset operates; and
+creating a new physical asset data set corresponding to the
+new physical asset, with the creation of the new physi-
+cal asset data set including:
+selecting a selected first environment-related policy to
+control the first environment-related aspect of han-
+dling of the new physical asset based, at least in part
+upon: (i) the relevant environmental condition value
+(s) corresponding to the plurality of physical asset
+data sets, and (i) the relevant environmental condi-
+tion value(s) corresponding to the new physical
+assets, and
+adding the selected first environment-related policy to
+the new physical asset data set.
+15. The CIM of claim 14 wherein each physical asset data
+set ofthe plurality of physical asset data sets includes at least
+one of the following types of digital resources: bill of
+materials, parts list, user manual(s), engineering manual(s),
+fault codes, computer aided design files, augmented reality/
+virtual-reality models, maintenance manuals, maintenance
+plans, operating model, remote procedures for a technician,
+[col 2]
+Apr.14,2022
+stocking._strategy. forecast model, building information
+models (BIM) and/or service manual.
+16. The CIM of claim 14 further comprising:
+receiving operational data relating to the condition and/or
+operation of at least some of the physical assets respec-
+tively corresponding to the plurality of physical asset
+data sets; and
+applying machine learning to the operational data to
+adjust the first environment-related policy for at least
+one of the plurality of physical asset data sets.
+17. The CIM of claim 14 wherein:
+each given physical asset data set, of the plurality of
+physical asset data sets, is in the form of a digital twin
+that further includes three dimensional geometry model
+data for the physical asset corresponding to the given
+physical asset data set; and
+the new physical asset data set is in the form of a digital
+twin that further includes three dimensional geometry
+model data for the physical asset corresponding to the
+given physical asset data set.
+18. The CIM of claim 14 wherein the common asset type
+is at least one of the following asset types: vehicles, bridges,
+buildings, utility poles, fire hydrants, flood walls, emergency
+phones, tended gardens, lawns, pumps, large scale electrical
+components, HVAC (heating, ventilation and air condition-
+ing) components, land, facilities, infrastructure and/or major
+manufacturing equipment.
+19. The CIM of claim 14 wherein each physical asset data
+further includes information indicative of a maintenance
+plan.
+20. The CIM of claim 14 wherein each physical asset data
+further includes information indicative of a stocking strat-
+egy.
+***

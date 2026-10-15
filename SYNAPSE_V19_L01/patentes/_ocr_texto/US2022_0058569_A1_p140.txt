@@ -1,0 +1,128 @@
+[col 1]
+US 2022/0058569 A1
+57
+develop a sequence of labeled instructions that can be used
+by a developer to facilitate a map, a graph, or other models
+of a process that assists with development of automation for
+the process. In embodiments, a specified set of training data
+sets may be configured to operate as inputs to learning. In
+such cases the training data may be time-synchronized with
+other data within the platform 604, such as outputs and
+outcomes from applications 630, outputs and outcomes of
+value chain entities 652, or the like, so that a given video of
+a process can be associated with those outputs and out-
+comes, thereby enabling feedback on learning that is sensi-
+tiveto the outcomes that occurred when a given process that
+was captured (such as on video, or through observation of
+software interactions or physical process interactions). For
+example, this may relate to an instruction video such as a
+video of a person who may be building or rebuilding (e.g..
+rebuilding a bearing set). This instruction video may include
+individual steps for rebuild that may allow a staging of the
+training to provide instructions such as parsing the video
+into stages that mimic the experts staging in the video. For
+example, this may include tagging of the video to include
+references to each stage and status (e.g., stage one complete,
+stage two, etc.) This type of example may utilize artificial
+intelligence that may understand that there may be a series
+of sub-functions that add up to a final function.
+[0465] In embodiments, opportunity miners 1460 may
+include methods, systems, processes, components, services
+and other elements for mining for opportunities for smart
+contract definition, formation, configuration and execution.
+Data collected within the platform 604, such as any data
+handled by the data handling layers 624, stored by the data
+storage layer 624, collected by the monitoring layer 614 and
+collection systems 640, collected about or from entities 652
+or obtained from external sources may be used to recognize
+beneficial opportunities for application or configuration of
+smart contracts. For example, pricing information about an
+entity 652, handled by a pricing application 842, or other-
+wise collected, may be used to recognize situations in which
+the same item or items is disparately priced (in a spot
+market, futures market, or the like), and the opportunity
+miner 1460 may provide an alert indicating an opportunity
+for smart contract formation, such as a contract to buy in one
+environment at a price below a given threshold and sell in
+another environment at a price above a given threshold, or
+vice versa.
+[0466] In some examples, as shown in FIG. 26, the adap-
+tive intelligent systems 614 may include value translators
+1470. The value translators 1470 may relate to demand side
+of transactions. Specifically, for example, the value transla-
+tors 1470 may understand negative currencies of two mar-
+ketplaces and may be able to translate value currencies into
+other currencies (e.g., not only fiat currencies that already
+have clear translation functions). In some examples, value
+translators 1470 may be associated with points of a point-
+based system (e.g., in a cost-based routing system). In an
+example embodiment, value translators 1470 may be loyalty
+points offered that may be convertible into airline seats
+and/or may translate to refund policies for staying in a hotel
+room. In some examples, different types of entities may be
+connected as having native pricing or cost functions that do
+not always use the same currency or any currency. In another
+example, value translators 1470 may be used with network
+prioritization or cost-based routing that happens in networks
+[col 2]
+Feb.24,2022
+off of priorities where the point system in these cost-based
+routing systems is not monetary-based.
+Broad Management Platform
+[0467] Referring to FIG. 28, additional details of an
+embodiment of the platform 604 are provided, in particular
+relating to an overall architecture for the platform 604.
+These may include, for the cloud-based management plat-
+form 604, employing a micro-services architecture, a set of
+network connectivity facilities 642 (which may include or
+connect to a set of interfaces 702 of various layers of the
+platform 604), a set of adaptive intelligence facilities or
+adaptive intelligent systems 1160, a set of data storage
+facilities or systems 624, and a set of monitoring facilities or
+systems 614. The platform 604 may support a set of appli-
+cations 630 (including processes, workflows, activities,
+events, use cases and applications) for enabling an enterprise
+to manage a set of value chain network entities 652, such as
+from a point of origin to a point of customer use of a product
+650, which may be an intelligent product.
+[0468]  Thus, provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture; a set of interfaces,
+network connectivity facilities, adaptive intelligence facili-
+ties, data storage facilities, and monitoring facilities; and a
+set of applications for enabling an enterprise to manage a set
+of value chain network entities from a point of origin to a
+point of customer use.
+[0469] Also provided herein are methods, systems, com-
+ponents and other elements for an information technology
+system that may include: a cloud-based management plat-
+form with a micro-services architecture, the platform hav-
+ing: a set of interfaces for accessing and configuring features
+of the platform; a set of network connectivity facilities for
+enabling a set of value chain network entities to connect to
+the platform; a set of adaptive intelligence facilities for
+automating a set of capabilities of the platform; a set of data
+storage facilities for storing data collected and handled by
+the platform; and a set of monitoring facilities for monitor-
+ing the value chain network entities; wherein the platform
+hosts a set of applications for enabling an enterprise to
+manage a set of value chain network entities from a point of
+origin of a product of the enterprise to a point of customer
+use.
+Broad Management PlatformDetails
+[0470] Referring to FIG. 29, additional details of an
+embodiment of the platform 604 are provided, in particular
+relating to an overall architecture for the platform 604.
+These may include, for the cloud-based management plat-
+form 604, employing a micro-services architecture, a set of
+network connectivity facilities 642 (which may include or
+connect to a set of interfaces 702 of various layers of the
+platform 604), a set of adaptive intelligence facilities or
+adaptive intelligent systems 1160, a set of data storage
+facilities or systems 624, and a set of monitoring facilities or
+systems 614. The platform 604 may support a set of appli-
+cations 630 (including processes, workflows, activities,
+events, use cases and applications) for enabling an enterprise
+to manage a set of value chain network entities 652, such as
+650, which may be an intelligent product.

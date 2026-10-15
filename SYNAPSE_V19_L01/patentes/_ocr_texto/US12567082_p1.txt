@@ -1,0 +1,110 @@
+[col 1]
+United States Patent
+(12)
+Cella et al.
+(54) AUTONOMOUS SMART CONTRACT
+EXECUTION PLATFORM
+Applicant: Strong Force VCN Portfolio 2019, (71)
+LLC, Fort Lauderdale, FL (US)
+(72) Inventors: Charles Howard Cella, Pembroke, MA
+(US); Andrew S. Locke, Farmington,
+MI (US)
+Assignee: Strong Force VCN Portfolio 2019, (73)
+LLC, Fort Lauderdale, FL (US)
+(*) Subject to any disclaimer, the term of this
+Notice:
+patent is extended or adjusted under 35
+U.S.C. 154(b) by 0 days.
+(21) Appl. No.: 18/179,934
+(22) Filed: Mar. 7, 2023
+(65) Prior Publication Data
+Aug. 3, 2023 US2023/0245156A1
+Related U.S. Application Data
+No. Continuation-in-part (63)  application of
+PCT/US2022/028633,filed onMay 10,2022,anda
+(Continued)
+(30)
+Foreign Application Priority Data
+Feb. 18, 2022 (IN) 202211008709
+(51) Int. CI.
+G06Q 30/0201 (2023.01)
+(2006.01) G05B 13/04
+(Continued)
+U.s. CI. (52)
+G06O30/0206(2013.01):G05B13/048
+(2013.01);G06F9/4881 (2013.01);
+(Continued)
+Manufacturing Part Twin
+10504
+10510..
+Environment Ploduct Twb?
+10215 Twin 10714
+Simulation
+Data
+Externai
+Machine Arificiot
+Learning tntetligence
+10210 10212
+Training
+Data Machine tearning
+Modeis
+10213
+Qutcome
+Uata
+[col 2]
+US012567082B2
+US 12,567,082 B2
+(10) Patent No.:
+Mar. 3, 2026 (45) Date of Patent:
+(58) Field of Classification Search
+G06Q 30/02 CPC
+(Continued)
+(56)
+References Cited
+U.S. PATENT DOCUMENTS
+6,985,877 B1 1/2006 Hayward
+3/2012 Pang 8,131,581 B1
+(Continued)
+FOREIGNPATENT DOCUMENTS
+CA 3118308 A1 5/2020
+104036007A 9/2014
+(Continued)
+OTHER PUBLICATIONS
+Nair, Price discovery and pairs trading potentials: the case of metals
+markets, Journal of Financial Economic Policy 13.5, 565-586
+(2021) (Year: 2021)*
+(Continued)
+Primary ExaminerMichael P Harrington
+AssistantExaminer-MarkCClare
+(74) Attorney, Agent, or Firm -Miller Johnson
+ABSTRACT (57)
+An autonomous futures contract orchestration platform
+includes a set of processors programmed with a set of
+non-transitory computer-readable instructions. The instruc-
+tions include receiving, from a data source, an indication
+associated with a product that relates to an entity that
+purchases or sells the product. The instructions include
+predicting a baseline cost of purchasing or selling the
+product at a future point in time based on the indication. The
+instructions include retrieving a futures cost, at a current
+point in time, of a futures contract for an obligation to the
+purchasing or selling the product for delivery or perfor-
+mance of the product at the future point in time. The
+instructions include executing a smart contract for the
+futures contract based on the baseline cost and the futures
+(Continued)
+Frocess & Feedstock Customer CFO Tun Material formuiation
+Tvin 10720 Seiection Twin 10718 Twin 10708
+10702 10513
+User Twin 10508
+Simutation Material Selectlon
+management Sstem 10/04.
+10514 Feecistcck
+Fornutation system
+10706
+Design optimizaticn
+System 10710
+Risk prediction ancl management
+10712
+Marketing onct
+customer service 10716

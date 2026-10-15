@@ -1,0 +1,132 @@
+[col 1]
+US 2022/0114310A1
+from the weather information available online (for example,
+weather information available through proprietary and/or
+public APIs); (ii) the Digital Twin associated with the
+physical asset is modified to reflect adjusted operations
+along with environmental readings at the time of the entry by
+pulling data from sensors located on, or in proximity to, on
+the equipment (for example, sensors that use protocols based
+on APIs or from building/room sensors); (iv) many digital
+twins for similar assets may entered into a single asset
+management system; and/or (v) using cognitive computing
+and machine learning, over time patterns are uncovered on
+which adjustments are made to the digital twin for various
+regions.
+[0048] An example of a use case of similar assets in the
+same region (operating conditions) will now be discussed. A
+new owner/operator of a second physical similar to the first
+physical asset joins the system. The new owner/operator
+wishes to initiate a Digital Twin. The new owner/operator
+specifies the planned location of operation where the second
+physical asset will be operated. If the system doesn't have a
+corpus of previous digital twins that reflect the desired
+location, then: (i) predicted weather data is pulled and
+compared against other environmentally modified digital
+twins; (ii) the weather data is compared against the weather
+data at the already collected corpus of available twins; (ii)
+on condition that no statistically similar weather patterns are
+found, a default digital twin is created the user is alerted and
+asked to pick from options showing variations in weather;
+and (iv) on condition that a statistically similar weather
+pattern is found, proceed to the *creation-from-corpus
+operation" described in the following paragraph.
+[0049]CREATION-FROM-CORPUS OPERATION:If
+the system has a corpus of previous digital twins that reflect
+the same desired location, then the system creates the new
+digital twin for the second physical asset. Evidence is
+provided for why changes in Digital Twin resources are
+suggested based on the operating location. When specific
+files vary greatly, the system may prompt the second owner
+operator to the variations. If, in the future, the physical asset
+is to be relocated to a new region, the system could do a
+comparison between the current location weather and the
+new location weather and any digital twins in both for the
+asset to recommend augmenting the current digital twin with
+any environmental specific digital twin changes.
+[0050] An example of operations according to what is
+described in the previous two (2)paragraphs will now be
+discussed with reference to FIG.5A (showing diagram500a
+reflective of a first time T1) and FIG. 5B (showing diagram
+500b reflective of a later time T2).As shown in diagram
+500a, at time T1, first truck 552 is operated in the state of
+Montana and second truck 554 is operated in Southern
+California. A Digital Twin is created for both trucks as
+follows: (i) first digital twin data set 508, corresponding to
+first truck 552, is maintained on digital twin server 506; and
+(ii) second digital twin data set 510, corresponding to second
+truck 554, is maintained on digital twin server 506. The
+correspondence between the physical trucks and their
+respectively corresponding digital twins (DTs) is shown by
+dashed lines in FIGS. 5A and 5B). Some of the digital twin
+resources, included in data sets 508 and 510, are the same,
+such as the operating manual and 3D models. However, each
+digital twin data set 508, 510 has a unique set of resources
+as well. The sets of unique resources have been learned over
+time and include the environmental impact on each digital
+[col 2]
+Apr.14,2022
+twin data set (and presumably on the respectively corre-
+sponding physical truck). This environmental impact may be
+reflected in various policies that are included in the digital
+twin data set, such as policies on frequency of maintenance
+and number of spare parts in inventory.
+[0051] In this way, by referring to the digital twin data
+sets, learning (for example, machine learning) can inform:
+(i) the impact the environment is having on each truck over
+time; and (ii) optimal responsive policies (for example,
+spare parts policies, frequency of maintenance policies) that
+take the environmental impact into account. At time T1, the
+policies for first truck 552, as stored in DT data set 508, are
+as follows: (i)ten (10)spare tires arekept in inventory for
+first truck 552; (ii) maintenance is once a month during the
+summer months; and (i) maintenance is every two (2)
+months during the winter months. At time Ti, the policies
+for second truck 554, as stored in DT data set 510, are as
+follows: (i) three (3) spare tires are kept in inventory for
+second truck 554; and (ii) maintenance is every three (3)
+months during both summer and winter months. These
+policies are chosen because tires wear down faster due to
+road conditions in Montana, relative to Southern California.
+Trucks in Montana also have to have maintenance per-
+formed more frequently, every month in the winter and
+every two months during the summer months primarily due
+to harsher weather conditions in Montana, relative to South-
+ern California.
+[0052]As shown in diagram 500b, at time T2, third truck
+556 is purchased and will operate in Texas. Unfortunately,
+the system doesn't yet have any DTs yet operating in Texas.
+In response to this, machine logic of DT server 506 does a
+lookup, from weather server 504 and through communica-
+tion network 502, of historical and predicted weather for
+Texas, where third truck 556 will operate. In some embodi-
+ments, the look up may include other environmental factors,
+such as earthquakes, ocean tides, local flora and fauna, local
+terrain, etc.anything localized relevant factors that might
+have an impact on maintenance or inventory policy for a real
+world resource (for example, a truck). By pulling informa-
+tion from a commercial weather data service provider, a
+comparison is made between the weather in Texas to the
+weather for the other DT data sets 508, 510 that already exist
+on DT server 506. Machine logic of DT server 506 deter-
+mines that most relevant weather is reflected in second DT
+data set 510 (the California twin), meaning that DT data set
+is selected as a default staring state digital twin to use to
+create third DT data set 512 corresponding to third truck
+556. Third DT data set 512 (Texas based) is created based on
+the resources within second DT data set 510, and not first DT
+data set 508.
+[0053]Some additional considerations will now be dis-
+cussed. A piece of equipment may move from one region to
+another where the weather conditions are quite different. The
+operating history of the equipment can be stored in the
+operating history of the digital twin.
+[0054]A method, according to an embodiment of the
+present invention, for generating a digital representation of
+a physical asset includes the following operations (not
+necessarily in the following order): (i) receiving a request to
+initiate a digital representation of a first physical asset; (ii)
+identifying a geographic location associated with the physi-
+cal asset; (ii) retrieving weather data for the geographic
+location from a weather data service via an API; (iv)
+matching the retrieved weather data to weather data of an

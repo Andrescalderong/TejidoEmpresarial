@@ -1,0 +1,136 @@
+[col 1]
+US 12,675,781 B2
+609
+intelligence. For example, artificial intelligence may include
+one or more models used for one or more problem domains.
+When presented with many data features, identification of a
+subset of features that are relevant to a problem domain may
+improve prediction accuracy, reduce storage space, and
+increase processing speed. This identification may be
+referred to as feature engineering. Feature engineering may
+be performed by users or may only be guided by users. In
+various implementations, a machine learning system may
+computationally identify relevant features, such as by per-
+forming singular value decomposition on the contributions
+of different features to outputs.
+Examples of the models include recurrent neural networks
+learning models such as transformers, decision trees, sup-
+port-vector machines, genetic algorithms, Bayesian net-
+works, and regression analysis. Examples of systems based
+on a transformer model include bidirectional encoder rep-
+resentations from transformers (BERT) and generative pre- 20
+trained transformer (GPT). Training a machine-learning
+model may include supervised learning (for example, based
+on labelled input data), unsupervised learning, and rein-
+forcement learning. In various embodiments, a machine-
+learning model may be pre-trained by their operator or by a 25
+third party. Problem domains include nearly any situation
+where structured data can be collected, and includes natural
+language processing (NLP), computer vision (CV), classi-
+fication, image recognition, etc.
+Some or all of the software may run in a virtual environ- 30
+ment rather than directly on hardware. The virtual environ-
+ment may include a hypervisor, emulator, sandbox, con-
+tainer engine, etc. The software may be built as a virtual
+machine, a container, etc. Virtualized resources may be
+controlled using, for example, a DOCKER container plat- 35
+form, a pivotal cloud foundry (PCF) platform, etc.
+In a client-server model, some ofthe software executes on
+first hardware identified functionally as a server, while other
+of the software executes on second hardware identified
+functionally as a client. The identity of the client and server 40
+is not fixed: for some functionality, the first hardware may
+act as the server while for other functionality, the first
+hardware may act as the client. In different embodiments and
+in different scenarios, functionality may be shifted between
+the client and the server. In one dynamic example, some 45
+functionality normally performed by the second hardware is
+shifted to the first hardware when the second hardware has
+less capability. In various embodiments, the term “local"
+may be used in place of "client,'" and the term “remote"may
+be used in place of "server." 50
+Some or all of the software may be logically partitioned
+into microservices. Each microservice offers a reduced sub-
+set of functionality. In various embodiments, each micros-
+ervice may be scaled independently depending on load,
+either by devoting more resources to the microservice or by 55
+instantiating more instances of the microservice. In various
+embodiments, functionality offered by one or more micro-
+services may be combined with each other and/or with other
+software not adhering to a microservices model.
+Some or all of the software may be arranged logically into 6o f
+layers. In a layered architecture, a second layer may be
+logically placed between a first layer and a third layer. The
+first layer and the third layer would then generally interact
+with the second layer and not with each other. In various
+embodiments, this is not strictly enforcedthat is, some 65
+direct communication may occur between the first and third
+layers.
+[col 2]
+610
+The invention claimed is:
+1. An information technology system for a distributed
+manufacturing network, the information technology system
+comprising:
+a smart contract system;
+an additive manufacturing management platform includ-
+ing an artificial intelligence system configured to:
+learn on a training set of outcomes, parameters, and
+data collected from a set of distributed manufactur-
+ing network entities, wherein the set of distributed
+manufacturing network entities includes at least one
+of: printed parts, products, processes, 3D printers,
+users, customers, packagers, or manufacturing
+nodes; and
+execute simulations on digital twins of the set of
+distributed manufacturing network entities to make
+at least one of: classifications, predictions, or opti-
+mization-related decisions for the set of distributed
+manufacturing network entities based, at least par-
+tially, on the learned training set; and
+a distributed ledger system integrated with a digital thread
+and configured to, using a blockchain, provide a set of
+unified views of workflow information and transaction
+information to the set of distributed manufacturing
+network entities based, at least partially, on the
+executed simulations on the digital twins,
+wherein the artificial intelligence system executes the
+simulations on at least one of: a part twin, a product
+twin, or a printer twin of the digital twins for generating
+a quote for three-dimensional (3D) printing of an item
+relating to the set of distributed manufacturing network
+entities,
+wherein the smart contract system is configured to gen-
+erate a smart contract based, at least partially, on the
+quote, and
+wherein the distributed ledger system is configured to
+provide at least one of the set of unified views of the
+transaction information including the generated smart
+contract with respect to the item.
+2. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, or the
+printer twin of the digital twins for generating recommen-
+dations related to printing to a user of the additive manu-
+facturing managementplatform.
+3. The information technology system of claim 2, wherein
+the recommendations relate to at least one of: a choice of a
+material for printing or a 3D printing technique.
+4. The information technology system of claim 2, wherein
+the recommendations relate to at least one of: a choice of a
+manufacturing node, a source of manufacturing, a location
+of manufacturing, timing of scheduling of an additive manu-
+facturing job, a step of the additive manufacturing job, or
+parameters for design of a printed part.
+5. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, or the
+printer twin of the digital twins for predicting delivery times
+for 3D printing jobs.
+6. The information technology system of claim 1, wherein
+the artificial intelligence system executes the simulations on
+the at least one of: the part twin, the product twin, the printer
+twin, or a manufacturing node twin of the digital twins for
+predicting cost over-runs in a manufacturing process per-
+formed by the set of distributed manufacturing network
+entities.

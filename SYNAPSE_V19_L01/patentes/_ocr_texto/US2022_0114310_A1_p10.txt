@@ -1,0 +1,126 @@
+[col 1]
+US 2022/0114310A1
+device that provides a mechanism to display data to a user
+and may be, for example, a computer monitor or a smart
+phone display screen.
+[0029] In this embodiment, program 300 is stored in
+persistent storage 210 for access and/or execution by one or
+more computer processors of processor set 204, usually
+through one or more memories of memory 208. It will be
+understood by those of skill in the art that program 300 may
+be stored in a more highly distributed manner during its run
+time and/or when it is not running. Program 300 may include
+both machine readable and performable instructions and/or
+substantive data (that is,the type of data stored in a
+database). In this particular embodiment, persistent storage
+210 includes a magnetic hard disk drive. To name some
+possible variations, persistent storage 210 may include a
+solid state hard drive, a semiconductor storage device,
+read-only memory (ROM), erasable programmable read-
+only memory (EPROM), flash memory, or any other com-
+puter-readable storage media that is capable of storing
+program instructions or digital information.
+[0030]  The programs described herein are identified based
+upon the application for which they are implemented in a
+specific embodiment of the invention. However, it should be
+appreciated that any particular program nomenclature herein
+is used merely for convenience, and thus the invention
+should not be limited to use solely in any specific application
+identified and/or implied by suchnomenclature.
+[0031] The descriptions of the various embodiments of the
+present invention have been presented for purposes of
+illustration, but are not intended to be exhaustive or limited
+to the embodiments disclosed. Many modifications and
+variations will be apparent to those of ordinary skill in the
+art without departing from the scope and spirit of the
+described embodiments. The terminology used herein was
+chosen to best explain the principles of the embodiments, the
+practical application or technical improvement over tech-
+nologies found in the marketplace, or to enable others of
+ordinary skill in the art to understand the embodiments
+disclosed herein.
+II.Example Embodiment
+[0032] As shown in FIG. 1, networked computers system
+100 is an environment in which an example method accord-
+ing to the present invention can be performed. As shown in
+FIG. 2, flowchart 250 shows an example method according
+to the present invention. As shown in FIG. 3, program 300
+performs or controls performance of at least some of the
+method operations of flowchart 250. This method and asso-
+ciated software will now be discussed, over the course of the
+following paragraphs, with extensive reference to the blocks
+of FIGS. 1, 2 and 3.
+[0033]  Processing begins at operation S255, where bridge
+data store 302 receives bridge data sets 304a to 304e for five
+(5) different bridges in five different cities, specifically city
+A, city B, city C, city D and city E. These data sets 304a to
+304e are respectively received from city subsystems 104,
+106, 108, 110, 112 and over communication network 114.
+[0034] Each of the bridge data sets includes the following
+information about the respectively corresponding bridge: (i)
+an identification code for the bridge; (i) the location of the
+bridge; (ii) the style of bridge structure; (iv) the type of
+paint used to paint and repaint the bridge; (v) the frequency
+with which the bridge is repainted as part of bridge main-
+[col 2]
+Apr.14, 2022
+the bridge when it is not being repainted. The type of paint
+used to paint and repaint the bridge is sometimes herein
+referred to as a first environment-related policy because it is
+environment in which the respective bridge exists. This
+relationship between the environment and the bridge
+repainting schedule will be further discussed below in the
+subsequent steps of the method of flowchart 250. The
+amount of paint kept in inventory for the bridge is some-
+times herein referred to as a second environment-related
+policy because it is an aspect of bridge maintenance that is
+impacted by the environment in which the respective bridge
+exists. This example uses a bridge as an example of a
+"physical asset." Various embodiments of the present inven-
+tion may be applied to many different types of physical
+assets, so long as the type of physical asset: (i) has a policy
+related to its control which is impacted by some aspect of the
+operating environment (this is sometimes herein referred to
+as and environmental condition); and (ii) has a relatively
+fixed geographic location (for example, many motor
+vehicles are operated within a relatively fixed geographic
+location).
+[0035]   In this example, the five (5) bridges that are cur-
+rently being tracked in bridge data store 302 are all consid-
+ered to be a common type of bridge because they are all
+painted and repainted with the same type of paint. Physical
+assets may be grouped into types, of varying degrees of
+type of object (for example, bridge, building, fire hydrant,
+motor vehicle); make and model of a type of vehicle (for
+example, model T Ford brand motor vehicle); and/or type of
+building (for example, industrial building, apartment build-
+ing, residential house, retail store, shopping mall, shopping
+plaza, government building). As will be apparent to those of
+skill in the art, different types of physical assets can be
+clustered at many different degrees of granularity and based
+on many different dimension(s) or parameter(s).
+[0036] Processing proceeds to operation S260, where
+receive new bridge request module ("mod") 306 receives a
+tions for a new bridge located in city F. This request includes
+information indicative of the geographic location of the
+bridge and the type of paint used to paint and repaint the
+bridge (which is the same type of paint used for the bridges
+scheduling repainting of the bridge, and it also does not
+include any policy with respect to how much paint is
+regularly kept in inventory for the bridge. It is noted that this
+new bridge is “new" in the sense that it is just starting to be
+tracked by server subsystem 102 and program 300, but that
+doesn't mean that it is a newly constructed bridgeit may
+be a bridge that has existed for a long time, but does not have
+a reliable repainting schedule assigned to it as its digital
+profile comes into data store 302.
+[0037]  It is noted that data sets 304a to 304e would not be
+considered as digital twins because these data sets don't
+have any three-dimensional modeling data associated with
+them. As will be discussed in the next subsection of this
+Detailed Description section, many embodiments of the
+present invention may be directed to systems where the
+digital profiles of the physical assets are in the form of
+digital twins of the physical assets.
+[0038] Processing proceeds to operation S265, where
+make new bridge data set mod 308: (i) determines which

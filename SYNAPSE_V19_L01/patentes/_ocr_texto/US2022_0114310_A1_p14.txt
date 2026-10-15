@@ -1,0 +1,129 @@
+[col 1]
+US 2022/0114310 A1
+information indicative of the operating environment in
+which the existing digital twin is operating;
+receiving a request to make a first new PAPDS corre-
+sponding to a first physical asset, with the request
+including information indicative of an operating envi-
+ronment in which the first physical asset is planned to
+be operated; and
+determining a suggested base PAPDS from the plurality of
+PAPDSs based upon between the following: (i) the
+operating environments of the suggested base digital
+twin, and (i) the operating environment indicated in
+the request.
+2. The CIM of claim 1 further comprising:
+communicating an identity of the suggested base PAPDS
+to a requestor who sent the request.
+3. The CIM of claim 2 further comprising:
+receiving an instruction, from the requestor, to use the
+suggested base PAPDS; and
+responsive to the instruction, making the first new digital
+twin using the suggested base PAPDS to supply at least
+some of the default values for the first new PAPDS.
+4.TheCIMof claim3whereinthefirst newPAPDS
+includes at least one of the following types of digital
+resources: bill of materials, parts list, user manual(s), engi-
+neering manual(s), fault codes, computer aided design files,
+augmented reality/virtual-reality models, maintenance
+manuals, maintenance plans, operating model, remote pro-
+cedures for a technician, stocking strategy, forecast model,
+building information models (BIM) and/or servicemanual.
+5. The CIM of claim 1 wherein:
+the plurality of existing PAPDSs are respectively in the
+form of digital twins;
+the first new PAPDS is in the form of a digital twin; and
+the request is received through a digital twin marketplace
+interface.
+6. The CIM of claim 1 further comprising:
+tracking the location of the first physical asset;
+responsive to the tracking, determining that the first
+geographic asset has moved to a different operating
+environment; and
+responsive to the determination that the first physical asset
+has moved to a new operating environment, determin-
+ing a new suggested base PAPDS from the plurality of
+PAPDSs based upon between the following: (i) the new
+operating environments of the suggested base digital
+twin, and (i) the operating environments of the plural-
+ity of existing PAPDSs.
+7. A computer program product (CPP) comprising:
+a set of storage device(s); and
+computer code stored on the set of storage device(s), with
+the computer code including data and instructions for
+causing a processor(s) set to perform at least the
+following operations:
+receiving a plurality of existing physical asset profile
+data sets (PAPDSs), with each existing PAPDS
+including information indicative of the operating
+environment in which the existing digital twin is
+operating.
+receiving a request to make a first new PAPDS corre-
+sponding to a first physical asset, with the request
+including information indicative of an operating
+environment in which the first physical asset is
+planned to be operated, and
+[col 2]
+Apr.14, 2022
+determining a suggested base PAPDS from the plurality
+of PAPDSs based upon between the following: (i) the
+operating environments of the suggested base digital
+twin, and (ii) the operating environment indicated in
+the request.
+8. The CPP of claim 7 wherein the computer code further
+includes data and instructions for causing the processor
+set(s) to perform the following operation(s):
+communicating an identity of the suggested base PAPDS
+to a requestor who sent the request.
+9. The CPP of claim 8 wherein the computer code further
+includes data and instructions for causing the processor
+set(s) to perform the following operation(s):
+receiving an instruction, from the requestor, to use the
+suggested base PAPDS; and
+responsive to the instruction, making the first new digital
+twin using the suggested base PAPDS to supply at least
+some of the default values for the first new PAPDS.
+10. The CPP of claim 9 wherein the first new PAPDS
+includes at least one of the following types of digital
+resources: vehicles, bridges, buildings, utility poles, fire
+hydrants, flood walls, emergency phones, tended gardens,
+lawns, pumps, large scale electrical components, HVAC
+(heating, ventilation and air conditioning) components, land,
+facilities, infrastructure and/or major manufacturing equip-
+ment.
+11. The CPP of claim 7 wherein:
+the plurality of existing PAPDSs are respectively in the
+form of digital twins;
+the first new PAPDS is in the form of a digital twin; and
+the request is received through a digital twin marketplace
+interface.
+12. The CPP ofclaim 7 wherein the computer code further
+includes data and instructions for causing the processor
+set(s) to perform the following operation(s):
+tracking the location of the first physical asset;
+responsive to the tracking, determining that the first
+geographic asset has moved to a different operating
+environment; and
+responsive to the determination that the first physical asset
+has moved to a new operating environment, determin-
+ing a new suggested base PAPDS from the plurality of
+PAPDSs based upon between the following: (i) the new
+operating environments of the suggested base digital
+twin, and (i) the operating environments of the plural-
+ity of existing PAPDSs.
+13. The CPP of claim 7 further comprising the processor
+(s) set, wherein the CPP is in the form of a computer system
+(CS).
+14. A computer-implemented method (CIM) comprising:
+receiving a plurality of physical asset data sets for respec-
+tively corresponding physical assets having a common
+asset type, with each given physical asset data set
+including information indicative of: (i) identity of the
+respectively corresponding physical asset, (ii) location
+of the respectively corresponding physical asset, and
+(iii) a first environment-related policy that controls a
+first environment-related aspect of handling of the
+respectively corresponding physical asset;
+receiving a new physical asset request including informa-
+tion indicative of (i) identity of a new physical asset,
+and (ii) location of the new physical asset;

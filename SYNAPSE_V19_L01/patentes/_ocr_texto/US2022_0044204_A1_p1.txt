@@ -1,0 +1,98 @@
+[col 1]
+(19) United States
+(12) Patent Application Publication
+CELLA et al.
+(54) ARTIFICLAL INTELLIGENCE SYSTEM FOR
+CONTROLTOWERANDENTERPRISE
+MANAGEMENT PLATFORM MANAGING
+SENSORS AND CAMERAS
+(71) Applicant: STRONG FORCE VCN
+PORTFOLIO 2019,LLC,Fort
+Lauderdale, FL (US)
+Inventors: Charles Howard CELLA, Pembroke, (72)
+MA (US); Richard SPITZ, Fort
+Lauderdale, FL (US): Teymour S.
+EL-TAHRY, Birmingham, MI (US);
+Andrew CARDNO, Fort Lauderdale,
+FL (US); Jenna PARENTI, Fort
+Lauderdale, FL (US): Brent BLIVEN
+Fort Lauderdale, FL (US); Joshua
+DOBROWITSKY, Birmingham, MI
+(US)
+Assignee: STRONG FORCE VCN (73)
+PORTFOLIO 2019,LLC,Fort
+Lauderdale, FL (US)
+(21) Appl. No.: 17/461,260
+(22) Filed: Aug. 30, 2021
+Related U.S. Application Data
+Continuation of application No. PCT/US2020/ (63)
+059227, filed on Nov.5, 2020.
+Provisional application No. 63/087,292, filed on Oct. (60)
+4,2020,provisionalapplicationNo.63/069.533,filed
+on Aug.24,2020, provisional application No.63/054,
+606,filed on Jul.21,2020,provisional application
+No. 63/016,976, filed on Apr.28, 2020, provisional
+application No. 62/969,153, filed on Feb. 3, 2020,
+provisional application No. 62/931,193, filed on Nov.
+5, 2019.
+102
+Point of Origin 130 132
+-122
+Suppliers
+Warehousing
+Product
+Production
+180
+Supply Environments 138
+160
+[col 2]
+US20220044204A1
+1 (10) Pub. No.: US 2022/0044204 A1
+Feb.10, 2022 (43) Pub. Date:
+Publication Classification
+(51) Int. CI.
+G06Q 10/10 (2006.01)
+G06F16/27 (2006.01)
+G06F16/28 (2006.01)
+G06N 3/08 (2006.01)
+G06Q10/06 (2006.01)
+G06Q 50/28 (2006.01)
+G06Q30/02 (2006.01)
+G06Q50/26 (2006.01)
+H04L29/08 (2006.01)
+(52) U.s. CI.
+CPC G06O10/103(2013.01);G06F16/27
+(2019.01);G06F16/284(2019.01);G06N
+3/08 (2013.01); G06Q 10/06313 (2013.01);
+H04W84/042(2013.01);G06Q30/0202
+(2013.01);G06Q50/26(2013.01);H04L
+67/1097(2013.01);G06Q2220/10 (2013.01);
+G06Q 50/28 (2013.01)
+(57) ABSTRACT
+A value chain system that provides recommendations for
+designing a logistics system generally includes a machine
+learning system that trains machine-learned models that
+output iogistics design recommendations based on training
+data sets that each respectively defines one or more features
+ofa respective logistic system and an outcome relating to the
+respective logistics system; an artificial intelligence system
+that receives a request for a logistics system design recom-
+mendation and determines the logistics system design rec-
+ommendation based on one or more of the machine-learned
+models and the request; and a digital twin system that
+generates an environment digital twin of a logistics envi-
+ronment that incorporates the logistics system design rec-
+ommendation, and one or more physical asset digital twins
+of physical assets. The digital twin system executes a
+simulation based on the logistics environment digital twin,
+the one or more physical asset digital twins.
+104
+Destination 114 112
+142-
+Customers
+Futllment Delivery Systems
+Retailers
+Distribution Facilties
+154- Demand
+Environments 134
+170

@@ -1,0 +1,137 @@
+[col 1]
+US 12,277,524 B2
+65
+duty, a credit, a fee or other government-imposed charge,
+ such as, without limitation, customs duties, value added tax,
+ sales tax, income tax, property tax, municipal fees, pollution
+tax, renewal energy credit, pollution abatement credit,
+import duties, export duties, and others); an identity man-
+agement application 830 (such as for managing one or more
+identities of entities 652 involved in a value chain, such as,
+without limitation, one or more of an identity verification
+application, a biometric identify validation application, a
+pattern-based identity verification application, a location- 10
+based identity verification application, a user behavior-based
+application, a fraud detection application, a network
+address-based fraud detection application, a black list appli-
+cation, a white list application, a content inspection-based
+fraud detection application, or other fraud detection appli- 15
+cation; an inventory management application 820 (such as,
+without limitation, for managing inventory in a fulfillment
+center, distribution center, warehouse, storage facility, store,
+port, ship or other floating asset, or other location); a security
+application, solution or service 834 (referred to herein as a 120
+security application, such as, without limitation, any of the
+identity management applications 830 noted above, as well
+as a physical security system (such as for an access control
+system (such as using biometric access controls, fingerprint-
+ing, retinal scanning, passwords, and other access controls), 25 a
+ a safe, a vault, a cage, a safe room, a secure storage facility,
+or the like), a monitoring system (such as using cameras,
+motion sensors, infrared sensors and other sensors), a perim-
+eter security system, a floating security system for a floating
+asset, a cyber security system (such as for virus detection 30
+and remediation, intrusion detection and remediation, spam
+detection and remediation, phishing detection and remedia-
+tion, social engineering detection and remediation, cyber-
+attack detection and remediation, packet inspection, traffic
+inspection, DNS attack remediation and detection, and oth- 35
+(such as, without limitation, for improving safety of work-
+ers, for reducing the likelihood of damage to property, for
+reducing accident risk, for reducing the likelihood of dam-
+age to goods (such as cargo), for risk management with 4o f
+respected to insured items, collateral for loans, or the like,
+including any application for detecting, characterizing or
+predicting the likelihood and/or scope of an accident or other
+damaging event, including safety management based on any
+of the data sources, events or entities noted throughout this 45
+disclosure or the documents incorporated herein by refer-
+ence); a blockchain application 844 (such as, without limi-
+tation, a distributed ledger capturing a series of transactions,
+such as debits or credits, purchases or sales, exchanges of in
+kind consideration, smart contract events, or the like, or 50
+other blockchain-based application); a facility management
+application 850 (such as, without limitation, for managing
+infrastructure, buildings, systems, real property, personal
+property, and other property involved in supporting a value
+chain, such as a shipyard, a port, a distribution center, a 55
+warehouse, a dock, a store, a fulfillment center, a storage
+facility, or others, as well as for design, management or
+control of systems and facilities in or around a property, such
+as an information technology system, a robotic/autonomous
+vehicle system, a packaging system, a packing system, a 60
+picking system, an inventory tracking system, an inspection
+system, a routing system for mobile robots, a workflow
+system for human assets, or the like); a regulatory applica-
+tion 852 (such as, without limitation, an application for
+regulating any of the applications, services, transactions, 65
+activities, workflows, events, entities, or other items noted
+herein and in the documents incorporated by reference
+[col 2]
+66
+herein, such as regulation of permitted routes, permitted
+cargo and goods, permitted parties to transactions, required
+disclosures, privacy, pricing, marketing, offering of goods
+and services, use of data (including data privacy regulations,
+regulations relating to storage of data and others), banking,
+marketing, sales, financial planning, and many others); a
+commerce application, solution or service 854 (such as,
+without limitation an e-commerce site marketplace, an
+online site, an auction site or marketplace, a physical goods
+marketplace, an advertising marketplace, a reverse-auction
+marketplace, an advertising network, or other marketplace);
+a vendor management application 832 (such as, without
+limitation, an application for managing a set of vendors or
+prospective vendors and/or for managing procurement of a
+ set of goods, components or materials that may be supplied
+in a value chain, such as involving features such as vendor
+qualification, vendor rating, requests for proposal, requests
+for information, bonds or other assurances of performance,
+contract management, and others); an analytics application
+838 (such as, without limitation, an analytic application with
+respect to any of the data types, applications, events, work-
+flows, or entities mentioned throughout this disclosure or the
+documents incorporated by reference herein, such as a big
+data application, a user behavior application, a prediction
+application, a classification application, a dashboard, a pat-
+tern recognition application, an econometric application, a
+financial yield application, a return on investment applica-
+tion, a scenario planning application, a decision support
+application, a demand prediction application, a demand
+planning application, a route planning application, a weather
+tion 842 (such as, without limitation, for pricing of goods,
+services (including any mentioned throughout this disclo-
+sure and the documents incorporated by reference herein;
+and a smart contract application, solution, or service (re-
+ferred to collectively herein as a smart contract application
+848, such as, without limitation, any of the smart contract
+types referred to in this disclosure or in the documents
+incorporated herein by reference, such as a smart contract
+for sale of goods, a smart contract for an order for goods, a
+smart contract for a shipping resource, a smart contract for
+a worker, a smart contract for delivery of goods, a smart
+contract for installation of goods, a smart contract using a
+token or cryptocurrency for consideration, a smart contract
+that vests a right, an option, a future, or an interest based on
+a future condition, a smart contract for a security, commod-
+ity, future, option, derivative, or the like, a smart contract for
+current or future resources, a smart contract that is config-
+ured to account for or accommodate a tax, regulatory or
+compliance parameter, a smart contract that is configured to
+execute an arbitrage transaction, or many others). Thus, the
+value chain management platform 604 may host an enable
+interaction among a wide range of disparate applications 630
+(such term including the above-referenced and other value
+chain applications, services, solutions, and the like), such
+that by virtue of shared microservices, shared data infra-
+structure, and shared intelligence, any pair or larger combi-
+nation or permutation of such services may be improved
+relative to an isolated application of the same type.
+Referring still to FIG. 10, the set of applications 630
+provided on the VCNP 604, integrated with the VCNP 604
+and/or managed by or for the VCNP 604 and/or involving a
+set of value chain network entities 652 may further include,
+without limitation: a payments application 860 (such as for
+calculating payments (including based on situational factors
+such as applicable taxes, duties and the like for the geog-
+raphy of an entity 652), transferring funds, resolving pay-

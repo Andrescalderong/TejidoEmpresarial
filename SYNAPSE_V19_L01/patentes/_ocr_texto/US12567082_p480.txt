@@ -1,0 +1,137 @@
+[col 1]
+US 12,567,082 B2
+637
+In some example embodiments, the connected product
+may be enabled with a set of capabilities such as data
+processing, networking, sensing, autonomous operation,
+intelligent agent, natural language processing, speech rec-
+ognition, voice recognition, touch interfaces, remote control,
+ self-organization, self-healing, process automation, compu-
+tation, artificial intelligence, analog or digital sensors, cam-
+eras, sound processing systems, data storage, data integra-
+tion, and/or various Internet of Things (loT) capabilities,
+among others. The connected product may include a form of 1o service provider (IsP).
+information technology. The connected product may have a
+processor, computerrandom access memory, and a commu-
+nication module. The product may be considered a value
+chain network entity that fits in a value chain network to
+provide product usage data. 15
+In the example provided, a connected product 14010, an
+ad-hoc network 14012, an ad-hoc network 14014, a local
+network 14016, and a local network 14018 communicate
+with the digital product network service 14002 directly or
+through a network 14019.
+The connected products may be consumer products,
+industrial products, or other products that have digital com-
+ponents that may communicate with or at least partially
+include the digital product network service 14002. The
+connected products may be various entities within various 25
+industries. For example, each of the connected products may
+relate to apparel, electronics (general), computers and com-
+puter peripherals, chemicals (specialty), machinery, food
+processing, auto parts, steel, retail (online), retail (distribu-
+tors), retail (special lines), retail (general), retail (grocery
+and food), electronics (consumer and office), farming/agri-
+culture, food wholesalers, or healthcare products.
+The connected product 14010 communicates directly with
+the digital product network service. For example, the con-
+nectedproduct 14010mayinclude an antennato send 35
+electromagnetic band communications directly to an entity
+that hosts the digital product network service 14002. In some
+embodiments, the digital product network service 14002 is
+at least partially hosted within the connected product 14010.
+For example,the connected product 14010 mayinclude
+sensors that send sensor data directly to various intelligence
+layer modules of the digital product network service 14002
+that are programmed into processors of the connected prod-
+uct 14010.
+The ad-hoc network 14012 includes a connected product 45 F
+14020 and a connected product 14022. The connected
+product 14020 and the connected product 14022 communi-
+cate directly with each other and collectively communicate
+with the digital product network service 14002.
+The ad-hoc network 14014 includes a connected product 50 
+14024 and a connected product 14026. The connected
+cate directly with each other and communicate with the
+digital product network service 14002 through the network
+14019.
+The local network 14016 includes a gateway 14030, at
+least one sensor system 14032, at least one connected
+product 14034, and additional data sources 14036. In the
+example provided, the gateway 14030 communicates with
+each of the sensor systems 14032, connected products
+14034, and additional data sources 14036. The gateway
+14030 then communicates directly with the digital product
+network service 14002. In some embodiments, the gateway
+14030 hosts the digital product network service 14002.
+The local network 14018 includes a gateway 14040, at 65
+least one sensor system 14042, at least one connected
+product 14044, and at least one additional data source
+[col 2]
+638
+14046.Thegateway 14040 communicates with each of the
+sensor systems 14042, connected products 14044, and addi-
+tional data sources 14046. The gateway 14040 then com-
+municates with the digital product network service 14002
+through the network 14019.For example, the gateway
+14040 may be a router or home automation system hub.
+Network 14019 may be any network for communicating
+data across large distances. In the example provided, the
+network 14019 is the Internet accessed through an internet
+FIG. 151 illustrates an example of a connected product
+14110. In the example provided, the connected product
+14110 includes a network interface 14112, at least one
+processor 14114, and at least one memory 14116. In some
+embodiments, the connected products 14010, 14020, 14022,
+14024, 14026, 14034, and 14044 have configurations that
+are similar to that of the connected product 14110.
+The connected product 14110 includes at least one net-
+work interface 14i12, at least one processor 14114, and at
+20 least one memory 14116. The network interface 14112
+includes one or more communication units that communi-
+cate with a network (e.g., the Internet, a private network, and
+the like).
+The processor 14114 may be any kind of computational or
+processing device capable of executing program instruc-
+tions, codes, binary instructions and the like, including a
+central processing unit (CPU), a general processing unit
+(GPU), a logic board, a chip (e.g., a graphics chip, a video
+processing chip, a data compression chip, or the like), a
+chipset, a controller, a system-on-chip (e.g., an RF system on
+chip, an AI system on chip, a video processing system on
+chip, or others), an integrated circuit, an application specific
+integrated circuit (ASIC), a field programmable gate array
+(FPGA), an approximate computing processor, a quantum
+computing processor, a parallel computing processor, a
+neural network processor, or other type of processor.
+In the example provided, the processor 14114 includes a
+data collection module 14120, a data reporting module
+14122, a data analysis module 14124, and intelligence
+services 14126. For example, the modules may be dedicated
+electronic circuits or non-transitory computer code commit-
+ted to a computer for instructing the processor to perform the
+algorithm coded therein and described herein.
+The data collection module 14120 instructs the connected
+product 14110 to receive data from sensors and/or the
+network interface 14112 and commit the received data to the
+memory 14116. The data reporting module 14122 retrieves
+data stored in the memory 14116 or redirects data from the
+sensors or the network interface 14112 and transmits the
+data out from the network interface 14112 to a recipient
+entity. The data analysis module 14124 and the intelligence
+services 14126 perform analysis and execute artificial intel-
+ligence and/or machine learning algorithms on the data.
+The memory 14116 may be any type of non-transitory
+55 storage medium, such as one or more of a CD-ROM, DVD,
+memory, hard disk, flash drive, RAM, ROM, cache, net-
+work-attached storage, server-based storage, and the like.
+The memory 14116 stores methods, programs, codes, pro-
+gram instructions or other type of instructions capable of
+being executed by the processor 14114.
+The memory 14116 stores data in various data structures.
+In the example provided, the data structures include a usage
+data structure 14130, a sensor data structure 14132, and a
+derived data structure 14134. The usage data structure 14130
+stores data related to the use of the connected product 14110.
+For example, the usage data structure may store the time,
+location, settings, and other details regarding when and how

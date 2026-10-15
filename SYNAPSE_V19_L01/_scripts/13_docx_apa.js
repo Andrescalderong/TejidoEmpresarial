@@ -1,6 +1,6 @@
 // Genera el DOCX en formato APA 7 a partir de documento/bloques.json
 const fs=require('fs'); const path=require('path');
-const {Document,Packer,Paragraph,TextRun,Table,TableRow,TableCell,WidthType,AlignmentType,BorderStyle,Header,PageNumber,LevelFormat,ShadingType,PageBreak,TabStopType}=require('docx');
+const {Document,Packer,Paragraph,TextRun,Table,TableRow,TableCell,WidthType,AlignmentType,BorderStyle,Header,PageNumber,LevelFormat,ShadingType,PageBreak,TabStopType,ImageRun}=require('docx');
 const D=JSON.parse(fs.readFileSync(path.join(__dirname,'../documento/bloques.json'),'utf8'));
 const FONT='Times New Roman', SZ=24, DOUBLE=480, W_PAGE=12240, MARG=1440, W_TXT=W_PAGE-2*MARG;
 function runs(text,base={}){ // **negrita**, *cursiva*
@@ -55,6 +55,14 @@ for(const b of D.blocks){
   else if(b.t==='fh1') kids.push(new Paragraph({pageBreakBefore:true,keepNext:true,spacing:{line:260,after:120},children:runs(b.x,{bold:true,size:24})}));
   else if(b.t==='fh2') kids.push(new Paragraph({keepNext:true,spacing:{line:260,before:160,after:80},children:runs(b.x,{bold:true,size:22})}));
   else if(b.t==='fh3'||b.t==='fh4') kids.push(new Paragraph({keepNext:true,spacing:{line:260,before:120,after:60},children:runs(b.x,{bold:true,italics:true,size:CS})}));
+  else if(b.t==='fig'){
+    const fs=require('fs'), path=require('path'); const fp=path.join(__dirname,'..','figuras',b.f); const buf=fs.readFileSync(fp);
+    const w0=buf.readUInt32BE(16), h0=buf.readUInt32BE(20); const maxW=6.5*96, maxH=7.4*96; const sc=Math.min(maxW/w0,maxH/h0); const w=Math.round(w0*sc), h=Math.round(h0*sc);
+    kids.push(new Paragraph({keepNext:true,spacing:{line:DOUBLE,before:120},children:[new TextRun({text:'Figura '+b.num,bold:true,font:FONT,size:SZ})]}));
+    kids.push(new Paragraph({keepNext:true,spacing:{line:240,after:120},children:[new TextRun({text:b.x,italics:true,font:FONT,size:SZ})]}));
+    kids.push(new Paragraph({keepNext:true,alignment:AlignmentType.CENTER,spacing:{line:240,after:80},children:[new ImageRun({type:'png',data:buf,transformation:{width:w,height:h},altText:{title:b.x,description:b.x,name:b.f}})]}));
+    kids.push(new Paragraph({spacing:{line:240,after:240},children:runs(b.n,{size:20})}));
+  }
   else if(b.t==='p'&&b.c) kids.push(new Paragraph({spacing:{line:240,after:80},children:runs(b.x,{size:CS})}));
   else if(b.t==='p') kids.push(body(b.x));
   else if(b.t==='ul') b.items.forEach(x=>kids.push(new Paragraph({numbering:{reference:'bul',level:0},spacing:{line:b.c?240:DOUBLE,after:b.c?60:0},children:runs(x,b.c?{size:CS}:{})})));

@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+831
+models, and the like. In some implementations, VCN pro-
+cess 10 may include combinations where an expert system
+uses one neural network for classifying an item (e.g., iden-
+tifying a machine, a component, or an operational mode) and
+a different (or the same) neural network for predicting a state
+of the item (e.g., a fault state, an operational state, an
+anticipated state, a maintenance state, or the like).
+In some implementations, at least one member of the set
+of Al-based learning models may be trained on the training
+data set to determine, upon receiving the classification, a 10
+task to be completed for the value chain network. For
+instance, in some embodiments, VCN process 10 may
+provide automated recommendations for a set of one or
+more value chain process tasks involving a wide range of
+types of activities, such as, without limitation, product 15
+configuration activities, product selection activities for a
+customer, supplier selection activities, shipper selection
+activities, route selection activities, factory selection activi-
+ties, product assortment activities, product management
+activities, logistics activities, reverse logistics activities, 20
+artificial intelligence configuration activities, maintenance
+activities, product support activities, product recommenda-
+tion activities, demand prediction, defect and quality issue
+detection,item failure prediction,optimization identification
+and execution, and many others such as those discussed 25
+throughout. For example, in some implementations, execut-
+ing the task may include predicting future demand for an
+item in the value chain network. For instance, as discussed
+throughout, VCN process 1o's AI-based learning models
+may be used to analyze historical sales data, market trends,
+and other factors to predict future demand for products (such
+as the engine part). This may help companies optimize
+inventory levels, production schedules, and pricing strate-
+gies to meet customer demand and maximize revenue.
+In some implementations, VCN process 10 may provide 35
+18504 at least one of an instruction for executing the task in
+the value chain network digital twin or provide 18506 a
+recommendation for executing the task in the value chain
+network digital twin may be provided. For instance, once a
+task has been determined, VCN process 10 may provide 40
+instructions to execute that task. In some implementations,
+the task may be automatically executed without human
+interaction, or manually executed (e.g., approving an action
+to execute the task as suggested by VCN process 10 that was
+output via a UI, such as the control tower UI discussed 45
+throughout). In some implementations, the task executed
+may be recorded in a log or a feed for viewing. In some
+implementations, the task may be VCN process 10 suggest-
+ing diversifying suppliers in the value chain network digital
+twin, which means having multiple suppliers for the same 50
+product or service. This may help to reduce the risk of a
+disruption from one supplier affecting the entire supply
+chain. Another example suggested task from VCN process
+10 may be building inventory buffers in the value chain
+network digital twin, which means having more inventory 55
+than is normally needed. This may help to ensure that there
+are enough products available to meet demand even if there
+is a disruption or other issues. Another example suggested
+task from VCN process 10 may be identifying suppliers in
+the value chain network digital twin that use alternative
+transportation methods, which means using different modes
+of transportation, such as air freight or rail, if there are
+disruptions to road or sea transportation. Another example
+suggested task from VCN process 10 may be renegotiating
+contracts in the value chain network digital twin, which 65
+means negotiating with suppliers to change the terms of
+contracts, such as delivery dates or pricing, if there are
+[col 2]
+832
+disruptions or other risks. Another example suggested task
+from VCN process 10 may be using technology in the value
+chain network digital twin, meaning the use of technology to
+track shipments, manage inventory, and communicate with
+suppliers about a potential risk, which may be similarly
+determined as discussed throughout. This may help to
+improve visibility and coordination in the supply chain and
+make it easier to respond to disruptions or other risks.
+Another example suggested task from VCN process 10 may
+be using predictive sourcing in the Al-driven digital twin
+(e.g-, the value chain network digital twin as discussed
+throughout), where the response may involve, e.g. placing
+an order in an embedded marketplace of the value chain
+network digital twin.
+As another example, using the above-noted synchronized
+planning of VCN process 10, a company may be enabled to
+automate the planning process and create an improved
+inventory mix over a widespread network (as noted through-
+out). In some implementations, VCN process 10 may use its
+Al and cluster analysis in the value chain network digital
+twin, helping to identify and track seasonality patterns and
+trends not easily uncovered via traditional methods.
+In some implementations, receiving the information asso-
+ciated with the value chain network may include receiving
+18508 sensor data indicative of inbound and outbound
+shipment conditions. For instance, the value chain network
+digital twin may (e.g., via VCN process 10) receive infor-
+mation from various sources to monitor inbound/outbound
+shipping conditions such as temperature, condition, pres-
+sure, location, estimated time of arrival, moisture levels,
+power levels of any equipment used, as well as any of the
+other example conditions discussed throughout. As an
+example, the value chain network digital twin may (e.g., via
+VCN process 10) may monitor the condition of the truckload
+shipments to prevent costly spoilage and ensure the perish-
+able products remain safe and compliant. In some imple-
+mentations, this information may also be supplied (e.g., via
+a Ul) to the driver of the vehicle, so that the driver may take
+any actions to mitigate any issues (e.g., failure of a refrig-
+erator unit carrying supplies).
+In some implementations, VCN process 10 may render
+18510 one of a virtual reality (VR) environment, an aug-
+mented reality (AR) environment, a mixed reality (MR)
+environment, or a diminished reality (DR) environment for
+a user to interact with the sensor-based virtual representation
+of the plurality of associations between the physical data
+items of the value chain network. For instance, VCN process
+10 may enable users to access the value chain network entity
+digital twin using VR, AR, MR, and DR. This may enable
+users (including customers and employees) to perceive the
+virtual world through an advanced experience. For instance,
+AR may be used to provide users with real-time information
+about the products they are working on. For example, users
+may use AR glasses to see product schematics or assembly
+instructions overlaid onto the physical product, reducing the
+need for printed instructions, and improving accuracy. In
+other examples, users may use an AR overlay that could be
+used to show information related to a smart container (e.g.
+financial metrics related to the contents of the smart con-
+tainer, destination information, temperature information,
+and the like), status information for a fleet of 3D printers, or
+performance information associated with a robot. As another
+example, users may use VR to simulate complex manufac-
+turing or assembly processes, allowing users to practice and
+train in a virtual environment before working on the actual
+product. This may reduce errors, improve safety, and
+increase eficiency. In other examples, users may use VR to

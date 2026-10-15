@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+675
+Additionally,a predictive model communication protocol
+(PMCP) is described herein. PMCP may be used to reduce
+a volume of transmitted data, especially when the data is
+predictable or usually predictable. PMCP may operate by
+transmitting predictive model parameters instead of some or
+all of the data values that would normally be transmitted by
+a sensor device or other data source. For example, a device
+implementing PMCP may continually receive inputs (e.g.
+sensor data) and train a predictive model using the stream of
+sensor data. Rather than transmitting the sensor data, which
+may use significant network and/or processing resources, the
+PMCP device may transmit the model parameters, which
+may be used by a receiving device to operate a predictive
+model to predict current and future sensor data. Thus, the
+receiving device may have a predictive model of sensor data 15
+without receiving the sensor data. In embodiments, if the
+ sensor data at the PMCP device begins operating outside of
+expectations, the model parameters may be re-transmitted to
+the receiving device, which may update its predictive model
+and thereby obtain more accurate predictive data.
+In some embodiments, to optimize decision-making
+quantum computers and/or predictive models may be used
+with the techniques described herein. Furthermore, quantum
+coordination can be applied to allow for disparate units to
+securely coordinate actions (e.g., without the need for tra- 25
+ditional communication mechanisms). Accordingly, tech-
+niques described herein may use a combination of decen-
+tralizedbiology-baseddecision-makingcapabilities
+distributed throughout devices within the value chain net-
+work and quantum capabilities. Furthermore, these tech- 30
+niques are also an efficient mechanism for enabling opera-
+tional efficiency of a coordinated value chain network.
+FIG. 162 shows a value chain network thalamus service
+18000 and a set of input sensors streaming data from various
+sources across the value chain network and the system of 35
+systems (SOS) control system 18002 with its centrally-
+managed data sources 18004. The thalamus service 18000
+filters the inputs from the various data sources 18004 into the
+control system 18002 such that the control system is never
+overwhelmed by the total volume of information.In 4oj
+embodiments, the thalamus service 18000 provides an infor-
+mation suppression mechanism for information flows within
+the value chain. This mechanism monitors all data streams
+and suppresses and/or filters irrelevant data streams by
+ensuring that the maximum data flows from all input sensors 45 s
+are always constrained.
+In embodiments, the thalamus service 18000 may be a
+gateway for all communication that responds to the priori-
+tization of the system of systems control system 18002. The
+system of systems control system 18002 may decide to 50
+change the prioritization of the data streamed from the
+thalamus service 18000, for example, during a known fire in
+an isolated area, and the event may direct the thalamus
+service 18000 to continue to provide flame sensor informa-
+tion despite the fact that majority of this data is not unusual. 55
+The thalamus service 18000 may be an integral part of the
+overall system of systems communication framework.
+In embodiments, the thalamus service 18000 includes an
+intake management system 18006. The intake management
+system 18006 may be configured to receive and process 60
+multiple large datasets by converting them into data streams
+that are sized and organized for subsequent use by a central
+control system 18002 operating within a system of systems.
+For example, a robot may include vision and sensing sys-
+tems that are used by the central control system 18002 65
+(which may be on-board the robot and/or in a separate
+device in communication with the robot) to identify and
+[col 2]
+676
+move through an environment in real-time. The intake
+management system 18006 can facilitate robot decision-
+making by parsing, filtering, classifying, or otherwise reduc-
+ing the size and increasing the utility of multiple large
+datasets that would otherwise overwhelm the central control
+system 18002. In embodiments, the intake management
+system may include an intake controller 18008 that works
+with the intelligence service 18010 to evaluate incoming
+data and take actions-based evaluation results. Evaluations
+1o and actions may include specific instruction sets received by
+the thalamus service 18000, for example, the use of a set of
+specific compression and prioritization tools stipulated
+within a "Networking" library module. In another example,
+thalamus service inputs may direct the use of specific
+filtering and suppression techniques. In a third example,
+thalamus service inputs may stipulate data filtering associ-
+ated with an area of interest such as a certain type of
+financial transaction. The intake management system is also
+configured to recognize and manage datasets that are in a
+20 vectorized format such as in accordance with a predictive
+model communication protocol (PMCP) (discussed below),
+where the datasets may be passed directly to the central
+control system 18002, or alternatively deconstructed and
+processed separately. The intake management system 18006
+may include a learning module that receives data from
+external sources that enables improvement and creation of
+application and data management library modules. In some
+cases, the intake management system 18006 may request
+external data to augment existing datasets.
+In some embodiments, the SOS control system 18002
+may direct the thalamus service 18000 to alter its filtering to
+provide more input from a set of specific sources. This
+indication to provide more input is handled by the thalamus
+service 18000. For example, the thalamus service may
+suppress other information flows to constrain the total data
+flows to within a volume that the central control system can
+handle.
+In embodiments, the thalamus service 18000 can operate
+by suppressing data based on several different factors
+including zero or more default factors. For example, in some
+embodiments, the default factors may include an “unusual-
+ness factor" that may be a value that indicates a divergence
+or a degree of divergence of the data from an expected
+dataset. In embodiments, the unusualness factor is con-
+stantly monitored for all inputs or some of the inputs (e.g.,
+some of the input sensors).
+In some embodiments, the thalamus service 18000 may
+suppress data based on geospatial factors. Examples of
+geospatial factors may include location data, motion data,
+acceleration data, vibration data, and/or any other data
+indicating an absolute or relative location, change in loca-
+tion over time, other derivatives or integrals of location over
+time, etc. The thalamus service 18000 may be aware of the
+geospatial factors for some or all of the sensors and thus is
+able to look for unusual patterns in data based on geospatial
+context and suppress data accordingly.
+In some embodiments, the thalamus service 18000 may
+suppress data based on temporal factors. Data can be sup-
+pressed temporally, for example, if the cadence of the data
+can be reduced such that the overall data stream is filtered to
+a level that can be handled by the SOS control system 18002
+and/or a central processing unit.
+In some embodiments, the thalamus service 18000 may
+suppress data based on contextual factors. In embodiments,
+context-based filtering is a filtering event in which the
+thalamus service 18000 is aware of some context-based
+event. Context-based events, for example, may include one

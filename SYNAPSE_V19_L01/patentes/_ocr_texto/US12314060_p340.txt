@@ -1,0 +1,134 @@
+ligence services 8800 may be configured to output default 20 cost). The RL agent may learn the value/cost function and
+Based on the reward feedback, the system may "learn" the 55 intelligence services system 8900) receives sensor informa-
+[col 1]
+US 12,314,060 B2
+315
+dard for overall process and documentation, and an AsTM
+standard for a narrowly defined procedure may be employed
+to complete the risk analysis required by the safety gover-
+nance standard.
+As mentioned, the foregoing framework of an intelligence
+ services 8800 may be applied in and/or leveraged by various
+entities of a value chain. For example, in some embodi-
+ments, a platform-level intelligence system may be config
+ured with the entire capabilities of the intelligence services
+8800, and certain configurations of the intelligence services 10
+8800 may be provisioned for respective value chain entities.
+Furthermore, in some embodiments, an intelligence service
+client 8836 may be configured to escalate an intelligence
+ system task to a higher-level value chain entity (e.g., edge-
+level or the platform-level) when the intelligence service 15
+client 8836 cannot perform the task autonomously. It is
+noted that in some embodiments, an intelligence service
+controller 8802 may direct intelligence tasks to a lower-level
+component. Furthermore, in some implementations, an intel-
+actions when a decision cannot be reached by the intelli-
+gence services 8800 and/or a higher or lower-level intelli-
+gence system. In some of these implementations, the default
+decisions may be defined in a rule and/or in a standards
+library.
+Reinforcement Learning to Determine Optimal Policy
+Reinforcement learning (RL), is a machine learning tech-
+nique where an agent iteratively learns optimal policy
+through interactions with the environment. In RL, the agent
+must discover correct actions by trial-and-error so as to 30
+maximize some notion of long-term reward. Specifically, in
+a system employing RL, there exist two entities: (1) an
+program component that is connected to its environment
+such that it can sense the state of the environment as well as 35
+execute actions on the environment. On each step of inter-
+action, the agent senses the current state of the environment,
+s, and chooses an action to take, a. The action changes the
+state of the environment, and the value of this state transition
+is communicated to the agent by a reward signal, r, where the 4o 
+magnitude of r indicates the desirability of an action. Over
+time, the agent builds a policy, t, which specifies the action
+the agent will take for each state of the environment.
+Formally, in reinforcement learning, there exists a discrete
+set of environment states, S; a discrete set of agent actions, 45
+A; and a set of scalar reinforcement signals,R. After
+learning, the system creates a policy, , that defines the value
+of taking action aeA in state seS. The policy defines Q(s,a)
+as the expected return value for starting from s, taking action
+a, and following policy .
+50
+The reinforcement learning agent is trained in a policy
+through iterative exposure to various states, having the agent
+select an action as per the policy and providing a reward
+based on a function designed to reward desirable behavior.
+policy and becomes trained in producing desirable actions.
+For example, for navigation policy, RL agent may evaluate
+its state repeatedly (e.g., location, distance from a target
+object), select an action (e.g-, provide input to the motors for
+movement towards the target object), evaluate the action 60
+using a reward signal, which provides an indication of the of
+the success of the action. (e.g. a reward of +10 if movement
+reduces the distance between a mobile system and a target
+object and -1o if the movement increases the distance).
+Similarly, the RL agent may be trained in grasping policy by 65
+iteratively obtaining images of a target object to be grasped,
+attempt to grasp the object, evaluate the attempt, and then
+[col 2]
+316
+execute the subsequent iteration using the evaluation of the
+attempt of the preceding iteration(s) to assist in determining
+the next attempt.
+There may be several approaches for training the RL
+agent in a policy. Imitation learning is a key approach in
+which the agent learns from state/action pairs where the
+actions are those that would be chosen by an expert (e.g., a
+human) in response to an observed state. Imitation learning
+not just solves sample-inefficiency or computational feasi-
+bility problems, but also makes the training process safer.
+The RL agent may derive multiple examples of the state/
+action pairs by observing a human (e.g., navigating towards
+and grasping a target object), and uses them as a basis for
+training the policy. Behavior cloning (BC), that focuses on
+learning the expert's policy using supervised learning is an
+example of imitation learning approach.
+Value based learning approach aims to find a policy
+comprising a sequence of actions that maximizes the expec-
+tation value of future reward (or minimizes the expected
+then derives a policy with respect to the same. Two different
+expectation values are often referred to: the state value V(s)
+and the action value Q (s,a) respectively. The state value
+function V(s) represents the value associated with the agent
+25 at each state whereas the action value function Q(s,a)
+represents the value associated with the agent at state s and
+performing action a. The value-based learning approach
+works by approximating optimal value (V* or Q*) and then
+deriving an optimal policy. For example, the optimal value
+function Q*(s,a) may be identified by finding the sequence
+of actions which maximize the state-action value function
+Q(s,a). The optimal policy for each state can be derived by
+identifying the highest valued action that can be taken from
+each state.
+*(s)=argmax O*(s,a)
+To iteratively calculate the value function as actions
+within the sequence are executed and the mobile system
+transitions from one state to another, the Bellman Optimality
+equation may be applied. The optimal value function Q*(s,a)
+obeys Bellman Optimality equation and can be expressed as:
+Q*(s,a,)=E[r++I+y max Q*($+1.a 1)]
+policy function 7E using a suitable optimization technique
+(e.g-, stochastic gradient descent) to fine tune a vector of
+parameters without calculating a value function. The policy-
+based learning approach is typically effective in high-di-
+mensional or continuous action spaces.
+FIG. 108 illustrates an approach based on reinforcement
+learning and including evaluation of various states, actions
+and rewards in determining optimal policy for executing one
+or more tasks by a mobile system.
+At 8902, a reinforcement learning agent (e.g., of the
+tion including a plurality of images captured by the mobile
+system in the environment. The analysis of one or more of
+these images may enable the agent to determine a first state
+associated with the mobile system at 8904. The data repre-
+senting the first state may include information about the
+environment, such as images, sounds, temperature or time
+and information about the mobile system, including its
+position, speed, internal state (e.g-, battery life, clock set-
+ting) etc.
+At 8906, 8908, and 8910, various potential actions
+responsive to the state may be determined. Some examples
+of potential actions include providing control instructions to

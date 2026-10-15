@@ -1,0 +1,136 @@
+[col 1]
+US 12,567,082 B2
+397
+tokenized such that the instance of the 3D printing instruc-
+tion set can be manipulated as a token on the distributed
+ledger. The tokenized 3D printing instruction set may be
+stored via the distributed ledger. Commitments of various
+parties (distributed manufacturing network entities) to the
+smart contract may be processed. The use of smart contracts
+in the distributed manufacturing network helps in automat-
+ing the distributed manufacturing workflow.
+In embodiments, the distributed manufacturing network
+facilitates the creation of a distributed manufacturing mar-
+ketplace or exchange for buying and selling of additive
+manufacturing parts, products and instruction sets with the
+manufacturing nodes constituting the sellers and customers
+constituting the buyers.
+In embodiments, the distributed manufacturing network
+facilitates the creation of a data marketplace for selling of
+operational additive manufacturing data by manufacturing
+nodes to data aggregators. In embodiments, the data mar-
+ketplace is built on a distributed ledger and manufacturing 20 i
+nodes are compensated using digital token via smart con-
+tracts. In embodiments, the data is anonymized to hide the
+identity of manufacturing nodes that own the data.
+FIG. 120 is a diagrammatic view of a distributed manu-
+facturing network enabled by an autonomous additive manu- 25
+facturing platform and built on a distributed ledger system
+according to some embodiments of the present disclosure.
+The distributed manufacturing network 10130 is imple-
+mented with a distributed ledger system where the distrib-
+uted ledger may be distributed at least in part over nodes of
+the distributed manufacturing network 10139 and may
+include blocks linked via cryptography. The distributed
+ledger system stores data related to a set of entities, activities
+and transactions in the distributed manufacturing network
+10130.
+The different manufacturing nodes 10100, manufacturing
+node 10128, manufacturing node 10800 and manufacturing
+node 10802 each represent a node in the distributed manu-
+facturing network 10130. Also, the different systems within 40 1
+a manufacturing node including the additive manufacturing
+unit 10102, the pre-processing system 10104, the post-
+processing system 10106, the material handling system
+i0108, the autonomous additive manufacturing platform
+10110, the user interface 10112, the data s0urces 10114 and 45 r
+the design and simulation system 10116 referred to as
+distributed manufacturing network entities constitute dis-
+tributed computing nodes of the distributed ledger system.
+The distributed computing node is essentially a comput-
+ing device having a processor and a computer-readable 50
+medium having machine-readable instructions stored
+thereon and contains full copy of the transaction history of
+the distributed ledger. The nodes of the distributed ledger
+may be implemented in a variety of computing systems
+including additive manufacturing systems, enterprise sys- 55
+tems, inventory management systems, packaging systems,
+shipping and/or delivery tracking systems, SKU databases,
+smart factories and so on. Whenever additional transactions
+are proposed to be added to the distributed ledger, one or
+more of the nodes typically validate the proposed additional 60
+transaction records, such as via a consensus algorithm.
+Typically, once the proposed transaction has been validated
+e.g-, through any consensus algorithm, the proposed trans-
+action is added to each copy of the distributed ledger across
+all the nodes. 65
+In embodiments, the transaction data is validated by the
+nodes through a proof-of-work (POW) consensus algorithm
+[col 2]
+398
+and hashed into an ongoing chain of cryptographically
+approved blocks of transaction records constituting the
+distributed ledger.
+In embodiments, proof of work algorithms require the
+nodes to perform a series of calculations to solve a crypto-
+graphic puzzle. For instance, in order to validate a pending
+data record, the nodes may be required to calculate a hash
+via a hash algorithm (e.g., SHA256) that satisfies certain
+conditions set by the system. The calculating of a hash in this
+manner may be referred to herein as “"mining," and the nodes
+performing the mining may be referred to as “miners" or
+"miner nodes." The distributed ledger may, for example,
+require the value of the hash to be under a specific threshold.
+In such embodiments, the nodes may combine a "base
+string"" (i.e., a combination of various types of metadata
+within a block header, e.g., root hashes, hashes of previous
+blocks, timestamps, etc.) with a "nonce" (e.g. a whole
+number value) to be input into the POW algorithm to
+produce a hash. In an exemplary embodiment, the nonce
+may initially be set to O when calculating a hash value using
+the POW algorithm. The nonce may then be incremented by
+a value of 1 and used to calculate a new hash value as
+necessary until a node is able to determine a nonce value that
+results in a hash value under a specified threshold (e.g., a
+requirement that the resulting hash begins with a specified
+number of zeros). The first node to identify a valid nonce
+may broadcast the solution (in this example, the nonce
+value) to the other nodes of the distributed ledger for
+validation. Once the other nodes have validated the "win-
+ning" node's solution, the pending transaction record may
+be appended to the last block in the distributed ledger. In
+ some cases, a divergence in distributed ledger copies may
+occurif multiplenodes calculate a valid solution in a short
+timeframe. In such cases, the nodes using the POW algo-
+rithm accept the longest chain of blocks (i.e., the chain with
+the greatest proof of work) as the "true" version of the
+distributed ledger. Subsequently, all nodes having a diver-
+gent version of the distributed ledger may reconcile their
+copies of the ledger to match the true version as determined
+bytheconsensus algorithm.
+In other embodiments, the consensus algorithm may be a
+"proof of stake" ("Pos") algorithm, in which the validation
+of pending transaction records depends on a user's “stake"
+within the distributed ledger. For example, the user's “stake"
+may depend on the user's stake in a digital currency or point
+system (e.g-, a cryptocurrency, token system, asset share
+system, reputation point system, etc.)within the distributed
+ledger. The next block in the distributed ledger may then be
+decided by the pending transaction record that collects the
+greatest number of votes. A greater stake (e.g, in a given
+digital currency or token system) results in a greater number
+transaction records, which in turn increases the chance for a
+particular user to create blocks in the distributed ledger. In
+embodiments, a distributed ledger need not be based on a
+token or cryptocurrency system, but rather may be secured
+by conventional or other security techniques, for example. In
+embodiments, such as ones involving a digital thread, proof
+of stake may be weighted, such as where a product manu-
+facturer's votes, a customer's votes, or the like count more
+than an arbitrary third party.
+In yet other embodiments, a consensus algorithm may be
+a“practical byzantine fault tolerance"("PBFT") algorithm,
+in which each node validates pending transaction records by
+using a stored internal state within the node. In particular, a
+user or node may submit a request to post a pending
+transaction record to the distributed ledger. Each of the

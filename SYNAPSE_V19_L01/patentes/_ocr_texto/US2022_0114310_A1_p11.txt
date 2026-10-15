@@ -1,0 +1,127 @@
+[col 1]
+US2022/0114310A1
+environmental conditions are the most relevant to setting a
+repainting schedule for the bridge in city F; and (ii) deter-
+mines which of the bridges already reflected in data store
+302 that is, bridges in cities A, B, C, D and E, sometimes
+herein referred to as the Existing Bridges) which is/are the
+most similar to the bridge and city F with respect to the
+relevant environmental condition(s); and (ii) sets a repaint-
+ing policy (that is, the number of years between regularly
+scheduled repainting some of the bridge) for the new bridge
+in city F.
+[0039] In this example, the Existing Bridges each have a
+different frequency of repainting that has been set by human
+individuals based on observations taken over a long period
+of time. Alternatively, this environment-related policy for
+repainting could have been set, and/or refined, by a com-
+puter in some or all cases. In this example, mod 308
+determines that the repainting policies for the Existing
+Bridges is most closely correlated with the environmental
+condition amount of incoming solar radiation (that is, inso-
+lation) of the city in which the bridges located. In this
+example, this insolation information is retrieved from insu-
+lation server 103 over communication network 114 and is
+shown in screenshot 400 of FIG. 4.
+[0040] As shown in screenshot 400, the insolation value
+for city F is 3.25, which is halfway between the insolation
+values for city A (specifically, 3.00) and city E (specifically,
+3.50). Because these two cities, A and E, are most similar to
+city F with respect to the relevant environmental condition
+of insolation,the corresponding data sets 304a and 304e are
+selected as the existing data sets to use as a basis for setting
+constructed by mod 308 for the new bridge in city F.
+Alternatively, a single data set could be selected. As a further
+alternative, more than two existing data sets could be
+selected as the most relevant with respect to the relevant
+environmental condition(s).
+[0041]  Processing proceeds to operation S270, where mod
+308 sets a repainting policy (that is, the number of years
+between regularly scheduled repainting some of the bridge)
+for the new bridge in city F based on the repainting sched-
+ules already specified for the Existing Bridges in cities A and
+E. More specifically: (i) bridge of data set 304a, correspond-
+ing to city A, instructs that repainting is to occur every 12
+years; (ii) bridge of data set 304e, corresponding to city E,
+instructs that repainting is to occur every 10 years; and (iii)
+mod 308 makes new data set 304f so that it sets a repainting
+policy of every 11 years,which is halfway between the
+policies for data sets 304a and 304e corresponding to the
+fact that city F experiences a level of insolation that is
+halfway between city A and city E. Mod 308 also makes
+policy, and stores the completed data set 304f in data store
+302 so that the new bridge in city F can start to be tracked,
+updated and controlled based on data set 304f: As an
+alternative, data set 304f could be in the form of a digital
+twin that includes 3D modelling data for the new bridge in
+city F.
+[0042] Processing proceeds to operation S275, where
+repainting reminder mod 310 instructs the workers of the
+city F, through communication network 114 and city F
+subsystem 113, to repaint the bridge in city F every eleven
+years.
+[0043] Processing proceeds to operation S280, where
+machine learning mod 312 applies machine learning to
+[col 2]
+Apr. 14, 2022
+continuously improve the substance of the repainting poli-
+cies for the various bridges tracked by server subsystem 102.
+In this example, the machine learning machine logic dis-
+covers that the amount of rainfall experienced by a bridge is
+an equally important environmental parameter as compared
+to the insolation. In response to this, mod 312 refines the
+repainting policy for data sets 304a to 304f so that it is
+equally based upon both insolation and rainfall consider-
+ations for the geographic locations where the bridges are
+respectively located.
+III. Further Comments and/or Embodiments
+[0044] Some embodiments of the present invention rec-
+ognize the following facts, potential problems and/or poten-
+tial areas for improvement with respect to the current state
+of the art: (i) assets that are operated in different regions are
+affected differently from environmental factors such as
+weather; and/or (ii) there exists a need for analysis of
+regional, location, environmental and weather data along-
+side resources within the digital twin to adjust digital twin
+resources such as maintenance plans, stocking levels, and
+forecasted failure rates within the Digital Twin to reflect
+these environmental factors.
+[0045]  Some embodiments of the present invention may
+include one, or more, of the following operations, features,
+characteristics and/or advantages: (i) initiating a digital twin
+based on the cognitive location and environmental impact of
+the asset to be operated; (ii) chooses among, and between, a
+number of digital twins which one is the most appropriate
+based on where the physical asset is planned to be, or is
+being, operated; (ii) technically interprets where environ-
+mental factors affect digital twin resources; (iv) modifies
+these digital twin related resources, such as predicted failure
+rates and maintenance plans for inclusion within enterprise
+asset management (EAM) solutions, (v) can be tightly
+integrated with cloud asset management software and/or
+hardware; (vi) helps to set environmental specific mainte-
+nance plans and recommended inventory and spare parts;
+and/or (vii) using information from similar assets in similar
+locations, some embodiments can predict and forecast fail-
+ure rates with higher accuracy.
+[0046]  Some embodiments of the present invention may
+include one, or more, of the following operations, features,
+characteristics and/or advantages: (i) a physical asset is
+associated with a Digital Twin; (i) over time, the physical
+asset experiences many location and environmental stresses
+such as: extreme heat, extreme cold, sudden changes in
+weather, heavy rains or hail and/or icy roads; (ii) the general
+operating condition under which a physical asset corre-
+sponding to a digital twin runs can affect longevity depend-
+ing upon parameters such as: temperature, humidity and
+pollution (air quality); and/or (iv) various actions mandated
+and/or recommended by operating models reflect the envi-
+ronmental impact (such mandates and/or recommendations
+may include, for example, changes to spare parts in inven-
+failures.
+[0047]  Some embodiments of the present invention may
+include one, or more, of the following operations, features,
+characteristics and/or advantages: (i) the digital twin asso-
+ciated with the physical asset is modified to perform actions
+based on environmental readings at the time of the entry; (ii)
+recommended actions can be performed by pulling data

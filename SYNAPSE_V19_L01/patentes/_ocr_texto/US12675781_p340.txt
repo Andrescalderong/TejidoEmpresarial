@@ -1,0 +1,134 @@
+[col 1]
+US 12,675,781 B2
+429
+factured to facilitate repair, such as where a complementary
+component may be generated to replace a worn or absent
+element. In example embodiments, some techniques and/or
+technologies that may be utilized with the warehouse/dis-
+tribution center may include, but are not limited to: provid-
+ing and/or including multiple source materials to generate in
+real time (i.e., on the fly) different tools, parts, and/or
+packaging; using AI to optimize product design, manufac-
+turing process configuration (including packaging material
+generation process), job scheduling, prioritization and/or 10
+parts, materials without disrupting other general processes
+involved in warehouse/distribution center); enriching Al
+with input/source/training set data relevant to design factors,
+economic factors, quality factors, etc. involved in particular
+example embodiments (e.g-, using sensors and monitoring
+of data to adjust manufacturing processes of parts materials
+needed for machines and/or packaging materials); coupling
+inputs, process data and outputs with digital twins for
+running simulations of individual processes or a combina- 20
+tion of processes to anticipate material needs for being able
+to produce or manufacture tools, parts, packaging, and/or fix
+machines with materials in real time (as needed); network-
+ing additive manufacturing nodes in meshes and/or fleets for
+coordinated operation within a warehouse/distribution net- 25
+work in an efficiency manner with respect to producing
+tools, parts, packaging, and/or other materials used to fix
+machines in real time; using robots that are able to attach to
+machines and then print directly onto a product, print tool,
+print parts for machines used in warehouse/distribution 30 
+network, print packaging, and/or print materials used to fix
+machines in real time; using hybrids/pairs of different types
+of 3D print additive manufacturing including any and all of
+the items listed within warehouse/distribution center net-
+work processes for fixing products, producing tools,pro- 35
+ducing parts, producing packaging, and/or producing other
+materials to fix machines in real time (as needed).
+In embodiments, the Product Lifecycle management
+(PLM) system 10648 helps manage the part or product
+across the entire lifecycle, from conception and design
+through manufacturing and distribution to customer use and
+service. The PLM system 10648 may contain accurate,
+real-time product information across the lifecycle and value
+chain. This helps with developing and managing the product
+in a manner that is responsive to feedback from one or more 45
+distributed manufacturing network entities, such as custom-
+ers using the product, distributors, logistics providers, regu-
+lators, safety professionals, service professionals, sales-
+people, product managers, designers, resellers, and many
+others. This may also enable an accelerated proof of concept 5o
+and rapid customization of the product in the product
+development stage. Also, this may help with predicting
+product demand and prices, improving customer engage-
+ment, performing product testing while in customer use and
+providing pre-emptive warranty management. 55
+In embodiments, the maintenance system 10650 monitors
+a set of 3D printers, cutting tools, filters, machine lasers and
+other machines, manages spare parts, maintains records and
+uses artificial intelligence and machine learning models to
+efficiently self-diagnose maintenance requirements and gen-
+erate work orders. In embodiments, the maintenance system
+10650 monitors a set of other machines, equipment, prod-
+ucts, fixtures, or other assets, maintains records, and man-
+coordinating additive manufacturing workflows (such as to 65
+produce spare parts, tools, workpieces, accessories, replace-
+ment elements, and the like) with other maintenance work-
+[col 2]
+430
+flows. In embodiments, this occurs with automation, such as
+robotic process automation, such as where an RPA agent is
+trained upon a set of expert interactions to undertake, or to
+support, operations performed by maintenance workers.
+In embodiments, the Quality Management system (QMS)
+10652 determines whether a printed part has been produced
+correctly by comparing real time sensor data with expected
+feedback data wherein the expected feedback data is gen-
+erated from at least one of historical data, test data, and
+machine learning. In embodiments, the QMS 10652 also
+generates warranty certification including the duration of
+completion of testing and quality assurance.
+In embodiments, the QMS 10652 includes automated part
+ 15 metrology and utilizes a vision system with variable focus
+ognition for automated part metrology. In embodiments, the
+vision system may include a conformable variable focus
+liquid lens assembly and a processing system that dynami-
+cally learns on a training data of outcomes, parameters and
+data collected from the conformable variable focus liquid
+lens assembly to train an artificial intelligence system to
+recognize an object. The conformable variable focus liquid
+lens assembly may constantly adjust based on environment
+factors and on feedback from the processing system to
+generate training data that is deeper in context and that
+corresponds to the physical light that the image represents.
+By training the vision system to recognize objects using
+variable optical parameters through the liquid lens assembly,
+the processing system may learn about the most optimum
+optical setting to detect an object. The vastly more dynamic
+input to the vision system may result in creating a richer
+context and providing superior object recognition.
+In embodiments, the certification system 10654 is con-
+figured to generate workflow and process control documen-
+tation to obtain certificates of conformance from one or
+more Manufacturing Certification Authorities or Standards
+Authorities. In embodiments, the one or more Manufactur-
+ing Certification Authorities or Standards Authorities
+include International Organization for Standardization
+(ISO), European Certification (CE marking) bodies, Under-
+writers Laboratories (UL), Society of Automotive Engineers
+(SAE), Federal Aviation Administration (FAA), TUV SUD,
+DNV GL, AS9100, IAQG 9100, American Society of Test-
+ing and Materials (ASTM), NIST (research, measurement
+science and standards), Fraunhofer Institute (research) and
+Sandia National Labs (research).
+In embodiments, the compliance system 10656 config-
+ured to perform compliance checks on 3D printed parts. In
+embodiments, compliance checking occurs by or with sup-
+port from robotic process automation, such as where a
+experts in certification/compliance with a specific require-
+ment on a training set of compliance review data or the like.
+In embodiments, a set of domain-specific or topic-specific
+models may be trained, such as one for each compliance
+domain or topic, such as for compliance with environmental
+standards, material standards, structural standards, chemical
+standards, safety standards, electrical standards, fire-related
+standards, and many others.
+In embodiments, robot/cobot system 10658 may include
+an autonomous robotic system or arm unit integrated with a
+set of additive manufacturing units 10102. For example, the
+additive manufacturing unit 10102 may be contained within
+the housing or body of a robotic system, such as a multi-
+purpose/general purpose robotic system, such as one that
+simulates human or other animal species capabilities. Alter-

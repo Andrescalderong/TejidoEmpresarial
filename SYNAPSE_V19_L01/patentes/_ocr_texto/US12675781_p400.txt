@@ -1,0 +1,135 @@
+[col 1]
+US 12,675,781 B2
+549
+planning by determining seed and crop choices and opti-
+mizing utilization of farming resources including land, water
+and nutrition. The MPR 12100 may for example, use the
+information to follow a planting and nutrition routine, per-
+form phenotyping for selective breeding provide optimized
+wavelengths of light for crops using AI-controlled LED
+lights. In embodiments, the modular AI-on-a-chip packages
+may be trained with models to detect diseases, pests, weed,
+nutritional deficiencies in soil or crops on agricultural farms.
+For example, the MPR 12100 may utilize propeller or 10
+miniaturized jet engine of transport system to fly over the
+farm, capture images of the farm using cameras of the vision
+and sensing system and then use the modular AI-on-a-chip
+package to identify problem areas and potential improve-
+ments. For example, the images may show the presence of 15
+unwanted plants or weeds. The MPR 12100 may then make
+decisions about treatment with herbicides or may select one
+or more end-effectors for eliminating the weeds. In embodi-
+ments, the modular Al-on-a-chip packages may be trained
+with models to monitor and harvest crops, plants, fruits and 20
+vegetables of various shapes and sizes. For example, the
+package may utilize machine vision and other sensors for
+identifying the crops ready to be harvested. The package
+may also include trained policies for navigating the farm,
+estimating the position and orientation of crops relative to 25
+the MPR 12100, grasping fruits and vegetables of different
+shapes and sizes, select suitable end effectors for selective
+harvesting, and finally storing or packaging the harvested
+fruits and vegetables. In embodiments, the modular AI-on-
+tem based on needs of plants and fish. For example, an
+example module AI-on-a-chip package may receive sensed
+oxygen levels in an aquatic environment and may determine
+whether the water is suficiently oxygenated, under-oxygen- 35 
+ated, or over-oxygenated. In embodiments, the modular
+Al-on-a-chip packages may be trained with models for
+optimizing 3D printing parameters.
+In embodiments, the control interface module 12130 may
+receive multiple modular, removable and replaceable com-
+binations of modules to perform certain tasks. For example,
+in some embodiments, the control interface module 12130
+may receive a lab-on-a-chip capability to detect gases and
+AI-on-a-chip capability for machine vision. The MPR 12100
+may for example, use such a package for gas leak detection 451
+and isolation in over-ground and underground gas pipelines.
+In this example, the MPR 12100 may travel along the
+pipeline and analyze gas concentrations in close proximity
+to potential leak points. Upon determining a gas leak, the
+MPR 12100 may use cameras and IR sensors to click 50
+images, machine vision capability to locate the leak and
+policy libraries to identify one or more policies to fix the
+leak.
+In embodiments, the physical module interfaces 12122
+receive (or otherwise connect to) auxiliary physical modules 55
+that alter the physical actions that may be taken by MPR
+12100 and/or the physical operation of the MPR 12100.
+Some examples of physical module interfaces 12122 include
+end effectors 12124, motive adapters 12126, 3D printer
+adapters 12128 and the like. End effectors 12124 includes 601
+devices or tools that may be connected to the end of the arm
+of MPR 12100 for manipulating objects or accomplishing
+one or more tasks. For example, different end effectors may
+be used for gripping and grasping, lifting and placing,
+palletizing, brushing, drilling, inspecting, and/or testing
+objects. The MPR 12100 may be configured with one or
+more of the end effectors, such that the one or more end
+[col 2]
+550
+effectors may be selected based on multiple factors includ-
+ing the task(s) to be performed; the size, shape, surface and
+weight of the object to be manipulated; environment of the
+object including the material clearance available around the
+object; available power supply; the precision or accuracy
+required in the task; and the like. It is appreciated that the
+end effectors that are used by an MPR 12100 may be
+selected by the fleet management platform 12000 during
+configuration and/or by the MPR 12100 while deployed.
+In some example embodiments, end effectors may include
+grippers for gripping and grasping objects for wide range of
+material handling applications right from stacking large
+boxes to handling tiny, delicate electronic components. In
+some example embodiments, fingers or jaws may be
+attached to grippers to grip or hold the object as well as pick
+up and place objects, for example on an assembly line,
+conveyor system or other automated system. For example,
+parallel grippers may have two fingers disposed parallel to
+each other that may close on an object to hold and grip the
+same, angled grippers may have fingers at a variety of
+variety of different angle openings like three fingers offset by
+120°, suction grippers may have one or more suction cups
+for engaging a surface of an object and using a negative or
+suction pressure or vacuum to grasp the object; electro-
+magnetic grippers may be used for gripping metal objects,
+hydraulic grippers powered by hydraulic fluids may be used
+for heavy duty applications like lifting heavy objects, soft
+grippers may mimic human fingers to pick and manipulate
+delicate objects of differing shapes and sizes like fresh fruits
+and vegetables, Bernoulli grippers may use airflow to adhere
+to an object without physical contact and may be used for
+handling sterile material to prevent contamination and so on.
+In embodiments, the grippers may include sensors aiding the
+gripper in locating, handling, and positioning products. In
+embodiments, the grippers may include accessories like
+force torque sensors and compliant force feedback systems
+for force-controlled processes requiring application of pre-
+cise force. In embodiments, the grippers may be powered by
+compressed air, vacuum or electricity. In some example
+embodiments, the end effectors 12124 may have a wide
+variety of process tooling devices attached for various
+spraying, machining, drilling, water-jet cutting, flaming,
+riveting, grinding, deburring, assembling, additive manufac-
+turing, injection molding and/or the like.
+In embodiments, motive adapters 12126 may include
+suitable modular components that allow the MPR 12100 to
+traverse certain environments and/or conditions. For
+example, motive adapters 12126 may include different
+wheel sets, movable legs, fins, jets, turbines, or other suit-
+able means of transport.
+In embodiments, 3D printer adapters 12128 incorporate
+an integrated set of additive manufacturing capabilities for
+printing on a need basis. For example, the additive manu-
+facturing capabilities may include printing tools, such as
+agricultural tools or parts, constructions tools or parts,
+packaging tools or parts, replacement parts, and/or other
+suitable additive manufacturing capabilities that allow a
+robot to print items on a need basis. In these embodiments,
+the additive manufacturing capabilities may include suitably
+dimensioned printing devices for printing items, as well as
+any materials needed for the printing.
+The foregoing descriptions of different modules are pro-
+65 vided for example of respective types of physical modules
+and control modules. It is understood the physical modules
+interfaces 12122 and control module interfaces 12130 may

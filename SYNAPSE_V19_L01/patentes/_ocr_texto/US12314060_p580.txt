@@ -1,0 +1,137 @@
+[col 1]
+US 12,314,060 B2
+795
+on external data (e.g., gas prices, traffic data, transportation
+time, sales forecasts, warehouse data, etc.) for past behavior
+over time, historical data, and/or current data. This may
+allow a precise view of when to ship orders, what mode of
+transportation to do so, and the optimal route. In some
+implementations, the external data may be received and
+analyzed in real-time or near real-time, enabling rapid
+time-to-value by collaborating globally with carriers to
+reduce transportation costs. Time-to-value here may refer to
+the amount of time it takes for a company to see a return on 10
+its investment in real-time data collaboration with global
+carriers. In some implementations, VCN process 10 may
+resolve this situation by automatically executing (without
+human interaction) a change in transportation logistics (e.g.,
+shipping time/date, shipping mode, shipping route, etc.), or
+providing a suggestion on a user interface to change the
+transportation logistics, which may be manually executed
+(e.g., receiving a user input to approve the suggested action).
+Other examples of external data that may be used to help
+reduce transportation costs may include, e.g., demand fore- 20
+casting data (e.g., market trends, sales data, promotional
+events, seasonal trends, economic indicators, mobile analyt-
+ics, website analytics, etc.) that may be used to predict
+regional demand allowing for the consolidation of shipments
+or ordering of bulk shipments to reduce per-unit transpor- 25
+tation costs; fuel price and futures data (e.g., current fuel
+prices, futures markets data, news media regarding geopo-
+litical events that may affect oil prices) that may be used to
+provide recommendations on when to purchase fuel or to
+purchase futures contracts to hedge prices against predicted
+30
+price increases.
+As such, VCN process 10 may help a business select the
+optimal mode of shipment and the best carrier, based on
+e.g. cost, efficiency, and distance, including optimizing
+multi-leg carrier routes. VCN process 10 may provide 35
+visibility into every stage of the supply chain, and together
+with global trade management functionality of VCN process
+10, may also provide information on trade and tariffs, and if
+there are any potential delays that may happen because of
+customs and other trade regulations.In some implementa- 40
+tions, VCN process 10 may match loads and communicating
+with carriers, document and track shipments, and assist with
+freight billing and settlement, provide track and trace ser-
+vices (e.g., enabling real-time information exchange among
+carriers, distributors, warehouses, and customers), handle 45
+complex international logistics, including providing proper
+import and export documentation making sure shipments are
+trade compliant.
+In some implementations, other ways for VCN process 10
+to reduce transportation costs may include, e.g-. Route 5o
+optimizationby tracking the location and availability of
+carriers in real time, companies can optimize their shipping
+routes to reduce fuel costs and transit times; Mode selec-
+tioncompanies can also use real-time data to select the
+most cost-effective mode of transportation for their ship- 55
+ments. For example, if a shipment is not urgent, the company
+may be able to save money by shipping it via ground
+transportation instead of air freight; Negotiation-companies
+can use real-time data to negotiate better rates with carriers.
+For example, if a company has a large volume of shipments, 60
+they may be able to negotiate a lower rate with a carrier,
+Tracking and Tracingreal-time data can also be used to
+track and trace shipments in real time. This can help to
+identify and resolve problems quickly, which can reduce
+costs and improve customer satisfaction. For instance, 65
+assume for example purposes only that a company is ship-
+ping a product from China to the United States. Further
+[col 2]
+796
+assume that the company uses a real-time data platform
+(such as VCN process 10) to track the location and avail-
+ability of carriers. The platform may also provide informa-
+tion on fuel costs and transit times. Further assume VCN
+process 10 uses this information to recommend to the
+company to optimize its shipping route. VCN process 10
+may recommend one or more carriers for the company to
+select (of that VCN process 10 may select automatically)
+that is located near the shipper and that has a good reputation
+for on-time delivery. VCN process 10 may recommend that
+the company also select a mode of transportation that is
+cost-effective for the shipment.
+In some implementations, VCN process 10 may unify
+17924 data associated with warehouse management, inven-
+tory management, order management, and analytics to opti-
+mize an omnichannel fulfillment. For instance, assume for
+examplepurposesonlythatVCN process10hasused oneor
+more Al-based learning models to determine that there is a
+potential to optimize an omnichannel fulfillment in the value
+chain network based upon received data (e.g, warehouse
+management, inventory management, order management,
+and analytics). Omnichannel may generally refer to the
+integration of all sales and fulfillment channels, including
+such examples as internet/e-commerce, physical stores, and
+mobile apps, such as to provide a seamless customer jour-
+ney. Generally, dynamic fulfillment considers the value of
+inventory according to the location where it is maintained.
+For example, if a store is in an overstock position antici-
+pating mark-downs to move the excess, these items can be
+given priority for on-line orders. The net result is higher
+profit and customer satisfaction. Thus, in some implemen-
+tations, VCN process 10 may provide a single platform that
+unifies warehouse management, inventory management,
+order management, analytics, and more for full network
+visibility.
+In some implementations, VCN process 10 may provide
+17926 a platform with a plurality of A1-based learning
+models for download. For instance, VCN process 10 may be
+enabled as a models-as-a-service system. For instance, in the
+context of value chain networks, models-as-a-service may
+generally refer to the practice of providing access to
+machine learning (or other type of AI-based learning) mod-
+els as a service, which may be integrated into different stages
+of the value chain. Value chain networks can consist of a
+series of interconnected activities that create value for
+customers, and these activities may include everything from
+raw material sourcing and production to marketing and
+distribution. By providing access to Al-based learning mod-
+els as a service, businesses may enhance their ability to
+optimize and automate these activities, improving efficiency,
+reducing costs, and ultimately delivering better products or
+services to customers.
+For example, a company may provide access to an Al-
+lar product. This model may be integrated into the planning
+stage of the value chain, allowing the company to better
+anticipate customer demand and adjust production accord-
+ingly. Similarly, a machine learning model that analyzes
+customer data may be used in the marketing stage to better
+understand customer preferences and tailor marketing cam-
+paigns to specific customer segments. Overall, models-as-
+a-service may help businesses in value chain networks to
+stay competitive by leveraging the power of A-based learn-
+ing to optimize and automate their operations. In some
+implementations, each of the AI-based learning models may

@@ -1,0 +1,139 @@
+[col 1]
+US 12,314,060 B2
+827
+include a library of pre-built activities that may be used to
+automate tasks. In some implementations, the UI of VCN
+process 10 may integrate with value chain data sources, such
+as ERP systems and transportation management systems.
+This may allow users to access the data they need to design
+and optimize their value chains. In some implementations,
+the UI may provide users with value chain analytics tools
+that can help users to identify areas where their value chains
+can be improved. In some implementations, the UI may
+provide users with value chain modeling tools for simulating
+different scenarios and to identify the best way to design
+their value chains. In some implementations, the UI may
+provide users with value chain collaboration tools that can
+help users to collaborate with their suppliers and customers.
+In some implementations, the UI may allow users to test 15
+their workflows before they implement them. Users may be
+able to step through their workflows and see how the
+different elements interact with each other. In some imple-
+mentations, the UI may help users identify and correct any
+errors in their workflows. In some implementations, the UI
+may include pre-built templates that may provide users with
+a starting point for designing their workflows. In some
+implementations, the UI may enable users to modify these
+templates to meet their specific needs. In some implemen-
+tations, the UI may include version controls, collaboration 25
+tools, and enable integrations with other systems that may
+allow users to automate tasks that are performed in those
+systems.
+In some implementations, VCN process 1o may render
+18426 a user interface enabling a user to manage automation
+30
+processes. For instance, VCN process 10 may render a UI
+(e.g., the control tower UI discussed throughout) that
+enables a user to deploy, manage, and monitor automation
+processes from a central location. It may provide a dash-
+board for real-time monitoring of automation performance, 35
+as well as tools for managing user access, scheduling, and
+logging. In some implementations, the UI may be a web-
+based management platform. In some implementations, the
+UI may provide users with visibility into the entire value
+chain workflow and see the status of all tasks, orders, and 40
+shipments in real time. In some implementations, the UI
+may provide real-time updates on the status of their value
+chains, which may allow users to identify and respond to
+problems quickly. In some implementations, the UI may be
+able to send alerts and notifications to users when there are 45 j
+problems or changes in the value chain. In someimplemen-
+tations, the UI may provide users with collaboration tools
+that allow them to work with their suppliers and customers
+to manage the value chain. In some implementations, the UI
+may provide users with reporting and analytics tools that 5o 
+allow them to track the performance of their value chains
+and to identify areas where improvements can be made.
+In some implementations, VCN process 10 may render
+18428 a user interface enabling a user to create a plurality of
+Al-based learning models and select a plurality of applica- 55
+models into one or more automation workflows. For
+instance, VCN process 10 may render a UI (e.g., the control
+tower UI discussed throughout) that enables a user to build,
+train, and deploy custom machine learning models within 60
+their automation workflows. It may provide an interface for
+creating and managing Al-based learning, models (e.g..
+machine learning models), as well as a set of APIs that may
+be used to integrate the models into automation workflows.
+In some implementations, VCN process 10 may render 65
+18430 a user interface enabling a user to track automation
+performance and generate custom dashboards based upon, at
+[col 2]
+828
+least in part, the automation performance. For instance,
+VCN process 10 may render a UI (e.g., the control tower UI
+discussed throughout) that provides analytics and reporting
+capabilities for automation processes. It may allow users to
+track automation performance, identify bottlenecks and
+opportunities for optimization, and generate custom reports
+and dashboards.
+In some implementations, VCN process 10 may render a
+UI (e.g., the control tower UI discussed throughout) that
+enables users to capture and document the steps of manual
+processes, which may then be used to automate those
+processes as discussed throughout. It may provide a simple
+and intuitive interface for creating process documentation,
+and may include features for collaborating with team mem-
+bers and tracking progress. In some implementations, any of
+the UP s discussed throughout may be used with various
+supporting infrastructures, such as IoT, intelligent document
+processing, chatbots, mobile applications, blockchain, etc.
+ML-Driven Digital Twins for a Value Chain Network Con-
+20 trol Tower
+As will be discussed in greater detail below, as discussed
+throughout and referring also at least to the example imple-
+mentations of FIGS. 173-185, a VCN process, such as VCN
+process 10, may receive 18500, by a value chain network
+digital twin, information associated with a value chain
+network, wherein the information may include a virtual
+representation of a plurality of associations between physi-
+cal data items of the value chain network, and wherein the
+information may be dynamic, real-time and time-phased.
+Generally, time-phased may be described as the representa-
+tion showing the associations between data items over time
+and that the information provided may be used to track the
+evolution of the value chain network over time. For
+example, simply put, a value chain network digital twin
+(which may include at least a portion of VCN process 10)
+may be a representation of the various associations between
+the data objects of the physical (and often multi-enterprise)
+supply chain, as a basis for local and end-to-end aligned
+decision making Put another way, value chain network
+digital twins may represent a set of value chain network
+entities (such as those described throughout). The digital
+twins may be configured to simulate properties, states,
+operations, behaviors and other aspects of the value chain
+network entities. The digital twins may have a visual user
+interface, e.g., in the form of 3D models, or may consist of
+system specifications or ontologies describing the architec-
+ture, including components and their interfaces, of the value
+chain network entities. The digital twins may include con-
+figuration data or condition data of the value chain network
+entities, including data records of the past and current state
+ofthe value chain network entities, such as captured through
+sensors, through user input, and/or determined by outputs of
+AI-based models (e.g., Al-based behavioral models) that
+describe the behavior of the value chain network entities.
+The digital twins may be updated continuously or periodi-
+cally with dynamic, real-time and time-phased data to reflect
+the current condition of the value chain network entities,
+based on sensor data, test and inspection results, conducted
+maintenance, modifications, etc. The digital twins may also
+be configured to communicate with a user via multiple
+communication channels, such as speech, text, gestures, and
+the like. For example, a digital twin may receive queries
+from a user about the value chain network entities, generate
+responses for the queries, and communicate such responses
+to the user. Additionally and/or alternatively, digital twins
+may communicate with one another to learn from and
+identify similar operating patterns and issues in other value

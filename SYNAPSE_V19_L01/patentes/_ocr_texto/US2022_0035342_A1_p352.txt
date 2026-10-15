@@ -1,0 +1,130 @@
+[col 1]
+US2022/0035342A1
+269
+aspect, the means for performing the steps associated with
+the processes described above may include any of the
+hardware and/or software described above. All such permu-
+tations and combinations are intended to fall within the
+scope of the present disclosure.
+[2090] While the disclosure has been disclosed in connec-
+tion with the preferred embodiments shown and described in
+detail, various modifications and improvements thereon will
+become readily apparent to those skilled in the art. Accord-
+ingly, the spirit and scope of the present disclosure is not to
+be limited by the foregoing examples, but is to be under-
+stood in the broadest sense allowable by law.
+[2091]The use of the terms "a"and "an" and "the" and
+similar referents in the context of describing the disclosure
+(especially in the context of the following claims) is to be
+construed to cover both the singular and the plural, unless
+otherwise indicated herein or clearly contradicted by con-
+text. The terms “"comprising," "with,"“including," and
+"containing" are to be construed as open-ended terms (i.e.,
+meaning“including, but not limited to,) unless otherwise
+noted. Recitations of ranges of values herein are merely
+intended to serve as a shorthand method of referring indi-
+vidually to each separate value falling within the range,
+unless otherwise indicated herein, and each separate value is
+incorporated into the specification as if it were individually
+recited herein. All methods described herein can be per-
+formed in any suitable order unless otherwise indicated
+herein or otherwise clearly contradicted by context. The use
+of any and all examples, or exemplary language (e.g., “"such
+as) provided herein, is intended merely to better illuminate
+the disclosure and does not pose a limitation on the scope of
+the disclosure unless otherwise claimed. The term “"set"may
+include a set with a single member. No language in the
+specification should be construed as indicating any non-
+claimed element as essential to the practice of the disclosure.
+[2092]While the foregoing written description enables
+one skilled to make and use what is considered presently to
+be the best mode thereof, those skilled in the art will
+understand and appreciate the existence of variations, com-
+binations, and equivalents of the specific embodiment,
+method, and examples herein. The disclosure should there-
+fore not be limited by the above described embodiment,
+method, and examples, but by all embodiments and methods
+within the scope and spirit of the disclosure.
+[2093]  All documents referenced herein are hereby incor-
+porated by reference as if fully set forth herein.
+What is claimed is:
+1. An information technology system, comprising:
+a cloud-based management platform with a micro-ser-
+vices architecture, the platform having a set of inter-
+faces that are configured to access and configure fea-
+tures of the platform, a set of network connectivity
+facilities that are configured to direct a set of value
+chain network entities to connect to the features of the
+platform, a set of adaptive intelligence facilities that are
+configured to automate a set of capabilities of the
+platform related to at least one of the value chain
+network entities and the features of the platform, or a
+set of monitoring facilities that are configured to moni-
+tor the value chain network entities, wherein the inter-
+faces, the network connectivity facilities, the adaptive
+intelligence facilities, and the monitoring facilities are
+coordinated for monitoring and management of the
+value chain network entities;
+[col 2]
+Feb.3,2022
+a set of applications that are configured to direct an
+enterprise to manage the value chain network entities of
+the platform from a point of origin to a point of
+customer use; and
+a set of microservices layers including an application
+layer supporting at least one supply chain application
+and at least one demand management application,
+wherein the microservices layers include a robotic
+process automation layer that uses information col-
+lected by a data collection layer and a set of outcomes
+and activities involving the applications of the appli-
+cation layer to automate a set of actions for at least a
+subset of the applications with respect to the value
+chain network entities of the platform.
+2. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+selection of a quantity of product for an order.
+3. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+selection of a carrier for a shipment.
+4. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+at least one of a selection of a vendor for a component or a
+vendor for a finished goods order.
+5. The system of claim 1, wherein one of the actions
+selection of a variation of a product for marketing.
+6. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+selection of an assortment of goods for a shelf.
+7. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+determination of a price for a finished good.
+8. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+configuration of at least one of a service offer related to a
+product or configuration of product bundle.
+9. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+at least one of configuration of a product kit, a product
+description.
+10. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+configuration of a website navigation path related to a
+product.
+11. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+determination of an inventory level for a product.
+12. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+selection at least one of a logistics type or a schedule for
+product delivery.
+13. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+configuration of a logistics schedule.
+14. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+configuration of a set of inputs for machine learning.
+15. The system of claim 1, wherein one of the actions
+automated by the robotic process automation layer involves
+at least one of preparation of product documentation or
+preparation of disclosures about a product.

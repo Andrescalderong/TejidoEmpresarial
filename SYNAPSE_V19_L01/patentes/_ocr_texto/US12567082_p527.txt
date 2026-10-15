@@ -1,0 +1,137 @@
+queries that match a secondary index (e.g-, query 20652A), 10 may be distributed to edge devices 20120 and/or reference
+[col 1]
+US 12,567,082 B2
+731
+facilitate local processing, for example if two edge nodes
+require shared data and the latency between them is low
+(e.g., such that local replication of data may be cost effec-
+tive).
+Additionally or alternatively, queries that do not match
+any index (e.g, query 20652B) may cause wide distribution
+of the query and potential auto rearrangement to local edge
+devices 20120. From the perspective of the edge devices
+20120 and/or aggregators 20140, these queries are similar to
+although they may have a larger local calculation cost (e.g.,
+a local table scan).
+In embodiments, aggregators 20140 and/or other devices
+within the distributed database may perform aggregation in
+various manners. For example, calculations on a numerator 15
+sum (e.g., SUM, COUNT, AVG statements and the like) may
+be converted (e.g., to SUM(expr)/COUNT(expr) and the
+like). Additionally or alternatively, calculations that require
+a complete knowledge of the dataset (e.g., COUNT DIS-
+TINCT, MEDIAN statements) may be handled in various 20
+ways. In the case of non-set-based calculations (e.g., calcu-
+lations with SUM or COUNT statements), the aggregations
+can be distributed in the cluster and aggregated dynamically
+efficiently.Additionally or alternatively,in the case of com-
+plete knowledge aggregations, approximation algorithms 25
+may be used based on the underlying data structure (e.g..
+accepting the results can be within tolerances of error) to
+provide for distribution of a query. For example, a sample of
+data may be used to determine the median value and,
+provided that distributed datasets have a similar shape, 30
+query results may be efficiently calculated. Additionally or
+alternatively, COUNT DISTINCT results may be estimated
+by probability models showing the expected number of
+distinct values based on the overall size of the dataset.
+In embodiments, ORDER BY queries may leverage 35
+ordering at the edge node to provide for final merge only
+requirements on data processing at the aggregate level (e.g.
+at an aggregator 20140).
+In embodiments, for aggregate queries, query results may
+bebased onafinaloutputofoneormoreedgenodesand/or 40
+may be based on estimates from information stored on the
+dynamic ledger 20150, such as probability distribution mod-
+els 20260. Additionally or alternatively, associative results
+may be calculated at the final node (e.g., the edge device
+allow for dynamic data aggregation.
+In embodiments, GROUP BY queries may rely on distri-
+butions of different kinds of aggregates and/or edge device
+aggregation to allow for the final results to be calculated.
+In embodiments, HAVING queries may be based on 50J
+partition algorithm logic or summary frequency analysis
+and/or may be calculated in edge devices where there is
+partition separation and/or at a final node.
+FIGS. 172A-C illustrate example data flows 20700,
+20740, 20780 for creating and query tables of the distributed 55
+database using a query language (e.g., EDQL) as described
+herein. In the illustrated examples, queries are formatted in
+an SQL format with custom and DDL and DML extensions
+(e.g., EDQL format). However, it should be understood that,
+in some embodiments, the queries may be formatted in other 60
+query languages. The example data flows 20700, 20740,
+20780 illustrate specific concepts related to distributed joins
+and reference tables that may be used to query a distributed
+database in the context of the edge distributed system as
+described herein. 65
+FIG. 172A illustrates several example queries 20702A,
+20702B, 20702C that create distributed tables linked by
+[col 2]
+732
+reference joins. For example, a first query 20702A may
+create a first table (e.g., a table labelled “"edge_devices"), a
+second query 20702B may create a second table (e.g., a table
+labelled “events") that may use a primary key of the first
+table as a parameter for a shard algorithm (e.g, edge_devi-
+ce_id), and a third query may create a third table (e.g., a table
+labelled “users") that may use a different shard algorithm
+parameter (e.g., account_id). In embodiments, tables con-
+structed in this manner may be reference tables 20216 that
+tables 20264 that may be stored on a dynamic ledger 20150
+(e.g., by an aggregator 20140).
+After creation of the distributed tables and/or reference
+tables as shown in FIG. 172A, distributed join queries may
+be executed as illustrated by the example data flows 20740,
+20780 shown in FIGS. 172B, 172C. For example, the query
+20742 may be executed against an edge device 20120 (e.g.,
+edge device 20120A) as shown at FIG.172B. In this
+example, the query 20742 specifies a SELECT on a first
+table (e.g., "edge_devices" with an INNER JOIN involving
+two tables (e.g., the “edge_devices" table and an "events"
+table) on a parameter (e.g. the “id" parameter of both
+tables). In the illustrated embodiment, the edge device
+20120A may be able to at least partially respond to the query
+without any network overhead because the join may be
+executed locally. Distribution of the query 20742 to other
+edge devices (e.g., to device 20120B) may be handled as
+described elsewhere herein. For example, the edge device
+20120A may execute method 20400 to cause the query
+20742 to be posted on a dynamic ledger 20150, which may
+cause the edge device 20120B to execute the query 20742.
+Additionally or alternatively, an aggregator 20140 may
+handle distribution of the query 20742 to the edge devices as
+necessary.
+Similarly, FIG. 172C illustrates an example method
+20780 for handling a query 20782. The example query
+20782 specifies a SELECT on a first table (e.g-, a *users*
+table) that is joined using an INNER JOIN with a second
+table (e.g., an "events" table) using a shared parameter (e.g..
+an *account_id"parameter of both tables). The query 20782
+may be handled eficiently with distribution of the users
+table (e.g, at least to the edge device 20120A). As in the
+previous example, distribution of the query 20782 to other
+edge devices (e.g., to device 20120B) may be handled as
+described elsewhere herein. For example, the edge device
+20120A may execute method 20400 to cause the query
+20782 to be posted on a dynamic ledger 20150, which may
+cause the edge device 20120B to execute the query 20782
+Additionally or alternatively, an aggregator 20140 may
+handle distribution of the query 20782 to the edge devices as
+necessary.
+In embodiments, distributed database systems as
+described herein may be used to store and/or retrieve sensor
+data generated by components of the value chain network,
+such as robotic components or other components that
+include and/or are associated with sensors. For example, in
+these embodiments,therobotsthemselves and/orvarious
+devices associated with the robots may act as edge devices
+and/or aggregators in order to make various sensor data
+available to query devices (e.g., various control system) that
+wish to obtain and/or analyze the sensor data.
+In embodiments, the distributed database systems as
+described herein may be used to store and/or retrieve IoT
+data that may be generated by various IoT devices, including
+smart products and/or other smart devices.For example, the
+data stored in the distributed database may include statuses
+of each smart devices, location of each smart devices, and/or

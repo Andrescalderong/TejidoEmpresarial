@@ -1,0 +1,139 @@
+[col 1]
+US 12,567,082 B2
+557
+system 13010 for the respective teams of smart containers as
+a job progresses through the exemplary environments.
+Freight storage and/or transportation service order criteria
+may directly call for isolated operation. Alternatively, cir-
+cumstances of the freight storage and/or transportation ser-
+vice order may favor isolated operation (e.g-, operation
+within a foreign jurisdiction and the like). Communication
+resources for the requested service may be adapted accord-
+ingly. As an example, communication among a team of fleet
+resources assigned to co-locate when performing a job (e.g..
+10
+co-locating to an origin location) may be configured by the
+fleet configuration system with additional encryption or with
+a radio frequency that defies conventional detection that the
+communication management system may facilitate activat-
+ing when required by the freight storage and/or transporta- 15
+tion service order (e.g., as noted above when the team enters
+a foreign jurisdiction). In this further embodiment of fleet
+resource configuration, the communication management
+system 13010 may detect and control communication
+resources (e.g-, smart container operating unit radio inter- 20
+faces, communication infrastructure that is proximal to
+isolated smart container operating units and the like) to
+enforce such a fleet configuration. Yet further consideration
+for isolated operation may include adaptable isolation com-
+munication protocols, such as permitting only use of low 25
+energy near-field communication conditionaily based on
+deployment context, such as an expected location of team
+smart containers, such as when multiple smart container
+operating units are expected to be nearby. The communica-
+tion management system 13010 may assist the fleet con- 30
+figuration system with fleet configuration, such as config-
+uring smart container operating units, selection of smart
+container units that meet a freight storage and/or transpor-
+tation service order communication requirement, configura-
+tion and designation of deployment of fleet communication 35
+resources (e.g., co-locating an inter-smart container operat-
+ing unit repeater device with the team), and other fleet and
+smart container configuration considerations. In an example
+of such fleet configuration assistance, a freight storage
+and/or transportation service order may indicate a preference 40
+to use specific smart container operating units. The fleet
+configuration system may query the communication control
+system regarding adaptation capabilities (e.g., of the com-
+munication management system and/or certain fleet com-
+munication resources) to support the preferred smart con- 45 r
+tainer operating units.
+In an exampie of communication management adaptabil-
+ity capabilities for supporting diverse smart container oper-
+ating unit communication configurations, the communica-
+tion management system 13010 may support a first team of 50 1
+smart container operating units performing operations in
+using a different radio frequency for wireless communica-
+tion than a second team of smart container operating units
+that are performing operations in the same radio signal range
+as the first team of smart container operating units; thereby 55
+mitigating the likelihood of cross-radio interference. Fur-
+ther, the communication management system 13010 may
+provide for reliable communication through use of redun-
+dancy, such as through dual radio systems, automatic chan-
+nel selection (e.g., local networking, cellular networking, 60
+mesh networking, long range satellite networking, and the
+like). Fleet communication resources may include smart
+container operating units acting as network elements, such
+as when smart container operating units are configured into
+one or more mesh networks and the like. Smart container 65
+operating units may facilitate communication in other ways,
+including visually, such as through use of light sources (e.g..
+[col 2]
+558
+Morse code or binary transmissions), physical gestures,
+infrared signals, ant-based trails, and the like. Auditory
+communications among smart containers (e.g., non-human
+language encoded audio signaling), ultrasound and other
+auditory-based techniques may be rendered as a form of
+communication among smart containers. Much like how
+co-located smart containers on different teams may use
+different radio frequency signals, co-located smart contain-
+ers may use different auditory signaling to assist in com-
+munication clarity among team members.
+In embodiments, the communication management system
+13010 may be constructed as a plurality of independent
+communication systems that are configured to meet at least
+a corresponding portion of fleet communication needs. In an
+example, the communication management system 13010
+may be constructed with a first communication system for
+communicating among elements within the fleet manage-
+ment system 13002 (or any other fleet system, system,
+module, team, fleet segment and the like), and with a second
+communication system for communication among intelli-
+gence service 13004 elements (or any other portion of the
+fleet system that can be separated from the first communi-
+cation system), so that disruption of any individual commu-
+nication system may be isolated from other system commu-
+reducing nication thereby impact of systems,
+communication problems throughout the system. Further in
+this example, the fleet management system 13002 and its
+constituent elements (e.g., job configuration system 13018,
+and the like) may continue to communicate through the first
+communication system and indeed perform all pertinent fleet
+operationfunctions (including communicationwith
+remotely deployed fleet smart container operating units and
+the like) even though access to intelligence service 13004
+elements, such as a machine learning system, may be
+compromised due to problems with the second communi-
+cation system serving the intelligence service 13004. Fur-
+ther, the communication management system 13010 may
+include security features that effect isolation and shunning of
+systems, sub-systems, system elements, communication sys-
+mised due to malware or the like. Other independent com-
+munication systems include smart container-to-smart
+container communication systems, robot-to-smart container
+communication systems, human-to-smart container commu-
+nication systems, emergency response communication sys-
+tems, and the like. Yet further independent communication
+systems may be based on aspects, such as confidentiality of
+information (e.g., negotiations between a fleet management
+provider and a shipper), fleet operations oversight and the
+like. In embodiments, the communication management sys-
+tem 13010 may be constructed to provide role-based (or the
+like) access to different communication systems. For
+example, a fleet operations executive may be granted con-
+current access to smart container operating units allocated to
+different jobs for performing fleet supervisory functions.
+In addition to and/or instead of separated communication
+systems, the communication management system 13010
+may provide for redundancy (multi-frequency radios, and
+the like) to address exception conditions that may cause
+network compromise, may require overriding operational
+communication channels for emergency use, and the like.
+In embodiments, the communication management system
+13010 may provide fleet resource-specific (e.g, individual
+smart container operating unit) secure communication so
+that two fleet resources (e.g., two smart container operating
+units, a smart container operating unit and a fleet monitoring
+system, and the like) may communicate securely. The com-

@@ -1,0 +1,144 @@
+[col 1]
+US 12,277,524 B2
+Page 2
+ommendation, and one or more physical asset digital twins
+of physical assets. The digital twin system executes a
+simulation based on the logistics environment digital twin,
+the one or more physical asset digital twins.
+30 Claims, 82 Drawing Sheets
+Related U.S. Application Data
+Provisional application No. 63/087,292, filed on Oct.
+(60)
+4, 2020, provisional application No.63/069,533, filed
+on Aug. 24, 2020, provisional application No.
+63/054,606,filed on Jul.21,2020,provisional
+application No. 63/016,976, filed on Apr. 28, 2020,
+provisional application No. 62/969,153, filed on Feb.
+3, 2020, provisional application No.62/931,193, filed
+on Nov. 5, 2019.
+Int. CI. (51)
+G05B 13/02 (2006.01)
+G05B 19/4155 (2006.01)
+G06F16/23 (2019.01)
+G06F 16/27 (2019.01)
+(2019.01) G06F16/28
+G06F 18/21 (2023.01)
+G06F 18/214 (2023.01)
+G06F30/27 (2020.01)
+G06N 3/04 (2023.01)
+G06N 3/08 (2023.01)
+G06Q 10/0631 (2023.01)
+G06Q 10/0633 (2023.01)
+G06Q 10/0635 (2023.01)
+(2023.01) G06Q 10/0637
+G06Q 10/067 (2023.01)
+G06Q 10/08 (2023.01)
+G06Q 10/083 (2024.01)
+G06Q 10/0833 (2023.01)
+G06Q 10/0835 (2023.01)
+G06Q 10/087 (2023.01)
+(2023.01) G06Q 10/10
+G06Q 30/018 (2023.01)
+G06Q 30/0201 (2023.01)
+(2023.01) G06Q30/0202
+G06Q 30/0601 (2023.01)
+G06Q 50/26 (2024.01)
+(2022.01) H04L67/1097
+H04L67/12 (2022.01)
+(2023.01) B64U101/64
+G16Y10/40 (2020.01)
+G16Y10/45 (2020.01)
+(2020.01)
+G16Y10/75
+G16Y40/10 (2020.01)
+(2009.01) H04W 84/04
+U.S. CI. (52)
+CPC... G05B19/4155(2013.01);G06F16/2315
+(2019.01);G06F16/27(2019.01);G06F
+16/284 (2019.01); G06F 18/214 (2023.01);
+G06F18/2178(2023.01);G06F30/27
+(2020.01);G06N3/04(2013.01);G06N3/08
+(2013.01);G06N20/00(2019.01);G06Q
+10/06313 (2013.01); G06Q10/06315
+(2013.01); G06Q10/0633(2013.01);G06Q
+10/0635 (2013.01); G06Q 10/06375 (2013.01);
+G06Q 10/067 (2013.01); G06Q 10/08
+[col 2]
+(2013.01); G06Q 10/083 (2013.01); G06Q
+10/0835 (2013.01); G06Q 10/0838 (2013.01);
+G06Q10/087(2013.01); G06Q10/103
+(2013.01);G06Q30/018(2013.01);G06Q
+30/0201 (2013.01); G06Q 30/0202 (2013.01);
+G06Q 30/0206 (2013.01); G06Q 30/0631
+(2013.01); G06Q 50/26 (2013.01); H04L
+67/1097(2013.01);H04L67/12(2013.01);
+B64U2101/64(2023.01);G05B2219/40408
+(2013.01);G06Q2220/00(2013.01);G06Q
+2220/10(2013.01);G16Y10/40 (2020.01);
+G16Y10/45 (2020.01);G16Y10/75(2020.01);
+G16Y40/10(2020.01);H04W84/042
+(2013.01)
+References Cited (56)
+U.S. PATENT DOCUMENTS
+8,352,300 B2
+Notani et al. 1/2013
+Seubert et al. 8,744,937 B2 6/2014
+9.,047,578 B2 6/2015 Dvorak et al.
+5/2018 9,977,425 B1 McCann et al.
+10,127,523 B2 11/2018 Siegel et al.
+4/2019 10,257,496 B2 Peeters et al.
+10,262,283 B2 4/2019 Leidner et al.
+B1 6/2019 Dreier et al. 10,310,760
+Sadler et al. 9/2019 10,417,249 B1
+Singh 10,475,040 B2 11/2019
+Sahu 10,511,651 12/2019 B2
+Van der Velden 4/2020 10,628,537 B2
+Sturtivant
+10,726,045 B2 7/2020
+10,846,651 B2 Williams et al. 11/2020
+10,867,328 Rattner et al. B2 12/2020
+12/2020 B2 Burd et al. 10,877,470
+1/2021 10,883,759 B2 Beham et al.
+10,885,135 B1 O'Brien et al. 1/2021
+10,943,206 Maijala et al. 3/2021 B2
+11,017,347 5/2021 B1 Choudhury et al.
+6/2021 11,042,458 B2 Goyal et al.
+11,044,171 6/2021 B2 * Gopireddy H04L67/563
+6/2021 11,046,562 High et al. B2
+7/2021 Nguyen et al. 11,067,501 B2
+11,157,339 Dines B1 10/2021
+11,194,938 Kincart et al.
+B2 12/2021 12/2021
+11,200,581 B2 Williams et al.
+11,243,803 B2 2/2022 Anand et al.
+11,244,233 2/2022 B2 Sturtivant et al.
+11,250,367 B2 * 2/2022 Santhanam G06Q20/10
+3/2022 11,282,022 B2 Devarakonda et al.
+11,334,587 Sadler et al. B1 5/2022
+6/2022 11,352,874 B2 Wise et al.
+11,369,088 Ghosh B2 6/2022
+Bohling et al. 11,388,325 B2 7/2022
+11,418,381 8/2022 Roy et al. B2
+Hande et al. 11,480,952 B2 10/2022
+11,513,496 Kadam et al. 11/2022 B2
+11,550,299 Cella et al. B2 1/2023
+3/2023 B2 Han et al.
+11,613,008
+Marzorati et al. 11,619,916 B2 4/2023
+11,733,229 B2 8/2023 Bohling et al.
+11,770,296 B2 9/2023 Nolan et al.
+12/2023 11,836,473 Franchitti et al. B2
+Gold et al. 11,880,888 B1 1/2024
+2/2024 11,902,094 B1 Puri et al.
+1/2002 2002/0013721 Dabbiere et al. Al
+2/2002 2002/0022983 Al Barton
+Patel 3/2002 2002/0035483
+5/2002 2002/0054094 Matsuda Al
+8/2002 Li et al. 2002/0111819 Al
+9/2002 2002/0138316 Katz et al.
+Al 10/2002 2002/0143669 Scheer
+Al
+2002/0156904 Al Gullotta et al. 10/2002
+2002/0165747 Shriver et al. 11/2002 Al
+Ido et al. 11/2002 2002/0172201
+2002/0188486 Gil et al. Al 12/2002

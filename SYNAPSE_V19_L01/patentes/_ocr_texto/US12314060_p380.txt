@@ -1,0 +1,138 @@
+In embodiments, the marketing and customer service 5o available and/or whether use of an additive manufacturing
+[col 1]
+US 12,314,060 B2
+395
+In embodiments, the machine-learning system 10210
+trains one or more of the models 10213 that are utilized by
+the artificial intelligence system 10212 to make classifica-
+tions, predictions, and/or other decisions relating to sales,
+marketing, advertising, promotion and/or customer service
+for products manufactured by the distributed manufacturing
+network10130.
+In example embodiments, the model 10213 may be
+trained to predict behavior and purchase patterns of one or
+more customers to provide personalized sales, marketing, 10
+advertising, promotion and/or customer service. In embodi-
+ments, the machine learning system 10210 may train the
+model using customer data and one or more outcomes
+associated with customer response to a personalized cam-
+paign, such as using various data sources that provide insight 15 1
+into consumer sentiment, behavior, or the like, including
+search engines, news sites, websites, behavioral analytic
+systems and algorithms, consumer sentiment measures,
+microeconomic measures, macroeconomic measures, and
+many others. A model may be seeded with various eco- 20
+nomic, behavioral, and other models, including demo-
+graphic, psychological, economic, game theoretic, cogni-
+tive, and other models. Customer data may include any of
+the types described throughout this disclosure and the docu-
+ments incorporated by reference herein, such as identity 25 r
+data, transactional and payment data, location data, demo-
+graphic data, psychographic data, location data, wealth data.
+income data, sentiment data, affinity data, loyalty program
+data, clickstream data (including interactions with social
+media, applications, websites, mobile devices, AR/VR sys- 3o
+tems, video games, entertainment content and other digital
+content), point-of-sale data, in-store behavioral data (such as
+path tracing data within stores, dwell times associated with
+particular types of products, and the like), brand loyalty data,
+shopping data, search engine data (such as search topics 35
+involving shopping), social media footprint, purchase his-
+tory, loyalty program data and many others. The customer
+twin 10718 may capture a set of customer responses to a
+marketing or advertising campaign or one or more product
+recommendations, offers, advertisements or other commu- 40
+nications by tracking outcomes like customer attention or
+actions (including mouse movements, mouse clicks, cursor
+movements, navigation actions, menu selections, and many
+others) measured through a software interaction observation
+system, or purchase of a product by a customer. In this 45 
+example, one or more parameters of the marketing or
+advertising campaign may be varied for different simula-
+tions of a customer twin and the outcomes of each simula-
+tion may be recorded.
+system 10716 may interface with the artificial intelligence
+system 10212 to provide personalized sales, marketing.
+advertising, promotions and/or customer service, including
+providing personalized marketing and advertising cam-
+paigns and providing product recommendations. In embodi- 55 
+ments, the artificial intelligence system 10212 may utilize
+one or more of the machine-learned models 10213 to
+determine a product recommendation. In embodiments, the
+simulations run by the customer twin 10718 may be used to
+train the product recommendation machine-learning models. 60
+In each of these examples, a campaign communication,
+recommendation, or the like may involve a product or other
+item that can be manufactured by the additive manufacturing
+unit 10102 with a set of attributes that are tailored to the
+customer and that can be delivered to a designated site of the 65
+customer within a designated time frame at a proposed price.
+Customization of the offer/recommendation may include
+[col 2]
+396
+providing a design of a product or part to include attributes
+favored by the customer, including functional attributes,
+preferred materials (such as to match materials of products
+already owned by the customer), preferred colors, preferred
+shapes, and many others. In embodiments, customization
+may reference an understanding of products already owned
+by the customer, such as based on purchase history infor-
+mation, such as where a recommended product can be
+configured to work as part of a family of products, such as
+by recommending a product that has compatible color,
+shape, size, material type, connectivity (e.g., to work as part
+of a connected set of products), communication protocol,
+logo, or the like.
+In embodiments, the additive manufacturing platform
+10110, such as that associated with a value chain network
+may be prepared, configured and/or deployed to support
+printing of personalized entertainment props, backdrops and
+other items at theme parks, cruise ships, theater and film
+productions and/or other entertainment venues.For
+example, in connection with a cruise ship, the additive
+manufacturing unit 10102 may be designated to support the
+printing of cabins, themed rooms or furniture to fit based on
+a given theme. The customers may provide their preferences
+in terms of room layout and design, furniture and accesso-
+ries, which can be dynamically printed. Similarly, for theme
+parks the additive manufacturing unit 10102 may be desig-
+nated to support the printing of rockwork, rides and other
+attractions and for theater and film productions, movie
+props, costumes, sets, artifacts and other accessories may be
+custom printed.
+In embodiments, the platform may take inputs from or
+related to the entertainment venue owner, such as inputs
+indicating the item being printed (e.g., technical specifica-
+tions, CAD designs, or the like); inputs indicating require-
+ments (such as a need to improve an existing roller coaster
+attraction with custom rockwork, a need to build a dinosaur
+replica, or the like); and inputs captured by cameras, micro-
+phones, data collectors, sensors, and other information
+sources associated with the entertainment venue.
+In embodiments, that recommend or configure instruc-
+tions for additive manufacturing, the platform 10110 may
+discover available materials including fabrics, metals plas-
+tics etc., configure instructions, and initiate additive manu-
+facturing, and provide updates to the owner of the enter-
+tainment venue, such as updates as to when an element will
+be ready to use. The platform 10110 may, in some such
+embodiments, automatically determine, such as by using the
+artificial intelligence system 10212, trained on an expert
+data set, and the like, whether a suitable item is readily
+system to produce the item(s) can reduce delay, to save
+costs, or the like.
+In embodiments, the platform 10110, such as through a
+trained AI agent, may automatically configure and schedule
+a set of jobs across a set of additive manufacturing units
+10102 with awareness of the status of other relevant entities
+involved in other workflows,such as what otherwork is
+being done (e.g., to allow for appropriate sequencing of
+additive manufacturing outputs that align with overall work-
+flows), the priority of the printing job (e.g., whether it relates
+to film scene being shot), the cost of downtime, or other
+factors. In embodiments, optimization of workflows across
+a set of additive manufacturing entities may occur by having
+the artificial intelligence system 10212 undertake a set of
+simulations, such as simulations involving alternative sched-
+uling sequences, design configurations, alternative output
+types, and the like. In embodiments, simulations may

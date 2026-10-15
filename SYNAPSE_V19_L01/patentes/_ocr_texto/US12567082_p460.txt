@@ -1,0 +1,136 @@
+to a component node representing an air conditioner unit. 1o execute a digital ghost that is executed with respect to a
+In embodiments, where a graph database is implemented, 15 and/or environment to detect anomalies that may indicate a
+sensor) relating to smart container cargo. Based on the 55 management system 13306.
+[col 1]
+US 12,567,082 B2
+597
+container, a second subsystem node representing a heating
+system of the smart container, a third subsystem node
+representing the fan system of the smart container, and one
+or more nodes representing a thermostat of the smart con-
+tainer (or multiple thermostats). Carrying this example fur-
+ther, the subsystem nodes and/or component nodes may
+connect to lower-level nodes, which may include subsystem
+nodes and/or component nodes. For example, the subsystem
+node representing the cooling subsystem may be connected
+Similarly, a component node representing a thermostat
+device may connect to one or more component nodes
+representing various sensors (e.g., temperature sensors,
+humidity sensors, and the like).
+ a graph database may relate to a single environment or may
+represent a larger enterprise. In the latter scenario, a com-
+pany may have various shipping distribution facilities. In
+these embodiments, an enterprise node representing the
+enterprise may connect to environment nodes of each 20
+respective facility. In this way, the digital twin module
+13420 may maintain digital twins for multiple shipping
+facilities of an enterprise.
+In embodiments, the digital twin module 13420 may use
+a graph database to generate a digital twin that may be 25
+rendered and displayed and/or may be represented in a data
+representation. In embodiments, the digital twin module
+13420 may receive a request to render a digital twin,
+whereby the request includes one or more parameters that
+are indicative of a view that will be depicted. For example,
+30
+the one or more parameters may indicate a shipping envi-
+ronment to be depicted and the type of rendering (e.g.,
+"real-world view" that depicts the environment as a human
+would see it, an “"infrared view" that depicts objects as a
+function of their respective temperature, an *airflow view"
+that depicts the airflow in a digital twin, or the like). In
+response, the digital twin module 13420 may traverse a
+graph database and may determine a configuration of the
+environment to be depicted based on the nodes in the graph
+database that are related (either directly or through a lower- 40
+level node)to the environment node of the environment and
+the edges that define the relationships between the related
+nodes. Upon determining a configuration, the digital twin
+module 13420 may identify the surfaces that are to be
+depicted and may render those surfaces. The digital twin 45 t
+module 13420 may then render the requested digital twin by
+connecting the surfaces in accordance with the configura-
+tion. The rendered digital twin may then be output to a
+viewing device (e.g., VR headset, AR headset, monitor, or
+the like). In some scenarios, the digital twin module 13420 50
+may receive real-time sensor data from a sensor system of an
+environment and may update the visual digital twin based on
+the sensor data. For example, the digital twin module 13420
+may receive sensor data (e.g., vibration data from a vibration
+sensor data, the digital twin module 13420 may update the
+visual digital twin to indicate the approximate vibrational
+characteristics of the cargo within a digital twin of the smart
+container.
+In scenarios where the digital twin module 13420 is 60 
+providing data representations of digital twins (e.g., for
+dynamic modeling, simulations, machine learning), the digi-
+tal twin module 13420 may traverse a graph database and
+may determine a configuration of the environment to be
+depicted based on the nodes in the graph database that are 65
+related (either directly or through a lower level node) to the
+environment node of the environment and the edges that
+[col 2]
+598
+define the relationships between the related nodes. In some
+scenarios, the digital twin module 13420 may receive real-
+time sensor data from a sensor system of a shipping entity
+and/or environment and may apply one or more dynamic
+models to the digital twin based on the sensor data. In other
+scenarios, a data representation of a digital twin may be used
+to perform simulations, as is discussed in greater detail
+throughout the specification.
+In some embodiments, the digital twin module 13420 may
+digital twin of a shipping entity (e.g., a smart container fleet
+or individual smart container) and/or a shipping environ-
+ment. In these embodiments, the digital ghost may monitor
+one or more sensors of a sensor system of a shipping entity
+malicious virus, compromised sensors, or other security
+issues.
+As discussed, the digital twin module 13420 may include
+a digital twin management system 13306, a digital twin I/O
+system 13308, a digital twin simulation system 13310, a
+digital twin dynamic model system 13312, and/or a digital
+twin control module 13314.
+In embodiments, the digital twin management system
+13306 generates new digital twins, maintains/updates exist-
+ing digital twins, and/or renders digital twins. The digital
+uploaded data, and/or sensor data to create and maintain
+existing digital twins. Upon creating a new digital twin, the
+digital twin management system 13306 may store the digital
+twin in the digital twin datastore 13316. Creating, updating.
+and rendering digital twins are discussed in greater detail
+throughout the disclosure.
+In embodiments, the digital twin I/O system 13308
+receives input from various sources and outputs data to
+various recipients. In embodiments, the digital twin I/O
+system receives sensor data from one or more sensor sys-
+tems. In these embodiments, each sensor system may
+include one or more sensors that output respective sensor
+data. Each sensor may be assigned an IP address or may
+have another suitable identifier. Each sensor may output
+sensor packets that include an identifier of the sensor and the
+sensor data. In some embodiments, the sensor packets may
+further include a timestamp indicating a time at which the
+sensor data was collected. In some embodiments, the digital
+twin I/O system 13308 may interface with a sensor system
+via the real-time sensor API. In these embodiments, one or
+more devices (e.g., sensors, aggregators, edge devices) in the
+sensor system may transmit the sensor packets containing
+sensor data to the digital twin I/O system 13308 via the API.
+The digital twin I/O system may determine the sensor
+system that transmitted the sensor packets and the cargo
+thereof and may provide the sensor data and any other
+relevant data (e.g. time stamp, environment identifier/sen-
+sor system identifier, and the like) to the digital twin
+In embodiments, the digital twin I/O system 13308 may
+receive imported data from one or more sources. For
+example, the digital twin module 13420 may provide a
+portal for users to create and manage their digital twins. In
+these embodiments, a user may upload one or more files
+(e.g., image files, LIDAR scans, blueprints, and the like) in
+connection with a new digital twin that is being created. In
+response, the digital twin I/O system 13308 may provide the
+imported data to the digital twin management system 13306.
+The digital twin I/O system 13308 may receive other suit-
+able types of data without departing from the scope of the
+disclosure.

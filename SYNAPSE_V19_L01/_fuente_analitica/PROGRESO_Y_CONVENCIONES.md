@@ -24,6 +24,8 @@ A. `01–03` ya ejecutados. B. Pipeline ML/NLP real (TF-IDF, k-means, jerárquic
 C. `conexiones.json` (relaciones inter-documentales por DOC_ID) → re-render de fichas.
 D. CSV por lote (19), informe del lote (>5 000 palabras), FICHA_RESUMEN_LOTE (16 secciones), análisis relacional (>2 000 palabras), bibliografía APA, tabla de control, visualizaciones, checklist.
 
-## Pendiente: patentes (solicitado por el usuario durante la ejecución)
-- Verificado: el repo no contiene patentes (103 PDF, 2 RIS, 3 CSV; todo TY - JOUR). Solo hay 2 referencias bibliográficas a estudios sobre patentes dentro de scopus.csv.
-- Plan: (1) completar D044-D101; (2) al cierre, módulo de patentes: si el usuario aporta archivos o autoriza búsqueda externa (Google Patents/Espacenet), se analizarán con el mismo esquema; si no, se documenta como vacío del corpus y se incluyen en el informe las dos referencias de paisaje de patentes como pistas.
+## Módulo de patentes (ejecutado)
+- La carpeta `Patentes /` (11 PDF escaneados de Lens.org; 10 de Strong Force VCN, 1 de IBM) llegó por `main` y se analizó en un módulo separado (`patentes/`; DOCS=101 no cambia).
+- Flujo: `14_patentes_ocr.py` (OCR parcial: portada, páginas 2-33, últimas 14, una de cada 20; texto en `patentes/_ocr_texto/`) → `14b_patentes_terminos.py` → `patentes_data.py` (análisis redactado por el analista a partir del texto leído) → `15_patentes.py` (fichas P001-P011, CSV) → `15b_informe_patentes.py` → `15c_figuras_patentes.py`.
+- Límites: cobertura de lectura parcial (≈ 14 % de las páginas); estado legal sin verificar; no se infiere madurez comercial de la titularidad; relevancia máxima: adyacente (P002).
+- Documento final: `12_documento_apa.py` → `13_docx_apa.js` (DOCX con figuras) → `16_documento_md.py` (Markdown con enlaces a `figuras/`).

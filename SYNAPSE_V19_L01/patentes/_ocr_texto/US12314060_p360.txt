@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+355
+chain processes (such as shipping processes, hauling pro-
+cesses, maritime processes, inspection processes, hauling
+processes, loading/unloading processes, packing/unpacking
+processes, configuration processes, assembly processes,
+installation processes, quality control processes, environ-
+mental control processes (e.g., temperature control, humid-
+ity control, pressure control, vibration control, and others),
+border control processes, port-related processes, software
+processes (including applications, programs, services, and
+others), packing and loading processes, financial processes 10
+(e.g., insurance processes, reporting processes, transactional
+processes, and many others), testing and diagnostic pro-
+cesses, security processes, safety processes, reporting pro-
+cesses, asset tracking processes, and many others); wearable
+and portable devices (such as mobile phones, tablets, dedi- 15 
+cated portable devices for value chain applications and
+processes, data collectors (including mobile data collectors),
+sensor-based devices, watches, glasses, hearables, head-
+worn devices, clothing-integrated devices, arm bands, brace-
+lets, neck-worn devices, AR/VR devices, headphones, and
+many others); a wide range of operating facilities (such as
+loading and unloading docks, storage and warehousing
+facilities, vaults, distribution facilities and fulfillment cen-
+ters, air travel facilities (including aircraft, airports, hangars,
+runways, refueling depots, and the like), maritime facilities 25
+(such as port infrastructure facilities (such as docks, yards,
+cranes, roll-on/roll-off facilities, ramps, containers, con-
+tainer handling systems, waterways, locks, and many oth-
+ers), shipyard facilities, floating assets (such as ships,
+barges, boats and others), facilities and other items at points 30
+of origin and/or points of destination, hauling facilities (such
+as container ships, barges, and other floating assets, as well
+as land-based vehicles and other delivery systems used for
+conveying goods, such as trucks, trains, and the like); items
+or elements factoring in demand (i.e., demand factors) 35
+(including market factors, events, and many others); items or
+elements factoring in supply (i.e., supply factors)(including
+market factors, weather, availability of components and
+materials, and many others); logistics factors (such as avail-
+ability of travel routes, weather, fuel prices, regulatory 40
+factors, availability of space (such as on a vehicle, in a
+container, in a package, in a warehouse, in a fulfillment
+center, on a shelf, or the like), and many others); pathways
+for conveyance (such as waterways, roadways, air travel
+routes, railways and the like); robotic systems (including 45 
+mobile robots, cobots, robotic systems for assisting human
+workers, robotic delivery systems, and others); drones (in-
+cluding for package delivery, site mapping, monitoring or
+inspection, and the like); autonomous vehicles (such as for
+package delivery); software platforms (such as enterprise 50 
+resource planning platforms, customer relationship manage-
+ment platforms, sales and marketing platforms, asset man-
+agement platforms, Internet of Things platforms, supply
+chain management platforms, platform as a service plat-
+forms, infrastructure as a service platforms, software-based 55
+data storage platforms, analytic platforms, artificial intelli-
+gence platforms, and others); and many others.
+The manufacturing node 10100 may also connect to other
+nodes like a manufacturing node 10128 through connectivity
+facilities so as to constitute a distributed manufacturing 60
+network 10130. Also, the different systems within the manu-
+facturing node 10100 including the additive manufacturing
+unit 10102, the pre-processing system 10104, the post-
+processing system 10106, the material handling system
+10108, the autonomous additive manufacturing platform 65
+10110, the user interface 10112, the data s0urces 10114 and
+the design and simulation system 10116 as well as the
+[col 2]
+356
+different parts and products being printed may be referred to
+as distributed manufacturing network entities.
+In embodiments, connectivity facilities include various
+connectivity facilities described throughout this disclosure
+and the documents incorporated by reference herein, includ-
+ing network connections (including various configurations,
+types and protocols for fixed and wireless connections),
+Internet of Things devices, edge devices, routers, switches,
+access points, repeaters, mesh networking systems, inter-
+faces, ports, application programming interfaces (APIs),
+brokers, services, connectors, wired or wireless communi-
+cation links, human-accessible interfaces, software inter-
+faces, micro-services, SaaS interfaces, Paas interfaces, Iaas
+interfaces, cloud capabilities, or the like by which data or
+information may be exchanged between systems or sub-
+systems of the autonomous additive manufacturing platform
+10110, as well as with other systems, such as distributed
+manufacturing network entities or external systems, such as
+cloud-based or on-premises enterprise systems (e.g.,
+1 20 accounting systems, resource management systems, CRM
+systems, supply chain management systems and many oth-
+ers). In embodiments, connectivity facilities use, include, or
+are integrated with artificial intelligence or autonomous
+capabilities as described herein and/or in the documents
+incorporated herein by reference, such as enabling self-
+organization or self-configuration of connectivity, data stor-
+age, computation, data processing, packet routing, data
+filtering, quality-of-service, error correction, packet security,
+session management, and the like. In embodiments, the
+additive manufacturing unit 10102 may incorporate a wire-
+less mesh network node, such as an RF repeater, optionally
+using software-defined bandpass filtering, such that a set of
+such additive manufacturing units 10102 may operate as a
+coordinated mesh on a defined network infrastructure (in-
+cluding physical and/or virtual network resources). In
+embodiments, the additive manufacturing unit 10102 may
+include network coding system for controlling the utilization
+of a data path between the additive manufacturing unit
+10102 and other additive manufacturing units 10102 and/or
+to control the utilization of the data path between the
+additive manufacturing unit 10102 and various edge, cloud,
+on-premises, telecommunications network and other infor-
+mation technology systems.
+The additive manufacturing unit 10102 may be any suit-
+able type of printer that executes any suitable type of 3D
+another additive manufacturing process. Various different
+types of additive manufacturing units 10102 and 3D printing
+processes are discussed below for purposes of example. The
+disclosure, however, is not limited to the 3D printing pro-
+cesses described below.
+In embodiments, the additive manufacturing unit 10102
+may be configured to execute Fused Deposition Modeling
+(FDM)TM process (also known as, for example, Fused Fila-
+ment FabricationTM). The process of FDM may involve a
+software process which may process an input file, such as an
+STL (stereolithography) file. An object may be produced by
+extruding small beads of, for example, thermoplastic mate-
+rial to form layers as the material hardens immediately after
+extrusion from a nozzle. Extrusion is the 3D printing tech-
+nique where the material, such as a polymer, metal (includ-
+ing alloys), or the like, is pushed in fluid form through a tube
+and into a moving nozzle which extrudes the material to a
+target location where the material subsequently hardens in
+place. By accurately moving the extruder either continu-
+ously or starting and stopping at extremely fast speeds the
+design is built layer by layer. The source material is typically

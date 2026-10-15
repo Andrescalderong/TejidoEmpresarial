@@ -1,0 +1,134 @@
+[col 1]
+US 12,567,082 B2
+733
+any other data associated with each smart device. Addition-
+ally, the IoT/smart devices and/or associated devices may act
+as the edge devices and/or aggregators to store and retrieve
+the data as described herein.
+CONCLUSION
+The background description is presented simply for con-
+text, and is not necessarily well-understood, routine, or
+conventional. Further, the background description is not an 10
+admission of what does or does not qualify as prior art. In
+fact, some or all of the background description may be work
+attributable to the named inventors that is otherwise
+unknown in the art.
+Physical (such as spatial and/or electrical) and functional 15
+relationships between elements (for example, between mod-
+ules, circuit elements, semiconductor layers, etc.) are
+described using various terms. Unless explicitly described as
+being *direct," when a relationship between first and second
+elements is described, that relationship encompasses both (i)
+a direct relationship where no other intervening elements are
+present between the first and second elements and (ii) an
+indirect relationship where one or more intervening ele-
+ments are present between the first and second elements.
+ting," “"receiving,"“connected,""engaged,""coupled,"
+-nq. moq, caaoqe, .jo do o, con ixau, .*ueselpe,.
+ting," and "disposed."
+The detailed description includes specific examples for
+illustration only, and not to limit the disclosure or its
+30
+applicability. The examples are not intended to be an
+exhaustive list, but instead simply demonstrate possession
+by the inventors of the full scope of the currently presented
+and envisioned future claims. Variations, combinations, and
+equivalents of the examples are withinthe scope of the 35
+disclosure. No language in the specification should be con-
+strued as indicating that any non-claimed element is essen-
+tial or critical to the practice of the disclosure.
+not indicate a best or preferred example. The term"set" does 40
+not necessarily exclude the empty setin other words, in
+some circumstances a “"set" may have zero elements. The
+term“non-empty set"may be used to indicate exclusion of
+the empty setthat is, a non-empty set must have one or
+more elements. The term "subset" does not necessarily 45 t
+require a proper subset. In other words, a “subset" of a first
+set may be coextensive with (equal to) the first set. Further,
+the term “subset"' does not necessarily exclude the empty
+setin some circumstances a “subset" may have zero
+elements.
+The phrase “at least one of A, B, and C" should be
+construed to mean a logical (A OR B OR C), using a
+non-exclusive logical OR, and should not be construed to
+mean "at least one of A, at least one of B, and at least one
+of C." The use of the terms "a," "an," "the," and similar 55
+referents in the context of describing the disclosure and
+claims encompasses both the singular and the plural, unless
+contradicted explicitly or by context. Unless otherwise
+"including," and "containing," and their variants, are open- 60 
+ended terms, meaning “including, but not limited to."
+Each publication referenced in this disclosure, including
+foreign and domestic patent applications and patents, is
+hereby incorporated by reference in its entirety.
+Although each of the embodiments is described above as 65
+having certain features, any one or more of those features
+described with respect to any embodiment of the disclosure
+[col 2]
+734
+can be implemented in and/or combined with features of any
+of the other embodiments, even if that combination is not
+explicitly described. In other words, the described embodi-
+ments are not mutually exclusive, and permutations of
+multiple embodiments remain within the scope of this
+disclosure.
+One or more elements (for example, steps within a
+method, instructions, actions, or operations) may be
+executed in a different order (and/or concurrently) without
+altering the principles of the present disclosure. Unless
+technically infeasible, elements described as being in series
+may be implemented partially or fully in parallel. Similarly,
+unless technically infeasible, elements described as being in
+parallel may be implemented partially or fully in series.
+While the disclosure describes structures corresponding
+to claimed elements, those elements do not necessarily
+invoke a means plus function interpretation unless they
+explicitly use the signifier “"means for" Unless otherwise
+indicated, recitations of ranges of values are merely intended
+2oto serve as a shorthand way of referring individuallyto each
+separate value falling within the range, and each separate
+value is hereby incorporated into the specification as if it
+were individually recited.
+While the drawings divide elements of the disclosure into
+different functional blocks or action blocks, these divisions
+are for illustration only. According to the principles of the
+present disclosure, functionality can be combined in other
+ways such that some or all functionality from multiple
+separately-depicted blocks can be implemented in a single
+functional block; similarly, functionality depicted in a single
+block may be separated into multiple blocks. Unless explic-
+itly stated as mutually exclusive, features depicted in dif-
+ferent drawings can be combined consistent with the prin-
+ciples of the present disclosure.
+In the drawings, reference numbers may be reused to
+identify identical elements or may simply identify elements
+that implement similar functionality. Numbering or other
+labeling of instructions or method steps is done for conve-
+nient reference, not to indicate a fixed order. In the drawings,
+the direction of an arrow, as indicated by the arrowhead,
+generally demonstrates the flow of information (such as data
+or instructions) that is of interest to the illustration. For
+example, when element A and element B exchange a variety
+of information but information transmitted from element A
+to element B is relevant to the illustration, the arrow may
+point from element A to element B. This unidirectional
+arrow does not imply that no other information is transmit-
+ted from element B to element A. As just one example, for
+information sent from element A to element B, element B
+50 may send requests and/or acknowledgements to element A.
+A special-purpose system includes hardware and/or soft-
+ware and may be described in terms of an apparatus, a
+method, or a computer-readable medium. In various
+embodiments, functionality may be apportioned differently
+between software and hardware. For example, some func-
+ment and by software in another embodiment. Further,
+software may be encoded by hardware structures, and hard-
+ware may be defined by sofiware, such as in software-
+defined networking or software-defined radio.
+In this application, including the claims, the term module
+refers to a special-purpose system. The module may be
+implemented by one or more special-purpose systems. The
+one or more special-purpose systems may also implement
+some or all of the other modules. In this application,
+including the claims, the term module may be replaced with
+the terms controller or circuit. In this application, including

@@ -1,0 +1,134 @@
+obligation to the at least one ofpurchasing or selling the 65 form of claim 1 wherein the indication is at least one of: an
+[col 1]
+US 12,567,082 B2
+739
+third party. Problem domains include nearly any situation
+where structured data can be collected, and includes natural
+language processing (NLP), computer vision (CV), classi-
+fication, image recognition, etc.
+Some or all of the software may run in a virtual environ-
+ment rather than directly on hardware. The virtual environ-
+ment may include a hypervisor, emulator, sandbox, con-
+tainer engine, etc. The software may be built as a virtual
+machine, a container, etc. Virtualized resources may be
+controlled using, for example, a DOCKER container plat-
+form, a pivotal cloud foundry (PCF) platform, etc.
+In a client-server model, some of the software executes on
+first hardware identified functionally as a server, while other
+of the software executes on second hardware identified
+functionally as a client. The identity of the client and server
+is not fixed: for some functionality, the first hardware may
+act as the server while for other functionality, the first
+hardware may act as the client. In different embodiments and
+in different scenarios, functionality may be shifed between 20
+the client and the server. In one dynamic example, some
+functionality normally performed by the second hardware is
+shifted to the first hardware when the second hardware has
+less capability.In various embodiments, the term "local"
+may be used in place of"client," and the term"remote" may 25
+be used in place of "server."
+Some or all of the software may be logically partitioned
+into microservices. Each microservice offers a reduced sub-
+set of functionality. In various embodiments, each micros-
+ervice may be scaled independently depending on load, 30
+either by devoting more resources to the microservice or by
+instantiating more instances of the microservice. In various
+embodiments, functionality offered by one or more micro-
+services may be combined with each other and/or with other
+software not adhering to a microservices model. 35
+Some or all of the software may be arranged logically into
+layers. In a layered architecture, a second layer may be
+logically placed between a first layer and a third layer. The
+first layer and the third layer would then generally interact
+with the second layer and not with each other. In various 40
+embodiments, this is not strictly enforcedthat is, some
+direct communication may occur between the first and third
+layers.
+The invention claimed is:
+1. An autonomous futures contract orchestration platform
+comprising:
+at least one processor programmed with a set of non-
+transitory computer-readable instructions to collec-
+tively execute: 50
+receiving, from a first data source, an indication associ-
+ated with a set of products that relates to a first entity
+that sells the set of products and a second entity that
+purchases the set of products, wherein the set of prod-
+ucts is associated with at least one of a set of manu- 55
+factured goods or a set of raw materials;
+in response to receiving the indication associated with the
+set of products, automatically predicting a baseline cost
+of at least one of purchasing or selling the set of
+products at a future point in time based on the indica- 60
+tion;
+in response to predicting the baseline cost, automatically
+retrieving a futures cost from a second data source, at
+a current point in time, of a futures contract for an
+set of products for at least one of delivery or perfor-
+mance of the set of products at the future point in time;
+[col 2]
+740
+in response to retrieving the futures cost, automatically
+executing a smart contract for the futures contract
+based on the baseline cost and the futures cost; and
+in response to executing the smart contract for the futures
+contract, orchestrating the at least one of delivery or
+performance of the set of products at the future point in
+time by automatically triggering a transfer of the set of
+products from the first entity to the second entity; and
+an autonomous system that is at least partially incorpo-
+rated in each respective product of the set of products
+or packaging of each product of the set of products,
+wherein the autonomous system receives data from a set
+of sensors that detects whether each respective product
+has experienced negative effects that include at least
+one of: being exposed to an adverse environmental
+condition or incurring damage,
+wherein the set of non-transitory computer-readable
+instructions includes:
+ generating, via a machine-learned model, a prediction that
+a product of the set of products requires replacement
+based on the data from the set of sensors; and
+automatically triggering a transfer of a replacement prod-
+uct from the first entity to the second entity in response
+to the machine-learned model generating the predic-
+tion,
+wherein the machine-learned model is trained at least in
+part with simulation data generated by executing simu-
+lationsvia a digital twin simulation system,and
+wherein executing the simulations via the digital twin
+simulation system includes performing a set of stress
+tests associated with a set of workflows of the set of
+products.
+2. The autonomous futures contract orchestration plat-
+form of claim 1 further comprising:
+a risk data structure indicating an amount of risk the
+second entity is willing to accept with respect to the
+baseline cost and the futures cost,
+wherein the set of non-transitory computer-readable
+instructions includes executing the smart contract
+based on the risk data structure to at least one of
+manage or mitigate the amount of risk.
+3. The autonomous futures contract orchestration plat-
+45 form of claim 1 further comprising a robotic process auto-
+mation system configured toperform demand-sideplanning
+for orchestration of the smart contract for the futures con-
+tract.
+4. The autonomous futures contract orchestration plat-
+form of claim 1 further comprising a robotic agent config-
+ured to de-risk with respect to the smart contract for the
+futures contract.
+5. The autonomous futures contract orchestration plat-
+form of claim 1 further comprising a system configured to
+perform circular economy optimization based on futures
+pricing of goods.
+6. The autonomous futures contract orchestration plat-
+form of claim 1 wherein the set of non-transitory computer-
+readable instructions includes:
+initializing a robotic process automation system trained to
+execute the smart contract, and
+executing the smart contract using the robotic process
+automation system.
+7. The autonomous futures contract orchestration plat-
+event occurrence, a physical condition of at least one prod-
+uct of the set of products, or a potential demand increase.

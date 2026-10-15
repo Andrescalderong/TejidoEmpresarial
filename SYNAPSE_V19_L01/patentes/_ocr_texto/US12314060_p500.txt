@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+635
+protocol (TCP), user datagram protocol (UDP), and the like.
+In some embodiments, the edge device may be configured to
+implement a method for data communication such as is
+disclosed by U.S. Pat. No. 9,979,664 to Ho et al., the entirety
+of which is hereby incorporated by reference.
+In embodiments, the smart container system 13000
+includes a digital twin module 13420 configured to receive
+data from the edge device and create a digital twin from the
+received data. The digital twin created by the digital twin
+module 13420 may be a digital twin of one or more of a 10
+ smart container fleet, a smart container, a fleet manager, a
+container terminal, a shipping yard, a container ship, a
+shipper, cargo, and the like, and may be created using any or
+all of the data received from the edge device. The edge
+device may transmit shipping-related data, such as data 15
+related to a smart container, smart container cargo, a shipper,
+a container port, and the like, or a combination thereof. In
+embodiments, where the smart container system 13000
+includes a plurality of edge devices, the digital twin module
+13420 may create the digital twin based on data received 20
+from multiple of the plurality of edge devices.
+In some embodiments, the edge device may be configured
+to facilitate pre-calculation and aggregation of data for a set
+of user-configured reports. The user-configured reports may
+be integrated into the digital twin created by the digital twin 25
+module 13420. A user of the smart container system 13000
+may define one or more parameters of the user-configured
+report to be included in the digital twin. The edge device
+may implement one or more data processing and/or filtering
+according to the parameters of the user-configured report. 3o t
+The edge device may transmit processed and/or filtered data
+relevant to the user-configured report parameters to the
+digital twin module 13420. Upon receiving the processed
+and/or filtered data, the digital twin module 13420 may
+create the digital twin including the user-configured report 35 
+using the received data and present the digital twin to the
+user.
+In some embodiments, the edge device may be configured
+to collect and process data for use by one or more artificial
+intelligence (AI) systems.The AI systems may include the 40
+intelligence service 13004, one or more artificial intelligence
+systems configured to facilitate creation of the digital twin
+by the digital twin module 13420, and/or any other artificial
+smart container system 13000. The edge device may be 45 
+configured to collect and process and/or filter data such that
+the data is suitable for use by the one or more A systems.
+An example of processed and/or filtered data collected by
+the edge device for use by the one or more AI systems is
+training data for use in training one or more machine-learned 50 t
+models.
+In some embodiments, the edge device may be configured
+to locally store data related to creation of the digital twin by
+the digital twin module 13420. In cases where the digital
+twin is related to a particular region, shipper, smart con- 55
+tainer, fleet, container port, ship, or the like, the edge device
+may be particularly positioned to collect and store data for
+use in populating the digital twin, for example, by being
+positioned nearby to the particular region, shipper, smart
+container, fleet, container port, ship, etc. The edge device 60
+may receive, process, filter, organize, and/or store data prior
+to transmission of the data to the digital twin module 13420
+such that the data is relevanttoand/or suitablefor population
+of the digital twin. In some embodiments, the edge device
+may be configured to organize timing of transmission of data 65
+used to populate the digital twin. The edge device may
+implement one or more algorithms configured to measure
+[col 2]
+636
+and/or predict congestion of one or more network paths
+and/or routes and may perform organization of timing of
+transmission data based on the measurements and/or pre-
+dictions of the congestion. The edge device may in some
+cases prioritize transmission of some types of data over
+others, such as according to priorities set by a user or by the
+digital twin module 13420. For example, the edge device
+may schedule regular transmissions of low-priority infor-
+mation during evening hours, when congestion is low, and
+may transmit high-priority information substantially imme-
+diately upon receiving the high-priority information and/or
+receiving a request for the high-priority information. In
+some embodiments, the edge device may be configured to
+select a data protocol for transmission of data used to
+populate the digital twin. The edge device may implement
+one or more algorithms configured to select one or more
+optimal network paths and/or routes and may select the data
+transmission protocol based on the measurements and/or
+predictions of the congestion.
+In some embodiments, the edge device may be in com-
+munication with and receive data from a plurality of sensors.
+The edge device may be configured to intelligently multi-
+plex alternative sensors among available sensors in a ship-
+ping environment for the digital twin.
+Digital Product Networks
+FIG. 150 illustrates communications between entities in
+an example digital product network 14000 according to
+some embodiments of the present disclosure. In some
+embodiments, digital product networks are communica-
+tively coupled entities of a value chain network that may
+provide data related to product level behavior, product level
+usage, environmental data, data that is processed at the
+product level, and the like. For example, the product data
+may relate to at least one of sensors, vibration, humidity.
+temperature, pressure, proximity, level, accelerometers,
+gyroscope, infrared sensors, MEMs, liquid lenses, shock,
+security, machine, product, pneumatic, conductive, state
+dependent frequency monitor, ultrasonic, capacitance, or
+microwave.
+An intelligence layer of the digital product network may
+then use the product level data to enable companies to solve
+challenges associated with customer demands for quality,
+efficiency, response, agility, and transparency.For example,
+the product level behavior and usage data may be combined
+with third-party sources to be analyzed and manipulated by
+artificial intelligence (AI) systems, machine learning (ML)
+systems, digital twin systems, robotic process automation
+(RPA) systems, etc. Data processing techniques may be
+related to at least one of obfuscation, forecasting, simula-
+tion, transformation, automation, reporting, matching,
+stream processing, event processing and policy, dispatch and
+orchestration, analytics and algorithms, or machine learning.
+In some embodiments, the analytics may be related to at
+least one of descriptive analytics, diagnostic analytics, pre-
+dictive analytics, or prescriptive analytics. The descriptive
+analytics describe what is happening using compressive,
+accurate, and live data for effective visualization. The diag-
+nostic analytics provide ability to drill down to a root cause
+and an ability to isolate confounding information. The
+predictive analytics describe business strategy, active adap-
+tion, and simulation. The prescriptive analytics may be
+evidence-based recommendations to recommend actions
+and strategies based on challenger testing and may use
+advanced Al and analytical techniques to make specific
+recommendations.
+In some embodiments, the digital product network is a
+network of products that have a familial relationship to each

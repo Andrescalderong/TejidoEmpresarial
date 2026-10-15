@@ -1,0 +1,72 @@
+(12) Patent Application Publication (10) Pub. No.: US 2022/0114310 A1
+[col 1]
+(19) United States
+Berti et al.
+(54)INITIATINGADIGITALTWINBASEDON
+COGNITIVE LOCATIONAND
+ENVIRONMENTALIMPACT
+(71) Applicant: International Business Machines
+Corporation, Armonk, NY (US)
+Inventors: Joseph G. Berti, Highlands Ranch, CO
+(72)
+(US); Lisa Seacat DeLuca, Baltimore,
+MD (US)
+(21) Appl. No.: 17/067,830
+Filed: Oct. 12, 2020 (22)
+Publication Classification
+(51) Int. CI.
+G06F30/27 (2006.01)
+G06N20/00 (2006.01)
+106- 104-
+CITY A
+SUB-SYSTEM
+103-
+INSOLATION
+SERVER
+CITY D
+SUB-SYSTEM
+CITY E
+110 SUB-SYSTEM 112-
+SERVER SUB-SYSTEM 102
+SERVERCOMPUTER2 200
+COMMUNICATION
+MEMORY UNIT
+208 202
+RAM
+PROCESSORSET
+CACHE
+204 232
+I/O INTERFACE SET
+206
+EXTERNAL DISPLAY
+DEVICES 212
+214
+[col 2]
+US20220114310A1
+Apr. 14, 2022 (43) Pub. Date:
+U.s. C. (52)
+G06F30/27(2020.01);G06N20/00 CPC
+(2019.01)
+(57) ABSTRACT
+Technology for setting a policy for handling a computer-
+tracked physical asset (for example, a physical asset with a
+corresponding digital twin)based on policy(ies)for other
+computer-tracked physical assets that are subject to similar
+relevant environmental condition(s). Some embodiments
+use machine learning to refine the relationship between
+relevant environmental condition(s) and the choice of policy
+for the physical asset. Some possible types of policies are
+maintenance action policies and/or spare parts inventory
+policies.
+100
+108-
+CITY B CITY C
+SUB-SYSTEM SUB-SYSTEM
+NETWORK
+114
+CITY F
+113- SUB-SYSTEM
+PERSISTENTSTORAGE
+210
+230 PROGRAM
+300

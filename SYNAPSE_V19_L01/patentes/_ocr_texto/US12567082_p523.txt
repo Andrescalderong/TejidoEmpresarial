@@ -1,0 +1,133 @@
+[col 1]
+US 12,567,082 B2
+723
+At 20402, an edge device/aggregator 20130 may receive
+a query from a query device 20110. The query may request
+data stored in the distributed database. In some embodi-
+ments (and/or depending on the query), the edge device/
+aggregator 20130 may then execute a partial query against
+data stored in edge storage that is connected to the edge
+device/aggregator 20130. For example, if the query requests
+a most recent sensor reading from all devices within a
+region, and the edge device/aggregator 20130 is connected
+to edge storage with a most recent sensor reading for some 1o 
+of the devices within the region, the edge device/aggregator
+ing most recent sensor readings that are stored in connected
+edge storage. In some embodiments (and/or depending on
+the query and/or retrieved data), the partial query executed 15
+at 20404 may yield enough data to respond to the query
+received at 20402 (e.g., when query requests an average and
+the partial query yields a statistically significant amount of
+data for responding to the query), as described in more detail
+below with respect to FIG. 169B.However, in the example 20
+of FIG. 169A, the method may proceed to step 20406.
+At 20406, the edge device/aggregator 20130 may cause
+storage of the query received at 20402 on the dynamic ledger
+20150. The query may be stored on the dynamic ledger
+20150 as a pending data request 20268 so that other edge 25
+devices can retrieve and respond to the query (e.g., when
+sufficient network resources are available). For example,
+edge devices 20120, aggregators 20140, and/or edge device/
+aggregators 20130 may continually monitor queries posted
+to the dynamic ledger 20150 using a dynamic ledger module 30
+20306 and/or a dynamic ledger module 20360, as described
+above. When a query is detected as a pending data request
+20268 on the dynamic ledger 20150 by one or more edge
+devices and/or aggregators, the edge devices and/or aggre-
+gatorsmay generate summarydata 20252,20254 and/or35
+other data for generating probability distribution models
+20260 (e.g., from data stored on connected edge storage
+and/or edge storage associated with a connected edge
+device) and cause the summary data and/or probability
+distribution models to be uploaded to the dynamic ledger 40
+20150. The process of monitoring the dynamic ledger 20150
+and responding to pending data requests 20268 is described
+in more detail below with respect to FIG. 169C.
+At 20408, the edge device/aggregator 20130 may wait
+until summary data/other data for generating probability 45
+distribution models 20260 is uploaded to the dynamic ledger
+20150. For example, the edge device/aggregator 20130 may
+wait until a certain number or percentage of the edge devices
+and/or aggregators with matching data stored in edge storage
+have responded. In embodiments, the edge device/aggrega-
+50
+time (e.g., a timeout value) if sufficient data has not yet been
+received, and then either proceed with the method (e.g., if a
+reasonably accurate respond to the query can be provided
+using the uploaded summary data) and/or indicate that the 55
+query cannot be satisfied (e.g., if sufficient data has not been
+received to approximate an answer).
+At 20410, the edge device/aggregator 20130 may gener-
+ate a probability distribution model 20260 from the sum-
+mary data 20252, 20254 stored on the dynamic ledger 60
+20150. In some embodiments, the device that generates the
+probability distribution model 20260 at 20410 and the
+device that receives the query at 20402 are the same device.
+Additionally or alternatively, the devices may be different
+(e.g., an edge device 20120 may receive the query at 20402 65
+distribution model 20260 at 20410). The probability distri-
+[col 2]
+724
+bution model 20260 may be generated based on the query
+received at 20402. For example, if the query requests an
+average of a specific type of sensor reading, the probability
+distribution model 20260 may represent the distribution of
+sensor readings for that specified type of sensor. Thus, the
+probability distribution model 20260 may enable an
+approximate respond to the query received at 20402 and/or
+same or similar data. In embodiments, the edge device/
+aggregator 20130 may cause the probability distribution
+model 20260 to be stored on the dynamic ledger 20150 s0
+that it may be used to respond to future queries.
+At 204i2, the edge device/aggregator 20130 may gener-
+ate a response (or approximate response) to the query
+received at 20402 using one or more of the probability
+distribution models 20260 (e.g., as generated at 20410)
+and/or the partial query results (e.g-, responsive to the partial
+tor 20130 may use the partial query results together with the
+probability distribution model 20260 to provide a more
+accurate approximation (e.g., depending on the query).
+Then, at 20414, the generated query may be transmitted to
+the query device 20110. In some embodiments (not shown),
+if the edge device/aggregator 20130 is unable to provide a
+reasonably accurate approximation in response to the query
+received at 20402 (e.g., because a timeout is reached before
+enough summary data is uploaded to the dynamic ledger
+20150), the edge device/aggregator 20130 may transmit a
+response indicating that the query cannot be fulfilled.
+At 20416, a second query may be received from the same
+query device 20110 or a different query device 20110. In
+embodiments, the query received at 20416 may be the same
+as the query received at 20402, and/or may request over-
+lapping and/or similar data as the query received at 20402.
+In these and similar embodiments, at 20418 the edge device/
+aggregator 20130 may be able to respond to the second
+query using the previously generated probability distribution
+model 20260 and/or partial query results. Additionally or
+alternatively, the edge device/aggregator 20130 may also
+run a second partial query against local edge storage (e.g., it
+may repeat step 20404 in order to retrieve updated data in
+response to the second query) and may use the second partial
+query results to generate a better approximate second query
+response.
+At 20420, the second query response may be transmitted
+to the query device 20110. Thus, as shown by the example
+method 20400, the distributed database may improve its
+ability to provide approximate responses to queries over
+time as queries are received. Accordingly, in some embodi-
+ments, a response to a second query may be generated and
+transmitted more quickly and/or more accurately than a
+response to a first query, which may be the same or similar
+to the second query.
+In embodiments (not shown in FIG.169A), the edge
+refine particular probability distribution models 20260. In
+some embodiments, the edge device/aggregator 20130 may
+thus repeat steps 20406-20410 on a periodic basis in order
+to update the probability distribution models 20260. For
+example, the edge device/aggregator 20130 may more fre-
+quently update probability distribution models 20260 that
+ability distribution models 20260 that are used less often.
+Additionally or alternatively, the edge device/aggregator
+20130 may more frequently less accurate probability distri-
+bution models 20260 (e.g., models 20260 that were gener-
+ated and/or trained using less data) in order to improve the

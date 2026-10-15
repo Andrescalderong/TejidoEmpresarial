@@ -1,0 +1,103 @@
+(12) Patent Application Publication (10) Pub. No.: US 2022/0036274 A1
+[col 1]
+(19) United States
+CELLA et al.
+(54)MANAGINGDEMANDFACTORSAND
+INFRASTRUCTURE FACILITIES OF
+CONTROLTOWERANDENTERPRISE
+MANAGEMENT PLATFORM
+(71) Applicant: STRONG FORCE VCN
+PORTFOLIO 2019,LLC,Fort
+Lauderdale, FL (US)
+Inventors: Charles Howard CELLA, Pembroke, (72)
+MA (US); Richard SPITZ, Fort
+Lauderdale, FL (US); Teymour S.
+EL-TAHRY, Birmingham, MI (US)
+Assignee: STRONG FORCE VCN (73)
+PORTFOLIO 2019,LLC,Fort
+Lauderdale, FL (US)
+Appl.No.:17/461,074 (21)
+(22) Filed: Aug. 30, 2021
+Related U.S. Application Data
+Continuation of application No. PCT/US2020/ (63)
+059227, filed on Nov. 5, 2020.
+Provisional application No.63/087,292, filed on Oct. (60)
+4,2020,provisional applicationNo.63/069,533,filed
+onAug.24,2020,provisional application No.63/054,
+606, filed on Jul.21, 2020, provisional application
+No.63/016,976, filed on Apr.28, 2020, provisional
+application No. 62/969,153, filed on Feb. 3, 2020,
+provisional application No. 62/931,193, filed on Nov.
+5, 2019.
+674
+610-
+Point of Orgin
+620 642-
+Supiers
+PortInfrastructure
+648- 6607
+Supply Factors
+Martime Facilities 622-
+Supply
+628-
+654- Environments Warehousing
+Distribution Faclities
+670
+678 -668 658 Value Chain Network
+634- DataPcsing,rtificialnellig
+and Computational Systems
+614-
+Adaptive Inteligent Systems
+Value Chain Network Management Platfom -..
+[col 2]
+US20220036274A1
+Feb. 3, 2022 (43) Pub. Date:
+Publication Classification
+(51) Int. CI.
+(2006.01) G06Q10/06
+G06Q 10/08 (2006.01)
+G06Q 30/02
+(2006.01)
+H04L 29/08 (2006.01)
+U.S. CI. (52)
+CPC.. G06Q10/06375(2013.01);G06Q10/083
+(2013.01); G06Q10/06315 (2013.01);H04L
+67/12(2013.01);G06Q30/0201 (2013.01);
+G06Q 30/0202 (2013.01); G06Q 10/067
+(2013.01)
+(57) ABSTRACT
+A value chain system that provides recommendations for
+designing a logistics system generally includes a machine
+learning system that trains machine-learned models that
+output logistics design recommendations based on training
+data sets that each respectively defines one or more features
+ofa respective logistic system and an outcome relating to the
+respective logistics system; an artificial intelligence system
+that receives a request for a logistics system design recom-
+mendation and determines the logistics system design rec-
+ommendation based on oneormore of the machine-learned
+models and the request, and a digital twin system that
+generates an environment digital twin of a logistics envi-
+ronment that incorporates the logistics system design rec-
+ommendation, and one or more physical asset digital twins
+of physical assets. The digital twin system executes a
+simulation based on the logistics environment digital twin,
+the one or more physical asset digital twins.
+664 612 Production
+Retaiers -650
+Inteligent Product
+Destinations 638
+Customers Shipyards Foating Assets
+662
+Demand Factors
+632-
+644- Delivery Systems Fuflment
+Demand Environments
+672 Distrbution Environments
+. ofValueChainNetwork Entities 652-
+VCNP Managed Value Chain Network Processes,Workfows, Acivities,Events and Applications -630
+624- Data Collection and
+Value Chain Network-Oriented -640 Management Systems
+Data Storage Systems
+-618 Value Chain Monitoring Systems
+608-..Data Handing Layers

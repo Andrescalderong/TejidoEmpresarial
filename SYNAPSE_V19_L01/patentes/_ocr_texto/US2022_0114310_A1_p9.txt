@@ -1,0 +1,131 @@
+[col 1]
+US 2022/0114310A1
+in a computer readable storage medium that can direct a
+computer, a programmable data processing apparatus, and/
+or other devices to function in a particular manner, such that
+the computer readable storage medium having instructions
+stored therein comprises an article of manufacture including
+instructions which implement aspects of the function/act
+specified in the flowchart and/or block diagram block or
+blocks.
+[0020] The computer readable program instructions may
+also be loaded onto a computer, other programmable data
+processing apparatus, or other device to cause a series of
+operational steps to be performed on the computer, other
+programmable apparatus or other device to produce a com-
+puter implemented process, such that the instructions which
+execute on the computer, other programmable apparatus, or
+other device implement the functions/acts specified in the
+flowchart and/or block diagram block or blocks.
+[0021]The flowchart and block diagrams in the Figures
+illustrate the architecture, functionality, and operation of
+possible implementations of systems, methods, and com-
+puter program products according to various embodiments
+of the present invention. In this regard, each block in the
+flowchart or block diagrams may represent a module, seg-
+ment, or portion of instructions, which comprises one or
+more executable instructions for implementing the specified
+logical function(s). In some alternative implementations, the
+functions noted in the block may occur out of the order noted
+in the figures. For example, two blocks shown in succession
+may, in fact, be executed substantially concurrently, or the
+blocks may sometimes be executed in the reverse order,
+depending upon the functionality involved. It will also be
+noted that each block of the block diagrams and/or flowchart
+illustration, and combinations of blocks in the block dia-
+grams and/or flowchart illustration, can be implemented by
+special purpose hardware-based systems that perform the
+specified functions or acts or carry out combinations of
+special purpose hardware and computer instructions.
+[0022]As shown in FIG. 1, networked computers system
+100 is an embodiment of a hardware and software environ-
+ment for use with various embodiments of the present
+invention. Networked computers system 100 includes:
+server subsystem 102 (sometimes herein referred to, more
+simply, as subsystem 102); isolation server 103; city A
+subsystem 104; city B subsystem 106; city C subsystem 108;
+city D subsystem 110; city E subsystem 112; city F subsys-
+tem 113; and communication network 114. Server subsys-
+tem 102 includes: server computer 200; communication unit
+202; processor set 204; input/output (I/O) interface set 206;
+memory 208; persistent storage 210; display 212; external
+device(s) 214; random access memory (RAM) 230; cache
+232; and program 300. In this example, the city subsystems
+104, 106, 108, 110, 112,113 are respectively located in six
+(6) different cities located in the United States.
+[0023]Subsystem 102 may be a laptop computer, tablet
+computer, netbook computer, personal computer (PC), a
+desktop computer, a personal digital assistant (PDA), a
+smart phone, or any other type of computer (see definition
+of"computer"in Definitions section, below). Program 300
+is a collection of machine readable instructions and/or data
+that is used to create, manage and control certain sofiware
+functions that will be discussed in detail, below, in the
+Example Embodiment subsection of this Detailed Descrip-
+tion section.
+[col 2]
+Apr.14,2022
+[0024]Subsystem102is capableof communicatingwith
+other computer subsystems via communication network 114.
+Network 114 can be, for example, a local area network
+(LAN), a wide area network (WAN) such as the Internet, or
+a combination of the two, and can include wired, wireless,
+or fiber optic connections. In general, network 114 can be
+any combination of connections and protocols that will
+support communications between server and client subsys-
+tems.
+[0025]  Subsystem 102 is shown as a block diagram with
+many double arrows. These double arrows (no separate
+reference numerals) represent a communications fabric,
+which provides communications between various compo-
+nents of subsystem 102. This communications fabric can be
+implemented with any architecture designed for passing data
+and/or control information between processors (such as
+microprocessors, communications and network processors,
+etc.), system memory, peripheral devices, and any other
+hardware components within a computer system. For
+example, the communications fabric can be implemented, at
+least in part, with one or more buses.
+[0026] Memory 208 and persistent storage 210 are com-
+puter-readable storage media. In general, memory 208 can
+include any suitable volatile or non-volatile computer-read-
+able storage media. It is further noted that, now and/or in the
+near future: (i) external device(s) 214 may be able to supply,
+some or all, memory for subsystem 102; and/or (i) devices
+external to subsystem 102 may be able to provide memory
+for subsystem 102. Both memory 208 and persistent storage
+210: (i) store data in a manner that is less transient than a
+signal in transit; and (i) store data on a tangible medium
+(such as magnetic or optical domains). In this embodiment,
+memory 208 is volatile storage, while persistent storage 210
+provides nonvolatile storage. The media used by persistent
+storage 210 may also be removable. For example, a remov-
+able hard drive may be used for persistent storage 210. Other
+examples include optical and magnetic disks, thumb drives,
+and smart cards that are inserted into a drive for transfer onto
+another computer-readable storage medium that is also part
+of persistent storage 210.
+[0027]  Communications unit 202 provides for communi-
+cations with other data processing systems or devices exter-
+nal to subsystem 102. In these examples, communications
+unit 202 includes one or more network interface cards.
+Communications unit 202 may provide communications
+through the use of either or both physical and wireless
+communications links.Any software modules discussed
+herein may be downloaded to a persistent storage device
+(such as persistent storage 210) through a communications
+unit (such as communications unit 202).
+[0028]  I/O interface set 206 allows for input and output of
+data with other devices that may be connected locally in data
+communication with server computer 200. For example, I/O
+interface set 206 provides a connection to external device set
+214. External device set 214 will typically include devices
+such as a keyboard, keypad, a touch screen, and/or some
+other suitable input device. External device set 214 can also
+include portable computer-readable storage media such as,
+for example, thumb drives, portable optical or magnetic
+disks, and memory cards. Software and data used to practice
+embodiments of the present invention, for example, program
+300, can be stored on such portable computer-readable
+storage media. I/O interface set 206 also connects in data
+communication with display 212. Display 212 is a display

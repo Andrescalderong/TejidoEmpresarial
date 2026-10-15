@@ -1,0 +1,111 @@
+[col 1]
+US2022/0058569A1
+269
+aspect, the means for performing the steps associated with
+the processes described above may include any of the
+hardware and/or software described above. All such permu-
+tations and combinations are intended to fall within the
+scope of the present disclosure.
+[2088]While the disclosure has been disclosed in connec-
+tion with the preferred embodiments shown and described in
+detail, various modifications and improvements thereon will
+become readily apparent to those skilled in the art. Accord-
+ingly, the spirit and scope of the present disclosure is not to
+be limited by the foregoing examples, but is to be under-
+stood in the broadest sense allowable by law.
+[2089]The use of the terms "a" and "an" and "the" and
+similar referents in the context of describing the disclosure
+(especially in the context of the following claims) is to be
+construed to cover both the singular and the plural, unless
+otherwise indicated herein or clearly contradicted by con-
+"containing" are to be construed as open-ended terms (i.e..
+meaning“including, but not limited to,") unless otherwise
+noted. Recitations of ranges of values herein are merely
+intended to serve as a shorthand method of referring indi-
+vidually to each separate value falling within the range,
+unless otherwise indicated herein, and each separate value is
+incorporated into the specification as if it were individually
+recited herein. All methods described herein can be per-
+formed in any suitable order unless otherwise indicated
+herein or otherwise clearly contradicted by context. The use
+as) provided herein, is intended merely to better illuminate
+the disclosure and does not pose a limitation on the scope of
+the disclosure unless otherwise claimed. The term “set" may
+include a set with a single member. No language in the
+specification should be construed as indicating any non-
+claimed element as essential to the practice of the disclosure.
+[2090]While the foregoing written description enables
+one skilled to make and use what is considered presently to
+be the best mode thereof, those skilled in the art will
+understand and appreciate the existence of variations, com-
+binations, and equivalents of the specific embodiment,
+method, and examples herein. The disclosure should there-
+fore not be limited by the above described embodiment,
+method, and examples, but by all embodiments and methods
+within the scope and spirit of the disclosure.
+[2091] All documents referenced herein are hereby incor-
+porated by reference as if fully set forth herein.
+What is claimed is:
+1. A value chain system that provides recommendations
+for designing a logistics system comprising:
+a machine learning system that trains a machine-learned
+model that outputs a logistics design recommendation
+given a respective set of input features relating to a
+specific respective logistics system, wherein the
+machine learning system trains the machine-learned
+model based on training data sets that define features of
+logistics systems and outcomes of the logistics sys-
+tems;
+[col 2]
+Feb.24,2022
+an artificial intelligence system that receives a request for
+logistics system design and determines a logistics sys-
+tem design recommendation based on the machine-
+learned model and the request; and
+a digital twin system that generates an environment digital
+twin of a logistics environment that incorporates the
+logistics system design recommendation and one or
+more physical asset digital twins of physical assets,
+wherein the digital twin system:
+executes a logistics simulation based on the logistics
+environment digital twin and the one or more physical asset digital twins,
+issues a logistics system design request from the arti-
+ficial intelligence system based on a state of the
+logistics simulation; and
+adjusts the state of the logistics simulation based on the
+logistics system design recommendation output by the
+artificial intelligence system in response to the logistics
+system design request.
+2. The value chain system of claim 1, wherein the digital
+simulation via the display.
+3. The value chain system of claim 1, wherein the digital
+twin system outputs a simulation outcome of the simulation
+to the machine learning system, and the machine learning
+system reinforces the machine-learned model used to deter-
+mine the logistics system design recommendation based on
+the simulation outcome.
+4. The value chain system of claim 1, wherein the artificial
+intelligence system receives the request from a logistics
+design system that designs logistics systems, wherein the
+request includes one or more logistics factors corresponding
+to a proposed logistics solution of an organization.
+5. The value chain system of claim 4, wherein the logistics
+factors include one or more of: a type of product corre-
+sponding to the proposed logistics solution, one or more
+features of the type of product, a location of a manufacturing
+site, a location of a distribution facility, a location of a
+warehouse, a location of a customer base, proposed expan-
+sion areas of the organization, and supply chain features.
+6. The value chain system of claim 1, wherein the logistics
+design system provides outcome data relating to the logistics
+system design recommendation to the machine learning
+system, and the machine learning system reinforces the
+machine-learned model that are used to determine the logis-
+tics system design recommendation based on the outcome
+data.
+7. The value chain system of claim 1, wherein the artificial
+intelligence system determines the logistics system design
+recommendation to minimize delay times.
+8. The value chain system of claim 1, wherein the artificial
+intelligence system determines the logistics system design
+recommendation to comply with regulatory requirements.

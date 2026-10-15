@@ -1,0 +1,134 @@
+operating facilities, such as loading and unloading docks, 15 otherwise provide data relating to an enterprise. As used
+vehicle, in a container, in a package, in a warehouse, in a 35 user may select different types role-based digital twins from
+[col 1]
+US 12,314,060 B2
+195
+ers, vehicle drivers, business managers, engineers, floor
+managers, demand managers, marketing managers, inven-
+workers, inspectors, delivery personnel, environmental con-
+trol managers, financial asset managers, process supervisors
+and workers (for any of the processes mentioned herein),
+security personnel, safety personnel and many others); sup-
+pliers, such as suppliers of goods and related services of all
+types, component suppliers, ingredient suppliers, materials
+suppliers, manufacturers, and many others; customers, 10
+including consumers, licensees, businesses, enterprises,
+value added and other resellers, retailers, end users, distribu-
+tors, and others who may purchase, license, or otherwise use
+a category of goods and/or related services; a wide range of
+storage and warehousing facilities, vaults, distribution facili-
+ties and fulfillment centers, air travel facilities, including
+aircraft, airports, hangars, runways, refueling depots, and the
+like, maritime facilities, such as port infrastructure facilities,
+such as docks, yards, cranes, roll-on/roll-off facilities, 20
+ramps, containers, container handling systems, waterways,
+locks, and many others), shipyard facilities, floating assets,
+such as ships, barges, boats and others), facilities and other
+items at points of origin and/or points of destination, hauling
+facilities, such as container ships, barges, and other floating 25
+assets, as well as land-based vehicles and other delivery
+systems used for conveying goods, such as trucks, trains,
+and the like; items or elements factoring in demand (i.e..
+demand factors), including market factors, events, and many
+others; items or elements factoring in supply (i.e., supply 30 
+factors), including market factors, weather, availability of
+components and materials, and many others; logistics fac-
+tors, such as availability of travel routes, weather, fuel
+prices, regulatory factors, availability of space, such as on a
+fulfillment center, on a shelf, or the like, and many others;
+retailers, including online retailers and others; pathways for
+conveyance, such as waterways, roadways, air travel routes,
+railways and the like; robotic systems, including mobile
+robots,cobots,robotic systemsforassistinghumanworkers, 40
+robotic delivery systems, and others; drones, including for
+package delivery, site mapping, monitoring or inspection,
+and the like; autonomous vehicles, such as for package
+delivery: software platforms, such as enterprise resource
+planning platforms, customer relationship management plat- 45 
+forms, sales and marketing platforms, asset management
+platforms, Internet of Things platforms, supply chain man-
+agement platforms, platform-as-a-service platforms, infra-
+structure-as-a-service platforms, software-based data stor-
+age platforms, analytic platforms, artificial intelligence 50 
+platforms, and others; and many others.
+FIG. 68 is a schematic of an example environment of an
+enterprise management platform 8000. In embodiments, the
+EMP 8000 may be integrated with or accessible to a control
+tower via an application programming interface (API). In
+some of these embodiments, the EMP 8000 may be a series
+of microservices that are accessible to the control tower.
+In embodiments, the EMP 8000 includes an enterprise
+configuration system 8002, a digital twin system 8004, a
+collaboration suite 8006, an expert agent system 8008, and 60
+an intelligence service system 8010. In embodiments, the
+EMP 8000 includes an API system 8014 that facilitates the
+transfer of data between one or more external systems and
+the EMP 8000.In some embodiments, the intelligence
+service system 8010 includes an enterprise data store 8012 65
+that stores data relating to enterprises, whereby the enter-
+prise data is used by the digital twin system 8004, the
+[col 2]
+196
+collaboration suite 8006, and/or the expert agent system
+8008. The enterprise data store 8012 may store any of a wide
+variety of data, such as any data involved in the data pipeline
+described above and throughout this disclosure and the
+documents incorporated herein by reference. In embodi-
+ments, the enterprise data store 8012 may store data that is
+being used to update digital twins in real-time or substan-
+tially real time. In embodiments, the enterprise data store
+8012 may store databases, file systems, folders, files, docu-
+ments, transient data (e.g-, real-time data or substantially
+real-time data), sensor data, and the like.
+In embodiments, the enterprise configuration system 8002
+provides an interface (e.g., a graphical user interface (GUI)
+by which a user (e.g., an “on-boarding" user) may upload or
+herein, an enterprise may refer to a for-profit or non-profit
+organization, company, governmental agency, non-govern-
+ing organization, or the like. While described as an on-
+boarding user, the configuration of the enterprise manage-
+ment platform 8000 for a particular enterprise may be
+associated with the enterprise, individuals associated with
+the EMP, and/or individuals associated with a third-party,
+such as a third host of a hosted EMP for an enterprise (which
+may be deployed on cloud resources, platform-as-a-service,
+software-as-a-service, multi-tenant data resources and/or
+similar resources) and/or a service provider.
+In embodiments, the on-boarding user may define the
+types of enterprise digital twins that may be generated by the
+digital twin system 8004 on behalf of the enterprise being
+on-boarded. In embodiments, the on-boarding user may
+select different types of digital twins that will be supported
+for the enterprise by the EMP 8000 via a GUI presented by
+the enterprise configuration system 8002. For example, the
+a menu of digital twin types, where the different types of
+role-based digital twins include executive digital twins. As
+another example, the user may select a type of organiza-
+tional digital twin that is suitable for the user's organization,
+such as from a library of industry-specific or domain-
+specific organizational templates. In some embodiments,
+each type of executive digital twin has a predefined set of
+states (such term as referenced herein encompassing states,
+entities, relationships, parameters, and other characteristics)
+that are depicted in the respective executive digital twin and
+predefined granularity levels and/or other features for each
+state of the set. In some embodiments, the set of states that
+are depicted in the executive digital twin, the granularity of
+each, and/or other features may be customized (e.g., by the
+on-boarding user). In these embodiments, a user may define
+the different states that are represented in each type of
+executive digital twin and/or the granularity for each of the
+states depicted in the digital twin. For example, if the CEO
+of an enterprise has a financial background, the CEO may
+wish to have more financial data depicted in the CEO digital
+twin, such that the financial data is displayed at a higher
+granularity, or the CEO may wish to have access to under-
+lying information on financial models that are available to
+the digital twin, such as models used for determination of
+state information (e.g-, financial predictions or forecasts) or
+models used for augmentation of states (such as highlighting
+important deviations from expectations).By contrast, if the
+CEO has less financial experience or training, the CEO
+digital twin may be configured with summary financial data
+and may include prompts (which may be generated by an
+outcomes) to obtain CFO input when states deviate from

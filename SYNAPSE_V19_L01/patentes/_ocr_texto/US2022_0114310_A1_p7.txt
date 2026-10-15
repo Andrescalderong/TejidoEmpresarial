@@ -1,0 +1,124 @@
+[col 1]
+US2022/0114310A1
+INITIATING A DIGITAL TWIN BASED ON
+COGNITIVE LOCATIONAND
+ENVIRONMENTALIMPACT
+BACKGROUND
+[0001]  The present invention relates generally to the field
+of digital twins, which are a type of machine readable data
+sets that can be used in managing various kinds of physical
+assets, like vehicles, bridges, buildings, utility poles, fire
+hydrants, flood walls, emergency phones, tended gardens,
+lawns, pumps, large scale electrical components (for
+example, transformers, power towers), HVAC (heating, ven-
+tilation and air conditioning) components (for example,
+ductwork), land, facilities, infrastructure, major manufactur-
+ing equipment, and so on.
+[0002] The Wikipedia entry for“digital twin (as of 22
+replica of a living or non-living physical entity. Digital twin
+refers to a digital replica of potential and actual physical
+assets (physical twin), processes, people, places, systems
+and devices that can be used for various purposes. The
+digital representation provides both the elements and the
+dynamics of how an Internet of things device operates and
+lives throughout its life cycle. Definitions of digital twin
+technology used in prior research emphasize two important
+characteristics. Firstly, each definition emphasizes the con-
+nection between the physical model and the corresponding
+virtual model or virtual counterpart. Secondly, this connec-
+tion is established by generating real time data using sensors.
+The concept of the digital twin can be compared to other
+concepts such as cross-reality environments or co-spaces
+and mirror models, which aim to, by and large, synchronize
+part of the physical world (e.g., an object or place) with its
+cyber representation (which can be an abstraction of some
+aspects of the physical world) . . + + In various industrial
+sectors, twins are being used to optimize the operation and
+maintenance of physical assets, systems and manufacturing
+processes. They are a formative technology for the Industrial
+Internet of things, where physical objects can live and
+interact with other machines and people virtually. In the
+context of the Internet of things, they are also referred to as
+"cyberobjects', or ‘digital avatars'. The digital twin is also a
+component of cyber-physical systems." (footnotes omitted)
+SUMMARY
+[0003] According to a further aspect of the present inven-
+tion, there is a method, computer program product and/or
+system that performs the following operations (not neces-
+sarily in the following order): (i) receiving a plurality of
+existing physical asset profile data sets (PAPDSs), with each
+existing PAPDS including information indicative of the
+operating environment in which the existing digital twin is
+operating; (i) receiving a request to make a first new PAPDS
+corresponding to a first physical asset, with the request
+including information indicative of an operating environ-
+ment in which the first physical asset is planned to be
+operated; and (iii) determining a suggested base PAPDS
+from the plurality of PAPDSs based upon between the
+following: (a) the operating environments of the suggested
+base digital twin, and (b) the operating environment indi-
+cated in the request.
+[0004]  According to a further aspect of the present inven-
+tion, there is a method, computer program product and/or
+[col 2]
+Apr. 14, 2022
+system that performs the following operations (not neces-
+sarily in the following order): (i) receiving a plurality of
+physical asset data sets for respectively corresponding
+physical assets having a common asset type, with each given
+physical asset data set including information indicative of:
+(a) identity of the respectively corresponding physical asset,
+(b) location of the respectively corresponding physical asset,
+and (c) a first environment-related policy that controls a first
+environment-related aspect of handling of the respectively
+corresponding physical asset; (ii) receiving a new physical
+asset request including information indicative of (a) identity
+ofa new physical asset, and (b) location ofthe new physical
+asset; (ii) determining a set of relevant environmental
+condition(s) that are relevant to selection of first-environ-
+ment related policy for the plurality of first physical assets
+of the first asset type; (iv) for each given physical asset data
+set of the plurality of physical asset data sets, determining
+relevant environmental condition value(s), corresponding to
+the set of relevant environmental condition(s), under which
+the physical asset corresponding to the given physical asset
+data set operates; (v) for the new physical asset, determining
+relevant environmental condition value(s), corresponding to
+the set of relevant environmental condition(s), under which
+the new physical asset operates; and (vi) creating a new
+physical asset data set corresponding to the new physical
+asset, with the creation of the new physical asset data set
+policy to control the first environment-related aspect of
+handling of the new physical asset based, at least in part
+upon: () the relevant environmental condition value(s)
+corresponding to the plurality of physical asset data sets, and
+(Il) the relevant environmental condition value(s) corre-
+sponding to the new physical assets, and (b) adding the
+selected first environment-related policy to the new physical
+asset data set.
+BRIEF DESCRIPTION OF THE DRAWINGS
+[0005] FIG. 1 is a block diagram view of a first embodi-
+ment of a system according to the present invention;
+[0006] FIG. 2 is a flowchart showing a first embodiment
+method performed, at least in part, by the first embodiment
+system,
+[0007]  FIG. 3 is a block diagram showing a machine logic
+(for example, software) portion of the first embodiment
+system;
+[0008]  FIG. 4 is a screenshot view generated by the first
+embodiment system;
+[0009] FIG. 5A is a block diagram view of a second
+embodiment of a system according to the present invention
+at a first point in time; and
+[0010]FIG.5B is a block diagram view of the second
+embodiment at a second point in time.
+DETAILEDDESCRIPTION
+[0011] Some embodiments of the present invention are
+directed to setting a policy for handling a computer-tracked
+physical asset (for example, a physical asset with a corre-
+sponding digital twin) based on policy(ies) for other com-
+puter-tracked physical assets that are subject to similar
+relevant environmental condition(s). Some embodiments
+use machine learning to refine the relationship between
+relevant environmental condition(s) and the choice of policy
+for the physical asset. Some possible types of policies are

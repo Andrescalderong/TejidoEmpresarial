@@ -1,0 +1,138 @@
+[col 1]
+US 12,314,060 B2
+825
+operating state, thefault condition,the operating flow, orthe
+behavior. Other examples of Al-based learning models (e.g.
+machine learning models) may include neural networks in
+general (e.g-, deep neural networks, convolution neural
+networks, and many others), regression based models, deci-
+sion trees, hidden forests, Hidden Markov models, Bayesian
+models, and the like. In some implementations, VCN pro-
+cess 10 may include combinations where an expert system
+uses one neural network for classifying an item (e.g., iden-
+tifying a machine, a component, or an operational mode) and
+a different (or the same) neural network for predicting a state
+of the item (e.g., a fault state, an operational state, an
+anticipated state, a maintenance state, or the like).
+In some implementations, at least one member of the set
+15
+of AI-based learning models may be trained on the training
+data set to determine, upon receiving the classification, a
+task to be completed for the value chain network.For
+instance, in some embodiments, VCN process 10 may
+provide automated recommendations for a set of one or 20o :
+more value chain process tasks involving a wide range of
+types of activities, such as, without limitation, product
+configuration activities, product selection activities for a
+customer, supplier selection activities, shipper selection
+activities, route selection activities, factory selection activi- 25
+ties, product assortment activities, product management
+activities, logistics activities, reverse logistics activities,
+artificial intelligence configuration activities, maintenance
+activities, product support activities, product recommenda-
+tion activities, demand prediction, defect and quality issue 3o a different supplier).
+detection, item failure prediction, optimization identification
+and execution, and many others such as those discussed
+throughout. For example, in some implementations, execut-
+ing the task may include predicting future demand for an
+itemin thevalue chainnetwork.For instance,asdiscussed 35s
+throughout, VCN process 10's AI-based learning models
+may be used to analyze historical sales data, market trends,
+and other factors to predict future demand for products (such
+as the engine part). This may help companies optimize
+inventory levels, production schedules, and pricing strate- 40
+gies to meet customer demand and maximize revenue.
+In some implementations, VCN process 10 may (e.g., via
+a robotic process automation (RPA) system) configure
+18404 the robotic process automation system to execute the
+task to facilitate an improvement in the value chain network. 45
+Forinstance, in some implementations, thetask may include
+automatically processing 18406 one or more orders for an
+item in the value chain network based upon, at least in part,
+the information, wherein automatically processing the one
+or more orders for the item in the value chain network may 50
+include extracting 18408 order data of the one or more
+orders from one or more sources and automatically inputting
+18410 the order data extracted from the one or more sources
+into an order management system. For instance, a robotic
+process automation system (e.g., via VCN process 10) may 55
+be enabled to access communications such as emails, text,
+spreadsheets, Pdfs, other documents, etc. or directly com-
+municate via an order management system (or the like) and
+use, e.g., natural language processing (NLP) to determine
+that a communication (e.g., from a customer, supplier, other 60
+stakeholder in the VCN) is an order (e.g., a purchase order)
+for an item in the VCN. Upon such a determination, the
+robotic process automation system (e.g, via VCN process
+10) may extract order information from emails or other
+electronic documents and enter the associated data into an 65
+order management system of VCN process 10, as well as
+check invoices for accuracy and process payments.
+[col 2]
+826
+In some implementations,the task may include monitor-
+ing 18412 an inventory level for an item in the value chain
+network and automatically generating 18414 one or more
+purchase orders for the item when the inventory level for the
+item in the value chain network falls below a threshold. For
+instance, assume for example purposes only that the robotic
+process automation system (e.g., via VCN process 10)
+updates inventory records based upon, e.g., reading barcodes
+or RFID tags and uses this and/or the above-noted informa-
+10 tion to monitor inventory levels to determine that only a
+threshold number of items is available in the inventory. As
+a result, this may automatically trigger VCN process 10 to
+execute reorder requests from a supplier to obtain more of
+that item. In some implementations, the demand sensing
+aspects of VCN process 10 may be used to dynamically
+adjust the threshold based upon changing information.
+In some implementations, VCN process 10 may track
+18416 a shipment ofthe item in real-time and the inventory
+level for the item in the value chain network may be
+automatically updated 18418 based upon, at least in part,
+tracking the shipment of the item in real-time. For instance,
+a robotic process automation system (e.g., via VCN process
+10) may be enabled to track shipments in real-time using any
+known tracking techniques (e.g., GPS) and may automati-
+cally update an associated company's inventory and order
+management systems with the latest information. This may
+help the company quickly identify any delays or issues with
+shipments and take corrective action (e.g., such as recom-
+mending or automatically placing an alternative order from
+In some implementations, the task may include VCN
+process 10 extracting 18420 invoice data of the one or more
+invoices from one or more sources and automatically input-
+ting 18422 the invoice data extracted from the one or more
+sources into an accounting system. For instance, a robotic
+process automation system (e.g., via VCN process 10) may
+be enabled to access communications such as emails, text,
+spreadsheets, Pdfs, other documents, etc. or directly com-
+municate via an accounting management system (or the like)
+and use, e.g-, natural language processing (NLP) to deter-
+mine that a communication (e.g-, to a customer, supplier,
+other stakeholder in the VCN) is an invoice for an item in the
+VCN. Upon such a determination, the robotic process auto-
+mation system (e.g. via VCN process 10) may extract the
+invoice information from the emails or other electronic
+documents and enter the associated data into an accounting
+management system of VCN process 10, as well as check
+invoices for accuracy and process payments. This may help
+streamline the invoicing process and reduce errors.
+Similarly, a robotic process automation system (e.g., via
+VCN process 10) may be used for after-sales service as well.
+For instance, reading data from service request documents,
+coordinating with other systems to capture and maintain
+service ticket data, so that if a customer needs to make a
+return or request a repair, VCN process 10 may use one or
+more of the UIs discussed throughout to improve visibility
+on location, time of arrival and duration to complete work,
+track orders in real-time and send acknowledgement emails
+to customers automatically.
+In some implementations, VCN process 10 may render
+18424 a user interface enabling a user to visually design
+automation workflows. For instance, VCN process 10 may
+render a UI (e.g., the control tower UI discussed throughout)
+that enables a user to visually design automation workflows.
+In some implementations, this UI may be an integrated
+development environment that allows users to create auto-
+mation processes using a drag-and-drop interface, and may

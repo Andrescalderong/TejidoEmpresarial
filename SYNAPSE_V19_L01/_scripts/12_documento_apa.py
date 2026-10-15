@@ -85,6 +85,11 @@ def P(text):
     text=text.strip()
     if text: blocks.append(dict(t="p",x=conv(text)))
 tab_caps=[]
+fig_n=[0]
+def FIG(name,title,desc,nota):
+    fig_n[0]+=1
+    P(f"La Figura {fig_n[0]} presenta {desc}.")
+    blocks.append(dict(t="fig",f=name,x=title,n=nota.replace("`",""),num=fig_n[0]))
 def emit(lines,shift=0):
     """convierte markdown a bloques; ### -> h2+shift, #### -> h3+shift"""
     i=0; para=[]
@@ -177,19 +182,32 @@ for t,ps in REVISION:
     for p in ps: P(p)
 H(1,"Resultados")
 H(2,"Composición y calidad de extracción"); emit(sec(INF,"3."))
+FIG("fig_produccion_anual.png","Distribución de los documentos del lote por año de publicación","la distribución por año de publicación de los 101 documentos","*Nota.* n = 101. Elaboración propia a partir del inventario del lote (`csv/inventario.csv`).")
 H(2,"Madurez multinivel"); emit(sec(INF,"4."),shift=1)
+FIG("fig_matriz_madurez.png","Matriz de madurez multinivel por documento","los niveles TRL, MRL, BRL, IRL, DRL y SRL de cada documento","*Nota.* n = 84 documentos con TRL o BRL asignado. N = núcleo, A = adyacente, P = periférico; las celdas grises indican que la dimensión no aplica o no es evaluable. El SRL se calculó con la fórmula del analista. Elaboración propia (`csv/madurez_multinivel.csv`).")
+FIG("fig_radar_madurez.png","Perfil de madurez: mediana por grupo de relevancia","las medianas de madurez por grupo de relevancia","*Nota.* Núcleo n = 15, adyacente n = 48, periférico n = 21; escala de 1 a 9. Elaboración propia (`csv/ml/madurez_medianas_por_grupo.csv`).")
+FIG("fig_diagrama_valles.png","Valle de la muerte comercial y documentos por valle y severidad","la relación entre TRL y BRL y la distribución de los documentos por valle de la muerte","*Nota.* Panel izquierdo: TRL modal frente a BRL; el tamaño del círculo indica el número de documentos y el área sombreada, una brecha TRL − BRL ≥ 2. Panel derecho: n = 101. Elaboración propia (`csv/valles_muerte.csv`).")
+FIG("fig_mapa_calor_brechas.png","Brechas de madurez por documento","las brechas de madurez TRL − BRL, TRL − IRL y BRL − DRL de cada documento","*Nota.* Los tonos rojos indican tecnología por delante del negocio o de la integración. Elaboración propia (`csv/brechas_madurez.csv`).")
 H(2,"Resultados del aprendizaje automático y sensibilidad")
+FIG("fig_ml_pca_tsne.png","Mapa de los documentos según su contenido","la proyección de los documentos por contenido con PCA y t-SNE","*Nota.* TF-IDF de unigramas y bigramas; k-means con k = 2. Los círculos rojos señalan el bloque SciELO (D087-D098). Elaboración propia (`csv/ml/`).")
+FIG("fig_ml_dendrograma.png","Dendrograma jerárquico de Ward de los 101 documentos","el agrupamiento jerárquico de los documentos","*Nota.* Método de Ward sobre la reducción SVD del TF-IDF. Elaboración propia (`csv/ml/`).")
+FIG("fig_red_copalabras.png","Red de co-palabras clave","la red de co-ocurrencia de palabras clave con frecuencia mayor o igual a 3","*Nota.* El color indica la comunidad detectada por modularidad (modularidad baja). Elaboración propia a partir de las palabras clave de los registros.")
+FIG("fig_mapa_centralidad_densidad.png","Mapa estratégico de centralidad y densidad de las comunidades de palabras clave","el mapa estratégico de las comunidades de palabras clave","*Nota.* Centralidad: enlaces externos ponderados; densidad: enlaces internos por palabra. Elaboración propia.")
+FIG("fig_pareto_citas.png","Concentración de citas de los documentos (diagrama de Pareto)","la concentración de las citas de Scopus en pocos documentos","*Nota.* Documentos con dato de citas de Scopus. Veinticuatro documentos concentran 80 % de las citas. Elaboración propia.")
 for n in ("5.2","5.3","5.4","5.5"):
     emit(section(INF,f"### {n}","###") and [f"### {n} "+re.sub(r'^\d+\.\d+ ','',[l for l in INF if l.startswith(f'### {n} ')][0][4:].split(' ',1)[1])]+section(INF,f"### {n}","###"),shift=1)
 H(2,"Triangulación de afirmaciones"); emit(sec(INF,"6."))
 H(2,"Variables econométricas, vacíos y brechas"); emit(sec(INF,"8."))
 H(2,"Análisis relacional"); emit(sec(REL,"2.")); emit(sub(REL,"3.1")); emit(sub(REL,"3.3")); emit(sub(REL,"3.4")); emit(sub(REL,"3.5")); emit(sub(REL,"3.6"))
+FIG("fig_red_relaciones.png","Red de relaciones tipificadas entre documentos","la red de relaciones tipificadas entre documentos","*Nota.* El color del nodo indica la relevancia (rojo, núcleo; azul, adyacente; verde, periférico); el color de la arista indica el tipo de relación. Se excluye la síntesis D100. Elaboración propia (`csv/analisis_relacional.csv`).")
 H(3,"Puntaje de integración relacional"); emit(sec(REL,"5."))
 PIF=f"{L}/patentes/informe_patentes.md"; PI=open(PIF).read().split("\n") if os.path.exists(PIF) else []
 if PI:
     H(2,"Módulo de patentes")
     P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.")
     emit(sub(PI,"3.3")); emit(sub(PI,"3.4"))
+    FIG("fig_patentes_terminos.png","Frecuencia de términos del eje del corpus en las patentes","la frecuencia de términos del eje del corpus en las páginas leídas de cada patente","*Nota.* Apariciones por 1.000 palabras en las páginas leídas por reconocimiento óptico (62 a 75 páginas por patente, salvo P011, leída completa). Elaboración propia (`patentes/csv/patentes_terminos.csv`).")
+    FIG("fig_patentes_relaciones.png","Relaciones entre las patentes y los documentos del corpus","las relaciones tipificadas entre las patentes y los documentos del corpus","*Nota.* El color de la línea indica el tipo de relación; los arcos de la izquierda unen patentes de una misma familia o con funciones afines. Elaboración propia (`patentes/csv/patentes_relaciones.csv`).")
 H(1,"Discusión de controversias")
 for p in ESCENA_CONTROV: P(p)
 H(2,"Contradicciones y tensiones entre documentos"); emit(sub(REL,"3.2"))
@@ -297,4 +315,13 @@ if PAT:
             lines.append("### "+ln[3:] if ln.startswith("## ") else ln)
         emit(lines,shift=0)
     for f in PAT: ficha_blocks(f)
+# captions para tablas del cuerpo
+caps=[("Naturaleza de los componentes del análisis","Qué se calculó y qué se juzgó"),("Triangulación y escenarios","Futuros posibles, objetivos y opciones viables")]
+k=0
+for b in blocks:
+    if b["t"]=="table" and "cap" not in b:
+        b["cap"]=caps[k] if k<len(caps) else ("Tabla","Resumen"); k+=1
+meta=dict(titulo="Tecnología, transferencia y resiliencia empresarial tras sismos: análisis sistemático del lote L01 con SYNAPSE V19.0",resumen=RESUMEN,kw=KW)
+json.dump(dict(meta=meta,blocks=blocks),open(f"{OUT}/bloques.json","w"),ensure_ascii=False)
+words=sum(len(re.sub(r"\*","",(b.get("x") or "")).split())+sum(len(x.split()) for x in b.get("items",[])) for b in blocks)
 print("bloques:",len(blocks),"palabras aprox. (cuerpo+refs):",words,"tablas:",sum(1 for b in blocks if b["t"]=="table"),"refs:",len(refs))
