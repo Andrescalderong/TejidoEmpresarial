@@ -22,23 +22,16 @@ flowchart TD
 
 ```mermaid
 graph LR
-  D004["D004: Digital twins for essential services"]
-  D005["D005: The dual effects of the Internet of Things ("]
-  D008["D008: Unified and interoperable digital twin model"]
-  D011["D011: Modeling post-earthquake business recovery t"]
-  D013["D013: Digital post-disaster risk management twinni"]
-  D034["D034: Application research on digital twins of urb"]
-  D048["D048: Leveraging Digital Twins as a Common Operati"]
-  D053["D053: Improving recovery time consequence models i"]
-  D064["D064: Design and evaluation of 5G-based architectu"]
-  D070["D070: Exploring the Sustainability Benefits of Dig"]
-  D078["D078: Community Twin Ecosystem for Disaster Resili"]
-  D080["D080: A Digital Twin Approach to Sustainable Disas"]
-  D081["D081: Can Digital Twin Technology Enhance Supply-C"]
-  D082["D082: Uncovering the Mechanisms of Organisational "]
-  D099["D099: Industry 4.0, Disaster Risk Management and I"]
-  D100["D100: Scopus AI - Integrating Technology Transfer,"]
-  D101["D101: Web of Science Research Assistant - sintesis"]
+  D004["D004: Digital twins for essential\nservices"]
+  D008["D008: Unified and interoperable\ndigital twin models for\nemergency…"]
+  D011["D011: Modeling post-earthquake\nbusiness recovery time: An\nanalytical…"]
+  D013["D013: Digital post-disaster risk\nmanagement twinning: A review\nand improved…"]
+  D034["D034: Application research on\ndigital twins of urban\nearthquake disasters"]
+  D048["D048: Leveraging Digital Twins as a\nCommon Operating Picture for\nDisaster…"]
+  D053["D053: Improving recovery time\nconsequence models in regional\nseismic risk…"]
+  D064["D064: Design and evaluation of\n5G-based architecture\nsupporting data-driven…"]
+  D081["D081: Can Digital Twin Technology\nEnhance Supply-Chain\nResilience? A…"]
+  D099["D099: Industry 4.0, Disaster Risk\nManagement and Infrastructure\nResilience:…"]
   D034 -->|confirma| D048
   D034 ---|complementa| D064
   D008 ---|complementa| D064

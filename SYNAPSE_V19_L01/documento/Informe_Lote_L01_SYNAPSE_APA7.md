@@ -8,6 +8,240 @@ Este informe sintetiza el análisis de 101 documentos únicos (2008-2026) sobre 
 
 *Palabras clave:* gemelo digital; Internet de las cosas; transferencia tecnológica; resiliencia empresarial; recuperación posterremoto; madurez tecnológica; revisión sistemática
 
+---
+
+## Contenido
+
+- [Introducción](#introducción)
+- [Método e integración de datos](#método-e-integración-de-datos)
+  - [Corpus](#corpus)
+  - [Procedimiento por documento](#procedimiento-por-documento)
+  - [Convenciones de análisis](#convenciones-de-análisis)
+  - [Cálculo y juicio del analista](#cálculo-y-juicio-del-analista)
+  - [Aprendizaje automático y procesamiento de lenguaje natural](#aprendizaje-automático-y-procesamiento-de-lenguaje-natural)
+  - [Relaciones tipificadas entre documentos](#relaciones-tipificadas-entre-documentos)
+- [Revisión de la literatura](#revisión-de-la-literatura)
+  - [Gemelos digitales para la gestión de desastres y la recuperación](#gemelos-digitales-para-la-gestión-de-desastres-y-la-recuperación)
+  - [Alerta sísmica, sensado y aprendizaje automático](#alerta-sísmica-sensado-y-aprendizaje-automático)
+  - [Monitoreo estructural con IoT y calidad del dato](#monitoreo-estructural-con-iot-y-calidad-del-dato)
+  - [Tiempo de recuperación y economía del refuerzo](#tiempo-de-recuperación-y-economía-del-refuerzo)
+  - [Adopción organizacional, resiliencia y cadenas de suministro](#adopción-organizacional-resiliencia-y-cadenas-de-suministro)
+  - [Gestión de desastres, conocimiento e Industria 4.0](#gestión-de-desastres-conocimiento-e-industria-40)
+- [Resultados](#resultados)
+  - [Composición y calidad de extracción](#composición-y-calidad-de-extracción)
+  - [Madurez multinivel](#madurez-multinivel)
+  - [Resultados del aprendizaje automático y sensibilidad](#resultados-del-aprendizaje-automático-y-sensibilidad)
+  - [Triangulación de afirmaciones](#triangulación-de-afirmaciones)
+  - [Variables econométricas, vacíos y brechas](#variables-econométricas-vacíos-y-brechas)
+  - [Análisis relacional](#análisis-relacional)
+  - [Módulo de patentes](#módulo-de-patentes)
+- [Discusión de controversias](#discusión-de-controversias)
+  - [Contradicciones y tensiones entre documentos](#contradicciones-y-tensiones-entre-documentos)
+  - [Patrones, tensiones y anomalías](#patrones-tensiones-y-anomalías)
+  - [Circularidad del corpus con la síntesis de Scopus AI](#circularidad-del-corpus-con-la-síntesis-de-scopus-ai)
+  - [Falacias](#falacias)
+  - [Relevancia frente a calidad de reporte](#relevancia-frente-a-calidad-de-reporte)
+- [Discusión](#discusión)
+  - [Herramientas de estructuración](#herramientas-de-estructuración)
+  - [Proposiciones emergentes](#proposiciones-emergentes)
+  - [Premortem y escenarios](#premortem-y-escenarios)
+  - [Limitaciones del análisis relacional](#limitaciones-del-análisis-relacional)
+- [Limitaciones y vacíos (¿qué se me escapa?)](#limitaciones-y-vacíos-qué-se-me-escapa)
+- [Conclusión](#conclusión)
+  - [Recomendaciones](#recomendaciones)
+- [Áreas futuras](#áreas-futuras)
+- [Referencias](#referencias)
+- [Apéndice A. Clave de documentos](#apéndice-a)
+- [Apéndice B. Triangulación de afirmaciones transversales](#apéndice-b)
+- [Apéndice C. Patrones, tensiones y anomalías](#apéndice-c)
+- [Apéndice D. Tabla de control del lote](#apéndice-d)
+- [Apéndice E. Relaciones tipificadas de confirmación, contradicción y extensión](#apéndice-e)
+- [Apéndice F. Ficha resumen del lote (16 secciones)](#apéndice-f)
+  - [Identificación del lote](#identificación-del-lote)
+  - [Alcance y criterios de inclusión](#alcance-y-criterios-de-inclusión)
+  - [Inventario y composición](#inventario-y-composición)
+  - [Calidad de extracción](#calidad-de-extracción)
+  - [Distribución de relevancia](#distribución-de-relevancia)
+  - [Madurez multinivel](#madurez-multinivel-1)
+  - [Brechas y valles de la muerte](#brechas-y-valles-de-la-muerte)
+  - [Síntesis dialéctica del lote](#síntesis-dialéctica-del-lote)
+  - [KPIs agregados](#kpis-agregados)
+  - [Triangulación](#triangulación)
+  - [Patrones y tensiones](#patrones-y-tensiones)
+  - [Competidores y actores](#competidores-y-actores)
+  - [Variables econométricas y vacíos](#variables-econométricas-y-vacíos)
+  - [ML/NLP y sensibilidad](#mlnlp-y-sensibilidad)
+  - [Riesgos y premortem](#riesgos-y-premortem)
+  - [Recomendaciones, valor estratégico y próximos pasos](#recomendaciones-valor-estratégico-y-próximos-pasos)
+- [Apéndice G. Lista de verificación del protocolo](#apéndice-g)
+- [Apéndice H. Diagramas de proceso y de relaciones](#apéndice-h)
+- [Apéndice I. Índice de los archivos de datos y su ubicación en el documento](#apéndice-i)
+- [Apéndice J. Fichas bibliográficas analíticas de los 101 documentos](#apéndice-j)
+  - [FB-L01-001 | D001 — Energy-efficient task scheduling and physiological assessment in disaster management using UAV-assisted networks](#fb-l01-001--d001--energy-efficient-task-scheduling-and-physiological-assessment-in-disaster-management-using-uav-assisted-networks)
+  - [FB-L01-002 | D002 — Optimal seismic retrofitting of reinforced concrete buildings by steel-jacketing using a genetic algorithm-based framework](#fb-l01-002--d002--optimal-seismic-retrofitting-of-reinforced-concrete-buildings-by-steel-jacketing-using-a-genetic-algorithm-based-framework)
+  - [FB-L01-003 | D003 — Managing disasters with advanced technology solutions: Introduction to the special issue](#fb-l01-003--d003--managing-disasters-with-advanced-technology-solutions-introduction-to-the-special-issue)
+  - [FB-L01-004 | D004 — Digital twins for essential services](#fb-l01-004--d004--digital-twins-for-essential-services)
+  - [FB-L01-005 | D005 — The dual effects of the Internet of Things (IoT): A systematic review of the benefits and risks of IoT adoption by organizations](#fb-l01-005--d005--the-dual-effects-of-the-internet-of-things-iot-a-systematic-review-of-the-benefits-and-risks-of-iot-adoption-by-organizations)
+  - [FB-L01-006 | D006 — Disaster City Digital Twin: A vision for integrating artificial and human intelligence for disaster management](#fb-l01-006--d006--disaster-city-digital-twin-a-vision-for-integrating-artificial-and-human-intelligence-for-disaster-management)
+  - [FB-L01-007 | D007 — Enabling digital transformation: Organizational implementation of the internet of things](#fb-l01-007--d007--enabling-digital-transformation-organizational-implementation-of-the-internet-of-things)
+  - [FB-L01-008 | D008 — Unified and interoperable digital twin models for emergency evacuation using building simulation identity cards](#fb-l01-008--d008--unified-and-interoperable-digital-twin-models-for-emergency-evacuation-using-building-simulation-identity-cards)
+  - [FB-L01-009 | D009 — Hybrid monitoring methodology: A model-data integrated digital twin framework for structural health monitoring and full-field virtual sensing](#fb-l01-009--d009--hybrid-monitoring-methodology-a-model-data-integrated-digital-twin-framework-for-structural-health-monitoring-and-full-field-virtual-sensing)
+  - [FB-L01-010 | D010 — Real-time earthquake magnitude prediction using designed machine learning ensemble trained on real and CTGAN generated synthetic data](#fb-l01-010--d010--real-time-earthquake-magnitude-prediction-using-designed-machine-learning-ensemble-trained-on-real-and-ctgan-generated-synthetic-data)
+  - [FB-L01-011 | D011 — Modeling post-earthquake business recovery time: An analytical framework](#fb-l01-011--d011--modeling-post-earthquake-business-recovery-time-an-analytical-framework)
+  - [FB-L01-012 | D012 — Knowledge management practices in disaster management: Systematic review](#fb-l01-012--d012--knowledge-management-practices-in-disaster-management-systematic-review)
+  - [FB-L01-013 | D013 — Digital post-disaster risk management twinning: A review and improved conceptual framework](#fb-l01-013--d013--digital-post-disaster-risk-management-twinning-a-review-and-improved-conceptual-framework)
+  - [FB-L01-014 | D014 — Methodological framework for integrating structural health monitoring and digital-twin models for seismic assessment of heritage buildings: Case study of Basilica Maria Auxiliadora, Lima, Peru](#fb-l01-014--d014--methodological-framework-for-integrating-structural-health-monitoring-and-digital-twin-models-for-seismic-assessment-of-heritage-buildings-case-study-of-basilica-maria-auxiliadora-lima-peru)
+  - [FB-L01-015 | D015 — A bayesian ordinal structural equation modeling framework for evaluating the seismic resilience of IoT-enabled buildings under uncertainty](#fb-l01-015--d015--a-bayesian-ordinal-structural-equation-modeling-framework-for-evaluating-the-seismic-resilience-of-iot-enabled-buildings-under-uncertainty)
+  - [FB-L01-016 | D016 — A bibliometric analysis of IoT applications in logistics and supply chain management](#fb-l01-016--d016--a-bibliometric-analysis-of-iot-applications-in-logistics-and-supply-chain-management)
+  - [FB-L01-017 | D017 — Enhancing supply chain resilience and efficiency through internet of things integration: Challenges and opportunities](#fb-l01-017--d017--enhancing-supply-chain-resilience-and-efficiency-through-internet-of-things-integration-challenges-and-opportunities)
+  - [FB-L01-018 | D018 — Integrating agentic AI and digital twins for intelligent decision-making systems](#fb-l01-018--d018--integrating-agentic-ai-and-digital-twins-for-intelligent-decision-making-systems)
+  - [FB-L01-019 | D019 — Emerging technologies and supporting tools for earthquake disaster management: A perspective, challenges, and future directions](#fb-l01-019--d019--emerging-technologies-and-supporting-tools-for-earthquake-disaster-management-a-perspective-challenges-and-future-directions)
+  - [FB-L01-020 | D020 — Internet of things (IoT) driven structural health monitoring for enhanced seismic resilience: A rigorous functional analysis and implementation framework](#fb-l01-020--d020--internet-of-things-iot-driven-structural-health-monitoring-for-enhanced-seismic-resilience-a-rigorous-functional-analysis-and-implementation-framework)
+  - [FB-L01-021 | D021 — Multi-domain data integration and management for enhancing service-oriented digital twin for infrastructure operation and maintenance](#fb-l01-021--d021--multi-domain-data-integration-and-management-for-enhancing-service-oriented-digital-twin-for-infrastructure-operation-and-maintenance)
+  - [FB-L01-022 | D022 — Unmanned aerial vehicles for communication recovery in post-disaster scenarios: A PRISMA-based systematic review](#fb-l01-022--d022--unmanned-aerial-vehicles-for-communication-recovery-in-post-disaster-scenarios-a-prisma-based-systematic-review)
+  - [FB-L01-023 | D023 — A demonstration of a digital twin framework for structural health monitoring: Application to bridge infrastructures](#fb-l01-023--d023--a-demonstration-of-a-digital-twin-framework-for-structural-health-monitoring-application-to-bridge-infrastructures)
+  - [FB-L01-024 | D024 — Smart food supply chain management: A bibliometric and systematic review](#fb-l01-024--d024--smart-food-supply-chain-management-a-bibliometric-and-systematic-review)
+  - [FB-L01-025 | D025 — Digital twin platform based on an identity-semantic-interaction framework to improve bridge management workflows](#fb-l01-025--d025--digital-twin-platform-based-on-an-identity-semantic-interaction-framework-to-improve-bridge-management-workflows)
+  - [FB-L01-026 | D026 — Digital Solutions for Disaster Management: Analyzing the Impact of the February 2023 Earthquake in Türkiye](#fb-l01-026--d026--digital-solutions-for-disaster-management-analyzing-the-impact-of-the-february-2023-earthquake-in-türkiye)
+  - [FB-L01-027 | D027 — An Economic Approach to the Confinement of Different Concrete Classes with Carbon and Glass Fibers Reinforced Polymers](#fb-l01-027--d027--an-economic-approach-to-the-confinement-of-different-concrete-classes-with-carbon-and-glass-fibers-reinforced-polymers)
+  - [FB-L01-028 | D028 — ADVANCING CIVIL INFRASTRUCTURE WITH DIGITAL TWINS: A REVIEW OF APPLICATIONS AND CHALLENGES](#fb-l01-028--d028--advancing-civil-infrastructure-with-digital-twins-a-review-of-applications-and-challenges)
+  - [FB-L01-029 | D029 — Digital Twin Adoption for Mechanical Maintenance Management: A Capability-Based Approach to Enhancing Operational Resilience](#fb-l01-029--d029--digital-twin-adoption-for-mechanical-maintenance-management-a-capability-based-approach-to-enhancing-operational-resilience)
+  - [FB-L01-030 | D030 — Effects of Big Data, Mechanical System Flexibility, IOT and Digital Twin Adoption on Company Resilience and Operational Performance](#fb-l01-030--d030--effects-of-big-data-mechanical-system-flexibility-iot-and-digital-twin-adoption-on-company-resilience-and-operational-performance)
+  - [FB-L01-031 | D031 — A Semantic IoT Early Warning System for Natural Environment Crisis Management](#fb-l01-031--d031--a-semantic-iot-early-warning-system-for-natural-environment-crisis-management)
+  - [FB-L01-032 | D032 — AI-Integrated Digital Twins for IoT-Based Structural Health Monitoring: Emerging Trends and Future Research Directions](#fb-l01-032--d032--ai-integrated-digital-twins-for-iot-based-structural-health-monitoring-emerging-trends-and-future-research-directions)
+  - [FB-L01-033 | D033 — An Evaluative Study on IoT Ecosystem for Smart Predictive Maintenance (IoT-SPM) in Manufacturing: Multiview Requirements and Data Quality](#fb-l01-033--d033--an-evaluative-study-on-iot-ecosystem-for-smart-predictive-maintenance-iot-spm-in-manufacturing-multiview-requirements-and-data-quality)
+  - [FB-L01-034 | D034 — Application research on digital twins of urban earthquake disasters](#fb-l01-034--d034--application-research-on-digital-twins-of-urban-earthquake-disasters)
+  - [FB-L01-035 | D035 — Genetic Algorithm-Based Model Updating in a Real-Time Digital Twin for Steel Bridge Monitoring](#fb-l01-035--d035--genetic-algorithm-based-model-updating-in-a-real-time-digital-twin-for-steel-bridge-monitoring)
+  - [FB-L01-036 | D036 — Digital Twin and Integrated Sensing and Communication Applications in Internet of Things: Enabling Communication Technologies, Taxonomy, Implications, and Open Issues](#fb-l01-036--d036--digital-twin-and-integrated-sensing-and-communication-applications-in-internet-of-things-enabling-communication-technologies-taxonomy-implications-and-open-issues)
+  - [FB-L01-037 | D037 — Stage-specific impacts of digital technologies on supply chain resilience: meta-analytic evidence for continuous process improvement](#fb-l01-037--d037--stage-specific-impacts-of-digital-technologies-on-supply-chain-resilience-meta-analytic-evidence-for-continuous-process-improvement)
+  - [FB-L01-038 | D038 — Behavior-Centered Digital-Twin Design for Dynamic Cyber-Physical System Development](#fb-l01-038--d038--behavior-centered-digital-twin-design-for-dynamic-cyber-physical-system-development)
+  - [FB-L01-039 | D039 — Deep-Learning-Enabled Data Synchronization for Noninteger Time Lags in Wireless Structural Health Monitoring](#fb-l01-039--d039--deep-learning-enabled-data-synchronization-for-noninteger-time-lags-in-wireless-structural-health-monitoring)
+  - [FB-L01-040 | D040 — Beyond Direct Economic Losses: An Integrated Approach to Seismic Retrofit Considering Sustainability and Indirect Losses](#fb-l01-040--d040--beyond-direct-economic-losses-an-integrated-approach-to-seismic-retrofit-considering-sustainability-and-indirect-losses)
+  - [FB-L01-041 | D041 — Earthquake detection and early warning prediction using folium and Geopandas](#fb-l01-041--d041--earthquake-detection-and-early-warning-prediction-using-folium-and-geopandas)
+  - [FB-L01-042 | D042 — Internet of Things–Enabled Sensing and Unmanned Aerial Vehicle Applications for Earthquake Preparedness and Real-Time Response](#fb-l01-042--d042--internet-of-thingsenabled-sensing-and-unmanned-aerial-vehicle-applications-for-earthquake-preparedness-and-real-time-response)
+  - [FB-L01-043 | D043 — Federated Unlearning Framework for Digital Twin–Based Aviation Health Monitoring Under Sensor Drift and Data Corruption](#fb-l01-043--d043--federated-unlearning-framework-for-digital-twinbased-aviation-health-monitoring-under-sensor-drift-and-data-corruption)
+  - [FB-L01-044 | D044 — Internet of Things for Enhancing Public Safety, Disaster Response, and Emergency Management †](#fb-l01-044--d044--internet-of-things-for-enhancing-public-safety-disaster-response-and-emergency-management-)
+  - [FB-L01-045 | D045 — Earthquake early warning systems based on low-cost ground motion sensors: A systematic literature review](#fb-l01-045--d045--earthquake-early-warning-systems-based-on-low-cost-ground-motion-sensors-a-systematic-literature-review)
+  - [FB-L01-046 | D046 — Internet of Things and Distributed Computing Systems in Business Models](#fb-l01-046--d046--internet-of-things-and-distributed-computing-systems-in-business-models)
+  - [FB-L01-047 | D047 — GEOGRAPHIC INFORMATION SYSTEMS IN POST-EARTHQUAKE TRANSPORTATION MANAGEMENT: A SYSTEMATIC REVIEW OF INTEGRATION STRATEGIES AND APPLICATIONS](#fb-l01-047--d047--geographic-information-systems-in-post-earthquake-transportation-management-a-systematic-review-of-integration-strategies-and-applications)
+  - [FB-L01-048 | D048 — Leveraging Digital Twins as a Common Operating Picture for Disaster Management: Case of Seismic Hazards](#fb-l01-048--d048--leveraging-digital-twins-as-a-common-operating-picture-for-disaster-management-case-of-seismic-hazards)
+  - [FB-L01-049 | D049 — “Saving Precious Seconds”—A Novel Approach to Implementing a Low-Cost Earthquake Early Warning System with Node-Level Detection and Alert Generation](#fb-l01-049--d049--saving-precious-secondsa-novel-approach-to-implementing-a-low-cost-earthquake-early-warning-system-with-node-level-detection-and-alert-generation)
+  - [FB-L01-050 | D050 — Internet of things in disaster management: technologies and uses](#fb-l01-050--d050--internet-of-things-in-disaster-management-technologies-and-uses)
+  - [FB-L01-051 | D051 — Challenges and Drivers of the Internet of Things in the Supply Chain: A Systematic Review](#fb-l01-051--d051--challenges-and-drivers-of-the-internet-of-things-in-the-supply-chain-a-systematic-review)
+  - [FB-L01-052 | D052 — Digital twin technology and operations management efficiency in construction: the roles of information transparency, collaboration and digital readiness](#fb-l01-052--d052--digital-twin-technology-and-operations-management-efficiency-in-construction-the-roles-of-information-transparency-collaboration-and-digital-readiness)
+  - [FB-L01-053 | D053 — Improving recovery time consequence models in regional seismic risk assessment by leveraging high-fidelity building-specific recovery simulations](#fb-l01-053--d053--improving-recovery-time-consequence-models-in-regional-seismic-risk-assessment-by-leveraging-high-fidelity-building-specific-recovery-simulations)
+  - [FB-L01-054 | D054 — Cost-benefit evaluation of seismic risk mitigation alternatives for older concrete frame buildings](#fb-l01-054--d054--cost-benefit-evaluation-of-seismic-risk-mitigation-alternatives-for-older-concrete-frame-buildings)
+  - [FB-L01-055 | D055 — Adaptive hybrid reasoning for agent-based digital twins of distributed multi-robot systems](#fb-l01-055--d055--adaptive-hybrid-reasoning-for-agent-based-digital-twins-of-distributed-multi-robot-systems)
+  - [FB-L01-056 | D056 — A Disaster Management Framework Using Internet of Things-Based Interconnected Devices](#fb-l01-056--d056--a-disaster-management-framework-using-internet-of-things-based-interconnected-devices)
+  - [FB-L01-057 | D057 — Multihop Routing for IoT-Based Digital Twin: Novel Metaheuristic Approaches](#fb-l01-057--d057--multihop-routing-for-iot-based-digital-twin-novel-metaheuristic-approaches)
+  - [FB-L01-058 | D058 — Performance-oriented system digital twin: a Bayesian network-based framework to customize Sub-digital twins](#fb-l01-058--d058--performance-oriented-system-digital-twin-a-bayesian-network-based-framework-to-customize-sub-digital-twins)
+  - [FB-L01-059 | D059 — Redefinition of Digital Twin and Its Situation Awareness Framework Designing Toward Fourth Paradigm for Energy Internet of Things](#fb-l01-059--d059--redefinition-of-digital-twin-and-its-situation-awareness-framework-designing-toward-fourth-paradigm-for-energy-internet-of-things)
+  - [FB-L01-060 | D060 — Employing Machine Learning for Seismic Intensity Estimation Using a Single Station for Earthquake Early Warning](#fb-l01-060--d060--employing-machine-learning-for-seismic-intensity-estimation-using-a-single-station-for-earthquake-early-warning)
+  - [FB-L01-061 | D061 — Digital Twin Technology for Urban Flood Risk Management: A Systematic Review of Remote Sensing Applications and Early Warning Systems](#fb-l01-061--d061--digital-twin-technology-for-urban-flood-risk-management-a-systematic-review-of-remote-sensing-applications-and-early-warning-systems)
+  - [FB-L01-062 | D062 — RescueNav: AI-Powered AAV Trajectory Planning With LoRa Connectivity for IoT-Based Disaster Communications](#fb-l01-062--d062--rescuenav-ai-powered-aav-trajectory-planning-with-lora-connectivity-for-iot-based-disaster-communications)
+  - [FB-L01-063 | D063 — Research on earthquake early warning and emergency response for high-speed railways based on the PLUM principle](#fb-l01-063--d063--research-on-earthquake-early-warning-and-emergency-response-forhigh-speed-railways-based-ontheplum-principle)
+  - [FB-L01-064 | D064 — Design and evaluation of 5G-based architecture supporting data-driven digital twins updating and matching in seismic monitoring](#fb-l01-064--d064--design-and-evaluation-of-5g-based-architecture-supporting-data-driven-digital-twins-updating-and-matching-in-seismic-monitoring)
+  - [FB-L01-065 | D065 — Application of Auction Mechanisms and Multi-Agent Technologies for Resource and Task Allocation in Distributed Computing Systems](#fb-l01-065--d065--application-of-auction-mechanisms-and-multi-agent-technologies-for-resource-and-task-allocation-in-distributed-computing-systems)
+  - [FB-L01-066 | D066 — A low-latency intelligent edge computing architecture for real-time decision-making in large-scale IoT networks](#fb-l01-066--d066--a-low-latency-intelligent-edge-computing-architecture-for-real-time-decision-making-in-large-scale-iot-networks)
+  - [FB-L01-067 | D067 — Effect of seismicity on the RC building retrofitted with FRC jacketing](#fb-l01-067--d067--effect-of-seismicity-on-the-rc-building-retrofitted-with-frc-jacketing)
+  - [FB-L01-068 | D068 — Framework for a practical and cost-effective IoT-enhanced structural health monitoring and damage diagnostics system with digital twinning](#fb-l01-068--d068--framework-for-a-practical-and-cost-effective-iot-enhanced-structural-health-monitoring-and-damage-diagnostics-system-with-digital-twinning)
+  - [FB-L01-069 | D069 — Probabilistic Seismic Resilience-Based Cost–Benefit Analysis for Bridge Retrofit Assessment](#fb-l01-069--d069--probabilistic-seismic-resilience-based-costbenefit-analysis-for-bridge-retrofit-assessment)
+  - [FB-L01-070 | D070 — Exploring the Sustainability Benefits of Digital Twin Technology in Achieving Resilient Smart Cities During Strong Earthquake Events](#fb-l01-070--d070--exploring-the-sustainability-benefits-of-digital-twin-technology-in-achieving-resilient-smart-cities-during-strong-earthquake-events)
+  - [FB-L01-071 | D071 — Semantically Enhanced IoT-Oriented Seismic Event Detection: An Application to Colima and Vesuvius Volcanoes](#fb-l01-071--d071--semantically-enhanced-iot-oriented-seismic-event-detection-an-application-to-colima-and-vesuvius-volcanoes)
+  - [FB-L01-072 | D072 — A Novel Digital Twin Architecture with Similarity-Based Hybrid Modeling for Supporting Dependable Disaster Management Systems](#fb-l01-072--d072--a-novel-digital-twin-architecture-with-similarity-based-hybrid-modeling-for-supporting-dependable-disaster-management-systems)
+  - [FB-L01-073 | D073 — A Cloud-IoT Architecture for Latency-Aware Localization in Earthquake Early Warning](#fb-l01-073--d073--a-cloud-iot-architecture-for-latency-aware-localization-in-earthquake-early-warning)
+  - [FB-L01-074 | D074 — IoT-Based Framework for Digital Twins in the Industry 5.0 Era](#fb-l01-074--d074--iot-based-framework-for-digital-twins-in-the-industry-50-era)
+  - [FB-L01-075 | D075 — Rapid and Resilient LoRa Leap: A Novel Multi-Hop Architecture for Decentralised Earthquake Early Warning Systems](#fb-l01-075--d075--rapid-and-resilient-lora-leap-a-novel-multi-hop-architecture-for-decentralised-earthquake-early-warning-systems)
+  - [FB-L01-076 | D076 — Deep Learning Image-Based Classification for Post-Earthquake Damage Level Prediction Using UAVs](#fb-l01-076--d076--deep-learning-image-based-classification-for-post-earthquake-damage-level-prediction-using-uavs)
+  - [FB-L01-077 | D077 — Using iot in supply chain risk management, to enable collaboration between business, community, and government](#fb-l01-077--d077--using-iot-in-supply-chain-risk-management-to-enable-collaboration-between-business-community-and-government)
+  - [FB-L01-078 | D078 — Community Twin Ecosystem for Disaster Resilient Communities](#fb-l01-078--d078--community-twin-ecosystem-for-disaster-resilient-communities)
+  - [FB-L01-079 | D079 — IoT, AI, and Digital Twins in Smart Cities: A Systematic Review for a Thematic Mapping and Research Agenda](#fb-l01-079--d079--iot-ai-and-digital-twins-in-smart-cities-a-systematic-review-for-a-thematic-mapping-and-research-agenda)
+  - [FB-L01-080 | D080 — A Digital Twin Approach to Sustainable Disaster Management: Case of Cayirova](#fb-l01-080--d080--a-digital-twin-approach-to-sustainable-disaster-management-case-of-cayirova)
+  - [FB-L01-081 | D081 — Can Digital Twin Technology Enhance Supply-Chain Resilience? A Systematic Literature Review](#fb-l01-081--d081--can-digital-twin-technology-enhance-supply-chain-resilience-a-systematic-literature-review)
+  - [FB-L01-082 | D082 — Uncovering the Mechanisms of Organisational Resilience: A Critical Realist Systematic Review](#fb-l01-082--d082--uncovering-the-mechanisms-of-organisational-resilience-a-critical-realist-systematic-review)
+  - [FB-L01-083 | D083 — IoT-Enabled Sustainability in Production Systems: A Systematic Review of Industry 4.0 Mechanisms and the Transition Toward Human-Centric Manufacturing](#fb-l01-083--d083--iot-enabled-sustainability-in-production-systems-a-systematic-review-of-industry-40-mechanisms-and-the-transition-toward-human-centric-manufacturing)
+  - [FB-L01-084 | D084 — Synchronized IoT Framework for Vibration-Based Structural Health Monitoring of Suspension Bridges](#fb-l01-084--d084--synchronized-iot-framework-for-vibration-based-structural-health-monitoring-of-suspension-bridges)
+  - [FB-L01-085 | D085 — Uncovering key success factors for enhanced office-site communication through digital twins](#fb-l01-085--d085--uncovering-key-success-factors-for-enhanced-office-site-communication-through-digital-twins)
+  - [FB-L01-086 | D086 — Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes](#fb-l01-086--d086--efficient-edge-intelligence-for-onboard-data-anomaly-classification-in-wireless-structural-health-monitoring-using-knowledge-distillation-on-low-cost-iot-nodes)
+  - [FB-L01-087 | D087 — Perspectivas del Sistema Nacional de Ciencia, Tecnología e Innovación](#fb-l01-087--d087--perspectivas-del-sistema-nacional-de-ciencia-tecnología-e-innovación)
+  - [FB-L01-088 | D088 — Vigilancia de la resistencia del Mycobacterium tuberculosis a los fármacos antituberculosos, Colombia 2004-2005](#fb-l01-088--d088--vigilancia-de-la-resistencia-del-mycobacterium-tuberculosis-a-los-fármacos-antituberculosos-colombia-2004-2005)
+  - [FB-L01-089 | D089 — Reproducibilidad y validez convergente de la Escala Abreviada del Desarrollo y una traducción al español del instrumento Neurosensory Motor Development Assessment](#fb-l01-089--d089--reproducibilidad-y-validez-convergente-de-la-escala-abreviada-del-desarrollo-y-una-traducción-al-español-del-instrumento-neurosensory-motor-development-assessment)
+  - [FB-L01-090 | D090 — Evaluación de conocimientos y prácticas sobre la leishmaniasis tegumentaria en un área endémica de Venezuela](#fb-l01-090--d090--evaluación-de-conocimientos-y-prácticas-sobre-la-leishmaniasis-tegumentaria-en-un-área-endémica-de-venezuela)
+  - [FB-L01-091 | D091 — De genotipos e isonimias: análisis de correlación entre el apellido y el patrimonio genético heredado en el cromosoma Y en la población de tres departamentos del suroccidente colombiano](#fb-l01-091--d091--de-genotipos-e-isonimias-análisis-de-correlación-entre-el-apellido-y-el-patrimonio-genético-heredado-en-el-cromosoma-y-en-la-población-de-tres-departamentos-del-suroccidente-colombiano)
+  - [FB-L01-092 | D092 — Discriminación por morfometría geométrica de once especies de Anopheles (Nyssorhynchus) presentes en Colombia](#fb-l01-092--d092--discriminación-por-morfometría-geométrica-de-once-especies-de-anopheles-nyssorhynchus-presentes-en-colombia)
+  - [FB-L01-093 | D093 — Actividad física autorreportada, comparación con indicadores antropométricos de grasa corporal en un grupo de escolares de Bogotá y de cinco departamentos del centro-oriente, Colombia 2000-2002](#fb-l01-093--d093--actividad-física-autorreportada-comparación-con-indicadores-antropométricos-de-grasa-corporal-en-un-grupo-de-escolares-de-bogotá-y-de-cinco-departamentos-del-centro-oriente-colombia-2000-2002)
+  - [FB-L01-094 | D094 — Estudio de foco de paragonimosis en Fuente Clara, Robledo, área periurbana de Medellín, Antioquia](#fb-l01-094--d094--estudio-de-foco-de-paragonimosis-en-fuente-clara-robledo-área-periurbana-de-medellín-antioquia)
+  - [FB-L01-095 | D095 — Validación por hidrodensitometría de ecuaciones de pliegues cutáneos utilizadas para estimar la composición corporal en mujeres](#fb-l01-095--d095--validación-por-hidrodensitometría-de-ecuaciones-de-pliegues-cutáneos-utilizadas-para-estimar-la-composición-corporal-en-mujeres)
+  - [FB-L01-096 | D096 — Efectos de las causas de mortalidad adulta en la esperanza de vida, entre 1985 y 1999, según regiones colombianas](#fb-l01-096--d096--efectos-de-las-causas-de-mortalidad-adulta-en-la-esperanza-de-vida-entre-1985-y-1999-según-regiones-colombianas)
+  - [FB-L01-097 | D097 — El análisis molecular y el inmunogénico sugieren la ausencia de las proteínas hidrofílicas de superficie en Leishmania (Viannia) panamensis](#fb-l01-097--d097--el-análisis-molecular-y-el-inmunogénico-sugieren-la-ausencia-de-las-proteínas-hidrofílicas-de-superficie-en-leishmania-viannia-panamensis)
+  - [FB-L01-098 | D098 — Primer aislamiento de Encephalitozoon intestinalis a partir de muestra de materia fecal de un paciente colombiano con sida](#fb-l01-098--d098--primer-aislamiento-de-encephalitozoon-intestinalis-a-partir-de-muestra-de-materia-fecal-de-un-paciente-colombiano-con-sida)
+  - [FB-L01-099 | D099 — Industry 4.0, Disaster Risk Management and Infrastructure Resilience: A Systematic Review and Bibliometric Analysis](#fb-l01-099--d099--industry-40-disaster-risk-management-and-infrastructure-resilience-a-systematic-review-and-bibliometric-analysis)
+  - [FB-L01-100 | D100 — Scopus AI - Integrating Technology Transfer, Digital Twin, and IoT for Productive Recovery and Business Resilience after Earthquakes (2020-2024)](#fb-l01-100--d100--scopus-ai---integrating-technology-transfer-digital-twin-and-iot-for-productive-recovery-and-business-resilience-after-earthquakes-2020-2024)
+  - [FB-L01-101 | D101 — Web of Science Research Assistant - sintesis sobre recuperacion productiva y resiliencia empresarial (3 documentos de referencia)](#fb-l01-101--d101--web-of-science-research-assistant---sintesis-sobre-recuperacion-productiva-y-resiliencia-empresarial-3-documentos-de-referencia)
+- [Apéndice K. Módulo de patentes: informe y fichas](#apéndice-k)
+  - [Alcance y método](#alcance-y-método)
+  - [Inventario](#inventario)
+  - [Resultados](#resultados-1)
+  - [Contenido tecnológico de las reivindicaciones](#contenido-tecnológico-de-las-reivindicaciones)
+  - [Términos del eje del corpus en el texto completo](#términos-del-eje-del-corpus-en-el-texto-completo)
+  - [Relevancia para el eje del corpus](#relevancia-para-el-eje-del-corpus)
+  - [Madurez](#madurez)
+  - [Análisis dialéctico del módulo](#análisis-dialéctico-del-módulo)
+  - [Conexión con el corpus de 101 documentos](#conexión-con-el-corpus-de-101-documentos)
+  - [Discusión de controversias](#discusión-de-controversias-1)
+  - [Premortem y escenarios](#premortem-y-escenarios-1)
+  - [¿Qué se me escapa?](#qué-se-me-escapa)
+  - [Valor estratégico](#valor-estratégico)
+  - [FP-L01-001 | P001 — Control tower and enterprise management platform with robotic process automation systems](#fp-l01-001--p001--control-tower-and-enterprise-management-platform-with-robotic-process-automation-systems)
+  - [FP-L01-002 | P002 — Value chain network planning using machine learning and digital twin simulation](#fp-l01-002--p002--value-chain-network-planning-using-machine-learning-and-digital-twin-simulation)
+  - [FP-L01-003 | P003 — Autonomous smart contract execution platform](#fp-l01-003--p003--autonomous-smart-contract-execution-platform)
+  - [FP-L01-004 | P004 — Distributed ledger for additive manufacturing in value chain networks](#fp-l01-004--p004--distributed-ledger-for-additive-manufacturing-in-value-chain-networks)
+  - [FP-L01-005 | P005 — Control tower and enterprise management platform with robotic process automation systems managing product outcomes and activities](#fp-l01-005--p005--control-tower-and-enterprise-management-platform-with-robotic-process-automation-systems-managing-product-outcomes-and-activities)
+  - [FP-L01-006 | P006 — Managing demand factors and infrastructure facilities of control tower and enterprise management platform](#fp-l01-006--p006--managing-demand-factors-and-infrastructure-facilities-of-control-tower-and-enterprise-management-platform)
+  - [FP-L01-007 | P007 — Internet of things resources and network and data facilities for control tower and enterprise management platform with adaptive intelligence](#fp-l01-007--p007--internet-of-things-resources-and-network-and-data-facilities-for-control-tower-and-enterprise-management-platform-with-adaptive-intelligence)
+  - [FP-L01-008 | P008 — Network and data facilities of control tower and enterprise management platform with adaptive intelligence](#fp-l01-008--p008--network-and-data-facilities-of-control-tower-and-enterprise-management-platform-with-adaptive-intelligence)
+  - [FP-L01-009 | P009 — Artificial intelligence system for control tower and enterprise management platform managing sensors and cameras](#fp-l01-009--p009--artificial-intelligence-system-for-control-tower-and-enterprise-management-platform-managing-sensors-and-cameras)
+  - [FP-L01-010 | P010 — Artificial intelligence system for control tower and enterprise management platform managing logistics system](#fp-l01-010--p010--artificial-intelligence-system-for-control-tower-and-enterprise-management-platform-managing-logistics-system)
+  - [FP-L01-011 | P011 — Initiating a digital twin based on cognitive location and environmental impact](#fp-l01-011--p011--initiating-a-digital-twin-based-on-cognitive-location-and-environmental-impact)
+
+## Lista de figuras
+
+- Figura 1. Distribución de los documentos del lote por año de publicación
+- Figura 2. Matriz de madurez multinivel por documento
+- Figura 3. Perfil de madurez: mediana por grupo de relevancia
+- Figura 4. Valle de la muerte comercial y documentos por valle y severidad
+- Figura 5. Brechas de madurez por documento
+- Figura 6. Mapa de los documentos según su contenido
+- Figura 7. Dendrograma jerárquico de Ward de los 101 documentos
+- Figura 8. Red de co-palabras clave
+- Figura 9. Mapa estratégico de centralidad y densidad de las comunidades de palabras clave
+- Figura 10. Concentración de citas de los documentos (diagrama de Pareto)
+- Figura 11. Red de relaciones tipificadas entre documentos
+- Figura 12. Frecuencia de términos del eje del corpus en las patentes
+- Figura 13. Relaciones entre las patentes y los documentos del corpus
+- Figura 14. Flujo de proceso del análisis del lote L01
+- Figura 15. Relaciones tipificadas entre documentos núcleo
+- Figura 16. Estructura del valle de la muerte dominante
+
+## Lista de tablas
+
+- Tabla 1. Naturaleza de los componentes del análisis
+- Tabla 2. Triangulación y escenarios
+- Tabla 3. Clave de los documentos del lote
+- Tabla 4. Triangulación de afirmaciones
+- Tabla 5. Patrones, tensiones y anomalías
+- Tabla 6. Tabla de control
+- Tabla 7. Relaciones sustantivas entre documentos
+- Tabla 8. Tabla
+- Tabla 9. Archivos de datos del repositorio
+- Tabla 10. Tabla
+- Tabla 11. Tabla
+- Tabla 12. Tabla
+- Tabla 13. Tabla
+- Tabla 14. Tabla
+
+---
+
 
 # Introducción
 
@@ -349,7 +583,7 @@ Se define un índice del analista, transparente y reproducible: **S = 10 × (C +
 
 ## Módulo de patentes
 
-Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.
+Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice K; aquí se resumen la relevancia y la madurez.
 
 Ninguna patente se clasifica como núcleo. P002 y P003 se clasifican como adyacentes: P002 trata la interrupción de la cadena de valor como objeto de predicción y mitigación con un gemelo digital alimentado por sensores (reivindicaciones 1, 5 y 6), y P003 reivindica la detección por sensores de daño o exposición ambiental adversa y pruebas de estrés del gemelo con parámetros por encima de los niveles normales (reivindicaciones 9 y 12). Las demás se clasifican como periféricas (9 documentos): comparten tecnología (gemelos digitales, sensores, aprendizaje automático, contratos inteligentes) y, en la descripción, secciones de pruebas de estrés e incidentes por eventos naturales, pero sus reivindicaciones no tratan de recuperación productiva tras sismos. La clasificación no es una valoración de calidad de las patentes y cambió respecto de la primera pasada (muestra), en que solo P002 era adyacente.
 
@@ -530,7 +764,7 @@ Las áreas futuras se derivan de los vacíos, y cada una se asocia con una propo
 3. **Síntesis con protocolo.** Búsqueda propia con cadena registrada, doble revisión y evaluación de calidad, que incluya literatura sin etiqueta de Industria 4.0 y fuentes regionales en español (proposiciones P-E2 y P-E3).
 4. **Ponderación de la evidencia por grupo de autoría y réplica independiente** de los estudios de alerta sísmica de bajo costo y de monitoreo estructural con IoT.
 5. **Guías de reporte para estudios tecnológicos:** intervalos de confianza, validación externa, repetición y datos disponibles (proposición P-E4).
-6. **Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).
+6. **Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice K).
 7. **Cobertura regional.** Estudios y datos de regiones sísmicas de América Latina, incluidos seguros, créditos de reconstrucción y política pública.
 
 
@@ -1140,6 +1374,250 @@ Cada clave del análisis (Ejaz et al., 2020 a Clarivate, 2026) corresponde a la 
 
 
 # Apéndice F
+
+
+# Ficha resumen del lote (16 secciones)
+
+Se reproduce la ficha resumen del lote con sus 16 secciones: identificación, alcance, inventario, calidad de extracción, relevancia, madurez, brechas, síntesis dialéctica, indicadores, triangulación, patrones, competidores, variables, aprendizaje automático, riesgos y recomendaciones.
+
+
+## Identificación del lote
+
+Lote L01 de SYNAPSE V19.0; repositorio TejidoEmpresarial; rama claude/tejido-empresarial-synapse-rf1qle; fecha de cierre 2026-10-15. Tema: tecnología, transferencia, gemelos digitales e IoT para la recuperación productiva y la resiliencia empresarial tras sismos.
+
+
+## Alcance y criterios de inclusión
+
+Se incluyeron todos los documentos del repositorio: 103 archivos PDF, de los cuales 101 son únicos (dos duplicados por MD5). Sin filtro por relevancia; la relevancia se asigna después (núcleo, adyacente, periférico, ajeno).
+
+
+## Inventario y composición
+
+Scopus 86 (las claves D001–D086 del Apéndice A), SciELO 12 (las claves D087–D098 del Apéndice A), Web of Science 1 (Habibi Rad et al., 2021), síntesis de buscadores 2 (las claves D100–D101 del Apéndice A). Idioma: 87 en inglés y 12 en español (dos sin dato). Años: 66 documentos de 2024 a 2026 y 12 de 2008.
+
+
+## Calidad de extracción
+
+Texto completo de todos los documentos. Defectos documentados: tablas desalineadas (SciELO y otros), líneas duplicadas por dos columnas (Habibi Rad et al., 2021), y recorte de listas de referencias en el texto limpio. Ninguna cifra se infirió de tablas ilegibles.
+
+
+## Distribución de relevancia
+
+Núcleo 17; adyacente 50; periférico 23; ajeno 11. Recomendación: aceptar con reservas 91; rechazar como evidencia (usar solo como hipótesis) 10.
+
+
+## Madurez multinivel
+
+Mediana TRL 4 (n = 84; 55 con TRL ≤ 4); BRL 2 (n = 83); IRL 3 (n = 80); DRL 3 (n = 77). MRL no aplica en prácticamente todo el lote (sin manufactura). SRL estimado en 79 documentos con la fórmula del analista.
+
+
+## Brechas y valles de la muerte
+
+V1 66; V3 8; V2 7; V4 3; sin valle 17. Brecha dominante: tecnología e integración por delante del negocio y de la evidencia en operación real.
+
+
+## Síntesis dialéctica del lote
+
+*Tesis.* Los gemelos digitales, el IoT y la inteligencia en el borde pueden acelerar la detección, la evaluación de daño y la coordinación tras un sismo, y mejorar la resiliencia organizacional. *Antítesis.* La evidencia es de laboratorio, simulación, encuesta transversal o caso único; no mide tiempo de reanudación, ingresos ni empleo de empresas; y la evidencia de recuperación empresarial está desconectada de la tecnológica. *Síntesis.* La tecnología es una condición necesaria para reducir las demoras de detección y evaluación, pero su efecto sobre la recuperación productiva es una hipótesis cuya prueba exige integrar los modelos de recuperación con los datos de los gemelos y evaluar la transferencia con empresas.
+
+
+## KPIs agregados
+
+Se extrajeron 959 indicadores. Cifras de referencia del lote: 101 documentos; 362 relaciones tipificadas; 472,600 palabras en fichas; k-means con 101 documentos k = 2 (silueta 0.23) y sin SciELO k = 3 (silueta 0.06); 2962 citas Scopus en 86 documentos con dato.
+
+
+## Triangulación
+
+- T01: El procesamiento en el nodo o en el borde reduce la latencia de alerta y actualización frente a arquitecturas centralizadas — **Triangulado con reservas** (6 documentos, 4 grupos independientes).
+- T02: La interoperabilidad y la calidad de datos son la barrera técnica principal de los gemelos digitales y del IoT en desastres — **Triangulado** (10 documentos, 10 grupos independientes).
+- T03: Los gemelos digitales y el IoT mejoran la resiliencia organizacional y la eficiencia operativa — **En tensión** (6 documentos, 6 grupos independientes).
+- T04: El tiempo de reparación del edificio no basta como medida de recuperación empresarial; deben modelarse demoras e inactividad por tipo — **Triangulado con reservas** (5 documentos, 4 grupos independientes).
+- T05: Incluir pérdidas indirectas y recuperación cambia la decisión de refuerzo sísmico — **Parcial** (3 documentos, 3 grupos independientes).
+- T06: Los gemelos digitales urbanos estiman daño y necesidades de respuesta en escenarios sísmicos — **Parcial** (6 documentos, 5 grupos independientes).
+- T07: Las revisiones de gemelos digitales concluyen potencial alto con implementación incipiente — **Triangulado** (7 documentos, 7 grupos independientes).
+- T08: Los efectos digitales sobre la resiliencia de cadenas de suministro son mayores en preparación y respuesta que en recuperación — **Parcial** (3 documentos, 3 grupos independientes).
+- T09: Los costos bajos del monitoreo estructural con IoT se demuestran solo en laboratorio o en estructuras individuales — **Triangulado** (5 documentos, 4 grupos independientes).
+- T10: El orden de desempeño entre algoritmos de aprendizaje automático para alerta sísmica no es transferible entre estudios — **En tensión** (3 documentos, 3 grupos independientes).
+- T11: UAV e IoT permiten restablecer comunicaciones y acelerar la evaluación de daños — **Parcial** (5 documentos, 5 grupos independientes).
+- T12: La adopción del IoT y del gemelo digital depende de liderazgo, habilidades y aceptación de las partes interesadas — **Triangulado con reservas** (6 documentos, 6 grupos independientes).
+- T13: La prefabricación y la robótica contribuyen a la recuperación posdesastre — **Fuente única** (1 documentos, 1 grupos independientes).
+- T14: La transferencia tecnológica como mecanismo tiene evidencia empírica en recuperación posterremoto — **Sin evidencia primaria** (2 documentos, 2 grupos independientes).
+
+
+## Patrones y tensiones
+
+- P01 (patrón): Madurez tecnológica baja y homogénea: la mediana de TRL es 4 en 84 documentos técnicos con TRL asignado (55 con TRL ≤ 4, 65 %); la mediana de BRL es 2 y la de IRL es 3.
+- P02 (patrón): BRL ≤ 2 en 62 de 83 documentos con BRL asignado (75 %): casi ningún estudio presenta costos, modelos de negocio o análisis de adopción empresarial.
+- P09 (tensión): Resiliencia organizacional como mediador lineal (Al Doghan y Absamatov, 2025) frente a propiedad emergente (Mahmoud et al., 2026).
+- P10 (tensión): Orden de desempeño de algoritmos de alerta sísmica contradictorio entre estudios (XGBoost mejor en Abdalzaher et al., 2024b; red neuronal mejor que XGBoost en Y et al., 2024).
+- P13 (anomalía): La síntesis de Scopus AI (Elsevier, 2026) incluye como referencias a los 86 documentos las claves D001–D086 del Apéndice A (86 de 93 referencias); el corpus Scopus del lote coincide con su lista.
+- P14 (anomalía): Scopus AI (Elsevier, 2026) declara alcance 2020-2024 pero 49 de 93 referencias son de 2025-2026 y hay referencias de 2013 y 2015.
+- P16 (patrón): Ausencia explícita de métricas de recuperación o continuidad empresarial en 32 de 87 documentos técnicos (el vacío VAR lo declara de forma explícita).
+- P19 (tensión): Mayor robustez argumentativa en los documentos ajenos al tema (media 3,84 de 10 en el bloque SciELO frente a 3,19 en núcleo y 3,13 en adyacentes).
+
+
+## Competidores y actores
+
+Los competidores registrados (csv/competidores.csv) son enfoques alternativos y grupos de investigación citados en los documentos: sistemas centralizados frente a descentralizados de alerta, métodos clásicos frente a aprendizaje automático, ecuaciones de refuerzo y herramientas comerciales, y los dos asistentes de IA (Scopus AI y Web of Science Research Assistant). No hay competidores de mercado empresarial documentados con cuota o precio.
+
+
+## Variables econométricas y vacíos
+
+Los estudios con modelos estructurales (Bhatti y Otamurodov, 2025; Al Doghan y Absamatov, 2025; Aziz et al., 2026; Chalipour et al., 2026) usan percepciones como variable dependiente; los demás reportan resultados técnicos. Vacíos más frecuentes: territorial (sin América Latina en 33 de 87 documentos técnicos), de variables (sin métricas de recuperación en al menos 32) y causal (sin identificación). Total de vacíos registrados: 694.
+
+
+## ML/NLP y sensibilidad
+
+TF-IDF (unigramas y bigramas), k-means, Ward, DBSCAN, LDA (6 temas), PCA, t-SNE, redes de co-palabras y de coautoría. Con SciELO la estructura se reduce a dos bloques (idioma y dominio); sin SciELO, la silueta es 0.06 (difusa). ARI entre particiones con y sin SciELO a k = 3: 0.58. Los resultados descriptivos de madurez no dependen del bloque SciELO.
+
+
+## Riesgos y premortem
+
+Riesgos principales: usar proxies técnicos como beneficio empresarial; usar Scopus AI (Elsevier, 2026) o Web of Science Research Assistant (Clarivate, 2026) como evidencia; extrapolar evidencia organizacional no sísmica; sobreponderar la cantidad de revisiones; ignorar la dependencia de pocos grupos de autores. Contingencia: pilotos con métricas de recuperación, ponderación por grupo de autoría y verificación contra las fuentes.
+
+
+## Recomendaciones, valor estratégico y próximos pasos
+
+1. Conectar los parámetros de los gemelos digitales con los componentes de demora de los modelos de recuperación (proposición P-E1).
+2. Diseñar un estudio empírico de transferencia tecnológica con empresas afectadas por sismos, con capacidad de absorción como moderador (P-E5).
+3. Usar Scopus AI (Elsevier, 2026) y Web of Science Research Assistant (Clarivate, 2026) solo como mapas de búsqueda y registrar una búsqueda propia con doble revisión.
+4. Ponderar la evidencia por grupo de autoría y exigir intervalos de confianza y validación externa.
+5. Ampliar el módulo de patentes: 11 patentes analizadas con OCR de sus 4.048 páginas (`patentes/`); faltan estado legal, lectura frase por frase de los pasajes críticos y búsqueda sistemática.
+
+**Valor estratégico.** Fija qué evidencia puede sustentar decisiones de inversión y cuál es una hipótesis, y señala el vacío central del corpus.
+
+**¿Qué se me escapa?** Estado legal y lectura frase por frase de las 11 patentes, búsqueda sistemática de patentes, registros de Scopus sin PDF y siete referencias de Scopus AI (Elsevier, 2026) fuera del lote, literatura regional en español, datos empresariales de cierre e ingresos, y una verificación entre revisores de los juicios de madurez.
+
+**Documentos núcleo de mayor valor estratégico:** Cremen et al. (2020) (8/10); Kourehpaz et al. (2025) (8/10); Liu et al. (2026) (8/10); Bucaioni et al. (2026) (7/10); Brous et al. (2020) (7/10); Lagap y Ghaffarian (2024) (7/10); Korkmaz et al. (2024) (7/10); Gattulli et al. (2022) (7/10).
+
+**Prioridades de brecha:** Web of Science Research Assistant (Clarivate, 2026): Falta de evidencia sobre empresas y transferencia tecnológica en recuperación posterior a  (prioridad 9); Zrelli y Rejeb (2024): Literatura de IoT en cadena de suministro orientada a interrupciones, desastres naturales  (prioridad 9); Hassan et al. (2026): Repeticiones, sensibilidad a daño incipiente, falsos positivos y efectos ambientales (prioridad 9); Román-Salinas et al. (2026): Resiliencia operativa del IoT industrial ante interrupciones y dimensión social con datos (prioridad 9); Mahmoud et al. (2026): Pruebas longitudinales y cuantitativas de configuraciones y revisión sin umbral de citació (prioridad 9); Mahmoud et al. (2026): Resiliencia de pymes durante y después de desastres físicos, con medición de la recuperaci (prioridad 9); Shoomal et al. (2024): Evidencia empírica de efecto del IoT sobre resiliencia y recuperación ante desastres natur (prioridad 9); Luleci et al. (2024): Interrupción empresarial, cadenas de suministro y recuperación económica en la plataforma (prioridad 9)
+
+Archivos: informe/informe_lote.md, informe/analisis_relacional.md, informe/bibliografia_APA.md, informe/tabla_control.md, informe/checklist_validacion.md, informe/diagramas_mermaid.md, csv/, figuras/, fichas/.
+
+
+---
+
+
+# Apéndice G
+
+
+# Lista de verificación del protocolo
+
+La lista siguiente contrasta cada requisito del protocolo SYNAPSE V19.0 con el producto que lo cumple y con su estado, incluidos los límites declarados.
+
+**Tabla 8**
+
+*Tabla: Resumen*
+
+| # | Requisito | Estado | Evidencia |
+|---|---|---|---|
+| 1 | 101 documentos únicos analizados | Cumplido | `fichas/` contiene 101 fichas; `docs/` contiene 101 YAML |
+| 2 | Ficha de cuatro capas por documento, extensión mínima (800 / 1 500 palabras) | Cumplido | 101 de 101 fichas cumplen (`csv/fichas_bibliograficas.csv`) |
+| 3 | Capa 3 ≥ 40 %, ≥ 3 zonas grises y ≥ 2 ideas propositivas por ficha | Cumplido | validación automática `validate_doc.py` sobre los 101 YAML |
+| 4 | Dialéctica, socrática, KPIs, madurez multinivel con cita, brechas y valles, falacias y causalidad, competidores, variables econométricas, vacíos | Cumplido | secciones B.1 a B.8 de cada ficha |
+| 5 | 19 archivos CSV | Cumplido | 19 CSV en `csv/` (inventario, kpis, madurez_multinivel, brechas_madurez, valles_muerte, dialectica, falacias, gaps_oportunidades, competidores, figuras, sintesis_interpretativa, triangulacion, variables_econometricas, vacios_detectados, protopreguntas, patrones_tensiones, bibliografia, fichas_bibliograficas, analisis_relacional) |
+| 6 | Informe del lote > 5 000 palabras | Cumplido | `informe/informe_lote.md` (5,442 palabras) |
+| 7 | FICHA_RESUMEN_LOTE con 16 secciones | Cumplido | `informe/FICHA_RESUMEN_LOTE.md` |
+| 8 | Análisis relacional > 2 000 palabras, ≥ 3 proposiciones emergentes y puntaje | Cumplido | `informe/analisis_relacional.md` (4,974 palabras; 5 proposiciones; S = 7.8) |
+| 9 | Aprendizaje automático y PLN reales, con sensibilidad con y sin bloque SciELO | Cumplido | `_scripts/05_ml_nlp.py`, `csv/ml/`, `ml_resumen.json` |
+| 10 | Visualizaciones (matriz de madurez, radar, mapa de calor de brechas, diagrama de valles, centralidad-densidad, Pareto, Mermaid) | Cumplido | 13 PNG en `figuras/` y `informe/diagramas_mermaid.md` |
+| 11 | Bibliografía APA 7 | Cumplido | `informe/bibliografia_APA.md` (101 entradas) |
+| 12 | Tabla de control | Cumplido | `informe/tabla_control.md` |
+| 13 | Distinción entre cálculo y juicio | Cumplido | sección 2.4 del informe |
+| 14 | Patentes | Cumplido con límites | 11 patentes de `Patentes /` en un módulo separado (`patentes/`, ver `patentes/informe_patentes.md`); OCR del texto completo (4.048 páginas); análisis por búsqueda de términos y lectura de pasajes; estado legal sin verificar |
+| 15 | Anomalías de datos registradas | Cumplido | `csv/patrones_tensiones.csv` (P06, P13, P14) y notas de cada ficha |
+
+
+---
+
+
+# Apéndice H
+
+
+# Diagramas de proceso y de relaciones
+
+Los diagramas se generaron con Mermaid a partir de los datos del lote y se incluyen en formato vectorial (SVG) con texto editable.
+
+La Figura 14 presenta el flujo de proceso desde los documentos hasta el informe del lote.
+
+**Figura 14**
+
+*Flujo de proceso del análisis del lote L01*
+
+![Flujo de proceso del análisis del lote L01](../figuras/fig_mermaid_flujo_proceso.svg)
+
+*Nota.* Elaboración propia (informe/diagramas_mermaid.md).
+
+La Figura 15 presenta las relaciones tipificadas entre los documentos núcleo que tienen al menos un vínculo.
+
+**Figura 15**
+
+*Relaciones tipificadas entre documentos núcleo*
+
+![Relaciones tipificadas entre documentos núcleo](../figuras/fig_mermaid_relaciones_nucleo.svg)
+
+*Nota.* Solo se muestran los documentos núcleo con vínculos; los demás carecen de relaciones con otro núcleo. Elaboración propia (informe/diagramas_mermaid.md).
+
+La Figura 16 presenta la estructura del valle de la muerte dominante (V1) y su salida propuesta.
+
+**Figura 16**
+
+*Estructura del valle de la muerte dominante*
+
+![Estructura del valle de la muerte dominante](../figuras/fig_mermaid_valle_muerte.svg)
+
+*Nota.* Medianas del lote de 87 documentos técnicos. Elaboración propia (informe/diagramas_mermaid.md).
+
+
+---
+
+
+# Apéndice I
+
+
+# Índice de los archivos de datos y su ubicación en el documento
+
+Los archivos de datos del repositorio (carpeta csv) contienen la información tabular completa del análisis. La tabla indica el contenido de cada archivo, su número de filas y el lugar del documento en que se reproduce. Los datos por documento se reproducen dentro de cada ficha (Apéndice J), de modo que no se duplican como tablas independientes.
+
+**Tabla 9**
+
+*Archivos de datos del repositorio: Contenido, filas y ubicación en el documento*
+
+| Archivo | Contenido | Filas | Dónde se reproduce |
+|---|---|---|---|
+| inventario.csv | Metadatos de los 101 documentos (autores, año, fuente, tipo, relevancia) | 101 | Apéndice A; Capa 1 de cada ficha |
+| kpis.csv | Indicadores extraídos de cada documento | 959 | Sección B.3 de cada ficha |
+| madurez_multinivel.csv | TRL, MRL, BRL, IRL, DRL y SRL con evidencia y justificación | 101 | Apéndice D; sección B.4 de cada ficha; Figuras 2 y 3 |
+| brechas_madurez.csv | Brechas TRL−BRL, TRL−IRL y BRL−DRL | 101 | Sección B.4; Figura 5 |
+| valles_muerte.csv | Valle de la muerte, severidad y estrategia de salida | 101 | Sección B.4; Figura 4 |
+| dialectica.csv | Tesis, antítesis, síntesis y robustez | 101 | Capa 3 y sección B.1 de cada ficha |
+| falacias.csv | Falacias detectadas con evidencia e impacto | 300 | Sección B.5 de cada ficha |
+| gaps_oportunidades.csv | Brechas de conocimiento y oportunidades con prioridad | 391 | Sección B.6 de cada ficha |
+| competidores.csv | Competidores, actores y alternativas tecnológicas | 233 | Sección B.8 de cada ficha |
+| figuras.csv | Figuras y tablas clave de cada documento | 523 | Sección B.7 de cada ficha |
+| sintesis_interpretativa.csv | Síntesis, zonas grises, ideas propositivas y relaciones poco exploradas | 101 | Capa 3 de cada ficha |
+| variables_econometricas.csv | Variables dependientes, explicativas, controles, datos y método | 101 | Sección B.9 de cada ficha |
+| vacios_detectados.csv | Vacíos por tipo (TERR, POBL, TEMP, MET, VAR, TEOR, CAUS) | 694 | Sección B.9 de cada ficha |
+| protopreguntas.csv | Preguntas del documento, hipótesis rivales y contraejemplos | 707 | Sección B.2 y Capa 3 de cada ficha |
+| bibliografia.csv | Referencias APA 7 de los 101 documentos | 101 | Referencias |
+| fichas_bibliograficas.csv | Control de extensión y completitud de las fichas | 101 | Solo archivo de datos |
+| analisis_relacional.csv | Relaciones tipificadas entre documentos con justificación | 362 | Apéndice E; Resultados (análisis relacional); Figura 11 |
+| triangulacion.csv | Triangulación de afirmaciones transversales | 14 | Apéndice B |
+| patrones_tensiones.csv | Patrones, tensiones y anomalías | 19 | Apéndice C |
+| ml/ (8 archivos) | Resultados de aprendizaje automático: grupos, temas LDA, redes, bibliometría y sensibilidad | — | Resultados (aprendizaje automático); Figuras 6 a 10 |
+| patentes/patentes_bibliografia.csv | Módulo de patentes: bibliografia | 11 | Apéndice K |
+| patentes/patentes_competidores.csv | Módulo de patentes: competidores | 14 | Apéndice K |
+| patentes/patentes_inventario.csv | Módulo de patentes: inventario | 11 | Apéndice K |
+| patentes/patentes_madurez.csv | Módulo de patentes: madurez | 11 | Apéndice K |
+| patentes/patentes_relaciones.csv | Módulo de patentes: relaciones | 33 | Apéndice K |
+| patentes/patentes_terminos.csv | Módulo de patentes: terminos | 11 | Apéndice K |
+| patentes/patentes_vacios.csv | Módulo de patentes: vacios | 77 | Apéndice K |
+
+
+---
+
+
+# Apéndice J
 
 
 # Fichas bibliográficas analíticas de los 101 documentos
@@ -23198,7 +23676,7 @@ Corpus de origen: **SINTESIS_BUSCADOR** · Archivo: Wos_Tejido.pdf · 2 páginas
 ---
 
 
-# Apéndice G
+# Apéndice K
 
 
 # Módulo de patentes: informe y fichas
@@ -23215,7 +23693,7 @@ Limitaciones de método. El análisis no equivale a una lectura frase por frase 
 
 ## Inventario
 
-**Tabla 8**
+**Tabla 10**
 
 *Tabla: Resumen*
 
@@ -23243,7 +23721,7 @@ Diez de las once patentes (10) pertenecen a Strong Force VCN Portfolio 2019, LLC
 
 La tabla indica si las reivindicaciones independientes y dependientes transcritas en las fichas mencionan cada tecnología.
 
-**Tabla 9**
+**Tabla 11**
 
 *Tabla: Resumen*
 
@@ -23266,7 +23744,7 @@ El gemelo digital aparece en las reivindicaciones de 11 de 11 patentes y los sen
 
 ## Términos del eje del corpus en el texto completo
 
-**Tabla 10**
+**Tabla 12**
 
 *Tabla: Resumen*
 
@@ -23286,7 +23764,7 @@ El gemelo digital aparece en las reivindicaciones de 11 de 11 patentes y los sen
 
 El gemelo digital es el término más frecuente (29621 apariciones en 4,048 páginas). Las menciones de sismo suman 21, las de desastre 63, las de interrupción 153, las de resiliencia 59 y las de recuperación 3. Las frecuencias son límites inferiores por la lectura óptica. Los diez documentos de Strong Force comparten una descripción de plataforma, de modo que sus frecuencias no son observaciones independientes. La tabla siguiente cuenta las secciones de la descripción que interesan al eje del corpus: las pruebas de estrés de resiliencia de la red con gemelos digitales (VCIT), la gestión de incidentes (VCIM), las pruebas de estrés en general, las menciones de eventos o desastres naturales como factores de oferta o incidentes, y las de riesgo o interrupción de la cadena de suministro.
 
-**Tabla 11**
+**Tabla 13**
 
 *Tabla: Resumen*
 
@@ -23344,7 +23822,7 @@ Primera controversia: valor probatorio. Una patente concedida acredita novedad y
 
 Premortem. Causas probables de que la incorporación de las patentes lleve a conclusiones erróneas: (1) tratar la titularidad comercial como evidencia de uso; (2) extrapolar a sismos a partir de menciones aisladas; (3) contar como independientes documentos de una misma familia; (4) concluir ausencia de un tema a partir de una búsqueda de términos sujeta a errores de OCR; (5) asumir estado legal vigente. Contingencias: mantener las patentes como módulo separado, registrar el método de lectura, ponderar por familia y verificar el estado legal en una base oficial antes de cualquier uso jurídico o comercial.
 
-**Tabla 12**
+**Tabla 14**
 
 *Tabla: Resumen*
 

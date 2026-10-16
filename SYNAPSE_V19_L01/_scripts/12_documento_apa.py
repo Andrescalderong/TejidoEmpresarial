@@ -162,7 +162,7 @@ FUT_LIST=[
 "**Síntesis con protocolo.** Búsqueda propia con cadena registrada, doble revisión y evaluación de calidad, que incluya literatura sin etiqueta de Industria 4.0 y fuentes regionales en español (proposiciones P-E2 y P-E3).",
 "**Ponderación de la evidencia por grupo de autoría y réplica independiente** de los estudios de alerta sísmica de bajo costo y de monitoreo estructural con IoT.",
 "**Guías de reporte para estudios tecnológicos:** intervalos de confianza, validación externa, repetición y datos disponibles (proposición P-E4).",
-"**Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice G).",
+"**Módulo de patentes.** Verificar el estado legal de las 11 patentes aportadas, revisar frase por frase sus pasajes críticos y realizar una búsqueda sistemática de patentes de gemelos digitales, IoT y alerta sísmica con clasificación y doble revisión (Apéndice K).",
 "**Cobertura regional.** Estudios y datos de regiones sísmicas de América Latina, incluidos seguros, créditos de reconstrucción y política pública.",
 ]
 # ---------- composición ----------
@@ -204,7 +204,7 @@ H(3,"Puntaje de integración relacional"); emit(sec(REL,"5."))
 PIF=f"{L}/patentes/informe_patentes.md"; PI=open(PIF).read().split("\n") if os.path.exists(PIF) else []
 if PI:
     H(2,"Módulo de patentes")
-    P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice G; aquí se resumen la relevancia y la madurez.")
+    P("Se analizó un módulo separado de 11 patentes (10 de Strong Force VCN Portfolio 2019 y 1 de International Business Machines) aportadas en la carpeta Patentes del repositorio, con reconocimiento óptico de sus 4.048 páginas. El método, las 11 fichas y el informe completo figuran en el Apéndice K; aquí se resumen la relevancia y la madurez.")
     emit(sub(PI,"3.3")); emit(sub(PI,"3.4"))
     FIG("fig_patentes_terminos.png","Frecuencia de términos del eje del corpus en las patentes","la frecuencia de términos del eje del corpus en el texto completo de cada patente","*Nota.* Apariciones por 1.000 palabras en el texto completo reconocido por OCR (4.048 páginas; frecuencias como límites inferiores). Los diez documentos de Strong Force comparten una descripción de plataforma. Elaboración propia (`patentes/csv/patentes_terminos.csv`).")
     FIG("fig_patentes_relaciones.png","Relaciones entre las patentes y los documentos del corpus","las relaciones tipificadas entre las patentes y los documentos del corpus","*Nota.* El color de la línea indica el tipo de relación; los arcos de la izquierda unen patentes de una misma familia o con funciones afines. Elaboración propia (`patentes/csv/patentes_relaciones.csv`).")
@@ -299,13 +299,50 @@ def ficha_blocks(path):
         if ln.strip()=="---": fl(); i+=1; continue
         para.append(ln.replace("`","")); i+=1
     fl()
+# ---------- apéndices F a I: ficha resumen, verificación, diagramas e índice de datos ----------
+def md_sections(lines):
+    out=[]
+    for ln in lines:
+        if ln.startswith("# ") or (ln.startswith("`") and ln.endswith("`")) or ln.strip()=="---": continue
+        out.append("### "+ln[3:] if ln.startswith("## ") else ln)
+    return out
+apx("F","Ficha resumen del lote (16 secciones)")
+P("Se reproduce la ficha resumen del lote con sus 16 secciones: identificación, alcance, inventario, calidad de extracción, relevancia, madurez, brechas, síntesis dialéctica, indicadores, triangulación, patrones, competidores, variables, aprendizaje automático, riesgos y recomendaciones.")
+emit(md_sections(open(f"{I}/FICHA_RESUMEN_LOTE.md").read().split("\n")))
+apx("G","Lista de verificación del protocolo")
+P("La lista siguiente contrasta cada requisito del protocolo SYNAPSE V19.0 con el producto que lo cumple y con su estado, incluidos los límites declarados.")
+emit(md_sections(open(f"{I}/checklist_validacion.md").read().split("\n")))
+apx("H","Diagramas de proceso y de relaciones")
+P("Los diagramas se generaron con Mermaid a partir de los datos del lote y se incluyen en formato vectorial (SVG) con texto editable.")
+FIG("fig_mermaid_flujo_proceso.png","Flujo de proceso del análisis del lote L01","el flujo de proceso desde los documentos hasta el informe del lote","*Nota.* Elaboración propia (`informe/diagramas_mermaid.md`).")
+FIG("fig_mermaid_relaciones_nucleo.png","Relaciones tipificadas entre documentos núcleo","las relaciones tipificadas entre los documentos núcleo que tienen al menos un vínculo","*Nota.* Solo se muestran los documentos núcleo con vínculos; los demás carecen de relaciones con otro núcleo. Elaboración propia (`informe/diagramas_mermaid.md`).")
+FIG("fig_mermaid_valle_muerte.png","Estructura del valle de la muerte dominante","la estructura del valle de la muerte dominante (V1) y su salida propuesta","*Nota.* Medianas del lote de 87 documentos técnicos. Elaboración propia (`informe/diagramas_mermaid.md`).")
+apx("I","Índice de los archivos de datos y su ubicación en el documento")
+P("Los archivos de datos del repositorio (carpeta csv) contienen la información tabular completa del análisis. La tabla indica el contenido de cada archivo, su número de filas y el lugar del documento en que se reproduce. Los datos por documento se reproducen dentro de cada ficha (Apéndice J), de modo que no se duplican como tablas independientes.")
+DESC=[("inventario","Metadatos de los 101 documentos (autores, año, fuente, tipo, relevancia)","Apéndice A; Capa 1 de cada ficha"),("kpis","Indicadores extraídos de cada documento","Sección B.3 de cada ficha"),
+("madurez_multinivel","TRL, MRL, BRL, IRL, DRL y SRL con evidencia y justificación","Apéndice D; sección B.4 de cada ficha; Figuras 2 y 3"),("brechas_madurez","Brechas TRL−BRL, TRL−IRL y BRL−DRL","Sección B.4; Figura 5"),
+("valles_muerte","Valle de la muerte, severidad y estrategia de salida","Sección B.4; Figura 4"),("dialectica","Tesis, antítesis, síntesis y robustez","Capa 3 y sección B.1 de cada ficha"),
+("falacias","Falacias detectadas con evidencia e impacto","Sección B.5 de cada ficha"),("gaps_oportunidades","Brechas de conocimiento y oportunidades con prioridad","Sección B.6 de cada ficha"),
+("competidores","Competidores, actores y alternativas tecnológicas","Sección B.8 de cada ficha"),("figuras","Figuras y tablas clave de cada documento","Sección B.7 de cada ficha"),
+("sintesis_interpretativa","Síntesis, zonas grises, ideas propositivas y relaciones poco exploradas","Capa 3 de cada ficha"),("variables_econometricas","Variables dependientes, explicativas, controles, datos y método","Sección B.9 de cada ficha"),
+("vacios_detectados","Vacíos por tipo (TERR, POBL, TEMP, MET, VAR, TEOR, CAUS)","Sección B.9 de cada ficha"),("protopreguntas","Preguntas del documento, hipótesis rivales y contraejemplos","Sección B.2 y Capa 3 de cada ficha"),
+("bibliografia","Referencias APA 7 de los 101 documentos","Referencias"),("fichas_bibliograficas","Control de extensión y completitud de las fichas","Solo archivo de datos"),
+("analisis_relacional","Relaciones tipificadas entre documentos con justificación","Apéndice E; Resultados (análisis relacional); Figura 11"),("triangulacion","Triangulación de afirmaciones transversales","Apéndice B"),("patrones_tensiones","Patrones, tensiones y anomalías","Apéndice C")]
+rowsI=[["Archivo","Contenido","Filas","Dónde se reproduce"]]
+import glob as _gg
+for n,d_,w_ in DESC:
+    f_=f"{C}/{n}.csv"; rowsI.append([n+".csv",d_,str(len(pd.read_csv(f_))) if os.path.exists(f_) else "—",w_])
+mlf=sorted(_gg.glob(f"{C}/ml/*.csv")); rowsI.append(["ml/ (%d archivos)"%len(mlf),"Resultados de aprendizaje automático: grupos, temas LDA, redes, bibliometría y sensibilidad","—","Resultados (aprendizaje automático); Figuras 6 a 10"])
+for f_ in sorted(_gg.glob(f"{L}/patentes/csv/patentes_*.csv")):
+    rowsI.append(["patentes/"+os.path.basename(f_),"Módulo de patentes: "+os.path.basename(f_)[9:-4].replace("_"," "),str(len(pd.read_csv(f_))),"Apéndice K"])
+blocks.append(dict(t="table",rows=rowsI,w=[26,40,7,27],small=True,cap=("Archivos de datos del repositorio","Contenido, filas y ubicación en el documento")))
 import glob as _g
-apx("F","Fichas bibliográficas analíticas de los 101 documentos")
+apx("J","Fichas bibliográficas analíticas de los 101 documentos")
 P("Se reproducen las 101 fichas de cuatro capas con el análisis SYNAPSE de cada documento, en el orden de las claves D001 a D101. Las fichas conservan su formato de trabajo (interlineado sencillo y tablas de indicadores) y su referencia APA 7 en la Capa 1.")
 for f in sorted(_g.glob(f"{L}/fichas/D*.md")): ficha_blocks(f)
 PAT=sorted(_g.glob(f"{L}/patentes/fichas/P*.md"))
 if PAT:
-    apx("G","Módulo de patentes: informe y fichas")
+    apx("K","Módulo de patentes: informe y fichas")
     if PI:
         lines=[]; skip=False
         for ln in PI[1:]:

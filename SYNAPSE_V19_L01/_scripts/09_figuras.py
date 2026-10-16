@@ -87,10 +87,14 @@ cent=pd.DataFrame([dict(doc_id=n,grado=Gr.degree(n),intermediacion=round(b,4)) f
 cent.to_csv(f"{L}/csv/ml/red_relaciones_centralidad.csv",index=False,encoding="utf-8-sig")
 # 6) Mermaid
 nucleo=[i for i in sorted(A) if A[i]["relevancia"]=="Núcleo"]
+import textwrap
 lines=["```mermaid","graph LR"]
-for i in nucleo: lines.append(f'  {i}["{i}: {inv[i]["meta"].get("titulo","")[:44].replace(chr(34),"")}"]')
 Es=E[E.origen.isin(nucleo)&E.destino.isin(nucleo)&(E.origen<E.destino)]
 arrow={"CONFIRMA":"-->|confirma|","CONTRADICE":"-.->|contradice|","COMPLEMENTA":"---|complementa|","EXTIENDE":"==>|extiende|","DEPENDE_DE":"-->|depende de|"}
+for i in nucleo:
+    if i in set(Es.origen)|set(Es.destino):
+        t=inv[i]["meta"].get("titulo","").replace(chr(34),"").replace("(","").replace(")","")
+        t=textwrap.shorten(t,70,placeholder="…"); lines.append(f'  {i}["{i}: '+"\\n".join(textwrap.wrap(t,30))+'"]')
 for r in Es.itertuples(): lines.append(f"  {r.origen} {arrow[r.tipo]} {r.destino}")
 lines.append("```")
 flow=["```mermaid","flowchart TD","  A[\"101 documentos únicos\\n(103 PDF; 2 duplicados MD5)\"] --> B[\"Texto limpio\\n(pdftotext)\"]","  B --> C[\"Lectura completa y YAML por documento\\n(validación de mínimos)\"]","  C --> D[\"101 fichas de 4 capas\"]","  B --> E[\"TF-IDF, k-means, jerárquico,\\nDBSCAN, LDA, PCA, t-SNE\"]","  C --> F[\"19 CSV y matrices\"]","  E --> G[\"Sensibilidad con y sin bloque SciELO\"]","  F --> H[\"Triangulación, patrones y tensiones\"]","  D --> I[\"Relaciones tipificadas\\n(citación verificada y juicio)\"]","  I --> J[\"Análisis relacional y proposiciones emergentes\"]","  G --> K[\"Informe del lote y FICHA_RESUMEN_LOTE\"]","  H --> K","  J --> K","```"]
